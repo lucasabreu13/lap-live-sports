@@ -1,4 +1,4 @@
-const CACHE_NAME = "lap-cache-20260707-ux2";
+const CACHE_NAME = "lap-cache-20260707-charset4";
 
 self.addEventListener("install", (event) => {
   self.skipWaiting();

@@ -275,27 +275,87 @@ function decodeHtmlEntities(value: string) {
   });
 }
 
-export function repairMojibake(value: string) {
-  let normalized = value
-    .replace(/â€™/g, "’")
-    .replace(/â€˜/g, "‘")
-    .replace(/â€œ/g, "“")
-    .replace(/â€/g, "”")
-    .replace(/â€¦/g, "…")
-    .replace(/â€“/g, "–")
-    .replace(/â€”/g, "—")
-    .replace(/Â\s/g, " ");
+const CP1252_BYTE_BY_CHAR: Record<string, number> = {
+  "\u20AC": 0x80, "\u201A": 0x82, "\u0192": 0x83, "\u201E": 0x84,
+  "\u2026": 0x85, "\u2020": 0x86, "\u2021": 0x87, "\u02C6": 0x88,
+  "\u2030": 0x89, "\u0160": 0x8a, "\u2039": 0x8b, "\u0152": 0x8c,
+  "\u017D": 0x8e, "\u2018": 0x91, "\u2019": 0x92, "\u201C": 0x93,
+  "\u201D": 0x94, "\u2022": 0x95, "\u2013": 0x96, "\u2014": 0x97,
+  "\u02DC": 0x98, "\u2122": 0x99, "\u0161": 0x9a, "\u203A": 0x9b,
+  "\u0153": 0x9c, "\u017E": 0x9e, "\u0178": 0x9f,
+};
 
-  if (/(?:Ã.|Â.)/.test(normalized)) {
-    try {
-      const repaired = Buffer.from(normalized, "latin1").toString("utf8");
-      if (!repaired.includes("�")) normalized = repaired;
-    } catch {
-      // Mantém o texto se a recuperação de charset não for segura.
+const KNOWN_MOJIBAKE_REPAIRS: readonly (readonly [string, string])[] = [
+  ["\u00E2\u20AC\u00A2", "\u2022"],
+  ["\u00E2\u2020\u2019", "\u2192"],
+  ["\u00E2\u2020\u2018", "\u2191"],
+  ["\u00E2\u2020\u201C", "\u2193"],
+  ["\u00E2\u20AC\u0153", "\u201C"],
+  ["\u00E2\u20AC\u2122", "\u2019"],
+  ["\u00E2\u20AC\u201C", "\u2013"],
+  ["\u00E2\u20AC\u201D", "\u2014"],
+  ["\u00E2\u20AC\u00A6", "\u2026"],
+  ["\u00C2\u00A0", " "],
+  ["\u00C2\u00B7", "\u00B7"],
+  ["\u00C3\u2014", "\u00D7"],
+];
+
+function mojibakeScore(value: string) {
+  return (
+    value.match(
+      /(?:\u00C3|\u00C2|\u00E2(?:\u20AC|\u2020|\u02DC|\u0153|\u201C|\u201D|\u2122|\u00A6|\u00A2))/g,
+    ) ?? []
+  ).length;
+}
+
+function decodeCp1252AsUtf8(value: string) {
+  const bytes: number[] = [];
+
+  for (const character of value) {
+    const codePoint = character.codePointAt(0);
+
+    if (codePoint === undefined) return null;
+
+    if (codePoint <= 0x7f || (codePoint >= 0xa0 && codePoint <= 0xff)) {
+      bytes.push(codePoint);
+      continue;
     }
+
+    const byte = CP1252_BYTE_BY_CHAR[character];
+
+    if (byte === undefined) return null;
+
+    bytes.push(byte);
   }
 
-  return normalized.normalize("NFC");
+  const decoded = Buffer.from(bytes).toString("utf8");
+  return decoded.includes("\uFFFD") ? null : decoded;
+}
+
+export function repairMojibake(value: string) {
+  let normalized = value;
+
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    const before = normalized;
+
+    for (const [wrong, right] of KNOWN_MOJIBAKE_REPAIRS) {
+      normalized = normalized.replaceAll(wrong, right);
+    }
+
+    const scoreBefore = mojibakeScore(normalized);
+
+    if (scoreBefore > 0) {
+      const recovered = decodeCp1252AsUtf8(normalized);
+
+      if (recovered && mojibakeScore(recovered) < scoreBefore) {
+        normalized = recovered;
+      }
+    }
+
+    if (normalized === before) break;
+  }
+
+  return normalized.replace(/\u00A0/g, " ").normalize("NFC");
 }
 
 function decodeHtml(value: string) {
@@ -396,9 +456,9 @@ function editorialToNews(article: EditorialArticle): NewsItem | null {
     kind: "editorial",
     slug: article.slug,
     sportId: article.sportId as SportId,
-    title: article.title,
-    excerpt: article.summary,
-    source: article.sourceName || "LAP",
+    title: repairMojibake(article.title),
+    excerpt: repairMojibake(article.summary),
+    source: repairMojibake(article.sourceName || "LAP"),
     url: article.sourceUrl,
     publishedAt: article.publishedAt || article.createdAt,
     internalUrl: `/materias/${article.slug}`,

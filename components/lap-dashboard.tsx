@@ -27,7 +27,7 @@ function relativeTime(dateValue: string | null) {
 }
 
 function updatedTime(dateValue: string | null | undefined) {
-  if (!dateValue) return "â€”";
+  if (!dateValue) return "—";
   const date = new Date(dateValue);
   return new Intl.DateTimeFormat("pt-BR", { hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "America/Sao_Paulo" }).format(date);
 }
@@ -113,7 +113,7 @@ function NewsCard({ item, large = false }: { item: NewsItem; large?: boolean }) 
       <div className="news-card__topline"><span>{item.kind === "editorial" ? "LAP" : item.source}</span><span>{relativeTime(item.publishedAt)}</span></div>
       <h3>{item.title}</h3>
       {!large && <p className="news-card__excerpt">{item.excerpt}</p>}
-      <span className="news-card__more">Ler na LAP <span aria-hidden>â†’</span></span>
+      <span className="news-card__more">Ler na LAP <span aria-hidden>→</span></span>
     </Link>
   );
 }
@@ -168,7 +168,7 @@ function FeaturedGameCard({ score }: { score: ScoreItem | null }) {
       </article>
     );
   }
-  const scoreLine = score.eventKind === "race" ? score.status : `${score.home.score ?? "â€”"} x ${score.away.score ?? "â€”"}`;
+  const scoreLine = score.eventKind === "race" ? score.status : `${score.home.score ?? "—"} x ${score.away.score ?? "—"}`;
   const recent = [
     score.state === "in" ? score.status : null,
     score.state === "pre" ? `Começa ${dateAndTime(score.startTime)}` : null,
@@ -181,9 +181,9 @@ function FeaturedGameCard({ score }: { score: ScoreItem | null }) {
     <article className="live-feature">
       <div className="live-feature__meta"><span className={score.state === "in" ? "live-label" : "status-label"}>{statusText(score)}</span><span>{score.league}</span></div>
       <div className="live-feature__score">
-        <div><strong>{score.home.name}</strong><span>{score.home.score ?? "â€”"}</span></div>
+        <div><strong>{score.home.name}</strong><span>{score.home.score ?? "—"}</span></div>
         <em>{score.eventKind === "race" ? "GP" : "x"}</em>
-        <div><strong>{score.away.name}</strong><span>{score.away.score ?? "â€”"}</span></div>
+        <div><strong>{score.away.name}</strong><span>{score.away.score ?? "—"}</span></div>
       </div>
       <p>{scoreLine}</p>
       <ul>{recent.slice(0, 3).map((item) => <li key={item}>{item}</li>)}</ul>
@@ -250,10 +250,10 @@ function WorldCupSpotlight({ scores }: { scores: ScoreItem[] }) {
   const featured = ordered.live[0] || ordered.upcoming[0] || ordered.finished[0];
   return (
     <section className="world-cup world-cup--spotlight" aria-labelledby="copa-title">
-      <div className="world-cup__topbar"><div><p>Especial LAP</p><h2 id="copa-title">Copa do Mundo 2026</h2></div><Link className="world-cup__open" href="/copa-2026">Abrir central completa â†’</Link></div>
+      <div className="world-cup__topbar"><div><p>Especial LAP</p><h2 id="copa-title">Copa do Mundo 2026</h2></div><Link className="world-cup__open" href="/copa-2026">Abrir central completa →</Link></div>
       <div className="world-cup__intro">
         <div><span className="cup-kicker">Partidas, chaveamento e Seleção Brasileira</span><h3>A Copa em um único lugar, jogo a jogo.</h3><p>Acompanhe os confrontos ao vivo, todos os resultados e a agenda da fase decisiva.</p></div>
-        <div className="cup-next-match">{featured ? <><span>{featured.state === "in" ? "Em jogo" : featured.state === "post" ? "Ãšltimo resultado" : "Próximo destaque"}</span><strong>{featured.home.name} <em>Ã—</em> {featured.away.name}</strong><small>{featured.state === "post" ? featured.status : dateAndTime(featured.startTime)}</small></> : <><span>Agenda da Copa</span><strong>Jogos confirmados aparecerão aqui</strong><small>Central preparada para acompanhar o torneio.</small></>}</div>
+        <div className="cup-next-match">{featured ? <><span>{featured.state === "in" ? "Em jogo" : featured.state === "post" ? "Ãšltimo resultado" : "Próximo destaque"}</span><strong>{featured.home.name} <em>×</em> {featured.away.name}</strong><small>{featured.state === "post" ? featured.status : dateAndTime(featured.startTime)}</small></> : <><span>Agenda da Copa</span><strong>Jogos confirmados aparecerão aqui</strong><small>Central preparada para acompanhar o torneio.</small></>}</div>
       </div>
       <div className="world-cup__mini-grid">{ordered.live.slice(0, 1).map((score) => <EventCard key={score.id} score={score} cup />)}{ordered.upcoming.slice(0, 2).map((score) => <EventCard key={score.id} score={score} cup />)}{!ordered.live.length && !ordered.upcoming.length && ordered.finished.slice(0, 3).map((score) => <EventCard key={score.id} score={score} cup />)}</div>
     </section>
@@ -478,7 +478,7 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
   <span className="hero-copy__separator" aria-hidden="true" />
   <span>{data ? `atualizado \u00e0s ${updatedTime(data.generatedAt)}` : "atualizando dados"}</span>
 </div></div>
-          <div className="hero-featured">{featuredNews ? <NewsCard item={featuredNews} large /> : <div className="skeleton-card">Carregando a principal história da LAPâ€¦</div>}</div>
+          <div className="hero-featured">{featuredNews ? <NewsCard item={featuredNews} large /> : <div className="skeleton-card">Carregando a principal história da LAP…</div>}</div>
           <aside className="live-radar" aria-label="Radar ao vivo"><div className="live-radar__heading"><div><p>Radar</p><h2>Ao vivo</h2></div><span>{liveScores.length}</span></div><div className="live-radar__list">{liveScores.length ? liveScores.slice(0, 3).map((score) => <EventCard key={`${score.sportId}-${score.id}`} score={score} compact />) : <div className="empty-card">Quando a bola rolar, os jogos em andamento aparecem neste radar.</div>}</div></aside>
         </section>
 
@@ -486,7 +486,7 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
         <LiveOperationsCenter payload={data} events={liveCenterEvents} status={status} now={now} />
         <WorldCupSpotlight scores={data?.worldCup.events ?? []} />
         <section className="dashboard-stats" aria-label="Resumo da LAP"><div><strong>{data?.feeds.length ?? 0}</strong><span>modalidades acompanhadas</span></div><div><strong>{data?.football.competitions.length ?? 0}</strong><span>ligas de futebol mapeadas</span></div><div><strong>{allScores.length}</strong><span>eventos no radar</span></div><div><strong>{data?.refreshSeconds ?? 30}s</strong><span>atualização de segurança</span></div></section>
-        {status === "loading" && <section className="loading-state" aria-live="polite">Carregando o radar esportivo da LAPâ€¦</section>}
+        {status === "loading" && <section className="loading-state" aria-live="polite">Carregando o radar esportivo da LAP…</section>}
         {status === "error" && <section className="error-state" aria-live="assertive">A LAP ainda não conseguiu atualizar. Tente novamente em alguns instantes.</section>}
         <PrioritySportsRail feeds={feedsWithEditorial} />
         <FootballCoverageHub coverage={data?.football ?? { competitions: [], activeCompetitionIds: [], sourceStatus: "unavailable", sourceNote: null }} events={feedsWithEditorial.find((feed) => feed.id === "futebol")?.scores ?? []} />
