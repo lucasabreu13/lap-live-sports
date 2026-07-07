@@ -27,3 +27,52 @@
 @media(max-width:560px){.football-coverage,.priority-rail{padding:16px}.football-coverage__header,.priority-rail>header{align-items:flex-start;flex-direction:column}.league-follow-grid{grid-template-columns:1fr}.football-coverage__header h2,.priority-rail>header h2{font-size:28px}}
 @media(max-width:980px){.live-center__layout,.competition-feature,.competition-grid,.favorites-onboarding{grid-template-columns:1fr}.live-feature{min-height:auto}.live-center__header,.competition-hero{grid-template-columns:1fr}.competition-hero{display:grid}.competition-hero aside{align-items:flex-start}.favorites-onboarding__done{width:100%;min-height:44px}.competition-news{grid-template-columns:1fr 1fr}}
 @media(max-width:700px){.live-center__header{flex-direction:column}.live-center__freshness{text-align:left}.live-tabs{grid-template-columns:1fr}.live-group>div,.favorites-onboarding__choices,.competition-news{grid-template-columns:1fr}.live-feature__score{grid-template-columns:1fr;gap:4px}.live-feature__score div:last-child{text-align:left}.live-feature__score em{display:none}.competition-hero{padding:22px}.competition-feature h2{font-size:25px}}
+
+/* LAP_RESPONSIVE_PATCH_V1 */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+button,a{touch-action:manipulation}
+.hero-copy__separator{display:inline-flex;align-items:center;min-width:6px;color:#a6b5b7}
+.hero-copy__separator::before{content:"\00b7";font-weight:900}
+
+@media (max-width:900px){
+  .shell{width:calc(100% - 28px)}
+  .breaking-strip{display:none}
+  .masthead__inside{min-height:0;padding:10px 0;flex-wrap:wrap;gap:10px}
+  .brand__tag{display:none}
+  .masthead__tools{flex:0 0 100%;flex-wrap:wrap;justify-content:flex-start;gap:7px}
+  .site-search{order:-1;flex:0 0 100%;width:100%}
+  .site-search input{min-height:44px;font-size:16px}
+  .header-icon-button,.header-install,.refresh-button{min-height:44px}
+  .sport-nav a{padding:13px 10px}
+  .page{padding:16px 0 46px}
+  .hero-grid{grid-template-columns:1fr;grid-template-rows:none}
+  .hero-copy{grid-row:auto;min-height:0;padding:24px 20px}
+  .hero-copy h1{font-size:clamp(36px,11vw,54px)}
+  .hero-featured,.live-radar{min-height:auto}
+  .live-center__layout,.world-cup__intro,.sport-layout{grid-template-columns:1fr}
+  .live-center__header,.world-cup__topbar,.full-schedule__heading,.hub-section__heading,.feed-toolbar{align-items:flex-start;flex-direction:column;gap:10px}
+  .world-cup__mini-grid,.full-schedule__grid{grid-template-columns:1fr}
+  .dashboard-stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .dashboard-stats>div{min-height:78px;padding:15px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .dashboard-stats>div:nth-child(2n){border-right:0}
+  .dashboard-stats>div:nth-last-child(-n+2){border-bottom:0}
+  .feed-toolbar__note{max-width:none;text-align:left}
+}
+
+@media (max-width:560px){
+  .shell{width:calc(100% - 24px)}
+  .hero-copy{padding:22px 18px}
+  .hero-copy h1{font-size:38px}
+  .hero-copy__meta{gap:5px;font-size:11px}
+  .news-card--large{min-height:235px}
+  .live-tabs{display:flex;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}
+  .live-tabs button{flex:0 0 auto;min-height:42px}
+  .world-cup,.full-schedule{padding:16px}
+  .event-card__clickarea{padding:14px}
+}
+
+@media (hover:none) and (pointer:coarse){
+  .header-icon-button{width:44px;height:44px}
+  .favorite-button{width:40px;height:40px}
+  .event-card__favorite{right:1px;top:1px}
+}

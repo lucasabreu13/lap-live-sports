@@ -73,7 +73,12 @@ function InstallControl() {
     };
     window.addEventListener("beforeinstallprompt", listener);
     window.addEventListener("appinstalled", onInstalled);
-    if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js").catch(() => undefined);
+    if ("serviceWorker" in navigator) {
+      void navigator.serviceWorker
+        .register("/sw.js", { updateViaCache: "none" })
+        .then((registration) => void registration.update())
+        .catch(() => undefined);
+    }
     return () => {
       window.removeEventListener("beforeinstallprompt", listener);
       window.removeEventListener("appinstalled", onInstalled);

@@ -1,4 +1,4 @@
-const CACHE_NAME = "lap-cache-20260707-utf8";
+const CACHE_NAME = "lap-cache-20260707-ux2";
 
 self.addEventListener("install", (event) => {
   self.skipWaiting();
@@ -25,7 +25,14 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
 
   if (url.origin !== self.location.origin) return;
+  if (event.request.mode === "navigate") return;
   if (url.pathname.startsWith("/api/") || url.pathname === "/sw.js") return;
+
+  const cacheable =
+    url.pathname.startsWith("/_next/") ||
+    url.pathname.startsWith("/icons/");
+
+  if (!cacheable) return;
 
   event.respondWith(
     fetch(event.request)
@@ -40,8 +47,6 @@ self.addEventListener("fetch", (event) => {
 
         return response;
       })
-      .catch(() =>
-        caches.match(event.request).then((cached) => cached || caches.match("/")),
-      ),
+      .catch(() => caches.match(event.request)),
   );
 });
