@@ -216,6 +216,7 @@ function LiveOperationsCenter({ payload, events, status, now }: { payload: LiveP
           <strong>{updatedAgo(payload?.generatedAt, now)}</strong>
           <small>Horário local {localClock}</small>
         </div>
+        <Link href="/agenda" className="live-center__agenda-link">Ver agenda completa {"\u2192"}</Link>
       </header>
 
       {sourceIssue && <p className="live-center__warning">Atualização discreta: alguma fonte está atrasada. A LAP preserva a última resposta válida e tenta reconectar sem zerar a home.</p>}
