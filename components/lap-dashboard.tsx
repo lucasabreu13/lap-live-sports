@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { EventCard, eventHref } from "@/components/event-card";
-import { FootballCoverageHub, PrioritySportsRail } from "@/components/coverage-hub";
+import { HomeExplore } from "@/components/home-explore";
 import { LapHeader, SportFavoriteButton } from "@/components/lap-header";
 import { readFavorites, readNotificationPreferences, subscribeFavorites, toggleFavorite } from "@/lib/client-preferences";
 import { SPORTS, type LivePayload, type NewsItem, type ScoreItem, type SportFeed, type SportId } from "@/lib/live-data";
@@ -478,7 +478,7 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
           <div className="hero-copy"><div className="eyebrow"><span className="pulse-dot" aria-hidden /> COBERTURA CONTÍNUA</div><h1>{selectedSport ? `${selectedSport.name} ao vivo, no ritmo do agora.` : "O mundo do esporte, no ritmo do agora."}</h1><p>{selectedSport ? `Notícias, partidas, favoritos e resultados de ${selectedSport.name.toLowerCase()} em uma central própria da LAP.` : "Futebol mundial, Brasileirão, NFL, Fórmula 1, resultados, matérias e alertas no mesmo painel."}</p><div className="hero-copy__meta" aria-live="polite">
   <span>{hasLiveData ? `${data?.football.competitions.length} ligas mapeadas` : "Conectando ao radar"}</span>
   <span className="hero-copy__separator" aria-hidden="true" />
-  <span>{hasLiveData ? `${data?.worldCup.events.length} jogos da Copa` : "Agenda e noticias em tempo real"}</span>
+  <span>{hasLiveData ? `${data?.worldCup.events.length} jogos da Copa` : "Agenda e not\u00edcias em tempo real"}</span>
   <span className="hero-copy__separator" aria-hidden="true" />
   <span>{hasLiveData ? `Atualizado em ${updatedTime(data?.generatedAt)}` : "Dados sendo atualizados"}</span>
 </div></div>
@@ -516,16 +516,32 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
   </div>
   <div>
     <strong>{hasLiveData ? `${data?.refreshSeconds ?? 30}s` : "—"}</strong>
-    <span>atualizacao de seguranca</span>
+    <span>{"atualiza\u00e7\u00e3o de seguran\u00e7a"}</span>
   </div>
 </section>
         {status === "loading" && <section className="loading-state" aria-live="polite">Carregando o radar esportivo da LAP…</section>}
         {status === "error" && <section className="error-state" aria-live="assertive">A LAP ainda não conseguiu atualizar. Tente novamente em alguns instantes.</section>}
-        <PrioritySportsRail feeds={feedsWithEditorial} />
-        <FootballCoverageHub coverage={data?.football ?? { competitions: [], activeCompetitionIds: [], sourceStatus: "unavailable", sourceNote: null }} events={feedsWithEditorial.find((feed) => feed.id === "futebol")?.scores ?? []} />
         <SchedulePreview scores={[...allScores, ...(data?.worldCup.events ?? [])]} />
-        <section className="feed-toolbar" aria-label="Cobertura por modalidade"><div><p>Central de modalidades</p><h2>{selectedSport?.name ?? "Todos os esportes"}</h2></div><p className="feed-toolbar__note">Abra qualquer modalidade para ver notícias, jogos e favoritos em uma página dedicada.</p></section>
-        <div className="sports-feed">{homeFeeds.map((feed, index) => <SportSection key={feed.id} feed={feed} featured={index === 0} />)}</div>
+        {initialSport === "todos" ? (
+          <HomeExplore />
+        ) : (
+          <>
+            <section className="feed-toolbar" aria-label="Cobertura por modalidade">
+              <div>
+                <p>Central de modalidades</p>
+                <h2>{selectedSport?.name ?? "Todos os esportes"}</h2>
+              </div>
+              <p className="feed-toolbar__note">
+                Abra qualquer modalidade para ver not{"\u00ed"}cias, jogos e favoritos em uma p{"\u00e1"}gina dedicada.
+              </p>
+            </section>
+            <div className="sports-feed">
+              {homeFeeds.map((feed, index) => (
+                <SportSection key={feed.id} feed={feed} featured={index === 0} />
+              ))}
+            </div>
+          </>
+        )}
       </div>
       <footer className="footer"><div className="shell footer__inside"><div><strong>LAP</strong><span>live sports</span></div><p>Notícias, jogos, alertas e contexto para viver o esporte em um só lugar.</p></div></footer>
     </main>
