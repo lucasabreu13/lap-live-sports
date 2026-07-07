@@ -22,7 +22,7 @@ function relativeTime(dateValue: string | null) {
   const diffMinutes = Math.round((date.getTime() - Date.now()) / 60000);
   if (Math.abs(diffMinutes) < 1) return "agora";
   if (diffMinutes > 0 && diffMinutes < 60) return `em ${diffMinutes} min`;
-  if (diffMinutes < 0 && diffMinutes > -60) return `hÃ¡ ${Math.abs(diffMinutes)} min`;
+  if (diffMinutes < 0 && diffMinutes > -60) return `há ${Math.abs(diffMinutes)} min`;
   return new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" }).format(date);
 }
 
@@ -40,23 +40,23 @@ function dateAndTime(dateValue: string | null) {
 }
 
 function localTime(dateValue: string | null) {
-  if (!dateValue) return "HorÃ¡rio a confirmar";
+  if (!dateValue) return "Horário a confirmar";
   const date = new Date(dateValue);
-  if (Number.isNaN(date.getTime())) return "HorÃ¡rio a confirmar";
+  if (Number.isNaN(date.getTime())) return "Horário a confirmar";
   return new Intl.DateTimeFormat("pt-BR", { hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" }).format(date);
 }
 
 function updatedAgo(dateValue: string | null | undefined, now: number) {
-  if (now <= 0) return "AtualizaÃ§Ã£o pendente";
-  if (!dateValue) return "AtualizaÃ§Ã£o pendente";
+  if (now <= 0) return "Atualização pendente";
+  if (!dateValue) return "Atualização pendente";
   const date = new Date(dateValue);
-  if (Number.isNaN(date.getTime())) return "AtualizaÃ§Ã£o pendente";
+  if (Number.isNaN(date.getTime())) return "Atualização pendente";
   const diffSeconds = Math.max(0, Math.floor((now - date.getTime()) / 1000));
-  if (diffSeconds < 60) return `Atualizado hÃ¡ ${diffSeconds} segundo${diffSeconds === 1 ? "" : "s"}`;
+  if (diffSeconds < 60) return `Atualizado há ${diffSeconds} segundo${diffSeconds === 1 ? "" : "s"}`;
   const minutes = Math.floor(diffSeconds / 60);
-  if (minutes < 60) return `Atualizado hÃ¡ ${minutes} minuto${minutes === 1 ? "" : "s"}`;
+  if (minutes < 60) return `Atualizado há ${minutes} minuto${minutes === 1 ? "" : "s"}`;
   const hours = Math.floor(minutes / 60);
-  return `Atualizado hÃ¡ ${hours} hora${hours === 1 ? "" : "s"}`;
+  return `Atualizado há ${hours} hora${hours === 1 ? "" : "s"}`;
 }
 
 function sameLocalDay(dateValue: string | null, now: number) {
@@ -69,7 +69,7 @@ function sameLocalDay(dateValue: string | null, now: number) {
 }
 
 function gameLabel(score: ScoreItem) {
-  return score.eventKind === "race" ? `${score.home.name} Â· FÃ³rmula 1` : `${score.home.name} x ${score.away.name}`;
+  return score.eventKind === "race" ? `${score.home.name} · Fórmula 1` : `${score.home.name} x ${score.away.name}`;
 }
 
 function matchFavoriteScore(score: ScoreItem, favorites = readFavorites()) {
@@ -86,7 +86,7 @@ function statusText(score: ScoreItem) {
   if (score.state === "in") return raw || "Ao vivo";
   if (score.state === "post") return raw || "Encerrado";
   if (/postponed|adiad/i.test(raw)) return "Adiado";
-  return score.startTime ? localTime(score.startTime) : "HorÃ¡rio a confirmar";
+  return score.startTime ? localTime(score.startTime) : "Horário a confirmar";
 }
 
 function readNotificationDedupe() {
@@ -130,11 +130,11 @@ function SportSection({ feed, featured }: { feed: SportFeed; featured?: boolean 
       </header>
       {firstNews || schedule.length ? (
         <div className={`sport-layout ${featured ? "sport-layout--featured" : ""}`}>
-          <div className="sport-layout__lead">{firstNews ? <NewsCard item={firstNews} large /> : <div className="empty-card">A prÃ³xima matÃ©ria em destaque aparecerÃ¡ aqui.</div>}</div>
-          <div className="sport-layout__news">{restNews.length ? restNews.map((item) => <NewsCard key={item.id} item={item} />) : <div className="empty-card">Novas atualizaÃ§Ãµes serÃ£o adicionadas assim que surgirem.</div>}</div>
-          <div className="sport-layout__scores"><p className="mini-heading">Agenda e resultados</p>{schedule.length ? schedule.map((score) => <EventCard key={score.id} score={score} compact />) : <div className="empty-card">A agenda desta modalidade serÃ¡ exibida quando houver partidas confirmadas.</div>}</div>
+          <div className="sport-layout__lead">{firstNews ? <NewsCard item={firstNews} large /> : <div className="empty-card">A próxima matéria em destaque aparecerá aqui.</div>}</div>
+          <div className="sport-layout__news">{restNews.length ? restNews.map((item) => <NewsCard key={item.id} item={item} />) : <div className="empty-card">Novas atualizações serão adicionadas assim que surgirem.</div>}</div>
+          <div className="sport-layout__scores"><p className="mini-heading">Agenda e resultados</p>{schedule.length ? schedule.map((score) => <EventCard key={score.id} score={score} compact />) : <div className="empty-card">A agenda desta modalidade será exibida quando houver partidas confirmadas.</div>}</div>
         </div>
-      ) : <div className="empty-card empty-card--wide">A LAP estÃ¡ preparando a cobertura desta modalidade.</div>}
+      ) : <div className="empty-card empty-card--wide">A LAP está preparando a cobertura desta modalidade.</div>}
     </section>
   );
 }
@@ -162,8 +162,8 @@ function FeaturedGameCard({ score }: { score: ScoreItem | null }) {
     return (
       <article className="live-feature live-feature--empty">
         <p>Jogo em destaque</p>
-        <h3>Aguardando o prÃ³ximo evento relevante</h3>
-        <span>A LAP mantÃ©m notÃ­cias e agenda no ar enquanto a fonte publica novos jogos.</span>
+        <h3>Aguardando o próximo evento relevante</h3>
+        <span>A LAP mantém notícias e agenda no ar enquanto a fonte publica novos jogos.</span>
         <Link href="/agenda" className="live-feature__button">Abrir agenda</Link>
       </article>
     );
@@ -171,10 +171,10 @@ function FeaturedGameCard({ score }: { score: ScoreItem | null }) {
   const scoreLine = score.eventKind === "race" ? score.status : `${score.home.score ?? "â€”"} x ${score.away.score ?? "â€”"}`;
   const recent = [
     score.state === "in" ? score.status : null,
-    score.state === "pre" ? `ComeÃ§a ${dateAndTime(score.startTime)}` : null,
+    score.state === "pre" ? `Começa ${dateAndTime(score.startTime)}` : null,
     score.state === "post" ? `Final: ${score.status}` : null,
     score.venue ? `Local: ${score.venue}` : null,
-    score.broadcast ? `TransmissÃ£o: ${score.broadcast}` : null,
+    score.broadcast ? `Transmissão: ${score.broadcast}` : null,
   ].filter((item): item is string => Boolean(item));
 
   return (
@@ -201,7 +201,7 @@ function LiveOperationsCenter({ payload, events, status, now }: { payload: LiveP
   const fallback = tab === "live" && !selected.length ? (todayUpcoming.length ? todayUpcoming : ordered.upcoming).slice(0, 8) : selected.slice(0, 12);
   const groups = groupByLeague(fallback);
   const sourceIssue = Boolean(payload && (payload.feeds.some((feed) => feed.sourceStatus !== "live") || payload.worldCup.sourceStatus !== "ok" || status === "error"));
-  const tabLabel = tab === "live" ? "Ao vivo" : tab === "next" ? "PrÃ³ximos" : "Resultados";
+  const tabLabel = tab === "live" ? "Ao vivo" : tab === "next" ? "Próximos" : "Resultados";
   const localClock = now > 0 ? new Intl.DateTimeFormat("pt-BR", { hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "America/Sao_Paulo" }).format(new Date(now)) : "--:--:--";
 
   return (
@@ -209,26 +209,26 @@ function LiveOperationsCenter({ payload, events, status, now }: { payload: LiveP
       <header className="live-center__header">
         <div>
           <p>Central Ao Vivo</p>
-          <h2 id="live-center-title">Ao vivo, prÃ³ximos e resultados</h2>
-          <span>Jogos agrupados por campeonato, com status claro, horÃ¡rio local e fallback do Ãºltimo retorno vÃ¡lido.</span>
+          <h2 id="live-center-title">Ao vivo, próximos e resultados</h2>
+          <span>Jogos agrupados por campeonato, com status claro, horário local e fallback do último retorno válido.</span>
         </div>
         <div className="live-center__freshness">
           <strong>{updatedAgo(payload?.generatedAt, now)}</strong>
-          <small>HorÃ¡rio local {localClock}</small>
+          <small>Horário local {localClock}</small>
         </div>
       </header>
 
-      {sourceIssue && <p className="live-center__warning">AtualizaÃ§Ã£o discreta: alguma fonte estÃ¡ atrasada. A LAP preserva a Ãºltima resposta vÃ¡lida e tenta reconectar sem zerar a home.</p>}
+      {sourceIssue && <p className="live-center__warning">Atualização discreta: alguma fonte está atrasada. A LAP preserva a última resposta válida e tenta reconectar sem zerar a home.</p>}
 
       <div className="live-center__layout">
         <FeaturedGameCard score={featured} />
         <div className="live-center__board">
           <div className="live-tabs" role="tablist" aria-label="Filtrar central ao vivo">
             <button type="button" role="tab" aria-selected={tab === "live"} className={tab === "live" ? "active" : ""} onClick={() => setTab("live")}>Ao vivo <span>{ordered.live.length}</span></button>
-            <button type="button" role="tab" aria-selected={tab === "next"} className={tab === "next" ? "active" : ""} onClick={() => setTab("next")}>PrÃ³ximos <span>{ordered.upcoming.length}</span></button>
+            <button type="button" role="tab" aria-selected={tab === "next"} className={tab === "next" ? "active" : ""} onClick={() => setTab("next")}>Próximos <span>{ordered.upcoming.length}</span></button>
             <button type="button" role="tab" aria-selected={tab === "finished"} className={tab === "finished" ? "active" : ""} onClick={() => setTab("finished")}>Resultados <span>{ordered.finished.length}</span></button>
           </div>
-          {tab === "live" && !ordered.live.length && fallback.length > 0 && <p className="live-center__notice">Nenhum jogo ao vivo agora. Mostrando os prÃ³ximos eventos relevantes para manter a home ativa.</p>}
+          {tab === "live" && !ordered.live.length && fallback.length > 0 && <p className="live-center__notice">Nenhum jogo ao vivo agora. Mostrando os próximos eventos relevantes para manter a home ativa.</p>}
           {groups.length ? (
             <div className="live-groups" aria-label={`${tabLabel} por campeonato`}>
               {groups.map((group) => (
@@ -238,7 +238,7 @@ function LiveOperationsCenter({ payload, events, status, now }: { payload: LiveP
                 </article>
               ))}
             </div>
-          ) : <div className="empty-card">A central estÃ¡ pronta, mas ainda nÃ£o recebeu eventos neste recorte. As notÃ­cias e favoritos continuam disponÃ­veis.</div>}
+          ) : <div className="empty-card">A central está pronta, mas ainda não recebeu eventos neste recorte. As notícias e favoritos continuam disponíveis.</div>}
         </div>
       </div>
     </section>
@@ -252,8 +252,8 @@ function WorldCupSpotlight({ scores }: { scores: ScoreItem[] }) {
     <section className="world-cup world-cup--spotlight" aria-labelledby="copa-title">
       <div className="world-cup__topbar"><div><p>Especial LAP</p><h2 id="copa-title">Copa do Mundo 2026</h2></div><Link className="world-cup__open" href="/copa-2026">Abrir central completa â†’</Link></div>
       <div className="world-cup__intro">
-        <div><span className="cup-kicker">Partidas, chaveamento e SeleÃ§Ã£o Brasileira</span><h3>A Copa em um Ãºnico lugar, jogo a jogo.</h3><p>Acompanhe os confrontos ao vivo, todos os resultados e a agenda da fase decisiva.</p></div>
-        <div className="cup-next-match">{featured ? <><span>{featured.state === "in" ? "Em jogo" : featured.state === "post" ? "Ãšltimo resultado" : "PrÃ³ximo destaque"}</span><strong>{featured.home.name} <em>Ã—</em> {featured.away.name}</strong><small>{featured.state === "post" ? featured.status : dateAndTime(featured.startTime)}</small></> : <><span>Agenda da Copa</span><strong>Jogos confirmados aparecerÃ£o aqui</strong><small>Central preparada para acompanhar o torneio.</small></>}</div>
+        <div><span className="cup-kicker">Partidas, chaveamento e Seleção Brasileira</span><h3>A Copa em um único lugar, jogo a jogo.</h3><p>Acompanhe os confrontos ao vivo, todos os resultados e a agenda da fase decisiva.</p></div>
+        <div className="cup-next-match">{featured ? <><span>{featured.state === "in" ? "Em jogo" : featured.state === "post" ? "Ãšltimo resultado" : "Próximo destaque"}</span><strong>{featured.home.name} <em>Ã—</em> {featured.away.name}</strong><small>{featured.state === "post" ? featured.status : dateAndTime(featured.startTime)}</small></> : <><span>Agenda da Copa</span><strong>Jogos confirmados aparecerão aqui</strong><small>Central preparada para acompanhar o torneio.</small></>}</div>
       </div>
       <div className="world-cup__mini-grid">{ordered.live.slice(0, 1).map((score) => <EventCard key={score.id} score={score} cup />)}{ordered.upcoming.slice(0, 2).map((score) => <EventCard key={score.id} score={score} cup />)}{!ordered.live.length && !ordered.upcoming.length && ordered.finished.slice(0, 3).map((score) => <EventCard key={score.id} score={score} cup />)}</div>
     </section>
@@ -266,7 +266,7 @@ function SchedulePreview({ scores }: { scores: ScoreItem[] }) {
   return (
     <section className="full-schedule" id="agenda" aria-labelledby="agenda-title">
       <div className="full-schedule__heading"><div><p>Agenda LAP</p><h2 id="agenda-title">Partidas e resultados</h2></div><Link href="/agenda" className="section-link">Ver agenda completa</Link></div>
-      {preview.length ? <div className="full-schedule__grid">{preview.map((score) => <EventCard key={`${score.sportId}-${score.id}`} score={score} showSport />)}</div> : <div className="empty-card">A agenda serÃ¡ preenchida com os prÃ³ximos eventos confirmados.</div>}
+      {preview.length ? <div className="full-schedule__grid">{preview.map((score) => <EventCard key={`${score.sportId}-${score.id}`} score={score} showSport />)}</div> : <div className="empty-card">A agenda será preenchida com os próximos eventos confirmados.</div>}
     </section>
   );
 }
@@ -364,7 +364,7 @@ function useLiveNotifications(payload: LivePayload | null) {
       if (score.state === "pre" && score.startTime) {
         const startsIn = new Date(score.startTime).getTime() - Date.now();
         if (startsIn >= 0 && startsIn <= 30 * 60_000) {
-          notifyOnce(`lap-soon-${score.sportId}-${score.id}-${score.startTime}`, `LAP Â· ${gameLabel(score)} em 30 minutos`, `${score.league} Â· ${dateAndTime(score.startTime)}`);
+          notifyOnce(`lap-soon-${score.sportId}-${score.id}-${score.startTime}`, `LAP · ${gameLabel(score)} em 30 minutos`, `${score.league} · ${dateAndTime(score.startTime)}`);
         }
       }
     }
@@ -378,10 +378,10 @@ function useLiveNotifications(payload: LivePayload | null) {
       const favorite = matchFavoriteScore(score, favorites);
       if (changed && (!preferences.favoriteOnly || favorite)) {
         const title =
-          old.state !== "in" && score.state === "in" ? `LAP Â· ComeÃ§ou: ${gameLabel(score)}` :
-          old.state !== "post" && score.state === "post" ? `LAP Â· Encerrado: ${gameLabel(score)}` :
-          old.home.score !== score.home.score || old.away.score !== score.away.score ? `LAP Â· Placar mudou: ${gameLabel(score)}` :
-          `LAP Â· AtualizaÃ§Ã£o: ${gameLabel(score)}`;
+          old.state !== "in" && score.state === "in" ? `LAP · Começou: ${gameLabel(score)}` :
+          old.state !== "post" && score.state === "post" ? `LAP · Encerrado: ${gameLabel(score)}` :
+          old.home.score !== score.home.score || old.away.score !== score.away.score ? `LAP · Placar mudou: ${gameLabel(score)}` :
+          `LAP · Atualização: ${gameLabel(score)}`;
         notifyOnce(`lap-change-${score.sportId}-${score.id}-${score.state}-${score.home.score}-${score.away.score}`, title, score.status);
       }
     }
@@ -435,13 +435,13 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
     if (!("EventSource" in window)) return;
     const source = new EventSource("/api/live/stream");
     source.addEventListener("snapshot", (event) => {
-      try { setData(JSON.parse((event as MessageEvent<string>).data) as LivePayload); setStatus("ready"); } catch { /* MantÃ©m Ãºltimo estado vÃ¡lido. */ }
+      try { setData(JSON.parse((event as MessageEvent<string>).data) as LivePayload); setStatus("ready"); } catch { /* Mantém último estado válido. */ }
     });
     source.addEventListener("score", (event) => {
       try {
         const patch = JSON.parse((event as MessageEvent<string>).data) as Parameters<typeof applyScorePatch>[1];
         setData((current) => current ? applyScorePatch(current, patch) : current);
-      } catch { /* PrÃ³xima atualizaÃ§Ã£o de seguranÃ§a reconcilia os dados. */ }
+      } catch { /* Próxima atualização de segurança reconcilia os dados. */ }
     });
     return () => source.close();
   }, []);
@@ -470,25 +470,25 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
     <main>
       <LapHeader activeSport={initialSport} onRefresh={() => void refresh(true)} isRefreshing={isRefreshing} />
       <div className="shell page" id="top">
-        <section className="hero-grid" aria-label="VisÃ£o geral de atualizaÃ§Ãµes esportivas">
-          <div className="hero-copy"><div className="eyebrow"><span className="pulse-dot" aria-hidden /> COBERTURA CONTÃNUA</div><h1>{selectedSport ? `${selectedSport.name} ao vivo, no ritmo do agora.` : "O mundo do esporte, no ritmo do agora."}</h1><p>{selectedSport ? `NotÃ­cias, partidas, favoritos e resultados de ${selectedSport.name.toLowerCase()} em uma central prÃ³pria da LAP.` : "Futebol mundial, BrasileirÃ£o, NFL, FÃ³rmula 1, resultados, matÃ©rias e alertas no mesmo painel."}</p><div className="hero-copy__meta"><span>{data?.football.competitions.length ?? 0} ligas mapeadas</span><span>â€¢</span><span>{data?.worldCup.events.length ?? 0} jogos da Copa</span><span>â€¢</span><span>atualizado Ã s {updatedTime(data?.generatedAt)}</span></div></div>
-          <div className="hero-featured">{featuredNews ? <NewsCard item={featuredNews} large /> : <div className="skeleton-card">Carregando a principal histÃ³ria da LAPâ€¦</div>}</div>
+        <section className="hero-grid" aria-label="Visão geral de atualizações esportivas">
+          <div className="hero-copy"><div className="eyebrow"><span className="pulse-dot" aria-hidden /> COBERTURA CONTÍNUA</div><h1>{selectedSport ? `${selectedSport.name} ao vivo, no ritmo do agora.` : "O mundo do esporte, no ritmo do agora."}</h1><p>{selectedSport ? `Notícias, partidas, favoritos e resultados de ${selectedSport.name.toLowerCase()} em uma central própria da LAP.` : "Futebol mundial, Brasileirão, NFL, Fórmula 1, resultados, matérias e alertas no mesmo painel."}</p><div className="hero-copy__meta"><span>{data?.football.competitions.length ?? 0} ligas mapeadas</span><span>â€¢</span><span>{data?.worldCup.events.length ?? 0} jogos da Copa</span><span>â€¢</span><span>atualizado às {updatedTime(data?.generatedAt)}</span></div></div>
+          <div className="hero-featured">{featuredNews ? <NewsCard item={featuredNews} large /> : <div className="skeleton-card">Carregando a principal história da LAPâ€¦</div>}</div>
           <aside className="live-radar" aria-label="Radar ao vivo"><div className="live-radar__heading"><div><p>Radar</p><h2>Ao vivo</h2></div><span>{liveScores.length}</span></div><div className="live-radar__list">{liveScores.length ? liveScores.slice(0, 3).map((score) => <EventCard key={`${score.sportId}-${score.id}`} score={score} compact />) : <div className="empty-card">Quando a bola rolar, os jogos em andamento aparecem neste radar.</div>}</div></aside>
         </section>
 
         <FavoritesOnboarding payload={data} />
         <LiveOperationsCenter payload={data} events={liveCenterEvents} status={status} now={now} />
         <WorldCupSpotlight scores={data?.worldCup.events ?? []} />
-        <section className="dashboard-stats" aria-label="Resumo da LAP"><div><strong>{data?.feeds.length ?? 0}</strong><span>modalidades acompanhadas</span></div><div><strong>{data?.football.competitions.length ?? 0}</strong><span>ligas de futebol mapeadas</span></div><div><strong>{allScores.length}</strong><span>eventos no radar</span></div><div><strong>{data?.refreshSeconds ?? 30}s</strong><span>atualizaÃ§Ã£o de seguranÃ§a</span></div></section>
+        <section className="dashboard-stats" aria-label="Resumo da LAP"><div><strong>{data?.feeds.length ?? 0}</strong><span>modalidades acompanhadas</span></div><div><strong>{data?.football.competitions.length ?? 0}</strong><span>ligas de futebol mapeadas</span></div><div><strong>{allScores.length}</strong><span>eventos no radar</span></div><div><strong>{data?.refreshSeconds ?? 30}s</strong><span>atualização de segurança</span></div></section>
         {status === "loading" && <section className="loading-state" aria-live="polite">Carregando o radar esportivo da LAPâ€¦</section>}
-        {status === "error" && <section className="error-state" aria-live="assertive">A LAP ainda nÃ£o conseguiu atualizar. Tente novamente em alguns instantes.</section>}
+        {status === "error" && <section className="error-state" aria-live="assertive">A LAP ainda não conseguiu atualizar. Tente novamente em alguns instantes.</section>}
         <PrioritySportsRail feeds={feedsWithEditorial} />
         <FootballCoverageHub coverage={data?.football ?? { competitions: [], activeCompetitionIds: [], sourceStatus: "unavailable", sourceNote: null }} events={feedsWithEditorial.find((feed) => feed.id === "futebol")?.scores ?? []} />
         <SchedulePreview scores={[...allScores, ...(data?.worldCup.events ?? [])]} />
-        <section className="feed-toolbar" aria-label="Cobertura por modalidade"><div><p>Central de modalidades</p><h2>{selectedSport?.name ?? "Todos os esportes"}</h2></div><p className="feed-toolbar__note">Abra qualquer modalidade para ver notÃ­cias, jogos e favoritos em uma pÃ¡gina dedicada.</p></section>
+        <section className="feed-toolbar" aria-label="Cobertura por modalidade"><div><p>Central de modalidades</p><h2>{selectedSport?.name ?? "Todos os esportes"}</h2></div><p className="feed-toolbar__note">Abra qualquer modalidade para ver notícias, jogos e favoritos em uma página dedicada.</p></section>
         <div className="sports-feed">{visibleFeeds.map((feed, index) => <SportSection key={feed.id} feed={feed} featured={index === 0} />)}</div>
       </div>
-      <footer className="footer"><div className="shell footer__inside"><div><strong>LAP</strong><span>live sports</span></div><p>NotÃ­cias, jogos, alertas e contexto para viver o esporte em um sÃ³ lugar.</p></div></footer>
+      <footer className="footer"><div className="shell footer__inside"><div><strong>LAP</strong><span>live sports</span></div><p>Notícias, jogos, alertas e contexto para viver o esporte em um só lugar.</p></div></footer>
     </main>
   );
 }
