@@ -465,27 +465,57 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
     .filter((feed) => initialSport === "todos" || feed.id === initialSport)
     .sort((a, b) => Number(favoriteIds.has(`sport:${b.id}`)) - Number(favoriteIds.has(`sport:${a.id}`))), [feedsWithEditorial, initialSport, favoriteIds]);
   const selectedSport = initialSport === "todos" ? null : SPORTS.find((sport) => sport.id === initialSport) ?? null;
+  const hasLiveData = data !== null;
 
   return (
-    <main>
+    <main id="main-content" tabIndex={-1}>
       <LapHeader activeSport={initialSport} onRefresh={() => void refresh(true)} isRefreshing={isRefreshing} />
       <div className="shell page" id="top">
         <section className="hero-grid" aria-label="Visão geral de atualizações esportivas">
-          <div className="hero-copy"><div className="eyebrow"><span className="pulse-dot" aria-hidden /> COBERTURA CONTÍNUA</div><h1>{selectedSport ? `${selectedSport.name} ao vivo, no ritmo do agora.` : "O mundo do esporte, no ritmo do agora."}</h1><p>{selectedSport ? `Notícias, partidas, favoritos e resultados de ${selectedSport.name.toLowerCase()} em uma central própria da LAP.` : "Futebol mundial, Brasileirão, NFL, Fórmula 1, resultados, matérias e alertas no mesmo painel."}</p><div className="hero-copy__meta">
-  <span>{data ? `${data.football.competitions.length} ligas mapeadas` : "carregando ligas"}</span>
+          <div className="hero-copy"><div className="eyebrow"><span className="pulse-dot" aria-hidden /> COBERTURA CONTÍNUA</div><h1>{selectedSport ? `${selectedSport.name} ao vivo, no ritmo do agora.` : "O mundo do esporte, no ritmo do agora."}</h1><p>{selectedSport ? `Notícias, partidas, favoritos e resultados de ${selectedSport.name.toLowerCase()} em uma central própria da LAP.` : "Futebol mundial, Brasileirão, NFL, Fórmula 1, resultados, matérias e alertas no mesmo painel."}</p><div className="hero-copy__meta" aria-live="polite">
+  <span>{hasLiveData ? `${data?.football.competitions.length} ligas mapeadas` : "Conectando ao radar"}</span>
   <span className="hero-copy__separator" aria-hidden="true" />
-  <span>{data ? `${data.worldCup.events.length} jogos da Copa` : "carregando jogos"}</span>
+  <span>{hasLiveData ? `${data?.worldCup.events.length} jogos da Copa` : "Agenda e noticias em tempo real"}</span>
   <span className="hero-copy__separator" aria-hidden="true" />
-  <span>{data ? `atualizado \u00e0s ${updatedTime(data.generatedAt)}` : "atualizando dados"}</span>
+  <span>{hasLiveData ? `Atualizado em ${updatedTime(data?.generatedAt)}` : "Dados sendo atualizados"}</span>
 </div></div>
           <div className="hero-featured">{featuredNews ? <NewsCard item={featuredNews} large /> : <div className="skeleton-card">Carregando a principal história da LAP…</div>}</div>
-          <aside className="live-radar" aria-label="Radar ao vivo"><div className="live-radar__heading"><div><p>Radar</p><h2>Ao vivo</h2></div><span>{liveScores.length}</span></div><div className="live-radar__list">{liveScores.length ? liveScores.slice(0, 3).map((score) => <EventCard key={`${score.sportId}-${score.id}`} score={score} compact />) : <div className="empty-card">Quando a bola rolar, os jogos em andamento aparecem neste radar.</div>}</div></aside>
+          <aside className="live-radar" aria-label="Radar ao vivo">
+  <div className="live-radar__heading">
+    <div><p>Radar</p><h2>Ao vivo</h2></div>
+    <span>{hasLiveData ? liveScores.length : "—"}</span>
+  </div>
+  <div className="live-radar__list">
+    {!hasLiveData
+      ? <div className="empty-card">Conectando aos jogos ao vivo...</div>
+      : liveScores.length
+        ? liveScores.slice(0, 3).map((score) => <EventCard key={`${score.sportId}-${score.id}`} score={score} compact />)
+        : <div className="empty-card">Nenhuma partida em andamento agora.</div>}
+  </div>
+</aside>
         </section>
 
         <FavoritesOnboarding payload={data} />
         <LiveOperationsCenter payload={data} events={liveCenterEvents} status={status} now={now} />
         <WorldCupSpotlight scores={data?.worldCup.events ?? []} />
-        <section className="dashboard-stats" aria-label="Resumo da LAP"><div><strong>{data?.feeds.length ?? 0}</strong><span>modalidades acompanhadas</span></div><div><strong>{data?.football.competitions.length ?? 0}</strong><span>ligas de futebol mapeadas</span></div><div><strong>{allScores.length}</strong><span>eventos no radar</span></div><div><strong>{data?.refreshSeconds ?? 30}s</strong><span>atualização de segurança</span></div></section>
+        <section className="dashboard-stats" aria-label="Resumo da LAP">
+  <div>
+    <strong>{hasLiveData ? data?.feeds.length : "—"}</strong>
+    <span>{hasLiveData ? "modalidades acompanhadas" : "dados ao vivo"}</span>
+  </div>
+  <div>
+    <strong>{hasLiveData ? data?.football.competitions.length : "—"}</strong>
+    <span>{hasLiveData ? "ligas mapeadas" : "carregando cobertura"}</span>
+  </div>
+  <div>
+    <strong>{hasLiveData ? allScores.length : "—"}</strong>
+    <span>{hasLiveData ? "eventos no radar" : "agenda sendo atualizada"}</span>
+  </div>
+  <div>
+    <strong>{hasLiveData ? `${data?.refreshSeconds ?? 30}s` : "—"}</strong>
+    <span>atualizacao de seguranca</span>
+  </div>
+</section>
         {status === "loading" && <section className="loading-state" aria-live="polite">Carregando o radar esportivo da LAP…</section>}
         {status === "error" && <section className="error-state" aria-live="assertive">A LAP ainda não conseguiu atualizar. Tente novamente em alguns instantes.</section>}
         <PrioritySportsRail feeds={feedsWithEditorial} />
