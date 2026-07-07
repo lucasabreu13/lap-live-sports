@@ -298,6 +298,7 @@ const KNOWN_MOJIBAKE_REPAIRS: readonly (readonly [string, string])[] = [
   ["\u00C2\u00A0", " "],
   ["\u00C2\u00B7", "\u00B7"],
   ["\u00C3\u2014", "\u00D7"],
+  ["\u00C3\u0161", "\u00DA"],
 ];
 
 function mojibakeScore(value: string) {
