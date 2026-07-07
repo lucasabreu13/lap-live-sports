@@ -51,9 +51,11 @@ export function GameCenter({ initialDetails, worldCup }: { initialDetails: GameD
   }
 
   useEffect(() => {
-    const interval = window.setInterval(() => void refresh(), details.event.state === "in" ? 15_000 : 30_000);
+    const delay = details.event.state === "in" ? 15_000 : 30_000;
+    const interval = window.setInterval(() => void refresh(), delay);
+
     return () => window.clearInterval(interval);
-  });
+  }, [details.event.state, event.id, worldCup]);
 
   useEffect(() => {
     if (!("EventSource" in window)) return;
@@ -82,6 +84,12 @@ export function GameCenter({ initialDetails, worldCup }: { initialDetails: GameD
           <p className="game-hero__competition">{worldCup ? "Copa do Mundo 2026" : event.league.replace(/-/g, " ")}</p>
           <div className="scoreboard-hero"><article><img src={event.home.logo || "/icons/lap-icon.svg"} alt="" width="72" height="72"/><h1>{event.home.name}</h1>{event.home.record && <p>{event.home.record}</p>}</article><div className="scoreboard-hero__score"><strong>{event.home.score ?? "—"}<span>×</span>{event.away.score ?? "—"}</strong><p>{event.state === "post" ? event.status : formattedDate(event.startTime)}</p></div><article><img src={event.away.logo || "/icons/lap-icon.svg"} alt="" width="72" height="72"/><h1>{event.away.name}</h1>{event.away.record && <p>{event.away.record}</p>}</article></div>
           <div className="game-hero__footer"><span>{event.venue || "Local a confirmar"}</span><button className="refresh-button" type="button" onClick={() => void refresh()} disabled={refreshing}>{refreshing ? "Atualizando" : "Atualizar jogo"}</button></div>
+           <section className="game-snapshot" aria-label="Resumo operacional da partida">
+             <article><p>Status</p><strong>{phase(event)}</strong><span>{event.status}</span></article>
+             <article><p>Transmiss{"\u00e3o"}</p><strong>{event.broadcast || "A confirmar"}</strong><span>Informacao fornecida pela competicao</span></article>
+             <article><p>Atualiza{"\u00e7\u00e3o"}</p><strong>{event.state === "in" ? "A cada 15s" : "A cada 30s"}</strong><span>Placar e lances sincronizados</span></article>
+             <Link href="/agenda" className="game-snapshot__link">Ver agenda {"\u2192"}</Link>
+           </section>
         </section>
         <div className="game-tabs" role="tablist" aria-label="Dados da partida">{tabs.map(([id, label]) => <button key={id} type="button" role="tab" aria-selected={tab === id} className={tab === id ? "active" : ""} onClick={() => setTab(id)}>{label}</button>)}</div>
         <GameTabContent details={details} tab={tab} />

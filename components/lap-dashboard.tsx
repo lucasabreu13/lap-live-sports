@@ -139,6 +139,36 @@ function SportSection({ feed, featured }: { feed: SportFeed; featured?: boolean 
   );
 }
 
+function SportFocus({ sport, feed }: { sport: { id: SportId; name: string; icon: string; description?: string }; feed: SportFeed | null }) {
+  const ordered = orderEvents(feed?.scores ?? []);
+  const highlight = ordered.live[0] || ordered.upcoming[0] || ordered.finished[0] || null;
+  const detail = highlight
+    ? highlight.state === "in"
+      ? highlight.status || "Ao vivo"
+      : highlight.state === "post"
+        ? highlight.status || "Encerrado"
+        : dateAndTime(highlight.startTime)
+    : "Agenda em atualizacao";
+
+  return (
+    <section className="sport-focus" aria-label={`Resumo de ${sport.name}`}>
+      <div className="sport-focus__intro">
+        <span aria-hidden="true">{sport.icon}</span>
+        <div>
+          <p>Central da modalidade</p>
+          <h2>{sport.name}</h2>
+          <small>{sport.description || "Noticias, jogos e resultados em uma cobertura dedicada."}</small>
+        </div>
+      </div>
+
+      <div className="sport-focus__facts">
+        <article><p>Ao vivo</p><strong>{ordered.live.length}</strong><span>{ordered.live.length === 1 ? "evento agora" : "eventos agora"}</span></article>
+        <article><p>Proximo</p><strong>{ordered.upcoming.length}</strong><span>{detail}</span></article>
+        <Link href="/agenda" className="sport-focus__agenda">Ver agenda {"\u2192"}</Link>
+      </div>
+    </section>
+  );
+}
 function scoreTime(score: ScoreItem) { return score.startTime ? new Date(score.startTime).getTime() : 0; }
 function orderEvents(events: ScoreItem[]) {
   const unique = Array.from(new Map(events.map((event) => [`${event.sportId}-${event.id}-${event.isWorldCup ? "cup" : "main"}`, event])).values());
@@ -216,6 +246,7 @@ function LiveOperationsCenter({ payload, events, status, now }: { payload: LiveP
           <strong>{updatedAgo(payload?.generatedAt, now)}</strong>
           <small>Horário local {localClock}</small>
         </div>
+        <Link href="/agenda" className="live-center__agenda-link">Ver agenda completa {"\u2192"}</Link>
       </header>
 
       {sourceIssue && <p className="live-center__warning">Atualização discreta: alguma fonte está atrasada. A LAP preserva a última resposta válida e tenta reconectar sem zerar a home.</p>}
@@ -465,6 +496,14 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
     .filter((feed) => initialSport === "todos" || feed.id === initialSport)
     .sort((a, b) => Number(favoriteIds.has(`sport:${b.id}`)) - Number(favoriteIds.has(`sport:${a.id}`))), [feedsWithEditorial, initialSport, favoriteIds]);
   const selectedSport = initialSport === "todos" ? null : SPORTS.find((sport) => sport.id === initialSport) ?? null;
+  const activeFeed = useMemo(
+    () => selectedSport ? feedsWithEditorial.find((feed) => feed.id === selectedSport.id) ?? null : null,
+    [feedsWithEditorial, selectedSport],
+  );
+  const scopedLiveEvents = useMemo(
+    () => selectedSport ? liveCenterEvents.filter((event) => event.sportId === selectedSport.id) : liveCenterEvents,
+    [liveCenterEvents, selectedSport],
+  );
   const homeFeeds = useMemo(
     () => visibleFeeds.slice(0, initialSport === "todos" ? 4 : 1),
     [visibleFeeds, initialSport],
@@ -499,8 +538,9 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
         </section>
 
         <FavoritesOnboarding payload={data} />
-        <LiveOperationsCenter payload={data} events={liveCenterEvents} status={status} now={now} />
-        <WorldCupSpotlight scores={data?.worldCup.events ?? []} />
+        {selectedSport && <SportFocus sport={selectedSport} feed={activeFeed} />}
+        <LiveOperationsCenter payload={data} events={scopedLiveEvents} status={status} now={now} />
+        {(!selectedSport || selectedSport.id === "futebol") && <WorldCupSpotlight scores={data?.worldCup.events ?? []} />}
         <section className="dashboard-stats" aria-label="Resumo da LAP">
   <div>
     <strong>{hasLiveData ? data?.feeds.length : "—"}</strong>
