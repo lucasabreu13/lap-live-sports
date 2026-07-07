@@ -5,6 +5,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { EventCard, eventHref } from "@/components/event-card";
 import { FootballCoverageHub, PrioritySportsRail } from "@/components/coverage-hub";
 import { LapHeader, SportFavoriteButton } from "@/components/lap-header";
+import { LiveExperience } from "@/components/live-experience";
 import { readFavorites, readNotificationPreferences, subscribeFavorites, toggleFavorite } from "@/lib/client-preferences";
 import { SPORTS, type LivePayload, type NewsItem, type ScoreItem, type SportFeed, type SportId } from "@/lib/live-data";
 
@@ -356,15 +357,17 @@ function useLiveNotifications(payload: LivePayload | null) {
     const preferences = readNotificationPreferences();
     if (!preferences.enabled) return;
     const favorites = readFavorites();
+    const explicitAlerts = new Set(preferences.eventIds ?? []);
     const current = [...payload.worldCup.events, ...payload.feeds.flatMap((feed) => feed.scores)];
 
     for (const score of current) {
       const favorite = matchFavoriteScore(score, favorites);
-      if (preferences.favoriteOnly && !favorite) continue;
+      const explicitAlert = explicitAlerts.has(`event:${score.sportId}:${score.id}`);
+      if (preferences.favoriteOnly && !favorite && !explicitAlert) continue;
       if (score.state === "pre" && score.startTime) {
         const startsIn = new Date(score.startTime).getTime() - Date.now();
-        if (startsIn >= 0 && startsIn <= 30 * 60_000) {
-          notifyOnce(`lap-soon-${score.sportId}-${score.id}-${score.startTime}`, `LAP · ${gameLabel(score)} em 30 minutos`, `${score.league} · ${dateAndTime(score.startTime)}`);
+        if (startsIn >= 0 && startsIn <= 15 * 60_000) {
+          notifyOnce(`lap-soon-${score.sportId}-${score.id}-${score.startTime}`, `LAP · ${gameLabel(score)} em 15 minutos`, `${score.league} · ${dateAndTime(score.startTime)}`);
         }
       }
     }
@@ -373,10 +376,22 @@ function useLiveNotifications(payload: LivePayload | null) {
     const priorScores = new Map([...prior.worldCup.events, ...prior.feeds.flatMap((feed) => feed.scores)].map((score) => [`${score.sportId}:${score.id}`, score]));
     for (const score of current) {
       const old = priorScores.get(`${score.sportId}:${score.id}`);
-      if (!old) continue;
+      if (!old) {
+        const favorite = matchFavoriteScore(score, favorites);
+        const explicitAlert = explicitAlerts.has(`event:${score.sportId}:${score.id}`);
+        if ((favorite || explicitAlert) && score.state === "pre") {
+          notifyOnce(
+            `lap-new-${score.sportId}-${score.id}-${score.startTime}`,
+            `LAP Â· Novo jogo disponÃ­vel: ${gameLabel(score)}`,
+            `${score.league} Â· ${dateAndTime(score.startTime)}`,
+          );
+        }
+        continue;
+      }
       const changed = old.home.score !== score.home.score || old.away.score !== score.away.score || old.state !== score.state;
       const favorite = matchFavoriteScore(score, favorites);
-      if (changed && (!preferences.favoriteOnly || favorite)) {
+      const explicitAlert = explicitAlerts.has(`event:${score.sportId}:${score.id}`);
+      if (changed && (!preferences.favoriteOnly || favorite || explicitAlert)) {
         const title =
           old.state !== "in" && score.state === "in" ? `LAP · Começou: ${gameLabel(score)}` :
           old.state !== "post" && score.state === "post" ? `LAP · Encerrado: ${gameLabel(score)}` :
@@ -496,7 +511,7 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
         </section>
 
         <FavoritesOnboarding payload={data} />
-        <LiveOperationsCenter payload={data} events={liveCenterEvents} status={status} now={now} />
+        <LiveExperience payload={data} events={liveCenterEvents} status={status} now={now} />
         <WorldCupSpotlight scores={data?.worldCup.events ?? []} />
         <section className="dashboard-stats" aria-label="Resumo da LAP">
   <div>
