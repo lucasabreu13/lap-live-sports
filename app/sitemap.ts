@@ -3,7 +3,7 @@ import { getPublishedEditorialArticles } from "@/lib/editorial-store";
 import { FOOTBALL_COMPETITIONS, SPORTS } from "@/lib/live-data";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://lap.local";
+  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://lap-live-sports.vercel.app";
   const articles = await getPublishedEditorialArticles(48).catch(() => []);
   return [
     { url: `${base}/`, changeFrequency: "always", priority: 1 },

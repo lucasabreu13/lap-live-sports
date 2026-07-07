@@ -189,6 +189,7 @@ function ScheduleGroup({
 
 export function ScheduleExperience() {
   const { data, error } = useLiveFeed();
+  const isLoading = data === null && !error;
   const [status, setStatus] = useState<StatusFilter>("all");
   const [date, setDate] = useState<DateFilter>("week");
   const [sport, setSport] = useState("all");
@@ -353,7 +354,20 @@ export function ScheduleExperience() {
           {favorites.length ? " Seus favoritos recebem prioridade." : ""}
         </p>
 
-        {visible.length ? (
+        {isLoading ? (
+          <section className="agenda-loading" aria-live="polite" aria-label="Carregando agenda">
+            <div>
+              <p>Conectando ao radar</p>
+              <h2>Carregando os jogos da Agenda</h2>
+              <span>A LAP organiza os eventos assim que as fontes respondem.</span>
+            </div>
+            <div className="agenda-loading__grid" aria-hidden="true">
+              <span />
+              <span />
+              <span />
+            </div>
+          </section>
+        ) : visible.length ? (
           <div className="agenda-groups">
             <ScheduleGroup title="Ao vivo agora" description="Acompanhe em tempo real" events={grouped.live} />
             <ScheduleGroup title="Hoje" description="Proximos compromissos" events={grouped.today} />
