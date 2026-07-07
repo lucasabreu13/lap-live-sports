@@ -324,3 +324,35 @@ body{
     transition-duration:.01ms !important;
   }
 }
+
+/* LAP_HOME_COMPACT_V1 */
+.live-center__layout{
+  align-items:start;
+}
+
+.live-feature,
+.live-center__board{
+  align-self:start;
+}
+
+.live-feature{
+  height:max-content;
+}
+
+.live-center{
+  margin-top:28px;
+}
+
+.full-schedule{
+  margin-top:28px;
+}
+
+.feed-toolbar{
+  margin-top:34px;
+}
+
+@media (max-width:900px){
+  .live-center__layout{
+    align-items:stretch;
+  }
+}

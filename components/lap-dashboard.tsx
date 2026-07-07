@@ -198,7 +198,7 @@ function LiveOperationsCenter({ payload, events, status, now }: { payload: LiveP
   const todayUpcoming = useMemo(() => ordered.upcoming.filter((score) => sameLocalDay(score.startTime, now)), [ordered.upcoming, now]);
   const featured = ordered.live[0] || todayUpcoming[0] || ordered.upcoming[0] || ordered.finished[0] || null;
   const selected = tab === "live" ? ordered.live : tab === "next" ? ordered.upcoming : ordered.finished;
-  const fallback = tab === "live" && !selected.length ? (todayUpcoming.length ? todayUpcoming : ordered.upcoming).slice(0, 8) : selected.slice(0, 12);
+  const fallback = tab === "live" && !selected.length ? (todayUpcoming.length ? todayUpcoming : ordered.upcoming).slice(0, 6) : selected.slice(0, 6);
   const groups = groupByLeague(fallback);
   const sourceIssue = Boolean(payload && (payload.feeds.some((feed) => feed.sourceStatus !== "live") || payload.worldCup.sourceStatus !== "ok" || status === "error"));
   const tabLabel = tab === "live" ? "Ao vivo" : tab === "next" ? "Próximos" : "Resultados";
@@ -262,7 +262,7 @@ function WorldCupSpotlight({ scores }: { scores: ScoreItem[] }) {
 
 function SchedulePreview({ scores }: { scores: ScoreItem[] }) {
   const ordered = useMemo(() => orderEvents(scores), [scores]);
-  const preview = ordered.all.slice(0, 8);
+  const preview = ordered.all.slice(0, 4);
   return (
     <section className="full-schedule" id="agenda" aria-labelledby="agenda-title">
       <div className="full-schedule__heading"><div><p>Agenda LAP</p><h2 id="agenda-title">Partidas e resultados</h2></div><Link href="/agenda" className="section-link">Ver agenda completa</Link></div>
@@ -465,7 +465,10 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
     .filter((feed) => initialSport === "todos" || feed.id === initialSport)
     .sort((a, b) => Number(favoriteIds.has(`sport:${b.id}`)) - Number(favoriteIds.has(`sport:${a.id}`))), [feedsWithEditorial, initialSport, favoriteIds]);
   const selectedSport = initialSport === "todos" ? null : SPORTS.find((sport) => sport.id === initialSport) ?? null;
-  const hasLiveData = data !== null;
+  const homeFeeds = useMemo(
+    () => visibleFeeds.slice(0, initialSport === "todos" ? 4 : 1),
+    [visibleFeeds, initialSport],
+  );  const hasLiveData = data !== null;
 
   return (
     <main id="main-content" tabIndex={-1}>
@@ -522,7 +525,7 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
         <FootballCoverageHub coverage={data?.football ?? { competitions: [], activeCompetitionIds: [], sourceStatus: "unavailable", sourceNote: null }} events={feedsWithEditorial.find((feed) => feed.id === "futebol")?.scores ?? []} />
         <SchedulePreview scores={[...allScores, ...(data?.worldCup.events ?? [])]} />
         <section className="feed-toolbar" aria-label="Cobertura por modalidade"><div><p>Central de modalidades</p><h2>{selectedSport?.name ?? "Todos os esportes"}</h2></div><p className="feed-toolbar__note">Abra qualquer modalidade para ver notícias, jogos e favoritos em uma página dedicada.</p></section>
-        <div className="sports-feed">{visibleFeeds.map((feed, index) => <SportSection key={feed.id} feed={feed} featured={index === 0} />)}</div>
+        <div className="sports-feed">{homeFeeds.map((feed, index) => <SportSection key={feed.id} feed={feed} featured={index === 0} />)}</div>
       </div>
       <footer className="footer"><div className="shell footer__inside"><div><strong>LAP</strong><span>live sports</span></div><p>Notícias, jogos, alertas e contexto para viver o esporte em um só lugar.</p></div></footer>
     </main>
