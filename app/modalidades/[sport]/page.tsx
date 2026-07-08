@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { LapDashboard } from "@/components/lap-dashboard";
+import { NflCenter } from "@/components/nfl-center";
+import { getNflCenterDetails } from "@/lib/nfl-data";
 import { SPORTS, type SportId } from "@/lib/live-data";
 
 type PageProps = { params: Promise<{ sport: string }> };
@@ -24,6 +26,11 @@ export default async function SportPage({ params }: PageProps) {
   const { sport } = await params;
   const selected = resolveSport(sport);
   if (!selected) notFound();
+
+  if (selected.id === "futebol-americano") {
+    const details = await getNflCenterDetails();
+    return <NflCenter details={details} />;
+  }
 
   return <LapDashboard initialSport={selected.id as SportId} />;
 }
