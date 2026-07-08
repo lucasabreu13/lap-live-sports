@@ -117,6 +117,22 @@ function favoriteIds() {
   return readFavorites().map((item) => item.id);
 }
 
+async function readPushError(response: Response) {
+  try {
+    const payload = await response.json() as { error?: unknown };
+    if (typeof payload.error === "string" && payload.error.trim()) return payload.error.trim();
+  } catch {
+    // Tenta texto puro abaixo.
+  }
+  try {
+    const text = await response.text();
+    if (text.trim()) return text.trim().slice(0, 160);
+  } catch {
+    // Sem corpo útil.
+  }
+  return `Erro HTTP ${response.status} ao salvar Push.`;
+}
+
 export async function syncPushSubscription(subscription: PushSubscription) {
   const deviceId = getDeviceInstallationId();
   if (!deviceId) throw new Error("Dispositivo não disponível.");
@@ -131,7 +147,7 @@ export async function syncPushSubscription(subscription: PushSubscription) {
       favoriteIds: favoriteIds(),
     }),
   });
-  if (!response.ok) throw new Error("Não foi possível salvar a assinatura Push.");
+  if (!response.ok) throw new Error(await readPushError(response));
   writeNotificationPreferences({ enabled: true });
 }
 
