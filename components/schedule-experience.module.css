@@ -1,0 +1,300 @@
+.cacheStrip{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:0;
+  margin:16px 0;
+  border:1px solid var(--line);
+  background:var(--white);
+}
+
+.cacheStrip article{
+  min-width:0;
+  padding:16px;
+  border-right:1px solid var(--line);
+}
+
+.cacheStrip article:last-child{
+  border-right:0;
+}
+
+.cacheStrip p,
+.sportRail p,
+.surfaceCard p,
+.miniGroup header p,
+.dateCluster header p{
+  margin:0;
+  color:var(--accent-deep);
+  font-size:10px;
+  font-weight:950;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+}
+
+.cacheStrip strong{
+  display:block;
+  margin:6px 0 4px;
+  color:var(--ink);
+  font-size:22px;
+  line-height:1;
+  letter-spacing:-.05em;
+}
+
+.cacheStrip span,
+.surfaceCard span{
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.35;
+}
+
+.sportRail{
+  display:grid;
+  grid-template-columns:230px minmax(0,1fr);
+  gap:16px;
+  align-items:center;
+  margin:18px 0;
+  padding:16px;
+  border:1px solid var(--line);
+  background:var(--white);
+}
+
+.sportRail h2,
+.surfaceCard h2,
+.miniGroup header h2,
+.dateCluster header h2{
+  margin:4px 0 0;
+  color:var(--ink);
+  font-size:28px;
+  letter-spacing:-.055em;
+}
+
+.sportRailScroller{
+  display:flex;
+  gap:8px;
+  overflow-x:auto;
+  padding-bottom:2px;
+  scrollbar-width:none;
+}
+
+.sportRailScroller::-webkit-scrollbar{
+  display:none;
+}
+
+.sportRailScroller button{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  min-height:42px;
+  flex:0 0 auto;
+  border:1px solid var(--line);
+  background:#fbfdfd;
+  padding:10px 12px;
+  color:var(--ink);
+  font-size:12px;
+  font-weight:900;
+}
+
+.sportRailScroller button span{
+  display:inline-grid;
+  min-width:24px;
+  height:24px;
+  place-items:center;
+  background:var(--white);
+  color:var(--accent-deep);
+  font-size:11px;
+}
+
+.sportRailScroller .activePill{
+  border-color:var(--ink);
+  background:var(--ink);
+  color:var(--white);
+}
+
+.sportRailScroller .activePill span{
+  background:var(--accent);
+  color:var(--ink);
+}
+
+.surfaceCard{
+  display:grid;
+  grid-template-columns:310px minmax(0,1fr);
+  gap:18px;
+  margin:18px 0;
+  padding:18px;
+  border:1px solid var(--line);
+  background:#f2fffc;
+}
+
+.surfaceCard dl{
+  display:grid;
+  gap:0;
+  margin:0;
+  border:1px solid #cfe8e4;
+  background:var(--white);
+}
+
+.surfaceCard dl div{
+  display:grid;
+  grid-template-columns:132px minmax(0,1fr);
+  gap:12px;
+  padding:12px;
+  border-bottom:1px solid #e3eeee;
+}
+
+.surfaceCard dl div:last-child{
+  border-bottom:0;
+}
+
+.surfaceCard dt{
+  color:var(--accent-deep);
+  font-size:10px;
+  font-weight:950;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.surfaceCard dd{
+  margin:0;
+  color:var(--ink-soft);
+  font-size:13px;
+  font-weight:750;
+  line-height:1.4;
+}
+
+.agendaStack{
+  display:grid;
+  gap:18px;
+}
+
+.miniGroup,
+.dateCluster{
+  border:1px solid var(--line);
+  background:var(--white);
+}
+
+.miniGroup header,
+.dateCluster header{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:16px;
+  padding:18px;
+  border-bottom:1px solid var(--line);
+  background:#fbfdfd;
+}
+
+.miniGroup header > span,
+.dateCluster header > span,
+.sportDateHeader span{
+  display:grid;
+  min-width:34px;
+  height:34px;
+  place-items:center;
+  background:var(--ink);
+  color:var(--white);
+  font-size:12px;
+  font-weight:950;
+}
+
+.eventGrid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+  padding:14px;
+}
+
+.dateSportGroups{
+  display:grid;
+  gap:0;
+}
+
+.sportDateGroup{
+  border-bottom:1px solid var(--line);
+}
+
+.sportDateGroup:last-child{
+  border-bottom:0;
+}
+
+.sportDateHeader{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:12px 14px;
+  background:#f6fbfa;
+  border-bottom:1px solid var(--line);
+}
+
+.sportDateHeader strong{
+  color:var(--ink);
+  font-size:14px;
+  letter-spacing:-.02em;
+}
+
+.sportDateHeader span{
+  min-width:28px;
+  height:28px;
+  background:#e9fbf8;
+  color:var(--accent-deep);
+}
+
+@media (max-width:980px){
+  .cacheStrip{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+
+  .cacheStrip article:nth-child(2n){
+    border-right:0;
+  }
+
+  .cacheStrip article{
+    border-bottom:1px solid var(--line);
+  }
+
+  .cacheStrip article:nth-last-child(-n+2){
+    border-bottom:0;
+  }
+
+  .sportRail,
+  .surfaceCard{
+    grid-template-columns:1fr;
+  }
+
+  .eventGrid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+
+@media (max-width:620px){
+  .cacheStrip,
+  .eventGrid{
+    grid-template-columns:1fr;
+  }
+
+  .cacheStrip article,
+  .cacheStrip article:nth-child(2n),
+  .cacheStrip article:nth-last-child(-n+2){
+    border-right:0;
+    border-bottom:1px solid var(--line);
+  }
+
+  .cacheStrip article:last-child{
+    border-bottom:0;
+  }
+
+  .sportRail,
+  .surfaceCard,
+  .miniGroup header,
+  .dateCluster header{
+    padding:14px;
+  }
+
+  .surfaceCard dl div{
+    grid-template-columns:1fr;
+    gap:5px;
+  }
+
+  .eventGrid{
+    padding:10px;
+  }
+}
