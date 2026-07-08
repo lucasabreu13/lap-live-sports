@@ -92,10 +92,12 @@ function NotificationControl() {
       await syncPushSubscription(subscription);
       setEnabled(true);
       setLabel("Alertas ativos para favoritos");
-    } catch {
+    } catch (error) {
+      console.error("[LAP] Falha ao ativar Web Push", error);
       writeNotificationPreferences({ enabled: false });
       setEnabled(false);
-      setLabel("Falha ao ativar Web Push");
+      const message = error instanceof Error && error.message ? error.message : "Falha ao ativar Web Push";
+      setLabel(message.slice(0, 96));
     } finally {
       setBusy(false);
     }
