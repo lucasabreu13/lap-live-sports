@@ -17,30 +17,31 @@ function formatDateTime(value: string | null) {
   }).format(date);
 }
 
-function updateLabel(value: string) {
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return "Atualização recente";
-  return `Atualizado às ${new Intl.DateTimeFormat("pt-BR", { hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "America/Sao_Paulo" }).format(date)}`;
+function eventTitle(event: CompetitionDetails["upcoming"][number]) {
+  return event.eventKind === "race" ? event.home.name : `${event.home.name} x ${event.away.name}`;
 }
 
-function sourceLabel(status: CompetitionDetails["sourceStatus"]) {
-  if (status === "live") return "Fonte sincronizada";
-  if (status === "stale") return "Última resposta válida em cache";
-  return "Fonte em reconexão";
+function scoreCount(details: CompetitionDetails) {
+  return details.live.length + details.upcoming.length + details.recent.length;
+}
+
+function StatCard({ label, value, hint }: { label: string; value: string | number; hint: string }) {
+  return <article><p>{label}</p><strong>{value}</strong><span>{hint}</span></article>;
 }
 
 export function CompetitionCenter({ details }: { details: CompetitionDetails }) {
   const { competition } = details;
   const featured = details.live[0] || details.upcoming[0] || details.recent[0] || null;
+  const hasUsefulTable = details.table.filter((row) => row.played > 0).length >= 4;
 
   return (
     <main>
       <LapHeader activeSport="futebol" compact />
       <div className="shell competition-page">
-        <nav className="article-breadcrumb" aria-label="Navegacao estrutural">
+        <nav className="article-breadcrumb" aria-label="Navegação estrutural">
           <Link href="/">Início</Link>
           <span>›</span>
-          <Link href="/agenda">Agenda</Link>
+          <Link href="/modalidades/futebol">Futebol</Link>
           <span>›</span>
           <span>{competition.name}</span>
         </nav>
@@ -49,30 +50,30 @@ export function CompetitionCenter({ details }: { details: CompetitionDetails }) 
           <div>
             <p>{competition.country}</p>
             <h1>{competition.name}</h1>
-            <span>{sourceLabel(details.sourceStatus)} · ESPN scoreboard, Google News e cache resiliente da LAP.</span>
+            <span>Jogos, resultados, agenda e notícias em uma central dedicada da LAP.</span>
           </div>
           <aside>
-            <strong>{details.live.length}</strong>
-            <span>ao vivo</span>
-            <small>{updateLabel(details.generatedAt)}</small>
+            <strong>{scoreCount(details)}</strong>
+            <span>jogos no radar</span>
+            <small>{details.live.length} ao vivo</small>
           </aside>
         </section>
 
-        {details.sourceNote && <p className="status-note">{details.sourceNote}</p>}
+        {details.sourceNote && scoreCount(details) === 0 && <p className="status-note">Não encontramos jogos desta competição agora. Tente novamente em instantes ou abra a agenda geral.</p>}
 
         <section className="competition-feature">
           <div>
-            <p>Jogo em destaque</p>
+            <p>Destaque</p>
             {featured ? (
               <>
-                <h2>{featured.home.name} x {featured.away.name}</h2>
+                <h2>{eventTitle(featured)}</h2>
                 {(featured.state === "post" ? featured.status : formatDateTime(featured.startTime)) && <span>{featured.state === "post" ? featured.status : formatDateTime(featured.startTime)}</span>}
                 <Link className="competition-feature__button" href={`/jogos/${featured.sportId}/${featured.id}`}>Acompanhar jogo</Link>
               </>
             ) : (
               <>
-                <h2>Aguardando agenda da fonte</h2>
-                <span>A central fica pronta para receber jogos assim que o provedor publicar novos eventos.</span>
+                <h2>Agenda em atualização</h2>
+                <span>Quando houver jogos publicados, eles entram aqui automaticamente.</span>
                 <Link className="competition-feature__button" href="/agenda">Ver agenda geral</Link>
               </>
             )}
@@ -83,8 +84,8 @@ export function CompetitionCenter({ details }: { details: CompetitionDetails }) 
         <section className="competition-grid">
           <article className="competition-panel competition-panel--wide">
             <header>
-              <p>Classificacao</p>
-              <h2>Tabela do recorte ao vivo</h2>
+              <p>Resumo</p>
+              <h2>{hasUsefulTable ? "Tabela recente" : "Times e jogos encontrados"}</h2>
             </header>
             {details.table.length ? (
               <div className="competition-table-wrap">
@@ -105,48 +106,49 @@ export function CompetitionCenter({ details }: { details: CompetitionDetails }) 
                     {details.table.map((row) => (
                       <tr key={row.team}>
                         <td>{row.logo && <img src={row.logo} alt="" width="22" height="22" />}<span>{row.team}</span></td>
-                        <td>{row.points}</td>
-                        <td>{row.played}</td>
-                        <td>{row.wins}</td>
-                        <td>{row.draws}</td>
-                        <td>{row.losses}</td>
-                        <td>{row.goalsFor - row.goalsAgainst}</td>
+                        <td>{row.played ? row.points : "—"}</td>
+                        <td>{row.played || "—"}</td>
+                        <td>{row.played ? row.wins : "—"}</td>
+                        <td>{row.played ? row.draws : "—"}</td>
+                        <td>{row.played ? row.losses : "—"}</td>
+                        <td>{row.played ? row.goalsFor - row.goalsAgainst : "—"}</td>
                         <td>{row.form.length ? row.form.join(" ") : "—"}</td>
                       </tr>
                     ))}
                   </tbody>
                 </table>
               </div>
-            ) : <p className="competition-panel__empty">A classificação aparece quando houver resultados suficientes no feed.</p>}
-            <small>Quando a fonte oficial de standings estiver disponível, esta área pode ser substituída pela tabela completa da competição.</small>
+            ) : <p className="competition-panel__empty">A tabela aparece quando houver jogos encontrados para esta competição.</p>}
+            <small>{hasUsefulTable ? "Resumo calculado com os jogos recentes disponíveis na LAP." : "Sem jogos encerrados suficientes para montar uma tabela confiável agora."}</small>
           </article>
 
           <article className="competition-panel">
             <header>
-              <p>Lideres</p>
-              <h2>Indicadores</h2>
+              <p>Raio-X</p>
+              <h2>Competição</h2>
             </header>
-            {details.leaders.length ? (
-              <div className="competition-leaders">
-                {details.leaders.map((leader) => <div key={leader.label}><span>{leader.label}</span><strong>{leader.team}</strong><small>{leader.value}</small></div>)}
-              </div>
-            ) : <p className="competition-panel__empty">Os líderes são calculados assim que houver jogos encerrados.</p>}
+            <div className="competition-leaders">
+              <StatCard label="Ao vivo" value={details.live.length} hint="jogos em andamento" />
+              <StatCard label="Próximos" value={details.upcoming.length} hint="na agenda" />
+              <StatCard label="Resultados" value={details.recent.length} hint="encerrados recentemente" />
+              {details.leaders.map((leader) => <div key={leader.label}><span>{leader.label}</span><strong>{leader.team}</strong><small>{leader.value}</small></div>)}
+            </div>
           </article>
         </section>
 
         <section className="hub-section">
           <header className="hub-section__heading"><div><p>Próximos jogos</p><h2>Agenda</h2></div></header>
-          {details.upcoming.length ? <div className="full-schedule__grid">{details.upcoming.slice(0, 8).map((event) => <EventCard key={event.id} score={event} />)}</div> : <div className="empty-card">Nenhum próximo jogo encontrado para esta competição no recorte atual.</div>}
+          {details.upcoming.length ? <div className="full-schedule__grid">{details.upcoming.slice(0, 12).map((event) => <EventCard key={event.id} score={event} />)}</div> : <div className="empty-card">Nenhum próximo jogo encontrado para esta competição no recorte atual.</div>}
         </section>
 
         <section className="hub-section">
           <header className="hub-section__heading"><div><p>Resultados recentes</p><h2>Últimos placares</h2></div></header>
-          {details.recent.length ? <div className="full-schedule__grid">{details.recent.slice(0, 8).map((event) => <EventCard key={event.id} score={event} />)}</div> : <div className="empty-card">Os resultados aparecem aqui assim que forem encerrados no feed.</div>}
+          {details.recent.length ? <div className="full-schedule__grid">{details.recent.slice(0, 12).map((event) => <EventCard key={event.id} score={event} />)}</div> : <div className="empty-card">Os resultados aparecem aqui assim que forem encerrados no feed.</div>}
         </section>
 
         <section className="hub-section">
-          <header className="hub-section__heading"><div><p>Noticias relacionadas</p><h2>Contexto editorial</h2></div></header>
-          {details.news.length ? <div className="competition-news">{details.news.map((item) => <Link key={item.id} href={item.internalUrl}><span>{item.source}</span><strong>{item.title}</strong><small>{item.excerpt}</small></Link>)}</div> : <div className="empty-card">A editoria ainda não publicou matérias específicas desta competição.</div>}
+          <header className="hub-section__heading"><div><p>Notícias relacionadas</p><h2>Contexto editorial</h2></div></header>
+          {details.news.length ? <div className="competition-news">{details.news.map((item) => <Link key={item.id} href={item.internalUrl}><span>{item.source}</span><strong>{item.title}</strong><small>{item.excerpt}</small></Link>)}</div> : <div className="empty-card">Notícias relacionadas aparecem aqui quando a editoria encontrar conteúdos da competição.</div>}
         </section>
       </div>
     </main>
