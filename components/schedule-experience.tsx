@@ -3,24 +3,19 @@
 import { useEffect, useMemo, useState } from "react";
 import { EventCard } from "@/components/event-card";
 import { LapHeader } from "@/components/lap-header";
-import {
-  readFavorites,
-  subscribeFavorites,
-  type FavoriteItem,
-} from "@/lib/client-preferences";
-import {
-  FOOTBALL_COMPETITIONS,
-  SPORTS,
-  type LivePayload,
-  type ScoreItem,
-} from "@/lib/live-data";
+import { readFavorites, subscribeFavorites, type FavoriteItem } from "@/lib/client-preferences";
+import { FOOTBALL_COMPETITIONS, SPORTS, type LivePayload, type ScoreItem, type SportId } from "@/lib/live-data";
+import { getSportDataBlueprint } from "@/lib/sport-data-blueprints";
+import styles from "./schedule-experience.module.css";
 
 type StatusFilter = "all" | "live" | "next" | "finished";
 type DateFilter = "all" | "today" | "tomorrow" | "week";
+type PriorityFilter = "all" | "favorites";
+
+type SportLike = { id: SportId; name: string; icon: string; description?: string };
 
 function scoreTime(score: ScoreItem) {
   if (!score.startTime) return Number.MAX_SAFE_INTEGER;
-
   const value = new Date(score.startTime).getTime();
   return Number.isNaN(value) ? Number.MAX_SAFE_INTEGER : value;
 }
@@ -29,55 +24,57 @@ function eventKey(score: ScoreItem) {
   return `${score.sportId}:${score.id}:${score.isWorldCup ? "cup" : "main"}`;
 }
 
-function dateKey(value: string | null, offset = 0) {
+function localDate(value: string | null, offset = 0) {
   const date = value ? new Date(value) : new Date();
-
-  if (Number.isNaN(date.getTime())) return "";
-
+  if (Number.isNaN(date.getTime())) return null;
   if (!value && offset) date.setDate(date.getDate() + offset);
+  return date;
+}
 
-  return new Intl.DateTimeFormat("en-CA", {
-    timeZone: "America/Sao_Paulo",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(date);
+function dateKey(value: string | null, offset = 0) {
+  const date = localDate(value, offset);
+  if (!date) return "";
+  return new Intl.DateTimeFormat("en-CA", { timeZone: "America/Sao_Paulo", year: "numeric", month: "2-digit", day: "2-digit" }).format(date);
+}
+
+function dateLabel(value: string | null) {
+  const key = dateKey(value);
+  if (!key) return "Data a confirmar";
+  if (key === dateKey(null)) return "Hoje";
+  if (key === dateKey(null, 1)) return "Amanhã";
+  const date = localDate(value);
+  if (!date) return "Data a confirmar";
+  return new Intl.DateTimeFormat("pt-BR", { weekday: "long", day: "2-digit", month: "long", timeZone: "America/Sao_Paulo" }).format(date);
+}
+
+function updatedTime(value: string | null | undefined) {
+  if (!value) return "Atualização pendente";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Atualização pendente";
+  return new Intl.DateTimeFormat("pt-BR", { hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "America/Sao_Paulo" }).format(date);
 }
 
 function stateMatches(score: ScoreItem, filter: StatusFilter) {
-  return (
-    filter === "all" ||
-    (filter === "live" && score.state === "in") ||
-    (filter === "next" && score.state === "pre") ||
-    (filter === "finished" && score.state === "post")
-  );
+  return filter === "all" || (filter === "live" && score.state === "in") || (filter === "next" && score.state === "pre") || (filter === "finished" && score.state === "post");
 }
 
 function dateMatches(score: ScoreItem, filter: DateFilter) {
-  if (filter === "all" || score.state === "post") return true;
+  if (filter === "all") return true;
+  if (filter === "today") return score.startTime ? dateKey(score.startTime) === dateKey(null) : false;
+  if (filter === "tomorrow") return score.startTime ? dateKey(score.startTime) === dateKey(null, 1) : false;
   if (!score.startTime) return false;
-
-  const key = dateKey(score.startTime);
-
-  if (filter === "today") return key === dateKey(null);
-  if (filter === "tomorrow") return key === dateKey(null, 1);
-
   const start = new Date(score.startTime).getTime();
   const diff = start - Date.now();
-
+  if (score.state === "post") return diff >= -3 * 24 * 60 * 60_000;
   return diff >= -12 * 60 * 60_000 && diff <= 7 * 24 * 60 * 60_000;
 }
 
 function competitionMatches(score: ScoreItem, competition: string) {
   if (competition === "all") return true;
   if (score.competitionId === competition) return true;
-
   const definition = FOOTBALL_COMPETITIONS.find((item) => item.id === competition);
-
   if (!definition) return false;
-
   const value = `${score.league} ${score.round || ""}`.toLocaleLowerCase("pt-BR");
-
   return value.includes(definition.name.toLocaleLowerCase("pt-BR"));
 }
 
@@ -85,29 +82,52 @@ function isFavorite(score: ScoreItem, favorites: FavoriteItem[]) {
   const eventId = `event:${score.sportId}:${score.id}`;
   const sportId = `sport:${score.sportId}`;
   const leagueId = score.competitionId ? `league:${score.competitionId}` : "";
-
-  return favorites.some((favorite) =>
-    favorite.id === eventId ||
-    favorite.id === sportId ||
-    (leagueId && favorite.id === leagueId),
-  );
+  return favorites.some((favorite) => favorite.id === eventId || favorite.id === sportId || (leagueId && favorite.id === leagueId));
 }
 
 function compareEvents(a: ScoreItem, b: ScoreItem, favorites: FavoriteItem[]) {
-  const phase = (score: ScoreItem) =>
-    score.state === "in" ? 0 : score.state === "pre" ? 1 : 2;
-
+  const phase = (score: ScoreItem) => score.state === "in" ? 0 : score.state === "pre" ? 1 : 2;
   const phaseDiff = phase(a) - phase(b);
-
   if (phaseDiff) return phaseDiff;
-
   const favoriteDiff = Number(isFavorite(b, favorites)) - Number(isFavorite(a, favorites));
-
   if (favoriteDiff) return favoriteDiff;
-
   if (a.state === "post" && b.state === "post") return scoreTime(b) - scoreTime(a);
-
   return scoreTime(a) - scoreTime(b);
+}
+
+function sportMeta(sportId: SportId) {
+  return SPORTS.find((item) => item.id === sportId) ?? { id: sportId, name: sportId, icon: "•" };
+}
+
+function groupBySport(events: ScoreItem[]) {
+  const groups = new Map<SportId, ScoreItem[]>();
+  for (const event of events) groups.set(event.sportId, [...(groups.get(event.sportId) ?? []), event]);
+  return [...groups.entries()].map(([sportId, items]) => ({ sport: sportMeta(sportId), events: items }));
+}
+
+function groupByDateAndSport(events: ScoreItem[]) {
+  const byDate = new Map<string, ScoreItem[]>();
+  for (const event of events) {
+    const key = event.startTime ? dateKey(event.startTime) : "sem-data";
+    byDate.set(key, [...(byDate.get(key) ?? []), event]);
+  }
+  return [...byDate.entries()]
+    .sort(([aKey, aEvents], [bKey, bEvents]) => {
+      if (aKey === "sem-data") return 1;
+      if (bKey === "sem-data") return -1;
+      const aTime = scoreTime(aEvents[0]);
+      const bTime = scoreTime(bEvents[0]);
+      return aTime - bTime;
+    })
+    .map(([key, items]) => ({ key, label: key === "sem-data" ? "Data a confirmar" : dateLabel(items[0]?.startTime ?? null), sportGroups: groupBySport(items) }));
+}
+
+function sourceSummary(data: LivePayload | null) {
+  if (!data) return { live: 0, stale: 0, unavailable: 0 };
+  return data.feeds.reduce((acc, feed) => {
+    acc[feed.sourceStatus] += 1;
+    return acc;
+  }, { live: 0, stale: 0, unavailable: 0 } as Record<"live" | "stale" | "unavailable", number>);
 }
 
 function useLiveFeed() {
@@ -116,13 +136,10 @@ function useLiveFeed() {
 
   useEffect(() => {
     let active = true;
-
     const load = async () => {
       try {
         const response = await fetch("/api/live", { cache: "no-store" });
-
         if (!response.ok) throw new Error("feed unavailable");
-
         if (active) {
           setData(await response.json() as LivePayload);
           setError(false);
@@ -131,22 +148,15 @@ function useLiveFeed() {
         if (active) setError(true);
       }
     };
-
     void load();
-
     const interval = window.setInterval(() => void load(), 30_000);
     const source = "EventSource" in window ? new EventSource("/api/live/stream") : null;
-
     source?.addEventListener("snapshot", (event) => {
       try {
         if (active) setData(JSON.parse((event as MessageEvent<string>).data) as LivePayload);
-      } catch {
-        // O proximo polling reconcilia os dados.
-      }
+      } catch { /* O próximo polling reconcilia os dados. */ }
     });
-
     source?.addEventListener("score", () => void load());
-
     return () => {
       active = false;
       window.clearInterval(interval);
@@ -157,30 +167,56 @@ function useLiveFeed() {
   return { data, error };
 }
 
-function ScheduleGroup({
-  title,
-  description,
-  events,
-}: {
-  title: string;
-  description: string;
-  events: ScoreItem[];
-}) {
-  if (!events.length) return null;
-
+function SportRail({ events, selectedSport, onSelectSport }: { events: ScoreItem[]; selectedSport: string; onSelectSport: (sportId: string) => void }) {
+  const rows = SPORTS.map((sport) => ({ sport, count: events.filter((event) => event.sportId === sport.id).length })).filter((row) => row.count > 0);
+  if (!rows.length) return null;
   return (
-    <section className="agenda-group">
-      <header>
-        <div>
-          <p>{description}</p>
-          <h2>{title}</h2>
-        </div>
-        <span>{events.length}</span>
-      </header>
+    <section className={styles.sportRail} aria-label="Grade por modalidade">
+      <div><p>Grade por esporte</p><h2>Escolha a modalidade</h2></div>
+      <div className={styles.sportRailScroller}>
+        <button type="button" className={selectedSport === "all" ? styles.activePill : ""} onClick={() => onSelectSport("all")}>Todos <span>{events.length}</span></button>
+        {rows.map(({ sport, count }) => <button key={sport.id} type="button" className={selectedSport === sport.id ? styles.activePill : ""} onClick={() => onSelectSport(sport.id)}>{sport.icon} {sport.name}<span>{count}</span></button>)}
+      </div>
+    </section>
+  );
+}
 
-      <div className="agenda-group__grid">
-        {events.map((event) => (
-          <EventCard key={eventKey(event)} score={event} showSport />
+function SportSurface({ sport }: { sport: SportLike | null }) {
+  if (!sport) return null;
+  const blueprint = getSportDataBlueprint(sport.id);
+  if (!blueprint) return null;
+  return (
+    <section className={styles.surfaceCard} aria-label={`Formato de agenda de ${sport.name}`}>
+      <div><p>{sport.icon} Formato da modalidade</p><h2>{sport.name}</h2><span>{sport.description || "Cobertura dedicada da LAP."}</span></div>
+      <dl>
+        <div><dt>Agenda ideal</dt><dd>{blueprint.primarySurface}</dd></div>
+        <div><dt>Ao vivo</dt><dd>{blueprint.liveSurface}</dd></div>
+        <div><dt>Participantes</dt><dd>{blueprint.rosterSurface}</dd></div>
+      </dl>
+    </section>
+  );
+}
+
+function MiniEventList({ title, description, events }: { title: string; description: string; events: ScoreItem[] }) {
+  if (!events.length) return null;
+  return (
+    <section className={styles.miniGroup}>
+      <header><div><p>{description}</p><h2>{title}</h2></div><span>{events.length}</span></header>
+      <div className={styles.eventGrid}>{events.map((event) => <EventCard key={eventKey(event)} score={event} showSport />)}</div>
+    </section>
+  );
+}
+
+function DateCluster({ label, sportGroups }: { label: string; sportGroups: Array<{ sport: SportLike; events: ScoreItem[] }> }) {
+  return (
+    <section className={styles.dateCluster}>
+      <header><div><p>Agenda por data</p><h2>{label}</h2></div><span>{sportGroups.reduce((total, group) => total + group.events.length, 0)}</span></header>
+      <div className={styles.dateSportGroups}>
+        {sportGroups.map(({ sport, events }) => (
+          <section className={styles.sportDateGroup} key={`${label}-${sport.id}`}>
+            <div className={styles.sportDateHeader}><strong>{sport.icon} {sport.name}</strong><span>{events.length}</span></div>
+            <div className={styles.eventGrid}>{events.map((event) => <EventCard key={eventKey(event)} score={event} showSport />)}</div>
+          </section>
         ))}
       </div>
     </section>
@@ -194,22 +230,18 @@ export function ScheduleExperience() {
   const [date, setDate] = useState<DateFilter>("week");
   const [sport, setSport] = useState("all");
   const [competition, setCompetition] = useState("all");
+  const [priority, setPriority] = useState<PriorityFilter>("all");
   const [query, setQuery] = useState("");
   const [favorites, setFavorites] = useState<FavoriteItem[]>([]);
 
   useEffect(() => {
     const sync = () => setFavorites(readFavorites());
     sync();
-
     return subscribeFavorites(sync);
   }, []);
 
   const events = useMemo(() => {
-    const all = [
-      ...(data?.worldCup.events ?? []),
-      ...(data?.feeds.flatMap((feed) => feed.scores) ?? []),
-    ];
-
+    const all = [...(data?.worldCup.events ?? []), ...(data?.feeds.flatMap((feed) => feed.scores) ?? [])];
     return Array.from(new Map(all.map((event) => [eventKey(event), event])).values());
   }, [data]);
 
@@ -218,184 +250,82 @@ export function ScheduleExperience() {
     live: events.filter((event) => event.state === "in").length,
     next: events.filter((event) => event.state === "pre").length,
     finished: events.filter((event) => event.state === "post").length,
-  }), [events]);
+    favorites: events.filter((event) => isFavorite(event, favorites)).length,
+  }), [events, favorites]);
 
   const visible = useMemo(() => {
     const term = query.trim().toLocaleLowerCase("pt-BR");
-
     return events
       .filter((event) => {
-        const searchable = [
-          event.home.name,
-          event.away.name,
-          event.league,
-          event.round || "",
-          event.country || "",
-        ].join(" ").toLocaleLowerCase("pt-BR");
-
-        return (
-          stateMatches(event, status) &&
-          dateMatches(event, date) &&
-          competitionMatches(event, competition) &&
-          (sport === "all" || event.sportId === sport) &&
-          (!term || searchable.includes(term))
-        );
+        const searchable = [event.home.name, event.away.name, event.league, event.round || "", event.country || ""].join(" ").toLocaleLowerCase("pt-BR");
+        return stateMatches(event, status) && dateMatches(event, date) && competitionMatches(event, competition) && (sport === "all" || event.sportId === sport) && (priority === "all" || isFavorite(event, favorites)) && (!term || searchable.includes(term));
       })
       .sort((a, b) => compareEvents(a, b, favorites));
-  }, [competition, date, events, favorites, query, sport, status]);
+  }, [competition, date, events, favorites, priority, query, sport, status]);
 
-  const grouped = useMemo(() => {
-    const live = visible.filter((event) => event.state === "in");
-    const today = visible.filter((event) => event.state === "pre" && dateKey(event.startTime) === dateKey(null));
-    const tomorrow = visible.filter((event) => event.state === "pre" && dateKey(event.startTime) === dateKey(null, 1));
-    const upcoming = visible.filter((event) =>
-      event.state === "pre" &&
-      dateKey(event.startTime) !== dateKey(null) &&
-      dateKey(event.startTime) !== dateKey(null, 1),
-    );
-    const finished = visible.filter((event) => event.state === "post");
-
-    return { live, today, tomorrow, upcoming, finished };
-  }, [visible]);
-
-  const activeLabel =
-    status === "live" ? "Ao vivo" :
-    status === "next" ? "Proximos" :
-    status === "finished" ? "Resultados" :
-    "Todos os eventos";
+  const selectedSport = sport === "all" ? null : sportMeta(sport as SportId);
+  const liveEvents = useMemo(() => visible.filter((event) => event.state === "in"), [visible]);
+  const scheduledEvents = useMemo(() => visible.filter((event) => event.state !== "in"), [visible]);
+  const dateClusters = useMemo(() => groupByDateAndSport(scheduledEvents), [scheduledEvents]);
+  const sources = sourceSummary(data);
+  const activeLabel = status === "live" ? "Ao vivo" : status === "next" ? "Próximos" : status === "finished" ? "Resultados" : "Todos os eventos";
 
   return (
     <main>
       <LapHeader />
-
       <div className="shell page hub-page">
         <section className="agenda-hero">
           <div>
             <p>Agenda LAP</p>
-            <h1>Seu calendario esportivo</h1>
-            <span>
-              Jogos ao vivo, favoritos, proximos confrontos e resultados em um so lugar.
-            </span>
+            <h1>Calendário esportivo por modalidade</h1>
+            <span>Grade de jogos, provas, cards, corridas, baterias e resultados usando o cache gratuito da LAP.</span>
           </div>
-
           <div className="agenda-hero__stats" aria-label="Resumo da agenda">
             <strong>{counts.live}<small>ao vivo</small></strong>
-            <strong>{counts.next}<small>proximos</small></strong>
+            <strong>{counts.next}<small>próximos</small></strong>
             <strong>{counts.finished}<small>resultados</small></strong>
           </div>
         </section>
 
+        <section className={styles.cacheStrip} aria-label="Status das fontes">
+          <article><p>Cache gratuito</p><strong>{updatedTime(data?.generatedAt)}</strong><span>Última atualização da LAP</span></article>
+          <article><p>Fontes live</p><strong>{sources.live}</strong><span>modalidades respondendo agora</span></article>
+          <article><p>Cache preservado</p><strong>{sources.stale}</strong><span>modalidades em fallback saudável</span></article>
+          <article><p>Total no radar</p><strong>{events.length}</strong><span>eventos deduplicados</span></article>
+        </section>
+
+        <SportRail events={events} selectedSport={sport} onSelectSport={(sportId) => { setSport(sportId); if (sportId !== "futebol") setCompetition("all"); }} />
+        <SportSurface sport={selectedSport} />
+
         <section className="agenda-controls" aria-label="Filtros da agenda">
-          <label className="agenda-search">
-            <span className="sr-only">Buscar time ou competicao</span>
-            <input
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder="Buscar time ou competicao"
-            />
-          </label>
-
-          <select value={date} onChange={(event) => setDate(event.target.value as DateFilter)} aria-label="Periodo">
-            <option value="all">Todas as datas</option>
-            <option value="today">Hoje</option>
-            <option value="tomorrow">Amanha</option>
-            <option value="week">Proximos 7 dias</option>
-          </select>
-
-          <select
-            value={sport}
-            onChange={(event) => {
-              setSport(event.target.value);
-
-              if (event.target.value !== "futebol") setCompetition("all");
-            }}
-            aria-label="Modalidade"
-          >
-            <option value="all">Todas as modalidades</option>
-            {SPORTS.map((item) => (
-              <option key={item.id} value={item.id}>{item.name}</option>
-            ))}
-          </select>
-
-          <select
-            value={competition}
-            onChange={(event) => {
-              const next = event.target.value;
-              setCompetition(next);
-
-              if (next !== "all") setSport("futebol");
-            }}
-            aria-label="Competicao"
-          >
-            <option value="all">Todas as ligas de futebol</option>
-            {(data?.football.competitions ?? FOOTBALL_COMPETITIONS).map((item) => (
-              <option key={item.id} value={item.id}>{item.name} - {item.country}</option>
-            ))}
-          </select>
+          <label className="agenda-search"><span className="sr-only">Buscar time ou competição</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Buscar time, atleta, liga ou competição" /></label>
+          <select value={date} onChange={(event) => setDate(event.target.value as DateFilter)} aria-label="Período"><option value="all">Todas as datas</option><option value="today">Hoje</option><option value="tomorrow">Amanhã</option><option value="week">Próximos 7 dias</option></select>
+          <select value={sport} onChange={(event) => { setSport(event.target.value); if (event.target.value !== "futebol") setCompetition("all"); }} aria-label="Modalidade"><option value="all">Todas as modalidades</option>{SPORTS.map((item) => <option key={item.id} value={item.id}>{item.name}</option>)}</select>
+          <select value={competition} onChange={(event) => { const next = event.target.value; setCompetition(next); if (next !== "all") setSport("futebol"); }} aria-label="Competição"><option value="all">Todas as ligas de futebol</option>{(data?.football.competitions ?? FOOTBALL_COMPETITIONS).map((item) => <option key={item.id} value={item.id}>{item.name} - {item.country}</option>)}</select>
         </section>
 
         <div className="agenda-status-filters" role="tablist" aria-label="Status dos jogos">
-          <button type="button" role="tab" aria-selected={status === "all"} className={status === "all" ? "active" : ""} onClick={() => setStatus("all")}>
-            Todos <span>{counts.all}</span>
-          </button>
-          <button type="button" role="tab" aria-selected={status === "live"} className={status === "live" ? "active" : ""} onClick={() => setStatus("live")}>
-            Ao vivo <span>{counts.live}</span>
-          </button>
-          <button type="button" role="tab" aria-selected={status === "next"} className={status === "next" ? "active" : ""} onClick={() => setStatus("next")}>
-            Proximos <span>{counts.next}</span>
-          </button>
-          <button type="button" role="tab" aria-selected={status === "finished"} className={status === "finished" ? "active" : ""} onClick={() => setStatus("finished")}>
-            Resultados <span>{counts.finished}</span>
-          </button>
+          <button type="button" role="tab" aria-selected={status === "all"} className={status === "all" ? "active" : ""} onClick={() => setStatus("all")}>Todos <span>{counts.all}</span></button>
+          <button type="button" role="tab" aria-selected={status === "live"} className={status === "live" ? "active" : ""} onClick={() => setStatus("live")}>Ao vivo <span>{counts.live}</span></button>
+          <button type="button" role="tab" aria-selected={status === "next"} className={status === "next" ? "active" : ""} onClick={() => setStatus("next")}>Próximos <span>{counts.next}</span></button>
+          <button type="button" role="tab" aria-selected={status === "finished"} className={status === "finished" ? "active" : ""} onClick={() => setStatus("finished")}>Resultados <span>{counts.finished}</span></button>
+          <button type="button" role="tab" aria-selected={priority === "favorites"} className={priority === "favorites" ? "active" : ""} onClick={() => setPriority(priority === "favorites" ? "all" : "favorites")}>Favoritos <span>{counts.favorites}</span></button>
         </div>
 
-        <p className="agenda-result-note" aria-live="polite">
-          {visible.length} evento{visible.length === 1 ? "" : "s"} em {activeLabel.toLocaleLowerCase("pt-BR")}.
-          {favorites.length ? " Seus favoritos recebem prioridade." : ""}
-        </p>
+        <p className="agenda-result-note" aria-live="polite">{visible.length} evento{visible.length === 1 ? "" : "s"} em {activeLabel.toLocaleLowerCase("pt-BR")}.{favorites.length ? " Seus favoritos recebem prioridade." : ""}</p>
 
         {isLoading ? (
-          <section className="agenda-loading" aria-live="polite" aria-label="Carregando agenda">
-            <div>
-              <p>Conectando ao radar</p>
-              <h2>Carregando os jogos da Agenda</h2>
-              <span>A LAP organiza os eventos assim que as fontes respondem.</span>
-            </div>
-            <div className="agenda-loading__grid" aria-hidden="true">
-              <span />
-              <span />
-              <span />
-            </div>
-          </section>
+          <section className="agenda-loading" aria-live="polite" aria-label="Carregando agenda"><div><p>Conectando ao radar</p><h2>Carregando os jogos da Agenda</h2><span>A LAP organiza os eventos assim que as fontes respondem.</span></div><div className="agenda-loading__grid" aria-hidden="true"><span /><span /><span /></div></section>
         ) : visible.length ? (
-          <div className="agenda-groups">
-            <ScheduleGroup title="Ao vivo agora" description="Acompanhe em tempo real" events={grouped.live} />
-            <ScheduleGroup title="Hoje" description="Proximos compromissos" events={grouped.today} />
-            <ScheduleGroup title="Amanha" description="Para se planejar" events={grouped.tomorrow} />
-            <ScheduleGroup title="Mais adiante" description="Proximos dias" events={grouped.upcoming} />
-            <ScheduleGroup title="Resultados recentes" description="Partidas encerradas" events={grouped.finished} />
+          <div className={styles.agendaStack}>
+            <MiniEventList title="Ao vivo agora" description="Tempo real" events={liveEvents} />
+            {dateClusters.map((cluster) => <DateCluster key={cluster.key} label={cluster.label} sportGroups={cluster.sportGroups} />)}
           </div>
         ) : (
-          <section className="agenda-empty">
-            <p>Nenhuma partida encontrada neste recorte.</p>
-            <span>Troque a data, modalidade, liga ou termo de busca para ampliar a agenda.</span>
-            <button type="button" onClick={() => {
-              setStatus("all");
-              setDate("week");
-              setSport("all");
-              setCompetition("all");
-              setQuery("");
-            }}>
-              Limpar filtros
-            </button>
-          </section>
+          <section className="agenda-empty"><p>Nenhum evento encontrado neste recorte.</p><span>Troque a data, modalidade, liga ou termo de busca para ampliar a agenda.</span><button type="button" onClick={() => { setStatus("all"); setDate("week"); setSport("all"); setCompetition("all"); setPriority("all"); setQuery(""); }}>Limpar filtros</button></section>
         )}
 
-        {error && (
-          <p className="status-note">
-            A atualizacao mais recente nao chegou. A LAP tenta novamente sem apagar os ultimos dados validos.
-          </p>
-        )}
+        {error && <p className="status-note">A atualização mais recente não chegou. A LAP tenta novamente sem apagar os últimos dados válidos.</p>}
       </div>
     </main>
   );
