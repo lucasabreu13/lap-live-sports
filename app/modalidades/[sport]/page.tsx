@@ -42,5 +42,5 @@ export default async function SportPage({ params }: PageProps) {
 
   const details = await getSportUniverseDetails(selected.id);
   if (!details) notFound();
-  return <main><SportUniverseCenter details={details} /></main>;
+  return <SportUniverseCenter details={details} />;
 }
