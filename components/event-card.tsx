@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FavoriteButton } from "@/components/favorite-button";
 import type { ScoreItem } from "@/lib/live-data";
 import { canDisplayScore, displayScoreValue } from "@/lib/score-integrity";
+import styles from "./event-card.module.css";
 
 type EventCardProps = {
   score: ScoreItem;
@@ -24,6 +25,38 @@ function eventPhase(score: ScoreItem) {
   if (score.state === "post") return "ENCERRADO";
   if (score.state === "pre") return score.eventKind === "race" ? "PRÓXIMO GP" : "EM BREVE";
   return score.status;
+}
+
+function teamInitials(name: string) {
+  const parts = name
+    .replace(/\([^)]*\)/g, " ")
+    .split(/\s+/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+  if (!parts.length) return "LAP";
+  const relevant = parts.filter((part) => !["fc", "cf", "sc", "ac", "ec", "the", "de", "da", "do", "dos"].includes(part.toLowerCase()));
+  const seed = relevant.length ? relevant : parts;
+  return seed.slice(0, 2).map((part) => part[0]?.toUpperCase()).join("") || "LAP";
+}
+
+function TeamLogo({ logo, name }: { logo?: string | null; name: string }) {
+  return (
+    <span className={styles.teamLogo} aria-hidden="true">
+      {logo ? <img src={logo} alt="" width="30" height="30" loading="lazy" /> : <span className={styles.teamInitials}>{teamInitials(name)}</span>}
+    </span>
+  );
+}
+
+function TeamLine({ logo, name, scoreValue }: { logo?: string | null; name: string; scoreValue: string }) {
+  return (
+    <div className={`team-line ${styles.teamLine}`}>
+      <span className={styles.teamIdentity}>
+        <TeamLogo logo={logo} name={name} />
+        <span className={styles.teamName}>{name}</span>
+      </span>
+      <strong className={styles.score}>{scoreValue}</strong>
+    </div>
+  );
 }
 
 function googleCalendarUrl(score: ScoreItem) {
@@ -50,24 +83,19 @@ export function EventCard({ score, compact = false, cup = false, showSport = fal
   const calendarUrl = score.state === "pre" ? googleCalendarUrl(score) : null;
   const showScore = canDisplayScore(score);
   const timeLabel = score.state === "post" ? score.status : score.startTime ? dateAndTime(score.startTime) : null;
+  const isLive = score.state === "in";
 
   return (
-    <article className={`event-card ${compact ? "event-card--compact" : ""} ${cup ? "event-card--cup" : ""}`}>
+    <article className={`event-card ${styles.premiumCard} ${isLive ? styles.liveCard : ""} ${compact ? `event-card--compact ${styles.compact}` : ""} ${cup ? "event-card--cup" : ""}`}>
       <Link href={href} className="event-card__clickarea" aria-label={`Abrir central do jogo: ${label}`}>
         <div className="event-card__meta">
-          <span className={score.state === "in" ? "live-label" : "status-label"}>{eventPhase(score)}</span>
+          <span className={isLive ? "live-label" : "status-label"}>{eventPhase(score)}</span>
           <span>{showSport ? `${score.sportId} · ${score.round || score.league.replace(/-/g, " ")}` : score.round || score.league.replace(/-/g, " ")}</span>
         </div>
-        <div className="event-card__teams">
-          <div className="team-line">
-            <span>{score.home.logo && <img src={score.home.logo} alt="" width="22" height="22" />} {score.home.name}</span>
-            <strong>{displayScoreValue(score, "home")}</strong>
-          </div>
+        <div className={`event-card__teams ${styles.teams}`}>
+          <TeamLine logo={score.home.logo} name={score.home.name} scoreValue={displayScoreValue(score, "home")} />
           {!showScore && score.eventKind !== "race" && <span className="event-card__versus">vs</span>}
-          <div className="team-line">
-            <span>{score.away.logo && <img src={score.away.logo} alt="" width="22" height="22" />} {score.away.name}</span>
-            <strong>{displayScoreValue(score, "away")}</strong>
-          </div>
+          <TeamLine logo={score.away.logo} name={score.away.name} scoreValue={displayScoreValue(score, "away")} />
         </div>
         <div className="event-card__footer">
           {timeLabel && <p className="event-card__time">{timeLabel}</p>}
