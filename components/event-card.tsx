@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { FavoriteButton } from "@/components/favorite-button";
 import type { ScoreItem } from "@/lib/live-data";
-import { canDisplayScore, displayScoreValue, reconciliationMessage } from "@/lib/score-integrity";
+import { canDisplayScore, displayScoreValue } from "@/lib/score-integrity";
 
 type EventCardProps = {
   score: ScoreItem;
@@ -20,7 +20,6 @@ function dateAndTime(dateValue: string | null) {
 }
 
 function eventPhase(score: ScoreItem) {
-  if (score.integrity === "reconciling") return "EM RECONCILIAÇÃO";
   if (score.state === "in") return "AO VIVO";
   if (score.state === "post") return "ENCERRADO";
   if (score.state === "pre") return score.eventKind === "race" ? "PRÓXIMO GP" : "EM BREVE";
@@ -50,14 +49,13 @@ export function EventCard({ score, compact = false, cup = false, showSport = fal
   const label = score.eventKind === "race" ? `${score.home.name} · Fórmula 1` : `${score.home.name} x ${score.away.name}`;
   const calendarUrl = score.state === "pre" ? googleCalendarUrl(score) : null;
   const showScore = canDisplayScore(score);
-  const reconciliation = reconciliationMessage(score);
   const timeLabel = score.state === "post" ? score.status : score.startTime ? dateAndTime(score.startTime) : null;
 
   return (
-    <article className={`event-card ${compact ? "event-card--compact" : ""} ${cup ? "event-card--cup" : ""} ${reconciliation ? "event-card--reconciling" : ""}`}>
+    <article className={`event-card ${compact ? "event-card--compact" : ""} ${cup ? "event-card--cup" : ""}`}>
       <Link href={href} className="event-card__clickarea" aria-label={`Abrir central do jogo: ${label}`}>
         <div className="event-card__meta">
-          <span className={score.state === "in" && !reconciliation ? "live-label" : "status-label"}>{eventPhase(score)}</span>
+          <span className={score.state === "in" ? "live-label" : "status-label"}>{eventPhase(score)}</span>
           <span>{showSport ? `${score.sportId} · ${score.round || score.league.replace(/-/g, " ")}` : score.round || score.league.replace(/-/g, " ")}</span>
         </div>
         <div className="event-card__teams">
@@ -71,7 +69,6 @@ export function EventCard({ score, compact = false, cup = false, showSport = fal
             <strong>{displayScoreValue(score, "away")}</strong>
           </div>
         </div>
-        {reconciliation && <p className="event-card__integrity">{reconciliation}</p>}
         <div className="event-card__footer">
           {timeLabel && <p className="event-card__time">{timeLabel}</p>}
           {score.venue && <p className="event-card__venue">{score.venue}</p>}
