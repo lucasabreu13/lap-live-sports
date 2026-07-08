@@ -86,11 +86,11 @@ async function fetchWithTimeout(url: string, timeoutMs = 8_000) {
 async function checkHttpPath(baseUrl: string, path: string, type: SiteAuditItem["type"] = "route"): Promise<SiteAuditItem> {
   try {
     const response = await fetchWithTimeout(`${baseUrl}${path}`);
-    if (response.status === 404) return { type, path, status: "fail", httpStatus: response.status, message: "404 encontrado." };
+    if (response.status === 404) return { type, path, status: "fail", httpStatus: response.status, message: "404 found." };
     if (response.status >= 400) return { type, path, status: "warn", httpStatus: response.status, message: `HTTP ${response.status}.` };
-    return { type, path, status: "ok", httpStatus: response.status, message: "Rota respondeu." };
+    return { type, path, status: "ok", httpStatus: response.status, message: "Route responded." };
   } catch (error) {
-    const message = error instanceof Error ? error.message : "Falha ao checar rota.";
+    const message = error instanceof Error ? error.message : "Route check failed.";
     return { type, path, status: "warn", message };
   }
 }
@@ -98,10 +98,10 @@ async function checkHttpPath(baseUrl: string, path: string, type: SiteAuditItem[
 async function checkGame(score: ScoreItem): Promise<SiteAuditItem> {
   const path = eventPath(score);
   const details = await getResilientGameDetails(score.sportId, score.id, { worldCup: Boolean(score.isWorldCup) }).catch(() => null);
-  if (!details) return { type: "game", path, status: "fail", message: "Evento aparece na grade, mas a página não conseguiu resolver detalhes nem fallback." };
+  if (!details) return { type: "game", path, status: "fail", message: "Event is in the schedule, but no detail or fallback could be resolved." };
   const hasFallbackOnly = !details.timeline.length && !details.teamStats.length && !details.lineups.length;
-  if (hasFallbackOnly) return { type: "game", path, status: "warn", message: "Página abre com fallback da grade/cache; fonte detalhada ainda não entregou dados completos." };
-  return { type: "game", path, status: "ok", message: "Página de evento resolve com detalhes." };
+  if (hasFallbackOnly) return { type: "game", path, status: "warn", message: "Fallback page active: schedule/cache data is available; detailed source has not published full stats yet." };
+  return { type: "game", path, status: "ok", message: "Event page resolves with detailed data." };
 }
 
 function articlePaths(payload: Awaited<ReturnType<typeof getCachedLivePayload>>) {
