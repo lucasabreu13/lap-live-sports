@@ -7,6 +7,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const articles = await getPublishedEditorialArticles(48).catch(() => []);
   return [
     { url: `${base}/`, changeFrequency: "always", priority: 1 },
+    { url: `${base}/ao-vivo`, changeFrequency: "always", priority: 0.98 },
     { url: `${base}/copa-2026`, changeFrequency: "hourly", priority: 0.95 },
     { url: `${base}/agenda`, changeFrequency: "hourly", priority: 0.9 },
     { url: `${base}/favoritos`, changeFrequency: "weekly", priority: 0.4 },

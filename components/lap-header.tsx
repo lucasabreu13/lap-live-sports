@@ -169,6 +169,7 @@ export function LapHeader({ activeSport = "todos", onRefresh, isRefreshing = fal
       <nav className="sport-nav" aria-label="Modalidades esportivas">
         <div className="shell sport-nav__inside">
           <Link href="/copa-2026" className="world-cup-nav">🏆 Copa 2026</Link>
+          <Link href="/ao-vivo" className="sport-nav__agenda">Ao Vivo</Link>
           <Link href="/agenda" className="sport-nav__agenda">Agenda</Link>
           <Link href="/" className={activeSport === "todos" ? "active" : ""}>Todos</Link>
           {SPORTS.map((sport) => <Link href={`/modalidades/${sport.id}`} className={activeSport === sport.id ? "active" : ""} key={sport.id}>{sport.icon} {sport.name}</Link>)}
