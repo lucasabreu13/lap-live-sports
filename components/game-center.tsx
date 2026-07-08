@@ -89,6 +89,39 @@ function summaryIntro(details: GameDetails, worldCup: boolean) {
   return `${eventTitle(event)} está na agenda da ${competition}. Antes do início, a LAP concentra horário, local, transmissão, favoritos, escalações e dados oficiais assim que forem publicados.`;
 }
 
+function phasePlan(details: GameDetails) {
+  const event = details.event;
+  const experience = sportExperience(event.sportId);
+  if (event.state === "in") {
+    return {
+      title: "Acompanhar agora",
+      items: [
+        `Seguir ${experience.timelineTitle.toLowerCase()} com lances confirmados pela fonte.`,
+        "Conferir estatísticas e mudanças de placar sem dado inventado.",
+        `Abrir ${experience.lineupsTitle.toLowerCase()} para ver participantes, titulares, banco ou equivalentes da modalidade.`,
+      ],
+    };
+  }
+  if (event.state === "post") {
+    return {
+      title: "Depois do jogo",
+      items: [
+        "Revisar placar final e status oficial da partida.",
+        "Consultar estatísticas finais quando o boxscore estiver consolidado.",
+        "Usar a linha do tempo para entender os principais eventos do jogo.",
+      ],
+    };
+  }
+  return {
+    title: "Antes do jogo",
+    items: [
+      "Confirmar horário, local e transmissão assim que a fonte publicar.",
+      `Acompanhar ${experience.lineupsTitle.toLowerCase()} quando a lista oficial sair.`,
+      "Favoritar este evento para receber alertas quando houver atualização real.",
+    ],
+  };
+}
+
 function factCards(details: GameDetails, worldCup: boolean) {
   const { event } = details;
   return [
@@ -98,6 +131,17 @@ function factCards(details: GameDetails, worldCup: boolean) {
     { label: "Transmissão", value: event.broadcast || "Transmissão não confirmada", hint: event.broadcast ? "Canal/streaming informado pela fonte" : "Aparece aqui quando a fonte publicar TV ou streaming" },
     { label: "Local", value: event.venue || "Local não informado", hint: event.venue ? "Informação da fonte" : "Estádio, arena ou circuito ainda indisponível" },
     { label: "Atualização", value: formattedUpdate(details.generatedAt), hint: event.state === "in" ? "Polling a cada 15s nesta tela" : "Polling a cada 30s nesta tela" },
+  ];
+}
+
+function coverageCards(details: GameDetails) {
+  const experience = sportExperience(details.event.sportId);
+  return [
+    { label: "Transmissão", available: Boolean(details.event.broadcast), value: details.event.broadcast || "Pendente", hint: details.event.broadcast ? "Canal/streaming recebido" : "Aguardando TV ou streaming da fonte" },
+    { label: experience.timelineTitle, available: details.timeline.length > 0, value: details.timeline.length ? `${details.timeline.length} eventos` : "Pendente", hint: details.timeline.length ? "Eventos do jogo carregados" : "Aguardando play-by-play" },
+    { label: "Estatísticas", available: details.teamStats.length > 0, value: details.teamStats.length ? `${details.teamStats.length} blocos` : "Pendente", hint: details.teamStats.length ? "Boxscore disponível" : "Aguardando estatísticas" },
+    { label: experience.lineupsTitle, available: details.lineups.length > 0, value: details.lineups.length ? `${details.lineups.length} listas` : "Pendente", hint: details.lineups.length ? "Participantes carregados" : "Aguardando lista oficial" },
+    { label: "Integridade", available: details.event.integrity === "verified", value: details.event.integrity === "verified" ? "Verificado" : "Reconciliação", hint: details.event.integrity === "verified" ? "Placar liberado para exibição" : "A LAP preserva dados até reconciliar" },
   ];
 }
 
@@ -124,40 +168,19 @@ function timelineKind(item: GameTimelineItem) {
 
 function splitLineup(lineup: GameLineup, experience: SportExperience) {
   const uniquePlayers = [...new Set(lineup.players.filter(Boolean))];
-  if (!experience.startLimit || uniquePlayers.length <= experience.startLimit) {
-    return { starters: uniquePlayers, bench: [] };
-  }
-  return {
-    starters: uniquePlayers.slice(0, experience.startLimit),
-    bench: uniquePlayers.slice(experience.startLimit),
-  };
+  if (!experience.startLimit || uniquePlayers.length <= experience.startLimit) return { starters: uniquePlayers, bench: [] };
+  return { starters: uniquePlayers.slice(0, experience.startLimit), bench: uniquePlayers.slice(experience.startLimit) };
 }
 
 function LineupCard({ lineup, experience }: { lineup: GameLineup; experience: SportExperience }) {
   const { starters, bench } = splitLineup(lineup, experience);
   return (
     <article className={styles.lineupCard}>
-      <header>
-        <div>
-          <p>Equipe</p>
-          <h3>{lineup.team}</h3>
-        </div>
-        <span>{starters.length + bench.length}</span>
-      </header>
-      <div className={styles.formationBox}>
-        <p>{experience.formationLabel}</p>
-        <strong>Não informada pela fonte</strong>
-        <span>A LAP não inventa formação. Quando o provedor entregar, ela entra aqui.</span>
-      </div>
+      <header><div><p>Equipe</p><h3>{lineup.team}</h3></div><span>{starters.length + bench.length}</span></header>
+      <div className={styles.formationBox}><p>{experience.formationLabel}</p><strong>Não informada pela fonte</strong><span>A LAP não inventa formação. Quando o provedor entregar, ela entra aqui.</span></div>
       <div className={styles.lineupColumns}>
-        <section>
-          <h4>{experience.startersLabel}</h4>
-          {starters.length ? <ol>{starters.map((player) => <li key={`${lineup.team}-starter-${player}`}>{player}</li>)}</ol> : <p>Não informado.</p>}
-        </section>
-        <section>
-          <h4>{experience.benchLabel}</h4>
-          {bench.length ? <ol>{bench.map((player) => <li key={`${lineup.team}-bench-${player}`}>{player}</li>)}</ol> : <p>Banco ou lista complementar ainda não informada.</p>}
-        </section>
+        <section><h4>{experience.startersLabel}</h4>{starters.length ? <ol>{starters.map((player) => <li key={`${lineup.team}-starter-${player}`}>{player}</li>)}</ol> : <p>Não informado.</p>}</section>
+        <section><h4>{experience.benchLabel}</h4>{bench.length ? <ol>{bench.map((player) => <li key={`${lineup.team}-bench-${player}`}>{player}</li>)}</ol> : <p>Banco ou lista complementar ainda não informada.</p>}</section>
       </div>
     </article>
   );
@@ -167,23 +190,18 @@ function GameSummary({ details, worldCup }: { details: GameDetails; worldCup: bo
   const reconciling = reconciliationMessage(details.event);
   const experience = sportExperience(details.event.sportId);
   const cards = factCards(details, worldCup);
+  const coverage = coverageCards(details);
+  const plan = phasePlan(details);
   return (
     <section className="game-panel game-panel--summary">
       {reconciling && <div className="game-integrity-panel"><p>Verificação de dados</p><strong>Em reconciliação</strong><span>{reconciling}</span></div>}
-      <div className={styles.summaryLead}>
-        <p>{experience.eventLabel} · {experience.participantLabel}</p>
-        <h2>Resumo completo</h2>
-        <span>{summaryIntro(details, worldCup)}</span>
+      <div className={styles.summaryLead}><p>{experience.eventLabel} · {experience.participantLabel}</p><h2>Resumo completo</h2><span>{summaryIntro(details, worldCup)}</span></div>
+      <div className={styles.summaryGrid}>{cards.map((card) => <article key={card.label}><p>{card.label}</p><h3>{card.value}</h3><span>{card.hint}</span></article>)}</div>
+      <div className={styles.coverageBlock}>
+        <div className={styles.coverageIntro}><p>Cobertura dos dados</p><h3>O que a fonte já entregou</h3><span>A LAP mostra cada bloco conforme a fonte disponibiliza. Informação ausente fica marcada como pendente, sem preencher dado falso.</span></div>
+        <div className={styles.coverageGrid}>{coverage.map((item) => <article key={item.label} className={`${styles.coverageItem} ${item.available ? styles.coverageAvailable : ""}`}><p>{item.label}</p><strong>{item.value}</strong><span>{item.hint}</span></article>)}</div>
       </div>
-      <div className={styles.summaryGrid}>
-        {cards.map((card) => (
-          <article key={card.label}>
-            <p>{card.label}</p>
-            <h3>{card.value}</h3>
-            <span>{card.hint}</span>
-          </article>
-        ))}
-      </div>
+      <div className={styles.phaseBlock}><p>{plan.title}</p><ul>{plan.items.map((item) => <li key={item}>{item}</li>)}</ul></div>
       {details.headlines.length ? <div className={styles.focusBlock}><p>Contexto LAP</p><h3>O que está em foco</h3><ul>{details.headlines.map((headline) => <li key={headline}>{headline}</li>)}</ul></div> : null}
       {details.notes.length ? <div className={styles.infoBlock}><p>Informações da fonte</p><ul>{details.notes.map((note) => <li key={note}>{note}</li>)}</ul></div> : null}
     </section>
@@ -192,60 +210,16 @@ function GameSummary({ details, worldCup }: { details: GameDetails; worldCup: bo
 
 function GameTimeline({ details }: { details: GameDetails }) {
   const experience = sportExperience(details.event.sportId);
-  return (
-    <section className="game-panel">
-      <div className={styles.panelHeader}>
-        <p>{experience.eventLabel}</p>
-        <h2>{experience.timelineTitle}</h2>
-        <span>Eventos confirmados entram em ordem cronológica reversa, sem lance inventado.</span>
-      </div>
-      {details.timeline.length ? (
-        <ol className={styles.timelineList}>
-          {details.timeline.map((item) => (
-            <li key={item.id} className={item.scoring ? styles.timelineScore : undefined}>
-              <div className={styles.timelineStamp}>
-                <strong>{item.clock || "•"}</strong>
-                <span>{item.period ? `Período ${item.period}` : "Atualização"}</span>
-              </div>
-              <div className={styles.timelineIcon} aria-hidden>{timelineIcon(item)}</div>
-              <div className={styles.timelineBody}>
-                <div><span>{timelineKind(item)}</span>{item.team && <small>{item.team}</small>}</div>
-                <p>{item.text}</p>
-              </div>
-              {item.homeScore !== null && item.awayScore !== null && <strong className={styles.timelineScoreline}>{item.homeScore} × {item.awayScore}</strong>}
-            </li>
-          ))}
-        </ol>
-      ) : <p className="game-panel__empty">{experience.timelineEmpty}</p>}
-    </section>
-  );
+  return <section className="game-panel"><div className={styles.panelHeader}><p>{experience.eventLabel}</p><h2>{experience.timelineTitle}</h2><span>Eventos confirmados entram em ordem cronológica reversa, sem lance inventado.</span></div>{details.timeline.length ? <ol className={styles.timelineList}>{details.timeline.map((item) => <li key={item.id} className={item.scoring ? styles.timelineScore : undefined}><div className={styles.timelineStamp}><strong>{item.clock || "•"}</strong><span>{item.period ? `Período ${item.period}` : "Atualização"}</span></div><div className={styles.timelineIcon} aria-hidden>{timelineIcon(item)}</div><div className={styles.timelineBody}><div><span>{timelineKind(item)}</span>{item.team && <small>{item.team}</small>}</div><p>{item.text}</p></div>{item.homeScore !== null && item.awayScore !== null && <strong className={styles.timelineScoreline}>{item.homeScore} × {item.awayScore}</strong>}</li>)}</ol> : <p className="game-panel__empty">{experience.timelineEmpty}</p>}</section>;
 }
 
 function GameStats({ details }: { details: GameDetails }) {
-  return (
-    <section className="game-panel">
-      <div className={styles.panelHeader}>
-        <p>Boxscore</p>
-        <h2>Estatísticas</h2>
-        <span>Somente números publicados pela fonte são exibidos.</span>
-      </div>
-      {details.teamStats.length ? <div className="game-stats">{details.teamStats.map((team) => <article className="game-stats__team" key={team.team}><header>{team.logo && <img src={team.logo} alt="" width="28" height="28" />}<h3>{team.team}</h3></header><dl>{team.stats.map((stat) => <div key={`${team.team}-${stat.label}`}><dt>{stat.label}</dt><dd>{stat.value}</dd></div>)}</dl></article>)}</div> : <p className="game-panel__empty">As estatísticas desta partida ainda não foram disponibilizadas.</p>}
-    </section>
-  );
+  return <section className="game-panel"><div className={styles.panelHeader}><p>Boxscore</p><h2>Estatísticas</h2><span>Somente números publicados pela fonte são exibidos.</span></div>{details.teamStats.length ? <div className="game-stats">{details.teamStats.map((team) => <article className="game-stats__team" key={team.team}><header>{team.logo && <img src={team.logo} alt="" width="28" height="28" />}<h3>{team.team}</h3></header><dl>{team.stats.map((stat) => <div key={`${team.team}-${stat.label}`}><dt>{stat.label}</dt><dd>{stat.value}</dd></div>)}</dl></article>)}</div> : <p className="game-panel__empty">As estatísticas desta partida ainda não foram disponibilizadas.</p>}</section>;
 }
 
 function GameLineups({ details }: { details: GameDetails }) {
   const experience = sportExperience(details.event.sportId);
-  return (
-    <section className="game-panel">
-      <div className={styles.panelHeader}>
-        <p>{experience.participantLabel}</p>
-        <h2>{experience.lineupsTitle}</h2>
-        <span>Estrutura universal por modalidade: titulares, banco, grid, card, leaderboard ou participantes conforme o esporte.</span>
-      </div>
-      {details.lineups.length ? <div className={styles.lineupsGrid}>{details.lineups.map((team) => <LineupCard key={team.team} lineup={team} experience={experience} />)}</div> : <p className="game-panel__empty">{experience.lineupsEmpty}</p>}
-    </section>
-  );
+  return <section className="game-panel"><div className={styles.panelHeader}><p>{experience.participantLabel}</p><h2>{experience.lineupsTitle}</h2><span>Estrutura universal por modalidade: titulares, banco, grid, card, leaderboard ou participantes conforme o esporte.</span></div>{details.lineups.length ? <div className={styles.lineupsGrid}>{details.lineups.map((team) => <LineupCard key={team.team} lineup={team} experience={experience} />)}</div> : <p className="game-panel__empty">{experience.lineupsEmpty}</p>}</section>;
 }
 
 function GameTabContent({ details, tab, worldCup }: { details: GameDetails; tab: Tab; worldCup: boolean }) {
@@ -293,9 +267,7 @@ export function GameCenter({ initialDetails, worldCup }: { initialDetails: GameD
     return () => source.close();
   }, [event.id]);
 
-  const tabs = useMemo(() => [
-    ["resumo", "Resumo"], ["linha", "Linha do tempo"], ["estatisticas", "Estatísticas"], ["escalacoes", sportExperience(event.sportId).lineupsTitle],
-  ] as Array<[Tab, string]>, [event.sportId]);
+  const tabs = useMemo(() => [["resumo", "Resumo"], ["linha", "Linha do tempo"], ["estatisticas", "Estatísticas"], ["escalacoes", sportExperience(event.sportId).lineupsTitle]] as Array<[Tab, string]>, [event.sportId]);
 
   return (
     <main>
@@ -308,13 +280,7 @@ export function GameCenter({ initialDetails, worldCup }: { initialDetails: GameD
           <div className="scoreboard-hero"><article><img src={event.home.logo || "/icons/lap-icon.svg"} alt="" width="72" height="72"/><h1>{event.home.name}</h1>{event.home.record && <p>{event.home.record}</p>}</article><div className="scoreboard-hero__score"><strong className={showScore ? "" : "scoreboard-hero__score--pending"}>{showScore ? <>{displayScoreValue(event, "home")}<span>{scoreSeparator(event)}</span>{displayScoreValue(event, "away")}</> : <span>{scoreSeparator(event)}</span>}</strong>{(showScore && event.state === "post" ? event.status : eventDate) && <p>{showScore && event.state === "post" ? event.status : eventDate}</p>}</div><article><img src={event.away.logo || "/icons/lap-icon.svg"} alt="" width="72" height="72"/><h1>{event.away.name}</h1>{event.away.record && <p>{event.away.record}</p>}</article></div>
           {reconciling && <div className="game-integrity-panel game-integrity-panel--hero"><p>Verificação de dados</p><strong>Em reconciliação</strong><span>{reconciling}</span></div>}
           <div className="game-hero__footer"><span>{updateLabel}</span><button className="refresh-button" type="button" onClick={() => void refresh()} disabled={refreshing}>{refreshing ? "Atualizando" : "Atualizar jogo"}</button></div>
-          <section className="game-snapshot" aria-label="Resumo operacional da partida">
-            <article><p>Status</p><strong>{phase(event)}</strong><span>{event.status}</span></article>
-            {event.venue && <article><p>Local</p><strong>{event.venue}</strong><span>Informação fornecida pela fonte</span></article>}
-            <article><p>Transmissão</p><strong>{event.broadcast || "Não confirmada"}</strong><span>{event.broadcast ? "Canal/streaming publicado" : "TV ou streaming entram quando a fonte publicar"}</span></article>
-            <article><p>Atualização</p><strong>{updateLabel}</strong><span>{event.state === "in" ? "Polling a cada 15s" : "Polling a cada 30s"}</span></article>
-            <Link href="/agenda" className="game-snapshot__link">Ver agenda →</Link>
-          </section>
+          <section className="game-snapshot" aria-label="Resumo operacional da partida"><article><p>Status</p><strong>{phase(event)}</strong><span>{event.status}</span></article>{event.venue && <article><p>Local</p><strong>{event.venue}</strong><span>Informação fornecida pela fonte</span></article>}<article><p>Transmissão</p><strong>{event.broadcast || "Não confirmada"}</strong><span>{event.broadcast ? "Canal/streaming publicado" : "TV ou streaming entram quando a fonte publicar"}</span></article><article><p>Atualização</p><strong>{updateLabel}</strong><span>{event.state === "in" ? "Polling a cada 15s" : "Polling a cada 30s"}</span></article><Link href="/agenda" className="game-snapshot__link">Ver agenda →</Link></section>
         </section>
         <div className="game-tabs" role="tablist" aria-label="Dados da partida">{tabs.map(([id, label]) => <button key={id} type="button" role="tab" aria-selected={tab === id} className={tab === id ? "active" : ""} onClick={() => setTab(id)}>{label}</button>)}</div>
         <GameTabContent details={details} tab={tab} worldCup={worldCup} />
