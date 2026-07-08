@@ -5,7 +5,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { EventCard, eventHref } from "@/components/event-card";
 import { HomeExplore } from "@/components/home-explore";
 import { LapHeader, SportFavoriteButton } from "@/components/lap-header";
-import { readFavorites, readNotificationPreferences, subscribeFavorites, toggleFavorite } from "@/lib/client-preferences";
+import { readFavorites, subscribeFavorites, toggleFavorite } from "@/lib/client-preferences";
 import { SPORTS, type LivePayload, type NewsItem, type ScoreItem, type SportFeed, type SportId } from "@/lib/live-data";
 import { applyScorePatchWithIntegrity, canDisplayScore, displayScoreValue, reconciliationMessage, scoreSeparator } from "@/lib/score-integrity";
 
@@ -14,7 +14,6 @@ type LapDashboardProps = { initialSport?: SportId | "todos" };
 type LiveTab = "live" | "next" | "finished";
 
 const ONBOARDING_KEY = "lap:onboarding:v1";
-const NOTIFICATION_DEDUP_KEY = "lap:notification-dedup:v1";
 
 function relativeTime(dateValue: string | null) {
   if (!dateValue) return "Agora";
@@ -69,19 +68,6 @@ function sameLocalDay(dateValue: string | null, now: number) {
   return eventDate.toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" }) === today.toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" });
 }
 
-function gameLabel(score: ScoreItem) {
-  return score.eventKind === "race" ? `${score.home.name} · Fórmula 1` : `${score.home.name} x ${score.away.name}`;
-}
-
-function matchFavoriteScore(score: ScoreItem, favorites = readFavorites()) {
-  return favorites.some((item) => {
-    if (item.id === `event:${score.sportId}:${score.id}`) return true;
-    if (item.id === `sport:${score.sportId}`) return true;
-    if (score.competitionId && item.id === `league:${score.competitionId}`) return true;
-    return item.type === "team" && `${score.home.name} ${score.away.name}`.toLowerCase().includes(item.label.toLowerCase());
-  });
-}
-
 function statusText(score: ScoreItem) {
   if (score.integrity === "reconciling") return "Em reconciliação";
   const raw = score.status || "";
@@ -89,24 +75,6 @@ function statusText(score: ScoreItem) {
   if (score.state === "post") return raw || "Encerrado";
   if (/postponed|adiad/i.test(raw)) return "Adiado";
   return score.startTime ? localTime(score.startTime) : "Sem horário publicado";
-}
-
-function readNotificationDedupe() {
-  if (typeof window === "undefined") return new Set<string>();
-  try {
-    const parsed = JSON.parse(window.localStorage.getItem(NOTIFICATION_DEDUP_KEY) || "[]") as string[];
-    return new Set(Array.isArray(parsed) ? parsed : []);
-  } catch {
-    return new Set<string>();
-  }
-}
-
-function notifyOnce(key: string, title: string, body: string) {
-  const seen = readNotificationDedupe();
-  if (seen.has(key)) return;
-  seen.add(key);
-  window.localStorage.setItem(NOTIFICATION_DEDUP_KEY, JSON.stringify([...seen].slice(-80)));
-  new Notification(title, { body, tag: key });
 }
 
 function NewsCard({ item, large = false }: { item: NewsItem; large?: boolean }) {
@@ -389,48 +357,6 @@ function applyScorePatch(payload: LivePayload, patch: { eventId: string; sportId
   return { ...payload, generatedAt: patch.occurredAt || new Date().toISOString(), feeds: payload.feeds.map((feed) => ({ ...feed, scores: feed.scores.map(patchItem) })), worldCup: { ...payload.worldCup, events: payload.worldCup.events.map(patchItem) } };
 }
 
-function useLiveNotifications(payload: LivePayload | null) {
-  const previous = useRef<LivePayload | null>(null);
-  useEffect(() => {
-    if (!payload) return;
-    const prior = previous.current;
-    previous.current = payload;
-    if (!("Notification" in window) || Notification.permission !== "granted") return;
-    const preferences = readNotificationPreferences();
-    if (!preferences.enabled) return;
-    const favorites = readFavorites();
-    const current = [...payload.worldCup.events, ...payload.feeds.flatMap((feed) => feed.scores)];
-
-    for (const score of current) {
-      const favorite = matchFavoriteScore(score, favorites);
-      if (preferences.favoriteOnly && !favorite) continue;
-      if (score.state === "pre" && score.startTime) {
-        const startsIn = new Date(score.startTime).getTime() - Date.now();
-        if (startsIn >= 0 && startsIn <= 30 * 60_000) {
-          notifyOnce(`lap-soon-${score.sportId}-${score.id}-${score.startTime}`, `LAP · ${gameLabel(score)} em 30 minutos`, `${score.league} · ${dateAndTime(score.startTime)}`);
-        }
-      }
-    }
-
-    if (!prior) return;
-    const priorScores = new Map([...prior.worldCup.events, ...prior.feeds.flatMap((feed) => feed.scores)].map((score) => [`${score.sportId}:${score.id}`, score]));
-    for (const score of current) {
-      const old = priorScores.get(`${score.sportId}:${score.id}`);
-      if (!old) continue;
-      const changed = old.home.score !== score.home.score || old.away.score !== score.away.score || old.state !== score.state;
-      const favorite = matchFavoriteScore(score, favorites);
-      if (changed && (!preferences.favoriteOnly || favorite) && (score.state !== "in" || canDisplayScore(score))) {
-        const title =
-          old.state !== "in" && score.state === "in" ? `LAP · Começou: ${gameLabel(score)}` :
-          old.state !== "post" && score.state === "post" ? `LAP · Encerrado: ${gameLabel(score)}` :
-          old.home.score !== score.home.score || old.away.score !== score.away.score ? `LAP · Placar mudou: ${gameLabel(score)}` :
-          `LAP · Atualização: ${gameLabel(score)}`;
-        notifyOnce(`lap-change-${score.sportId}-${score.id}-${score.state}-${score.home.score}-${score.away.score}`, title, score.status);
-      }
-    }
-  }, [payload]);
-}
-
 export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
   const [data, setData] = useState<LivePayload | null>(null);
   const [status, setStatus] = useState<FeedState>("loading");
@@ -488,8 +414,6 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
     });
     return () => source.close();
   }, []);
-
-  useLiveNotifications(data);
 
   const feedsWithEditorial = useMemo(() => data ? data.feeds.map((feed) => ({ ...feed, news: [...data.editorial.filter((article) => article.sportId === feed.id), ...feed.news] })) : [], [data]);
   const allScores = useMemo(() => feedsWithEditorial.flatMap((feed) => feed.scores), [feedsWithEditorial]);

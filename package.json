@@ -8,17 +8,20 @@
     "start": "next start",
     "lint": "tsc --noEmit",
     "typecheck": "tsc --noEmit",
-    "test:integrity": "tsx --test tests/score-integrity.test.ts"
+    "test:integrity": "tsx --test tests/score-integrity.test.ts",
+    "test:push": "tsx --test tests/push-alerts.test.ts"
   },
   "dependencies": {
     "next": "^16.0.0",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "web-push": "^3.6.7"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
+    "@types/web-push": "^3.6.4",
     "tsx": "^4.23.0",
     "typescript": "^5.7.2"
   },
