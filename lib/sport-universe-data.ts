@@ -69,15 +69,6 @@ function sortEvents(events: ScoreItem[]) {
   });
 }
 
-function dateRange(daysBack: number, daysAhead: number) {
-  const start = new Date();
-  const end = new Date();
-  start.setUTCDate(start.getUTCDate() - daysBack);
-  end.setUTCDate(end.getUTCDate() + daysAhead);
-  const compact = (date: Date) => date.toISOString().slice(0, 10).replace(/-/g, "");
-  return `${compact(start)}-${compact(end)}`;
-}
-
 const nbaTeams: SportHubItem[] = [
   "Celtics", "Nets", "Knicks", "76ers", "Raptors", "Bulls", "Cavaliers", "Pistons", "Pacers", "Bucks", "Hawks", "Hornets", "Heat", "Magic", "Wizards", "Nuggets", "Timberwolves", "Thunder", "Trail Blazers", "Jazz", "Warriors", "Clippers", "Lakers", "Suns", "Kings", "Mavericks", "Rockets", "Grizzlies", "Pelicans", "Spurs",
 ].map((title) => ({ title, meta: "NBA", value: "time" }));
@@ -207,7 +198,8 @@ function fallbackConfig(sport: SportDefinition): HubConfig {
 
 function parsePgaExtras(json: unknown) {
   const root = asRecord(json);
-  const calendar = asArray<AnyRecord>(asArray<AnyRecord>(root.leagues)[0]?.calendar)
+  const league = asArray<AnyRecord>(root.leagues)[0];
+  const calendar = asArray<AnyRecord>(asRecord(league).calendar)
     .map((item) => ({ title: asText(item.label), meta: `${asText(item.startDate).slice(0, 10)} → ${asText(item.endDate).slice(0, 10)}`, value: "PGA" }))
     .filter((item) => item.title)
     .slice(0, 8);
@@ -218,12 +210,14 @@ function parsePgaExtras(json: unknown) {
     .slice(0, 12)
     .map((competitor) => {
       const athlete = asRecord(competitor.athlete);
+      const rank = asRecord(competitor.curatedRank);
       return {
         title: asText(athlete.displayName, asText(athlete.fullName, "Jogador")),
-        meta: asText(currentEvent?.name, "PGA Tour"),
-        value: asText(competitor.score, asText(competitor.curatedRank?.current, "—")),
+        meta: asText(asRecord(currentEvent).name, "PGA Tour"),
+        value: asText(competitor.score, asText(rank.current, "—")),
       };
-    });
+    })
+    .filter((item) => item.title && item.title !== "Jogador");
   return { calendar, leaderboard };
 }
 
@@ -271,7 +265,6 @@ export async function getSportUniverseDetails(sportId: SportId): Promise<SportUn
     .slice(0, 8);
   const live = events.filter((event) => event.state === "in").length;
   const upcoming = events.filter((event) => event.state === "pre").length;
-  const recent = events.filter((event) => event.state === "post").length;
 
   return {
     sport,
