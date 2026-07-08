@@ -1,5 +1,6 @@
 import { createHash } from "node:crypto";
-import { getGameDetails, getLivePayload, type ScoreItem } from "@/lib/live-data";
+import { getCachedLivePayload } from "@/lib/free-live-data";
+import { getGameDetails, type ScoreItem } from "@/lib/live-data";
 import {
   disablePushSubscription,
   listActivePushSubscriptions,
@@ -143,15 +144,7 @@ export function buildPushAlertsForScore(score: ScoreItem, previous: LiveEventSna
   const url = eventUrl(score);
   const alerts: PushAlert[] = [];
   const push = (eventType: PushAlertType, title: string, body: string, hashSeed: unknown) => {
-    alerts.push({
-      eventKey,
-      eventType,
-      eventHash: hashValue(hashSeed),
-      preferenceKey: preferenceKeyForType(eventType),
-      title,
-      body,
-      url,
-    });
+    alerts.push({ eventKey, eventType, eventHash: hashValue(hashSeed), preferenceKey: preferenceKeyForType(eventType), title, body, url });
   };
 
   if (score.state === "pre" && score.startTime) {
@@ -161,32 +154,17 @@ export function buildPushAlertsForScore(score: ScoreItem, previous: LiveEventSna
     }
   }
 
-  if (previous && previous.state !== "in" && score.state === "in") {
-    push("start", "LAP · A bola rolou", eventLabel(score), ["start", score.state, score.status]);
-  }
+  if (previous && previous.state !== "in" && score.state === "in") push("start", "LAP · A bola rolou", eventLabel(score), ["start", score.state, score.status]);
 
   if (previous && score.state === "in" && canDisplayScore(score)) {
     const changedScore = previous.homeScore !== scoreValue(score.home.score) || previous.awayScore !== scoreValue(score.away.score);
-    if (changedScore && previous.homeScore !== null && previous.awayScore !== null) {
-      push("score", scoringTitle(score, previous), scoreLine(score), ["score", score.home.score, score.away.score, score.status]);
-    }
+    if (changedScore && previous.homeScore !== null && previous.awayScore !== null) push("score", scoringTitle(score, previous), scoreLine(score), ["score", score.home.score, score.away.score, score.status]);
   }
 
-  if (previous && score.state === "in" && isHalftimeStatus(score.status) && !isHalftimeStatus(previous.status)) {
-    push("halftime", "LAP · Intervalo", scoreLine(score), ["halftime", score.status, score.home.score, score.away.score]);
-  }
-
-  if (previous && score.state === "in" && isHalftimeStatus(previous.status) && !isHalftimeStatus(score.status)) {
-    push("resume", "LAP · Jogo retomado", scoreLine(score), ["resume", score.status, score.home.score, score.away.score]);
-  }
-
-  if (previous && previous.state !== "post" && score.state === "post" && canDisplayScore(score)) {
-    push("final", "LAP · Fim de jogo", `${score.home.name} ${score.home.score} × ${score.away.score} ${score.away.name} · placar final`, ["final", score.home.score, score.away.score]);
-  }
-
-  if (previous && lineupHash && previous.lineupHash !== lineupHash) {
-    push("lineup", "LAP · Escalações confirmadas", `${eventLabel(score)} · veja os titulares`, ["lineup", lineupHash]);
-  }
+  if (previous && score.state === "in" && isHalftimeStatus(score.status) && !isHalftimeStatus(previous.status)) push("halftime", "LAP · Intervalo", scoreLine(score), ["halftime", score.status, score.home.score, score.away.score]);
+  if (previous && score.state === "in" && isHalftimeStatus(previous.status) && !isHalftimeStatus(score.status)) push("resume", "LAP · Jogo retomado", scoreLine(score), ["resume", score.status, score.home.score, score.away.score]);
+  if (previous && previous.state !== "post" && score.state === "post" && canDisplayScore(score)) push("final", "LAP · Fim de jogo", `${score.home.name} ${score.home.score} × ${score.away.score} ${score.away.name} · placar final`, ["final", score.home.score, score.away.score]);
+  if (previous && lineupHash && previous.lineupHash !== lineupHash) push("lineup", "LAP · Escalações confirmadas", `${eventLabel(score)} · veja os titulares`, ["lineup", lineupHash]);
 
   return alerts;
 }
@@ -197,9 +175,7 @@ function alertEnabled(preferences: PushPreferences, alert: PushAlert) {
 
 async function getLineupHashesForEventFavorites(events: ScoreItem[], subscriptions: PushSubscriptionRecord[]) {
   const eventFavoriteIds = new Set(subscriptions.flatMap((subscription) => subscription.favoriteIds.filter((id) => id.startsWith("event:"))));
-  const candidates = events
-    .filter((score) => score.integrity === "verified" && eventFavoriteIds.has(`event:${score.sportId}:${score.id}`) && (score.state === "pre" || score.state === "in"))
-    .slice(0, 12);
+  const candidates = events.filter((score) => score.integrity === "verified" && eventFavoriteIds.has(`event:${score.sportId}:${score.id}`) && (score.state === "pre" || score.state === "in")).slice(0, 12);
   const pairs = await Promise.all(candidates.map(async (score) => {
     const details = await getGameDetails(score.sportId, score.id, { worldCup: Boolean(score.isWorldCup) }).catch(() => null);
     if (!details?.lineups.length) return null;
@@ -211,26 +187,16 @@ async function getLineupHashesForEventFavorites(events: ScoreItem[], subscriptio
 export async function runPushMonitor(now = new Date()): Promise<PushMonitorResult> {
   if (!isWebPushConfigured()) throw new Error("VAPID não configurado.");
   const [payload, subscriptions, snapshots] = await Promise.all([
-    getLivePayload(),
+    getCachedLivePayload({ forceRefresh: true }),
     listActivePushSubscriptions(),
     listRecentEventSnapshots(),
   ]);
   const snapshotMap = new Map(snapshots.map((snapshot) => [snapshot.eventKey, snapshot]));
   const allEvents = [...payload.worldCup.events, ...payload.feeds.flatMap((feed) => feed.scores)];
-  const events = Array.from(new Map(allEvents.map((score) => [liveEventKey(score), score])).values())
-    .filter((score) => score.integrity === "verified");
+  const events = Array.from(new Map(allEvents.map((score) => [liveEventKey(score), score])).values()).filter((score) => score.integrity === "verified");
   const lineupHashes = await getLineupHashesForEventFavorites(events, subscriptions);
   const nextSnapshots: Array<Omit<LiveEventSnapshot, "updatedAt">> = [];
-  const result: PushMonitorResult = {
-    subscriptions: subscriptions.length,
-    events: events.length,
-    alerts: 0,
-    sent: 0,
-    skippedDuplicates: 0,
-    expired: 0,
-    failed: 0,
-    snapshots: 0,
-  };
+  const result: PushMonitorResult = { subscriptions: subscriptions.length, events: events.length, alerts: 0, sent: 0, skippedDuplicates: 0, expired: 0, failed: 0, snapshots: 0 };
 
   for (const score of events) {
     const eventKey = liveEventKey(score);
@@ -246,25 +212,9 @@ export async function runPushMonitor(now = new Date()): Promise<PushMonitorResul
       for (const alert of alerts) {
         if (!alertEnabled(subscription.preferences, alert)) continue;
         result.alerts += 1;
-        const reserved = await reservePushDelivery({
-          subscriptionId: subscription.id,
-          deviceId: subscription.deviceId,
-          eventKey: alert.eventKey,
-          eventType: alert.eventType,
-          eventHash: alert.eventHash,
-        });
-        if (!reserved) {
-          result.skippedDuplicates += 1;
-          continue;
-        }
-        const pushResult = await sendWebPush(subscription, {
-          title: alert.title,
-          body: alert.body,
-          url: alert.url,
-          tag: alertDeliveryKey(subscription.id, alert),
-          eventKey: alert.eventKey,
-          eventType: alert.eventType,
-        });
+        const reserved = await reservePushDelivery({ subscriptionId: subscription.id, deviceId: subscription.deviceId, eventKey: alert.eventKey, eventType: alert.eventType, eventHash: alert.eventHash });
+        if (!reserved) { result.skippedDuplicates += 1; continue; }
+        const pushResult = await sendWebPush(subscription, { title: alert.title, body: alert.body, url: alert.url, tag: alertDeliveryKey(subscription.id, alert), eventKey: alert.eventKey, eventType: alert.eventType });
         if (pushResult.ok) {
           result.sent += 1;
           await updatePushDeliveryStatus({ subscriptionId: subscription.id, eventKey: alert.eventKey, eventType: alert.eventType, eventHash: alert.eventHash, status: "sent" });
