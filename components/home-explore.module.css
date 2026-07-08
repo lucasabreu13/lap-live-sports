@@ -331,7 +331,13 @@
 }
 
 .pollOptions button:hover,
-.pollOptions button.active{
+.pollOptions .active{
+  border-color:var(--accent-deep);
+  background:#e9fbf8;
+  color:var(--accent-deep);
+}
+
+.active{
   border-color:var(--accent-deep);
   background:#e9fbf8;
   color:var(--accent-deep);
