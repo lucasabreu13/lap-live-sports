@@ -24,7 +24,9 @@ function DivisionCard({ division }: { division: NflDivision }) {
       <ul className={styles.teamList}>
         {division.teams.map((team) => (
           <li key={`${division.conference}-${division.division}-${team.abbr}`}>
-            <span className={styles.badge}>{team.abbr}</span>
+            <span className={styles.badge} aria-hidden="true">
+              <img src={team.logo} alt="" width="30" height="30" loading="lazy" />
+            </span>
             <span><strong>{team.city}</strong><span>{team.name}</span></span>
           </li>
         ))}
@@ -35,7 +37,6 @@ function DivisionCard({ division }: { division: NflDivision }) {
 
 export function NflCenter({ details }: { details: NflCenterDetails }) {
   const featured = details.live[0] || details.upcoming[0] || details.recent[0] || null;
-  const eventCount = details.live.length + details.upcoming.length + details.recent.length;
   const schedulePreview = [...details.live, ...details.upcoming, ...details.recent].slice(0, 8);
   const afc = details.divisions.filter((division) => division.conference === "AFC");
   const nfc = details.divisions.filter((division) => division.conference === "NFC");
