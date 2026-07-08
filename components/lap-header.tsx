@@ -52,10 +52,22 @@ function NotificationControl() {
     }).catch(() => undefined);
   }, []);
 
+  function normalizeVapidPublicKey(value: string) {
+    const cleaned = value
+      .trim()
+      .replace(/^NEXT_PUBLIC_VAPID_PUBLIC_KEY=/, "")
+      .replace(/^['\"]|['\"]$/g, "")
+      .replace(/\s/g, "");
+    if (!cleaned || !/^[A-Za-z0-9_-]+$/.test(cleaned)) throw new Error("VAPID público inválido na Vercel");
+    return cleaned;
+  }
+
   function vapidKeyToUint8Array(value: string) {
-    const padding = "=".repeat((4 - value.length % 4) % 4);
-    const base64 = (value + padding).replace(/-/g, "+").replace(/_/g, "/");
+    const cleaned = normalizeVapidPublicKey(value);
+    const padding = "=".repeat((4 - cleaned.length % 4) % 4);
+    const base64 = (cleaned + padding).replace(/-/g, "+").replace(/_/g, "/");
     const raw = window.atob(base64);
+    if (raw.length !== 65) throw new Error("VAPID público inválido na Vercel");
     return Uint8Array.from([...raw].map((character) => character.charCodeAt(0)));
   }
 
