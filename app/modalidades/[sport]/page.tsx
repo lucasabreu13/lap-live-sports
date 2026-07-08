@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { LapDashboard } from "@/components/lap-dashboard";
+import { FootballCenter } from "@/components/football-center";
 import { NflCenter } from "@/components/nfl-center";
+import { SportUniverseCenter } from "@/components/sport-universe-center";
+import { getFootballHubDetails } from "@/lib/football-hub-data";
 import { getNflCenterDetails } from "@/lib/nfl-data";
-import { SPORTS, type SportId } from "@/lib/live-data";
+import { getSportUniverseDetails } from "@/lib/sport-universe-data";
+import { SPORTS } from "@/lib/live-data";
 
 type PageProps = { params: Promise<{ sport: string }> };
 
@@ -27,10 +30,17 @@ export default async function SportPage({ params }: PageProps) {
   const selected = resolveSport(sport);
   if (!selected) notFound();
 
+  if (selected.id === "futebol") {
+    const details = await getFootballHubDetails();
+    return <FootballCenter details={details} />;
+  }
+
   if (selected.id === "futebol-americano") {
     const details = await getNflCenterDetails();
     return <NflCenter details={details} />;
   }
 
-  return <LapDashboard initialSport={selected.id as SportId} />;
+  const details = await getSportUniverseDetails(selected.id);
+  if (!details) notFound();
+  return <main><SportUniverseCenter details={details} /></main>;
 }
