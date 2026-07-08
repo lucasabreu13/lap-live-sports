@@ -4,6 +4,7 @@ import { withScoreIntegrity } from "@/lib/score-integrity";
 
 const ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports";
 const NFL_PATH = "football/nfl";
+const ESPN_NFL_LOGO_BASE = "https://a.espncdn.com/i/teamlogos/nfl/500";
 
 type AnyRecord = Record<string, unknown>;
 
@@ -11,6 +12,7 @@ export type NflTeam = {
   name: string;
   city: string;
   abbr: string;
+  logo: string;
 };
 
 export type NflDivision = {
@@ -28,54 +30,62 @@ export type NflCenterDetails = {
   generatedAt: string;
 };
 
+function nflLogo(slug: string) {
+  return `${ESPN_NFL_LOGO_BASE}/${slug.toLowerCase()}.png`;
+}
+
+function team(city: string, name: string, abbr: string, logoSlug = abbr) {
+  return { city, name, abbr, logo: nflLogo(logoSlug) } satisfies NflTeam;
+}
+
 export const NFL_DIVISIONS: NflDivision[] = [
   { conference: "AFC", division: "Leste", teams: [
-    { city: "Buffalo", name: "Bills", abbr: "BUF" },
-    { city: "Miami", name: "Dolphins", abbr: "MIA" },
-    { city: "New England", name: "Patriots", abbr: "NE" },
-    { city: "New York", name: "Jets", abbr: "NYJ" },
+    team("Buffalo", "Bills", "BUF"),
+    team("Miami", "Dolphins", "MIA"),
+    team("New England", "Patriots", "NE"),
+    team("New York", "Jets", "NYJ"),
   ] },
   { conference: "AFC", division: "Norte", teams: [
-    { city: "Baltimore", name: "Ravens", abbr: "BAL" },
-    { city: "Cincinnati", name: "Bengals", abbr: "CIN" },
-    { city: "Cleveland", name: "Browns", abbr: "CLE" },
-    { city: "Pittsburgh", name: "Steelers", abbr: "PIT" },
+    team("Baltimore", "Ravens", "BAL"),
+    team("Cincinnati", "Bengals", "CIN"),
+    team("Cleveland", "Browns", "CLE"),
+    team("Pittsburgh", "Steelers", "PIT"),
   ] },
   { conference: "AFC", division: "Sul", teams: [
-    { city: "Houston", name: "Texans", abbr: "HOU" },
-    { city: "Indianapolis", name: "Colts", abbr: "IND" },
-    { city: "Jacksonville", name: "Jaguars", abbr: "JAX" },
-    { city: "Tennessee", name: "Titans", abbr: "TEN" },
+    team("Houston", "Texans", "HOU"),
+    team("Indianapolis", "Colts", "IND"),
+    team("Jacksonville", "Jaguars", "JAX"),
+    team("Tennessee", "Titans", "TEN"),
   ] },
   { conference: "AFC", division: "Oeste", teams: [
-    { city: "Denver", name: "Broncos", abbr: "DEN" },
-    { city: "Kansas City", name: "Chiefs", abbr: "KC" },
-    { city: "Las Vegas", name: "Raiders", abbr: "LV" },
-    { city: "Los Angeles", name: "Chargers", abbr: "LAC" },
+    team("Denver", "Broncos", "DEN"),
+    team("Kansas City", "Chiefs", "KC"),
+    team("Las Vegas", "Raiders", "LV"),
+    team("Los Angeles", "Chargers", "LAC"),
   ] },
   { conference: "NFC", division: "Leste", teams: [
-    { city: "Dallas", name: "Cowboys", abbr: "DAL" },
-    { city: "New York", name: "Giants", abbr: "NYG" },
-    { city: "Philadelphia", name: "Eagles", abbr: "PHI" },
-    { city: "Washington", name: "Commanders", abbr: "WAS" },
+    team("Dallas", "Cowboys", "DAL"),
+    team("New York", "Giants", "NYG"),
+    team("Philadelphia", "Eagles", "PHI"),
+    team("Washington", "Commanders", "WAS", "WSH"),
   ] },
   { conference: "NFC", division: "Norte", teams: [
-    { city: "Chicago", name: "Bears", abbr: "CHI" },
-    { city: "Detroit", name: "Lions", abbr: "DET" },
-    { city: "Green Bay", name: "Packers", abbr: "GB" },
-    { city: "Minnesota", name: "Vikings", abbr: "MIN" },
+    team("Chicago", "Bears", "CHI"),
+    team("Detroit", "Lions", "DET"),
+    team("Green Bay", "Packers", "GB"),
+    team("Minnesota", "Vikings", "MIN"),
   ] },
   { conference: "NFC", division: "Sul", teams: [
-    { city: "Atlanta", name: "Falcons", abbr: "ATL" },
-    { city: "Carolina", name: "Panthers", abbr: "CAR" },
-    { city: "New Orleans", name: "Saints", abbr: "NO" },
-    { city: "Tampa Bay", name: "Buccaneers", abbr: "TB" },
+    team("Atlanta", "Falcons", "ATL"),
+    team("Carolina", "Panthers", "CAR"),
+    team("New Orleans", "Saints", "NO"),
+    team("Tampa Bay", "Buccaneers", "TB"),
   ] },
   { conference: "NFC", division: "Oeste", teams: [
-    { city: "Arizona", name: "Cardinals", abbr: "ARI" },
-    { city: "Los Angeles", name: "Rams", abbr: "LAR" },
-    { city: "San Francisco", name: "49ers", abbr: "SF" },
-    { city: "Seattle", name: "Seahawks", abbr: "SEA" },
+    team("Arizona", "Cardinals", "ARI"),
+    team("Los Angeles", "Rams", "LAR"),
+    team("San Francisco", "49ers", "SF"),
+    team("Seattle", "Seahawks", "SEA"),
   ] },
 ];
 
