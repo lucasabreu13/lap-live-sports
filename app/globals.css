@@ -358,6 +358,86 @@ body{
 }
 
 /* LAP_HOME_EDITORIAL_V2 */
+
+/* LAP_LIVE_INTEGRITY_V1 */
+.event-card--reconciling{
+  border-color:#ead69b;
+  background:#fffdf6;
+}
+
+.event-card__versus{
+  justify-self:center;
+  width:max-content;
+  margin:-2px auto;
+  padding:2px 7px;
+  background:#eef2f2;
+  color:var(--muted);
+  font-size:9px;
+  font-weight:950;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.event-card__integrity{
+  margin:9px 0 0;
+  padding:8px 9px;
+  background:#fff7df;
+  color:#795800;
+  font-size:11px;
+  font-weight:800;
+  line-height:1.35;
+}
+
+.team-line strong:empty{
+  display:none;
+}
+
+.scoreboard-hero__score strong.scoreboard-hero__score--pending{
+  justify-content:center;
+  letter-spacing:0;
+}
+
+.scoreboard-hero__score strong.scoreboard-hero__score--pending span{
+  color:var(--muted);
+  font-size:.62em;
+  letter-spacing:0;
+  text-transform:uppercase;
+}
+
+.game-integrity-panel{
+  display:grid;
+  gap:5px;
+  margin:0 0 18px;
+  padding:14px 16px;
+  border:1px solid #ead69b;
+  background:#fff7df;
+  color:#795800;
+}
+
+.game-integrity-panel--hero{
+  margin:0 0 14px;
+}
+
+.game-integrity-panel p{
+  margin:0;
+  color:#8d6100;
+  font-size:10px;
+  font-weight:950;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.game-integrity-panel strong{
+  color:#3d310c;
+  font-size:18px;
+  letter-spacing:-.03em;
+}
+
+.game-integrity-panel span{
+  color:#665b42;
+  font-size:13px;
+  line-height:1.4;
+}
 .home-explore{
   margin-top:28px;
   padding:22px;

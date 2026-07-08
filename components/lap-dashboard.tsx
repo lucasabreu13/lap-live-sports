@@ -7,6 +7,7 @@ import { HomeExplore } from "@/components/home-explore";
 import { LapHeader, SportFavoriteButton } from "@/components/lap-header";
 import { readFavorites, readNotificationPreferences, subscribeFavorites, toggleFavorite } from "@/lib/client-preferences";
 import { SPORTS, type LivePayload, type NewsItem, type ScoreItem, type SportFeed, type SportId } from "@/lib/live-data";
+import { applyScorePatchWithIntegrity, canDisplayScore, displayScoreValue, reconciliationMessage, scoreSeparator } from "@/lib/score-integrity";
 
 type FeedState = "loading" | "ready" | "error";
 type LapDashboardProps = { initialSport?: SportId | "todos" };
@@ -82,11 +83,12 @@ function matchFavoriteScore(score: ScoreItem, favorites = readFavorites()) {
 }
 
 function statusText(score: ScoreItem) {
+  if (score.integrity === "reconciling") return "Em reconciliação";
   const raw = score.status || "";
   if (score.state === "in") return raw || "Ao vivo";
   if (score.state === "post") return raw || "Encerrado";
   if (/postponed|adiad/i.test(raw)) return "Adiado";
-  return score.startTime ? localTime(score.startTime) : "Horário a confirmar";
+  return score.startTime ? localTime(score.startTime) : "Sem horário publicado";
 }
 
 function readNotificationDedupe() {
@@ -198,10 +200,17 @@ function FeaturedGameCard({ score }: { score: ScoreItem | null }) {
       </article>
     );
   }
-  const scoreLine = score.eventKind === "race" ? score.status : `${score.home.score ?? "—"} x ${score.away.score ?? "—"}`;
+  const showScore = canDisplayScore(score);
+  const reconciliation = reconciliationMessage(score);
+  const scoreLine = score.eventKind === "race"
+    ? score.status
+    : showScore
+      ? `${displayScoreValue(score, "home")} × ${displayScoreValue(score, "away")}`
+      : `${score.home.name} vs ${score.away.name}`;
   const recent = [
+    reconciliation,
     score.state === "in" ? score.status : null,
-    score.state === "pre" ? `Começa ${dateAndTime(score.startTime)}` : null,
+    score.state === "pre" && score.startTime ? `Começa ${dateAndTime(score.startTime)}` : null,
     score.state === "post" ? `Final: ${score.status}` : null,
     score.venue ? `Local: ${score.venue}` : null,
     score.broadcast ? `Transmissão: ${score.broadcast}` : null,
@@ -209,11 +218,11 @@ function FeaturedGameCard({ score }: { score: ScoreItem | null }) {
 
   return (
     <article className="live-feature">
-      <div className="live-feature__meta"><span className={score.state === "in" ? "live-label" : "status-label"}>{statusText(score)}</span><span>{score.league}</span></div>
+      <div className="live-feature__meta"><span className={score.state === "in" && !reconciliation ? "live-label" : "status-label"}>{statusText(score)}</span><span>{score.league}</span></div>
       <div className="live-feature__score">
-        <div><strong>{score.home.name}</strong><span>{score.home.score ?? "—"}</span></div>
-        <em>{score.eventKind === "race" ? "GP" : "x"}</em>
-        <div><strong>{score.away.name}</strong><span>{score.away.score ?? "—"}</span></div>
+        <div><strong>{score.home.name}</strong><span>{displayScoreValue(score, "home")}</span></div>
+        <em>{scoreSeparator(score)}</em>
+        <div><strong>{score.away.name}</strong><span>{displayScoreValue(score, "away")}</span></div>
       </div>
       <p>{scoreLine}</p>
       <ul>{recent.slice(0, 3).map((item) => <li key={item}>{item}</li>)}</ul>
@@ -371,8 +380,11 @@ function FavoritesOnboarding({ payload }: { payload: LivePayload | null }) {
 
 function applyScorePatch(payload: LivePayload, patch: { eventId: string; sportId?: SportId; state?: ScoreItem["state"]; status?: string; homeScore?: string | number | null; awayScore?: string | number | null; occurredAt?: string }): LivePayload {
   const patchItem = (score: ScoreItem) => {
-    if (score.id !== patch.eventId || (patch.sportId && score.sportId !== patch.sportId)) return score;
-    return { ...score, state: patch.state || score.state, status: patch.status || score.status, home: { ...score.home, score: patch.homeScore === undefined ? score.home.score : patch.homeScore === null ? null : String(patch.homeScore) }, away: { ...score.away, score: patch.awayScore === undefined ? score.away.score : patch.awayScore === null ? null : String(patch.awayScore) } };
+    return applyScorePatchWithIntegrity(score, {
+      ...patch,
+      homeScore: patch.homeScore === undefined ? undefined : patch.homeScore === null ? null : String(patch.homeScore),
+      awayScore: patch.awayScore === undefined ? undefined : patch.awayScore === null ? null : String(patch.awayScore),
+    });
   };
   return { ...payload, generatedAt: patch.occurredAt || new Date().toISOString(), feeds: payload.feeds.map((feed) => ({ ...feed, scores: feed.scores.map(patchItem) })), worldCup: { ...payload.worldCup, events: payload.worldCup.events.map(patchItem) } };
 }
@@ -407,7 +419,7 @@ function useLiveNotifications(payload: LivePayload | null) {
       if (!old) continue;
       const changed = old.home.score !== score.home.score || old.away.score !== score.away.score || old.state !== score.state;
       const favorite = matchFavoriteScore(score, favorites);
-      if (changed && (!preferences.favoriteOnly || favorite)) {
+      if (changed && (!preferences.favoriteOnly || favorite) && (score.state !== "in" || canDisplayScore(score))) {
         const title =
           old.state !== "in" && score.state === "in" ? `LAP · Começou: ${gameLabel(score)}` :
           old.state !== "post" && score.state === "post" ? `LAP · Encerrado: ${gameLabel(score)}` :

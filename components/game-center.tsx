@@ -5,17 +5,25 @@ import Link from "next/link";
 import { FavoriteButton } from "@/components/favorite-button";
 import { LapHeader } from "@/components/lap-header";
 import type { GameDetails } from "@/lib/live-data";
+import { canDisplayScore, displayScoreValue, reconciliationMessage, scoreSeparator } from "@/lib/score-integrity";
 
 type Tab = "resumo" | "linha" | "estatisticas" | "escalacoes";
 
 function formattedDate(value: string | null) {
-  if (!value) return "Horário a confirmar";
+  if (!value) return null;
   const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return "Horário a confirmar";
+  if (Number.isNaN(date.getTime())) return null;
   return new Intl.DateTimeFormat("pt-BR", { weekday: "long", day: "2-digit", month: "long", year: "numeric", hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" }).format(date);
 }
 
+function formattedUpdate(value: string) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Atualização recente";
+  return `Atualizado às ${new Intl.DateTimeFormat("pt-BR", { hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "America/Sao_Paulo" }).format(date)}`;
+}
+
 function phase(event: GameDetails["event"]) {
+  if (event.integrity === "reconciling") return "EM RECONCILIAÇÃO";
   if (event.state === "in") return "AO VIVO";
   if (event.state === "post") return "ENCERRADO";
   if (event.state === "pre") return "EM BREVE";
@@ -23,6 +31,7 @@ function phase(event: GameDetails["event"]) {
 }
 
 function GameTabContent({ details, tab }: { details: GameDetails; tab: Tab }) {
+  const reconciling = reconciliationMessage(details.event);
   if (tab === "linha") {
     return <section className="game-panel"><h2>Timeline</h2>{details.timeline.length ? <ol className="timeline">{details.timeline.map((item) => <li key={item.id} className={item.scoring ? "timeline__item timeline__item--score" : "timeline__item"}><div><strong>{item.clock || "•"}</strong><span>{item.period ? `Período ${item.period}` : "Atualização"}</span></div><p>{item.text}</p>{item.homeScore !== null && item.awayScore !== null && <small>{item.homeScore} × {item.awayScore}</small>}</li>)}</ol> : <p className="game-panel__empty">Os lances confirmados aparecem aqui durante a partida.</p>}</section>;
   }
@@ -32,7 +41,7 @@ function GameTabContent({ details, tab }: { details: GameDetails; tab: Tab }) {
   if (tab === "escalacoes") {
     return <section className="game-panel"><h2>Escalações</h2>{details.lineups.length ? <div className="lineups">{details.lineups.map((team) => <article className="lineup-card" key={team.team}><h3>{team.team}</h3><ol>{team.players.map((player) => <li key={player}>{player}</li>)}</ol></article>)}</div> : <p className="game-panel__empty">As escalações aparecem assim que forem confirmadas pela competição.</p>}</section>;
   }
-  return <section className="game-panel game-panel--summary"><div className="game-summary-grid"><article><p className="game-panel__eyebrow">Situação</p><h2>{phase(details.event)}</h2><p>{details.event.status}</p></article><article><p className="game-panel__eyebrow">Local</p><h2>{details.event.venue || "A confirmar"}</h2><p>{details.event.broadcast ? `Transmissão: ${details.event.broadcast}` : "Informação de transmissão pode ser atualizada."}</p></article></div>{details.headlines.length ? <div className="game-headlines"><p className="game-panel__eyebrow">Na LAP</p><h2>O que está em foco</h2><ul>{details.headlines.map((headline) => <li key={headline}>{headline}</li>)}</ul></div> : null}{details.notes.length ? <div className="game-notes"><p className="game-panel__eyebrow">Informações da partida</p><ul>{details.notes.map((note) => <li key={note}>{note}</li>)}</ul></div> : null}</section>;
+  return <section className="game-panel game-panel--summary">{reconciling && <div className="game-integrity-panel"><p>Verificação de dados</p><strong>Em reconciliação</strong><span>{reconciling}</span></div>}<div className="game-summary-grid"><article><p className="game-panel__eyebrow">Situação</p><h2>{phase(details.event)}</h2><p>{details.event.status}</p></article>{details.event.venue && <article><p className="game-panel__eyebrow">Estádio</p><h2>{details.event.venue}</h2></article>}{details.event.broadcast && <article><p className="game-panel__eyebrow">Transmissão</p><h2>{details.event.broadcast}</h2></article>}</div>{details.headlines.length ? <div className="game-headlines"><p className="game-panel__eyebrow">Na LAP</p><h2>O que está em foco</h2><ul>{details.headlines.map((headline) => <li key={headline}>{headline}</li>)}</ul></div> : null}{details.notes.length ? <div className="game-notes"><p className="game-panel__eyebrow">Informações da partida</p><ul>{details.notes.map((note) => <li key={note}>{note}</li>)}</ul></div> : null}</section>;
 }
 
 export function GameCenter({ initialDetails, worldCup }: { initialDetails: GameDetails; worldCup: boolean }) {
@@ -41,6 +50,10 @@ export function GameCenter({ initialDetails, worldCup }: { initialDetails: GameD
   const [refreshing, setRefreshing] = useState(false);
   const event = details.event;
   const eventUrl = `/jogos/${event.sportId}/${event.id}${worldCup ? "?torneio=copa-2026" : ""}`;
+  const showScore = canDisplayScore(event);
+  const reconciling = reconciliationMessage(event);
+  const eventDate = formattedDate(event.startTime);
+  const updateLabel = formattedUpdate(details.generatedAt);
 
   async function refresh() {
     setRefreshing(true);
@@ -80,14 +93,16 @@ export function GameCenter({ initialDetails, worldCup }: { initialDetails: GameD
       <div className="shell game-page">
         <nav className="article-breadcrumb" aria-label="Navegação estrutural"><Link href="/">Início</Link><span>›</span>{worldCup && <><Link href="/copa-2026">Copa 2026</Link><span>›</span></>}<Link href={`/modalidades/${event.sportId}`}>{event.sportId}</Link></nav>
         <section className="game-hero">
-          <div className="game-hero__meta"><span className={event.state === "in" ? "live-label" : "status-label"}>{phase(event)}</span><span>{event.round || event.league.replace(/-/g, " ")}</span><FavoriteButton id={`event:${event.sportId}:${event.id}`} type="event" label={`${event.home.name} x ${event.away.name}`} href={eventUrl} /></div>
+          <div className="game-hero__meta"><span className={event.state === "in" && !reconciling ? "live-label" : "status-label"}>{phase(event)}</span><span>{event.round || event.league.replace(/-/g, " ")}</span><FavoriteButton id={`event:${event.sportId}:${event.id}`} type="event" label={`${event.home.name} x ${event.away.name}`} href={eventUrl} /></div>
           <p className="game-hero__competition">{worldCup ? "Copa do Mundo 2026" : event.league.replace(/-/g, " ")}</p>
-          <div className="scoreboard-hero"><article><img src={event.home.logo || "/icons/lap-icon.svg"} alt="" width="72" height="72"/><h1>{event.home.name}</h1>{event.home.record && <p>{event.home.record}</p>}</article><div className="scoreboard-hero__score"><strong>{event.home.score ?? "—"}<span>×</span>{event.away.score ?? "—"}</strong><p>{event.state === "post" ? event.status : formattedDate(event.startTime)}</p></div><article><img src={event.away.logo || "/icons/lap-icon.svg"} alt="" width="72" height="72"/><h1>{event.away.name}</h1>{event.away.record && <p>{event.away.record}</p>}</article></div>
-          <div className="game-hero__footer"><span>{event.venue || "Local a confirmar"}</span><button className="refresh-button" type="button" onClick={() => void refresh()} disabled={refreshing}>{refreshing ? "Atualizando" : "Atualizar jogo"}</button></div>
+          <div className="scoreboard-hero"><article><img src={event.home.logo || "/icons/lap-icon.svg"} alt="" width="72" height="72"/><h1>{event.home.name}</h1>{event.home.record && <p>{event.home.record}</p>}</article><div className="scoreboard-hero__score"><strong className={showScore ? "" : "scoreboard-hero__score--pending"}>{showScore ? <>{displayScoreValue(event, "home")}<span>{scoreSeparator(event)}</span>{displayScoreValue(event, "away")}</> : <span>{scoreSeparator(event)}</span>}</strong>{(showScore && event.state === "post" ? event.status : eventDate) && <p>{showScore && event.state === "post" ? event.status : eventDate}</p>}</div><article><img src={event.away.logo || "/icons/lap-icon.svg"} alt="" width="72" height="72"/><h1>{event.away.name}</h1>{event.away.record && <p>{event.away.record}</p>}</article></div>
+          {reconciling && <div className="game-integrity-panel game-integrity-panel--hero"><p>Verificação de dados</p><strong>Em reconciliação</strong><span>{reconciling}</span></div>}
+          <div className="game-hero__footer"><span>{updateLabel}</span><button className="refresh-button" type="button" onClick={() => void refresh()} disabled={refreshing}>{refreshing ? "Atualizando" : "Atualizar jogo"}</button></div>
            <section className="game-snapshot" aria-label="Resumo operacional da partida">
              <article><p>Status</p><strong>{phase(event)}</strong><span>{event.status}</span></article>
-             <article><p>Transmiss{"\u00e3o"}</p><strong>{event.broadcast || "A confirmar"}</strong><span>Informacao fornecida pela competicao</span></article>
-             <article><p>Atualiza{"\u00e7\u00e3o"}</p><strong>{event.state === "in" ? "A cada 15s" : "A cada 30s"}</strong><span>Placar e lances sincronizados</span></article>
+             {event.venue && <article><p>Estádio</p><strong>{event.venue}</strong><span>Informação fornecida pela fonte</span></article>}
+             {event.broadcast && <article><p>Transmiss{"\u00e3o"}</p><strong>{event.broadcast}</strong><span>Informação fornecida pela fonte</span></article>}
+             <article><p>Atualiza{"\u00e7\u00e3o"}</p><strong>{updateLabel}</strong><span>{event.state === "in" ? "Polling a cada 15s" : "Polling a cada 30s"}</span></article>
              <Link href="/agenda" className="game-snapshot__link">Ver agenda {"\u2192"}</Link>
            </section>
         </section>

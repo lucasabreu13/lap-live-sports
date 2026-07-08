@@ -1,5 +1,11 @@
 import { createHash } from "node:crypto";
 import { getPublishedEditorialArticles, type EditorialArticle } from "@/lib/editorial-store";
+import {
+  applyScorePatchWithIntegrity,
+  canDisplayScore,
+  withScoreIntegrity,
+  type ScoreIntegrity,
+} from "@/lib/score-integrity";
 
 export type SportId =
   | "futebol"
@@ -58,6 +64,8 @@ export type ScoreItem = {
   broadcast: string | null;
   status: string;
   state: "pre" | "in" | "post" | "unknown";
+  integrity: ScoreIntegrity;
+  integrityReason: string | null;
   startTime: string | null;
   isWorldCup?: boolean;
   providerPath?: string | null;
@@ -542,7 +550,7 @@ function parseScoreboard(
     const broadcastMedia = asRecord(broadcasts[0]?.media);
     const week = asRecord(event.week);
 
-    return [{
+    const score: Omit<ScoreItem, "integrity" | "integrityReason"> = {
       id: asText(event.id),
       sportId: sport.id,
       league: repairMojibake(options?.competition?.name || asText(season.slug, asText(competitionLeague.name, sport.name))),
@@ -559,7 +567,9 @@ function parseScoreboard(
       eventKind: "match",
       home: scoreFromCompetitor(home),
       away: scoreFromCompetitor(away),
-    }];
+    };
+
+    return [withScoreIntegrity(score)];
   });
 }
 
@@ -573,7 +583,7 @@ function parseRaceScoreboard(json: unknown, sport: Pick<SportDefinition, "id" | 
     const venue = asRecord(competition?.venue);
     const season = asRecord(event.season);
     const raceName = repairMojibake(asText(event.shortName, asText(event.name, "Grande Prêmio")));
-    return {
+    const score: Omit<ScoreItem, "integrity" | "integrityReason"> = {
       id: asText(event.id),
       sportId: sport.id,
       league: "Fórmula 1",
@@ -588,6 +598,7 @@ function parseRaceScoreboard(json: unknown, sport: Pick<SportDefinition, "id" | 
       home: { name: raceName, score: null },
       away: { name: "Fórmula 1", score: null },
     };
+    return withScoreIntegrity(score);
   });
 }
 
@@ -655,6 +666,7 @@ function buildCompetitionTable(events: ScoreItem[]) {
     ensureTableRow(rows, score.home);
     ensureTableRow(rows, score.away);
     if (score.state !== "post") continue;
+    if (!canDisplayScore(score)) continue;
     const homeScore = numericScore(score.home.score);
     const awayScore = numericScore(score.away.score);
     if (homeScore === null || awayScore === null) continue;
@@ -774,15 +786,14 @@ function publishLiveEvent(event: { type: "score"; patch: LiveWebhookPatch } | { 
   }
 }
 
-function patchScore(score: ScoreItem, patch: LiveWebhookPatch): ScoreItem {
+export function applyLiveScorePatch(score: ScoreItem, patch: LiveWebhookPatch): ScoreItem {
   if (score.id !== patch.eventId || (patch.sportId && score.sportId !== patch.sportId)) return score;
-  return {
-    ...score,
-    state: patch.state || score.state,
-    status: patch.status ? repairMojibake(patch.status) : score.status,
-    home: { ...score.home, score: patch.homeScore !== undefined ? (patch.homeScore === null ? null : String(patch.homeScore)) : score.home.score },
-    away: { ...score.away, score: patch.awayScore !== undefined ? (patch.awayScore === null ? null : String(patch.awayScore)) : score.away.score },
-  };
+  return applyScorePatchWithIntegrity(score, {
+    ...patch,
+    status: patch.status ? repairMojibake(patch.status) : undefined,
+    homeScore: patch.homeScore === undefined ? undefined : patch.homeScore === null ? null : String(patch.homeScore),
+    awayScore: patch.awayScore === undefined ? undefined : patch.awayScore === null ? null : String(patch.awayScore),
+  });
 }
 
 export function ingestLiveWebhook(patch: LiveWebhookPatch) {
@@ -791,8 +802,8 @@ export function ingestLiveWebhook(patch: LiveWebhookPatch) {
 
   if (liveCache) {
     const payload = clonePayload(liveCache.payload);
-    payload.feeds = payload.feeds.map((feed) => ({ ...feed, scores: feed.scores.map((score) => patchScore(score, patch)) }));
-    payload.worldCup = { ...payload.worldCup, events: payload.worldCup.events.map((score) => patchScore(score, patch)) };
+    payload.feeds = payload.feeds.map((feed) => ({ ...feed, scores: feed.scores.map((score) => applyLiveScorePatch(score, patch)) }));
+    payload.worldCup = { ...payload.worldCup, events: payload.worldCup.events.map((score) => applyLiveScorePatch(score, patch)) };
     payload.generatedAt = patch.occurredAt || new Date().toISOString();
     liveCache = { payload, expiresAt: Math.max(liveCache.expiresAt, Date.now() + CACHE_TTL_MS) };
   }
@@ -935,11 +946,12 @@ export async function getGameDetails(sportId: SportId, eventId: string, options?
       : parseScoreboard({ events: [header] }, sport, { providerPath: path, isWorldCup: Boolean(options?.worldCup) })
     )[0];
     if (!event) return null;
+    const reconciling = event.integrity === "reconciling";
     return {
       event,
-      timeline: parseTimeline(json),
-      teamStats: parseTeamStats(json),
-      lineups: parseLineups(json),
+      timeline: reconciling ? [] : parseTimeline(json),
+      teamStats: reconciling ? [] : parseTeamStats(json),
+      lineups: reconciling ? [] : parseLineups(json),
       headlines: parseHeadlines(json),
       notes: parseNotes(json),
       sourceStatus: "ok",

@@ -4,9 +4,9 @@ import { LapHeader } from "@/components/lap-header";
 import type { CompetitionDetails } from "@/lib/live-data";
 
 function formatDateTime(value: string | null) {
-  if (!value) return "horário a confirmar";
+  if (!value) return null;
   const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return "horário a confirmar";
+  if (Number.isNaN(date.getTime())) return null;
   return new Intl.DateTimeFormat("pt-BR", {
     weekday: "short",
     day: "2-digit",
@@ -66,7 +66,7 @@ export function CompetitionCenter({ details }: { details: CompetitionDetails }) 
             {featured ? (
               <>
                 <h2>{featured.home.name} x {featured.away.name}</h2>
-                <span>{featured.state === "post" ? featured.status : formatDateTime(featured.startTime)}</span>
+                {(featured.state === "post" ? featured.status : formatDateTime(featured.startTime)) && <span>{featured.state === "post" ? featured.status : formatDateTime(featured.startTime)}</span>}
                 <Link className="competition-feature__button" href={`/jogos/${featured.sportId}/${featured.id}`}>Acompanhar jogo</Link>
               </>
             ) : (
