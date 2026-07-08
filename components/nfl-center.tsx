@@ -1,0 +1,118 @@
+import Link from "next/link";
+import { EventCard, eventHref } from "@/components/event-card";
+import { LapHeader } from "@/components/lap-header";
+import type { NflCenterDetails, NflDivision } from "@/lib/nfl-data";
+import type { ScoreItem } from "@/lib/live-data";
+import styles from "./nfl-center.module.css";
+
+function eventTitle(event: ScoreItem) {
+  return event.eventKind === "race" ? event.home.name : `${event.home.name} x ${event.away.name}`;
+}
+
+function featuredLabel(event: ScoreItem | null) {
+  if (!event) return "Temporada NFL";
+  if (event.state === "in") return "Ao vivo agora";
+  if (event.state === "post") return "Último resultado";
+  return "Próximo jogo";
+}
+
+function DivisionCard({ division }: { division: NflDivision }) {
+  return (
+    <article className={styles.divisionCard}>
+      <p>{division.conference}</p>
+      <h3>{division.division}</h3>
+      <ul className={styles.teamList}>
+        {division.teams.map((team) => (
+          <li key={`${division.conference}-${division.division}-${team.abbr}`}>
+            <span className={styles.badge}>{team.abbr}</span>
+            <span><strong>{team.city}</strong><span>{team.name}</span></span>
+          </li>
+        ))}
+      </ul>
+    </article>
+  );
+}
+
+export function NflCenter({ details }: { details: NflCenterDetails }) {
+  const featured = details.live[0] || details.upcoming[0] || details.recent[0] || null;
+  const eventCount = details.live.length + details.upcoming.length + details.recent.length;
+  const schedulePreview = [...details.live, ...details.upcoming, ...details.recent].slice(0, 8);
+  const afc = details.divisions.filter((division) => division.conference === "AFC");
+  const nfc = details.divisions.filter((division) => division.conference === "NFC");
+
+  return (
+    <main>
+      <LapHeader activeSport="futebol-americano" compact />
+      <div className={`shell ${styles.page}`}>
+        <nav className="article-breadcrumb" aria-label="Navegação estrutural">
+          <Link href="/">Início</Link>
+          <span>›</span>
+          <span>NFL</span>
+        </nav>
+
+        <section className={styles.hero}>
+          <div className={styles.heroMain}>
+            <p className={styles.kicker}>Central da liga</p>
+            <h1>NFL na LAP: temporada, times e <span>jogos</span>.</h1>
+            <span>Uma página própria para futebol americano, sem cara genérica: agenda, resultados, divisões, times e notícias em um só lugar.</span>
+            <div className={styles.heroStats}>
+              <article><p>Ao vivo</p><strong>{details.live.length}</strong></article>
+              <article><p>Próximos</p><strong>{details.upcoming.length}</strong></article>
+              <article><p>Times</p><strong>32</strong></article>
+            </div>
+          </div>
+
+          <aside className={styles.feature}>
+            <div className={styles.featureHead}>
+              <div><p>{featuredLabel(featured)}</p><h2>Destaque</h2></div>
+              <Link href="/agenda" className={styles.featureLink}>Agenda</Link>
+            </div>
+            {featured ? <EventCard score={featured} /> : <div className={styles.empty}>Nenhum jogo publicado no recorte atual. A central continua útil com divisões, times, notícias e atalhos da temporada.</div>}
+            {featured && <Link href={eventHref(featured)} className={styles.sectionLink}>Abrir {eventTitle(featured)} →</Link>}
+          </aside>
+        </section>
+
+        <section className={styles.gridTwo}>
+          <article className={styles.panel}>
+            <header className={styles.sectionHead}>
+              <div><p>Calendário</p><h2>Jogos da NFL</h2><span>Ao vivo, próximos jogos e resultados recentes em leitura rápida.</span></div>
+              <Link href="/agenda" className={styles.sectionLink}>Ver agenda</Link>
+            </header>
+            {schedulePreview.length ? <div className={styles.eventGrid}>{schedulePreview.map((event) => <EventCard key={event.id} score={event} compact />)}</div> : <div className={styles.empty}>Quando o calendário da liga estiver disponível no feed, os jogos aparecem aqui automaticamente.</div>}
+          </article>
+
+          <article className={styles.panel}>
+            <header className={styles.sectionHead}>
+              <div><p>Guia rápido</p><h2>Como acompanhar</h2><span>A NFL precisa de contexto diferente de futebol: semana, conferência, divisão, campanha e playoffs.</span></div>
+            </header>
+            <div className={styles.eventGrid}>
+              <div className={styles.empty}>Use a aba Agenda para ver jogos por data, e favorite times ou a modalidade para priorizar alertas.</div>
+              <div className={styles.empty}>Durante a temporada, a LAP pode evoluir para standings, líderes, wild card, playoffs e depth chart.</div>
+            </div>
+          </article>
+        </section>
+
+        <section className={styles.panel} style={{ marginTop: 16 }}>
+          <header className={styles.sectionHead}>
+            <div><p>Conferências</p><h2>AFC</h2><span>Divisões e times para a página não ficar vazia fora de rodada.</span></div>
+          </header>
+          <div className={styles.divisionGrid}>{afc.map((division) => <DivisionCard key={`${division.conference}-${division.division}`} division={division} />)}</div>
+        </section>
+
+        <section className={styles.panel} style={{ marginTop: 16 }}>
+          <header className={styles.sectionHead}>
+            <div><p>Conferências</p><h2>NFC</h2><span>Organização própria da liga, com navegação visual por divisões.</span></div>
+          </header>
+          <div className={styles.divisionGrid}>{nfc.map((division) => <DivisionCard key={`${division.conference}-${division.division}`} division={division} />)}</div>
+        </section>
+
+        <section className={styles.panel} style={{ marginTop: 16 }}>
+          <header className={styles.sectionHead}>
+            <div><p>Notícias NFL</p><h2>Contexto da liga</h2><span>Principais atualizações de futebol americano para manter retenção mesmo sem jogo ao vivo.</span></div>
+          </header>
+          {details.news.length ? <div className={styles.newsGrid}>{details.news.map((item) => <Link key={item.id} href={item.internalUrl} className={styles.newsCard}><span>{item.source}</span><strong>{item.title}</strong><small>{item.excerpt}</small></Link>)}</div> : <div className={styles.empty}>Notícias da NFL aparecem aqui quando a fonte editorial entregar novos conteúdos.</div>}
+        </section>
+      </div>
+    </main>
+  );
+}
