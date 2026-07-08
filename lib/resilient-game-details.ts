@@ -14,11 +14,10 @@ function fallbackNotes(event: ScoreItem) {
   const sport = SPORTS.find((item) => item.id === event.sportId);
   const blueprint = getSportDataBlueprint(event.sportId);
   return [
-    "Detalhes preservados pela grade/cache gratuito da LAP.",
     event.venue ? `Local: ${event.venue}` : null,
     event.broadcast ? `Transmissão: ${event.broadcast}` : null,
     blueprint ? `Formato da modalidade: ${blueprint.primarySurface}` : sport?.description || null,
-    "Timeline, estatísticas e participantes entram quando o endpoint detalhado da fonte publicar.",
+    "Mais detalhes aparecem aqui quando estiverem disponíveis.",
   ].filter((item): item is string => Boolean(item));
 }
 
@@ -39,8 +38,8 @@ function detailsFromScore(event: ScoreItem): GameDetails {
     teamStats: [],
     lineups: [],
     headlines: [
-      `${eventTitle(event)} está na grade da LAP.`,
-      event.status ? `Status atual: ${event.status}.` : "Status acompanhado pelo cache da LAP.",
+      `${eventTitle(event)} está na agenda da LAP.`,
+      event.status ? `Status: ${event.status}.` : "Evento acompanhado pela LAP.",
     ],
     notes: fallbackNotes(event),
     sourceStatus: "ok",
