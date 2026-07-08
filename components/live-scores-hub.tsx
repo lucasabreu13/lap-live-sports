@@ -35,25 +35,6 @@ function dateDiffFromToday(value: string | null, now: number) {
   return Math.round((eventDate - today) / 86_400_000);
 }
 
-function updatedAgo(value: string | null | undefined, now: number) {
-  if (!value || now <= 0) return "Atualização pendente";
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return "Atualização pendente";
-  const diffSeconds = Math.max(0, Math.floor((now - date.getTime()) / 1000));
-  if (diffSeconds < 60) return `Atualizado há ${diffSeconds} segundo${diffSeconds === 1 ? "" : "s"}`;
-  const minutes = Math.floor(diffSeconds / 60);
-  if (minutes < 60) return `Atualizado há ${minutes} minuto${minutes === 1 ? "" : "s"}`;
-  const hours = Math.floor(minutes / 60);
-  return `Atualizado há ${hours} hora${hours === 1 ? "" : "s"}`;
-}
-
-function clock(value: string | null | undefined) {
-  if (!value) return null;
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return null;
-  return new Intl.DateTimeFormat("pt-BR", { hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "America/Sao_Paulo" }).format(date);
-}
-
 function matchesFavorite(score: ScoreItem, favorites: FavoriteItem[]) {
   return favorites.some((item) => {
     if (item.id === `event:${score.sportId}:${score.id}`) return true;
@@ -153,7 +134,7 @@ export function LiveScoresHub() {
 
   useEffect(() => {
     setNow(Date.now());
-    const timer = window.setInterval(() => setNow(Date.now()), 1_000);
+    const timer = window.setInterval(() => setNow(Date.now()), 60_000);
     return () => window.clearInterval(timer);
   }, []);
 
@@ -201,9 +182,6 @@ export function LiveScoresHub() {
   }, [events, favorites, filtered, now, tab]);
 
   const groups = groupByLeague(liveFallback);
-  const updatedAt = clock(payload?.generatedAt);
-  const localClock = now ? new Intl.DateTimeFormat("pt-BR", { hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "America/Sao_Paulo" }).format(new Date(now)) : "--:--:--";
-  const sourceIssue = Boolean(state === "error" || payload?.feeds.some((feed) => feed.sourceStatus !== "live") || payload?.worldCup.sourceStatus !== "ok");
 
   return (
     <main>
@@ -211,19 +189,14 @@ export function LiveScoresHub() {
       <div className="shell live-hub-page">
         <section className="live-hub-hero" aria-labelledby="live-hub-title">
           <div>
-            <p>Central operacional</p>
+            <p>Central ao vivo</p>
             <h1 id="live-hub-title">Ao Vivo</h1>
-            <span>Placar, agenda do dia e resultados com integridade dos dados aplicada antes de renderizar qualquer placar.</span>
+            <span>Jogos ao vivo, agenda do dia e resultados em um só lugar.</span>
           </div>
-          <aside aria-live="polite">
-            <strong>{updatedAgo(payload?.generatedAt, now)}</strong>
-            {updatedAt && <span>Última atualização {updatedAt}</span>}
-            <small>Horário local {localClock}</small>
-          </aside>
         </section>
 
-        {sourceIssue && <p className="live-hub-warning">Atualização discreta: uma fonte está atrasada ou reconectando. A LAP mantém o último retorno válido sem zerar a central.</p>}
-        {state === "loading" && <div className="agenda-loading"><p>Conectando</p><h2>Carregando eventos ao vivo</h2><span>A central preserva a interface enquanto busca a resposta mais recente.</span></div>}
+        {state === "loading" && <div className="agenda-loading"><p>Conectando</p><h2>Carregando eventos ao vivo</h2><span>Buscando a agenda mais recente.</span></div>}
+        {state === "error" && !payload && <p className="live-hub-warning">Não foi possível carregar a central agora. Tente novamente em instantes.</p>}
 
         <section className="live-hub-controls" aria-label="Filtros da central ao vivo">
           <div className="live-hub-tabs" role="tablist" aria-label="Recorte dos eventos">
@@ -256,7 +229,7 @@ export function LiveScoresHub() {
           </div>
         </section>
 
-        {tab === "live" && !filtered.length && liveFallback.length > 0 && <p className="live-hub-notice">Nenhum jogo ao vivo neste momento. Mostrando próximos eventos relevantes do dia e da agenda mais próxima.</p>}
+        {tab === "live" && !filtered.length && liveFallback.length > 0 && <p className="live-hub-notice">Nenhum jogo ao vivo neste momento. Mostrando próximos eventos relevantes.</p>}
 
         <section className="live-hub-board" aria-label="Eventos agrupados por campeonato">
           {groups.length ? groups.map((group) => (
@@ -275,7 +248,7 @@ export function LiveScoresHub() {
           )) : (
             <div className="empty-card live-hub-empty">
               <strong>A central está pronta.</strong>
-              <span>Troque filtros ou abra a agenda completa enquanto a fonte publica novos eventos.</span>
+              <span>Troque filtros ou abra a agenda completa.</span>
               <Link href="/agenda">Ver agenda</Link>
             </div>
           )}
