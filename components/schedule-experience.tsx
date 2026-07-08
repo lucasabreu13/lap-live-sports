@@ -11,7 +11,6 @@ import styles from "./schedule-experience.module.css";
 type StatusFilter = "all" | "live" | "next" | "finished";
 type DateFilter = "all" | "today" | "tomorrow" | "week";
 type PriorityFilter = "all" | "favorites";
-
 type SportLike = { id: SportId; name: string; icon: string; description?: string };
 
 function scoreTime(score: ScoreItem) {
@@ -45,13 +44,6 @@ function dateLabel(value: string | null) {
   const date = localDate(value);
   if (!date) return "Data a confirmar";
   return new Intl.DateTimeFormat("pt-BR", { weekday: "long", day: "2-digit", month: "long", timeZone: "America/Sao_Paulo" }).format(date);
-}
-
-function updatedTime(value: string | null | undefined) {
-  if (!value) return "Atualização pendente";
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return "Atualização pendente";
-  return new Intl.DateTimeFormat("pt-BR", { hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "America/Sao_Paulo" }).format(date);
 }
 
 function stateMatches(score: ScoreItem, filter: StatusFilter) {
@@ -120,14 +112,6 @@ function groupByDateAndSport(events: ScoreItem[]) {
       return aTime - bTime;
     })
     .map(([key, items]) => ({ key, label: key === "sem-data" ? "Data a confirmar" : dateLabel(items[0]?.startTime ?? null), sportGroups: groupBySport(items) }));
-}
-
-function sourceSummary(data: LivePayload | null) {
-  if (!data) return { live: 0, stale: 0, unavailable: 0 };
-  return data.feeds.reduce((acc, feed) => {
-    acc[feed.sourceStatus] += 1;
-    return acc;
-  }, { live: 0, stale: 0, unavailable: 0 } as Record<"live" | "stale" | "unavailable", number>);
 }
 
 function useLiveFeed() {
@@ -267,7 +251,6 @@ export function ScheduleExperience() {
   const liveEvents = useMemo(() => visible.filter((event) => event.state === "in"), [visible]);
   const scheduledEvents = useMemo(() => visible.filter((event) => event.state !== "in"), [visible]);
   const dateClusters = useMemo(() => groupByDateAndSport(scheduledEvents), [scheduledEvents]);
-  const sources = sourceSummary(data);
   const activeLabel = status === "live" ? "Ao vivo" : status === "next" ? "Próximos" : status === "finished" ? "Resultados" : "Todos os eventos";
 
   return (
@@ -278,20 +261,13 @@ export function ScheduleExperience() {
           <div>
             <p>Agenda LAP</p>
             <h1>Calendário esportivo por modalidade</h1>
-            <span>Grade de jogos, provas, cards, corridas, baterias e resultados usando o cache gratuito da LAP.</span>
+            <span>Jogos, provas, cards, corridas, baterias e resultados organizados em uma única agenda.</span>
           </div>
           <div className="agenda-hero__stats" aria-label="Resumo da agenda">
             <strong>{counts.live}<small>ao vivo</small></strong>
             <strong>{counts.next}<small>próximos</small></strong>
             <strong>{counts.finished}<small>resultados</small></strong>
           </div>
-        </section>
-
-        <section className={styles.cacheStrip} aria-label="Status das fontes">
-          <article><p>Cache gratuito</p><strong>{updatedTime(data?.generatedAt)}</strong><span>Última atualização da LAP</span></article>
-          <article><p>Fontes live</p><strong>{sources.live}</strong><span>modalidades respondendo agora</span></article>
-          <article><p>Cache preservado</p><strong>{sources.stale}</strong><span>modalidades em fallback saudável</span></article>
-          <article><p>Total no radar</p><strong>{events.length}</strong><span>eventos deduplicados</span></article>
         </section>
 
         <SportRail events={events} selectedSport={sport} onSelectSport={(sportId) => { setSport(sportId); if (sportId !== "futebol") setCompetition("all"); }} />
@@ -315,7 +291,7 @@ export function ScheduleExperience() {
         <p className="agenda-result-note" aria-live="polite">{visible.length} evento{visible.length === 1 ? "" : "s"} em {activeLabel.toLocaleLowerCase("pt-BR")}.{favorites.length ? " Seus favoritos recebem prioridade." : ""}</p>
 
         {isLoading ? (
-          <section className="agenda-loading" aria-live="polite" aria-label="Carregando agenda"><div><p>Conectando ao radar</p><h2>Carregando os jogos da Agenda</h2><span>A LAP organiza os eventos assim que as fontes respondem.</span></div><div className="agenda-loading__grid" aria-hidden="true"><span /><span /><span /></div></section>
+          <section className="agenda-loading" aria-live="polite" aria-label="Carregando agenda"><div><p>Conectando ao radar</p><h2>Carregando os jogos da Agenda</h2><span>Buscando os eventos mais recentes.</span></div><div className="agenda-loading__grid" aria-hidden="true"><span /><span /><span /></div></section>
         ) : visible.length ? (
           <div className={styles.agendaStack}>
             <MiniEventList title="Ao vivo agora" description="Tempo real" events={liveEvents} />
@@ -325,7 +301,7 @@ export function ScheduleExperience() {
           <section className="agenda-empty"><p>Nenhum evento encontrado neste recorte.</p><span>Troque a data, modalidade, liga ou termo de busca para ampliar a agenda.</span><button type="button" onClick={() => { setStatus("all"); setDate("week"); setSport("all"); setCompetition("all"); setPriority("all"); setQuery(""); }}>Limpar filtros</button></section>
         )}
 
-        {error && <p className="status-note">A atualização mais recente não chegou. A LAP tenta novamente sem apagar os últimos dados válidos.</p>}
+        {error && <p className="status-note">Não foi possível atualizar a agenda agora. Tente novamente em instantes.</p>}
       </div>
     </main>
   );
