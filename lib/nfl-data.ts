@@ -1,6 +1,7 @@
 import { getCachedLivePayload } from "@/lib/free-live-data";
 import { type NewsItem, type ScoreItem } from "@/lib/live-data";
 import { withScoreIntegrity } from "@/lib/score-integrity";
+import { loadEspnStandings, type EspnStandingGroup } from "@/lib/providers/espn-provider";
 
 const ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports";
 const NFL_PATH = "football/nfl";
@@ -27,6 +28,7 @@ export type NflCenterDetails = {
   recent: ScoreItem[];
   news: NewsItem[];
   divisions: NflDivision[];
+  standings: EspnStandingGroup[];
   generatedAt: string;
 };
 
@@ -205,9 +207,10 @@ async function fetchNflSchedule() {
 }
 
 export async function getNflCenterDetails(): Promise<NflCenterDetails> {
-  const [directEvents, payload] = await Promise.all([
+  const [directEvents, payload, standingsResult] = await Promise.all([
     fetchNflSchedule(),
     getCachedLivePayload().catch(() => null),
+    loadEspnStandings(NFL_PATH, "NFL"),
   ]);
 
   const fallbackFeed = payload?.feeds.find((feed) => feed.id === "futebol-americano");
@@ -228,6 +231,7 @@ export async function getNflCenterDetails(): Promise<NflCenterDetails> {
     recent,
     news,
     divisions: NFL_DIVISIONS,
+    standings: standingsResult.data,
     generatedAt: new Date().toISOString(),
   };
 }

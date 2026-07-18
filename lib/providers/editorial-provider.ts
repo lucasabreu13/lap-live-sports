@@ -1,5 +1,5 @@
 import { getPublishedEditorialArticles } from "@/lib/editorial-store";
-import { repairMojibake, type NewsItem, type SportId } from "@/lib/live-data";
+import { SPORTS, repairMojibake, type NewsItem, type SportId } from "@/lib/live-data";
 import { providerLive, providerUnavailable, type ProviderResult } from "@/lib/providers/provider-types";
 
 export async function loadEditorialNews(sportId?: SportId, limit = 24): Promise<ProviderResult<NewsItem[]>> {
@@ -7,6 +7,7 @@ export async function loadEditorialNews(sportId?: SportId, limit = 24): Promise<
     const articles = await getPublishedEditorialArticles(limit);
     const news = articles.flatMap((article) => {
       if (sportId && article.sportId !== sportId) return [];
+      if (!SPORTS.some((sport) => sport.id === article.sportId)) return [];
       return [{
         id: `editorial-${article.id}`,
         kind: "editorial" as const,

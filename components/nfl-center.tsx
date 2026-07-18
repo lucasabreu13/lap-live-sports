@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { EventCard, eventHref } from "@/components/event-card";
 import { LapHeader } from "@/components/lap-header";
+import { StandingGroups } from "@/components/sport-hubs/standing-groups";
 import { eventDisplayTitle } from "@/lib/event-presentation";
 import type { NflCenterDetails, NflDivision } from "@/lib/nfl-data";
 import type { ScoreItem } from "@/lib/live-data";
@@ -55,8 +56,8 @@ export function NflCenter({ details }: { details: NflCenterDetails }) {
         <section className={styles.hero}>
           <div className={styles.heroMain}>
             <p className={styles.kicker}>Central da liga</p>
-            <h1>NFL na LAP: temporada, times e <span>jogos</span>.</h1>
-            <span>Uma página própria para futebol americano, sem cara genérica: agenda, resultados, divisões, times e notícias em um só lugar.</span>
+            <h1>NFL na LAP</h1>
+            <span>Calendário, resultados, conferências, divisões, 32 franquias e notícias da temporada em um só lugar.</span>
             <div className={styles.heroStats}>
               <article><p>Ao vivo</p><strong>{details.live.length}</strong></article>
               <article><p>Próximos</p><strong>{details.upcoming.length}</strong></article>
@@ -69,7 +70,7 @@ export function NflCenter({ details }: { details: NflCenterDetails }) {
               <div><p>{featuredLabel(featured)}</p><h2>Destaque</h2></div>
               <Link href="/agenda" className={styles.featureLink}>Agenda</Link>
             </div>
-            {featured ? <EventCard score={featured} /> : <div className={styles.empty}>Nenhum jogo publicado no recorte atual. A central continua útil com divisões, times, notícias e atalhos da temporada.</div>}
+            {featured ? <EventCard score={featured} /> : <div className={styles.empty}>A NFL está entre rodadas ou fora de temporada. Divisões, franquias e notícias continuam disponíveis.</div>}
             {featured && <Link href={eventHref(featured)} className={styles.sectionLink}>Abrir {eventTitle(featured)} →</Link>}
           </aside>
         </section>
@@ -89,26 +90,33 @@ export function NflCenter({ details }: { details: NflCenterDetails }) {
             </header>
             <div className={styles.eventGrid}>
               <div className={styles.empty}>Use a aba Agenda para ver jogos por data, e favorite times ou a modalidade para priorizar alertas.</div>
-              <div className={styles.empty}>Durante a temporada, a LAP pode evoluir para standings, líderes, wild card, playoffs e depth chart.</div>
+              <div className={styles.empty}>A classificação organiza divisões e conferências; o wild card completa o caminho para os playoffs.</div>
             </div>
           </article>
         </section>
 
-        <section className={styles.panel} style={{ marginTop: 16 }}>
+        <section className={`${styles.panel} ${styles.spacedPanel}`}>
           <header className={styles.sectionHead}>
-            <div><p>Conferências</p><h2>AFC</h2><span>Divisões e times para a página não ficar vazia fora de rodada.</span></div>
+            <div><p>Classificação</p><h2>AFC e NFC</h2><span>Campanhas por conferência e divisão, exibidas quando a temporada publica os números.</span></div>
+          </header>
+          {details.standings.length ? <StandingGroups groups={details.standings.slice(0, 8)} limit={16} /> : <div className={styles.empty}><strong>Dados oficiais em atualização.</strong> A estrutura permanece pronta sem preencher posições manualmente.</div>}
+        </section>
+
+        <section className={`${styles.panel} ${styles.spacedPanel}`}>
+          <header className={styles.sectionHead}>
+            <div><p>Conferências</p><h2>AFC</h2><span>Leste, Norte, Sul e Oeste da Conferência Americana.</span></div>
           </header>
           <div className={styles.divisionGrid}>{afc.map((division) => <DivisionCard key={`${division.conference}-${division.division}`} division={division} />)}</div>
         </section>
 
-        <section className={styles.panel} style={{ marginTop: 16 }}>
+        <section className={`${styles.panel} ${styles.spacedPanel}`}>
           <header className={styles.sectionHead}>
-            <div><p>Conferências</p><h2>NFC</h2><span>Organização própria da liga, com navegação visual por divisões.</span></div>
+            <div><p>Conferências</p><h2>NFC</h2><span>Leste, Norte, Sul e Oeste da Conferência Nacional.</span></div>
           </header>
           <div className={styles.divisionGrid}>{nfc.map((division) => <DivisionCard key={`${division.conference}-${division.division}`} division={division} />)}</div>
         </section>
 
-        <section className={styles.panel} style={{ marginTop: 16 }}>
+        <section className={`${styles.panel} ${styles.spacedPanel}`}>
           <header className={styles.sectionHead}>
             <div><p>Notícias NFL</p><h2>Contexto da liga</h2><span>Principais atualizações de futebol americano para manter retenção mesmo sem jogo ao vivo.</span></div>
           </header>

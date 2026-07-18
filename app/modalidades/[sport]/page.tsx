@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { FootballCenter } from "@/components/football-center";
 import { NflCenter } from "@/components/nfl-center";
-import { SportUniverseCenter } from "@/components/sport-universe-center";
+import { SportHubCenter } from "@/components/sport-hubs/sport-hub-center";
 import { getFootballHubDetails } from "@/lib/football-hub-data";
 import { getNflCenterDetails } from "@/lib/nfl-data";
-import { getSportUniverseDetails } from "@/lib/sport-universe-data";
+import { loadSportHubDetails } from "@/lib/sport-hubs/load-sport-hub";
 import { SPORTS } from "@/lib/live-data";
 
 type PageProps = { params: Promise<{ sport: string }> };
@@ -40,7 +40,7 @@ export default async function SportPage({ params }: PageProps) {
     return <NflCenter details={details} />;
   }
 
-  const details = await getSportUniverseDetails(selected.id);
+  const details = await loadSportHubDetails(selected.id);
   if (!details) notFound();
-  return <SportUniverseCenter details={details} />;
+  return <SportHubCenter details={details} />;
 }

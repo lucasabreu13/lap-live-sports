@@ -40,6 +40,16 @@ export type EspnStandingGroup = {
   entries: EspnStandingEntry[];
 };
 
+export type EspnCalendarItem = {
+  id: string;
+  eventId: string;
+  title: string;
+  competition: string;
+  startTime: string | null;
+  status: string;
+  state: "pre" | "in" | "post" | "unknown";
+};
+
 const EXTRA_SPORT_PATHS: Partial<Record<SportId, string[]>> = {
   tenis: ["tennis/atp", "tennis/wta"],
   golfe: ["golf/pga"],
@@ -237,6 +247,114 @@ export async function loadEspnStandings(path: string, fallbackName: string): Pro
       : providerUnavailable([], undefined, "Classificação em atualização.");
   } catch (error) {
     return providerUnavailable([], error, "Classificação em atualização.");
+  }
+}
+
+function eventState(value: unknown): EspnCalendarItem["state"] {
+  const state = asText(asRecord(asRecord(value).type).state);
+  return state === "pre" || state === "in" || state === "post" ? state : "unknown";
+}
+
+function sessionName(value: string) {
+  const normalized = value.toLowerCase();
+  if (normalized === "fp1") return "Treino livre 1";
+  if (normalized === "fp2") return "Treino livre 2";
+  if (normalized === "fp3") return "Treino livre 3";
+  if (normalized.includes("sprint") && normalized.includes("qual")) return "Classificação sprint";
+  if (normalized.includes("sprint")) return "Sprint";
+  if (normalized === "qual" || normalized.includes("qualifying")) return "Classificação";
+  if (normalized === "race" || normalized.includes("corrida")) return "Corrida";
+  return repairMojibake(value);
+}
+
+export async function loadEspnCalendar(
+  path: string,
+  fallbackName: string,
+  options?: { dates?: string | null; limit?: number },
+): Promise<ProviderResult<EspnCalendarItem[]>> {
+  const params = new URLSearchParams({ limit: String(options?.limit ?? 100) });
+  if (options?.dates) params.set("dates", options.dates);
+  try {
+    const json = await fetchJson(`https://site.api.espn.com/apis/site/v2/sports/${path}/scoreboard?${params.toString()}`);
+    const events = asArray<AnyRecord>(asRecord(json).events);
+    const items = events.flatMap((event) => {
+      const eventId = asText(event.id);
+      const eventName = repairMojibake(asText(event.shortName, asText(event.name, fallbackName)));
+      const competitions = asArray<AnyRecord>(event.competitions);
+      if (!eventId || !eventName) return [];
+
+      if (path === "racing/f1" && competitions.length > 1) {
+        return competitions.map((competition, index) => {
+          const type = asRecord(competition.type);
+          const rawName = asText(type.abbreviation, asText(type.text, asText(type.name, `Sessão ${index + 1}`)));
+          const status = asRecord(competition.status);
+          const statusType = asRecord(status.type);
+          return {
+            id: `${eventId}-${asText(competition.id, String(index))}`,
+            eventId,
+            title: sessionName(rawName),
+            competition: eventName,
+            startTime: typeof competition.date === "string" ? competition.date : typeof event.date === "string" ? event.date : null,
+            status: repairMojibake(asText(statusType.shortDetail, asText(statusType.detail, "Programado"))),
+            state: eventState(status),
+          } satisfies EspnCalendarItem;
+        });
+      }
+
+      const status = asRecord(event.status);
+      const statusType = asRecord(status.type);
+      return [{
+        id: eventId,
+        eventId,
+        title: eventName,
+        competition: repairMojibake(asText(asRecord(event.league).name, fallbackName)),
+        startTime: typeof event.date === "string" ? event.date : null,
+        status: repairMojibake(asText(statusType.shortDetail, asText(statusType.detail, "Programado"))),
+        state: eventState(status),
+      } satisfies EspnCalendarItem];
+    });
+    return items.length
+      ? providerLive(items)
+      : providerUnavailable([], undefined, "Calendário em atualização.");
+  } catch (error) {
+    return providerUnavailable([], error, "Calendário em atualização.");
+  }
+}
+
+export async function loadEspnGolfLeaderboard(path = "golf/pga"): Promise<ProviderResult<EspnStandingGroup[]>> {
+  try {
+    const json = await fetchJson(`https://site.api.espn.com/apis/site/v2/sports/${path}/scoreboard?limit=10`);
+    const events = asArray<AnyRecord>(asRecord(json).events);
+    const event = events.find((item) => eventState(asRecord(item).status) === "in") ?? events[0];
+    const competition = asArray<AnyRecord>(asRecord(event).competitions)[0];
+    const entries = asArray<AnyRecord>(competition?.competitors).flatMap((competitor, index) => {
+      const athlete = asRecord(competitor.athlete);
+      const name = repairMojibake(asText(athlete.displayName, asText(athlete.fullName)));
+      const score = asText(competitor.score).trim();
+      if (!name || !score) return [];
+      const order = asNumber(competitor.order) ?? index + 1;
+      const rounds = asArray<AnyRecord>(competitor.linescores).filter((round) => asText(round.displayValue).trim()).length;
+      return [{
+        id: asText(competitor.id, `${name}-${index}`),
+        name,
+        shortName: repairMojibake(asText(athlete.shortName, name)),
+        abbreviation: null,
+        logo: asText(asRecord(athlete.flag).href) || null,
+        position: order,
+        values: [
+          { key: "score", label: "Total", value: score },
+          ...(rounds ? [{ key: "rounds", label: "Rodadas", value: String(rounds) }] : []),
+        ],
+      } satisfies EspnStandingEntry];
+    }).sort((a, b) => (a.position ?? 999) - (b.position ?? 999)).slice(0, 30);
+    if (!entries.length) return providerUnavailable([], undefined, "Leaderboard em atualização.");
+    return providerLive([{
+      id: asText(asRecord(event).id, "pga-current"),
+      name: repairMojibake(asText(asRecord(event).name, "PGA Tour")),
+      entries,
+    }]);
+  } catch (error) {
+    return providerUnavailable([], error, "Leaderboard em atualização.");
   }
 }
 
