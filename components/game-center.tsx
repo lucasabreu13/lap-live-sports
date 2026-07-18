@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { subscribeToLiveRefresh } from "@/lib/client-live-refresh";
 import Link from "next/link";
 import { FavoriteButton } from "@/components/favorite-button";
 import { LapHeader } from "@/components/lap-header";
@@ -202,9 +203,8 @@ export function GameCenter({ initialDetails, worldCup }: { initialDetails: GameD
   }
 
   useEffect(() => {
-    const delay = details.event.state === "in" ? 15_000 : 30_000;
-    const interval = window.setInterval(() => void refresh(), delay);
-    return () => window.clearInterval(interval);
+    const delay = details.event.state === "in" ? 8_000 : 20_000;
+    return subscribeToLiveRefresh(refresh, { intervalMs: delay });
   }, [details.event.state, event.id, worldCup]);
 
   useEffect(() => {

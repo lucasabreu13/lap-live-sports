@@ -7,6 +7,7 @@ import { eventHref } from "@/lib/event-presentation";
 import { HomeExplore } from "@/components/home-explore";
 import { LapHeader, SportFavoriteButton } from "@/components/lap-header";
 import { readFavorites, subscribeFavorites, toggleFavorite } from "@/lib/client-preferences";
+import { subscribeToLiveRefresh } from "@/lib/client-live-refresh";
 import { eventDisplayTitle, isSingleEvent } from "@/lib/event-presentation";
 import { SPORTS, type LivePayload, type NewsItem, type ScoreItem, type SportFeed, type SportId } from "@/lib/live-data";
 import { applyScorePatchWithIntegrity, canDisplayScore, displayScoreValue, reconciliationMessage, scoreSeparator } from "@/lib/score-integrity";
@@ -387,8 +388,7 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
 
   useEffect(() => {
     void refresh(false);
-    const timer = window.setInterval(() => void refresh(false), 30_000);
-    return () => window.clearInterval(timer);
+    return subscribeToLiveRefresh(() => refresh(false), { intervalMs: 12_000 });
   }, [refresh]);
 
   useEffect(() => {

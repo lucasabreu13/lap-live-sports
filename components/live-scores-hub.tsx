@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import { EventCard } from "@/components/event-card";
 import { LapHeader } from "@/components/lap-header";
 import { readFavorites, subscribeFavorites, type FavoriteItem } from "@/lib/client-preferences";
+import { subscribeToLiveRefresh } from "@/lib/client-live-refresh";
 import { FOOTBALL_COMPETITIONS, SPORTS, type LivePayload, type ScoreItem } from "@/lib/live-data";
 
 type LiveHubTab = "live" | "today" | "tomorrow" | "results";
@@ -92,7 +93,7 @@ function useLiveHubFeed() {
       }
     };
     void load();
-    const interval = window.setInterval(() => void load(), 15_000);
+    const unsubscribeRefresh = subscribeToLiveRefresh(load, { intervalMs: 8_000 });
     const source = "EventSource" in window ? new EventSource("/api/live/stream") : null;
     source?.addEventListener("snapshot", (event) => {
       try {
@@ -108,7 +109,7 @@ function useLiveHubFeed() {
     source?.addEventListener("error", () => setState((current) => current === "loading" ? "error" : current));
     return () => {
       active = false;
-      window.clearInterval(interval);
+      unsubscribeRefresh();
       source?.close();
     };
   }, []);

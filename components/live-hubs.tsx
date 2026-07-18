@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import { EventCard } from "@/components/event-card";
 import { LapHeader } from "@/components/lap-header";
 import { readFavorites, subscribeFavorites, type FavoriteItem } from "@/lib/client-preferences";
+import { subscribeToLiveRefresh } from "@/lib/client-live-refresh";
 import { FOOTBALL_COMPETITIONS, SPORTS, type LivePayload, type ScoreItem } from "@/lib/live-data";
 import { canDisplayScore, displayScoreValue } from "@/lib/score-integrity";
 
@@ -54,11 +55,11 @@ function useLiveFeed() {
       } catch { if (active) setError(true); }
     };
     void load();
-    const interval = window.setInterval(() => void load(), 30_000);
+    const unsubscribeRefresh = subscribeToLiveRefresh(load, { intervalMs: 12_000 });
     const source = "EventSource" in window ? new EventSource("/api/live/stream") : null;
     source?.addEventListener("snapshot", (event) => { try { if (active) setData(JSON.parse((event as MessageEvent<string>).data) as LivePayload); } catch { /* Próximo polling reconcilia */ } });
     source?.addEventListener("score", () => void load());
-    return () => { active = false; window.clearInterval(interval); source?.close(); };
+    return () => { active = false; unsubscribeRefresh(); source?.close(); };
   }, []);
   return { data, error };
 }

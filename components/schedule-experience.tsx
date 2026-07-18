@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { EventCard } from "@/components/event-card";
 import { LapHeader } from "@/components/lap-header";
 import { readFavorites, subscribeFavorites, type FavoriteItem } from "@/lib/client-preferences";
+import { subscribeToLiveRefresh } from "@/lib/client-live-refresh";
 import { FOOTBALL_COMPETITIONS, SPORTS, type LivePayload, type ScoreItem, type SportId } from "@/lib/live-data";
 import { getSportDataBlueprint } from "@/lib/sport-data-blueprints";
 import styles from "./schedule-experience.module.css";
@@ -133,7 +134,7 @@ function useLiveFeed() {
       }
     };
     void load();
-    const interval = window.setInterval(() => void load(), 30_000);
+    const unsubscribeRefresh = subscribeToLiveRefresh(load, { intervalMs: 12_000 });
     const source = "EventSource" in window ? new EventSource("/api/live/stream") : null;
     source?.addEventListener("snapshot", (event) => {
       try {
@@ -143,7 +144,7 @@ function useLiveFeed() {
     source?.addEventListener("score", () => void load());
     return () => {
       active = false;
-      window.clearInterval(interval);
+      unsubscribeRefresh();
       source?.close();
     };
   }, []);
