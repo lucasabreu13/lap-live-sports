@@ -59,7 +59,9 @@ export async function getFootballHubDetails(): Promise<FootballHubDetails> {
     live,
     upcoming,
     recent,
-    news: [...(payload?.editorial ?? []), ...(footballFeed?.news ?? [])].slice(0, 10),
+    news: [...(payload?.editorial ?? []), ...(footballFeed?.news ?? [])]
+      .filter((item) => item.sportId === "futebol")
+      .slice(0, 10),
     generatedAt: payload?.generatedAt ?? new Date().toISOString(),
   };
 }
