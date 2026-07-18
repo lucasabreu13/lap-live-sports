@@ -4,9 +4,10 @@ import { notFound } from "next/navigation";
 import { LapHeader } from "@/components/lap-header";
 import { decodeArticleTransport, findArticleBySlug, findSportById, type SportId } from "@/lib/live-data";
 import { findEditorialArticleBySlug, type EditorialArticle } from "@/lib/editorial-store";
+import { sportCoverImage } from "@/lib/sport-visuals";
 
 type PageProps = { params: Promise<{ slug: string }>; searchParams: Promise<{ d?: string }> };
-type BriefArticle = { kind: "brief"; slug: string; sportId: SportId; title: string; excerpt: string; source: string; url: string; publishedAt: string | null; };
+type BriefArticle = { kind: "brief"; slug: string; sportId: SportId; title: string; excerpt: string; source: string; url: string; publishedAt: string | null; imageUrl: string | null; imageAlt: string | null; };
 type ResolvedArticle = { kind: "editorial"; article: EditorialArticle } | { kind: "brief"; article: BriefArticle };
 
 function formatDate(dateValue: string | null) {
@@ -18,7 +19,8 @@ function formatDate(dateValue: string | null) {
 
 function asBriefArticle(value: ReturnType<typeof decodeArticleTransport> | Awaited<ReturnType<typeof findArticleBySlug>>): BriefArticle | null {
   if (!value || !value.url) return null;
-  return { kind: "brief", slug: value.slug, sportId: value.sportId, title: value.title, excerpt: value.excerpt, source: value.source, url: value.url, publishedAt: value.publishedAt };
+  const visual = sportCoverImage(value.sportId);
+  return { kind: "brief", slug: value.slug, sportId: value.sportId, title: value.title, excerpt: value.excerpt, source: value.source, url: value.url, publishedAt: value.publishedAt, imageUrl: value.imageUrl || visual.image, imageAlt: value.imageAlt || visual.alt };
 }
 
 async function resolveArticle({ params, searchParams }: PageProps): Promise<ResolvedArticle | null> {
@@ -38,9 +40,10 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   if (resolved.kind === "editorial") {
     const article = resolved.article;
     const description = article.seoDescription || article.summary;
-    return { title: article.seoTitle || article.title, description, openGraph: { type: "article", title: article.title, description, images: article.coverImageUrl ? [{ url: article.coverImageUrl }] : undefined } };
+    const image = article.coverImageUrl || sportCoverImage(article.sportId as SportId).image;
+    return { title: article.seoTitle || article.title, description, openGraph: { type: "article", title: article.title, description, images: [{ url: image }] } };
   }
-  return { title: resolved.article.title, description: resolved.article.excerpt };
+  return { title: resolved.article.title, description: resolved.article.excerpt, openGraph: { type: "article", title: resolved.article.title, description: resolved.article.excerpt, images: resolved.article.imageUrl ? [{ url: resolved.article.imageUrl }] : undefined } };
 }
 
 function EditorialBody({ content }: { content: string }) {
@@ -67,10 +70,12 @@ export default async function ArticlePage(props: PageProps) {
 
   if (resolved.kind === "editorial") {
     const article = resolved.article;
-    const jsonLd = { "@context": "https://schema.org", "@type": "NewsArticle", headline: article.seoTitle || article.title, description: article.seoDescription || article.summary, datePublished: article.publishedAt || article.createdAt, dateModified: article.updatedAt, author: { "@type": "Person", name: article.authorName || "LAP" }, publisher: { "@type": "Organization", name: "LAP" }, image: article.coverImageUrl || undefined };
-    return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><ArticleFrame sportId={sport.id}><header className="article-hero"><p>{sport.icon} {sport.name} • LAP</p><h1>{article.title}</h1><p className="article-dek">{article.summary}</p><div className="article-meta"><span>{article.authorName || "Redação LAP"}</span><span>•</span><time dateTime={article.publishedAt || article.createdAt}>{formatDate(article.publishedAt || article.createdAt)}</time>{article.updatedAt !== article.createdAt && <><span>•</span><span>atualizado</span></>}</div>{article.tags.length > 0 && <div className="article-tags">{article.tags.map((tag: string) => <Link href={`/modalidades/${sport.id}`} key={tag}>#{tag}</Link>)}</div>}</header>{article.coverImageUrl && <img className="article-cover" src={article.coverImageUrl} alt="" />}<div className="article-content"><EditorialBody content={article.content} /><EditorialSourceCard article={article} /></div></ArticleFrame></>;
+    const visual = sportCoverImage(sport.id);
+    const coverImage = article.coverImageUrl || visual.image;
+    const jsonLd = { "@context": "https://schema.org", "@type": "NewsArticle", headline: article.seoTitle || article.title, description: article.seoDescription || article.summary, datePublished: article.publishedAt || article.createdAt, dateModified: article.updatedAt, author: { "@type": "Person", name: article.authorName || "LAP" }, publisher: { "@type": "Organization", name: "LAP" }, image: coverImage };
+    return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><ArticleFrame sportId={sport.id}><header className="article-hero"><p>{sport.icon} {sport.name} • LAP</p><h1>{article.title}</h1><p className="article-dek">{article.summary}</p><div className="article-meta"><span>{article.authorName || "Redação LAP"}</span><span>•</span><time dateTime={article.publishedAt || article.createdAt}>{formatDate(article.publishedAt || article.createdAt)}</time>{article.updatedAt !== article.createdAt && <><span>•</span><span>atualizado</span></>}</div>{article.tags.length > 0 && <div className="article-tags">{article.tags.map((tag: string) => <Link href={`/modalidades/${sport.id}`} key={tag}>#{tag}</Link>)}</div>}</header><img className="article-cover" src={coverImage} alt={article.title || visual.alt} /><div className="article-content"><EditorialBody content={article.content} /><EditorialSourceCard article={article} /></div></ArticleFrame></>;
   }
 
   const article = resolved.article;
-  return <ArticleFrame sportId={sport.id}><header className="article-hero"><p>{sport.icon} {sport.name} • resumo LAP</p><h1>{article.title}</h1><p className="article-dek">{article.excerpt}</p><div className="article-meta"><span>Atualização acompanhada pela LAP</span><span>•</span><time dateTime={article.publishedAt || undefined}>{formatDate(article.publishedAt)}</time></div></header><div className="article-content"><><section className="article-summary"><p className="article-eyebrow">LAP em 1 minuto</p><h2>O que você precisa saber</h2><p>{article.excerpt}</p></section><section className="article-context"><h2>Por que isso importa</h2><p>Esta atualização faz parte da cobertura da LAP sobre {sport.name.toLowerCase()}. Acompanhe a página da modalidade para ver jogos, resultados e novos desdobramentos.</p></section></><BriefSourceCard article={article} /></div></ArticleFrame>;
+  return <ArticleFrame sportId={sport.id}><header className="article-hero"><p>{sport.icon} {sport.name} • resumo LAP</p><h1>{article.title}</h1><p className="article-dek">{article.excerpt}</p><div className="article-meta"><span>Atualização acompanhada pela LAP</span><span>•</span><time dateTime={article.publishedAt || undefined}>{formatDate(article.publishedAt)}</time></div></header><img className="article-cover" src={article.imageUrl || sportCoverImage(sport.id).image} alt={article.imageAlt || article.title} /><div className="article-content"><><section className="article-summary"><p className="article-eyebrow">LAP em 1 minuto</p><h2>O que você precisa saber</h2><p>{article.excerpt}</p></section><section className="article-context"><h2>Por que isso importa</h2><p>Esta atualização faz parte da cobertura da LAP sobre {sport.name.toLowerCase()}. Acompanhe a página da modalidade para ver jogos, resultados e novos desdobramentos.</p></section></><BriefSourceCard article={article} /></div></ArticleFrame>;
 }

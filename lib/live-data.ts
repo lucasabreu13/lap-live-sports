@@ -6,6 +6,7 @@ import {
   withScoreIntegrity,
   type ScoreIntegrity,
 } from "@/lib/score-integrity";
+import { sportCoverImage } from "@/lib/sport-visuals";
 
 export type SportId =
   | "futebol"
@@ -55,6 +56,8 @@ export type NewsItem = {
   url: string | null;
   publishedAt: string | null;
   internalUrl: string;
+  imageUrl?: string | null;
+  imageAlt?: string | null;
 };
 
 export type ScoreItem = {
@@ -412,7 +415,7 @@ function stableSlug(seed: string) {
   return createHash("sha256").update(seed).digest("hex").slice(0, 18);
 }
 
-type ArticleTransport = Pick<NewsItem, "slug" | "sportId" | "title" | "excerpt" | "source" | "url" | "publishedAt">;
+type ArticleTransport = Pick<NewsItem, "slug" | "sportId" | "title" | "excerpt" | "source" | "url" | "publishedAt" | "imageUrl" | "imageAlt">;
 
 function encodeArticleTransport(item: ArticleTransport) {
   return Buffer.from(JSON.stringify(item), "utf8").toString("base64url");
@@ -444,6 +447,8 @@ export function decodeArticleTransport(value: string | undefined): ArticleTransp
       source: repairMojibake(parsed.source),
       url: originalUrl.toString(),
       publishedAt: typeof parsed.publishedAt === "string" ? parsed.publishedAt : null,
+      imageUrl: typeof parsed.imageUrl === "string" ? parsed.imageUrl : sportCoverImage(parsed.sportId as SportId).image,
+      imageAlt: typeof parsed.imageAlt === "string" ? parsed.imageAlt : sportCoverImage(parsed.sportId as SportId).alt,
     };
   } catch {
     return null;
@@ -462,7 +467,8 @@ function parseGoogleNewsRss(xml: string, sportId: SportId): NewsItem[] {
     if (!title || !url) return [];
 
     const slug = stableSlug(`${url}|${source}|${title}`);
-    const baseItem: ArticleTransport = { slug, sportId, title, excerpt, source, url, publishedAt };
+    const visual = sportCoverImage(sportId);
+    const baseItem: ArticleTransport = { slug, sportId, title, excerpt, source, url, publishedAt, imageUrl: visual.image, imageAlt: visual.alt };
     return [{
       id: `${sportId}-news-${index}-${slug}`,
       kind: "brief" as const,
@@ -485,6 +491,8 @@ function editorialToNews(article: EditorialArticle): NewsItem | null {
     url: article.sourceUrl,
     publishedAt: article.publishedAt || article.createdAt,
     internalUrl: `/materias/${article.slug}`,
+    imageUrl: article.coverImageUrl || sportCoverImage(article.sportId as SportId).image,
+    imageAlt: article.coverImageUrl ? article.title : sportCoverImage(article.sportId as SportId).alt,
   };
 }
 
@@ -496,11 +504,50 @@ function fallbackEditorialItems(): NewsItem[] {
     { slug: "como-usar-alertas-lap", sportId: "futebol", title: "Como personalizar sua LAP com favoritos e alertas", excerpt: "Marque esportes e jogos para concentrar sua agenda e receber atualizações diretamente no navegador." },
   ];
   return seed.map((item, index) => {
+    const visual = sportCoverImage(item.sportId);
     const transport: ArticleTransport = {
       ...item,
       source: "LAP Guia",
       url: "https://lap-live-sports.vercel.app/agenda",
       publishedAt: new Date(Date.now() - index * 60 * 60_000).toISOString(),
+      imageUrl: visual.image,
+      imageAlt: visual.alt,
+    };
+    return {
+      id: `lap-guide-${item.slug}`,
+      kind: "editorial" as const,
+      ...transport,
+      internalUrl: `/materias/${item.slug}?d=${encodeArticleTransport(transport)}`,
+    };
+  });
+}
+
+function additionalSportGuideItems(): NewsItem[] {
+  const guides: Array<Pick<NewsItem, "slug" | "sportId" | "title" | "excerpt">> = [
+    { slug: "tenis-na-lap", sportId: "tenis", title: "Tênis na LAP: torneios, partidas e Grand Slams", excerpt: "Acompanhe o calendário do circuito, as partidas disponíveis e os grandes torneios sem rankings preenchidos por estimativa." },
+    { slug: "ciclismo-na-lap", sportId: "ciclismo", title: "Ciclismo na LAP: voltas, clássicas e etapas decisivas", excerpt: "Um guia para localizar provas, etapas, resultados e notícias das principais competições do ciclismo." },
+    { slug: "basquete-na-lap", sportId: "basquete", title: "Basquete na LAP: NBA, calendário e resultados", excerpt: "Jogos ao vivo, próximos confrontos, resultados e notícias da NBA reunidos em uma central dedicada." },
+    { slug: "beisebol-na-lap", sportId: "beisebol", title: "Beisebol na LAP: temporada, divisões e jogos da MLB", excerpt: "Navegue pela agenda da MLB e acompanhe resultados, times e notícias com contexto para cada fase da temporada." },
+    { slug: "softball-na-lap", sportId: "softball", title: "Softball na LAP: competições e formato da modalidade", excerpt: "Conheça as principais competições, o formato dos jogos e onde acompanhar os próximos eventos confirmados." },
+    { slug: "volei-na-lap", sportId: "volei", title: "Vôlei na LAP: clubes, seleções e grandes torneios", excerpt: "Superliga, Liga das Nações, Mundial de Clubes e vôlei de praia ganham um ponto de entrada próprio na LAP." },
+    { slug: "rugby-na-lap", sportId: "rugby", title: "Rugby na LAP: torneios, seleções e calendário", excerpt: "Um mapa para entender as competições importantes, localizar eventos e acompanhar as notícias da modalidade." },
+    { slug: "criquete-na-lap", sportId: "criquete", title: "Críquete na LAP: formatos, seleções e grandes séries", excerpt: "Entenda Test, ODI e T20 enquanto acompanha o calendário e as competições que chegam de fontes confiáveis." },
+    { slug: "mma-na-lap", sportId: "mma", title: "MMA na LAP: UFC, cards e próximos eventos", excerpt: "Veja eventos, categorias e notícias do UFC em uma central preparada para rankings quando houver dados confiáveis." },
+    { slug: "golfe-na-lap", sportId: "golfe", title: "Golfe na LAP: PGA Tour, torneios e leaderboard", excerpt: "Calendário, torneio atual e guia de leaderboard sem inventar premiação ou classificação ausente." },
+    { slug: "natacao-na-lap", sportId: "natacao", title: "Natação na LAP: provas, estilos e grandes competições", excerpt: "Calendário, provas e atletas entram em uma cobertura organizada para os principais eventos da natação." },
+    { slug: "atletismo-na-lap", sportId: "atletismo", title: "Atletismo na LAP: pistas, campo e grandes campeonatos", excerpt: "Localize provas, competições e notícias de velocidade, fundo, saltos, lançamentos e provas combinadas." },
+    { slug: "surfe-na-lap", sportId: "surfe", title: "Surfe na LAP: WSL, etapas e janelas de competição", excerpt: "Acompanhe etapas, baterias e notícias do Championship Tour com estados claros quando o mar estiver sem disputa." },
+  ];
+
+  return guides.map((item, index) => {
+    const visual = sportCoverImage(item.sportId);
+    const transport: ArticleTransport = {
+      ...item,
+      source: "LAP Guia",
+      url: `https://lap-live-sports.vercel.app/modalidades/${item.sportId}`,
+      publishedAt: new Date(Date.now() - (index + 4) * 60 * 60_000).toISOString(),
+      imageUrl: visual.image,
+      imageAlt: visual.alt,
     };
     return {
       id: `lap-guide-${item.slug}`,
@@ -962,11 +1009,13 @@ export async function getLivePayload(): Promise<LivePayload> {
 
   const footballFeed = feedResults.find((feed) => feed.id === "futebol");
   const editorial = editorialResult.map(editorialToNews).filter((item): item is NewsItem => item !== null);
-  const guideItems = fallbackEditorialItems();
+  const guideItems = [...fallbackEditorialItems(), ...additionalSportGuideItems()];
+  const editorialSlugs = new Set(editorial.map((item) => item.slug));
+  const editorialAndGuides = [...editorial, ...guideItems.filter((item) => !editorialSlugs.has(item.slug))];
   const payload: LivePayload = {
     generatedAt: new Date().toISOString(),
     refreshSeconds: 30,
-    editorial: editorial.length ? editorial : guideItems,
+    editorial: editorialAndGuides,
     feeds: feedResults,
     football: {
       competitions: FOOTBALL_COMPETITIONS,
