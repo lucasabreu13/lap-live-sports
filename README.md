@@ -53,6 +53,12 @@ npm run test:push
 npm run build
 ```
 
+Com o servidor local em execução, rode a auditoria de rotas, conteúdo e eventos com:
+
+```bash
+npm run audit:site -- http://localhost:3000
+```
+
 ## Configurar variáveis
 
 1. Copie `.env.example` para `.env.local`.
