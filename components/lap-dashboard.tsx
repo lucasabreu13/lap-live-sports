@@ -2,18 +2,21 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { EventCard, eventHref } from "@/components/event-card";
+import { EventCard } from "@/components/event-card";
+import { eventHref } from "@/lib/event-presentation";
 import { HomeExplore } from "@/components/home-explore";
 import { LapHeader, SportFavoriteButton } from "@/components/lap-header";
-import { readFavorites, readNotificationPreferences, subscribeFavorites, toggleFavorite } from "@/lib/client-preferences";
+import { readFavorites, subscribeFavorites, toggleFavorite } from "@/lib/client-preferences";
+import { subscribeToLiveRefresh } from "@/lib/client-live-refresh";
+import { eventDisplayTitle, isSingleEvent } from "@/lib/event-presentation";
 import { SPORTS, type LivePayload, type NewsItem, type ScoreItem, type SportFeed, type SportId } from "@/lib/live-data";
+import { applyScorePatchWithIntegrity, canDisplayScore, displayScoreValue, reconciliationMessage, scoreSeparator } from "@/lib/score-integrity";
 
 type FeedState = "loading" | "ready" | "error";
 type LapDashboardProps = { initialSport?: SportId | "todos" };
 type LiveTab = "live" | "next" | "finished";
 
 const ONBOARDING_KEY = "lap:onboarding:v1";
-const NOTIFICATION_DEDUP_KEY = "lap:notification-dedup:v1";
 
 function relativeTime(dateValue: string | null) {
   if (!dateValue) return "Agora";
@@ -68,43 +71,13 @@ function sameLocalDay(dateValue: string | null, now: number) {
   return eventDate.toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" }) === today.toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" });
 }
 
-function gameLabel(score: ScoreItem) {
-  return score.eventKind === "race" ? `${score.home.name} · Fórmula 1` : `${score.home.name} x ${score.away.name}`;
-}
-
-function matchFavoriteScore(score: ScoreItem, favorites = readFavorites()) {
-  return favorites.some((item) => {
-    if (item.id === `event:${score.sportId}:${score.id}`) return true;
-    if (item.id === `sport:${score.sportId}`) return true;
-    if (score.competitionId && item.id === `league:${score.competitionId}`) return true;
-    return item.type === "team" && `${score.home.name} ${score.away.name}`.toLowerCase().includes(item.label.toLowerCase());
-  });
-}
-
 function statusText(score: ScoreItem) {
+  if (score.integrity === "reconciling") return "Placar em confirmação";
   const raw = score.status || "";
   if (score.state === "in") return raw || "Ao vivo";
   if (score.state === "post") return raw || "Encerrado";
   if (/postponed|adiad/i.test(raw)) return "Adiado";
-  return score.startTime ? localTime(score.startTime) : "Horário a confirmar";
-}
-
-function readNotificationDedupe() {
-  if (typeof window === "undefined") return new Set<string>();
-  try {
-    const parsed = JSON.parse(window.localStorage.getItem(NOTIFICATION_DEDUP_KEY) || "[]") as string[];
-    return new Set(Array.isArray(parsed) ? parsed : []);
-  } catch {
-    return new Set<string>();
-  }
-}
-
-function notifyOnce(key: string, title: string, body: string) {
-  const seen = readNotificationDedupe();
-  if (seen.has(key)) return;
-  seen.add(key);
-  window.localStorage.setItem(NOTIFICATION_DEDUP_KEY, JSON.stringify([...seen].slice(-80)));
-  new Notification(title, { body, tag: key });
+  return score.startTime ? localTime(score.startTime) : "Sem horário publicado";
 }
 
 function NewsCard({ item, large = false }: { item: NewsItem; large?: boolean }) {
@@ -193,15 +166,23 @@ function FeaturedGameCard({ score }: { score: ScoreItem | null }) {
       <article className="live-feature live-feature--empty">
         <p>Jogo em destaque</p>
         <h3>Aguardando o próximo evento relevante</h3>
-        <span>A LAP mantém notícias e agenda no ar enquanto a fonte publica novos jogos.</span>
+        <span>A LAP mantém notícias e agenda no ar enquanto novos jogos são publicados.</span>
         <Link href="/agenda" className="live-feature__button">Abrir agenda</Link>
       </article>
     );
   }
-  const scoreLine = score.eventKind === "race" ? score.status : `${score.home.score ?? "—"} x ${score.away.score ?? "—"}`;
+  const showScore = canDisplayScore(score);
+  const reconciliation = reconciliationMessage(score);
+  const singleEvent = isSingleEvent(score);
+  const scoreLine = singleEvent
+    ? score.status
+    : showScore
+      ? `${displayScoreValue(score, "home")} × ${displayScoreValue(score, "away")}`
+      : `${score.home.name} vs ${score.away.name}`;
   const recent = [
+    reconciliation,
     score.state === "in" ? score.status : null,
-    score.state === "pre" ? `Começa ${dateAndTime(score.startTime)}` : null,
+    score.state === "pre" && score.startTime ? `Começa ${dateAndTime(score.startTime)}` : null,
     score.state === "post" ? `Final: ${score.status}` : null,
     score.venue ? `Local: ${score.venue}` : null,
     score.broadcast ? `Transmissão: ${score.broadcast}` : null,
@@ -209,15 +190,15 @@ function FeaturedGameCard({ score }: { score: ScoreItem | null }) {
 
   return (
     <article className="live-feature">
-      <div className="live-feature__meta"><span className={score.state === "in" ? "live-label" : "status-label"}>{statusText(score)}</span><span>{score.league}</span></div>
-      <div className="live-feature__score">
-        <div><strong>{score.home.name}</strong><span>{score.home.score ?? "—"}</span></div>
-        <em>{score.eventKind === "race" ? "GP" : "x"}</em>
-        <div><strong>{score.away.name}</strong><span>{score.away.score ?? "—"}</span></div>
-      </div>
+      <div className="live-feature__meta"><span className={score.state === "in" && !reconciliation ? "live-label" : "status-label"}>{statusText(score)}</span><span>{score.league}</span></div>
+      {singleEvent ? <div className="live-feature__single"><strong>{eventDisplayTitle(score)}</strong><span>{score.status}</span></div> : <div className="live-feature__score">
+        <div><strong>{score.home.name}</strong><span>{displayScoreValue(score, "home")}</span></div>
+        <em>{scoreSeparator(score)}</em>
+        <div><strong>{score.away.name}</strong><span>{displayScoreValue(score, "away")}</span></div>
+      </div>}
       <p>{scoreLine}</p>
       <ul>{recent.slice(0, 3).map((item) => <li key={item}>{item}</li>)}</ul>
-      <Link href={eventHref(score)} className="live-feature__button">Acompanhar jogo</Link>
+      <Link href={eventHref(score)} className="live-feature__button">Acompanhar evento</Link>
     </article>
   );
 }
@@ -240,7 +221,7 @@ function LiveOperationsCenter({ payload, events, status, now }: { payload: LiveP
         <div>
           <p>Central Ao Vivo</p>
           <h2 id="live-center-title">Ao vivo, próximos e resultados</h2>
-          <span>Jogos agrupados por campeonato, com status claro, horário local e fallback do último retorno válido.</span>
+          <span>Eventos agrupados por competição, com status claro, horário local e a última atualização sempre preservada.</span>
         </div>
         <div className="live-center__freshness">
           <strong>{updatedAgo(payload?.generatedAt, now)}</strong>
@@ -249,7 +230,7 @@ function LiveOperationsCenter({ payload, events, status, now }: { payload: LiveP
         <Link href="/agenda" className="live-center__agenda-link">Ver agenda completa {"\u2192"}</Link>
       </header>
 
-      {sourceIssue && <p className="live-center__warning">Atualização discreta: alguma fonte está atrasada. A LAP preserva a última resposta válida e tenta reconectar sem zerar a home.</p>}
+      {sourceIssue && <p className="live-center__warning">Alguns placares podem demorar um pouco mais. A LAP mantém a atualização mais recente enquanto tenta novamente.</p>}
 
       <div className="live-center__layout">
         <FeaturedGameCard score={featured} />
@@ -371,52 +352,13 @@ function FavoritesOnboarding({ payload }: { payload: LivePayload | null }) {
 
 function applyScorePatch(payload: LivePayload, patch: { eventId: string; sportId?: SportId; state?: ScoreItem["state"]; status?: string; homeScore?: string | number | null; awayScore?: string | number | null; occurredAt?: string }): LivePayload {
   const patchItem = (score: ScoreItem) => {
-    if (score.id !== patch.eventId || (patch.sportId && score.sportId !== patch.sportId)) return score;
-    return { ...score, state: patch.state || score.state, status: patch.status || score.status, home: { ...score.home, score: patch.homeScore === undefined ? score.home.score : patch.homeScore === null ? null : String(patch.homeScore) }, away: { ...score.away, score: patch.awayScore === undefined ? score.away.score : patch.awayScore === null ? null : String(patch.awayScore) } };
+    return applyScorePatchWithIntegrity(score, {
+      ...patch,
+      homeScore: patch.homeScore === undefined ? undefined : patch.homeScore === null ? null : String(patch.homeScore),
+      awayScore: patch.awayScore === undefined ? undefined : patch.awayScore === null ? null : String(patch.awayScore),
+    });
   };
   return { ...payload, generatedAt: patch.occurredAt || new Date().toISOString(), feeds: payload.feeds.map((feed) => ({ ...feed, scores: feed.scores.map(patchItem) })), worldCup: { ...payload.worldCup, events: payload.worldCup.events.map(patchItem) } };
-}
-
-function useLiveNotifications(payload: LivePayload | null) {
-  const previous = useRef<LivePayload | null>(null);
-  useEffect(() => {
-    if (!payload) return;
-    const prior = previous.current;
-    previous.current = payload;
-    if (!("Notification" in window) || Notification.permission !== "granted") return;
-    const preferences = readNotificationPreferences();
-    if (!preferences.enabled) return;
-    const favorites = readFavorites();
-    const current = [...payload.worldCup.events, ...payload.feeds.flatMap((feed) => feed.scores)];
-
-    for (const score of current) {
-      const favorite = matchFavoriteScore(score, favorites);
-      if (preferences.favoriteOnly && !favorite) continue;
-      if (score.state === "pre" && score.startTime) {
-        const startsIn = new Date(score.startTime).getTime() - Date.now();
-        if (startsIn >= 0 && startsIn <= 30 * 60_000) {
-          notifyOnce(`lap-soon-${score.sportId}-${score.id}-${score.startTime}`, `LAP · ${gameLabel(score)} em 30 minutos`, `${score.league} · ${dateAndTime(score.startTime)}`);
-        }
-      }
-    }
-
-    if (!prior) return;
-    const priorScores = new Map([...prior.worldCup.events, ...prior.feeds.flatMap((feed) => feed.scores)].map((score) => [`${score.sportId}:${score.id}`, score]));
-    for (const score of current) {
-      const old = priorScores.get(`${score.sportId}:${score.id}`);
-      if (!old) continue;
-      const changed = old.home.score !== score.home.score || old.away.score !== score.away.score || old.state !== score.state;
-      const favorite = matchFavoriteScore(score, favorites);
-      if (changed && (!preferences.favoriteOnly || favorite)) {
-        const title =
-          old.state !== "in" && score.state === "in" ? `LAP · Começou: ${gameLabel(score)}` :
-          old.state !== "post" && score.state === "post" ? `LAP · Encerrado: ${gameLabel(score)}` :
-          old.home.score !== score.home.score || old.away.score !== score.away.score ? `LAP · Placar mudou: ${gameLabel(score)}` :
-          `LAP · Atualização: ${gameLabel(score)}`;
-        notifyOnce(`lap-change-${score.sportId}-${score.id}-${score.state}-${score.home.score}-${score.away.score}`, title, score.status);
-      }
-    }
-  }, [payload]);
 }
 
 export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
@@ -446,8 +388,7 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
 
   useEffect(() => {
     void refresh(false);
-    const timer = window.setInterval(() => void refresh(false), 30_000);
-    return () => window.clearInterval(timer);
+    return subscribeToLiveRefresh(() => refresh(false), { intervalMs: 12_000 });
   }, [refresh]);
 
   useEffect(() => {
@@ -476,8 +417,6 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
     });
     return () => source.close();
   }, []);
-
-  useLiveNotifications(data);
 
   const feedsWithEditorial = useMemo(() => data ? data.feeds.map((feed) => ({ ...feed, news: [...data.editorial.filter((article) => article.sportId === feed.id), ...feed.news] })) : [], [data]);
   const allScores = useMemo(() => feedsWithEditorial.flatMap((feed) => feed.scores), [feedsWithEditorial]);

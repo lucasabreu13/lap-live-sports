@@ -48,7 +48,7 @@ export function FootballCoverageHub({ coverage, events }: FootballCoverageProps)
             {coverage.competitions.map((competition) => <option key={competition.id} value={competition.id}>{competition.name} · {competition.country}</option>)}
           </select>
         </label>
-        <p className={`football-coverage__source football-coverage__source--${coverage.sourceStatus}`}>{coverage.sourceStatus === "live" ? "Feed sincronizado" : coverage.sourceStatus === "stale" ? "Mostrando última resposta válida" : "Fonte em reconexão"}</p>
+        <p className={`football-coverage__source football-coverage__source--${coverage.sourceStatus}`}>{coverage.sourceStatus === "live" ? "Atualizado agora" : coverage.sourceStatus === "stale" ? "Última atualização disponível" : "Agenda em atualização"}</p>
       </div>
       <div className="league-follow-grid" aria-label="Ligas para seguir">
         {favorites.map((competition) => (
@@ -59,7 +59,7 @@ export function FootballCoverageHub({ coverage, events }: FootballCoverageProps)
         ))}
       </div>
       {visibleEvents.length ? <div className="full-schedule__grid football-coverage__events">{visibleEvents.map((event) => <EventCard key={`${event.sportId}-${event.id}`} score={event} showSport />)}</div> : <div className="empty-card football-coverage__empty">Não há partidas da liga escolhida neste recorte. Salve a competição para encontrá-la nos favoritos e acompanhe novas atualizações.</div>}
-      {coverage.sourceNote && <p className="status-note">{coverage.sourceNote}</p>}
+      {coverage.sourceNote && <p className="status-note">Alguns jogos podem demorar um pouco mais para aparecer.</p>}
     </section>
   );
 }
@@ -68,5 +68,5 @@ type PriorityRailProps = { feeds: SportFeed[] };
 
 export function PrioritySportsRail({ feeds }: PriorityRailProps) {
   const priority = feeds.filter((feed) => feed.id === "futebol-americano" || feed.id === "formula1");
-  return <section className="priority-rail" aria-label="Centrais prioritárias"><header><div><p>Grandes eventos</p><h2>NFL e Fórmula 1</h2></div><Link href="/agenda" className="section-link">Ver tudo</Link></header><div>{priority.map((feed) => <article key={feed.id}><div className="priority-rail__intro"><span>{feed.icon}</span><div><small>{feed.sourceStatus === "live" ? "Atualização ativa" : feed.sourceStatus === "stale" ? "Última atualização" : "Agenda em reconexão"}</small><h3>{feed.name}</h3><p>{feed.description || "Agenda, resultados e principais histórias em uma central própria."}</p></div></div><div className="priority-rail__events">{feed.scores.length ? feed.scores.slice(0, 2).map((event) => <EventCard key={event.id} score={event} compact />) : <div className="empty-card">A agenda oficial aparece aqui assim que a fonte publicar novos eventos.</div>}</div><Link href={`/modalidades/${feed.id}`} className="priority-rail__open">Abrir central {feed.name} →</Link></article>)}</div></section>;
+  return <section className="priority-rail" aria-label="Centrais prioritárias"><header><div><p>Grandes eventos</p><h2>NFL e Fórmula 1</h2></div><Link href="/agenda" className="section-link">Ver tudo</Link></header><div>{priority.map((feed) => <article key={feed.id}><div className="priority-rail__intro"><span>{feed.icon}</span><div><small>{feed.sourceStatus === "live" ? "Atualizado agora" : feed.sourceStatus === "stale" ? "Última atualização" : "Agenda em atualização"}</small><h3>{feed.name}</h3><p>{feed.description || "Agenda, resultados e principais histórias em uma central própria."}</p></div></div><div className="priority-rail__events">{feed.scores.length ? feed.scores.slice(0, 2).map((event) => <EventCard key={event.id} score={event} compact />) : <div className="empty-card">A agenda aparece aqui assim que novos eventos forem publicados.</div>}</div><Link href={`/modalidades/${feed.id}`} className="priority-rail__open">Abrir central {feed.name} →</Link></article>)}</div></section>;
 }

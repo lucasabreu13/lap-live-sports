@@ -1,46 +1,257 @@
+"use client";
+
 import Link from "next/link";
-import { SPORTS } from "@/lib/live-data";
+import { useEffect, useMemo, useState } from "react";
+import { EventCard } from "@/components/event-card";
+import { eventHref } from "@/lib/event-presentation";
+import { eventDisplayTitle, isHeadToHeadEvent, isSingleEvent } from "@/lib/event-presentation";
+import { FOOTBALL_COMPETITIONS, SPORTS, type LivePayload, type NewsItem, type ScoreItem, type SportId } from "@/lib/live-data";
+import styles from "./home-explore.module.css";
 
-const featuredSportIds = [
-  "futebol",
-  "futebol-americano",
-  "formula1",
-  "basquete",
-] as const;
+type PollChoice = "home" | "draw" | "away";
 
-export function HomeExplore() {
-  const items = featuredSportIds
-    .map((id) => SPORTS.find((sport) => sport.id === id))
-    .filter((sport): sport is (typeof SPORTS)[number] => Boolean(sport));
+const specialItems = [
+  { href: "/agenda", icon: "▦", title: "Jogos imperdíveis", text: "Agenda filtrada por hoje, amanhã, favoritos e modalidade." },
+  { href: "/copa-2026", icon: "🏆", title: "Copa 2026", text: "Central com jogos, chaveamento e cobertura da Copa." },
+  { href: "/cobertura", icon: "◎", title: "Mapa de cobertura", text: "Veja o que cada modalidade entrega na LAP." },
+  { href: "/favoritos", icon: "★", title: "Minha LAP", text: "Salve times, ligas e eventos para acompanhar melhor." },
+];
+
+function eventKey(score: ScoreItem) {
+  return `${score.sportId}:${score.id}:${score.isWorldCup ? "cup" : "main"}`;
+}
+
+function eventTime(score: ScoreItem) {
+  if (!score.startTime) return Number.MAX_SAFE_INTEGER;
+  const time = new Date(score.startTime).getTime();
+  return Number.isFinite(time) ? time : Number.MAX_SAFE_INTEGER;
+}
+
+function uniqueEvents(payload: LivePayload | null) {
+  if (!payload) return [];
+  const events = [...payload.worldCup.events, ...payload.feeds.flatMap((feed) => feed.scores)];
+  return Array.from(new Map(events.map((event) => [eventKey(event), event])).values());
+}
+
+function sortEvents(events: ScoreItem[]) {
+  return [...events].sort((a, b) => {
+    const phase = (score: ScoreItem) => score.state === "in" ? 0 : score.state === "pre" ? 1 : 2;
+    const phaseDiff = phase(a) - phase(b);
+    if (phaseDiff) return phaseDiff;
+    if (a.state === "post" || b.state === "post") return eventTime(b) - eventTime(a);
+    return eventTime(a) - eventTime(b);
+  });
+}
+
+function formatDate(value: string | null) {
+  if (!value) return "Horário a confirmar";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Horário a confirmar";
+  return new Intl.DateTimeFormat("pt-BR", { weekday: "short", day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" }).format(date);
+}
+
+function sportMeta(sportId: SportId) {
+  return SPORTS.find((sport) => sport.id === sportId);
+}
+
+function newsSportIcon(item: NewsItem) {
+  return SPORTS.find((sport) => sport.id === item.sportId)?.icon ?? "•";
+}
+
+function compactSource(item: NewsItem) {
+  return item.kind === "editorial" ? "LAP" : item.source;
+}
+
+function competitionCount(events: ScoreItem[], competitionId: string, name: string) {
+  const normalized = name.toLocaleLowerCase("pt-BR");
+  return events.filter((event) => event.competitionId === competitionId || event.league.toLocaleLowerCase("pt-BR").includes(normalized)).length;
+}
+
+function countryGroups(events: ScoreItem[]) {
+  const groups = new Map<string, number>();
+  for (const event of events.filter((item) => item.sportId === "futebol")) {
+    const country = event.country || "Internacional";
+    groups.set(country, (groups.get(country) ?? 0) + 1);
+  }
+  return [...groups.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
+    .map(([country, count]) => ({ country, count }));
+}
+
+function matchTitle(event: ScoreItem) {
+  return eventDisplayTitle(event);
+}
+
+function FeaturedMatch({ event }: { event: ScoreItem | null }) {
+  if (!event) {
+    return <div className={styles.empty}>Aguardando os próximos eventos da agenda.</div>;
+  }
 
   return (
-    <section className="home-explore" aria-labelledby="home-explore-title">
-      <header className="home-explore__header">
+    <Link className={styles.matchHero} href={eventHref(event)}>
+      <p className={styles.matchMeta}>{event.state === "in" ? "Ao vivo agora" : event.state === "post" ? "Último resultado" : "Próximo destaque"}</p>
+      <h3>{isSingleEvent(event) ? event.home.name : <>{event.home.name} <span>×</span> {event.away.name}</>}</h3>
+      <div className={styles.matchHeroFooter}>
         <div>
-          <p>Explore</p>
-          <h2 id="home-explore-title">Encontre sua cobertura</h2>
-          <span>Abra uma central por modalidade ou consulte toda a agenda.</span>
+          <strong>{event.league.replace(/-/g, " ")}</strong>
+          {event.state === "post" ? event.status : formatDate(event.startTime)}
         </div>
+        <span>Acompanhar →</span>
+      </div>
+    </Link>
+  );
+}
 
-        <Link href="/agenda" className="section-link">
-          Abrir agenda
-        </Link>
+function PollCard({ event }: { event: ScoreItem }) {
+  const [choice, setChoice] = useState<PollChoice | null>(null);
+  if (!isHeadToHeadEvent(event)) return null;
+  return (
+    <article className={styles.pollCard}>
+      <p className={styles.pollKicker}>Quem vence?</p>
+      <strong>{event.home.name} x {event.away.name}</strong>
+      <span>{event.league.replace(/-/g, " ")} · {formatDate(event.startTime)}</span>
+      <div className={styles.pollOptions}>
+        <button type="button" className={choice === "home" ? styles.active : ""} onClick={() => setChoice("home")}>{event.home.name.split(" ")[0]}</button>
+        <button type="button" className={choice === "draw" ? styles.active : ""} onClick={() => setChoice("draw")}>Empate</button>
+        <button type="button" className={choice === "away" ? styles.active : ""} onClick={() => setChoice("away")}>{event.away.name.split(" ")[0]}</button>
+      </div>
+    </article>
+  );
+}
+
+export function HomeExplore() {
+  const [payload, setPayload] = useState<LivePayload | null>(null);
+
+  useEffect(() => {
+    let active = true;
+    const load = async () => {
+      try {
+        const response = await fetch("/api/live", { cache: "no-store" });
+        if (!response.ok) return;
+        const next = await response.json() as LivePayload;
+        if (active) setPayload(next);
+      } catch {
+        // Mantém a home navegável mesmo se a atualização falhar.
+      }
+    };
+    void load();
+    const timer = window.setInterval(() => void load(), 60_000);
+    return () => {
+      active = false;
+      window.clearInterval(timer);
+    };
+  }, []);
+
+  const events = useMemo(() => sortEvents(uniqueEvents(payload)), [payload]);
+  const sports = useMemo(() => SPORTS.map((sport) => ({ sport, count: events.filter((event) => event.sportId === sport.id).length })).filter((item) => item.count > 0).slice(0, 10), [events]);
+  const featured = events[0] ?? null;
+  const sideEvents = events.filter((event) => featured ? eventKey(event) !== eventKey(featured) : true).slice(0, 4);
+  const allNews = useMemo(() => payload ? [...payload.editorial, ...payload.feeds.flatMap((feed) => feed.news)].slice(0, 8) : [], [payload]);
+  const popularCompetitions = useMemo(() => FOOTBALL_COMPETITIONS
+    .map((competition) => ({ ...competition, count: competitionCount(events, competition.id, competition.name) }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 8), [events]);
+  const countries = useMemo(() => countryGroups(events), [events]);
+  const pollEvents = events.filter((event) => isHeadToHeadEvent(event) && event.state !== "post").slice(0, 3);
+
+  return (
+    <section className={styles.portal} aria-labelledby="portal-home-title">
+      <header className={styles.header}>
+        <div>
+          <p>Portal LAP</p>
+          <h2 id="portal-home-title">Tudo que importa no dia esportivo</h2>
+          <span>Jogos, modalidades, campeonatos, países, notícias e interação em uma experiência mais parecida com app esportivo.</span>
+        </div>
+        <Link href="/agenda" className={styles.portalLink}>Abrir agenda completa</Link>
       </header>
 
-      <div className="home-explore__grid">
-        {items.map((sport) => (
-          <Link
-            key={sport.id}
-            href={`/modalidades/${sport.id}`}
-            className="home-explore__card"
-          >
-            <span aria-hidden="true">{sport.icon}</span>
-            <strong>{sport.name}</strong>
-            <small>{sport.description || "Noticias, jogos e resultados."}</small>
-            <em>Ver central {"\u2192"}</em>
-          </Link>
-        ))}
+      <div className={styles.productGrid}>
+        <aside className={styles.panel} aria-label="Modalidades em destaque">
+          <div className={styles.sectionTitle}><p>Esportes</p><h2>Modalidades</h2><span>Entre rápido no esporte que você quer acompanhar.</span></div>
+          <div className={styles.sportList}>
+            {sports.length ? sports.map(({ sport, count }) => (
+              <Link key={sport.id} href={`/modalidades/${sport.id}`} className={styles.sportPill}>
+                <span className={styles.sportPillIcon} aria-hidden>{sport.icon}</span>
+                <span><strong>{sport.name}</strong><small>{sport.description || "Notícias, jogos e resultados"}</small></span>
+                <em>{count}</em>
+              </Link>
+            )) : SPORTS.slice(0, 6).map((sport) => (
+              <Link key={sport.id} href={`/modalidades/${sport.id}`} className={styles.sportPill}>
+                <span className={styles.sportPillIcon} aria-hidden>{sport.icon}</span>
+                <span><strong>{sport.name}</strong><small>{sport.description || "Notícias, jogos e resultados"}</small></span>
+                <em>→</em>
+              </Link>
+            ))}
+          </div>
+        </aside>
+
+        <section className={styles.panel} aria-label="Jogos em destaque">
+          <div className={styles.sectionTitle}><p>Jogos</p><h2>Agora na LAP</h2><span>O principal evento e uma lista curta para leitura rápida.</span></div>
+          <div className={styles.matchStack}>
+            <FeaturedMatch event={featured} />
+            <div className={styles.eventGrid}>
+              {sideEvents.length ? sideEvents.map((event) => <EventCard key={eventKey(event)} score={event} compact showSport />) : <div className={styles.empty}>Os próximos jogos aparecem aqui.</div>}
+            </div>
+          </div>
+        </section>
+
+        <aside className={styles.panel} aria-label="Últimas notícias">
+          <div className={styles.sectionTitle}><p>Notícias</p><h2>Últimas</h2><span>Resumo rápido por modalidade, sem sair da LAP.</span></div>
+          <div className={styles.newsStack}>
+            {allNews.length ? allNews.slice(0, 6).map((item) => (
+              <Link key={item.id} href={item.internalUrl} className={styles.storyCard}>
+                <span className={styles.storyIcon} aria-hidden>{newsSportIcon(item)}</span>
+                <span>
+                  <p className={styles.storyMeta}>{compactSource(item)}</p>
+                  <strong>{item.title}</strong>
+                  <small>{sportMeta(item.sportId as SportId)?.name ?? item.sportId}</small>
+                </span>
+              </Link>
+            )) : <div className={styles.empty}>Carregando notícias...</div>}
+          </div>
+        </aside>
       </div>
+
+      <section className={styles.panel} aria-label="Campeonatos em destaque">
+        <div className={styles.sectionTitle}><p>Campeonatos populares</p><h2>Ligas em destaque</h2><span>Atalhos para as competições que mais ajudam o usuário a navegar.</span></div>
+        <div className={styles.leagueGrid}>
+          {popularCompetitions.map((competition) => (
+            <Link href={`/campeonatos/${competition.id}`} className={styles.leagueCard} key={competition.id}>
+              <span className={styles.cardIcon} aria-hidden>🏟️</span>
+              <strong>{competition.name}</strong>
+              <span>{competition.country} · {competition.count} evento{competition.count === 1 ? "" : "s"}</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className={styles.panel} aria-label="Jogos por país">
+        <div className={styles.sectionTitle}><p>Futebol por país</p><h2>Navegação rápida</h2><span>Agrupe a agenda por país para reduzir lista infinita e achar jogos mais rápido.</span></div>
+        <div className={styles.countryGrid}>
+          {countries.length ? countries.map((item) => (
+            <Link href={`/agenda?pais=${encodeURIComponent(item.country)}`} className={styles.countryCard} key={item.country}>
+              <span className={styles.cardIcon} aria-hidden>🌎</span>
+              <strong>{item.country}</strong>
+              <span>{item.count} jogo{item.count === 1 ? "" : "s"} no radar</span>
+            </Link>
+          )) : <div className={styles.empty}>Países aparecem quando a agenda de futebol estiver carregada.</div>}
+        </div>
+      </section>
+
+      <section className={styles.panel} aria-label="Interação e especiais">
+        <div className={styles.sectionTitle}><p>Retenção</p><h2>Interação e especiais</h2><span>Blocos simples para o usuário continuar navegando, sem depender de apostas.</span></div>
+        {pollEvents.length ? <div className={styles.pollGrid}>{pollEvents.map((event) => <PollCard key={eventKey(event)} event={event} />)}</div> : null}
+        <div className={styles.specialGrid} style={{ marginTop: pollEvents.length ? 14 : 0 }}>
+          {specialItems.map((item) => (
+            <Link href={item.href} className={styles.specialCard} key={item.href}>
+              <span className={styles.cardIcon} aria-hidden>{item.icon}</span>
+              <strong>{item.title}</strong>
+              <span>{item.text}</span>
+            </Link>
+          ))}
+        </div>
+      </section>
     </section>
   );
 }

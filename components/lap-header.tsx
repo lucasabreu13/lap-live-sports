@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { FavoriteButton } from "@/components/favorite-button";
-import { readNotificationPreferences, writeNotificationPreferences } from "@/lib/client-preferences";
+import { readNotificationPreferences, syncPushSubscription, unsubscribePushDevice, writeNotificationPreferences } from "@/lib/client-preferences";
 import { FOOTBALL_COMPETITIONS, SPORTS, type LivePayload, type SportId } from "@/lib/live-data";
-import { eventHref } from "@/components/event-card";
+import { eventHref } from "@/lib/event-presentation";
 
 type LapHeaderProps = {
   activeSport?: SportId | "todos";
@@ -37,25 +37,86 @@ function buildSearchResults(payload: LivePayload | null, query: string): SearchR
 function NotificationControl() {
   const [enabled, setEnabled] = useState(false);
   const [supported, setSupported] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const [label, setLabel] = useState("Ativar alertas para favoritos");
 
   useEffect(() => {
-    setSupported("Notification" in window);
-    setEnabled(readNotificationPreferences().enabled && Notification.permission === "granted");
+    const available = "Notification" in window && "serviceWorker" in navigator && "PushManager" in window && Boolean(process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY);
+    setSupported(available);
+    if (!available) return;
+    void navigator.serviceWorker.ready.then(async (registration) => {
+      const subscription = await registration.pushManager.getSubscription();
+      const active = readNotificationPreferences().enabled && Notification.permission === "granted" && Boolean(subscription);
+      setEnabled(active);
+      setLabel(active ? "Alertas ativos para favoritos" : "Ativar alertas para favoritos");
+    }).catch(() => undefined);
   }, []);
 
+  function normalizeVapidPublicKey(value: string) {
+    const cleaned = value
+      .trim()
+      .replace(/^NEXT_PUBLIC_VAPID_PUBLIC_KEY=/, "")
+      .replace(/^['\"]|['\"]$/g, "")
+      .replace(/\s/g, "");
+    if (!cleaned || !/^[A-Za-z0-9_-]+$/.test(cleaned)) throw new Error("VAPID público inválido na Vercel");
+    return cleaned;
+  }
+
+  function vapidKeyToUint8Array(value: string) {
+    const cleaned = normalizeVapidPublicKey(value);
+    const padding = "=".repeat((4 - cleaned.length % 4) % 4);
+    const base64 = (cleaned + padding).replace(/-/g, "+").replace(/_/g, "/");
+    const raw = window.atob(base64);
+    if (raw.length !== 65) throw new Error("VAPID público inválido na Vercel");
+    return Uint8Array.from([...raw].map((character) => character.charCodeAt(0)));
+  }
+
   async function toggleAlerts() {
-    if (!("Notification" in window)) return;
-    if (Notification.permission !== "granted") {
-      const permission = await Notification.requestPermission();
-      if (permission !== "granted") return;
+    if (!supported || busy) return;
+    setBusy(true);
+    try {
+      const registration = await navigator.serviceWorker.register("/sw.js", { updateViaCache: "none" });
+      if (enabled) {
+        const subscription = await registration.pushManager.getSubscription();
+        await subscription?.unsubscribe().catch(() => false);
+        await unsubscribePushDevice(subscription?.endpoint ?? null);
+        setEnabled(false);
+        setLabel("Alertas desativados");
+        return;
+      }
+
+      const publicKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY;
+      if (!publicKey) {
+        setLabel("VAPID público ausente");
+        return;
+      }
+      const permission = Notification.permission === "granted" ? "granted" : await Notification.requestPermission();
+      if (permission !== "granted") {
+        setLabel("Permissão negada pelo navegador");
+        return;
+      }
+      const existing = await registration.pushManager.getSubscription();
+      const subscription = existing || await registration.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: vapidKeyToUint8Array(publicKey),
+      });
+      writeNotificationPreferences({ enabled: true, favoriteOnly: true });
+      await syncPushSubscription(subscription);
+      setEnabled(true);
+      setLabel("Alertas ativos para favoritos");
+    } catch (error) {
+      console.error("[LAP] Falha ao ativar Web Push", error);
+      writeNotificationPreferences({ enabled: false });
+      setEnabled(false);
+      const message = error instanceof Error && error.message ? error.message : "Falha ao ativar Web Push";
+      setLabel(message.slice(0, 96));
+    } finally {
+      setBusy(false);
     }
-    const next = !enabled;
-    writeNotificationPreferences({ enabled: next, favoriteOnly: true });
-    setEnabled(next);
   }
 
   if (!supported) return null;
-  return <button type="button" className={`header-icon-button ${enabled ? "header-icon-button--active" : ""}`} onClick={() => void toggleAlerts()} title={enabled ? "Desativar alertas" : "Ativar alertas para favoritos"} aria-pressed={enabled}>{enabled ? "🔔" : "🔕"}</button>;
+  return <button type="button" className={`header-icon-button ${enabled ? "header-icon-button--active" : ""}`} onClick={() => void toggleAlerts()} title={enabled ? "Desativar alertas" : label} aria-pressed={enabled} disabled={busy}>{enabled ? "🔔" : "🔕"}</button>;
 }
 
 function InstallControl() {
@@ -169,6 +230,7 @@ export function LapHeader({ activeSport = "todos", onRefresh, isRefreshing = fal
       <nav className="sport-nav" aria-label="Modalidades esportivas">
         <div className="shell sport-nav__inside">
           <Link href="/copa-2026" className="world-cup-nav">🏆 Copa 2026</Link>
+          <Link href="/ao-vivo" className="sport-nav__agenda">Ao Vivo</Link>
           <Link href="/agenda" className="sport-nav__agenda">Agenda</Link>
           <Link href="/" className={activeSport === "todos" ? "active" : ""}>Todos</Link>
           {SPORTS.map((sport) => <Link href={`/modalidades/${sport.id}`} className={activeSport === sport.id ? "active" : ""} key={sport.id}>{sport.icon} {sport.name}</Link>)}

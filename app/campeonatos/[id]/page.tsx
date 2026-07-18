@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { CompetitionCenter } from "@/components/competition-center";
-import { FOOTBALL_COMPETITIONS, getCompetitionDetails } from "@/lib/live-data";
+import { getCompetitionCenterDetails } from "@/lib/competition-data";
+import { FOOTBALL_COMPETITIONS } from "@/lib/live-data";
 
 type PageProps = { params: Promise<{ id: string }> };
 
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function CompetitionPage({ params }: PageProps) {
   const { id } = await params;
-  const details = await getCompetitionDetails(id);
+  const details = await getCompetitionCenterDetails(id);
   if (!details) notFound();
   return <CompetitionCenter details={details} />;
 }

@@ -1,5 +1,11 @@
 import { createHash } from "node:crypto";
 import { getPublishedEditorialArticles, type EditorialArticle } from "@/lib/editorial-store";
+import {
+  applyScorePatchWithIntegrity,
+  canDisplayScore,
+  withScoreIntegrity,
+  type ScoreIntegrity,
+} from "@/lib/score-integrity";
 
 export type SportId =
   | "futebol"
@@ -27,6 +33,8 @@ export type SportDefinition = {
   espnPath?: string;
   description?: string;
 };
+
+export type EventKind = "match" | "race" | "tournament" | "fight" | "stage" | "meet";
 
 export type FootballCompetition = {
   id: string;
@@ -58,12 +66,14 @@ export type ScoreItem = {
   broadcast: string | null;
   status: string;
   state: "pre" | "in" | "post" | "unknown";
+  integrity: ScoreIntegrity;
+  integrityReason: string | null;
   startTime: string | null;
   isWorldCup?: boolean;
   providerPath?: string | null;
   competitionId?: string | null;
   country?: string | null;
-  eventKind?: "match" | "race";
+  eventKind?: EventKind;
   home: { name: string; score: string | null; logo?: string | null; record?: string | null };
   away: { name: string; score: string | null; logo?: string | null; record?: string | null };
 };
@@ -85,6 +95,8 @@ export type FootballCoverage = {
 };
 
 export type CompetitionTableRow = {
+  position: number | null;
+  group: string | null;
   team: string;
   logo: string | null;
   played: number;
@@ -103,13 +115,23 @@ export type CompetitionLeader = {
   value: string;
 };
 
+export type CompetitionPlayerLeader = {
+  category: string;
+  name: string;
+  team: string | null;
+  value: string;
+};
+
 export type CompetitionDetails = {
   competition: FootballCompetition;
   live: ScoreItem[];
   upcoming: ScoreItem[];
   recent: ScoreItem[];
   table: CompetitionTableRow[];
+  tableSource: "official" | "recent-results" | "unavailable";
   leaders: CompetitionLeader[];
+  playerLeaders: CompetitionPlayerLeader[];
+  teams: Array<{ name: string; logo: string | null }>;
   news: NewsItem[];
   sourceStatus: FeedSourceStatus;
   sourceNote: string | null;
@@ -542,7 +564,7 @@ function parseScoreboard(
     const broadcastMedia = asRecord(broadcasts[0]?.media);
     const week = asRecord(event.week);
 
-    return [{
+    const score: Omit<ScoreItem, "integrity" | "integrityReason"> = {
       id: asText(event.id),
       sportId: sport.id,
       league: repairMojibake(options?.competition?.name || asText(season.slug, asText(competitionLeague.name, sport.name))),
@@ -559,7 +581,9 @@ function parseScoreboard(
       eventKind: "match",
       home: scoreFromCompetitor(home),
       away: scoreFromCompetitor(away),
-    }];
+    };
+
+    return [withScoreIntegrity(score)];
   });
 }
 
@@ -573,7 +597,7 @@ function parseRaceScoreboard(json: unknown, sport: Pick<SportDefinition, "id" | 
     const venue = asRecord(competition?.venue);
     const season = asRecord(event.season);
     const raceName = repairMojibake(asText(event.shortName, asText(event.name, "Grande Prêmio")));
-    return {
+    const score: Omit<ScoreItem, "integrity" | "integrityReason"> = {
       id: asText(event.id),
       sportId: sport.id,
       league: "Fórmula 1",
@@ -588,6 +612,73 @@ function parseRaceScoreboard(json: unknown, sport: Pick<SportDefinition, "id" | 
       home: { name: raceName, score: null },
       away: { name: "Fórmula 1", score: null },
     };
+    return withScoreIntegrity(score);
+  });
+}
+
+function standaloneEventKind(sportId: SportId): EventKind {
+  if (sportId === "tenis" || sportId === "golfe") return "tournament";
+  if (sportId === "ciclismo") return "stage";
+  if (sportId === "natacao" || sportId === "atletismo" || sportId === "surfe") return "meet";
+  return "tournament";
+}
+
+function parseStandaloneScoreboard(
+  json: unknown,
+  sport: Pick<SportDefinition, "id" | "name" | "espnPath">,
+  providerPath: string,
+): ScoreItem[] {
+  const events = asArray<Record<string, unknown>>(asRecord(json).events);
+  return events.flatMap((event) => {
+    const competition = asArray<Record<string, unknown>>(event.competitions)[0];
+    const competitors = asArray<Record<string, unknown>>(competition?.competitors);
+    const hasHome = competitors.some((item) => asText(item.homeAway) === "home");
+    const hasAway = competitors.some((item) => asText(item.homeAway) === "away");
+    if (hasHome && hasAway) return [];
+
+    const id = asText(event.id);
+    const name = repairMojibake(asText(event.shortName, asText(event.name)));
+    if (!id || !name) return [];
+
+    const statusType = asRecord(asRecord(event.status).type);
+    const rawState = asText(statusType.state);
+    const state: ScoreItem["state"] = rawState === "pre" || rawState === "in" || rawState === "post" ? rawState : "unknown";
+    const venue = asRecord(competition?.venue);
+    const league = asRecord(event.league);
+    const season = asRecord(event.season);
+    const seasonType = asRecord(season.type);
+    const base = {
+      id,
+      sportId: sport.id,
+      league: repairMojibake(asText(league.name, sport.name)),
+      round: repairMojibake(asText(seasonType.name, asText(event.name))) || null,
+      venue: repairMojibake(asText(venue.fullName)) || null,
+      broadcast: null,
+      status: repairMojibake(asText(statusType.shortDetail, asText(statusType.detail, "Agenda confirmada"))),
+      state,
+      startTime: typeof event.date === "string" ? event.date : null,
+      providerPath,
+      competitionId: null,
+      country: null,
+    } satisfies Omit<ScoreItem, "home" | "away" | "eventKind" | "integrity" | "integrityReason">;
+
+    if (sport.id === "mma" && competitors.length >= 2) {
+      const home = scoreFromCompetitor(competitors[0]);
+      const away = scoreFromCompetitor(competitors[1]);
+      return [withScoreIntegrity({
+        ...base,
+        eventKind: "fight" as const,
+        home: { ...home, score: null },
+        away: { ...away, score: null },
+      })];
+    }
+
+    return [withScoreIntegrity({
+      ...base,
+      eventKind: standaloneEventKind(sport.id),
+      home: { name, score: null },
+      away: { name: sport.name, score: null },
+    })];
   });
 }
 
@@ -634,6 +725,8 @@ function ensureTableRow(rows: Map<string, CompetitionTableRow>, team: ScoreItem[
   const key = team.name;
   if (!rows.has(key)) {
     rows.set(key, {
+      position: null,
+      group: null,
       team: team.name,
       logo: team.logo || null,
       played: 0,
@@ -655,6 +748,7 @@ function buildCompetitionTable(events: ScoreItem[]) {
     ensureTableRow(rows, score.home);
     ensureTableRow(rows, score.away);
     if (score.state !== "post") continue;
+    if (!canDisplayScore(score)) continue;
     const homeScore = numericScore(score.home.score);
     const awayScore = numericScore(score.away.score);
     if (homeScore === null || awayScore === null) continue;
@@ -707,16 +801,34 @@ function buildCompetitionLeaders(events: ScoreItem[]): CompetitionLeader[] {
   ].filter((item): item is CompetitionLeader => item !== null);
 }
 
-async function fetchScoreboard(path: string, sport: SportDefinition, options?: { competition?: FootballCompetition }) {
-  const params = new URLSearchParams({ limit: "100", dates: formatDateRange(3, sport.id === "formula1" ? 75 : 14) });
+async function fetchScoreboard(
+  path: string,
+  sport: SportDefinition,
+  options?: { competition?: FootballCompetition; daysBack?: number; daysAhead?: number; limit?: number; dates?: string | null },
+) {
+  const params = new URLSearchParams({ limit: String(options?.limit ?? 100) });
+  if (options?.dates !== null) {
+    params.set("dates", options?.dates ?? formatDateRange(options?.daysBack ?? 3, options?.daysAhead ?? (sport.id === "formula1" ? 75 : 14)));
+  }
   const response = await fetchWithTimeout(`${ESPN_BASE}/${path}/scoreboard?${params.toString()}`, {
     cache: "no-store", headers: { "user-agent": "LAP Sports Dashboard/5.0" },
   });
   if (!response.ok) throw new Error(`Scoreboard ${response.status}`);
   const json = await response.json();
-  return sport.id === "formula1"
-    ? parseRaceScoreboard(json, sport)
-    : parseScoreboard(json, sport, { providerPath: path, competition: options?.competition });
+  if (sport.id === "formula1") return parseRaceScoreboard(json, sport);
+  return [
+    ...parseScoreboard(json, sport, { providerPath: path, competition: options?.competition }),
+    ...parseStandaloneScoreboard(json, sport, path),
+  ];
+}
+
+export async function getScoresFromEspnPath(
+  sportId: SportId,
+  path: string,
+  options?: { daysBack?: number; daysAhead?: number; limit?: number; dates?: string | null },
+) {
+  const sport = findSportById(sportId);
+  return sortEvents(uniqueScores(await fetchScoreboard(path, sport, options)));
 }
 
 async function loadFootballScores(): Promise<ScoreItem[]> {
@@ -774,15 +886,33 @@ function publishLiveEvent(event: { type: "score"; patch: LiveWebhookPatch } | { 
   }
 }
 
-function patchScore(score: ScoreItem, patch: LiveWebhookPatch): ScoreItem {
+export function applyLiveScorePatch(score: ScoreItem, patch: LiveWebhookPatch): ScoreItem {
   if (score.id !== patch.eventId || (patch.sportId && score.sportId !== patch.sportId)) return score;
-  return {
-    ...score,
-    state: patch.state || score.state,
-    status: patch.status ? repairMojibake(patch.status) : score.status,
-    home: { ...score.home, score: patch.homeScore !== undefined ? (patch.homeScore === null ? null : String(patch.homeScore)) : score.home.score },
-    away: { ...score.away, score: patch.awayScore !== undefined ? (patch.awayScore === null ? null : String(patch.awayScore)) : score.away.score },
+  return applyScorePatchWithIntegrity(score, {
+    ...patch,
+    status: patch.status ? repairMojibake(patch.status) : undefined,
+    homeScore: patch.homeScore === undefined ? undefined : patch.homeScore === null ? null : String(patch.homeScore),
+    awayScore: patch.awayScore === undefined ? undefined : patch.awayScore === null ? null : String(patch.awayScore),
+  });
+}
+
+export function applyLivePayloadPatch(payload: LivePayload, patch: LiveWebhookPatch) {
+  const next = clonePayload(payload);
+  let matchedScore: ScoreItem | null = null;
+  let previousScore: ScoreItem | null = null;
+  const apply = (score: ScoreItem) => {
+    const updated = applyLiveScorePatch(score, patch);
+    if (updated !== score) {
+      previousScore = score;
+      matchedScore = updated;
+    }
+    return updated;
   };
+
+  next.feeds = next.feeds.map((feed) => ({ ...feed, scores: feed.scores.map(apply) }));
+  next.worldCup = { ...next.worldCup, events: next.worldCup.events.map(apply) };
+  if (matchedScore) next.generatedAt = patch.occurredAt || new Date().toISOString();
+  return { payload: next, score: matchedScore, previousScore };
 }
 
 export function ingestLiveWebhook(patch: LiveWebhookPatch) {
@@ -790,10 +920,7 @@ export function ingestLiveWebhook(patch: LiveWebhookPatch) {
   if (patch.sportId && !SPORTS.some((sport) => sport.id === patch.sportId)) throw new Error("sportId inválido no webhook.");
 
   if (liveCache) {
-    const payload = clonePayload(liveCache.payload);
-    payload.feeds = payload.feeds.map((feed) => ({ ...feed, scores: feed.scores.map((score) => patchScore(score, patch)) }));
-    payload.worldCup = { ...payload.worldCup, events: payload.worldCup.events.map((score) => patchScore(score, patch)) };
-    payload.generatedAt = patch.occurredAt || new Date().toISOString();
+    const { payload } = applyLivePayloadPatch(liveCache.payload, patch);
     liveCache = { payload, expiresAt: Math.max(liveCache.expiresAt, Date.now() + CACHE_TTL_MS) };
   }
 
@@ -918,9 +1045,13 @@ function parseHeadlines(json: unknown) {
     .slice(0, 6);
 }
 
-export async function getGameDetails(sportId: SportId, eventId: string, options?: { worldCup?: boolean }): Promise<GameDetails | null> {
+export async function getGameDetailsFromPath(
+  sportId: SportId,
+  eventId: string,
+  path: string,
+  options?: { worldCup?: boolean },
+): Promise<GameDetails | null> {
   const sport = findSportById(sportId);
-  const path = options?.worldCup ? WORLD_CUP_PATH : sport.espnPath;
   if (!path || !eventId) return null;
 
   try {
@@ -930,16 +1061,18 @@ export async function getGameDetails(sportId: SportId, eventId: string, options?
     if (!response.ok) return null;
     const json = await response.json();
     const header = asRecord(asRecord(json).header);
-    const event = (sportId === "formula1"
+    const parsedEvent = (sportId === "formula1"
       ? parseRaceScoreboard({ events: [header] }, sport)
       : parseScoreboard({ events: [header] }, sport, { providerPath: path, isWorldCup: Boolean(options?.worldCup) })
-    )[0];
-    if (!event) return null;
+    )[0] ?? parseStandaloneScoreboard({ events: [header] }, sport, path)[0];
+    if (!parsedEvent) return null;
+    const event = parsedEvent.id ? parsedEvent : { ...parsedEvent, id: eventId };
+    const reconciling = event.integrity === "reconciling";
     return {
       event,
-      timeline: parseTimeline(json),
-      teamStats: parseTeamStats(json),
-      lineups: parseLineups(json),
+      timeline: reconciling ? [] : parseTimeline(json),
+      teamStats: reconciling ? [] : parseTeamStats(json),
+      lineups: reconciling ? [] : parseLineups(json),
       headlines: parseHeadlines(json),
       notes: parseNotes(json),
       sourceStatus: "ok",
@@ -948,6 +1081,13 @@ export async function getGameDetails(sportId: SportId, eventId: string, options?
   } catch {
     return null;
   }
+}
+
+export async function getGameDetails(sportId: SportId, eventId: string, options?: { worldCup?: boolean }): Promise<GameDetails | null> {
+  const sport = findSportById(sportId);
+  const path = options?.worldCup ? WORLD_CUP_PATH : sport.espnPath;
+  if (!path) return null;
+  return getGameDetailsFromPath(sportId, eventId, path, options);
 }
 
 export async function getCompetitionDetails(competitionId: string): Promise<CompetitionDetails | null> {
@@ -976,14 +1116,22 @@ export async function getCompetitionDetails(competitionId: string): Promise<Comp
       return normalizedName.split(" ").some((term) => term.length > 4 && text.includes(term));
     })
     .slice(0, 6);
+  const table = buildCompetitionTable(scores);
+  const teams = Array.from(new Map(
+    scores.flatMap((score) => [score.home, score.away])
+      .map((team) => [team.name, { name: team.name, logo: team.logo || null }]),
+  ).values());
 
   return {
     competition,
     live,
     upcoming,
     recent,
-    table: buildCompetitionTable(scores),
+    table,
+    tableSource: table.some((row) => row.played > 0) ? "recent-results" : "unavailable",
     leaders: buildCompetitionLeaders(scores),
+    playerLeaders: [],
+    teams,
     news,
     sourceStatus: footballFeed?.sourceStatus ?? "unavailable",
     sourceNote: footballFeed?.sourceNote ?? null,

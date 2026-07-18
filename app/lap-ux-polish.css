@@ -1,0 +1,40 @@
+/* Public UX polish: keep operational metadata out of the visitor-facing layout. */
+.live-center__freshness,
+.live-center__warning,
+.game-integrity-panel,
+.event-card__integrity{
+  display:none!important;
+}
+
+.live-center__header > div > span{
+  display:none;
+}
+
+.hero-copy__meta .hero-copy__separator:last-of-type,
+.hero-copy__meta span:last-child{
+  display:none;
+}
+
+.dashboard-stats > div:nth-child(4){
+  display:none;
+}
+
+.dashboard-stats{
+  grid-template-columns:repeat(3,1fr);
+}
+
+@media (max-width:780px){
+  .masthead__tools .refresh-button{
+    display:none;
+  }
+
+  .site-search{
+    width:min(220px,54vw);
+  }
+}
+
+@media (max-width:640px){
+  .dashboard-stats{
+    grid-template-columns:1fr;
+  }
+}

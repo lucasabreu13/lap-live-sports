@@ -1,11 +1,11 @@
-import { getLivePayload } from "@/lib/live-data";
+import { getCachedLivePayload } from "@/lib/free-live-data";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
 export async function GET() {
   try {
-    const payload = await getLivePayload();
+    const payload = await getCachedLivePayload();
     return Response.json(payload, {
       headers: {
         "Cache-Control": "no-store, max-age=0",
