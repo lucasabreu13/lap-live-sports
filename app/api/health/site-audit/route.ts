@@ -4,6 +4,7 @@ import { runSiteAudit } from "@/lib/site-audit";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
+export const maxDuration = 300;
 
 function isAuthorized(request: Request) {
   const secret = process.env.CRON_SECRET;
@@ -16,7 +17,7 @@ export async function GET(request: Request) {
   const deep = url.searchParams.get("deep") === "1";
   const maxPerSport = Number.parseInt(url.searchParams.get("maxPerSport") || "4", 10);
   try {
-    const report = await runSiteAudit({ deep, maxPerSport: Number.isFinite(maxPerSport) ? maxPerSport : 4 });
+    const report = await runSiteAudit({ baseUrl: url.origin, deep, maxPerSport: Number.isFinite(maxPerSport) ? maxPerSport : 4 });
     return NextResponse.json(report, { status: report.ok ? 200 : 207, headers: { "Cache-Control": "no-store, max-age=0" } });
   } catch (error) {
     const message = error instanceof Error ? error.message : "Falha ao executar auditoria do site.";
