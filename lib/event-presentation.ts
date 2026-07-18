@@ -14,6 +14,11 @@ export function eventDisplayTitle(event: EventShape, separator = "x") {
   return isSingleEvent(event) ? event.home.name : `${event.home.name} ${separator} ${event.away.name}`;
 }
 
+export function eventHref(event: Pick<ScoreItem, "id" | "sportId" | "isWorldCup">) {
+  const worldCup = event.isWorldCup ? "?torneio=copa-2026" : "";
+  return `/jogos/${event.sportId}/${event.id}${worldCup}`;
+}
+
 export function eventKindLabel(kind: EventKind | undefined) {
   if (kind === "race") return "Grande Prêmio";
   if (kind === "tournament") return "Torneio";

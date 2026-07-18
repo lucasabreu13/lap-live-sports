@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { EventCard, eventHref } from "@/components/event-card";
+import { EventCard } from "@/components/event-card";
+import { eventHref } from "@/lib/event-presentation";
 import { HomeExplore } from "@/components/home-explore";
 import { LapHeader, SportFavoriteButton } from "@/components/lap-header";
 import { readFavorites, subscribeFavorites, toggleFavorite } from "@/lib/client-preferences";

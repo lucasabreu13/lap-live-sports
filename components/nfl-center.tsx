@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { EventCard, eventHref } from "@/components/event-card";
+import { EventCard } from "@/components/event-card";
 import { LapHeader } from "@/components/lap-header";
 import { StandingGroups } from "@/components/sport-hubs/standing-groups";
-import { eventDisplayTitle } from "@/lib/event-presentation";
+import { eventDisplayTitle, eventHref } from "@/lib/event-presentation";
 import type { NflCenterDetails, NflDivision } from "@/lib/nfl-data";
 import type { ScoreItem } from "@/lib/live-data";
 import styles from "./nfl-center.module.css";

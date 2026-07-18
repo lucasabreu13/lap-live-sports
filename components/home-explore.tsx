@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { EventCard, eventHref } from "@/components/event-card";
+import { EventCard } from "@/components/event-card";
+import { eventHref } from "@/lib/event-presentation";
 import { eventDisplayTitle, isHeadToHeadEvent, isSingleEvent } from "@/lib/event-presentation";
 import { FOOTBALL_COMPETITIONS, SPORTS, type LivePayload, type NewsItem, type ScoreItem, type SportId } from "@/lib/live-data";
 import styles from "./home-explore.module.css";

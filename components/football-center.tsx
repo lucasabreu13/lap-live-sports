@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { EventCard, eventHref } from "@/components/event-card";
+import { EventCard } from "@/components/event-card";
 import { LapHeader } from "@/components/lap-header";
+import { eventHref } from "@/lib/event-presentation";
 import type { FootballHubDetails, FootballLeagueSummary } from "@/lib/football-hub-data";
 import styles from "./football-center.module.css";
 

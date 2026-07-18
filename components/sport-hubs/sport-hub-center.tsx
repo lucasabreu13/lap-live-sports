@@ -1,8 +1,9 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { EventCard, eventHref } from "@/components/event-card";
+import { EventCard } from "@/components/event-card";
 import { LapHeader } from "@/components/lap-header";
 import { StandingGroups } from "@/components/sport-hubs/standing-groups";
+import { eventHref } from "@/lib/event-presentation";
 import type { EspnCalendarItem } from "@/lib/providers/espn-provider";
 import type { ScoreItem } from "@/lib/live-data";
 import type { SportHubDetails, SportHubEntity, SportHubGuideItem } from "@/lib/sport-hubs/types";

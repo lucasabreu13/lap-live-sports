@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import { FavoriteButton } from "@/components/favorite-button";
 import { readNotificationPreferences, syncPushSubscription, unsubscribePushDevice, writeNotificationPreferences } from "@/lib/client-preferences";
 import { FOOTBALL_COMPETITIONS, SPORTS, type LivePayload, type SportId } from "@/lib/live-data";
-import { eventHref } from "@/components/event-card";
+import { eventHref } from "@/lib/event-presentation";
 
 type LapHeaderProps = {
   activeSport?: SportId | "todos";

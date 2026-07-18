@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { FavoriteButton } from "@/components/favorite-button";
-import { eventDisplayTitle, eventPreLabel, isSingleEvent } from "@/lib/event-presentation";
+import { eventDisplayTitle, eventHref, eventPreLabel, isSingleEvent } from "@/lib/event-presentation";
 import type { ScoreItem } from "@/lib/live-data";
 import { canDisplayScore, displayScoreValue } from "@/lib/score-integrity";
 import styles from "./event-card.module.css";
@@ -71,11 +71,6 @@ function googleCalendarUrl(score: ScoreItem) {
 Acompanhe na LAP: https://lap-live-sports.vercel.app${eventHref(score)}`;
   const params = new URLSearchParams({ action: "TEMPLATE", text: title, dates: `${compact(start)}/${compact(end)}`, details, location: score.venue || "" });
   return `https://calendar.google.com/calendar/render?${params.toString()}`;
-}
-
-export function eventHref(score: ScoreItem) {
-  const worldCup = score.isWorldCup ? "?torneio=copa-2026" : "";
-  return `/jogos/${score.sportId}/${score.id}${worldCup}`;
 }
 
 export function EventCard({ score, compact = false, cup = false, showSport = false }: EventCardProps) {
