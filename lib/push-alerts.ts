@@ -117,6 +117,11 @@ export function alertDeliveryKey(subscriptionId: string, alert: { eventKey: stri
   return `${subscriptionId}:${alert.eventKey}:${alert.eventType}:${alert.eventHash}`;
 }
 
+export function pushNotificationTag(alert: { eventKey: string; eventType: string }) {
+  const channel = alert.eventType === "score" ? "live" : alert.eventType;
+  return `lap-${hashValue([alert.eventKey, channel])}`;
+}
+
 function preferenceKeyForType(type: PushAlertType): PushAlertPreferenceKey {
   if (type === "reminder_45") return "preGame";
   if (type === "score") return "score";
@@ -185,6 +190,97 @@ async function getLineupHashesForEventFavorites(events: ScoreItem[], subscriptio
   return new Map(pairs.filter((pair): pair is readonly [string, string] => pair !== null));
 }
 
+async function runWithConcurrency<T>(items: T[], limit: number, worker: (item: T) => Promise<void>) {
+  let index = 0;
+  const workers = Array.from({ length: Math.min(Math.max(1, limit), items.length) }, async () => {
+    while (index < items.length) {
+      const item = items[index];
+      index += 1;
+      await worker(item);
+    }
+  });
+  await Promise.all(workers);
+}
+
+async function dispatchPushAlerts(input: {
+  events: ScoreItem[];
+  subscriptions: PushSubscriptionRecord[];
+  snapshotMap: Map<string, LiveEventSnapshot>;
+  lineupHashes?: Map<string, string>;
+  now: Date;
+}) {
+  const events = Array.from(new Map(input.events.map((score) => [liveEventKey(score), score])).values())
+    .filter((score) => score.integrity === "verified");
+  const nextSnapshots: Array<Omit<LiveEventSnapshot, "updatedAt">> = [];
+  const deliveries: Array<{ subscription: PushSubscriptionRecord; alert: PushAlert }> = [];
+  const result: PushMonitorResult = {
+    subscriptions: input.subscriptions.length,
+    events: events.length,
+    alerts: 0,
+    sent: 0,
+    skippedDuplicates: 0,
+    expired: 0,
+    failed: 0,
+    snapshots: 0,
+  };
+
+  for (const score of events) {
+    const eventKey = liveEventKey(score);
+    const lineupHash = input.lineupHashes?.get(eventKey) ?? null;
+    const alerts = buildPushAlertsForScore(score, input.snapshotMap.get(eventKey) ?? null, input.now, lineupHash);
+    nextSnapshots.push(eventSnapshotFromScore(score, lineupHash));
+    if (!alerts.length) continue;
+
+    for (const subscription of input.subscriptions) {
+      if (!subscription.enabled || !subscription.preferences.enabled) continue;
+      if (!favoriteMatchesScore(score, subscription.favoriteIds)) continue;
+      for (const alert of alerts) {
+        if (alertEnabled(subscription.preferences, alert)) deliveries.push({ subscription, alert });
+      }
+    }
+  }
+
+  result.alerts = deliveries.length;
+  await runWithConcurrency(deliveries, 8, async ({ subscription, alert }) => {
+    const reserved = await reservePushDelivery({
+      subscriptionId: subscription.id,
+      deviceId: subscription.deviceId,
+      eventKey: alert.eventKey,
+      eventType: alert.eventType,
+      eventHash: alert.eventHash,
+    });
+    if (!reserved) {
+      result.skippedDuplicates += 1;
+      return;
+    }
+
+    const pushResult = await sendWebPush(subscription, {
+      title: alert.title,
+      body: alert.body,
+      url: alert.url,
+      tag: pushNotificationTag(alert),
+      eventKey: alert.eventKey,
+      eventType: alert.eventType,
+      renotify: true,
+    });
+    if (pushResult.ok) {
+      result.sent += 1;
+      await updatePushDeliveryStatus({ subscriptionId: subscription.id, eventKey: alert.eventKey, eventType: alert.eventType, eventHash: alert.eventHash, status: "sent" });
+    } else if (pushResult.expired) {
+      result.expired += 1;
+      await disablePushSubscription({ deviceId: subscription.deviceId });
+      await updatePushDeliveryStatus({ subscriptionId: subscription.id, eventKey: alert.eventKey, eventType: alert.eventType, eventHash: alert.eventHash, status: "expired", errorMessage: pushResult.errorMessage });
+    } else {
+      result.failed += 1;
+      await updatePushDeliveryStatus({ subscriptionId: subscription.id, eventKey: alert.eventKey, eventType: alert.eventType, eventHash: alert.eventHash, status: "failed", errorMessage: pushResult.errorMessage });
+    }
+  });
+
+  await upsertEventSnapshots(nextSnapshots);
+  result.snapshots = nextSnapshots.length;
+  return result;
+}
+
 export async function runPushMonitor(now = new Date()): Promise<PushMonitorResult> {
   if (!isWebPushConfigured()) throw new Error("VAPID não configurado.");
   const [payload, subscriptions, snapshots] = await Promise.all([
@@ -194,44 +290,18 @@ export async function runPushMonitor(now = new Date()): Promise<PushMonitorResul
   ]);
   const snapshotMap = new Map(snapshots.map((snapshot) => [snapshot.eventKey, snapshot]));
   const allEvents = [...payload.worldCup.events, ...payload.feeds.flatMap((feed) => feed.scores)];
-  const events = Array.from(new Map(allEvents.map((score) => [liveEventKey(score), score])).values()).filter((score) => score.integrity === "verified");
+  const events = Array.from(new Map(allEvents.map((score) => [liveEventKey(score), score])).values());
   const lineupHashes = await getLineupHashesForEventFavorites(events, subscriptions);
-  const nextSnapshots: Array<Omit<LiveEventSnapshot, "updatedAt">> = [];
-  const result: PushMonitorResult = { subscriptions: subscriptions.length, events: events.length, alerts: 0, sent: 0, skippedDuplicates: 0, expired: 0, failed: 0, snapshots: 0 };
+  return dispatchPushAlerts({ events, subscriptions, snapshotMap, lineupHashes, now });
+}
 
-  for (const score of events) {
+export async function runPushMonitorForEvents(events: ScoreItem[], previousEvents: ScoreItem[] = [], now = new Date()) {
+  if (!isWebPushConfigured()) throw new Error("VAPID nÃ£o configurado.");
+  const [subscriptions, snapshots] = await Promise.all([listActivePushSubscriptions(), listRecentEventSnapshots()]);
+  const snapshotMap = new Map(snapshots.map((snapshot) => [snapshot.eventKey, snapshot]));
+  for (const score of previousEvents) {
     const eventKey = liveEventKey(score);
-    const lineupHash = lineupHashes.get(eventKey) ?? null;
-    const previous = snapshotMap.get(eventKey) ?? null;
-    const alerts = buildPushAlertsForScore(score, previous, now, lineupHash);
-    nextSnapshots.push(eventSnapshotFromScore(score, lineupHash));
-    if (!alerts.length) continue;
-
-    for (const subscription of subscriptions) {
-      if (!subscription.enabled || !subscription.preferences.enabled) continue;
-      if (!favoriteMatchesScore(score, subscription.favoriteIds)) continue;
-      for (const alert of alerts) {
-        if (!alertEnabled(subscription.preferences, alert)) continue;
-        result.alerts += 1;
-        const reserved = await reservePushDelivery({ subscriptionId: subscription.id, deviceId: subscription.deviceId, eventKey: alert.eventKey, eventType: alert.eventType, eventHash: alert.eventHash });
-        if (!reserved) { result.skippedDuplicates += 1; continue; }
-        const pushResult = await sendWebPush(subscription, { title: alert.title, body: alert.body, url: alert.url, tag: alertDeliveryKey(subscription.id, alert), eventKey: alert.eventKey, eventType: alert.eventType });
-        if (pushResult.ok) {
-          result.sent += 1;
-          await updatePushDeliveryStatus({ subscriptionId: subscription.id, eventKey: alert.eventKey, eventType: alert.eventType, eventHash: alert.eventHash, status: "sent" });
-        } else if (pushResult.expired) {
-          result.expired += 1;
-          await disablePushSubscription({ deviceId: subscription.deviceId });
-          await updatePushDeliveryStatus({ subscriptionId: subscription.id, eventKey: alert.eventKey, eventType: alert.eventType, eventHash: alert.eventHash, status: "expired", errorMessage: pushResult.errorMessage });
-        } else {
-          result.failed += 1;
-          await updatePushDeliveryStatus({ subscriptionId: subscription.id, eventKey: alert.eventKey, eventType: alert.eventType, eventHash: alert.eventHash, status: "failed", errorMessage: pushResult.errorMessage });
-        }
-      }
-    }
+    if (!snapshotMap.has(eventKey)) snapshotMap.set(eventKey, { ...eventSnapshotFromScore(score), updatedAt: now.toISOString() });
   }
-
-  await upsertEventSnapshots(nextSnapshots);
-  result.snapshots = nextSnapshots.length;
-  return result;
+  return dispatchPushAlerts({ events, subscriptions, snapshotMap, now });
 }

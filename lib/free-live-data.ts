@@ -1,4 +1,4 @@
-import { getLivePayload, type LivePayload } from "@/lib/live-data";
+import { applyLivePayloadPatch, getLivePayload, ingestLiveWebhook, type LivePayload, type LiveWebhookPatch } from "@/lib/live-data";
 import { readLiveCache, writeLiveCache } from "@/lib/live-cache-store";
 
 const LIVE_PAYLOAD_CACHE_KEY = "lap-live-payload-v1";
@@ -81,4 +81,17 @@ export async function warmFreeLivePayload() {
     liveFeeds: payload.feeds.filter((feed) => feed.sourceStatus === "live").length,
     staleFeeds: payload.feeds.filter((feed) => feed.sourceStatus === "stale").length,
   };
+}
+
+export async function ingestCachedLiveWebhook(patch: LiveWebhookPatch) {
+  const current = await getCachedLivePayload();
+  const patched = applyLivePayloadPatch(current, patch);
+  const accepted = ingestLiveWebhook(patch);
+
+  if (patched.score) {
+    memoryCache = { payload: patched.payload, expiresAt: Date.now() + MEMORY_TTL_MS };
+    await writeLiveCache(LIVE_PAYLOAD_CACHE_KEY, patched.payload, SUPABASE_FRESH_TTL_MS, "live-webhook").catch(() => false);
+  }
+
+  return { ...accepted, ...patched };
 }

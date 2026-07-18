@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import webPush from "web-push";
 import type { PushSubscriptionRecord } from "@/lib/push-store";
 
@@ -8,6 +9,15 @@ export type WebPushPayload = {
   tag: string;
   eventKey?: string;
   eventType?: string;
+  timestamp?: number;
+  renotify?: boolean;
+};
+
+type WebPushDeliveryProfile = {
+  TTL: number;
+  urgency: "very-low" | "low" | "normal" | "high";
+  topic: string;
+  timeout: number;
 };
 
 type VapidConfig = {
@@ -40,6 +50,18 @@ function getConfiguredWebPush() {
   return webPush;
 }
 
+export function webPushDeliveryProfile(payload: WebPushPayload): WebPushDeliveryProfile {
+  const liveTypes = new Set(["start", "score", "halftime", "resume"]);
+  const eventType = payload.eventType || "update";
+  const topicSeed = `${payload.eventKey || payload.url}:${eventType === "score" ? "live" : eventType}`;
+  const topic = createHash("sha256").update(topicSeed).digest("base64url").slice(0, 24);
+
+  if (liveTypes.has(eventType)) return { TTL: 120, urgency: "high", topic, timeout: 8_000 };
+  if (eventType === "final") return { TTL: 10 * 60, urgency: "high", topic, timeout: 8_000 };
+  if (eventType === "lineup") return { TTL: 30 * 60, urgency: "normal", topic, timeout: 8_000 };
+  return { TTL: 15 * 60, urgency: "high", topic, timeout: 8_000 };
+}
+
 export async function sendWebPush(subscription: PushSubscriptionRecord, payload: WebPushPayload) {
   try {
     await getConfiguredWebPush().sendNotification(
@@ -50,8 +72,8 @@ export async function sendWebPush(subscription: PushSubscriptionRecord, payload:
           auth: subscription.auth,
         },
       },
-      JSON.stringify(payload),
-      { TTL: 60 * 30 },
+      JSON.stringify({ ...payload, timestamp: payload.timestamp || Date.now() }),
+      webPushDeliveryProfile(payload),
     );
     return { ok: true, expired: false, statusCode: 201 as number };
   } catch (error) {

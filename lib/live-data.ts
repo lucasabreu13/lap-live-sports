@@ -896,15 +896,31 @@ export function applyLiveScorePatch(score: ScoreItem, patch: LiveWebhookPatch): 
   });
 }
 
+export function applyLivePayloadPatch(payload: LivePayload, patch: LiveWebhookPatch) {
+  const next = clonePayload(payload);
+  let matchedScore: ScoreItem | null = null;
+  let previousScore: ScoreItem | null = null;
+  const apply = (score: ScoreItem) => {
+    const updated = applyLiveScorePatch(score, patch);
+    if (updated !== score) {
+      previousScore = score;
+      matchedScore = updated;
+    }
+    return updated;
+  };
+
+  next.feeds = next.feeds.map((feed) => ({ ...feed, scores: feed.scores.map(apply) }));
+  next.worldCup = { ...next.worldCup, events: next.worldCup.events.map(apply) };
+  if (matchedScore) next.generatedAt = patch.occurredAt || new Date().toISOString();
+  return { payload: next, score: matchedScore, previousScore };
+}
+
 export function ingestLiveWebhook(patch: LiveWebhookPatch) {
   if (!patch.eventId || typeof patch.eventId !== "string") throw new Error("O webhook precisa informar eventId.");
   if (patch.sportId && !SPORTS.some((sport) => sport.id === patch.sportId)) throw new Error("sportId inválido no webhook.");
 
   if (liveCache) {
-    const payload = clonePayload(liveCache.payload);
-    payload.feeds = payload.feeds.map((feed) => ({ ...feed, scores: feed.scores.map((score) => applyLiveScorePatch(score, patch)) }));
-    payload.worldCup = { ...payload.worldCup, events: payload.worldCup.events.map((score) => applyLiveScorePatch(score, patch)) };
-    payload.generatedAt = patch.occurredAt || new Date().toISOString();
+    const { payload } = applyLivePayloadPatch(liveCache.payload, patch);
     liveCache = { payload, expiresAt: Math.max(liveCache.expiresAt, Date.now() + CACHE_TTL_MS) };
   }
 

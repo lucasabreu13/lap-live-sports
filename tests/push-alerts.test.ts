@@ -1,7 +1,8 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { alertDeliveryKey, buildPushAlertsForScore, favoriteMatchesScore, liveEventKey } from "../lib/push-alerts";
+import { alertDeliveryKey, buildPushAlertsForScore, favoriteMatchesScore, liveEventKey, pushNotificationTag } from "../lib/push-alerts";
 import type { LiveEventSnapshot } from "../lib/push-store";
+import { webPushDeliveryProfile } from "../lib/web-push";
 
 function score(overrides: Record<string, unknown> = {}) {
   return {
@@ -78,4 +79,28 @@ test("reconciling events do not generate push alerts", () => {
 
 test("live event key includes World Cup namespace when needed", () => {
   assert.equal(liveEventKey(score({ isWorldCup: true })), "futebol:401:cup");
+});
+
+test("live alerts use immediate delivery with a short retention window", () => {
+  const profile = webPushDeliveryProfile({
+    title: "Gol",
+    body: "Flamengo 2 x 1 Palmeiras",
+    url: "/jogos/futebol/401",
+    tag: "lap-live",
+    eventKey: "futebol:401",
+    eventType: "score",
+  });
+
+  assert.equal(profile.urgency, "high");
+  assert.equal(profile.TTL, 120);
+  assert.ok(profile.topic.length <= 32);
+});
+
+test("score notification tag replaces an older score from the same event", () => {
+  const first = pushNotificationTag({ eventKey: "futebol:401", eventType: "score" });
+  const second = pushNotificationTag({ eventKey: "futebol:401", eventType: "score" });
+  const final = pushNotificationTag({ eventKey: "futebol:401", eventType: "final" });
+
+  assert.equal(first, second);
+  assert.notEqual(first, final);
 });
