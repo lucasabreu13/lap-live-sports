@@ -164,7 +164,7 @@ function FeaturedGameCard({ score }: { score: ScoreItem | null }) {
       <article className="live-feature live-feature--empty">
         <p>Jogo em destaque</p>
         <h3>Aguardando o próximo evento relevante</h3>
-        <span>A LAP mantém notícias e agenda no ar enquanto a fonte publica novos jogos.</span>
+        <span>A LAP mantém notícias e agenda no ar enquanto novos jogos são publicados.</span>
         <Link href="/agenda" className="live-feature__button">Abrir agenda</Link>
       </article>
     );

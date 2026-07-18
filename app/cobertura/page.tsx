@@ -3,8 +3,8 @@ import { LapHeader } from "@/components/lap-header";
 import { SportDataMatrix } from "@/components/sport-data-matrix";
 
 export const metadata: Metadata = {
-  title: "Cobertura de dados | LAP",
-  description: "Matriz de dados da LAP por modalidade: grade de jogos, calendário, leaderboard, timeline, escalações e fontes fortes candidatas.",
+  title: "Mapa de cobertura | LAP",
+  description: "Veja como a LAP organiza jogos, etapas, torneios, corridas, lutas e provas em cada modalidade.",
 };
 
 export default function CoveragePage() {

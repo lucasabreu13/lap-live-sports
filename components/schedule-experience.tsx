@@ -207,15 +207,25 @@ function DateCluster({ label, sportGroups }: { label: string; sportGroups: Array
   );
 }
 
-export function ScheduleExperience() {
+type ScheduleExperienceProps = {
+  initialCompetition?: string;
+  initialQuery?: string;
+  initialSport?: string;
+};
+
+export function ScheduleExperience({
+  initialCompetition = "all",
+  initialQuery = "",
+  initialSport = "all",
+}: ScheduleExperienceProps) {
   const { data, error } = useLiveFeed();
   const isLoading = data === null && !error;
   const [status, setStatus] = useState<StatusFilter>("all");
   const [date, setDate] = useState<DateFilter>("week");
-  const [sport, setSport] = useState("all");
-  const [competition, setCompetition] = useState("all");
+  const [sport, setSport] = useState(initialSport);
+  const [competition, setCompetition] = useState(initialCompetition);
   const [priority, setPriority] = useState<PriorityFilter>("all");
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(initialQuery);
   const [favorites, setFavorites] = useState<FavoriteItem[]>([]);
 
   useEffect(() => {

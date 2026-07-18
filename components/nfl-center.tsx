@@ -120,7 +120,7 @@ export function NflCenter({ details }: { details: NflCenterDetails }) {
           <header className={styles.sectionHead}>
             <div><p>Notícias NFL</p><h2>Contexto da liga</h2><span>Principais atualizações de futebol americano para manter retenção mesmo sem jogo ao vivo.</span></div>
           </header>
-          {details.news.length ? <div className={styles.newsGrid}>{details.news.map((item) => <Link key={item.id} href={item.internalUrl} className={styles.newsCard}><span>{item.source}</span><strong>{item.title}</strong><small>{item.excerpt}</small></Link>)}</div> : <div className={styles.empty}>Notícias da NFL aparecem aqui quando a fonte editorial entregar novos conteúdos.</div>}
+          {details.news.length ? <div className={styles.newsGrid}>{details.news.map((item) => <Link key={item.id} href={item.internalUrl} className={styles.newsCard}><span>{item.source}</span><strong>{item.title}</strong><small>{item.excerpt}</small></Link>)}</div> : <div className={styles.empty}>Notícias da NFL aparecem aqui assim que novos conteúdos forem publicados.</div>}
         </section>
       </div>
     </main>
