@@ -11,6 +11,7 @@ import { subscribeToLiveRefresh } from "@/lib/client-live-refresh";
 import { eventDisplayTitle, isSingleEvent } from "@/lib/event-presentation";
 import { SPORTS, type LivePayload, type NewsItem, type ScoreItem, type SportFeed, type SportId } from "@/lib/live-data";
 import { applyScorePatchWithIntegrity, canDisplayScore, displayScoreValue, reconciliationMessage, scoreSeparator } from "@/lib/score-integrity";
+import { sportCoverImage } from "@/lib/sport-visuals";
 
 type FeedState = "loading" | "ready" | "error";
 type LapDashboardProps = { initialSport?: SportId | "todos" };
@@ -81,8 +82,10 @@ function statusText(score: ScoreItem) {
 }
 
 function NewsCard({ item, large = false }: { item: NewsItem; large?: boolean }) {
+  const visual = sportCoverImage(item.sportId);
   return (
     <Link className={`news-card ${large ? "news-card--large" : ""}`} href={item.internalUrl}>
+      <img className="news-card__image" src={item.imageUrl || visual.image} alt={item.imageAlt || visual.alt} loading={large ? "eager" : "lazy"} />
       <div className="news-card__topline"><span>{item.kind === "editorial" ? "LAP" : item.source}</span><span>{relativeTime(item.publishedAt)}</span></div>
       <h3>{item.title}</h3>
       {!large && <p className="news-card__excerpt">{item.excerpt}</p>}

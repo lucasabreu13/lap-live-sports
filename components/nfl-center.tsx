@@ -5,6 +5,7 @@ import { StandingGroups } from "@/components/sport-hubs/standing-groups";
 import { eventDisplayTitle, eventHref } from "@/lib/event-presentation";
 import type { NflCenterDetails, NflDivision } from "@/lib/nfl-data";
 import type { ScoreItem } from "@/lib/live-data";
+import { sportCoverImage } from "@/lib/sport-visuals";
 import styles from "./nfl-center.module.css";
 
 function eventTitle(event: ScoreItem) {
@@ -55,6 +56,7 @@ export function NflCenter({ details }: { details: NflCenterDetails }) {
 
         <section className={styles.hero}>
           <div className={styles.heroMain}>
+            <img className={styles.heroImage} src={sportCoverImage("futebol-americano").image} alt={sportCoverImage("futebol-americano").alt} />
             <p className={styles.kicker}>Central da liga</p>
             <h1>NFL na LAP</h1>
             <span>Calendário, resultados, conferências, divisões, 32 franquias e notícias da temporada em um só lugar.</span>
@@ -120,7 +122,7 @@ export function NflCenter({ details }: { details: NflCenterDetails }) {
           <header className={styles.sectionHead}>
             <div><p>Notícias NFL</p><h2>Contexto da liga</h2><span>Principais atualizações de futebol americano para manter retenção mesmo sem jogo ao vivo.</span></div>
           </header>
-          {details.news.length ? <div className={styles.newsGrid}>{details.news.map((item) => <Link key={item.id} href={item.internalUrl} className={styles.newsCard}><span>{item.source}</span><strong>{item.title}</strong><small>{item.excerpt}</small></Link>)}</div> : <div className={styles.empty}>Notícias da NFL aparecem aqui assim que novos conteúdos forem publicados.</div>}
+          {details.news.length ? <div className={styles.newsGrid}>{details.news.map((item) => <Link key={item.id} href={item.internalUrl} className={styles.newsCard}><img src={item.imageUrl || sportCoverImage("futebol-americano").image} alt={item.imageAlt || sportCoverImage("futebol-americano").alt} loading="lazy" /><span>{item.source}</span><strong>{item.title}</strong><small>{item.excerpt}</small></Link>)}</div> : <div className={styles.empty}>Notícias da NFL aparecem aqui assim que novos conteúdos forem publicados.</div>}
         </section>
       </div>
     </main>

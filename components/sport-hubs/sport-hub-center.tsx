@@ -7,6 +7,7 @@ import { eventHref } from "@/lib/event-presentation";
 import type { EspnCalendarItem } from "@/lib/providers/espn-provider";
 import type { ScoreItem } from "@/lib/live-data";
 import type { SportHubDetails, SportHubEntity, SportHubGuideItem } from "@/lib/sport-hubs/types";
+import { sportCoverImage } from "@/lib/sport-visuals";
 import styles from "./sport-hub-center.module.css";
 
 function formatDate(value: string | null) {
@@ -58,7 +59,7 @@ function GuideGrid({ items }: { items: SportHubGuideItem[] }) {
 }
 
 function NewsSection({ details }: { details: SportHubDetails }) {
-  return <section className={styles.section}><SectionHeader eyebrow={`Notícias de ${details.sport.name}`} title="Últimas histórias" description="Resumos e matérias abrem dentro da LAP, com crédito e contexto editorial." />{details.news.length ? <div className={styles.newsGrid}>{details.news.map((item) => <Link href={item.internalUrl} className={styles.newsCard} key={item.id}><span>{item.source}</span><strong>{item.title}</strong><small>{item.excerpt}</small></Link>)}</div> : <EmptyState>As próximas notícias desta modalidade entram aqui assim que forem publicadas.</EmptyState>}</section>;
+  return <section className={styles.section}><SectionHeader eyebrow={`Notícias de ${details.sport.name}`} title="Últimas histórias" description="Resumos e matérias abrem dentro da LAP, com crédito e contexto editorial." />{details.news.length ? <div className={styles.newsGrid}>{details.news.map((item) => <Link href={item.internalUrl} className={styles.newsCard} key={item.id}><img src={item.imageUrl || sportCoverImage(item.sportId).image} alt={item.imageAlt || sportCoverImage(item.sportId).alt} loading="lazy" /><span>{item.source}</span><strong>{item.title}</strong><small>{item.excerpt}</small></Link>)}</div> : <EmptyState>As próximas notícias desta modalidade entram aqui assim que forem publicadas.</EmptyState>}</section>;
 }
 
 function RankingSection({ details }: { details: SportHubDetails }) {
@@ -86,7 +87,8 @@ function HeroFocus({ details, featured }: { details: SportHubDetails; featured: 
 
 function Hero({ details }: { details: SportHubDetails }) {
   const featured = details.live[0] || details.upcoming[0] || details.recent[0] || null;
-  return <section className={styles.hero} data-layout={details.config.layout}><div className={styles.heroMain}><p className={styles.kicker}>{details.config.eyebrow}</p><h1>{details.config.title}</h1><span>{details.config.subtitle}</span><div className={styles.metrics}><article><p>Ao vivo</p><strong>{details.live.length}</strong><span>agora</span></article><article><p>Próximos</p><strong>{details.upcoming.length}</strong><span>na agenda</span></article><article><p>Resultados</p><strong>{details.recent.length}</strong><span>recentes</span></article><article><p>Notícias</p><strong>{details.news.length}</strong><span>na central</span></article></div></div><HeroFocus details={details} featured={featured} /></section>;
+  const visual = sportCoverImage(details.sport.id);
+  return <section className={styles.hero} data-layout={details.config.layout}><div className={styles.heroMain}><img className={styles.heroImage} src={visual.image} alt={visual.alt} /><p className={styles.kicker}>{details.config.eyebrow}</p><h1>{details.config.title}</h1><span>{details.config.subtitle}</span><div className={styles.metrics}><article><p>Ao vivo</p><strong>{details.live.length}</strong><span>agora</span></article><article><p>Próximos</p><strong>{details.upcoming.length}</strong><span>na agenda</span></article><article><p>Resultados</p><strong>{details.recent.length}</strong><span>recentes</span></article><article><p>Notícias</p><strong>{details.news.length}</strong><span>na central</span></article></div></div><HeroFocus details={details} featured={featured} /></section>;
 }
 
 function GuideSection({ details }: { details: SportHubDetails }) {

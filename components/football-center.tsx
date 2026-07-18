@@ -3,6 +3,7 @@ import { EventCard } from "@/components/event-card";
 import { LapHeader } from "@/components/lap-header";
 import { eventHref } from "@/lib/event-presentation";
 import type { FootballHubDetails, FootballLeagueSummary } from "@/lib/football-hub-data";
+import { sportCoverImage } from "@/lib/sport-visuals";
 import styles from "./football-center.module.css";
 
 type FootballRegion = "Brasil" | "América do Sul" | "Europa" | "América do Norte" | "Outras regiões";
@@ -73,6 +74,7 @@ export function FootballCenter({ details }: { details: FootballHubDetails }) {
 
         <section className={styles.hero}>
           <div className={styles.heroMain}>
+            <img className={styles.heroImage} src={sportCoverImage("futebol").image} alt={sportCoverImage("futebol").alt} />
             <p className={styles.kicker}>Central da modalidade</p>
             <h1>Futebol na LAP</h1>
             <span>Do Brasil ao futebol mundial: ligas, partidas, classificação, resultados e notícias organizados para leitura rápida.</span>
@@ -113,7 +115,7 @@ export function FootballCenter({ details }: { details: FootballHubDetails }) {
 
         <section className={styles.panelSection}>
           <header className={styles.sectionHead}><div><p>Notícias de futebol</p><h2>Últimas histórias</h2><span>Resumos e matérias organizados dentro da LAP.</span></div></header>
-          {details.news.length ? <div className={styles.newsGrid}>{details.news.slice(0, 8).map((item) => <Link href={item.internalUrl} className={styles.newsCard} key={item.id}><span>{item.source}</span><strong>{item.title}</strong><small>{item.excerpt}</small></Link>)}</div> : <div className={styles.empty}>As próximas notícias de futebol entram aqui assim que forem publicadas.</div>}
+          {details.news.length ? <div className={styles.newsGrid}>{details.news.slice(0, 8).map((item) => <Link href={item.internalUrl} className={styles.newsCard} key={item.id}><img src={item.imageUrl || sportCoverImage("futebol").image} alt={item.imageAlt || sportCoverImage("futebol").alt} loading="lazy" /><span>{item.source}</span><strong>{item.title}</strong><small>{item.excerpt}</small></Link>)}</div> : <div className={styles.empty}>As próximas notícias de futebol entram aqui assim que forem publicadas.</div>}
         </section>
 
         <section className={styles.guide}>
