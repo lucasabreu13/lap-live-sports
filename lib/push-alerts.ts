@@ -1,4 +1,5 @@
 import { createHash } from "node:crypto";
+import { eventDisplayTitle } from "@/lib/event-presentation";
 import { getCachedLivePayload } from "@/lib/free-live-data";
 import { getGameDetails, type ScoreItem } from "@/lib/live-data";
 import {
@@ -70,7 +71,7 @@ function isHalftimeStatus(value: string | null | undefined) {
 }
 
 function eventLabel(score: ScoreItem) {
-  return score.eventKind === "race" ? `${score.home.name} · Fórmula 1` : `${score.home.name} × ${score.away.name}`;
+  return eventDisplayTitle(score, "×");
 }
 
 function eventUrl(score: ScoreItem) {

@@ -1,0 +1,29 @@
+import { getPublishedEditorialArticles } from "@/lib/editorial-store";
+import { repairMojibake, type NewsItem, type SportId } from "@/lib/live-data";
+import { providerLive, providerUnavailable, type ProviderResult } from "@/lib/providers/provider-types";
+
+export async function loadEditorialNews(sportId?: SportId, limit = 24): Promise<ProviderResult<NewsItem[]>> {
+  try {
+    const articles = await getPublishedEditorialArticles(limit);
+    const news = articles.flatMap((article) => {
+      if (sportId && article.sportId !== sportId) return [];
+      return [{
+        id: `editorial-${article.id}`,
+        kind: "editorial" as const,
+        slug: article.slug,
+        sportId: article.sportId as SportId,
+        title: repairMojibake(article.title),
+        excerpt: repairMojibake(article.summary),
+        source: repairMojibake(article.sourceName || "LAP"),
+        url: article.sourceUrl,
+        publishedAt: article.publishedAt || article.createdAt,
+        internalUrl: `/materias/${article.slug}`,
+      }];
+    });
+    return news.length
+      ? providerLive(news)
+      : providerUnavailable([], undefined, "Matérias em preparação.");
+  } catch (error) {
+    return providerUnavailable([], error, "Matérias em preparação.");
+  }
+}

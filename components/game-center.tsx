@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { FavoriteButton } from "@/components/favorite-button";
 import { LapHeader } from "@/components/lap-header";
+import { eventDisplayTitle, eventKindLabel, isSingleEvent } from "@/lib/event-presentation";
 import type { GameDetails, GameLineup, GameTimelineItem, SportId } from "@/lib/live-data";
 import { SPORTS } from "@/lib/live-data";
 import { canDisplayScore, displayScoreValue, scoreSeparator } from "@/lib/score-integrity";
@@ -71,7 +72,7 @@ function formatCompetition(event: GameDetails["event"], worldCup = false) {
 }
 
 function eventTitle(event: GameDetails["event"]) {
-  return event.eventKind === "race" ? event.home.name : `${event.home.name} x ${event.away.name}`;
+  return eventDisplayTitle(event);
 }
 
 function summaryIntro(details: GameDetails, worldCup: boolean) {
@@ -190,6 +191,7 @@ export function GameCenter({ initialDetails, worldCup }: { initialDetails: GameD
   const eventUrl = `/jogos/${event.sportId}/${event.id}${worldCup ? "?torneio=copa-2026" : ""}`;
   const showScore = canDisplayScore(event);
   const eventDate = formattedDate(event.startTime);
+  const singleEvent = isSingleEvent(event);
 
   async function refresh() {
     setRefreshing(true);
@@ -228,8 +230,15 @@ export function GameCenter({ initialDetails, worldCup }: { initialDetails: GameD
         <section className="game-hero">
           <div className="game-hero__meta"><span className={event.state === "in" ? "live-label" : "status-label"}>{phase(event)}</span><span>{event.round || event.league.replace(/-/g, " ")}</span><FavoriteButton id={`event:${event.sportId}:${event.id}`} type="event" label={eventTitle(event)} href={eventUrl} /></div>
           <p className="game-hero__competition">{formatCompetition(event, worldCup)}</p>
-          <div className="scoreboard-hero"><article><img src={event.home.logo || "/icons/lap-icon.svg"} alt="" width="72" height="72"/><h1>{event.home.name}</h1>{event.home.record && <p>{event.home.record}</p>}</article><div className="scoreboard-hero__score"><strong className={showScore ? "" : "scoreboard-hero__score--pending"}>{showScore ? <>{displayScoreValue(event, "home")}<span>{scoreSeparator(event)}</span>{displayScoreValue(event, "away")}</> : <span>{scoreSeparator(event)}</span>}</strong>{(showScore && event.state === "post" ? event.status : eventDate) && <p>{showScore && event.state === "post" ? event.status : eventDate}</p>}</div><article><img src={event.away.logo || "/icons/lap-icon.svg"} alt="" width="72" height="72"/><h1>{event.away.name}</h1>{event.away.record && <p>{event.away.record}</p>}</article></div>
-          <div className="game-hero__footer"><button className="refresh-button" type="button" onClick={() => void refresh()} disabled={refreshing}>{refreshing ? "Atualizando" : "Atualizar jogo"}</button></div>
+          {singleEvent ? (
+            <div className={styles.singleEventHero}>
+              <img src={event.home.logo || "/icons/lap-icon.svg"} alt="" width="82" height="82" />
+              <div><p>{eventKindLabel(event.eventKind)}</p><h1>{event.home.name}</h1>{eventDate && <span>{eventDate}</span>}<strong>{event.status}</strong></div>
+            </div>
+          ) : (
+            <div className="scoreboard-hero"><article><img src={event.home.logo || "/icons/lap-icon.svg"} alt="" width="72" height="72"/><h1>{event.home.name}</h1>{event.home.record && <p>{event.home.record}</p>}</article><div className="scoreboard-hero__score"><strong className={showScore ? "" : "scoreboard-hero__score--pending"}>{showScore ? <>{displayScoreValue(event, "home")}<span>{scoreSeparator(event)}</span>{displayScoreValue(event, "away")}</> : <span>{scoreSeparator(event)}</span>}</strong>{(showScore && event.state === "post" ? event.status : eventDate) && <p>{showScore && event.state === "post" ? event.status : eventDate}</p>}</div><article><img src={event.away.logo || "/icons/lap-icon.svg"} alt="" width="72" height="72"/><h1>{event.away.name}</h1>{event.away.record && <p>{event.away.record}</p>}</article></div>
+          )}
+          <div className="game-hero__footer"><button className="refresh-button" type="button" onClick={() => void refresh()} disabled={refreshing}>{refreshing ? "Atualizando" : "Atualizar evento"}</button></div>
           <section className="game-snapshot" aria-label="Resumo da partida"><article><p>Status</p><strong>{phase(event)}</strong><span>{event.status}</span></article>{event.venue && <article><p>Local</p><strong>{event.venue}</strong><span>Local do evento</span></article>}<article><p>Transmissão</p><strong>{event.broadcast || "Não confirmada"}</strong><span>{event.broadcast ? "Canal/streaming" : "A definir"}</span></article><Link href="/agenda" className="game-snapshot__link">Ver agenda →</Link></section>
         </section>
         <div className="game-tabs" role="tablist" aria-label="Dados da partida">{tabs.map(([id, label]) => <button key={id} type="button" role="tab" aria-selected={tab === id} className={tab === id ? "active" : ""} onClick={() => setTab(id)}>{label}</button>)}</div>

@@ -9,7 +9,7 @@ export type ScoreSide = {
 export type ScoreLike = {
   state: ScoreState;
   status?: string | null;
-  eventKind?: "match" | "race";
+  eventKind?: "match" | "race" | "tournament" | "fight" | "stage" | "meet";
   home: ScoreSide;
   away: ScoreSide;
   integrity?: ScoreIntegrity;
@@ -30,7 +30,7 @@ export type ScorePatch<TState extends string = ScoreState> = {
   awayScore?: string | number | null;
 };
 
-const RECONCILIATION_MESSAGE = "A fonte está reconciliando status e placar desta partida.";
+const RECONCILIATION_MESSAGE = "O placar está em confirmação e será exibido assim que estiver consistente.";
 
 function normalizeScore(value: string | number | null | undefined) {
   if (value === null || value === undefined) return null;
@@ -106,7 +106,7 @@ export function getScoreIntegrity(
 export function withScoreIntegrity<TScore extends ScoreLike>(score: TScore): TScore & { integrity: ScoreIntegrity; integrityReason: string | null } {
   const result = getScoreIntegrity(score.state, score.home, score.away, {
     status: score.status,
-    scoreApplies: score.eventKind !== "race",
+    scoreApplies: !score.eventKind || score.eventKind === "match",
   });
   return { ...score, integrity: result.integrity, integrityReason: result.reason };
 }
@@ -128,7 +128,7 @@ export function applyScorePatchWithIntegrity<TScore extends ScoreLike & { id: st
 export function resolveScoreIntegrity(score: ScoreLike) {
   return score.integrity
     ? { integrity: score.integrity, reason: score.integrityReason ?? (score.integrity === "reconciling" ? RECONCILIATION_MESSAGE : null) }
-    : getScoreIntegrity(score.state, score.home, score.away, { status: score.status, scoreApplies: score.eventKind !== "race" });
+    : getScoreIntegrity(score.state, score.home, score.away, { status: score.status, scoreApplies: !score.eventKind || score.eventKind === "match" });
 }
 
 export function isReconcilingScore(score: ScoreLike) {
@@ -136,7 +136,7 @@ export function isReconcilingScore(score: ScoreLike) {
 }
 
 export function canDisplayScore(score: ScoreLike) {
-  if (score.eventKind === "race") return false;
+  if (score.eventKind && score.eventKind !== "match") return false;
   const integrity = resolveScoreIntegrity(score).integrity;
   return integrity === "verified" && (score.state === "in" || score.state === "post") && hasCompleteScore(score.home, score.away);
 }
@@ -148,6 +148,10 @@ export function displayScoreValue(score: ScoreLike, side: "home" | "away") {
 
 export function scoreSeparator(score: ScoreLike) {
   if (score.eventKind === "race") return "GP";
+  if (score.eventKind === "tournament") return "TORNEIO";
+  if (score.eventKind === "fight") return "LUTA";
+  if (score.eventKind === "stage") return "ETAPA";
+  if (score.eventKind === "meet") return "PROVA";
   return canDisplayScore(score) ? "×" : "vs";
 }
 

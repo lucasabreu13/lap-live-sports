@@ -66,3 +66,23 @@ test("score patch recalculates integrity before UI can display it", () => {
   assert.equal(patched.integrity, "reconciling");
   assert.equal(canDisplayScore(patched), false);
 });
+
+test("tournaments remain valid without a fabricated score", () => {
+  const tournament = match({
+    eventKind: "tournament",
+    state: "in",
+    status: "Em andamento",
+  });
+  assert.equal(tournament.integrity, "verified");
+  assert.equal(canDisplayScore(tournament), false);
+});
+
+test("fight cards do not require a numeric score", () => {
+  const fight = match({
+    eventKind: "fight",
+    state: "post",
+    status: "Encerrado",
+  });
+  assert.equal(fight.integrity, "verified");
+  assert.equal(canDisplayScore(fight), false);
+});

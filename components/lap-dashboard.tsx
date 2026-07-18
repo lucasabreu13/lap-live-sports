@@ -6,6 +6,7 @@ import { EventCard, eventHref } from "@/components/event-card";
 import { HomeExplore } from "@/components/home-explore";
 import { LapHeader, SportFavoriteButton } from "@/components/lap-header";
 import { readFavorites, subscribeFavorites, toggleFavorite } from "@/lib/client-preferences";
+import { eventDisplayTitle, isSingleEvent } from "@/lib/event-presentation";
 import { SPORTS, type LivePayload, type NewsItem, type ScoreItem, type SportFeed, type SportId } from "@/lib/live-data";
 import { applyScorePatchWithIntegrity, canDisplayScore, displayScoreValue, reconciliationMessage, scoreSeparator } from "@/lib/score-integrity";
 
@@ -69,7 +70,7 @@ function sameLocalDay(dateValue: string | null, now: number) {
 }
 
 function statusText(score: ScoreItem) {
-  if (score.integrity === "reconciling") return "Em reconciliação";
+  if (score.integrity === "reconciling") return "Placar em confirmação";
   const raw = score.status || "";
   if (score.state === "in") return raw || "Ao vivo";
   if (score.state === "post") return raw || "Encerrado";
@@ -170,7 +171,8 @@ function FeaturedGameCard({ score }: { score: ScoreItem | null }) {
   }
   const showScore = canDisplayScore(score);
   const reconciliation = reconciliationMessage(score);
-  const scoreLine = score.eventKind === "race"
+  const singleEvent = isSingleEvent(score);
+  const scoreLine = singleEvent
     ? score.status
     : showScore
       ? `${displayScoreValue(score, "home")} × ${displayScoreValue(score, "away")}`
@@ -187,14 +189,14 @@ function FeaturedGameCard({ score }: { score: ScoreItem | null }) {
   return (
     <article className="live-feature">
       <div className="live-feature__meta"><span className={score.state === "in" && !reconciliation ? "live-label" : "status-label"}>{statusText(score)}</span><span>{score.league}</span></div>
-      <div className="live-feature__score">
+      {singleEvent ? <div className="live-feature__single"><strong>{eventDisplayTitle(score)}</strong><span>{score.status}</span></div> : <div className="live-feature__score">
         <div><strong>{score.home.name}</strong><span>{displayScoreValue(score, "home")}</span></div>
         <em>{scoreSeparator(score)}</em>
         <div><strong>{score.away.name}</strong><span>{displayScoreValue(score, "away")}</span></div>
-      </div>
+      </div>}
       <p>{scoreLine}</p>
       <ul>{recent.slice(0, 3).map((item) => <li key={item}>{item}</li>)}</ul>
-      <Link href={eventHref(score)} className="live-feature__button">Acompanhar jogo</Link>
+      <Link href={eventHref(score)} className="live-feature__button">Acompanhar evento</Link>
     </article>
   );
 }
@@ -217,7 +219,7 @@ function LiveOperationsCenter({ payload, events, status, now }: { payload: LiveP
         <div>
           <p>Central Ao Vivo</p>
           <h2 id="live-center-title">Ao vivo, próximos e resultados</h2>
-          <span>Jogos agrupados por campeonato, com status claro, horário local e fallback do último retorno válido.</span>
+          <span>Eventos agrupados por competição, com status claro, horário local e a última atualização sempre preservada.</span>
         </div>
         <div className="live-center__freshness">
           <strong>{updatedAgo(payload?.generatedAt, now)}</strong>
@@ -226,7 +228,7 @@ function LiveOperationsCenter({ payload, events, status, now }: { payload: LiveP
         <Link href="/agenda" className="live-center__agenda-link">Ver agenda completa {"\u2192"}</Link>
       </header>
 
-      {sourceIssue && <p className="live-center__warning">Atualização discreta: alguma fonte está atrasada. A LAP preserva a última resposta válida e tenta reconectar sem zerar a home.</p>}
+      {sourceIssue && <p className="live-center__warning">Alguns placares podem demorar um pouco mais. A LAP mantém a atualização mais recente enquanto tenta novamente.</p>}
 
       <div className="live-center__layout">
         <FeaturedGameCard score={featured} />

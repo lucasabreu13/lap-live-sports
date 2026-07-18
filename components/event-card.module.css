@@ -23,6 +23,41 @@
   gap:9px;
 }
 
+.singleEvent{
+  display:grid;
+  grid-template-columns:38px minmax(0,1fr);
+  gap:3px 10px;
+  align-items:center;
+  min-height:78px;
+  padding:10px 0;
+}
+
+.singleEvent .teamLogo{
+  grid-row:1 / span 2;
+  width:38px;
+  height:38px;
+  flex-basis:38px;
+}
+
+.singleEvent strong{
+  overflow:hidden;
+  color:var(--ink);
+  font-size:15px;
+  font-weight:950;
+  line-height:1.1;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.singleEvent > span:last-child{
+  overflow:hidden;
+  color:var(--muted);
+  font-size:11px;
+  font-weight:800;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
 .teamLine{
   min-height:36px;
 }

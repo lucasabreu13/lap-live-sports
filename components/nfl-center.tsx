@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { EventCard, eventHref } from "@/components/event-card";
 import { LapHeader } from "@/components/lap-header";
+import { eventDisplayTitle } from "@/lib/event-presentation";
 import type { NflCenterDetails, NflDivision } from "@/lib/nfl-data";
 import type { ScoreItem } from "@/lib/live-data";
 import styles from "./nfl-center.module.css";
 
 function eventTitle(event: ScoreItem) {
-  return event.eventKind === "race" ? event.home.name : `${event.home.name} x ${event.away.name}`;
+  return eventDisplayTitle(event);
 }
 
 function featuredLabel(event: ScoreItem | null) {

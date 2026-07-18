@@ -9,6 +9,7 @@ import {
   type ScoreItem,
 } from "@/lib/live-data";
 import { canDisplayScore, withScoreIntegrity } from "@/lib/score-integrity";
+import { loadEspnStandings, type EspnStandingGroup, type EspnStandingEntry } from "@/lib/providers/espn-provider";
 
 const ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports";
 
@@ -160,6 +161,8 @@ function ensureTableRow(rows: Map<string, CompetitionTableRow>, team: ScoreItem[
   const key = team.name;
   if (!rows.has(key)) {
     rows.set(key, {
+      position: null,
+      group: null,
       team: team.name,
       logo: team.logo || null,
       played: 0,
@@ -221,16 +224,58 @@ function buildCompetitionTable(events: ScoreItem[]) {
     .slice(0, 20);
 }
 
-function buildCompetitionLeaders(events: ScoreItem[]): CompetitionLeader[] {
-  const table = buildCompetitionTable(events).filter((row) => row.played > 0);
+function standingNumber(entry: EspnStandingEntry, key: string) {
+  const value = entry.values.find((item) => item.key === key)?.value;
+  if (!value) return 0;
+  const parsed = Number.parseFloat(value.replace(/[^0-9+.-]/g, ""));
+  return Number.isFinite(parsed) ? parsed : 0;
+}
+
+function buildOfficialTable(groups: EspnStandingGroup[], recentRows: CompetitionTableRow[]) {
+  const recentByName = new Map(recentRows.map((row) => [normalizedText(row.team), row]));
+  return groups.flatMap((group) => group.entries.map((entry, index) => {
+    const recent = recentByName.get(normalizedText(entry.name));
+    return {
+      position: entry.position ?? index + 1,
+      group: groups.length > 1 ? group.name : null,
+      team: entry.name,
+      logo: entry.logo,
+      played: standingNumber(entry, "gamesplayed"),
+      wins: standingNumber(entry, "wins"),
+      draws: standingNumber(entry, "ties"),
+      losses: standingNumber(entry, "losses"),
+      goalsFor: standingNumber(entry, "pointsfor"),
+      goalsAgainst: standingNumber(entry, "pointsagainst"),
+      points: standingNumber(entry, "points") || standingNumber(entry, "championshippts"),
+      form: recent?.form ?? [],
+    } satisfies CompetitionTableRow;
+  }));
+}
+
+function formPoints(row: CompetitionTableRow) {
+  return row.form.reduce((total, result) => total + (result === "V" ? 3 : result === "E" ? 1 : 0), 0);
+}
+
+function buildCompetitionLeaders(tableRows: CompetitionTableRow[]): CompetitionLeader[] {
+  const table = tableRows.filter((row) => row.played > 0);
   const byGoals = [...table].sort((a, b) => b.goalsFor - a.goalsFor);
   const byDefense = [...table].sort((a, b) => a.goalsAgainst - b.goalsAgainst);
-  const byForm = [...table].sort((a, b) => b.points - a.points);
+  const byPoints = [...table].sort((a, b) => b.points - a.points);
+  const byForm = [...table].filter((row) => row.form.length).sort((a, b) => formPoints(b) - formPoints(a));
   return [
     byGoals[0] ? { label: "Melhor ataque", team: byGoals[0].team, value: `${byGoals[0].goalsFor} gols` } : null,
     byDefense[0] ? { label: "Melhor defesa", team: byDefense[0].team, value: `${byDefense[0].goalsAgainst} sofridos` } : null,
-    byForm[0] ? { label: "Maior pontuação", team: byForm[0].team, value: `${byForm[0].points} pts` } : null,
+    byPoints[0] ? { label: "Maior pontuação", team: byPoints[0].team, value: `${byPoints[0].points} pts` } : null,
+    byForm[0] ? { label: "Forma recente", team: byForm[0].team, value: byForm[0].form.join(" ") } : null,
   ].filter((item): item is CompetitionLeader => item !== null);
+}
+
+function detectedTeams(table: CompetitionTableRow[], scores: ScoreItem[]) {
+  const teams = [
+    ...table.map((row) => ({ name: row.team, logo: row.logo })),
+    ...scores.flatMap((score) => [score.home, score.away]).map((team) => ({ name: team.name, logo: team.logo || null })),
+  ];
+  return Array.from(new Map(teams.map((team) => [normalizedText(team.name), team])).values());
 }
 
 function competitionNews(news: NewsItem[], competition: FootballCompetition) {
@@ -247,8 +292,9 @@ export async function getCompetitionCenterDetails(competitionId: string): Promis
   const competition = FOOTBALL_COMPETITIONS.find((item) => item.id === competitionId);
   if (!competition) return null;
 
-  const [direct, payload] = await Promise.all([
+  const [direct, standings, payload] = await Promise.all([
     loadDirectCompetitionScores(competition),
+    loadEspnStandings(competition.espnPath, competition.name),
     getCachedLivePayload().catch(() => null),
   ]);
 
@@ -259,17 +305,24 @@ export async function getCompetitionCenterDetails(competitionId: string): Promis
   const upcoming = scores.filter((score) => score.state === "pre").sort((a, b) => eventTime(a) - eventTime(b));
   const recent = scores.filter((score) => score.state === "post").sort((a, b) => eventTime(b) - eventTime(a));
   const news = competitionNews([...(payload?.editorial ?? []), ...(footballFeed?.news ?? [])], competition);
+  const recentTable = buildCompetitionTable(scores);
+  const officialTable = buildOfficialTable(standings.data, recentTable);
+  const table = officialTable.length >= 2 ? officialTable : recentTable;
+  const tableSource = officialTable.length >= 2 ? "official" : recentTable.some((row) => row.played > 0) ? "recent-results" : "unavailable";
 
   return {
     competition,
     live,
     upcoming,
     recent,
-    table: buildCompetitionTable(scores),
-    leaders: buildCompetitionLeaders(scores),
+    table,
+    tableSource,
+    leaders: buildCompetitionLeaders(table),
+    playerLeaders: [],
+    teams: detectedTeams(table, officialTable.length ? [] : scores),
     news,
-    sourceStatus: direct.scores.length ? "live" : footballFeed?.sourceStatus ?? direct.sourceStatus,
-    sourceNote: direct.scores.length ? null : direct.sourceNote,
+    sourceStatus: direct.scores.length || standings.data.length ? "live" : footballFeed?.sourceStatus ?? direct.sourceStatus,
+    sourceNote: direct.scores.length || standings.data.length ? null : direct.sourceNote,
     generatedAt: new Date().toISOString(),
   };
 }

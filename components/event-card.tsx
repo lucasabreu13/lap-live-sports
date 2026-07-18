@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { FavoriteButton } from "@/components/favorite-button";
+import { eventDisplayTitle, eventPreLabel, isSingleEvent } from "@/lib/event-presentation";
 import type { ScoreItem } from "@/lib/live-data";
 import { canDisplayScore, displayScoreValue } from "@/lib/score-integrity";
 import styles from "./event-card.module.css";
@@ -23,7 +24,7 @@ function dateAndTime(dateValue: string | null) {
 function eventPhase(score: ScoreItem) {
   if (score.state === "in") return "AO VIVO";
   if (score.state === "post") return "ENCERRADO";
-  if (score.state === "pre") return score.eventKind === "race" ? "PRÓXIMO GP" : "EM BREVE";
+  if (score.state === "pre") return eventPreLabel(score);
   return score.status;
 }
 
@@ -63,9 +64,9 @@ function googleCalendarUrl(score: ScoreItem) {
   if (!score.startTime) return null;
   const start = new Date(score.startTime);
   if (Number.isNaN(start.getTime())) return null;
-  const end = new Date(start.getTime() + (score.eventKind === "race" ? 2 * 60 * 60_000 : 2 * 60 * 60_000));
+  const end = new Date(start.getTime() + 2 * 60 * 60_000);
   const compact = (date: Date) => date.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z");
-  const title = score.eventKind === "race" ? `${score.home.name} · Fórmula 1` : `${score.home.name} x ${score.away.name}`;
+  const title = eventDisplayTitle(score);
   const details = `${score.league}${score.round ? ` · ${score.round}` : ""}
 Acompanhe na LAP: https://lap-live-sports.vercel.app${eventHref(score)}`;
   const params = new URLSearchParams({ action: "TEMPLATE", text: title, dates: `${compact(start)}/${compact(end)}`, details, location: score.venue || "" });
@@ -79,11 +80,12 @@ export function eventHref(score: ScoreItem) {
 
 export function EventCard({ score, compact = false, cup = false, showSport = false }: EventCardProps) {
   const href = eventHref(score);
-  const label = score.eventKind === "race" ? `${score.home.name} · Fórmula 1` : `${score.home.name} x ${score.away.name}`;
+  const label = eventDisplayTitle(score);
   const calendarUrl = score.state === "pre" ? googleCalendarUrl(score) : null;
   const showScore = canDisplayScore(score);
   const timeLabel = score.state === "post" ? score.status : score.startTime ? dateAndTime(score.startTime) : null;
   const isLive = score.state === "in";
+  const singleEvent = isSingleEvent(score);
 
   return (
     <article className={`event-card ${styles.premiumCard} ${isLive ? styles.liveCard : ""} ${compact ? `event-card--compact ${styles.compact}` : ""} ${cup ? "event-card--cup" : ""}`}>
@@ -92,11 +94,19 @@ export function EventCard({ score, compact = false, cup = false, showSport = fal
           <span className={isLive ? "live-label" : "status-label"}>{eventPhase(score)}</span>
           <span>{showSport ? `${score.sportId} · ${score.round || score.league.replace(/-/g, " ")}` : score.round || score.league.replace(/-/g, " ")}</span>
         </div>
-        <div className={`event-card__teams ${styles.teams}`}>
-          <TeamLine logo={score.home.logo} name={score.home.name} scoreValue={displayScoreValue(score, "home")} />
-          {!showScore && score.eventKind !== "race" && <span className="event-card__versus">vs</span>}
-          <TeamLine logo={score.away.logo} name={score.away.name} scoreValue={displayScoreValue(score, "away")} />
-        </div>
+        {singleEvent ? (
+          <div className={styles.singleEvent}>
+            <TeamLogo logo={score.home.logo} name={score.home.name} />
+            <strong>{score.home.name}</strong>
+            <span>{score.league.replace(/-/g, " ")}</span>
+          </div>
+        ) : (
+          <div className={`event-card__teams ${styles.teams}`}>
+            <TeamLine logo={score.home.logo} name={score.home.name} scoreValue={displayScoreValue(score, "home")} />
+            {!showScore && <span className="event-card__versus">vs</span>}
+            <TeamLine logo={score.away.logo} name={score.away.name} scoreValue={displayScoreValue(score, "away")} />
+          </div>
+        )}
         <div className="event-card__footer">
           {timeLabel && <p className="event-card__time">{timeLabel}</p>}
           {score.venue && <p className="event-card__venue">{score.venue}</p>}

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { EventCard, eventHref } from "@/components/event-card";
+import { eventDisplayTitle, isHeadToHeadEvent, isSingleEvent } from "@/lib/event-presentation";
 import { FOOTBALL_COMPETITIONS, SPORTS, type LivePayload, type NewsItem, type ScoreItem, type SportId } from "@/lib/live-data";
 import styles from "./home-explore.module.css";
 
@@ -78,7 +79,7 @@ function countryGroups(events: ScoreItem[]) {
 }
 
 function matchTitle(event: ScoreItem) {
-  return event.eventKind === "race" ? event.home.name : `${event.home.name} x ${event.away.name}`;
+  return eventDisplayTitle(event);
 }
 
 function FeaturedMatch({ event }: { event: ScoreItem | null }) {
@@ -89,7 +90,7 @@ function FeaturedMatch({ event }: { event: ScoreItem | null }) {
   return (
     <Link className={styles.matchHero} href={eventHref(event)}>
       <p className={styles.matchMeta}>{event.state === "in" ? "Ao vivo agora" : event.state === "post" ? "Último resultado" : "Próximo destaque"}</p>
-      <h3>{event.eventKind === "race" ? event.home.name : <>{event.home.name} <span>×</span> {event.away.name}</>}</h3>
+      <h3>{isSingleEvent(event) ? event.home.name : <>{event.home.name} <span>×</span> {event.away.name}</>}</h3>
       <div className={styles.matchHeroFooter}>
         <div>
           <strong>{event.league.replace(/-/g, " ")}</strong>
@@ -103,8 +104,7 @@ function FeaturedMatch({ event }: { event: ScoreItem | null }) {
 
 function PollCard({ event }: { event: ScoreItem }) {
   const [choice, setChoice] = useState<PollChoice | null>(null);
-  const isRace = event.eventKind === "race";
-  if (isRace) return null;
+  if (!isHeadToHeadEvent(event)) return null;
   return (
     <article className={styles.pollCard}>
       <p className={styles.pollKicker}>Quem vence?</p>
@@ -152,7 +152,7 @@ export function HomeExplore() {
     .sort((a, b) => b.count - a.count)
     .slice(0, 8), [events]);
   const countries = useMemo(() => countryGroups(events), [events]);
-  const pollEvents = events.filter((event) => event.eventKind !== "race" && event.state !== "post").slice(0, 3);
+  const pollEvents = events.filter((event) => isHeadToHeadEvent(event) && event.state !== "post").slice(0, 3);
 
   return (
     <section className={styles.portal} aria-labelledby="portal-home-title">
