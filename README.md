@@ -6,9 +6,10 @@ A LAP é um portal esportivo em Next.js com páginas internas, central de jogos,
 
 ### Cobertura e navegação
 
-- **Páginas de modalidade:** cada esporte tem sua própria rota em `/modalidades/[sport]`, incluindo **NFL** e **Fórmula 1**.
+- **Páginas de modalidade:** cada esporte tem configuração editorial, calendário, classificação quando disponível, mapa de competições, notícias e guia próprios em `/modalidades/[sport]`.
 - **Futebol mundial:** a central mapeia 25 competições, com destaque para Brasileirão A/B, Copa do Brasil, Libertadores, Champions League, Premier League, LaLiga, Serie A, Bundesliga, Ligue 1, MLS, Liga MX e ligas sul-americanas.
-- **Central de jogos:** `/jogos/[sport]/[id]` mostra placar, situação, local, cronologia, estatísticas e escalações quando a fonte disponibilizar essas informações.
+- **Central de jogos:** `/jogos/[sport]/[id]` resolve eventos por caminho principal, histórico recente e caminhos alternativos da modalidade; mostra placar, situação, local, cronologia, estatísticas e escalações quando disponíveis.
+- **Páginas de campeonato:** todas as 25 ligas mapeadas têm jogo em destaque, agenda, resultados, clubes, classificação estruturada quando publicada, indicadores e notícias.
 - **Copa do Mundo 2026:** `/copa-2026` reúne a agenda, resultados, fase/chaveamento por partidas recebidas e um recorte específico da Seleção Brasileira.
 - **Agenda geral:** `/agenda` permite filtrar partidas ao vivo, próximas e encerradas por data (hoje, amanhã e semana), modalidade, liga, time e competição; eventos futuros podem ser enviados ao Google Calendar.
 - **Central Ao Vivo:** `/ao-vivo` é a central operacional com abas Ao vivo, Hoje, Amanhã e Resultados, filtros por modalidade/liga/favoritos/busca e agrupamento por campeonato.
@@ -47,6 +48,7 @@ Validações de produção:
 ```bash
 npm run typecheck
 npm run test:integrity
+npm run test:data
 npm run test:push
 npm run build
 ```
@@ -130,6 +132,11 @@ Em uma implantação com múltiplas instâncias, substitua o broadcast em memór
 - `app/api/health` — health check
 - `app/feed.xml` — RSS
 - `lib/live-data.ts` — adaptadores, catálogo de futebol mundial, NFL/F1, normalização, cache resiliente e dados de partida
+- `lib/providers/*` — contrato comum e adaptadores ESPN, Google News, Supabase, CMS e mapa editorial
+- `lib/sport-hubs/*` — configuração e composição de dados específica por modalidade
+- `components/sport-hubs/*` — experiências de esportes de equipe, circuitos, corridas, lutas e provas
+- `lib/resilient-game-details.ts` — resolução multiesporte de eventos atuais e antigos
+- `lib/site-audit.ts` — auditoria de rotas, conteúdo útil, linguagem pública e amostras de eventos
 - `lib/score-integrity.ts` — regra central de verdade para placares e conflitos
 - `lib/push-alerts.ts` — matching de favoritos, eventos de alerta e deduplicação
 - `lib/push-store.ts` — persistência Supabase de assinaturas, snapshots e entregas
@@ -139,3 +146,5 @@ Em uma implantação com múltiplas instâncias, substitua o broadcast em memór
 ## Dados e direitos
 
 A LAP trabalha com metadados, placares e briefings. Para publicar textos ou imagens completos de terceiros, use apenas material próprio ou licenciado. O catálogo atual organiza as principais competições globais, mas cobertura literal de todas as ligas profissionais do mundo exige um provedor licenciado com catálogo global e contrato de uso. Antes de publicar em escala, substitua fontes comunitárias por provedores de dados licenciados e configure observabilidade da infraestrutura.
+
+O contrato para adicionar ou trocar provedores está documentado em `docs/sports-provider-contract.md`.
