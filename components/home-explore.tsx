@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { EventCard } from "@/components/event-card";
 import { eventHref } from "@/lib/event-presentation";
 import { eventDisplayTitle, isHeadToHeadEvent, isSingleEvent } from "@/lib/event-presentation";
@@ -136,29 +136,7 @@ function PollCard({ event }: { event: ScoreItem }) {
   );
 }
 
-export function HomeExplore() {
-  const [payload, setPayload] = useState<LivePayload | null>(null);
-
-  useEffect(() => {
-    let active = true;
-    const load = async () => {
-      try {
-        const response = await fetch("/api/live", { cache: "no-store" });
-        if (!response.ok) return;
-        const next = await response.json() as LivePayload;
-        if (active) setPayload(next);
-      } catch {
-        // Mantém a home navegável mesmo se a atualização falhar.
-      }
-    };
-    void load();
-    const timer = window.setInterval(() => void load(), 60_000);
-    return () => {
-      active = false;
-      window.clearInterval(timer);
-    };
-  }, []);
-
+export function HomeExplore({ payload, mode }: { payload: LivePayload | null; mode: "lead" | "more" }) {
   const events = useMemo(() => sortEvents(uniqueEvents(payload)), [payload]);
   const sports = useMemo(() => SPORTS.map((sport) => ({ sport, count: events.filter((event) => event.sportId === sport.id).length })), [events]);
   const featured = events[0] ?? null;
@@ -173,17 +151,21 @@ export function HomeExplore() {
   const pollEvents = events.filter((event) => isHeadToHeadEvent(event) && event.state !== "post").slice(0, 3);
 
   return (
-    <section className={styles.portal} aria-labelledby="portal-home-title">
-      <header className={styles.header}>
+    <section className={`${styles.portal} ${mode === "lead" ? styles.portalLead : styles.portalMore}`} aria-labelledby={mode === "lead" ? "portal-home-title" : undefined}>
+      {mode === "lead" && <header className={styles.header}>
         <div>
           <p>Portal LAP</p>
           <h2 id="portal-home-title">Tudo que importa no dia esportivo</h2>
           <span>Jogos, modalidades, campeonatos, países, notícias e interação em uma experiência mais parecida com app esportivo.</span>
         </div>
         <Link href="/agenda" className={styles.portalLink}>Abrir agenda completa</Link>
-      </header>
+      </header>}
 
-      <div className={styles.productGrid}>
+      {mode === "lead" && <nav className={styles.coverageRail} aria-label="Cobertura por modalidade">
+        {SPORTS.map((sport) => <Link href={`/modalidades/${sport.id}`} key={sport.id}><span aria-hidden>{sport.icon}</span>{sport.name}</Link>)}
+      </nav>}
+
+      {mode === "more" && <div className={styles.productGrid}>
         <aside className={styles.panel} aria-label="Modalidades em destaque">
           <div className={styles.sectionTitle}><p>Esportes</p><h2>Modalidades</h2><span>Entre rápido no esporte que você quer acompanhar.</span></div>
           <div className={styles.sportList}>
@@ -228,9 +210,9 @@ export function HomeExplore() {
             )) : <div className={styles.empty}>Carregando notícias...</div>}
           </div>
         </aside>
-      </div>
+      </div>}
 
-      <section className={`${styles.panel} ${styles.newsroom}`} aria-label="Principais notícias das modalidades">
+      {mode === "lead" && <section className={`${styles.panel} ${styles.newsroom}`} aria-label="Principais notícias das modalidades">
         <div className={styles.sectionTitle}><p>Redação multimodalidade</p><h2>Principais notícias</h2><span>Uma manchete de cada esporte primeiro; novas histórias entram sem apagar a cobertura das outras modalidades.</span></div>
         {allNews.length ? <>
           <div className={styles.headlineGrid}>
@@ -266,9 +248,9 @@ export function HomeExplore() {
             })}
           </div>
         </> : <div className={styles.empty}>Carregando a redação multimodalidade...</div>}
-      </section>
+      </section>}
 
-      <section className={styles.panel} aria-label="Campeonatos em destaque">
+      {mode === "more" && <section className={styles.panel} aria-label="Campeonatos em destaque">
         <div className={styles.sectionTitle}><p>Campeonatos populares</p><h2>Ligas em destaque</h2><span>Atalhos para as competições que mais ajudam o usuário a navegar.</span></div>
         <div className={styles.leagueGrid}>
           {popularCompetitions.map((competition) => (
@@ -279,9 +261,9 @@ export function HomeExplore() {
             </Link>
           ))}
         </div>
-      </section>
+      </section>}
 
-      <section className={styles.panel} aria-label="Jogos por país">
+      {mode === "more" && <section className={styles.panel} aria-label="Jogos por país">
         <div className={styles.sectionTitle}><p>Futebol por país</p><h2>Navegação rápida</h2><span>Agrupe a agenda por país para reduzir lista infinita e achar jogos mais rápido.</span></div>
         <div className={styles.countryGrid}>
           {countries.length ? countries.map((item) => (
@@ -292,9 +274,9 @@ export function HomeExplore() {
             </Link>
           )) : <div className={styles.empty}>Países aparecem quando a agenda de futebol estiver carregada.</div>}
         </div>
-      </section>
+      </section>}
 
-      <section className={styles.panel} aria-label="Interação e especiais">
+      {mode === "more" && <section className={styles.panel} aria-label="Interação e especiais">
         <div className={styles.sectionTitle}><p>Retenção</p><h2>Interação e especiais</h2><span>Blocos simples para o usuário continuar navegando, sem depender de apostas.</span></div>
         {pollEvents.length ? <div className={styles.pollGrid}>{pollEvents.map((event) => <PollCard key={eventKey(event)} event={event} />)}</div> : null}
         <div className={styles.specialGrid} style={{ marginTop: pollEvents.length ? 14 : 0 }}>
@@ -306,7 +288,7 @@ export function HomeExplore() {
             </Link>
           ))}
         </div>
-      </section>
+      </section>}
     </section>
   );
 }

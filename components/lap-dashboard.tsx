@@ -455,7 +455,8 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
     <main id="main-content" tabIndex={-1}>
       <LapHeader activeSport={initialSport} onRefresh={() => void refresh(true)} isRefreshing={isRefreshing} />
       <div className="shell page" id="top">
-        <section className="hero-grid" aria-label="Visão geral de atualizações esportivas">
+        {initialSport === "todos" && <HomeExplore payload={data} mode="lead" />}
+        {initialSport !== "todos" && <section className="hero-grid" aria-label="Visão geral de atualizações esportivas">
           <div className="hero-copy"><div className="eyebrow"><span className="pulse-dot" aria-hidden /> COBERTURA CONTÍNUA</div><h1>{selectedSport ? `${selectedSport.name} ao vivo, no ritmo do agora.` : "O mundo do esporte, no ritmo do agora."}</h1><p>{selectedSport ? `Notícias, partidas, favoritos e resultados de ${selectedSport.name.toLowerCase()} em uma central própria da LAP.` : "Futebol mundial, Brasileirão, NFL, Fórmula 1, resultados, matérias e alertas no mesmo painel."}</p><div className="hero-copy__meta" aria-live="polite">
   <span>{hasLiveData ? `${data?.football.competitions.length} ligas mapeadas` : "Conectando ao radar"}</span>
   <span className="hero-copy__separator" aria-hidden="true" />
@@ -477,11 +478,11 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
         : <div className="empty-card">Nenhuma partida em andamento agora.</div>}
   </div>
 </aside>
-        </section>
+        </section>}
 
-        <FavoritesOnboarding payload={data} />
         {selectedSport && <SportFocus sport={selectedSport} feed={activeFeed} />}
         <LiveOperationsCenter payload={data} events={scopedLiveEvents} status={status} now={now} />
+        <FavoritesOnboarding payload={data} />
         {(!selectedSport || selectedSport.id === "futebol") && <WorldCupSpotlight scores={data?.worldCup.events ?? []} />}
         <section className="dashboard-stats" aria-label="Resumo da LAP">
   <div>
@@ -505,7 +506,7 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
         {status === "error" && <section className="error-state" aria-live="assertive">A LAP ainda não conseguiu atualizar. Tente novamente em alguns instantes.</section>}
         <SchedulePreview scores={[...allScores, ...(data?.worldCup.events ?? [])]} />
         {initialSport === "todos" ? (
-          <HomeExplore />
+          <HomeExplore payload={data} mode="more" />
         ) : (
           <>
             <section className="feed-toolbar" aria-label="Cobertura por modalidade">

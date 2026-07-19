@@ -1,8 +1,10 @@
 .portal{
-  margin-top:44px;
   display:grid;
-  gap:18px;
+  gap:14px;
 }
+
+.portalLead{margin-top:0}
+.portalMore{margin-top:18px}
 
 .header{
   display:flex;
@@ -52,12 +54,47 @@
   white-space:nowrap;
 }
 
+.header h2{font-size:clamp(27px,2.6vw,38px)}
+.header>div>span{max-width:760px}
+
+.coverageRail{
+  display:flex;
+  gap:6px;
+  overflow-x:auto;
+  padding:1px 0 5px;
+  scrollbar-width:thin;
+}
+
+.coverageRail a{
+  display:inline-flex;
+  flex:0 0 auto;
+  min-height:34px;
+  align-items:center;
+  gap:6px;
+  padding:7px 9px;
+  border:1px solid var(--line);
+  background:#fff;
+  color:#3d494c;
+  font-size:11px;
+  font-weight:900;
+  white-space:nowrap;
+}
+
+.coverageRail a:hover{
+  border-color:var(--accent);
+  color:var(--accent-deep);
+}
+
 .productGrid{
   display:grid;
-  grid-template-columns:.78fr 1.32fr .9fr;
+  grid-template-columns:minmax(0,1.3fr) minmax(300px,.7fr);
   gap:14px;
   align-items:start;
 }
+
+.productGrid>aside:first-child{grid-column:1 / -1;order:3}
+.productGrid>section{order:1}
+.productGrid>aside:last-child{order:2}
 
 .panel{
   background:#fff;
@@ -72,6 +109,7 @@
 
 .sportList{
   display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
   gap:8px;
 }
 
@@ -360,13 +398,17 @@
 }
 
 .newsroom{
-  padding:20px;
+  padding:0;
+  border:0;
+  background:transparent;
 }
+
+.newsroom>.sectionTitle{display:none}
 
 .headlineGrid{
   display:grid;
   grid-template-columns:repeat(4,minmax(0,1fr));
-  grid-template-rows:repeat(2,190px);
+  grid-template-rows:repeat(2,210px);
   gap:10px;
 }
 
@@ -379,6 +421,8 @@
   color:#fff;
   background:#182326;
 }
+
+.header>div{min-width:0}
 
 .headlineLead{
   grid-column:span 2;
@@ -454,9 +498,14 @@
 
 .modalityNewsGrid{
   display:grid;
-  grid-template-columns:repeat(4,minmax(0,1fr));
+  grid-auto-columns:minmax(260px,calc((100% - 30px)/4));
+  grid-auto-flow:column;
   gap:10px;
   margin-top:18px;
+  overflow-x:auto;
+  padding-bottom:7px;
+  scroll-snap-type:x proximity;
+  scrollbar-width:thin;
 }
 
 .modalityNews{
@@ -466,6 +515,7 @@
   overflow:hidden;
   border:1px solid var(--line);
   background:#fff;
+  scroll-snap-align:start;
 }
 
 .modalityNews>img{
@@ -528,6 +578,8 @@
     grid-template-columns:1fr;
   }
 
+  .productGrid>aside:first-child{grid-column:auto}
+
   .leagueGrid,
   .countryGrid,
   .specialGrid,
@@ -535,16 +587,19 @@
     grid-template-columns:repeat(2,minmax(0,1fr));
   }
 
-  .headlineGrid,
-  .modalityNewsGrid{
+  .headlineGrid{
     grid-template-columns:repeat(2,minmax(0,1fr));
   }
+
+  .sportList{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 
 @media (max-width:640px){
   .portal{
-    margin-top:28px;
+    gap:11px;
   }
+
+  .portalMore{margin-top:14px}
 
   .header{
     align-items:flex-start;
@@ -552,8 +607,7 @@
   }
 
   .portalLink{
-    width:100%;
-    text-align:center;
+    display:none;
   }
 
   .eventGrid,
@@ -568,15 +622,27 @@
     padding:13px;
   }
 
+  .header h2{font-size:29px}
+  .header>div>span{display:none}
+
   .headlineGrid{
-    grid-template-columns:1fr;
-    grid-template-rows:280px repeat(4,200px);
+    grid-template-columns:none;
+    grid-template-rows:300px;
+    grid-auto-columns:min(86vw,340px);
+    grid-auto-flow:column;
+    gap:8px;
+    overflow-x:auto;
+    padding-bottom:6px;
+    scroll-snap-type:x mandatory;
+    scrollbar-width:thin;
   }
 
   .headlineLead{
     grid-column:auto;
     grid-row:auto;
   }
+
+  .headlineCard{scroll-snap-align:start}
 
   .headlineLead .headlineBody{
     padding:16px;
@@ -587,16 +653,19 @@
   }
 
   .modalityNewsGrid{
-    grid-template-columns:1fr;
+    grid-auto-columns:min(82vw,310px);
+    margin-top:10px;
   }
 
   .modalityNews{
-    grid-template-columns:112px minmax(0,1fr);
-    grid-template-rows:minmax(184px,auto);
+    grid-template-columns:1fr;
+    grid-template-rows:118px minmax(170px,auto);
   }
 
   .modalityNews>img{
-    width:112px;
-    height:100%;
+    width:100%;
+    height:118px;
   }
+
+  .sportList{grid-template-columns:1fr}
 }
