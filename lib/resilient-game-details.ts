@@ -3,6 +3,7 @@ import { getSportDataBlueprint } from "@/lib/sport-data-blueprints";
 import {
   SPORTS,
   getGameDetails,
+  getGameDetailsFromPath,
   type GameDetails,
   type ScoreItem,
   type SportId,
@@ -50,11 +51,16 @@ export async function getResilientGameDetails(
   if (direct) return direct;
 
   const cached = await findEventInCachedPayload(sportId, eventId, Boolean(options?.worldCup));
-  if (cached) return detailsFromScore(cached);
+  if (cached?.providerPath) {
+    const enrichedCached = await getGameDetailsFromPath(sportId, eventId, cached.providerPath, options).catch(() => null);
+    if (enrichedCached) return enrichedCached;
+  }
 
   const paths = getEspnPathsForSport(sportId);
   const alternate = await findGameAcrossEspnPaths(sportId, eventId, paths, options);
   if (alternate) return alternate;
+
+  if (cached) return detailsFromScore(cached);
 
   const scheduled = await findEventAcrossEspnSchedules(sportId, eventId, paths);
   if (scheduled) return detailsFromScore(scheduled);

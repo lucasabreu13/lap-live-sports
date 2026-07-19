@@ -185,7 +185,20 @@ export type GameTeamStat = {
 
 export type GameLineup = {
   team: string;
+  logo?: string | null;
+  formation?: string | null;
   players: string[];
+  members?: GameLineupPlayer[];
+};
+
+export type GameLineupPlayer = {
+  id: string | null;
+  name: string;
+  jersey: string | null;
+  position: string | null;
+  starter: boolean | null;
+  formationPlace: string | null;
+  active: boolean | null;
 };
 
 export type GameDetails = {
@@ -580,10 +593,13 @@ function scoreFromCompetitor(competitor: unknown) {
   const team = asRecord(item.team);
   const records = asArray<Record<string, unknown>>(item.records);
   const record = records.map((entry) => asText(entry.summary)).find(Boolean) ?? null;
+  const logo = asText(team.logo)
+    || asArray<Record<string, unknown>>(team.logos).map((entry) => asText(entry.href)).find(Boolean)
+    || null;
   return {
     name: repairMojibake(asText(team.displayName, asText(team.shortDisplayName, asText(asRecord(item.athlete).displayName, "Sem identificação")))),
     score: item.score !== undefined && item.score !== "" ? String(item.score) : null,
-    logo: asText(team.logo) || null,
+    logo,
     record,
   };
 }
@@ -607,8 +623,10 @@ function parseScoreboard(
     const season = asRecord(event.season);
     const competitionLeague = asRecord(event.league);
     const venue = asRecord(competition?.venue);
-    const broadcasts = asArray<Record<string, unknown>>(competition?.geoBroadcasts);
-    const broadcastMedia = asRecord(broadcasts[0]?.media);
+    const geoBroadcasts = asArray<Record<string, unknown>>(competition?.geoBroadcasts);
+    const broadcasts = asArray<Record<string, unknown>>(competition?.broadcasts);
+    const broadcastMedia = asRecord(geoBroadcasts[0]?.media);
+    const broadcastNames = broadcasts.flatMap((entry) => asArray<unknown>(entry.names)).map((name) => asText(name)).filter(Boolean);
     const week = asRecord(event.week);
 
     const score: Omit<ScoreItem, "integrity" | "integrityReason"> = {
@@ -617,7 +635,7 @@ function parseScoreboard(
       league: repairMojibake(options?.competition?.name || asText(season.slug, asText(competitionLeague.name, sport.name))),
       round: repairMojibake(asText(asRecord(season.type).name, asText(week.text))) || null,
       venue: repairMojibake(asText(venue.fullName)) || null,
-      broadcast: repairMojibake(asText(broadcastMedia.shortName)) || null,
+      broadcast: repairMojibake(asText(broadcastMedia.shortName, broadcastNames.join(", "))) || null,
       status: repairMojibake(asText(statusType.shortDetail, asText(statusType.detail, "Agenda confirmada"))),
       state,
       startTime: typeof event.date === "string" ? event.date : null,
@@ -1034,8 +1052,19 @@ export async function getLivePayload(): Promise<LivePayload> {
 }
 
 function parseTimeline(json: unknown): GameTimelineItem[] {
-  const plays = asArray<Record<string, unknown>>(asRecord(json).plays);
-  return plays.slice(-80).map((play, index) => {
+  const root = asRecord(json);
+  const directPlays = asArray<Record<string, unknown>>(root.plays);
+  const commentaryPlays: Record<string, unknown>[] = asArray<Record<string, unknown>>(root.commentary).map((entry): Record<string, unknown> => {
+    const play = asRecord(entry.play);
+    return {
+      ...play,
+      id: play.id ?? entry.sequence,
+      text: entry.text ?? play.text,
+      clock: play.clock ?? entry.time,
+    };
+  });
+  const plays = directPlays.length ? directPlays : commentaryPlays;
+  return plays.slice(-180).map((play, index) => {
     const clock = asRecord(play.clock);
     const period = asRecord(play.period);
     const team = asRecord(play.team);
@@ -1052,29 +1081,108 @@ function parseTimeline(json: unknown): GameTimelineItem[] {
   }).reverse();
 }
 
-function parseTeamStats(json: unknown): GameTeamStat[] {
+function periodStatLabel(sportId: SportId, index: number) {
+  if (sportId === "beisebol" || sportId === "softball") return `${index + 1}ª entrada`;
+  if (sportId === "basquete" || sportId === "futebol-americano") return index < 4 ? `${index + 1}º quarto` : `Prorrogação ${index - 3}`;
+  if (sportId === "tenis" || sportId === "volei") return `${index + 1}º set`;
+  return `Parcial ${index + 1}`;
+}
+
+function parseTeamStats(json: unknown, sportId: SportId): GameTeamStat[] {
   const teams = asArray<Record<string, unknown>>(asRecord(asRecord(json).boxscore).teams);
-  return teams.map((entry) => {
+  const boxscoreStats = teams.map((entry) => {
     const team = asRecord(entry.team);
     const stats = asArray<Record<string, unknown>>(entry.statistics).slice(0, 12).flatMap((stat) => {
       const label = repairMojibake(asText(stat.label, asText(stat.name)));
       const value = repairMojibake(asText(stat.displayValue, asText(stat.value)));
       return label && value ? [{ label, value }] : [];
     });
-    return { team: repairMojibake(asText(team.displayName, asText(team.abbreviation, "Equipe"))), logo: asText(team.logo) || null, stats };
+    return { team: repairMojibake(asText(team.displayName, asText(team.abbreviation, "Equipe"))), logo: teamLogo(team), stats };
+  }).filter((team) => team.stats.length > 0);
+  if (boxscoreStats.length) return boxscoreStats;
+
+  const header = asRecord(asRecord(json).header);
+  const competition = asArray<Record<string, unknown>>(header.competitions)[0];
+  const competitors = asArray<Record<string, unknown>>(competition?.competitors);
+  return competitors.map((competitor) => {
+    const team = asRecord(competitor.team);
+    const providerStats = asArray<Record<string, unknown>>(competitor.statistics).flatMap((stat) => {
+      const label = repairMojibake(asText(stat.label, asText(stat.displayName, asText(stat.name))));
+      const value = repairMojibake(asText(stat.displayValue, asText(stat.value)));
+      return label && value ? [{ label, value }] : [];
+    });
+    const verifiedStats: Array<{ label: string; value: string }> = [...providerStats];
+    const record = asArray<Record<string, unknown>>(competitor.record).map((entry) => asText(entry.displayValue, asText(entry.summary))).find(Boolean);
+    if (record) verifiedStats.push({ label: "Campanha", value: record });
+    if (competitor.hits !== undefined) verifiedStats.push({ label: "Rebatidas", value: asText(competitor.hits) });
+    if (competitor.errors !== undefined) verifiedStats.push({ label: "Erros", value: asText(competitor.errors) });
+    asArray<Record<string, unknown>>(competitor.linescores).forEach((line, index) => {
+      const value = asText(line.displayValue, asText(line.value));
+      if (value) verifiedStats.push({ label: periodStatLabel(sportId, index), value });
+    });
+    return {
+      team: repairMojibake(asText(team.displayName, asText(team.abbreviation, "Equipe"))),
+      logo: teamLogo(team),
+      stats: verifiedStats.slice(0, 18),
+    };
   }).filter((team) => team.stats.length > 0);
 }
 
-function parseLineups(json: unknown): GameLineup[] {
+function lineupPlayer(value: unknown): GameLineupPlayer | null {
+  const entry = asRecord(value);
+  const athlete = asRecord(entry.athlete);
+  const position = asRecord(entry.position);
+  const name = repairMojibake(asText(athlete.displayName, asText(athlete.fullName, asText(entry.displayName))));
+  if (!name) return null;
+  return {
+    id: asText(athlete.id, asText(entry.id)) || null,
+    name,
+    jersey: asText(entry.jersey, asText(athlete.jersey)) || null,
+    position: repairMojibake(asText(position.abbreviation, asText(position.displayName))) || null,
+    starter: typeof entry.starter === "boolean" ? entry.starter : null,
+    formationPlace: asText(entry.formationPlace) || null,
+    active: typeof entry.active === "boolean" ? entry.active : null,
+  };
+}
+
+function teamLogo(team: Record<string, unknown>) {
+  return asText(team.logo)
+    || asArray<Record<string, unknown>>(team.logos).map((entry) => asText(entry.href)).find(Boolean)
+    || null;
+}
+
+export function parseGameLineups(json: unknown): GameLineup[] {
+  const rosterGroups = asArray<Record<string, unknown>>(asRecord(json).rosters);
+  const rosters = rosterGroups.map((group) => {
+    const team = asRecord(group.team);
+    const members = asArray<Record<string, unknown>>(group.roster)
+      .map(lineupPlayer)
+      .filter((player): player is GameLineupPlayer => player !== null);
+    return {
+      team: repairMojibake(asText(team.displayName, asText(team.abbreviation, "Equipe"))),
+      logo: teamLogo(team),
+      formation: repairMojibake(asText(group.formation)) || null,
+      players: members.map((player) => player.name),
+      members,
+    };
+  }).filter((group) => group.players.length > 0);
+  if (rosters.length) return rosters;
+
   const players = asArray<Record<string, unknown>>(asRecord(asRecord(json).boxscore).players);
   return players.map((group) => {
     const team = asRecord(group.team);
     const categories = asArray<Record<string, unknown>>(group.statistics);
-    const athleteNames = categories.flatMap((category) => asArray<Record<string, unknown>>(category.athletes))
-      .map((athlete) => repairMojibake(asText(asRecord(athlete.athlete).displayName, asText(athlete.displayName))))
-      .filter(Boolean)
-      .slice(0, 18);
-    return { team: repairMojibake(asText(team.displayName, asText(team.abbreviation, "Equipe"))), players: [...new Set(athleteNames)] };
+    const members = categories.flatMap((category) => asArray<Record<string, unknown>>(category.athletes))
+      .map(lineupPlayer)
+      .filter((player): player is GameLineupPlayer => player !== null);
+    const uniqueMembers = Array.from(new Map(members.map((member) => [member.id || member.name, member])).values()).slice(0, 30);
+    return {
+      team: repairMojibake(asText(team.displayName, asText(team.abbreviation, "Equipe"))),
+      logo: teamLogo(team),
+      formation: null,
+      players: uniqueMembers.map((member) => member.name),
+      members: uniqueMembers,
+    };
   }).filter((group) => group.players.length > 0);
 }
 
@@ -1110,18 +1218,24 @@ export async function getGameDetailsFromPath(
     if (!response.ok) return null;
     const json = await response.json();
     const header = asRecord(asRecord(json).header);
+    const headerCompetition = asArray<Record<string, unknown>>(header.competitions)[0];
+    const normalizedHeader = {
+      ...header,
+      date: header.date ?? headerCompetition?.date,
+      status: header.status ?? headerCompetition?.status,
+    };
     const parsedEvent = (sportId === "formula1"
-      ? parseRaceScoreboard({ events: [header] }, sport)
-      : parseScoreboard({ events: [header] }, sport, { providerPath: path, isWorldCup: Boolean(options?.worldCup) })
-    )[0] ?? parseStandaloneScoreboard({ events: [header] }, sport, path)[0];
+      ? parseRaceScoreboard({ events: [normalizedHeader] }, sport)
+      : parseScoreboard({ events: [normalizedHeader] }, sport, { providerPath: path, isWorldCup: Boolean(options?.worldCup) })
+    )[0] ?? parseStandaloneScoreboard({ events: [normalizedHeader] }, sport, path)[0];
     if (!parsedEvent) return null;
     const event = parsedEvent.id ? parsedEvent : { ...parsedEvent, id: eventId };
     const reconciling = event.integrity === "reconciling";
     return {
       event,
       timeline: reconciling ? [] : parseTimeline(json),
-      teamStats: reconciling ? [] : parseTeamStats(json),
-      lineups: reconciling ? [] : parseLineups(json),
+      teamStats: reconciling ? [] : parseTeamStats(json, sportId),
+      lineups: reconciling ? [] : parseGameLineups(json),
       headlines: parseHeadlines(json),
       notes: parseNotes(json),
       sourceStatus: "ok",
