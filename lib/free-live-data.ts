@@ -1,5 +1,5 @@
 import { applyLivePayloadPatch, getLivePayload, ingestLiveWebhook, type LivePayload, type LiveWebhookPatch, type SportFeed } from "@/lib/live-data";
-import { readLiveCache, writeLiveCache } from "@/lib/live-cache-store";
+import { readLiveCache, writeLiveCache, type LiveCacheRecord } from "@/lib/live-cache-store";
 
 const LIVE_PAYLOAD_CACHE_KEY = "lap-live-payload-v1";
 const PERSISTED_FRESH_TTL_MS = 90_000;
@@ -107,7 +107,7 @@ function mergeWithPersisted(fresh: LivePayload, persisted: LivePayload) {
   };
 }
 
-async function refreshFromSources(persisted: Awaited<ReturnType<typeof readLiveCache<LivePayload>>> | null) {
+async function refreshFromSources(persisted: LiveCacheRecord<LivePayload> | null) {
   const fresh = await getLivePayload();
   const persistedAge = persisted ? cacheAgeMs(persisted.cachedAt) : Number.POSITIVE_INFINITY;
   const canUsePersisted = Boolean(persisted && persistedAge <= PERSISTED_STALE_TTL_MS);
