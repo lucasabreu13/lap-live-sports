@@ -1,5 +1,6 @@
 import { getCachedLivePayload } from "@/lib/free-live-data";
 import { subscribeToLiveEvents } from "@/lib/live-data";
+import { toPublicLivePayload } from "@/lib/public-sports";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -15,6 +16,7 @@ export async function GET(request: Request) {
   let unsubscribe: () => void = () => {};
   let heartbeat: ReturnType<typeof setInterval> | null = null;
   let timeout: ReturnType<typeof setTimeout> | null = null;
+  const includeWorldCup = new URL(request.url).searchParams.get("includeWorldCup") === "1";
 
   const stream = new ReadableStream<Uint8Array>({
     async start(controller) {
@@ -29,7 +31,7 @@ export async function GET(request: Request) {
       controller.enqueue(encoder.encode("retry: 3000\n\n"));
       try {
         const payload = await getCachedLivePayload();
-        controller.enqueue(formatEvent("snapshot", payload));
+        controller.enqueue(formatEvent("snapshot", toPublicLivePayload(payload, { includeWorldCup })));
       } catch {
         controller.enqueue(encoder.encode("event: heartbeat\ndata: {\"status\":\"waiting\"}\n\n"));
       }
@@ -37,7 +39,7 @@ export async function GET(request: Request) {
       unsubscribe = subscribeToLiveEvents((event) => {
         try {
           if (event.type === "score") controller.enqueue(formatEvent("score", event.patch));
-          if (event.type === "snapshot") controller.enqueue(formatEvent("snapshot", event.payload));
+          if (event.type === "snapshot") controller.enqueue(formatEvent("snapshot", toPublicLivePayload(event.payload, { includeWorldCup })));
         } catch {
           close();
         }
