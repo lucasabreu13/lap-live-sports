@@ -42,14 +42,19 @@ jobs:
           LAP_SITE_URL: https://lap-live-sports.vercel.app
         run: node scripts/newsroom-agents.mjs
 
+      - name: Record pipeline validation
+        if: github.event_name == 'push'
+        run: |
+          printf '{\n  "status": "ok",\n  "validatedAt": "%s",\n  "commit": "%s",\n  "runId": "%s"\n}\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$GITHUB_SHA" "$GITHUB_RUN_ID" > content/newsroom/status.json
+
       - name: Publish newsroom content to repository
         run: |
-          if git diff --quiet -- content/newsroom/articles.json; then
+          if git diff --quiet -- content/newsroom/articles.json content/newsroom/status.json; then
             echo "No newsroom changes to publish."
             exit 0
           fi
           git config user.name "lap-newsroom[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/newsroom/articles.json
+          git add content/newsroom/articles.json content/newsroom/status.json
           git commit -m "chore(newsroom): publish verified sports stories"
           git push
