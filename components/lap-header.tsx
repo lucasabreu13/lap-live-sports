@@ -16,6 +16,9 @@ type LapHeaderProps = {
 
 type SearchResult = { id: string; title: string; meta: string; href: string; kind: "matéria" | "jogo" | "modalidade" | "liga" };
 
+const PRIMARY_SPORT_IDS = new Set<SportId>(["futebol", "futebol-americano"]);
+const SECONDARY_SPORTS = SPORTS.filter((sport) => !PRIMARY_SPORT_IDS.has(sport.id));
+
 function buildSearchResults(payload: LivePayload | null, query: string): SearchResult[] {
   if (!payload || query.trim().length < 2) return [];
   const normalized = query.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -173,7 +176,7 @@ function SearchBox() {
     const timer = window.setTimeout(async () => {
       setLoading(true);
       try {
-        const response = await fetch("/api/live", { cache: "no-store", signal: controller.signal });
+        const response = await fetch("/api/live", { signal: controller.signal });
         if (!response.ok) return;
         setPayload(await response.json() as LivePayload);
         setOpen(true);
@@ -212,6 +215,9 @@ function SearchBox() {
 }
 
 export function LapHeader({ activeSport = "todos", onRefresh, isRefreshing = false, compact = false }: LapHeaderProps) {
+  const football = SPORTS.find((sport) => sport.id === "futebol");
+  const nfl = SPORTS.find((sport) => sport.id === "futebol-americano");
+
   return (
     <>
       {!compact && <div className="breaking-strip"><div className="shell breaking-strip__inside"><span className="pulse-dot" aria-hidden /><Link href="/copa-2026">Copa do Mundo 2026 em destaque na LAP</Link><Link className="breaking-strip__source" href="/copa-2026">Abrir central da Copa</Link></div></div>}
@@ -227,13 +233,21 @@ export function LapHeader({ activeSport = "todos", onRefresh, isRefreshing = fal
           </div>
         </div>
       </header>
-      <nav className="sport-nav" aria-label="Modalidades esportivas">
+      <nav className="sport-nav sport-nav--focused" aria-label="Navegação esportiva principal">
         <div className="shell sport-nav__inside">
           <Link href="/copa-2026" className="world-cup-nav">🏆 Copa 2026</Link>
           <Link href="/ao-vivo" className="sport-nav__agenda">Ao Vivo</Link>
           <Link href="/agenda" className="sport-nav__agenda">Agenda</Link>
-          <Link href="/" className={activeSport === "todos" ? "active" : ""}>Todos</Link>
-          {SPORTS.map((sport) => <Link href={`/modalidades/${sport.id}`} className={activeSport === sport.id ? "active" : ""} key={sport.id}>{sport.icon} {sport.name}</Link>)}
+          {football && <Link href={`/modalidades/${football.id}`} className={activeSport === football.id ? "active" : ""}>{football.icon} Futebol</Link>}
+          <Link href="/college-football">🏈 College Football</Link>
+          {nfl && <Link href={`/modalidades/${nfl.id}`} className={activeSport === nfl.id ? "active" : ""}>🏈 NFL</Link>}
+          <details className="sport-nav__more">
+            <summary>Mais esportes <span aria-hidden>⌄</span></summary>
+            <div className="sport-nav__more-menu">
+              {SECONDARY_SPORTS.map((sport) => <Link href={`/modalidades/${sport.id}`} className={activeSport === sport.id ? "active" : ""} key={sport.id}>{sport.icon} {sport.name}</Link>)}
+              <Link href="/cobertura" className="sport-nav__coverage">◎ Ver toda a cobertura</Link>
+            </div>
+          </details>
         </div>
       </nav>
     </>

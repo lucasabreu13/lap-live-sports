@@ -14,6 +14,8 @@ type DateFilter = "all" | "today" | "tomorrow" | "week";
 type PriorityFilter = "all" | "favorites";
 type SportLike = { id: SportId; name: string; icon: string; description?: string };
 
+const CLIENT_SNAPSHOT_KEY = "lap:live-snapshot:v1";
+
 function scoreTime(score: ScoreItem) {
   if (!score.startTime) return Number.MAX_SAFE_INTEGER;
   const value = new Date(score.startTime).getTime();
@@ -115,31 +117,58 @@ function groupByDateAndSport(events: ScoreItem[]) {
     .map(([key, items]) => ({ key, label: key === "sem-data" ? "Data a confirmar" : dateLabel(items[0]?.startTime ?? null), sportGroups: groupBySport(items) }));
 }
 
+function readClientSnapshot() {
+  if (typeof window === "undefined") return null;
+  try {
+    return JSON.parse(window.localStorage.getItem(CLIENT_SNAPSHOT_KEY) || "null") as LivePayload | null;
+  } catch {
+    return null;
+  }
+}
+
+function writeClientSnapshot(payload: LivePayload) {
+  try {
+    window.localStorage.setItem(CLIENT_SNAPSHOT_KEY, JSON.stringify(payload));
+  } catch {
+    // O cache local é opcional; a agenda continua usando o snapshot persistido no servidor.
+  }
+}
+
 function useLiveFeed() {
   const [data, setData] = useState<LivePayload | null>(null);
   const [error, setError] = useState(false);
 
   useEffect(() => {
     let active = true;
+    const cached = readClientSnapshot();
+    if (cached) setData(cached);
+
     const load = async () => {
       try {
-        const response = await fetch("/api/live", { cache: "no-store" });
+        const response = await fetch("/api/live");
         if (!response.ok) throw new Error("feed unavailable");
+        const payload = await response.json() as LivePayload;
         if (active) {
-          setData(await response.json() as LivePayload);
+          setData(payload);
           setError(false);
+          writeClientSnapshot(payload);
         }
       } catch {
         if (active) setError(true);
       }
     };
     void load();
-    const unsubscribeRefresh = subscribeToLiveRefresh(load, { intervalMs: 12_000 });
+    const unsubscribeRefresh = subscribeToLiveRefresh(load, { intervalMs: 30_000 });
     const source = "EventSource" in window ? new EventSource("/api/live/stream") : null;
     source?.addEventListener("snapshot", (event) => {
       try {
-        if (active) setData(JSON.parse((event as MessageEvent<string>).data) as LivePayload);
-      } catch { /* O próximo polling reconcilia os dados. */ }
+        const payload = JSON.parse((event as MessageEvent<string>).data) as LivePayload;
+        if (active) {
+          setData(payload);
+          setError(false);
+          writeClientSnapshot(payload);
+        }
+      } catch { /* A próxima atualização reconcilia os dados. */ }
     });
     source?.addEventListener("score", () => void load());
     return () => {
@@ -263,6 +292,7 @@ export function ScheduleExperience({
   const scheduledEvents = useMemo(() => visible.filter((event) => event.state !== "in"), [visible]);
   const dateClusters = useMemo(() => groupByDateAndSport(scheduledEvents), [scheduledEvents]);
   const activeLabel = status === "live" ? "Ao vivo" : status === "next" ? "Próximos" : status === "finished" ? "Resultados" : "Todos os eventos";
+  const resultLabel = visible.length === 1 ? "1 evento" : `${visible.length} eventos`;
 
   return (
     <main>
@@ -299,20 +329,22 @@ export function ScheduleExperience({
           <button type="button" role="tab" aria-selected={priority === "favorites"} className={priority === "favorites" ? "active" : ""} onClick={() => setPriority(priority === "favorites" ? "all" : "favorites")}>Favoritos <span>{counts.favorites}</span></button>
         </div>
 
-        <p className="agenda-result-note" aria-live="polite">{visible.length} evento{visible.length === 1 ? "" : "s"} em {activeLabel.toLocaleLowerCase("pt-BR")}.{favorites.length ? " Seus favoritos recebem prioridade." : ""}</p>
+        <p className="agenda-result-note" aria-live="polite">{resultLabel} em {activeLabel.toLocaleLowerCase("pt-BR")}.{favorites.length ? " Seus favoritos recebem prioridade." : ""}</p>
 
         {isLoading ? (
-          <section className="agenda-loading" aria-live="polite" aria-label="Carregando agenda"><div><p>Conectando ao radar</p><h2>Carregando os jogos da Agenda</h2><span>Buscando os eventos mais recentes.</span></div><div className="agenda-loading__grid" aria-hidden="true"><span /><span /><span /></div></section>
+          <section className="agenda-loading" aria-live="polite" aria-label="Preparando agenda"><div><p>Agenda LAP</p><h2>Preparando sua agenda</h2><span>Organizando jogos e resultados disponíveis.</span></div><div className="agenda-loading__grid" aria-hidden="true"><span /><span /><span /></div></section>
         ) : visible.length ? (
           <div className={styles.agendaStack}>
             <MiniEventList title="Ao vivo agora" description="Tempo real" events={liveEvents} />
             {dateClusters.map((cluster) => <DateCluster key={cluster.key} label={cluster.label} sportGroups={cluster.sportGroups} />)}
           </div>
+        ) : error && !data ? (
+          <section className="agenda-empty"><p>Agenda temporariamente indisponível.</p><span>Não recebemos uma atualização válida agora. Tente novamente em instantes.</span></section>
         ) : (
           <section className="agenda-empty"><p>Nenhum evento encontrado neste recorte.</p><span>Troque a data, modalidade, liga ou termo de busca para ampliar a agenda.</span><button type="button" onClick={() => { setStatus("all"); setDate("week"); setSport("all"); setCompetition("all"); setPriority("all"); setQuery(""); }}>Limpar filtros</button></section>
         )}
 
-        {error && <p className="status-note">Não foi possível atualizar a agenda agora. Tente novamente em instantes.</p>}
+        {error && data && <p className="status-note">Mostrando a última atualização disponível. Novos dados entram automaticamente quando a fonte responder.</p>}
       </div>
     </main>
   );

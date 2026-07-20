@@ -14,6 +14,7 @@ type PollChoice = "home" | "draw" | "away";
 const specialItems = [
   { href: "/agenda", icon: "▦", title: "Jogos imperdíveis", text: "Agenda filtrada por hoje, amanhã, favoritos e modalidade." },
   { href: "/copa-2026", icon: "🏆", title: "Copa 2026", text: "Central com jogos, chaveamento e cobertura da Copa." },
+  { href: "/college-football", icon: "🏈", title: "College Football", text: "FBS, FCS, DII e DIII com times, jogos, elencos, estádios e títulos." },
   { href: "/cobertura", icon: "◎", title: "Mapa de cobertura", text: "Veja o que cada modalidade entrega na LAP." },
   { href: "/favoritos", icon: "★", title: "Minha LAP", text: "Salve times, ligas e eventos para acompanhar melhor." },
 ];
@@ -101,7 +102,7 @@ function matchTitle(event: ScoreItem) {
 
 function FeaturedMatch({ event }: { event: ScoreItem | null }) {
   if (!event) {
-    return <div className={styles.empty}>Aguardando os próximos eventos da agenda.</div>;
+    return <div className={styles.empty}>Os próximos eventos confirmados aparecerão aqui.</div>;
   }
 
   return (
@@ -190,7 +191,7 @@ export function HomeExplore({ payload, mode }: { payload: LivePayload | null; mo
           <div className={styles.matchStack}>
             <FeaturedMatch event={featured} />
             <div className={styles.eventGrid}>
-              {sideEvents.length ? sideEvents.map((event) => <EventCard key={eventKey(event)} score={event} compact showSport />) : <div className={styles.empty}>Os próximos jogos aparecem aqui.</div>}
+              {sideEvents.length ? sideEvents.map((event) => <EventCard key={eventKey(event)} score={event} compact showSport />) : <div className={styles.empty}>Nenhum evento em destaque neste momento.</div>}
             </div>
           </div>
         </section>
@@ -207,7 +208,7 @@ export function HomeExplore({ payload, mode }: { payload: LivePayload | null; mo
                   <small>{sportMeta(item.sportId as SportId)?.name ?? item.sportId}</small>
                 </span>
               </Link>
-            )) : <div className={styles.empty}>Carregando notícias...</div>}
+            )) : <div className={styles.empty}>As notícias mais recentes aparecem aqui assim que forem publicadas.</div>}
           </div>
         </aside>
       </div>}
@@ -247,7 +248,7 @@ export function HomeExplore({ payload, mode }: { payload: LivePayload | null; mo
               );
             })}
           </div>
-        </> : <div className={styles.empty}>Carregando a redação multimodalidade...</div>}
+        </> : <div className={styles.empty}>As manchetes serão exibidas assim que a atualização de notícias estiver disponível.</div>}
       </section>}
 
       {mode === "more" && <section className={styles.panel} aria-label="Campeonatos em destaque">
@@ -257,7 +258,7 @@ export function HomeExplore({ payload, mode }: { payload: LivePayload | null; mo
             <Link href={`/campeonatos/${competition.id}`} className={styles.leagueCard} key={competition.id}>
               <span className={styles.cardIcon} aria-hidden>🏟️</span>
               <strong>{competition.name}</strong>
-              <span>{competition.country} · {competition.count} evento{competition.count === 1 ? "" : "s"}</span>
+              <span>{competition.country} · {competition.count === 1 ? "1 evento" : `${competition.count} eventos`}</span>
             </Link>
           ))}
         </div>
@@ -270,9 +271,9 @@ export function HomeExplore({ payload, mode }: { payload: LivePayload | null; mo
             <Link href={`/agenda?pais=${encodeURIComponent(item.country)}`} className={styles.countryCard} key={item.country}>
               <span className={styles.cardIcon} aria-hidden>🌎</span>
               <strong>{item.country}</strong>
-              <span>{item.count} jogo{item.count === 1 ? "" : "s"} no radar</span>
+              <span>{item.count === 1 ? "1 jogo" : `${item.count} jogos`} no radar</span>
             </Link>
-          )) : <div className={styles.empty}>Países aparecem quando a agenda de futebol estiver carregada.</div>}
+          )) : <div className={styles.empty}>Os países aparecem quando houver jogos de futebol disponíveis na agenda.</div>}
         </div>
       </section>}
 
