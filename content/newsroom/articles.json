@@ -1,5 +1,46 @@
 [
   {
+    "id": "newsroom-data-5db7a79efeba",
+    "slug": "chicago-cubs-vence-minnesota-twins-por-10-a-1-na-temporada-regular-5db7a7",
+    "sportId": "beisebol",
+    "title": "Chicago Cubs vence Minnesota Twins por 10 a 1 na temporada regular",
+    "summary": "Chicago Cubs derrotou Minnesota Twins por 10 a 1 na temporada regular.",
+    "content": "Chicago Cubs derrotou Minnesota Twins por 10 a 1 na temporada regular, em 19 de julho de 2026 no Wrigley Field. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "temporada-regular"
+    ],
+    "seoTitle": "Chicago Cubs vence Minnesota Twins por 10 a 1 na temporada regular",
+    "seoDescription": "Chicago Cubs derrotou Minnesota Twins por 10 a 1 na temporada regular.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-20T23:37:24.992Z",
+    "createdAt": "2026-07-20T23:37:24.992Z",
+    "updatedAt": "2026-07-20T23:37:24.992Z",
+    "homepagePriority": 58,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401816179",
+      "eventStartTime": "2026-07-19T18:20Z",
+      "retrievedAt": "2026-07-20T23:37:24.992Z",
+      "feedId": "beisebol",
+      "league": "regular-season"
+    }
+  },
+  {
     "id": "newsroom-data-1b108e1e1cef",
     "slug": "cincinnati-reds-vence-colorado-rockies-por-9-a-6-na-temporada-regular-1b108e",
     "sportId": "beisebol",
