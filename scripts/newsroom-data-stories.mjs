@@ -17,7 +17,6 @@ const LABELS = {
 };
 
 const INVALID_ARTICLE_IDS = new Set([
-  // Publicado antes da correção temporal: evento aparecia como encerrado com data futura.
   "newsroom-data-d1172bcb5b21",
 ]);
 
@@ -59,9 +58,9 @@ function matchContext(event) {
 }
 
 function storyPriority(event, league) {
-  const material = normalize(`${league} ${event.round || ""} ${event.status || ""}`);
-  if (/final|championship|super bowl|world series|playoff|playoffs/.test(material)) return 82;
-  if (/semifinal|quarterfinal|wild card|postseason/.test(material)) return 76;
+  const material = normalize(`${league} ${event.round || ""}`);
+  if (/championship|super bowl|world series|conference final|nba finals|stanley cup final|grand final/.test(material)) return 82;
+  if (/semifinal|quarterfinal|wild card|postseason|playoff|playoffs/.test(material)) return 76;
   return 58;
 }
 
