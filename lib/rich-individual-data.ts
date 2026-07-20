@@ -27,7 +27,7 @@ const ESPN_SITE = "https://site.api.espn.com/apis/site/v2/sports";
 
 function rec(value: unknown): AnyRecord { return value && typeof value === "object" ? value as AnyRecord : {}; }
 function arr<T = unknown>(value: unknown): T[] { return Array.isArray(value) ? value as T[] : []; }
-function txt(value: unknown, fallback = "") { return typeof value === "string" || typeof value === "number" ? String(value) : fallback; }
+function txt(value: unknown, fallback: string | number = "") { return typeof value === "string" || typeof value === "number" ? String(value) : String(fallback); }
 function nullable(value: unknown) { const valueText = txt(value).trim(); return valueText || null; }
 function cleanText(value: string) { return value.replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&#x27;/g, "'").replace(/&quot;/g, '"').replace(/\s+/g, " ").trim(); }
 
