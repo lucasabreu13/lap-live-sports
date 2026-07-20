@@ -1,5 +1,71 @@
 [
   {
+    "id": "newsroom-data-d1172bcb5b21",
+    "slug": "chapecoense-e-vasco-da-gama-ficam-no-0-a-0-pelo-brasileirao-serie-a-d1172b",
+    "sportId": "futebol",
+    "title": "Chapecoense e Vasco da Gama ficam no 0 a 0 pelo Brasileirão Série A",
+    "summary": "Chapecoense e Vasco da Gama encerraram o confronto pelo Brasileirão Série A sem vencedor. O empate por 0 a 0 deixou as duas equipes sem conseguir abrir vantagem no placar.",
+    "content": "Chapecoense e Vasco da Gama ficaram no 0 a 0 pelo Brasileirão Série A, disputado em 29 de julho de 2026 no Arena Condá. O duelo terminou sem gols e sem vencedor, em um resultado que mantém o equilíbrio do confronto também no placar final.\n\nO 0 a 0 resume uma partida em que nenhuma das equipes conseguiu transformar o jogo em vantagem no marcador. Sem gols, cada tentativa de mudar o rumo do confronto ganhou ainda mais peso, mas o resultado permaneceu inalterado até o encerramento.\n\nPara Chapecoense e Vasco da Gama, o empate passa a fazer parte da caminhada no Brasileirão Série A. Em uma competição de sequência longa, resultados assim ganham significado quando colocados ao lado do desempenho das rodadas anteriores e dos compromissos que vêm pela frente.\n\nMais do que olhar apenas para o placar, o próximo passo é entender como cada equipe reage depois de um jogo sem vencedor. A capacidade de transformar equilíbrio em vitória nos próximos compromissos pode fazer diferença na construção da campanha.\n\nA LAP acompanha a sequência de Chapecoense e Vasco da Gama e atualiza a cobertura da modalidade conforme novos resultados e informações confirmadas ficam disponíveis.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "brasileirao-serie-a"
+    ],
+    "seoTitle": "Chapecoense e Vasco da Gama ficam no 0 a 0 pelo Brasileirão Série A",
+    "seoDescription": "Chapecoense e Vasco da Gama encerraram o confronto pelo Brasileirão Série A sem vencedor. O empate por 0 a 0 deixou as duas equipes sem conseguir abrir vantagem no placar",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-20T21:47:12.710Z",
+    "createdAt": "2026-07-20T21:47:12.710Z",
+    "updatedAt": "2026-07-20T21:47:12.710Z",
+    "homepagePriority": 62,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true
+  },
+  {
+    "id": "newsroom-data-911015382c43",
+    "slug": "new-york-yankees-vence-los-angeles-dodgers-por-2-a-1-na-temporada-regular-911015",
+    "sportId": "beisebol",
+    "title": "New York Yankees vence Los Angeles Dodgers por 2 a 1 na temporada regular",
+    "summary": "New York Yankees derrotou Los Angeles Dodgers por 2 a 1 na temporada regular. A partida terminou com diferença de 1 corrida entre as equipes.",
+    "content": "New York Yankees venceu Los Angeles Dodgers por 2 a 1 na temporada regular, disputado em 19 de julho de 2026 no Yankee Stadium. O placar final mostrou uma diferença de 1 corrida, margem que decidiu o confronto entre as equipes.\n\nNo beisebol, partidas com vantagem curta mantêm o resultado em aberto por boa parte do caminho. Quando a diferença é pequena, cada corrida adicionada ao placar pode mudar completamente a pressão sobre ataque e defesa — e foi essa margem que separou vencedor e derrotado no resultado final.\n\nPara New York Yankees, a vitória entra na conta de uma temporada construída jogo a jogo. Los Angeles Dodgers, por outro lado, deixa o confronto com uma derrota que também passa a integrar a longa sequência da temporada regular, na qual consistência ao longo do calendário é fundamental.\n\nO resultado isolado conta uma parte da história; a sequência dos próximos jogos dirá quanto esta vitória pode representar para New York Yankees e como Los Angeles Dodgers responderá depois do revés. Em um calendário extenso, a capacidade de acumular bons resultados e reagir rapidamente às derrotas costuma separar campanhas regulares de campanhas mais competitivas.\n\nA LAP segue acompanhando a temporada e atualiza a cobertura de MLB com novos resultados, classificação e informações confirmadas ao longo do calendário.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "temporada-regular"
+    ],
+    "seoTitle": "New York Yankees vence Los Angeles Dodgers por 2 a 1 na temporada regu",
+    "seoDescription": "New York Yankees derrotou Los Angeles Dodgers por 2 a 1 na temporada regular. A partida terminou com diferença de 1 corrida entre as equipes.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-20T21:47:12.710Z",
+    "createdAt": "2026-07-20T21:47:12.710Z",
+    "updatedAt": "2026-07-20T21:47:12.710Z",
+    "homepagePriority": 62,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true
+  },
+  {
     "id": "newsroom-data-35c5b992c5f5",
     "slug": "botafogo-e-gremio-empatam-por-0-a-0-em-brasileirao-serie-a-35c5b9",
     "sportId": "futebol",
@@ -11,7 +77,11 @@
     "coverImageUrl": null,
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
-    "tags": ["futebol", "resultado", "brasileirao-serie-a"],
+    "tags": [
+      "futebol",
+      "resultado",
+      "brasileirao-serie-a"
+    ],
     "seoTitle": "Botafogo e Grêmio ficam no 0 a 0 pelo Brasileirão Série A",
     "seoDescription": "Botafogo e Grêmio encerraram o confronto pelo Brasileirão Série A sem vencedor. O empate por 0 a 0 manteve o placar equilibrado até o fim.",
     "status": "published",
@@ -22,7 +92,9 @@
     "homepagePriority": 62,
     "breaking": false,
     "agentId": "futebol",
-    "sourceUrls": ["https://lap-live-sports.vercel.app/modalidades/futebol"],
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
     "verifiedFacts": 2,
     "dataDriven": true
   },
@@ -38,7 +110,11 @@
     "coverImageUrl": null,
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
-    "tags": ["mlb", "resultado", "temporada-regular"],
+    "tags": [
+      "mlb",
+      "resultado",
+      "temporada-regular"
+    ],
     "seoTitle": "Mariners vencem Giants por 6 a 3 na temporada regular da MLB",
     "seoDescription": "Seattle Mariners derrotaram San Francisco Giants por 6 a 3 na temporada regular da MLB, com três corridas de diferença no placar final.",
     "status": "published",
@@ -49,7 +125,9 @@
     "homepagePriority": 62,
     "breaking": false,
     "agentId": "beisebol",
-    "sourceUrls": ["https://lap-live-sports.vercel.app/modalidades/beisebol"],
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
     "verifiedFacts": 2,
     "dataDriven": true
   },
@@ -65,7 +143,11 @@
     "coverImageUrl": null,
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
-    "tags": ["futebol", "resultado", "brasileirao-serie-a"],
+    "tags": [
+      "futebol",
+      "resultado",
+      "brasileirao-serie-a"
+    ],
     "seoTitle": "Atlético-MG e Bragantino ficam no 0 a 0 pelo Brasileirão",
     "seoDescription": "Atlético-MG e Red Bull Bragantino terminaram o confronto pelo Brasileirão sem gols. O empate por 0 a 0 encerrou a partida sem vencedor.",
     "status": "published",
@@ -76,7 +158,9 @@
     "homepagePriority": 62,
     "breaking": false,
     "agentId": "futebol",
-    "sourceUrls": ["https://lap-live-sports.vercel.app/modalidades/futebol"],
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
     "verifiedFacts": 2,
     "dataDriven": true
   },
@@ -92,7 +176,11 @@
     "coverImageUrl": null,
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
-    "tags": ["mlb", "resultado", "temporada-regular"],
+    "tags": [
+      "mlb",
+      "resultado",
+      "temporada-regular"
+    ],
     "seoTitle": "Yankees superam Dodgers por 2 a 1 na temporada regular da MLB",
     "seoDescription": "New York Yankees venceram Los Angeles Dodgers por 2 a 1 na temporada regular da MLB. Uma corrida separou as equipes no placar final.",
     "status": "published",
@@ -103,7 +191,9 @@
     "homepagePriority": 62,
     "breaking": false,
     "agentId": "beisebol",
-    "sourceUrls": ["https://lap-live-sports.vercel.app/modalidades/beisebol"],
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
     "verifiedFacts": 2,
     "dataDriven": true
   }
