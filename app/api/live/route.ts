@@ -17,7 +17,7 @@ export async function GET(request: Request) {
   try {
     const payload = manualRefresh
       ? await refreshCachedLivePayload()
-      : await getCachedLivePayload({ preferCached: true });
+      : await getCachedLivePayload();
 
     return Response.json(payload, { headers: responseHeaders(manualRefresh) });
   } catch {
