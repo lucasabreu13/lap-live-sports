@@ -2,7 +2,7 @@ import { getCachedLivePayload, refreshCachedLivePayload } from "@/lib/free-live-
 
 export const dynamic = "force-dynamic";
 
-function responseHeaders(manualRefresh: boolean) {
+function responseHeaders(manualRefresh: boolean): Record<string, string> {
   if (manualRefresh) {
     return { "Cache-Control": "no-store, max-age=0" };
   }
