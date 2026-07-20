@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { LapHeader } from "@/components/lap-header";
 import { decodeArticleTransport, findArticleBySlug, findSportById, type SportId } from "@/lib/live-data";
 import { findEditorialArticleBySlug, type EditorialArticle } from "@/lib/editorial-store";
+import { getNewsroomArticleBySlug } from "@/lib/newsroom-content";
 import { sportCoverImage } from "@/lib/sport-visuals";
 
 type PageProps = { params: Promise<{ slug: string }>; searchParams: Promise<{ d?: string }> };
@@ -25,8 +26,12 @@ function asBriefArticle(value: ReturnType<typeof decodeArticleTransport> | Await
 
 async function resolveArticle({ params, searchParams }: PageProps): Promise<ResolvedArticle | null> {
   const { slug } = await params;
-  const editorial = await findEditorialArticleBySlug(slug).catch(() => null);
+  const [editorial, newsroom] = await Promise.all([
+    findEditorialArticleBySlug(slug).catch(() => null),
+    getNewsroomArticleBySlug(slug).catch(() => null),
+  ]);
   if (editorial) return { kind: "editorial", article: editorial };
+  if (newsroom) return { kind: "editorial", article: newsroom };
   const { d } = await searchParams;
   const transported = asBriefArticle(decodeArticleTransport(d));
   if (transported?.slug === slug) return { kind: "brief", article: transported };
@@ -51,7 +56,8 @@ function EditorialBody({ content }: { content: string }) {
 }
 
 function EditorialSourceCard({ article }: { article: EditorialArticle }) {
-  return <aside className="article-source-card article-source-card--editorial"><p>Publicação</p><strong>{article.sourceName || "LAP"}</strong><span>Conteúdo publicado pelo núcleo editorial da LAP.</span>{article.sourceUrl && <a href={article.sourceUrl} target="_blank" rel="noreferrer">Ver referência <span aria-hidden>↗</span></a>}</aside>;
+  const automated = article.authorRole?.includes("Newsroom AI");
+  return <aside className="article-source-card article-source-card--editorial"><p>{automated ? "Apuração" : "Publicação"}</p><strong>{article.sourceName || "LAP"}</strong><span>{automated ? "Texto original da LAP produzido a partir de fatos confirmados em fontes independentes, sem reprodução do conteúdo original." : "Conteúdo publicado pelo núcleo editorial da LAP."}</span>{article.sourceUrl && <a href={article.sourceUrl} target="_blank" rel="noreferrer">Ver uma das referências <span aria-hidden>↗</span></a>}</aside>;
 }
 
 function BriefSourceCard({ article }: { article: BriefArticle }) {
@@ -72,7 +78,7 @@ export default async function ArticlePage(props: PageProps) {
     const article = resolved.article;
     const visual = sportCoverImage(sport.id);
     const coverImage = article.coverImageUrl || visual.image;
-    const jsonLd = { "@context": "https://schema.org", "@type": "NewsArticle", headline: article.seoTitle || article.title, description: article.seoDescription || article.summary, datePublished: article.publishedAt || article.createdAt, dateModified: article.updatedAt, author: { "@type": "Person", name: article.authorName || "LAP" }, publisher: { "@type": "Organization", name: "LAP" }, image: coverImage };
+    const jsonLd = { "@context": "https://schema.org", "@type": "NewsArticle", headline: article.seoTitle || article.title, description: article.seoDescription || article.summary, datePublished: article.publishedAt || article.createdAt, dateModified: article.updatedAt, author: { "@type": "Organization", name: article.authorName || "Redação LAP" }, publisher: { "@type": "Organization", name: "LAP" }, image: coverImage };
     return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><ArticleFrame sportId={sport.id}><header className="article-hero"><p>{sport.icon} {sport.name} • LAP</p><h1>{article.title}</h1><p className="article-dek">{article.summary}</p><div className="article-meta"><span>{article.authorName || "Redação LAP"}</span><span>•</span><time dateTime={article.publishedAt || article.createdAt}>{formatDate(article.publishedAt || article.createdAt)}</time>{article.updatedAt !== article.createdAt && <><span>•</span><span>atualizado</span></>}</div>{article.tags.length > 0 && <div className="article-tags">{article.tags.map((tag: string) => <Link href={`/modalidades/${sport.id}`} key={tag}>#{tag}</Link>)}</div>}</header><img className="article-cover" src={coverImage} alt={article.title || visual.alt} /><div className="article-content"><EditorialBody content={article.content} /><EditorialSourceCard article={article} /></div></ArticleFrame></>;
   }
 
