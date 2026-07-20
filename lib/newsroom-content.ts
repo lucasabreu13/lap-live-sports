@@ -75,10 +75,12 @@ function normalizeArticle(value: unknown): NewsroomEditorialArticle | null {
 
 function editorialScore(article: NewsroomEditorialArticle) {
   const timestamp = new Date(article.publishedAt || article.createdAt).getTime();
-  const base = Number.isFinite(timestamp) ? timestamp : 0;
+  const ageHours = Number.isFinite(timestamp) ? Math.max(0, (Date.now() - timestamp) / 3_600_000) : 999;
   const priority = article.homepagePriority ?? 50;
-  const breakingBoost = article.breaking ? 6 * 60 * 60_000 : 0;
-  return base + priority * 15 * 60_000 + breakingBoost;
+  const breakingBoost = article.breaking && ageHours <= 12 ? 35 : article.breaking && ageHours <= 24 ? 15 : 0;
+  const freshnessBoost = Math.max(0, 24 - ageHours) * 1.5;
+  const agePenalty = Math.max(0, ageHours - 24) * 0.35;
+  return priority + breakingBoost + freshnessBoost - agePenalty;
 }
 
 export async function getNewsroomArticles(limit = 48): Promise<NewsroomEditorialArticle[]> {
@@ -86,7 +88,7 @@ export async function getNewsroomArticles(limit = 48): Promise<NewsroomEditorial
   try {
     const response = await fetch(url, {
       next: { revalidate: 120 },
-      headers: { "user-agent": "LAP Live Sports Newsroom Reader/1.0" },
+      headers: { "user-agent": "LAP Live Sports Newsroom Reader/1.1" },
     });
     if (!response.ok) return [];
     const payload = await response.json() as unknown;
@@ -94,7 +96,11 @@ export async function getNewsroomArticles(limit = 48): Promise<NewsroomEditorial
     return payload
       .map(normalizeArticle)
       .filter((article): article is NewsroomEditorialArticle => article !== null)
-      .sort((a, b) => editorialScore(b) - editorialScore(a))
+      .sort((a, b) => {
+        const scoreDiff = editorialScore(b) - editorialScore(a);
+        if (Math.abs(scoreDiff) > 0.001) return scoreDiff;
+        return new Date(b.publishedAt || b.createdAt).getTime() - new Date(a.publishedAt || a.createdAt).getTime();
+      })
       .slice(0, Math.max(1, Math.min(limit, 250)));
   } catch {
     return [];
