@@ -18,6 +18,7 @@ type LapDashboardProps = { initialSport?: SportId | "todos" };
 type LiveTab = "live" | "next" | "finished";
 
 const ONBOARDING_KEY = "lap:onboarding:v1";
+const CLIENT_SNAPSHOT_KEY = "lap:live-snapshot:v1";
 
 function relativeTime(dateValue: string | null) {
   if (!dateValue) return "Agora";
@@ -51,10 +52,9 @@ function localTime(dateValue: string | null) {
 }
 
 function updatedAgo(dateValue: string | null | undefined, now: number) {
-  if (now <= 0) return "Atualização pendente";
-  if (!dateValue) return "Atualização pendente";
+  if (now <= 0 || !dateValue) return "Última atualização disponível";
   const date = new Date(dateValue);
-  if (Number.isNaN(date.getTime())) return "Atualização pendente";
+  if (Number.isNaN(date.getTime())) return "Última atualização disponível";
   const diffSeconds = Math.max(0, Math.floor((now - date.getTime()) / 1000));
   if (diffSeconds < 60) return `Atualizado há ${diffSeconds} segundo${diffSeconds === 1 ? "" : "s"}`;
   const minutes = Math.floor(diffSeconds / 60);
@@ -124,7 +124,7 @@ function SportFocus({ sport, feed }: { sport: { id: SportId; name: string; icon:
       : highlight.state === "post"
         ? highlight.status || "Encerrado"
         : dateAndTime(highlight.startTime)
-    : "Agenda em atualizacao";
+    : "Agenda em atualização";
 
   return (
     <section className="sport-focus" aria-label={`Resumo de ${sport.name}`}>
@@ -133,18 +133,19 @@ function SportFocus({ sport, feed }: { sport: { id: SportId; name: string; icon:
         <div>
           <p>Central da modalidade</p>
           <h2>{sport.name}</h2>
-          <small>{sport.description || "Noticias, jogos e resultados em uma cobertura dedicada."}</small>
+          <small>{sport.description || "Notícias, jogos e resultados em uma cobertura dedicada."}</small>
         </div>
       </div>
 
       <div className="sport-focus__facts">
         <article><p>Ao vivo</p><strong>{ordered.live.length}</strong><span>{ordered.live.length === 1 ? "evento agora" : "eventos agora"}</span></article>
-        <article><p>Proximo</p><strong>{ordered.upcoming.length}</strong><span>{detail}</span></article>
+        <article><p>Próximo</p><strong>{ordered.upcoming.length}</strong><span>{detail}</span></article>
         <Link href="/agenda" className="sport-focus__agenda">Ver agenda {"\u2192"}</Link>
       </div>
     </section>
   );
 }
+
 function scoreTime(score: ScoreItem) { return score.startTime ? new Date(score.startTime).getTime() : 0; }
 function orderEvents(events: ScoreItem[]) {
   const unique = Array.from(new Map(events.map((event) => [`${event.sportId}-${event.id}-${event.isWorldCup ? "cup" : "main"}`, event])).values());
@@ -168,8 +169,8 @@ function FeaturedGameCard({ score }: { score: ScoreItem | null }) {
     return (
       <article className="live-feature live-feature--empty">
         <p>Jogo em destaque</p>
-        <h3>Aguardando o próximo evento relevante</h3>
-        <span>A LAP mantém notícias e agenda no ar enquanto novos jogos são publicados.</span>
+        <h3>Nenhum evento em destaque agora</h3>
+        <span>A agenda e as notícias continuam disponíveis enquanto novos jogos são publicados.</span>
         <Link href="/agenda" className="live-feature__button">Abrir agenda</Link>
       </article>
     );
@@ -233,7 +234,7 @@ function LiveOperationsCenter({ payload, events, status, now }: { payload: LiveP
         <Link href="/agenda" className="live-center__agenda-link">Ver agenda completa {"\u2192"}</Link>
       </header>
 
-      {sourceIssue && <p className="live-center__warning">Alguns placares podem demorar um pouco mais. A LAP mantém a atualização mais recente enquanto tenta novamente.</p>}
+      {sourceIssue && <p className="live-center__warning">Alguns dados podem estar um pouco atrasados. A LAP mantém a última atualização disponível e tenta novamente automaticamente.</p>}
 
       <div className="live-center__layout">
         <FeaturedGameCard score={featured} />
@@ -243,7 +244,7 @@ function LiveOperationsCenter({ payload, events, status, now }: { payload: LiveP
             <button type="button" role="tab" aria-selected={tab === "next"} className={tab === "next" ? "active" : ""} onClick={() => setTab("next")}>Próximos <span>{ordered.upcoming.length}</span></button>
             <button type="button" role="tab" aria-selected={tab === "finished"} className={tab === "finished" ? "active" : ""} onClick={() => setTab("finished")}>Resultados <span>{ordered.finished.length}</span></button>
           </div>
-          {tab === "live" && !ordered.live.length && fallback.length > 0 && <p className="live-center__notice">Nenhum jogo ao vivo agora. Mostrando os próximos eventos relevantes para manter a home ativa.</p>}
+          {tab === "live" && !ordered.live.length && fallback.length > 0 && <p className="live-center__notice">Nenhum jogo ao vivo agora. Veja abaixo os próximos eventos relevantes.</p>}
           {groups.length ? (
             <div className="live-groups" aria-label={`${tabLabel} por campeonato`}>
               {groups.map((group) => (
@@ -253,7 +254,7 @@ function LiveOperationsCenter({ payload, events, status, now }: { payload: LiveP
                 </article>
               ))}
             </div>
-          ) : <div className="empty-card">A central está pronta, mas ainda não recebeu eventos neste recorte. As notícias e favoritos continuam disponíveis.</div>}
+          ) : <div className="empty-card">Nenhum evento disponível neste recorte agora. Notícias, favoritos e agenda continuam acessíveis.</div>}
         </div>
       </div>
     </section>
@@ -267,8 +268,8 @@ function WorldCupSpotlight({ scores }: { scores: ScoreItem[] }) {
     <section className="world-cup world-cup--spotlight" aria-labelledby="copa-title">
       <div className="world-cup__topbar"><div><p>Especial LAP</p><h2 id="copa-title">Copa do Mundo 2026</h2></div><Link className="world-cup__open" href="/copa-2026">Abrir central completa →</Link></div>
       <div className="world-cup__intro">
-        <div><span className="cup-kicker">Partidas, chaveamento e Seleção Brasileira</span><h3>A Copa em um único lugar, jogo a jogo.</h3><p>Acompanhe os confrontos ao vivo, todos os resultados e a agenda da fase decisiva.</p></div>
-        <div className="cup-next-match">{featured ? <><span>{featured.state === "in" ? "Em jogo" : featured.state === "post" ? "Último resultado" : "Próximo destaque"}</span><strong>{featured.home.name} <em>×</em> {featured.away.name}</strong><small>{featured.state === "post" ? featured.status : dateAndTime(featured.startTime)}</small></> : <><span>Agenda da Copa</span><strong>Jogos confirmados aparecerão aqui</strong><small>Central preparada para acompanhar o torneio.</small></>}</div>
+        <div><span className="cup-kicker">Partidas, chaveamento e Seleção Brasileira</span><h3>A Copa em um único lugar, jogo a jogo.</h3><p>Acompanhe os confrontos, todos os resultados e o histórico da competição.</p></div>
+        <div className="cup-next-match">{featured ? <><span>{featured.state === "in" ? "Em jogo" : featured.state === "post" ? "Último resultado" : "Próximo destaque"}</span><strong>{featured.home.name} <em>×</em> {featured.away.name}</strong><small>{featured.state === "post" ? featured.status : dateAndTime(featured.startTime)}</small></> : <><span>Central da Copa</span><strong>Resultados e histórico em um só lugar</strong><small>Abra a central completa para acompanhar o torneio.</small></>}</div>
       </div>
       <div className="world-cup__mini-grid">{ordered.live.slice(0, 1).map((score) => <EventCard key={score.id} score={score} cup />)}{ordered.upcoming.slice(0, 2).map((score) => <EventCard key={score.id} score={score} cup />)}{!ordered.live.length && !ordered.upcoming.length && ordered.finished.slice(0, 3).map((score) => <EventCard key={score.id} score={score} cup />)}</div>
     </section>
@@ -281,7 +282,7 @@ function SchedulePreview({ scores }: { scores: ScoreItem[] }) {
   return (
     <section className="full-schedule" id="agenda" aria-labelledby="agenda-title">
       <div className="full-schedule__heading"><div><p>Agenda LAP</p><h2 id="agenda-title">Partidas e resultados</h2></div><Link href="/agenda" className="section-link">Ver agenda completa</Link></div>
-      {preview.length ? <div className="full-schedule__grid">{preview.map((score) => <EventCard key={`${score.sportId}-${score.id}`} score={score} showSport />)}</div> : <div className="empty-card">A agenda será preenchida com os próximos eventos confirmados.</div>}
+      {preview.length ? <div className="full-schedule__grid">{preview.map((score) => <EventCard key={`${score.sportId}-${score.id}`} score={score} showSport />)}</div> : <div className="empty-card">Nenhum evento confirmado para exibir neste recorte.</div>}
     </section>
   );
 }
@@ -364,6 +365,23 @@ function applyScorePatch(payload: LivePayload, patch: { eventId: string; sportId
   return { ...payload, generatedAt: patch.occurredAt || new Date().toISOString(), feeds: payload.feeds.map((feed) => ({ ...feed, scores: feed.scores.map(patchItem) })), worldCup: { ...payload.worldCup, events: payload.worldCup.events.map(patchItem) } };
 }
 
+function readClientSnapshot() {
+  if (typeof window === "undefined") return null;
+  try {
+    return JSON.parse(window.localStorage.getItem(CLIENT_SNAPSHOT_KEY) || "null") as LivePayload | null;
+  } catch {
+    return null;
+  }
+}
+
+function writeClientSnapshot(payload: LivePayload) {
+  try {
+    window.localStorage.setItem(CLIENT_SNAPSHOT_KEY, JSON.stringify(payload));
+  } catch {
+    // O cache local é opcional.
+  }
+}
+
 export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
   const [data, setData] = useState<LivePayload | null>(null);
   const [status, setStatus] = useState<FeedState>("loading");
@@ -377,9 +395,11 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
     refreshInFlight.current = true;
     if (manual) setIsRefreshing(true);
     try {
-      const response = await fetch(`/api/live?ts=${Date.now()}`, { cache: "no-store" });
+      const response = await fetch(manual ? "/api/live?refresh=1" : "/api/live", manual ? { cache: "no-store" } : undefined);
       if (!response.ok) throw new Error("Falha ao atualizar");
-      setData(await response.json() as LivePayload);
+      const payload = await response.json() as LivePayload;
+      setData(payload);
+      writeClientSnapshot(payload);
       setStatus("ready");
     } catch {
       setStatus((current) => current === "loading" ? "error" : current);
@@ -390,8 +410,13 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
   }, []);
 
   useEffect(() => {
+    const cached = readClientSnapshot();
+    if (cached) {
+      setData(cached);
+      setStatus("ready");
+    }
     void refresh(false);
-    return subscribeToLiveRefresh(() => refresh(false), { intervalMs: 12_000 });
+    return subscribeToLiveRefresh(() => refresh(false), { intervalMs: 30_000 });
   }, [refresh]);
 
   useEffect(() => {
@@ -410,13 +435,23 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
     if (!("EventSource" in window)) return;
     const source = new EventSource("/api/live/stream");
     source.addEventListener("snapshot", (event) => {
-      try { setData(JSON.parse((event as MessageEvent<string>).data) as LivePayload); setStatus("ready"); } catch { /* Mantém último estado válido. */ }
+      try {
+        const payload = JSON.parse((event as MessageEvent<string>).data) as LivePayload;
+        setData(payload);
+        writeClientSnapshot(payload);
+        setStatus("ready");
+      } catch { /* A próxima atualização reconcilia os dados. */ }
     });
     source.addEventListener("score", (event) => {
       try {
         const patch = JSON.parse((event as MessageEvent<string>).data) as Parameters<typeof applyScorePatch>[1];
-        setData((current) => current ? applyScorePatch(current, patch) : current);
-      } catch { /* Próxima atualização de segurança reconcilia os dados. */ }
+        setData((current) => {
+          if (!current) return current;
+          const next = applyScorePatch(current, patch);
+          writeClientSnapshot(next);
+          return next;
+        });
+      } catch { /* A próxima atualização reconcilia os dados. */ }
     });
     return () => source.close();
   }, []);
@@ -449,7 +484,8 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
   const homeFeeds = useMemo(
     () => visibleFeeds.slice(0, initialSport === "todos" ? 4 : 1),
     [visibleFeeds, initialSport],
-  );  const hasLiveData = data !== null;
+  );
+  const hasLiveData = data !== null;
 
   return (
     <main id="main-content" tabIndex={-1}>
@@ -458,26 +494,26 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
         {initialSport === "todos" && <HomeExplore payload={data} mode="lead" />}
         {initialSport !== "todos" && <section className="hero-grid" aria-label="Visão geral de atualizações esportivas">
           <div className="hero-copy"><div className="eyebrow"><span className="pulse-dot" aria-hidden /> COBERTURA CONTÍNUA</div><h1>{selectedSport ? `${selectedSport.name} ao vivo, no ritmo do agora.` : "O mundo do esporte, no ritmo do agora."}</h1><p>{selectedSport ? `Notícias, partidas, favoritos e resultados de ${selectedSport.name.toLowerCase()} em uma central própria da LAP.` : "Futebol mundial, Brasileirão, NFL, Fórmula 1, resultados, matérias e alertas no mesmo painel."}</p><div className="hero-copy__meta" aria-live="polite">
-  <span>{hasLiveData ? `${data?.football.competitions.length} ligas mapeadas` : "Conectando ao radar"}</span>
-  <span className="hero-copy__separator" aria-hidden="true" />
-  <span>{hasLiveData ? `${data?.worldCup.events.length} jogos da Copa` : "Agenda e not\u00edcias em tempo real"}</span>
-  <span className="hero-copy__separator" aria-hidden="true" />
-  <span>{hasLiveData ? `Atualizado em ${updatedTime(data?.generatedAt)}` : "Dados sendo atualizados"}</span>
-</div></div>
-          <div className="hero-featured">{featuredNews ? <NewsCard item={featuredNews} large /> : <div className="skeleton-card">Carregando a principal história da LAP…</div>}</div>
+            <span>{hasLiveData ? `${data?.football.competitions.length} ligas mapeadas` : "Cobertura esportiva completa"}</span>
+            <span className="hero-copy__separator" aria-hidden="true" />
+            <span>{hasLiveData ? `${data?.worldCup.events.length} jogos da Copa` : "Agenda e notícias em um só lugar"}</span>
+            <span className="hero-copy__separator" aria-hidden="true" />
+            <span>{hasLiveData ? `Atualizado em ${updatedTime(data?.generatedAt)}` : "Atualização automática"}</span>
+          </div></div>
+          <div className="hero-featured">{featuredNews ? <NewsCard item={featuredNews} large /> : <div className="skeleton-card">Os destaques mais recentes aparecerão aqui.</div>}</div>
           <aside className="live-radar" aria-label="Radar ao vivo">
-  <div className="live-radar__heading">
-    <div><p>Radar</p><h2>Ao vivo</h2></div>
-    <span>{hasLiveData ? liveScores.length : "—"}</span>
-  </div>
-  <div className="live-radar__list">
-    {!hasLiveData
-      ? <div className="empty-card">Conectando aos jogos ao vivo...</div>
-      : liveScores.length
-        ? liveScores.slice(0, 3).map((score) => <EventCard key={`${score.sportId}-${score.id}`} score={score} compact />)
-        : <div className="empty-card">Nenhuma partida em andamento agora.</div>}
-  </div>
-</aside>
+            <div className="live-radar__heading">
+              <div><p>Radar</p><h2>Ao vivo</h2></div>
+              <span>{hasLiveData ? liveScores.length : "—"}</span>
+            </div>
+            <div className="live-radar__list">
+              {!hasLiveData
+                ? <div className="empty-card">Preparando os jogos disponíveis...</div>
+                : liveScores.length
+                  ? liveScores.slice(0, 3).map((score) => <EventCard key={`${score.sportId}-${score.id}`} score={score} compact />)
+                  : <div className="empty-card">Nenhuma partida em andamento agora.</div>}
+            </div>
+          </aside>
         </section>}
 
         {selectedSport && <SportFocus sport={selectedSport} feed={activeFeed} />}
@@ -485,25 +521,25 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
         <FavoritesOnboarding payload={data} />
         {(!selectedSport || selectedSport.id === "futebol") && <WorldCupSpotlight scores={data?.worldCup.events ?? []} />}
         <section className="dashboard-stats" aria-label="Resumo da LAP">
-  <div>
-    <strong>{hasLiveData ? data?.feeds.length : "—"}</strong>
-    <span>{hasLiveData ? "modalidades acompanhadas" : "dados ao vivo"}</span>
-  </div>
-  <div>
-    <strong>{hasLiveData ? data?.football.competitions.length : "—"}</strong>
-    <span>{hasLiveData ? "ligas mapeadas" : "carregando cobertura"}</span>
-  </div>
-  <div>
-    <strong>{hasLiveData ? allScores.length : "—"}</strong>
-    <span>{hasLiveData ? "eventos no radar" : "agenda sendo atualizada"}</span>
-  </div>
-  <div>
-    <strong>{hasLiveData ? `${data?.refreshSeconds ?? 30}s` : "—"}</strong>
-    <span>{"atualiza\u00e7\u00e3o de seguran\u00e7a"}</span>
-  </div>
-</section>
-        {status === "loading" && <section className="loading-state" aria-live="polite">Carregando o radar esportivo da LAP…</section>}
-        {status === "error" && <section className="error-state" aria-live="assertive">A LAP ainda não conseguiu atualizar. Tente novamente em alguns instantes.</section>}
+          <div>
+            <strong>{hasLiveData ? data?.feeds.length : "—"}</strong>
+            <span>{hasLiveData ? "modalidades acompanhadas" : "modalidades"}</span>
+          </div>
+          <div>
+            <strong>{hasLiveData ? data?.football.competitions.length : "—"}</strong>
+            <span>{hasLiveData ? "ligas mapeadas" : "ligas e competições"}</span>
+          </div>
+          <div>
+            <strong>{hasLiveData ? allScores.length : "—"}</strong>
+            <span>{hasLiveData ? "eventos no radar" : "agenda esportiva"}</span>
+          </div>
+          <div>
+            <strong>{hasLiveData ? `${data?.refreshSeconds ?? 30}s` : "—"}</strong>
+            <span>atualização automática</span>
+          </div>
+        </section>
+        {status === "loading" && <section className="loading-state" aria-live="polite">Preparando a cobertura esportiva da LAP…</section>}
+        {status === "error" && <section className="error-state" aria-live="assertive">Não foi possível carregar uma atualização agora. A LAP tentará novamente automaticamente.</section>}
         <SchedulePreview scores={[...allScores, ...(data?.worldCup.events ?? [])]} />
         {initialSport === "todos" ? (
           <HomeExplore payload={data} mode="more" />
@@ -515,7 +551,7 @@ export function LapDashboard({ initialSport = "todos" }: LapDashboardProps) {
                 <h2>{selectedSport?.name ?? "Todos os esportes"}</h2>
               </div>
               <p className="feed-toolbar__note">
-                Abra qualquer modalidade para ver not{"\u00ed"}cias, jogos e favoritos em uma p{"\u00e1"}gina dedicada.
+                Abra qualquer modalidade para ver notícias, jogos e favoritos em uma página dedicada.
               </p>
             </section>
             <div className="sports-feed">
