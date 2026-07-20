@@ -16,7 +16,7 @@ export default function AdminPage() {
             <span className="brand__mark">LAP</span>
             <span className="brand__tag">núcleo editorial</span>
           </Link>
-          <div style={{ display: "flex", gap: "14px" }}><Link href="/admin/monitoramento" className="section-link">Monitoramento</Link><Link href="/" className="article-back">← Voltar para a LAP</Link></div>
+          <div style={{ display: "flex", gap: "14px" }}><Link href="/admin/newsroom" className="section-link">Newsroom AI</Link><Link href="/admin/monitoramento" className="section-link">Monitoramento</Link><Link href="/" className="article-back">← Voltar para a LAP</Link></div>
         </div>
       </header>
       <div className="shell admin-layout">
