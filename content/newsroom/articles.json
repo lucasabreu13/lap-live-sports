@@ -1,5 +1,38 @@
 [
   {
+    "id": "newsroom-data-58401e647083",
+    "slug": "los-angeles-angels-vence-detroit-tigers-por-3-a-2-na-temporada-regular-58401e",
+    "sportId": "beisebol",
+    "title": "Los Angeles Angels vence Detroit Tigers por 3 a 2 na temporada regular",
+    "summary": "Los Angeles Angels derrotou Detroit Tigers por 3 a 2 na temporada regular. A partida terminou com diferença de 1 corrida entre as equipes.",
+    "content": "Los Angeles Angels venceu Detroit Tigers por 3 a 2 na temporada regular, disputado em 19 de julho de 2026 no Angel Stadium. O placar final mostrou uma diferença de 1 corrida, margem que decidiu o confronto entre as equipes.\n\nNo beisebol, partidas com vantagem curta mantêm o resultado em aberto por boa parte do caminho. Quando a diferença é pequena, cada corrida adicionada ao placar pode mudar completamente a pressão sobre ataque e defesa — e foi essa margem que separou vencedor e derrotado no resultado final.\n\nPara Los Angeles Angels, a vitória entra na conta de uma temporada construída jogo a jogo. Detroit Tigers, por outro lado, deixa o confronto com uma derrota que também passa a integrar a longa sequência da temporada regular, na qual consistência ao longo do calendário é fundamental.\n\nO resultado isolado conta uma parte da história; a sequência dos próximos jogos dirá quanto esta vitória pode representar para Los Angeles Angels e como Detroit Tigers responderá depois do revés. Em um calendário extenso, a capacidade de acumular bons resultados e reagir rapidamente às derrotas costuma separar campanhas regulares de campanhas mais competitivas.\n\nA LAP segue acompanhando a temporada e atualiza a cobertura de MLB com novos resultados, classificação e informações confirmadas ao longo do calendário.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "temporada-regular"
+    ],
+    "seoTitle": "Los Angeles Angels vence Detroit Tigers por 3 a 2 na temporada regular",
+    "seoDescription": "Los Angeles Angels derrotou Detroit Tigers por 3 a 2 na temporada regular. A partida terminou com diferença de 1 corrida entre as equipes.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-20T22:36:13.056Z",
+    "createdAt": "2026-07-20T22:36:13.056Z",
+    "updatedAt": "2026-07-20T22:36:13.056Z",
+    "homepagePriority": 62,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true
+  },
+  {
     "id": "newsroom-data-7cde6d95a3a6",
     "slug": "arizona-diamondbacks-vence-st-louis-cardinals-por-8-a-7-na-temporada-regular-7cde6d",
     "sportId": "beisebol",
