@@ -1,0 +1,48 @@
+name: LAP Newsroom AI
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  models: read
+
+concurrency:
+  group: lap-newsroom-ai
+  cancel-in-progress: false
+
+jobs:
+  newsroom:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run specialist agents and editor-in-chief
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NEWSROOM_MODEL: openai/gpt-4o
+          LAP_SITE_URL: https://lap-live-sports.vercel.app
+        run: node scripts/newsroom-agents.mjs
+
+      - name: Publish newsroom content to repository
+        run: |
+          if git diff --quiet -- content/newsroom/articles.json; then
+            echo "No newsroom changes to publish."
+            exit 0
+          fi
+          git config user.name "lap-newsroom[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/newsroom/articles.json
+          git commit -m "chore(newsroom): publish verified sports stories"
+          git push
