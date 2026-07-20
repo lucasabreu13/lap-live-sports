@@ -3,6 +3,7 @@ import { MobileBottomNav } from "@/components/mobile-bottom-nav";
 import "./globals.css";
 import "./lap-ux-polish.css";
 import "./lap-header-polish.css";
+import "./lap-brand.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://lap-live-sports.vercel.app";
 
@@ -13,9 +14,25 @@ export const metadata: Metadata = {
   applicationName: "LAP Live Sports",
   manifest: "/manifest.webmanifest",
   alternates: { types: { "application/rss+xml": "/feed.xml" } },
-  openGraph: { type: "website", locale: "pt_BR", siteName: "LAP", title: "LAP | Live Sports", description: "Jogo a jogo, história a história." },
-  twitter: { card: "summary", title: "LAP | Live Sports", description: "Jogo a jogo, história a história." },
-  icons: { icon: "/icons/lap-icon.svg", apple: "/icons/lap-icon.svg" },
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    siteName: "LAP Live Sports",
+    title: "LAP | Live Sports",
+    description: "Jogo a jogo, história a história.",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "LAP Live Sports" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "LAP | Live Sports",
+    description: "Jogo a jogo, história a história.",
+    images: ["/twitter-image"],
+  },
+  icons: {
+    icon: [{ url: "/icons/lap-icon.svg", type: "image/svg+xml" }],
+    shortcut: "/icons/lap-icon.svg",
+    apple: "/apple-icon",
+  },
   keywords: ["esportes ao vivo", "resultados", "agenda esportiva", "futebol", "Formula 1", "NFL", "basquete"],
   robots: {
     index: true,
