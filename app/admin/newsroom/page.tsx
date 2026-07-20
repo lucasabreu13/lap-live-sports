@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { AdminLogoutButton } from "@/components/admin-logout-button";
+import { requireAdminSession } from "@/lib/admin-session";
 import { getNewsroomArticles } from "@/lib/newsroom-content";
 
 export const metadata: Metadata = {
   title: "Newsroom AI | LAP",
   description: "Monitoramento dos agentes editoriais automatizados da LAP.",
+  robots: { index: false, follow: false, nocache: true },
 };
 
 function formatDate(value: string | null) {
@@ -15,6 +18,7 @@ function formatDate(value: string | null) {
 }
 
 export default async function NewsroomAdminPage() {
+  await requireAdminSession();
   const articles = await getNewsroomArticles(120);
   const agentCounts = Array.from(articles.reduce((map, article) => {
     const agent = article.agentId || "redacao-geral";
@@ -28,7 +32,7 @@ export default async function NewsroomAdminPage() {
       <header className="article-header">
         <div className="shell article-header__inside">
           <Link href="/" className="brand" aria-label="Voltar para a LAP"><span className="brand__mark">LAP</span><span className="brand__tag">Newsroom AI</span></Link>
-          <div style={{ display: "flex", gap: 14 }}><Link href="/admin" className="section-link">Núcleo editorial</Link><Link href="/" className="article-back">← Voltar para a LAP</Link></div>
+          <div style={{ display: "flex", gap: 14, alignItems: "center" }}><Link href="/admin" className="section-link">Núcleo editorial</Link><Link href="/" className="article-back">← Voltar para a LAP</Link><AdminLogoutButton /></div>
         </div>
       </header>
       <div className="shell admin-layout" style={{ display: "block" }}>

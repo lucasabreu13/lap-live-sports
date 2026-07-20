@@ -1,13 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { AdminLogoutButton } from "@/components/admin-logout-button";
 import { EditorialDesk } from "@/components/editorial-desk";
+import { requireAdminSession } from "@/lib/admin-session";
 
 export const metadata: Metadata = {
   title: "Núcleo editorial | LAP",
   description: "Área de publicação editorial da LAP.",
+  robots: { index: false, follow: false, nocache: true },
 };
 
-export default function AdminPage() {
+export default async function AdminPage() {
+  await requireAdminSession();
   return (
     <main className="admin-page">
       <header className="article-header">
@@ -16,7 +20,7 @@ export default function AdminPage() {
             <span className="brand__mark">LAP</span>
             <span className="brand__tag">núcleo editorial</span>
           </Link>
-          <div style={{ display: "flex", gap: "14px" }}><Link href="/admin/newsroom" className="section-link">Newsroom AI</Link><Link href="/admin/monitoramento" className="section-link">Monitoramento</Link><Link href="/" className="article-back">← Voltar para a LAP</Link></div>
+          <div style={{ display: "flex", gap: "14px", alignItems: "center" }}><Link href="/admin/newsroom" className="section-link">Newsroom AI</Link><Link href="/admin/monitoramento" className="section-link">Monitoramento</Link><Link href="/" className="article-back">← Voltar para a LAP</Link><AdminLogoutButton /></div>
         </div>
       </header>
       <div className="shell admin-layout">
