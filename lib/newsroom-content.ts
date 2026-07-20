@@ -1,0 +1,124 @@
+import type { EditorialArticle } from "@/lib/editorial-store";
+import type { NewsItem, SportId } from "@/lib/live-data";
+
+export type NewsroomEditorialArticle = EditorialArticle & {
+  homepagePriority?: number;
+  breaking?: boolean;
+  agentId?: string;
+  sourceUrls?: string[];
+};
+
+const DEFAULT_CONTENT_URL = "https://raw.githubusercontent.com/lucasabreu13/lap-live-sports/main/content/newsroom/articles.json";
+
+type AnyRecord = Record<string, unknown>;
+
+function asRecord(value: unknown): AnyRecord {
+  return value && typeof value === "object" ? value as AnyRecord : {};
+}
+
+function asString(value: unknown, fallback = "") {
+  return typeof value === "string" ? value : fallback;
+}
+
+function asStringArray(value: unknown) {
+  return Array.isArray(value) ? value.filter((item): item is string => typeof item === "string") : [];
+}
+
+function asNullableString(value: unknown) {
+  const text = asString(value).trim();
+  return text || null;
+}
+
+function normalizeArticle(value: unknown): NewsroomEditorialArticle | null {
+  const row = asRecord(value);
+  const id = asString(row.id).trim();
+  const slug = asString(row.slug).trim();
+  const sportId = asString(row.sportId).trim();
+  const title = asString(row.title).trim();
+  const summary = asString(row.summary).trim();
+  const content = asString(row.content).trim();
+  if (!id || !slug || !sportId || !title || !summary || !content) return null;
+  if (asString(row.status, "published") !== "published") return null;
+
+  const now = new Date().toISOString();
+  const publishedAt = asNullableString(row.publishedAt) || now;
+  const createdAt = asNullableString(row.createdAt) || publishedAt;
+  const updatedAt = asNullableString(row.updatedAt) || createdAt;
+  const priority = Number(row.homepagePriority);
+
+  return {
+    id,
+    slug,
+    sportId,
+    title,
+    summary,
+    content,
+    sourceName: asNullableString(row.sourceName),
+    sourceUrl: asNullableString(row.sourceUrl),
+    coverImageUrl: asNullableString(row.coverImageUrl),
+    authorName: asNullableString(row.authorName) || "Redação LAP",
+    authorRole: asNullableString(row.authorRole) || "Newsroom AI",
+    tags: asStringArray(row.tags),
+    seoTitle: asNullableString(row.seoTitle),
+    seoDescription: asNullableString(row.seoDescription),
+    status: "published",
+    scheduledAt: null,
+    publishedAt,
+    createdAt,
+    updatedAt,
+    homepagePriority: Number.isFinite(priority) ? Math.max(0, Math.min(100, priority)) : 50,
+    breaking: Boolean(row.breaking),
+    agentId: asNullableString(row.agentId) || undefined,
+    sourceUrls: asStringArray(row.sourceUrls),
+  };
+}
+
+function editorialScore(article: NewsroomEditorialArticle) {
+  const timestamp = new Date(article.publishedAt || article.createdAt).getTime();
+  const base = Number.isFinite(timestamp) ? timestamp : 0;
+  const priority = article.homepagePriority ?? 50;
+  const breakingBoost = article.breaking ? 6 * 60 * 60_000 : 0;
+  return base + priority * 15 * 60_000 + breakingBoost;
+}
+
+export async function getNewsroomArticles(limit = 48): Promise<NewsroomEditorialArticle[]> {
+  const url = process.env.NEWSROOM_CONTENT_URL || DEFAULT_CONTENT_URL;
+  try {
+    const response = await fetch(url, {
+      next: { revalidate: 120 },
+      headers: { "user-agent": "LAP Live Sports Newsroom Reader/1.0" },
+    });
+    if (!response.ok) return [];
+    const payload = await response.json() as unknown;
+    if (!Array.isArray(payload)) return [];
+    return payload
+      .map(normalizeArticle)
+      .filter((article): article is NewsroomEditorialArticle => article !== null)
+      .sort((a, b) => editorialScore(b) - editorialScore(a))
+      .slice(0, Math.max(1, Math.min(limit, 250)));
+  } catch {
+    return [];
+  }
+}
+
+export async function getNewsroomArticleBySlug(slug: string): Promise<NewsroomEditorialArticle | null> {
+  const articles = await getNewsroomArticles(250);
+  return articles.find((article) => article.slug === slug) ?? null;
+}
+
+export function newsroomArticleToNewsItem(article: NewsroomEditorialArticle): NewsItem {
+  return {
+    id: article.id,
+    kind: "editorial",
+    slug: article.slug,
+    sportId: article.sportId as SportId,
+    title: article.title,
+    excerpt: article.summary,
+    source: article.breaking ? "LAP · Urgente" : "LAP",
+    url: article.sourceUrl,
+    publishedAt: article.publishedAt,
+    internalUrl: `/materias/${article.slug}`,
+    imageUrl: article.coverImageUrl,
+    imageAlt: article.title,
+  };
+}
