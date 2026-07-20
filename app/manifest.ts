@@ -7,9 +7,12 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "Notícias, jogos e resultados no ritmo do agora.",
     start_url: "/",
     display: "standalone",
-    background_color: "#f6f7f7",
+    background_color: "#f4f6f6",
     theme_color: "#0f1718",
     lang: "pt-BR",
-    icons: [{ src: "/icons/lap-icon.svg", sizes: "any", type: "image/svg+xml", purpose: "maskable" }],
+    icons: [
+      { src: "/icons/lap-icon.svg", sizes: "any", type: "image/svg+xml", purpose: "any" },
+      { src: "/icons/lap-icon.svg", sizes: "any", type: "image/svg+xml", purpose: "maskable" },
+    ],
   };
 }
