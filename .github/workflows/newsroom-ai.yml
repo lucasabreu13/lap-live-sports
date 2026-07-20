@@ -49,7 +49,7 @@ jobs:
 
       - name: Publish newsroom content to repository
         run: |
-          if git diff --quiet -- content/newsroom/articles.json content/newsroom/status.json; then
+          if [ -z "$(git status --porcelain -- content/newsroom/articles.json content/newsroom/status.json)" ]; then
             echo "No newsroom changes to publish."
             exit 0
           fi
