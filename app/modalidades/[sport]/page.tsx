@@ -6,12 +6,12 @@ import { SportHubCenter } from "@/components/sport-hubs/sport-hub-center";
 import { getFootballHubDetails } from "@/lib/football-hub-data";
 import { getNflCenterDetails } from "@/lib/nfl-data";
 import { loadSportHubDetails } from "@/lib/sport-hubs/load-sport-hub";
-import { SPORTS } from "@/lib/live-data";
+import { PUBLIC_SPORTS } from "@/lib/public-sports";
 
 type PageProps = { params: Promise<{ sport: string }> };
 
 function resolveSport(sport: string) {
-  return SPORTS.find((item) => item.id === sport) ?? null;
+  return PUBLIC_SPORTS.find((item) => item.id === sport) ?? null;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

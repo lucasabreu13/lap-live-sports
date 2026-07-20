@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { FavoriteButton } from "@/components/favorite-button";
 import { readNotificationPreferences, syncPushSubscription, unsubscribePushDevice, writeNotificationPreferences } from "@/lib/client-preferences";
-import { FOOTBALL_COMPETITIONS, SPORTS, type LivePayload, type SportId } from "@/lib/live-data";
+import { FOOTBALL_COMPETITIONS, type LivePayload, type SportId } from "@/lib/live-data";
+import { PUBLIC_SPORTS } from "@/lib/public-sports";
 import { eventHref } from "@/lib/event-presentation";
 
 type LapHeaderProps = {
@@ -17,20 +18,20 @@ type LapHeaderProps = {
 type SearchResult = { id: string; title: string; meta: string; href: string; kind: "matéria" | "jogo" | "modalidade" | "liga" };
 
 const PRIMARY_SPORT_IDS = new Set<SportId>(["futebol", "futebol-americano"]);
-const SECONDARY_SPORTS = SPORTS.filter((sport) => !PRIMARY_SPORT_IDS.has(sport.id));
+const SECONDARY_SPORTS = PUBLIC_SPORTS.filter((sport) => !PRIMARY_SPORT_IDS.has(sport.id));
 
 function buildSearchResults(payload: LivePayload | null, query: string): SearchResult[] {
   if (!payload || query.trim().length < 2) return [];
   const normalized = query.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
   const matches = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().includes(normalized);
-  const sportMatches = SPORTS.filter((sport) => matches(sport.name)).map((sport) => ({ id: `sport-${sport.id}`, title: sport.name, meta: "Modalidade", href: `/modalidades/${sport.id}`, kind: "modalidade" as const }));
+  const sportMatches = PUBLIC_SPORTS.filter((sport) => matches(sport.name)).map((sport) => ({ id: `sport-${sport.id}`, title: sport.name, meta: "Modalidade", href: `/modalidades/${sport.id}`, kind: "modalidade" as const }));
   const leagueMatches = FOOTBALL_COMPETITIONS.filter((competition) => matches(competition.name) || matches(competition.country)).slice(0, 5)
     .map((competition) => ({ id: `league-${competition.id}`, title: competition.name, meta: `Liga · ${competition.country}`, href: `/campeonatos/${competition.id}`, kind: "liga" as const }));
   const articleMatches = [...payload.editorial, ...payload.feeds.flatMap((feed) => feed.news)]
     .filter((item) => matches(item.title) || matches(item.excerpt) || matches(item.source))
     .slice(0, 6)
     .map((item) => ({ id: `article-${item.id}`, title: item.title, meta: `${item.sportId} · ${item.source}`, href: item.internalUrl, kind: "matéria" as const }));
-  const scoreMatches = [...payload.worldCup.events, ...payload.feeds.flatMap((feed) => feed.scores)]
+  const scoreMatches = payload.feeds.flatMap((feed) => feed.scores)
     .filter((score) => matches(score.home.name) || matches(score.away.name) || matches(score.league) || matches(score.round || ""))
     .slice(0, 6)
     .map((score) => ({ id: `score-${score.sportId}-${score.id}`, title: `${score.home.name} × ${score.away.name}`, meta: `${score.league.replace(/-/g, " ")} · ${score.status}`, href: eventHref(score), kind: "jogo" as const }));
@@ -214,13 +215,12 @@ function SearchBox() {
   );
 }
 
-export function LapHeader({ activeSport = "todos", onRefresh, isRefreshing = false, compact = false }: LapHeaderProps) {
-  const football = SPORTS.find((sport) => sport.id === "futebol");
-  const nfl = SPORTS.find((sport) => sport.id === "futebol-americano");
+export function LapHeader({ activeSport = "todos", onRefresh, isRefreshing = false }: LapHeaderProps) {
+  const football = PUBLIC_SPORTS.find((sport) => sport.id === "futebol");
+  const nfl = PUBLIC_SPORTS.find((sport) => sport.id === "futebol-americano");
 
   return (
     <>
-      {!compact && <div className="breaking-strip"><div className="shell breaking-strip__inside"><span className="pulse-dot" aria-hidden /><Link href="/copa-2026">Copa do Mundo 2026 em destaque na LAP</Link><Link className="breaking-strip__source" href="/copa-2026">Abrir central da Copa</Link></div></div>}
       <header className="masthead">
         <div className="shell masthead__inside">
           <Link className="brand" href="/" aria-label="LAP, início"><span className="brand__mark">LAP</span><span className="brand__tag">live sports</span></Link>
@@ -235,7 +235,6 @@ export function LapHeader({ activeSport = "todos", onRefresh, isRefreshing = fal
       </header>
       <nav className="sport-nav sport-nav--focused" aria-label="Navegação esportiva principal">
         <div className="shell sport-nav__inside">
-          <Link href="/copa-2026" className="world-cup-nav">🏆 Copa 2026</Link>
           <Link href="/ao-vivo" className="sport-nav__agenda">Ao Vivo</Link>
           <Link href="/agenda" className="sport-nav__agenda">Agenda</Link>
           {football && <Link href={`/modalidades/${football.id}`} className={activeSport === football.id ? "active" : ""}>{football.icon} Futebol</Link>}
@@ -255,7 +254,7 @@ export function LapHeader({ activeSport = "todos", onRefresh, isRefreshing = fal
 }
 
 export function SportFavoriteButton({ sportId }: { sportId: SportId }) {
-  const sport = SPORTS.find((item) => item.id === sportId);
+  const sport = PUBLIC_SPORTS.find((item) => item.id === sportId);
   if (!sport) return null;
   return <FavoriteButton id={`sport:${sport.id}`} type="sport" label={sport.name} href={`/modalidades/${sport.id}`} className="sport-favorite-button" />;
 }

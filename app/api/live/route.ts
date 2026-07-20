@@ -1,4 +1,5 @@
 import { getCachedLivePayload, refreshCachedLivePayload } from "@/lib/free-live-data";
+import { toPublicLivePayload } from "@/lib/public-sports";
 
 export const dynamic = "force-dynamic";
 
@@ -13,13 +14,15 @@ function responseHeaders(manualRefresh: boolean): Record<string, string> {
 }
 
 export async function GET(request: Request) {
-  const manualRefresh = new URL(request.url).searchParams.get("refresh") === "1";
+  const url = new URL(request.url);
+  const manualRefresh = url.searchParams.get("refresh") === "1";
+  const includeWorldCup = url.searchParams.get("includeWorldCup") === "1";
   try {
     const payload = manualRefresh
       ? await refreshCachedLivePayload()
       : await getCachedLivePayload();
 
-    return Response.json(payload, { headers: responseHeaders(manualRefresh) });
+    return Response.json(toPublicLivePayload(payload, { includeWorldCup }), { headers: responseHeaders(manualRefresh) });
   } catch {
     return Response.json(
       { error: "Não foi possível atualizar os dados esportivos agora." },
