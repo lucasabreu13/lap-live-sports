@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { MobileBottomNav } from "@/components/mobile-bottom-nav";
 import "./globals.css";
 import "./lap-ux-polish.css";
+import "./lap-header-polish.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://lap-live-sports.vercel.app";
 
