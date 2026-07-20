@@ -1,5 +1,4 @@
-import { after } from "next/server";
-import { getCachedLivePayload, refreshCachedLivePayload, refreshCachedLivePayloadInBackground } from "@/lib/free-live-data";
+import { getCachedLivePayload, refreshCachedLivePayload } from "@/lib/free-live-data";
 
 export const dynamic = "force-dynamic";
 
@@ -19,12 +18,6 @@ export async function GET(request: Request) {
     const payload = manualRefresh
       ? await refreshCachedLivePayload()
       : await getCachedLivePayload({ preferCached: true });
-
-    if (!manualRefresh) {
-      after(async () => {
-        await refreshCachedLivePayloadInBackground();
-      });
-    }
 
     return Response.json(payload, { headers: responseHeaders(manualRefresh) });
   } catch {
