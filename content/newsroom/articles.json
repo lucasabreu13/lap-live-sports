@@ -1,5 +1,46 @@
 [
   {
+    "id": "newsroom-data-1b108e1e1cef",
+    "slug": "cincinnati-reds-vence-colorado-rockies-por-9-a-6-na-temporada-regular-1b108e",
+    "sportId": "beisebol",
+    "title": "Cincinnati Reds vence Colorado Rockies por 9 a 6 na temporada regular",
+    "summary": "Cincinnati Reds derrotou Colorado Rockies por 9 a 6 na temporada regular.",
+    "content": "Cincinnati Reds derrotou Colorado Rockies por 9 a 6 na temporada regular, em 19 de julho de 2026 no Coors Field. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "temporada-regular"
+    ],
+    "seoTitle": "Cincinnati Reds vence Colorado Rockies por 9 a 6 na temporada regular",
+    "seoDescription": "Cincinnati Reds derrotou Colorado Rockies por 9 a 6 na temporada regular.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-20T22:43:35.594Z",
+    "createdAt": "2026-07-20T22:43:35.594Z",
+    "updatedAt": "2026-07-20T22:43:35.594Z",
+    "homepagePriority": 58,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401816181",
+      "eventStartTime": "2026-07-19T19:10Z",
+      "retrievedAt": "2026-07-20T22:43:35.594Z",
+      "feedId": "beisebol",
+      "league": "regular-season"
+    }
+  },
+  {
     "id": "newsroom-data-1f7c3d176ec4",
     "slug": "washington-nationals-vence-athletics-por-5-a-2-na-temporada-regular-1f7c3d",
     "sportId": "beisebol",
