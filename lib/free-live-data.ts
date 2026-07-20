@@ -1,5 +1,6 @@
 import { applyLivePayloadPatch, getLivePayload, ingestLiveWebhook, type LivePayload, type LiveWebhookPatch, type SportFeed } from "@/lib/live-data";
 import { readLiveCache, writeLiveCache, type LiveCacheRecord } from "@/lib/live-cache-store";
+import { applyLapOnlyNews } from "@/lib/lap-news-mode";
 
 const LIVE_PAYLOAD_CACHE_KEY = "lap-live-payload-v1";
 const PERSISTED_FRESH_TTL_MS = 90_000;
@@ -107,6 +108,14 @@ function mergeWithPersisted(fresh: LivePayload, persisted: LivePayload) {
   };
 }
 
+async function toPresentationPayload(payload: LivePayload) {
+  return applyLapOnlyNews(payload).catch(() => ({
+    ...payload,
+    editorial: payload.editorial.filter((item) => item.kind === "editorial"),
+    feeds: payload.feeds.map((feed) => ({ ...feed, news: [] })),
+  }));
+}
+
 async function refreshFromSources(persisted: LiveCacheRecord<LivePayload> | null) {
   const fresh = await getLivePayload();
   const persistedAge = persisted ? cacheAgeMs(persisted.cachedAt) : Number.POSITIVE_INFINITY;
@@ -119,8 +128,9 @@ async function refreshFromSources(persisted: LiveCacheRecord<LivePayload> | null
     await writeLiveCache(LIVE_PAYLOAD_CACHE_KEY, fresh, PERSISTED_STALE_TTL_MS, "live").catch(() => false);
   }
 
-  memoryCache = { payload: merged.payload, expiresAt: Date.now() + MEMORY_TTL_MS };
-  return merged.payload;
+  const presentationPayload = await toPresentationPayload(merged.payload);
+  memoryCache = { payload: presentationPayload, expiresAt: Date.now() + MEMORY_TTL_MS };
+  return presentationPayload;
 }
 
 export async function getCachedLivePayload(options?: { forceRefresh?: boolean; preferCached?: boolean }): Promise<LivePayload> {
@@ -130,12 +140,13 @@ export async function getCachedLivePayload(options?: { forceRefresh?: boolean; p
   const persistedAge = persisted ? cacheAgeMs(persisted.cachedAt) : Number.POSITIVE_INFINITY;
 
   if (!options?.forceRefresh && persisted && persistedAge <= PERSISTED_FRESH_TTL_MS) {
-    memoryCache = { payload: persisted.payload, expiresAt: Date.now() + MEMORY_TTL_MS };
-    return persisted.payload;
+    const presentationPayload = await toPresentationPayload(persisted.payload);
+    memoryCache = { payload: presentationPayload, expiresAt: Date.now() + MEMORY_TTL_MS };
+    return presentationPayload;
   }
 
   if (!options?.forceRefresh && options?.preferCached && persisted && persistedAge <= PERSISTED_STALE_TTL_MS) {
-    const stale = markPayloadAsStale(persisted.payload);
+    const stale = await toPresentationPayload(markPayloadAsStale(persisted.payload));
     memoryCache = { payload: stale, expiresAt: Date.now() + MEMORY_TTL_MS };
     return stale;
   }
@@ -144,7 +155,7 @@ export async function getCachedLivePayload(options?: { forceRefresh?: boolean; p
     return await refreshFromSources(persisted);
   } catch (error) {
     if (persisted && persistedAge <= PERSISTED_STALE_TTL_MS) {
-      const stale = markPayloadAsStale(persisted.payload);
+      const stale = await toPresentationPayload(markPayloadAsStale(persisted.payload));
       memoryCache = { payload: stale, expiresAt: Date.now() + MEMORY_TTL_MS };
       return stale;
     }
