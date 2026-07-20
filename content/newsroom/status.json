@@ -1,6 +1,13 @@
 {
   "status": "ok",
-  "validatedAt": "2026-07-20T21:57:47Z",
-  "commit": "d7fe60938e1ecfef13514f5e488e538147d27625",
-  "runId": "29782164271"
+  "validatedAt": "2026-07-20T22:41:52.716Z",
+  "commit": "a0bb799fd917cb8f78d69b554f5968dae2fe93f1",
+  "runId": "29784776969",
+  "event": "push",
+  "stages": {
+    "agents": "success",
+    "dataStories": "success",
+    "editorialPolish": "success",
+    "maintenance": "success"
+  }
 }

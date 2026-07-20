@@ -1,5 +1,46 @@
 [
   {
+    "id": "newsroom-data-1f7c3d176ec4",
+    "slug": "washington-nationals-vence-athletics-por-5-a-2-na-temporada-regular-1f7c3d",
+    "sportId": "beisebol",
+    "title": "Washington Nationals vence Athletics por 5 a 2 na temporada regular",
+    "summary": "Washington Nationals derrotou Athletics por 5 a 2 na temporada regular.",
+    "content": "Washington Nationals derrotou Athletics por 5 a 2 na temporada regular, em 19 de julho de 2026 no Sutter Health Park. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "temporada-regular"
+    ],
+    "seoTitle": "Washington Nationals vence Athletics por 5 a 2 na temporada regular",
+    "seoDescription": "Washington Nationals derrotou Athletics por 5 a 2 na temporada regular.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-20T22:41:52.568Z",
+    "createdAt": "2026-07-20T22:41:52.568Z",
+    "updatedAt": "2026-07-20T22:41:52.568Z",
+    "homepagePriority": 82,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401816185",
+      "eventStartTime": "2026-07-19T20:05Z",
+      "retrievedAt": "2026-07-20T22:41:52.568Z",
+      "feedId": "beisebol",
+      "league": "regular-season"
+    }
+  },
+  {
     "id": "newsroom-data-58401e647083",
     "slug": "los-angeles-angels-vence-detroit-tigers-por-3-a-2-na-temporada-regular-58401e",
     "sportId": "beisebol",
@@ -61,39 +102,6 @@
     "agentId": "beisebol",
     "sourceUrls": [
       "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true
-  },
-  {
-    "id": "newsroom-data-d1172bcb5b21",
-    "slug": "chapecoense-e-vasco-da-gama-ficam-no-0-a-0-pelo-brasileirao-serie-a-d1172b",
-    "sportId": "futebol",
-    "title": "Chapecoense e Vasco da Gama ficam no 0 a 0 pelo Brasileirão Série A",
-    "summary": "Chapecoense e Vasco da Gama encerraram o confronto pelo Brasileirão Série A sem vencedor. O empate por 0 a 0 deixou as duas equipes sem conseguir abrir vantagem no placar.",
-    "content": "Chapecoense e Vasco da Gama ficaram no 0 a 0 pelo Brasileirão Série A, disputado em 29 de julho de 2026 no Arena Condá. O duelo terminou sem gols e sem vencedor, em um resultado que mantém o equilíbrio do confronto também no placar final.\n\nO 0 a 0 resume uma partida em que nenhuma das equipes conseguiu transformar o jogo em vantagem no marcador. Sem gols, cada tentativa de mudar o rumo do confronto ganhou ainda mais peso, mas o resultado permaneceu inalterado até o encerramento.\n\nPara Chapecoense e Vasco da Gama, o empate passa a fazer parte da caminhada no Brasileirão Série A. Em uma competição de sequência longa, resultados assim ganham significado quando colocados ao lado do desempenho das rodadas anteriores e dos compromissos que vêm pela frente.\n\nMais do que olhar apenas para o placar, o próximo passo é entender como cada equipe reage depois de um jogo sem vencedor. A capacidade de transformar equilíbrio em vitória nos próximos compromissos pode fazer diferença na construção da campanha.\n\nA LAP acompanha a sequência de Chapecoense e Vasco da Gama e atualiza a cobertura da modalidade conforme novos resultados e informações confirmadas ficam disponíveis.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "brasileirao-serie-a"
-    ],
-    "seoTitle": "Chapecoense e Vasco da Gama ficam no 0 a 0 pelo Brasileirão Série A",
-    "seoDescription": "Chapecoense e Vasco da Gama encerraram o confronto pelo Brasileirão Série A sem vencedor. O empate por 0 a 0 deixou as duas equipes sem conseguir abrir vantagem no placar",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-20T21:47:12.710Z",
-    "createdAt": "2026-07-20T21:47:12.710Z",
-    "updatedAt": "2026-07-20T21:47:12.710Z",
-    "homepagePriority": 62,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
     ],
     "verifiedFacts": 2,
     "dataDriven": true
