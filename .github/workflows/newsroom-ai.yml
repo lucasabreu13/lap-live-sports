@@ -9,6 +9,7 @@ on:
       - "scripts/newsroom-agents.mjs"
       - "scripts/newsroom-data-stories.mjs"
       - "scripts/newsroom-editorial-polish.mjs"
+      - "scripts/newsroom-maintenance.mjs"
       - "lib/newsroom-content.ts"
       - "lib/lap-news-mode.ts"
   schedule:
@@ -62,12 +63,18 @@ jobs:
           NEWSROOM_MODEL: openai/gpt-4o
         run: node scripts/newsroom-editorial-polish.mjs
 
+      - name: Consolidate living stories and remove invalid content
+        id: maintenance
+        continue-on-error: true
+        run: node scripts/newsroom-maintenance.mjs
+
       - name: Record pipeline validation
         if: always()
         env:
           AGENTS_OUTCOME: ${{ steps.agents.outcome }}
           DATA_STORIES_OUTCOME: ${{ steps.data_stories.outcome }}
           EDITORIAL_POLISH_OUTCOME: ${{ steps.editorial_polish.outcome }}
+          MAINTENANCE_OUTCOME: ${{ steps.maintenance.outcome }}
         run: |
           node - <<'NODE'
           const fs = require('fs');
@@ -75,6 +82,7 @@ jobs:
             agents: process.env.AGENTS_OUTCOME || 'unknown',
             dataStories: process.env.DATA_STORIES_OUTCOME || 'unknown',
             editorialPolish: process.env.EDITORIAL_POLISH_OUTCOME || 'unknown',
+            maintenance: process.env.MAINTENANCE_OUTCOME || 'unknown',
           };
           const status = Object.values(stages).every((value) => value === 'success') ? 'ok' : 'degraded';
           const payload = {
