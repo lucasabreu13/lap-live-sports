@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { FootballCenter } from "@/components/football-center";
-import { NflCenter } from "@/components/nfl-center";
+import { RichIndividualCenter } from "@/components/rich-individual-center";
+import { RichTeamLeagueCenter } from "@/components/rich-team-league-center";
 import { SportHubCenter } from "@/components/sport-hubs/sport-hub-center";
 import { getFootballHubDetails } from "@/lib/football-hub-data";
-import { getNflCenterDetails } from "@/lib/nfl-data";
+import { getRichIndividualHub } from "@/lib/rich-individual-data";
+import { getProLeagueHub } from "@/lib/rich-team-league-data";
 import { loadSportHubDetails } from "@/lib/sport-hubs/load-sport-hub";
 import { PUBLIC_SPORTS } from "@/lib/public-sports";
 
@@ -19,9 +21,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const selected = resolveSport(sport);
   if (!selected) return { title: "Modalidade não encontrada | LAP" };
 
+  const descriptions: Partial<Record<typeof selected.id, string>> = {
+    "futebol-americano": "NFL completa: times, jogadores, estádios, salários disponíveis, calendário, classificação e notícias.",
+    basquete: "NBA completa: franquias, jogadores, arenas, salários disponíveis, calendário, classificação e notícias.",
+    beisebol: "MLB completa: franquias, rosters, estádios, calendário, classificação e notícias.",
+    formula1: "Fórmula 1: classificação de pilotos e equipes, próximas corridas, resultados, voltas rápidas, abandonos e pit stops.",
+    tenis: "Tênis: Top 50 ATP e WTA, campeões recentes, Grand Slams e notícias.",
+    ciclismo: "Tour de France: classificação geral, etapas, equipes, camisas e notícias.",
+    golfe: "Golfe: ranking, torneios recentes, leaderboards, premiações publicadas e notícias.",
+    surfe: "WSL Championship Tour e Brazilian Storm: ranking quando publicado, brasileiros e notícias.",
+  };
+
   return {
     title: `${selected.name} | LAP Live Sports`,
-    description: `Notícias, agenda e resultados de ${selected.name} na LAP.`,
+    description: descriptions[selected.id] || `Notícias, agenda e resultados de ${selected.name} na LAP.`,
   };
 }
 
@@ -36,8 +49,24 @@ export default async function SportPage({ params }: PageProps) {
   }
 
   if (selected.id === "futebol-americano") {
-    const details = await getNflCenterDetails();
-    return <NflCenter details={details} />;
+    const hub = await getProLeagueHub("nfl");
+    return <RichTeamLeagueCenter hub={hub} />;
+  }
+
+  if (selected.id === "basquete") {
+    const hub = await getProLeagueHub("nba");
+    return <RichTeamLeagueCenter hub={hub} />;
+  }
+
+  if (selected.id === "beisebol") {
+    const hub = await getProLeagueHub("mlb");
+    return <RichTeamLeagueCenter hub={hub} />;
+  }
+
+  if (["formula1", "tenis", "ciclismo", "golfe", "surfe"].includes(selected.id)) {
+    const hub = await getRichIndividualHub(selected.id);
+    if (!hub) notFound();
+    return <RichIndividualCenter hub={hub} />;
   }
 
   const details = await loadSportHubDetails(selected.id);
