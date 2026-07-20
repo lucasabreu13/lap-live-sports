@@ -5,6 +5,7 @@ import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import type { EditorialRole } from "@/lib/editorial-store";
 import { ADMIN_PASSWORD_SHA256 } from "@/lib/admin-password-hash";
+import { getAdminCredential } from "@/lib/admin-credential-store";
 
 export const ADMIN_SESSION_COOKIE = "__Host-lap_admin_session";
 const SESSION_MAX_AGE_SECONDS = 8 * 60 * 60;
@@ -89,6 +90,8 @@ export async function hasAdminSession() {
 
 export async function requireAdminSession() {
   if (!(await hasAdminSession())) redirect("/admin/login");
+  const credential = await getAdminCredential().catch(() => null);
+  if (credential?.must_change_password) redirect("/admin/password");
 }
 
 export async function setAdminSession() {
