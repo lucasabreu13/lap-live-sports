@@ -7,9 +7,11 @@ on:
     paths:
       - ".github/workflows/newsroom-ai.yml"
       - "scripts/newsroom-agents.mjs"
+      - "scripts/newsroom-data-stories.mjs"
       - "lib/newsroom-content.ts"
+      - "lib/lap-news-mode.ts"
   schedule:
-    - cron: "17 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -35,12 +37,18 @@ jobs:
         with:
           node-version: 20
 
-      - name: Run specialist agents and editor-in-chief
+      - name: Run specialist news agents and editor-in-chief
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NEWSROOM_MODEL: openai/gpt-4o
           LAP_SITE_URL: https://lap-live-sports.vercel.app
         run: node scripts/newsroom-agents.mjs
+
+      - name: Publish original stories from verified sports data
+        env:
+          LAP_SITE_URL: https://lap-live-sports.vercel.app
+        run: node scripts/newsroom-data-stories.mjs
 
       - name: Record pipeline validation
         if: github.event_name == 'push'
@@ -57,4 +65,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/newsroom/articles.json content/newsroom/status.json
           git commit -m "chore(newsroom): publish verified sports stories"
+          git pull --rebase origin main
           git push
