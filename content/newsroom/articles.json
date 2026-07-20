@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "id": "newsroom-data-ec151c26361c",
+    "slug": "atletico-mg-e-red-bull-bragantino-empatam-por-0-a-0-em-brasileirao-serie-a-ec151c",
+    "sportId": "futebol",
+    "title": "Atlético-MG e Red Bull Bragantino empatam por 0 a 0 em Brasileirão Série A",
+    "summary": "Atlético-MG e Red Bull Bragantino terminaram empatados por 0 a 0 em confronto de Brasileirão Série A. O evento consta como encerrado na base esportiva estruturada usada pela LAP.",
+    "content": "Atlético-MG e Red Bull Bragantino terminaram empatados por 0 a 0 em confronto de Brasileirão Série A.\n\nO confronto aparece com status finalizado e placar registrado na fonte esportiva estruturada que alimenta a central de Futebol da LAP.\n\nEsta é uma matéria produzida pela Redação LAP a partir de dados esportivos confirmados. A cobertura será atualizada quando novos dados oficiais ficarem disponíveis.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "brasileirao-serie-a"
+    ],
+    "seoTitle": "Atlético-MG e Red Bull Bragantino empatam por 0 a 0 em Brasileirão Sér",
+    "seoDescription": "Atlético-MG e Red Bull Bragantino terminaram empatados por 0 a 0 em confronto de Brasileirão Série A. O evento consta como encerrado na base esportiva estruturada usada p",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-20T21:33:40.092Z",
+    "createdAt": "2026-07-20T21:33:40.092Z",
+    "updatedAt": "2026-07-20T21:33:40.092Z",
+    "homepagePriority": 62,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true
+  },
+  {
+    "id": "newsroom-data-28bde2bcc960",
+    "slug": "new-york-yankees-vence-los-angeles-dodgers-por-2-a-1-em-regular-season-28bde2",
+    "sportId": "beisebol",
+    "title": "New York Yankees vence Los Angeles Dodgers por 2 a 1 em regular-season",
+    "summary": "New York Yankees venceu Los Angeles Dodgers por 2 a 1 em resultado confirmado pela cobertura de dados da LAP. O evento consta como encerrado na base esportiva estruturada usada pela LAP.",
+    "content": "New York Yankees venceu Los Angeles Dodgers por 2 a 1 em resultado confirmado pela cobertura de dados da LAP.\n\nO confronto aparece com status finalizado e placar registrado na fonte esportiva estruturada que alimenta a central de MLB da LAP.\n\nEsta é uma matéria produzida pela Redação LAP a partir de dados esportivos confirmados. A cobertura será atualizada quando novos dados oficiais ficarem disponíveis.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "regular-season"
+    ],
+    "seoTitle": "New York Yankees vence Los Angeles Dodgers por 2 a 1 em regular-season",
+    "seoDescription": "New York Yankees venceu Los Angeles Dodgers por 2 a 1 em resultado confirmado pela cobertura de dados da LAP. O evento consta como encerrado na base esportiva estruturada",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-20T21:33:40.093Z",
+    "createdAt": "2026-07-20T21:33:40.093Z",
+    "updatedAt": "2026-07-20T21:33:40.093Z",
+    "homepagePriority": 62,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true
+  }
+]
