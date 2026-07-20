@@ -39,6 +39,7 @@ jobs:
           node-version: 20
 
       - name: Run specialist news agents and editor-in-chief
+        id: agents
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -47,11 +48,14 @@ jobs:
         run: node scripts/newsroom-agents.mjs
 
       - name: Publish original stories from verified sports data
+        id: data_stories
+        continue-on-error: true
         env:
           LAP_SITE_URL: https://lap-live-sports.vercel.app
         run: node scripts/newsroom-data-stories.mjs
 
       - name: Polish stories with specialist editorial desks
+        id: editorial_polish
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -59,11 +63,34 @@ jobs:
         run: node scripts/newsroom-editorial-polish.mjs
 
       - name: Record pipeline validation
-        if: github.event_name == 'push'
+        if: always()
+        env:
+          AGENTS_OUTCOME: ${{ steps.agents.outcome }}
+          DATA_STORIES_OUTCOME: ${{ steps.data_stories.outcome }}
+          EDITORIAL_POLISH_OUTCOME: ${{ steps.editorial_polish.outcome }}
         run: |
-          printf '{\n  "status": "ok",\n  "validatedAt": "%s",\n  "commit": "%s",\n  "runId": "%s"\n}\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$GITHUB_SHA" "$GITHUB_RUN_ID" > content/newsroom/status.json
+          node - <<'NODE'
+          const fs = require('fs');
+          const stages = {
+            agents: process.env.AGENTS_OUTCOME || 'unknown',
+            dataStories: process.env.DATA_STORIES_OUTCOME || 'unknown',
+            editorialPolish: process.env.EDITORIAL_POLISH_OUTCOME || 'unknown',
+          };
+          const status = Object.values(stages).every((value) => value === 'success') ? 'ok' : 'degraded';
+          const payload = {
+            status,
+            validatedAt: new Date().toISOString(),
+            commit: process.env.GITHUB_SHA,
+            runId: process.env.GITHUB_RUN_ID,
+            event: process.env.GITHUB_EVENT_NAME,
+            stages,
+          };
+          fs.writeFileSync('content/newsroom/status.json', `${JSON.stringify(payload, null, 2)}\n`);
+          console.log(JSON.stringify(payload));
+          NODE
 
       - name: Publish newsroom content to repository
+        if: always()
         run: |
           if [ -z "$(git status --porcelain -- content/newsroom/articles.json content/newsroom/status.json)" ]; then
             echo "No newsroom changes to publish."
@@ -72,6 +99,6 @@ jobs:
           git config user.name "lap-newsroom[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/newsroom/articles.json content/newsroom/status.json
-          git commit -m "chore(newsroom): publish verified sports stories"
+          git commit -m "chore(newsroom): publish verified sports stories and pipeline status"
           git pull --rebase origin main
           git push
