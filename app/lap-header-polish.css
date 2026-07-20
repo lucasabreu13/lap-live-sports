@@ -8,13 +8,12 @@
 .sport-nav__more[open] summary span{transform:rotate(180deg)}
 .sport-nav__more-menu{position:absolute;z-index:60;top:calc(100% + 1px);right:0;width:min(640px,92vw);padding:10px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;background:var(--white);border:1px solid var(--line);box-shadow:var(--shadow)}
 .sport-nav__more-menu a{padding:11px 12px;border:1px solid transparent;border-bottom:1px solid #edf1f1;white-space:normal;line-height:1.2}
-.sport-nav__more-menu a:hover,.sport-nav__more[open] summary{color:var(--ink);border-bottom-color:var(--accent);background:#f6fbfa}
 .sport-nav__more-menu a:hover,.sport-nav__more-menu a.active{background:#e9fbf8;border-color:#bfe9e2;color:var(--accent-deep)}
 .sport-nav__more-menu .sport-nav__coverage{grid-column:1/-1;margin-top:4px;background:var(--ink);color:var(--white);border:0;text-align:center}
 .sport-nav__more-menu .sport-nav__coverage:hover{background:var(--accent-deep);color:var(--white)}
 
 /* A Copa 2026 permanece como arquivo histórico, mas não compete mais com a cobertura atual. */
-.breaking-strip,.world-cup--spotlight,.world-cup-nav,a[href="/copa-2026"]{display:none!important}
+.world-cup--spotlight,a[href="/copa-2026"]{display:none!important}
 
 /* A Home já possui navegação de modalidades no topo; evita repetir a mesma faixa logo abaixo. */
 nav[aria-label="Cobertura por modalidade"]{display:none!important}
@@ -33,7 +32,14 @@ option[value="rugby"],
 option[value="criquete"],
 option[value="mma"],
 option[value="natacao"],
-option[value="atletismo"]{display:none!important}
+option[value="atletismo"],
+article:has(a[href="/modalidades/softball"]),
+article:has(a[href="/modalidades/volei"]),
+article:has(a[href="/modalidades/rugby"]),
+article:has(a[href="/modalidades/criquete"]),
+article:has(a[href="/modalidades/mma"]),
+article:has(a[href="/modalidades/natacao"]),
+article:has(a[href="/modalidades/atletismo"]){display:none!important}
 
 @media(max-width:900px){.sport-nav--focused{overflow-x:auto;overflow-y:visible}.sport-nav--focused .sport-nav__inside{min-width:max-content}.sport-nav__more{margin-left:0}.sport-nav__more-menu{position:fixed;left:12px;right:12px;top:auto;width:auto;grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.sport-nav__more-menu{grid-template-columns:1fr;max-height:62vh;overflow:auto}.sport-nav__more-menu .sport-nav__coverage{grid-column:1}}
