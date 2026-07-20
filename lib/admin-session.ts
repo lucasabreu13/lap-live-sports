@@ -1,9 +1,10 @@
 import "server-only";
 
-import { createHmac, timingSafeEqual } from "node:crypto";
+import { createHash, createHmac, timingSafeEqual } from "node:crypto";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import type { EditorialRole } from "@/lib/editorial-store";
+import { ADMIN_PASSWORD_SHA256 } from "@/lib/admin-password-hash";
 
 export const ADMIN_SESSION_COOKIE = "__Host-lap_admin_session";
 const SESSION_MAX_AGE_SECONDS = 8 * 60 * 60;
@@ -20,12 +21,16 @@ function safeEqual(expected: string, provided: string) {
   return expectedBuffer.length === providedBuffer.length && timingSafeEqual(expectedBuffer, providedBuffer);
 }
 
-function adminPassword() {
+function sha256(value: string) {
+  return createHash("sha256").update(value).digest("hex");
+}
+
+function configuredAdminPassword() {
   return process.env.LAP_ADMIN_PASSWORD || process.env.LAP_ADMIN_TOKEN || "";
 }
 
 function sessionSecret() {
-  return process.env.LAP_ADMIN_SESSION_SECRET || process.env.LAP_ADMIN_TOKEN || "";
+  return process.env.LAP_ADMIN_SESSION_SECRET || process.env.LAP_ADMIN_TOKEN || process.env.SUPABASE_SERVICE_ROLE_KEY || "";
 }
 
 function encodePayload(payload: AdminSessionPayload) {
@@ -39,7 +44,10 @@ function signPayload(encodedPayload: string) {
 }
 
 export function verifyAdminPassword(provided: string) {
-  return safeEqual(adminPassword(), provided.trim());
+  const candidate = provided.trim();
+  const configured = configuredAdminPassword();
+  if (configured) return safeEqual(configured, candidate);
+  return safeEqual(ADMIN_PASSWORD_SHA256, sha256(candidate));
 }
 
 export function createAdminSessionToken() {
