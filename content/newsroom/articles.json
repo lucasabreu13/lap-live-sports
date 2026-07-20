@@ -1,5 +1,71 @@
 [
   {
+    "id": "newsroom-data-35c5b992c5f5",
+    "slug": "botafogo-e-gremio-empatam-por-0-a-0-em-brasileirao-serie-a-35c5b9",
+    "sportId": "futebol",
+    "title": "Botafogo e Grêmio empatam por 0 a 0 em Brasileirão Série A",
+    "summary": "Botafogo e Grêmio terminaram empatados por 0 a 0 em confronto de Brasileirão Série A. O evento consta como encerrado na base esportiva estruturada usada pela LAP.",
+    "content": "Botafogo e Grêmio terminaram empatados por 0 a 0 em confronto de Brasileirão Série A.\n\nO confronto aparece com status finalizado e placar registrado na fonte esportiva estruturada que alimenta a central de Futebol da LAP.\n\nEsta é uma matéria produzida pela Redação LAP a partir de dados esportivos confirmados. A cobertura será atualizada quando novos dados oficiais ficarem disponíveis.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "brasileirao-serie-a"
+    ],
+    "seoTitle": "Botafogo e Grêmio empatam por 0 a 0 em Brasileirão Série A",
+    "seoDescription": "Botafogo e Grêmio terminaram empatados por 0 a 0 em confronto de Brasileirão Série A. O evento consta como encerrado na base esportiva estruturada usada pela LAP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-20T21:39:17.881Z",
+    "createdAt": "2026-07-20T21:39:17.881Z",
+    "updatedAt": "2026-07-20T21:39:17.881Z",
+    "homepagePriority": 62,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true
+  },
+  {
+    "id": "newsroom-data-cef71dd9f6c7",
+    "slug": "seattle-mariners-vence-san-francisco-giants-por-6-a-3-em-regular-season-cef71d",
+    "sportId": "beisebol",
+    "title": "Seattle Mariners vence San Francisco Giants por 6 a 3 em regular-season",
+    "summary": "Seattle Mariners venceu San Francisco Giants por 6 a 3 em resultado confirmado pela cobertura de dados da LAP. O evento consta como encerrado na base esportiva estruturada usada pela LAP.",
+    "content": "Seattle Mariners venceu San Francisco Giants por 6 a 3 em resultado confirmado pela cobertura de dados da LAP.\n\nO confronto aparece com status finalizado e placar registrado na fonte esportiva estruturada que alimenta a central de MLB da LAP.\n\nEsta é uma matéria produzida pela Redação LAP a partir de dados esportivos confirmados. A cobertura será atualizada quando novos dados oficiais ficarem disponíveis.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "regular-season"
+    ],
+    "seoTitle": "Seattle Mariners vence San Francisco Giants por 6 a 3 em regular-seaso",
+    "seoDescription": "Seattle Mariners venceu San Francisco Giants por 6 a 3 em resultado confirmado pela cobertura de dados da LAP. O evento consta como encerrado na base esportiva estruturad",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-20T21:39:17.881Z",
+    "createdAt": "2026-07-20T21:39:17.881Z",
+    "updatedAt": "2026-07-20T21:39:17.881Z",
+    "homepagePriority": 62,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true
+  },
+  {
     "id": "newsroom-data-ec151c26361c",
     "slug": "atletico-mg-e-red-bull-bragantino-empatam-por-0-a-0-em-brasileirao-serie-a-ec151c",
     "sportId": "futebol",
