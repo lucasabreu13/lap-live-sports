@@ -25,13 +25,6 @@ async function withNewsroom(payload: LivePayload): Promise<LivePayload> {
   return {
     ...payload,
     editorial: uniqueNews([...newsroom, ...payload.editorial]).slice(0, 48),
-    feeds: payload.feeds.map((feed) => ({
-      ...feed,
-      news: uniqueNews([
-        ...newsroom.filter((item) => item.sportId === feed.id),
-        ...feed.news,
-      ]).slice(0, 16),
-    })),
   };
 }
 
