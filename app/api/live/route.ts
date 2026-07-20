@@ -21,7 +21,9 @@ export async function GET(request: Request) {
       : await getCachedLivePayload({ preferCached: true });
 
     if (!manualRefresh) {
-      after(() => refreshCachedLivePayloadInBackground());
+      after(async () => {
+        await refreshCachedLivePayloadInBackground();
+      });
     }
 
     return Response.json(payload, { headers: responseHeaders(manualRefresh) });
