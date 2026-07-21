@@ -1,5 +1,46 @@
 [
   {
+    "id": "newsroom-data-9eed4d14a23c",
+    "slug": "atlanta-braves-vence-san-diego-padres-por-3-a-2-na-temporada-regular-9eed4d",
+    "sportId": "beisebol",
+    "title": "Atlanta Braves vence San Diego Padres por 3 a 2 na temporada regular",
+    "summary": "Atlanta Braves derrotou San Diego Padres por 3 a 2 na temporada regular.",
+    "content": "Atlanta Braves derrotou San Diego Padres por 3 a 2 na temporada regular, em 20 de julho de 2026 no Truist Park. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "temporada-regular"
+    ],
+    "seoTitle": "Atlanta Braves vence San Diego Padres por 3 a 2 na temporada regular",
+    "seoDescription": "Atlanta Braves derrotou San Diego Padres por 3 a 2 na temporada regular.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-21T11:27:41.893Z",
+    "createdAt": "2026-07-21T11:27:41.893Z",
+    "updatedAt": "2026-07-21T11:27:41.893Z",
+    "homepagePriority": 58,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401816190",
+      "eventStartTime": "2026-07-20T23:15Z",
+      "retrievedAt": "2026-07-21T11:27:41.893Z",
+      "feedId": "beisebol",
+      "league": "regular-season"
+    }
+  },
+  {
     "id": "newsroom-data-0500ce911d3d",
     "slug": "kansas-city-royals-vence-san-francisco-giants-por-4-a-3-na-temporada-regular-0500ce",
     "sportId": "beisebol",
