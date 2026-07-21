@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GameCenter } from "@/components/game-center";
+import { VerifiedMatchInsights } from "@/components/verified-match-insights";
 import { eventDisplayTitle, isSingleEvent } from "@/lib/event-presentation";
 import { SPORTS, type SportId } from "@/lib/live-data";
 import { getResilientGameDetails } from "@/lib/resilient-game-details";
@@ -16,7 +17,7 @@ function metadataDescription(details: Awaited<ReturnType<typeof getResilientGame
   if (!details) return undefined;
   return isSingleEvent(details.event)
     ? `Agenda, status e informações de ${details.event.home.name} na LAP.`
-    : `Placar, lances e estatísticas de ${eventDisplayTitle(details.event)} na LAP.`;
+    : `Placar, lances, estatísticas e análise pré-jogo de ${eventDisplayTitle(details.event)} na LAP.`;
 }
 
 export async function generateMetadata({ params, searchParams }: PageProps): Promise<Metadata> {
@@ -50,5 +51,9 @@ export default async function GamePage({ params, searchParams }: PageProps) {
     } : {}),
   };
 
-  return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><GameCenter initialDetails={details} worldCup={worldCup} /></>;
+  return <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+    <GameCenter initialDetails={details} worldCup={worldCup} />
+    <VerifiedMatchInsights event={details.event} />
+  </>;
 }
