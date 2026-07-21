@@ -1,5 +1,46 @@
 [
   {
+    "id": "newsroom-data-b9571089155e",
+    "slug": "milwaukee-brewers-vence-new-york-mets-por-8-a-3-na-temporada-regular-b95710",
+    "sportId": "beisebol",
+    "title": "Milwaukee Brewers vence New York Mets por 8 a 3 na temporada regular",
+    "summary": "Milwaukee Brewers derrotou New York Mets por 8 a 3 na temporada regular.",
+    "content": "Milwaukee Brewers derrotou New York Mets por 8 a 3 na temporada regular, em 20 de julho de 2026 no American Family Field. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "temporada-regular"
+    ],
+    "seoTitle": "Milwaukee Brewers vence New York Mets por 8 a 3 na temporada regular",
+    "seoDescription": "Milwaukee Brewers derrotou New York Mets por 8 a 3 na temporada regular.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-21T07:06:44.014Z",
+    "createdAt": "2026-07-21T07:06:44.014Z",
+    "updatedAt": "2026-07-21T07:06:44.014Z",
+    "homepagePriority": 58,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401816195",
+      "eventStartTime": "2026-07-20T23:40Z",
+      "retrievedAt": "2026-07-21T07:06:44.014Z",
+      "feedId": "beisebol",
+      "league": "regular-season"
+    }
+  },
+  {
     "id": "newsroom-data-3096bbd48928",
     "slug": "chicago-white-sox-vence-texas-rangers-por-10-a-3-na-temporada-regular-3096bb",
     "sportId": "beisebol",
