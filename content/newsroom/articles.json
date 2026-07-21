@@ -1,5 +1,46 @@
 [
   {
+    "id": "newsroom-data-0218ea0a1037",
+    "slug": "baltimore-orioles-vence-houston-astros-por-5-a-2-na-temporada-regular-0218ea",
+    "sportId": "beisebol",
+    "title": "Baltimore Orioles vence Houston Astros por 5 a 2 na temporada regular",
+    "summary": "Baltimore Orioles derrotou Houston Astros por 5 a 2 na temporada regular.",
+    "content": "Baltimore Orioles derrotou Houston Astros por 5 a 2 na temporada regular, em 19 de julho de 2026 no Daikin Park. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "temporada-regular"
+    ],
+    "seoTitle": "Baltimore Orioles vence Houston Astros por 5 a 2 na temporada regular",
+    "seoDescription": "Baltimore Orioles derrotou Houston Astros por 5 a 2 na temporada regular.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-21T01:05:25.537Z",
+    "createdAt": "2026-07-21T01:05:25.537Z",
+    "updatedAt": "2026-07-21T01:05:25.537Z",
+    "homepagePriority": 58,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401816177",
+      "eventStartTime": "2026-07-19T18:10Z",
+      "retrievedAt": "2026-07-21T01:05:25.537Z",
+      "feedId": "beisebol",
+      "league": "regular-season"
+    }
+  },
+  {
     "id": "newsroom-data-5db7a79efeba",
     "slug": "chicago-cubs-vence-minnesota-twins-por-10-a-1-na-temporada-regular-5db7a7",
     "sportId": "beisebol",
