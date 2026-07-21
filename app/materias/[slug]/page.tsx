@@ -4,8 +4,9 @@ import { notFound } from "next/navigation";
 import { LapHeader } from "@/components/lap-header";
 import { decodeArticleTransport, findArticleBySlug, findSportById, type SportId } from "@/lib/live-data";
 import { findEditorialArticleBySlug, type EditorialArticle } from "@/lib/editorial-store";
-import { getNewsroomArticleBySlug } from "@/lib/newsroom-content";
+import { getNewsroomArticleBySlug, getNewsroomArticles } from "@/lib/newsroom-content";
 import { sportCoverImage } from "@/lib/sport-visuals";
+import styles from "./article-reading.module.css";
 
 type PageProps = { params: Promise<{ slug: string }>; searchParams: Promise<{ d?: string }> };
 type BriefArticle = { kind: "brief"; slug: string; sportId: SportId; title: string; excerpt: string; source: string; url: string; publishedAt: string | null; imageUrl: string | null; imageAlt: string | null; };
@@ -16,6 +17,11 @@ function formatDate(dateValue: string | null) {
   const date = new Date(dateValue);
   if (Number.isNaN(date.getTime())) return "Agora";
   return new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "long", year: "numeric", hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" }).format(date);
+}
+
+function readingTime(content: string) {
+  const words = content.trim().split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.ceil(words / 210));
 }
 
 function asBriefArticle(value: ReturnType<typeof decodeArticleTransport> | Awaited<ReturnType<typeof findArticleBySlug>>): BriefArticle | null {
@@ -78,8 +84,9 @@ export default async function ArticlePage(props: PageProps) {
     const article = resolved.article;
     const visual = sportCoverImage(sport.id);
     const coverImage = article.coverImageUrl || visual.image;
+    const related = (await getNewsroomArticles(80)).filter((item) => item.sportId === article.sportId && item.slug !== article.slug).slice(0, 3);
     const jsonLd = { "@context": "https://schema.org", "@type": "NewsArticle", headline: article.seoTitle || article.title, description: article.seoDescription || article.summary, datePublished: article.publishedAt || article.createdAt, dateModified: article.updatedAt, author: { "@type": "Organization", name: article.authorName || "Redação LAP" }, publisher: { "@type": "Organization", name: "LAP" }, image: coverImage };
-    return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><ArticleFrame sportId={sport.id}><header className="article-hero"><p>{sport.icon} {sport.name} • LAP</p><h1>{article.title}</h1><p className="article-dek">{article.summary}</p><div className="article-meta"><span>{article.authorName || "Redação LAP"}</span><span>•</span><time dateTime={article.publishedAt || article.createdAt}>{formatDate(article.publishedAt || article.createdAt)}</time>{article.updatedAt !== article.createdAt && <><span>•</span><span>atualizado</span></>}</div>{article.tags.length > 0 && <div className="article-tags">{article.tags.map((tag: string) => <Link href={`/modalidades/${sport.id}`} key={tag}>#{tag}</Link>)}</div>}</header><img className="article-cover" src={coverImage} alt={article.title || visual.alt} /><div className="article-content"><EditorialBody content={article.content} /><EditorialSourceCard article={article} /></div></ArticleFrame></>;
+    return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><ArticleFrame sportId={sport.id}><header className="article-hero"><p>{sport.icon} {sport.name} • LAP</p><h1>{article.title}</h1><p className="article-dek">{article.summary}</p><div className="article-meta"><span>{article.authorName || "Redação LAP"}</span><span>•</span><time dateTime={article.publishedAt || article.createdAt}>{formatDate(article.publishedAt || article.createdAt)}</time>{article.updatedAt !== article.createdAt && <><span>•</span><span>atualizado</span></>}</div><div className={styles.readingMeta}>{readingTime(article.content)} min de leitura · texto original LAP</div>{article.tags.length > 0 && <div className="article-tags">{article.tags.map((tag: string) => <Link href={`/modalidades/${sport.id}`} key={tag}>#{tag}</Link>)}</div>}</header><img className="article-cover" src={coverImage} alt={article.title || visual.alt} /><div className="article-content"><div><section className={styles.summaryBox}><p>Resumo da notícia</p><h2>O essencial</h2><span>{article.summary}</span></section><EditorialBody content={article.content} /></div><EditorialSourceCard article={article} /></div>{related.length ? <section className={styles.related}><div className={styles.relatedHeader}><div><p>Leia também</p><h2>Mais de {sport.name}</h2></div><Link href={`/modalidades/${sport.id}`}>Ver todas →</Link></div><div className={styles.relatedGrid}>{related.map((item) => <Link key={item.id} href={`/materias/${item.slug}`} className={styles.relatedCard}><img src={item.coverImageUrl || sportCoverImage(item.sportId as SportId).image} alt={item.title} loading="lazy" /><div><small>{sport.name}</small><strong>{item.title}</strong></div></Link>)}</div></section> : null}</ArticleFrame></>;
   }
 
   const article = resolved.article;
