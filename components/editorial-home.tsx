@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { EventCard } from "@/components/event-card";
 import { LapHeader } from "@/components/lap-header";
+import { curateHomepageNews } from "@/lib/home-news-curation";
 import { SPORTS, type LivePayload, type NewsItem, type ScoreItem, type SportId } from "@/lib/live-data";
 import { sportCoverImage } from "@/lib/sport-visuals";
 import styles from "./editorial-home.module.css";
@@ -78,10 +79,11 @@ export function EditorialHome() {
 
   const news = useMemo(() => {
     if (!payload) return [];
-    return uniqueNews([
+    const originalOrder = uniqueNews([
       ...payload.editorial,
       ...payload.feeds.flatMap((feed) => feed.news),
     ]).filter((item) => item.kind === "editorial");
+    return curateHomepageNews(originalOrder);
   }, [payload]);
 
   const events = useMemo(() => {
@@ -147,7 +149,7 @@ export function EditorialHome() {
           <section className={styles.section}>
             <div className={styles.sectionHeading}>
               <div><p>Últimas notícias</p><h2>Agora na LAP</h2></div>
-              <span>Conteúdo autoral organizado por relevância e atualidade.</span>
+              <span>Conteúdo autoral organizado por relevância, atualidade e variedade de modalidades.</span>
             </div>
             <div className={styles.latestGrid}>{latest.map((item) => <StoryCard key={item.id} item={item} />)}</div>
           </section>
