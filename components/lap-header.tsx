@@ -10,9 +10,6 @@ import { PUBLIC_SPORTS } from "@/lib/public-sports";
 type LapHeaderProps = { activeSport?: SportId | "todos"; onRefresh?: () => void; isRefreshing?: boolean; compact?: boolean };
 type SearchResult = { id: string; title: string; meta: string; href: string; kind: "matéria" | "jogo" | "modalidade" | "liga" | "time" | "atleta" };
 
-const PRIMARY_SPORT_IDS = new Set<SportId>(["futebol", "futebol-americano"]);
-const SECONDARY_SPORTS = PUBLIC_SPORTS.filter((sport) => !PRIMARY_SPORT_IDS.has(sport.id));
-
 function NotificationControl() {
   const [enabled, setEnabled] = useState(false);
   const [supported, setSupported] = useState(false);
@@ -130,11 +127,16 @@ function SearchBox() {
 }
 
 export function LapHeader({ activeSport = "todos", onRefresh, isRefreshing = false }: LapHeaderProps) {
-  const football = PUBLIC_SPORTS.find((sport) => sport.id === "futebol");
-  const nfl = PUBLIC_SPORTS.find((sport) => sport.id === "futebol-americano");
   return <>
     <header className="masthead"><div className="shell masthead__inside"><Link className="brand" href="/" aria-label="LAP, início"><span className="brand__mark">LAP</span><span className="brand__tag">live sports</span></Link><div className="masthead__tools"><SearchBox /><Link href="/favoritos" className="header-icon-button" title="Favoritos" aria-label="Abrir favoritos">★</Link><NotificationControl /><InstallControl />{onRefresh && <button className="refresh-button" type="button" onClick={onRefresh} disabled={isRefreshing}><span aria-hidden>↻</span> {isRefreshing ? "Atualizando" : "Atualizar"}</button>}</div></div></header>
-    <nav className="sport-nav sport-nav--focused" aria-label="Navegação esportiva principal"><div className="shell sport-nav__inside"><Link href="/ao-vivo" className="sport-nav__agenda">Ao Vivo</Link><Link href="/agenda" className="sport-nav__agenda">Agenda</Link>{football && <Link href={`/modalidades/${football.id}`} className={activeSport === football.id ? "active" : ""}>{football.icon} Futebol</Link>}<Link href="/college-football">🏈 College Football</Link>{nfl && <Link href={`/modalidades/${nfl.id}`} className={activeSport === nfl.id ? "active" : ""}>🏈 NFL</Link>}<details className="sport-nav__more"><summary>Mais esportes <span aria-hidden>⌄</span></summary><div className="sport-nav__more-menu">{SECONDARY_SPORTS.map((sport) => <Link href={`/modalidades/${sport.id}`} className={activeSport === sport.id ? "active" : ""} key={sport.id}>{sport.icon} {sport.name}</Link>)}<Link href="/cobertura" className="sport-nav__coverage">◎ Ver toda a cobertura</Link></div></details></div></nav>
+    <nav className="sport-nav sport-nav--focused sport-nav--all-visible" aria-label="Navegação esportiva principal">
+      <div className="shell sport-nav__inside">
+        <Link href="/ao-vivo" className="sport-nav__agenda">Ao Vivo</Link>
+        <Link href="/agenda" className="sport-nav__agenda">Agenda</Link>
+        {PUBLIC_SPORTS.map((sport) => <Link href={`/modalidades/${sport.id}`} className={activeSport === sport.id ? "active" : ""} key={sport.id}>{sport.icon} {sport.name}</Link>)}
+        <Link href="/college-football" className="sport-nav__college">🏈 College Football</Link>
+      </div>
+    </nav>
   </>;
 }
 
