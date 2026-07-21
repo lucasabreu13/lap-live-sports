@@ -1,5 +1,5 @@
-import { LapDashboard } from "@/components/lap-dashboard";
+import { EditorialHome } from "@/components/editorial-home";
 
 export default function Home() {
-  return <LapDashboard />;
+  return <EditorialHome />;
 }
