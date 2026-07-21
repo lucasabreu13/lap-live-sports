@@ -1,42 +1,17 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { FavoriteButton } from "@/components/favorite-button";
 import { readNotificationPreferences, syncPushSubscription, unsubscribePushDevice, writeNotificationPreferences } from "@/lib/client-preferences";
-import { FOOTBALL_COMPETITIONS, type LivePayload, type SportId } from "@/lib/live-data";
+import type { SportId } from "@/lib/live-data";
 import { PUBLIC_SPORTS } from "@/lib/public-sports";
-import { eventHref } from "@/lib/event-presentation";
 
-type LapHeaderProps = {
-  activeSport?: SportId | "todos";
-  onRefresh?: () => void;
-  isRefreshing?: boolean;
-  compact?: boolean;
-};
-
-type SearchResult = { id: string; title: string; meta: string; href: string; kind: "matéria" | "jogo" | "modalidade" | "liga" };
+type LapHeaderProps = { activeSport?: SportId | "todos"; onRefresh?: () => void; isRefreshing?: boolean; compact?: boolean };
+type SearchResult = { id: string; title: string; meta: string; href: string; kind: "matéria" | "jogo" | "modalidade" | "liga" | "time" | "atleta" };
 
 const PRIMARY_SPORT_IDS = new Set<SportId>(["futebol", "futebol-americano"]);
 const SECONDARY_SPORTS = PUBLIC_SPORTS.filter((sport) => !PRIMARY_SPORT_IDS.has(sport.id));
-
-function buildSearchResults(payload: LivePayload | null, query: string): SearchResult[] {
-  if (!payload || query.trim().length < 2) return [];
-  const normalized = query.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-  const matches = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().includes(normalized);
-  const sportMatches = PUBLIC_SPORTS.filter((sport) => matches(sport.name)).map((sport) => ({ id: `sport-${sport.id}`, title: sport.name, meta: "Modalidade", href: `/modalidades/${sport.id}`, kind: "modalidade" as const }));
-  const leagueMatches = FOOTBALL_COMPETITIONS.filter((competition) => matches(competition.name) || matches(competition.country)).slice(0, 5)
-    .map((competition) => ({ id: `league-${competition.id}`, title: competition.name, meta: `Liga · ${competition.country}`, href: `/campeonatos/${competition.id}`, kind: "liga" as const }));
-  const articleMatches = [...payload.editorial, ...payload.feeds.flatMap((feed) => feed.news)]
-    .filter((item) => matches(item.title) || matches(item.excerpt) || matches(item.source))
-    .slice(0, 6)
-    .map((item) => ({ id: `article-${item.id}`, title: item.title, meta: `${item.sportId} · ${item.source}`, href: item.internalUrl, kind: "matéria" as const }));
-  const scoreMatches = payload.feeds.flatMap((feed) => feed.scores)
-    .filter((score) => matches(score.home.name) || matches(score.away.name) || matches(score.league) || matches(score.round || ""))
-    .slice(0, 6)
-    .map((score) => ({ id: `score-${score.sportId}-${score.id}`, title: `${score.home.name} × ${score.away.name}`, meta: `${score.league.replace(/-/g, " ")} · ${score.status}`, href: eventHref(score), kind: "jogo" as const }));
-  return [...sportMatches, ...leagueMatches, ...scoreMatches, ...articleMatches].slice(0, 10);
-}
 
 function NotificationControl() {
   const [enabled, setEnabled] = useState(false);
@@ -57,11 +32,7 @@ function NotificationControl() {
   }, []);
 
   function normalizeVapidPublicKey(value: string) {
-    const cleaned = value
-      .trim()
-      .replace(/^NEXT_PUBLIC_VAPID_PUBLIC_KEY=/, "")
-      .replace(/^['\"]|['\"]$/g, "")
-      .replace(/\s/g, "");
+    const cleaned = value.trim().replace(/^NEXT_PUBLIC_VAPID_PUBLIC_KEY=/, "").replace(/^['\"]|['\"]$/g, "").replace(/\s/g, "");
     if (!cleaned || !/^[A-Za-z0-9_-]+$/.test(cleaned)) throw new Error("VAPID público inválido na Vercel");
     return cleaned;
   }
@@ -84,39 +55,23 @@ function NotificationControl() {
         const subscription = await registration.pushManager.getSubscription();
         await subscription?.unsubscribe().catch(() => false);
         await unsubscribePushDevice(subscription?.endpoint ?? null);
-        setEnabled(false);
-        setLabel("Alertas desativados");
-        return;
+        setEnabled(false); setLabel("Alertas desativados"); return;
       }
-
       const publicKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY;
-      if (!publicKey) {
-        setLabel("VAPID público ausente");
-        return;
-      }
+      if (!publicKey) { setLabel("VAPID público ausente"); return; }
       const permission = Notification.permission === "granted" ? "granted" : await Notification.requestPermission();
-      if (permission !== "granted") {
-        setLabel("Permissão negada pelo navegador");
-        return;
-      }
+      if (permission !== "granted") { setLabel("Permissão negada pelo navegador"); return; }
       const existing = await registration.pushManager.getSubscription();
-      const subscription = existing || await registration.pushManager.subscribe({
-        userVisibleOnly: true,
-        applicationServerKey: vapidKeyToUint8Array(publicKey),
-      });
+      const subscription = existing || await registration.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: vapidKeyToUint8Array(publicKey) });
       writeNotificationPreferences({ enabled: true, favoriteOnly: true });
       await syncPushSubscription(subscription);
-      setEnabled(true);
-      setLabel("Alertas ativos para favoritos");
+      setEnabled(true); setLabel("Alertas ativos para favoritos");
     } catch (error) {
       console.error("[LAP] Falha ao ativar Web Push", error);
-      writeNotificationPreferences({ enabled: false });
-      setEnabled(false);
+      writeNotificationPreferences({ enabled: false }); setEnabled(false);
       const message = error instanceof Error && error.message ? error.message : "Falha ao ativar Web Push";
       setLabel(message.slice(0, 96));
-    } finally {
-      setBusy(false);
-    }
+    } finally { setBusy(false); }
   }
 
   if (!supported) return null;
@@ -126,131 +81,61 @@ function NotificationControl() {
 function InstallControl() {
   const [promptEvent, setPromptEvent] = useState<Event | null>(null);
   const [installed, setInstalled] = useState(false);
-
   useEffect(() => {
-    const listener = (event: Event) => {
-      event.preventDefault();
-      setPromptEvent(event);
-    };
-    const onInstalled = () => {
-      setInstalled(true);
-      setPromptEvent(null);
-    };
-    window.addEventListener("beforeinstallprompt", listener);
-    window.addEventListener("appinstalled", onInstalled);
-    if ("serviceWorker" in navigator) {
-      void navigator.serviceWorker
-        .register("/sw.js", { updateViaCache: "none" })
-        .then((registration) => void registration.update())
-        .catch(() => undefined);
-    }
-    return () => {
-      window.removeEventListener("beforeinstallprompt", listener);
-      window.removeEventListener("appinstalled", onInstalled);
-    };
+    const listener = (event: Event) => { event.preventDefault(); setPromptEvent(event); };
+    const onInstalled = () => { setInstalled(true); setPromptEvent(null); };
+    window.addEventListener("beforeinstallprompt", listener); window.addEventListener("appinstalled", onInstalled);
+    if ("serviceWorker" in navigator) void navigator.serviceWorker.register("/sw.js", { updateViaCache: "none" }).then((registration) => void registration.update()).catch(() => undefined);
+    return () => { window.removeEventListener("beforeinstallprompt", listener); window.removeEventListener("appinstalled", onInstalled); };
   }, []);
-
   async function install() {
     const event = promptEvent as (Event & { prompt?: () => Promise<void>; userChoice?: Promise<{ outcome: string }> }) | null;
     if (!event?.prompt) return;
-    await event.prompt();
-    const choice = await event.userChoice;
-    if (choice?.outcome === "accepted") setPromptEvent(null);
+    await event.prompt(); const choice = await event.userChoice; if (choice?.outcome === "accepted") setPromptEvent(null);
   }
-
   if (installed || !promptEvent) return null;
   return <button type="button" className="header-install" onClick={() => void install()}>Instalar</button>;
 }
 
 function SearchBox() {
   const [query, setQuery] = useState("");
-  const [payload, setPayload] = useState<LivePayload | null>(null);
+  const [results, setResults] = useState<SearchResult[]>([]);
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    if (query.trim().length < 2) {
-      setOpen(false);
-      return;
-    }
+    if (query.trim().length < 2) { setOpen(false); setResults([]); return; }
     const controller = new AbortController();
     const timer = window.setTimeout(async () => {
       setLoading(true);
       try {
-        const response = await fetch("/api/live", { signal: controller.signal });
-        if (!response.ok) return;
-        setPayload(await response.json() as LivePayload);
-        setOpen(true);
-      } catch {
-        // A busca segue disponível na próxima tentativa sem interromper a navegação.
-      } finally {
-        setLoading(false);
-      }
-    }, 180);
-    return () => {
-      window.clearTimeout(timer);
-      controller.abort();
-    };
+        const response = await fetch(`/api/search?q=${encodeURIComponent(query.trim())}`, { signal: controller.signal });
+        if (!response.ok) throw new Error("search unavailable");
+        const payload = await response.json() as { results?: SearchResult[] };
+        setResults(payload.results || []); setOpen(true);
+      } catch { if (!controller.signal.aborted) { setResults([]); setOpen(true); } }
+      finally { if (!controller.signal.aborted) setLoading(false); }
+    }, 220);
+    return () => { window.clearTimeout(timer); controller.abort(); };
   }, [query]);
 
-  const results = useMemo(() => buildSearchResults(payload, query), [payload, query]);
-
-  return (
-    <div className="site-search">
-      <label className="sr-only" htmlFor="lap-search">Buscar na LAP</label>
-      <input id="lap-search" value={query} onChange={(event) => setQuery(event.target.value)} onFocus={() => query.trim().length >= 2 && setOpen(true)} placeholder="Buscar time, atleta ou competição" autoComplete="off" />
-      <span className="site-search__icon" aria-hidden>{loading ? "…" : "⌕"}</span>
-      {open && (
-        <div className="site-search__results" role="listbox" aria-label="Resultados da busca">
-          {results.length ? results.map((result) => (
-            <Link key={result.id} href={result.href} className="site-search__result" onClick={() => { setOpen(false); setQuery(""); }}>
-              <span>{result.kind}</span>
-              <strong>{result.title}</strong>
-              <small>{result.meta}</small>
-            </Link>
-          )) : <p className="site-search__empty">Nenhum resultado encontrado agora.</p>}
-        </div>
-      )}
-    </div>
-  );
+  return <div className="site-search">
+    <label className="sr-only" htmlFor="lap-search">Buscar na LAP</label>
+    <input id="lap-search" value={query} onChange={(event) => setQuery(event.target.value)} onFocus={() => query.trim().length >= 2 && setOpen(true)} placeholder="Buscar atleta, time, matéria ou competição" autoComplete="off" />
+    <span className="site-search__icon" aria-hidden>{loading ? "…" : "⌕"}</span>
+    {open && <div className="site-search__results" role="listbox" aria-label="Resultados da busca">
+      {results.length ? results.map((result) => <Link key={result.id} href={result.href} className="site-search__result" onClick={() => { setOpen(false); setQuery(""); }}><span>{result.kind}</span><strong>{result.title}</strong>{result.meta ? <small>{result.meta}</small> : null}</Link>) : <p className="site-search__empty">Nenhum conteúdo encontrado.</p>}
+    </div>}
+  </div>;
 }
 
 export function LapHeader({ activeSport = "todos", onRefresh, isRefreshing = false }: LapHeaderProps) {
   const football = PUBLIC_SPORTS.find((sport) => sport.id === "futebol");
   const nfl = PUBLIC_SPORTS.find((sport) => sport.id === "futebol-americano");
-
-  return (
-    <>
-      <header className="masthead">
-        <div className="shell masthead__inside">
-          <Link className="brand" href="/" aria-label="LAP, início"><span className="brand__mark">LAP</span><span className="brand__tag">live sports</span></Link>
-          <div className="masthead__tools">
-            <SearchBox />
-            <Link href="/favoritos" className="header-icon-button" title="Favoritos" aria-label="Abrir favoritos">★</Link>
-            <NotificationControl />
-            <InstallControl />
-            {onRefresh && <button className="refresh-button" type="button" onClick={onRefresh} disabled={isRefreshing}><span aria-hidden>↻</span> {isRefreshing ? "Atualizando" : "Atualizar"}</button>}
-          </div>
-        </div>
-      </header>
-      <nav className="sport-nav sport-nav--focused" aria-label="Navegação esportiva principal">
-        <div className="shell sport-nav__inside">
-          <Link href="/ao-vivo" className="sport-nav__agenda">Ao Vivo</Link>
-          <Link href="/agenda" className="sport-nav__agenda">Agenda</Link>
-          {football && <Link href={`/modalidades/${football.id}`} className={activeSport === football.id ? "active" : ""}>{football.icon} Futebol</Link>}
-          <Link href="/college-football">🏈 College Football</Link>
-          {nfl && <Link href={`/modalidades/${nfl.id}`} className={activeSport === nfl.id ? "active" : ""}>🏈 NFL</Link>}
-          <details className="sport-nav__more">
-            <summary>Mais esportes <span aria-hidden>⌄</span></summary>
-            <div className="sport-nav__more-menu">
-              {SECONDARY_SPORTS.map((sport) => <Link href={`/modalidades/${sport.id}`} className={activeSport === sport.id ? "active" : ""} key={sport.id}>{sport.icon} {sport.name}</Link>)}
-              <Link href="/cobertura" className="sport-nav__coverage">◎ Ver toda a cobertura</Link>
-            </div>
-          </details>
-        </div>
-      </nav>
-    </>
-  );
+  return <>
+    <header className="masthead"><div className="shell masthead__inside"><Link className="brand" href="/" aria-label="LAP, início"><span className="brand__mark">LAP</span><span className="brand__tag">live sports</span></Link><div className="masthead__tools"><SearchBox /><Link href="/favoritos" className="header-icon-button" title="Favoritos" aria-label="Abrir favoritos">★</Link><NotificationControl /><InstallControl />{onRefresh && <button className="refresh-button" type="button" onClick={onRefresh} disabled={isRefreshing}><span aria-hidden>↻</span> {isRefreshing ? "Atualizando" : "Atualizar"}</button>}</div></div></header>
+    <nav className="sport-nav sport-nav--focused" aria-label="Navegação esportiva principal"><div className="shell sport-nav__inside"><Link href="/ao-vivo" className="sport-nav__agenda">Ao Vivo</Link><Link href="/agenda" className="sport-nav__agenda">Agenda</Link>{football && <Link href={`/modalidades/${football.id}`} className={activeSport === football.id ? "active" : ""}>{football.icon} Futebol</Link>}<Link href="/college-football">🏈 College Football</Link>{nfl && <Link href={`/modalidades/${nfl.id}`} className={activeSport === nfl.id ? "active" : ""}>🏈 NFL</Link>}<details className="sport-nav__more"><summary>Mais esportes <span aria-hidden>⌄</span></summary><div className="sport-nav__more-menu">{SECONDARY_SPORTS.map((sport) => <Link href={`/modalidades/${sport.id}`} className={activeSport === sport.id ? "active" : ""} key={sport.id}>{sport.icon} {sport.name}</Link>)}<Link href="/cobertura" className="sport-nav__coverage">◎ Ver toda a cobertura</Link></div></details></div></nav>
+  </>;
 }
 
 export function SportFavoriteButton({ sportId }: { sportId: SportId }) {
