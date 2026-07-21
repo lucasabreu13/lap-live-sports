@@ -1,16 +1,10 @@
-.sport-nav--focused{overflow:visible}
-.sport-nav--focused .sport-nav__inside{min-width:0;overflow:visible}
-.sport-nav__more{position:relative;margin-left:auto;align-self:stretch;display:flex;align-items:center}
-.sport-nav__more summary{height:100%;display:flex;align-items:center;gap:6px;padding:0 13px;border-bottom:3px solid transparent;color:#4d575b;font-size:12px;font-weight:850;white-space:nowrap;list-style:none;cursor:pointer;user-select:none}
-.sport-nav__more summary::-webkit-details-marker{display:none}
-.sport-nav__more summary:hover,.sport-nav__more[open] summary{color:var(--ink);border-bottom-color:var(--accent);background:#f6fbfa}
-.sport-nav__more summary span{font-size:11px;color:var(--accent-deep);transition:transform .15s ease}
-.sport-nav__more[open] summary span{transform:rotate(180deg)}
-.sport-nav__more-menu{position:absolute;z-index:60;top:calc(100% + 1px);right:0;width:min(640px,92vw);padding:10px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;background:var(--white);border:1px solid var(--line);box-shadow:var(--shadow)}
-.sport-nav__more-menu a{padding:11px 12px;border:1px solid transparent;border-bottom:1px solid #edf1f1;white-space:normal;line-height:1.2}
-.sport-nav__more-menu a:hover,.sport-nav__more-menu a.active{background:#e9fbf8;border-color:#bfe9e2;color:var(--accent-deep)}
-.sport-nav__more-menu .sport-nav__coverage{grid-column:1/-1;margin-top:4px;background:var(--ink);color:var(--white);border:0;text-align:center}
-.sport-nav__more-menu .sport-nav__coverage:hover{background:var(--accent-deep);color:var(--white)}
+.sport-nav--focused{overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scrollbar-color:#b7c3c4 transparent}
+.sport-nav--focused .sport-nav__inside{display:flex;min-width:max-content;overflow:visible;gap:0}
+.sport-nav--all-visible a{flex:0 0 auto;white-space:nowrap}
+.sport-nav--all-visible .sport-nav__college{border-left:1px solid var(--line)}
+.sport-nav--focused::-webkit-scrollbar{height:6px}
+.sport-nav--focused::-webkit-scrollbar-track{background:transparent}
+.sport-nav--focused::-webkit-scrollbar-thumb{background:#b7c3c4;border-radius:999px}
 
 /* A Copa 2026 permanece como arquivo histórico, mas não compete mais com a cobertura atual. */
 .world-cup--spotlight,a[href="/copa-2026"]{display:none!important}
@@ -41,5 +35,7 @@ article:has(a[href="/modalidades/mma"]),
 article:has(a[href="/modalidades/natacao"]),
 article:has(a[href="/modalidades/atletismo"]){display:none!important}
 
-@media(max-width:900px){.sport-nav--focused{overflow-x:auto;overflow-y:visible}.sport-nav--focused .sport-nav__inside{min-width:max-content}.sport-nav__more{margin-left:0}.sport-nav__more-menu{position:fixed;left:12px;right:12px;top:auto;width:auto;grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:560px){.sport-nav__more-menu{grid-template-columns:1fr;max-height:62vh;overflow:auto}.sport-nav__more-menu .sport-nav__coverage{grid-column:1}}
+@media(max-width:900px){
+  .sport-nav--focused{scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
+  .sport-nav--all-visible a{scroll-snap-align:start}
+}
