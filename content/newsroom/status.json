@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-07-22T13:10:45.514Z",
-  "commit": "1db7f30397288307332d40eb0056f3688d71ff85",
-  "runId": "29922732368",
-  "event": "push",
+  "validatedAt": "2026-07-22T15:14:43.550Z",
+  "commit": "e2ad61172d199df07ef6467598151cd641c8cc5f",
+  "runId": "29932416765",
+  "event": "schedule",
   "stages": {
     "agents": "success",
     "dataStories": "success",
@@ -13,7 +13,7 @@
   },
   "metrics": {
     "articlesCreated": 0,
-    "articlesUpdated": 1,
+    "articlesUpdated": 0,
     "articlesRemoved": 0,
     "articlesRejected": null,
     "lastPublishedAt": "2026-07-22T09:44:50.469Z",
@@ -35,7 +35,7 @@
       "bySport": {
         "futebol": {
           "status": "ok",
-          "ageHours": 3.4,
+          "ageHours": 5.5,
           "lastPublishedAt": "2026-07-22T09:44:50.469Z"
         },
         "futebol-americano": {
@@ -65,7 +65,7 @@
         },
         "beisebol": {
           "status": "critical",
-          "ageHours": 24.3,
+          "ageHours": 26.4,
           "lastPublishedAt": "2026-07-21T12:51:39.313Z"
         },
         "golfe": {
