@@ -1,5 +1,46 @@
 [
   {
+    "id": "newsroom-data-e4441e9747c7",
+    "slug": "santos-supera-ucv-fc-por-4-a-1-pelo-copa-sul-americana-e4441e",
+    "sportId": "futebol",
+    "title": "Santos supera UCV FC por 4 a 1 pelo Copa Sul Americana",
+    "summary": "Santos venceu UCV FC por 4 a 1 pelo Copa Sul Americana.",
+    "content": "Santos venceu UCV FC por 4 a 1 pelo Copa Sul Americana, em 21 de julho de 2026 no Estadio Misael Delgado. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Santos, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-sul-americana"
+    ],
+    "seoTitle": "Santos supera UCV FC por 4 a 1 pelo Copa Sul Americana",
+    "seoDescription": "Santos venceu UCV FC por 4 a 1 pelo Copa Sul Americana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-22T07:18:55.002Z",
+    "createdAt": "2026-07-22T07:18:55.002Z",
+    "updatedAt": "2026-07-22T07:18:55.002Z",
+    "homepagePriority": 58,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401874072",
+      "eventStartTime": "2026-07-22T00:30Z",
+      "retrievedAt": "2026-07-22T07:18:55.002Z",
+      "feedId": "futebol",
+      "league": "Copa Sul-Americana"
+    }
+  },
+  {
     "id": "newsroom-data-bf32836f3b6a",
     "slug": "vila-nova-supera-fortaleza-por-2-a-1-pelo-brasileirao-serie-b-bf3283",
     "sportId": "futebol",
