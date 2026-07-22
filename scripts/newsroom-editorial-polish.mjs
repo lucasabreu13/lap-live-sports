@@ -2,6 +2,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const CONTENT_PATH = path.join(process.cwd(), "content", "newsroom", "articles.json");
+const READER_TERMS_PATH = path.join(process.cwd(), "content", "editorial", "reader-terms.json");
 const MODEL = process.env.NEWSROOM_MODEL || "openai/gpt-4o";
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const RECENT_WINDOW_MS = 45 * 60 * 1000;
@@ -51,13 +52,21 @@ function shouldPolish(article, now) {
   return Number.isFinite(publishedAt) && now - publishedAt <= RECENT_WINDOW_MS;
 }
 
+function readerGlossaryFor(article, terms) {
+  return terms
+    .filter((term) => Array.isArray(term?.sportIds) && term.sportIds.includes(article.sportId))
+    .sort((a, b) => Number(b.priority || 0) - Number(a.priority || 0))
+    .slice(0, 14)
+    .map((term) => ({ aliases: term.aliases, expansion: term.expansion || null, definition: term.definition }));
+}
+
 function validatePolished(article, polished, facts) {
   const content = String(polished?.content || "").trim();
   const summary = String(polished?.summary || "").trim();
   if (!content || !summary) return false;
   const wordCount = words(content).length;
   const paragraphCount = content.split(/\n\s*\n/).filter((item) => item.trim()).length;
-  if (wordCount < 140 || wordCount > 520 || paragraphCount < 4) return false;
+  if (wordCount < 140 || wordCount > 560 || paragraphCount < 4) return false;
   if (summary.length < 45 || summary.length > 360) return false;
   const banned = /base estruturada|fonte esportiva estruturada|esta é uma matéria produzida|o evento consta|como inteligência artificial/i;
   if (banned.test(content) || banned.test(summary)) return false;
@@ -68,11 +77,11 @@ function validatePolished(article, polished, facts) {
   return supportedFacts.length >= Math.min(2, facts.length);
 }
 
-async function polishArticle(article, facts) {
+async function polishArticle(article, facts, readerGlossary) {
   const agentId = String(article.agentId || "");
   const style = STYLE_PROFILES[agentId] || "Redação esportiva profissional: texto natural, informativo e fluido, sem inventar contexto além dos fatos confirmados.";
-  const targetWords = facts.length >= 4 ? "260 a 420" : "160 a 280";
-  const instructions = `Você é um redator esportivo sênior da LAP Live Sports e recebe SOMENTE fatos que já passaram por fact-check determinístico. Sua tarefa é transformar esses fatos em uma matéria jornalística original, fluida e agradável de ler.\n\nESTILO DA EDITORIA:\n${style}\n\nREGRAS ABSOLUTAS:\n1. Use exclusivamente os fatos verificados fornecidos. Não acrescente nomes, números, datas, locais, estatísticas, histórico, causas, consequências específicas, declarações ou detalhes que não estejam nos fatos.\n2. Você pode melhorar transições, ritmo, organização, lead e explicação, mas não criar novas alegações factuais.\n3. Escreva como jornalista esportivo, não como sistema. Nunca mencione base de dados, IA, prompt, fact-check, fonte estruturada ou processo automatizado.\n4. Produza entre ${targetWords} palavras, em 4 a 8 parágrafos curtos. Evite repetição e enchimento artificial.\n5. O primeiro parágrafo deve ser um lead claro. Os seguintes devem organizar e explicar os fatos disponíveis. O fechamento pode indicar que o assunto segue em desenvolvimento, sem prometer fatos futuros.\n6. Não copie formulações de terceiros. O texto deve ser autoral.\n7. Preserve exatamente qualquer número que decidir usar.\n8. summary deve ter de 1 a 2 frases e resumir apenas os fatos verificados.\n\nRetorne SOMENTE JSON válido: {"summary":"...","content":"..."}`;
+  const targetWords = facts.length >= 4 ? "260 a 440" : "170 a 300";
+  const instructions = `Você é um redator esportivo sênior da LAP Live Sports e recebe SOMENTE fatos que já passaram por fact-check determinístico. Sua tarefa é transformar esses fatos em uma matéria jornalística original, fluida e agradável de ler.\n\nESTILO DA EDITORIA:\n${style}\n\nREGRAS ABSOLUTAS:\n1. Use exclusivamente os fatos verificados fornecidos. Não acrescente nomes, números, datas, locais, estatísticas, histórico, causas, consequências específicas, declarações ou detalhes que não estejam nos fatos.\n2. Você pode melhorar transições, ritmo, organização, lead e explicação, mas não criar novas alegações factuais.\n3. Escreva como jornalista esportivo, não como sistema. Nunca mencione base de dados, IA, prompt, fact-check, fonte estruturada ou processo automatizado.\n4. Produza entre ${targetWords} palavras, em 4 a 8 parágrafos curtos. Evite repetição e enchimento artificial.\n5. O primeiro parágrafo deve ser um lead claro. Os seguintes devem organizar e explicar os fatos disponíveis. O fechamento pode indicar que o assunto segue em desenvolvimento, sem prometer fatos futuros.\n6. Não copie formulações de terceiros. O texto deve ser autoral.\n7. Preserve exatamente qualquer número que decidir usar.\n8. summary deve ter de 1 a 2 frases e resumir apenas os fatos verificados.\n9. CLAREZA PARA O LEITOR: ao usar uma sigla, expressão em inglês ou jargão técnico que possa interromper a compreensão, explique seu significado de forma curta e natural na PRIMEIRA ocorrência. A explicação deve fazer parte da frase ou do parágrafo, não virar glossário, nota de rodapé ou aula.\n10. Para explicar jargões, use SOMENTE as definições fornecidas em readerGlossary. Não invente definições com conhecimento próprio. Se um termo não estiver no glossário, prefira uma expressão em português ou deixe o termo sem uma definição especulativa.\n11. Explique apenas o que realmente ajuda a entender a notícia, normalmente de 1 a 5 termos por matéria. Não explique palavras comuns nem trate o leitor de forma infantilizada.\n12. Não introduza um termo técnico só para poder explicá-lo. A explicação existe para servir à notícia, não o contrário.\n\nRetorne SOMENTE JSON válido: {"summary":"...","content":"..."}`;
 
   const response = await fetch("https://models.github.ai/inference/chat/completions", {
     method: "POST",
@@ -80,11 +89,11 @@ async function polishArticle(article, facts) {
     body: JSON.stringify({
       model: MODEL,
       temperature: 0.35,
-      max_tokens: 2200,
+      max_tokens: 2400,
       response_format: { type: "json_object" },
       messages: [
         { role: "system", content: instructions },
-        { role: "user", content: JSON.stringify({ title: article.title, sport: agentId, verifiedFacts: facts }) },
+        { role: "user", content: JSON.stringify({ title: article.title, sport: agentId, verifiedFacts: facts, readerGlossary }) },
       ],
     }),
   });
@@ -97,8 +106,12 @@ async function polishArticle(article, facts) {
 
 async function main() {
   if (!GITHUB_TOKEN) { console.log("GITHUB_TOKEN ausente; etapa de polimento editorial ignorada."); return; }
-  const raw = await readFile(CONTENT_PATH, "utf8");
+  const [raw, readerTermsRaw] = await Promise.all([
+    readFile(CONTENT_PATH, "utf8"),
+    readFile(READER_TERMS_PATH, "utf8").catch(() => "[]"),
+  ]);
   const articles = JSON.parse(raw);
+  const readerTerms = JSON.parse(readerTermsRaw);
   if (!Array.isArray(articles)) throw new Error("Arquivo de matérias inválido.");
   const now = Date.now();
   let polishedCount = 0;
@@ -108,7 +121,7 @@ async function main() {
     const facts = extractVerifiedFacts(article);
     if (facts.length < 2) continue;
     try {
-      const polished = await polishArticle(article, facts);
+      const polished = await polishArticle(article, facts, readerGlossaryFor(article, Array.isArray(readerTerms) ? readerTerms : []));
       if (!validatePolished(article, polished, facts)) {
         console.warn(`[${article.agentId}] texto especializado rejeitado pela validação: ${article.title}`);
         continue;
@@ -119,8 +132,9 @@ async function main() {
       article.updatedAt = new Date().toISOString();
       article.editorialPolished = true;
       article.editorialDesk = article.agentId || "geral";
+      article.readerClarity = true;
       polishedCount += 1;
-      console.log(`[${article.agentId}] matéria revisada pela mesa especializada: ${article.title}`);
+      console.log(`[${article.agentId}] matéria revisada pela mesa especializada com clareza para o leitor: ${article.title}`);
     } catch (error) {
       console.error(`[${article.agentId}] falha no polimento editorial:`, error instanceof Error ? error.message : error);
     }
