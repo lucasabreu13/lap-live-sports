@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "coverageStatus": "ok",
-  "validatedAt": "2026-07-22T20:43:26.047Z",
-  "commit": "2c162b614ee41336d94f6a02f2e42c57489312da",
-  "runId": "29956288263",
-  "event": "schedule",
+  "validatedAt": "2026-07-22T21:06:57.025Z",
+  "commit": "73f19cd7618fbd6fd707ddad821a4fd62ef455cb",
+  "runId": "29957910091",
+  "event": "push",
   "stages": {
     "agents": "success",
     "dataStories": "success",
@@ -14,10 +14,11 @@
   },
   "metrics": {
     "articlesCreated": 0,
-    "articlesUpdated": 0,
+    "articlesUpdated": 1,
     "articlesRemoved": 0,
     "articlesRejected": null,
     "curatedArticles": 9,
+    "editorialOverrides": 1,
     "lastPublishedAt": "2026-07-22T18:10:00.000Z",
     "lastPublishedBySport": {
       "futebol": "2026-07-22T18:10:00.000Z",
@@ -37,47 +38,47 @@
       "bySport": {
         "futebol": {
           "status": "ok",
-          "ageHours": 2.6,
+          "ageHours": 2.9,
           "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "futebol-americano": {
           "status": "ok",
-          "ageHours": 2.6,
+          "ageHours": 2.9,
           "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "tenis": {
           "status": "ok",
-          "ageHours": 2.6,
+          "ageHours": 2.9,
           "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "ciclismo": {
           "status": "ok",
-          "ageHours": 2.6,
+          "ageHours": 2.9,
           "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "formula1": {
           "status": "ok",
-          "ageHours": 2.6,
+          "ageHours": 2.9,
           "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "basquete": {
           "status": "ok",
-          "ageHours": 2.6,
+          "ageHours": 2.9,
           "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "beisebol": {
           "status": "ok",
-          "ageHours": 2.6,
+          "ageHours": 2.9,
           "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "golfe": {
           "status": "ok",
-          "ageHours": 2.6,
+          "ageHours": 2.9,
           "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "surfe": {
           "status": "ok",
-          "ageHours": 2.6,
+          "ageHours": 2.9,
           "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         }
       }
@@ -85,6 +86,7 @@
   },
   "metricNotes": {
     "articlesRejected": "Rejeições editoriais ainda não são persistidas pelos estágios; null evita reportar zero sem evidência.",
-    "curatedArticles": "Matérias verificadas e preservadas fora da geração automática para não serem removidas nas rodadas do Newsroom."
+    "curatedArticles": "Matérias verificadas e preservadas fora da geração automática para não serem removidas nas rodadas do Newsroom.",
+    "editorialOverrides": "Revisões editoriais explícitas aplicadas sobre matérias já publicadas, inclusive para clareza de termos técnicos."
   }
 }
