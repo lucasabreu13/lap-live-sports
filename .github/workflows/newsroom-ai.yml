@@ -10,6 +10,8 @@ on:
       - "scripts/newsroom-data-stories.mjs"
       - "scripts/newsroom-editorial-polish.mjs"
       - "scripts/newsroom-maintenance.mjs"
+      - "scripts/newsroom-curated-merge.mjs"
+      - "content/newsroom/curated-articles.json"
       - "lib/newsroom-content.ts"
       - "lib/lap-news-mode.ts"
   schedule:
@@ -68,6 +70,11 @@ jobs:
         continue-on-error: true
         run: node scripts/newsroom-maintenance.mjs
 
+      - name: Ensure verified curated stories stay in the public archive
+        id: curated_merge
+        continue-on-error: true
+        run: node scripts/newsroom-curated-merge.mjs
+
       - name: Record pipeline validation and coverage health
         if: always()
         env:
@@ -75,6 +82,7 @@ jobs:
           DATA_STORIES_OUTCOME: ${{ steps.data_stories.outcome }}
           EDITORIAL_POLISH_OUTCOME: ${{ steps.editorial_polish.outcome }}
           MAINTENANCE_OUTCOME: ${{ steps.maintenance.outcome }}
+          CURATED_MERGE_OUTCOME: ${{ steps.curated_merge.outcome }}
         run: |
           node - <<'NODE'
           const fs = require('fs');
@@ -84,6 +92,7 @@ jobs:
             dataStories: process.env.DATA_STORIES_OUTCOME || 'unknown',
             editorialPolish: process.env.EDITORIAL_POLISH_OUTCOME || 'unknown',
             maintenance: process.env.MAINTENANCE_OUTCOME || 'unknown',
+            curatedMerge: process.env.CURATED_MERGE_OUTCOME || 'unknown',
           };
           const sourceErrors = Object.entries(stages).filter(([, value]) => value !== 'success').map(([stage, outcome]) => ({ stage, outcome }));
           const status = sourceErrors.length ? 'degraded' : 'ok';
@@ -91,6 +100,9 @@ jobs:
             try { const parsed = JSON.parse(text); return Array.isArray(parsed) ? parsed : []; } catch { return []; }
           };
           const current = readArticles(fs.readFileSync('content/newsroom/articles.json', 'utf8'));
+          const curated = fs.existsSync('content/newsroom/curated-articles.json')
+            ? readArticles(fs.readFileSync('content/newsroom/curated-articles.json', 'utf8'))
+            : [];
           let previous = [];
           try { previous = readArticles(execFileSync('git', ['show', 'HEAD:content/newsroom/articles.json'], { encoding: 'utf8' })); } catch {}
           const previousById = new Map(previous.map((article) => [article.id || article.slug, article]));
@@ -132,6 +144,7 @@ jobs:
               articlesUpdated: updated.length,
               articlesRemoved: removed.length,
               articlesRejected: null,
+              curatedArticles: curated.length,
               lastPublishedAt: byPublishedAt[0]?.publishedAt || byPublishedAt[0]?.createdAt || null,
               lastPublishedBySport,
               sourceErrors,
@@ -139,6 +152,7 @@ jobs:
             },
             metricNotes: {
               articlesRejected: 'Rejeições editoriais ainda não são persistidas pelos estágios; null evita reportar zero sem evidência.',
+              curatedArticles: 'Matérias verificadas e preservadas fora da geração automática para não serem removidas nas rodadas do Newsroom.',
             },
           };
           fs.writeFileSync('content/newsroom/status.json', `${JSON.stringify(payload, null, 2)}\n`);
