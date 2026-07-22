@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-07-22T16:46:36.729Z",
-  "commit": "6021039d4bc3c0e4c76eaca89c46dd79e1862b49",
-  "runId": "29939473448",
+  "validatedAt": "2026-07-22T18:00:55.909Z",
+  "commit": "40a7d898f0612a9ccf277e538194e41fd0f53371",
+  "runId": "29944818523",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -35,7 +35,7 @@
       "bySport": {
         "futebol": {
           "status": "ok",
-          "ageHours": 7,
+          "ageHours": 8.3,
           "lastPublishedAt": "2026-07-22T09:44:50.469Z"
         },
         "futebol-americano": {
@@ -65,7 +65,7 @@
         },
         "beisebol": {
           "status": "critical",
-          "ageHours": 27.9,
+          "ageHours": 29.2,
           "lastPublishedAt": "2026-07-21T12:51:39.313Z"
         },
         "golfe": {
