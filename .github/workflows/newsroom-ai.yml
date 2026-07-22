@@ -12,7 +12,10 @@ on:
       - "scripts/newsroom-maintenance.mjs"
       - "scripts/newsroom-curated-merge.mjs"
       - "content/newsroom/curated-articles.json"
+      - "content/newsroom/editorial-overrides.json"
+      - "content/editorial/reader-terms.json"
       - "lib/newsroom-content.ts"
+      - "lib/reader-clarity.ts"
       - "lib/lap-news-mode.ts"
   schedule:
     - cron: "*/15 * * * *"
@@ -103,6 +106,9 @@ jobs:
           const curated = fs.existsSync('content/newsroom/curated-articles.json')
             ? readArticles(fs.readFileSync('content/newsroom/curated-articles.json', 'utf8'))
             : [];
+          const overrides = fs.existsSync('content/newsroom/editorial-overrides.json')
+            ? readArticles(fs.readFileSync('content/newsroom/editorial-overrides.json', 'utf8'))
+            : [];
           let previous = [];
           try { previous = readArticles(execFileSync('git', ['show', 'HEAD:content/newsroom/articles.json'], { encoding: 'utf8' })); } catch {}
           const previousById = new Map(previous.map((article) => [article.id || article.slug, article]));
@@ -145,6 +151,7 @@ jobs:
               articlesRemoved: removed.length,
               articlesRejected: null,
               curatedArticles: curated.length,
+              editorialOverrides: overrides.length,
               lastPublishedAt: byPublishedAt[0]?.publishedAt || byPublishedAt[0]?.createdAt || null,
               lastPublishedBySport,
               sourceErrors,
@@ -153,6 +160,7 @@ jobs:
             metricNotes: {
               articlesRejected: 'Rejeições editoriais ainda não são persistidas pelos estágios; null evita reportar zero sem evidência.',
               curatedArticles: 'Matérias verificadas e preservadas fora da geração automática para não serem removidas nas rodadas do Newsroom.',
+              editorialOverrides: 'Revisões editoriais explícitas aplicadas sobre matérias já publicadas, inclusive para clareza de termos técnicos.',
             },
           };
           fs.writeFileSync('content/newsroom/status.json', `${JSON.stringify(payload, null, 2)}\n`);
