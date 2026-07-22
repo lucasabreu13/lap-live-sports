@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { MatchCenterAgenda } from "@/components/match-center-agenda";
 import { getCachedLivePayload } from "@/lib/free-live-data";
 import { FOOTBALL_COMPETITIONS, SPORTS } from "@/lib/live-data";
+import { toPublicLivePayload } from "@/lib/public-sports";
 
 export const metadata: Metadata = {
   title: "Agenda e Match Center",
@@ -17,10 +18,11 @@ function firstParam(value: string | string[] | undefined) {
 }
 
 export default async function SchedulePage({ searchParams }: PageProps) {
-  const [query, initialPayload] = await Promise.all([
+  const [query, rawPayload] = await Promise.all([
     searchParams,
     getCachedLivePayload({ preferCached: true }).catch(() => null),
   ]);
+  const initialPayload = rawPayload ? toPublicLivePayload(rawPayload) : null;
   const requestedSport = firstParam(query.sport);
   const requestedCompetition = firstParam(query.liga);
   const requestedCountry = firstParam(query.pais)?.trim() ?? "";
