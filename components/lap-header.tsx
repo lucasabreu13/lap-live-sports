@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 import { FavoriteButton } from "@/components/favorite-button";
 import { readNotificationPreferences, syncPushSubscription, unsubscribePushDevice, writeNotificationPreferences } from "@/lib/client-preferences";
 import type { SportId } from "@/lib/live-data";
@@ -9,6 +10,8 @@ import { PUBLIC_SPORTS } from "@/lib/public-sports";
 
 type LapHeaderProps = { activeSport?: SportId | "todos"; onRefresh?: () => void; isRefreshing?: boolean; compact?: boolean };
 type SearchResult = { id: string; title: string; meta: string; href: string; kind: "matéria" | "jogo" | "modalidade" | "liga" | "time" | "atleta" };
+
+const searchCache = new Map<string, SearchResult[]>();
 
 function NotificationControl() {
   const [enabled, setEnabled] = useState(false);
@@ -72,7 +75,8 @@ function NotificationControl() {
   }
 
   if (!supported) return null;
-  return <button type="button" className={`header-icon-button ${enabled ? "header-icon-button--active" : ""}`} onClick={() => void toggleAlerts()} title={enabled ? "Desativar alertas" : label} aria-pressed={enabled} disabled={busy}>{enabled ? "🔔" : "🔕"}</button>;
+  const accessibleLabel = enabled ? "Desativar alertas para favoritos" : label;
+  return <button type="button" className={`header-icon-button ${enabled ? "header-icon-button--active" : ""}`} onClick={() => void toggleAlerts()} title={accessibleLabel} aria-label={accessibleLabel} aria-pressed={enabled} disabled={busy}>{enabled ? "🔔" : "🔕"}</button>;
 }
 
 function InstallControl() {
@@ -101,40 +105,54 @@ function SearchBox() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    if (query.trim().length < 2) { setOpen(false); setResults([]); return; }
+    const normalized = query.trim();
+    if (normalized.length < 3) { setOpen(false); setResults([]); setLoading(false); return; }
+    const cacheKey = normalized.toLocaleLowerCase("pt-BR");
+    const cached = searchCache.get(cacheKey);
+    if (cached) { setResults(cached); setOpen(true); setLoading(false); return; }
     const controller = new AbortController();
     const timer = window.setTimeout(async () => {
       setLoading(true);
       try {
-        const response = await fetch(`/api/search?q=${encodeURIComponent(query.trim())}`, { signal: controller.signal });
+        const response = await fetch(`/api/search?q=${encodeURIComponent(normalized)}`, { signal: controller.signal });
         if (!response.ok) throw new Error("search unavailable");
         const payload = await response.json() as { results?: SearchResult[] };
-        setResults(payload.results || []); setOpen(true);
+        const next = payload.results || [];
+        searchCache.set(cacheKey, next);
+        setResults(next); setOpen(true);
       } catch { if (!controller.signal.aborted) { setResults([]); setOpen(true); } }
       finally { if (!controller.signal.aborted) setLoading(false); }
-    }, 220);
+    }, 450);
     return () => { window.clearTimeout(timer); controller.abort(); };
   }, [query]);
 
-  return <div className="site-search">
+  return <div className="site-search" role="search">
     <label className="sr-only" htmlFor="lap-search">Buscar na LAP</label>
-    <input id="lap-search" value={query} onChange={(event) => setQuery(event.target.value)} onFocus={() => query.trim().length >= 2 && setOpen(true)} placeholder="Buscar atleta, time, matéria ou competição" autoComplete="off" />
+    <input id="lap-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} onFocus={() => query.trim().length >= 3 && setOpen(true)} placeholder="Buscar atleta, time, matéria ou competição" autoComplete="off" aria-expanded={open} aria-controls="lap-search-results" />
     <span className="site-search__icon" aria-hidden>{loading ? "…" : "⌕"}</span>
-    {open && <div className="site-search__results" role="listbox" aria-label="Resultados da busca">
-      {results.length ? results.map((result) => <Link key={result.id} href={result.href} className="site-search__result" onClick={() => { setOpen(false); setQuery(""); }}><span>{result.kind}</span><strong>{result.title}</strong>{result.meta ? <small>{result.meta}</small> : null}</Link>) : <p className="site-search__empty">Nenhum conteúdo encontrado.</p>}
+    {open && <div id="lap-search-results" className="site-search__results" role="list" aria-label="Resultados da busca">
+      {results.length ? results.map((result) => <Link role="listitem" key={result.id} href={result.href} className="site-search__result" onClick={() => { setOpen(false); setQuery(""); }}><span>{result.kind}</span><strong>{result.title}</strong>{result.meta ? <small>{result.meta}</small> : null}</Link>) : <p className="site-search__empty">Nenhum conteúdo encontrado.</p>}
     </div>}
   </div>;
 }
 
 export function LapHeader({ activeSport = "todos", onRefresh, isRefreshing = false }: LapHeaderProps) {
+  const pathname = usePathname();
+  const navRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const active = navRef.current?.querySelector<HTMLElement>("[aria-current='page']");
+    active?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+  }, [pathname, activeSport]);
+
   return <>
     <header className="masthead"><div className="shell masthead__inside"><Link className="brand" href="/" aria-label="LAP, início"><span className="brand__mark">LAP</span><span className="brand__tag">live sports</span></Link><div className="masthead__tools"><SearchBox /><Link href="/favoritos" className="header-icon-button" title="Favoritos" aria-label="Abrir favoritos">★</Link><NotificationControl /><InstallControl />{onRefresh && <button className="refresh-button" type="button" onClick={onRefresh} disabled={isRefreshing}><span aria-hidden>↻</span> {isRefreshing ? "Atualizando" : "Atualizar"}</button>}</div></div></header>
     <nav className="sport-nav sport-nav--focused sport-nav--all-visible" aria-label="Navegação esportiva principal">
-      <div className="shell sport-nav__inside">
-        <Link href="/ao-vivo" className="sport-nav__agenda">Ao Vivo</Link>
-        <Link href="/agenda" className="sport-nav__agenda">Agenda</Link>
-        {PUBLIC_SPORTS.map((sport) => <Link href={`/modalidades/${sport.id}`} className={activeSport === sport.id ? "active" : ""} key={sport.id}>{sport.icon} {sport.name}</Link>)}
-        <Link href="/college-football" className="sport-nav__college">🏈 College Football</Link>
+      <div ref={navRef} className="shell sport-nav__inside">
+        <Link href="/ao-vivo" className="sport-nav__agenda" aria-current={pathname === "/ao-vivo" ? "page" : undefined}>Ao Vivo</Link>
+        <Link href="/agenda" className="sport-nav__agenda" aria-current={pathname === "/agenda" ? "page" : undefined}>Agenda</Link>
+        {PUBLIC_SPORTS.map((sport) => <Link href={`/modalidades/${sport.id}`} className={activeSport === sport.id ? "active" : ""} aria-current={pathname === `/modalidades/${sport.id}` ? "page" : undefined} key={sport.id}>{sport.icon} {sport.name}</Link>)}
+        <Link href="/college-football" className="sport-nav__college" aria-current={pathname === "/college-football" ? "page" : undefined}>🏈 College Football</Link>
       </div>
     </nav>
   </>;
