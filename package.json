@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "test:integrity": "tsx --test tests/score-integrity.test.ts",
     "test:push": "tsx --test tests/push-alerts.test.ts",
-    "test:data": "tsx --test tests/score-integrity.test.ts tests/event-presentation.test.ts tests/live-data-details.test.ts",
+    "test:reader-clarity": "tsx --test tests/reader-clarity.test.ts",
+    "test:data": "tsx --test tests/score-integrity.test.ts tests/event-presentation.test.ts tests/live-data-details.test.ts tests/reader-clarity.test.ts",
     "audit:site": "tsx scripts/run-site-audit.ts"
   },
   "dependencies": {
