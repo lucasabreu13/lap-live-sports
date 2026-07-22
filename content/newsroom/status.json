@@ -1,32 +1,34 @@
 {
   "status": "ok",
-  "coverageStatus": "critical",
-  "validatedAt": "2026-07-22T18:00:55.909Z",
-  "commit": "40a7d898f0612a9ccf277e538194e41fd0f53371",
-  "runId": "29944818523",
-  "event": "schedule",
+  "coverageStatus": "ok",
+  "validatedAt": "2026-07-22T18:19:46.689Z",
+  "commit": "1f8887e9cf2b37624d180778c4d2975a1124d701",
+  "runId": "29946168977",
+  "event": "push",
   "stages": {
     "agents": "success",
     "dataStories": "success",
     "editorialPolish": "success",
-    "maintenance": "success"
+    "maintenance": "success",
+    "curatedMerge": "success"
   },
   "metrics": {
-    "articlesCreated": 0,
+    "articlesCreated": 9,
     "articlesUpdated": 0,
     "articlesRemoved": 0,
     "articlesRejected": null,
-    "lastPublishedAt": "2026-07-22T09:44:50.469Z",
+    "curatedArticles": 9,
+    "lastPublishedAt": "2026-07-22T18:10:00.000Z",
     "lastPublishedBySport": {
-      "futebol": "2026-07-22T09:44:50.469Z",
-      "futebol-americano": null,
-      "tenis": null,
-      "ciclismo": null,
-      "formula1": null,
-      "basquete": null,
-      "beisebol": "2026-07-21T12:51:39.313Z",
-      "golfe": null,
-      "surfe": null
+      "futebol": "2026-07-22T18:10:00.000Z",
+      "futebol-americano": "2026-07-22T18:10:00.000Z",
+      "tenis": "2026-07-22T18:10:00.000Z",
+      "ciclismo": "2026-07-22T18:10:00.000Z",
+      "formula1": "2026-07-22T18:10:00.000Z",
+      "basquete": "2026-07-22T18:10:00.000Z",
+      "beisebol": "2026-07-22T18:10:00.000Z",
+      "golfe": "2026-07-22T18:10:00.000Z",
+      "surfe": "2026-07-22T18:10:00.000Z"
     },
     "sourceErrors": [],
     "freshnessSLA": {
@@ -35,53 +37,54 @@
       "bySport": {
         "futebol": {
           "status": "ok",
-          "ageHours": 8.3,
-          "lastPublishedAt": "2026-07-22T09:44:50.469Z"
+          "ageHours": 0.2,
+          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "futebol-americano": {
-          "status": "critical",
-          "ageHours": null,
-          "lastPublishedAt": null
+          "status": "ok",
+          "ageHours": 0.2,
+          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "tenis": {
-          "status": "critical",
-          "ageHours": null,
-          "lastPublishedAt": null
+          "status": "ok",
+          "ageHours": 0.2,
+          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "ciclismo": {
-          "status": "critical",
-          "ageHours": null,
-          "lastPublishedAt": null
+          "status": "ok",
+          "ageHours": 0.2,
+          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "formula1": {
-          "status": "critical",
-          "ageHours": null,
-          "lastPublishedAt": null
+          "status": "ok",
+          "ageHours": 0.2,
+          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "basquete": {
-          "status": "critical",
-          "ageHours": null,
-          "lastPublishedAt": null
+          "status": "ok",
+          "ageHours": 0.2,
+          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "beisebol": {
-          "status": "critical",
-          "ageHours": 29.2,
-          "lastPublishedAt": "2026-07-21T12:51:39.313Z"
+          "status": "ok",
+          "ageHours": 0.2,
+          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "golfe": {
-          "status": "critical",
-          "ageHours": null,
-          "lastPublishedAt": null
+          "status": "ok",
+          "ageHours": 0.2,
+          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         },
         "surfe": {
-          "status": "critical",
-          "ageHours": null,
-          "lastPublishedAt": null
+          "status": "ok",
+          "ageHours": 0.2,
+          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
         }
       }
     }
   },
   "metricNotes": {
-    "articlesRejected": "Rejeições editoriais ainda não são persistidas pelos estágios; null evita reportar zero sem evidência."
+    "articlesRejected": "Rejeições editoriais ainda não são persistidas pelos estágios; null evita reportar zero sem evidência.",
+    "curatedArticles": "Matérias verificadas e preservadas fora da geração automática para não serem removidas nas rodadas do Newsroom."
   }
 }
