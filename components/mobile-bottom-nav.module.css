@@ -4,14 +4,14 @@
 
 @media (max-width: 780px){
   :global(body){
-    padding-bottom:78px;
+    padding-bottom:calc(78px + env(safe-area-inset-bottom, 0px));
   }
 
   .nav{
     position:fixed;
     left:12px;
     right:12px;
-    bottom:12px;
+    bottom:calc(12px + env(safe-area-inset-bottom, 0px));
     z-index:60;
     display:grid;
     grid-template-columns:repeat(5,1fr);
@@ -40,7 +40,9 @@
   }
 
   .nav a:hover,
-  .nav a:focus-visible{
+  .nav a:focus-visible,
+  .nav a.active,
+  .nav a[aria-current="page"]{
     color:#fff;
     background:rgba(255,255,255,.1);
     outline:none;
