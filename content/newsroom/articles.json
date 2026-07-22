@@ -1,5 +1,81 @@
 [
   {
+    "id": "newsroom-data-7504afd7395b",
+    "slug": "criciuma-supera-novorizontino-por-1-a-0-pelo-brasileirao-serie-b-7504af",
+    "sportId": "futebol",
+    "title": "Criciúma supera Novorizontino por 1 a 0 pelo Brasileirão Série B",
+    "summary": "Criciúma venceu Novorizontino por 1 a 0 pelo Brasileirão Série B.",
+    "content": "Criciúma venceu Novorizontino por 1 a 0 pelo Brasileirão Série B, em 21 de julho de 2026 no Estádio Dr. Jorge Ismael de Biasi. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Criciúma, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "brasileirao-serie-b"
+    ],
+    "seoTitle": "Criciúma supera Novorizontino por 1 a 0 pelo Brasileirão Série B",
+    "seoDescription": "Criciúma venceu Novorizontino por 1 a 0 pelo Brasileirão Série B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-22T09:44:50.469Z",
+    "createdAt": "2026-07-22T09:44:50.469Z",
+    "updatedAt": "2026-07-22T09:44:50.469Z",
+    "homepagePriority": 58,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401860247",
+      "eventStartTime": "2026-07-21T22:30Z",
+      "retrievedAt": "2026-07-22T09:44:50.469Z",
+      "feedId": "futebol",
+      "league": "Brasileirão Série B"
+    }
+  },
+  {
+    "id": "newsroom-badbc34574ba",
+    "slug": "thaisa-assuncao-confiante-para-estreia-do-nike-lusso-na-champions-league-feminina-badbc3",
+    "sportId": "futebol",
+    "title": "Thaisa Assunção confiante para estreia do Nike Lusso na Champions League Feminina",
+    "summary": "Thaisa Assunção destacou a confiança do Nike Lusso para a estreia na Champions League Feminina.",
+    "content": "A meio-campista Thaisa Assunção demonstrou otimismo ao projetar a estreia do Nike Lusso na Champions League Feminina. Em um momento de grande expectativa, a jogadora destacou a confiança da equipe para encarar o desafio continental. \n\nO torneio, que reúne os principais times do futebol feminino europeu, é uma vitrine de alto nível, e Thaisa parece ciente da responsabilidade. Segundo ela, o Nike Lusso está preparado para competir de igual para igual, mostrando o trabalho que vem sendo desenvolvido pela equipe.\n\nA confiança mencionada por Thaisa reflete não apenas o potencial técnico do elenco, mas também a mentalidade de um grupo que busca se firmar entre os grandes do continente. A estreia na Champions League Feminina é sempre um marco importante, e o Nike Lusso parece determinado a fazer história.\n\nCom a preparação concluída, agora os olhos se voltam para o desempenho em campo. A declaração de Thaisa Assunção reforça a expectativa de um time que chega para competir com ambição e foco. O desfecho dessa estreia promete ser acompanhado de perto por torcedores e especialistas.",
+    "sourceName": "Fontes verificadas: LANCE!, 365Scores",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmN1T3puaU8xRjA4eDU1M005eXpMd05rYzlJM0xZalZINUc2NFZhdkJLRFctT0hCMHNDNHctdVVsOFRPbHp2eWdwOVlCYmZPZTV5TUdMakJpd3ZuYkY5OEREY1pVOFpiMmZSdmNBOXRvTkYwaDFheWhNOGpsblhkc2NqRUpuaktRVVRBYWdYMlBMTEFyZXBVengyUHhfd1B3di1lcUdLcXgyN1BnUGE5VDZVV0ZONVB1Tmc?oc=5",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "champions-league-feminina",
+      "thaisa-assuncao"
+    ],
+    "seoTitle": "Thaisa Assunção confiante para estreia do Nike Lusso na Champions Leag",
+    "seoDescription": "Thaisa Assunção destacou a confiança do Nike Lusso para a estreia na Champions League Feminina.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-22T09:44:48.694Z",
+    "createdAt": "2026-07-22T09:44:48.694Z",
+    "updatedAt": "2026-07-22T09:45:09.503Z",
+    "homepagePriority": 70,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmN1T3puaU8xRjA4eDU1M005eXpMd05rYzlJM0xZalZINUc2NFZhdkJLRFctT0hCMHNDNHctdVVsOFRPbHp2eWdwOVlCYmZPZTV5TUdMakJpd3ZuYkY5OEREY1pVOFpiMmZSdmNBOXRvTkYwaDFheWhNOGpsblhkc2NqRUpuaktRVVRBYWdYMlBMTEFyZXBVengyUHhfd1B3di1lcUdLcXgyN1BnUGE5VDZVV0ZONVB1Tmc?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLUs5aDh6VE9KWVhtTTFZa0J1dXhpRmlILU1ZeUF3TG5MbjBBNVhGOWdTMGt1cmhfaFJoOC1XLVBYR1E5OUtwTFRDbmFEb2RDemRVaG43eVloR0Iwc2ZKNlBlOEpfcUsteVl4X1l6TTZqWmpFemhzODh2UU5JZ0huSjN3MExiMFRQODE3aUk0ZTh4cGFIX0hxcG5hRUVCYXM0?oc=5"
+    ],
+    "verifiedFacts": 2,
+    "editorialPolished": true,
+    "editorialDesk": "futebol"
+  },
+  {
     "id": "newsroom-data-e4441e9747c7",
     "slug": "santos-supera-ucv-fc-por-4-a-1-pelo-copa-sul-americana-e4441e",
     "sportId": "futebol",
