@@ -7,17 +7,22 @@ import { getProLeagueHub, PRO_LEAGUES, type ProLeagueId } from "@/lib/rich-team-
 
 export const dynamic = "force-dynamic";
 type SearchResult = { id: string; title: string; meta: string; href: string; kind: "matéria" | "jogo" | "modalidade" | "liga" | "time" | "atleta" };
+type IndexedResult = SearchResult & { searchable: string };
 type AnyRecord = Record<string, unknown>;
+const ENTITY_INDEX_TTL_MS = 30 * 60_000;
+let entityIndexCache: { expiresAt: number; entries: IndexedResult[] } | null = null;
+let entityIndexInFlight: Promise<IndexedResult[]> | null = null;
+
 function rec(value: unknown): AnyRecord { return value && typeof value === "object" ? value as AnyRecord : {}; }
 function arr<T = unknown>(value: unknown): T[] { return Array.isArray(value) ? value as T[] : []; }
 function text(value: unknown) { return typeof value === "string" || typeof value === "number" ? String(value) : ""; }
 function normalize(value: string) { return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); }
 
 async function json(url: string) {
-  try { const response = await fetch(url, { next: { revalidate: 6 * 60 * 60 }, headers: { "user-agent": "LAP Live Sports/7.0" } }); return response.ok ? await response.json() : null; } catch { return null; }
+  try { const response = await fetch(url, { next: { revalidate: 6 * 60 * 60 }, headers: { "user-agent": "LAP Live Sports/7.1" } }); return response.ok ? await response.json() : null; } catch { return null; }
 }
 
-async function searchProAthletes(query: string): Promise<SearchResult[]> {
+async function indexProAthletes(): Promise<IndexedResult[]> {
   const configs = [
     { league: "nfl" as const, sport: "football", label: "NFL" },
     { league: "nba" as const, sport: "basketball", label: "NBA" },
@@ -27,16 +32,16 @@ async function searchProAthletes(query: string): Promise<SearchResult[]> {
     const data = await json(`https://sports.core.api.espn.com/v2/sports/${config.sport}/leagues/${config.league}/athletes?limit=1000&active=true&lang=en&region=us`);
     return arr<AnyRecord>(rec(data).items).flatMap((item) => {
       const name = text(item.fullName || item.displayName);
-      if (!name || !normalize(name).includes(query)) return [];
+      if (!name) return [];
       const teamId = text(rec(item.team).$ref).match(/teams\/(\d+)/)?.[1] || "";
       const position = text(rec(item.position).abbreviation || rec(item.position).displayName);
-      return [{ id: `athlete-${config.league}-${text(item.id)}`, title: name, meta: [config.label, position].filter(Boolean).join(" · "), href: teamId ? `/times/${config.league}/${teamId}` : `/modalidades/${PRO_LEAGUES[config.league].sportId}`, kind: "atleta" as const }];
+      return [{ id: `athlete-${config.league}-${text(item.id)}`, title: name, meta: [config.label, position].filter(Boolean).join(" · "), href: teamId ? `/times/${config.league}/${teamId}` : `/modalidades/${PRO_LEAGUES[config.league].sportId}`, kind: "atleta" as const, searchable: normalize(`${name} ${config.label} ${position}`) }];
     });
   }));
   return responses.flat();
 }
 
-async function searchFootball(query: string): Promise<SearchResult[]> {
+async function indexFootball(): Promise<IndexedResult[]> {
   const responses = await Promise.all(FOOTBALL_COMPETITIONS.map(async (competition) => {
     const leagueSlug = competition.espnPath.split("/").pop() || "";
     const [teamsData, athletesData] = await Promise.all([
@@ -50,31 +55,43 @@ async function searchFootball(query: string): Promise<SearchResult[]> {
       const name = text(team.displayName || team.name);
       const shortName = text(team.shortDisplayName);
       const abbreviation = text(team.abbreviation);
-      if (!normalize(`${name} ${shortName} ${abbreviation}`).includes(query)) return [];
-      return [{ id: `football-team-${competition.id}-${text(team.id)}`, title: name, meta: `Time · ${competition.name}`, href: `/times/futebol/${competition.id}/${footballTeamSlug(name)}`, kind: "time" as const }];
+      if (!name) return [];
+      return [{ id: `football-team-${competition.id}-${text(team.id)}`, title: name, meta: `Time · ${competition.name}`, href: `/times/futebol/${competition.id}/${footballTeamSlug(name)}`, kind: "time" as const, searchable: normalize(`${name} ${shortName} ${abbreviation} ${competition.name} ${competition.country}`) }];
     });
     const athleteResults = arr<AnyRecord>(rec(athletesData).items).flatMap((item) => {
       const name = text(item.fullName || item.displayName);
-      if (!name || !normalize(name).includes(query)) return [];
+      if (!name) return [];
       const position = text(rec(item.position).abbreviation || rec(item.position).displayName);
       const teamName = text(rec(item.team).displayName);
-      return [{ id: `football-athlete-${competition.id}-${text(item.id)}`, title: name, meta: [competition.name, teamName, position].filter(Boolean).join(" · "), href: teamName ? `/times/futebol/${competition.id}/${footballTeamSlug(teamName)}` : `/campeonatos/${competition.id}`, kind: "atleta" as const }];
+      return [{ id: `football-athlete-${competition.id}-${text(item.id)}`, title: name, meta: [competition.name, teamName, position].filter(Boolean).join(" · "), href: teamName ? `/times/futebol/${competition.id}/${footballTeamSlug(teamName)}` : `/campeonatos/${competition.id}`, kind: "atleta" as const, searchable: normalize(`${name} ${teamName} ${position} ${competition.name}`) }];
     });
     return [...teamResults, ...athleteResults];
   }));
   return responses.flat();
 }
 
+async function getExternalEntityIndex() {
+  if (entityIndexCache && entityIndexCache.expiresAt > Date.now()) return entityIndexCache.entries;
+  if (entityIndexInFlight) return entityIndexInFlight;
+  entityIndexInFlight = Promise.all([indexProAthletes(), indexFootball()])
+    .then(([pro, football]) => {
+      const entries = [...pro, ...football];
+      entityIndexCache = { entries, expiresAt: Date.now() + ENTITY_INDEX_TTL_MS };
+      return entries;
+    })
+    .finally(() => { entityIndexInFlight = null; });
+  return entityIndexInFlight;
+}
+
 export async function GET(request: NextRequest) {
   const raw = request.nextUrl.searchParams.get("q")?.trim() || "";
-  if (raw.length < 2) return NextResponse.json({ results: [] });
+  if (raw.length < 3) return NextResponse.json({ results: [] });
   const needle = normalize(raw);
   const matches = (value: string) => normalize(value).includes(needle);
-  const [payload, hubs, proAthletes, footballResults] = await Promise.all([
+  const [payload, hubs, entityIndex] = await Promise.all([
     getCachedLivePayload().catch(() => null),
     Promise.all((Object.keys(PRO_LEAGUES) as ProLeagueId[]).map((league) => getProLeagueHub(league).catch(() => null))),
-    raw.length >= 3 ? searchProAthletes(needle) : Promise.resolve([]),
-    raw.length >= 3 ? searchFootball(needle) : Promise.resolve([]),
+    getExternalEntityIndex().catch(() => [] as IndexedResult[]),
   ]);
   const results: SearchResult[] = [];
   SPORTS.filter((sport) => matches(sport.name) || matches(sport.description || "")).forEach((sport) => results.push({ id: `sport-${sport.id}`, title: sport.name, meta: "Modalidade", href: `/modalidades/${sport.id}`, kind: "modalidade" }));
@@ -84,6 +101,6 @@ export async function GET(request: NextRequest) {
     [...payload.editorial, ...payload.feeds.flatMap((feed) => feed.news)].filter((item) => matches(`${item.title} ${item.excerpt} ${item.source}`)).forEach((item) => results.push({ id: `article-${item.id}`, title: item.title, meta: `${item.sportId} · ${item.source}`, href: item.internalUrl, kind: "matéria" }));
     payload.feeds.flatMap((feed) => feed.scores).filter((score) => matches(`${score.home.name} ${score.away.name} ${score.league} ${score.round || ""}`)).forEach((score) => results.push({ id: `score-${score.sportId}-${score.id}`, title: `${score.home.name} × ${score.away.name}`, meta: [score.league.replace(/-/g, " "), score.status].filter(Boolean).join(" · "), href: eventHref(score), kind: "jogo" }));
   }
-  results.push(...footballResults, ...proAthletes);
+  results.push(...entityIndex.filter((item) => item.searchable.includes(needle)).slice(0, 16).map(({ searchable: _searchable, ...item }) => item));
   return NextResponse.json({ results: Array.from(new Map(results.map((item) => [item.id, item])).values()).slice(0, 30) }, { headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=21600" } });
 }
