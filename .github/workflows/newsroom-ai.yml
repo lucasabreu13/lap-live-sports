@@ -68,7 +68,7 @@ jobs:
         continue-on-error: true
         run: node scripts/newsroom-maintenance.mjs
 
-      - name: Record pipeline validation
+      - name: Record pipeline validation and coverage health
         if: always()
         env:
           AGENTS_OUTCOME: ${{ steps.agents.outcome }}
@@ -78,20 +78,68 @@ jobs:
         run: |
           node - <<'NODE'
           const fs = require('fs');
+          const { execFileSync } = require('child_process');
           const stages = {
             agents: process.env.AGENTS_OUTCOME || 'unknown',
             dataStories: process.env.DATA_STORIES_OUTCOME || 'unknown',
             editorialPolish: process.env.EDITORIAL_POLISH_OUTCOME || 'unknown',
             maintenance: process.env.MAINTENANCE_OUTCOME || 'unknown',
           };
-          const status = Object.values(stages).every((value) => value === 'success') ? 'ok' : 'degraded';
+          const sourceErrors = Object.entries(stages).filter(([, value]) => value !== 'success').map(([stage, outcome]) => ({ stage, outcome }));
+          const status = sourceErrors.length ? 'degraded' : 'ok';
+          const readArticles = (text) => {
+            try { const parsed = JSON.parse(text); return Array.isArray(parsed) ? parsed : []; } catch { return []; }
+          };
+          const current = readArticles(fs.readFileSync('content/newsroom/articles.json', 'utf8'));
+          let previous = [];
+          try { previous = readArticles(execFileSync('git', ['show', 'HEAD:content/newsroom/articles.json'], { encoding: 'utf8' })); } catch {}
+          const previousById = new Map(previous.map((article) => [article.id || article.slug, article]));
+          const currentById = new Map(current.map((article) => [article.id || article.slug, article]));
+          const created = current.filter((article) => !previousById.has(article.id || article.slug));
+          const updated = current.filter((article) => {
+            const before = previousById.get(article.id || article.slug);
+            return Boolean(before && (before.updatedAt !== article.updatedAt || before.content !== article.content || before.title !== article.title));
+          });
+          const removed = previous.filter((article) => !currentById.has(article.id || article.slug));
+          const byPublishedAt = [...current].filter((article) => article.publishedAt || article.createdAt).sort((a, b) => new Date(b.publishedAt || b.createdAt).getTime() - new Date(a.publishedAt || a.createdAt).getTime());
+          const activeSports = ['futebol', 'futebol-americano', 'tenis', 'ciclismo', 'formula1', 'basquete', 'beisebol', 'golfe', 'surfe'];
+          const lastPublishedBySport = Object.fromEntries(activeSports.map((sportId) => {
+            const article = byPublishedAt.find((item) => item.sportId === sportId);
+            return [sportId, article?.publishedAt || article?.createdAt || null];
+          }));
+          const now = Date.now();
+          const warningAfterHours = 12;
+          const criticalAfterHours = 24;
+          const freshnessBySport = Object.fromEntries(activeSports.map((sportId) => {
+            const publishedAt = lastPublishedBySport[sportId];
+            if (!publishedAt) return [sportId, { status: 'critical', ageHours: null, lastPublishedAt: null }];
+            const ageHours = Math.max(0, (now - new Date(publishedAt).getTime()) / 3600000);
+            const freshness = ageHours > criticalAfterHours ? 'critical' : ageHours > warningAfterHours ? 'warning' : 'ok';
+            return [sportId, { status: freshness, ageHours: Number(ageHours.toFixed(1)), lastPublishedAt: publishedAt }];
+          }));
+          const freshnessValues = Object.values(freshnessBySport).map((item) => item.status);
+          const coverageStatus = freshnessValues.includes('critical') ? 'critical' : freshnessValues.includes('warning') ? 'warning' : 'ok';
           const payload = {
             status,
+            coverageStatus,
             validatedAt: new Date().toISOString(),
             commit: process.env.GITHUB_SHA,
             runId: process.env.GITHUB_RUN_ID,
             event: process.env.GITHUB_EVENT_NAME,
             stages,
+            metrics: {
+              articlesCreated: created.length,
+              articlesUpdated: updated.length,
+              articlesRemoved: removed.length,
+              articlesRejected: null,
+              lastPublishedAt: byPublishedAt[0]?.publishedAt || byPublishedAt[0]?.createdAt || null,
+              lastPublishedBySport,
+              sourceErrors,
+              freshnessSLA: { warningAfterHours, criticalAfterHours, bySport: freshnessBySport },
+            },
+            metricNotes: {
+              articlesRejected: 'Rejeições editoriais ainda não são persistidas pelos estágios; null evita reportar zero sem evidência.',
+            },
           };
           fs.writeFileSync('content/newsroom/status.json', `${JSON.stringify(payload, null, 2)}\n`);
           console.log(JSON.stringify(payload));

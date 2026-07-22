@@ -12,8 +12,25 @@ const MAX_STORED_ARTICLES = 300;
 const LABELS = {
   futebol: "Futebol",
   "futebol-americano": "NFL",
+  tenis: "Tênis",
+  ciclismo: "Ciclismo",
+  formula1: "Fórmula 1",
   basquete: "NBA",
   beisebol: "MLB",
+  golfe: "Golfe",
+  surfe: "Surfe",
+};
+
+const COVER_IMAGES = {
+  futebol: "/images/sports/futebol.jpg",
+  "futebol-americano": "/images/sports/futebol-americano.jpg",
+  tenis: "/images/sports/tenis.jpg",
+  ciclismo: "/images/sports/ciclismo.jpg",
+  formula1: "/images/sports/formula1.jpg",
+  basquete: "/images/sports/basquete.jpg",
+  beisebol: "/images/sports/beisebol.jpg",
+  golfe: "/images/sports/golfe.jpg",
+  surfe: "/images/sports/surfe.jpg",
 };
 
 const INVALID_ARTICLE_IDS = new Set([
@@ -39,7 +56,29 @@ function slugify(value) {
 }
 
 function humanizeLeague(value) {
-  return String(value || "").replace(/regular-season/gi, "temporada regular").replace(/-/g, " ").replace(/\s+/g, " ").trim();
+  return String(value || "")
+    .replace(/regular-season/gi, "temporada regular")
+    .replace(/copa[-\s]+sul[-\s]+americana/gi, "Copa Sul-Americana")
+    .replace(/copa[-\s]+libertadores/gi, "Copa Libertadores")
+    .replace(/champions[-\s]+league/gi, "Champions League")
+    .replace(/premier[-\s]+league/gi, "Premier League")
+    .replace(/-/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function footballCompetitionPhrase(league) {
+  const material = normalize(league);
+  if (/brasileirao|campeonato|mundial/.test(material)) return `pelo ${league}`;
+  if (/copa|liga|champions|premier league|sul americana/.test(material)) return `pela ${league}`;
+  return `pelo ${league}`;
+}
+
+function truncateAtWord(value, maxLength) {
+  if (value.length <= maxLength) return value;
+  const candidate = value.slice(0, maxLength + 1);
+  const boundary = candidate.lastIndexOf(" ");
+  return (boundary >= Math.floor(maxLength * 0.65) ? candidate.slice(0, boundary) : value.slice(0, maxLength)).trim();
 }
 
 function formatDate(value) {
@@ -66,11 +105,12 @@ function storyPriority(event, league) {
 
 function footballCopy({ home, away, homeScore, awayScore, league, event }) {
   const context = matchContext(event);
+  const competition = footballCompetitionPhrase(league);
   if (homeScore === awayScore) {
-    const title = `${home} e ${away} ficam no ${homeScore} a ${awayScore} pelo ${league}`;
-    const summary = `${home} e ${away} empataram por ${homeScore} a ${awayScore} pelo ${league}.`;
+    const title = `${home} e ${away} ficam no ${homeScore} a ${awayScore} ${competition}`;
+    const summary = `${home} e ${away} empataram por ${homeScore} a ${awayScore} ${competition}.`;
     const content = [
-      `${home} e ${away} empataram por ${homeScore} a ${awayScore} pelo ${league}${context}. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.`,
+      `${home} e ${away} empataram por ${homeScore} a ${awayScore} ${competition}${context}. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.`,
       `O placar não apontou vencedor. Para uma análise mais detalhada do desempenho das equipes, a redação aguarda estatísticas e informações adicionais confirmadas sobre a partida, evitando atribuir domínio, chances criadas ou acontecimentos que não estejam disponíveis nos dados verificados.`,
       `A cobertura da LAP mantém o resultado como referência do confronto e acompanha as próximas atualizações oficiais da competição e dos clubes envolvidos.`,
     ].join("\n\n");
@@ -81,10 +121,10 @@ function footballCopy({ home, away, homeScore, awayScore, league, event }) {
   const loser = homeScore > awayScore ? away : home;
   const winnerScore = Math.max(homeScore, awayScore);
   const loserScore = Math.min(homeScore, awayScore);
-  const title = `${winner} supera ${loser} por ${winnerScore} a ${loserScore} pelo ${league}`;
-  const summary = `${winner} venceu ${loser} por ${winnerScore} a ${loserScore} pelo ${league}.`;
+  const title = `${winner} supera ${loser} por ${winnerScore} a ${loserScore} ${competition}`;
+  const summary = `${winner} venceu ${loser} por ${winnerScore} a ${loserScore} ${competition}.`;
   const content = [
-    `${winner} venceu ${loser} por ${winnerScore} a ${loserScore} pelo ${league}${context}. O confronto aparece como encerrado na cobertura ao vivo da LAP.`,
+    `${winner} venceu ${loser} por ${winnerScore} a ${loserScore} ${competition}${context}. O confronto aparece como encerrado na cobertura ao vivo da LAP.`,
     `O resultado confirma a vitória de ${winner}, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.`,
     `A redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.`,
   ].join("\n\n");
@@ -129,7 +169,7 @@ async function loadExisting() {
 }
 
 async function loadPayload() {
-  const response = await fetch(`${SITE_URL}/api/live?refresh=1`, { headers: { "user-agent": "LAP Newsroom Data Stories/3.0" } });
+  const response = await fetch(`${SITE_URL}/api/live?refresh=1`, { headers: { "user-agent": "LAP Newsroom Data Stories/3.1" } });
   if (!response.ok) throw new Error(`API LAP respondeu ${response.status}`);
   return response.json();
 }
@@ -180,11 +220,11 @@ function buildStory(feed, event) {
     content,
     sourceName: "LAP Dados",
     sourceUrl,
-    coverImageUrl: null,
+    coverImageUrl: COVER_IMAGES[feed.id] || null,
     authorName: "Redação LAP",
     authorRole: `Newsroom AI · ${label}`,
     tags: [slugify(label), "resultado", slugify(league)],
-    seoTitle: title.slice(0, 70),
+    seoTitle: truncateAtWord(title, 70),
     seoDescription: summary.slice(0, 170),
     status: "published",
     scheduledAt: null,

@@ -24,7 +24,7 @@ function sportName(id: SportId) { return SPORTS.find((item) => item.id === id)?.
 function relativeStart(event: ScoreItem, now: number) {
   if (event.state === "in") return "AO VIVO";
   if (event.state === "post") return "Encerrado";
-  if (!event.startTime) return "Horário a confirmar";
+  if (!event.startTime) return null;
   const diff = time(event) - now;
   if (diff <= 0) return "Começando";
   const minutes = Math.floor(diff / 60_000);
@@ -51,19 +51,21 @@ function inRange(event: ScoreItem, filter: DateFilter) {
 }
 
 function AgendaCard({ event, now, favorite, onToggle }: { event: ScoreItem; now: number; favorite: boolean; onToggle: () => void }) {
+  const startLabel = relativeStart(event, now);
+  const detail = [event.venue, event.broadcast].filter(Boolean).join(" · ");
   return <article className={styles.card}>
     <div className={styles.cardTop}><span>{sportName(event.sportId)} · {event.league}</span><button type="button" onClick={onToggle} aria-label={favorite ? "Remover dos favoritos" : "Quero acompanhar"}>{favorite ? "★" : "☆"}</button></div>
     <Link href={eventHref(event)} className={styles.cardMain}>
       <strong>{event.home.name}{event.away.name ? ` × ${event.away.name}` : ""}</strong>
-      <span>{relativeStart(event, now)}</span>
-      <small>{event.venue || "Local a confirmar"}{event.broadcast ? ` · ${event.broadcast}` : ""}</small>
+      {startLabel ? <span>{startLabel}</span> : null}
+      {detail ? <small>{detail}</small> : null}
     </Link>
     <div className={styles.cardActions}><Link href={eventHref(event)}>Abrir Match Center →</Link>{event.startTime && <a href={`https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(`${event.home.name} x ${event.away.name}`)}&dates=${new Date(event.startTime).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z")}/${new Date(time(event) + 2 * 60 * 60_000).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z")}`} target="_blank" rel="noreferrer">Adicionar ao calendário</a>}</div>
   </article>;
 }
 
-export function MatchCenterAgenda({ initialSport = "all", initialCompetition = "all", initialQuery = "" }: { initialSport?: string; initialCompetition?: string; initialQuery?: string }) {
-  const [payload, setPayload] = useState<LivePayload | null>(null);
+export function MatchCenterAgenda({ initialSport = "all", initialCompetition = "all", initialQuery = "", initialPayload = null }: { initialSport?: string; initialCompetition?: string; initialQuery?: string; initialPayload?: LivePayload | null }) {
+  const [payload, setPayload] = useState<LivePayload | null>(initialPayload);
   const [favorites, setFavorites] = useState<FavoriteItem[]>([]);
   const [status, setStatus] = useState<StatusFilter>("all");
   const [date, setDate] = useState<DateFilter>("week");
@@ -80,9 +82,26 @@ export function MatchCenterAgenda({ initialSport = "all", initialCompetition = "
   useEffect(() => { const timer = window.setInterval(() => setNow(Date.now()), 30_000); return () => window.clearInterval(timer); }, []);
   useEffect(() => {
     let active = true;
-    try { const cached = JSON.parse(localStorage.getItem(SNAPSHOT_KEY) || "null") as LivePayload | null; if (cached) setPayload(cached); } catch {}
-    const load = async () => { try { const response = await fetch("/api/live"); if (!response.ok) return; const data = await response.json() as LivePayload; if (active) { setPayload(data); localStorage.setItem(SNAPSHOT_KEY, JSON.stringify(data)); } } catch {} };
-    void load(); const timer = window.setInterval(load, 30_000); return () => { active = false; window.clearInterval(timer); };
+    let timer = 0;
+    if (!initialPayload) {
+      try { const cached = JSON.parse(localStorage.getItem(SNAPSHOT_KEY) || "null") as LivePayload | null; if (cached) setPayload(cached); } catch {}
+    } else {
+      try { localStorage.setItem(SNAPSHOT_KEY, JSON.stringify(initialPayload)); } catch {}
+    }
+    const schedule = (next: LivePayload | null) => {
+      const hasLive = Boolean(next?.feeds.some((feed) => feed.scores.some((event) => event.state === "in")));
+      timer = window.setTimeout(load, hasLive ? 20_000 : 120_000);
+    };
+    const load = async () => {
+      try {
+        const response = await fetch("/api/live");
+        if (!response.ok) { schedule(payload); return; }
+        const data = await response.json() as LivePayload;
+        if (active) { setPayload(data); localStorage.setItem(SNAPSHOT_KEY, JSON.stringify(data)); schedule(data); }
+      } catch { if (active) schedule(payload); }
+    };
+    if (initialPayload) schedule(initialPayload); else void load();
+    return () => { active = false; window.clearTimeout(timer); };
   }, []);
 
   const events = useMemo(() => {
@@ -108,6 +127,7 @@ export function MatchCenterAgenda({ initialSport = "all", initialCompetition = "
   }, [visible]);
 
   const toggle = (event: ScoreItem) => toggleFavorite({ id: eventFavoriteId(event), type: "event", label: `${event.home.name} x ${event.away.name}`, href: eventHref(event) });
+  const clearFilters = () => { setStatus("all"); setDate("week"); setSport("all"); setCompetition("all"); setQuery(""); };
 
   return <main><LapHeader /><div className={`shell ${styles.page}`}>
     <header className={styles.hero}><div><p>Agenda LAP · Match Center</p><h1>O que vale a pena acompanhar agora.</h1><span>Eventos ao vivo, próximos destaques, favoritos, transmissão e acesso direto ao centro de cada jogo.</span></div><div className={styles.stats}><strong>{live.length}<small>ao vivo</small></strong><strong>{events.filter((e) => e.state === "pre").length}<small>próximos</small></strong><strong>{favorites.length}<small>favoritos</small></strong></div></header>
@@ -122,6 +142,6 @@ export function MatchCenterAgenda({ initialSport = "all", initialCompetition = "
 
     {view === "calendar" ? <section className={styles.calendar}>{grouped.map(([day, items]) => <article key={day}><strong>{day === todayKey() ? "Hoje" : day === todayKey(1) ? "Amanhã" : new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "short" }).format(new Date(`${day}T12:00:00`))}</strong><span>{items.length} evento{items.length === 1 ? "" : "s"}</span><div>{items.slice(0,5).map((event) => <Link key={key(event)} href={eventHref(event)}>{event.home.name} {event.away.name ? `× ${event.away.name}` : ""}</Link>)}</div></article>)}</section> : <div className={styles.timeline}>{grouped.map(([day, items]) => <section className={styles.section} key={day}><div className={styles.heading}><div><p>Agenda por data</p><h2>{day === todayKey() ? "Hoje" : day === todayKey(1) ? "Amanhã" : new Intl.DateTimeFormat("pt-BR", { weekday: "long", day: "2-digit", month: "long" }).format(new Date(`${day}T12:00:00`))}</h2></div><span>{items.length} eventos</span></div><div className={styles.grid}>{items.map((event) => <AgendaCard key={key(event)} event={event} now={now} favorite={favoriteIds.has(eventFavoriteId(event))} onToggle={() => toggle(event)} />)}</div></section>)}</div>}
 
-    {!payload && <div className={styles.empty}>Preparando o Match Center da LAP…</div>}{payload && !visible.length && <div className={styles.empty}>Nenhum evento encontrado neste recorte. Ajuste os filtros para ampliar a agenda.</div>}
+    {!payload && <div className={styles.empty}>Preparando o Match Center da LAP…</div>}{payload && !visible.length && <div className={styles.empty}><p>Nenhum evento encontrado com os filtros atuais.</p><button type="button" onClick={clearFilters}>Limpar filtros</button></div>}
   </div></main>;
 }

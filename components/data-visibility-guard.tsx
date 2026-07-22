@@ -5,6 +5,9 @@ import { useEffect } from "react";
 const PLACEHOLDER_PATTERNS = [
   /^não confirmad[oa]$/i,
   /^a definir$/i,
+  /^a confirmar$/i,
+  /^horário a confirmar$/i,
+  /^local a confirmar$/i,
   /^não informad[oa]$/i,
   /^local não informado$/i,
   /^data a confirmar$/i,
@@ -26,19 +29,32 @@ function isPlaceholder(value: string) {
   return PLACEHOLDER_PATTERNS.some((pattern) => pattern.test(value));
 }
 
-function hidePlaceholder(element: HTMLElement) {
-  const container = element.closest<HTMLElement>("article, tr, li, .empty-card, .game-panel__empty, .agenda-empty, .status-note");
-  if (container) {
-    container.hidden = true;
-    container.setAttribute("data-lap-hidden-missing", "true");
-    return;
-  }
+function elements(root: ParentNode, selector: string) {
+  const matches = [...root.querySelectorAll<HTMLElement>(selector)];
+  if (root instanceof HTMLElement && root.matches(selector)) matches.unshift(root);
+  return matches;
+}
+
+function markHidden(element: HTMLElement) {
   element.hidden = true;
   element.setAttribute("data-lap-hidden-missing", "true");
 }
 
+function hidePlaceholder(element: HTMLElement) {
+  if ((element.tagName === "STRONG" || element.tagName === "SMALL") && element.parentElement?.tagName === "SPAN") {
+    markHidden(element.parentElement);
+    return;
+  }
+  const container = element.closest<HTMLElement>("article, tr, li, .empty-card, .game-panel__empty, .agenda-empty, .status-note");
+  if (container) {
+    markHidden(container);
+    return;
+  }
+  markHidden(element);
+}
+
 function restoreRealData(root: ParentNode) {
-  root.querySelectorAll<HTMLElement>("[data-lap-hidden-missing='true']").forEach((element) => {
+  elements(root, "[data-lap-hidden-missing='true']").forEach((element) => {
     const text = normalizedText(element);
     if (text && !isPlaceholder(text)) {
       element.hidden = false;
@@ -49,12 +65,12 @@ function restoreRealData(root: ParentNode) {
 
 function clean(root: ParentNode) {
   restoreRealData(root);
-  root.querySelectorAll<HTMLElement>("strong, span, small, p, td, dd").forEach((element) => {
+  elements(root, "strong, span, small, p, td, dd").forEach((element) => {
     const text = normalizedText(element);
     if (text && isPlaceholder(text)) hidePlaceholder(element);
   });
 
-  root.querySelectorAll<HTMLElement>("section, article, div").forEach((element) => {
+  elements(root, "section, article, div").forEach((element) => {
     if (element.closest("header, nav, footer")) return;
     const visibleChildren = [...element.children].filter((child) => !(child as HTMLElement).hidden);
     if (!visibleChildren.length && !normalizedText(element)) element.hidden = true;
@@ -64,16 +80,33 @@ function clean(root: ParentNode) {
 export function DataVisibilityGuard() {
   useEffect(() => {
     let scheduled = 0;
-    const run = () => {
-      window.cancelAnimationFrame(scheduled);
-      scheduled = window.requestAnimationFrame(() => clean(document.body));
+    const pending = new Set<ParentNode>();
+    const flush = () => {
+      scheduled = 0;
+      const roots = [...pending];
+      pending.clear();
+      roots.forEach(clean);
     };
-    run();
-    const observer = new MutationObserver(run);
+    const schedule = (root: ParentNode) => {
+      pending.add(root);
+      if (!scheduled) scheduled = window.requestAnimationFrame(flush);
+    };
+
+    clean(document.body);
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (mutation.type === "characterData" && mutation.target.parentElement) schedule(mutation.target.parentElement);
+        mutation.addedNodes.forEach((node) => {
+          if (node instanceof HTMLElement) schedule(node);
+          else if (node.parentElement) schedule(node.parentElement);
+        });
+      });
+    });
     observer.observe(document.body, { childList: true, subtree: true, characterData: true });
     return () => {
       observer.disconnect();
-      window.cancelAnimationFrame(scheduled);
+      if (scheduled) window.cancelAnimationFrame(scheduled);
+      pending.clear();
     };
   }, []);
   return null;
