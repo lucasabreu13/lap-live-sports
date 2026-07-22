@@ -26,7 +26,9 @@ test("does not add a second explanation when the term is already explained", () 
 test("limits explanations so the article does not turn into a glossary", () => {
   const input = "A trade deadline se aproxima. O atleta está na IL. O bullpen mudou. Houve walk-off. O rookie voltou. A free agency também entrou na pauta.";
   const output = enrichArticleForReaders(input, "beisebol", 3);
-  const explanationMarkers = (output.match(/ — /g) || []).length + (output.match(/\(Injured List\)/g) || []).length;
-  assert.ok(explanationMarkers >= 3);
-  assert.doesNotMatch(output, /free agency —/i);
+  assert.match(output, /trade deadline —/i);
+  assert.match(output, /\(Injured List\)/i);
+  assert.match(output, /free agency —/i);
+  assert.doesNotMatch(output, /bullpen —/i);
+  assert.doesNotMatch(output, /rookie —/i);
 });
