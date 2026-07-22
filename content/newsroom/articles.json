@@ -1,5 +1,87 @@
 [
   {
+    "id": "newsroom-data-e4441e9747c7",
+    "slug": "santos-supera-ucv-fc-por-4-a-1-pelo-copa-sul-americana-e4441e",
+    "sportId": "futebol",
+    "title": "Tigre supera Nacional por 3 a 0 pela Copa Sul Americana",
+    "summary": "Tigre venceu Nacional por 3 a 0 pela Copa Sul Americana.",
+    "content": "Tigre venceu Nacional por 3 a 0 pela Copa Sul Americana, em 21 de julho de 2026 no Gran Parque Central. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Tigre, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-sul-americana"
+    ],
+    "seoTitle": "Tigre supera Nacional por 3 a 0 pela Copa Sul Americana",
+    "seoDescription": "Tigre venceu Nacional por 3 a 0 pela Copa Sul Americana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-22T07:18:55.002Z",
+    "createdAt": "2026-07-22T07:18:55.002Z",
+    "updatedAt": "2026-07-22T13:10:45.338Z",
+    "homepagePriority": 58,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401874150",
+      "eventStartTime": "2026-07-21T22:00Z",
+      "retrievedAt": "2026-07-22T13:10:45.338Z",
+      "feedId": "futebol",
+      "league": "Copa Sul-Americana"
+    },
+    "updateHistory": [
+      {
+        "updatedAt": "2026-07-22T13:10:45.338Z",
+        "sourceArticleId": "newsroom-data-6332fd57244e"
+      }
+    ]
+  },
+  {
+    "id": "newsroom-badbc34574ba",
+    "slug": "thaisa-assuncao-confiante-para-estreia-do-nike-lusso-na-champions-league-feminina-badbc3",
+    "sportId": "futebol",
+    "title": "Thaisa Assunção confiante para estreia do Nike Lusso na Champions League Feminina",
+    "summary": "Thaisa Assunção destacou a confiança do Nike Lusso para a estreia na Champions League Feminina.",
+    "content": "A meio-campista Thaisa Assunção demonstrou otimismo ao projetar a estreia do Nike Lusso na Champions League Feminina. Em um momento de grande expectativa, a jogadora destacou a confiança da equipe para encarar o desafio continental. \n\nO torneio, que reúne os principais times do futebol feminino europeu, é uma vitrine de alto nível, e Thaisa parece ciente da responsabilidade. Segundo ela, o Nike Lusso está preparado para competir de igual para igual, mostrando o trabalho que vem sendo desenvolvido pela equipe.\n\nA confiança mencionada por Thaisa reflete não apenas o potencial técnico do elenco, mas também a mentalidade de um grupo que busca se firmar entre os grandes do continente. A estreia na Champions League Feminina é sempre um marco importante, e o Nike Lusso parece determinado a fazer história.\n\nCom a preparação concluída, agora os olhos se voltam para o desempenho em campo. A declaração de Thaisa Assunção reforça a expectativa de um time que chega para competir com ambição e foco. O desfecho dessa estreia promete ser acompanhado de perto por torcedores e especialistas.",
+    "sourceName": "Fontes verificadas: LANCE!, 365Scores",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmN1T3puaU8xRjA4eDU1M005eXpMd05rYzlJM0xZalZINUc2NFZhdkJLRFctT0hCMHNDNHctdVVsOFRPbHp2eWdwOVlCYmZPZTV5TUdMakJpd3ZuYkY5OEREY1pVOFpiMmZSdmNBOXRvTkYwaDFheWhNOGpsblhkc2NqRUpuaktRVVRBYWdYMlBMTEFyZXBVengyUHhfd1B3di1lcUdLcXgyN1BnUGE5VDZVV0ZONVB1Tmc?oc=5",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "champions-league-feminina",
+      "thaisa-assuncao"
+    ],
+    "seoTitle": "Thaisa Assunção confiante para estreia do Nike Lusso na Champions Leag",
+    "seoDescription": "Thaisa Assunção destacou a confiança do Nike Lusso para a estreia na Champions League Feminina.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-22T09:44:48.694Z",
+    "createdAt": "2026-07-22T09:44:48.694Z",
+    "updatedAt": "2026-07-22T09:45:09.503Z",
+    "homepagePriority": 70,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmN1T3puaU8xRjA4eDU1M005eXpMd05rYzlJM0xZalZINUc2NFZhdkJLRFctT0hCMHNDNHctdVVsOFRPbHp2eWdwOVlCYmZPZTV5TUdMakJpd3ZuYkY5OEREY1pVOFpiMmZSdmNBOXRvTkYwaDFheWhNOGpsblhkc2NqRUpuaktRVVRBYWdYMlBMTEFyZXBVengyUHhfd1B3di1lcUdLcXgyN1BnUGE5VDZVV0ZONVB1Tmc?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLUs5aDh6VE9KWVhtTTFZa0J1dXhpRmlILU1ZeUF3TG5MbjBBNVhGOWdTMGt1cmhfaFJoOC1XLVBYR1E5OUtwTFRDbmFEb2RDemRVaG43eVloR0Iwc2ZKNlBlOEpfcUsteVl4X1l6TTZqWmpFemhzODh2UU5JZ0huSjN3MExiMFRQODE3aUk0ZTh4cGFIX0hxcG5hRUVCYXM0?oc=5"
+    ],
+    "verifiedFacts": 2,
+    "editorialPolished": true,
+    "editorialDesk": "futebol"
+  },
+  {
     "id": "newsroom-data-7504afd7395b",
     "slug": "criciuma-supera-novorizontino-por-1-a-0-pelo-brasileirao-serie-b-7504af",
     "sportId": "futebol",
@@ -38,82 +120,6 @@
       "retrievedAt": "2026-07-22T09:44:50.469Z",
       "feedId": "futebol",
       "league": "Brasileirão Série B"
-    }
-  },
-  {
-    "id": "newsroom-badbc34574ba",
-    "slug": "thaisa-assuncao-confiante-para-estreia-do-nike-lusso-na-champions-league-feminina-badbc3",
-    "sportId": "futebol",
-    "title": "Thaisa Assunção confiante para estreia do Nike Lusso na Champions League Feminina",
-    "summary": "Thaisa Assunção destacou a confiança do Nike Lusso para a estreia na Champions League Feminina.",
-    "content": "A meio-campista Thaisa Assunção demonstrou otimismo ao projetar a estreia do Nike Lusso na Champions League Feminina. Em um momento de grande expectativa, a jogadora destacou a confiança da equipe para encarar o desafio continental. \n\nO torneio, que reúne os principais times do futebol feminino europeu, é uma vitrine de alto nível, e Thaisa parece ciente da responsabilidade. Segundo ela, o Nike Lusso está preparado para competir de igual para igual, mostrando o trabalho que vem sendo desenvolvido pela equipe.\n\nA confiança mencionada por Thaisa reflete não apenas o potencial técnico do elenco, mas também a mentalidade de um grupo que busca se firmar entre os grandes do continente. A estreia na Champions League Feminina é sempre um marco importante, e o Nike Lusso parece determinado a fazer história.\n\nCom a preparação concluída, agora os olhos se voltam para o desempenho em campo. A declaração de Thaisa Assunção reforça a expectativa de um time que chega para competir com ambição e foco. O desfecho dessa estreia promete ser acompanhado de perto por torcedores e especialistas.",
-    "sourceName": "Fontes verificadas: LANCE!, 365Scores",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmN1T3puaU8xRjA4eDU1M005eXpMd05rYzlJM0xZalZINUc2NFZhdkJLRFctT0hCMHNDNHctdVVsOFRPbHp2eWdwOVlCYmZPZTV5TUdMakJpd3ZuYkY5OEREY1pVOFpiMmZSdmNBOXRvTkYwaDFheWhNOGpsblhkc2NqRUpuaktRVVRBYWdYMlBMTEFyZXBVengyUHhfd1B3di1lcUdLcXgyN1BnUGE5VDZVV0ZONVB1Tmc?oc=5",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "champions-league-feminina",
-      "thaisa-assuncao"
-    ],
-    "seoTitle": "Thaisa Assunção confiante para estreia do Nike Lusso na Champions Leag",
-    "seoDescription": "Thaisa Assunção destacou a confiança do Nike Lusso para a estreia na Champions League Feminina.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-22T09:44:48.694Z",
-    "createdAt": "2026-07-22T09:44:48.694Z",
-    "updatedAt": "2026-07-22T09:45:09.503Z",
-    "homepagePriority": 70,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmN1T3puaU8xRjA4eDU1M005eXpMd05rYzlJM0xZalZINUc2NFZhdkJLRFctT0hCMHNDNHctdVVsOFRPbHp2eWdwOVlCYmZPZTV5TUdMakJpd3ZuYkY5OEREY1pVOFpiMmZSdmNBOXRvTkYwaDFheWhNOGpsblhkc2NqRUpuaktRVVRBYWdYMlBMTEFyZXBVengyUHhfd1B3di1lcUdLcXgyN1BnUGE5VDZVV0ZONVB1Tmc?oc=5",
-      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLUs5aDh6VE9KWVhtTTFZa0J1dXhpRmlILU1ZeUF3TG5MbjBBNVhGOWdTMGt1cmhfaFJoOC1XLVBYR1E5OUtwTFRDbmFEb2RDemRVaG43eVloR0Iwc2ZKNlBlOEpfcUsteVl4X1l6TTZqWmpFemhzODh2UU5JZ0huSjN3MExiMFRQODE3aUk0ZTh4cGFIX0hxcG5hRUVCYXM0?oc=5"
-    ],
-    "verifiedFacts": 2,
-    "editorialPolished": true,
-    "editorialDesk": "futebol"
-  },
-  {
-    "id": "newsroom-data-e4441e9747c7",
-    "slug": "santos-supera-ucv-fc-por-4-a-1-pelo-copa-sul-americana-e4441e",
-    "sportId": "futebol",
-    "title": "Santos supera UCV FC por 4 a 1 pelo Copa Sul Americana",
-    "summary": "Santos venceu UCV FC por 4 a 1 pelo Copa Sul Americana.",
-    "content": "Santos venceu UCV FC por 4 a 1 pelo Copa Sul Americana, em 21 de julho de 2026 no Estadio Misael Delgado. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Santos, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-sul-americana"
-    ],
-    "seoTitle": "Santos supera UCV FC por 4 a 1 pelo Copa Sul Americana",
-    "seoDescription": "Santos venceu UCV FC por 4 a 1 pelo Copa Sul Americana.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-22T07:18:55.002Z",
-    "createdAt": "2026-07-22T07:18:55.002Z",
-    "updatedAt": "2026-07-22T07:18:55.002Z",
-    "homepagePriority": 58,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "401874072",
-      "eventStartTime": "2026-07-22T00:30Z",
-      "retrievedAt": "2026-07-22T07:18:55.002Z",
-      "feedId": "futebol",
-      "league": "Copa Sul-Americana"
     }
   },
   {
@@ -733,39 +739,6 @@
     "dataDriven": true
   },
   {
-    "id": "newsroom-data-ec151c26361c",
-    "slug": "atletico-mg-e-red-bull-bragantino-empatam-por-0-a-0-em-brasileirao-serie-a-ec151c",
-    "sportId": "futebol",
-    "title": "Atlético-MG e Red Bull Bragantino ficam no 0 a 0 pelo Brasileirão",
-    "summary": "Atlético-MG e Red Bull Bragantino terminaram o confronto pelo Brasileirão sem gols. O empate por 0 a 0 encerrou a partida sem vencedor.",
-    "content": "Atlético-MG e Red Bull Bragantino ficaram no 0 a 0 pelo Brasileirão. O confronto terminou sem gols e sem vencedor, com as duas equipes deixando o campo sem conseguir construir uma vantagem no placar.\n\nUm empate sem gols costuma colocar ainda mais peso sobre cada oportunidade criada ao longo da partida. Como ninguém conseguiu balançar as redes, o duelo permaneceu aberto até o fim, mas o marcador não saiu do zero.\n\nO resultado agora passa a fazer parte da campanha das duas equipes no campeonato. Em uma competição de longa duração, um empate pode ganhar leituras diferentes conforme a sequência: pode servir como ponto de apoio para uma reação ou aumentar a importância do compromisso seguinte.\n\nPara Atlético-MG e Red Bull Bragantino, a atenção se volta justamente para essa continuidade. Transformar partidas equilibradas em vitórias é um dos desafios recorrentes de qualquer equipe que busca avançar na tabela e construir uma campanha mais sólida.\n\nA LAP acompanha os próximos compromissos de Atlético-MG e Red Bull Bragantino e atualiza a cobertura do Brasileirão conforme novos resultados e informações confirmadas ficam disponíveis.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "brasileirao-serie-a"
-    ],
-    "seoTitle": "Atlético-MG e Bragantino ficam no 0 a 0 pelo Brasileirão",
-    "seoDescription": "Atlético-MG e Red Bull Bragantino terminaram o confronto pelo Brasileirão sem gols. O empate por 0 a 0 encerrou a partida sem vencedor.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-20T21:33:40.092Z",
-    "createdAt": "2026-07-20T21:33:40.092Z",
-    "updatedAt": "2026-07-20T21:33:40.092Z",
-    "homepagePriority": 62,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true
-  },
-  {
     "id": "newsroom-data-28bde2bcc960",
     "slug": "new-york-yankees-vence-los-angeles-dodgers-por-2-a-1-em-regular-season-28bde2",
     "sportId": "beisebol",
@@ -794,6 +767,39 @@
     "agentId": "beisebol",
     "sourceUrls": [
       "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true
+  },
+  {
+    "id": "newsroom-data-ec151c26361c",
+    "slug": "atletico-mg-e-red-bull-bragantino-empatam-por-0-a-0-em-brasileirao-serie-a-ec151c",
+    "sportId": "futebol",
+    "title": "Atlético-MG e Red Bull Bragantino ficam no 0 a 0 pelo Brasileirão",
+    "summary": "Atlético-MG e Red Bull Bragantino terminaram o confronto pelo Brasileirão sem gols. O empate por 0 a 0 encerrou a partida sem vencedor.",
+    "content": "Atlético-MG e Red Bull Bragantino ficaram no 0 a 0 pelo Brasileirão. O confronto terminou sem gols e sem vencedor, com as duas equipes deixando o campo sem conseguir construir uma vantagem no placar.\n\nUm empate sem gols costuma colocar ainda mais peso sobre cada oportunidade criada ao longo da partida. Como ninguém conseguiu balançar as redes, o duelo permaneceu aberto até o fim, mas o marcador não saiu do zero.\n\nO resultado agora passa a fazer parte da campanha das duas equipes no campeonato. Em uma competição de longa duração, um empate pode ganhar leituras diferentes conforme a sequência: pode servir como ponto de apoio para uma reação ou aumentar a importância do compromisso seguinte.\n\nPara Atlético-MG e Red Bull Bragantino, a atenção se volta justamente para essa continuidade. Transformar partidas equilibradas em vitórias é um dos desafios recorrentes de qualquer equipe que busca avançar na tabela e construir uma campanha mais sólida.\n\nA LAP acompanha os próximos compromissos de Atlético-MG e Red Bull Bragantino e atualiza a cobertura do Brasileirão conforme novos resultados e informações confirmadas ficam disponíveis.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "brasileirao-serie-a"
+    ],
+    "seoTitle": "Atlético-MG e Bragantino ficam no 0 a 0 pelo Brasileirão",
+    "seoDescription": "Atlético-MG e Red Bull Bragantino terminaram o confronto pelo Brasileirão sem gols. O empate por 0 a 0 encerrou a partida sem vencedor.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-20T21:33:40.092Z",
+    "createdAt": "2026-07-20T21:33:40.092Z",
+    "updatedAt": "2026-07-20T21:33:40.092Z",
+    "homepagePriority": 62,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
     ],
     "verifiedFacts": 2,
     "dataDriven": true
