@@ -1,5 +1,6 @@
+import curatedArticlesPayload from "@/content/newsroom/curated-articles.json";
 import type { EditorialArticle } from "@/lib/editorial-store";
-import type { NewsItem, SportId } from "@/lib/live-data";
+import type { LivePayload, NewsItem, SportId } from "@/lib/live-data";
 
 export type NewsroomEditorialArticle = EditorialArticle & {
   homepagePriority?: number;
@@ -83,28 +84,46 @@ function editorialScore(article: NewsroomEditorialArticle) {
   return priority + breakingBoost + freshnessBoost - agePenalty;
 }
 
+function orderArticles(items: NewsroomEditorialArticle[], limit: number) {
+  return Array.from(new Map(items.map((article) => [article.slug, article])).values())
+    .sort((a, b) => {
+      const scoreDiff = editorialScore(b) - editorialScore(a);
+      if (Math.abs(scoreDiff) > 0.001) return scoreDiff;
+      return new Date(b.publishedAt || b.createdAt).getTime() - new Date(a.publishedAt || a.createdAt).getTime();
+    })
+    .slice(0, Math.max(1, Math.min(limit, 250)));
+}
+
+function getCuratedArticles() {
+  return (curatedArticlesPayload as unknown[])
+    .map(normalizeArticle)
+    .filter((article): article is NewsroomEditorialArticle => article !== null);
+}
+
 export async function getNewsroomArticles(limit = 48): Promise<NewsroomEditorialArticle[]> {
   const url = process.env.NEWSROOM_CONTENT_URL || DEFAULT_CONTENT_URL;
+  const curated = getCuratedArticles();
+  let automated: NewsroomEditorialArticle[] = [];
+
   try {
     const response = await fetch(url, {
       next: { revalidate: 120 },
-      headers: { "user-agent": "LAP Live Sports Newsroom Reader/1.1" },
+      headers: { "user-agent": "LAP Live Sports Newsroom Reader/1.2" },
     });
-    if (!response.ok) return [];
-    const payload = await response.json() as unknown;
-    if (!Array.isArray(payload)) return [];
-    return payload
-      .map(normalizeArticle)
-      .filter((article): article is NewsroomEditorialArticle => article !== null)
-      .sort((a, b) => {
-        const scoreDiff = editorialScore(b) - editorialScore(a);
-        if (Math.abs(scoreDiff) > 0.001) return scoreDiff;
-        return new Date(b.publishedAt || b.createdAt).getTime() - new Date(a.publishedAt || a.createdAt).getTime();
-      })
-      .slice(0, Math.max(1, Math.min(limit, 250)));
+    if (response.ok) {
+      const payload = await response.json() as unknown;
+      if (Array.isArray(payload)) {
+        automated = payload
+          .map(normalizeArticle)
+          .filter((article): article is NewsroomEditorialArticle => article !== null);
+      }
+    }
   } catch {
-    return [];
+    // A curadoria embarcada continua disponível mesmo se o arquivo remoto falhar.
   }
+
+  // A curadoria verificada é aplicada por último para prevalecer em um eventual slug duplicado.
+  return orderArticles([...automated, ...curated], limit);
 }
 
 export async function getNewsroomArticleBySlug(slug: string): Promise<NewsroomEditorialArticle | null> {
