@@ -2,6 +2,7 @@
 .sport-nav--focused .sport-nav__inside{display:flex;min-width:max-content;overflow:visible;gap:0}
 .sport-nav--all-visible a{flex:0 0 auto;white-space:nowrap}
 .sport-nav--all-visible .sport-nav__college{border-left:1px solid var(--line)}
+.sport-nav--all-visible a[aria-current="page"]{font-weight:900;text-decoration-thickness:2px;text-underline-offset:6px}
 .sport-nav--focused::-webkit-scrollbar{height:6px}
 .sport-nav--focused::-webkit-scrollbar-track{background:transparent}
 .sport-nav--focused::-webkit-scrollbar-thumb{background:#b7c3c4;border-radius:999px}
@@ -36,6 +37,6 @@ article:has(a[href="/modalidades/natacao"]),
 article:has(a[href="/modalidades/atletismo"]){display:none!important}
 
 @media(max-width:900px){
-  .sport-nav--focused{scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
-  .sport-nav--all-visible a{scroll-snap-align:start}
+  .sport-nav--focused{scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 18px,#000 calc(100% - 28px),transparent 100%);mask-image:linear-gradient(to right,transparent 0,#000 18px,#000 calc(100% - 28px),transparent 100%)}
+  .sport-nav--all-visible a{scroll-snap-align:center}
 }
