@@ -1,4 +1,5 @@
 import curatedArticlesPayload from "@/content/newsroom/curated-articles.json";
+import editorialOverridesPayload from "@/content/newsroom/editorial-overrides.json";
 import type { EditorialArticle } from "@/lib/editorial-store";
 import type { LivePayload, NewsItem, SportId } from "@/lib/live-data";
 
@@ -28,6 +29,23 @@ function asStringArray(value: unknown) {
 function asNullableString(value: unknown) {
   const text = asString(value).trim();
   return text || null;
+}
+
+const EDITORIAL_OVERRIDES = (editorialOverridesPayload as unknown[]).map(asRecord);
+const OVERRIDES_BY_KEY = new Map<string, AnyRecord>();
+for (const override of EDITORIAL_OVERRIDES) {
+  const id = asString(override.id).trim();
+  const slug = asString(override.slug).trim();
+  if (id) OVERRIDES_BY_KEY.set(`id:${id}`, override);
+  if (slug) OVERRIDES_BY_KEY.set(`slug:${slug}`, override);
+}
+
+function applyEditorialOverride(value: unknown) {
+  const row = asRecord(value);
+  const id = asString(row.id).trim();
+  const slug = asString(row.slug).trim();
+  const override = (id && OVERRIDES_BY_KEY.get(`id:${id}`)) || (slug && OVERRIDES_BY_KEY.get(`slug:${slug}`));
+  return override ? { ...row, ...override } : row;
 }
 
 function normalizeArticle(value: unknown): NewsroomEditorialArticle | null {
@@ -96,6 +114,7 @@ function orderArticles(items: NewsroomEditorialArticle[], limit: number) {
 
 function getCuratedArticles() {
   return (curatedArticlesPayload as unknown[])
+    .map(applyEditorialOverride)
     .map(normalizeArticle)
     .filter((article): article is NewsroomEditorialArticle => article !== null);
 }
@@ -108,12 +127,13 @@ export async function getNewsroomArticles(limit = 48): Promise<NewsroomEditorial
   try {
     const response = await fetch(url, {
       next: { revalidate: 120 },
-      headers: { "user-agent": "LAP Live Sports Newsroom Reader/1.2" },
+      headers: { "user-agent": "LAP Live Sports Newsroom Reader/1.3" },
     });
     if (response.ok) {
       const payload = await response.json() as unknown;
       if (Array.isArray(payload)) {
         automated = payload
+          .map(applyEditorialOverride)
           .map(normalizeArticle)
           .filter((article): article is NewsroomEditorialArticle => article !== null);
       }
