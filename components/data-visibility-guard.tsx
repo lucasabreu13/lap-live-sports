@@ -35,15 +35,22 @@ function elements(root: ParentNode, selector: string) {
   return matches;
 }
 
-function hidePlaceholder(element: HTMLElement) {
-  const container = element.closest<HTMLElement>("article, tr, li, .empty-card, .game-panel__empty, .agenda-empty, .status-note");
-  if (container) {
-    container.hidden = true;
-    container.setAttribute("data-lap-hidden-missing", "true");
-    return;
-  }
+function markHidden(element: HTMLElement) {
   element.hidden = true;
   element.setAttribute("data-lap-hidden-missing", "true");
+}
+
+function hidePlaceholder(element: HTMLElement) {
+  if ((element.tagName === "STRONG" || element.tagName === "SMALL") && element.parentElement?.tagName === "SPAN") {
+    markHidden(element.parentElement);
+    return;
+  }
+  const container = element.closest<HTMLElement>("article, tr, li, .empty-card, .game-panel__empty, .agenda-empty, .status-note");
+  if (container) {
+    markHidden(container);
+    return;
+  }
+  markHidden(element);
 }
 
 function restoreRealData(root: ParentNode) {
