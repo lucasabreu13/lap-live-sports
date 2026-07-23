@@ -1,0 +1,106 @@
+{
+  "atp": {
+    "title": "Ranking oficial ATP — simples",
+    "asOf": "consultado em 23 jul 2026",
+    "sourceLabel": "ATP Tour",
+    "sourceUrl": "https://www.atptour.com/en/rankings/singles",
+    "columns": ["Pos.", "Jogador", "Pontos"],
+    "rows": [
+      ["1", "Jannik Sinner", "13.450"],
+      ["2", "Alexander Zverev", "8.480"],
+      ["3", "Carlos Alcaraz", "8.160"],
+      ["4", "Félix Auger-Aliassime", "4.740"],
+      ["5", "Alex de Minaur", "4.110"],
+      ["6", "Ben Shelton", "3.770"],
+      ["7", "Novak Djokovic", "3.760"],
+      ["8", "Daniil Medvedev", "3.670"],
+      ["9", "Flavio Cobolli", "3.460"],
+      ["10", "Taylor Fritz", "3.365"]
+    ]
+  },
+  "wta": {
+    "title": "Ranking oficial WTA — simples",
+    "asOf": "consultado em 23 jul 2026",
+    "sourceLabel": "WTA Tennis",
+    "sourceUrl": "https://www.wtatennis.com/rankings/singles",
+    "columns": ["Pos.", "Jogadora", "País", "Pontos"],
+    "rows": [
+      ["1", "Aryna Sabalenka", "BLR", "8.550"],
+      ["2", "Elena Rybakina", "KAZ", "8.143"],
+      ["3", "Jessica Pegula", "USA", "6.301"],
+      ["4", "Coco Gauff", "USA", "5.649"],
+      ["5", "Mirra Andreeva", "RUS", "5.293"],
+      ["6", "Karolina Muchova", "CZE", "5.168"],
+      ["7", "Linda Noskova", "CZE", "5.119"],
+      ["8", "Iga Swiatek", "POL", "4.539"],
+      ["9", "Amanda Anisimova", "USA", "4.353"],
+      ["10", "Elina Svitolina", "UKR", "4.351"]
+    ]
+  },
+  "owgr": {
+    "title": "Official World Golf Ranking — masculino",
+    "asOf": "19 jul 2026",
+    "sourceLabel": "OWGR",
+    "sourceUrl": "https://www.owgr.com/current-world-ranking",
+    "columns": ["Pos.", "Jogador", "Média", "Pontos totais"],
+    "rows": [
+      ["1", "Scottie Scheffler", "16,3800", "687,96014"],
+      ["2", "Rory McIlroy", "9,2577", "407,33821"],
+      ["3", "Cameron Young", "8,3268", "374,70500"],
+      ["4", "Matt Fitzpatrick", "7,2011", "352,85223"],
+      ["5", "Russell Henley", "5,7751", "231,00287"],
+      ["6", "Tommy Fleetwood", "5,6282", "292,66495"],
+      ["7", "Chris Gotterup", "5,5157", "286,81434"],
+      ["8", "Collin Morikawa", "5,3758", "215,03009"],
+      ["9", "Wyndham Clark", "5,2486", "257,18256"],
+      ["10", "Justin Rose", "5,0578", "217,48498"]
+    ]
+  },
+  "rolex": {
+    "title": "Rolex Women's World Golf Rankings — feminino",
+    "asOf": "20 jul 2026",
+    "sourceLabel": "Rolex Rankings",
+    "sourceUrl": "https://www.rolexrankings.com/pt-br/rankings",
+    "columns": ["Pos.", "Jogadora", "País", "Média", "Pontos totais"],
+    "rows": [
+      ["1", "Nelly Korda", "USA", "14,15", "495,32"],
+      ["2", "Jeeno Thitikul", "THA", "10,45", "438,98"],
+      ["3", "Haeran Ryu", "KOR", "8,16", "367,35"],
+      ["4", "Hyojoo Kim", "KOR", "7,29", "313,68"],
+      ["5", "Lottie Woad", "ENG", "6,29", "220,26"],
+      ["6", "Miyu Yamashita", "JPN", "6,23", "330,07"],
+      ["7", "Charley Hull", "ENG", "6,10", "237,85"],
+      ["8", "Ruoning Yin", "CHN", "5,83", "221,57"],
+      ["9", "Hannah Green", "AUS", "5,33", "223,95"],
+      ["10", "Sei Young Kim", "KOR", "4,85", "208,65"]
+    ]
+  },
+  "wslMen": {
+    "title": "WSL Championship Tour — masculino",
+    "asOf": "após o VIVO Rio Pro, 26 jun 2026",
+    "sourceLabel": "WSL — ranking ao vivo",
+    "sourceUrl": "https://www.worldsurfleague.com/athletes/tour/mct?year=2026",
+    "columns": ["Pos.", "Surfista", "País", "Pontos"],
+    "rows": [
+      ["1", "Leonardo Fioravanti", "ITA", "33.930"],
+      ["2", "Italo Ferreira", "BRA", "33.845"],
+      ["3", "Yago Dora", "BRA", "32.950"],
+      ["4", "Gabriel Medina", "BRA", "27.610"],
+      ["5", "Miguel Pupo", "BRA", "27.130"]
+    ]
+  },
+  "wslWomen": {
+    "title": "WSL Championship Tour — feminino",
+    "asOf": "após o VIVO Rio Pro, 26 jun 2026",
+    "sourceLabel": "WSL — ranking ao vivo",
+    "sourceUrl": "https://www.worldsurfleague.com/athletes/tour/wct?year=2026",
+    "columns": ["Pos.", "Surfista", "País", "Pontos"],
+    "rows": [
+      ["1", "Gabriela Bryan", "HAW", "35.065"],
+      ["2", "Carissa Moore", "HAW", "33.490"],
+      ["3", "Sawyer Lindblad", "USA", "32.970"],
+      ["4", "Luana Silva", "BRA", "31.835"],
+      ["5", "Molly Picklum", "AUS", "30.120"]
+    ]
+  }
+}
