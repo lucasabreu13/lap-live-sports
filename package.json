@@ -12,7 +12,8 @@
     "test:push": "tsx --test tests/push-alerts.test.ts",
     "test:reader-clarity": "tsx --test tests/reader-clarity.test.ts",
     "test:data": "tsx --test tests/score-integrity.test.ts tests/event-presentation.test.ts tests/live-data-details.test.ts tests/reader-clarity.test.ts",
-    "audit:site": "tsx scripts/run-site-audit.ts"
+    "audit:site": "tsx scripts/run-site-audit.ts",
+    "audit:production": "node scripts/production-contract.mjs https://lap-live-sports.vercel.app"
   },
   "dependencies": {
     "next": "^16.0.0",
