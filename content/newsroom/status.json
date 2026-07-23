@@ -1,10 +1,10 @@
 {
   "status": "ok",
-  "coverageStatus": "warning",
-  "validatedAt": "2026-07-23T13:01:50.404Z",
-  "commit": "d544697984d2e35f80fd0cd5560cc54e3b8c3b8e",
-  "runId": "30009424890",
-  "event": "schedule",
+  "coverageStatus": "ok",
+  "validatedAt": "2026-07-23T13:24:02.113Z",
+  "commit": "d693ea32c52add44f56c4f8fae7051130efebebc",
+  "runId": "30011010608",
+  "event": "push",
   "stages": {
     "agents": "success",
     "dataStories": "success",
@@ -13,23 +13,23 @@
     "curatedMerge": "success"
   },
   "metrics": {
-    "articlesCreated": 1,
+    "articlesCreated": 10,
     "articlesUpdated": 0,
     "articlesRemoved": 0,
     "articlesRejected": null,
     "curatedArticles": 9,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-07-23T13:01:50.190Z",
+    "lastPublishedAt": "2026-07-23T13:24:01.866Z",
     "lastPublishedBySport": {
-      "futebol": "2026-07-23T13:01:50.190Z",
-      "futebol-americano": "2026-07-22T18:10:00.000Z",
-      "tenis": "2026-07-22T18:10:00.000Z",
-      "ciclismo": "2026-07-22T18:10:00.000Z",
-      "formula1": "2026-07-22T18:10:00.000Z",
-      "basquete": "2026-07-22T18:10:00.000Z",
-      "beisebol": "2026-07-22T18:10:00.000Z",
-      "golfe": "2026-07-22T18:10:00.000Z",
-      "surfe": "2026-07-22T18:10:00.000Z"
+      "futebol": "2026-07-23T13:24:01.866Z",
+      "futebol-americano": "2026-07-23T13:20:00.000Z",
+      "tenis": "2026-07-23T13:20:00.000Z",
+      "ciclismo": "2026-07-23T13:20:00.000Z",
+      "formula1": "2026-07-23T13:20:00.000Z",
+      "basquete": "2026-07-23T13:20:00.000Z",
+      "beisebol": "2026-07-23T13:20:00.000Z",
+      "golfe": "2026-07-23T13:20:00.000Z",
+      "surfe": "2026-07-23T13:20:00.000Z"
     },
     "sourceErrors": [],
     "freshnessSLA": {
@@ -39,47 +39,47 @@
         "futebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-07-23T13:01:50.190Z"
+          "lastPublishedAt": "2026-07-23T13:24:01.866Z"
         },
         "futebol-americano": {
-          "status": "warning",
-          "ageHours": 18.9,
-          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
+          "status": "ok",
+          "ageHours": 0.1,
+          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "tenis": {
-          "status": "warning",
-          "ageHours": 18.9,
-          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
+          "status": "ok",
+          "ageHours": 0.1,
+          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "ciclismo": {
-          "status": "warning",
-          "ageHours": 18.9,
-          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
+          "status": "ok",
+          "ageHours": 0.1,
+          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "formula1": {
-          "status": "warning",
-          "ageHours": 18.9,
-          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
+          "status": "ok",
+          "ageHours": 0.1,
+          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "basquete": {
-          "status": "warning",
-          "ageHours": 18.9,
-          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
+          "status": "ok",
+          "ageHours": 0.1,
+          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "beisebol": {
-          "status": "warning",
-          "ageHours": 18.9,
-          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
+          "status": "ok",
+          "ageHours": 0.1,
+          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "golfe": {
-          "status": "warning",
-          "ageHours": 18.9,
-          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
+          "status": "ok",
+          "ageHours": 0.1,
+          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "surfe": {
-          "status": "warning",
-          "ageHours": 18.9,
-          "lastPublishedAt": "2026-07-22T18:10:00.000Z"
+          "status": "ok",
+          "ageHours": 0.1,
+          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         }
       }
     }
