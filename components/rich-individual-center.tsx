@@ -6,7 +6,15 @@ import styles from "./rich-individual-center.module.css";
 
 function RichDataTable({ table }: { table: RichTable }) {
   const rows = table.limit ? table.rows.slice(0, table.limit) : table.rows;
-  return <section className={styles.tablePanel}><header><div><span>Dados</span><h2>{table.title}</h2><p>{table.description}</p></div><strong>{rows.length}</strong></header>
+  return <section className={styles.tablePanel}>
+    <header>
+      <div><span>Dados</span><h2>{table.title}</h2><p>{table.description}</p></div>
+      <div className={styles.tableMeta}>
+        <strong>{rows.length}</strong>
+        {table.asOf ? <small>Atualizado: {table.asOf}</small> : null}
+        {table.sourceUrl ? <a href={table.sourceUrl} target="_blank" rel="noreferrer">Fonte oficial: {table.sourceLabel || "abrir"} ↗</a> : null}
+      </div>
+    </header>
     {rows.length ? <div className={styles.tableWrap}><table><thead><tr>{table.columns.map((column) => <th key={column}>{column}</th>)}</tr></thead><tbody>{rows.map((row, rowIndex) => <tr key={`${table.title}-${rowIndex}`}>{table.columns.map((_, index) => <td key={index}>{row[index] || "—"}</td>)}</tr>)}</tbody></table></div> : <div className={styles.empty}>A fonte pública não retornou uma tabela confiável para este bloco agora.</div>}
   </section>;
 }
