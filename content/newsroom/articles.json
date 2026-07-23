@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-20538759bdf2",
+    "slug": "nashville-sc-supera-cf-montreal-por-1-a-0-pelo-mls-205387",
+    "sportId": "futebol",
+    "title": "Nashville SC supera CF Montréal por 1 a 0 pela MLS",
+    "summary": "Nashville SC venceu CF Montréal por 1 a 0 pela MLS.",
+    "content": "Nashville SC venceu CF Montréal por 1 a 0 pela MLS, em 22 de julho de 2026 no GEODIS Park.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "Nashville SC supera CF Montréal por 1 a 0 pela MLS",
+    "seoDescription": "Nashville SC venceu CF Montréal por 1 a 0 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-23T18:06:47.398Z",
+    "createdAt": "2026-07-23T18:06:47.398Z",
+    "updatedAt": "2026-07-23T18:06:47.398Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "761673",
+      "eventStartTime": "2026-07-23T00:30Z",
+      "retrievedAt": "2026-07-23T18:06:47.398Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-929f1d5082c6",
     "slug": "houston-dynamo-fc-e-d-c-united-ficam-no-1-a-1-pelo-mls-929f1d",
     "sportId": "futebol",
