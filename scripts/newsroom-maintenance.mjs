@@ -34,6 +34,40 @@ function isFutureDataStory(article, now) {
   return Boolean(article?.dataDriven && eventStart && time(eventStart) > now + FUTURE_TOLERANCE_MS);
 }
 
+function fixCompetitionGrammar(value = "") {
+  return String(value)
+    .replace(/\bpelo MLS\b/gi, (match) => match[0] === "P" ? "Pela MLS" : "pela MLS")
+    .replace(/\bpelo Major League Soccer\b/gi, (match) => match[0] === "P" ? "Pela Major League Soccer" : "pela Major League Soccer");
+}
+
+function compactResultContent(value = "") {
+  const firstParagraph = fixCompetitionGrammar(String(value).split(/\n\s*\n/)[0] || "").trim();
+  return firstParagraph
+    .replace(/\s+O confronto aparece como encerrado na cobertura ao vivo da LAP\.?$/i, "")
+    .replace(/\s+O jogo aparece como finalizado na cobertura ao vivo da LAP\.?$/i, "")
+    .replace(/\s+O evento aparece como encerrado na cobertura ao vivo da LAP\.?$/i, "")
+    .trim();
+}
+
+function normalizeDataDrivenArticle(article) {
+  if (!article?.dataDriven) return article;
+  const title = fixCompetitionGrammar(article.title || "");
+  const summary = fixCompetitionGrammar(article.summary || "");
+  const content = compactResultContent(article.content || summary);
+  const priority = Number(article.homepagePriority) || 50;
+  return {
+    ...article,
+    title,
+    summary,
+    content: content || summary,
+    seoTitle: fixCompetitionGrammar(article.seoTitle || title),
+    seoDescription: fixCompetitionGrammar(article.seoDescription || summary),
+    coverImageUrl: null,
+    articleFormat: "result-brief",
+    homepagePriority: priority <= 60 ? Math.min(priority, 52) : priority,
+  };
+}
+
 function sameStory(a, b) {
   if (!a || !b || a.sportId !== b.sportId) return false;
   const publishedGap = Math.abs(time(a.publishedAt) - time(b.publishedAt));
@@ -49,7 +83,7 @@ function mergeLivingStory(older, newer) {
     content: newer.content || older.content,
     seoTitle: newer.seoTitle || older.seoTitle,
     seoDescription: newer.seoDescription || older.seoDescription,
-    coverImageUrl: newer.coverImageUrl || older.coverImageUrl,
+    coverImageUrl: newer.coverImageUrl ?? older.coverImageUrl,
     sourceName: newer.sourceName || older.sourceName,
     sourceUrl: newer.sourceUrl || older.sourceUrl,
     sourceUrls: [...new Set([...(older.sourceUrls || []), ...(newer.sourceUrls || [])])].slice(0, 12),
@@ -60,6 +94,7 @@ function mergeLivingStory(older, newer) {
     updatedAt: newer.updatedAt || newer.publishedAt || new Date().toISOString(),
     editorialPolished: newer.editorialPolished ?? older.editorialPolished,
     editorialDesk: newer.editorialDesk || older.editorialDesk,
+    articleFormat: newer.articleFormat || older.articleFormat,
     provenance: newer.provenance || older.provenance,
     updateHistory: [
       ...(Array.isArray(older.updateHistory) ? older.updateHistory : []),
@@ -74,7 +109,13 @@ async function main() {
   if (!Array.isArray(parsed)) throw new Error("Arquivo de matérias inválido.");
 
   const now = Date.now();
-  const cleaned = parsed.filter((article) => !isFutureDataStory(article, now));
+  const withoutFuture = parsed.filter((article) => !isFutureDataStory(article, now));
+  let normalizedDataStories = 0;
+  const cleaned = withoutFuture.map((article) => {
+    const normalizedArticle = normalizeDataDrivenArticle(article);
+    if (JSON.stringify(normalizedArticle) !== JSON.stringify(article)) normalizedDataStories += 1;
+    return normalizedArticle;
+  });
   const sorted = [...cleaned].sort((a, b) => time(a.publishedAt) - time(b.publishedAt));
   const consolidated = [];
   let merged = 0;
@@ -93,10 +134,10 @@ async function main() {
     .sort((a, b) => time(b.updatedAt || b.publishedAt) - time(a.updatedAt || a.publishedAt))
     .slice(0, MAX_STORED_ARTICLES);
 
-  const removedFuture = parsed.length - cleaned.length;
-  const changed = removedFuture > 0 || merged > 0 || next.length !== parsed.length;
+  const removedFuture = parsed.length - withoutFuture.length;
+  const changed = removedFuture > 0 || normalizedDataStories > 0 || merged > 0 || next.length !== parsed.length;
   if (changed) await writeFile(CONTENT_PATH, `${JSON.stringify(next, null, 2)}\n`, "utf8");
-  console.log(JSON.stringify({ stage: "maintenance", removedFuture, mergedLivingStories: merged, stored: next.length }));
+  console.log(JSON.stringify({ stage: "maintenance", removedFuture, normalizedDataStories, mergedLivingStories: merged, stored: next.length }));
 }
 
 main().catch((error) => {

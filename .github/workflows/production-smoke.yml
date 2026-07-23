@@ -1,0 +1,57 @@
+name: LAP Production Smoke
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 */6 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check deployment contract
+        id: contract
+        continue-on-error: true
+        run: |
+          node scripts/production-contract.mjs https://lap-live-sports.vercel.app > production-contract.json
+          cat production-contract.json
+
+      - name: Run deep site audit
+        id: audit
+        continue-on-error: true
+        run: |
+          npx tsx scripts/run-site-audit.ts https://lap-live-sports.vercel.app --deep > production-audit.json
+          cat production-audit.json
+
+      - name: Upload smoke reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lap-production-smoke-${{ github.run_id }}
+          path: |
+            production-contract.json
+            production-audit.json
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Fail when production contract is broken
+        if: steps.contract.outcome != 'success' || steps.audit.outcome != 'success'
+        run: |
+          echo "Production smoke detected a broken contract or audit failure."
+          exit 1

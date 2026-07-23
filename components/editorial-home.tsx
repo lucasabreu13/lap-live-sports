@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { EventCard } from "@/components/event-card";
 import { LapHeader } from "@/components/lap-header";
+import { ResultBriefVisual } from "@/components/result-brief-visual";
 import { curateHomepageNews } from "@/lib/home-news-curation";
 import { SPORTS, type LivePayload, type NewsItem, type ScoreItem, type SportId } from "@/lib/live-data";
 import { PUBLIC_SPORTS } from "@/lib/public-sports";
@@ -38,12 +39,21 @@ function sportName(id: SportId) {
   return SPORTS.find((sport) => sport.id === id)?.name || id;
 }
 
+function isResultBrief(item: NewsItem) {
+  return item.source === "LAP · Resultado rápido";
+}
+
+function StoryVisual({ item }: { item: NewsItem }) {
+  if (isResultBrief(item)) return <ResultBriefVisual title={item.title} sportId={item.sportId as SportId} compact />;
+  return <img src={newsImage(item)} alt={newsAlt(item)} loading="lazy" />;
+}
+
 function StoryCard({ item, compact = false }: { item: NewsItem; compact?: boolean }) {
   return (
     <Link href={item.internalUrl} className={compact ? styles.storyCompact : styles.storyCard}>
-      <img src={newsImage(item)} alt={newsAlt(item)} loading="lazy" />
+      <StoryVisual item={item} />
       <div>
-        <p>{sportName(item.sportId as SportId)} · {relativeTime(item.publishedAt)}</p>
+        <p>{isResultBrief(item) ? "Resultado rápido · " : ""}{sportName(item.sportId as SportId)} · {relativeTime(item.publishedAt)}</p>
         <h3>{item.title}</h3>
         {!compact && item.excerpt ? <span>{item.excerpt}</span> : null}
       </div>
@@ -102,13 +112,13 @@ export function EditorialHome({ initialPayload = null }: { initialPayload?: Live
   const latest = allNews.filter((item) => !heroIds.has(item.slug || item.id)).slice(0, 8);
 
   return (
-    <main id="main-content" tabIndex={-1}>
+    <main id="main-content" tabIndex={-1} data-lap-shell="editorial-v3">
       <LapHeader activeSport="todos" />
       <div className={`shell ${styles.page}`}>
         <header className={styles.masthead}><div><p>Redação LAP · atualização contínua</p><h1>O esporte começa pelas histórias que realmente importam.</h1></div><Link href="/agenda">Ver agenda completa →</Link></header>
 
         {curated.length ? <section className={styles.hero} aria-label="Principais notícias">
-          {lead ? <Link href={lead.internalUrl} className={styles.lead}><img src={newsImage(lead)} alt={newsAlt(lead)} loading="eager" /><div><p>{sportName(lead.sportId as SportId)} · {relativeTime(lead.publishedAt)}</p><h2>{lead.title}</h2>{lead.excerpt ? <span>{lead.excerpt}</span> : null}<strong>Ler matéria →</strong></div></Link> : null}
+          {lead ? <Link href={lead.internalUrl} className={styles.lead}>{isResultBrief(lead) ? <ResultBriefVisual title={lead.title} sportId={lead.sportId as SportId} /> : <img src={newsImage(lead)} alt={newsAlt(lead)} loading="eager" />}<div><p>{isResultBrief(lead) ? "Resultado rápido · " : ""}{sportName(lead.sportId as SportId)} · {relativeTime(lead.publishedAt)}</p><h2>{lead.title}</h2>{lead.excerpt ? <span>{lead.excerpt}</span> : null}<strong>Ler {isResultBrief(lead) ? "resultado" : "matéria"} →</strong></div></Link> : null}
           <div className={styles.secondaryGrid}>{secondary.map((item) => <StoryCard key={item.id} item={item} compact />)}</div>
         </section> : failed ? <section className={styles.notice}>A atualização editorial está temporariamente indisponível. A LAP tentará novamente automaticamente.</section> : <section className={styles.heroSkeleton} aria-label="Carregando notícias"><span /><span /><span /></section>}
 
