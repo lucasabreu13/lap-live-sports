@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { DataAutoRefresh } from "@/components/data-auto-refresh";
 import { DataVisibilityGuard } from "@/components/data-visibility-guard";
 import { MobileBottomNav } from "@/components/mobile-bottom-nav";
 import "./globals.css";
@@ -51,5 +52,5 @@ export const metadata: Metadata = {
 export const viewport: Viewport = { themeColor: "#0f1718", colorScheme: "light", width: "device-width", initialScale: 1 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="pt-BR"><body><DataVisibilityGuard />{children}<MobileBottomNav /></body></html>;
+  return <html lang="pt-BR"><body><DataVisibilityGuard /><DataAutoRefresh />{children}<MobileBottomNav /></body></html>;
 }
