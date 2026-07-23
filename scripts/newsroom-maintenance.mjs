@@ -49,15 +49,6 @@ function compactResultContent(value = "") {
     .trim();
 }
 
-function resultBriefCover(article) {
-  const params = new URLSearchParams({
-    sport: String(article?.sportId || "esporte"),
-    league: String(article?.provenance?.league || "Resultado confirmado"),
-    title: String(article?.title || "Resultado confirmado"),
-  });
-  return `/api/result-cover?${params.toString()}`;
-}
-
 function normalizeDataDrivenArticle(article) {
   if (!article?.dataDriven) return article;
   const title = fixCompetitionGrammar(article.title || "");
@@ -71,7 +62,7 @@ function normalizeDataDrivenArticle(article) {
     content: content || summary,
     seoTitle: fixCompetitionGrammar(article.seoTitle || title),
     seoDescription: fixCompetitionGrammar(article.seoDescription || summary),
-    coverImageUrl: resultBriefCover({ ...article, title }),
+    coverImageUrl: null,
     articleFormat: "result-brief",
     homepagePriority: priority <= 60 ? Math.min(priority, 52) : priority,
   };
@@ -92,7 +83,7 @@ function mergeLivingStory(older, newer) {
     content: newer.content || older.content,
     seoTitle: newer.seoTitle || older.seoTitle,
     seoDescription: newer.seoDescription || older.seoDescription,
-    coverImageUrl: newer.coverImageUrl || older.coverImageUrl,
+    coverImageUrl: newer.coverImageUrl ?? older.coverImageUrl,
     sourceName: newer.sourceName || older.sourceName,
     sourceUrl: newer.sourceUrl || older.sourceUrl,
     sourceUrls: [...new Set([...(older.sourceUrls || []), ...(newer.sourceUrls || [])])].slice(0, 12),
