@@ -1,14 +1,56 @@
 [
   {
+    "id": "newsroom-data-841add3812a3",
+    "slug": "sporting-cristal-e-red-bull-bragantino-ficam-no-0-a-0-pela-copa-sul-americana-841add",
+    "sportId": "futebol",
+    "title": "Sporting Cristal e Red Bull Bragantino ficam no 0 a 0 pela Copa Sul Americana",
+    "summary": "Sporting Cristal e Red Bull Bragantino empataram por 0 a 0 pela Copa Sul Americana.",
+    "content": "Sporting Cristal e Red Bull Bragantino empataram por 0 a 0 pela Copa Sul Americana, em 22 de julho de 2026 no Estadio Nacional de Lima. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-sul-americana"
+    ],
+    "seoTitle": "Sporting Cristal e Red Bull Bragantino ficam no 0 a 0 pela Copa Sul",
+    "seoDescription": "Sporting Cristal e Red Bull Bragantino empataram por 0 a 0 pela Copa Sul Americana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-23T15:22:34.864Z",
+    "createdAt": "2026-07-23T15:22:34.864Z",
+    "updatedAt": "2026-07-23T15:22:34.864Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401874148",
+      "eventStartTime": "2026-07-23T00:30Z",
+      "retrievedAt": "2026-07-23T15:22:34.864Z",
+      "feedId": "futebol",
+      "league": "Copa Sul-Americana"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-1cdffdeee87f",
     "slug": "lanus-supera-cienciano-del-cusco-por-2-a-0-pela-copa-sul-americana-1cdffd",
     "sportId": "futebol",
     "title": "Lanús supera Cienciano del Cusco por 2 a 0 pela Copa Sul Americana",
     "summary": "Lanús venceu Cienciano del Cusco por 2 a 0 pela Copa Sul Americana.",
-    "content": "Lanús venceu Cienciano del Cusco por 2 a 0 pela Copa Sul Americana, em 22 de julho de 2026 no Ciudad de Lanús. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Lanús, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "content": "Lanús venceu Cienciano del Cusco por 2 a 0 pela Copa Sul Americana, em 22 de julho de 2026 no Ciudad de Lanús.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
+    "coverImageUrl": null,
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -23,7 +65,7 @@
     "publishedAt": "2026-07-23T15:21:59.839Z",
     "createdAt": "2026-07-23T15:21:59.839Z",
     "updatedAt": "2026-07-23T15:21:59.839Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "futebol",
     "sourceUrls": [
@@ -38,18 +80,19 @@
       "retrievedAt": "2026-07-23T15:21:59.839Z",
       "feedId": "futebol",
       "league": "Copa Sul-Americana"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-941135fd013e",
     "slug": "colorado-rapids-supera-san-diego-fc-por-1-a-0-pelo-mls-941135",
     "sportId": "futebol",
-    "title": "Colorado Rapids supera San Diego FC por 1 a 0 pelo MLS",
-    "summary": "Colorado Rapids venceu San Diego FC por 1 a 0 pelo MLS.",
-    "content": "Colorado Rapids venceu San Diego FC por 1 a 0 pelo MLS, em 22 de julho de 2026 no Dick's Sporting Goods Park. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Colorado Rapids, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "title": "Colorado Rapids supera San Diego FC por 1 a 0 pela MLS",
+    "summary": "Colorado Rapids venceu San Diego FC por 1 a 0 pela MLS.",
+    "content": "Colorado Rapids venceu San Diego FC por 1 a 0 pela MLS, em 22 de julho de 2026 no Dick's Sporting Goods Park.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
+    "coverImageUrl": null,
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -57,14 +100,14 @@
       "resultado",
       "mls"
     ],
-    "seoTitle": "Colorado Rapids supera San Diego FC por 1 a 0 pelo MLS",
-    "seoDescription": "Colorado Rapids venceu San Diego FC por 1 a 0 pelo MLS.",
+    "seoTitle": "Colorado Rapids supera San Diego FC por 1 a 0 pela MLS",
+    "seoDescription": "Colorado Rapids venceu San Diego FC por 1 a 0 pela MLS.",
     "status": "published",
     "scheduledAt": null,
     "publishedAt": "2026-07-23T13:24:01.866Z",
     "createdAt": "2026-07-23T13:24:01.866Z",
     "updatedAt": "2026-07-23T13:24:01.866Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "futebol",
     "sourceUrls": [
@@ -79,7 +122,8 @@
       "retrievedAt": "2026-07-23T13:24:01.866Z",
       "feedId": "futebol",
       "league": "MLS"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "curated-futebol-20260723",
@@ -396,12 +440,12 @@
     "id": "newsroom-data-df777eaff0a6",
     "slug": "orlando-city-sc-supera-san-jose-earthquakes-por-4-a-0-pelo-mls-df777e",
     "sportId": "futebol",
-    "title": "Orlando City SC supera San Jose Earthquakes por 4 a 0 pelo MLS",
-    "summary": "Orlando City SC venceu San Jose Earthquakes por 4 a 0 pelo MLS.",
-    "content": "Orlando City SC venceu San Jose Earthquakes por 4 a 0 pelo MLS, em 22 de julho de 2026 no PayPal Park. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Orlando City SC, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "title": "Orlando City SC supera San Jose Earthquakes por 4 a 0 pela MLS",
+    "summary": "Orlando City SC venceu San Jose Earthquakes por 4 a 0 pela MLS.",
+    "content": "Orlando City SC venceu San Jose Earthquakes por 4 a 0 pela MLS, em 22 de julho de 2026 no PayPal Park.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
+    "coverImageUrl": null,
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -409,14 +453,14 @@
       "resultado",
       "mls"
     ],
-    "seoTitle": "Orlando City SC supera San Jose Earthquakes por 4 a 0 pelo MLS",
-    "seoDescription": "Orlando City SC venceu San Jose Earthquakes por 4 a 0 pelo MLS.",
+    "seoTitle": "Orlando City SC supera San Jose Earthquakes por 4 a 0 pela MLS",
+    "seoDescription": "Orlando City SC venceu San Jose Earthquakes por 4 a 0 pela MLS.",
     "status": "published",
     "scheduledAt": null,
     "publishedAt": "2026-07-23T13:01:50.190Z",
     "createdAt": "2026-07-23T13:01:50.190Z",
     "updatedAt": "2026-07-23T13:01:50.190Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "futebol",
     "sourceUrls": [
@@ -431,18 +475,19 @@
       "retrievedAt": "2026-07-23T13:01:50.190Z",
       "feedId": "futebol",
       "league": "MLS"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-2fc16896cc6c",
     "slug": "portland-timbers-e-fc-dallas-ficam-no-2-a-2-pelo-mls-2fc168",
     "sportId": "futebol",
-    "title": "Portland Timbers e FC Dallas ficam no 2 a 2 pelo MLS",
-    "summary": "Portland Timbers e FC Dallas empataram por 2 a 2 pelo MLS.",
-    "content": "Portland Timbers e FC Dallas empataram por 2 a 2 pelo MLS, em 22 de julho de 2026 no Providence Park. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.\n\nO placar não apontou vencedor. Para uma análise mais detalhada do desempenho das equipes, a redação aguarda estatísticas e informações adicionais confirmadas sobre a partida, evitando atribuir domínio, chances criadas ou acontecimentos que não estejam disponíveis nos dados verificados.\n\nA cobertura da LAP mantém o resultado como referência do confronto e acompanha as próximas atualizações oficiais da competição e dos clubes envolvidos.",
+    "title": "Portland Timbers e FC Dallas ficam no 2 a 2 pela MLS",
+    "summary": "Portland Timbers e FC Dallas empataram por 2 a 2 pela MLS.",
+    "content": "Portland Timbers e FC Dallas empataram por 2 a 2 pela MLS, em 22 de julho de 2026 no Providence Park. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
+    "coverImageUrl": null,
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -450,14 +495,14 @@
       "resultado",
       "mls"
     ],
-    "seoTitle": "Portland Timbers e FC Dallas ficam no 2 a 2 pelo MLS",
-    "seoDescription": "Portland Timbers e FC Dallas empataram por 2 a 2 pelo MLS.",
+    "seoTitle": "Portland Timbers e FC Dallas ficam no 2 a 2 pela MLS",
+    "seoDescription": "Portland Timbers e FC Dallas empataram por 2 a 2 pela MLS.",
     "status": "published",
     "scheduledAt": null,
     "publishedAt": "2026-07-23T11:30:06.123Z",
     "createdAt": "2026-07-23T11:30:06.123Z",
     "updatedAt": "2026-07-23T11:30:06.123Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "futebol",
     "sourceUrls": [
@@ -472,18 +517,19 @@
       "retrievedAt": "2026-07-23T11:30:06.123Z",
       "feedId": "futebol",
       "league": "MLS"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-cc31605000be",
     "slug": "lafc-supera-real-salt-lake-por-3-a-1-pelo-mls-cc3160",
     "sportId": "futebol",
-    "title": "LAFC supera Real Salt Lake por 3 a 1 pelo MLS",
-    "summary": "LAFC venceu Real Salt Lake por 3 a 1 pelo MLS.",
-    "content": "LAFC venceu Real Salt Lake por 3 a 1 pelo MLS, em 22 de julho de 2026 no BMO Stadium. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de LAFC, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "title": "LAFC supera Real Salt Lake por 3 a 1 pela MLS",
+    "summary": "LAFC venceu Real Salt Lake por 3 a 1 pela MLS.",
+    "content": "LAFC venceu Real Salt Lake por 3 a 1 pela MLS, em 22 de julho de 2026 no BMO Stadium.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
+    "coverImageUrl": null,
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -491,14 +537,14 @@
       "resultado",
       "mls"
     ],
-    "seoTitle": "LAFC supera Real Salt Lake por 3 a 1 pelo MLS",
-    "seoDescription": "LAFC venceu Real Salt Lake por 3 a 1 pelo MLS.",
+    "seoTitle": "LAFC supera Real Salt Lake por 3 a 1 pela MLS",
+    "seoDescription": "LAFC venceu Real Salt Lake por 3 a 1 pela MLS.",
     "status": "published",
     "scheduledAt": null,
     "publishedAt": "2026-07-23T09:33:36.361Z",
     "createdAt": "2026-07-23T09:33:36.361Z",
     "updatedAt": "2026-07-23T09:33:36.361Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "futebol",
     "sourceUrls": [
@@ -513,18 +559,19 @@
       "retrievedAt": "2026-07-23T09:33:36.361Z",
       "feedId": "futebol",
       "league": "MLS"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-f8fa662a5197",
     "slug": "st-louis-city-sc-supera-la-galaxy-por-3-a-1-pelo-mls-f8fa66",
     "sportId": "futebol",
-    "title": "St. Louis CITY SC supera LA Galaxy por 3 a 1 pelo MLS",
-    "summary": "St. Louis CITY SC venceu LA Galaxy por 3 a 1 pelo MLS.",
-    "content": "St. Louis CITY SC venceu LA Galaxy por 3 a 1 pelo MLS, em 22 de julho de 2026 no Dignity Health Sports Park. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de St. Louis CITY SC, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "title": "St. Louis CITY SC supera LA Galaxy por 3 a 1 pela MLS",
+    "summary": "St. Louis CITY SC venceu LA Galaxy por 3 a 1 pela MLS.",
+    "content": "St. Louis CITY SC venceu LA Galaxy por 3 a 1 pela MLS, em 22 de julho de 2026 no Dignity Health Sports Park.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
+    "coverImageUrl": null,
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -532,14 +579,14 @@
       "resultado",
       "mls"
     ],
-    "seoTitle": "St. Louis CITY SC supera LA Galaxy por 3 a 1 pelo MLS",
-    "seoDescription": "St. Louis CITY SC venceu LA Galaxy por 3 a 1 pelo MLS.",
+    "seoTitle": "St. Louis CITY SC supera LA Galaxy por 3 a 1 pela MLS",
+    "seoDescription": "St. Louis CITY SC venceu LA Galaxy por 3 a 1 pela MLS.",
     "status": "published",
     "scheduledAt": null,
     "publishedAt": "2026-07-23T07:06:12.029Z",
     "createdAt": "2026-07-23T07:06:12.029Z",
     "updatedAt": "2026-07-23T07:06:12.029Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "futebol",
     "sourceUrls": [
@@ -554,18 +601,19 @@
       "retrievedAt": "2026-07-23T07:06:12.029Z",
       "feedId": "futebol",
       "league": "MLS"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-1926eb2f67db",
     "slug": "austin-fc-supera-seattle-sounders-fc-por-3-a-1-pelo-mls-1926eb",
     "sportId": "futebol",
-    "title": "Austin FC supera Seattle Sounders FC por 3 a 1 pelo MLS",
-    "summary": "Austin FC venceu Seattle Sounders FC por 3 a 1 pelo MLS.",
-    "content": "Austin FC venceu Seattle Sounders FC por 3 a 1 pelo MLS, em 22 de julho de 2026 no Q2 Stadium. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Austin FC, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "title": "Austin FC supera Seattle Sounders FC por 3 a 1 pela MLS",
+    "summary": "Austin FC venceu Seattle Sounders FC por 3 a 1 pela MLS.",
+    "content": "Austin FC venceu Seattle Sounders FC por 3 a 1 pela MLS, em 22 de julho de 2026 no Q2 Stadium.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
+    "coverImageUrl": null,
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -573,14 +621,14 @@
       "resultado",
       "mls"
     ],
-    "seoTitle": "Austin FC supera Seattle Sounders FC por 3 a 1 pelo MLS",
-    "seoDescription": "Austin FC venceu Seattle Sounders FC por 3 a 1 pelo MLS.",
+    "seoTitle": "Austin FC supera Seattle Sounders FC por 3 a 1 pela MLS",
+    "seoDescription": "Austin FC venceu Seattle Sounders FC por 3 a 1 pela MLS.",
     "status": "published",
     "scheduledAt": null,
     "publishedAt": "2026-07-23T04:29:43.979Z",
     "createdAt": "2026-07-23T04:29:43.979Z",
     "updatedAt": "2026-07-23T04:29:43.979Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "futebol",
     "sourceUrls": [
@@ -595,7 +643,8 @@
       "retrievedAt": "2026-07-23T04:29:43.979Z",
       "feedId": "futebol",
       "league": "MLS"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-2a5ff77d3cdf",
@@ -603,10 +652,10 @@
     "sportId": "futebol",
     "title": "Operário PR supera Ponte Preta por 3 a 2 pelo Brasileirão Série B",
     "summary": "Operário PR venceu Ponte Preta por 3 a 2 pelo Brasileirão Série B.",
-    "content": "Operário PR venceu Ponte Preta por 3 a 2 pelo Brasileirão Série B, em 22 de julho de 2026 no Germano Krüger. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Operário PR, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "content": "Operário PR venceu Ponte Preta por 3 a 2 pelo Brasileirão Série B, em 22 de julho de 2026 no Germano Krüger.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
+    "coverImageUrl": null,
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -621,7 +670,7 @@
     "publishedAt": "2026-07-23T01:09:44.091Z",
     "createdAt": "2026-07-23T01:09:44.091Z",
     "updatedAt": "2026-07-23T01:09:44.091Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "futebol",
     "sourceUrls": [
@@ -636,7 +685,8 @@
       "retrievedAt": "2026-07-23T01:09:44.091Z",
       "feedId": "futebol",
       "league": "Brasileirão Série B"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "curated-casemiro-inter-miami-20260722",
@@ -946,7 +996,7 @@
     "sportId": "futebol",
     "title": "Criciúma supera Novorizontino por 1 a 0 pelo Brasileirão Série B",
     "summary": "Criciúma venceu Novorizontino por 1 a 0 pelo Brasileirão Série B.",
-    "content": "Criciúma venceu Novorizontino por 1 a 0 pelo Brasileirão Série B, em 21 de julho de 2026 no Estádio Dr. Jorge Ismael de Biasi. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Criciúma, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "content": "Criciúma venceu Novorizontino por 1 a 0 pelo Brasileirão Série B, em 21 de julho de 2026 no Estádio Dr. Jorge Ismael de Biasi.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
     "coverImageUrl": null,
@@ -964,7 +1014,7 @@
     "publishedAt": "2026-07-22T09:44:50.469Z",
     "createdAt": "2026-07-22T09:44:50.469Z",
     "updatedAt": "2026-07-22T09:44:50.469Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "futebol",
     "sourceUrls": [
@@ -979,7 +1029,8 @@
       "retrievedAt": "2026-07-22T09:44:50.469Z",
       "feedId": "futebol",
       "league": "Brasileirão Série B"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-badbc34574ba",
@@ -1022,10 +1073,10 @@
     "sportId": "futebol",
     "title": "Tigre supera Nacional por 3 a 0 pela Copa Sul Americana",
     "summary": "Tigre venceu Nacional por 3 a 0 pela Copa Sul Americana.",
-    "content": "Tigre venceu Nacional por 3 a 0 pela Copa Sul Americana, em 21 de julho de 2026 no Gran Parque Central. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Tigre, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "content": "Tigre venceu Nacional por 3 a 0 pela Copa Sul Americana, em 21 de julho de 2026 no Gran Parque Central.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
+    "coverImageUrl": null,
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -1040,7 +1091,7 @@
     "publishedAt": "2026-07-22T07:18:55.002Z",
     "createdAt": "2026-07-22T07:18:55.002Z",
     "updatedAt": "2026-07-22T13:10:45.338Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "futebol",
     "sourceUrls": [
@@ -1061,7 +1112,8 @@
         "updatedAt": "2026-07-22T13:10:45.338Z",
         "sourceArticleId": "newsroom-data-6332fd57244e"
       }
-    ]
+    ],
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-bf32836f3b6a",
@@ -1069,7 +1121,7 @@
     "sportId": "futebol",
     "title": "Vila Nova supera Fortaleza por 2 a 1 pelo Brasileirão Série B",
     "summary": "Vila Nova venceu Fortaleza por 2 a 1 pelo Brasileirão Série B.",
-    "content": "Vila Nova venceu Fortaleza por 2 a 1 pelo Brasileirão Série B, em 21 de julho de 2026 no Estádio Onésio Brasileiro Alvarenga. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Vila Nova, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "content": "Vila Nova venceu Fortaleza por 2 a 1 pelo Brasileirão Série B, em 21 de julho de 2026 no Estádio Onésio Brasileiro Alvarenga.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
     "coverImageUrl": null,
@@ -1087,7 +1139,7 @@
     "publishedAt": "2026-07-22T04:31:07.433Z",
     "createdAt": "2026-07-22T04:31:07.433Z",
     "updatedAt": "2026-07-22T04:31:07.433Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "futebol",
     "sourceUrls": [
@@ -1102,7 +1154,8 @@
       "retrievedAt": "2026-07-22T04:31:07.433Z",
       "feedId": "futebol",
       "league": "Brasileirão Série B"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-15f15a536fd6",
@@ -1110,7 +1163,7 @@
     "sportId": "futebol",
     "title": "Avaí supera América Mineiro por 2 a 1 pelo Brasileirão Série B",
     "summary": "Avaí venceu América Mineiro por 2 a 1 pelo Brasileirão Série B.",
-    "content": "Avaí venceu América Mineiro por 2 a 1 pelo Brasileirão Série B, em 21 de julho de 2026 no Estádio da Ressacada. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Avaí, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "content": "Avaí venceu América Mineiro por 2 a 1 pelo Brasileirão Série B, em 21 de julho de 2026 no Estádio da Ressacada.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
     "coverImageUrl": null,
@@ -1128,7 +1181,7 @@
     "publishedAt": "2026-07-22T01:04:39.206Z",
     "createdAt": "2026-07-22T01:04:39.206Z",
     "updatedAt": "2026-07-22T01:04:39.206Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "futebol",
     "sourceUrls": [
@@ -1143,7 +1196,8 @@
       "retrievedAt": "2026-07-22T01:04:39.206Z",
       "feedId": "futebol",
       "league": "Brasileirão Série B"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-213e982b948e",
@@ -1151,7 +1205,7 @@
     "sportId": "beisebol",
     "title": "Tampa Bay Rays vence Toronto Blue Jays por 7 a 1 na temporada regular",
     "summary": "Tampa Bay Rays derrotou Toronto Blue Jays por 7 a 1 na temporada regular.",
-    "content": "Tampa Bay Rays derrotou Toronto Blue Jays por 7 a 1 na temporada regular, em 20 de julho de 2026 no Rogers Centre. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "content": "Tampa Bay Rays derrotou Toronto Blue Jays por 7 a 1 na temporada regular, em 20 de julho de 2026 no Rogers Centre.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
     "coverImageUrl": null,
@@ -1169,7 +1223,7 @@
     "publishedAt": "2026-07-21T12:51:39.313Z",
     "createdAt": "2026-07-21T12:51:39.313Z",
     "updatedAt": "2026-07-21T12:51:39.313Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "beisebol",
     "sourceUrls": [
@@ -1184,7 +1238,8 @@
       "retrievedAt": "2026-07-21T12:51:39.313Z",
       "feedId": "beisebol",
       "league": "regular-season"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-9eed4d14a23c",
@@ -1192,7 +1247,7 @@
     "sportId": "beisebol",
     "title": "Atlanta Braves vence San Diego Padres por 3 a 2 na temporada regular",
     "summary": "Atlanta Braves derrotou San Diego Padres por 3 a 2 na temporada regular.",
-    "content": "Atlanta Braves derrotou San Diego Padres por 3 a 2 na temporada regular, em 20 de julho de 2026 no Truist Park. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "content": "Atlanta Braves derrotou San Diego Padres por 3 a 2 na temporada regular, em 20 de julho de 2026 no Truist Park.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
     "coverImageUrl": null,
@@ -1210,7 +1265,7 @@
     "publishedAt": "2026-07-21T11:27:41.893Z",
     "createdAt": "2026-07-21T11:27:41.893Z",
     "updatedAt": "2026-07-21T11:27:41.893Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "beisebol",
     "sourceUrls": [
@@ -1225,7 +1280,8 @@
       "retrievedAt": "2026-07-21T11:27:41.893Z",
       "feedId": "beisebol",
       "league": "regular-season"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-0500ce911d3d",
@@ -1233,7 +1289,7 @@
     "sportId": "beisebol",
     "title": "Kansas City Royals vence San Francisco Giants por 4 a 3 na temporada regular",
     "summary": "Kansas City Royals derrotou San Francisco Giants por 4 a 3 na temporada regular.",
-    "content": "Kansas City Royals derrotou San Francisco Giants por 4 a 3 na temporada regular, em 20 de julho de 2026 no Kauffman Stadium. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "content": "Kansas City Royals derrotou San Francisco Giants por 4 a 3 na temporada regular, em 20 de julho de 2026 no Kauffman Stadium.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
     "coverImageUrl": null,
@@ -1251,7 +1307,7 @@
     "publishedAt": "2026-07-21T09:37:18.014Z",
     "createdAt": "2026-07-21T09:37:18.014Z",
     "updatedAt": "2026-07-21T09:37:18.014Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "beisebol",
     "sourceUrls": [
@@ -1266,7 +1322,8 @@
       "retrievedAt": "2026-07-21T09:37:18.014Z",
       "feedId": "beisebol",
       "league": "regular-season"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-b9571089155e",
@@ -1274,7 +1331,7 @@
     "sportId": "beisebol",
     "title": "Milwaukee Brewers vence New York Mets por 8 a 3 na temporada regular",
     "summary": "Milwaukee Brewers derrotou New York Mets por 8 a 3 na temporada regular.",
-    "content": "Milwaukee Brewers derrotou New York Mets por 8 a 3 na temporada regular, em 20 de julho de 2026 no American Family Field. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "content": "Milwaukee Brewers derrotou New York Mets por 8 a 3 na temporada regular, em 20 de julho de 2026 no American Family Field.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
     "coverImageUrl": null,
@@ -1292,7 +1349,7 @@
     "publishedAt": "2026-07-21T07:06:44.014Z",
     "createdAt": "2026-07-21T07:06:44.014Z",
     "updatedAt": "2026-07-21T07:06:44.014Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "beisebol",
     "sourceUrls": [
@@ -1307,7 +1364,8 @@
       "retrievedAt": "2026-07-21T07:06:44.014Z",
       "feedId": "beisebol",
       "league": "regular-season"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-3096bbd48928",
@@ -1315,7 +1373,7 @@
     "sportId": "beisebol",
     "title": "Chicago White Sox vence Texas Rangers por 10 a 3 na temporada regular",
     "summary": "Chicago White Sox derrotou Texas Rangers por 10 a 3 na temporada regular.",
-    "content": "Chicago White Sox derrotou Texas Rangers por 10 a 3 na temporada regular, em 20 de julho de 2026 no Globe Life Field. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "content": "Chicago White Sox derrotou Texas Rangers por 10 a 3 na temporada regular, em 20 de julho de 2026 no Globe Life Field.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
     "coverImageUrl": null,
@@ -1333,7 +1391,7 @@
     "publishedAt": "2026-07-21T04:28:51.560Z",
     "createdAt": "2026-07-21T04:28:51.560Z",
     "updatedAt": "2026-07-21T04:28:51.560Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "beisebol",
     "sourceUrls": [
@@ -1348,7 +1406,8 @@
       "retrievedAt": "2026-07-21T04:28:51.560Z",
       "feedId": "beisebol",
       "league": "regular-season"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-0218ea0a1037",
@@ -1356,7 +1415,7 @@
     "sportId": "beisebol",
     "title": "Baltimore Orioles vence Houston Astros por 5 a 2 na temporada regular",
     "summary": "Baltimore Orioles derrotou Houston Astros por 5 a 2 na temporada regular.",
-    "content": "Baltimore Orioles derrotou Houston Astros por 5 a 2 na temporada regular, em 19 de julho de 2026 no Daikin Park. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "content": "Baltimore Orioles derrotou Houston Astros por 5 a 2 na temporada regular, em 19 de julho de 2026 no Daikin Park.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
     "coverImageUrl": null,
@@ -1374,7 +1433,7 @@
     "publishedAt": "2026-07-21T01:05:25.537Z",
     "createdAt": "2026-07-21T01:05:25.537Z",
     "updatedAt": "2026-07-21T01:05:25.537Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "beisebol",
     "sourceUrls": [
@@ -1389,7 +1448,8 @@
       "retrievedAt": "2026-07-21T01:05:25.537Z",
       "feedId": "beisebol",
       "league": "regular-season"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-5db7a79efeba",
@@ -1397,7 +1457,7 @@
     "sportId": "beisebol",
     "title": "Chicago Cubs vence Minnesota Twins por 10 a 1 na temporada regular",
     "summary": "Chicago Cubs derrotou Minnesota Twins por 10 a 1 na temporada regular.",
-    "content": "Chicago Cubs derrotou Minnesota Twins por 10 a 1 na temporada regular, em 19 de julho de 2026 no Wrigley Field. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "content": "Chicago Cubs derrotou Minnesota Twins por 10 a 1 na temporada regular, em 19 de julho de 2026 no Wrigley Field.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
     "coverImageUrl": null,
@@ -1415,7 +1475,7 @@
     "publishedAt": "2026-07-20T23:37:24.992Z",
     "createdAt": "2026-07-20T23:37:24.992Z",
     "updatedAt": "2026-07-20T23:37:24.992Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "beisebol",
     "sourceUrls": [
@@ -1430,7 +1490,8 @@
       "retrievedAt": "2026-07-20T23:37:24.992Z",
       "feedId": "beisebol",
       "league": "regular-season"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-1b108e1e1cef",
@@ -1438,7 +1499,7 @@
     "sportId": "beisebol",
     "title": "Cincinnati Reds vence Colorado Rockies por 9 a 6 na temporada regular",
     "summary": "Cincinnati Reds derrotou Colorado Rockies por 9 a 6 na temporada regular.",
-    "content": "Cincinnati Reds derrotou Colorado Rockies por 9 a 6 na temporada regular, em 19 de julho de 2026 no Coors Field. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "content": "Cincinnati Reds derrotou Colorado Rockies por 9 a 6 na temporada regular, em 19 de julho de 2026 no Coors Field.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
     "coverImageUrl": null,
@@ -1456,7 +1517,7 @@
     "publishedAt": "2026-07-20T22:43:35.594Z",
     "createdAt": "2026-07-20T22:43:35.594Z",
     "updatedAt": "2026-07-20T22:43:35.594Z",
-    "homepagePriority": 58,
+    "homepagePriority": 52,
     "breaking": false,
     "agentId": "beisebol",
     "sourceUrls": [
@@ -1471,7 +1532,8 @@
       "retrievedAt": "2026-07-20T22:43:35.594Z",
       "feedId": "beisebol",
       "league": "regular-season"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-1f7c3d176ec4",
@@ -1479,7 +1541,7 @@
     "sportId": "beisebol",
     "title": "Washington Nationals vence Athletics por 5 a 2 na temporada regular",
     "summary": "Washington Nationals derrotou Athletics por 5 a 2 na temporada regular.",
-    "content": "Washington Nationals derrotou Athletics por 5 a 2 na temporada regular, em 19 de julho de 2026 no Sutter Health Park. O jogo aparece como finalizado na cobertura ao vivo da LAP.\n\nO placar confirma o resultado, mas não é suficiente para atribuir desempenho a pitchers, rebatedores, innings decisivos ou jogadas específicas. Esses elementos só entram na matéria quando estiverem disponíveis em fontes verificadas.\n\nA LAP mantém o resultado publicado e acompanha as informações oficiais da MLB para atualizar a cobertura com estatísticas e contexto adicional quando houver dados confiáveis para isso.",
+    "content": "Washington Nationals derrotou Athletics por 5 a 2 na temporada regular, em 19 de julho de 2026 no Sutter Health Park.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
     "coverImageUrl": null,
@@ -1512,7 +1574,8 @@
       "retrievedAt": "2026-07-20T22:41:52.568Z",
       "feedId": "beisebol",
       "league": "regular-season"
-    }
+    },
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-58401e647083",
@@ -1520,7 +1583,7 @@
     "sportId": "beisebol",
     "title": "Los Angeles Angels vence Detroit Tigers por 3 a 2 na temporada regular",
     "summary": "Los Angeles Angels derrotou Detroit Tigers por 3 a 2 na temporada regular. A partida terminou com diferença de 1 corrida entre as equipes.",
-    "content": "Los Angeles Angels venceu Detroit Tigers por 3 a 2 na temporada regular, disputado em 19 de julho de 2026 no Angel Stadium. O placar final mostrou uma diferença de 1 corrida, margem que decidiu o confronto entre as equipes.\n\nNo beisebol, partidas com vantagem curta mantêm o resultado em aberto por boa parte do caminho. Quando a diferença é pequena, cada corrida adicionada ao placar pode mudar completamente a pressão sobre ataque e defesa — e foi essa margem que separou vencedor e derrotado no resultado final.\n\nPara Los Angeles Angels, a vitória entra na conta de uma temporada construída jogo a jogo. Detroit Tigers, por outro lado, deixa o confronto com uma derrota que também passa a integrar a longa sequência da temporada regular, na qual consistência ao longo do calendário é fundamental.\n\nO resultado isolado conta uma parte da história; a sequência dos próximos jogos dirá quanto esta vitória pode representar para Los Angeles Angels e como Detroit Tigers responderá depois do revés. Em um calendário extenso, a capacidade de acumular bons resultados e reagir rapidamente às derrotas costuma separar campanhas regulares de campanhas mais competitivas.\n\nA LAP segue acompanhando a temporada e atualiza a cobertura de MLB com novos resultados, classificação e informações confirmadas ao longo do calendário.",
+    "content": "Los Angeles Angels venceu Detroit Tigers por 3 a 2 na temporada regular, disputado em 19 de julho de 2026 no Angel Stadium. O placar final mostrou uma diferença de 1 corrida, margem que decidiu o confronto entre as equipes.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
     "coverImageUrl": null,
@@ -1545,7 +1608,8 @@
       "https://lap-live-sports.vercel.app/modalidades/beisebol"
     ],
     "verifiedFacts": 2,
-    "dataDriven": true
+    "dataDriven": true,
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-7cde6d95a3a6",
@@ -1553,7 +1617,7 @@
     "sportId": "beisebol",
     "title": "Arizona Diamondbacks vence St. Louis Cardinals por 8 a 7 na temporada regular",
     "summary": "Arizona Diamondbacks derrotou St. Louis Cardinals por 8 a 7 na temporada regular. A partida terminou com diferença de 1 corrida entre as equipes.",
-    "content": "Arizona Diamondbacks venceu St. Louis Cardinals por 8 a 7 na temporada regular, disputado em 19 de julho de 2026 no Chase Field (NH). O placar final mostrou uma diferença de 1 corrida, margem que decidiu o confronto entre as equipes.\n\nNo beisebol, partidas com vantagem curta mantêm o resultado em aberto por boa parte do caminho. Quando a diferença é pequena, cada corrida adicionada ao placar pode mudar completamente a pressão sobre ataque e defesa — e foi essa margem que separou vencedor e derrotado no resultado final.\n\nPara Arizona Diamondbacks, a vitória entra na conta de uma temporada construída jogo a jogo. St. Louis Cardinals, por outro lado, deixa o confronto com uma derrota que também passa a integrar a longa sequência da temporada regular, na qual consistência ao longo do calendário é fundamental.\n\nO resultado isolado conta uma parte da história; a sequência dos próximos jogos dirá quanto esta vitória pode representar para Arizona Diamondbacks e como St. Louis Cardinals responderá depois do revés. Em um calendário extenso, a capacidade de acumular bons resultados e reagir rapidamente às derrotas costuma separar campanhas regulares de campanhas mais competitivas.\n\nA LAP segue acompanhando a temporada e atualiza a cobertura de MLB com novos resultados, classificação e informações confirmadas ao longo do calendário.",
+    "content": "Arizona Diamondbacks venceu St. Louis Cardinals por 8 a 7 na temporada regular, disputado em 19 de julho de 2026 no Chase Field (NH). O placar final mostrou uma diferença de 1 corrida, margem que decidiu o confronto entre as equipes.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
     "coverImageUrl": null,
@@ -1578,7 +1642,8 @@
       "https://lap-live-sports.vercel.app/modalidades/beisebol"
     ],
     "verifiedFacts": 2,
-    "dataDriven": true
+    "dataDriven": true,
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-911015382c43",
@@ -1586,7 +1651,7 @@
     "sportId": "beisebol",
     "title": "New York Yankees vence Los Angeles Dodgers por 2 a 1 na temporada regular",
     "summary": "New York Yankees derrotou Los Angeles Dodgers por 2 a 1 na temporada regular. A partida terminou com diferença de 1 corrida entre as equipes.",
-    "content": "New York Yankees venceu Los Angeles Dodgers por 2 a 1 na temporada regular, disputado em 19 de julho de 2026 no Yankee Stadium. O placar final mostrou uma diferença de 1 corrida, margem que decidiu o confronto entre as equipes.\n\nNo beisebol, partidas com vantagem curta mantêm o resultado em aberto por boa parte do caminho. Quando a diferença é pequena, cada corrida adicionada ao placar pode mudar completamente a pressão sobre ataque e defesa — e foi essa margem que separou vencedor e derrotado no resultado final.\n\nPara New York Yankees, a vitória entra na conta de uma temporada construída jogo a jogo. Los Angeles Dodgers, por outro lado, deixa o confronto com uma derrota que também passa a integrar a longa sequência da temporada regular, na qual consistência ao longo do calendário é fundamental.\n\nO resultado isolado conta uma parte da história; a sequência dos próximos jogos dirá quanto esta vitória pode representar para New York Yankees e como Los Angeles Dodgers responderá depois do revés. Em um calendário extenso, a capacidade de acumular bons resultados e reagir rapidamente às derrotas costuma separar campanhas regulares de campanhas mais competitivas.\n\nA LAP segue acompanhando a temporada e atualiza a cobertura de MLB com novos resultados, classificação e informações confirmadas ao longo do calendário.",
+    "content": "New York Yankees venceu Los Angeles Dodgers por 2 a 1 na temporada regular, disputado em 19 de julho de 2026 no Yankee Stadium. O placar final mostrou uma diferença de 1 corrida, margem que decidiu o confronto entre as equipes.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
     "coverImageUrl": null,
@@ -1611,7 +1676,8 @@
       "https://lap-live-sports.vercel.app/modalidades/beisebol"
     ],
     "verifiedFacts": 2,
-    "dataDriven": true
+    "dataDriven": true,
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-35c5b992c5f5",
@@ -1619,7 +1685,7 @@
     "sportId": "futebol",
     "title": "Botafogo e Grêmio ficam no 0 a 0 pelo Brasileirão Série A",
     "summary": "Botafogo e Grêmio encerraram o confronto pelo Brasileirão Série A sem vencedor. O empate por 0 a 0 deixou as duas equipes sem conseguir abrir vantagem no placar.",
-    "content": "Botafogo e Grêmio ficaram no 0 a 0 pelo Brasileirão Série A. O duelo terminou sem gols e sem vencedor, em um resultado que manteve o equilíbrio do confronto também no placar final.\n\nO 0 a 0 resume uma partida em que nenhuma das equipes conseguiu transformar o jogo em vantagem no marcador. Sem gols, cada tentativa de mudar o rumo do confronto ganhou ainda mais peso, mas o resultado permaneceu inalterado até o encerramento.\n\nPara Botafogo e Grêmio, o empate passa a fazer parte da caminhada no Brasileirão. Em uma competição longa, resultados assim ganham significado quando colocados ao lado do desempenho das rodadas anteriores e dos compromissos que vêm pela frente.\n\nMais do que olhar apenas para o placar, o próximo passo é entender como cada equipe reage depois de um jogo sem vencedor. A capacidade de transformar equilíbrio em vitória nos próximos compromissos pode fazer diferença na construção da campanha ao longo da temporada.\n\nA LAP acompanha a sequência de Botafogo e Grêmio e atualiza a cobertura do Brasileirão conforme novos resultados e informações confirmadas ficam disponíveis.",
+    "content": "Botafogo e Grêmio ficaram no 0 a 0 pelo Brasileirão Série A. O duelo terminou sem gols e sem vencedor, em um resultado que manteve o equilíbrio do confronto também no placar final.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
     "coverImageUrl": null,
@@ -1644,7 +1710,8 @@
       "https://lap-live-sports.vercel.app/modalidades/futebol"
     ],
     "verifiedFacts": 2,
-    "dataDriven": true
+    "dataDriven": true,
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-cef71dd9f6c7",
@@ -1652,7 +1719,7 @@
     "sportId": "beisebol",
     "title": "Seattle Mariners vencem San Francisco Giants por 6 a 3 na temporada regular",
     "summary": "Seattle Mariners derrotaram San Francisco Giants por 6 a 3 na temporada regular da MLB. A partida terminou com diferença de três corridas entre as equipes.",
-    "content": "Seattle Mariners venceram San Francisco Giants por 6 a 3 na temporada regular da MLB. O placar final mostrou uma diferença de três corridas, margem que definiu o confronto entre as equipes.\n\nNo beisebol, uma vantagem construída ao longo das entradas pode mudar rapidamente a pressão sobre ataque e defesa. Desta vez, os Mariners conseguiram terminar o jogo com uma margem confortável o suficiente para confirmar a vitória por 6 a 3.\n\nPara Seattle, o resultado entra na conta de uma temporada construída jogo a jogo. San Francisco, por outro lado, deixa o confronto com uma derrota que também passa a integrar a longa sequência da temporada regular, na qual consistência ao longo do calendário é fundamental.\n\nO placar isolado conta uma parte da história; a sequência dos próximos jogos dirá quanto esta vitória pode representar para os Mariners e como os Giants responderão depois do revés. Em um calendário extenso, acumular bons resultados e reagir rapidamente às derrotas faz parte da rotina de qualquer equipe que busca se manter competitiva.\n\nA LAP segue acompanhando a temporada da MLB e atualiza a cobertura com novos resultados, classificação e informações confirmadas ao longo do calendário.",
+    "content": "Seattle Mariners venceram San Francisco Giants por 6 a 3 na temporada regular da MLB. O placar final mostrou uma diferença de três corridas, margem que definiu o confronto entre as equipes.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
     "coverImageUrl": null,
@@ -1677,7 +1744,8 @@
       "https://lap-live-sports.vercel.app/modalidades/beisebol"
     ],
     "verifiedFacts": 2,
-    "dataDriven": true
+    "dataDriven": true,
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-28bde2bcc960",
@@ -1685,7 +1753,7 @@
     "sportId": "beisebol",
     "title": "Yankees superam Dodgers por 2 a 1 em duelo apertado na temporada regular",
     "summary": "New York Yankees venceram Los Angeles Dodgers por 2 a 1 na temporada regular da MLB. A diferença de apenas uma corrida definiu o confronto.",
-    "content": "New York Yankees venceram Los Angeles Dodgers por 2 a 1 na temporada regular da MLB. Com apenas uma corrida separando as equipes no placar final, o confronto terminou decidido pela margem mínima.\n\nJogos apertados têm uma dinâmica própria no beisebol. Quando a diferença é de uma corrida, cada avanço ofensivo e cada oportunidade de evitar que o adversário pontue ganham ainda mais importância para o resultado. No fim, foram os Yankees que conseguiram terminar o confronto à frente.\n\nA vitória entra na conta de uma temporada regular construída ao longo de muitos jogos, em que cada resultado contribui para o panorama geral da campanha. Para os Dodgers, a derrota por margem curta coloca o foco na reação imediata e na capacidade de responder já nos próximos compromissos.\n\nPara os Yankees, o desafio é transformar um triunfo apertado em continuidade. Para Los Angeles, a missão é virar a página rapidamente. Em um calendário extenso como o da MLB, tanto a consistência nas vitórias quanto a resposta depois das derrotas têm peso ao longo da temporada.\n\nA LAP segue acompanhando Yankees, Dodgers e toda a temporada da MLB, com atualização de resultados, classificação e novas informações confirmadas conforme o calendário avança.",
+    "content": "New York Yankees venceram Los Angeles Dodgers por 2 a 1 na temporada regular da MLB. Com apenas uma corrida separando as equipes no placar final, o confronto terminou decidido pela margem mínima.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
     "coverImageUrl": null,
@@ -1710,7 +1778,8 @@
       "https://lap-live-sports.vercel.app/modalidades/beisebol"
     ],
     "verifiedFacts": 2,
-    "dataDriven": true
+    "dataDriven": true,
+    "articleFormat": "result-brief"
   },
   {
     "id": "newsroom-data-ec151c26361c",
@@ -1718,7 +1787,7 @@
     "sportId": "futebol",
     "title": "Atlético-MG e Red Bull Bragantino ficam no 0 a 0 pelo Brasileirão",
     "summary": "Atlético-MG e Red Bull Bragantino terminaram o confronto pelo Brasileirão sem gols. O empate por 0 a 0 encerrou a partida sem vencedor.",
-    "content": "Atlético-MG e Red Bull Bragantino ficaram no 0 a 0 pelo Brasileirão. O confronto terminou sem gols e sem vencedor, com as duas equipes deixando o campo sem conseguir construir uma vantagem no placar.\n\nUm empate sem gols costuma colocar ainda mais peso sobre cada oportunidade criada ao longo da partida. Como ninguém conseguiu balançar as redes, o duelo permaneceu aberto até o fim, mas o marcador não saiu do zero.\n\nO resultado agora passa a fazer parte da campanha das duas equipes no campeonato. Em uma competição de longa duração, um empate pode ganhar leituras diferentes conforme a sequência: pode servir como ponto de apoio para uma reação ou aumentar a importância do compromisso seguinte.\n\nPara Atlético-MG e Red Bull Bragantino, a atenção se volta justamente para essa continuidade. Transformar partidas equilibradas em vitórias é um dos desafios recorrentes de qualquer equipe que busca avançar na tabela e construir uma campanha mais sólida.\n\nA LAP acompanha os próximos compromissos de Atlético-MG e Red Bull Bragantino e atualiza a cobertura do Brasileirão conforme novos resultados e informações confirmadas ficam disponíveis.",
+    "content": "Atlético-MG e Red Bull Bragantino ficaram no 0 a 0 pelo Brasileirão. O confronto terminou sem gols e sem vencedor, com as duas equipes deixando o campo sem conseguir construir uma vantagem no placar.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
     "coverImageUrl": null,
@@ -1743,6 +1812,7 @@
       "https://lap-live-sports.vercel.app/modalidades/futebol"
     ],
     "verifiedFacts": 2,
-    "dataDriven": true
+    "dataDriven": true,
+    "articleFormat": "result-brief"
   }
 ]
