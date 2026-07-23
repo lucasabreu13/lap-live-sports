@@ -61,7 +61,7 @@ jobs:
               -A 'LAP-Data-Refresh/1.0' \
               -sS -o /dev/null -w '%{http_code}' \
               "$url" || true)"
-            if [[ "$code" =~ ^2|^3 ]]; then
+            if [[ "$code" =~ ^[23] ]]; then
               echo "OK $code $url"
             else
               echo "WARN $code $url"
