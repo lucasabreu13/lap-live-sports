@@ -1,8 +1,18 @@
+import officialRankingsPayload from "@/content/rankings/official-rankings.json";
 import { getCachedLivePayload } from "@/lib/free-live-data";
 import type { NewsItem, SportId } from "@/lib/live-data";
 
 export type RichMetric = { label: string; value: string; detail: string };
-export type RichTable = { title: string; description: string; columns: string[]; rows: string[][]; limit?: number };
+export type RichTable = {
+  title: string;
+  description: string;
+  columns: string[];
+  rows: string[][];
+  limit?: number;
+  sourceLabel?: string;
+  sourceUrl?: string;
+  asOf?: string;
+};
 export type RichResult = { title: string; subtitle: string; date: string | null; rows: Array<{ label: string; value: string; detail?: string }> };
 export type RichSpotlight = { eyebrow: string; title: string; text: string; value?: string };
 
@@ -21,8 +31,9 @@ export type RichIndividualHub = {
 };
 
 type AnyRecord = Record<string, unknown>;
+type OfficialRankingKey = keyof typeof officialRankingsPayload;
+
 const JOLPICA = "https://api.jolpi.ca/ergast/f1";
-const ESPN_CORE = "https://sports.core.api.espn.com/v2/sports";
 const ESPN_SITE = "https://site.api.espn.com/apis/site/v2/sports";
 
 function rec(value: unknown): AnyRecord { return value && typeof value === "object" ? value as AnyRecord : {}; }
@@ -36,6 +47,18 @@ async function safeJson(url: string, revalidate = 1800): Promise<unknown | null>
 }
 async function safeText(url: string, revalidate = 3600): Promise<string | null> {
   try { const response = await fetch(url, { next: { revalidate }, headers: { "user-agent": "Mozilla/5.0 LAP Live Sports" } }); return response.ok ? await response.text() : null; } catch { return null; }
+}
+
+function officialRanking(key: OfficialRankingKey) {
+  const ranking = officialRankingsPayload[key];
+  return {
+    title: ranking.title,
+    asOf: ranking.asOf,
+    sourceLabel: ranking.sourceLabel,
+    sourceUrl: ranking.sourceUrl,
+    columns: [...ranking.columns],
+    rows: ranking.rows.map((row) => row.map(String)),
+  };
 }
 
 async function sportNews(sportId: SportId) {
@@ -104,47 +127,6 @@ async function loadF1(): Promise<RichIndividualHub> {
   };
 }
 
-function findRankObjects(value: unknown, depth = 0): AnyRecord[] {
-  if (depth > 8) return [];
-  if (Array.isArray(value)) return value.flatMap((item) => findRankObjects(item, depth + 1));
-  const object = rec(value); if (!Object.keys(object).length) return [];
-  const hasRank = [object.rank, object.current, object.position].some((item) => Number.isFinite(Number(item)));
-  const hasAthlete = Boolean(object.athlete || object.competitor || object.player || object.name || object.displayName);
-  const nested = Object.values(object).flatMap((item) => findRankObjects(item, depth + 1));
-  return hasRank && hasAthlete ? [object, ...nested] : nested;
-}
-
-async function resolveEntityName(value: unknown) {
-  const object = rec(value);
-  const direct = txt(object.displayName, txt(object.fullName, txt(object.name)));
-  if (direct) return { name: direct, country: txt(rec(object.flag).alt, txt(rec(object.citizenship).country, txt(object.country))) };
-  const ref = nullable(object.$ref);
-  if (!ref) return { name: "Atleta", country: "" };
-  const data = rec(await safeJson(ref, 6 * 60 * 60));
-  return { name: txt(data.displayName, txt(data.fullName, txt(data.name, "Atleta"))), country: txt(rec(data.flag).alt, txt(rec(data.citizenship).country, txt(data.country))) };
-}
-
-async function loadEspnRanking(sport: string, league: string, limit: number) {
-  const root = await safeJson(`${ESPN_CORE}/${sport}/leagues/${league}/rankings?limit=${limit}`, 3600);
-  let objects = findRankObjects(root);
-  if (!objects.length) {
-    const refs = arr<AnyRecord>(rec(root).items).map((item) => nullable(item.$ref)).filter((item): item is string => Boolean(item)).slice(0, 4);
-    const resolved = await Promise.all(refs.map((ref) => safeJson(ref, 3600)));
-    objects = resolved.flatMap((item) => findRankObjects(item));
-  }
-  const deduped = Array.from(new Map(objects.map((item) => {
-    const entity = rec(item.athlete || item.competitor || item.player);
-    const key = nullable(entity.$ref) || txt(entity.id) || txt(item.name) || txt(item.displayName) || `${txt(item.rank)}-${Math.random()}`;
-    return [key, item];
-  })).values()).sort((a, b) => Number(a.rank ?? a.current ?? a.position) - Number(b.rank ?? b.current ?? b.position)).slice(0, limit);
-  const rows = await Promise.all(deduped.map(async (item) => {
-    const entity = rec(item.athlete || item.competitor || item.player);
-    const resolved = await resolveEntityName(Object.keys(entity).length ? entity : item);
-    return [txt(item.rank ?? item.current ?? item.position), resolved.name, resolved.country, txt(item.points ?? item.value ?? item.score), txt(item.age ?? rec(entity).age)];
-  }));
-  return rows.filter((row) => row[0] && row[1] !== "Atleta");
-}
-
 function parseTennisFinals(json: unknown, tour: string): RichResult[] {
   const events = arr<AnyRecord>(rec(json).events);
   return events.flatMap((event) => {
@@ -170,19 +152,31 @@ async function loadTennis(): Promise<RichIndividualHub> {
   const year = new Date().getUTCFullYear();
   const from = new Date(Date.now() - 100 * 86_400_000).toISOString().slice(0, 10).replace(/-/g, "");
   const to = new Date().toISOString().slice(0, 10).replace(/-/g, "");
-  const [atp, wta, atpScores, wtaScores, news] = await Promise.all([
-    loadEspnRanking("tennis", "atp", 50), loadEspnRanking("tennis", "wta", 50),
-    safeJson(`${ESPN_SITE}/tennis/atp/scoreboard?limit=500&dates=${from}-${to}`, 1800), safeJson(`${ESPN_SITE}/tennis/wta/scoreboard?limit=500&dates=${from}-${to}`, 1800), sportNews("tenis"),
+  const atp = officialRanking("atp");
+  const wta = officialRanking("wta");
+  const [atpScores, wtaScores, news] = await Promise.all([
+    safeJson(`${ESPN_SITE}/tennis/atp/scoreboard?limit=500&dates=${from}-${to}`, 1800),
+    safeJson(`${ESPN_SITE}/tennis/wta/scoreboard?limit=500&dates=${from}-${to}`, 1800),
+    sportNews("tenis"),
   ]);
   const finals = [...parseTennisFinals(atpScores, "ATP"), ...parseTennisFinals(wtaScores, "WTA")].sort((a, b) => (b.date ? new Date(b.date).getTime() : 0) - (a.date ? new Date(a.date).getTime() : 0));
   const grandSlams: RichTable = { title: "Maiores campeões de Grand Slam", description: "Recordes históricos de simples; contagem de títulos de majors.", columns: ["Circuito", "Jogador(a)", "Títulos"], rows: [["Masculino", "Novak Djokovic", "24"], ["Masculino", "Rafael Nadal", "22"], ["Masculino", "Roger Federer", "20"], ["Feminino", "Margaret Court", "24"], ["Feminino", "Serena Williams", "23"], ["Feminino", "Steffi Graf", "22"]] };
   return {
-    sportId: "tenis", eyebrow: "Tênis mundial", title: `ATP e WTA ${year}`, subtitle: "Top 50 dos rankings, campeões recentes, Grand Slams e notícias dos principais circuitos.",
-    metrics: [{ label: "Nº 1 ATP", value: atp[0]?.[1] || "—", detail: atp[0]?.[3] ? `${atp[0][3]} pontos` : "Ranking em atualização" }, { label: "Nº 1 WTA", value: wta[0]?.[1] || "—", detail: wta[0]?.[3] ? `${wta[0][3]} pontos` : "Ranking em atualização" }, { label: "Ranking exibido", value: `${atp.length + wta.length}`, detail: "Até 50 atletas de cada circuito" }, { label: "Finais recentes", value: String(finals.length), detail: "Finais identificadas no período recente" }],
-    tables: [{ title: "Top 50 ATP", description: "Ranking de simples retornado pela ESPN Core.", columns: ["Pos.", "Jogador", "País", "Pontos", "Idade"], rows: atp, limit: 50 }, { title: "Top 50 WTA", description: "Ranking de simples retornado pela ESPN Core.", columns: ["Pos.", "Jogadora", "País", "Pontos", "Idade"], rows: wta, limit: 50 }, grandSlams],
+    sportId: "tenis", eyebrow: "Tênis mundial", title: `ATP e WTA ${year}`, subtitle: "Rankings oficiais de simples, campeões recentes, Grand Slams e notícias dos principais circuitos.",
+    metrics: [
+      { label: "Nº 1 ATP", value: atp.rows[0]?.[1] || "—", detail: atp.rows[0]?.[2] ? `${atp.rows[0][2]} pontos` : "Ranking oficial" },
+      { label: "Nº 1 WTA", value: wta.rows[0]?.[1] || "—", detail: wta.rows[0]?.[3] ? `${wta.rows[0][3]} pontos` : "Ranking oficial" },
+      { label: "Top oficial exibido", value: String(atp.rows.length + wta.rows.length), detail: "ATP + WTA, sem estimativa" },
+      { label: "Finais recentes", value: String(finals.length), detail: "Finais identificadas no período recente" },
+    ],
+    tables: [
+      { title: atp.title, description: "Top 10 da classificação oficial de simples da ATP.", columns: atp.columns, rows: atp.rows, limit: 10, sourceLabel: atp.sourceLabel, sourceUrl: atp.sourceUrl, asOf: atp.asOf },
+      { title: wta.title, description: "Top 10 da classificação oficial de simples da WTA.", columns: wta.columns, rows: wta.rows, limit: 10, sourceLabel: wta.sourceLabel, sourceUrl: wta.sourceUrl, asOf: wta.asOf },
+      grandSlams,
+    ],
     results: finals.slice(0, 10),
-    spotlights: [{ eyebrow: "Grand Slam", title: "Quatro majors por temporada", text: "Australian Open, Roland Garros, Wimbledon e US Open formam o núcleo histórico do calendário. A central destaca os recordistas sem estimar números de premiação não publicados pela fonte." }],
-    news, sources: ["ESPN Core (rankings ATP/WTA)", "ESPN Site API (resultados recentes)", "Registros históricos de Grand Slam"], generatedAt: new Date().toISOString(),
+    spotlights: [{ eyebrow: "Ranking oficial", title: "ATP e WTA separados", text: "A LAP exibe as duas classificações oficiais de simples em blocos independentes, com data de referência e link direto para a fonte. Assim o ranking não desaparece quando um agregador externo falha." }, { eyebrow: "Grand Slam", title: "Quatro majors por temporada", text: "Australian Open, Roland Garros, Wimbledon e US Open formam o núcleo histórico do calendário. A central destaca os recordistas sem estimar números de premiação não publicados pela fonte." }],
+    news, sources: ["ATP Tour — PIF ATP Rankings", "WTA Tennis — PIF WTA Rankings", "ESPN Site API apenas para resultados recentes"], generatedAt: new Date().toISOString(),
   };
 }
 
@@ -214,7 +208,9 @@ async function loadTour(): Promise<RichIndividualHub> {
 
 async function loadGolf(): Promise<RichIndividualHub> {
   const year = new Date().getUTCFullYear();
-  const [rankingRows, scoreboard, news] = await Promise.all([loadEspnRanking("golf", "pga", 50), safeJson(`${ESPN_SITE}/golf/pga/scoreboard?limit=100&dates=${year}`, 1800), sportNews("golfe")]);
+  const owgr = officialRanking("owgr");
+  const rolex = officialRanking("rolex");
+  const [scoreboard, news] = await Promise.all([safeJson(`${ESPN_SITE}/golf/pga/scoreboard?limit=100&dates=${year}`, 1800), sportNews("golfe")]);
   const events = arr<AnyRecord>(rec(scoreboard).events);
   const completed = events.filter((event) => txt(rec(rec(event.status).type).state) === "post").sort((a, b) => new Date(txt(b.date)).getTime() - new Date(txt(a.date)).getTime());
   const recent = completed.slice(0, 8).map((event) => {
@@ -223,11 +219,20 @@ async function loadGolf(): Promise<RichIndividualHub> {
     return { title: txt(event.name, "Torneio"), subtitle: txt(rec(event.season).slug, "PGA Tour"), date: nullable(event.date), rows: competitors.slice(0, 10).map((item, index) => { const athlete = rec(item.athlete); return { label: `${txt(item.order, index + 1)}º · ${txt(athlete.displayName, txt(athlete.fullName, "Golfista"))}`, value: txt(item.score, txt(item.status, "")), detail: nullable(item.winnings) || nullable(item.earnings) || undefined }; }) } satisfies RichResult;
   });
   return {
-    sportId: "golfe", eyebrow: "Golfe", title: `Golfe mundial ${year}`, subtitle: "Ranking, torneios recentes, leaderboards e notícias com foco no PGA e no cenário mundial.",
-    metrics: [{ label: "Nº 1 do ranking", value: rankingRows[0]?.[1] || "—", detail: rankingRows[0]?.[3] ? `${rankingRows[0][3]} pontos` : "Ranking em atualização" }, { label: "Top exibido", value: String(rankingRows.length), detail: "Até 50 jogadores" }, { label: "Torneios recentes", value: String(recent.length), detail: "Eventos concluídos retornados" }],
-    tables: [{ title: "Ranking mundial / PGA", description: "Ranking retornado pela camada pública de dados da ESPN.", columns: ["Pos.", "Jogador", "País", "Pontos", "Idade"], rows: rankingRows, limit: 50 }], results: recent,
-    spotlights: [{ eyebrow: "Dinheiro", title: "Premiação sem estimativa", text: "Quando o leaderboard publica winnings/earnings, o valor aparece junto ao resultado. A LAP não converte bolsa total em ganho individual por aproximação." }],
-    news, sources: ["ESPN Core (ranking)", "ESPN Site API (torneios e leaderboards)"], generatedAt: new Date().toISOString(),
+    sportId: "golfe", eyebrow: "Golfe", title: `Golfe mundial ${year}`, subtitle: "Rankings mundiais oficiais masculino e feminino, torneios recentes, leaderboards e notícias.",
+    metrics: [
+      { label: "Nº 1 mundial", value: owgr.rows[0]?.[1] || "—", detail: "OWGR masculino" },
+      { label: "Nº 1 mundial feminino", value: rolex.rows[0]?.[1] || "—", detail: "Rolex Women's World Golf Rankings" },
+      { label: "Top oficial exibido", value: String(owgr.rows.length + rolex.rows.length), detail: "10 homens + 10 mulheres" },
+      { label: "Torneios recentes", value: String(recent.length), detail: "Eventos concluídos retornados" },
+    ],
+    tables: [
+      { title: owgr.title, description: "Top 10 do Official World Golf Ranking.", columns: owgr.columns, rows: owgr.rows, limit: 10, sourceLabel: owgr.sourceLabel, sourceUrl: owgr.sourceUrl, asOf: owgr.asOf },
+      { title: rolex.title, description: "Top 10 do ranking mundial feminino oficial reconhecido no golfe profissional.", columns: rolex.columns, rows: rolex.rows, limit: 10, sourceLabel: rolex.sourceLabel, sourceUrl: rolex.sourceUrl, asOf: rolex.asOf },
+    ],
+    results: recent,
+    spotlights: [{ eyebrow: "Ranking mundial", title: "OWGR + Rolex Rankings", text: "A central não mistura FedExCup com ranking mundial. O OWGR representa o ranking mundial masculino; o Rolex Rankings, o feminino. A data de referência e o link oficial ficam visíveis em cada tabela." }, { eyebrow: "Dinheiro", title: "Premiação sem estimativa", text: "Quando o leaderboard publica winnings/earnings, o valor aparece junto ao resultado. A LAP não converte bolsa total em ganho individual por aproximação." }],
+    news, sources: ["Official World Golf Ranking (OWGR)", "Rolex Women's World Golf Rankings", "ESPN Site API apenas para torneios e leaderboards"], generatedAt: new Date().toISOString(),
   };
 }
 
@@ -235,16 +240,26 @@ const BRAZILIAN_STORM_2026 = ["Yago Dora", "Filipe Toledo", "Gabriel Medina", "I
 
 async function loadSurf(): Promise<RichIndividualHub> {
   const year = new Date().getUTCFullYear();
-  const [wslHtml, geHtml, news] = await Promise.all([safeText(`https://www.worldsurfleague.com/events/${year}/ct`, 1800), safeText("https://ge.globo.com/surfe/wsl/noticia/2026/04/11/wsl-2026-veja-o-ranking-do-circuito-mundial-de-surfe.ghtml", 1800), sportNews("surfe")]);
-  const sourceHtml = wslHtml || geHtml || "";
-  const rows = parseRowsFromHtml(sourceHtml).filter((cells) => /^\d+$/.test(cells[0] || "") && cells.length >= 2).slice(0, 40).map((cells) => [cells[0], cells[1], cells[2] || "", cells[3] || ""]);
+  const men = officialRanking("wslMen");
+  const women = officialRanking("wslWomen");
+  const news = await sportNews("surfe");
   const brazilRows = BRAZILIAN_STORM_2026.map((name, index) => [String(index + 1), name, name === "Luana Silva" ? "Feminino" : "Masculino", "Brasil"]);
   return {
-    sportId: "surfe", eyebrow: "World Surf League", title: `Championship Tour ${year}`, subtitle: "Circuito mundial, ranking quando a fonte pública responde, calendário e uma área dedicada à Brazilian Storm.",
-    metrics: [{ label: "Brasileiros mapeados", value: String(BRAZILIAN_STORM_2026.length), detail: "Representantes brasileiros identificados para o CT 2026" }, { label: "Ranking carregado", value: String(rows.length), detail: rows.length ? "Posições retornadas pela fonte pública" : "WSL não disponibilizou ranking público estruturado agora" }, { label: "Formato 2026", value: "Pontos corridos", detail: "Temporada volta a definir o campeão pelo ranking acumulado" }],
-    tables: [{ title: "Ranking do Championship Tour", description: "Exibido somente quando WSL ou fonte pública acessível retorna uma tabela estruturada.", columns: ["Pos.", "Surfista", "País", "Pontos"], rows, limit: 40 }, { title: "Brazilian Storm 2026", description: "Brasileiros identificados na elite do Championship Tour de 2026, incluindo a representação feminina.", columns: ["#", "Surfista", "Categoria", "País"], rows: brazilRows, limit: 20 }],
-    results: [], spotlights: [{ eyebrow: "Brazilian Storm", title: "O Brasil no centro da cobertura", text: "A página prioriza a temporada dos brasileiros, resultados, mudanças no ranking e desempenho nas etapas do Championship Tour." }, { eyebrow: "Temporada 2026", title: "Pipeline volta a fechar o ano", text: "A cobertura acompanha o CT ao longo da temporada e mantém o ranking como eixo principal, respeitando o formato por pontos acumulados." }],
-    news, sources: ["World Surf League quando publicamente acessível", "ge para contexto e representação brasileira", "LAP/feeds editoriais"], generatedAt: new Date().toISOString(),
+    sportId: "surfe", eyebrow: "World Surf League", title: `Championship Tour ${year}`, subtitle: "Ranking do Championship Tour masculino e feminino, Brazilian Storm e notícias da elite mundial.",
+    metrics: [
+      { label: "Líder masculino", value: men.rows[0]?.[1] || "—", detail: men.rows[0]?.[3] ? `${men.rows[0][3]} pontos` : "WSL Championship Tour" },
+      { label: "Líder feminino", value: women.rows[0]?.[1] || "—", detail: women.rows[0]?.[3] ? `${women.rows[0][3]} pontos` : "WSL Championship Tour" },
+      { label: "Brasileiros no Top 5", value: String([...men.rows, ...women.rows].filter((row) => row[2] === "BRA").length), detail: "Somando os dois rankings exibidos" },
+      { label: "Formato 2026", value: "Pontos corridos", detail: "Temporada definida pelo ranking acumulado" },
+    ],
+    tables: [
+      { title: men.title, description: "Classificação do Championship Tour masculino. A WSL é a fonte canônica; o snapshot evita que o bloco suma quando o site oficial bloqueia leitura automatizada.", columns: men.columns, rows: men.rows, limit: 5, sourceLabel: men.sourceLabel, sourceUrl: men.sourceUrl, asOf: men.asOf },
+      { title: women.title, description: "Classificação do Championship Tour feminino. A WSL é a fonte canônica; o snapshot é mantido com data explícita de referência.", columns: women.columns, rows: women.rows, limit: 5, sourceLabel: women.sourceLabel, sourceUrl: women.sourceUrl, asOf: women.asOf },
+      { title: "Brazilian Storm 2026", description: "Brasileiros identificados na elite do Championship Tour de 2026, incluindo a representação feminina.", columns: ["#", "Surfista", "Categoria", "País"], rows: brazilRows, limit: 20 },
+    ],
+    results: [],
+    spotlights: [{ eyebrow: "Ranking oficial", title: "WSL masculina e feminina separadas", text: "A LAP mantém um snapshot verificado da classificação e aponta diretamente para o leaderboard oficial da WSL. Isso evita tabela vazia sem substituir o ranking por uma estimativa." }, { eyebrow: "Brazilian Storm", title: "Brasil no centro da disputa", text: "A página prioriza a temporada dos brasileiros, resultados, mudanças no ranking e desempenho nas etapas do Championship Tour." }],
+    news, sources: ["World Surf League — Championship Tour rankings", "Snapshot verificado pós-VIVO Rio Pro", "LAP/feeds editoriais"], generatedAt: new Date().toISOString(),
   };
 }
 
