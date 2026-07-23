@@ -43,15 +43,15 @@ function isResultBrief(item: NewsItem) {
   return item.source === "LAP · Resultado rápido";
 }
 
-function StoryVisual({ item, compact = false }: { item: NewsItem; compact?: boolean }) {
-  if (isResultBrief(item)) return <ResultBriefVisual title={item.title} sportId={item.sportId as SportId} compact={compact} />;
+function StoryVisual({ item }: { item: NewsItem }) {
+  if (isResultBrief(item)) return <ResultBriefVisual title={item.title} sportId={item.sportId as SportId} compact />;
   return <img src={newsImage(item)} alt={newsAlt(item)} loading="lazy" />;
 }
 
 function StoryCard({ item, compact = false }: { item: NewsItem; compact?: boolean }) {
   return (
     <Link href={item.internalUrl} className={compact ? styles.storyCompact : styles.storyCard}>
-      <StoryVisual item={item} compact={compact} />
+      <StoryVisual item={item} />
       <div>
         <p>{isResultBrief(item) ? "Resultado rápido · " : ""}{sportName(item.sportId as SportId)} · {relativeTime(item.publishedAt)}</p>
         <h3>{item.title}</h3>
