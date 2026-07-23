@@ -1,5 +1,46 @@
 [
   {
+    "id": "newsroom-data-1cdffdeee87f",
+    "slug": "lanus-supera-cienciano-del-cusco-por-2-a-0-pela-copa-sul-americana-1cdffd",
+    "sportId": "futebol",
+    "title": "Lanús supera Cienciano del Cusco por 2 a 0 pela Copa Sul Americana",
+    "summary": "Lanús venceu Cienciano del Cusco por 2 a 0 pela Copa Sul Americana.",
+    "content": "Lanús venceu Cienciano del Cusco por 2 a 0 pela Copa Sul Americana, em 22 de julho de 2026 no Ciudad de Lanús. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Lanús, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-sul-americana"
+    ],
+    "seoTitle": "Lanús supera Cienciano del Cusco por 2 a 0 pela Copa Sul Americana",
+    "seoDescription": "Lanús venceu Cienciano del Cusco por 2 a 0 pela Copa Sul Americana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-23T15:21:59.839Z",
+    "createdAt": "2026-07-23T15:21:59.839Z",
+    "updatedAt": "2026-07-23T15:21:59.839Z",
+    "homepagePriority": 58,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401874166",
+      "eventStartTime": "2026-07-23T00:30Z",
+      "retrievedAt": "2026-07-23T15:21:59.839Z",
+      "feedId": "futebol",
+      "league": "Copa Sul-Americana"
+    }
+  },
+  {
     "id": "newsroom-data-941135fd013e",
     "slug": "colorado-rapids-supera-san-diego-fc-por-1-a-0-pelo-mls-941135",
     "sportId": "futebol",
