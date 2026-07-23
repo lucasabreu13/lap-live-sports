@@ -1,5 +1,46 @@
 [
   {
+    "id": "newsroom-data-2a5ff77d3cdf",
+    "slug": "operario-pr-supera-ponte-preta-por-3-a-2-pelo-brasileirao-serie-b-2a5ff7",
+    "sportId": "futebol",
+    "title": "Operário PR supera Ponte Preta por 3 a 2 pelo Brasileirão Série B",
+    "summary": "Operário PR venceu Ponte Preta por 3 a 2 pelo Brasileirão Série B.",
+    "content": "Operário PR venceu Ponte Preta por 3 a 2 pelo Brasileirão Série B, em 22 de julho de 2026 no Germano Krüger. O confronto aparece como encerrado na cobertura ao vivo da LAP.\n\nO resultado confirma a vitória de Operário PR, mas a LAP não atribui autores de gols, domínio, estatísticas ou lances decisivos sem que esses dados estejam disponíveis e validados. O objetivo é separar com clareza o que está confirmado do que ainda depende de apuração complementar.\n\nA redação segue acompanhando informações oficiais da competição e das equipes para complementar a cobertura quando houver novos dados verificáveis sobre o confronto e seus desdobramentos.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "brasileirao-serie-b"
+    ],
+    "seoTitle": "Operário PR supera Ponte Preta por 3 a 2 pelo Brasileirão Série B",
+    "seoDescription": "Operário PR venceu Ponte Preta por 3 a 2 pelo Brasileirão Série B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-23T01:09:44.091Z",
+    "createdAt": "2026-07-23T01:09:44.091Z",
+    "updatedAt": "2026-07-23T01:09:44.091Z",
+    "homepagePriority": 58,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401860245",
+      "eventStartTime": "2026-07-22T22:30Z",
+      "retrievedAt": "2026-07-23T01:09:44.091Z",
+      "feedId": "futebol",
+      "league": "Brasileirão Série B"
+    }
+  },
+  {
     "id": "curated-casemiro-inter-miami-20260722",
     "slug": "inter-miami-anuncia-casemiro-mls-investiga-possivel-tampering",
     "sportId": "futebol",
