@@ -8,6 +8,7 @@ export type NewsroomEditorialArticle = EditorialArticle & {
   breaking?: boolean;
   agentId?: string;
   sourceUrls?: string[];
+  articleFormat?: "result-brief" | "full";
 };
 
 const DEFAULT_CONTENT_URL = "https://raw.githubusercontent.com/lucasabreu13/lap-live-sports/main/content/newsroom/articles.json";
@@ -64,6 +65,8 @@ function normalizeArticle(value: unknown): NewsroomEditorialArticle | null {
   const createdAt = asNullableString(row.createdAt) || publishedAt;
   const updatedAt = asNullableString(row.updatedAt) || createdAt;
   const priority = Number(row.homepagePriority);
+  const rawFormat = asString(row.articleFormat).trim();
+  const articleFormat = rawFormat === "result-brief" ? "result-brief" : rawFormat === "full" ? "full" : undefined;
 
   return {
     id,
@@ -89,6 +92,7 @@ function normalizeArticle(value: unknown): NewsroomEditorialArticle | null {
     breaking: Boolean(row.breaking),
     agentId: asNullableString(row.agentId) || undefined,
     sourceUrls: asStringArray(row.sourceUrls),
+    articleFormat,
   };
 }
 
@@ -127,7 +131,7 @@ export async function getNewsroomArticles(limit = 48): Promise<NewsroomEditorial
   try {
     const response = await fetch(url, {
       next: { revalidate: 120 },
-      headers: { "user-agent": "LAP Live Sports Newsroom Reader/1.3" },
+      headers: { "user-agent": "LAP Live Sports Newsroom Reader/1.4" },
     });
     if (response.ok) {
       const payload = await response.json() as unknown;
@@ -159,7 +163,7 @@ export function newsroomArticleToNewsItem(article: NewsroomEditorialArticle): Ne
     sportId: article.sportId as SportId,
     title: article.title,
     excerpt: article.summary,
-    source: article.breaking ? "LAP · Urgente" : "LAP",
+    source: article.breaking ? "LAP · Urgente" : article.articleFormat === "result-brief" ? "LAP · Resultado rápido" : "LAP",
     url: article.sourceUrl,
     publishedAt: article.publishedAt,
     internalUrl: `/materias/${article.slug}`,
