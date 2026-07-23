@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LapHeader } from "@/components/lap-header";
+import { ResultBriefVisual } from "@/components/result-brief-visual";
 import { decodeArticleTransport, findArticleBySlug, findSportById, type SportId } from "@/lib/live-data";
 import { findEditorialArticleBySlug, type EditorialArticle } from "@/lib/editorial-store";
 import { getNewsroomArticleBySlug, getNewsroomArticles } from "@/lib/newsroom-content";
@@ -14,7 +15,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://lap-live-sports.ver
 type PageProps = { params: Promise<{ slug: string }>; searchParams: Promise<{ d?: string }> };
 type BriefArticle = { kind: "brief"; slug: string; sportId: SportId; title: string; excerpt: string; source: string; url: string; publishedAt: string | null; imageUrl: string | null; imageAlt: string | null; };
 type ResolvedArticle = { kind: "editorial"; article: EditorialArticle } | { kind: "brief"; article: BriefArticle };
-type EditorialWithProvenance = EditorialArticle & { dataDriven?: boolean; sourceUrls?: string[]; provenance?: { provider?: string } };
+type EditorialWithProvenance = EditorialArticle & { dataDriven?: boolean; articleFormat?: "result-brief" | "full"; sourceUrls?: string[]; provenance?: { provider?: string } };
 
 function formatDate(dateValue: string | null) {
   if (!dateValue) return "Agora";
@@ -69,12 +70,15 @@ function EditorialSourceCard({ article }: { article: EditorialArticle }) {
   const automated = article.authorRole?.includes("Newsroom AI");
   const enriched = article as EditorialWithProvenance;
   const lapData = Boolean(enriched.dataDriven || article.sourceName === "LAP Dados" || enriched.provenance?.provider === "LAP live-data");
-  const copy = lapData
-    ? "Texto original da LAP produzido a partir de dados esportivos verificados pela própria plataforma. Informações não confirmadas ficam fora da matéria."
-    : automated
-      ? "Texto original da LAP produzido a partir de fatos confirmados em fontes externas verificáveis, sem reprodução do conteúdo original."
-      : "Conteúdo publicado pelo núcleo editorial da LAP.";
-  return <aside className="article-source-card article-source-card--editorial"><p>{automated ? "Apuração" : "Publicação"}</p><strong>{article.sourceName || "LAP"}</strong><span>{copy}</span>{article.sourceUrl && <a href={article.sourceUrl} target="_blank" rel="noreferrer">{lapData ? "Abrir cobertura de dados" : "Ver uma das referências"} <span aria-hidden>↗</span></a>}</aside>;
+  const resultBrief = enriched.articleFormat === "result-brief";
+  const copy = resultBrief
+    ? "Resultado rápido produzido somente com placar, competição, data e local confirmados. Lances e estatísticas individuais só entram quando houver fonte verificável."
+    : lapData
+      ? "Texto original da LAP produzido a partir de dados esportivos verificados pela própria plataforma. Informações não confirmadas ficam fora da matéria."
+      : automated
+        ? "Texto original da LAP produzido a partir de fatos confirmados em fontes externas verificáveis, sem reprodução do conteúdo original."
+        : "Conteúdo publicado pelo núcleo editorial da LAP.";
+  return <aside className="article-source-card article-source-card--editorial"><p>{resultBrief ? "Critério do resultado" : automated ? "Apuração" : "Publicação"}</p><strong>{article.sourceName || "LAP"}</strong><span>{copy}</span>{article.sourceUrl && <a href={article.sourceUrl} target="_blank" rel="noreferrer">{lapData ? "Abrir cobertura de dados" : "Ver uma das referências"} <span aria-hidden>↗</span></a>}</aside>;
 }
 
 function BriefSourceCard({ article }: { article: BriefArticle }) {
@@ -93,13 +97,15 @@ export default async function ArticlePage(props: PageProps) {
 
   if (resolved.kind === "editorial") {
     const article = resolved.article;
+    const enriched = article as EditorialWithProvenance;
+    const resultBrief = enriched.articleFormat === "result-brief";
     const readerContent = enrichArticleForReaders(article.content, sport.id);
     const visual = sportCoverImage(sport.id);
     const coverImage = article.coverImageUrl || visual.image;
     const related = (await getNewsroomArticles(80)).filter((item) => item.sportId === article.sportId && item.slug !== article.slug).slice(0, 3);
     const articleUrl = `${siteUrl}/materias/${article.slug}`;
     const jsonLd = { "@context": "https://schema.org", "@type": "NewsArticle", headline: article.seoTitle || article.title, description: article.seoDescription || article.summary, mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl }, url: articleUrl, datePublished: article.publishedAt || article.createdAt, dateModified: article.updatedAt, author: { "@type": "Organization", name: article.authorName || "Redação LAP" }, publisher: { "@type": "Organization", name: "LAP", logo: { "@type": "ImageObject", url: `${siteUrl}/icons/lap-icon.svg` } }, image: coverImage };
-    return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><ArticleFrame sportId={sport.id}><header className="article-hero"><p>{sport.icon} {sport.name} • LAP</p><h1>{article.title}</h1><p className="article-dek">{article.summary}</p><div className="article-meta"><span>{article.authorName || "Redação LAP"}</span><span>•</span><time dateTime={article.publishedAt || article.createdAt}>{formatDate(article.publishedAt || article.createdAt)}</time>{article.updatedAt !== article.createdAt && <><span>•</span><span>atualizado</span></>}</div><div className={styles.readingMeta}>{readingTime(readerContent)} min de leitura · texto original LAP</div>{article.tags.length > 0 && <div className="article-tags">{article.tags.map((tag: string) => <Link href={`/modalidades/${sport.id}`} key={tag}>#{tag}</Link>)}</div>}</header><img className="article-cover" src={coverImage} alt={article.title || visual.alt} /><div className="article-content"><div><section className={styles.summaryBox}><p>Resumo da notícia</p><h2>O essencial</h2><span>{article.summary}</span></section><EditorialBody content={readerContent} /></div><EditorialSourceCard article={article} /></div>{related.length ? <section className={styles.related}><div className={styles.relatedHeader}><div><p>Leia também</p><h2>Mais de {sport.name}</h2></div><Link href={`/modalidades/${sport.id}`}>Ver todas →</Link></div><div className={styles.relatedGrid}>{related.map((item) => <Link key={item.id} href={`/materias/${item.slug}`} className={styles.relatedCard}><img src={item.coverImageUrl || sportCoverImage(item.sportId as SportId).image} alt={item.title} loading="lazy" /><div><small>{sport.name}</small><strong>{item.title}</strong></div></Link>)}</div></section> : null}</ArticleFrame></>;
+    return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><ArticleFrame sportId={sport.id}><header className="article-hero"><p>{sport.icon} {sport.name} • {resultBrief ? "Resultado rápido" : "LAP"}</p><h1>{article.title}</h1><p className="article-dek">{article.summary}</p><div className="article-meta"><span>{article.authorName || "Redação LAP"}</span><span>•</span><time dateTime={article.publishedAt || article.createdAt}>{formatDate(article.publishedAt || article.createdAt)}</time>{article.updatedAt !== article.createdAt && <><span>•</span><span>atualizado</span></>}</div><div className={styles.readingMeta}>{resultBrief ? "Placar confirmado · leitura objetiva" : `${readingTime(readerContent)} min de leitura · texto original LAP`}</div>{article.tags.length > 0 && <div className="article-tags">{article.tags.map((tag: string) => <Link href={`/modalidades/${sport.id}`} key={tag}>#{tag}</Link>)}</div>}</header>{resultBrief ? <ResultBriefVisual title={article.title} sportId={sport.id} /> : <img className="article-cover" src={coverImage} alt={article.title || visual.alt} />}<div className="article-content"><div>{resultBrief ? null : <section className={styles.summaryBox}><p>Resumo da notícia</p><h2>O essencial</h2><span>{article.summary}</span></section>}<EditorialBody content={readerContent} /></div><EditorialSourceCard article={article} /></div>{related.length ? <section className={styles.related}><div className={styles.relatedHeader}><div><p>Leia também</p><h2>Mais de {sport.name}</h2></div><Link href={`/modalidades/${sport.id}`}>Ver todas →</Link></div><div className={styles.relatedGrid}>{related.map((item) => <Link key={item.id} href={`/materias/${item.slug}`} className={styles.relatedCard}>{item.articleFormat === "result-brief" ? <ResultBriefVisual title={item.title} sportId={item.sportId as SportId} compact /> : <img src={item.coverImageUrl || sportCoverImage(item.sportId as SportId).image} alt={item.title} loading="lazy" />}<div><small>{item.articleFormat === "result-brief" ? "Resultado rápido" : sport.name}</small><strong>{item.title}</strong></div></Link>)}</div></section> : null}</ArticleFrame></>;
   }
 
   const article = resolved.article;
