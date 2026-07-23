@@ -7,10 +7,10 @@ function sportLabel(sportId: SportId) {
 
 export function ResultBriefVisual({ title, sportId, compact = false }: { title: string; sportId: SportId; compact?: boolean }) {
   return (
-    <div className={`${styles.visual} ${compact ? styles.compact : ""}`} role="img" aria-label={`Resultado rápido: ${title}`}>
-      <div className={styles.topline}><span>Resultado rápido</span><small>{sportLabel(sportId)}</small></div>
+    <figure className={`${styles.visual} ${compact ? styles.compact : ""}`} role="img" aria-label={`Resultado rápido: ${title}`}>
+      <header className={styles.topline}><span>Resultado rápido</span><small>{sportLabel(sportId)}</small></header>
       <strong>{title}</strong>
-      <div className={styles.footer}><b>LAP</b><span>placar confirmado</span></div>
-    </div>
+      <footer className={styles.footer}><b>LAP</b><span>placar confirmado</span></footer>
+    </figure>
   );
 }
