@@ -8,6 +8,8 @@ import "./lap-header-polish.css";
 import "./lap-brand.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://lap-live-sports.vercel.app";
+const buildSha = process.env.VERCEL_GIT_COMMIT_SHA || process.env.GITHUB_SHA || "local";
+const shellVersion = "editorial-v3";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -16,6 +18,7 @@ export const metadata: Metadata = {
   applicationName: "LAP Live Sports",
   manifest: "/manifest.webmanifest",
   alternates: { types: { "application/rss+xml": "/feed.xml" } },
+  other: { "lap-shell": shellVersion, "lap-build": buildSha },
   openGraph: {
     type: "website",
     locale: "pt_BR",
