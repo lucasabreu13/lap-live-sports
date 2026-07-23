@@ -1,0 +1,77 @@
+name: Refresh sports data
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: refresh-sports-data
+  cancel-in-progress: true
+
+jobs:
+  warm-production-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Warm rankings, standings and tables
+        shell: bash
+        env:
+          BASE_URL: https://lap-live-sports.vercel.app
+        run: |
+          set -euo pipefail
+
+          urls=(
+            "$BASE_URL/modalidades/futebol"
+            "$BASE_URL/modalidades/futebol-americano"
+            "$BASE_URL/modalidades/formula1"
+            "$BASE_URL/modalidades/basquete"
+            "$BASE_URL/modalidades/tenis"
+            "$BASE_URL/modalidades/ciclismo"
+            "$BASE_URL/modalidades/beisebol"
+            "$BASE_URL/modalidades/golfe"
+            "$BASE_URL/modalidades/surfe"
+            "$BASE_URL/college-football"
+            "$BASE_URL/ao-vivo"
+            "$BASE_URL/agenda"
+          )
+
+          sitemap="$(curl --retry 2 --retry-delay 2 --max-time 30 -fsSL "$BASE_URL/sitemap.xml")"
+          while IFS= read -r url; do
+            [[ -n "$url" ]] && urls+=("$url")
+          done < <(printf '%s' "$sitemap" \
+            | grep -oE '<loc>[^<]+</loc>' \
+            | sed -E 's#</?loc>##g' \
+            | grep '/campeonatos/' \
+            | sort -u)
+
+          printf '%s\n' "${urls[@]}" | sort -u > /tmp/lap-refresh-urls.txt
+          echo "Warming $(wc -l < /tmp/lap-refresh-urls.txt) data pages..."
+
+          failures=0
+          while IFS= read -r url; do
+            code="$(curl \
+              --retry 2 \
+              --retry-delay 2 \
+              --connect-timeout 10 \
+              --max-time 45 \
+              -A 'LAP-Data-Refresh/1.0' \
+              -sS -o /dev/null -w '%{http_code}' \
+              "$url" || true)"
+            if [[ "$code" =~ ^2|^3 ]]; then
+              echo "OK $code $url"
+            else
+              echo "WARN $code $url"
+              failures=$((failures + 1))
+            fi
+          done < /tmp/lap-refresh-urls.txt
+
+          if (( failures > 5 )); then
+            echo "Too many refresh failures: $failures"
+            exit 1
+          fi
+
+          echo "Refresh cycle complete; non-fatal failures: $failures"
