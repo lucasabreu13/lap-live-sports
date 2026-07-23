@@ -6,7 +6,7 @@ export function CollegeFootballEditorialStrip() {
     <section className={styles.strip} aria-label="Atualizações editoriais de College Football">
       <div className={`shell ${styles.inside}`}>
         <div className={styles.intro}>
-          <span>Atualização verificada · 22 jul</span>
+          <span>Atualização verificada · 23 jul</span>
           <strong>College Football agora</strong>
         </div>
         <div className={styles.grid}>
