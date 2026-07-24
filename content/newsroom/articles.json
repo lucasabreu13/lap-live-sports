@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-4e1f130ec316",
+    "slug": "independiente-santa-fe-supera-caracas-fc-por-2-a-0-pela-copa-sul-americana-4e1f13",
+    "sportId": "futebol",
+    "title": "Independiente Santa Fe supera Caracas FC por 2 a 0 pela Copa Sul Americana",
+    "summary": "Independiente Santa Fe venceu Caracas FC por 2 a 0 pela Copa Sul Americana.",
+    "content": "Independiente Santa Fe venceu Caracas FC por 2 a 0 pela Copa Sul Americana, em 23 de julho de 2026 no Estadio Nemesio Camacho El Campín.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-sul-americana"
+    ],
+    "seoTitle": "Independiente Santa Fe supera Caracas FC por 2 a 0 pela Copa Sul",
+    "seoDescription": "Independiente Santa Fe venceu Caracas FC por 2 a 0 pela Copa Sul Americana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-24T07:06:29.390Z",
+    "createdAt": "2026-07-24T07:06:29.390Z",
+    "updatedAt": "2026-07-24T07:06:29.390Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401874165",
+      "eventStartTime": "2026-07-24T00:30Z",
+      "retrievedAt": "2026-07-24T07:06:29.390Z",
+      "feedId": "futebol",
+      "league": "Copa Sul-Americana"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-589342c02bc6",
     "slug": "boca-juniors-supera-o-higgins-por-1-a-0-pela-copa-sul-americana-589342",
     "sportId": "futebol",
