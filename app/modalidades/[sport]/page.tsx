@@ -19,21 +19,21 @@ function resolveSport(sport: string) {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { sport } = await params;
   const selected = resolveSport(sport);
-  if (!selected) return { title: "Modalidade não encontrada | LAP" };
+  if (!selected) return { title: "Modalidade não encontrada" };
 
   const descriptions: Partial<Record<typeof selected.id, string>> = {
-    "futebol-americano": "NFL completa: times, jogadores, estádios, salários disponíveis, calendário, classificação e notícias.",
-    basquete: "NBA completa: franquias, jogadores, arenas, salários disponíveis, calendário, classificação, salários disponíveis e notícias.",
-    beisebol: "MLB completa: franquias, rosters, estádios, calendário, classificação e contexto da temporada.",
+    "futebol-americano": "NFL completa: times, jogadores, estádios, calendário, classificação e notícias.",
+    basquete: "NBA completa: franquias, jogadores, arenas, calendário, classificação, informações de elenco e notícias.",
+    beisebol: "MLB completa: franquias, elencos, estádios, calendário, classificação e contexto da temporada.",
     formula1: "Fórmula 1: classificação de pilotos e equipes, próximas corridas, resultados, voltas rápidas, abandonos e pit stops.",
     tenis: "Tênis: rankings ATP e WTA com atualização automática, campeões recentes, Grand Slams e notícias.",
     ciclismo: "Tour de France: classificação geral, etapas, equipes, camisas e notícias.",
-    golfe: "Golfe: OWGR e Rolex Rankings com atualização automática, torneios recentes, leaderboards e notícias.",
+    golfe: "Golfe: OWGR e Rolex Rankings com atualização automática, torneios recentes, classificações e notícias.",
     surfe: "WSL Championship Tour e Brazilian Storm com ranking atualizado automaticamente, brasileiros e notícias.",
   };
 
   return {
-    title: `${selected.name} | LAP Live Sports`,
+    title: selected.name,
     description: descriptions[selected.id] || `Notícias, agenda e resultados de ${selected.name} na LAP.`,
   };
 }
