@@ -1,6 +1,7 @@
 import { getCachedLivePayload } from "@/lib/free-live-data";
 import { getResilientGameDetails } from "@/lib/resilient-game-details";
-import { FOOTBALL_COMPETITIONS, SPORTS, type ScoreItem } from "@/lib/live-data";
+import { FOOTBALL_COMPETITIONS, type ScoreItem } from "@/lib/live-data";
+import { PUBLIC_SPORTS, toPublicLivePayload } from "@/lib/public-sports";
 
 export type SiteAuditStatus = "ok" | "warn" | "fail";
 
@@ -92,7 +93,7 @@ async function fetchWithTimeout(url: string, timeoutMs = 12_000) {
     return await fetch(url, {
       cache: "no-store",
       signal: controller.signal,
-      headers: { "user-agent": "LAP Site Audit/2.0" },
+      headers: { "user-agent": "LAP Site Audit/2.1" },
     });
   } finally {
     clearTimeout(timer);
@@ -175,11 +176,12 @@ export async function runSiteAudit(options?: { baseUrl?: string; maxPerSport?: n
   const baseUrl = (options?.baseUrl || process.env.NEXT_PUBLIC_SITE_URL || "https://lap-live-sports.vercel.app").replace(/\/$/, "");
   const maxPerSport = Math.min(Math.max(options?.maxPerSport ?? 4, 1), 20);
   const deep = Boolean(options?.deep);
-  const payload = await getCachedLivePayload({ forceRefresh: true });
+  const rawPayload = await getCachedLivePayload({ forceRefresh: true });
+  const payload = toPublicLivePayload(rawPayload, { includeWorldCup: true });
   const allEvents = uniqueEvents([...payload.worldCup.events, ...payload.feeds.flatMap((feed) => feed.scores)]);
 
   const corePaths = ["/", "/agenda", "/ao-vivo", "/copa-2026", "/cobertura", "/favoritos"];
-  const modalityPaths = SPORTS.map((sport) => `/modalidades/${sport.id}`);
+  const modalityPaths = PUBLIC_SPORTS.map((sport) => `/modalidades/${sport.id}`);
   const competitionPaths = FOOTBALL_COMPETITIONS.map((competition) => `/campeonatos/${competition.id}`);
   const items: SiteAuditItem[] = [];
 
