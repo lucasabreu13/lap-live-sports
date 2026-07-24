@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-b71364bcbcb9",
+    "slug": "aws-hungarian-gp-e-formula-1-empatam-por-0-a-0-em-formula-1-b71364",
+    "sportId": "formula1",
+    "title": "AWS Hungarian GP e Fórmula 1 empatam por 0 a 0 em Fórmula 1",
+    "summary": "AWS Hungarian GP e Fórmula 1 terminaram empatados por 0 a 0 em Fórmula 1.",
+    "content": "AWS Hungarian GP e Fórmula 1 terminaram empatados por 0 a 0 em Fórmula 1., em 24 de julho de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/formula1",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Fórmula 1",
+    "tags": [
+      "formula-1",
+      "resultado",
+      "formula-1"
+    ],
+    "seoTitle": "AWS Hungarian GP e Fórmula 1 empatam por 0 a 0 em Fórmula 1",
+    "seoDescription": "AWS Hungarian GP e Fórmula 1 terminaram empatados por 0 a 0 em Fórmula 1.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-24T13:28:57.650Z",
+    "createdAt": "2026-07-24T13:28:57.650Z",
+    "updatedAt": "2026-07-24T13:28:57.650Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "formula1",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/formula1"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "600057440",
+      "eventStartTime": "2026-07-24T11:30Z",
+      "retrievedAt": "2026-07-24T13:28:57.650Z",
+      "feedId": "formula1",
+      "league": "Fórmula 1"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-daf87949659c",
     "slug": "philadelphia-union-supera-red-bull-new-york-por-3-a-1-pelo-mls-daf879",
     "sportId": "futebol",
