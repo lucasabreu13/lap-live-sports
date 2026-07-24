@@ -15,6 +15,7 @@ export type NewsroomEditorialArticle = EditorialArticle & {
 const DEFAULT_CONTENT_URL = "https://raw.githubusercontent.com/lucasabreu13/lap-live-sports/main/content/newsroom/articles.json";
 export const NEWSROOM_ACTIVE_WINDOW_MS = 72 * 60 * 60 * 1000;
 const FUTURE_CLOCK_TOLERANCE_MS = 5 * 60 * 1000;
+const NON_HEAD_TO_HEAD_SPORTS = new Set(["formula1", "ciclismo", "golfe", "surfe"]);
 
 type AnyRecord = Record<string, unknown>;
 
@@ -52,6 +53,11 @@ function applyEditorialOverride(value: unknown) {
   return override ? { ...row, ...override } : row;
 }
 
+function looksLikeInvalidHeadToHeadResult(sportId: string, articleFormat: string, text: string) {
+  if (articleFormat !== "result-brief" || !NON_HEAD_TO_HEAD_SPORTS.has(sportId)) return false;
+  return /\b(?:empata(?:m|ram)?|vence(?:m|ram)?|supera(?:m|ram)?)\b[\s\S]{0,120}\bpor\s+\d+\s+a\s+\d+\b/i.test(text);
+}
+
 function normalizeArticle(value: unknown): NewsroomEditorialArticle | null {
   const row = asRecord(value);
   const id = asString(row.id).trim();
@@ -60,15 +66,16 @@ function normalizeArticle(value: unknown): NewsroomEditorialArticle | null {
   const title = asString(row.title).trim();
   const summary = asString(row.summary).trim();
   const content = asString(row.content).trim();
+  const rawFormat = asString(row.articleFormat).trim();
   if (!id || !slug || !sportId || !title || !summary || !content) return null;
   if (asString(row.status, "published") !== "published") return null;
+  if (looksLikeInvalidHeadToHeadResult(sportId, rawFormat, `${title} ${summary}`)) return null;
 
   const now = new Date().toISOString();
   const publishedAt = asNullableString(row.publishedAt) || now;
   const createdAt = asNullableString(row.createdAt) || publishedAt;
   const updatedAt = asNullableString(row.updatedAt) || createdAt;
   const priority = Number(row.homepagePriority);
-  const rawFormat = asString(row.articleFormat).trim();
   const articleFormat = rawFormat === "result-brief" ? "result-brief" : rawFormat === "full" ? "full" : undefined;
 
   return {
