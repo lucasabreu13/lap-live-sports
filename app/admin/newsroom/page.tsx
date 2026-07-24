@@ -32,7 +32,7 @@ export default async function NewsroomAdminPage() {
       <header className="article-header">
         <div className="shell article-header__inside">
           <Link href="/" className="brand" aria-label="Voltar para a LAP"><span className="brand__mark">LAP</span><span className="brand__tag">Newsroom AI</span></Link>
-          <div style={{ display: "flex", gap: 14, alignItems: "center" }}><Link href="/admin" className="section-link">Núcleo editorial</Link><Link href="/" className="article-back">← Voltar para a LAP</Link><AdminLogoutButton /></div>
+          <div style={{ display: "flex", gap: 14, alignItems: "center", flexWrap: "wrap" }}><Link href="/admin/radar" className="section-link">Radar LAP</Link><Link href="/admin" className="section-link">Núcleo editorial</Link><Link href="/admin/monitoramento" className="section-link">Monitoramento</Link><Link href="/" className="article-back">← Voltar para a LAP</Link><AdminLogoutButton /></div>
         </div>
       </header>
       <div className="shell admin-layout" style={{ display: "block" }}>
