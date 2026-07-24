@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-07-24T21:43:06.448Z",
-  "commit": "9048342def460628758f2f8be4c6e7b6a3c4758b",
-  "runId": "30128654443",
+  "validatedAt": "2026-07-24T22:42:08.921Z",
+  "commit": "b57a979a62311de13e25a573ba19a0cca250c1a1",
+  "runId": "30131703360",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -38,47 +38,47 @@
       "bySport": {
         "futebol": {
           "status": "ok",
-          "ageHours": 10.3,
+          "ageHours": 11.3,
           "lastPublishedAt": "2026-07-24T11:22:13.110Z"
         },
         "futebol-americano": {
           "status": "critical",
-          "ageHours": 32.4,
+          "ageHours": 33.4,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "tenis": {
           "status": "critical",
-          "ageHours": 32.4,
+          "ageHours": 33.4,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "ciclismo": {
           "status": "critical",
-          "ageHours": 32.4,
+          "ageHours": 33.4,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "formula1": {
           "status": "ok",
-          "ageHours": 8.2,
+          "ageHours": 9.2,
           "lastPublishedAt": "2026-07-24T13:28:57.650Z"
         },
         "basquete": {
           "status": "critical",
-          "ageHours": 32.4,
+          "ageHours": 33.4,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "beisebol": {
           "status": "critical",
-          "ageHours": 32.4,
+          "ageHours": 33.4,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "golfe": {
           "status": "critical",
-          "ageHours": 32.4,
+          "ageHours": 33.4,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "surfe": {
           "status": "critical",
-          "ageHours": 32.4,
+          "ageHours": 33.4,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         }
       }
