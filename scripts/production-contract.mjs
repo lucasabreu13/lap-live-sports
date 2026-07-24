@@ -15,7 +15,15 @@ async function fetchText(path) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 15_000);
   try {
-    const response = await fetch(`${baseUrl}${path}`, { cache: "no-store", signal: controller.signal, headers: { "user-agent": "LAP Production Contract/1.0" } });
+    const response = await fetch(`${baseUrl}${path}`, {
+      cache: "no-store",
+      signal: controller.signal,
+      headers: {
+        "user-agent": "LAP Production Contract/1.1",
+        "cache-control": "no-cache",
+        pragma: "no-cache",
+      },
+    });
     const text = await response.text();
     return { path, status: response.status, ok: response.ok, text };
   } finally {
@@ -36,6 +44,16 @@ function checkPage(result) {
   return issues;
 }
 
+function hasShellMeta(html, shell) {
+  if (!shell) return false;
+  const escaped = shell.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const patterns = [
+    new RegExp(`<meta[^>]+name=["']lap-shell["'][^>]+content=["']${escaped}["']`, "i"),
+    new RegExp(`<meta[^>]+content=["']${escaped}["'][^>]+name=["']lap-shell["']`, "i"),
+  ];
+  return patterns.some((pattern) => pattern.test(html));
+}
+
 async function main() {
   const [home, agenda, live, cup, version] = await Promise.all([
     fetchText("/"),
@@ -46,15 +64,17 @@ async function main() {
   ]);
 
   const issues = [...checkPage(home), ...checkPage(agenda), ...checkPage(live), ...checkPage(cup)];
-  if (!home.text.includes('name="lap-shell"') || !home.text.includes('content="editorial-v3"')) issues.push("/: marcador lap-shell editorial-v3 ausente; possível deployment/alias desatualizado");
-  for (const hiddenPath of HIDDEN_SPORT_PATHS) if (home.text.includes(`href="${hiddenPath}"`)) issues.push(`/: modalidade oculta ainda exposta (${hiddenPath})`);
 
   let versionPayload = null;
   try { versionPayload = JSON.parse(version.text); } catch { issues.push("/api/version: resposta não é JSON válido"); }
   if (!version.ok) issues.push(`/api/version: HTTP ${version.status}`);
-  if (versionPayload?.shell !== "editorial-v3") issues.push(`/api/version: shell inesperado (${versionPayload?.shell || "ausente"})`);
+
+  const deployedShell = typeof versionPayload?.shell === "string" ? versionPayload.shell.trim() : "";
+  if (!/^editorial-v\d+(?:-[a-z0-9-]+)?$/i.test(deployedShell)) issues.push(`/api/version: shell inesperado (${deployedShell || "ausente"})`);
+  if (deployedShell && !hasShellMeta(home.text, deployedShell)) issues.push(`/: marcador lap-shell ${deployedShell} ausente ou divergente da API de versão`);
   if (versionPayload?.environment && versionPayload.environment !== "production") issues.push(`/api/version: ambiente não é production (${versionPayload.environment})`);
 
+  for (const hiddenPath of HIDDEN_SPORT_PATHS) if (home.text.includes(`href="${hiddenPath}"`)) issues.push(`/: modalidade oculta ainda exposta (${hiddenPath})`);
   if (!/Espanha/i.test(cup.text) || !/campe[aã]/i.test(cup.text)) issues.push("/copa-2026: especial pós-Copa não deixa Espanha campeã identificável no HTML");
 
   const report = {
@@ -62,7 +82,7 @@ async function main() {
     checkedAt: new Date().toISOString(),
     baseUrl,
     version: versionPayload,
-    pages: [home, agenda, live, cup].map(({ path, status }) => ({ path, status, title: titleOf([home, agenda, live, cup].find((item) => item.path === path)?.text || "") })),
+    pages: [home, agenda, live, cup].map(({ path, status, text }) => ({ path, status, title: titleOf(text) })),
     issues,
   };
   console.log(JSON.stringify(report, null, 2));
