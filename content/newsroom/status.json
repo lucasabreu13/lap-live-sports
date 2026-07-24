@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-07-24T17:49:03.000Z",
-  "commit": "120356c9766f419a2b8b2f958b7968ae165771df",
-  "runId": "30114465162",
+  "validatedAt": "2026-07-24T19:10:01.620Z",
+  "commit": "d4bc9060371267ea2b475d39a89a5f46ac9d2121",
+  "runId": "30119730214",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -38,47 +38,47 @@
       "bySport": {
         "futebol": {
           "status": "ok",
-          "ageHours": 6.4,
+          "ageHours": 7.8,
           "lastPublishedAt": "2026-07-24T11:22:13.110Z"
         },
         "futebol-americano": {
           "status": "critical",
-          "ageHours": 28.5,
+          "ageHours": 29.8,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "tenis": {
           "status": "critical",
-          "ageHours": 28.5,
+          "ageHours": 29.8,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "ciclismo": {
           "status": "critical",
-          "ageHours": 28.5,
+          "ageHours": 29.8,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "formula1": {
           "status": "ok",
-          "ageHours": 4.3,
+          "ageHours": 5.7,
           "lastPublishedAt": "2026-07-24T13:28:57.650Z"
         },
         "basquete": {
           "status": "critical",
-          "ageHours": 28.5,
+          "ageHours": 29.8,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "beisebol": {
           "status": "critical",
-          "ageHours": 28.5,
+          "ageHours": 29.8,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "golfe": {
           "status": "critical",
-          "ageHours": 28.5,
+          "ageHours": 29.8,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         },
         "surfe": {
           "status": "critical",
-          "ageHours": 28.5,
+          "ageHours": 29.8,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         }
       }
