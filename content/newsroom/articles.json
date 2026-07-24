@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-34442a4102f0",
+    "slug": "atletico-goianiense-supera-cuiaba-por-1-a-0-pelo-brasileirao-serie-b-34442a",
+    "sportId": "futebol",
+    "title": "Atlético Goianiense supera Cuiabá por 1 a 0 pelo Brasileirão Série B",
+    "summary": "Atlético Goianiense venceu Cuiabá por 1 a 0 pelo Brasileirão Série B.",
+    "content": "Atlético Goianiense venceu Cuiabá por 1 a 0 pelo Brasileirão Série B, em 23 de julho de 2026 no Arena Pantanal.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "brasileirao-serie-b"
+    ],
+    "seoTitle": "Atlético Goianiense supera Cuiabá por 1 a 0 pelo Brasileirão Série B",
+    "seoDescription": "Atlético Goianiense venceu Cuiabá por 1 a 0 pelo Brasileirão Série B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-24T09:31:10.378Z",
+    "createdAt": "2026-07-24T09:31:10.378Z",
+    "updatedAt": "2026-07-24T09:31:10.378Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401860249",
+      "eventStartTime": "2026-07-23T23:30Z",
+      "retrievedAt": "2026-07-24T09:31:10.378Z",
+      "feedId": "futebol",
+      "league": "Brasileirão Série B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4e1f130ec316",
     "slug": "independiente-santa-fe-supera-caracas-fc-por-2-a-0-pela-copa-sul-americana-4e1f13",
     "sportId": "futebol",
