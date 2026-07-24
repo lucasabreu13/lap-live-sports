@@ -1,4 +1,5 @@
 import curatedArticlesPayload from "@/content/newsroom/curated-articles.json";
+import curatedArticles20260724Payload from "@/content/newsroom/curated-articles-20260724.json";
 import editorialOverridesPayload from "@/content/newsroom/editorial-overrides.json";
 import type { EditorialArticle } from "@/lib/editorial-store";
 import type { LivePayload, NewsItem, SportId } from "@/lib/live-data";
@@ -12,6 +13,8 @@ export type NewsroomEditorialArticle = EditorialArticle & {
 };
 
 const DEFAULT_CONTENT_URL = "https://raw.githubusercontent.com/lucasabreu13/lap-live-sports/main/content/newsroom/articles.json";
+export const NEWSROOM_ACTIVE_WINDOW_MS = 72 * 60 * 60 * 1000;
+const FUTURE_CLOCK_TOLERANCE_MS = 5 * 60 * 1000;
 
 type AnyRecord = Record<string, unknown>;
 
@@ -96,8 +99,19 @@ function normalizeArticle(value: unknown): NewsroomEditorialArticle | null {
   };
 }
 
+function articleTimestamp(article: Pick<NewsroomEditorialArticle, "publishedAt" | "createdAt">) {
+  return new Date(article.publishedAt || article.createdAt).getTime();
+}
+
+export function isNewsroomArticleActive(article: Pick<NewsroomEditorialArticle, "publishedAt" | "createdAt">, now = Date.now()) {
+  const timestamp = articleTimestamp(article);
+  if (!Number.isFinite(timestamp)) return false;
+  const ageMs = now - timestamp;
+  return ageMs >= -FUTURE_CLOCK_TOLERANCE_MS && ageMs <= NEWSROOM_ACTIVE_WINDOW_MS;
+}
+
 function editorialScore(article: NewsroomEditorialArticle) {
-  const timestamp = new Date(article.publishedAt || article.createdAt).getTime();
+  const timestamp = articleTimestamp(article);
   const ageHours = Number.isFinite(timestamp) ? Math.max(0, (Date.now() - timestamp) / 3_600_000) : 999;
   const priority = article.homepagePriority ?? 50;
   const breakingBoost = article.breaking && ageHours <= 12 ? 35 : article.breaking && ageHours <= 24 ? 15 : 0;
@@ -111,19 +125,24 @@ function orderArticles(items: NewsroomEditorialArticle[], limit: number) {
     .sort((a, b) => {
       const scoreDiff = editorialScore(b) - editorialScore(a);
       if (Math.abs(scoreDiff) > 0.001) return scoreDiff;
-      return new Date(b.publishedAt || b.createdAt).getTime() - new Date(a.publishedAt || a.createdAt).getTime();
+      return articleTimestamp(b) - articleTimestamp(a);
     })
     .slice(0, Math.max(1, Math.min(limit, 250)));
 }
 
 function getCuratedArticles() {
-  return (curatedArticlesPayload as unknown[])
+  const curatedPayloads = [
+    ...(curatedArticlesPayload as unknown[]),
+    ...(curatedArticles20260724Payload as unknown[]),
+  ];
+
+  return curatedPayloads
     .map(applyEditorialOverride)
     .map(normalizeArticle)
     .filter((article): article is NewsroomEditorialArticle => article !== null);
 }
 
-export async function getNewsroomArticles(limit = 48): Promise<NewsroomEditorialArticle[]> {
+async function getAllNewsroomArticles(limit = 250): Promise<NewsroomEditorialArticle[]> {
   const url = process.env.NEWSROOM_CONTENT_URL || DEFAULT_CONTENT_URL;
   const curated = getCuratedArticles();
   let automated: NewsroomEditorialArticle[] = [];
@@ -131,7 +150,7 @@ export async function getNewsroomArticles(limit = 48): Promise<NewsroomEditorial
   try {
     const response = await fetch(url, {
       next: { revalidate: 120 },
-      headers: { "user-agent": "LAP Live Sports Newsroom Reader/1.4" },
+      headers: { "user-agent": "LAP Live Sports Newsroom Reader/1.5" },
     });
     if (response.ok) {
       const payload = await response.json() as unknown;
@@ -146,12 +165,20 @@ export async function getNewsroomArticles(limit = 48): Promise<NewsroomEditorial
     // A curadoria embarcada continua disponível mesmo se o arquivo remoto falhar.
   }
 
-  // A curadoria verificada é aplicada por último para prevalecer em um eventual slug duplicado.
+  // Curadoria verificada é aplicada por último para prevalecer em eventual slug duplicado.
   return orderArticles([...automated, ...curated], limit);
 }
 
+export async function getNewsroomArticles(limit = 48): Promise<NewsroomEditorialArticle[]> {
+  const all = await getAllNewsroomArticles(250);
+  // Política editorial LAP: notícias ocupam home e páginas de modalidade por 72 horas.
+  // Depois disso deixam a vitrine gradualmente, mas a URL permanente da matéria continua acessível.
+  return orderArticles(all.filter((article) => isNewsroomArticleActive(article)), limit);
+}
+
 export async function getNewsroomArticleBySlug(slug: string): Promise<NewsroomEditorialArticle | null> {
-  const articles = await getNewsroomArticles(250);
+  // Busca o arquivo completo para preservar URLs antigas mesmo depois da janela de 72 horas.
+  const articles = await getAllNewsroomArticles(250);
   return articles.find((article) => article.slug === slug) ?? null;
 }
 
