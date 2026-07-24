@@ -34,7 +34,7 @@ async function refreshTennis(base: RichIndividualHub): Promise<RichIndividualHub
     metrics: [
       { label: "Nº 1 ATP", value: atp.rows[0]?.[1] || "—", detail: pointDetail(atp.rows[0], 2) },
       { label: "Nº 1 WTA", value: wta.rows[0]?.[1] || "—", detail: pointDetail(wta.rows[0], 3) },
-      { label: "Ranking exibido", value: String(atp.rows.length + wta.rows.length), detail: "Atualização automática + fallback verificado" },
+      { label: "Ranking exibido", value: String(atp.rows.length + wta.rows.length), detail: "Atualização automática · última versão verificada disponível" },
       ...(base.metrics.filter((metric) => metric.label === "Finais recentes").slice(0, 1)),
     ],
     tables: [
@@ -55,11 +55,11 @@ async function refreshGolf(base: RichIndividualHub): Promise<RichIndividualHub> 
   const [owgr, rolex] = await Promise.all([refreshRanking("owgr"), refreshRanking("rolex")]);
   return {
     ...base,
-    subtitle: "Rankings mundiais masculino e feminino com atualização automática, torneios recentes, leaderboards e notícias.",
+    subtitle: "Rankings mundiais masculino e feminino com atualização automática, torneios recentes, classificações e notícias.",
     metrics: [
       { label: "Nº 1 mundial", value: owgr.rows[0]?.[1] || "—", detail: "OWGR masculino" },
       { label: "Nº 1 mundial feminino", value: rolex.rows[0]?.[1] || "—", detail: "Rolex Women's World Golf Rankings" },
-      { label: "Ranking exibido", value: String(owgr.rows.length + rolex.rows.length), detail: "Atualização automática + fallback verificado" },
+      { label: "Ranking exibido", value: String(owgr.rows.length + rolex.rows.length), detail: "Atualização automática · última versão verificada disponível" },
       ...(base.metrics.filter((metric) => metric.label === "Torneios recentes").slice(0, 1)),
     ],
     tables: [
@@ -67,7 +67,7 @@ async function refreshGolf(base: RichIndividualHub): Promise<RichIndividualHub> 
       rankingTable(rolex, "Ranking mundial feminino oficial Rolex."),
     ],
     sources: uniqueSources([
-      "Official World Golf Ranking — widget oficial autoatualizável",
+      "Official World Golf Ranking — fonte oficial atualizada automaticamente",
       "Rolex Women's World Golf Rankings — fonte oficial",
       ...base.sources.filter((source) => !/Official World Golf Ranking|Rolex/i.test(source)),
     ]),
@@ -89,13 +89,13 @@ async function refreshSurf(base: RichIndividualHub): Promise<RichIndividualHub> 
       ...(base.metrics.filter((metric) => metric.label === "Formato 2026").slice(0, 1)),
     ],
     tables: [
-      rankingTable(men, "Classificação do Championship Tour masculino; a WSL segue como fonte canônica.", 10),
-      rankingTable(women, "Classificação do Championship Tour feminino; a WSL segue como fonte canônica.", 10),
+      rankingTable(men, "Classificação do Championship Tour masculino; a WSL é a referência oficial.", 10),
+      rankingTable(women, "Classificação do Championship Tour feminino; a WSL é a referência oficial.", 10),
       ...(brazilianStorm ? [brazilianStorm] : []),
     ],
     sources: uniqueSources([
-      "World Surf League — fonte canônica do Championship Tour",
-      "Espelho público do ranking consultado automaticamente quando a WSL bloqueia leitura automatizada",
+      "World Surf League — referência oficial do Championship Tour",
+      "Fonte pública complementar consultada automaticamente quando a WSL limita a leitura automatizada",
       ...base.sources.filter((source) => !/World Surf League|Snapshot/i.test(source)),
     ]),
     generatedAt: new Date().toISOString(),

@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
           cache: npm
 
       - name: Install dependencies
@@ -50,8 +50,8 @@ jobs:
           if-no-files-found: warn
           retention-days: 14
 
-      - name: Fail when production contract is broken
+      - name: Fail when production checks find a real issue
         if: steps.contract.outcome != 'success' || steps.audit.outcome != 'success'
         run: |
-          echo "Production smoke detected a broken contract or audit failure."
+          echo "Production smoke detected a real contract or audit failure. Review the uploaded reports."
           exit 1

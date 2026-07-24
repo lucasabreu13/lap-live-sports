@@ -27,6 +27,8 @@ export function RichIndividualCenter({ hub }: { hub: RichIndividualHub }) {
 
     <section className={styles.metrics}>{hub.metrics.map((metric) => <article key={`${metric.label}-${metric.value}`}><span>{metric.label}</span><strong>{metric.value}</strong><small>{metric.detail}</small></article>)}</section>
 
+    <section className={styles.section}><header className={styles.sectionHead}><div><span>Guia rápido</span><h2>Mapa da modalidade e como acompanhar</h2><p>Use os rankings e classificações para entender o cenário atual, os resultados para acompanhar o que já aconteceu e as notícias para contextualizar as principais competições, atletas e próximos eventos.</p></div><Link href={`/agenda?sport=${hub.sportId}`}>Ver agenda →</Link></header></section>
+
     {hub.spotlights.length ? <section className={styles.spotlightGrid}>{hub.spotlights.map((item) => <article key={item.title}><span>{item.eyebrow}</span><h2>{item.title}</h2>{item.value ? <strong>{item.value}</strong> : null}<p>{item.text}</p></article>)}</section> : null}
 
     <div className={styles.tables}>{hub.tables.map((table) => <RichDataTable key={table.title} table={table} />)}</div>

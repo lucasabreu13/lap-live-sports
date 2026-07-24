@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { DataAutoRefresh } from "@/components/data-auto-refresh";
 import { DataVisibilityGuard } from "@/components/data-visibility-guard";
 import { MobileBottomNav } from "@/components/mobile-bottom-nav";
+import { LAP_SHELL_VERSION } from "@/lib/app-version";
 import "./globals.css";
 import "./lap-ux-polish.css";
 import "./lap-header-polish.css";
@@ -10,7 +11,6 @@ import "./lap-gallery.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://lap-live-sports.vercel.app";
 const buildSha = process.env.VERCEL_GIT_COMMIT_SHA || process.env.GITHUB_SHA || "local";
-const shellVersion = "editorial-v4-gallery";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   applicationName: "LAP Live Sports",
   manifest: "/manifest.webmanifest",
   alternates: { types: { "application/rss+xml": "/feed.xml" } },
-  other: { "lap-shell": shellVersion, "lap-build": buildSha },
+  other: { "lap-shell": LAP_SHELL_VERSION, "lap-build": buildSha },
   openGraph: {
     type: "website",
     locale: "pt_BR",
