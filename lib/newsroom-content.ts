@@ -1,5 +1,6 @@
 import curatedArticlesPayload from "@/content/newsroom/curated-articles.json";
 import curatedArticles20260724Payload from "@/content/newsroom/curated-articles-20260724.json";
+import curatedCorinthians20260724Payload from "@/content/newsroom/curated-articles-corinthians-20260724.json";
 import editorialOverridesPayload from "@/content/newsroom/editorial-overrides.json";
 import type { EditorialArticle } from "@/lib/editorial-store";
 import type { LivePayload, NewsItem, SportId } from "@/lib/live-data";
@@ -141,6 +142,7 @@ function getCuratedArticles() {
   const curatedPayloads = [
     ...(curatedArticlesPayload as unknown[]),
     ...(curatedArticles20260724Payload as unknown[]),
+    ...(curatedCorinthians20260724Payload as unknown[]),
   ];
 
   return curatedPayloads
