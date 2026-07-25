@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-07-25T15:35:06.054Z",
-  "commit": "1e9105f4ff3916d56b5059ad6caf3ceada578c75",
-  "runId": "30163902582",
-  "event": "schedule",
+  "validatedAt": "2026-07-25T16:03:33.751Z",
+  "commit": "ff8f6b60278ad407ad202c73162fbcee69aa0821",
+  "runId": "30164851933",
+  "event": "push",
   "stages": {
     "agents": "success",
     "dataStories": "success",
@@ -13,22 +13,22 @@
     "curatedMerge": "success"
   },
   "metrics": {
-    "articlesCreated": 0,
+    "articlesCreated": 8,
     "articlesUpdated": 0,
     "articlesRemoved": 0,
     "articlesRejected": null,
-    "curatedArticles": 9,
+    "curatedArticles": 8,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-07-24T13:28:57.650Z",
+    "lastPublishedAt": "2026-07-25T12:10:00.000Z",
     "lastPublishedBySport": {
-      "futebol": "2026-07-24T11:22:13.110Z",
-      "futebol-americano": "2026-07-23T13:20:00.000Z",
-      "tenis": "2026-07-23T13:20:00.000Z",
-      "ciclismo": "2026-07-23T13:20:00.000Z",
-      "formula1": "2026-07-24T13:28:57.650Z",
-      "basquete": "2026-07-23T13:20:00.000Z",
-      "beisebol": "2026-07-23T13:20:00.000Z",
-      "golfe": "2026-07-23T13:20:00.000Z",
+      "futebol": "2026-07-25T12:06:00.000Z",
+      "futebol-americano": "2026-07-25T12:04:00.000Z",
+      "tenis": "2026-07-25T12:02:00.000Z",
+      "ciclismo": "2026-07-25T11:56:00.000Z",
+      "formula1": "2026-07-25T12:10:00.000Z",
+      "basquete": "2026-07-25T12:08:00.000Z",
+      "beisebol": "2026-07-25T11:58:00.000Z",
+      "golfe": "2026-07-25T12:00:00.000Z",
       "surfe": "2026-07-23T13:20:00.000Z"
     },
     "sourceErrors": [],
@@ -37,48 +37,48 @@
       "criticalAfterHours": 24,
       "bySport": {
         "futebol": {
-          "status": "critical",
-          "ageHours": 28.2,
-          "lastPublishedAt": "2026-07-24T11:22:13.110Z"
+          "status": "ok",
+          "ageHours": 4,
+          "lastPublishedAt": "2026-07-25T12:06:00.000Z"
         },
         "futebol-americano": {
-          "status": "critical",
-          "ageHours": 50.3,
-          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
+          "status": "ok",
+          "ageHours": 4,
+          "lastPublishedAt": "2026-07-25T12:04:00.000Z"
         },
         "tenis": {
-          "status": "critical",
-          "ageHours": 50.3,
-          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
+          "status": "ok",
+          "ageHours": 4,
+          "lastPublishedAt": "2026-07-25T12:02:00.000Z"
         },
         "ciclismo": {
-          "status": "critical",
-          "ageHours": 50.3,
-          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
+          "status": "ok",
+          "ageHours": 4.1,
+          "lastPublishedAt": "2026-07-25T11:56:00.000Z"
         },
         "formula1": {
-          "status": "critical",
-          "ageHours": 26.1,
-          "lastPublishedAt": "2026-07-24T13:28:57.650Z"
+          "status": "ok",
+          "ageHours": 3.9,
+          "lastPublishedAt": "2026-07-25T12:10:00.000Z"
         },
         "basquete": {
-          "status": "critical",
-          "ageHours": 50.3,
-          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
+          "status": "ok",
+          "ageHours": 3.9,
+          "lastPublishedAt": "2026-07-25T12:08:00.000Z"
         },
         "beisebol": {
-          "status": "critical",
-          "ageHours": 50.3,
-          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
+          "status": "ok",
+          "ageHours": 4.1,
+          "lastPublishedAt": "2026-07-25T11:58:00.000Z"
         },
         "golfe": {
-          "status": "critical",
-          "ageHours": 50.3,
-          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
+          "status": "ok",
+          "ageHours": 4.1,
+          "lastPublishedAt": "2026-07-25T12:00:00.000Z"
         },
         "surfe": {
           "status": "critical",
-          "ageHours": 50.3,
+          "ageHours": 50.7,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         }
       }
