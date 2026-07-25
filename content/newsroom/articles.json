@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-cedc06a5faba",
+    "slug": "mubadala-dc-open-e-tenis-empatam-por-0-a-0-em-tenis-cedc06",
+    "sportId": "tenis",
+    "title": "Mubadala DC Open e Tênis empatam por 0 a 0 em Tênis",
+    "summary": "Mubadala DC Open e Tênis terminaram empatados por 0 a 0 em Tênis.",
+    "content": "Mubadala DC Open e Tênis terminaram empatados por 0 a 0 em Tênis., em 25 de julho de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "tenis"
+    ],
+    "seoTitle": "Mubadala DC Open e Tênis empatam por 0 a 0 em Tênis",
+    "seoDescription": "Mubadala DC Open e Tênis terminaram empatados por 0 a 0 em Tênis.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-25T16:31:41.995Z",
+    "createdAt": "2026-07-25T16:31:41.995Z",
+    "updatedAt": "2026-07-25T16:31:41.995Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "888-2026",
+      "eventStartTime": "2026-07-25T04:00Z",
+      "retrievedAt": "2026-07-25T16:31:41.995Z",
+      "feedId": "tenis",
+      "league": "Tênis"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "curated-f1-hungria-fp3-20260725",
     "slug": "norris-lidera-tl3-hungria-hamilton-antonelli-colados-classificacao",
     "sportId": "formula1",
