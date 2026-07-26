@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-a2b827a37a81",
+    "slug": "vasco-da-gama-e-mirassol-ficam-no-1-a-1-pelo-brasileirao-serie-a-a2b827",
+    "sportId": "futebol",
+    "title": "Vasco da Gama e Mirassol ficam no 1 a 1 pelo Brasileirão Série A",
+    "summary": "Vasco da Gama e Mirassol empataram por 1 a 1 pelo Brasileirão Série A.",
+    "content": "Vasco da Gama e Mirassol empataram por 1 a 1 pelo Brasileirão Série A, em 25 de julho de 2026 no Estádio São Januário. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "brasileirao-serie-a"
+    ],
+    "seoTitle": "Vasco da Gama e Mirassol ficam no 1 a 1 pelo Brasileirão Série A",
+    "seoDescription": "Vasco da Gama e Mirassol empataram por 1 a 1 pelo Brasileirão Série A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-26T16:59:26.049Z",
+    "createdAt": "2026-07-26T16:59:26.049Z",
+    "updatedAt": "2026-07-26T16:59:26.049Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401841160",
+      "eventStartTime": "2026-07-25T23:30Z",
+      "retrievedAt": "2026-07-26T16:59:26.049Z",
+      "feedId": "futebol",
+      "league": "Brasileirão Série A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-935f3a0b6a77",
     "slug": "st-louis-city-sc-supera-colorado-rapids-por-1-a-0-pelo-mls-935f3a",
     "sportId": "futebol",
