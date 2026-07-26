@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-6a78ee8d4969",
+    "slug": "san-diego-fc-supera-fc-dallas-por-1-a-0-pelo-mls-6a78ee",
+    "sportId": "futebol",
+    "title": "San Diego FC supera FC Dallas por 1 a 0 pela MLS",
+    "summary": "San Diego FC venceu FC Dallas por 1 a 0 pela MLS.",
+    "content": "San Diego FC venceu FC Dallas por 1 a 0 pela MLS, em 25 de julho de 2026 no Snapdragon Stadium.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "San Diego FC supera FC Dallas por 1 a 0 pela MLS",
+    "seoDescription": "San Diego FC venceu FC Dallas por 1 a 0 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-26T11:00:15.998Z",
+    "createdAt": "2026-07-26T11:00:15.998Z",
+    "updatedAt": "2026-07-26T11:00:15.998Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "761691",
+      "eventStartTime": "2026-07-26T01:30Z",
+      "retrievedAt": "2026-07-26T11:00:15.998Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-e99ed5a6b1b9",
     "slug": "san-jose-earthquakes-e-la-galaxy-ficam-no-1-a-1-pelo-mls-e99ed5",
     "sportId": "futebol",
@@ -171,9 +213,9 @@
     "id": "newsroom-data-cedc06a5faba",
     "slug": "mubadala-dc-open-e-tenis-empatam-por-0-a-0-em-tenis-cedc06",
     "sportId": "tenis",
-    "title": "Mifel Tennis Open by Telcel Oppo e Tênis empatam por 0 a 0 em Tênis",
-    "summary": "Mifel Tennis Open by Telcel Oppo e Tênis terminaram empatados por 0 a 0 em Tênis.",
-    "content": "Mifel Tennis Open by Telcel Oppo e Tênis terminaram empatados por 0 a 0 em Tênis., em 25 de julho de 2026.",
+    "title": "Mubadala DC Open e Tênis empatam por 0 a 0 em Tênis",
+    "summary": "Mubadala DC Open e Tênis terminaram empatados por 0 a 0 em Tênis.",
+    "content": "Mubadala DC Open e Tênis terminaram empatados por 0 a 0 em Tênis., em 25 de julho de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
     "coverImageUrl": null,
@@ -183,13 +225,13 @@
       "tenis",
       "resultado"
     ],
-    "seoTitle": "Mifel Tennis Open by Telcel Oppo e Tênis empatam por 0 a 0 em Tênis",
-    "seoDescription": "Mifel Tennis Open by Telcel Oppo e Tênis terminaram empatados por 0 a 0 em Tênis.",
+    "seoTitle": "Mubadala DC Open e Tênis empatam por 0 a 0 em Tênis",
+    "seoDescription": "Mubadala DC Open e Tênis terminaram empatados por 0 a 0 em Tênis.",
     "status": "published",
     "scheduledAt": null,
     "publishedAt": "2026-07-25T16:31:41.995Z",
     "createdAt": "2026-07-25T16:31:41.995Z",
-    "updatedAt": "2026-07-26T09:29:30.041Z",
+    "updatedAt": "2026-07-26T11:00:15.999Z",
     "homepagePriority": 52,
     "breaking": false,
     "agentId": "tenis",
@@ -200,9 +242,9 @@
     "dataDriven": true,
     "provenance": {
       "provider": "LAP live-data",
-      "eventId": "424-2026",
+      "eventId": "888-2026",
       "eventStartTime": "2026-07-25T04:00Z",
-      "retrievedAt": "2026-07-26T09:29:30.041Z",
+      "retrievedAt": "2026-07-26T11:00:15.999Z",
       "feedId": "tenis",
       "league": "Tênis"
     },
@@ -219,6 +261,10 @@
       {
         "updatedAt": "2026-07-26T09:29:30.041Z",
         "sourceArticleId": "newsroom-data-5379f4583372"
+      },
+      {
+        "updatedAt": "2026-07-26T11:00:15.999Z",
+        "sourceArticleId": "newsroom-data-cedc06a5faba"
       }
     ]
   },
