@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-6c91671c1b69",
+    "slug": "charlotte-fc-supera-red-bull-new-york-por-2-a-0-pelo-mls-6c9167",
+    "sportId": "futebol",
+    "title": "Charlotte FC supera Red Bull New York por 2 a 0 pela MLS",
+    "summary": "Charlotte FC venceu Red Bull New York por 2 a 0 pela MLS.",
+    "content": "Charlotte FC venceu Red Bull New York por 2 a 0 pela MLS, em 25 de julho de 2026 no Red Bull Arena.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "Charlotte FC supera Red Bull New York por 2 a 0 pela MLS",
+    "seoDescription": "Charlotte FC venceu Red Bull New York por 2 a 0 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-26T01:13:00.057Z",
+    "createdAt": "2026-07-26T01:13:00.057Z",
+    "updatedAt": "2026-07-26T01:13:00.057Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "761685",
+      "eventStartTime": "2026-07-25T22:30Z",
+      "retrievedAt": "2026-07-26T01:13:00.057Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-cedc06a5faba",
     "slug": "mubadala-dc-open-e-tenis-empatam-por-0-a-0-em-tenis-cedc06",
     "sportId": "tenis",
