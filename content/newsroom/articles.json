@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-c31241e9568e",
+    "slug": "inter-miami-cf-supera-cf-montreal-por-1-a-0-pelo-mls-c31241",
+    "sportId": "futebol",
+    "title": "Inter Miami CF supera CF Montréal por 1 a 0 pela MLS",
+    "summary": "Inter Miami CF venceu CF Montréal por 1 a 0 pela MLS.",
+    "content": "Inter Miami CF venceu CF Montréal por 1 a 0 pela MLS, em 25 de julho de 2026 no Stade Saputo.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "Inter Miami CF supera CF Montréal por 1 a 0 pela MLS",
+    "seoDescription": "Inter Miami CF venceu CF Montréal por 1 a 0 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-26T18:01:38.754Z",
+    "createdAt": "2026-07-26T18:01:38.754Z",
+    "updatedAt": "2026-07-26T18:01:38.754Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "761687",
+      "eventStartTime": "2026-07-25T23:30Z",
+      "retrievedAt": "2026-07-26T18:01:38.754Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-a2b827a37a81",
     "slug": "vasco-da-gama-e-mirassol-ficam-no-1-a-1-pelo-brasileirao-serie-a-a2b827",
     "sportId": "futebol",
