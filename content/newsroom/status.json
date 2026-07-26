@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-07-26T22:39:19.929Z",
-  "commit": "0da0640d9585146a6d3f4b2d9db79c8d28d67b5f",
-  "runId": "30223562041",
+  "validatedAt": "2026-07-26T23:38:56.566Z",
+  "commit": "2c377aad6e31e989ce4b03c69dce9b9682a8a8e5",
+  "runId": "30225686933",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -19,9 +19,9 @@
     "articlesRejected": null,
     "curatedArticles": 8,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-07-26T22:39:19.650Z",
+    "lastPublishedAt": "2026-07-26T23:38:56.305Z",
     "lastPublishedBySport": {
-      "futebol": "2026-07-26T22:39:19.650Z",
+      "futebol": "2026-07-26T23:38:56.305Z",
       "futebol-americano": "2026-07-25T12:04:00.000Z",
       "tenis": "2026-07-25T16:31:41.995Z",
       "ciclismo": "2026-07-25T11:56:00.000Z",
@@ -39,46 +39,46 @@
         "futebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-07-26T22:39:19.650Z"
+          "lastPublishedAt": "2026-07-26T23:38:56.305Z"
         },
         "futebol-americano": {
           "status": "critical",
-          "ageHours": 34.6,
+          "ageHours": 35.6,
           "lastPublishedAt": "2026-07-25T12:04:00.000Z"
         },
         "tenis": {
           "status": "critical",
-          "ageHours": 30.1,
+          "ageHours": 31.1,
           "lastPublishedAt": "2026-07-25T16:31:41.995Z"
         },
         "ciclismo": {
           "status": "critical",
-          "ageHours": 34.7,
+          "ageHours": 35.7,
           "lastPublishedAt": "2026-07-25T11:56:00.000Z"
         },
         "formula1": {
           "status": "critical",
-          "ageHours": 34.5,
+          "ageHours": 35.5,
           "lastPublishedAt": "2026-07-25T12:10:00.000Z"
         },
         "basquete": {
           "status": "critical",
-          "ageHours": 34.5,
+          "ageHours": 35.5,
           "lastPublishedAt": "2026-07-25T12:08:00.000Z"
         },
         "beisebol": {
           "status": "critical",
-          "ageHours": 34.7,
+          "ageHours": 35.7,
           "lastPublishedAt": "2026-07-25T11:58:00.000Z"
         },
         "golfe": {
           "status": "critical",
-          "ageHours": 34.7,
+          "ageHours": 35.6,
           "lastPublishedAt": "2026-07-25T12:00:00.000Z"
         },
         "surfe": {
           "status": "critical",
-          "ageHours": 81.3,
+          "ageHours": 82.3,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         }
       }
