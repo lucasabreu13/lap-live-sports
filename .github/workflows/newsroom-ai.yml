@@ -11,7 +11,7 @@ on:
       - "scripts/newsroom-editorial-polish.mjs"
       - "scripts/newsroom-maintenance.mjs"
       - "scripts/newsroom-curated-merge.mjs"
-      - "content/newsroom/curated-articles.json"
+      - "content/newsroom/curated-articles*.json"
       - "content/newsroom/editorial-overrides.json"
       - "content/editorial/reader-terms.json"
       - "lib/newsroom-content.ts"
@@ -42,7 +42,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Run specialist news agents and editor-in-chief
         id: agents
@@ -103,9 +103,9 @@ jobs:
             try { const parsed = JSON.parse(text); return Array.isArray(parsed) ? parsed : []; } catch { return []; }
           };
           const current = readArticles(fs.readFileSync('content/newsroom/articles.json', 'utf8'));
-          const curated = fs.existsSync('content/newsroom/curated-articles.json')
-            ? readArticles(fs.readFileSync('content/newsroom/curated-articles.json', 'utf8'))
-            : [];
+          const curatedFiles = fs.readdirSync('content/newsroom').filter((name) => /^curated-articles.*\.json$/i.test(name));
+          const curatedRaw = curatedFiles.flatMap((name) => readArticles(fs.readFileSync(`content/newsroom/${name}`, 'utf8')));
+          const curated = Array.from(new Map(curatedRaw.filter((article) => article?.slug || article?.id).map((article) => [article.slug || article.id, article])).values());
           const overrides = fs.existsSync('content/newsroom/editorial-overrides.json')
             ? readArticles(fs.readFileSync('content/newsroom/editorial-overrides.json', 'utf8'))
             : [];
@@ -151,6 +151,7 @@ jobs:
               articlesRemoved: removed.length,
               articlesRejected: null,
               curatedArticles: curated.length,
+              curatedFiles: curatedFiles.length,
               editorialOverrides: overrides.length,
               lastPublishedAt: byPublishedAt[0]?.publishedAt || byPublishedAt[0]?.createdAt || null,
               lastPublishedBySport,
@@ -160,6 +161,7 @@ jobs:
             metricNotes: {
               articlesRejected: 'Rejeições editoriais ainda não são persistidas pelos estágios; null evita reportar zero sem evidência.',
               curatedArticles: 'Matérias verificadas e preservadas fora da geração automática para não serem removidas nas rodadas do Newsroom.',
+              curatedFiles: 'Arquivos de curadoria diária incorporados ao arquivo público de notícias.',
               editorialOverrides: 'Revisões editoriais explícitas aplicadas sobre matérias já publicadas, inclusive para clareza de termos técnicos.',
             },
           };
