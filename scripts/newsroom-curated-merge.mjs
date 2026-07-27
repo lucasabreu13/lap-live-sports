@@ -1,9 +1,9 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-const AUTO_PATH = path.join(process.cwd(), "content", "newsroom", "articles.json");
-const CURATED_PATH = path.join(process.cwd(), "content", "newsroom", "curated-articles.json");
-const OVERRIDES_PATH = path.join(process.cwd(), "content", "newsroom", "editorial-overrides.json");
+const NEWSROOM_DIR = path.join(process.cwd(), "content", "newsroom");
+const AUTO_PATH = path.join(NEWSROOM_DIR, "articles.json");
+const OVERRIDES_PATH = path.join(NEWSROOM_DIR, "editorial-overrides.json");
 const MAX_STORED_ARTICLES = 300;
 
 async function readArray(file) {
@@ -19,6 +19,11 @@ function key(article) {
   return article?.slug || article?.id || "";
 }
 
+function articleTime(article) {
+  const value = new Date(article?.updatedAt || article?.publishedAt || article?.createdAt || 0).getTime();
+  return Number.isFinite(value) ? value : 0;
+}
+
 function applyOverrides(articles, overrides) {
   const byId = new Map();
   const bySlug = new Map();
@@ -32,14 +37,35 @@ function applyOverrides(articles, overrides) {
   });
 }
 
+function newestByKey(articles) {
+  const byKey = new Map();
+  for (const article of articles) {
+    const articleKey = key(article);
+    if (!articleKey) continue;
+    const current = byKey.get(articleKey);
+    if (!current || articleTime(article) >= articleTime(current)) byKey.set(articleKey, article);
+  }
+  return [...byKey.values()];
+}
+
+async function curatedFiles() {
+  const names = await readdir(NEWSROOM_DIR);
+  return names
+    .filter((name) => /^curated-articles.*\.json$/i.test(name))
+    .sort()
+    .map((name) => path.join(NEWSROOM_DIR, name));
+}
+
 async function main() {
-  const [automatedRaw, curatedRaw, overrides] = await Promise.all([
+  const files = await curatedFiles();
+  const [automatedRaw, overrides, ...curatedPayloads] = await Promise.all([
     readArray(AUTO_PATH),
-    readArray(CURATED_PATH),
     readArray(OVERRIDES_PATH),
+    ...files.map(readArray),
   ]);
+
   const automated = applyOverrides(automatedRaw, overrides);
-  const curated = applyOverrides(curatedRaw, overrides);
+  const curated = newestByKey(applyOverrides(curatedPayloads.flat(), overrides));
   const curatedKeys = new Set(curated.map(key).filter(Boolean));
   const combined = [
     ...curated,
@@ -52,12 +78,12 @@ async function main() {
   const next = `${JSON.stringify(combined, null, 2)}\n`;
   const currentText = `${JSON.stringify(automatedRaw, null, 2)}\n`;
   if (next === currentText) {
-    console.log(JSON.stringify({ stage: "curatedMerge", changed: false, curated: curated.length, overrides: overrides.length }));
+    console.log(JSON.stringify({ stage: "curatedMerge", changed: false, curated: curated.length, curatedFiles: files.length, overrides: overrides.length }));
     return;
   }
 
   await writeFile(AUTO_PATH, next, "utf8");
-  console.log(JSON.stringify({ stage: "curatedMerge", changed: true, curated: curated.length, overrides: overrides.length, total: combined.length }));
+  console.log(JSON.stringify({ stage: "curatedMerge", changed: true, curated: curated.length, curatedFiles: files.length, overrides: overrides.length, total: combined.length }));
 }
 
 main().catch((error) => {
