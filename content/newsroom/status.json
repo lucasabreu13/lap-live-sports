@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-07-27T08:45:26.943Z",
-  "commit": "85ce67dc5992f36f4997f7d040d3a7b2c25fe5a3",
-  "runId": "30251102146",
+  "validatedAt": "2026-07-27T12:10:11.643Z",
+  "commit": "425af6191916cc14ea655af3c6b481eb68f39237",
+  "runId": "30264784458",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -37,48 +37,48 @@
       "criticalAfterHours": 24,
       "bySport": {
         "futebol": {
-          "status": "ok",
-          "ageHours": 9.1,
+          "status": "warning",
+          "ageHours": 12.5,
           "lastPublishedAt": "2026-07-26T23:38:56.305Z"
         },
         "futebol-americano": {
           "status": "critical",
-          "ageHours": 44.7,
+          "ageHours": 48.1,
           "lastPublishedAt": "2026-07-25T12:04:00.000Z"
         },
         "tenis": {
           "status": "critical",
-          "ageHours": 40.2,
+          "ageHours": 43.6,
           "lastPublishedAt": "2026-07-25T16:31:41.995Z"
         },
         "ciclismo": {
           "status": "critical",
-          "ageHours": 44.8,
+          "ageHours": 48.2,
           "lastPublishedAt": "2026-07-25T11:56:00.000Z"
         },
         "formula1": {
           "status": "critical",
-          "ageHours": 44.6,
+          "ageHours": 48,
           "lastPublishedAt": "2026-07-25T12:10:00.000Z"
         },
         "basquete": {
           "status": "critical",
-          "ageHours": 44.6,
+          "ageHours": 48,
           "lastPublishedAt": "2026-07-25T12:08:00.000Z"
         },
         "beisebol": {
           "status": "critical",
-          "ageHours": 44.8,
+          "ageHours": 48.2,
           "lastPublishedAt": "2026-07-25T11:58:00.000Z"
         },
         "golfe": {
           "status": "critical",
-          "ageHours": 44.8,
+          "ageHours": 48.2,
           "lastPublishedAt": "2026-07-25T12:00:00.000Z"
         },
         "surfe": {
           "status": "critical",
-          "ageHours": 91.4,
+          "ageHours": 94.8,
           "lastPublishedAt": "2026-07-23T13:20:00.000Z"
         }
       }
