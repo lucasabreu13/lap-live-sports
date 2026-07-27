@@ -1,10 +1,10 @@
 {
   "status": "ok",
-  "coverageStatus": "critical",
-  "validatedAt": "2026-07-27T17:06:09.076Z",
-  "commit": "290d2d0bbc0967d306f9caa0dd59fea0b61ed7a8",
-  "runId": "30287713101",
-  "event": "schedule",
+  "coverageStatus": "ok",
+  "validatedAt": "2026-07-27T17:27:21.437Z",
+  "commit": "c554909199e3cc19c20a7a5af5b01dcef61918aa",
+  "runId": "30289295693",
+  "event": "push",
   "stages": {
     "agents": "success",
     "dataStories": "success",
@@ -13,23 +13,24 @@
     "curatedMerge": "success"
   },
   "metrics": {
-    "articlesCreated": 0,
+    "articlesCreated": 19,
     "articlesUpdated": 0,
-    "articlesRemoved": 0,
+    "articlesRemoved": 2,
     "articlesRejected": null,
-    "curatedArticles": 8,
+    "curatedArticles": 25,
+    "curatedFiles": 5,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-07-26T23:38:56.305Z",
+    "lastPublishedAt": "2026-07-27T12:08:00.000Z",
     "lastPublishedBySport": {
-      "futebol": "2026-07-26T23:38:56.305Z",
-      "futebol-americano": "2026-07-25T12:04:00.000Z",
-      "tenis": "2026-07-25T16:31:41.995Z",
-      "ciclismo": "2026-07-25T11:56:00.000Z",
-      "formula1": "2026-07-25T12:10:00.000Z",
-      "basquete": "2026-07-25T12:08:00.000Z",
-      "beisebol": "2026-07-25T11:58:00.000Z",
-      "golfe": "2026-07-25T12:00:00.000Z",
-      "surfe": "2026-07-23T13:20:00.000Z"
+      "futebol": "2026-07-27T11:59:00.000Z",
+      "futebol-americano": "2026-07-27T12:05:00.000Z",
+      "tenis": "2026-07-27T12:04:00.000Z",
+      "ciclismo": "2026-07-27T12:08:00.000Z",
+      "formula1": "2026-07-27T12:07:00.000Z",
+      "basquete": "2026-07-27T12:06:00.000Z",
+      "beisebol": "2026-07-27T12:03:00.000Z",
+      "golfe": "2026-07-27T12:02:00.000Z",
+      "surfe": "2026-07-27T12:00:00.000Z"
     },
     "sourceErrors": [],
     "freshnessSLA": {
@@ -37,49 +38,49 @@
       "criticalAfterHours": 24,
       "bySport": {
         "futebol": {
-          "status": "warning",
-          "ageHours": 17.5,
-          "lastPublishedAt": "2026-07-26T23:38:56.305Z"
+          "status": "ok",
+          "ageHours": 5.5,
+          "lastPublishedAt": "2026-07-27T11:59:00.000Z"
         },
         "futebol-americano": {
-          "status": "critical",
-          "ageHours": 53,
-          "lastPublishedAt": "2026-07-25T12:04:00.000Z"
+          "status": "ok",
+          "ageHours": 5.4,
+          "lastPublishedAt": "2026-07-27T12:05:00.000Z"
         },
         "tenis": {
-          "status": "critical",
-          "ageHours": 48.6,
-          "lastPublishedAt": "2026-07-25T16:31:41.995Z"
+          "status": "ok",
+          "ageHours": 5.4,
+          "lastPublishedAt": "2026-07-27T12:04:00.000Z"
         },
         "ciclismo": {
-          "status": "critical",
-          "ageHours": 53.2,
-          "lastPublishedAt": "2026-07-25T11:56:00.000Z"
+          "status": "ok",
+          "ageHours": 5.3,
+          "lastPublishedAt": "2026-07-27T12:08:00.000Z"
         },
         "formula1": {
-          "status": "critical",
-          "ageHours": 52.9,
-          "lastPublishedAt": "2026-07-25T12:10:00.000Z"
+          "status": "ok",
+          "ageHours": 5.3,
+          "lastPublishedAt": "2026-07-27T12:07:00.000Z"
         },
         "basquete": {
-          "status": "critical",
-          "ageHours": 53,
-          "lastPublishedAt": "2026-07-25T12:08:00.000Z"
+          "status": "ok",
+          "ageHours": 5.4,
+          "lastPublishedAt": "2026-07-27T12:06:00.000Z"
         },
         "beisebol": {
-          "status": "critical",
-          "ageHours": 53.1,
-          "lastPublishedAt": "2026-07-25T11:58:00.000Z"
+          "status": "ok",
+          "ageHours": 5.4,
+          "lastPublishedAt": "2026-07-27T12:03:00.000Z"
         },
         "golfe": {
-          "status": "critical",
-          "ageHours": 53.1,
-          "lastPublishedAt": "2026-07-25T12:00:00.000Z"
+          "status": "ok",
+          "ageHours": 5.4,
+          "lastPublishedAt": "2026-07-27T12:02:00.000Z"
         },
         "surfe": {
-          "status": "critical",
-          "ageHours": 99.8,
-          "lastPublishedAt": "2026-07-23T13:20:00.000Z"
+          "status": "ok",
+          "ageHours": 5.5,
+          "lastPublishedAt": "2026-07-27T12:00:00.000Z"
         }
       }
     }
@@ -87,6 +88,7 @@
   "metricNotes": {
     "articlesRejected": "Rejeições editoriais ainda não são persistidas pelos estágios; null evita reportar zero sem evidência.",
     "curatedArticles": "Matérias verificadas e preservadas fora da geração automática para não serem removidas nas rodadas do Newsroom.",
+    "curatedFiles": "Arquivos de curadoria diária incorporados ao arquivo público de notícias.",
     "editorialOverrides": "Revisões editoriais explícitas aplicadas sobre matérias já publicadas, inclusive para clareza de termos técnicos."
   }
 }
