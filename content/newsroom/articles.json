@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-60091c891fc9",
+    "slug": "miami-marlins-vence-philadelphia-phillies-por-8-a-7-na-temporada-regular-60091c",
+    "sportId": "beisebol",
+    "title": "Miami Marlins vence Philadelphia Phillies por 8 a 7 na temporada regular",
+    "summary": "Miami Marlins derrotou Philadelphia Phillies por 8 a 7 na temporada regular.",
+    "content": "Miami Marlins derrotou Philadelphia Phillies por 8 a 7 na temporada regular, em 27 de julho de 2026 no loanDepot park.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "temporada-regular"
+    ],
+    "seoTitle": "Miami Marlins vence Philadelphia Phillies por 8 a 7 na temporada",
+    "seoDescription": "Miami Marlins derrotou Philadelphia Phillies por 8 a 7 na temporada regular.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-07-28T04:24:45.987Z",
+    "createdAt": "2026-07-28T04:24:45.987Z",
+    "updatedAt": "2026-07-28T04:24:45.987Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "401816284",
+      "eventStartTime": "2026-07-27T22:40Z",
+      "retrievedAt": "2026-07-28T04:24:45.987Z",
+      "feedId": "beisebol",
+      "league": "regular-season"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "curated-tour-pogacar-20260727",
     "slug": "pogacar-pentacampeao-tour-de-france-2026-evenepoel-del-toro",
     "sportId": "ciclismo",
