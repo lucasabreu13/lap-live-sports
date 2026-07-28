@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-07-28T20:05:38.661Z",
-  "commit": "49b8f7f68d724a5e02dda311d67b1591f49970d5",
-  "runId": "30394800927",
+  "validatedAt": "2026-07-28T21:20:21.759Z",
+  "commit": "40b6db0399c09ad70c69a9b1d371795fef9d1b8f",
+  "runId": "30400235036",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -39,47 +39,47 @@
       "bySport": {
         "futebol": {
           "status": "critical",
-          "ageHours": 32.1,
+          "ageHours": 33.4,
           "lastPublishedAt": "2026-07-27T11:59:00.000Z"
         },
         "futebol-americano": {
           "status": "critical",
-          "ageHours": 32,
+          "ageHours": 33.3,
           "lastPublishedAt": "2026-07-27T12:05:00.000Z"
         },
         "tenis": {
           "status": "critical",
-          "ageHours": 32,
+          "ageHours": 33.3,
           "lastPublishedAt": "2026-07-27T12:04:00.000Z"
         },
         "ciclismo": {
           "status": "critical",
-          "ageHours": 32,
+          "ageHours": 33.2,
           "lastPublishedAt": "2026-07-27T12:08:00.000Z"
         },
         "formula1": {
           "status": "critical",
-          "ageHours": 32,
+          "ageHours": 33.2,
           "lastPublishedAt": "2026-07-27T12:07:00.000Z"
         },
         "basquete": {
           "status": "critical",
-          "ageHours": 32,
+          "ageHours": 33.2,
           "lastPublishedAt": "2026-07-27T12:06:00.000Z"
         },
         "beisebol": {
           "status": "warning",
-          "ageHours": 15.7,
+          "ageHours": 16.9,
           "lastPublishedAt": "2026-07-28T04:24:45.987Z"
         },
         "golfe": {
           "status": "critical",
-          "ageHours": 32.1,
+          "ageHours": 33.3,
           "lastPublishedAt": "2026-07-27T12:02:00.000Z"
         },
         "surfe": {
           "status": "critical",
-          "ageHours": 32.1,
+          "ageHours": 33.3,
           "lastPublishedAt": "2026-07-27T12:00:00.000Z"
         }
       }
