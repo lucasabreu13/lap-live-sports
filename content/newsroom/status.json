@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "warning",
-  "validatedAt": "2026-07-28T09:44:49.905Z",
-  "commit": "63f26ee364d45e638808fb9b59f1c2b8793f5a7c",
-  "runId": "30347867918",
+  "validatedAt": "2026-07-28T11:45:38.608Z",
+  "commit": "55a1a00ae733fa792c5feb6de43380cebd445020",
+  "runId": "30356064696",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -39,47 +39,47 @@
       "bySport": {
         "futebol": {
           "status": "warning",
-          "ageHours": 21.8,
+          "ageHours": 23.8,
           "lastPublishedAt": "2026-07-27T11:59:00.000Z"
         },
         "futebol-americano": {
           "status": "warning",
-          "ageHours": 21.7,
+          "ageHours": 23.7,
           "lastPublishedAt": "2026-07-27T12:05:00.000Z"
         },
         "tenis": {
           "status": "warning",
-          "ageHours": 21.7,
+          "ageHours": 23.7,
           "lastPublishedAt": "2026-07-27T12:04:00.000Z"
         },
         "ciclismo": {
           "status": "warning",
-          "ageHours": 21.6,
+          "ageHours": 23.6,
           "lastPublishedAt": "2026-07-27T12:08:00.000Z"
         },
         "formula1": {
           "status": "warning",
-          "ageHours": 21.6,
+          "ageHours": 23.6,
           "lastPublishedAt": "2026-07-27T12:07:00.000Z"
         },
         "basquete": {
           "status": "warning",
-          "ageHours": 21.6,
+          "ageHours": 23.7,
           "lastPublishedAt": "2026-07-27T12:06:00.000Z"
         },
         "beisebol": {
           "status": "ok",
-          "ageHours": 5.3,
+          "ageHours": 7.3,
           "lastPublishedAt": "2026-07-28T04:24:45.987Z"
         },
         "golfe": {
           "status": "warning",
-          "ageHours": 21.7,
+          "ageHours": 23.7,
           "lastPublishedAt": "2026-07-27T12:02:00.000Z"
         },
         "surfe": {
           "status": "warning",
-          "ageHours": 21.7,
+          "ageHours": 23.8,
           "lastPublishedAt": "2026-07-27T12:00:00.000Z"
         }
       }
