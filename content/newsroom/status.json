@@ -1,9 +1,9 @@
 {
   "status": "ok",
-  "coverageStatus": "ok",
-  "validatedAt": "2026-07-27T23:42:06.767Z",
-  "commit": "452384c913cc98edf521b42eefafd9e7670bc57a",
-  "runId": "30314959906",
+  "coverageStatus": "warning",
+  "validatedAt": "2026-07-28T01:02:14.304Z",
+  "commit": "42684cffaea6363d41270d831b8624af4d59bd25",
+  "runId": "30319072602",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -38,48 +38,48 @@
       "criticalAfterHours": 24,
       "bySport": {
         "futebol": {
-          "status": "ok",
-          "ageHours": 11.7,
+          "status": "warning",
+          "ageHours": 13.1,
           "lastPublishedAt": "2026-07-27T11:59:00.000Z"
         },
         "futebol-americano": {
-          "status": "ok",
-          "ageHours": 11.6,
+          "status": "warning",
+          "ageHours": 13,
           "lastPublishedAt": "2026-07-27T12:05:00.000Z"
         },
         "tenis": {
-          "status": "ok",
-          "ageHours": 11.6,
+          "status": "warning",
+          "ageHours": 13,
           "lastPublishedAt": "2026-07-27T12:04:00.000Z"
         },
         "ciclismo": {
-          "status": "ok",
-          "ageHours": 11.6,
+          "status": "warning",
+          "ageHours": 12.9,
           "lastPublishedAt": "2026-07-27T12:08:00.000Z"
         },
         "formula1": {
-          "status": "ok",
-          "ageHours": 11.6,
+          "status": "warning",
+          "ageHours": 12.9,
           "lastPublishedAt": "2026-07-27T12:07:00.000Z"
         },
         "basquete": {
-          "status": "ok",
-          "ageHours": 11.6,
+          "status": "warning",
+          "ageHours": 12.9,
           "lastPublishedAt": "2026-07-27T12:06:00.000Z"
         },
         "beisebol": {
-          "status": "ok",
-          "ageHours": 11.7,
+          "status": "warning",
+          "ageHours": 13,
           "lastPublishedAt": "2026-07-27T12:03:00.000Z"
         },
         "golfe": {
-          "status": "ok",
-          "ageHours": 11.7,
+          "status": "warning",
+          "ageHours": 13,
           "lastPublishedAt": "2026-07-27T12:02:00.000Z"
         },
         "surfe": {
-          "status": "ok",
-          "ageHours": 11.7,
+          "status": "warning",
+          "ageHours": 13,
           "lastPublishedAt": "2026-07-27T12:00:00.000Z"
         }
       }
