@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-07-29T21:45:59.721Z",
-  "commit": "2565c2d47398e5efd3463188f4509cb772319597",
-  "runId": "30493596787",
+  "validatedAt": "2026-07-29T22:47:27.837Z",
+  "commit": "b0f260e972af0644643e6b244da32306a4e5ab48",
+  "runId": "30497343227",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -39,47 +39,47 @@
       "bySport": {
         "futebol": {
           "status": "ok",
-          "ageHours": 5.6,
+          "ageHours": 6.7,
           "lastPublishedAt": "2026-07-29T16:08:03.947Z"
         },
         "futebol-americano": {
           "status": "critical",
-          "ageHours": 57.7,
+          "ageHours": 58.7,
           "lastPublishedAt": "2026-07-27T12:05:00.000Z"
         },
         "tenis": {
           "status": "critical",
-          "ageHours": 57.7,
+          "ageHours": 58.7,
           "lastPublishedAt": "2026-07-27T12:04:00.000Z"
         },
         "ciclismo": {
           "status": "critical",
-          "ageHours": 57.6,
+          "ageHours": 58.7,
           "lastPublishedAt": "2026-07-27T12:08:00.000Z"
         },
         "formula1": {
           "status": "critical",
-          "ageHours": 57.6,
+          "ageHours": 58.7,
           "lastPublishedAt": "2026-07-27T12:07:00.000Z"
         },
         "basquete": {
           "status": "critical",
-          "ageHours": 57.7,
+          "ageHours": 58.7,
           "lastPublishedAt": "2026-07-27T12:06:00.000Z"
         },
         "beisebol": {
           "status": "critical",
-          "ageHours": 41.4,
+          "ageHours": 42.4,
           "lastPublishedAt": "2026-07-28T04:24:45.987Z"
         },
         "golfe": {
           "status": "critical",
-          "ageHours": 57.7,
+          "ageHours": 58.8,
           "lastPublishedAt": "2026-07-27T12:02:00.000Z"
         },
         "surfe": {
           "status": "critical",
-          "ageHours": 57.8,
+          "ageHours": 58.8,
           "lastPublishedAt": "2026-07-27T12:00:00.000Z"
         }
       }
