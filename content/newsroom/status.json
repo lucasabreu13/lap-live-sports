@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-08-01T21:33:39.291Z",
-  "commit": "1b1ea0b4aa49f3cc9a91b6d4a5d1a85bb4bd9228",
-  "runId": "30719384337",
+  "validatedAt": "2026-08-01T22:35:19.873Z",
+  "commit": "a95b32cd755ae44ecf6c9477f1a93e495e6b346f",
+  "runId": "30721580340",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -39,47 +39,47 @@
       "bySport": {
         "futebol": {
           "status": "warning",
-          "ageHours": 17,
+          "ageHours": 18,
           "lastPublishedAt": "2026-08-01T04:33:17.418Z"
         },
         "futebol-americano": {
           "status": "critical",
-          "ageHours": 129.5,
+          "ageHours": 130.5,
           "lastPublishedAt": "2026-07-27T12:05:00.000Z"
         },
         "tenis": {
           "status": "ok",
-          "ageHours": 3.9,
+          "ageHours": 4.9,
           "lastPublishedAt": "2026-08-01T17:40:06.729Z"
         },
         "ciclismo": {
           "status": "critical",
-          "ageHours": 129.4,
+          "ageHours": 130.5,
           "lastPublishedAt": "2026-07-27T12:08:00.000Z"
         },
         "formula1": {
           "status": "critical",
-          "ageHours": 129.4,
+          "ageHours": 130.5,
           "lastPublishedAt": "2026-07-27T12:07:00.000Z"
         },
         "basquete": {
           "status": "critical",
-          "ageHours": 129.5,
+          "ageHours": 130.5,
           "lastPublishedAt": "2026-07-27T12:06:00.000Z"
         },
         "beisebol": {
           "status": "critical",
-          "ageHours": 113.1,
+          "ageHours": 114.2,
           "lastPublishedAt": "2026-07-28T04:24:45.987Z"
         },
         "golfe": {
           "status": "critical",
-          "ageHours": 129.5,
+          "ageHours": 130.6,
           "lastPublishedAt": "2026-07-27T12:02:00.000Z"
         },
         "surfe": {
           "status": "critical",
-          "ageHours": 129.6,
+          "ageHours": 130.6,
           "lastPublishedAt": "2026-07-27T12:00:00.000Z"
         }
       }
