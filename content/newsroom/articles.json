@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-82718ce184af",
+    "slug": "national-bank-open-presented-by-rogers-e-tenis-empatam-por-0-a-0-em-tenis-82718c",
+    "sportId": "tenis",
+    "title": "National Bank Open presented by Rogers e Tênis empatam por 0 a 0 em Tênis",
+    "summary": "National Bank Open presented by Rogers e Tênis terminaram empatados por 0 a 0 em Tênis.",
+    "content": "National Bank Open presented by Rogers e Tênis terminaram empatados por 0 a 0 em Tênis., em 01 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "tenis"
+    ],
+    "seoTitle": "National Bank Open presented by Rogers e Tênis empatam por 0 a 0 em",
+    "seoDescription": "National Bank Open presented by Rogers e Tênis terminaram empatados por 0 a 0 em Tênis.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-01T17:40:06.729Z",
+    "createdAt": "2026-08-01T17:40:06.729Z",
+    "updatedAt": "2026-08-01T17:40:06.729Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "421-2026",
+      "eventStartTime": "2026-08-01T04:00Z",
+      "retrievedAt": "2026-08-01T17:40:06.729Z",
+      "feedId": "tenis",
+      "league": "Tênis"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7069dedfe159",
     "slug": "new-york-city-fc-e-toronto-fc-ficam-no-1-a-1-pelo-mls-7069de",
     "sportId": "futebol",
