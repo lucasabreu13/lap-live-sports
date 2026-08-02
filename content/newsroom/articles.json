@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-dfe21c254c75",
+    "slug": "houston-dynamo-fc-supera-sporting-kansas-city-por-2-a-0-pelo-mls-dfe21c",
+    "sportId": "futebol",
+    "title": "Houston Dynamo FC supera Sporting Kansas City por 2 a 0 pela MLS",
+    "summary": "Houston Dynamo FC venceu Sporting Kansas City por 2 a 0 pela MLS.",
+    "content": "Houston Dynamo FC venceu Sporting Kansas City por 2 a 0 pela MLS, em 01 de agosto de 2026 no Children's Mercy Park.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "Houston Dynamo FC supera Sporting Kansas City por 2 a 0 pela MLS",
+    "seoDescription": "Houston Dynamo FC venceu Sporting Kansas City por 2 a 0 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-02T14:45:16.505Z",
+    "createdAt": "2026-08-02T14:45:16.505Z",
+    "updatedAt": "2026-08-02T14:45:16.505Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "761706",
+      "eventStartTime": "2026-08-02T00:30Z",
+      "retrievedAt": "2026-08-02T14:45:16.505Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-90769997d3c6",
     "slug": "minnesota-united-fc-e-san-diego-fc-ficam-no-1-a-1-pelo-mls-907699",
     "sportId": "futebol",
