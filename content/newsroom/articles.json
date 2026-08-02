@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-38403707123c",
+    "slug": "vancouver-whitecaps-e-lafc-ficam-no-1-a-1-pelo-mls-384037",
+    "sportId": "futebol",
+    "title": "Vancouver Whitecaps e LAFC ficam no 1 a 1 pela MLS",
+    "summary": "Vancouver Whitecaps e LAFC empataram por 1 a 1 pela MLS.",
+    "content": "Vancouver Whitecaps e LAFC empataram por 1 a 1 pela MLS, em 01 de agosto de 2026 no BC Place. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "Vancouver Whitecaps e LAFC ficam no 1 a 1 pela MLS",
+    "seoDescription": "Vancouver Whitecaps e LAFC empataram por 1 a 1 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-02T21:35:50.340Z",
+    "createdAt": "2026-08-02T21:35:50.340Z",
+    "updatedAt": "2026-08-02T21:35:50.340Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "761698",
+      "eventStartTime": "2026-08-01T23:30Z",
+      "retrievedAt": "2026-08-02T21:35:50.340Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-57075af8d459",
     "slug": "red-bull-new-york-supera-orlando-city-sc-por-3-a-2-pelo-mls-57075a",
     "sportId": "futebol",
