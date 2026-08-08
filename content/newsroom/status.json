@@ -1,9 +1,9 @@
 {
   "status": "degraded",
   "coverageStatus": "critical",
-  "validatedAt": "2026-08-08T19:14:53.968Z",
-  "commit": "2c23b2dd07105fe71318471ad848878b103885e2",
-  "runId": "31273942036",
+  "validatedAt": "2026-08-08T19:45:10.940Z",
+  "commit": "dac39f8e5e7ca2652822731382f9162cb9cc6df9",
+  "runId": "31275194096",
   "event": "schedule",
   "stages": {
     "agents": "failure",
@@ -44,47 +44,47 @@
       "bySport": {
         "futebol": {
           "status": "critical",
-          "ageHours": 141.7,
+          "ageHours": 142.2,
           "lastPublishedAt": "2026-08-02T21:35:50.340Z"
         },
         "futebol-americano": {
           "status": "critical",
-          "ageHours": 295.2,
+          "ageHours": 295.7,
           "lastPublishedAt": "2026-07-27T12:05:00.000Z"
         },
         "tenis": {
           "status": "critical",
-          "ageHours": 169.6,
+          "ageHours": 170.1,
           "lastPublishedAt": "2026-08-01T17:40:06.729Z"
         },
         "ciclismo": {
           "status": "critical",
-          "ageHours": 295.1,
+          "ageHours": 295.6,
           "lastPublishedAt": "2026-07-27T12:08:00.000Z"
         },
         "formula1": {
           "status": "critical",
-          "ageHours": 295.1,
+          "ageHours": 295.6,
           "lastPublishedAt": "2026-07-27T12:07:00.000Z"
         },
         "basquete": {
           "status": "critical",
-          "ageHours": 295.1,
+          "ageHours": 295.7,
           "lastPublishedAt": "2026-07-27T12:06:00.000Z"
         },
         "beisebol": {
           "status": "critical",
-          "ageHours": 278.8,
+          "ageHours": 279.3,
           "lastPublishedAt": "2026-07-28T04:24:45.987Z"
         },
         "golfe": {
           "status": "critical",
-          "ageHours": 295.2,
+          "ageHours": 295.7,
           "lastPublishedAt": "2026-07-27T12:02:00.000Z"
         },
         "surfe": {
           "status": "critical",
-          "ageHours": 295.2,
+          "ageHours": 295.8,
           "lastPublishedAt": "2026-07-27T12:00:00.000Z"
         }
       }
