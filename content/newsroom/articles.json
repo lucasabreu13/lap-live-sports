@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-40dec77affeb",
+    "slug": "hiroshima-toyo-carp-vence-yakult-swallows-por-0-a-0-na-npb-40dec7",
+    "sportId": "beisebol",
+    "title": "Hiroshima Toyo Carp vence Yakult Swallows por 0 a 0 na NPB",
+    "summary": "Hiroshima Toyo Carp derrotou Yakult Swallows por 0 a 0 na NPB.",
+    "content": "Hiroshima Toyo Carp derrotou Yakult Swallows por 0 a 0 na NPB, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Hiroshima Toyo Carp vence Yakult Swallows por 0 a 0 na NPB",
+    "seoDescription": "Hiroshima Toyo Carp derrotou Yakult Swallows por 0 a 0 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T20:23:27.936Z",
+    "createdAt": "2026-08-11T20:23:27.936Z",
+    "updatedAt": "2026-08-11T20:23:27.936Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4627268",
+      "eventStartTime": "2026-08-11T09:00:00+00:00",
+      "retrievedAt": "2026-08-11T20:23:27.936Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e52fdb3ad5ce",
+    "slug": "mary-stoiana-vence-veronika-erjavec-por-1-a-0-em-cincinnati-e52fdb",
+    "sportId": "tenis",
+    "title": "Mary Stoiana vence Veronika Erjavec por 1 a 0 em Cincinnati",
+    "summary": "Mary Stoiana superou Veronika Erjavec por 1 a 0 em Cincinnati.",
+    "content": "Mary Stoiana superou Veronika Erjavec por 1 a 0 em Cincinnati., em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Mary Stoiana vence Veronika Erjavec por 1 a 0 em Cincinnati",
+    "seoDescription": "Mary Stoiana superou Veronika Erjavec por 1 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T20:23:27.933Z",
+    "createdAt": "2026-08-11T20:23:27.933Z",
+    "updatedAt": "2026-08-11T20:23:27.933Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808296",
+      "eventStartTime": "2026-08-11T18:38:42+00:00",
+      "retrievedAt": "2026-08-11T20:23:27.933Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-6819d5280f3a",
+    "slug": "atlanta-dream-vence-toronto-tempo-por-107-a-95-em-wnba-6819d5",
+    "sportId": "basquete",
+    "title": "Atlanta Dream vence Toronto Tempo por 107 a 95 em WNBA",
+    "summary": "Atlanta Dream superou Toronto Tempo por 107 a 95 em WNBA.",
+    "content": "Atlanta Dream superou Toronto Tempo por 107 a 95 em WNBA., em 10 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Atlanta Dream vence Toronto Tempo por 107 a 95 em WNBA",
+    "seoDescription": "Atlanta Dream superou Toronto Tempo por 107 a 95 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T20:23:27.930Z",
+    "createdAt": "2026-08-11T20:23:27.930Z",
+    "updatedAt": "2026-08-11T20:23:27.930Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659866",
+      "eventStartTime": "2026-08-11T00:00:00+00:00",
+      "retrievedAt": "2026-08-11T20:23:27.930Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ed43dfdc8369",
+    "slug": "bucaramanga-w-e-once-caldas-w-ficam-no-0-a-0-pelo-colombian-women-s-league-ed43df",
+    "sportId": "futebol",
+    "title": "Bucaramanga (W) e Once Caldas (W) ficam no 0 a 0 pelo Colombian Women's League",
+    "summary": "Bucaramanga (W) e Once Caldas (W) empataram por 0 a 0 pelo Colombian Women's League.",
+    "content": "Bucaramanga (W) e Once Caldas (W) empataram por 0 a 0 pelo Colombian Women's League, em 11 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "colombian-women-s-league"
+    ],
+    "seoTitle": "Bucaramanga (W) e Once Caldas (W) ficam no 0 a 0 pelo Colombian",
+    "seoDescription": "Bucaramanga (W) e Once Caldas (W) empataram por 0 a 0 pelo Colombian Women's League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T20:23:27.921Z",
+    "createdAt": "2026-08-11T20:23:27.921Z",
+    "updatedAt": "2026-08-11T20:23:27.921Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807653",
+      "eventStartTime": "2026-08-11T20:00:00+00:00",
+      "retrievedAt": "2026-08-11T20:23:27.921Z",
+      "feedId": "futebol",
+      "league": "Colombian Women's League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-44eb00b491d1",
     "slug": "orix-buffaloes-vence-rakuten-gold-eagles-por-9-a-1-na-npb-44eb00",
     "sportId": "beisebol",
