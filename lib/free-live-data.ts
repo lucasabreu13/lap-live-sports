@@ -1,6 +1,7 @@
 import { applyLivePayloadPatch, getLivePayload, ingestLiveWebhook, type LivePayload, type LiveWebhookPatch, type SportFeed } from "@/lib/live-data";
 import { readLiveCache, writeLiveCache, type LiveCacheRecord } from "@/lib/live-cache-store";
 import { applyLapOnlyNews } from "@/lib/lap-news-mode";
+import { apply365ScoresOverlay, removeRetiredContent } from "@/lib/365scores-overlay";
 
 const LIVE_PAYLOAD_CACHE_KEY = "lap-live-payload-v1";
 const PERSISTED_FRESH_TTL_MS = 90_000;
@@ -109,23 +110,29 @@ function mergeWithPersisted(fresh: LivePayload, persisted: LivePayload) {
 }
 
 async function toPresentationPayload(payload: LivePayload) {
-  return applyLapOnlyNews(payload).catch(() => ({
-    ...payload,
-    editorial: payload.editorial.filter((item) => item.kind === "editorial"),
-    feeds: payload.feeds.map((feed) => ({ ...feed, news: [] })),
-  }));
+  try {
+    return removeRetiredContent(await applyLapOnlyNews(payload));
+  } catch {
+    return removeRetiredContent({
+      ...payload,
+      editorial: payload.editorial.filter((item) => item.kind === "editorial"),
+      feeds: payload.feeds.map((feed) => ({ ...feed, news: [] })),
+    });
+  }
 }
 
 async function refreshFromSources(persisted: LiveCacheRecord<LivePayload> | null) {
-  const fresh = await getLivePayload();
+  const sourcePayload = await getLivePayload();
+  const fresh = await apply365ScoresOverlay(sourcePayload).catch(() => removeRetiredContent(sourcePayload));
   const persistedAge = persisted ? cacheAgeMs(persisted.cachedAt) : Number.POSITIVE_INFINITY;
   const canUsePersisted = Boolean(persisted && persistedAge <= PERSISTED_STALE_TTL_MS);
-  const merged = canUsePersisted && persisted ? mergeWithPersisted(fresh, persisted.payload) : { payload: fresh, usedPersisted: false };
+  const cleanedPersisted = persisted ? { ...persisted, payload: removeRetiredContent(persisted.payload) } : null;
+  const merged = canUsePersisted && cleanedPersisted ? mergeWithPersisted(fresh, cleanedPersisted.payload) : { payload: fresh, usedPersisted: false };
 
   if (!merged.usedPersisted) {
     // O registro precisa sobreviver por toda a janela de fallback. A idade em cached_at
     // decide se ele está fresco; expires_at serve apenas para limpeza do snapshot antigo.
-    await writeLiveCache(LIVE_PAYLOAD_CACHE_KEY, fresh, PERSISTED_STALE_TTL_MS, "live").catch(() => false);
+    await writeLiveCache(LIVE_PAYLOAD_CACHE_KEY, fresh, PERSISTED_STALE_TTL_MS, "live+365scores").catch(() => false);
   }
 
   const presentationPayload = await toPresentationPayload(merged.payload);
@@ -146,7 +153,7 @@ export async function getCachedLivePayload(options?: { forceRefresh?: boolean; p
   }
 
   if (!options?.forceRefresh && options?.preferCached && persisted && persistedAge <= PERSISTED_STALE_TTL_MS) {
-    const stale = await toPresentationPayload(markPayloadAsStale(persisted.payload));
+    const stale = await toPresentationPayload(markPayloadAsStale(removeRetiredContent(persisted.payload)));
     memoryCache = { payload: stale, expiresAt: Date.now() + MEMORY_TTL_MS };
     return stale;
   }
@@ -155,7 +162,7 @@ export async function getCachedLivePayload(options?: { forceRefresh?: boolean; p
     return await refreshFromSources(persisted);
   } catch (error) {
     if (persisted && persistedAge <= PERSISTED_STALE_TTL_MS) {
-      const stale = await toPresentationPayload(markPayloadAsStale(persisted.payload));
+      const stale = await toPresentationPayload(markPayloadAsStale(removeRetiredContent(persisted.payload)));
       memoryCache = { payload: stale, expiresAt: Date.now() + MEMORY_TTL_MS };
       return stale;
     }
@@ -198,8 +205,9 @@ export async function ingestCachedLiveWebhook(patch: LiveWebhookPatch) {
   const accepted = ingestLiveWebhook(patch);
 
   if (patched.score) {
-    memoryCache = { payload: patched.payload, expiresAt: Date.now() + MEMORY_TTL_MS };
-    await writeLiveCache(LIVE_PAYLOAD_CACHE_KEY, patched.payload, PERSISTED_STALE_TTL_MS, "live-webhook").catch(() => false);
+    const cleaned = removeRetiredContent(patched.payload);
+    memoryCache = { payload: cleaned, expiresAt: Date.now() + MEMORY_TTL_MS };
+    await writeLiveCache(LIVE_PAYLOAD_CACHE_KEY, cleaned, PERSISTED_STALE_TTL_MS, "live-webhook").catch(() => false);
   }
 
   return { ...accepted, ...patched };

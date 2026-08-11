@@ -48,14 +48,26 @@ function Visual({ item, eager = false }: { item: NewsItem; eager?: boolean }) {
   return <img src={newsImage(item)} alt={newsAlt(item)} loading={eager ? "eager" : "lazy"} />;
 }
 
+function MetaLine({ item, light = false }: { item: NewsItem; light?: boolean }) {
+  return (
+    <div className={`${styles.metaLine} ${light ? styles.metaLineLight : ""}`}>
+      <span className={styles.sportPill}>{sportName(item.sportId as SportId)}</span>
+      <span>{item.source || "LAP"}</span>
+      <span aria-hidden>•</span>
+      <span>{relativeTime(item.publishedAt)}</span>
+    </div>
+  );
+}
+
 function CategoryTile({ item }: { item: NewsItem }) {
   return (
     <Link href={item.internalUrl} className={styles.categoryTile}>
       <Visual item={item} />
       <div>
-        <p>{sportName(item.sportId as SportId)} · {relativeTime(item.publishedAt)}</p>
+        <MetaLine item={item} light />
         <h3>{item.title}</h3>
-        <span>Ler matéria</span>
+        {item.excerpt ? <p className={styles.categoryExcerpt}>{item.excerpt}</p> : null}
+        <span className={styles.storyAction}>Ler matéria <b aria-hidden>→</b></span>
       </div>
     </Link>
   );
@@ -64,8 +76,16 @@ function CategoryTile({ item }: { item: NewsItem }) {
 function RailCard({ item }: { item: NewsItem }) {
   return (
     <Link href={item.internalUrl} className={styles.railCard}>
-      <div className={styles.railVisual}><Visual item={item} /></div>
-      <div className={styles.railCopy}><p>{sportName(item.sportId as SportId)} · {relativeTime(item.publishedAt)}</p><h3>{item.title}</h3></div>
+      <div className={styles.railVisual}>
+        <Visual item={item} />
+        <span className={styles.visualBadge}>{sportName(item.sportId as SportId)}</span>
+      </div>
+      <div className={styles.railCopy}>
+        <div className={styles.railMeta}><span>{item.source || "LAP"}</span><span>{relativeTime(item.publishedAt)}</span></div>
+        <h3>{item.title}</h3>
+        {item.excerpt ? <p className={styles.railExcerpt}>{item.excerpt}</p> : null}
+        <span className={styles.railAction}>Ler agora <b aria-hidden>→</b></span>
+      </div>
     </Link>
   );
 }
@@ -118,24 +138,24 @@ export function EditorialHome({ initialPayload = null }: { initialPayload?: Live
   const used = new Set([lead, ...categoryStories].filter(Boolean).map((item) => item!.slug || item!.id));
   const latest = allNews.filter((item) => !used.has(item.slug || item.id)).slice(0, 12);
 
-  return <main id="main-content" tabIndex={-1} data-lap-shell="editorial-v5">
+  return <main id="main-content" tabIndex={-1} data-lap-shell="editorial-v6">
     <LapHeader activeSport="todos" />
 
     {lead ? <section className={styles.hero} aria-label="Principal notícia">
       <Visual item={lead} eager />
       <div className={styles.heroShade} />
       <div className={styles.heroCopy}>
-        <p>{sportName(lead.sportId as SportId)} · {relativeTime(lead.publishedAt)}</p>
+        <MetaLine item={lead} light />
         <h1>{lead.title}</h1>
         {lead.excerpt ? <span>{lead.excerpt}</span> : null}
-        <Link href={lead.internalUrl}>Ler matéria</Link>
+        <Link href={lead.internalUrl}>Ler matéria <b aria-hidden>→</b></Link>
       </div>
     </section> : failed ? <section className={styles.notice}>A atualização editorial está temporariamente indisponível.</section> : <section className={styles.heroSkeleton} />}
 
     {categoryStories.length ? <section className={styles.categoryGrid} aria-label="Destaques editoriais">{categoryStories.map((item) => <CategoryTile key={item.id} item={item} />)}</section> : null}
 
     {latest.length ? <section className={styles.railSection}>
-      <div className={styles.sectionBar}><div><p>Novidades</p><h2>O que está movimentando o esporte</h2></div><Link href="/agenda">Ver agenda</Link></div>
+      <div className={styles.sectionBar}><div><p>Últimas notícias</p><h2>O que vale acompanhar agora</h2><span className={styles.sectionIntro}>Atualizações recentes com contexto, imagem e leitura rápida.</span></div><Link href="/agenda">Ver agenda</Link></div>
       <div className={styles.rail}>{latest.map((item) => <RailCard key={item.id} item={item} />)}</div>
     </section> : null}
 
