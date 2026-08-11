@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-56bc80822ee8",
+    "slug": "lg-twins-vence-kiwoom-heroes-por-8-a-3-na-kbo-56bc80",
+    "sportId": "beisebol",
+    "title": "LG Twins vence Kiwoom Heroes por 8 a 3 na KBO",
+    "summary": "LG Twins derrotou Kiwoom Heroes por 8 a 3 na KBO.",
+    "content": "LG Twins derrotou Kiwoom Heroes por 8 a 3 na KBO, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "kbo"
+    ],
+    "seoTitle": "LG Twins vence Kiwoom Heroes por 8 a 3 na KBO",
+    "seoDescription": "LG Twins derrotou Kiwoom Heroes por 8 a 3 na KBO.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T14:41:49.909Z",
+    "createdAt": "2026-08-11T14:41:49.909Z",
+    "updatedAt": "2026-08-11T14:41:49.909Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808380",
+      "eventStartTime": "2026-08-11T10:00:00+00:00",
+      "retrievedAt": "2026-08-11T14:41:49.909Z",
+      "feedId": "beisebol",
+      "league": "KBO"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ca9999c126c7",
+    "slug": "nikolas-sanchez-izquierdo-vence-gabriele-piraino-por-2-a-0-em-todi-ca9999",
+    "sportId": "tenis",
+    "title": "Nikolas Sanchez-Izquierdo vence Gabriele Piraino por 2 a 0 em Todi",
+    "summary": "Nikolas Sanchez-Izquierdo superou Gabriele Piraino por 2 a 0 em Todi.",
+    "content": "Nikolas Sanchez-Izquierdo superou Gabriele Piraino por 2 a 0 em Todi., em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "todi"
+    ],
+    "seoTitle": "Nikolas Sanchez-Izquierdo vence Gabriele Piraino por 2 a 0 em Todi",
+    "seoDescription": "Nikolas Sanchez-Izquierdo superou Gabriele Piraino por 2 a 0 em Todi.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T14:41:49.908Z",
+    "createdAt": "2026-08-11T14:41:49.908Z",
+    "updatedAt": "2026-08-11T14:41:49.908Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807283",
+      "eventStartTime": "2026-08-11T13:15:05+00:00",
+      "retrievedAt": "2026-08-11T14:41:49.908Z",
+      "feedId": "tenis",
+      "league": "Todi"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7d48fc41248a",
+    "slug": "fuerza-regia-vence-diablos-rojos-del-mexico-por-95-a-94-em-lnbp-7d48fc",
+    "sportId": "basquete",
+    "title": "Fuerza Regia vence Diablos Rojos del Mexico por 95 a 94 em LNBP",
+    "summary": "Fuerza Regia superou Diablos Rojos del Mexico por 95 a 94 em LNBP.",
+    "content": "Fuerza Regia superou Diablos Rojos del Mexico por 95 a 94 em LNBP., em 10 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Fuerza Regia vence Diablos Rojos del Mexico por 95 a 94 em LNBP",
+    "seoDescription": "Fuerza Regia superou Diablos Rojos del Mexico por 95 a 94 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T14:41:49.904Z",
+    "createdAt": "2026-08-11T14:41:49.904Z",
+    "updatedAt": "2026-08-11T14:41:49.904Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707857",
+      "eventStartTime": "2026-08-11T02:15:00+00:00",
+      "retrievedAt": "2026-08-11T14:41:49.904Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9cf0b0285182",
+    "slug": "al-orouba-fc-e-salam-ficam-no-0-a-0-pelo-yemeni-league-9cf0b0",
+    "sportId": "futebol",
+    "title": "Al Orouba FC e Salam ficam no 0 a 0 pelo Yemeni League",
+    "summary": "Al Orouba FC e Salam empataram por 0 a 0 pelo Yemeni League.",
+    "content": "Al Orouba FC e Salam empataram por 0 a 0 pelo Yemeni League, em 11 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "yemeni-league"
+    ],
+    "seoTitle": "Al Orouba FC e Salam ficam no 0 a 0 pelo Yemeni League",
+    "seoDescription": "Al Orouba FC e Salam empataram por 0 a 0 pelo Yemeni League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T14:41:49.897Z",
+    "createdAt": "2026-08-11T14:41:49.897Z",
+    "updatedAt": "2026-08-11T14:41:49.897Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4742986",
+      "eventStartTime": "2026-08-11T13:00:00+00:00",
+      "retrievedAt": "2026-08-11T14:41:49.897Z",
+      "feedId": "futebol",
+      "league": "Yemeni League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-38403707123c",
     "slug": "vancouver-whitecaps-e-lafc-ficam-no-1-a-1-pelo-mls-384037",
     "sportId": "futebol",
