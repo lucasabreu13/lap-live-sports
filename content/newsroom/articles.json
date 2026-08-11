@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-f4b60244e1b9",
+    "slug": "seibu-lions-vence-nippon-ham-fighters-por-1-a-0-na-npb-f4b602",
+    "sportId": "beisebol",
+    "title": "Seibu Lions vence Nippon Ham Fighters por 1 a 0 na NPB",
+    "summary": "Seibu Lions derrotou Nippon Ham Fighters por 1 a 0 na NPB.",
+    "content": "Seibu Lions derrotou Nippon Ham Fighters por 1 a 0 na NPB, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Seibu Lions vence Nippon Ham Fighters por 1 a 0 na NPB",
+    "seoDescription": "Seibu Lions derrotou Nippon Ham Fighters por 1 a 0 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T23:41:39.370Z",
+    "createdAt": "2026-08-11T23:41:39.370Z",
+    "updatedAt": "2026-08-11T23:41:39.370Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626837",
+      "eventStartTime": "2026-08-11T05:00:00+00:00",
+      "retrievedAt": "2026-08-11T23:41:39.370Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5950b13e6da1",
+    "slug": "ben-shelton-vence-jakub-mensik-por-2-a-0-em-montreal-5950b1",
+    "sportId": "tenis",
+    "title": "Ben Shelton vence Jakub Mensik por 2 a 0 em Montreal",
+    "summary": "Ben Shelton superou Jakub Mensik por 2 a 0 em Montreal.",
+    "content": "Ben Shelton superou Jakub Mensik por 2 a 0 em Montreal., em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "montreal"
+    ],
+    "seoTitle": "Ben Shelton vence Jakub Mensik por 2 a 0 em Montreal",
+    "seoDescription": "Ben Shelton superou Jakub Mensik por 2 a 0 em Montreal.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T23:41:39.365Z",
+    "createdAt": "2026-08-11T23:41:39.365Z",
+    "updatedAt": "2026-08-11T23:41:39.365Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807732",
+      "eventStartTime": "2026-08-11T22:10:26+00:00",
+      "retrievedAt": "2026-08-11T23:41:39.365Z",
+      "feedId": "tenis",
+      "league": "Montreal"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7cfb29ea48af",
+    "slug": "colon-fc-vence-club-deportivo-albatros-por-74-a-73-em-liga-de-ascenso-7cfb29",
+    "sportId": "basquete",
+    "title": "Colon FC vence Club Deportivo Albatros por 74 a 73 em Liga de ascenso",
+    "summary": "Colon FC superou Club Deportivo Albatros por 74 a 73 em Liga de ascenso.",
+    "content": "Colon FC superou Club Deportivo Albatros por 74 a 73 em Liga de ascenso., em 10 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Colon FC vence Club Deportivo Albatros por 74 a 73 em Liga de ascenso",
+    "seoDescription": "Colon FC superou Club Deportivo Albatros por 74 a 73 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T23:41:39.363Z",
+    "createdAt": "2026-08-11T23:41:39.363Z",
+    "updatedAt": "2026-08-11T23:41:39.363Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4806500",
+      "eventStartTime": "2026-08-10T23:15:00+00:00",
+      "retrievedAt": "2026-08-11T23:41:39.363Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1bc080dcb5d9",
+    "slug": "patriotas-e-orsomarso-ficam-no-0-a-0-pelo-primera-b-1bc080",
+    "sportId": "futebol",
+    "title": "Patriotas e Orsomarso ficam no 0 a 0 pelo Primera B",
+    "summary": "Patriotas e Orsomarso empataram por 0 a 0 pelo Primera B.",
+    "content": "Patriotas e Orsomarso empataram por 0 a 0 pelo Primera B, em 11 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-b"
+    ],
+    "seoTitle": "Patriotas e Orsomarso ficam no 0 a 0 pelo Primera B",
+    "seoDescription": "Patriotas e Orsomarso empataram por 0 a 0 pelo Primera B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T23:41:39.353Z",
+    "createdAt": "2026-08-11T23:41:39.353Z",
+    "updatedAt": "2026-08-11T23:41:39.353Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4732184",
+      "eventStartTime": "2026-08-11T23:00:00+00:00",
+      "retrievedAt": "2026-08-11T23:41:39.353Z",
+      "feedId": "futebol",
+      "league": "Primera B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ab7b6311e818",
     "slug": "hanshin-tigers-vence-yomiuri-giants-por-9-a-1-na-npb-ab7b63",
     "sportId": "beisebol",
