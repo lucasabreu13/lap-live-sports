@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-bf578a55f8bf",
+    "slug": "ssg-landers-vence-lotte-giants-por-8-a-4-na-kbo-bf578a",
+    "sportId": "beisebol",
+    "title": "SSG Landers vence Lotte Giants por 8 a 4 na KBO",
+    "summary": "SSG Landers derrotou Lotte Giants por 8 a 4 na KBO.",
+    "content": "SSG Landers derrotou Lotte Giants por 8 a 4 na KBO, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "kbo"
+    ],
+    "seoTitle": "SSG Landers vence Lotte Giants por 8 a 4 na KBO",
+    "seoDescription": "SSG Landers derrotou Lotte Giants por 8 a 4 na KBO.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T16:32:11.742Z",
+    "createdAt": "2026-08-11T16:32:11.742Z",
+    "updatedAt": "2026-08-11T16:32:11.742Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808382",
+      "eventStartTime": "2026-08-11T10:00:00+00:00",
+      "retrievedAt": "2026-08-11T16:32:11.742Z",
+      "feedId": "beisebol",
+      "league": "KBO"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3b6314c53598",
+    "slug": "max-houkes-vence-sumit-nagal-por-2-a-0-em-hamburg-3b6314",
+    "sportId": "tenis",
+    "title": "Max Houkes vence Sumit Nagal por 2 a 0 em Hamburg",
+    "summary": "Max Houkes superou Sumit Nagal por 2 a 0 em Hamburg.",
+    "content": "Max Houkes superou Sumit Nagal por 2 a 0 em Hamburg., em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "hamburg"
+    ],
+    "seoTitle": "Max Houkes vence Sumit Nagal por 2 a 0 em Hamburg",
+    "seoDescription": "Max Houkes superou Sumit Nagal por 2 a 0 em Hamburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T16:32:11.741Z",
+    "createdAt": "2026-08-11T16:32:11.741Z",
+    "updatedAt": "2026-08-11T16:32:11.741Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807275",
+      "eventStartTime": "2026-08-11T14:39:35+00:00",
+      "retrievedAt": "2026-08-11T16:32:11.741Z",
+      "feedId": "tenis",
+      "league": "Hamburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-a0d557535258",
+    "slug": "dorados-de-chihuahua-vence-gambusinos-de-fresnillo-por-89-a-81-em-lnbp-a0d557",
+    "sportId": "basquete",
+    "title": "Dorados De Chihuahua vence Gambusinos De Fresnillo por 89 a 81 em LNBP",
+    "summary": "Dorados De Chihuahua superou Gambusinos De Fresnillo por 89 a 81 em LNBP.",
+    "content": "Dorados De Chihuahua superou Gambusinos De Fresnillo por 89 a 81 em LNBP., em 10 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Dorados De Chihuahua vence Gambusinos De Fresnillo por 89 a 81 em LNBP",
+    "seoDescription": "Dorados De Chihuahua superou Gambusinos De Fresnillo por 89 a 81 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T16:32:11.737Z",
+    "createdAt": "2026-08-11T16:32:11.737Z",
+    "updatedAt": "2026-08-11T16:32:11.737Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707855",
+      "eventStartTime": "2026-08-11T02:00:00+00:00",
+      "retrievedAt": "2026-08-11T16:32:11.737Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f216dcb580b6",
+    "slug": "dynamo-spb-supera-fc-10-por-2-a-1-pelo-cup-f216dc",
+    "sportId": "futebol",
+    "title": "Dynamo SPB supera FC 10 por 2 a 1 pelo Cup",
+    "summary": "Dynamo SPB venceu FC 10 por 2 a 1 pelo Cup.",
+    "content": "Dynamo SPB venceu FC 10 por 2 a 1 pelo Cup, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "cup"
+    ],
+    "seoTitle": "Dynamo SPB supera FC 10 por 2 a 1 pelo Cup",
+    "seoDescription": "Dynamo SPB venceu FC 10 por 2 a 1 pelo Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T16:32:11.729Z",
+    "createdAt": "2026-08-11T16:32:11.729Z",
+    "updatedAt": "2026-08-11T16:32:11.729Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4800342",
+      "eventStartTime": "2026-08-11T14:00:00+00:00",
+      "retrievedAt": "2026-08-11T16:32:11.729Z",
+      "feedId": "futebol",
+      "league": "Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-a05d7911c3cf",
     "slug": "kia-tigers-vence-samsung-lions-por-3-a-1-na-kbo-a05d79",
     "sportId": "beisebol",
