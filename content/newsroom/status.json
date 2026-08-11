@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-08-11T10:31:53.985Z",
-  "commit": "d00c4e3a82a2e6c98517a3150ce712ad5f99924c",
-  "runId": "31482603156",
+  "validatedAt": "2026-08-11T11:27:01.047Z",
+  "commit": "c82872c79b9396f784f29244611ab2e68285ce64",
+  "runId": "31486665935",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -39,47 +39,47 @@
       "bySport": {
         "futebol": {
           "status": "critical",
-          "ageHours": 204.9,
+          "ageHours": 205.9,
           "lastPublishedAt": "2026-08-02T21:35:50.340Z"
         },
         "futebol-americano": {
           "status": "critical",
-          "ageHours": 358.4,
+          "ageHours": 359.4,
           "lastPublishedAt": "2026-07-27T12:05:00.000Z"
         },
         "tenis": {
           "status": "critical",
-          "ageHours": 232.9,
+          "ageHours": 233.8,
           "lastPublishedAt": "2026-08-01T17:40:06.729Z"
         },
         "ciclismo": {
           "status": "critical",
-          "ageHours": 358.4,
+          "ageHours": 359.3,
           "lastPublishedAt": "2026-07-27T12:08:00.000Z"
         },
         "formula1": {
           "status": "critical",
-          "ageHours": 358.4,
+          "ageHours": 359.3,
           "lastPublishedAt": "2026-07-27T12:07:00.000Z"
         },
         "basquete": {
           "status": "critical",
-          "ageHours": 358.4,
+          "ageHours": 359.4,
           "lastPublishedAt": "2026-07-27T12:06:00.000Z"
         },
         "beisebol": {
           "status": "critical",
-          "ageHours": 342.1,
+          "ageHours": 343,
           "lastPublishedAt": "2026-07-28T04:24:45.987Z"
         },
         "golfe": {
           "status": "critical",
-          "ageHours": 358.5,
+          "ageHours": 359.4,
           "lastPublishedAt": "2026-07-27T12:02:00.000Z"
         },
         "surfe": {
           "status": "critical",
-          "ageHours": 358.5,
+          "ageHours": 359.5,
           "lastPublishedAt": "2026-07-27T12:00:00.000Z"
         }
       }
