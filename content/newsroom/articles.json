@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-a05d7911c3cf",
+    "slug": "kia-tigers-vence-samsung-lions-por-3-a-1-na-kbo-a05d79",
+    "sportId": "beisebol",
+    "title": "KIA Tigers vence Samsung Lions por 3 a 1 na KBO",
+    "summary": "KIA Tigers derrotou Samsung Lions por 3 a 1 na KBO.",
+    "content": "KIA Tigers derrotou Samsung Lions por 3 a 1 na KBO, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "kbo"
+    ],
+    "seoTitle": "KIA Tigers vence Samsung Lions por 3 a 1 na KBO",
+    "seoDescription": "KIA Tigers derrotou Samsung Lions por 3 a 1 na KBO.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T15:36:35.680Z",
+    "createdAt": "2026-08-11T15:36:35.680Z",
+    "updatedAt": "2026-08-11T15:36:35.680Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808381",
+      "eventStartTime": "2026-08-11T10:00:00+00:00",
+      "retrievedAt": "2026-08-11T15:36:35.680Z",
+      "feedId": "beisebol",
+      "league": "KBO"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f4e08386fe76",
+    "slug": "mcdonald-n-opitz-j-vence-moeller-m-petkovic-m-por-2-a-0-em-hamburg-f4e083",
+    "sportId": "tenis",
+    "title": "McDonald N./Opitz J. vence Moeller M./Petkovic M. por 2 a 0 em Hamburg",
+    "summary": "McDonald N./Opitz J. superou Moeller M./Petkovic M. por 2 a 0 em Hamburg.",
+    "content": "McDonald N./Opitz J. superou Moeller M./Petkovic M. por 2 a 0 em Hamburg., em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "hamburg"
+    ],
+    "seoTitle": "McDonald N./Opitz J. vence Moeller M./Petkovic M. por 2 a 0 em Hamburg",
+    "seoDescription": "McDonald N./Opitz J. superou Moeller M./Petkovic M. por 2 a 0 em Hamburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T15:36:35.678Z",
+    "createdAt": "2026-08-11T15:36:35.678Z",
+    "updatedAt": "2026-08-11T15:36:35.678Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807565",
+      "eventStartTime": "2026-08-11T12:49:26+00:00",
+      "retrievedAt": "2026-08-11T15:36:35.678Z",
+      "feedId": "tenis",
+      "league": "Hamburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5e0826bb27de",
+    "slug": "seattle-storm-vence-chicago-sky-por-97-a-88-em-wnba-5e0826",
+    "sportId": "basquete",
+    "title": "Seattle Storm vence Chicago Sky por 97 a 88 em WNBA",
+    "summary": "Seattle Storm superou Chicago Sky por 97 a 88 em WNBA.",
+    "content": "Seattle Storm superou Chicago Sky por 97 a 88 em WNBA., em 10 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Seattle Storm vence Chicago Sky por 97 a 88 em WNBA",
+    "seoDescription": "Seattle Storm superou Chicago Sky por 97 a 88 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T15:36:35.674Z",
+    "createdAt": "2026-08-11T15:36:35.674Z",
+    "updatedAt": "2026-08-11T15:36:35.674Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659867",
+      "eventStartTime": "2026-08-11T02:00:00+00:00",
+      "retrievedAt": "2026-08-11T15:36:35.674Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5836ae0b3f96",
+    "slug": "albion-fc-reserves-supera-racing-club-montevideo-reserves-por-1-a-0-pelo-reserve-l-5836ae",
+    "sportId": "futebol",
+    "title": "Albion Fc (Reserves) supera Racing Club Montevideo (Reserves) por 1 a 0 pelo Reserve League",
+    "summary": "Albion Fc (Reserves) venceu Racing Club Montevideo (Reserves) por 1 a 0 pelo Reserve League.",
+    "content": "Albion Fc (Reserves) venceu Racing Club Montevideo (Reserves) por 1 a 0 pelo Reserve League, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "reserve-league"
+    ],
+    "seoTitle": "Albion Fc (Reserves) supera Racing Club Montevideo (Reserves) por 1 a",
+    "seoDescription": "Albion Fc (Reserves) venceu Racing Club Montevideo (Reserves) por 1 a 0 pelo Reserve League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T15:36:35.667Z",
+    "createdAt": "2026-08-11T15:36:35.667Z",
+    "updatedAt": "2026-08-11T15:36:35.667Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4806673",
+      "eventStartTime": "2026-08-11T13:00:00+00:00",
+      "retrievedAt": "2026-08-11T15:36:35.667Z",
+      "feedId": "futebol",
+      "league": "Reserve League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-56bc80822ee8",
     "slug": "lg-twins-vence-kiwoom-heroes-por-8-a-3-na-kbo-56bc80",
     "sportId": "beisebol",
