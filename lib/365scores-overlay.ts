@@ -14,6 +14,7 @@ const SUPPORTED_SPORTS = new Map<number, SportId>([
 ]);
 const DATE_OFFSETS = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7];
 const WORLD_CUP_DATES_2026 = ["14/07/2026", "15/07/2026", "18/07/2026", "19/07/2026"];
+const LAKERS_RECENT_DATES_2026 = ["11/07/2026", "12/07/2026", "15/07/2026", "16/07/2026", "19/07/2026"];
 const REQUEST_TIMEOUT_MS = 7_500;
 
 type JsonRecord = Record<string, unknown>;
@@ -142,9 +143,14 @@ function parse365Payload(payload: Scores365Payload) {
   });
 }
 
+function eventMinute(value: string | null) {
+  if (!value) return "";
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? value : date.toISOString().slice(0, 16);
+}
+
 function eventKey(item: ScoreItem) {
-  const minute = item.startTime ? new Date(item.startTime).toISOString().slice(0, 16) : "";
-  return normalized(`${item.sportId}|${item.home.name}|${item.away.name}|${minute}`);
+  return normalized(`${item.sportId}|${item.home.name}|${item.away.name}|${eventMinute(item.startTime)}`);
 }
 
 function mergeScores(existing: ScoreItem[], incoming: ScoreItem[]) {
@@ -191,13 +197,28 @@ function isWorldCupCompetition(item: ScoreItem) {
   return label.includes("world cup") || label.includes("world championship") || label.includes("copa do mundo") || label.includes("fifa world");
 }
 
+function isLakersGame(item: ScoreItem) {
+  if (item.sportId !== "basquete") return false;
+  const teams = normalized(`${item.home.name} ${item.away.name}`);
+  return teams.includes("lakers") || teams.includes("los angeles lakers") || teams.includes("la lakers");
+}
+
 export async function apply365ScoresOverlay(payload: LivePayload): Promise<LivePayload> {
   const dates = DATE_OFFSETS.map(dateForOffset);
   const currentResults = await Promise.allSettled(dates.map((date) => fetch365Date(date)));
   const currentScores = currentResults.flatMap((result) => result.status === "fulfilled" ? parse365Payload(result.value) : []);
 
+  // A NBA está fora de temporada em agosto de 2026. Incluímos os jogos mais recentes dos Lakers
+  // para que o favorito não fique vazio enquanto a próxima agenda oficial ainda não estiver publicada.
+  const lakersResults = new Date().getUTCFullYear() === 2026
+    ? await Promise.allSettled(LAKERS_RECENT_DATES_2026.map((date) => fetch365Date(date, [2])))
+    : [];
+  const lakersRecent = lakersResults
+    .flatMap((result) => result.status === "fulfilled" ? parse365Payload(result.value) : [])
+    .filter(isLakersGame);
+
   const bySport = new Map<SportId, ScoreItem[]>();
-  for (const score of currentScores) {
+  for (const score of [...currentScores, ...lakersRecent]) {
     bySport.set(score.sportId, [...(bySport.get(score.sportId) ?? []), score]);
   }
 
