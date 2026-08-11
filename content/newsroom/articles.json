@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-5f2d542ae4fd",
+    "slug": "chunichi-dragons-vence-yokohama-baystars-por-5-a-2-na-npb-5f2d54",
+    "sportId": "beisebol",
+    "title": "Chunichi Dragons vence Yokohama Baystars por 5 a 2 na NPB",
+    "summary": "Chunichi Dragons derrotou Yokohama Baystars por 5 a 2 na NPB.",
+    "content": "Chunichi Dragons derrotou Yokohama Baystars por 5 a 2 na NPB, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Chunichi Dragons vence Yokohama Baystars por 5 a 2 na NPB",
+    "seoDescription": "Chunichi Dragons derrotou Yokohama Baystars por 5 a 2 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T22:01:58.435Z",
+    "createdAt": "2026-08-11T22:01:58.435Z",
+    "updatedAt": "2026-08-11T22:01:58.435Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626510",
+      "eventStartTime": "2026-08-11T05:00:00+00:00",
+      "retrievedAt": "2026-08-11T22:01:58.435Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ad8746b5cea1",
+    "slug": "mihalikova-t-nicholls-o-vence-mertens-e-shnaider-d-por-2-a-0-em-toronto-ad8746",
+    "sportId": "tenis",
+    "title": "Mihalikova T./Nicholls O. vence Mertens E./Shnaider D. por 2 a 0 em Toronto",
+    "summary": "Mihalikova T./Nicholls O. superou Mertens E./Shnaider D. por 2 a 0 em Toronto.",
+    "content": "Mihalikova T./Nicholls O. superou Mertens E./Shnaider D. por 2 a 0 em Toronto., em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "toronto"
+    ],
+    "seoTitle": "Mihalikova T./Nicholls O. vence Mertens E./Shnaider D. por 2 a 0 em",
+    "seoDescription": "Mihalikova T./Nicholls O. superou Mertens E./Shnaider D. por 2 a 0 em Toronto.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T22:01:58.432Z",
+    "createdAt": "2026-08-11T22:01:58.432Z",
+    "updatedAt": "2026-08-11T22:01:58.432Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807666",
+      "eventStartTime": "2026-08-11T20:11:09+00:00",
+      "retrievedAt": "2026-08-11T22:01:58.432Z",
+      "feedId": "tenis",
+      "league": "Toronto"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-68e03fe79ae4",
+    "slug": "verdirrojo-bbc-vence-trouville-por-72-a-69-em-liga-de-ascenso-68e03f",
+    "sportId": "basquete",
+    "title": "Verdirrojo Bbc vence Trouville por 72 a 69 em Liga de ascenso",
+    "summary": "Verdirrojo Bbc superou Trouville por 72 a 69 em Liga de ascenso.",
+    "content": "Verdirrojo Bbc superou Trouville por 72 a 69 em Liga de ascenso., em 10 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Verdirrojo Bbc vence Trouville por 72 a 69 em Liga de ascenso",
+    "seoDescription": "Verdirrojo Bbc superou Trouville por 72 a 69 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T22:01:58.431Z",
+    "createdAt": "2026-08-11T22:01:58.431Z",
+    "updatedAt": "2026-08-11T22:01:58.431Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4802133",
+      "eventStartTime": "2026-08-10T23:15:00+00:00",
+      "retrievedAt": "2026-08-11T22:01:58.431Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-600b427336f6",
+    "slug": "independiente-medellin-w-e-america-de-cali-w-ficam-no-0-a-0-pelo-colombian-women-s-600b42",
+    "sportId": "futebol",
+    "title": "Independiente Medellín (W) e America De Cali (W) ficam no 0 a 0 pelo Colombian Women's League",
+    "summary": "Independiente Medellín (W) e America De Cali (W) empataram por 0 a 0 pelo Colombian Women's League.",
+    "content": "Independiente Medellín (W) e America De Cali (W) empataram por 0 a 0 pelo Colombian Women's League, em 11 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "colombian-women-s-league"
+    ],
+    "seoTitle": "Independiente Medellín (W) e America De Cali (W) ficam no 0 a 0 pelo",
+    "seoDescription": "Independiente Medellín (W) e America De Cali (W) empataram por 0 a 0 pelo Colombian Women's League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-11T22:01:58.422Z",
+    "createdAt": "2026-08-11T22:01:58.422Z",
+    "updatedAt": "2026-08-11T22:01:58.422Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807647",
+      "eventStartTime": "2026-08-11T22:00:00+00:00",
+      "retrievedAt": "2026-08-11T22:01:58.422Z",
+      "feedId": "futebol",
+      "league": "Colombian Women's League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-a9d9fdf57f0f",
     "slug": "fukuoka-hawks-vence-chiba-lotte-marines-por-16-a-2-na-npb-a9d9fd",
     "sportId": "beisebol",
