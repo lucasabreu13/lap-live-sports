@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-344edb958740",
+    "slug": "matheus-almeida-vence-max-schoenhaus-por-2-a-0-em-hamburg-344edb",
+    "sportId": "tenis",
+    "title": "Matheus Almeida vence Max Schoenhaus por 2 a 0 em Hamburg",
+    "summary": "Matheus Almeida superou Max Schoenhaus por 2 a 0 em Hamburg.",
+    "content": "Matheus Almeida superou Max Schoenhaus por 2 a 0 em Hamburg., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "hamburg"
+    ],
+    "seoTitle": "Matheus Almeida vence Max Schoenhaus por 2 a 0 em Hamburg",
+    "seoDescription": "Matheus Almeida superou Max Schoenhaus por 2 a 0 em Hamburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T23:10:28.488Z",
+    "createdAt": "2026-08-12T23:10:28.488Z",
+    "updatedAt": "2026-08-12T23:10:28.488Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808806",
+      "eventStartTime": "2026-08-12T17:17:02+00:00",
+      "retrievedAt": "2026-08-12T23:10:28.488Z",
+      "feedId": "tenis",
+      "league": "Hamburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-49f17e7c30fc",
+    "slug": "deportes-valdivia-e-republica-independiente-de-hualqui-ficam-no-0-a-0-pelo-tercera-49f17e",
+    "sportId": "futebol",
+    "title": "Deportes Valdivia e República Independiente de Hualqui ficam no 0 a 0 pelo Tercera División B",
+    "summary": "Deportes Valdivia e República Independiente de Hualqui empataram por 0 a 0 pelo Tercera División B.",
+    "content": "Deportes Valdivia e República Independiente de Hualqui empataram por 0 a 0 pelo Tercera División B, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "tercera-division-b"
+    ],
+    "seoTitle": "Deportes Valdivia e República Independiente de Hualqui ficam no 0 a 0",
+    "seoDescription": "Deportes Valdivia e República Independiente de Hualqui empataram por 0 a 0 pelo Tercera División B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T23:10:28.468Z",
+    "createdAt": "2026-08-12T23:10:28.468Z",
+    "updatedAt": "2026-08-12T23:10:28.468Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808448",
+      "eventStartTime": "2026-08-12T23:00:00+00:00",
+      "retrievedAt": "2026-08-12T23:10:28.468Z",
+      "feedId": "futebol",
+      "league": "Tercera División B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-25c7ec0d9c6d",
     "slug": "o-luz-r-matos-vence-cerundolo-f-etcheverry-t-m-por-2-a-0-em-montreal-25c7ec",
     "sportId": "tenis",
