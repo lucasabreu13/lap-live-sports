@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-e31157c2dfd0",
+    "slug": "atlanta-braves-vence-new-york-mets-por-4-a-0-na-mlb-e31157",
+    "sportId": "beisebol",
+    "title": "Atlanta Braves vence New York Mets por 4 a 0 na MLB",
+    "summary": "Atlanta Braves derrotou New York Mets por 4 a 0 na MLB.",
+    "content": "Atlanta Braves derrotou New York Mets por 4 a 0 na MLB, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Atlanta Braves vence New York Mets por 4 a 0 na MLB",
+    "seoDescription": "Atlanta Braves derrotou New York Mets por 4 a 0 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T17:09:44.114Z",
+    "createdAt": "2026-08-12T17:09:44.114Z",
+    "updatedAt": "2026-08-12T17:09:44.114Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602959",
+      "eventStartTime": "2026-08-11T23:15:00+00:00",
+      "retrievedAt": "2026-08-12T17:09:44.114Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-63c059dabcfe",
+    "slug": "michalski-d-roca-batalla-o-vence-compagnucci-t-ricca-g-por-2-a-1-em-todi-63c059",
+    "sportId": "tenis",
+    "title": "Michalski D./Roca Batalla O. vence Compagnucci T./Ricca G. por 2 a 1 em Todi",
+    "summary": "Michalski D./Roca Batalla O. superou Compagnucci T./Ricca G. por 2 a 1 em Todi.",
+    "content": "Michalski D./Roca Batalla O. superou Compagnucci T./Ricca G. por 2 a 1 em Todi., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "todi"
+    ],
+    "seoTitle": "Michalski D./Roca Batalla O. vence Compagnucci T./Ricca G. por 2 a 1",
+    "seoDescription": "Michalski D./Roca Batalla O. superou Compagnucci T./Ricca G. por 2 a 1 em Todi.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T17:09:44.101Z",
+    "createdAt": "2026-08-12T17:09:44.101Z",
+    "updatedAt": "2026-08-12T17:09:44.101Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809540",
+      "eventStartTime": "2026-08-12T15:26:23+00:00",
+      "retrievedAt": "2026-08-12T17:09:44.101Z",
+      "feedId": "tenis",
+      "league": "Todi"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f8cf97cf5d33",
+    "slug": "barrancas-futbol-club-e-uribelarrea-fc-uribelarrea-ficam-no-0-a-0-pelo-promocional-f8cf97",
+    "sportId": "futebol",
+    "title": "Barrancas Futbol Club e Uribelarrea FC (Uribelarrea) ficam no 0 a 0 pelo Promocional Amateur",
+    "summary": "Barrancas Futbol Club e Uribelarrea FC (Uribelarrea) empataram por 0 a 0 pelo Promocional Amateur.",
+    "content": "Barrancas Futbol Club e Uribelarrea FC (Uribelarrea) empataram por 0 a 0 pelo Promocional Amateur, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "promocional-amateur"
+    ],
+    "seoTitle": "Barrancas Futbol Club e Uribelarrea FC (Uribelarrea) ficam no 0 a 0",
+    "seoDescription": "Barrancas Futbol Club e Uribelarrea FC (Uribelarrea) empataram por 0 a 0 pelo Promocional Amateur.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T17:09:44.086Z",
+    "createdAt": "2026-08-12T17:09:44.086Z",
+    "updatedAt": "2026-08-12T17:09:44.086Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4806398",
+      "eventStartTime": "2026-08-12T16:45:00+00:00",
+      "retrievedAt": "2026-08-12T17:09:44.086Z",
+      "feedId": "futebol",
+      "league": "Promocional Amateur"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-fa73b825b19c",
     "slug": "cincinnati-reds-vence-chicago-white-sox-por-5-a-4-na-mlb-fa73b8",
     "sportId": "beisebol",
