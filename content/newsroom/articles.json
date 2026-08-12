@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-f27d7a263d88",
+    "slug": "martos-gornes-s-walkow-s-vence-perez-b-ribeiro-e-por-2-a-0-em-hamburg-f27d7a",
+    "sportId": "tenis",
+    "title": "Martos Gornes S./Walkow S. vence Perez B./Ribeiro E. por 2 a 0 em Hamburg",
+    "summary": "Martos Gornes S./Walkow S. superou Perez B./Ribeiro E. por 2 a 0 em Hamburg.",
+    "content": "Martos Gornes S./Walkow S. superou Perez B./Ribeiro E. por 2 a 0 em Hamburg., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "hamburg"
+    ],
+    "seoTitle": "Martos Gornes S./Walkow S. vence Perez B./Ribeiro E. por 2 a 0 em",
+    "seoDescription": "Martos Gornes S./Walkow S. superou Perez B./Ribeiro E. por 2 a 0 em Hamburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T23:56:28.236Z",
+    "createdAt": "2026-08-12T23:56:28.236Z",
+    "updatedAt": "2026-08-12T23:56:28.236Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808388",
+      "eventStartTime": "2026-08-12T15:11:01+00:00",
+      "retrievedAt": "2026-08-12T23:56:28.236Z",
+      "feedId": "tenis",
+      "league": "Hamburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ff7b569a7671",
+    "slug": "municipal-de-paillaco-e-fernandez-vial-ficam-no-0-a-0-pelo-tercera-division-b-ff7b56",
+    "sportId": "futebol",
+    "title": "Municipal de Paillaco e Fernández Vial ficam no 0 a 0 pelo Tercera División B",
+    "summary": "Municipal de Paillaco e Fernández Vial empataram por 0 a 0 pelo Tercera División B.",
+    "content": "Municipal de Paillaco e Fernández Vial empataram por 0 a 0 pelo Tercera División B, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "tercera-division-b"
+    ],
+    "seoTitle": "Municipal de Paillaco e Fernández Vial ficam no 0 a 0 pelo Tercera",
+    "seoDescription": "Municipal de Paillaco e Fernández Vial empataram por 0 a 0 pelo Tercera División B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T23:56:28.213Z",
+    "createdAt": "2026-08-12T23:56:28.213Z",
+    "updatedAt": "2026-08-12T23:56:28.213Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808449",
+      "eventStartTime": "2026-08-12T23:30:00+00:00",
+      "retrievedAt": "2026-08-12T23:56:28.213Z",
+      "feedId": "futebol",
+      "league": "Tercera División B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-344edb958740",
     "slug": "matheus-almeida-vence-max-schoenhaus-por-2-a-0-em-hamburg-344edb",
     "sportId": "tenis",
