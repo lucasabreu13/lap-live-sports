@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-cf4ebca22628",
+    "slug": "st-louis-cardinals-vence-philadelphia-phillies-por-2-a-0-na-mlb-cf4ebc",
+    "sportId": "beisebol",
+    "title": "St. Louis Cardinals vence Philadelphia Phillies por 2 a 0 na MLB",
+    "summary": "St. Louis Cardinals derrotou Philadelphia Phillies por 2 a 0 na MLB.",
+    "content": "St. Louis Cardinals derrotou Philadelphia Phillies por 2 a 0 na MLB, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "St. Louis Cardinals vence Philadelphia Phillies por 2 a 0 na MLB",
+    "seoDescription": "St. Louis Cardinals derrotou Philadelphia Phillies por 2 a 0 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T03:09:41.085Z",
+    "createdAt": "2026-08-12T03:09:41.085Z",
+    "updatedAt": "2026-08-12T03:09:41.085Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4603007",
+      "eventStartTime": "2026-08-11T23:45:00+00:00",
+      "retrievedAt": "2026-08-12T03:09:41.085Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-bbdda98307d7",
+    "slug": "kyrian-jacquet-vence-billy-harris-por-2-a-0-em-cincinnati-bbdda9",
+    "sportId": "tenis",
+    "title": "Kyrian Jacquet vence Billy Harris por 2 a 0 em Cincinnati",
+    "summary": "Kyrian Jacquet superou Billy Harris por 2 a 0 em Cincinnati.",
+    "content": "Kyrian Jacquet superou Billy Harris por 2 a 0 em Cincinnati., em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Kyrian Jacquet vence Billy Harris por 2 a 0 em Cincinnati",
+    "seoDescription": "Kyrian Jacquet superou Billy Harris por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T03:09:41.084Z",
+    "createdAt": "2026-08-12T03:09:41.084Z",
+    "updatedAt": "2026-08-12T03:09:41.084Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808238",
+      "eventStartTime": "2026-08-12T01:42:31+00:00",
+      "retrievedAt": "2026-08-12T03:09:41.084Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3d9826205611",
+    "slug": "indiana-fever-vence-new-york-liberty-por-106-a-92-em-wnba-3d9826",
+    "sportId": "basquete",
+    "title": "Indiana Fever vence New York Liberty por 106 a 92 em WNBA",
+    "summary": "Indiana Fever superou New York Liberty por 106 a 92 em WNBA.",
+    "content": "Indiana Fever superou New York Liberty por 106 a 92 em WNBA., em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Indiana Fever vence New York Liberty por 106 a 92 em WNBA",
+    "seoDescription": "Indiana Fever superou New York Liberty por 106 a 92 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T03:09:41.081Z",
+    "createdAt": "2026-08-12T03:09:41.081Z",
+    "updatedAt": "2026-08-12T03:09:41.081Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659868",
+      "eventStartTime": "2026-08-11T23:30:00+00:00",
+      "retrievedAt": "2026-08-12T03:09:41.081Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c95e89d0e4e4",
+    "slug": "junior-fc-e-deportivo-pereira-ficam-no-0-a-0-pelo-primera-a-c95e89",
+    "sportId": "futebol",
+    "title": "Junior FC e Deportivo Pereira ficam no 0 a 0 pelo Primera A",
+    "summary": "Junior FC e Deportivo Pereira empataram por 0 a 0 pelo Primera A.",
+    "content": "Junior FC e Deportivo Pereira empataram por 0 a 0 pelo Primera A, em 11 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-a"
+    ],
+    "seoTitle": "Junior FC e Deportivo Pereira ficam no 0 a 0 pelo Primera A",
+    "seoDescription": "Junior FC e Deportivo Pereira empataram por 0 a 0 pelo Primera A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T03:09:41.073Z",
+    "createdAt": "2026-08-12T03:09:41.073Z",
+    "updatedAt": "2026-08-12T03:09:41.073Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4732060",
+      "eventStartTime": "2026-08-12T01:05:00+00:00",
+      "retrievedAt": "2026-08-12T03:09:41.073Z",
+      "feedId": "futebol",
+      "league": "Primera A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-b4546cfcb82f",
     "slug": "los-angeles-dodgers-vence-kansas-city-royals-por-6-a-5-na-mlb-b4546c",
     "sportId": "beisebol",
