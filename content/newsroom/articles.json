@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-d0639edc14c0",
+    "slug": "baltimore-orioles-vence-minnesota-twins-por-5-a-2-na-mlb-d0639e",
+    "sportId": "beisebol",
+    "title": "Baltimore Orioles vence Minnesota Twins por 5 a 2 na MLB",
+    "summary": "Baltimore Orioles derrotou Minnesota Twins por 5 a 2 na MLB.",
+    "content": "Baltimore Orioles derrotou Minnesota Twins por 5 a 2 na MLB, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Baltimore Orioles vence Minnesota Twins por 5 a 2 na MLB",
+    "seoDescription": "Baltimore Orioles derrotou Minnesota Twins por 5 a 2 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T15:13:33.037Z",
+    "createdAt": "2026-08-12T15:13:33.037Z",
+    "updatedAt": "2026-08-12T15:13:33.037Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602863",
+      "eventStartTime": "2026-08-11T23:40:00+00:00",
+      "retrievedAt": "2026-08-12T15:13:33.037Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-aef8f9cfa2bb",
+    "slug": "marco-cecchinato-vence-francesco-forti-por-2-a-0-em-todi-aef8f9",
+    "sportId": "tenis",
+    "title": "Marco Cecchinato vence Francesco Forti por 2 a 0 em Todi",
+    "summary": "Marco Cecchinato superou Francesco Forti por 2 a 0 em Todi.",
+    "content": "Marco Cecchinato superou Francesco Forti por 2 a 0 em Todi., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "todi"
+    ],
+    "seoTitle": "Marco Cecchinato vence Francesco Forti por 2 a 0 em Todi",
+    "seoDescription": "Marco Cecchinato superou Francesco Forti por 2 a 0 em Todi.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T15:13:33.026Z",
+    "createdAt": "2026-08-12T15:13:33.026Z",
+    "updatedAt": "2026-08-12T15:13:33.026Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808802",
+      "eventStartTime": "2026-08-12T13:40:43+00:00",
+      "retrievedAt": "2026-08-12T15:13:33.026Z",
+      "feedId": "tenis",
+      "league": "Todi"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e1f76690284b",
+    "slug": "ca-stockolmo-vence-tabare-por-84-a-72-em-liga-de-ascenso-e1f766",
+    "sportId": "basquete",
+    "title": "CA Stockolmo vence Tabare por 84 a 72 em Liga de ascenso",
+    "summary": "CA Stockolmo superou Tabare por 84 a 72 em Liga de ascenso.",
+    "content": "CA Stockolmo superou Tabare por 84 a 72 em Liga de ascenso., em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "CA Stockolmo vence Tabare por 84 a 72 em Liga de ascenso",
+    "seoDescription": "CA Stockolmo superou Tabare por 84 a 72 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T15:13:33.023Z",
+    "createdAt": "2026-08-12T15:13:33.023Z",
+    "updatedAt": "2026-08-12T15:13:33.023Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4802139",
+      "eventStartTime": "2026-08-11T23:15:00+00:00",
+      "retrievedAt": "2026-08-12T15:13:33.023Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8045deb6be55",
+    "slug": "csm-adjud-e-sporting-liesti-ficam-no-0-a-0-pelo-cupa-romaniei-8045de",
+    "sportId": "futebol",
+    "title": "Csm Adjud e Sporting Liesti ficam no 0 a 0 pelo Cupa Romaniei",
+    "summary": "Csm Adjud e Sporting Liesti empataram por 0 a 0 pelo Cupa Romaniei.",
+    "content": "Csm Adjud e Sporting Liesti empataram por 0 a 0 pelo Cupa Romaniei, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "cupa-romaniei"
+    ],
+    "seoTitle": "Csm Adjud e Sporting Liesti ficam no 0 a 0 pelo Cupa Romaniei",
+    "seoDescription": "Csm Adjud e Sporting Liesti empataram por 0 a 0 pelo Cupa Romaniei.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T15:13:33.013Z",
+    "createdAt": "2026-08-12T15:13:33.013Z",
+    "updatedAt": "2026-08-12T15:13:33.013Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4805809",
+      "eventStartTime": "2026-08-12T14:30:00+00:00",
+      "retrievedAt": "2026-08-12T15:13:33.013Z",
+      "feedId": "futebol",
+      "league": "Cupa Romaniei"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-34ad2e641884",
     "slug": "diablos-rojos-del-mexico-vence-guerreros-de-oaxaca-por-3-a-1-na-lmb-34ad2e",
     "sportId": "beisebol",
