@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-29c9a3726afe",
+    "slug": "miami-marlins-vence-pittsburgh-pirates-por-2-a-0-na-mlb-29c9a3",
+    "sportId": "beisebol",
+    "title": "Miami Marlins vence Pittsburgh Pirates por 2 a 0 na MLB",
+    "summary": "Miami Marlins derrotou Pittsburgh Pirates por 2 a 0 na MLB.",
+    "content": "Miami Marlins derrotou Pittsburgh Pirates por 2 a 0 na MLB, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Miami Marlins vence Pittsburgh Pirates por 2 a 0 na MLB",
+    "seoDescription": "Miami Marlins derrotou Pittsburgh Pirates por 2 a 0 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T21:00:18.472Z",
+    "createdAt": "2026-08-12T21:00:18.472Z",
+    "updatedAt": "2026-08-12T21:00:18.472Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602947",
+      "eventStartTime": "2026-08-11T22:40:00+00:00",
+      "retrievedAt": "2026-08-12T21:00:18.472Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-748f7cbdd827",
+    "slug": "federico-agustin-gomez-vence-daniel-galan-por-2-a-0-em-todi-748f7c",
+    "sportId": "tenis",
+    "title": "Federico Agustin Gomez vence Daniel Galan por 2 a 0 em Todi",
+    "summary": "Federico Agustin Gomez superou Daniel Galan por 2 a 0 em Todi.",
+    "content": "Federico Agustin Gomez superou Daniel Galan por 2 a 0 em Todi., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "todi"
+    ],
+    "seoTitle": "Federico Agustin Gomez vence Daniel Galan por 2 a 0 em Todi",
+    "seoDescription": "Federico Agustin Gomez superou Daniel Galan por 2 a 0 em Todi.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T21:00:18.455Z",
+    "createdAt": "2026-08-12T21:00:18.455Z",
+    "updatedAt": "2026-08-12T21:00:18.455Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808906",
+      "eventStartTime": "2026-08-12T18:49:27+00:00",
+      "retrievedAt": "2026-08-12T21:00:18.455Z",
+      "feedId": "tenis",
+      "league": "Todi"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-663b7016511e",
+    "slug": "22-de-julio-e-el-nacional-ficam-no-0-a-0-pelo-serie-b-663b70",
+    "sportId": "futebol",
+    "title": "22 de Julio e El Nacional ficam no 0 a 0 pelo Serie B",
+    "summary": "22 de Julio e El Nacional empataram por 0 a 0 pelo Serie B.",
+    "content": "22 de Julio e El Nacional empataram por 0 a 0 pelo Serie B, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-b"
+    ],
+    "seoTitle": "22 de Julio e El Nacional ficam no 0 a 0 pelo Serie B",
+    "seoDescription": "22 de Julio e El Nacional empataram por 0 a 0 pelo Serie B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T21:00:18.440Z",
+    "createdAt": "2026-08-12T21:00:18.440Z",
+    "updatedAt": "2026-08-12T21:00:18.440Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4676150",
+      "eventStartTime": "2026-08-12T20:00:00+00:00",
+      "retrievedAt": "2026-08-12T21:00:18.440Z",
+      "feedId": "futebol",
+      "league": "Serie B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-9af6af9ac259",
     "slug": "chicago-cubs-vence-washington-nationals-por-8-a-6-na-mlb-9af6af",
     "sportId": "beisebol",
