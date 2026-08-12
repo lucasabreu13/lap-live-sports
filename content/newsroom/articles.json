@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-b84935b73cb5",
+    "slug": "toronto-blue-jays-vence-boston-red-sox-por-5-a-3-na-mlb-b84935",
+    "sportId": "beisebol",
+    "title": "Toronto Blue Jays vence Boston Red Sox por 5 a 3 na MLB",
+    "summary": "Toronto Blue Jays derrotou Boston Red Sox por 5 a 3 na MLB.",
+    "content": "Toronto Blue Jays derrotou Boston Red Sox por 5 a 3 na MLB, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Toronto Blue Jays vence Boston Red Sox por 5 a 3 na MLB",
+    "seoDescription": "Toronto Blue Jays derrotou Boston Red Sox por 5 a 3 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T18:05:12.513Z",
+    "createdAt": "2026-08-12T18:05:12.513Z",
+    "updatedAt": "2026-08-12T18:05:12.513Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602946",
+      "eventStartTime": "2026-08-11T23:07:00+00:00",
+      "retrievedAt": "2026-08-12T18:05:12.513Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c42e041c251f",
+    "slug": "alex-barrena-nicolas-kicker-vence-crivellaro-g-mecarelli-m-por-2-a-0-em-todi-c42e04",
+    "sportId": "tenis",
+    "title": "Alex Barrena /  Nicolas Kicker vence Crivellaro G./Mecarelli M. por 2 a 0 em Todi",
+    "summary": "Alex Barrena /  Nicolas Kicker superou Crivellaro G./Mecarelli M. por 2 a 0 em Todi.",
+    "content": "Alex Barrena /  Nicolas Kicker superou Crivellaro G./Mecarelli M. por 2 a 0 em Todi., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "todi"
+    ],
+    "seoTitle": "Alex Barrena /  Nicolas Kicker vence Crivellaro G./Mecarelli M. por 2",
+    "seoDescription": "Alex Barrena /  Nicolas Kicker superou Crivellaro G./Mecarelli M. por 2 a 0 em Todi.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T18:05:12.502Z",
+    "createdAt": "2026-08-12T18:05:12.502Z",
+    "updatedAt": "2026-08-12T18:05:12.502Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808397",
+      "eventStartTime": "2026-08-12T16:32:08+00:00",
+      "retrievedAt": "2026-08-12T18:05:12.502Z",
+      "feedId": "tenis",
+      "league": "Todi"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-37f1983956d7",
+    "slug": "deportes-ovalle-e-julio-covarrubias-ficam-no-0-a-0-pelo-tercera-division-b-37f198",
+    "sportId": "futebol",
+    "title": "Deportes Ovalle e Julio Covarrubias ficam no 0 a 0 pelo Tercera División B",
+    "summary": "Deportes Ovalle e Julio Covarrubias empataram por 0 a 0 pelo Tercera División B.",
+    "content": "Deportes Ovalle e Julio Covarrubias empataram por 0 a 0 pelo Tercera División B, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "tercera-division-b"
+    ],
+    "seoTitle": "Deportes Ovalle e Julio Covarrubias ficam no 0 a 0 pelo Tercera",
+    "seoDescription": "Deportes Ovalle e Julio Covarrubias empataram por 0 a 0 pelo Tercera División B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T18:05:12.491Z",
+    "createdAt": "2026-08-12T18:05:12.491Z",
+    "updatedAt": "2026-08-12T18:05:12.491Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808441",
+      "eventStartTime": "2026-08-12T18:00:00+00:00",
+      "retrievedAt": "2026-08-12T18:05:12.491Z",
+      "feedId": "futebol",
+      "league": "Tercera División B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-e31157c2dfd0",
     "slug": "atlanta-braves-vence-new-york-mets-por-4-a-0-na-mlb-e31157",
     "sportId": "beisebol",
