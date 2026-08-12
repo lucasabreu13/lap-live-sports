@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-8d7337fc4d9a",
+    "slug": "bravos-de-leon-vence-olmecas-de-tabasco-por-10-a-7-na-lmb-8d7337",
+    "sportId": "beisebol",
+    "title": "Bravos de León vence Olmecas de Tabasco por 10 a 7 na LMB",
+    "summary": "Bravos de León derrotou Olmecas de Tabasco por 10 a 7 na LMB.",
+    "content": "Bravos de León derrotou Olmecas de Tabasco por 10 a 7 na LMB, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "lmb"
+    ],
+    "seoTitle": "Bravos de León vence Olmecas de Tabasco por 10 a 7 na LMB",
+    "seoDescription": "Bravos de León derrotou Olmecas de Tabasco por 10 a 7 na LMB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T11:56:27.854Z",
+    "createdAt": "2026-08-12T11:56:27.854Z",
+    "updatedAt": "2026-08-12T11:56:27.854Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4806787",
+      "eventStartTime": "2026-08-12T01:30:00+00:00",
+      "retrievedAt": "2026-08-12T11:56:27.854Z",
+      "feedId": "beisebol",
+      "league": "LMB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-687aceab6bdc",
+    "slug": "jecan-m-a-pavel-b-vence-bianchi-j-j-pujol-navarro-b-por-2-a-1-em-hamburg-687ace",
+    "sportId": "tenis",
+    "title": "Jecan M. A./Pavel B. vence Bianchi J J./Pujol Navarro B. por 2 a 1 em Hamburg",
+    "summary": "Jecan M. A./Pavel B. superou Bianchi J J./Pujol Navarro B. por 2 a 1 em Hamburg.",
+    "content": "Jecan M. A./Pavel B. superou Bianchi J J./Pujol Navarro B. por 2 a 1 em Hamburg., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "hamburg"
+    ],
+    "seoTitle": "Jecan M. A./Pavel B. vence Bianchi J J./Pujol Navarro B. por 2 a 1 em",
+    "seoDescription": "Jecan M. A./Pavel B. superou Bianchi J J./Pujol Navarro B. por 2 a 1 em Hamburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T11:56:27.849Z",
+    "createdAt": "2026-08-12T11:56:27.849Z",
+    "updatedAt": "2026-08-12T11:56:27.849Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807567",
+      "eventStartTime": "2026-08-12T09:07:27+00:00",
+      "retrievedAt": "2026-08-12T11:56:27.849Z",
+      "feedId": "tenis",
+      "league": "Hamburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-59246a0ee8d5",
+    "slug": "piratas-de-los-lagos-vence-abc-camp-imp-alvarado-por-68-a-62-em-liga-nacional-59246a",
+    "sportId": "basquete",
+    "title": "Piratas De Los Lagos vence ABC CAMP - Imp. Alvarado por 68 a 62 em Liga Nacional",
+    "summary": "Piratas De Los Lagos superou ABC CAMP - Imp. Alvarado por 68 a 62 em Liga Nacional.",
+    "content": "Piratas De Los Lagos superou ABC CAMP - Imp. Alvarado por 68 a 62 em Liga Nacional., em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-nacional"
+    ],
+    "seoTitle": "Piratas De Los Lagos vence ABC CAMP - Imp. Alvarado por 68 a 62 em",
+    "seoDescription": "Piratas De Los Lagos superou ABC CAMP - Imp. Alvarado por 68 a 62 em Liga Nacional.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T11:56:27.847Z",
+    "createdAt": "2026-08-12T11:56:27.847Z",
+    "updatedAt": "2026-08-12T11:56:27.847Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808379",
+      "eventStartTime": "2026-08-12T01:00:00+00:00",
+      "retrievedAt": "2026-08-12T11:56:27.847Z",
+      "feedId": "basquete",
+      "league": "Liga Nacional"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d7867c51269c",
+    "slug": "nk-vrapce-e-zagreb-hask-ficam-no-0-a-0-pelo-club-friendlies-d7867c",
+    "sportId": "futebol",
+    "title": "NK Vrapce e Zagreb Hask ficam no 0 a 0 pelo Club Friendlies",
+    "summary": "NK Vrapce e Zagreb Hask empataram por 0 a 0 pelo Club Friendlies.",
+    "content": "NK Vrapce e Zagreb Hask empataram por 0 a 0 pelo Club Friendlies, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "NK Vrapce e Zagreb Hask ficam no 0 a 0 pelo Club Friendlies",
+    "seoDescription": "NK Vrapce e Zagreb Hask empataram por 0 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T11:56:27.837Z",
+    "createdAt": "2026-08-12T11:56:27.837Z",
+    "updatedAt": "2026-08-12T11:56:27.837Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4804972",
+      "eventStartTime": "2026-08-12T11:00:00+00:00",
+      "retrievedAt": "2026-08-12T11:56:27.837Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d242651a7bee",
     "slug": "los-angeles-angels-vence-texas-rangers-por-3-a-2-na-mlb-d24265",
     "sportId": "beisebol",
