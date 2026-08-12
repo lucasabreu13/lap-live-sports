@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-cd59edb9f91f",
+    "slug": "colorado-rockies-vence-arizona-diamondbacks-por-3-a-2-na-mlb-cd59ed",
+    "sportId": "beisebol",
+    "title": "Colorado Rockies vence Arizona Diamondbacks por 3 a 2 na MLB",
+    "summary": "Colorado Rockies derrotou Arizona Diamondbacks por 3 a 2 na MLB.",
+    "content": "Colorado Rockies derrotou Arizona Diamondbacks por 3 a 2 na MLB, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Colorado Rockies vence Arizona Diamondbacks por 3 a 2 na MLB",
+    "seoDescription": "Colorado Rockies derrotou Arizona Diamondbacks por 3 a 2 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T08:59:31.109Z",
+    "createdAt": "2026-08-12T08:59:31.109Z",
+    "updatedAt": "2026-08-12T08:59:31.109Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602897",
+      "eventStartTime": "2026-08-12T01:40:00+00:00",
+      "retrievedAt": "2026-08-12T08:59:31.109Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e1992d8853d1",
+    "slug": "khumoyun-sultanov-vence-lucio-ratti-por-2-a-0-em-astana-e1992d",
+    "sportId": "tenis",
+    "title": "Khumoyun Sultanov vence Lucio Ratti por 2 a 0 em Astana",
+    "summary": "Khumoyun Sultanov superou Lucio Ratti por 2 a 0 em Astana.",
+    "content": "Khumoyun Sultanov superou Lucio Ratti por 2 a 0 em Astana., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "astana"
+    ],
+    "seoTitle": "Khumoyun Sultanov vence Lucio Ratti por 2 a 0 em Astana",
+    "seoDescription": "Khumoyun Sultanov superou Lucio Ratti por 2 a 0 em Astana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T08:59:31.106Z",
+    "createdAt": "2026-08-12T08:59:31.106Z",
+    "updatedAt": "2026-08-12T08:59:31.106Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808399",
+      "eventStartTime": "2026-08-12T06:07:53+00:00",
+      "retrievedAt": "2026-08-12T08:59:31.106Z",
+      "feedId": "tenis",
+      "league": "Astana"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9a95ee66dd98",
+    "slug": "phoenix-mercury-vence-los-angeles-sparks-por-94-a-87-em-wnba-9a95ee",
+    "sportId": "basquete",
+    "title": "Phoenix Mercury vence Los Angeles Sparks por 94 a 87 em WNBA",
+    "summary": "Phoenix Mercury superou Los Angeles Sparks por 94 a 87 em WNBA.",
+    "content": "Phoenix Mercury superou Los Angeles Sparks por 94 a 87 em WNBA., em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Phoenix Mercury vence Los Angeles Sparks por 94 a 87 em WNBA",
+    "seoDescription": "Phoenix Mercury superou Los Angeles Sparks por 94 a 87 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T08:59:31.102Z",
+    "createdAt": "2026-08-12T08:59:31.102Z",
+    "updatedAt": "2026-08-12T08:59:31.102Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659869",
+      "eventStartTime": "2026-08-12T02:00:00+00:00",
+      "retrievedAt": "2026-08-12T08:59:31.102Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-fcf7ef8ff026",
+    "slug": "deportivo-saprissa-supera-mixco-por-3-a-0-pelo-concacaf-central-american-cup-fcf7ef",
+    "sportId": "futebol",
+    "title": "Deportivo Saprissa supera Mixco por 3 a 0 pelo CONCACAF Central American Cup",
+    "summary": "Deportivo Saprissa venceu Mixco por 3 a 0 pelo CONCACAF Central American Cup.",
+    "content": "Deportivo Saprissa venceu Mixco por 3 a 0 pelo CONCACAF Central American Cup, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "concacaf-central-american-cup"
+    ],
+    "seoTitle": "Deportivo Saprissa supera Mixco por 3 a 0 pelo CONCACAF Central",
+    "seoDescription": "Deportivo Saprissa venceu Mixco por 3 a 0 pelo CONCACAF Central American Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T08:59:31.096Z",
+    "createdAt": "2026-08-12T08:59:31.096Z",
+    "updatedAt": "2026-08-12T08:59:31.096Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4730018",
+      "eventStartTime": "2026-08-12T02:00:00+00:00",
+      "retrievedAt": "2026-08-12T08:59:31.096Z",
+      "feedId": "futebol",
+      "league": "CONCACAF Central American Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-368acddb10bd",
     "slug": "san-diego-padres-vence-milwaukee-brewers-por-11-a-2-na-mlb-368acd",
     "sportId": "beisebol",
