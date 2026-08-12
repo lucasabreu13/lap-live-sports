@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-368acddb10bd",
+    "slug": "san-diego-padres-vence-milwaukee-brewers-por-11-a-2-na-mlb-368acd",
+    "sportId": "beisebol",
+    "title": "San Diego Padres vence Milwaukee Brewers por 11 a 2 na MLB",
+    "summary": "San Diego Padres derrotou Milwaukee Brewers por 11 a 2 na MLB.",
+    "content": "San Diego Padres derrotou Milwaukee Brewers por 11 a 2 na MLB, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "San Diego Padres vence Milwaukee Brewers por 11 a 2 na MLB",
+    "seoDescription": "San Diego Padres derrotou Milwaukee Brewers por 11 a 2 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T07:50:06.942Z",
+    "createdAt": "2026-08-12T07:50:06.942Z",
+    "updatedAt": "2026-08-12T07:50:06.942Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602891",
+      "eventStartTime": "2026-08-12T01:40:00+00:00",
+      "retrievedAt": "2026-08-12T07:50:06.942Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-148dfb34ed06",
+    "slug": "hayato-matsuoka-vence-takuya-kumasaka-por-2-a-0-em-astana-148dfb",
+    "sportId": "tenis",
+    "title": "Hayato Matsuoka vence Takuya Kumasaka por 2 a 0 em Astana",
+    "summary": "Hayato Matsuoka superou Takuya Kumasaka por 2 a 0 em Astana.",
+    "content": "Hayato Matsuoka superou Takuya Kumasaka por 2 a 0 em Astana., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "astana"
+    ],
+    "seoTitle": "Hayato Matsuoka vence Takuya Kumasaka por 2 a 0 em Astana",
+    "seoDescription": "Hayato Matsuoka superou Takuya Kumasaka por 2 a 0 em Astana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T07:50:06.940Z",
+    "createdAt": "2026-08-12T07:50:06.940Z",
+    "updatedAt": "2026-08-12T07:50:06.940Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808785",
+      "eventStartTime": "2026-08-12T06:12:51+00:00",
+      "retrievedAt": "2026-08-12T07:50:06.940Z",
+      "feedId": "tenis",
+      "league": "Astana"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5c56ec3a74c8",
+    "slug": "astros-de-jalisco-vence-santos-de-san-luis-por-103-a-82-em-lnbp-5c56ec",
+    "sportId": "basquete",
+    "title": "Astros De Jalisco vence Santos De San Luis por 103 a 82 em LNBP",
+    "summary": "Astros De Jalisco superou Santos De San Luis por 103 a 82 em LNBP.",
+    "content": "Astros De Jalisco superou Santos De San Luis por 103 a 82 em LNBP., em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Astros De Jalisco vence Santos De San Luis por 103 a 82 em LNBP",
+    "seoDescription": "Astros De Jalisco superou Santos De San Luis por 103 a 82 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T07:50:06.935Z",
+    "createdAt": "2026-08-12T07:50:06.935Z",
+    "updatedAt": "2026-08-12T07:50:06.935Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707862",
+      "eventStartTime": "2026-08-12T02:15:00+00:00",
+      "retrievedAt": "2026-08-12T07:50:06.935Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2a1d665cdae2",
+    "slug": "real-esteli-fc-supera-alianza-fc-por-3-a-1-pelo-concacaf-central-american-cup-2a1d66",
+    "sportId": "futebol",
+    "title": "Real Estelí FC supera Alianza FC por 3 a 1 pelo CONCACAF Central American Cup",
+    "summary": "Real Estelí FC venceu Alianza FC por 3 a 1 pelo CONCACAF Central American Cup.",
+    "content": "Real Estelí FC venceu Alianza FC por 3 a 1 pelo CONCACAF Central American Cup, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "concacaf-central-american-cup"
+    ],
+    "seoTitle": "Real Estelí FC supera Alianza FC por 3 a 1 pelo CONCACAF Central",
+    "seoDescription": "Real Estelí FC venceu Alianza FC por 3 a 1 pelo CONCACAF Central American Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T07:50:06.930Z",
+    "createdAt": "2026-08-12T07:50:06.930Z",
+    "updatedAt": "2026-08-12T07:50:06.930Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4730017",
+      "eventStartTime": "2026-08-12T02:00:00+00:00",
+      "retrievedAt": "2026-08-12T07:50:06.930Z",
+      "feedId": "futebol",
+      "league": "CONCACAF Central American Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-882141b23b03",
     "slug": "caliente-de-durango-vence-acereros-de-monclova-por-7-a-0-na-lmb-882141",
     "sportId": "beisebol",
