@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-25c7ec0d9c6d",
+    "slug": "o-luz-r-matos-vence-cerundolo-f-etcheverry-t-m-por-2-a-0-em-montreal-25c7ec",
+    "sportId": "tenis",
+    "title": "O. Luz/R. Matos vence Cerundolo F./Etcheverry T. M. por 2 a 0 em Montreal",
+    "summary": "O. Luz/R. Matos superou Cerundolo F./Etcheverry T. M. por 2 a 0 em Montreal.",
+    "content": "O. Luz/R. Matos superou Cerundolo F./Etcheverry T. M. por 2 a 0 em Montreal., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "montreal"
+    ],
+    "seoTitle": "O. Luz/R. Matos vence Cerundolo F./Etcheverry T. M. por 2 a 0 em",
+    "seoDescription": "O. Luz/R. Matos superou Cerundolo F./Etcheverry T. M. por 2 a 0 em Montreal.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T22:29:29.169Z",
+    "createdAt": "2026-08-12T22:29:29.169Z",
+    "updatedAt": "2026-08-12T22:29:29.169Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809709",
+      "eventStartTime": "2026-08-12T20:04:31+00:00",
+      "retrievedAt": "2026-08-12T22:29:29.169Z",
+      "feedId": "tenis",
+      "league": "Montreal"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e2c785afd031",
+    "slug": "union-cocle-ii-e-independiente-de-la-chorrera-u20-ficam-no-0-a-0-pela-liga-prom-e2c785",
+    "sportId": "futebol",
+    "title": "Unión Coclé II e Independiente De La Chorrera U20 ficam no 0 a 0 pela Liga Prom",
+    "summary": "Unión Coclé II e Independiente De La Chorrera U20 empataram por 0 a 0 pela Liga Prom.",
+    "content": "Unión Coclé II e Independiente De La Chorrera U20 empataram por 0 a 0 pela Liga Prom, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-prom"
+    ],
+    "seoTitle": "Unión Coclé II e Independiente De La Chorrera U20 ficam no 0 a 0 pela",
+    "seoDescription": "Unión Coclé II e Independiente De La Chorrera U20 empataram por 0 a 0 pela Liga Prom.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T22:29:29.158Z",
+    "createdAt": "2026-08-12T22:29:29.158Z",
+    "updatedAt": "2026-08-12T22:29:29.158Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4778511",
+      "eventStartTime": "2026-08-12T21:00:00+00:00",
+      "retrievedAt": "2026-08-12T22:29:29.158Z",
+      "feedId": "futebol",
+      "league": "Liga Prom"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5aa079e1aed9",
     "slug": "detroit-tigers-vence-cleveland-guardians-por-6-a-4-na-mlb-5aa079",
     "sportId": "beisebol",
