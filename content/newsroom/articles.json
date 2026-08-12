@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-49a6281200f5",
+    "slug": "new-york-yankees-vence-seattle-mariners-por-4-a-1-na-mlb-49a628",
+    "sportId": "beisebol",
+    "title": "New York Yankees vence Seattle Mariners por 4 a 1 na MLB",
+    "summary": "New York Yankees derrotou Seattle Mariners por 4 a 1 na MLB.",
+    "content": "New York Yankees derrotou Seattle Mariners por 4 a 1 na MLB, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "New York Yankees vence Seattle Mariners por 4 a 1 na MLB",
+    "seoDescription": "New York Yankees derrotou Seattle Mariners por 4 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T19:17:25.944Z",
+    "createdAt": "2026-08-12T19:17:25.944Z",
+    "updatedAt": "2026-08-12T19:17:25.944Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602944",
+      "eventStartTime": "2026-08-11T23:05:00+00:00",
+      "retrievedAt": "2026-08-12T19:17:25.944Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-fadaed5214e1",
+    "slug": "francesco-forti-filippo-romano-vence-carou-i-rodriguez-c-por-2-a-0-em-todi-fadaed",
+    "sportId": "tenis",
+    "title": "Francesco Forti / Filippo Romano vence Carou I./Rodriguez C. por 2 a 0 em Todi",
+    "summary": "Francesco Forti / Filippo Romano superou Carou I./Rodriguez C. por 2 a 0 em Todi.",
+    "content": "Francesco Forti / Filippo Romano superou Carou I./Rodriguez C. por 2 a 0 em Todi., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "todi"
+    ],
+    "seoTitle": "Francesco Forti / Filippo Romano vence Carou I./Rodriguez C. por 2 a 0",
+    "seoDescription": "Francesco Forti / Filippo Romano superou Carou I./Rodriguez C. por 2 a 0 em Todi.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T19:17:25.929Z",
+    "createdAt": "2026-08-12T19:17:25.929Z",
+    "updatedAt": "2026-08-12T19:17:25.929Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808401",
+      "eventStartTime": "2026-08-12T18:16:40+00:00",
+      "retrievedAt": "2026-08-12T19:17:25.929Z",
+      "feedId": "tenis",
+      "league": "Todi"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8f44dcb1522d",
+    "slug": "universidad-catolica-w-e-deportes-recoleta-w-ficam-no-0-a-0-pela-championship-wome-8f44dc",
+    "sportId": "futebol",
+    "title": "Universidad Católica (W) e Deportes Recoleta (W) ficam no 0 a 0 pela Championship Women",
+    "summary": "Universidad Católica (W) e Deportes Recoleta (W) empataram por 0 a 0 pela Championship Women.",
+    "content": "Universidad Católica (W) e Deportes Recoleta (W) empataram por 0 a 0 pela Championship Women, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "championship-women"
+    ],
+    "seoTitle": "Universidad Católica (W) e Deportes Recoleta (W) ficam no 0 a 0 pela",
+    "seoDescription": "Universidad Católica (W) e Deportes Recoleta (W) empataram por 0 a 0 pela Championship Women.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T19:17:25.912Z",
+    "createdAt": "2026-08-12T19:17:25.912Z",
+    "updatedAt": "2026-08-12T19:17:25.912Z",
+    "homepagePriority": 82,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4679229",
+      "eventStartTime": "2026-08-12T19:00:00+00:00",
+      "retrievedAt": "2026-08-12T19:17:25.912Z",
+      "feedId": "futebol",
+      "league": "Championship Women"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-b84935b73cb5",
     "slug": "toronto-blue-jays-vence-boston-red-sox-por-5-a-3-na-mlb-b84935",
     "sportId": "beisebol",
