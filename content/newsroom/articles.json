@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-882141b23b03",
+    "slug": "caliente-de-durango-vence-acereros-de-monclova-por-7-a-0-na-lmb-882141",
+    "sportId": "beisebol",
+    "title": "Caliente de Durango vence Acereros de Monclova por 7 a 0 na LMB",
+    "summary": "Caliente de Durango derrotou Acereros de Monclova por 7 a 0 na LMB.",
+    "content": "Caliente de Durango derrotou Acereros de Monclova por 7 a 0 na LMB, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "lmb"
+    ],
+    "seoTitle": "Caliente de Durango vence Acereros de Monclova por 7 a 0 na LMB",
+    "seoDescription": "Caliente de Durango derrotou Acereros de Monclova por 7 a 0 na LMB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T06:12:08.201Z",
+    "createdAt": "2026-08-12T06:12:08.201Z",
+    "updatedAt": "2026-08-12T06:12:08.201Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4806788",
+      "eventStartTime": "2026-08-12T01:45:00+00:00",
+      "retrievedAt": "2026-08-12T06:12:08.201Z",
+      "feedId": "beisebol",
+      "league": "LMB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-38f7a6c1b1c9",
+    "slug": "jeffrey-john-wolf-vence-shintaro-mochizuki-por-2-a-1-em-cincinnati-38f7a6",
+    "sportId": "tenis",
+    "title": "Jeffrey John Wolf vence Shintaro Mochizuki por 2 a 1 em Cincinnati",
+    "summary": "Jeffrey John Wolf superou Shintaro Mochizuki por 2 a 1 em Cincinnati.",
+    "content": "Jeffrey John Wolf superou Shintaro Mochizuki por 2 a 1 em Cincinnati., em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Jeffrey John Wolf vence Shintaro Mochizuki por 2 a 1 em Cincinnati",
+    "seoDescription": "Jeffrey John Wolf superou Shintaro Mochizuki por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T06:12:08.196Z",
+    "createdAt": "2026-08-12T06:12:08.196Z",
+    "updatedAt": "2026-08-12T06:12:08.196Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809541",
+      "eventStartTime": "2026-08-12T02:35:08+00:00",
+      "retrievedAt": "2026-08-12T06:12:08.196Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8504873b0b4a",
+    "slug": "soles-de-mexicali-vence-abejas-de-leon-por-71-a-68-em-lnbp-850487",
+    "sportId": "basquete",
+    "title": "Soles De Mexicali vence Abejas de León por 71 a 68 em LNBP",
+    "summary": "Soles De Mexicali superou Abejas de León por 71 a 68 em LNBP.",
+    "content": "Soles De Mexicali superou Abejas de León por 71 a 68 em LNBP., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Soles De Mexicali vence Abejas de León por 71 a 68 em LNBP",
+    "seoDescription": "Soles De Mexicali superou Abejas de León por 71 a 68 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T06:12:08.193Z",
+    "createdAt": "2026-08-12T06:12:08.193Z",
+    "updatedAt": "2026-08-12T06:12:08.193Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707860",
+      "eventStartTime": "2026-08-12T03:00:00+00:00",
+      "retrievedAt": "2026-08-12T06:12:08.193Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8aae73339d7b",
+    "slug": "rewa-supera-tupapa-maraerenga-por-4-a-2-pela-ofc-champions-league-8aae73",
+    "sportId": "futebol",
+    "title": "Rewa supera Tupapa Maraerenga por 4 a 2 pela OFC Champions League",
+    "summary": "Rewa venceu Tupapa Maraerenga por 4 a 2 pela OFC Champions League.",
+    "content": "Rewa venceu Tupapa Maraerenga por 4 a 2 pela OFC Champions League, em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ofc-champions-league"
+    ],
+    "seoTitle": "Rewa supera Tupapa Maraerenga por 4 a 2 pela OFC Champions League",
+    "seoDescription": "Rewa venceu Tupapa Maraerenga por 4 a 2 pela OFC Champions League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T06:12:08.188Z",
+    "createdAt": "2026-08-12T06:12:08.188Z",
+    "updatedAt": "2026-08-12T06:12:08.188Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4678088",
+      "eventStartTime": "2026-08-12T04:00:00+00:00",
+      "retrievedAt": "2026-08-12T06:12:08.188Z",
+      "feedId": "futebol",
+      "league": "OFC Champions League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-159b9383e5d0",
     "slug": "san-francisco-giants-vence-houston-astros-por-4-a-1-na-mlb-159b93",
     "sportId": "beisebol",
