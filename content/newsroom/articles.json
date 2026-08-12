@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-34ad2e641884",
+    "slug": "diablos-rojos-del-mexico-vence-guerreros-de-oaxaca-por-3-a-1-na-lmb-34ad2e",
+    "sportId": "beisebol",
+    "title": "Diablos Rojos del México vence Guerreros de Oaxaca por 3 a 1 na LMB",
+    "summary": "Diablos Rojos del México derrotou Guerreros de Oaxaca por 3 a 1 na LMB.",
+    "content": "Diablos Rojos del México derrotou Guerreros de Oaxaca por 3 a 1 na LMB, em 11 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "lmb"
+    ],
+    "seoTitle": "Diablos Rojos del México vence Guerreros de Oaxaca por 3 a 1 na LMB",
+    "seoDescription": "Diablos Rojos del México derrotou Guerreros de Oaxaca por 3 a 1 na LMB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T14:12:35.422Z",
+    "createdAt": "2026-08-12T14:12:35.422Z",
+    "updatedAt": "2026-08-12T14:12:35.422Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4806786",
+      "eventStartTime": "2026-08-12T01:00:00+00:00",
+      "retrievedAt": "2026-08-12T14:12:35.422Z",
+      "feedId": "beisebol",
+      "league": "LMB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-aee22625f5f1",
+    "slug": "papa-c-zheng-b-vence-cervantes-i-molchanov-d-por-2-a-1-em-hamburg-aee226",
+    "sportId": "tenis",
+    "title": "Papa C./Zheng B. vence Cervantes I./Molchanov D. por 2 a 1 em Hamburg",
+    "summary": "Papa C./Zheng B. superou Cervantes I./Molchanov D. por 2 a 1 em Hamburg.",
+    "content": "Papa C./Zheng B. superou Cervantes I./Molchanov D. por 2 a 1 em Hamburg., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "hamburg"
+    ],
+    "seoTitle": "Papa C./Zheng B. vence Cervantes I./Molchanov D. por 2 a 1 em Hamburg",
+    "seoDescription": "Papa C./Zheng B. superou Cervantes I./Molchanov D. por 2 a 1 em Hamburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T14:12:35.409Z",
+    "createdAt": "2026-08-12T14:12:35.409Z",
+    "updatedAt": "2026-08-12T14:12:35.409Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807566",
+      "eventStartTime": "2026-08-12T12:55:52+00:00",
+      "retrievedAt": "2026-08-12T14:12:35.409Z",
+      "feedId": "tenis",
+      "league": "Hamburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b22f0d3203fa",
+    "slug": "nigeria-w-vence-china-w-por-88-a-77-em-international-friendly-w-b22f0d",
+    "sportId": "basquete",
+    "title": "Nigeria (W) vence China (W) por 88 a 77 em International Friendly (W)",
+    "summary": "Nigeria (W) superou China (W) por 88 a 77 em International Friendly (W).",
+    "content": "Nigeria (W) superou China (W) por 88 a 77 em International Friendly (W)., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendly-w"
+    ],
+    "seoTitle": "Nigeria (W) vence China (W) por 88 a 77 em International Friendly (W)",
+    "seoDescription": "Nigeria (W) superou China (W) por 88 a 77 em International Friendly (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T14:12:35.406Z",
+    "createdAt": "2026-08-12T14:12:35.406Z",
+    "updatedAt": "2026-08-12T14:12:35.406Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808829",
+      "eventStartTime": "2026-08-12T11:30:00+00:00",
+      "retrievedAt": "2026-08-12T14:12:35.406Z",
+      "feedId": "basquete",
+      "league": "International Friendly (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3f8570215a1e",
+    "slug": "ahli-sana-a-e-ittihad-ibb-ficam-no-0-a-0-pelo-yemeni-league-3f8570",
+    "sportId": "futebol",
+    "title": "Ahli Sana'a e Ittihad Ibb ficam no 0 a 0 pelo Yemeni League",
+    "summary": "Ahli Sana'a e Ittihad Ibb empataram por 0 a 0 pelo Yemeni League.",
+    "content": "Ahli Sana'a e Ittihad Ibb empataram por 0 a 0 pelo Yemeni League, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "yemeni-league"
+    ],
+    "seoTitle": "Ahli Sana'a e Ittihad Ibb ficam no 0 a 0 pelo Yemeni League",
+    "seoDescription": "Ahli Sana'a e Ittihad Ibb empataram por 0 a 0 pelo Yemeni League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-12T14:12:35.402Z",
+    "createdAt": "2026-08-12T14:12:35.402Z",
+    "updatedAt": "2026-08-12T14:12:35.402Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4710355",
+      "eventStartTime": "2026-08-12T13:00:00+00:00",
+      "retrievedAt": "2026-08-12T14:12:35.402Z",
+      "feedId": "futebol",
+      "league": "Yemeni League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-844c1c2f3410",
     "slug": "toros-de-tijuana-vence-algodoneros-del-union-laguna-por-9-a-3-na-lmb-844c1c",
     "sportId": "beisebol",
