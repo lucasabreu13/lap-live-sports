@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-940f24dfef00",
+    "slug": "francesco-passaro-vence-oriol-roca-batalla-por-2-a-0-em-todi-940f24",
+    "sportId": "tenis",
+    "title": "Francesco Passaro vence Oriol Roca Batalla por 2 a 0 em Todi",
+    "summary": "Francesco Passaro superou Oriol Roca Batalla por 2 a 0 em Todi.",
+    "content": "Francesco Passaro superou Oriol Roca Batalla por 2 a 0 em Todi., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "todi"
+    ],
+    "seoTitle": "Francesco Passaro vence Oriol Roca Batalla por 2 a 0 em Todi",
+    "seoDescription": "Francesco Passaro superou Oriol Roca Batalla por 2 a 0 em Todi.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T18:34:31.683Z",
+    "createdAt": "2026-08-13T18:34:31.683Z",
+    "updatedAt": "2026-08-13T18:34:31.683Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809960",
+      "eventStartTime": "2026-08-13T16:40:19+00:00",
+      "retrievedAt": "2026-08-13T18:34:31.683Z",
+      "feedId": "tenis",
+      "league": "Todi"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9a70981996ab",
+    "slug": "fk-jablonec-supera-rigas-fs-por-2-a-1-pelo-conference-league-9a7098",
+    "sportId": "futebol",
+    "title": "FK Jablonec supera Rigas FS por 2 a 1 pelo Conference League",
+    "summary": "FK Jablonec venceu Rigas FS por 2 a 1 pelo Conference League.",
+    "content": "FK Jablonec venceu Rigas FS por 2 a 1 pelo Conference League, em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "conference-league"
+    ],
+    "seoTitle": "FK Jablonec supera Rigas FS por 2 a 1 pelo Conference League",
+    "seoDescription": "FK Jablonec venceu Rigas FS por 2 a 1 pelo Conference League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T18:34:31.666Z",
+    "createdAt": "2026-08-13T18:34:31.666Z",
+    "updatedAt": "2026-08-13T18:34:31.666Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4800349",
+      "eventStartTime": "2026-08-13T16:30:00+00:00",
+      "retrievedAt": "2026-08-13T18:34:31.666Z",
+      "feedId": "futebol",
+      "league": "Conference League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-08b23a507f8c",
     "slug": "rei-sakamoto-vence-dhakshineswar-suresh-por-2-a-0-em-brownsburg-08b23a",
     "sportId": "tenis",
