@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-c670809e1877",
+    "slug": "sultanes-de-monterrey-vence-charros-de-jalisco-por-6-a-3-na-lmb-c67080",
+    "sportId": "beisebol",
+    "title": "Sultanes de Monterrey vence Charros de Jalisco por 6 a 3 na LMB",
+    "summary": "Sultanes de Monterrey derrotou Charros de Jalisco por 6 a 3 na LMB.",
+    "content": "Sultanes de Monterrey derrotou Charros de Jalisco por 6 a 3 na LMB, em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "lmb"
+    ],
+    "seoTitle": "Sultanes de Monterrey vence Charros de Jalisco por 6 a 3 na LMB",
+    "seoDescription": "Sultanes de Monterrey derrotou Charros de Jalisco por 6 a 3 na LMB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T06:53:44.182Z",
+    "createdAt": "2026-08-13T06:53:44.182Z",
+    "updatedAt": "2026-08-13T06:53:44.182Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807496",
+      "eventStartTime": "2026-08-13T01:30:00+00:00",
+      "retrievedAt": "2026-08-13T06:53:44.182Z",
+      "feedId": "beisebol",
+      "league": "LMB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-a3ef0b535ccb",
+    "slug": "titouan-droguet-vence-stefanos-sakellaridis-por-2-a-0-em-cincinnati-a3ef0b",
+    "sportId": "tenis",
+    "title": "Titouan Droguet vence Stefanos Sakellaridis por 2 a 0 em Cincinnati",
+    "summary": "Titouan Droguet superou Stefanos Sakellaridis por 2 a 0 em Cincinnati.",
+    "content": "Titouan Droguet superou Stefanos Sakellaridis por 2 a 0 em Cincinnati., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Titouan Droguet vence Stefanos Sakellaridis por 2 a 0 em Cincinnati",
+    "seoDescription": "Titouan Droguet superou Stefanos Sakellaridis por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T06:53:44.176Z",
+    "createdAt": "2026-08-13T06:53:44.176Z",
+    "updatedAt": "2026-08-13T06:53:44.176Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4810142",
+      "eventStartTime": "2026-08-13T03:30:08+00:00",
+      "retrievedAt": "2026-08-13T06:53:44.176Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ad231cc68d40",
+    "slug": "minnesota-lynx-vence-portland-fire-por-85-a-81-em-wnba-ad231c",
+    "sportId": "basquete",
+    "title": "Minnesota Lynx vence Portland Fire por 85 a 81 em WNBA",
+    "summary": "Minnesota Lynx superou Portland Fire por 85 a 81 em WNBA.",
+    "content": "Minnesota Lynx superou Portland Fire por 85 a 81 em WNBA., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Minnesota Lynx vence Portland Fire por 85 a 81 em WNBA",
+    "seoDescription": "Minnesota Lynx superou Portland Fire por 85 a 81 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T06:53:44.172Z",
+    "createdAt": "2026-08-13T06:53:44.172Z",
+    "updatedAt": "2026-08-13T06:53:44.172Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659875",
+      "eventStartTime": "2026-08-13T02:00:00+00:00",
+      "retrievedAt": "2026-08-13T06:53:44.172Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9d6dd5ad80da",
+    "slug": "los-angeles-fc-e-queretaro-ficam-no-1-a-1-pelo-leagues-cup-9d6dd5",
+    "sportId": "futebol",
+    "title": "Los Angeles FC e Queretaro ficam no 1 a 1 pelo Leagues Cup",
+    "summary": "Los Angeles FC e Queretaro empataram por 1 a 1 pelo Leagues Cup.",
+    "content": "Los Angeles FC e Queretaro empataram por 1 a 1 pelo Leagues Cup, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "leagues-cup"
+    ],
+    "seoTitle": "Los Angeles FC e Queretaro ficam no 1 a 1 pelo Leagues Cup",
+    "seoDescription": "Los Angeles FC e Queretaro empataram por 1 a 1 pelo Leagues Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T06:53:44.163Z",
+    "createdAt": "2026-08-13T06:53:44.163Z",
+    "updatedAt": "2026-08-13T06:53:44.163Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4684002",
+      "eventStartTime": "2026-08-13T02:30:00+00:00",
+      "retrievedAt": "2026-08-13T06:53:44.163Z",
+      "feedId": "futebol",
+      "league": "Leagues Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-78ba980fbb32",
     "slug": "pericos-de-puebla-vence-piratas-de-campeche-por-5-a-3-na-lmb-78ba98",
     "sportId": "beisebol",
