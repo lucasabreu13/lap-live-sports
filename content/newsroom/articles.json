@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-b985ab424ea8",
+    "slug": "matej-dodig-vence-rudolf-molleker-por-2-a-0-em-hamburg-b985ab",
+    "sportId": "tenis",
+    "title": "Matej Dodig vence Rudolf Molleker por 2 a 0 em Hamburg",
+    "summary": "Matej Dodig superou Rudolf Molleker por 2 a 0 em Hamburg.",
+    "content": "Matej Dodig superou Rudolf Molleker por 2 a 0 em Hamburg., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "hamburg"
+    ],
+    "seoTitle": "Matej Dodig vence Rudolf Molleker por 2 a 0 em Hamburg",
+    "seoDescription": "Matej Dodig superou Rudolf Molleker por 2 a 0 em Hamburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T13:42:16.778Z",
+    "createdAt": "2026-08-13T13:42:16.778Z",
+    "updatedAt": "2026-08-13T13:42:16.778Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809957",
+      "eventStartTime": "2026-08-13T11:43:10+00:00",
+      "retrievedAt": "2026-08-13T13:42:16.778Z",
+      "feedId": "tenis",
+      "league": "Hamburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ec3b18353000",
+    "slug": "brampton-honey-badgers-e-winnipeg-sea-bears-empatam-por-6-a-6-em-cebl-ec3b18",
+    "sportId": "basquete",
+    "title": "Brampton Honey Badgers e Winnipeg Sea Bears empatam por 6 a 6 em CEBL",
+    "summary": "Brampton Honey Badgers e Winnipeg Sea Bears terminaram empatados por 6 a 6 em CEBL.",
+    "content": "Brampton Honey Badgers e Winnipeg Sea Bears terminaram empatados por 6 a 6 em CEBL., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "cebl"
+    ],
+    "seoTitle": "Brampton Honey Badgers e Winnipeg Sea Bears empatam por 6 a 6 em CEBL",
+    "seoDescription": "Brampton Honey Badgers e Winnipeg Sea Bears terminaram empatados por 6 a 6 em CEBL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T13:42:16.775Z",
+    "createdAt": "2026-08-13T13:42:16.775Z",
+    "updatedAt": "2026-08-13T13:42:16.775Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807493",
+      "eventStartTime": "2026-08-12T23:00:00+00:00",
+      "retrievedAt": "2026-08-13T13:42:16.775Z",
+      "feedId": "basquete",
+      "league": "CEBL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-518ac5800810",
+    "slug": "cd-motagua-e-cs-cartagines-ficam-no-1-a-1-pelo-concacaf-central-american-cup-518ac5",
+    "sportId": "futebol",
+    "title": "CD Motagua e CS Cartagines ficam no 1 a 1 pelo CONCACAF Central American Cup",
+    "summary": "CD Motagua e CS Cartagines empataram por 1 a 1 pelo CONCACAF Central American Cup.",
+    "content": "CD Motagua e CS Cartagines empataram por 1 a 1 pelo CONCACAF Central American Cup, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "concacaf-central-american-cup"
+    ],
+    "seoTitle": "CD Motagua e CS Cartagines ficam no 1 a 1 pelo CONCACAF Central",
+    "seoDescription": "CD Motagua e CS Cartagines empataram por 1 a 1 pelo CONCACAF Central American Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T13:42:16.764Z",
+    "createdAt": "2026-08-13T13:42:16.764Z",
+    "updatedAt": "2026-08-13T13:42:16.764Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4730016",
+      "eventStartTime": "2026-08-13T01:00:00+00:00",
+      "retrievedAt": "2026-08-13T13:42:16.764Z",
+      "feedId": "futebol",
+      "league": "CONCACAF Central American Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-1ca918915858",
     "slug": "saba-purtseladze-vence-max-hans-rehberg-por-2-a-1-em-hamburg-1ca918",
     "sportId": "tenis",
