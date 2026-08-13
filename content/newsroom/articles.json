@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-8b1d45791db2",
+    "slug": "jaime-faria-vence-yibing-wu-por-2-a-0-em-cincinnati-8b1d45",
+    "sportId": "tenis",
+    "title": "Jaime Faria vence Yibing Wu por 2 a 0 em Cincinnati",
+    "summary": "Jaime Faria superou Yibing Wu por 2 a 0 em Cincinnati.",
+    "content": "Jaime Faria superou Yibing Wu por 2 a 0 em Cincinnati., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Jaime Faria vence Yibing Wu por 2 a 0 em Cincinnati",
+    "seoDescription": "Jaime Faria superou Yibing Wu por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T03:33:02.879Z",
+    "createdAt": "2026-08-13T03:33:02.879Z",
+    "updatedAt": "2026-08-13T03:33:02.879Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809969",
+      "eventStartTime": "2026-08-13T01:51:48+00:00",
+      "retrievedAt": "2026-08-13T03:33:02.879Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-54426b0cac9b",
+    "slug": "universidad-de-concepcion-vence-leones-de-quilpue-por-97-a-76-em-lnb-54426b",
+    "sportId": "basquete",
+    "title": "Universidad De Concepcion vence Leones De Quilpué por 97 a 76 em LNB",
+    "summary": "Universidad De Concepcion superou Leones De Quilpué por 97 a 76 em LNB.",
+    "content": "Universidad De Concepcion superou Leones De Quilpué por 97 a 76 em LNB., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Universidad De Concepcion vence Leones De Quilpué por 97 a 76 em LNB",
+    "seoDescription": "Universidad De Concepcion superou Leones De Quilpué por 97 a 76 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T03:33:02.875Z",
+    "createdAt": "2026-08-13T03:33:02.875Z",
+    "updatedAt": "2026-08-13T03:33:02.875Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4805833",
+      "eventStartTime": "2026-08-13T01:30:00+00:00",
+      "retrievedAt": "2026-08-13T03:33:02.875Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-919fa331efa7",
+    "slug": "aguacatan-fc-e-huehuetecos-fc-ficam-no-0-a-0-pelo-primera-division-919fa3",
+    "sportId": "futebol",
+    "title": "Aguacatan FC e Huehuetecos FC ficam no 0 a 0 pelo Primera Division",
+    "summary": "Aguacatan FC e Huehuetecos FC empataram por 0 a 0 pelo Primera Division.",
+    "content": "Aguacatan FC e Huehuetecos FC empataram por 0 a 0 pelo Primera Division, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-division"
+    ],
+    "seoTitle": "Aguacatan FC e Huehuetecos FC ficam no 0 a 0 pelo Primera Division",
+    "seoDescription": "Aguacatan FC e Huehuetecos FC empataram por 0 a 0 pelo Primera Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T03:33:02.872Z",
+    "createdAt": "2026-08-13T03:33:02.872Z",
+    "updatedAt": "2026-08-13T03:33:02.872Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4777113",
+      "eventStartTime": "2026-08-13T01:15:00+00:00",
+      "retrievedAt": "2026-08-13T03:33:02.872Z",
+      "feedId": "futebol",
+      "league": "Primera Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-82189bbb2f89",
     "slug": "andres-andrade-vence-joel-josef-schwaerzler-por-1-a-0-em-brownsburg-82189b",
     "sportId": "tenis",
