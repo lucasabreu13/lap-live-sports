@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-4f5b3f114f7f",
+    "slug": "masamichi-imamura-vence-erik-arutiunian-por-2-a-0-em-astana-4f5b3f",
+    "sportId": "tenis",
+    "title": "Masamichi Imamura vence Erik Arutiunian por 2 a 0 em Astana",
+    "summary": "Masamichi Imamura superou Erik Arutiunian por 2 a 0 em Astana.",
+    "content": "Masamichi Imamura superou Erik Arutiunian por 2 a 0 em Astana., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "astana"
+    ],
+    "seoTitle": "Masamichi Imamura vence Erik Arutiunian por 2 a 0 em Astana",
+    "seoDescription": "Masamichi Imamura superou Erik Arutiunian por 2 a 0 em Astana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T08:10:41.231Z",
+    "createdAt": "2026-08-13T08:10:41.231Z",
+    "updatedAt": "2026-08-13T08:10:41.231Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808805",
+      "eventStartTime": "2026-08-13T06:07:35+00:00",
+      "retrievedAt": "2026-08-13T08:10:41.231Z",
+      "feedId": "tenis",
+      "league": "Astana"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-12ad20ca02e2",
+    "slug": "cuenca-basket-vence-san-antonio-gold-por-89-a-61-em-liga-nacional-12ad20",
+    "sportId": "basquete",
+    "title": "Cuenca Basket vence San Antonio Gold por 89 a 61 em Liga Nacional",
+    "summary": "Cuenca Basket superou San Antonio Gold por 89 a 61 em Liga Nacional.",
+    "content": "Cuenca Basket superou San Antonio Gold por 89 a 61 em Liga Nacional., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-nacional"
+    ],
+    "seoTitle": "Cuenca Basket vence San Antonio Gold por 89 a 61 em Liga Nacional",
+    "seoDescription": "Cuenca Basket superou San Antonio Gold por 89 a 61 em Liga Nacional.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T08:10:41.229Z",
+    "createdAt": "2026-08-13T08:10:41.229Z",
+    "updatedAt": "2026-08-13T08:10:41.229Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811384",
+      "eventStartTime": "2026-08-13T01:00:00+00:00",
+      "retrievedAt": "2026-08-13T08:10:41.229Z",
+      "feedId": "basquete",
+      "league": "Liga Nacional"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8899dec8c0e9",
+    "slug": "chivas-supera-seattle-sounders-por-2-a-1-pelo-leagues-cup-8899de",
+    "sportId": "futebol",
+    "title": "Chivas supera Seattle Sounders por 2 a 1 pelo Leagues Cup",
+    "summary": "Chivas venceu Seattle Sounders por 2 a 1 pelo Leagues Cup.",
+    "content": "Chivas venceu Seattle Sounders por 2 a 1 pelo Leagues Cup, em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "leagues-cup"
+    ],
+    "seoTitle": "Chivas supera Seattle Sounders por 2 a 1 pelo Leagues Cup",
+    "seoDescription": "Chivas venceu Seattle Sounders por 2 a 1 pelo Leagues Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T08:10:41.222Z",
+    "createdAt": "2026-08-13T08:10:41.222Z",
+    "updatedAt": "2026-08-13T08:10:41.222Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4684004",
+      "eventStartTime": "2026-08-13T02:30:00+00:00",
+      "retrievedAt": "2026-08-13T08:10:41.222Z",
+      "feedId": "futebol",
+      "league": "Leagues Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-c670809e1877",
     "slug": "sultanes-de-monterrey-vence-charros-de-jalisco-por-6-a-3-na-lmb-c67080",
     "sportId": "beisebol",
