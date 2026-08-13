@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-56b31e5eea44",
+    "slug": "kamilla-rakhimova-vence-kimberly-birrell-por-2-a-0-em-cincinnati-56b31e",
+    "sportId": "tenis",
+    "title": "Kamilla Rakhimova vence Kimberly Birrell por 2 a 0 em Cincinnati",
+    "summary": "Kamilla Rakhimova superou Kimberly Birrell por 2 a 0 em Cincinnati.",
+    "content": "Kamilla Rakhimova superou Kimberly Birrell por 2 a 0 em Cincinnati., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Kamilla Rakhimova vence Kimberly Birrell por 2 a 0 em Cincinnati",
+    "seoDescription": "Kamilla Rakhimova superou Kimberly Birrell por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T16:32:22.895Z",
+    "createdAt": "2026-08-13T16:32:22.895Z",
+    "updatedAt": "2026-08-13T16:32:22.895Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809647",
+      "eventStartTime": "2026-08-13T15:08:48+00:00",
+      "retrievedAt": "2026-08-13T16:32:22.895Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9afe5f63972c",
+    "slug": "as-far-rabat-e-chabab-khenifra-ficam-no-0-a-0-pelo-club-friendlies-9afe5f",
+    "sportId": "futebol",
+    "title": "AS Far Rabat e Chabab Khénifra ficam no 0 a 0 pelo Club Friendlies",
+    "summary": "AS Far Rabat e Chabab Khénifra empataram por 0 a 0 pelo Club Friendlies.",
+    "content": "AS Far Rabat e Chabab Khénifra empataram por 0 a 0 pelo Club Friendlies, em 13 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "AS Far Rabat e Chabab Khénifra ficam no 0 a 0 pelo Club Friendlies",
+    "seoDescription": "AS Far Rabat e Chabab Khénifra empataram por 0 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T16:32:22.882Z",
+    "createdAt": "2026-08-13T16:32:22.882Z",
+    "updatedAt": "2026-08-13T16:32:22.882Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808071",
+      "eventStartTime": "2026-08-13T16:00:00+00:00",
+      "retrievedAt": "2026-08-13T16:32:22.882Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-029ccad3c06e",
     "slug": "quinn-vandecasteele-vence-abdullah-shelbayh-por-2-a-0-em-brownsburg-029cca",
     "sportId": "tenis",
