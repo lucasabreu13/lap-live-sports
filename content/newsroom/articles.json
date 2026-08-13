@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-2660540af677",
+    "slug": "corentin-moutet-e-hubert-hurkacz-empatam-por-0-a-0-em-cincinnati-266054",
+    "sportId": "tenis",
+    "title": "Corentin Moutet e Hubert Hurkacz empatam por 0 a 0 em Cincinnati",
+    "summary": "Corentin Moutet e Hubert Hurkacz terminaram empatados por 0 a 0 em Cincinnati.",
+    "content": "Corentin Moutet e Hubert Hurkacz terminaram empatados por 0 a 0 em Cincinnati., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Corentin Moutet e Hubert Hurkacz empatam por 0 a 0 em Cincinnati",
+    "seoDescription": "Corentin Moutet e Hubert Hurkacz terminaram empatados por 0 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T14:43:01.467Z",
+    "createdAt": "2026-08-13T14:43:01.467Z",
+    "updatedAt": "2026-08-13T14:43:01.467Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809622",
+      "eventStartTime": "2026-08-13T14:00:00+00:00",
+      "retrievedAt": "2026-08-13T14:43:01.467Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-289eb145bf97",
+    "slug": "mogi-das-cruzes-vence-sao-jose-por-101-a-67-em-paulista-basketball-289eb1",
+    "sportId": "basquete",
+    "title": "Mogi das Cruzes vence São José por 101 a 67 em Paulista Basketball",
+    "summary": "Mogi das Cruzes superou São José por 101 a 67 em Paulista Basketball.",
+    "content": "Mogi das Cruzes superou São José por 101 a 67 em Paulista Basketball., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "paulista-basketball"
+    ],
+    "seoTitle": "Mogi das Cruzes vence São José por 101 a 67 em Paulista Basketball",
+    "seoDescription": "Mogi das Cruzes superou São José por 101 a 67 em Paulista Basketball.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T14:43:01.464Z",
+    "createdAt": "2026-08-13T14:43:01.464Z",
+    "updatedAt": "2026-08-13T14:43:01.464Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808375",
+      "eventStartTime": "2026-08-12T23:00:00+00:00",
+      "retrievedAt": "2026-08-13T14:43:01.464Z",
+      "feedId": "basquete",
+      "league": "Paulista Basketball"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-998d7af3b404",
+    "slug": "chiquimulilla-supera-sacachispas-chiquimula-por-3-a-1-pelo-primera-division-998d7a",
+    "sportId": "futebol",
+    "title": "Chiquimulilla supera Sacachispas Chiquimula por 3 a 1 pelo Primera Division",
+    "summary": "Chiquimulilla venceu Sacachispas Chiquimula por 3 a 1 pelo Primera Division.",
+    "content": "Chiquimulilla venceu Sacachispas Chiquimula por 3 a 1 pelo Primera Division, em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-division"
+    ],
+    "seoTitle": "Chiquimulilla supera Sacachispas Chiquimula por 3 a 1 pelo Primera",
+    "seoDescription": "Chiquimulilla venceu Sacachispas Chiquimula por 3 a 1 pelo Primera Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T14:43:01.453Z",
+    "createdAt": "2026-08-13T14:43:01.453Z",
+    "updatedAt": "2026-08-13T14:43:01.453Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4777118",
+      "eventStartTime": "2026-08-13T01:00:00+00:00",
+      "retrievedAt": "2026-08-13T14:43:01.453Z",
+      "feedId": "futebol",
+      "league": "Primera Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-b985ab424ea8",
     "slug": "matej-dodig-vence-rudolf-molleker-por-2-a-0-em-hamburg-b985ab",
     "sportId": "tenis",
