@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-9e08999d8678",
+    "slug": "aziz-dougaz-vence-manas-manoj-dhamne-por-2-a-0-em-astana-9e0899",
+    "sportId": "tenis",
+    "title": "Aziz Dougaz vence Manas Manoj Dhamne por 2 a 0 em Astana",
+    "summary": "Aziz Dougaz superou Manas Manoj Dhamne por 2 a 0 em Astana.",
+    "content": "Aziz Dougaz superou Manas Manoj Dhamne por 2 a 0 em Astana., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "astana"
+    ],
+    "seoTitle": "Aziz Dougaz vence Manas Manoj Dhamne por 2 a 0 em Astana",
+    "seoDescription": "Aziz Dougaz superou Manas Manoj Dhamne por 2 a 0 em Astana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T09:30:54.397Z",
+    "createdAt": "2026-08-13T09:30:54.397Z",
+    "updatedAt": "2026-08-13T09:30:54.397Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809958",
+      "eventStartTime": "2026-08-13T07:36:33+00:00",
+      "retrievedAt": "2026-08-13T09:30:54.397Z",
+      "feedId": "tenis",
+      "league": "Astana"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-95b2816889f8",
+    "slug": "cd-jorge-guzman-vence-zamora-raptors-por-83-a-64-em-liga-nacional-95b281",
+    "sportId": "basquete",
+    "title": "CD Jorge Guzman vence Zamora Raptors por 83 a 64 em Liga Nacional",
+    "summary": "CD Jorge Guzman superou Zamora Raptors por 83 a 64 em Liga Nacional.",
+    "content": "CD Jorge Guzman superou Zamora Raptors por 83 a 64 em Liga Nacional., em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-nacional"
+    ],
+    "seoTitle": "CD Jorge Guzman vence Zamora Raptors por 83 a 64 em Liga Nacional",
+    "seoDescription": "CD Jorge Guzman superou Zamora Raptors por 83 a 64 em Liga Nacional.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T09:30:54.393Z",
+    "createdAt": "2026-08-13T09:30:54.393Z",
+    "updatedAt": "2026-08-13T09:30:54.393Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811385",
+      "eventStartTime": "2026-08-13T01:00:00+00:00",
+      "retrievedAt": "2026-08-13T09:30:54.393Z",
+      "feedId": "basquete",
+      "league": "Liga Nacional"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d449b67c9dd5",
+    "slug": "san-diego-fc-supera-puebla-por-3-a-2-pelo-leagues-cup-d449b6",
+    "sportId": "futebol",
+    "title": "San Diego FC supera Puebla por 3 a 2 pelo Leagues Cup",
+    "summary": "San Diego FC venceu Puebla por 3 a 2 pelo Leagues Cup.",
+    "content": "San Diego FC venceu Puebla por 3 a 2 pelo Leagues Cup, em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "leagues-cup"
+    ],
+    "seoTitle": "San Diego FC supera Puebla por 3 a 2 pelo Leagues Cup",
+    "seoDescription": "San Diego FC venceu Puebla por 3 a 2 pelo Leagues Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T09:30:54.384Z",
+    "createdAt": "2026-08-13T09:30:54.384Z",
+    "updatedAt": "2026-08-13T09:30:54.384Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4684003",
+      "eventStartTime": "2026-08-13T02:15:00+00:00",
+      "retrievedAt": "2026-08-13T09:30:54.384Z",
+      "feedId": "futebol",
+      "league": "Leagues Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4f5b3f114f7f",
     "slug": "masamichi-imamura-vence-erik-arutiunian-por-2-a-0-em-astana-4f5b3f",
     "sportId": "tenis",
