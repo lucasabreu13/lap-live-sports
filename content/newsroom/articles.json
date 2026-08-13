@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-758ab043ad2a",
+    "slug": "siniakova-k-zhang-s-vence-errani-s-melichar-martinez-n-por-2-a-0-em-toronto-758ab0",
+    "sportId": "tenis",
+    "title": "Siniakova K./Zhang S. vence Errani S./Melichar-Martinez N. por 2 a 0 em Toronto",
+    "summary": "Siniakova K./Zhang S. superou Errani S./Melichar-Martinez N. por 2 a 0 em Toronto.",
+    "content": "Siniakova K./Zhang S. superou Errani S./Melichar-Martinez N. por 2 a 0 em Toronto., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "toronto"
+    ],
+    "seoTitle": "Siniakova K./Zhang S. vence Errani S./Melichar-Martinez N. por 2 a 0",
+    "seoDescription": "Siniakova K./Zhang S. superou Errani S./Melichar-Martinez N. por 2 a 0 em Toronto.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T21:10:23.701Z",
+    "createdAt": "2026-08-13T21:10:23.701Z",
+    "updatedAt": "2026-08-13T21:10:23.701Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811611",
+      "eventStartTime": "2026-08-13T19:40:12+00:00",
+      "retrievedAt": "2026-08-13T21:10:23.701Z",
+      "feedId": "tenis",
+      "league": "Toronto"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8240c457db43",
+    "slug": "njardvik-supera-grotta-por-4-a-1-pelo-inkasso-deildin-8240c4",
+    "sportId": "futebol",
+    "title": "Njardvik supera Grotta por 4 a 1 pelo Inkasso Deildin",
+    "summary": "Njardvik venceu Grotta por 4 a 1 pelo Inkasso Deildin.",
+    "content": "Njardvik venceu Grotta por 4 a 1 pelo Inkasso Deildin, em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "inkasso-deildin"
+    ],
+    "seoTitle": "Njardvik supera Grotta por 4 a 1 pelo Inkasso Deildin",
+    "seoDescription": "Njardvik venceu Grotta por 4 a 1 pelo Inkasso Deildin.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T21:10:23.681Z",
+    "createdAt": "2026-08-13T21:10:23.681Z",
+    "updatedAt": "2026-08-13T21:10:23.681Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4661992",
+      "eventStartTime": "2026-08-13T19:15:00+00:00",
+      "retrievedAt": "2026-08-13T21:10:23.681Z",
+      "feedId": "futebol",
+      "league": "Inkasso Deildin"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5e1d0540d884",
     "slug": "ram-r-salisbury-j-e-lammons-n-withrow-j-empatam-por-0-a-0-em-brownsburg-5e1d05",
     "sportId": "tenis",
