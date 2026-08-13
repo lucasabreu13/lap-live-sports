@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-1ca918915858",
+    "slug": "saba-purtseladze-vence-max-hans-rehberg-por-2-a-1-em-hamburg-1ca918",
+    "sportId": "tenis",
+    "title": "Saba Purtseladze vence Max Hans Rehberg por 2 a 1 em Hamburg",
+    "summary": "Saba Purtseladze superou Max Hans Rehberg por 2 a 1 em Hamburg.",
+    "content": "Saba Purtseladze superou Max Hans Rehberg por 2 a 1 em Hamburg., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "hamburg"
+    ],
+    "seoTitle": "Saba Purtseladze vence Max Hans Rehberg por 2 a 1 em Hamburg",
+    "seoDescription": "Saba Purtseladze superou Max Hans Rehberg por 2 a 1 em Hamburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T12:06:51.860Z",
+    "createdAt": "2026-08-13T12:06:51.860Z",
+    "updatedAt": "2026-08-13T12:06:51.860Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808876",
+      "eventStartTime": "2026-08-13T08:37:39+00:00",
+      "retrievedAt": "2026-08-13T12:06:51.860Z",
+      "feedId": "tenis",
+      "league": "Hamburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4166181e0442",
+    "slug": "japan-w-vence-south-korea-w-por-77-a-59-em-international-friendly-w-416618",
+    "sportId": "basquete",
+    "title": "Japan (W) vence South Korea (W) por 77 a 59 em International Friendly (W)",
+    "summary": "Japan (W) superou South Korea (W) por 77 a 59 em International Friendly (W).",
+    "content": "Japan (W) superou South Korea (W) por 77 a 59 em International Friendly (W)., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendly-w"
+    ],
+    "seoTitle": "Japan (W) vence South Korea (W) por 77 a 59 em International Friendly",
+    "seoDescription": "Japan (W) superou South Korea (W) por 77 a 59 em International Friendly (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T12:06:51.852Z",
+    "createdAt": "2026-08-13T12:06:51.852Z",
+    "updatedAt": "2026-08-13T12:06:51.852Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811813",
+      "eventStartTime": "2026-08-13T10:00:00+00:00",
+      "retrievedAt": "2026-08-13T12:06:51.852Z",
+      "feedId": "basquete",
+      "league": "International Friendly (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7aefe16acf57",
+    "slug": "deportivo-mictlan-supera-nueva-santa-rosa-cdf-por-2-a-0-pelo-primera-division-7aefe1",
+    "sportId": "futebol",
+    "title": "Deportivo Mictlan supera Nueva Santa Rosa CDF por 2 a 0 pelo Primera Division",
+    "summary": "Deportivo Mictlan venceu Nueva Santa Rosa CDF por 2 a 0 pelo Primera Division.",
+    "content": "Deportivo Mictlan venceu Nueva Santa Rosa CDF por 2 a 0 pelo Primera Division, em 12 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-division"
+    ],
+    "seoTitle": "Deportivo Mictlan supera Nueva Santa Rosa CDF por 2 a 0 pelo Primera",
+    "seoDescription": "Deportivo Mictlan venceu Nueva Santa Rosa CDF por 2 a 0 pelo Primera Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-13T12:06:51.847Z",
+    "createdAt": "2026-08-13T12:06:51.847Z",
+    "updatedAt": "2026-08-13T12:06:51.847Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4777115",
+      "eventStartTime": "2026-08-13T02:00:00+00:00",
+      "retrievedAt": "2026-08-13T12:06:51.847Z",
+      "feedId": "futebol",
+      "league": "Primera Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3b67be7dd04f",
     "slug": "nedunchezhiyan-j-wang-a-vence-sueoka-y-tajima-n-por-2-a-0-em-astana-3b67be",
     "sportId": "tenis",
