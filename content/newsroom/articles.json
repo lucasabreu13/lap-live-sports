@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-8b1c0847108a",
+    "slug": "mansilla-diez-m-winter-lopez-b-vence-michalski-d-roca-batalla-o-por-2-a-1-em-todi-8b1c08",
+    "sportId": "tenis",
+    "title": "Mansilla Diez M./Winter Lopez B. vence Michalski D./Roca Batalla O. por 2 a 1 em Todi",
+    "summary": "Mansilla Diez M./Winter Lopez B. superou Michalski D./Roca Batalla O. por 2 a 1 em Todi.",
+    "content": "Mansilla Diez M./Winter Lopez B. superou Michalski D./Roca Batalla O. por 2 a 1 em Todi., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "todi"
+    ],
+    "seoTitle": "Mansilla Diez M./Winter Lopez B. vence Michalski D./Roca Batalla O.",
+    "seoDescription": "Mansilla Diez M./Winter Lopez B. superou Michalski D./Roca Batalla O. por 2 a 1 em Todi.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T18:12:13.864Z",
+    "createdAt": "2026-08-14T18:12:13.864Z",
+    "updatedAt": "2026-08-14T18:12:13.864Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4812151",
+      "eventStartTime": "2026-08-14T16:24:07+00:00",
+      "retrievedAt": "2026-08-14T18:12:13.864Z",
+      "feedId": "tenis",
+      "league": "Todi"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-29d826d4b527",
+    "slug": "bergisch-gladbach-e-dortmund-ii-ficam-no-0-a-0-pela-regionalliga-29d826",
+    "sportId": "futebol",
+    "title": "Bergisch Gladbach e Dortmund II ficam no 0 a 0 pela Regionalliga",
+    "summary": "Bergisch Gladbach e Dortmund II empataram por 0 a 0 pela Regionalliga.",
+    "content": "Bergisch Gladbach e Dortmund II empataram por 0 a 0 pela Regionalliga, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "regionalliga"
+    ],
+    "seoTitle": "Bergisch Gladbach e Dortmund II ficam no 0 a 0 pela Regionalliga",
+    "seoDescription": "Bergisch Gladbach e Dortmund II empataram por 0 a 0 pela Regionalliga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T18:12:13.842Z",
+    "createdAt": "2026-08-14T18:12:13.842Z",
+    "updatedAt": "2026-08-14T18:12:13.842Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4769328",
+      "eventStartTime": "2026-08-14T17:30:00+00:00",
+      "retrievedAt": "2026-08-14T18:12:13.842Z",
+      "feedId": "futebol",
+      "league": "Regionalliga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-b3e2850bb275",
     "slug": "marco-cecchinato-vence-juan-bautista-torres-por-2-a-0-em-todi-b3e285",
     "sportId": "tenis",
@@ -12369,90 +12453,6 @@
       "retrievedAt": "2026-07-23T15:22:34.864Z",
       "feedId": "futebol",
       "league": "Copa Sul-Americana"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1cdffdeee87f",
-    "slug": "lanus-supera-cienciano-del-cusco-por-2-a-0-pela-copa-sul-americana-1cdffd",
-    "sportId": "futebol",
-    "title": "Lanús supera Cienciano del Cusco por 2 a 0 pela Copa Sul Americana",
-    "summary": "Lanús venceu Cienciano del Cusco por 2 a 0 pela Copa Sul Americana.",
-    "content": "Lanús venceu Cienciano del Cusco por 2 a 0 pela Copa Sul Americana, em 22 de julho de 2026 no Ciudad de Lanús.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-sul-americana"
-    ],
-    "seoTitle": "Lanús supera Cienciano del Cusco por 2 a 0 pela Copa Sul Americana",
-    "seoDescription": "Lanús venceu Cienciano del Cusco por 2 a 0 pela Copa Sul Americana.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T15:21:59.839Z",
-    "createdAt": "2026-07-23T15:21:59.839Z",
-    "updatedAt": "2026-07-23T15:21:59.839Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "401874166",
-      "eventStartTime": "2026-07-23T00:30Z",
-      "retrievedAt": "2026-07-23T15:21:59.839Z",
-      "feedId": "futebol",
-      "league": "Copa Sul-Americana"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-941135fd013e",
-    "slug": "colorado-rapids-supera-san-diego-fc-por-1-a-0-pelo-mls-941135",
-    "sportId": "futebol",
-    "title": "Colorado Rapids supera San Diego FC por 1 a 0 pela MLS",
-    "summary": "Colorado Rapids venceu San Diego FC por 1 a 0 pela MLS.",
-    "content": "Colorado Rapids venceu San Diego FC por 1 a 0 pela MLS, em 22 de julho de 2026 no Dick's Sporting Goods Park.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Colorado Rapids supera San Diego FC por 1 a 0 pela MLS",
-    "seoDescription": "Colorado Rapids venceu San Diego FC por 1 a 0 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T13:24:01.866Z",
-    "createdAt": "2026-07-23T13:24:01.866Z",
-    "updatedAt": "2026-07-23T13:24:01.866Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761675",
-      "eventStartTime": "2026-07-23T01:30Z",
-      "retrievedAt": "2026-07-23T13:24:01.866Z",
-      "feedId": "futebol",
-      "league": "MLS"
     },
     "articleFormat": "result-brief"
   }
