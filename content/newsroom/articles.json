@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-8429f3b2b211",
+    "slug": "marco-trungelliti-vence-hamad-medjedovic-por-2-a-0-em-cincinnati-8429f3",
+    "sportId": "tenis",
+    "title": "Marco Trungelliti vence Hamad Medjedovic por 2 a 0 em Cincinnati",
+    "summary": "Marco Trungelliti superou Hamad Medjedovic por 2 a 0 em Cincinnati.",
+    "content": "Marco Trungelliti superou Hamad Medjedovic por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Marco Trungelliti vence Hamad Medjedovic por 2 a 0 em Cincinnati",
+    "seoDescription": "Marco Trungelliti superou Hamad Medjedovic por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T23:34:18.571Z",
+    "createdAt": "2026-08-14T23:34:18.571Z",
+    "updatedAt": "2026-08-14T23:34:18.571Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813399",
+      "eventStartTime": "2026-08-14T20:50:46+00:00",
+      "retrievedAt": "2026-08-14T23:34:18.571Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4e1d08801138",
+    "slug": "2-de-mayo-supera-recoleta-fc-por-2-a-1-pela-copa-de-primera-4e1d08",
+    "sportId": "futebol",
+    "title": "2 de Mayo supera Recoleta FC por 2 a 1 pela Copa de Primera",
+    "summary": "2 de Mayo venceu Recoleta FC por 2 a 1 pela Copa de Primera.",
+    "content": "2 de Mayo venceu Recoleta FC por 2 a 1 pela Copa de Primera, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-de-primera"
+    ],
+    "seoTitle": "2 de Mayo supera Recoleta FC por 2 a 1 pela Copa de Primera",
+    "seoDescription": "2 de Mayo venceu Recoleta FC por 2 a 1 pela Copa de Primera.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T23:34:18.541Z",
+    "createdAt": "2026-08-14T23:34:18.541Z",
+    "updatedAt": "2026-08-14T23:34:18.541Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4764155",
+      "eventStartTime": "2026-08-14T21:30:00+00:00",
+      "retrievedAt": "2026-08-14T23:34:18.541Z",
+      "feedId": "futebol",
+      "league": "Copa de Primera"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ad9e6a7a8dce",
     "slug": "alianza-reserves-e-cacahuatique-reserves-ficam-no-0-a-0-pelo-torneo-reservas-ad9e6a",
     "sportId": "futebol",
@@ -12433,78 +12517,6 @@
       "https://www.reuters.com/sports/lebron-james-joining-philadelphia-76ers-record-extending-24th-nba-season-2026-07-24/",
       "https://apnews.com/article/1db738a3a8c29aab2be24b1bc8082ae9",
       "https://www.nba.com/news/lebron-james-free-agency-2026"
-    ]
-  },
-  {
-    "id": "curated-corinthians-remo-20260724",
-    "slug": "corinthians-goleia-remo-sobe-para-setimo-e-diniz-define-postura-sobre-bidon-e-andre",
-    "sportId": "futebol",
-    "title": "Corinthians goleia o Remo, sobe para 7º e Diniz define postura sobre Bidon e André",
-    "summary": "Yuri Alberto marcou duas vezes, Kaio César completou o 3 a 0 na Neo Química Arena e o Corinthians fechou o primeiro turno em 7º, com 27 pontos; Diniz também disse que o clube pretende evitar vender Breno Bidon e André juntos nesta janela.",
-    "content": "O Corinthians voltou ao Campeonato Brasileiro com uma das atuações mais convincentes da temporada. Na noite de quinta-feira, o time venceu o Remo por 3 a 0 na Neo Química Arena, fez todos os gols no primeiro tempo e terminou o primeiro turno na sétima colocação, com 27 pontos.\n\nYuri Alberto abriu o placar aos 26 minutos e voltou a marcar no fim da etapa inicial. Entre os dois gols do centroavante, Kaio César ampliou após jogada construída pelo lado direito. O desempenho do Corinthians foi marcado por posse, aproximação e participação dos meio-campistas, com André e Breno Bidon envolvidos diretamente nas jogadas ofensivas.\n\nAlém do resultado, a noite trouxe uma definição importante de mercado. Fernando Diniz afirmou que existe um alinhamento interno para que Breno Bidon e André não sejam negociados ao mesmo tempo nesta janela. O treinador reconheceu que o clube precisa fazer uma venda relevante para equilibrar as contas, mas defendeu a manutenção da estrutura competitiva do elenco. No momento, segundo o ge, não há proposta formal na mesa pelos dois.\n\nA vitória dá ao Corinthians um ponto de partida melhor para o segundo turno, mas o próximo teste chega rápido. O time enfrenta o Bahia no domingo, às 16h, na Arena Fonte Nova, em um confronto direto na parte de cima da tabela. A LAP seguirá tratando interesse de mercado como interesse e só publicará negociação como concluída quando houver confirmação oficial ou fonte verificável.",
-    "sourceName": "Fonte verificada: ge",
-    "sourceUrl": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/07/24/analise-corinthians-tem-atuacao-promissora-com-vitoria-tranquila-em-retorno-da-pausa.ghtml",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "futebol",
-      "corinthians",
-      "brasileirao",
-      "yuri-alberto",
-      "breno-bidon",
-      "andre",
-      "fernando-diniz"
-    ],
-    "seoTitle": "Corinthians goleia Remo, sobe para 7º e Diniz fala sobre Bidon e André",
-    "seoDescription": "Corinthians vence o Remo por 3 a 0, fecha o primeiro turno em 7º e Diniz diz que clube não quer vender Bidon e André juntos.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-24T14:14:00.000Z",
-    "createdAt": "2026-07-24T14:14:00.000Z",
-    "updatedAt": "2026-07-24T14:14:00.000Z",
-    "homepagePriority": 98,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://ge.globo.com/futebol/times/corinthians/noticia/2026/07/24/analise-corinthians-tem-atuacao-promissora-com-vitoria-tranquila-em-retorno-da-pausa.ghtml",
-      "https://ge.globo.com/futebol/times/corinthians/noticia/2026/07/24/bidon-ou-andre-diniz-revela-consenso-no-corinthians-para-nao-vender-os-dois-juntos-nesta-janela.ghtml",
-      "https://ge.globo.com/futebol/times/corinthians/noticia/2026/07/23/diniz-elogia-jogo-do-corinthians-mas-minimiza-efeitos-da-pausa-nao-existe-magica-com-25-dias.ghtml"
-    ]
-  },
-  {
-    "id": "curated-united-midfield-20260724",
-    "slug": "united-monitora-camavinga-berge-e-manu-kone-mas-ainda-sem-novo-acordo-no-meio",
-    "sportId": "futebol",
-    "title": "United monitora Camavinga, Berge e Manu Koné, mas ainda sem novo acordo no meio",
-    "summary": "Após a saída de Casemiro e a lesão de Ugarte, o Manchester United avalia novas opções para o meio-campo; os nomes seguem como alvos reportados, não contratações fechadas.",
-    "content": "O Manchester United continua trabalhando para reorganizar o meio-campo. Depois da saída de Casemiro e com Manuel Ugarte enfrentando uma lesão de joelho de longa duração, o clube avalia novas opções para ampliar a rotação.\n\nEntre os nomes reportados estão Eduardo Camavinga, do Real Madrid, Sander Berge, do Fulham, Alex Scott, do Bournemouth, e Manu Koné, da Roma. A diferença entre monitorar e contratar é importante: interesse, avaliação interna e consulta de condições não significam que exista acordo entre clubes ou com o jogador.\n\nPor isso, a LAP mantém esses movimentos na categoria mercado enquanto não houver confirmação. O United já reforçou o setor nesta janela, mas a busca por mais uma peça mostra que profundidade e disponibilidade física ainda são prioridades antes do início da temporada.",
-    "sourceName": "Fonte verificada: The Guardian",
-    "sourceUrl": "https://www.theguardian.com/football/2026/jul/23/manchester-united-consider-eduardo-camavinga-sander-berge-midfield-overhaul",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "futebol",
-      "manchester-united",
-      "mercado",
-      "camavinga",
-      "manu-kone"
-    ],
-    "seoTitle": "Manchester United monitora Camavinga, Berge e Manu Koné para o meio",
-    "seoDescription": "United avalia novas opções de meio-campo após saída de Casemiro; nomes seguem como alvos reportados, sem acordo confirmado.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-24T13:31:00.000Z",
-    "createdAt": "2026-07-24T13:31:00.000Z",
-    "updatedAt": "2026-07-24T13:31:00.000Z",
-    "homepagePriority": 87,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.theguardian.com/football/2026/jul/23/manchester-united-consider-eduardo-camavinga-sander-berge-midfield-overhaul"
     ]
   }
 ]
