@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-07c8a016fbca",
+    "slug": "blake-bayldon-trey-hilderbrand-vence-kozlov-b-kozlov-s-por-2-a-0-em-brownsburg-07c8a0",
+    "sportId": "tenis",
+    "title": "Blake Bayldon / Trey Hilderbrand vence Kozlov B./Kozlov S. por 2 a 0 em Brownsburg",
+    "summary": "Blake Bayldon / Trey Hilderbrand superou Kozlov B./Kozlov S. por 2 a 0 em Brownsburg.",
+    "content": "Blake Bayldon / Trey Hilderbrand superou Kozlov B./Kozlov S. por 2 a 0 em Brownsburg., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "brownsburg"
+    ],
+    "seoTitle": "Blake Bayldon / Trey Hilderbrand vence Kozlov B./Kozlov S. por 2 a 0",
+    "seoDescription": "Blake Bayldon / Trey Hilderbrand superou Kozlov B./Kozlov S. por 2 a 0 em Brownsburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T21:57:51.810Z",
+    "createdAt": "2026-08-14T21:57:51.810Z",
+    "updatedAt": "2026-08-14T21:57:51.810Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808200",
+      "eventStartTime": "2026-08-14T19:08:31+00:00",
+      "retrievedAt": "2026-08-14T21:57:51.810Z",
+      "feedId": "tenis",
+      "league": "Brownsburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-86767d0c5df0",
+    "slug": "cd-yanapuma-w-supera-defensores-w-por-3-a-2-pelo-women-league-86767d",
+    "sportId": "futebol",
+    "title": "CD Yanapuma (W) supera Defensores (W) por 3 a 2 pelo Women League",
+    "summary": "CD Yanapuma (W) venceu Defensores (W) por 3 a 2 pelo Women League.",
+    "content": "CD Yanapuma (W) venceu Defensores (W) por 3 a 2 pelo Women League, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "women-league"
+    ],
+    "seoTitle": "CD Yanapuma (W) supera Defensores (W) por 3 a 2 pelo Women League",
+    "seoDescription": "CD Yanapuma (W) venceu Defensores (W) por 3 a 2 pelo Women League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T21:57:51.780Z",
+    "createdAt": "2026-08-14T21:57:51.780Z",
+    "updatedAt": "2026-08-14T21:57:51.780Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814964",
+      "eventStartTime": "2026-08-14T20:00:00+00:00",
+      "retrievedAt": "2026-08-14T21:57:51.780Z",
+      "feedId": "futebol",
+      "league": "Women League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-39c6777890e8",
     "slug": "cash-r-stevens-b-vence-milavsky-d-puttergill-c-por-2-a-0-em-brownsburg-39c677",
     "sportId": "tenis",
@@ -12384,76 +12468,6 @@
     "sourceUrls": [
       "https://www.nfl.com/news/nfl-training-camps-for-2026-season-open-this-week",
       "https://www.nfl.com/news/2026-nfl-training-camps-report-dates-locations-announced-for-all-32-teams"
-    ]
-  },
-  {
-    "id": "curated-f1-fp1-hungria-20260724",
-    "slug": "leclerc-lidera-tl1-na-hungria-antonelli-fica-fora-da-primeira-sessao",
-    "sportId": "formula1",
-    "title": "Leclerc lidera TL1 na Hungria; Antonelli fica fora da primeira sessão",
-    "summary": "Charles Leclerc marcou 1min19s075 e liderou o primeiro treino no Hungaroring; Max Verstappen foi segundo e Lewis Hamilton terceiro, enquanto Kimi Antonelli cedeu o carro a Frederik Vesti.",
-    "content": "A sexta-feira do GP da Hungria começou com Ferrari na frente. Charles Leclerc foi o mais rápido do primeiro treino livre com 1min19s075, abrindo quase meio segundo para Max Verstappen. Lewis Hamilton colocou a outra Ferrari em terceiro, embora tenha relatado dificuldades de comportamento do carro ao longo da sessão.\n\nO líder do campeonato, Kimi Antonelli, não participou do TL1. A Mercedes colocou o reserva Frederik Vesti no carro do italiano, uma prática comum para cumprir sessões destinadas a pilotos de desenvolvimento. Isso deixa Antonelli com menos tempo de pista antes do TL2, especialmente relevante em Hungaroring, onde ritmo de uma volta e posição de largada pesam muito porque ultrapassar costuma ser difícil.\n\nLeclerc encerrou a atividade antes do previsto com suspeita de problema técnico. Portanto, o P1 da Ferrari é uma boa primeira referência, mas ainda não define a hierarquia do fim de semana. O TL2 passa a ser o primeiro comparativo mais completo de ritmo longo, degradação de pneus e preparação para a corrida.",
-    "sourceName": "Fonte verificada: Reuters / Formula 1",
-    "sourceUrl": "https://www.reuters.com/sports/formula1/leclerc-fastest-first-hungary-practice-2026-07-24/",
-    "coverImageUrl": "/images/sports/formula1.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "formula1",
-      "gp-da-hungria",
-      "charles-leclerc",
-      "kimi-antonelli",
-      "tl1"
-    ],
-    "seoTitle": "Leclerc lidera primeiro treino do GP da Hungria de 2026",
-    "seoDescription": "Leclerc liderou o TL1 no Hungaroring à frente de Verstappen e Hamilton; Antonelli não participou da sessão.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-24T13:26:00.000Z",
-    "createdAt": "2026-07-24T13:26:00.000Z",
-    "updatedAt": "2026-07-24T13:26:00.000Z",
-    "homepagePriority": 99,
-    "breaking": true,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.reuters.com/sports/formula1/leclerc-fastest-first-hungary-practice-2026-07-24/",
-      "https://www.formula1.com/en/latest/article/formula-1-aws-hungarian-grand-prix-2026.6rqroq0TO24FJxxSOxwXVq"
-    ]
-  },
-  {
-    "id": "curated-tour-alpe-20260724",
-    "slug": "tour-chega-ao-alpe-dhuez-com-pogacar-sob-teste-apos-doenca-atingir-uae",
-    "sportId": "ciclismo",
-    "title": "Tour chega ao Alpe d’Huez com Pogačar sob teste após doença atingir a UAE",
-    "summary": "A 19ª etapa tem 127,9 km entre Gap e Alpe d’Huez; Pogačar começou o dia 4min32s à frente de Evenepoel, mas perdeu Brandon McNulty e viu outros gregários afetados por doença.",
-    "content": "O Tour de France entrou nesta sexta-feira em um dos trechos mais aguardados da edição de 2026. A 19ª etapa liga Gap ao Alpe d’Huez em 127,9 km e recoloca a classificação geral sob pressão antes de mais uma chegada de montanha no sábado. Tadej Pogačar começou o dia com 4min32s de vantagem sobre Remco Evenepoel.\n\nO ponto novo não é a margem do líder, mas a condição coletiva da UAE Team Emirates XRG. Brandon McNulty abandonou a prova na etapa anterior por doença, enquanto Tim Wellens e Florian Vermeersch também demonstraram dificuldades. Em uma etapa curta e agressiva, perder gregários significa ter menos corredores para controlar fugas, neutralizar ataques e proteger o líder antes da subida decisiva.\n\nIsso não transforma Pogačar em azarão. A vantagem continua relevante e o esloveno permanece no controle da corrida. Mas abre uma oportunidade tática para Evenepoel e outros rivais testarem a UAE mais cedo. No Alpe d’Huez, o que importa não é apenas quem ataca, mas quanto apoio cada candidato ainda terá quando a estrada inclinar de verdade.",
-    "sourceName": "Fontes verificadas: The Guardian, Reuters",
-    "sourceUrl": "https://www.theguardian.com/sport/live/2026/jul/24/tour-de-france-2026-stage-19-from-gap-to-alpe-dhuez-live",
-    "coverImageUrl": "/images/sports/ciclismo.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "ciclismo",
-      "tour-de-france",
-      "tadej-pogacar",
-      "remco-evenepoel",
-      "alpe-dhuez"
-    ],
-    "seoTitle": "Tour de France: Pogačar chega ao Alpe d’Huez com UAE afetada por doença",
-    "seoDescription": "Pogačar defende 4min32s sobre Evenepoel na etapa 19 do Tour, enquanto doença reduz o apoio da UAE antes do Alpe d’Huez.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-24T13:25:00.000Z",
-    "createdAt": "2026-07-24T13:25:00.000Z",
-    "updatedAt": "2026-07-24T13:25:00.000Z",
-    "homepagePriority": 100,
-    "breaking": true,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.theguardian.com/sport/live/2026/jul/24/tour-de-france-2026-stage-19-from-gap-to-alpe-dhuez-live",
-      "https://www.reuters.com/sports/tour-returns-alpe-dhuez-with-back-to-back-summit-stages-2026-07-23/"
     ]
   }
 ]
