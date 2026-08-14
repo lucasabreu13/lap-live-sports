@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-5dc3a682c930",
+    "slug": "andre-ilagan-vence-tristan-schoolkate-por-2-a-1-em-brownsburg-5dc3a6",
+    "sportId": "tenis",
+    "title": "Andre Ilagan vence Tristan Schoolkate por 2 a 1 em Brownsburg",
+    "summary": "Andre Ilagan superou Tristan Schoolkate por 2 a 1 em Brownsburg.",
+    "content": "Andre Ilagan superou Tristan Schoolkate por 2 a 1 em Brownsburg., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "brownsburg"
+    ],
+    "seoTitle": "Andre Ilagan vence Tristan Schoolkate por 2 a 1 em Brownsburg",
+    "seoDescription": "Andre Ilagan superou Tristan Schoolkate por 2 a 1 em Brownsburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T23:57:44.986Z",
+    "createdAt": "2026-08-14T23:57:44.986Z",
+    "updatedAt": "2026-08-14T23:57:44.986Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813630",
+      "eventStartTime": "2026-08-14T22:07:05+00:00",
+      "retrievedAt": "2026-08-14T23:57:44.986Z",
+      "feedId": "tenis",
+      "league": "Brownsburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-a28e8078ae55",
+    "slug": "osasco-sporting-youth-e-uniao-sao-joao-sp-youth-ficam-no-2-a-2-pelo-paulista-u20-a28e80",
+    "sportId": "futebol",
+    "title": "Osasco Sporting Youth e União São João/SP Youth ficam no 2 a 2 pelo Paulista U20",
+    "summary": "Osasco Sporting Youth e União São João/SP Youth empataram por 2 a 2 pelo Paulista U20.",
+    "content": "Osasco Sporting Youth e União São João/SP Youth empataram por 2 a 2 pelo Paulista U20, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "paulista-u20"
+    ],
+    "seoTitle": "Osasco Sporting Youth e União São João/SP Youth ficam no 2 a 2 pelo",
+    "seoDescription": "Osasco Sporting Youth e União São João/SP Youth empataram por 2 a 2 pelo Paulista U20.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T23:57:44.960Z",
+    "createdAt": "2026-08-14T23:57:44.960Z",
+    "updatedAt": "2026-08-14T23:57:44.960Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4713014",
+      "eventStartTime": "2026-08-14T22:00:00+00:00",
+      "retrievedAt": "2026-08-14T23:57:44.960Z",
+      "feedId": "futebol",
+      "league": "Paulista U20"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-8429f3b2b211",
     "slug": "marco-trungelliti-vence-hamad-medjedovic-por-2-a-0-em-cincinnati-8429f3",
     "sportId": "tenis",
@@ -12444,79 +12528,6 @@
     "sourceUrls": [
       "https://www.pgatour.com/article/news/latest/2026/07/24/michael-kim-59-score-leaderboard-3m-open-tpc-twin-cities",
       "https://www.pgatour.com/leaderboard"
-    ]
-  },
-  {
-    "id": "curated-tour-stage20-20260725",
-    "slug": "tour-etapa-20-alpe-dhuez-ultima-grande-batalha-montanha",
-    "sportId": "ciclismo",
-    "title": "Tour encara 5.600 m de subida na etapa 20 com chegada novamente no Alpe d’Huez",
-    "summary": "Bourg-d’Oisans a Alpe d’Huez terá cerca de 171 km, Croix de Fer, Télégraphe, Galibier e Sarenne na última grande etapa de montanha do Tour de 2026.",
-    "content": "O Tour de France chega à sua última grande batalha de montanha com uma etapa desenhada para testar até quem atravessou três semanas em controle. O percurso entre Bourg-d’Oisans e Alpe d’Huez tem cerca de 171 quilômetros e acumula aproximadamente 5.600 metros de ganho de elevação.\n\nA sequência inclui Col de la Croix de Fer, Télégraphe, Galibier e Col de Sarenne antes da chegada ao Alpe d’Huez. Ganho de elevação é a soma de todos os metros subidos ao longo do percurso; 5.600 metros em um único dia ajudam a dimensionar por que esta é tratada como uma das jornadas mais duras da edição.\n\nMais do que uma chegada famosa, a etapa concentra terreno suficiente para ataques de longe, disputa pela classificação da montanha e mudanças nas posições de honra da geral. Depois dela, restará a conclusão em Paris, o que transforma cada subida deste sábado em uma das últimas oportunidades reais para alterar o Tour na estrada.",
-    "sourceName": "Fontes verificadas: Oisans / organização local do Tour",
-    "sourceUrl": "https://www.oisans.com/agenda/tour-de-france-2026-etape-20-le-bourg-doisans-alpe-dhuez/",
-    "coverImageUrl": "/images/sports/ciclismo.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "ciclismo",
-      "tour-de-france",
-      "alpe-dhuez",
-      "etapa-20"
-    ],
-    "seoTitle": "Tour: etapa 20 leva 5.600 m de subida ao Alpe d’Huez",
-    "seoDescription": "Etapa 20 do Tour terá cerca de 171 km, Croix de Fer, Télégraphe, Galibier, Sarenne e chegada no Alpe d’Huez.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-25T11:56:00.000Z",
-    "createdAt": "2026-07-25T11:56:00.000Z",
-    "updatedAt": "2026-07-25T11:56:00.000Z",
-    "homepagePriority": 92,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.oisans.com/agenda/tour-de-france-2026-etape-20-le-bourg-doisans-alpe-dhuez/",
-      "https://explore.alpedhuez.com/en/events/2026-tour-de-france-stage-20-le-bourg-doisans-alpe-dhuez"
-    ]
-  },
-  {
-    "id": "curated-lebron-sixers-20260724",
-    "slug": "lebron-james-escolhe-philadelphia-76ers-e-muda-o-eixo-da-nba-para-uma-ultima-corrida-pelo-titulo",
-    "sportId": "basquete",
-    "title": "LeBron James escolhe os 76ers e muda o eixo da NBA para uma última corrida pelo título",
-    "summary": "Aos 41 anos, LeBron James anunciou que jogará pelo Philadelphia 76ers em sua 24ª temporada na NBA, encerrando oito anos de Lakers e formando um elenco estrelado com Joel Embiid, Tyrese Maxey e Jaylen Brown.",
-    "content": "LeBron James tomou a decisão que faltava para completar o mapa da offseason da NBA. Aos 41 anos, o maior pontuador da história da liga anunciou nesta sexta-feira que vai jogar pelo Philadelphia 76ers na temporada 2026-27, a 24ª de sua carreira. O movimento encerra oficialmente um ciclo de oito temporadas com o Los Angeles Lakers e recoloca LeBron no Leste em uma equipe construída para disputar o título imediatamente.\n\nA escolha por Philadelphia não é apenas mais uma mudança de camisa. É uma declaração de ambição competitiva. LeBron já havia comunicado em 30 de junho que não retornaria aos Lakers e passou as últimas semanas avaliando o próximo passo. No anúncio desta sexta, ele deixou claro que a motivação é continuar competindo por um campeonato. A mensagem também carregou tom de despedida: LeBron tratou a decisão como a última grande escolha de sua carreira, sem anunciar formalmente uma data para aposentadoria.\n\nO encaixe esportivo transforma os 76ers em uma das equipes mais observadas da liga. Philadelphia já tinha Tyrese Maxey e Joel Embiid e, nesta offseason, também adicionou Jaylen Brown. O jovem VJ Edgecombe completa um núcleo que mistura criação, força física, defesa e experiência de playoffs. LeBron chega para assumir menos a obrigação de carregar todas as posses e mais a função de organizar, decidir e elevar o nível do time nos momentos de maior pressão.\n\nEssa distribuição de responsabilidade pode ser o ponto central da aposta. Na última temporada com os Lakers, LeBron ainda produziu 20,9 pontos, 7,2 assistências e 6,1 rebotes por jogo em 60 partidas. Para um jogador que entra em uma temporada sem precedentes de longevidade na NBA, os números mostram que a discussão já não é se ele ainda consegue contribuir, mas quanto Philadelphia poderá preservar seu corpo para abril, maio e, se o plano funcionar, junho.\n\nO desafio dos 76ers continua sendo transformar talento em continuidade. A franquia não conquista a NBA desde 1983 e passou anos montando elencos capazes de competir no Leste sem conseguir atravessar todas as etapas dos playoffs. LeBron muda a pressão imediatamente: um time com Embiid, Maxey, Brown e James deixa de ser apenas uma equipe forte no papel e passa a carregar expectativa real de chegar às finais.\n\nPara os Lakers, a notícia fecha uma era histórica. LeBron chegou a Los Angeles em 2018, conquistou o título de 2020 e acumulou uma sequência de marcas individuais que ampliou ainda mais seu lugar entre os maiores jogadores de todos os tempos. Sua saída também acelera a transição da franquia para uma estrutura definitivamente centrada em Luka Doncic e nas decisões de elenco que Los Angeles tomou durante esta offseason.\n\nEm Philadelphia, a pergunta será diferente. O elenco tem estrelas suficientes; agora precisa encontrar equilíbrio de minutos, saúde e funções. Embiid continua sendo a principal referência interior, Maxey oferece velocidade e criação, Jaylen Brown acrescenta defesa e agressividade nas alas, e LeBron entra como o cérebro mais experiente possível para administrar jogos grandes. Há talento para imaginar uma corrida pelo título, mas o sucesso dependerá de disponibilidade física e de como tantas peças importantes dividirão a bola.\n\nLeBron não escolheu o caminho nostálgico de voltar a Cleveland nem um reencontro com Miami. Também não foi para Golden State. Escolheu uma equipe que ainda persegue um título que não vence há mais de quatro décadas e que montou um elenco para tentar resolver isso agora. Aos 41 anos, sua próxima temporada já seria histórica pela longevidade. Com a camisa dos 76ers, ela passa a ter também uma das maiores apostas competitivas de sua carreira.",
-    "sourceName": "Fontes verificadas: NBA.com, Reuters, Associated Press",
-    "sourceUrl": "https://www.nba.com/news/lebron-james-free-agency-sixers-2026",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "nba",
-      "lebron-james",
-      "philadelphia-76ers",
-      "lakers",
-      "joel-embiid",
-      "tyrese-maxey",
-      "jaylen-brown",
-      "free-agency"
-    ],
-    "seoTitle": "LeBron James vai para os 76ers e inicia nova corrida pelo título da NBA",
-    "seoDescription": "LeBron James anuncia ida ao Philadelphia 76ers para sua 24ª temporada na NBA e encerra oito anos de Los Angeles Lakers.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-24T16:41:00.000Z",
-    "createdAt": "2026-07-24T16:41:00.000Z",
-    "updatedAt": "2026-07-24T16:41:00.000Z",
-    "homepagePriority": 100,
-    "breaking": true,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.nba.com/news/lebron-james-free-agency-sixers-2026",
-      "https://www.reuters.com/sports/lebron-james-joining-philadelphia-76ers-record-extending-24th-nba-season-2026-07-24/",
-      "https://apnews.com/article/1db738a3a8c29aab2be24b1bc8082ae9",
-      "https://www.nba.com/news/lebron-james-free-agency-2026"
     ]
   }
 ]
