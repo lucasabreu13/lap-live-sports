@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-b3e2850bb275",
+    "slug": "marco-cecchinato-vence-juan-bautista-torres-por-2-a-0-em-todi-b3e285",
+    "sportId": "tenis",
+    "title": "Marco Cecchinato vence Juan Bautista Torres por 2 a 0 em Todi",
+    "summary": "Marco Cecchinato superou Juan Bautista Torres por 2 a 0 em Todi.",
+    "content": "Marco Cecchinato superou Juan Bautista Torres por 2 a 0 em Todi., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "todi"
+    ],
+    "seoTitle": "Marco Cecchinato vence Juan Bautista Torres por 2 a 0 em Todi",
+    "seoDescription": "Marco Cecchinato superou Juan Bautista Torres por 2 a 0 em Todi.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T17:23:16.365Z",
+    "createdAt": "2026-08-14T17:23:16.365Z",
+    "updatedAt": "2026-08-14T17:23:16.365Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811296",
+      "eventStartTime": "2026-08-14T15:38:00+00:00",
+      "retrievedAt": "2026-08-14T17:23:16.365Z",
+      "feedId": "tenis",
+      "league": "Todi"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4c16961aea51",
+    "slug": "fk-transinvest-ii-e-atmosfera-ficam-no-0-a-0-pelo-i-lyga-4c1696",
+    "sportId": "futebol",
+    "title": "FK Transinvest II e Atmosfera ficam no 0 a 0 pelo I Lyga",
+    "summary": "FK Transinvest II e Atmosfera empataram por 0 a 0 pelo I Lyga.",
+    "content": "FK Transinvest II e Atmosfera empataram por 0 a 0 pelo I Lyga, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "i-lyga"
+    ],
+    "seoTitle": "FK Transinvest II e Atmosfera ficam no 0 a 0 pelo I Lyga",
+    "seoDescription": "FK Transinvest II e Atmosfera empataram por 0 a 0 pelo I Lyga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T17:23:16.342Z",
+    "createdAt": "2026-08-14T17:23:16.342Z",
+    "updatedAt": "2026-08-14T17:23:16.342Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4750326",
+      "eventStartTime": "2026-08-14T16:00:00+00:00",
+      "retrievedAt": "2026-08-14T17:23:16.342Z",
+      "feedId": "futebol",
+      "league": "I Lyga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-49c523f9d44a",
     "slug": "elisabetta-cocciaretto-e-lucrezia-stefanini-empatam-por-0-a-0-em-cincinnati-49c523",
     "sportId": "tenis",
@@ -12371,74 +12455,5 @@
       "league": "MLS"
     },
     "articleFormat": "result-brief"
-  },
-  {
-    "id": "curated-futebol-20260723",
-    "slug": "arsenal-fecha-tzolis-barcelona-contrata-adeyemi-e-lesoes-mudam-pre-temporada",
-    "sportId": "futebol",
-    "title": "Arsenal fecha Tzolis, Barça contrata Adeyemi e lesões mudam a pré-temporada",
-    "summary": "Arsenal contratou Christos Tzolis e Barcelona fechou com Karim Adeyemi; Rodri e William Saliba viraram as principais preocupações médicas entre os gigantes europeus.",
-    "content": "O mercado europeu ganhou duas confirmações importantes nesta quinta-feira. O Arsenal anunciou Christos Tzolis, destaque do Club Brugge, em contrato de longo prazo. O Barcelona, por sua vez, fechou com Karim Adeyemi, ex-Borussia Dortmund, até 2031. São movimentos que reforçam setores ofensivos de dois clubes que chegam à nova temporada sob pressão por títulos.\n\nNo departamento médico, o cenário também pesa. Rodri enfrenta uma lesão nas costas que pode exigir cirurgia e comprometer o início de temporada do Manchester City. No Arsenal, William Saliba ficará fora por um período prolongado após avaliações confirmarem uma lesão nas costas; o clube informou que o tratamento será conservador, sem cirurgia.\n\nA leitura para hoje é dupla: o mercado segue acelerado, mas a disponibilidade física de peças estruturais pode alterar planos de elenco. A LAP acompanha apenas movimentos confirmados e atualizações médicas divulgadas por clubes ou fontes de alta credibilidade.",
-    "sourceName": "Fontes verificadas: Reuters, The Guardian",
-    "sourceUrl": "https://www.reuters.com/sports/soccer/arsenal-sign-forward-tzolis-club-brugge-2026-07-23/",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "futebol",
-      "arsenal",
-      "barcelona",
-      "rodri",
-      "saliba",
-      "mercado"
-    ],
-    "seoTitle": "Arsenal fecha Tzolis, Barcelona contrata Adeyemi; Rodri e Saliba preocupam",
-    "seoDescription": "Mercado europeu acelera com Tzolis no Arsenal e Adeyemi no Barcelona, enquanto Rodri e Saliba enfrentam lesões nas costas.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T13:20:00.000Z",
-    "createdAt": "2026-07-23T13:20:00.000Z",
-    "updatedAt": "2026-07-23T13:20:00.000Z",
-    "homepagePriority": 100,
-    "breaking": true,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.reuters.com/sports/soccer/arsenal-sign-forward-tzolis-club-brugge-2026-07-23/",
-      "https://www.reuters.com/sports/soccer/barcelona-sign-pacy-winger-adeyemi-dortmund-2026-07-23/",
-      "https://www.theguardian.com/football/2026/jul/23/blow-for-manchester-city-with-rodri-out-for-extended-period-due-to-back-injury",
-      "https://www.reuters.com/sports/soccer/arsenal-defender-saliba-out-extended-period-says-club-2026-07-22/"
-    ]
-  },
-  {
-    "id": "curated-nfl-mendoza-20260723",
-    "slug": "fernando-mendoza-segue-sem-contrato-e-vira-principal-novela-do-camp-dos-raiders",
-    "sportId": "futebol-americano",
-    "title": "Fernando Mendoza segue sem contrato e vira principal novela do camp dos Raiders",
-    "summary": "Escolha nº 1 do Draft de 2026, Fernando Mendoza ainda não assinou com Las Vegas por divergência sobre o cronograma de pagamento do bônus de assinatura.",
-    "content": "A abertura do training camp dos Raiders tem uma ausência que muda a pauta da pré-temporada. Fernando Mendoza, escolha número 1 do Draft de 2026, segue sem contrato por divergência sobre a forma de pagamento de seu bônus de assinatura.\n\nO acordo do rookie é tabelado em quatro anos e US$ 57,2 milhões, com bônus de US$ 38,11 milhões. O impasse não é sobre o valor total, mas sobre quando o bônus será pago. Com os novatos se apresentando, cada dia perdido passa a ter impacto direto no trabalho de instalação do ataque e na disputa por repetições.\n\nO que acompanhar agora é simples: assinatura, participação nos primeiros treinos e qualquer efeito no depth chart de Las Vegas. A situação também é observada por outros rookies de primeira rodada porque pode influenciar negociações semelhantes.",
-    "sourceName": "Fonte verificada: Reuters",
-    "sourceUrl": "https://www.reuters.com/sports/no-1-pick-fernando-mendoza-raiders-odds-over-bonus--flm-2026-07-22/",
-    "coverImageUrl": "/images/sports/futebol-americano.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "nfl",
-      "raiders",
-      "fernando-mendoza",
-      "training-camp"
-    ],
-    "seoTitle": "Fernando Mendoza segue sem contrato antes do training camp dos Raiders",
-    "seoDescription": "Escolha nº 1 do Draft, Fernando Mendoza ainda não assinou com os Raiders por divergência sobre o pagamento do bônus.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T13:20:00.000Z",
-    "createdAt": "2026-07-23T13:20:00.000Z",
-    "updatedAt": "2026-07-23T13:20:00.000Z",
-    "homepagePriority": 96,
-    "breaking": true,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.reuters.com/sports/no-1-pick-fernando-mendoza-raiders-odds-over-bonus--flm-2026-07-22/"
-    ]
   }
 ]
