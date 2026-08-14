@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-dedc6a9517db",
+    "slug": "xin-yu-wang-vence-hanne-vandewinkel-por-2-a-0-em-cincinnati-dedc6a",
+    "sportId": "tenis",
+    "title": "Xin-Yu Wang vence Hanne Vandewinkel por 2 a 0 em Cincinnati",
+    "summary": "Xin-Yu Wang superou Hanne Vandewinkel por 2 a 0 em Cincinnati.",
+    "content": "Xin-Yu Wang superou Hanne Vandewinkel por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Xin-Yu Wang vence Hanne Vandewinkel por 2 a 0 em Cincinnati",
+    "seoDescription": "Xin-Yu Wang superou Hanne Vandewinkel por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T22:46:18.173Z",
+    "createdAt": "2026-08-14T22:46:18.173Z",
+    "updatedAt": "2026-08-14T22:46:18.173Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813451",
+      "eventStartTime": "2026-08-14T20:38:19+00:00",
+      "retrievedAt": "2026-08-14T22:46:18.173Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-515f67326769",
+    "slug": "new-york-red-bulls-ii-supera-atlanta-united-ii-por-2-a-1-pelo-mls-next-pro-515f67",
+    "sportId": "futebol",
+    "title": "New York Red Bulls II supera Atlanta United II por 2 a 1 pela MLS Next Pro",
+    "summary": "New York Red Bulls II venceu Atlanta United II por 2 a 1 pela MLS Next Pro.",
+    "content": "New York Red Bulls II venceu Atlanta United II por 2 a 1 pela MLS Next Pro, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls-next-pro"
+    ],
+    "seoTitle": "New York Red Bulls II supera Atlanta United II por 2 a 1 pela MLS Next",
+    "seoDescription": "New York Red Bulls II venceu Atlanta United II por 2 a 1 pela MLS Next Pro.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T22:46:18.144Z",
+    "createdAt": "2026-08-14T22:46:18.144Z",
+    "updatedAt": "2026-08-14T22:46:18.144Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659130",
+      "eventStartTime": "2026-08-14T20:00:00+00:00",
+      "retrievedAt": "2026-08-14T22:46:18.144Z",
+      "feedId": "futebol",
+      "league": "MLS Next Pro"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-67289a552ebc",
     "slug": "lorenzo-sonego-vence-juncheng-shang-por-2-a-0-em-cincinnati-67289a",
     "sportId": "tenis",
@@ -12408,81 +12492,5 @@
     "sourceUrls": [
       "https://www.atptour.com/en/scores/current/kitzbuhel/319/results"
     ]
-  },
-  {
-    "id": "curated-golf-3m-r2-20260724",
-    "slug": "ben-kohles-abre-3m-open-com-62-e-scheffler-comeca-a-um-golpe-do-top-5",
-    "sportId": "golfe",
-    "title": "Ben Kohles abre 3M Open com 62; Scheffler começa a segunda rodada em -6",
-    "summary": "Kohles fechou a primeira rodada em -9 e assumiu a liderança; Scheffler abriu com 65 (-6) no TPC Twin Cities antes da segunda rodada desta sexta.",
-    "content": "O 3M Open entra na segunda rodada com um número forte como referência. Ben Kohles abriu o torneio com 62 tacadas, nove abaixo do par, e terminou a quinta-feira na liderança no TPC Twin Cities. Emiliano Grillo, Jackson Koivun e Gary Woodland apareceram logo atrás após voltas de 64.\n\nScottie Scheffler, líder da FedExCup, começou com 65 (-6). Em um torneio de quatro dias, a posição durante a sexta-feira muda constantemente porque os jogadores entram em campo em ondas diferentes; por isso, a classificação mostrada na LAP deve continuar ligada ao leaderboard oficial em vez de congelar um líder no meio da rodada.\n\nAlém da briga pelo topo, a sexta-feira define a linha de corte. É o primeiro ponto do torneio em que a disputa por título e a disputa para simplesmente continuar no fim de semana passam a acontecer ao mesmo tempo.",
-    "sourceName": "Fonte oficial: PGA TOUR",
-    "sourceUrl": "https://www.pgatour.com/tournaments/2026/3m-open/R2026525/leaderboard",
-    "coverImageUrl": "/images/sports/golfe.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "golfe",
-      "pga-tour",
-      "3m-open",
-      "ben-kohles",
-      "scottie-scheffler"
-    ],
-    "seoTitle": "3M Open: Ben Kohles lidera após 62; Scheffler abre com 65",
-    "seoDescription": "Ben Kohles lidera o 3M Open após primeira rodada de 62; Scottie Scheffler começa o torneio com 65.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-24T13:29:00.000Z",
-    "createdAt": "2026-07-24T13:29:00.000Z",
-    "updatedAt": "2026-07-24T13:29:00.000Z",
-    "homepagePriority": 91,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.pgatour.com/tournaments/2026/3m-open/R2026525/leaderboard"
-    ]
-  },
-  {
-    "id": "newsroom-data-b71364bcbcb9",
-    "slug": "aws-hungarian-gp-e-formula-1-empatam-por-0-a-0-em-formula-1-b71364",
-    "sportId": "formula1",
-    "title": "AWS Hungarian GP e Fórmula 1 empatam por 0 a 0 em Fórmula 1",
-    "summary": "AWS Hungarian GP e Fórmula 1 terminaram empatados por 0 a 0 em Fórmula 1.",
-    "content": "AWS Hungarian GP e Fórmula 1 terminaram empatados por 0 a 0 em Fórmula 1., em 24 de julho de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/formula1",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Fórmula 1",
-    "tags": [
-      "formula-1",
-      "resultado",
-      "formula-1"
-    ],
-    "seoTitle": "AWS Hungarian GP e Fórmula 1 empatam por 0 a 0 em Fórmula 1",
-    "seoDescription": "AWS Hungarian GP e Fórmula 1 terminaram empatados por 0 a 0 em Fórmula 1.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-24T13:28:57.650Z",
-    "createdAt": "2026-07-24T13:28:57.650Z",
-    "updatedAt": "2026-07-24T13:28:57.650Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "formula1",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/formula1"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "600057440",
-      "eventStartTime": "2026-07-24T11:30Z",
-      "retrievedAt": "2026-07-24T13:28:57.650Z",
-      "feedId": "formula1",
-      "league": "Fórmula 1"
-    },
-    "articleFormat": "result-brief"
   }
 ]
