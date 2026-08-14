@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-fcbd31eda4f7",
+    "slug": "milwaukee-brewers-vence-los-angeles-dodgers-por-5-a-4-na-mlb-fcbd31",
+    "sportId": "beisebol",
+    "title": "Milwaukee Brewers vence Los Angeles Dodgers por 5 a 4 na MLB",
+    "summary": "Milwaukee Brewers derrotou Los Angeles Dodgers por 5 a 4 na MLB.",
+    "content": "Milwaukee Brewers derrotou Los Angeles Dodgers por 5 a 4 na MLB, em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Milwaukee Brewers vence Los Angeles Dodgers por 5 a 4 na MLB",
+    "seoDescription": "Milwaukee Brewers derrotou Los Angeles Dodgers por 5 a 4 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T10:38:44.920Z",
+    "createdAt": "2026-08-14T10:38:44.920Z",
+    "updatedAt": "2026-08-14T10:38:44.920Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602906",
+      "eventStartTime": "2026-08-14T02:10:00+00:00",
+      "retrievedAt": "2026-08-14T10:38:44.920Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-261a6fa47053",
+    "slug": "andres-andrade-vence-gauthier-onclin-por-2-a-0-em-brownsburg-261a6f",
+    "sportId": "tenis",
+    "title": "Andres Andrade vence Gauthier Onclin por 2 a 0 em Brownsburg",
+    "summary": "Andres Andrade superou Gauthier Onclin por 2 a 0 em Brownsburg.",
+    "content": "Andres Andrade superou Gauthier Onclin por 2 a 0 em Brownsburg., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "brownsburg"
+    ],
+    "seoTitle": "Andres Andrade vence Gauthier Onclin por 2 a 0 em Brownsburg",
+    "seoDescription": "Andres Andrade superou Gauthier Onclin por 2 a 0 em Brownsburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T10:38:44.917Z",
+    "createdAt": "2026-08-14T10:38:44.917Z",
+    "updatedAt": "2026-08-14T10:38:44.917Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4812259",
+      "eventStartTime": "2026-08-14T00:56:57+00:00",
+      "retrievedAt": "2026-08-14T10:38:44.917Z",
+      "feedId": "tenis",
+      "league": "Brownsburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-053dd5e7ea85",
+    "slug": "rsd-alcala-supera-rayo-majadahonda-por-2-a-0-pelo-club-friendlies-053dd5",
+    "sportId": "futebol",
+    "title": "RSD Alcala supera Rayo Majadahonda por 2 a 0 pelo Club Friendlies",
+    "summary": "RSD Alcala venceu Rayo Majadahonda por 2 a 0 pelo Club Friendlies.",
+    "content": "RSD Alcala venceu Rayo Majadahonda por 2 a 0 pelo Club Friendlies, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "RSD Alcala supera Rayo Majadahonda por 2 a 0 pelo Club Friendlies",
+    "seoDescription": "RSD Alcala venceu Rayo Majadahonda por 2 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T10:38:44.876Z",
+    "createdAt": "2026-08-14T10:38:44.876Z",
+    "updatedAt": "2026-08-14T10:38:44.876Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811831",
+      "eventStartTime": "2026-08-14T08:30:00+00:00",
+      "retrievedAt": "2026-08-14T10:38:44.876Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-c9e6b6811a41",
     "slug": "ho-r-liutarevich-i-vence-chandrasekar-a-yuzuki-t-por-2-a-1-em-brownsburg-c9e6b6",
     "sportId": "tenis",
@@ -12228,108 +12354,6 @@
       "https://www.panthers.com/news/two-starters-to-begin-training-camp-on-nfi-list-taylor-moton-jaycee-horn",
       "https://www.seahawks.com/news/seahawks-place-nick-emmanwori-kenny-mcintosh-tyrone-broden-on-pup-list",
       "https://www.nfl.com/news/packers-devonte-wyatt-three-year-57-million-extension"
-    ]
-  },
-  {
-    "id": "curated-mlb-deadline-20260722",
-    "slug": "dodgers-abrem-mercado-e-rutschman-volta-a-il-na-reta-da-deadline",
-    "sportId": "beisebol",
-    "title": "Dodgers abrem mercado e Rutschman volta à IL na reta da deadline",
-    "summary": "Los Angeles adquiriu o reliever Seth Halvorsen; Baltimore colocou Adley Rutschman na lista de lesionados com inflamação no punho esquerdo.",
-    "content": "A aproximação da trade deadline de 3 de agosto já movimenta a MLB. O Los Angeles Dodgers adquiriu o reliever Seth Halvorsen do Colorado Rockies em uma troca que enviou Nick Frasso e Landyn Vidourek para Colorado.\n\nEm Baltimore, o catcher Adley Rutschman voltou à lista de lesionados de 10 dias por inflamação no punho esquerdo. É mais uma ausência importante para os Orioles em um momento no qual a corrida pelos playoffs começa a ganhar peso maior a cada série.\n\nA tendência é de aceleração do mercado nos próximos dias, especialmente entre equipes que procuram pitching para a reta final. A LAP vai acompanhar negócios confirmados e evitar tratar rumores como transferências concluídas.",
-    "sourceName": "Fonte verificada: MLB",
-    "sourceUrl": "https://www.mlb.com/news/seth-halvorsen-dodgers-rockies-trade",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "mlb",
-      "trade-deadline",
-      "dodgers",
-      "adley-rutschman"
-    ],
-    "seoTitle": "Dodgers abrem mercado e Rutschman volta à IL na reta da deadline",
-    "seoDescription": "Dodgers adquiriram Seth Halvorsen; Orioles colocaram Adley Rutschman na IL por inflamação no punho esquerdo.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-22T18:10:00.000Z",
-    "createdAt": "2026-07-22T18:10:00.000Z",
-    "updatedAt": "2026-07-22T18:10:00.000Z",
-    "homepagePriority": 82,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.mlb.com/news/seth-halvorsen-dodgers-rockies-trade",
-      "https://www.mlb.com/news/adley-rutschman-has-left-wrist-injury"
-    ]
-  },
-  {
-    "id": "curated-nba-summer-league-20260722",
-    "slug": "warriors-conquistam-summer-league-com-lendeborg-em-destaque",
-    "sportId": "basquete",
-    "title": "Warriors conquistam Summer League com Lendeborg em destaque",
-    "summary": "Golden State venceu Memphis por 94 a 90 na final de Las Vegas; Yaxel Lendeborg teve 21 pontos e 10 rebotes.",
-    "content": "O Golden State Warriors conquistou o título da NBA Summer League de Las Vegas ao derrotar o Memphis Grizzlies por 94 a 90. Yaxel Lendeborg foi um dos destaques da decisão com 21 pontos e 10 rebotes.\n\nA campanha fechou a principal vitrine de jovens jogadores do verão e reforçou o nome de Lendeborg, que também recebeu reconhecimento individual durante o torneio. Para as equipes, o fim da Summer League desloca o foco para contratos, desenvolvimento de rookies e os últimos ajustes de elenco antes dos camps.\n\nA partir daqui, a cobertura da LAP prioriza movimentações oficiais, extensões e definições de rotação, sem transformar especulações de mercado em fatos consumados.",
-    "sourceName": "Fonte verificada: NBA",
-    "sourceUrl": "https://www.nba.com/news/2026-nba-summer-league-championship-warriors-grizzlies",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "nba",
-      "summer-league",
-      "golden-state-warriors",
-      "yaxel-lendeborg"
-    ],
-    "seoTitle": "Warriors conquistam Summer League com Lendeborg em destaque",
-    "seoDescription": "Warriors venceram Memphis por 94 a 90 e conquistaram a Summer League; Lendeborg fez 21 pontos e 10 rebotes.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-22T18:10:00.000Z",
-    "createdAt": "2026-07-22T18:10:00.000Z",
-    "updatedAt": "2026-07-22T18:10:00.000Z",
-    "homepagePriority": 78,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.nba.com/news/2026-nba-summer-league-championship-warriors-grizzlies"
-    ]
-  },
-  {
-    "id": "curated-tennis-week-20260722",
-    "slug": "tenis-entra-na-transicao-pos-wimbledon-com-krejcikova-em-alta",
-    "sportId": "tenis",
-    "title": "Tênis entra na transição pós-Wimbledon com Krejcikova em alta",
-    "summary": "Krejcikova voltou ao top 30, Rublev venceu Bastad e a semana tem Kitzbühel e Praga em andamento; Estoril é Challenger 175.",
-    "content": "O circuito de tênis entrou na transição entre a temporada de grama e a sequência que levará às grandes semanas de quadra dura. Barbora Krejcikova aparece novamente no top 30 da WTA, na 26ª posição, depois de ganhar terreno no ranking recente.\n\nNo ATP, Andrey Rublev conquistou o título de Bastad ao vencer Luciano Darderi por 6-4 e 6-3. Nesta semana, o ATP 250 de Kitzbühel está em andamento, enquanto o circuito feminino disputa o WTA 250 de Praga.\n\nUma correção importante em relação a resumos que circulam nesta semana: Estoril acontece como Challenger 175, não como torneio ATP 250. A LAP mantém essa distinção para evitar misturar níveis diferentes do calendário profissional.",
-    "sourceName": "Fontes verificadas: ATP, WTA",
-    "sourceUrl": "https://www.atptour.com/en/news/rublev-darderi-bastad-2026-final",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "tenis",
-      "atp",
-      "wta",
-      "barbora-krejcikova",
-      "andrey-rublev"
-    ],
-    "seoTitle": "Tênis entra na transição pós-Wimbledon com Krejcikova em alta",
-    "seoDescription": "Krejcikova está de volta ao top 30; Rublev venceu Bastad; Kitzbühel e Praga movimentam a semana.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-22T18:10:00.000Z",
-    "createdAt": "2026-07-22T18:10:00.000Z",
-    "updatedAt": "2026-07-22T18:10:00.000Z",
-    "homepagePriority": 74,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.atptour.com/en/news/rublev-darderi-bastad-2026-final",
-      "https://www.wtatennis.com/players/318314/-barbora-krejcikova-/stats",
-      "https://www.atptour.com/en/scores/current/kitzbuhel/319/daily-schedule",
-      "https://www.wtatennis.com/tournaments/1082/prague/2026",
-      "https://www.atptour.com/en/tournaments/estoril/7290/overview"
     ]
   }
 ]
