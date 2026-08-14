@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-80dde392724a",
+    "slug": "nicolas-kicker-vence-francesco-passaro-por-2-a-0-em-todi-80dde3",
+    "sportId": "tenis",
+    "title": "Nicolas Kicker vence Francesco Passaro por 2 a 0 em Todi",
+    "summary": "Nicolas Kicker superou Francesco Passaro por 2 a 0 em Todi.",
+    "content": "Nicolas Kicker superou Francesco Passaro por 2 a 0 em Todi., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "todi"
+    ],
+    "seoTitle": "Nicolas Kicker vence Francesco Passaro por 2 a 0 em Todi",
+    "seoDescription": "Nicolas Kicker superou Francesco Passaro por 2 a 0 em Todi.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T19:54:51.650Z",
+    "createdAt": "2026-08-14T19:54:51.650Z",
+    "updatedAt": "2026-08-14T19:54:51.650Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4812258",
+      "eventStartTime": "2026-08-14T18:38:42+00:00",
+      "retrievedAt": "2026-08-14T19:54:51.650Z",
+      "feedId": "tenis",
+      "league": "Todi"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f5e7e3d1d2b4",
+    "slug": "botafogo-sp-youth-supera-novorizontino-youth-por-2-a-1-pelo-paulista-u20-f5e7e3",
+    "sportId": "futebol",
+    "title": "Botafogo/Sp Youth supera Novorizontino Youth por 2 a 1 pelo Paulista U20",
+    "summary": "Botafogo/Sp Youth venceu Novorizontino Youth por 2 a 1 pelo Paulista U20.",
+    "content": "Botafogo/Sp Youth venceu Novorizontino Youth por 2 a 1 pelo Paulista U20, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "paulista-u20"
+    ],
+    "seoTitle": "Botafogo/Sp Youth supera Novorizontino Youth por 2 a 1 pelo Paulista",
+    "seoDescription": "Botafogo/Sp Youth venceu Novorizontino Youth por 2 a 1 pelo Paulista U20.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T19:54:51.622Z",
+    "createdAt": "2026-08-14T19:54:51.622Z",
+    "updatedAt": "2026-08-14T19:54:51.622Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4713016",
+      "eventStartTime": "2026-08-14T18:00:00+00:00",
+      "retrievedAt": "2026-08-14T19:54:51.622Z",
+      "feedId": "futebol",
+      "league": "Paulista U20"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-1c5ffab98c1b",
     "slug": "emilliana-arango-vence-venus-williams-por-2-a-0-em-cincinnati-1c5ffa",
     "sportId": "tenis",
@@ -12367,90 +12451,6 @@
       "eventId": "761670",
       "eventStartTime": "2026-07-23T00:15Z",
       "retrievedAt": "2026-07-23T20:41:30.596Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8decb215ecfd",
-    "slug": "sporting-kansas-city-supera-minnesota-united-fc-por-2-a-1-pelo-mls-8decb2",
-    "sportId": "futebol",
-    "title": "Sporting Kansas City supera Minnesota United FC por 2 a 1 pela MLS",
-    "summary": "Sporting Kansas City venceu Minnesota United FC por 2 a 1 pela MLS.",
-    "content": "Sporting Kansas City venceu Minnesota United FC por 2 a 1 pela MLS, em 22 de julho de 2026 no Children's Mercy Park.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Sporting Kansas City supera Minnesota United FC por 2 a 1 pela MLS",
-    "seoDescription": "Sporting Kansas City venceu Minnesota United FC por 2 a 1 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T19:42:57.349Z",
-    "createdAt": "2026-07-23T19:42:57.349Z",
-    "updatedAt": "2026-07-23T19:42:57.349Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761672",
-      "eventStartTime": "2026-07-23T00:30Z",
-      "retrievedAt": "2026-07-23T19:42:57.349Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-20538759bdf2",
-    "slug": "nashville-sc-supera-cf-montreal-por-1-a-0-pelo-mls-205387",
-    "sportId": "futebol",
-    "title": "Nashville SC supera CF Montréal por 1 a 0 pela MLS",
-    "summary": "Nashville SC venceu CF Montréal por 1 a 0 pela MLS.",
-    "content": "Nashville SC venceu CF Montréal por 1 a 0 pela MLS, em 22 de julho de 2026 no GEODIS Park.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Nashville SC supera CF Montréal por 1 a 0 pela MLS",
-    "seoDescription": "Nashville SC venceu CF Montréal por 1 a 0 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T18:06:47.398Z",
-    "createdAt": "2026-07-23T18:06:47.398Z",
-    "updatedAt": "2026-07-23T18:06:47.398Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761673",
-      "eventStartTime": "2026-07-23T00:30Z",
-      "retrievedAt": "2026-07-23T18:06:47.398Z",
       "feedId": "futebol",
       "league": "MLS"
     },
