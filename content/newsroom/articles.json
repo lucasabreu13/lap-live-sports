@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-e6f0e7853ab4",
+    "slug": "orix-buffaloes-vence-nippon-ham-fighters-por-6-a-2-na-npb-e6f0e7",
+    "sportId": "beisebol",
+    "title": "Orix Buffaloes vence Nippon Ham Fighters por 6 a 2 na NPB",
+    "summary": "Orix Buffaloes derrotou Nippon Ham Fighters por 6 a 2 na NPB.",
+    "content": "Orix Buffaloes derrotou Nippon Ham Fighters por 6 a 2 na NPB, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Orix Buffaloes vence Nippon Ham Fighters por 6 a 2 na NPB",
+    "seoDescription": "Orix Buffaloes derrotou Nippon Ham Fighters por 6 a 2 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T15:28:21.309Z",
+    "createdAt": "2026-08-14T15:28:21.309Z",
+    "updatedAt": "2026-08-14T15:28:21.309Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4627259",
+      "eventStartTime": "2026-08-14T09:00:00+00:00",
+      "retrievedAt": "2026-08-14T15:28:21.309Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-40099501c50e",
+    "slug": "jan-kumstat-vence-carlos-taberner-por-1-a-0-em-hamburg-400995",
+    "sportId": "tenis",
+    "title": "Jan Kumstat vence Carlos Taberner por 1 a 0 em Hamburg",
+    "summary": "Jan Kumstat superou Carlos Taberner por 1 a 0 em Hamburg.",
+    "content": "Jan Kumstat superou Carlos Taberner por 1 a 0 em Hamburg., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "hamburg"
+    ],
+    "seoTitle": "Jan Kumstat vence Carlos Taberner por 1 a 0 em Hamburg",
+    "seoDescription": "Jan Kumstat superou Carlos Taberner por 1 a 0 em Hamburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T15:28:21.297Z",
+    "createdAt": "2026-08-14T15:28:21.297Z",
+    "updatedAt": "2026-08-14T15:28:21.297Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4812150",
+      "eventStartTime": "2026-08-14T12:50:02+00:00",
+      "retrievedAt": "2026-08-14T15:28:21.297Z",
+      "feedId": "tenis",
+      "league": "Hamburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d6b70e467a01",
+    "slug": "sardor-tursunzoda-e-fk-khosilot-farkhor-ficam-no-0-a-0-pela-vysshaya-liga-d6b70e",
+    "sportId": "futebol",
+    "title": "Sardor Tursunzoda e Fk Khosilot Farkhor ficam no 0 a 0 pela Vysshaya Liga",
+    "summary": "Sardor Tursunzoda e Fk Khosilot Farkhor empataram por 0 a 0 pela Vysshaya Liga.",
+    "content": "Sardor Tursunzoda e Fk Khosilot Farkhor empataram por 0 a 0 pela Vysshaya Liga, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "vysshaya-liga"
+    ],
+    "seoTitle": "Sardor Tursunzoda e Fk Khosilot Farkhor ficam no 0 a 0 pela Vysshaya",
+    "seoDescription": "Sardor Tursunzoda e Fk Khosilot Farkhor empataram por 0 a 0 pela Vysshaya Liga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T15:28:21.268Z",
+    "createdAt": "2026-08-14T15:28:21.268Z",
+    "updatedAt": "2026-08-14T15:28:21.268Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4679402",
+      "eventStartTime": "2026-08-14T14:00:00+00:00",
+      "retrievedAt": "2026-08-14T15:28:21.268Z",
+      "feedId": "futebol",
+      "league": "Vysshaya Liga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-1c8567ddf1a3",
     "slug": "yakult-swallows-vence-yokohama-baystars-por-7-a-2-na-npb-1c8567",
     "sportId": "beisebol",
@@ -12299,110 +12425,6 @@
       "https://www.formula1.com/en/results/2026/drivers",
       "https://www.formula1.com/en/latest/article/why-aston-martin-are-counting-the-days-ahead-of-crucial-test-in-hungary.4ZgRuYpf3BnrvBrqz4JwfC",
       "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-hungarian-grand-prix-and-how-can-i-watch-it.4ySAxJdw0lgjPfuFLaEp6A"
-    ]
-  },
-  {
-    "id": "curated-tenis-20260723",
-    "slug": "sinner-lidera-atp-sabalenka-chega-a-100-semanas-no-topo-e-kitzbuhel-entra-nas-quartas",
-    "sportId": "tenis",
-    "title": "Sinner lidera ATP, Sabalenka chega a 100 semanas no topo e Kitzbühel entra nas quartas",
-    "summary": "Jannik Sinner mantém a liderança do ranking ATP com 13.450 pontos; Aryna Sabalenka alcançou 100 semanas como nº 1 da WTA e Kitzbühel disputa as quartas nesta quinta.",
-    "content": "Jannik Sinner segue no topo do ranking ATP com 13.450 pontos, à frente de Alexander Zverev e Carlos Alcaraz. A tabela oficial mantém Félix Auger-Aliassime em quarto e Alex de Minaur em quinto na classificação publicada nesta semana.\n\nNo circuito feminino, Aryna Sabalenka alcançou a marca de 100 semanas como número 1 do mundo. A bielorrussa tornou-se apenas a décima jogadora a atingir a marca desde a criação do ranking da WTA em 1975 e soma 92 semanas consecutivas na liderança.\n\nEm Kitzbühel, as quartas de final têm Mariano Navone x Quentin Halys, Yannick Hanfmann x Sebastián Báez, Tomás Martín Etcheverry x Ignacio Buse e Alexander Bublik x Alex Molcan. É uma semana de transição pós-Wimbledon antes da sequência mais forte de quadra dura.",
-    "sourceName": "Fontes verificadas: ATP, WTA",
-    "sourceUrl": "https://www.atptour.com/en/rankings/singles",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "tenis",
-      "atp",
-      "wta",
-      "jannik-sinner",
-      "aryna-sabalenka",
-      "kitzbuhel"
-    ],
-    "seoTitle": "Sinner lidera ATP; Sabalenka completa 100 semanas como nº 1",
-    "seoDescription": "Sinner segue líder do ATP, Sabalenka chega a 100 semanas no topo da WTA e Kitzbühel disputa as quartas.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T13:20:00.000Z",
-    "createdAt": "2026-07-23T13:20:00.000Z",
-    "updatedAt": "2026-07-23T13:20:00.000Z",
-    "homepagePriority": 84,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.atptour.com/en/rankings/singles",
-      "https://www.wtatennis.com/news/4539221/by-the-numbers-sabalenka-reaches-100-weeks-at-world-no-1-joins-elite-company",
-      "https://www.atptour.com/en/scores/current/kitzbuhel/319/daily-schedule?day=1"
-    ]
-  },
-  {
-    "id": "curated-tour-stage18-20260723",
-    "slug": "tour-etapa-18-esta-em-andamento-com-pogacar-defendendo-4min32s-sobre-evenepoel",
-    "sportId": "ciclismo",
-    "title": "Tour: etapa 18 está em andamento com Pogačar defendendo 4min32s sobre Evenepoel",
-    "summary": "A etapa de 185,2 km entre Voiron e Orcières-Merlette recoloca a montanha no centro do Tour; Pogačar começou o dia com 4min32s de vantagem na geral.",
-    "content": "A 18ª etapa do Tour de France está em andamento nesta quinta-feira entre Voiron e Orcières-Merlette. O percurso tem 185,2 km, cinco subidas categorizadas e chegada em subida, abrindo a sequência final de montanha antes do encerramento em Paris.\n\nTadej Pogačar começou o dia com 4min32s de vantagem sobre Remco Evenepoel na classificação geral. A etapa começou com ataques e tentativas de fuga de nomes como Mads Pedersen, Ben Healy, Richard Carapaz e Valentin Paret-Peintre, enquanto a UAE monitora a condição de seus gregários em uma fase decisiva da prova.\n\nA leitura principal é a gestão da camisa amarela: Evenepoel precisa encontrar terreno para reduzir a diferença, mas Pogačar pode escolher controlar o esforço pensando nas duas chegadas a Alpe d’Huez que aparecem nas etapas 19 e 20.",
-    "sourceName": "Fontes verificadas: Tour de France, Reuters, The Guardian",
-    "sourceUrl": "https://www.letour.fr/en/heritage/stage-18",
-    "coverImageUrl": "/images/sports/ciclismo.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "ciclismo",
-      "tour-de-france",
-      "tadej-pogacar",
-      "remco-evenepoel",
-      "etapa-18"
-    ],
-    "seoTitle": "Tour de France: etapa 18 em andamento com Pogačar líder",
-    "seoDescription": "Pogačar defende 4min32s sobre Evenepoel na etapa 18 entre Voiron e Orcières-Merlette.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T13:20:00.000Z",
-    "createdAt": "2026-07-23T13:20:00.000Z",
-    "updatedAt": "2026-07-23T13:20:00.000Z",
-    "homepagePriority": 98,
-    "breaking": true,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.letour.fr/en/heritage/stage-18",
-      "https://www.reuters.com/sports/philipsen-sprints-victory-tour-de-france-stage-17-pogacar-retains-overall-lead-2026-07-22/",
-      "https://www.theguardian.com/sport/live/2026/jul/23/tour-de-france-2026-stage-18-summit-finish-orcieres-merlette-live"
-    ]
-  },
-  {
-    "id": "curated-mlb-witt-deadline-20260723",
-    "slug": "bobby-witt-jr-vai-para-il-e-trade-deadline-da-mlb-entra-na-reta-decisiva",
-    "sportId": "beisebol",
-    "title": "Bobby Witt Jr. vai para a IL e Trade Deadline da MLB entra na reta decisiva",
-    "summary": "Royals colocaram Bobby Witt Jr. na lista de lesionados de 10 dias por rigidez lombar; a Trade Deadline de 2026 está marcada para 3 de agosto.",
-    "content": "O Kansas City Royals colocou Bobby Witt Jr. na lista de lesionados de 10 dias por rigidez na região lombar, retroativo a 21 de julho. É a primeira passagem do shortstop pela injured list na carreira, depois de o problema impedir que ele atuasse em seu nível normal.\n\nA lesão chega em um momento no qual a MLB entra na reta mais agressiva do mercado. A Trade Deadline de 2026 está marcada para segunda-feira, 3 de agosto, às 18h no horário do leste dos Estados Unidos, 19h em Brasília.\n\nA partir de agora, cada lesão relevante pode influenciar a postura de compradores e vendedores. A LAP acompanha apenas trocas oficializadas ou reportadas por fontes de alta credibilidade, separando rumor de negócio concluído.",
-    "sourceName": "Fonte verificada: MLB",
-    "sourceUrl": "https://www.mlb.com/news/bobby-witt-jr-to-injured-list-with-lower-back-tightness",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "mlb",
-      "bobby-witt-jr",
-      "royals",
-      "trade-deadline"
-    ],
-    "seoTitle": "Bobby Witt Jr. vai para a IL; Trade Deadline da MLB se aproxima",
-    "seoDescription": "Royals colocam Bobby Witt Jr. na IL por rigidez lombar; Trade Deadline de 2026 será em 3 de agosto.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T13:20:00.000Z",
-    "createdAt": "2026-07-23T13:20:00.000Z",
-    "updatedAt": "2026-07-23T13:20:00.000Z",
-    "homepagePriority": 88,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.mlb.com/news/bobby-witt-jr-to-injured-list-with-lower-back-tightness",
-      "https://www.mlb.com/news/when-is-the-mlb-trade-deadline-2026-date-time-candidates-storylines"
     ]
   }
 ]
