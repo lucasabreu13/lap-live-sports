@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-67289a552ebc",
+    "slug": "lorenzo-sonego-vence-juncheng-shang-por-2-a-0-em-cincinnati-67289a",
+    "sportId": "tenis",
+    "title": "Lorenzo Sonego vence Juncheng Shang por 2 a 0 em Cincinnati",
+    "summary": "Lorenzo Sonego superou Juncheng Shang por 2 a 0 em Cincinnati.",
+    "content": "Lorenzo Sonego superou Juncheng Shang por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Lorenzo Sonego vence Juncheng Shang por 2 a 0 em Cincinnati",
+    "seoDescription": "Lorenzo Sonego superou Juncheng Shang por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T22:17:34.568Z",
+    "createdAt": "2026-08-14T22:17:34.568Z",
+    "updatedAt": "2026-08-14T22:17:34.568Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809637",
+      "eventStartTime": "2026-08-14T20:30:58+00:00",
+      "retrievedAt": "2026-08-14T22:17:34.568Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-535a72fc134e",
+    "slug": "cuenca-juniors-supera-22-de-julio-por-1-a-0-pelo-serie-b-535a72",
+    "sportId": "futebol",
+    "title": "Cuenca Juniors supera 22 de Julio por 1 a 0 pelo Serie B",
+    "summary": "Cuenca Juniors venceu 22 de Julio por 1 a 0 pelo Serie B.",
+    "content": "Cuenca Juniors venceu 22 de Julio por 1 a 0 pelo Serie B, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-b"
+    ],
+    "seoTitle": "Cuenca Juniors supera 22 de Julio por 1 a 0 pelo Serie B",
+    "seoDescription": "Cuenca Juniors venceu 22 de Julio por 1 a 0 pelo Serie B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T22:17:34.539Z",
+    "createdAt": "2026-08-14T22:17:34.539Z",
+    "updatedAt": "2026-08-14T22:17:34.539Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4677396",
+      "eventStartTime": "2026-08-14T20:00:00+00:00",
+      "retrievedAt": "2026-08-14T22:17:34.539Z",
+      "feedId": "futebol",
+      "league": "Serie B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-07c8a016fbca",
     "slug": "blake-bayldon-trey-hilderbrand-vence-kozlov-b-kozlov-s-por-2-a-0-em-brownsburg-07c8a0",
     "sportId": "tenis",
@@ -12400,74 +12484,5 @@
       "league": "Fórmula 1"
     },
     "articleFormat": "result-brief"
-  },
-  {
-    "id": "curated-mlb-deadline-20260724",
-    "slug": "mlb-entra-na-reta-quente-da-trade-deadline-de-3-de-agosto",
-    "sportId": "beisebol",
-    "title": "MLB entra na reta quente da Trade Deadline de 3 de agosto",
-    "summary": "O prazo final para trocas termina em 3 de agosto, às 18h ET — 19h em Brasília — e a próxima semana deve definir quem compra, vende ou preserva o elenco.",
-    "content": "A MLB entrou na parte do calendário em que uma única série pode mudar o comportamento de uma franquia no mercado. A Trade Deadline de 2026 será na segunda-feira, 3 de agosto, às 18h no horário do leste dos Estados Unidos, 19h em Brasília. Depois desse horário, jogadores em elencos de 40 não podem mais ser trocados entre clubes durante a temporada.\n\nNa prática, os próximos dias servem para separar compradores de vendedores. Times ainda próximos da zona de pós-temporada podem buscar rotação, bullpen ou profundidade ofensiva; clubes que perderam terreno podem transformar veteranos em jovens jogadores e escolhas futuras. Relatos de interesse devem ser tratados como rumor até uma transação ser oficialmente registrada.\n\nA LAP vai acompanhar essa janela com uma regra simples: negócio confirmado entra como notícia; sondagem, interesse e conversa de bastidor aparecem identificados como mercado, sem virar contratação antes da hora.",
-    "sourceName": "Fonte oficial: MLB",
-    "sourceUrl": "https://www.mlb.com/news/when-is-the-mlb-trade-deadline-2026-date-time-candidates-storylines",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "mlb",
-      "trade-deadline",
-      "mercado",
-      "trocas"
-    ],
-    "seoTitle": "MLB Trade Deadline 2026 será em 3 de agosto às 19h de Brasília",
-    "seoDescription": "Mercado da MLB entra na reta decisiva antes da Trade Deadline de 3 de agosto, às 18h ET.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-24T13:28:00.000Z",
-    "createdAt": "2026-07-24T13:28:00.000Z",
-    "updatedAt": "2026-07-24T13:28:00.000Z",
-    "homepagePriority": 92,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.mlb.com/news/when-is-the-mlb-trade-deadline-2026-date-time-candidates-storylines",
-      "https://www.mlb.com/glossary/transactions/trade-deadline"
-    ]
-  },
-  {
-    "id": "curated-nfl-camps-20260724",
-    "slug": "patriots-e-seahawks-chegam-com-elenco-completo-aos-training-camps",
-    "sportId": "futebol-americano",
-    "title": "Patriots e Seahawks chegam com elenco completo aos training camps",
-    "summary": "Os protagonistas do Super Bowl LX têm o elenco completo no camp nesta sexta; todos os 32 clubes da NFL terão iniciado os trabalhos até 28 de julho.",
-    "content": "A NFL acelera oficialmente sua preparação para 2026. New England Patriots e Seattle Seahawks, adversários do Super Bowl LX, têm seus elencos completos nos centros de treinamento nesta sexta-feira, 24 de julho. Arizona Cardinals e Carolina Panthers foram os primeiros clubes a reunir todo o grupo.\n\nAté terça-feira, 28 de julho, os 32 times terão iniciado seus training camps. É nessa fase que o depth chart — a hierarquia provisória de titulares e reservas em cada posição — começa a mudar de verdade. Rookies recebem repetições com os titulares, veteranos voltam de lesões e disputas por vagas deixam de ser projeção para virar observação de campo.\n\nO próximo marco coletivo da pré-temporada será em 6 de agosto, quando Cardinals e Panthers disputam o Hall of Fame Game. Antes disso, as notícias mais relevantes serão médicas: listas PUP e NFI, limitações de treino e qualquer lesão capaz de alterar uma disputa por posição.",
-    "sourceName": "Fonte oficial: NFL",
-    "sourceUrl": "https://www.nfl.com/news/nfl-training-camps-for-2026-season-open-this-week",
-    "coverImageUrl": "/images/sports/futebol-americano.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "nfl",
-      "training-camp",
-      "patriots",
-      "seahawks",
-      "pre-temporada"
-    ],
-    "seoTitle": "NFL 2026: Patriots e Seahawks se apresentam completos aos training camps",
-    "seoDescription": "Patriots e Seahawks reúnem elenco completo nesta sexta; todos os 32 camps da NFL começam até 28 de julho.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-24T13:27:00.000Z",
-    "createdAt": "2026-07-24T13:27:00.000Z",
-    "updatedAt": "2026-07-24T13:27:00.000Z",
-    "homepagePriority": 95,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.nfl.com/news/nfl-training-camps-for-2026-season-open-this-week",
-      "https://www.nfl.com/news/2026-nfl-training-camps-report-dates-locations-announced-for-all-32-teams"
-    ]
   }
 ]
