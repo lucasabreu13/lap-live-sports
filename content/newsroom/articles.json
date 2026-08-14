@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-a5b1b2fed508",
+    "slug": "philadelphia-phillies-vence-minnesota-twins-por-7-a-1-na-mlb-a5b1b2",
+    "sportId": "beisebol",
+    "title": "Philadelphia Phillies vence Minnesota Twins por 7 a 1 na MLB",
+    "summary": "Philadelphia Phillies derrotou Minnesota Twins por 7 a 1 na MLB.",
+    "content": "Philadelphia Phillies derrotou Minnesota Twins por 7 a 1 na MLB, em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Philadelphia Phillies vence Minnesota Twins por 7 a 1 na MLB",
+    "seoDescription": "Philadelphia Phillies derrotou Minnesota Twins por 7 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T11:25:37.176Z",
+    "createdAt": "2026-08-14T11:25:37.176Z",
+    "updatedAt": "2026-08-14T11:25:37.176Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602952",
+      "eventStartTime": "2026-08-13T23:30:00+00:00",
+      "retrievedAt": "2026-08-14T11:25:37.176Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f51834820844",
+    "slug": "bernard-tomic-e-andre-ilagan-empatam-por-0-a-0-em-brownsburg-f51834",
+    "sportId": "tenis",
+    "title": "Bernard Tomic e Andre Ilagan empatam por 0 a 0 em Brownsburg",
+    "summary": "Bernard Tomic e Andre Ilagan terminaram empatados por 0 a 0 em Brownsburg.",
+    "content": "Bernard Tomic e Andre Ilagan terminaram empatados por 0 a 0 em Brownsburg., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "brownsburg"
+    ],
+    "seoTitle": "Bernard Tomic e Andre Ilagan empatam por 0 a 0 em Brownsburg",
+    "seoDescription": "Bernard Tomic e Andre Ilagan terminaram empatados por 0 a 0 em Brownsburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T11:25:37.167Z",
+    "createdAt": "2026-08-14T11:25:37.167Z",
+    "updatedAt": "2026-08-14T11:25:37.167Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811810",
+      "eventStartTime": "2026-08-14T00:40:00+00:00",
+      "retrievedAt": "2026-08-14T11:25:37.167Z",
+      "feedId": "tenis",
+      "league": "Brownsburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-668c6124220f",
+    "slug": "atletico-levante-ud-supera-cf-intercity-por-1-a-0-pelo-club-friendlies-668c61",
+    "sportId": "futebol",
+    "title": "Atlético Levante UD supera CF Intercity por 1 a 0 pelo Club Friendlies",
+    "summary": "Atlético Levante UD venceu CF Intercity por 1 a 0 pelo Club Friendlies.",
+    "content": "Atlético Levante UD venceu CF Intercity por 1 a 0 pelo Club Friendlies, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Atlético Levante UD supera CF Intercity por 1 a 0 pelo Club Friendlies",
+    "seoDescription": "Atlético Levante UD venceu CF Intercity por 1 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T11:25:37.130Z",
+    "createdAt": "2026-08-14T11:25:37.130Z",
+    "updatedAt": "2026-08-14T11:25:37.130Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808060",
+      "eventStartTime": "2026-08-14T08:00:00+00:00",
+      "retrievedAt": "2026-08-14T11:25:37.130Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-fcbd31eda4f7",
     "slug": "milwaukee-brewers-vence-los-angeles-dodgers-por-5-a-4-na-mlb-fcbd31",
     "sportId": "beisebol",
@@ -12255,105 +12381,5 @@
       "https://www.mlssoccer.com/about/roster-rules-and-regulations"
     ],
     "readerClarityRevision": "v1"
-  },
-  {
-    "id": "curated-tour-stage17-20260722",
-    "slug": "philipsen-vence-etapa-17-tour-pogacar-segue-de-amarelo",
-    "sportId": "ciclismo",
-    "title": "Philipsen vence etapa 17 do Tour; Pogačar segue de amarelo",
-    "summary": "Jasper Philipsen venceu o sprint em Voiron, enquanto Tadej Pogačar manteve a liderança geral antes da etapa de montanha para Orcières-Merlette.",
-    "content": "Jasper Philipsen venceu a 17ª etapa do Tour de France, entre Chambéry e Voiron, em uma chegada decidida no sprint. Mauro Schmid terminou em segundo e Olav Kooij em terceiro. Foi a primeira vitória de Philipsen nesta edição e a 11ª de sua carreira no Tour.\n\nNa classificação geral, Tadej Pogačar manteve a camisa amarela. A vantagem sobre Remco Evenepoel permanece em 4min32s, deixando o esloveno em posição de controle antes de uma sequência decisiva de montanha.\n\nA próxima etapa, em 23 de julho, terá 185,2 km entre Voiron e Orcières-Merlette, com cerca de 3.900 metros de ganho de elevação. Esse perfil aumenta a expectativa por ataques na classificação geral e transforma a gestão da vantagem de Pogačar no principal ponto de atenção.",
-    "sourceName": "Fontes verificadas: Reuters, Tour de France",
-    "sourceUrl": "https://www.reuters.com/sports/philipsen-sprints-victory-tour-de-france-stage-17-pogacar-retains-overall-lead-2026-07-22/",
-    "coverImageUrl": "/images/sports/ciclismo.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "ciclismo",
-      "tour-de-france",
-      "jasper-philipsen",
-      "tadej-pogacar"
-    ],
-    "seoTitle": "Philipsen vence etapa 17 do Tour; Pogačar segue de amarelo",
-    "seoDescription": "Philipsen ganhou a etapa 17 em Voiron; Pogačar manteve a camisa amarela antes da montanha em Orcières-Merlette.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-22T18:10:00.000Z",
-    "createdAt": "2026-07-22T18:10:00.000Z",
-    "updatedAt": "2026-07-22T18:10:00.000Z",
-    "homepagePriority": 92,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.reuters.com/sports/philipsen-sprints-victory-tour-de-france-stage-17-pogacar-retains-overall-lead-2026-07-22/",
-      "https://www.letour.fr/en/etape-18"
-    ]
-  },
-  {
-    "id": "curated-f1-spa-20260722",
-    "slug": "antonelli-vence-spa-e-abre-45-pontos-na-lideranca-da-f1",
-    "sportId": "formula1",
-    "title": "Antonelli vence em Spa e abre 45 pontos na liderança da F1",
-    "summary": "Kimi Antonelli venceu o GP da Bélgica e chegou a 204 pontos, 45 à frente de Lewis Hamilton; Gabriel Bortoleto foi oitavo.",
-    "content": "Kimi Antonelli venceu o Grande Prêmio da Bélgica em Spa-Francorchamps e reforçou sua liderança no Mundial de Fórmula 1. O piloto da Mercedes terminou à frente de Charles Leclerc e Max Verstappen, com Lewis Hamilton em quarto e Oscar Piastri em quinto.\n\nCom o resultado, Antonelli chegou a 204 pontos no campeonato. Lewis Hamilton aparece em segundo com 159, uma diferença de 45 pontos, enquanto George Russell tem 154. A vitória foi a sexta de Antonelli na temporada de 2026.\n\nGabriel Bortoleto terminou em oitavo e pontuou pela segunda corrida consecutiva. A próxima leitura do campeonato passa pela capacidade da Ferrari de sustentar o ritmo de corrida e pela consistência da Mercedes em transformar sua vantagem em resultados nas próximas etapas.",
-    "sourceName": "Fonte verificada: Formula 1",
-    "sourceUrl": "https://www.formula1.com/en/results/2026/races/1290/belgium/race-result",
-    "coverImageUrl": "/images/sports/formula1.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "formula1",
-      "kimi-antonelli",
-      "gp-da-belgica",
-      "gabriel-bortoleto"
-    ],
-    "seoTitle": "Antonelli vence em Spa e abre 45 pontos na liderança da F1",
-    "seoDescription": "Antonelli venceu o GP da Bélgica e chegou a 204 pontos, 45 à frente de Hamilton; Bortoleto terminou em oitavo.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-22T18:10:00.000Z",
-    "createdAt": "2026-07-22T18:10:00.000Z",
-    "updatedAt": "2026-07-22T18:10:00.000Z",
-    "homepagePriority": 90,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.formula1.com/en/results/2026/races/1290/belgium/race-result",
-      "https://www.formula1.com/en/results/2026/drivers"
-    ]
-  },
-  {
-    "id": "curated-nfl-camps-20260722",
-    "slug": "training-camps-da-nfl-comecam-com-alertas-de-lesao-e-movimentacoes",
-    "sportId": "futebol-americano",
-    "title": "Training camps da NFL começam com alertas de lesão e movimentações",
-    "summary": "Cardinals e Panthers receberam veteranos, Taylor Moton entrou na NFI e os Seahawks abriram o camp com jogadores na PUP.",
-    "content": "A NFL entrou na fase mais importante da pré-temporada com a apresentação dos veteranos aos training camps. Arizona Cardinals e Carolina Panthers estão entre os primeiros times a reunir seus principais jogadores nesta janela, que antecede o Hall of Fame Game de 6 de agosto.\n\nCarolina inicia o camp com atenção especial à linha ofensiva. O right tackle Taylor Moton foi colocado na lista NFI após tratamento de um coágulo pulmonar e a equipe informou que ele deve perder o começo da temporada regular, com expectativa de retorno ainda durante o ano.\n\nSeattle também abriu o período com nomes na PUP, incluindo Kenny McIntosh e Nick Emmanwori. Em Green Bay, o defensive tackle Devonte Wyatt acertou extensão de três anos e US$ 57 milhões. A partir de agora, lesões, disputas por posição e definição de depth chart passam a dominar a agenda diária da liga.",
-    "sourceName": "Fontes verificadas: NFL, Panthers, Seahawks",
-    "sourceUrl": "https://www.panthers.com/news/two-starters-to-begin-training-camp-on-nfi-list-taylor-moton-jaycee-horn",
-    "coverImageUrl": "/images/sports/futebol-americano.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "nfl",
-      "training-camp",
-      "taylor-moton",
-      "seahawks"
-    ],
-    "seoTitle": "Training camps da NFL começam com alertas de lesão e movimentações",
-    "seoDescription": "Training camps começam; Taylor Moton entra na NFI e Seahawks abrem período com jogadores na PUP.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-22T18:10:00.000Z",
-    "createdAt": "2026-07-22T18:10:00.000Z",
-    "updatedAt": "2026-07-22T18:10:00.000Z",
-    "homepagePriority": 84,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.panthers.com/news/two-starters-to-begin-training-camp-on-nfi-list-taylor-moton-jaycee-horn",
-      "https://www.seahawks.com/news/seahawks-place-nick-emmanwori-kenny-mcintosh-tyrone-broden-on-pup-list",
-      "https://www.nfl.com/news/packers-devonte-wyatt-three-year-57-million-extension"
-    ]
   }
 ]
