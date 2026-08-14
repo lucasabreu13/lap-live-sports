@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-0c5142b630ec",
+    "slug": "mattia-bellucci-vence-zachary-svajda-por-2-a-0-em-cincinnati-0c5142",
+    "sportId": "tenis",
+    "title": "Mattia Bellucci vence Zachary Svajda por 2 a 0 em Cincinnati",
+    "summary": "Mattia Bellucci superou Zachary Svajda por 2 a 0 em Cincinnati.",
+    "content": "Mattia Bellucci superou Zachary Svajda por 2 a 0 em Cincinnati., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Mattia Bellucci vence Zachary Svajda por 2 a 0 em Cincinnati",
+    "seoDescription": "Mattia Bellucci superou Zachary Svajda por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T08:35:52.596Z",
+    "createdAt": "2026-08-14T08:35:52.596Z",
+    "updatedAt": "2026-08-14T08:35:52.596Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809624",
+      "eventStartTime": "2026-08-14T02:42:22+00:00",
+      "retrievedAt": "2026-08-14T08:35:52.596Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2345167cc4c4",
+    "slug": "franca-vence-paulistano-por-78-a-74-em-paulista-basketball-234516",
+    "sportId": "basquete",
+    "title": "Franca vence Paulistano por 78 a 74 em Paulista Basketball",
+    "summary": "Franca superou Paulistano por 78 a 74 em Paulista Basketball.",
+    "content": "Franca superou Paulistano por 78 a 74 em Paulista Basketball., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "paulista-basketball"
+    ],
+    "seoTitle": "Franca vence Paulistano por 78 a 74 em Paulista Basketball",
+    "seoDescription": "Franca superou Paulistano por 78 a 74 em Paulista Basketball.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T08:35:52.591Z",
+    "createdAt": "2026-08-14T08:35:52.591Z",
+    "updatedAt": "2026-08-14T08:35:52.591Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809924",
+      "eventStartTime": "2026-08-13T23:00:00+00:00",
+      "retrievedAt": "2026-08-14T08:35:52.591Z",
+      "feedId": "basquete",
+      "league": "Paulista Basketball"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-94c24b30ff28",
+    "slug": "new-england-patriots-e-indianapolis-colts-empatam-por-13-a-13-em-nfl-94c24b",
+    "sportId": "futebol-americano",
+    "title": "New England Patriots e Indianapolis Colts empatam por 13 a 13 em NFL",
+    "summary": "New England Patriots e Indianapolis Colts terminaram empatados por 13 a 13 em NFL.",
+    "content": "New England Patriots e Indianapolis Colts terminaram empatados por 13 a 13 em NFL., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "New England Patriots e Indianapolis Colts empatam por 13 a 13 em NFL",
+    "seoDescription": "New England Patriots e Indianapolis Colts terminaram empatados por 13 a 13 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T08:35:52.576Z",
+    "createdAt": "2026-08-14T08:35:52.576Z",
+    "updatedAt": "2026-08-14T08:35:52.576Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714905",
+      "eventStartTime": "2026-08-13T23:30:00+00:00",
+      "retrievedAt": "2026-08-14T08:35:52.576Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-11724ea6c8d2",
+    "slug": "sporting-sm-ii-e-panama-city-fc-ficam-no-0-a-0-pela-liga-prom-11724e",
+    "sportId": "futebol",
+    "title": "Sporting Sm Ii e Panamá City Fc ficam no 0 a 0 pela Liga Prom",
+    "summary": "Sporting Sm Ii e Panamá City Fc empataram por 0 a 0 pela Liga Prom.",
+    "content": "Sporting Sm Ii e Panamá City Fc empataram por 0 a 0 pela Liga Prom, em 13 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-prom"
+    ],
+    "seoTitle": "Sporting Sm Ii e Panamá City Fc ficam no 0 a 0 pela Liga Prom",
+    "seoDescription": "Sporting Sm Ii e Panamá City Fc empataram por 0 a 0 pela Liga Prom.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T08:35:52.571Z",
+    "createdAt": "2026-08-14T08:35:52.571Z",
+    "updatedAt": "2026-08-14T08:35:52.571Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4778507",
+      "eventStartTime": "2026-08-14T01:00:00+00:00",
+      "retrievedAt": "2026-08-14T08:35:52.571Z",
+      "feedId": "futebol",
+      "league": "Liga Prom"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-1a202485b886",
     "slug": "rai-a-watt-j-vence-king-e-stalder-r-por-2-a-1-em-brownsburg-1a2024",
     "sportId": "tenis",
@@ -12137,179 +12305,5 @@
     "verifiedFacts": 2,
     "editorialPolished": true,
     "editorialDesk": "futebol"
-  },
-  {
-    "id": "newsroom-data-e4441e9747c7",
-    "slug": "santos-supera-ucv-fc-por-4-a-1-pelo-copa-sul-americana-e4441e",
-    "sportId": "futebol",
-    "title": "Tigre supera Nacional por 3 a 0 pela Copa Sul Americana",
-    "summary": "Tigre venceu Nacional por 3 a 0 pela Copa Sul Americana.",
-    "content": "Tigre venceu Nacional por 3 a 0 pela Copa Sul Americana, em 21 de julho de 2026 no Gran Parque Central.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-sul-americana"
-    ],
-    "seoTitle": "Tigre supera Nacional por 3 a 0 pela Copa Sul Americana",
-    "seoDescription": "Tigre venceu Nacional por 3 a 0 pela Copa Sul Americana.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-22T07:18:55.002Z",
-    "createdAt": "2026-07-22T07:18:55.002Z",
-    "updatedAt": "2026-07-22T13:10:45.338Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "401874150",
-      "eventStartTime": "2026-07-21T22:00Z",
-      "retrievedAt": "2026-07-22T13:10:45.338Z",
-      "feedId": "futebol",
-      "league": "Copa Sul-Americana"
-    },
-    "updateHistory": [
-      {
-        "updatedAt": "2026-07-22T13:10:45.338Z",
-        "sourceArticleId": "newsroom-data-6332fd57244e"
-      }
-    ],
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-bf32836f3b6a",
-    "slug": "vila-nova-supera-fortaleza-por-2-a-1-pelo-brasileirao-serie-b-bf3283",
-    "sportId": "futebol",
-    "title": "Vila Nova supera Fortaleza por 2 a 1 pelo Brasileirão Série B",
-    "summary": "Vila Nova venceu Fortaleza por 2 a 1 pelo Brasileirão Série B.",
-    "content": "Vila Nova venceu Fortaleza por 2 a 1 pelo Brasileirão Série B, em 21 de julho de 2026 no Estádio Onésio Brasileiro Alvarenga.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "brasileirao-serie-b"
-    ],
-    "seoTitle": "Vila Nova supera Fortaleza por 2 a 1 pelo Brasileirão Série B",
-    "seoDescription": "Vila Nova venceu Fortaleza por 2 a 1 pelo Brasileirão Série B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-22T04:31:07.433Z",
-    "createdAt": "2026-07-22T04:31:07.433Z",
-    "updatedAt": "2026-07-22T04:31:07.433Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "401860244",
-      "eventStartTime": "2026-07-22T00:35Z",
-      "retrievedAt": "2026-07-22T04:31:07.433Z",
-      "feedId": "futebol",
-      "league": "Brasileirão Série B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-15f15a536fd6",
-    "slug": "avai-supera-america-mineiro-por-2-a-1-pelo-brasileirao-serie-b-15f15a",
-    "sportId": "futebol",
-    "title": "Avaí supera América Mineiro por 2 a 1 pelo Brasileirão Série B",
-    "summary": "Avaí venceu América Mineiro por 2 a 1 pelo Brasileirão Série B.",
-    "content": "Avaí venceu América Mineiro por 2 a 1 pelo Brasileirão Série B, em 21 de julho de 2026 no Estádio da Ressacada.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "brasileirao-serie-b"
-    ],
-    "seoTitle": "Avaí supera América Mineiro por 2 a 1 pelo Brasileirão Série B",
-    "seoDescription": "Avaí venceu América Mineiro por 2 a 1 pelo Brasileirão Série B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-22T01:04:39.206Z",
-    "createdAt": "2026-07-22T01:04:39.206Z",
-    "updatedAt": "2026-07-22T01:04:39.206Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "401860243",
-      "eventStartTime": "2026-07-21T22:30Z",
-      "retrievedAt": "2026-07-22T01:04:39.206Z",
-      "feedId": "futebol",
-      "league": "Brasileirão Série B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-213e982b948e",
-    "slug": "tampa-bay-rays-vence-toronto-blue-jays-por-7-a-1-na-temporada-regular-213e98",
-    "sportId": "beisebol",
-    "title": "Tampa Bay Rays vence Toronto Blue Jays por 7 a 1 na temporada regular",
-    "summary": "Tampa Bay Rays derrotou Toronto Blue Jays por 7 a 1 na temporada regular.",
-    "content": "Tampa Bay Rays derrotou Toronto Blue Jays por 7 a 1 na temporada regular, em 20 de julho de 2026 no Rogers Centre.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "temporada-regular"
-    ],
-    "seoTitle": "Tampa Bay Rays vence Toronto Blue Jays por 7 a 1 na temporada regular",
-    "seoDescription": "Tampa Bay Rays derrotou Toronto Blue Jays por 7 a 1 na temporada regular.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-21T12:51:39.313Z",
-    "createdAt": "2026-07-21T12:51:39.313Z",
-    "updatedAt": "2026-07-21T12:51:39.313Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "401816191",
-      "eventStartTime": "2026-07-20T23:07Z",
-      "retrievedAt": "2026-07-21T12:51:39.313Z",
-      "feedId": "beisebol",
-      "league": "regular-season"
-    },
-    "articleFormat": "result-brief"
   }
 ]
