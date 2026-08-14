@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-ad9e6a7a8dce",
+    "slug": "alianza-reserves-e-cacahuatique-reserves-ficam-no-0-a-0-pelo-torneo-reservas-ad9e6a",
+    "sportId": "futebol",
+    "title": "Alianza Reserves e Cacahuatique Reserves ficam no 0 a 0 pelo Torneo Reservas",
+    "summary": "Alianza Reserves e Cacahuatique Reserves empataram por 0 a 0 pelo Torneo Reservas.",
+    "content": "Alianza Reserves e Cacahuatique Reserves empataram por 0 a 0 pelo Torneo Reservas, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "torneo-reservas"
+    ],
+    "seoTitle": "Alianza Reserves e Cacahuatique Reserves ficam no 0 a 0 pelo Torneo",
+    "seoDescription": "Alianza Reserves e Cacahuatique Reserves empataram por 0 a 0 pelo Torneo Reservas.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T23:11:30.198Z",
+    "createdAt": "2026-08-14T23:11:30.198Z",
+    "updatedAt": "2026-08-14T23:11:30.198Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815023",
+      "eventStartTime": "2026-08-14T23:00:00+00:00",
+      "retrievedAt": "2026-08-14T23:11:30.198Z",
+      "feedId": "futebol",
+      "league": "Torneo Reservas"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-dedc6a9517db",
     "slug": "xin-yu-wang-vence-hanne-vandewinkel-por-2-a-0-em-cincinnati-dedc6a",
     "sportId": "tenis",
@@ -2481,9 +2523,9 @@
     "id": "newsroom-data-0fb91ad4b64a",
     "slug": "behar-a-paris-j-vence-ji-sung-nam-patrik-niklas-salminen-por-2-a-0-em-brownsburg-0fb91a",
     "sportId": "tenis",
-    "title": "Behar A./Paris J. vence Ji Sung Nam / Patrik Niklas-Salminen por 2 a 0 em Brownsburg",
-    "summary": "Behar A./Paris J. superou Ji Sung Nam / Patrik Niklas-Salminen por 2 a 0 em Brownsburg.",
-    "content": "Behar A./Paris J. superou Ji Sung Nam / Patrik Niklas-Salminen por 2 a 0 em Brownsburg., em 13 de agosto de 2026.",
+    "title": "Ho R./Liutarevich I. vence Behar A./Paris J. por 2 a 0 em Brownsburg",
+    "summary": "Ho R./Liutarevich I. superou Behar A./Paris J. por 2 a 0 em Brownsburg.",
+    "content": "Ho R./Liutarevich I. superou Behar A./Paris J. por 2 a 0 em Brownsburg., em 14 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
     "coverImageUrl": null,
@@ -2494,13 +2536,13 @@
       "resultado",
       "brownsburg"
     ],
-    "seoTitle": "Behar A./Paris J. vence Ji Sung Nam / Patrik Niklas-Salminen por 2 a 0",
-    "seoDescription": "Behar A./Paris J. superou Ji Sung Nam / Patrik Niklas-Salminen por 2 a 0 em Brownsburg.",
+    "seoTitle": "Ho R./Liutarevich I. vence Behar A./Paris J. por 2 a 0 em Brownsburg",
+    "seoDescription": "Ho R./Liutarevich I. superou Behar A./Paris J. por 2 a 0 em Brownsburg.",
     "status": "published",
     "scheduledAt": null,
     "publishedAt": "2026-08-14T04:27:55.978Z",
     "createdAt": "2026-08-14T04:27:55.978Z",
-    "updatedAt": "2026-08-14T04:27:55.978Z",
+    "updatedAt": "2026-08-14T23:11:30.224Z",
     "homepagePriority": 52,
     "breaking": false,
     "agentId": "tenis",
@@ -2511,13 +2553,19 @@
     "dataDriven": true,
     "provenance": {
       "provider": "LAP live-data",
-      "eventId": "365-4808199",
-      "eventStartTime": "2026-08-14T02:53:58+00:00",
-      "retrievedAt": "2026-08-14T04:27:55.978Z",
+      "eventId": "365-4814017",
+      "eventStartTime": "2026-08-14T21:21:48+00:00",
+      "retrievedAt": "2026-08-14T23:11:30.224Z",
       "feedId": "tenis",
       "league": "Brownsburg"
     },
-    "articleFormat": "result-brief"
+    "articleFormat": "result-brief",
+    "updateHistory": [
+      {
+        "updatedAt": "2026-08-14T23:11:30.224Z",
+        "sourceArticleId": "newsroom-data-6bdf7f24f7e7"
+      }
+    ]
   },
   {
     "id": "newsroom-data-cfca3b294a55",
@@ -12457,40 +12505,6 @@
     "articleFormat": "full",
     "sourceUrls": [
       "https://www.theguardian.com/football/2026/jul/23/manchester-united-consider-eduardo-camavinga-sander-berge-midfield-overhaul"
-    ]
-  },
-  {
-    "id": "curated-tennis-kitzbuhel-20260724",
-    "slug": "bublik-etcheverry-halys-e-hanfmann-avancam-em-kitzbuhel",
-    "sportId": "tenis",
-    "title": "Bublik, Etcheverry, Halys e Hanfmann avançam em Kitzbühel",
-    "summary": "As quartas desta sexta terminaram com vitórias em sets diretos dos quatro classificados, definindo a fase decisiva do Generali Open.",
-    "content": "As quartas de final do ATP de Kitzbühel foram resolvidas nesta sexta-feira com quatro vitórias em sets diretos. Alexander Bublik derrotou Alex Molcan por 6/3 e 6/2. Tomás Martín Etcheverry venceu Ignacio Buse por 6/2 e 7/5. Quentin Halys passou por Mariano Navone por 7/5 e 6/3, enquanto Yannick Hanfmann superou Sebastián Báez por 6/3 e 6/1.\n\nO recorte importa porque a semana no saibro austríaco acontece justamente na transição para a fase mais pesada do calendário norte-americano. Resultados aqui ainda valem pontos importantes, mas também medem condição física e confiança antes da sequência de quadra dura.\n\nNa cobertura da LAP, ranking e resultados ficam separados: o ranking ATP continua vindo da classificação oficial atualizada, enquanto o placar do torneio registra o que aconteceu em quadra. Assim uma vitória de hoje não é transformada automaticamente em posição de ranking antes da atualização oficial.",
-    "sourceName": "Fonte oficial: ATP Tour",
-    "sourceUrl": "https://www.atptour.com/en/scores/current/kitzbuhel/319/results",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "tenis",
-      "atp",
-      "kitzbuhel",
-      "alexander-bublik",
-      "tomas-etcheverry"
-    ],
-    "seoTitle": "ATP Kitzbühel: Bublik, Etcheverry, Halys e Hanfmann avançam",
-    "seoDescription": "Quartas de Kitzbühel terminam com Bublik, Etcheverry, Halys e Hanfmann classificados em sets diretos.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-24T13:30:00.000Z",
-    "createdAt": "2026-07-24T13:30:00.000Z",
-    "updatedAt": "2026-07-24T13:30:00.000Z",
-    "homepagePriority": 89,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.atptour.com/en/scores/current/kitzbuhel/319/results"
     ]
   }
 ]
