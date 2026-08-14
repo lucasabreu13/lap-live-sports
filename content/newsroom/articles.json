@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-0ea3f038b26b",
+    "slug": "viktorija-golubic-vence-alycia-parks-por-2-a-0-em-cincinnati-0ea3f0",
+    "sportId": "tenis",
+    "title": "Viktorija Golubic vence Alycia Parks por 2 a 0 em Cincinnati",
+    "summary": "Viktorija Golubic superou Alycia Parks por 2 a 0 em Cincinnati.",
+    "content": "Viktorija Golubic superou Alycia Parks por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Viktorija Golubic vence Alycia Parks por 2 a 0 em Cincinnati",
+    "seoDescription": "Viktorija Golubic superou Alycia Parks por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T20:21:13.642Z",
+    "createdAt": "2026-08-14T20:21:13.642Z",
+    "updatedAt": "2026-08-14T20:21:13.642Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809645",
+      "eventStartTime": "2026-08-14T19:07:06+00:00",
+      "retrievedAt": "2026-08-14T20:21:13.642Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-792408e434b7",
+    "slug": "cska-1948-sofia-supera-cherno-more-varna-por-4-a-1-pela-parva-liga-792408",
+    "sportId": "futebol",
+    "title": "CSKA 1948 Sofia supera Cherno More Varna por 4 a 1 pela Parva Liga",
+    "summary": "CSKA 1948 Sofia venceu Cherno More Varna por 4 a 1 pela Parva Liga.",
+    "content": "CSKA 1948 Sofia venceu Cherno More Varna por 4 a 1 pela Parva Liga, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "parva-liga"
+    ],
+    "seoTitle": "CSKA 1948 Sofia supera Cherno More Varna por 4 a 1 pela Parva Liga",
+    "seoDescription": "CSKA 1948 Sofia venceu Cherno More Varna por 4 a 1 pela Parva Liga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T20:21:13.615Z",
+    "createdAt": "2026-08-14T20:21:13.615Z",
+    "updatedAt": "2026-08-14T20:21:13.615Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4733604",
+      "eventStartTime": "2026-08-14T18:15:00+00:00",
+      "retrievedAt": "2026-08-14T20:21:13.615Z",
+      "feedId": "futebol",
+      "league": "Parva Liga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-80dde392724a",
     "slug": "nicolas-kicker-vence-francesco-passaro-por-2-a-0-em-todi-80dde3",
     "sportId": "tenis",
@@ -12367,90 +12451,6 @@
       "eventId": "761669",
       "eventStartTime": "2026-07-22T23:30Z",
       "retrievedAt": "2026-07-23T22:36:49.444Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2a9c848d6ddb",
-    "slug": "new-york-city-fc-supera-columbus-crew-por-2-a-1-pelo-mls-2a9c84",
-    "sportId": "futebol",
-    "title": "New York City FC supera Columbus Crew por 2 a 1 pela MLS",
-    "summary": "New York City FC venceu Columbus Crew por 2 a 1 pela MLS.",
-    "content": "New York City FC venceu Columbus Crew por 2 a 1 pela MLS, em 22 de julho de 2026 no ScottsMiracle-Gro Field.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "New York City FC supera Columbus Crew por 2 a 1 pela MLS",
-    "seoDescription": "New York City FC venceu Columbus Crew por 2 a 1 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T21:41:13.456Z",
-    "createdAt": "2026-07-23T21:41:13.456Z",
-    "updatedAt": "2026-07-23T21:41:13.456Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761668",
-      "eventStartTime": "2026-07-22T23:30Z",
-      "retrievedAt": "2026-07-23T21:41:13.456Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b00e549884ff",
-    "slug": "charlotte-fc-e-atlanta-united-fc-ficam-no-2-a-2-pelo-mls-b00e54",
-    "sportId": "futebol",
-    "title": "Charlotte FC e Atlanta United FC ficam no 2 a 2 pela MLS",
-    "summary": "Charlotte FC e Atlanta United FC empataram por 2 a 2 pela MLS.",
-    "content": "Charlotte FC e Atlanta United FC empataram por 2 a 2 pela MLS, em 22 de julho de 2026 no Bank of America Stadium. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Charlotte FC e Atlanta United FC ficam no 2 a 2 pela MLS",
-    "seoDescription": "Charlotte FC e Atlanta United FC empataram por 2 a 2 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T20:41:30.596Z",
-    "createdAt": "2026-07-23T20:41:30.596Z",
-    "updatedAt": "2026-07-23T20:41:30.596Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761670",
-      "eventStartTime": "2026-07-23T00:15Z",
-      "retrievedAt": "2026-07-23T20:41:30.596Z",
       "feedId": "futebol",
       "league": "MLS"
     },
