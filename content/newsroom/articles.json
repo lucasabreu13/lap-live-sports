@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-49c523f9d44a",
+    "slug": "elisabetta-cocciaretto-e-lucrezia-stefanini-empatam-por-0-a-0-em-cincinnati-49c523",
+    "sportId": "tenis",
+    "title": "Elisabetta Cocciaretto e Lucrezia Stefanini empatam por 0 a 0 em Cincinnati",
+    "summary": "Elisabetta Cocciaretto e Lucrezia Stefanini terminaram empatados por 0 a 0 em Cincinnati.",
+    "content": "Elisabetta Cocciaretto e Lucrezia Stefanini terminaram empatados por 0 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Elisabetta Cocciaretto e Lucrezia Stefanini empatam por 0 a 0 em",
+    "seoDescription": "Elisabetta Cocciaretto e Lucrezia Stefanini terminaram empatados por 0 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T16:22:20.210Z",
+    "createdAt": "2026-08-14T16:22:20.210Z",
+    "updatedAt": "2026-08-14T16:22:20.210Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813453",
+      "eventStartTime": "2026-08-14T15:13:59+00:00",
+      "retrievedAt": "2026-08-14T16:22:20.210Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c7cbda6dacb3",
+    "slug": "nk-radnik-krizevci-e-dugo-selo-ficam-no-0-a-0-pelo-club-friendlies-c7cbda",
+    "sportId": "futebol",
+    "title": "NK Radnik Krizevci e Dugo Selo ficam no 0 a 0 pelo Club Friendlies",
+    "summary": "NK Radnik Krizevci e Dugo Selo empataram por 0 a 0 pelo Club Friendlies.",
+    "content": "NK Radnik Krizevci e Dugo Selo empataram por 0 a 0 pelo Club Friendlies, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "NK Radnik Krizevci e Dugo Selo ficam no 0 a 0 pelo Club Friendlies",
+    "seoDescription": "NK Radnik Krizevci e Dugo Selo empataram por 0 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T16:22:20.186Z",
+    "createdAt": "2026-08-14T16:22:20.186Z",
+    "updatedAt": "2026-08-14T16:22:20.186Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814852",
+      "eventStartTime": "2026-08-14T15:30:00+00:00",
+      "retrievedAt": "2026-08-14T16:22:20.186Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-e6f0e7853ab4",
     "slug": "orix-buffaloes-vence-nippon-ham-fighters-por-6-a-2-na-npb-e6f0e7",
     "sportId": "beisebol",
@@ -12355,76 +12439,6 @@
     "agentId": "curadoria-lap",
     "sourceUrls": [
       "https://www.reuters.com/sports/no-1-pick-fernando-mendoza-raiders-odds-over-bonus--flm-2026-07-22/"
-    ]
-  },
-  {
-    "id": "curated-nba-offseason-20260723",
-    "slug": "giannis-em-miami-ja-morant-em-portland-e-lamelo-em-minnesota-redesenham-a-nba",
-    "sportId": "basquete",
-    "title": "Giannis em Miami, Ja Morant em Portland e LaMelo em Minnesota redesenham a NBA",
-    "summary": "A offseason de 2026 já confirmou trocas de enorme impacto: Giannis Antetokounmpo foi para Miami, Ja Morant para Portland, LaMelo Ball para Minnesota e Jaylen Brown para Philadelphia.",
-    "content": "A Summer League terminou, mas a principal história da NBA está fora da quadra. A offseason de 2026 produziu uma sequência de trocas que redesenhou o equilíbrio da liga. Giannis Antetokounmpo foi oficialmente adquirido pelo Miami Heat, que também recebeu Bobby Portis em um pacote de grande porte com Milwaukee.\n\nPortland adquiriu Ja Morant dos Grizzlies, enquanto Minnesota montou uma nova dupla de backcourt com Anthony Edwards e LaMelo Ball. No Leste, Boston enviou Jaylen Brown para o Philadelphia 76ers e recebeu Paul George, além de escolhas de Draft.\n\nO que acompanha a partir daqui não é mais rumor, mas encaixe: distribuição de bola em Minnesota, espaçamento em Miami, reconstrução de Memphis e o efeito financeiro e esportivo da troca Brown-George. A LAP vai separar negócios oficializados de especulações que ainda não se transformaram em transação.",
-    "sourceName": "Fonte verificada: NBA.com",
-    "sourceUrl": "https://www.nba.com/news/nba-offseason-deals-2026",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "nba",
-      "giannis-antetokounmpo",
-      "ja-morant",
-      "lamelo-ball",
-      "jaylen-brown"
-    ],
-    "seoTitle": "Giannis, Ja Morant, LaMelo e Jaylen Brown mudam o mapa da NBA",
-    "seoDescription": "Offseason da NBA confirma Giannis em Miami, Ja Morant em Portland, LaMelo em Minnesota e Jaylen Brown em Philadelphia.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T13:20:00.000Z",
-    "createdAt": "2026-07-23T13:20:00.000Z",
-    "updatedAt": "2026-07-23T13:20:00.000Z",
-    "homepagePriority": 94,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.nba.com/news/reports-heat-acquire-giannis-antetokounmpo-in-blockbuster-deal",
-      "https://www.nba.com/news/blazers-grizzlies-ja-morant-trade",
-      "https://www.nba.com/news/lamelo-ball-trade-timberwolves-2026",
-      "https://www.nba.com/news/4-takeaways-jaylen-brown-paul-george-trade"
-    ]
-  },
-  {
-    "id": "curated-f1-hungria-20260723",
-    "slug": "antonelli-chega-lider-a-hungria-e-aston-martin-estreia-pacote-de-upgrades",
-    "sportId": "formula1",
-    "title": "Antonelli chega líder à Hungria e Aston Martin estreia pacote de upgrades",
-    "summary": "Kimi Antonelli lidera a Fórmula 1 com 204 pontos; o GP da Hungria começa na pista nesta sexta e a Aston Martin leva uma revisão substancial do carro.",
-    "content": "A Fórmula 1 abre o fim de semana do GP da Hungria com Kimi Antonelli na liderança do Mundial. O piloto da Mercedes soma 204 pontos, contra 159 de Lewis Hamilton e 154 de George Russell. O Hungaroring recebe a 11ª etapa da temporada.\n\nAston Martin chega como um dos focos técnicos do paddock. A equipe leva um pacote substancial de atualização, com objetivo de reduzir peso e mudar o comportamento do AMR26 depois de um começo de campeonato muito abaixo do esperado.\n\nA programação começa na sexta-feira, 24 de julho, com TL1 às 08h30 e TL2 às 12h00 no horário de Brasília. A classificação será no sábado às 11h00 e a corrida no domingo às 10h00. Em um circuito estreito e de ultrapassagem difícil, posição de largada tende a ter peso elevado.",
-    "sourceName": "Fonte verificada: Formula 1",
-    "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
-    "coverImageUrl": "/images/sports/formula1.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "formula1",
-      "kimi-antonelli",
-      "gp-da-hungria",
-      "aston-martin"
-    ],
-    "seoTitle": "Antonelli lidera antes do GP da Hungria; Aston Martin leva grande upgrade",
-    "seoDescription": "Antonelli chega ao Hungaroring com 204 pontos; Aston Martin estreia pacote de atualização no GP da Hungria.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T13:20:00.000Z",
-    "createdAt": "2026-07-23T13:20:00.000Z",
-    "updatedAt": "2026-07-23T13:20:00.000Z",
-    "homepagePriority": 90,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.formula1.com/en/results/2026/drivers",
-      "https://www.formula1.com/en/latest/article/why-aston-martin-are-counting-the-days-ahead-of-crucial-test-in-hungary.4ZgRuYpf3BnrvBrqz4JwfC",
-      "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-hungarian-grand-prix-and-how-can-i-watch-it.4ySAxJdw0lgjPfuFLaEp6A"
     ]
   }
 ]
