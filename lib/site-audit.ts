@@ -1,7 +1,5 @@
-import { getCachedLivePayload } from "@/lib/free-live-data";
-import { getResilientGameDetails } from "@/lib/resilient-game-details";
-import { FOOTBALL_COMPETITIONS, type ScoreItem } from "@/lib/live-data";
-import { PUBLIC_SPORTS, toPublicLivePayload } from "@/lib/public-sports";
+import { FOOTBALL_COMPETITIONS, type LivePayload, type ScoreItem } from "@/lib/live-data";
+import { PUBLIC_SPORTS } from "@/lib/public-sports";
 
 export type SiteAuditStatus = "ok" | "warn" | "fail";
 
@@ -113,6 +111,22 @@ function plainText(html: string) {
     .trim();
 }
 
+function isLivePayload(value: unknown): value is LivePayload {
+  if (!value || typeof value !== "object") return false;
+  const payload = value as Partial<LivePayload>;
+  return Array.isArray(payload.feeds)
+    && Array.isArray(payload.editorial)
+    && Boolean(payload.worldCup && Array.isArray(payload.worldCup.events));
+}
+
+async function loadTargetPayload(baseUrl: string) {
+  const response = await fetchWithTimeout(`${baseUrl}/api/live?includeWorldCup=1`, 60_000);
+  if (!response.ok) throw new Error(`A API pública do ambiente auditado respondeu com HTTP ${response.status}.`);
+  const payload: unknown = await response.json();
+  if (!isLivePayload(payload)) throw new Error("A API pública do ambiente auditado retornou um payload inválido.");
+  return payload;
+}
+
 function contentChecks(path: string, type: SiteAuditItem["type"], html: string): SiteAuditItem[] {
   const text = plainText(html);
   const normalized = text.toLocaleLowerCase("pt-BR");
@@ -151,16 +165,28 @@ async function checkHttpPath(baseUrl: string, path: string, type: SiteAuditItem[
   }
 }
 
-async function checkGame(score: ScoreItem): Promise<SiteAuditItem> {
-  const path = eventPath(score);
-  const details = await getResilientGameDetails(score.sportId, score.id, { worldCup: Boolean(score.isWorldCup) }).catch(() => null);
-  if (!details) return { type: "game", path, status: "fail", message: "O evento está na agenda, mas seus detalhes não abriram." };
-  const hasSummaryOnly = !details.timeline.length && !details.teamStats.length && !details.lineups.length;
-  if (hasSummaryOnly) return { type: "game", path, status: "warn", message: "A página abre com resumo e informações essenciais; estatísticas ainda não foram publicadas." };
-  return { type: "game", path, status: "ok", message: "A página do evento abre com dados detalhados." };
+async function checkGameApi(baseUrl: string, score: ScoreItem): Promise<SiteAuditItem[]> {
+  const path = eventApiPath(score);
+  try {
+    const response = await fetchWithTimeout(`${baseUrl}${path}`);
+    if (response.status === 404) return [{ type: "api", path, status: "fail", httpStatus: 404, message: "Página não encontrada (404)." }];
+    if (response.status >= 400) return [{ type: "api", path, status: "warn", httpStatus: response.status, message: `A página respondeu com HTTP ${response.status}.` }];
+
+    const details = await response.json() as { timeline?: unknown[]; teamStats?: unknown[]; lineups?: unknown[] };
+    const hasSummaryOnly = !(details.timeline?.length || details.teamStats?.length || details.lineups?.length);
+    return [
+      { type: "api", path, status: "ok", httpStatus: response.status, message: "Página respondeu normalmente." },
+      hasSummaryOnly
+        ? { type: "game", path: eventPath(score), status: "warn", message: "A página abre com resumo e informações essenciais; estatísticas ainda não foram publicadas." }
+        : { type: "game", path: eventPath(score), status: "ok", message: "A página do evento abre com dados detalhados." },
+    ];
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Não foi possível verificar a página.";
+    return [{ type: "api", path, status: "warn", message: `Verificação incompleta: ${message}` }];
+  }
 }
 
-function articlePaths(payload: Awaited<ReturnType<typeof getCachedLivePayload>>, deep: boolean) {
+function articlePaths(payload: LivePayload, deep: boolean) {
   const seen = new Set<string>();
   return [...payload.editorial, ...payload.feeds.flatMap((feed) => feed.news)]
     .map((item) => item.internalUrl)
@@ -176,8 +202,7 @@ export async function runSiteAudit(options?: { baseUrl?: string; maxPerSport?: n
   const baseUrl = (options?.baseUrl || process.env.NEXT_PUBLIC_SITE_URL || "https://lap-live-sports.vercel.app").replace(/\/$/, "");
   const maxPerSport = Math.min(Math.max(options?.maxPerSport ?? 4, 1), 20);
   const deep = Boolean(options?.deep);
-  const rawPayload = await getCachedLivePayload({ forceRefresh: true });
-  const payload = toPublicLivePayload(rawPayload, { includeWorldCup: true });
+  const payload = await loadTargetPayload(baseUrl);
   const allEvents = uniqueEvents([...payload.worldCup.events, ...payload.feeds.flatMap((feed) => feed.scores)]);
 
   const corePaths = ["/", "/agenda", "/ao-vivo", "/copa-2026", "/cobertura", "/favoritos"];
@@ -203,10 +228,9 @@ export async function runSiteAudit(options?: { baseUrl?: string; maxPerSport?: n
   }
 
   const sampledEvents = pickEventsForAudit(allEvents, maxPerSport, deep);
-  for (const group of chunk(sampledEvents, 4)) items.push(...await Promise.all(group.map(checkGame)));
   for (const group of chunk(sampledEvents, 4)) {
     items.push(...(await Promise.all(group.map((score) => checkHttpPath(baseUrl, eventPath(score), "game")))).flat());
-    items.push(...(await Promise.all(group.map((score) => checkHttpPath(baseUrl, eventApiPath(score), "api")))).flat());
+    items.push(...(await Promise.all(group.map((score) => checkGameApi(baseUrl, score)))).flat());
   }
 
   const okCount = items.filter((item) => item.status === "ok").length;
