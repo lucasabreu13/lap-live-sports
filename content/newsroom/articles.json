@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-0fb91ad4b64a",
+    "slug": "behar-a-paris-j-vence-ji-sung-nam-patrik-niklas-salminen-por-2-a-0-em-brownsburg-0fb91a",
+    "sportId": "tenis",
+    "title": "Behar A./Paris J. vence Ji Sung Nam / Patrik Niklas-Salminen por 2 a 0 em Brownsburg",
+    "summary": "Behar A./Paris J. superou Ji Sung Nam / Patrik Niklas-Salminen por 2 a 0 em Brownsburg.",
+    "content": "Behar A./Paris J. superou Ji Sung Nam / Patrik Niklas-Salminen por 2 a 0 em Brownsburg., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "brownsburg"
+    ],
+    "seoTitle": "Behar A./Paris J. vence Ji Sung Nam / Patrik Niklas-Salminen por 2 a 0",
+    "seoDescription": "Behar A./Paris J. superou Ji Sung Nam / Patrik Niklas-Salminen por 2 a 0 em Brownsburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T04:27:55.978Z",
+    "createdAt": "2026-08-14T04:27:55.978Z",
+    "updatedAt": "2026-08-14T04:27:55.978Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808199",
+      "eventStartTime": "2026-08-14T02:53:58+00:00",
+      "retrievedAt": "2026-08-14T04:27:55.978Z",
+      "feedId": "tenis",
+      "league": "Brownsburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-cfca3b294a55",
+    "slug": "puente-alto-vence-csd-colo-colo-por-85-a-72-em-lnb-cfca3b",
+    "sportId": "basquete",
+    "title": "Puente Alto vence Csd Colo Colo por 85 a 72 em LNB",
+    "summary": "Puente Alto superou Csd Colo Colo por 85 a 72 em LNB.",
+    "content": "Puente Alto superou Csd Colo Colo por 85 a 72 em LNB., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Puente Alto vence Csd Colo Colo por 85 a 72 em LNB",
+    "seoDescription": "Puente Alto superou Csd Colo Colo por 85 a 72 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T04:27:55.975Z",
+    "createdAt": "2026-08-14T04:27:55.975Z",
+    "updatedAt": "2026-08-14T04:27:55.975Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4806547",
+      "eventStartTime": "2026-08-14T00:30:00+00:00",
+      "retrievedAt": "2026-08-14T04:27:55.975Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2a11b887388d",
+    "slug": "tennessee-titans-vence-san-francisco-49ers-por-19-a-13-em-nfl-2a11b8",
+    "sportId": "futebol-americano",
+    "title": "Tennessee Titans vence San Francisco 49ers por 19 a 13 em NFL",
+    "summary": "Tennessee Titans superou San Francisco 49ers por 19 a 13 em NFL.",
+    "content": "Tennessee Titans superou San Francisco 49ers por 19 a 13 em NFL., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Tennessee Titans vence San Francisco 49ers por 19 a 13 em NFL",
+    "seoDescription": "Tennessee Titans superou San Francisco 49ers por 19 a 13 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T04:27:55.970Z",
+    "createdAt": "2026-08-14T04:27:55.970Z",
+    "updatedAt": "2026-08-14T04:27:55.970Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714911",
+      "eventStartTime": "2026-08-14T01:00:00+00:00",
+      "retrievedAt": "2026-08-14T04:27:55.970Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-a3d5578b5ab3",
+    "slug": "chicago-fire-supera-cruz-azul-por-2-a-1-pelo-leagues-cup-a3d557",
+    "sportId": "futebol",
+    "title": "Chicago Fire supera Cruz Azul por 2 a 1 pelo Leagues Cup",
+    "summary": "Chicago Fire venceu Cruz Azul por 2 a 1 pelo Leagues Cup.",
+    "content": "Chicago Fire venceu Cruz Azul por 2 a 1 pelo Leagues Cup, em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "leagues-cup"
+    ],
+    "seoTitle": "Chicago Fire supera Cruz Azul por 2 a 1 pelo Leagues Cup",
+    "seoDescription": "Chicago Fire venceu Cruz Azul por 2 a 1 pelo Leagues Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T04:27:55.967Z",
+    "createdAt": "2026-08-14T04:27:55.967Z",
+    "updatedAt": "2026-08-14T04:27:55.967Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4684006",
+      "eventStartTime": "2026-08-14T01:00:00+00:00",
+      "retrievedAt": "2026-08-14T04:27:55.967Z",
+      "feedId": "futebol",
+      "league": "Leagues Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-9b53d5453f0d",
     "slug": "kittay-b-romboli-f-vence-siddhant-banthia-alexander-donski-por-2-a-0-em-brownsburg-9b53d5",
     "sportId": "tenis",
@@ -12142,142 +12310,6 @@
       "feedId": "beisebol",
       "league": "regular-season"
     },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-58401e647083",
-    "slug": "los-angeles-angels-vence-detroit-tigers-por-3-a-2-na-temporada-regular-58401e",
-    "sportId": "beisebol",
-    "title": "Los Angeles Angels vence Detroit Tigers por 3 a 2 na temporada regular",
-    "summary": "Los Angeles Angels derrotou Detroit Tigers por 3 a 2 na temporada regular. A partida terminou com diferença de 1 corrida entre as equipes.",
-    "content": "Los Angeles Angels venceu Detroit Tigers por 3 a 2 na temporada regular, disputado em 19 de julho de 2026 no Angel Stadium. O placar final mostrou uma diferença de 1 corrida, margem que decidiu o confronto entre as equipes.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "temporada-regular"
-    ],
-    "seoTitle": "Los Angeles Angels vence Detroit Tigers por 3 a 2 na temporada regular",
-    "seoDescription": "Los Angeles Angels derrotou Detroit Tigers por 3 a 2 na temporada regular. A partida terminou com diferença de 1 corrida entre as equipes.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-20T22:36:13.056Z",
-    "createdAt": "2026-07-20T22:36:13.056Z",
-    "updatedAt": "2026-07-20T22:36:13.056Z",
-    "homepagePriority": 62,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7cde6d95a3a6",
-    "slug": "arizona-diamondbacks-vence-st-louis-cardinals-por-8-a-7-na-temporada-regular-7cde6d",
-    "sportId": "beisebol",
-    "title": "Arizona Diamondbacks vence St. Louis Cardinals por 8 a 7 na temporada regular",
-    "summary": "Arizona Diamondbacks derrotou St. Louis Cardinals por 8 a 7 na temporada regular. A partida terminou com diferença de 1 corrida entre as equipes.",
-    "content": "Arizona Diamondbacks venceu St. Louis Cardinals por 8 a 7 na temporada regular, disputado em 19 de julho de 2026 no Chase Field (NH). O placar final mostrou uma diferença de 1 corrida, margem que decidiu o confronto entre as equipes.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "temporada-regular"
-    ],
-    "seoTitle": "Arizona Diamondbacks vence St. Louis Cardinals por 8 a 7 na temporada ",
-    "seoDescription": "Arizona Diamondbacks derrotou St. Louis Cardinals por 8 a 7 na temporada regular. A partida terminou com diferença de 1 corrida entre as equipes.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-20T21:57:47.037Z",
-    "createdAt": "2026-07-20T21:57:47.037Z",
-    "updatedAt": "2026-07-20T21:57:47.037Z",
-    "homepagePriority": 62,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-911015382c43",
-    "slug": "new-york-yankees-vence-los-angeles-dodgers-por-2-a-1-na-temporada-regular-911015",
-    "sportId": "beisebol",
-    "title": "New York Yankees vence Los Angeles Dodgers por 2 a 1 na temporada regular",
-    "summary": "New York Yankees derrotou Los Angeles Dodgers por 2 a 1 na temporada regular. A partida terminou com diferença de 1 corrida entre as equipes.",
-    "content": "New York Yankees venceu Los Angeles Dodgers por 2 a 1 na temporada regular, disputado em 19 de julho de 2026 no Yankee Stadium. O placar final mostrou uma diferença de 1 corrida, margem que decidiu o confronto entre as equipes.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "temporada-regular"
-    ],
-    "seoTitle": "New York Yankees vence Los Angeles Dodgers por 2 a 1 na temporada regu",
-    "seoDescription": "New York Yankees derrotou Los Angeles Dodgers por 2 a 1 na temporada regular. A partida terminou com diferença de 1 corrida entre as equipes.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-20T21:47:12.710Z",
-    "createdAt": "2026-07-20T21:47:12.710Z",
-    "updatedAt": "2026-07-20T21:47:12.710Z",
-    "homepagePriority": 62,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-35c5b992c5f5",
-    "slug": "botafogo-e-gremio-empatam-por-0-a-0-em-brasileirao-serie-a-35c5b9",
-    "sportId": "futebol",
-    "title": "Botafogo e Grêmio ficam no 0 a 0 pelo Brasileirão Série A",
-    "summary": "Botafogo e Grêmio encerraram o confronto pelo Brasileirão Série A sem vencedor. O empate por 0 a 0 deixou as duas equipes sem conseguir abrir vantagem no placar.",
-    "content": "Botafogo e Grêmio ficaram no 0 a 0 pelo Brasileirão Série A. O duelo terminou sem gols e sem vencedor, em um resultado que manteve o equilíbrio do confronto também no placar final.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "brasileirao-serie-a"
-    ],
-    "seoTitle": "Botafogo e Grêmio ficam no 0 a 0 pelo Brasileirão Série A",
-    "seoDescription": "Botafogo e Grêmio encerraram o confronto pelo Brasileirão Série A sem vencedor. O empate por 0 a 0 manteve o placar equilibrado até o fim.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-20T21:39:17.881Z",
-    "createdAt": "2026-07-20T21:39:17.881Z",
-    "updatedAt": "2026-07-20T21:39:17.881Z",
-    "homepagePriority": 62,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
     "articleFormat": "result-brief"
   }
 ]
