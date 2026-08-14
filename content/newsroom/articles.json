@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-e00e35a5a559",
+    "slug": "yomiuri-giants-vence-chunichi-dragons-por-1-a-0-na-npb-e00e35",
+    "sportId": "beisebol",
+    "title": "Yomiuri Giants vence Chunichi Dragons por 1 a 0 na NPB",
+    "summary": "Yomiuri Giants derrotou Chunichi Dragons por 1 a 0 na NPB.",
+    "content": "Yomiuri Giants derrotou Chunichi Dragons por 1 a 0 na NPB, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Yomiuri Giants vence Chunichi Dragons por 1 a 0 na NPB",
+    "seoDescription": "Yomiuri Giants derrotou Chunichi Dragons por 1 a 0 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T12:04:01.757Z",
+    "createdAt": "2026-08-14T12:04:01.757Z",
+    "updatedAt": "2026-08-14T12:04:01.757Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4627239",
+      "eventStartTime": "2026-08-14T09:00:00+00:00",
+      "retrievedAt": "2026-08-14T12:04:01.757Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f1705faea988",
+    "slug": "jack-pinnington-jones-vence-felix-gill-por-1-a-0-em-brownsburg-f1705f",
+    "sportId": "tenis",
+    "title": "Jack Pinnington Jones vence Felix Gill por 1 a 0 em Brownsburg",
+    "summary": "Jack Pinnington Jones superou Felix Gill por 1 a 0 em Brownsburg.",
+    "content": "Jack Pinnington Jones superou Felix Gill por 1 a 0 em Brownsburg., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "brownsburg"
+    ],
+    "seoTitle": "Jack Pinnington Jones vence Felix Gill por 1 a 0 em Brownsburg",
+    "seoDescription": "Jack Pinnington Jones superou Felix Gill por 1 a 0 em Brownsburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T12:04:01.754Z",
+    "createdAt": "2026-08-14T12:04:01.754Z",
+    "updatedAt": "2026-08-14T12:04:01.754Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811607",
+      "eventStartTime": "2026-08-13T23:33:38+00:00",
+      "retrievedAt": "2026-08-14T12:04:01.754Z",
+      "feedId": "tenis",
+      "league": "Brownsburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-739c1ac81d5f",
+    "slug": "kashiwa-reysol-supera-tokyo-verdy-por-3-a-1-pelo-j1-league-739c1a",
+    "sportId": "futebol",
+    "title": "Kashiwa Reysol supera Tokyo Verdy por 3 a 1 pelo J1 League",
+    "summary": "Kashiwa Reysol venceu Tokyo Verdy por 3 a 1 pelo J1 League.",
+    "content": "Kashiwa Reysol venceu Tokyo Verdy por 3 a 1 pelo J1 League, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "j1-league"
+    ],
+    "seoTitle": "Kashiwa Reysol supera Tokyo Verdy por 3 a 1 pelo J1 League",
+    "seoDescription": "Kashiwa Reysol venceu Tokyo Verdy por 3 a 1 pelo J1 League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T12:04:01.719Z",
+    "createdAt": "2026-08-14T12:04:01.719Z",
+    "updatedAt": "2026-08-14T12:04:01.719Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4739700",
+      "eventStartTime": "2026-08-14T10:00:00+00:00",
+      "retrievedAt": "2026-08-14T12:04:01.719Z",
+      "feedId": "futebol",
+      "league": "J1 League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-a5b1b2fed508",
     "slug": "philadelphia-phillies-vence-minnesota-twins-por-7-a-1-na-mlb-a5b1b2",
     "sportId": "beisebol",
@@ -12262,124 +12388,5 @@
       "league": "MLS"
     },
     "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1926eb2f67db",
-    "slug": "austin-fc-supera-seattle-sounders-fc-por-3-a-1-pelo-mls-1926eb",
-    "sportId": "futebol",
-    "title": "Austin FC supera Seattle Sounders FC por 3 a 1 pela MLS",
-    "summary": "Austin FC venceu Seattle Sounders FC por 3 a 1 pela MLS.",
-    "content": "Austin FC venceu Seattle Sounders FC por 3 a 1 pela MLS, em 22 de julho de 2026 no Q2 Stadium.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Austin FC supera Seattle Sounders FC por 3 a 1 pela MLS",
-    "seoDescription": "Austin FC venceu Seattle Sounders FC por 3 a 1 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T04:29:43.979Z",
-    "createdAt": "2026-07-23T04:29:43.979Z",
-    "updatedAt": "2026-07-23T04:29:43.979Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761674",
-      "eventStartTime": "2026-07-23T01:30Z",
-      "retrievedAt": "2026-07-23T04:29:43.979Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2a5ff77d3cdf",
-    "slug": "operario-pr-supera-ponte-preta-por-3-a-2-pelo-brasileirao-serie-b-2a5ff7",
-    "sportId": "futebol",
-    "title": "Operário PR supera Ponte Preta por 3 a 2 pelo Brasileirão Série B",
-    "summary": "Operário PR venceu Ponte Preta por 3 a 2 pelo Brasileirão Série B.",
-    "content": "Operário PR venceu Ponte Preta por 3 a 2 pelo Brasileirão Série B, em 22 de julho de 2026 no Germano Krüger.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "brasileirao-serie-b"
-    ],
-    "seoTitle": "Operário PR supera Ponte Preta por 3 a 2 pelo Brasileirão Série B",
-    "seoDescription": "Operário PR venceu Ponte Preta por 3 a 2 pelo Brasileirão Série B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T01:09:44.091Z",
-    "createdAt": "2026-07-23T01:09:44.091Z",
-    "updatedAt": "2026-07-23T01:09:44.091Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "401860245",
-      "eventStartTime": "2026-07-22T22:30Z",
-      "retrievedAt": "2026-07-23T01:09:44.091Z",
-      "feedId": "futebol",
-      "league": "Brasileirão Série B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "curated-casemiro-inter-miami-20260722",
-    "slug": "inter-miami-anuncia-casemiro-mls-investiga-possivel-tampering",
-    "sportId": "futebol",
-    "title": "Inter Miami anuncia Casemiro; MLS investiga possível tampering",
-    "summary": "Inter Miami confirmou Casemiro até o fim de 2027, enquanto a MLS apura se houve contato ou negociação fora das regras da liga no processo ligado à prioridade de contratação do jogador.",
-    "content": "O Inter Miami oficializou a chegada de Casemiro como agente livre. O meio-campista brasileiro, de 34 anos, assinou vínculo até o fim da temporada de 2027, com opção de continuidade, e passa a integrar um elenco que já reúne nomes de forte peso internacional.\n\nA contratação também abriu uma frente regulatória. A MLS confirmou que está revisando uma alegação de possível tampering. No vocabulário das ligas esportivas norte-americanas, o termo é usado para uma abordagem ou negociação que pode ter acontecido fora dos procedimentos permitidos. Neste caso, a investigação busca esclarecer se as regras da MLS foram respeitadas no processo que levou Casemiro ao Inter Miami.\n\nOutro termo importante para entender a história é discovery rights. A MLS usa um Discovery Process para determinados jogadores: em situações previstas pelo regulamento, um clube pode ter prioridade no processo para tentar contratar um atleta elegível. Se outra equipe quiser avançar por esse jogador, essa prioridade precisa ser resolvida dentro das regras da liga.\n\nÉ por isso que a discussão não se resume ao reforço dentro de campo. A contratação está confirmada, assim como a existência da investigação, mas isso não significa que uma infração já tenha sido provada ou que haverá punição. Essa diferença é central para acompanhar o caso sem transformar uma apuração em condenação antecipada.\n\nA LAP acompanha agora duas frentes: a conclusão da revisão da MLS e a forma como Casemiro será integrado ao time. Novos detalhes regulatórios só entram na matéria quando forem confirmados pela liga ou por fontes verificáveis.",
-    "sourceName": "Fontes verificadas: Reuters, The Guardian, MLS",
-    "sourceUrl": "https://www.reuters.com/sports/soccer/inter-miami-sign-brazilian-superstar-m-casemiro--flm-2026-07-22/",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "futebol",
-      "inter-miami",
-      "casemiro",
-      "mls"
-    ],
-    "seoTitle": "Inter Miami anuncia Casemiro; MLS investiga possível tampering",
-    "seoDescription": "Inter Miami confirmou Casemiro até 2027, enquanto a MLS investiga possível tampering no processo ligado aos discovery rights.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-22T18:10:00.000Z",
-    "createdAt": "2026-07-22T18:10:00.000Z",
-    "updatedAt": "2026-07-22T18:10:00.000Z",
-    "homepagePriority": 100,
-    "breaking": true,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.reuters.com/sports/soccer/inter-miami-sign-brazilian-superstar-m-casemiro--flm-2026-07-22/",
-      "https://www.theguardian.com/football/2026/jul/22/inter-miami-casemiro-mls-investigation-tampering",
-      "https://www.mlssoccer.com/about/roster-rules-and-regulations"
-    ],
-    "readerClarityRevision": "v1"
   }
 ]
