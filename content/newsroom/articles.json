@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-1c8567ddf1a3",
+    "slug": "yakult-swallows-vence-yokohama-baystars-por-7-a-2-na-npb-1c8567",
+    "sportId": "beisebol",
+    "title": "Yakult Swallows vence Yokohama Baystars por 7 a 2 na NPB",
+    "summary": "Yakult Swallows derrotou Yokohama Baystars por 7 a 2 na NPB.",
+    "content": "Yakult Swallows derrotou Yokohama Baystars por 7 a 2 na NPB, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Yakult Swallows vence Yokohama Baystars por 7 a 2 na NPB",
+    "seoDescription": "Yakult Swallows derrotou Yokohama Baystars por 7 a 2 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T14:36:56.075Z",
+    "createdAt": "2026-08-14T14:36:56.075Z",
+    "updatedAt": "2026-08-14T14:36:56.075Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626859",
+      "eventStartTime": "2026-08-14T09:00:00+00:00",
+      "retrievedAt": "2026-08-14T14:36:56.075Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-eddd145f3778",
+    "slug": "saba-purtseladze-e-matej-dodig-empatam-por-0-a-0-em-hamburg-eddd14",
+    "sportId": "tenis",
+    "title": "Saba Purtseladze e Matej Dodig empatam por 0 a 0 em Hamburg",
+    "summary": "Saba Purtseladze e Matej Dodig terminaram empatados por 0 a 0 em Hamburg.",
+    "content": "Saba Purtseladze e Matej Dodig terminaram empatados por 0 a 0 em Hamburg., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "hamburg"
+    ],
+    "seoTitle": "Saba Purtseladze e Matej Dodig empatam por 0 a 0 em Hamburg",
+    "seoDescription": "Saba Purtseladze e Matej Dodig terminaram empatados por 0 a 0 em Hamburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T14:36:56.067Z",
+    "createdAt": "2026-08-14T14:36:56.067Z",
+    "updatedAt": "2026-08-14T14:36:56.067Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4812148",
+      "eventStartTime": "2026-08-14T13:30:10+00:00",
+      "retrievedAt": "2026-08-14T14:36:56.067Z",
+      "feedId": "tenis",
+      "league": "Hamburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e14673711d7e",
+    "slug": "qingdao-west-coast-e-chongqing-tongliangloong-ficam-no-0-a-0-pelo-super-league-e14673",
+    "sportId": "futebol",
+    "title": "Qingdao West Coast e Chongqing Tongliangloong ficam no 0 a 0 pelo Super League",
+    "summary": "Qingdao West Coast e Chongqing Tongliangloong empataram por 0 a 0 pelo Super League.",
+    "content": "Qingdao West Coast e Chongqing Tongliangloong empataram por 0 a 0 pelo Super League, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "super-league"
+    ],
+    "seoTitle": "Qingdao West Coast e Chongqing Tongliangloong ficam no 0 a 0 pelo",
+    "seoDescription": "Qingdao West Coast e Chongqing Tongliangloong empataram por 0 a 0 pelo Super League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-14T14:36:56.048Z",
+    "createdAt": "2026-08-14T14:36:56.048Z",
+    "updatedAt": "2026-08-14T14:36:56.048Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4677149",
+      "eventStartTime": "2026-08-14T12:00:00+00:00",
+      "retrievedAt": "2026-08-14T14:36:56.048Z",
+      "feedId": "futebol",
+      "league": "Super League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5bfa4e4552a4",
     "slug": "ssg-landers-vence-lg-twins-por-5-a-3-na-kbo-5bfa4e",
     "sportId": "beisebol",
@@ -12278,115 +12404,5 @@
       "https://www.mlb.com/news/bobby-witt-jr-to-injured-list-with-lower-back-tightness",
       "https://www.mlb.com/news/when-is-the-mlb-trade-deadline-2026-date-time-candidates-storylines"
     ]
-  },
-  {
-    "id": "curated-golfe-3m-open-20260723",
-    "slug": "3m-open-comeca-com-scheffler-na-lideranca-da-fedexcup-e-jason-day-fora",
-    "sportId": "golfe",
-    "title": "3M Open começa com Scheffler na liderança da FedExCup e Jason Day fora",
-    "summary": "O 3M Open abre nesta quinta no TPC Twin Cities; Scottie Scheffler lidera a FedExCup com 3.823 pontos e Jason Day desistiu por lesão nas costas.",
-    "content": "O 3M Open começa nesta quinta-feira no TPC Twin Cities, em Blaine, Minnesota. O torneio vale 500 pontos para a FedExCup e abre uma semana importante para jogadores que ainda tentam consolidar posição antes dos playoffs.\n\nScottie Scheffler chega como líder oficial da FedExCup com 3.823 pontos, seguido por Matt Fitzpatrick e Cameron Young. O campo é par 71 e tem 7.431 jardas.\n\nA principal baixa é Jason Day, que desistiu antes do início por problema nas costas. Charley Hoffman entrou em seu lugar. A primeira rodada começa com os grupos iniciais às 11h45 UTC, 08h45 no horário de Brasília.",
-    "sourceName": "Fontes verificadas: PGA Tour, Reuters",
-    "sourceUrl": "https://www.pgatour.com/tournaments/2026/3m-open/R2026525/overview",
-    "coverImageUrl": "/images/sports/golfe.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "golfe",
-      "pga-tour",
-      "3m-open",
-      "scottie-scheffler",
-      "jason-day"
-    ],
-    "seoTitle": "3M Open começa com Scheffler líder da FedExCup e Jason Day fora",
-    "seoDescription": "3M Open começa no TPC Twin Cities; Scheffler lidera a FedExCup e Jason Day desistiu por lesão nas costas.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T13:20:00.000Z",
-    "createdAt": "2026-07-23T13:20:00.000Z",
-    "updatedAt": "2026-07-23T13:20:00.000Z",
-    "homepagePriority": 86,
-    "breaking": true,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.pgatour.com/tournaments/2026/3m-open/R2026525/overview",
-      "https://www.pgatour.com/fedexcup/official-standings.html",
-      "https://www.reuters.com/sports/golf/jason-day-back-withdraws-3m-open--flm-2026-07-22/"
-    ]
-  },
-  {
-    "id": "curated-wsl-slater-20260723",
-    "slug": "kelly-slater-recebe-wildcard-e-volta-ao-ct-em-teahupoo-aos-54-anos",
-    "sportId": "surfe",
-    "title": "Kelly Slater recebe wildcard e volta ao CT em Teahupoʻo aos 54 anos",
-    "summary": "Onze vezes campeão mundial, Kelly Slater foi convidado para a etapa do Taiti, de 8 a 18 de agosto, em seu primeiro evento do CT desde junho de 2025.",
-    "content": "Kelly Slater voltará ao Championship Tour em Teahupoʻo. O 11 vezes campeão mundial recebeu wildcard para a etapa do Taiti, marcada para a janela de 8 a 18 de agosto, e retorna à elite aos 54 anos.\n\nSlater não disputa um evento do CT desde junho de 2025, em Trestles. O americano passou por cirurgia no quadril no fim do ano passado e agora reaparece em uma das ondas mais exigentes do calendário.\n\nAs baterias já foram divulgadas: Slater entra no round 1 contra Eli Hanneman. Caso avance, enfrenta Gabriel Medina no round 2. A presença do veterano transforma Teahupoʻo em uma das histórias centrais da próxima janela do circuito.",
-    "sourceName": "Fonte verificada: ge/WSL",
-    "sourceUrl": "https://ge.globo.com/surfe/wsl/noticia/2026/07/07/kelly-slater-recebe-convite-da-wsl-e-retorna-ao-ct-na-etapa-do-taiti-em-agosto.ghtml",
-    "coverImageUrl": "/images/sports/surfe.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "surfe",
-      "wsl",
-      "kelly-slater",
-      "teahupoo",
-      "taiti"
-    ],
-    "seoTitle": "Kelly Slater volta ao CT em Teahupoʻo aos 54 anos",
-    "seoDescription": "Kelly Slater recebe wildcard para Teahupoʻo e volta ao Championship Tour pela primeira vez desde junho de 2025.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T13:20:00.000Z",
-    "createdAt": "2026-07-23T13:20:00.000Z",
-    "updatedAt": "2026-07-23T13:20:00.000Z",
-    "homepagePriority": 82,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://ge.globo.com/surfe/wsl/noticia/2026/07/07/kelly-slater-recebe-convite-da-wsl-e-retorna-ao-ct-na-etapa-do-taiti-em-agosto.ghtml"
-    ]
-  },
-  {
-    "id": "newsroom-data-df777eaff0a6",
-    "slug": "orlando-city-sc-supera-san-jose-earthquakes-por-4-a-0-pelo-mls-df777e",
-    "sportId": "futebol",
-    "title": "Orlando City SC supera San Jose Earthquakes por 4 a 0 pela MLS",
-    "summary": "Orlando City SC venceu San Jose Earthquakes por 4 a 0 pela MLS.",
-    "content": "Orlando City SC venceu San Jose Earthquakes por 4 a 0 pela MLS, em 22 de julho de 2026 no PayPal Park.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Orlando City SC supera San Jose Earthquakes por 4 a 0 pela MLS",
-    "seoDescription": "Orlando City SC venceu San Jose Earthquakes por 4 a 0 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-23T13:01:50.190Z",
-    "createdAt": "2026-07-23T13:01:50.190Z",
-    "updatedAt": "2026-07-23T13:01:50.190Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761676",
-      "eventStartTime": "2026-07-23T02:30Z",
-      "retrievedAt": "2026-07-23T13:01:50.190Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
   }
 ]
