@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-6763ced53ade",
+    "slug": "nuno-borges-vence-thanasi-kokkinakis-por-2-a-1-em-cincinnati-6763ce",
+    "sportId": "tenis",
+    "title": "Nuno Borges vence Thanasi Kokkinakis por 2 a 1 em Cincinnati",
+    "summary": "Nuno Borges superou Thanasi Kokkinakis por 2 a 1 em Cincinnati.",
+    "content": "Nuno Borges superou Thanasi Kokkinakis por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Nuno Borges vence Thanasi Kokkinakis por 2 a 1 em Cincinnati",
+    "seoDescription": "Nuno Borges superou Thanasi Kokkinakis por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T07:14:58.342Z",
+    "createdAt": "2026-08-15T07:14:58.342Z",
+    "updatedAt": "2026-08-15T07:14:58.342Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809626",
+      "eventStartTime": "2026-08-14T19:07:45+00:00",
+      "retrievedAt": "2026-08-15T07:14:58.342Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e16b928cd03f",
+    "slug": "ska-khabarovsk-supera-veles-por-2-a-0-pelo-russian-first-league-e16b92",
+    "sportId": "futebol",
+    "title": "SKA Khabarovsk supera Veles por 2 a 0 pelo Russian First League",
+    "summary": "SKA Khabarovsk venceu Veles por 2 a 0 pelo Russian First League.",
+    "content": "SKA Khabarovsk venceu Veles por 2 a 0 pelo Russian First League, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "russian-first-league"
+    ],
+    "seoTitle": "SKA Khabarovsk supera Veles por 2 a 0 pelo Russian First League",
+    "seoDescription": "SKA Khabarovsk venceu Veles por 2 a 0 pelo Russian First League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T07:14:58.284Z",
+    "createdAt": "2026-08-15T07:14:58.284Z",
+    "updatedAt": "2026-08-15T07:14:58.284Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4760480",
+      "eventStartTime": "2026-08-15T05:00:00+00:00",
+      "retrievedAt": "2026-08-15T07:14:58.284Z",
+      "feedId": "futebol",
+      "league": "Russian First League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-2a26ec195525",
     "slug": "adam-walton-vence-nicolas-mejia-por-2-a-0-em-cincinnati-2a26ec",
     "sportId": "tenis",
@@ -12520,77 +12604,5 @@
       "league": "regular-season"
     },
     "articleFormat": "result-brief"
-  },
-  {
-    "id": "curated-tour-pogacar-20260727",
-    "slug": "pogacar-pentacampeao-tour-de-france-2026-evenepoel-del-toro",
-    "sportId": "ciclismo",
-    "title": "Pogačar conquista o quinto Tour de France e iguala os maiores campeões da prova",
-    "summary": "Esloveno confirmou o terceiro título consecutivo, terminou à frente de Remco Evenepoel e Isaac del Toro e entrou no grupo de cinco vezes campeões.",
-    "content": "Tadej Pogačar encerrou o Tour de France de 2026 no mesmo patamar histórico de Jacques Anquetil, Eddy Merckx, Bernard Hinault e Miguel Indurain. Aos 27 anos, o esloveno confirmou o quinto título da carreira e o terceiro consecutivo, consolidando mais uma temporada de domínio da UAE Team Emirates-XRG.\n\nNa classificação geral — o ranking acumulado de tempo de todas as etapas, também chamado de GC — Pogačar terminou 4min32s à frente de Remco Evenepoel. Isaac del Toro, companheiro de equipe do campeão e estreante no Tour, fechou o pódio a 6min51s. Pogačar também venceu cinco etapas ao longo da edição.\n\nA última etapa, em Paris, terminou com vitória de Mathieu van der Poel. Para Pogačar, porém, a chegada teve outro peso: o quinto título o coloca ao lado dos maiores vencedores da história da prova e abre naturalmente a discussão sobre até onde essa era de domínio pode chegar.\n\nO que acompanhar agora é a transição para o restante da temporada e a forma como a UAE administrará dois ativos importantes: a ambição de Pogačar por novas grandes voltas e a ascensão de Del Toro como candidato real a liderar equipes em provas de três semanas.",
-    "sourceName": "Fontes verificadas: Reuters, Tour de France",
-    "sourceUrl": "https://www.reuters.com/sports/pogacar-wins-record-equalling-fifth-tour-de-france-title-van-der-poel-takes-2026-07-26/",
-    "coverImageUrl": "/images/sports/ciclismo.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "ciclismo",
-      "tour-de-france",
-      "tadej-pogacar",
-      "remco-evenepoel",
-      "isaac-del-toro"
-    ],
-    "seoTitle": "Pogačar conquista o quinto Tour de France em 2026",
-    "seoDescription": "Tadej Pogačar venceu o Tour de France de 2026, chegou ao quinto título e igualou Anquetil, Merckx, Hinault e Indurain.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-27T12:08:00.000Z",
-    "createdAt": "2026-07-27T12:08:00.000Z",
-    "updatedAt": "2026-07-27T12:08:00.000Z",
-    "homepagePriority": 100,
-    "breaking": true,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.reuters.com/sports/pogacar-wins-record-equalling-fifth-tour-de-france-title-van-der-poel-takes-2026-07-26/",
-      "https://www.letour.fr/"
-    ]
-  },
-  {
-    "id": "curated-f1-norris-hungria-20260727",
-    "slug": "norris-vence-gp-hungria-2026-mclaren-verstappen-antonelli",
-    "sportId": "formula1",
-    "title": "Norris vence na Hungria e entrega à McLaren sua primeira vitória em GP em 2026",
-    "summary": "Britânico largou da pole, venceu no Hungaroring e terminou à frente de Max Verstappen e Kimi Antonelli; próxima etapa será em Zandvoort, de 21 a 23 de agosto.",
-    "content": "Lando Norris transformou a pole position em vitória no GP da Hungria e deu à McLaren seu primeiro triunfo em um Grande Prêmio na temporada de 2026. O britânico completou as 70 voltas do Hungaroring à frente de Max Verstappen, da Red Bull, e Kimi Antonelli, da Mercedes.\n\nA vitória tem peso além do resultado isolado. Norris vinha de uma temporada com poucos pódios e conseguiu aproveitar um fim de semana em que a McLaren mostrou ritmo suficiente para desafiar as equipes que dominaram a primeira metade do campeonato. Oscar Piastri abandonou depois de uma colisão com Carlos Sainz, o que também mudou a dinâmica da corrida.\n\nAntonelli, terceiro colocado, ampliou sua vantagem no campeonato. Norris segue distante da liderança, mas a Hungria oferece à McLaren uma referência importante de competitividade antes da pausa de verão.\n\nA Fórmula 1 agora entra em intervalo. O próximo fim de semana será o GP da Holanda, em Zandvoort, de 21 a 23 de agosto, com formato de sprint. Até lá, o foco estará na evolução técnica dos carros e na capacidade da McLaren de transformar a vitória de Budapeste em tendência, não exceção.",
-    "sourceName": "Fontes verificadas: Formula 1, Reuters",
-    "sourceUrl": "https://www.formula1.com/en/results/2026/races",
-    "coverImageUrl": "/images/sports/formula1.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "formula1",
-      "lando-norris",
-      "mclaren",
-      "gp-da-hungria",
-      "max-verstappen",
-      "kimi-antonelli"
-    ],
-    "seoTitle": "Norris vence GP da Hungria de 2026 pela McLaren",
-    "seoDescription": "Lando Norris venceu o GP da Hungria, à frente de Verstappen e Antonelli, e deu à McLaren sua primeira vitória em GP em 2026.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-27T12:07:00.000Z",
-    "createdAt": "2026-07-27T12:07:00.000Z",
-    "updatedAt": "2026-07-27T12:07:00.000Z",
-    "homepagePriority": 99,
-    "breaking": true,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.formula1.com/en/results/2026/races",
-      "https://www.formula1.com/en/racing/2026",
-      "https://www.reuters.com/sports/formula1/norris-feels-hes-doing-better-job-than-last-year-2026-07-27/"
-    ]
   }
 ]
