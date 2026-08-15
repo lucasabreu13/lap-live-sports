@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-d75a30b11f8c",
+    "slug": "james-duckworth-vence-jeffrey-john-wolf-por-2-a-0-em-cincinnati-d75a30",
+    "sportId": "tenis",
+    "title": "James Duckworth vence Jeffrey John Wolf por 2 a 0 em Cincinnati",
+    "summary": "James Duckworth superou Jeffrey John Wolf por 2 a 0 em Cincinnati.",
+    "content": "James Duckworth superou Jeffrey John Wolf por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "James Duckworth vence Jeffrey John Wolf por 2 a 0 em Cincinnati",
+    "seoDescription": "James Duckworth superou Jeffrey John Wolf por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T23:33:02.590Z",
+    "createdAt": "2026-08-15T23:33:02.590Z",
+    "updatedAt": "2026-08-15T23:33:02.590Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813390",
+      "eventStartTime": "2026-08-14T18:19:24+00:00",
+      "retrievedAt": "2026-08-15T23:33:02.590Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c39229c23370",
+    "slug": "sportiva-italiana-vence-cd-huachipato-por-73-a-72-em-lnb-2-c39229",
+    "sportId": "basquete",
+    "title": "Sportiva Italiana vence CD Huachipato por 73 a 72 em LNB 2",
+    "summary": "Sportiva Italiana superou CD Huachipato por 73 a 72 em LNB 2.",
+    "content": "Sportiva Italiana superou CD Huachipato por 73 a 72 em LNB 2., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb-2"
+    ],
+    "seoTitle": "Sportiva Italiana vence CD Huachipato por 73 a 72 em LNB 2",
+    "seoDescription": "Sportiva Italiana superou CD Huachipato por 73 a 72 em LNB 2.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T23:33:02.543Z",
+    "createdAt": "2026-08-15T23:33:02.543Z",
+    "updatedAt": "2026-08-15T23:33:02.543Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807264",
+      "eventStartTime": "2026-08-15T21:30:00+00:00",
+      "retrievedAt": "2026-08-15T23:33:02.543Z",
+      "feedId": "basquete",
+      "league": "LNB 2"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-38e731a7b56b",
+    "slug": "jacksonville-jaguars-vence-new-orleans-saints-por-24-a-20-em-nfl-38e731",
+    "sportId": "futebol-americano",
+    "title": "Jacksonville Jaguars vence New Orleans Saints por 24 a 20 em NFL",
+    "summary": "Jacksonville Jaguars superou New Orleans Saints por 24 a 20 em NFL.",
+    "content": "Jacksonville Jaguars superou New Orleans Saints por 24 a 20 em NFL., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Jacksonville Jaguars vence New Orleans Saints por 24 a 20 em NFL",
+    "seoDescription": "Jacksonville Jaguars superou New Orleans Saints por 24 a 20 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T23:33:02.541Z",
+    "createdAt": "2026-08-15T23:33:02.541Z",
+    "updatedAt": "2026-08-15T23:33:02.541Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714914",
+      "eventStartTime": "2026-08-15T20:00:00+00:00",
+      "retrievedAt": "2026-08-15T23:33:02.541Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5e8d5e57c1ca",
+    "slug": "athletico-paranaense-e-rb-bragantino-ficam-no-1-a-1-pelo-serie-a-5e8d5e",
+    "sportId": "futebol",
+    "title": "Athletico Paranaense e RB Bragantino ficam no 1 a 1 pelo Série A",
+    "summary": "Athletico Paranaense e RB Bragantino empataram por 1 a 1 pelo Série A.",
+    "content": "Athletico Paranaense e RB Bragantino empataram por 1 a 1 pelo Série A, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-a"
+    ],
+    "seoTitle": "Athletico Paranaense e RB Bragantino ficam no 1 a 1 pelo Série A",
+    "seoDescription": "Athletico Paranaense e RB Bragantino empataram por 1 a 1 pelo Série A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T23:33:02.538Z",
+    "createdAt": "2026-08-15T23:33:02.538Z",
+    "updatedAt": "2026-08-15T23:33:02.538Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4632719",
+      "eventStartTime": "2026-08-15T21:30:00+00:00",
+      "retrievedAt": "2026-08-15T23:33:02.538Z",
+      "feedId": "futebol",
+      "league": "Série A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3f9a60ca3fe2",
     "slug": "hayato-matsuoka-vence-khumoyun-sultanov-por-2-a-1-em-astana-3f9a60",
     "sportId": "tenis",
@@ -12440,174 +12608,6 @@
       "retrievedAt": "2026-08-12T15:13:33.026Z",
       "feedId": "tenis",
       "league": "Todi"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e1f76690284b",
-    "slug": "ca-stockolmo-vence-tabare-por-84-a-72-em-liga-de-ascenso-e1f766",
-    "sportId": "basquete",
-    "title": "CA Stockolmo vence Tabare por 84 a 72 em Liga de ascenso",
-    "summary": "CA Stockolmo superou Tabare por 84 a 72 em Liga de ascenso.",
-    "content": "CA Stockolmo superou Tabare por 84 a 72 em Liga de ascenso., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "CA Stockolmo vence Tabare por 84 a 72 em Liga de ascenso",
-    "seoDescription": "CA Stockolmo superou Tabare por 84 a 72 em Liga de ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T15:13:33.023Z",
-    "createdAt": "2026-08-12T15:13:33.023Z",
-    "updatedAt": "2026-08-12T15:13:33.023Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4802139",
-      "eventStartTime": "2026-08-11T23:15:00+00:00",
-      "retrievedAt": "2026-08-12T15:13:33.023Z",
-      "feedId": "basquete",
-      "league": "Liga de ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8045deb6be55",
-    "slug": "csm-adjud-e-sporting-liesti-ficam-no-0-a-0-pelo-cupa-romaniei-8045de",
-    "sportId": "futebol",
-    "title": "Csm Adjud e Sporting Liesti ficam no 0 a 0 pelo Cupa Romaniei",
-    "summary": "Csm Adjud e Sporting Liesti empataram por 0 a 0 pelo Cupa Romaniei.",
-    "content": "Csm Adjud e Sporting Liesti empataram por 0 a 0 pelo Cupa Romaniei, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "cupa-romaniei"
-    ],
-    "seoTitle": "Csm Adjud e Sporting Liesti ficam no 0 a 0 pelo Cupa Romaniei",
-    "seoDescription": "Csm Adjud e Sporting Liesti empataram por 0 a 0 pelo Cupa Romaniei.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T15:13:33.013Z",
-    "createdAt": "2026-08-12T15:13:33.013Z",
-    "updatedAt": "2026-08-12T15:13:33.013Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4805809",
-      "eventStartTime": "2026-08-12T14:30:00+00:00",
-      "retrievedAt": "2026-08-12T15:13:33.013Z",
-      "feedId": "futebol",
-      "league": "Cupa Romaniei"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-34ad2e641884",
-    "slug": "diablos-rojos-del-mexico-vence-guerreros-de-oaxaca-por-3-a-1-na-lmb-34ad2e",
-    "sportId": "beisebol",
-    "title": "Diablos Rojos del México vence Guerreros de Oaxaca por 3 a 1 na LMB",
-    "summary": "Diablos Rojos del México derrotou Guerreros de Oaxaca por 3 a 1 na LMB.",
-    "content": "Diablos Rojos del México derrotou Guerreros de Oaxaca por 3 a 1 na LMB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "lmb"
-    ],
-    "seoTitle": "Diablos Rojos del México vence Guerreros de Oaxaca por 3 a 1 na LMB",
-    "seoDescription": "Diablos Rojos del México derrotou Guerreros de Oaxaca por 3 a 1 na LMB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T14:12:35.422Z",
-    "createdAt": "2026-08-12T14:12:35.422Z",
-    "updatedAt": "2026-08-12T14:12:35.422Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4806786",
-      "eventStartTime": "2026-08-12T01:00:00+00:00",
-      "retrievedAt": "2026-08-12T14:12:35.422Z",
-      "feedId": "beisebol",
-      "league": "LMB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-aee22625f5f1",
-    "slug": "papa-c-zheng-b-vence-cervantes-i-molchanov-d-por-2-a-1-em-hamburg-aee226",
-    "sportId": "tenis",
-    "title": "Papa C./Zheng B. vence Cervantes I./Molchanov D. por 2 a 1 em Hamburg",
-    "summary": "Papa C./Zheng B. superou Cervantes I./Molchanov D. por 2 a 1 em Hamburg.",
-    "content": "Papa C./Zheng B. superou Cervantes I./Molchanov D. por 2 a 1 em Hamburg., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "hamburg"
-    ],
-    "seoTitle": "Papa C./Zheng B. vence Cervantes I./Molchanov D. por 2 a 1 em Hamburg",
-    "seoDescription": "Papa C./Zheng B. superou Cervantes I./Molchanov D. por 2 a 1 em Hamburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T14:12:35.409Z",
-    "createdAt": "2026-08-12T14:12:35.409Z",
-    "updatedAt": "2026-08-12T14:12:35.409Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807566",
-      "eventStartTime": "2026-08-12T12:55:52+00:00",
-      "retrievedAt": "2026-08-12T14:12:35.409Z",
-      "feedId": "tenis",
-      "league": "Hamburg"
     },
     "articleFormat": "result-brief"
   }
