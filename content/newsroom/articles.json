@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-92e7603e8d35",
+    "slug": "jessica-pegula-vence-simona-waltert-por-2-a-0-em-cincinnati-92e760",
+    "sportId": "tenis",
+    "title": "Jessica Pegula vence Simona Waltert por 2 a 0 em Cincinnati",
+    "summary": "Jessica Pegula superou Simona Waltert por 2 a 0 em Cincinnati.",
+    "content": "Jessica Pegula superou Simona Waltert por 2 a 0 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Jessica Pegula vence Simona Waltert por 2 a 0 em Cincinnati",
+    "seoDescription": "Jessica Pegula superou Simona Waltert por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T22:35:23.753Z",
+    "createdAt": "2026-08-15T22:35:23.753Z",
+    "updatedAt": "2026-08-15T22:35:23.753Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813640",
+      "eventStartTime": "2026-08-15T20:40:40+00:00",
+      "retrievedAt": "2026-08-15T22:35:23.753Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e2c99856b379",
+    "slug": "bahia-w-e-corinthians-w-ficam-no-1-a-1-pelo-brasileirao-women-e2c998",
+    "sportId": "futebol",
+    "title": "Bahia (W) e Corinthians (W) ficam no 1 a 1 pelo Brasileirão Women",
+    "summary": "Bahia (W) e Corinthians (W) empataram por 1 a 1 pelo Brasileirão Women.",
+    "content": "Bahia (W) e Corinthians (W) empataram por 1 a 1 pelo Brasileirão Women, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "brasileirao-women"
+    ],
+    "seoTitle": "Bahia (W) e Corinthians (W) ficam no 1 a 1 pelo Brasileirão Women",
+    "seoDescription": "Bahia (W) e Corinthians (W) empataram por 1 a 1 pelo Brasileirão Women.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T22:35:23.730Z",
+    "createdAt": "2026-08-15T22:35:23.730Z",
+    "updatedAt": "2026-08-15T22:35:23.730Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4658968",
+      "eventStartTime": "2026-08-15T20:30:00+00:00",
+      "retrievedAt": "2026-08-15T22:35:23.730Z",
+      "feedId": "futebol",
+      "league": "Brasileirão Women"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7e19ee95c658",
     "slug": "ichikawa-t-imamura-m-vence-bar-biryukov-p-lomakin-g-por-2-a-1-em-astana-7e19ee",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-12T12:50:09.273Z",
       "feedId": "futebol",
       "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8d7337fc4d9a",
-    "slug": "bravos-de-leon-vence-olmecas-de-tabasco-por-10-a-7-na-lmb-8d7337",
-    "sportId": "beisebol",
-    "title": "Bravos de León vence Olmecas de Tabasco por 10 a 7 na LMB",
-    "summary": "Bravos de León derrotou Olmecas de Tabasco por 10 a 7 na LMB.",
-    "content": "Bravos de León derrotou Olmecas de Tabasco por 10 a 7 na LMB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "lmb"
-    ],
-    "seoTitle": "Bravos de León vence Olmecas de Tabasco por 10 a 7 na LMB",
-    "seoDescription": "Bravos de León derrotou Olmecas de Tabasco por 10 a 7 na LMB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T11:56:27.854Z",
-    "createdAt": "2026-08-12T11:56:27.854Z",
-    "updatedAt": "2026-08-12T11:56:27.854Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4806787",
-      "eventStartTime": "2026-08-12T01:30:00+00:00",
-      "retrievedAt": "2026-08-12T11:56:27.854Z",
-      "feedId": "beisebol",
-      "league": "LMB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-687aceab6bdc",
-    "slug": "jecan-m-a-pavel-b-vence-bianchi-j-j-pujol-navarro-b-por-2-a-1-em-hamburg-687ace",
-    "sportId": "tenis",
-    "title": "Jecan M. A./Pavel B. vence Bianchi J J./Pujol Navarro B. por 2 a 1 em Hamburg",
-    "summary": "Jecan M. A./Pavel B. superou Bianchi J J./Pujol Navarro B. por 2 a 1 em Hamburg.",
-    "content": "Jecan M. A./Pavel B. superou Bianchi J J./Pujol Navarro B. por 2 a 1 em Hamburg., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "hamburg"
-    ],
-    "seoTitle": "Jecan M. A./Pavel B. vence Bianchi J J./Pujol Navarro B. por 2 a 1 em",
-    "seoDescription": "Jecan M. A./Pavel B. superou Bianchi J J./Pujol Navarro B. por 2 a 1 em Hamburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T11:56:27.849Z",
-    "createdAt": "2026-08-12T11:56:27.849Z",
-    "updatedAt": "2026-08-12T11:56:27.849Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807567",
-      "eventStartTime": "2026-08-12T09:07:27+00:00",
-      "retrievedAt": "2026-08-12T11:56:27.849Z",
-      "feedId": "tenis",
-      "league": "Hamburg"
     },
     "articleFormat": "result-brief"
   }
