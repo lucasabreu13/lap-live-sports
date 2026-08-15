@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-4551b22f8013",
+    "slug": "tamara-korpatsch-vence-maya-joint-por-2-a-1-em-cincinnati-4551b2",
+    "sportId": "tenis",
+    "title": "Tamara Korpatsch vence Maya Joint por 2 a 1 em Cincinnati",
+    "summary": "Tamara Korpatsch superou Maya Joint por 2 a 1 em Cincinnati.",
+    "content": "Tamara Korpatsch superou Maya Joint por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Tamara Korpatsch vence Maya Joint por 2 a 1 em Cincinnati",
+    "seoDescription": "Tamara Korpatsch superou Maya Joint por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T11:20:15.509Z",
+    "createdAt": "2026-08-15T11:20:15.509Z",
+    "updatedAt": "2026-08-15T11:20:15.509Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809658",
+      "eventStartTime": "2026-08-14T17:08:44+00:00",
+      "retrievedAt": "2026-08-15T11:20:15.509Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-93da7b87b22b",
+    "slug": "kashima-antlers-supera-nagoya-grampus-por-2-a-1-pelo-j1-league-93da7b",
+    "sportId": "futebol",
+    "title": "Kashima Antlers supera Nagoya Grampus por 2 a 1 pelo J1 League",
+    "summary": "Kashima Antlers venceu Nagoya Grampus por 2 a 1 pelo J1 League.",
+    "content": "Kashima Antlers venceu Nagoya Grampus por 2 a 1 pelo J1 League, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "j1-league"
+    ],
+    "seoTitle": "Kashima Antlers supera Nagoya Grampus por 2 a 1 pelo J1 League",
+    "seoDescription": "Kashima Antlers venceu Nagoya Grampus por 2 a 1 pelo J1 League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T11:20:15.447Z",
+    "createdAt": "2026-08-15T11:20:15.447Z",
+    "updatedAt": "2026-08-15T11:20:15.447Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4739699",
+      "eventStartTime": "2026-08-15T09:00:00+00:00",
+      "retrievedAt": "2026-08-15T11:20:15.447Z",
+      "feedId": "futebol",
+      "league": "J1 League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5dc5e70256ea",
     "slug": "peyton-stearns-vence-harriet-dart-por-2-a-0-em-cincinnati-5dc5e7",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-11T14:41:49.909Z",
       "feedId": "beisebol",
       "league": "KBO"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ca9999c126c7",
-    "slug": "nikolas-sanchez-izquierdo-vence-gabriele-piraino-por-2-a-0-em-todi-ca9999",
-    "sportId": "tenis",
-    "title": "Nikolas Sanchez-Izquierdo vence Gabriele Piraino por 2 a 0 em Todi",
-    "summary": "Nikolas Sanchez-Izquierdo superou Gabriele Piraino por 2 a 0 em Todi.",
-    "content": "Nikolas Sanchez-Izquierdo superou Gabriele Piraino por 2 a 0 em Todi., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "todi"
-    ],
-    "seoTitle": "Nikolas Sanchez-Izquierdo vence Gabriele Piraino por 2 a 0 em Todi",
-    "seoDescription": "Nikolas Sanchez-Izquierdo superou Gabriele Piraino por 2 a 0 em Todi.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T14:41:49.908Z",
-    "createdAt": "2026-08-11T14:41:49.908Z",
-    "updatedAt": "2026-08-11T14:41:49.908Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807283",
-      "eventStartTime": "2026-08-11T13:15:05+00:00",
-      "retrievedAt": "2026-08-11T14:41:49.908Z",
-      "feedId": "tenis",
-      "league": "Todi"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7d48fc41248a",
-    "slug": "fuerza-regia-vence-diablos-rojos-del-mexico-por-95-a-94-em-lnbp-7d48fc",
-    "sportId": "basquete",
-    "title": "Fuerza Regia vence Diablos Rojos del Mexico por 95 a 94 em LNBP",
-    "summary": "Fuerza Regia superou Diablos Rojos del Mexico por 95 a 94 em LNBP.",
-    "content": "Fuerza Regia superou Diablos Rojos del Mexico por 95 a 94 em LNBP., em 10 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnbp"
-    ],
-    "seoTitle": "Fuerza Regia vence Diablos Rojos del Mexico por 95 a 94 em LNBP",
-    "seoDescription": "Fuerza Regia superou Diablos Rojos del Mexico por 95 a 94 em LNBP.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T14:41:49.904Z",
-    "createdAt": "2026-08-11T14:41:49.904Z",
-    "updatedAt": "2026-08-11T14:41:49.904Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4707857",
-      "eventStartTime": "2026-08-11T02:15:00+00:00",
-      "retrievedAt": "2026-08-11T14:41:49.904Z",
-      "feedId": "basquete",
-      "league": "LNBP"
     },
     "articleFormat": "result-brief"
   }
