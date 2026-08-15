@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-ace4d2adbb7c",
+    "slug": "nikola-bartunkova-vence-alina-charaeva-por-2-a-1-em-cincinnati-ace4d2",
+    "sportId": "tenis",
+    "title": "Nikola Bartunkova vence Alina Charaeva por 2 a 1 em Cincinnati",
+    "summary": "Nikola Bartunkova superou Alina Charaeva por 2 a 1 em Cincinnati.",
+    "content": "Nikola Bartunkova superou Alina Charaeva por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Nikola Bartunkova vence Alina Charaeva por 2 a 1 em Cincinnati",
+    "seoDescription": "Nikola Bartunkova superou Alina Charaeva por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T18:47:57.125Z",
+    "createdAt": "2026-08-15T18:47:57.125Z",
+    "updatedAt": "2026-08-15T18:47:57.125Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813450",
+      "eventStartTime": "2026-08-14T15:13:59+00:00",
+      "retrievedAt": "2026-08-15T18:47:57.125Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5fb784ad92c5",
+    "slug": "san-jacinto-albion-w-e-canadian-w-ficam-no-0-a-0-pelo-campeonato-femenino-a-5fb784",
+    "sportId": "futebol",
+    "title": "San Jacinto Albion (W) e Canadian (W) ficam no 0 a 0 pelo Campeonato Femenino A",
+    "summary": "San Jacinto Albion (W) e Canadian (W) empataram por 0 a 0 pelo Campeonato Femenino A.",
+    "content": "San Jacinto Albion (W) e Canadian (W) empataram por 0 a 0 pelo Campeonato Femenino A, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "campeonato-femenino-a"
+    ],
+    "seoTitle": "San Jacinto Albion (W) e Canadian (W) ficam no 0 a 0 pelo Campeonato",
+    "seoDescription": "San Jacinto Albion (W) e Canadian (W) empataram por 0 a 0 pelo Campeonato Femenino A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T18:47:57.052Z",
+    "createdAt": "2026-08-15T18:47:57.052Z",
+    "updatedAt": "2026-08-15T18:47:57.052Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814206",
+      "eventStartTime": "2026-08-15T18:30:00+00:00",
+      "retrievedAt": "2026-08-15T18:47:57.052Z",
+      "feedId": "futebol",
+      "league": "Campeonato Femenino A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-9cb2b7413283",
     "slug": "alex-barrena-e-lukas-neumayer-empatam-por-0-a-0-em-todi-9cb2b7",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-12T03:09:41.085Z",
       "feedId": "beisebol",
       "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-bbdda98307d7",
-    "slug": "kyrian-jacquet-vence-billy-harris-por-2-a-0-em-cincinnati-bbdda9",
-    "sportId": "tenis",
-    "title": "Kyrian Jacquet vence Billy Harris por 2 a 0 em Cincinnati",
-    "summary": "Kyrian Jacquet superou Billy Harris por 2 a 0 em Cincinnati.",
-    "content": "Kyrian Jacquet superou Billy Harris por 2 a 0 em Cincinnati., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Kyrian Jacquet vence Billy Harris por 2 a 0 em Cincinnati",
-    "seoDescription": "Kyrian Jacquet superou Billy Harris por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T03:09:41.084Z",
-    "createdAt": "2026-08-12T03:09:41.084Z",
-    "updatedAt": "2026-08-12T03:09:41.084Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808238",
-      "eventStartTime": "2026-08-12T01:42:31+00:00",
-      "retrievedAt": "2026-08-12T03:09:41.084Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3d9826205611",
-    "slug": "indiana-fever-vence-new-york-liberty-por-106-a-92-em-wnba-3d9826",
-    "sportId": "basquete",
-    "title": "Indiana Fever vence New York Liberty por 106 a 92 em WNBA",
-    "summary": "Indiana Fever superou New York Liberty por 106 a 92 em WNBA.",
-    "content": "Indiana Fever superou New York Liberty por 106 a 92 em WNBA., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "Indiana Fever vence New York Liberty por 106 a 92 em WNBA",
-    "seoDescription": "Indiana Fever superou New York Liberty por 106 a 92 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T03:09:41.081Z",
-    "createdAt": "2026-08-12T03:09:41.081Z",
-    "updatedAt": "2026-08-12T03:09:41.081Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659868",
-      "eventStartTime": "2026-08-11T23:30:00+00:00",
-      "retrievedAt": "2026-08-12T03:09:41.081Z",
-      "feedId": "basquete",
-      "league": "WNBA"
     },
     "articleFormat": "result-brief"
   }
