@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-ef0891091be8",
+    "slug": "new-york-mets-vence-washington-nationals-por-4-a-1-na-mlb-ef0891",
+    "sportId": "beisebol",
+    "title": "New York Mets vence Washington Nationals por 4 a 1 na MLB",
+    "summary": "New York Mets derrotou Washington Nationals por 4 a 1 na MLB.",
+    "content": "New York Mets derrotou Washington Nationals por 4 a 1 na MLB, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "New York Mets vence Washington Nationals por 4 a 1 na MLB",
+    "seoDescription": "New York Mets derrotou Washington Nationals por 4 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T05:15:23.802Z",
+    "createdAt": "2026-08-15T05:15:23.802Z",
+    "updatedAt": "2026-08-15T05:15:23.802Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602910",
+      "eventStartTime": "2026-08-14T23:10:00+00:00",
+      "retrievedAt": "2026-08-15T05:15:23.802Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ad84ba2c2e00",
+    "slug": "daniel-merida-aguilar-vence-marin-cilic-por-2-a-1-em-cincinnati-ad84ba",
+    "sportId": "tenis",
+    "title": "Daniel Merida Aguilar vence Marin Cilic por 2 a 1 em Cincinnati",
+    "summary": "Daniel Merida Aguilar superou Marin Cilic por 2 a 1 em Cincinnati.",
+    "content": "Daniel Merida Aguilar superou Marin Cilic por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Daniel Merida Aguilar vence Marin Cilic por 2 a 1 em Cincinnati",
+    "seoDescription": "Daniel Merida Aguilar superou Marin Cilic por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T05:15:23.791Z",
+    "createdAt": "2026-08-15T05:15:23.791Z",
+    "updatedAt": "2026-08-15T05:15:23.791Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809625",
+      "eventStartTime": "2026-08-14T22:21:46+00:00",
+      "retrievedAt": "2026-08-15T05:15:23.791Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ee0c805b8340",
+    "slug": "eastern-suburbs-supera-bay-olympic-por-5-a-1-pelo-national-league-ee0c80",
+    "sportId": "futebol",
+    "title": "Eastern Suburbs supera Bay Olympic por 5 a 1 pelo National League",
+    "summary": "Eastern Suburbs venceu Bay Olympic por 5 a 1 pelo National League.",
+    "content": "Eastern Suburbs venceu Bay Olympic por 5 a 1 pelo National League, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "national-league"
+    ],
+    "seoTitle": "Eastern Suburbs supera Bay Olympic por 5 a 1 pelo National League",
+    "seoDescription": "Eastern Suburbs venceu Bay Olympic por 5 a 1 pelo National League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T05:15:23.749Z",
+    "createdAt": "2026-08-15T05:15:23.749Z",
+    "updatedAt": "2026-08-15T05:15:23.749Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4678288",
+      "eventStartTime": "2026-08-15T03:00:00+00:00",
+      "retrievedAt": "2026-08-15T05:15:23.749Z",
+      "feedId": "futebol",
+      "league": "National League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-858af6306818",
     "slug": "colorado-rockies-vence-san-francisco-giants-por-5-a-2-na-mlb-858af6",
     "sportId": "beisebol",
@@ -12427,125 +12553,5 @@
     "sourceUrls": [
       "https://www.outerknown.com/blogs/journey/introducing-the-outerknown-tahiti-pro"
     ]
-  },
-  {
-    "id": "curated-futebol-copa-audiencia-20260727",
-    "slug": "final-copa-2026-espanha-argentina-recorde-audiencia-estados-unidos",
-    "sportId": "futebol",
-    "title": "Final da Copa de 2026 bate recorde de audiência nos EUA após título da Espanha",
-    "summary": "Quase 63 milhões de espectadores acompanharam a vitória espanhola por 1 a 0 sobre a Argentina, maior audiência de uma final de Copa nos Estados Unidos.",
-    "content": "A Copa do Mundo de 2026 terminou em 19 de julho com a Espanha campeã após vencer a Argentina por 1 a 0 na prorrogação. Uma semana depois, um dos efeitos do torneio ficou mais claro: a final produziu audiência recorde nos Estados Unidos.\n\nSegundo dados divulgados após a decisão, quase 63 milhões de pessoas acompanharam a partida nos EUA somando as transmissões em inglês e espanhol. O número representa um salto expressivo em relação à final de 2022 e reforça o tamanho do espaço conquistado pelo futebol no mercado norte-americano durante o Mundial.\n\nEsse é exatamente o tipo de conteúdo que passa a fazer sentido depois do torneio. A Copa não deve mais ser apresentada como competição em andamento; agora o foco editorial precisa estar em legado, audiência, mercado, repercussão e consequências esportivas.\n\nDentro de campo, a referência final permanece objetiva: Espanha campeã, Argentina vice e Ferran Torres autor do gol do título na prorrogação. Qualquer atualização sobre o Mundial daqui para frente entra como pós-Copa, não como agenda ativa.",
-    "sourceName": "Fonte verificada: Reuters",
-    "sourceUrl": "https://www.reuters.com/business/media-telecom/world-cup-final-draws-record-us-audience-signals-soccers-mainstream-moment-2026-07-22/",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "futebol",
-      "copa-2026",
-      "espanha",
-      "argentina",
-      "audiencia",
-      "pos-copa"
-    ],
-    "seoTitle": "Final da Copa de 2026 bate recorde de audiência nos EUA",
-    "seoDescription": "Quase 63 milhões viram Espanha x Argentina nos EUA; conteúdo da Copa entra definitivamente em fase pós-torneio.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-27T11:59:00.000Z",
-    "createdAt": "2026-07-27T11:59:00.000Z",
-    "updatedAt": "2026-07-27T11:59:00.000Z",
-    "homepagePriority": 80,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.reuters.com/business/media-telecom/world-cup-final-draws-record-us-audience-signals-soccers-mainstream-moment-2026-07-22/",
-      "https://www.reuters.com/sports/soccer/messi-says-argentinas-defeat-by-spain-left-immense-pain-2026-07-20/"
-    ]
-  },
-  {
-    "id": "newsroom-data-5b7792db7874",
-    "slug": "columbus-crew-supera-fc-cincinnati-por-2-a-1-pelo-mls-5b7792",
-    "sportId": "futebol",
-    "title": "Columbus Crew supera FC Cincinnati por 2 a 1 pela MLS",
-    "summary": "Columbus Crew venceu FC Cincinnati por 2 a 1 pela MLS.",
-    "content": "Columbus Crew venceu FC Cincinnati por 2 a 1 pela MLS, em 25 de julho de 2026 no ScottsMiracle-Gro Field.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Columbus Crew supera FC Cincinnati por 2 a 1 pela MLS",
-    "seoDescription": "Columbus Crew venceu FC Cincinnati por 2 a 1 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-26T23:38:56.305Z",
-    "createdAt": "2026-07-26T23:38:56.305Z",
-    "updatedAt": "2026-07-26T23:38:56.305Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761680",
-      "eventStartTime": "2026-07-25T23:15Z",
-      "retrievedAt": "2026-07-26T23:38:56.305Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-53e943cee25f",
-    "slug": "philadelphia-union-supera-seattle-sounders-fc-por-1-a-0-pelo-mls-53e943",
-    "sportId": "futebol",
-    "title": "Philadelphia Union supera Seattle Sounders FC por 1 a 0 pela MLS",
-    "summary": "Philadelphia Union venceu Seattle Sounders FC por 1 a 0 pela MLS.",
-    "content": "Philadelphia Union venceu Seattle Sounders FC por 1 a 0 pela MLS, em 25 de julho de 2026 no Subaru Park.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Philadelphia Union supera Seattle Sounders FC por 1 a 0 pela MLS",
-    "seoDescription": "Philadelphia Union venceu Seattle Sounders FC por 1 a 0 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-26T22:39:19.650Z",
-    "createdAt": "2026-07-26T22:39:19.650Z",
-    "updatedAt": "2026-07-26T22:39:19.650Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761686",
-      "eventStartTime": "2026-07-25T23:30Z",
-      "retrievedAt": "2026-07-26T22:39:19.650Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
   }
 ]
