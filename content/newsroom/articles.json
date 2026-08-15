@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-ecc80f82835a",
+    "slug": "tereza-valentova-vence-mary-stoiana-por-2-a-0-em-cincinnati-ecc80f",
+    "sportId": "tenis",
+    "title": "Tereza Valentova vence Mary Stoiana por 2 a 0 em Cincinnati",
+    "summary": "Tereza Valentova superou Mary Stoiana por 2 a 0 em Cincinnati.",
+    "content": "Tereza Valentova superou Mary Stoiana por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Tereza Valentova vence Mary Stoiana por 2 a 0 em Cincinnati",
+    "seoDescription": "Tereza Valentova superou Mary Stoiana por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T15:21:01.357Z",
+    "createdAt": "2026-08-15T15:21:01.357Z",
+    "updatedAt": "2026-08-15T15:21:01.357Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813449",
+      "eventStartTime": "2026-08-14T21:17:38+00:00",
+      "retrievedAt": "2026-08-15T15:21:01.357Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-0b588bf0a4f2",
+    "slug": "monterrey-u21-e-juarez-u21-ficam-no-0-a-0-pela-liga-mx-u21-0b588b",
+    "sportId": "futebol",
+    "title": "Monterrey U21 e Juárez U21 ficam no 0 a 0 pela Liga MX U21",
+    "summary": "Monterrey U21 e Juárez U21 empataram por 0 a 0 pela Liga MX U21.",
+    "content": "Monterrey U21 e Juárez U21 empataram por 0 a 0 pela Liga MX U21, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-mx-u21"
+    ],
+    "seoTitle": "Monterrey U21 e Juárez U21 ficam no 0 a 0 pela Liga MX U21",
+    "seoDescription": "Monterrey U21 e Juárez U21 empataram por 0 a 0 pela Liga MX U21.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T15:21:01.316Z",
+    "createdAt": "2026-08-15T15:21:01.316Z",
+    "updatedAt": "2026-08-15T15:21:01.316Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4759890",
+      "eventStartTime": "2026-08-15T15:00:00+00:00",
+      "retrievedAt": "2026-08-15T15:21:01.316Z",
+      "feedId": "futebol",
+      "league": "Liga MX U21"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d0c5e8157fe5",
     "slug": "rakuten-gold-eagles-vence-fukuoka-hawks-por-6-a-4-na-npb-d0c5e8",
     "sportId": "beisebol",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-11T21:11:08.399Z",
       "feedId": "basquete",
       "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e7e249381e8c",
-    "slug": "aguilas-doradas-e-llaneros-fc-ficam-no-0-a-0-pelo-primera-a-e7e249",
-    "sportId": "futebol",
-    "title": "Águilas Doradas e Llaneros FC ficam no 0 a 0 pelo Primera A",
-    "summary": "Águilas Doradas e Llaneros FC empataram por 0 a 0 pelo Primera A.",
-    "content": "Águilas Doradas e Llaneros FC empataram por 0 a 0 pelo Primera A, em 11 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-a"
-    ],
-    "seoTitle": "Águilas Doradas e Llaneros FC ficam no 0 a 0 pelo Primera A",
-    "seoDescription": "Águilas Doradas e Llaneros FC empataram por 0 a 0 pelo Primera A.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T21:11:08.391Z",
-    "createdAt": "2026-08-11T21:11:08.391Z",
-    "updatedAt": "2026-08-11T21:11:08.391Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732065",
-      "eventStartTime": "2026-08-11T21:00:00+00:00",
-      "retrievedAt": "2026-08-11T21:11:08.391Z",
-      "feedId": "futebol",
-      "league": "Primera A"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-40dec77affeb",
-    "slug": "hiroshima-toyo-carp-vence-yakult-swallows-por-0-a-0-na-npb-40dec7",
-    "sportId": "beisebol",
-    "title": "Hiroshima Toyo Carp vence Yakult Swallows por 0 a 0 na NPB",
-    "summary": "Hiroshima Toyo Carp derrotou Yakult Swallows por 0 a 0 na NPB.",
-    "content": "Hiroshima Toyo Carp derrotou Yakult Swallows por 0 a 0 na NPB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Hiroshima Toyo Carp vence Yakult Swallows por 0 a 0 na NPB",
-    "seoDescription": "Hiroshima Toyo Carp derrotou Yakult Swallows por 0 a 0 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T20:23:27.936Z",
-    "createdAt": "2026-08-11T20:23:27.936Z",
-    "updatedAt": "2026-08-11T20:23:27.936Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4627268",
-      "eventStartTime": "2026-08-11T09:00:00+00:00",
-      "retrievedAt": "2026-08-11T20:23:27.936Z",
-      "feedId": "beisebol",
-      "league": "NPB"
     },
     "articleFormat": "result-brief"
   }
