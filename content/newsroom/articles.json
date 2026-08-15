@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-0955bdd02416",
+    "slug": "daniel-milavsky-vence-rei-sakamoto-por-2-a-0-em-brownsburg-0955bd",
+    "sportId": "tenis",
+    "title": "Daniel Milavsky vence Rei Sakamoto por 2 a 0 em Brownsburg",
+    "summary": "Daniel Milavsky superou Rei Sakamoto por 2 a 0 em Brownsburg.",
+    "content": "Daniel Milavsky superou Rei Sakamoto por 2 a 0 em Brownsburg., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "brownsburg"
+    ],
+    "seoTitle": "Daniel Milavsky vence Rei Sakamoto por 2 a 0 em Brownsburg",
+    "seoDescription": "Daniel Milavsky superou Rei Sakamoto por 2 a 0 em Brownsburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T10:44:45.322Z",
+    "createdAt": "2026-08-15T10:44:45.322Z",
+    "updatedAt": "2026-08-15T10:44:45.322Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4812257",
+      "eventStartTime": "2026-08-14T17:09:57+00:00",
+      "retrievedAt": "2026-08-15T10:44:45.322Z",
+      "feedId": "tenis",
+      "league": "Brownsburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-a08bd95cf38f",
+    "slug": "phnom-penh-crown-supera-persik-kediri-por-4-a-0-pelo-club-friendlies-a08bd9",
+    "sportId": "futebol",
+    "title": "Phnom Penh Crown supera Persik Kediri por 4 a 0 pelo Club Friendlies",
+    "summary": "Phnom Penh Crown venceu Persik Kediri por 4 a 0 pelo Club Friendlies.",
+    "content": "Phnom Penh Crown venceu Persik Kediri por 4 a 0 pelo Club Friendlies, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Phnom Penh Crown supera Persik Kediri por 4 a 0 pelo Club Friendlies",
+    "seoDescription": "Phnom Penh Crown venceu Persik Kediri por 4 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T10:44:45.258Z",
+    "createdAt": "2026-08-15T10:44:45.258Z",
+    "updatedAt": "2026-08-15T10:44:45.258Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814855",
+      "eventStartTime": "2026-08-15T08:30:00+00:00",
+      "retrievedAt": "2026-08-15T10:44:45.258Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-6628f906fce3",
     "slug": "pablo-carreno-busta-vence-tomas-machac-por-2-a-0-em-cincinnati-6628f9",
     "sportId": "tenis",
@@ -12522,90 +12606,6 @@
       "eventId": "761698",
       "eventStartTime": "2026-08-01T23:30Z",
       "retrievedAt": "2026-08-02T21:35:50.340Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-57075af8d459",
-    "slug": "red-bull-new-york-supera-orlando-city-sc-por-3-a-2-pelo-mls-57075a",
-    "sportId": "futebol",
-    "title": "Red Bull New York supera Orlando City SC por 3 a 2 pela MLS",
-    "summary": "Red Bull New York venceu Orlando City SC por 3 a 2 pela MLS.",
-    "content": "Red Bull New York venceu Orlando City SC por 3 a 2 pela MLS, em 01 de agosto de 2026 no Red Bull Arena.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Red Bull New York supera Orlando City SC por 3 a 2 pela MLS",
-    "seoDescription": "Red Bull New York venceu Orlando City SC por 3 a 2 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-02T20:41:54.582Z",
-    "createdAt": "2026-08-02T20:41:54.582Z",
-    "updatedAt": "2026-08-02T20:41:54.582Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761696",
-      "eventStartTime": "2026-08-01T23:30Z",
-      "retrievedAt": "2026-08-02T20:41:54.582Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-17b34d00489c",
-    "slug": "philadelphia-union-supera-atlanta-united-fc-por-3-a-2-pelo-mls-17b34d",
-    "sportId": "futebol",
-    "title": "Philadelphia Union supera Atlanta United FC por 3 a 2 pela MLS",
-    "summary": "Philadelphia Union venceu Atlanta United FC por 3 a 2 pela MLS.",
-    "content": "Philadelphia Union venceu Atlanta United FC por 3 a 2 pela MLS, em 01 de agosto de 2026 no Subaru Park.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Philadelphia Union supera Atlanta United FC por 3 a 2 pela MLS",
-    "seoDescription": "Philadelphia Union venceu Atlanta United FC por 3 a 2 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-02T19:52:32.182Z",
-    "createdAt": "2026-08-02T19:52:32.182Z",
-    "updatedAt": "2026-08-02T19:52:32.182Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761702",
-      "eventStartTime": "2026-08-01T23:30Z",
-      "retrievedAt": "2026-08-02T19:52:32.182Z",
       "feedId": "futebol",
       "league": "MLS"
     },
