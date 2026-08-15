@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-2c3717357be4",
+    "slug": "chicago-white-sox-vence-detroit-tigers-por-9-a-5-na-mlb-2c3717",
+    "sportId": "beisebol",
+    "title": "Chicago White Sox vence Detroit Tigers por 9 a 5 na MLB",
+    "summary": "Chicago White Sox derrotou Detroit Tigers por 9 a 5 na MLB.",
+    "content": "Chicago White Sox derrotou Detroit Tigers por 9 a 5 na MLB, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Chicago White Sox vence Detroit Tigers por 9 a 5 na MLB",
+    "seoDescription": "Chicago White Sox derrotou Detroit Tigers por 9 a 5 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T05:42:14.746Z",
+    "createdAt": "2026-08-15T05:42:14.746Z",
+    "updatedAt": "2026-08-15T05:42:14.746Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602943",
+      "eventStartTime": "2026-08-14T22:40:00+00:00",
+      "retrievedAt": "2026-08-15T05:42:14.746Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-34f0a6ce09a0",
+    "slug": "ludmilla-samsonova-vence-yulia-putintseva-por-2-a-1-em-cincinnati-34f0a6",
+    "sportId": "tenis",
+    "title": "Ludmilla Samsonova vence Yulia Putintseva por 2 a 1 em Cincinnati",
+    "summary": "Ludmilla Samsonova superou Yulia Putintseva por 2 a 1 em Cincinnati.",
+    "content": "Ludmilla Samsonova superou Yulia Putintseva por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Ludmilla Samsonova vence Yulia Putintseva por 2 a 1 em Cincinnati",
+    "seoDescription": "Ludmilla Samsonova superou Yulia Putintseva por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T05:42:14.732Z",
+    "createdAt": "2026-08-15T05:42:14.732Z",
+    "updatedAt": "2026-08-15T05:42:14.732Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809657",
+      "eventStartTime": "2026-08-14T20:53:24+00:00",
+      "retrievedAt": "2026-08-15T05:42:14.732Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c072c95033f1",
+    "slug": "atletico-la-paz-supera-piratas-fc-por-2-a-0-pela-liga-de-expansion-c072c9",
+    "sportId": "futebol",
+    "title": "Atletico La Paz supera Piratas FC por 2 a 0 pela Liga de Expansión",
+    "summary": "Atletico La Paz venceu Piratas FC por 2 a 0 pela Liga de Expansión.",
+    "content": "Atletico La Paz venceu Piratas FC por 2 a 0 pela Liga de Expansión, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-expansion"
+    ],
+    "seoTitle": "Atletico La Paz supera Piratas FC por 2 a 0 pela Liga de Expansión",
+    "seoDescription": "Atletico La Paz venceu Piratas FC por 2 a 0 pela Liga de Expansión.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T05:42:14.690Z",
+    "createdAt": "2026-08-15T05:42:14.690Z",
+    "updatedAt": "2026-08-15T05:42:14.690Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4761319",
+      "eventStartTime": "2026-08-15T03:00:00+00:00",
+      "retrievedAt": "2026-08-15T05:42:14.690Z",
+      "feedId": "futebol",
+      "league": "Liga de Expansión"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ef0891091be8",
     "slug": "new-york-mets-vence-washington-nationals-por-4-a-1-na-mlb-ef0891",
     "sportId": "beisebol",
@@ -12445,113 +12571,6 @@
     "sourceUrls": [
       "https://www.mlb.com/news/mlb-trade-deadline-2026-date-time",
       "https://www.mlb.com/news/mlb-trade-rumors-on-top-candidates-one-week-before-trade-deadline"
-    ]
-  },
-  {
-    "id": "curated-golfe-koivun-3m-20260727",
-    "slug": "jackson-koivun-vence-3m-open-primeiro-titulo-pga-tour-2026",
-    "sportId": "golfe",
-    "title": "Jackson Koivun vence o 3M Open aos 21 anos e conquista primeiro título no PGA Tour",
-    "summary": "Americano fechou o torneio em -25, três tacadas à frente de Scottie Scheffler, e recebeu 500 pontos da FedExCup.",
-    "content": "Jackson Koivun transformou apenas sua terceira participação como profissional no PGA Tour em vitória. O americano de 21 anos fechou o 3M Open com 25 abaixo do par e conquistou seu primeiro título no circuito.\n\nKoivun terminou três tacadas à frente de Scottie Scheffler. O número 1 do mundo pressionou com uma rodada final de 63, mas Koivun respondeu com 66 e não abriu espaço para a virada. O total de 259 golpes também confirmou uma semana de altíssimo nível no TPC Twin Cities.\n\nAlém do troféu, a vitória rendeu 500 pontos na FedExCup — o sistema de pontuação que organiza a temporada do PGA Tour e define a classificação para os playoffs. Para um jogador em início de carreira, isso muda rapidamente o horizonte competitivo do restante do ano.\n\nO que acompanhar agora é como Koivun absorve a mudança de status. Depois de uma primeira vitória tão cedo, a expectativa deixa de ser apenas adaptação ao circuito e passa a incluir consistência contra campos mais fortes.",
-    "sourceName": "Fonte verificada: PGA Tour",
-    "sourceUrl": "https://www.pgatour.com/tournaments/2026/3m-open/R2026525/leaderboard",
-    "coverImageUrl": "/images/sports/golfe.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "golfe",
-      "pga-tour",
-      "3m-open",
-      "jackson-koivun",
-      "scottie-scheffler",
-      "fedexcup"
-    ],
-    "seoTitle": "Jackson Koivun vence 3M Open e conquista primeiro título no PGA Tour",
-    "seoDescription": "Jackson Koivun venceu o 3M Open com -25, três tacadas à frente de Scottie Scheffler.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-27T12:02:00.000Z",
-    "createdAt": "2026-07-27T12:02:00.000Z",
-    "updatedAt": "2026-07-27T12:02:00.000Z",
-    "homepagePriority": 88,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.pgatour.com/tournaments/2026/3m-open/R2026525/leaderboard",
-      "https://www.pgatour.com/article/news/latest/2026/07/26/scottie-scheffler-final-round-63-3m-open-tpc-twin-cities-scores-leaderboard-recap"
-    ]
-  },
-  {
-    "id": "curated-college-football-brasil-20260727",
-    "slug": "college-football-2026-indiana-campeao-abertura-brasil-nc-state-virginia",
-    "sportId": "futebol-americano",
-    "title": "College Football se aproxima dos camps com Indiana campeão e abertura histórica no Brasil",
-    "summary": "Temporada de 2026 começa em 29 de agosto com NC State x Virginia no Rio; Indiana chega como atual campeão nacional após campanha perfeita.",
-    "content": "O College Football entra na transição entre os Media Days e os fall camps, período em que os programas deixam o discurso de pré-temporada e começam a transformar elenco em time. A temporada de 2026 terá uma abertura especialmente simbólica: NC State e Virginia jogam no Rio de Janeiro em 29 de agosto.\n\nSerá o primeiro jogo de college football realizado na América do Sul e contará como partida de conferência da ACC. Para o público brasileiro, é uma oportunidade rara de acompanhar ao vivo o futebol universitário americano antes mesmo da primeira rodada completa nos Estados Unidos.\n\nIndiana chega à temporada como atual campeão nacional. Os Hoosiers venceram Miami por 27 a 21 na final do College Football Playoff e completaram 2025 com campanha perfeita de 16-0, conquistando o primeiro título nacional da história do programa.\n\nNeste momento, rankings projetados ainda precisam ser tratados como projeção. O que vale acompanhar nos próximos camps são as definições de quarterbacks titulares, a integração de jogadores vindos do transfer portal e, depois, a divulgação dos rankings oficiais de pré-temporada.",
-    "sourceName": "Fonte verificada: Associated Press",
-    "sourceUrl": "https://apnews.com/article/f1c27b6bbdc73045488b9c90b7d3a4d3",
-    "coverImageUrl": "/images/sports/futebol-americano.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "college-football",
-      "nc-state",
-      "virginia",
-      "brasil",
-      "indiana",
-      "cfp"
-    ],
-    "seoTitle": "College Football 2026 terá abertura histórica no Brasil",
-    "seoDescription": "NC State e Virginia abrem a temporada no Rio em 29 de agosto; Indiana chega como atual campeão nacional.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-27T12:01:00.000Z",
-    "createdAt": "2026-07-27T12:01:00.000Z",
-    "updatedAt": "2026-07-27T12:01:00.000Z",
-    "homepagePriority": 84,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://apnews.com/article/f1c27b6bbdc73045488b9c90b7d3a4d3",
-      "https://apnews.com/article/8b4fb15e43e10c890e16b57551b48523"
-    ]
-  },
-  {
-    "id": "curated-surfe-teahupoo-slater-20260727",
-    "slug": "teahupoo-tahiti-pro-2026-kelly-slater-wildcard-agosto",
-    "sportId": "surfe",
-    "title": "Teahupo'o entra no radar da WSL com retorno de Kelly Slater como wildcard",
-    "summary": "Tahiti Pro será disputado de 8 a 18 de agosto e terá o 11 vezes campeão mundial de volta ao Championship Tour por convite.",
-    "content": "A próxima grande parada do Championship Tour já começa a concentrar as atenções do surfe mundial. O Outerknown Tahiti Pro será disputado em Teahupo'o, no Taiti, entre 8 e 18 de agosto, como a sétima etapa do calendário de 2026.\n\nO principal nome extra da lista é Kelly Slater. O 11 vezes campeão mundial recebeu uma wildcard — convite que dá acesso direto ao evento fora do processo regular de classificação — e voltará a competir em uma onda que marcou sua carreira. Slater soma cinco vitórias em Teahupo'o.\n\nO retorno ocorre depois de cirurgia no quadril no fim do ano passado. Por isso, a história não é apenas nostalgia: o nível de competitividade do veterano de 54 anos em uma das ondas mais exigentes do circuito será um dos pontos esportivos mais interessantes do evento.\n\nAinda é cedo para cravar condições do mar durante a janela. Previsões de longo prazo mudam bastante, então a leitura responsável é acompanhar as atualizações mais próximas do evento e separar confirmação de calendário de projeção de swell.",
-    "sourceName": "Fonte verificada: Outerknown",
-    "sourceUrl": "https://www.outerknown.com/blogs/journey/introducing-the-outerknown-tahiti-pro",
-    "coverImageUrl": "/images/sports/surfe.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "surfe",
-      "wsl",
-      "teahupoo",
-      "kelly-slater",
-      "tahiti-pro",
-      "wildcard"
-    ],
-    "seoTitle": "Teahupo'o recebe WSL de 8 a 18 de agosto com Kelly Slater",
-    "seoDescription": "Tahiti Pro 2026 terá janela de 8 a 18 de agosto em Teahupo'o e Kelly Slater como wildcard.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-27T12:00:00.000Z",
-    "createdAt": "2026-07-27T12:00:00.000Z",
-    "updatedAt": "2026-07-27T12:00:00.000Z",
-    "homepagePriority": 82,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.outerknown.com/blogs/journey/introducing-the-outerknown-tahiti-pro"
     ]
   }
 ]
