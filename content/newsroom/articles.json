@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-fd27d88a4fce",
+    "slug": "baltimore-orioles-vence-tampa-bay-rays-por-6-a-5-na-mlb-fd27d8",
+    "sportId": "beisebol",
+    "title": "Baltimore Orioles vence Tampa Bay Rays por 6 a 5 na MLB",
+    "summary": "Baltimore Orioles derrotou Tampa Bay Rays por 6 a 5 na MLB.",
+    "content": "Baltimore Orioles derrotou Tampa Bay Rays por 6 a 5 na MLB, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Baltimore Orioles vence Tampa Bay Rays por 6 a 5 na MLB",
+    "seoDescription": "Baltimore Orioles derrotou Tampa Bay Rays por 6 a 5 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T21:55:18.505Z",
+    "createdAt": "2026-08-15T21:55:18.505Z",
+    "updatedAt": "2026-08-15T21:55:18.505Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602982",
+      "eventStartTime": "2026-08-14T23:10:00+00:00",
+      "retrievedAt": "2026-08-15T21:55:18.505Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-395a18befb52",
+    "slug": "rinky-hijikata-vence-luciano-darderi-por-2-a-0-em-cincinnati-395a18",
+    "sportId": "tenis",
+    "title": "Rinky Hijikata vence Luciano Darderi por 2 a 0 em Cincinnati",
+    "summary": "Rinky Hijikata superou Luciano Darderi por 2 a 0 em Cincinnati.",
+    "content": "Rinky Hijikata superou Luciano Darderi por 2 a 0 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Rinky Hijikata vence Luciano Darderi por 2 a 0 em Cincinnati",
+    "seoDescription": "Rinky Hijikata superou Luciano Darderi por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T21:55:18.486Z",
+    "createdAt": "2026-08-15T21:55:18.486Z",
+    "updatedAt": "2026-08-15T21:55:18.486Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813832",
+      "eventStartTime": "2026-08-15T20:35:59+00:00",
+      "retrievedAt": "2026-08-15T21:55:18.486Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e5b8eb83b6b6",
+    "slug": "sacachispas-chiquimula-e-champs-academy-guatemala-ficam-no-0-a-0-pelo-primera-divi-e5b8eb",
+    "sportId": "futebol",
+    "title": "Sacachispas Chiquimula e Champs Academy Guatemala ficam no 0 a 0 pelo Primera Division",
+    "summary": "Sacachispas Chiquimula e Champs Academy Guatemala empataram por 0 a 0 pelo Primera Division.",
+    "content": "Sacachispas Chiquimula e Champs Academy Guatemala empataram por 0 a 0 pelo Primera Division, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-division"
+    ],
+    "seoTitle": "Sacachispas Chiquimula e Champs Academy Guatemala ficam no 0 a 0 pelo",
+    "seoDescription": "Sacachispas Chiquimula e Champs Academy Guatemala empataram por 0 a 0 pelo Primera Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T21:55:18.464Z",
+    "createdAt": "2026-08-15T21:55:18.464Z",
+    "updatedAt": "2026-08-15T21:55:18.464Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4777099",
+      "eventStartTime": "2026-08-15T21:00:00+00:00",
+      "retrievedAt": "2026-08-15T21:55:18.464Z",
+      "feedId": "futebol",
+      "league": "Primera Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-a1bae2fd4907",
     "slug": "thiago-agustin-tirante-vence-novak-djokovic-por-2-a-1-em-cincinnati-a1bae2",
     "sportId": "tenis",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-12T11:56:27.837Z",
       "feedId": "futebol",
       "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d242651a7bee",
-    "slug": "los-angeles-angels-vence-texas-rangers-por-3-a-2-na-mlb-d24265",
-    "sportId": "beisebol",
-    "title": "Los Angeles Angels vence Texas Rangers por 3 a 2 na MLB",
-    "summary": "Los Angeles Angels derrotou Texas Rangers por 3 a 2 na MLB.",
-    "content": "Los Angeles Angels derrotou Texas Rangers por 3 a 2 na MLB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Los Angeles Angels vence Texas Rangers por 3 a 2 na MLB",
-    "seoDescription": "Los Angeles Angels derrotou Texas Rangers por 3 a 2 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T11:09:21.055Z",
-    "createdAt": "2026-08-12T11:09:21.055Z",
-    "updatedAt": "2026-08-12T11:09:21.055Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602989",
-      "eventStartTime": "2026-08-12T01:38:00+00:00",
-      "retrievedAt": "2026-08-12T11:09:21.055Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0fc33823bd3e",
-    "slug": "bar-biryukov-p-lomakin-g-vence-binda-a-fomin-s-por-2-a-1-em-astana-0fc338",
-    "sportId": "tenis",
-    "title": "Bar Biryukov P./Lomakin G. vence Binda A./Fomin S. por 2 a 1 em Astana",
-    "summary": "Bar Biryukov P./Lomakin G. superou Binda A./Fomin S. por 2 a 1 em Astana.",
-    "content": "Bar Biryukov P./Lomakin G. superou Binda A./Fomin S. por 2 a 1 em Astana., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "astana"
-    ],
-    "seoTitle": "Bar Biryukov P./Lomakin G. vence Binda A./Fomin S. por 2 a 1 em Astana",
-    "seoDescription": "Bar Biryukov P./Lomakin G. superou Binda A./Fomin S. por 2 a 1 em Astana.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T11:09:21.051Z",
-    "createdAt": "2026-08-12T11:09:21.051Z",
-    "updatedAt": "2026-08-12T11:09:21.051Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808403",
-      "eventStartTime": "2026-08-12T09:19:38+00:00",
-      "retrievedAt": "2026-08-12T11:09:21.051Z",
-      "feedId": "tenis",
-      "league": "Astana"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3cea480ebc50",
-    "slug": "cd-valdivia-vence-atletico-puerto-varas-por-96-a-69-em-lnb-3cea48",
-    "sportId": "basquete",
-    "title": "CD Valdivia vence Atlético Puerto Varas por 96 a 69 em LNB",
-    "summary": "CD Valdivia superou Atlético Puerto Varas por 96 a 69 em LNB.",
-    "content": "CD Valdivia superou Atlético Puerto Varas por 96 a 69 em LNB., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "CD Valdivia vence Atlético Puerto Varas por 96 a 69 em LNB",
-    "seoDescription": "CD Valdivia superou Atlético Puerto Varas por 96 a 69 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T11:09:21.049Z",
-    "createdAt": "2026-08-12T11:09:21.049Z",
-    "updatedAt": "2026-08-12T11:09:21.049Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807731",
-      "eventStartTime": "2026-08-12T01:30:00+00:00",
-      "retrievedAt": "2026-08-12T11:09:21.049Z",
-      "feedId": "basquete",
-      "league": "LNB"
     },
     "articleFormat": "result-brief"
   }
