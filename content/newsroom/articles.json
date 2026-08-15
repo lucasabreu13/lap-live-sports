@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-e5a9695dddca",
+    "slug": "adolfo-daniel-vallejo-vence-kyrian-jacquet-por-2-a-0-em-cincinnati-e5a969",
+    "sportId": "tenis",
+    "title": "Adolfo Daniel Vallejo vence Kyrian Jacquet por 2 a 0 em Cincinnati",
+    "summary": "Adolfo Daniel Vallejo superou Kyrian Jacquet por 2 a 0 em Cincinnati.",
+    "content": "Adolfo Daniel Vallejo superou Kyrian Jacquet por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Adolfo Daniel Vallejo vence Kyrian Jacquet por 2 a 0 em Cincinnati",
+    "seoDescription": "Adolfo Daniel Vallejo superou Kyrian Jacquet por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T17:56:10.776Z",
+    "createdAt": "2026-08-15T17:56:10.776Z",
+    "updatedAt": "2026-08-15T17:56:10.776Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813391",
+      "eventStartTime": "2026-08-14T15:12:36+00:00",
+      "retrievedAt": "2026-08-15T17:56:10.776Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-345a35b03013",
+    "slug": "zeleznicar-pancevo-e-fk-crvena-zvezda-ficam-no-0-a-0-pela-super-liga-345a35",
+    "sportId": "futebol",
+    "title": "Zeleznicar Pancevo e FK Crvena zvezda ficam no 0 a 0 pela Super Liga",
+    "summary": "Zeleznicar Pancevo e FK Crvena zvezda empataram por 0 a 0 pela Super Liga.",
+    "content": "Zeleznicar Pancevo e FK Crvena zvezda empataram por 0 a 0 pela Super Liga, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "super-liga"
+    ],
+    "seoTitle": "Zeleznicar Pancevo e FK Crvena zvezda ficam no 0 a 0 pela Super Liga",
+    "seoDescription": "Zeleznicar Pancevo e FK Crvena zvezda empataram por 0 a 0 pela Super Liga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T17:56:10.701Z",
+    "createdAt": "2026-08-15T17:56:10.701Z",
+    "updatedAt": "2026-08-15T17:56:10.701Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4737638",
+      "eventStartTime": "2026-08-15T18:00:00+00:00",
+      "retrievedAt": "2026-08-15T17:56:10.701Z",
+      "feedId": "futebol",
+      "league": "Super Liga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-c68b3aa6d308",
     "slug": "maxim-mrva-vence-alex-barrena-por-2-a-0-em-todi-c68b3a",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-12T00:41:56.144Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-13e199746fa4",
-    "slug": "felix-perez-cardozo-vence-san-alfonzo-por-88-a-85-em-lnb-13e199",
-    "sportId": "basquete",
-    "title": "Felix Perez Cardozo vence San Alfonzo por 88 a 85 em LNB",
-    "summary": "Felix Perez Cardozo superou San Alfonzo por 88 a 85 em LNB.",
-    "content": "Felix Perez Cardozo superou San Alfonzo por 88 a 85 em LNB., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Felix Perez Cardozo vence San Alfonzo por 88 a 85 em LNB",
-    "seoDescription": "Felix Perez Cardozo superou San Alfonzo por 88 a 85 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T00:41:56.141Z",
-    "createdAt": "2026-08-12T00:41:56.141Z",
-    "updatedAt": "2026-08-12T00:41:56.141Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4805847",
-      "eventStartTime": "2026-08-11T23:00:00+00:00",
-      "retrievedAt": "2026-08-12T00:41:56.141Z",
-      "feedId": "basquete",
-      "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a060bf4c4674",
-    "slug": "boca-juniors-cali-e-union-magdalena-ficam-no-0-a-0-pelo-primera-b-a060bf",
-    "sportId": "futebol",
-    "title": "Boca Juniors Cali e Union Magdalena ficam no 0 a 0 pelo Primera B",
-    "summary": "Boca Juniors Cali e Union Magdalena empataram por 0 a 0 pelo Primera B.",
-    "content": "Boca Juniors Cali e Union Magdalena empataram por 0 a 0 pelo Primera B, em 11 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-b"
-    ],
-    "seoTitle": "Boca Juniors Cali e Union Magdalena ficam no 0 a 0 pelo Primera B",
-    "seoDescription": "Boca Juniors Cali e Union Magdalena empataram por 0 a 0 pelo Primera B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T00:41:56.136Z",
-    "createdAt": "2026-08-12T00:41:56.136Z",
-    "updatedAt": "2026-08-12T00:41:56.136Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732179",
-      "eventStartTime": "2026-08-12T00:45:00+00:00",
-      "retrievedAt": "2026-08-12T00:41:56.136Z",
-      "feedId": "futebol",
-      "league": "Primera B"
     },
     "articleFormat": "result-brief"
   }
