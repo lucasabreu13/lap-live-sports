@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-d6cd56830851",
+    "slug": "iga-swiatek-vence-elena-rybakina-por-2-a-0-em-toronto-d6cd56",
+    "sportId": "tenis",
+    "title": "Iga Swiatek vence Elena Rybakina por 2 a 0 em Toronto",
+    "summary": "Iga Swiatek superou Elena Rybakina por 2 a 0 em Toronto.",
+    "content": "Iga Swiatek superou Elena Rybakina por 2 a 0 em Toronto., em 13 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "toronto"
+    ],
+    "seoTitle": "Iga Swiatek vence Elena Rybakina por 2 a 0 em Toronto",
+    "seoDescription": "Iga Swiatek superou Elena Rybakina por 2 a 0 em Toronto.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T08:55:18.503Z",
+    "createdAt": "2026-08-15T08:55:18.503Z",
+    "updatedAt": "2026-08-15T08:55:18.503Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811811",
+      "eventStartTime": "2026-08-13T22:10:42+00:00",
+      "retrievedAt": "2026-08-15T08:55:18.503Z",
+      "feedId": "tenis",
+      "league": "Toronto"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e5ecb329edcd",
+    "slug": "sporting-w-supera-alajuelense-w-por-2-a-0-pelo-primera-division-women-e5ecb3",
+    "sportId": "futebol",
+    "title": "Sporting (W) supera Alajuelense (W) por 2 a 0 pelo Primera Division Women",
+    "summary": "Sporting (W) venceu Alajuelense (W) por 2 a 0 pelo Primera Division Women.",
+    "content": "Sporting (W) venceu Alajuelense (W) por 2 a 0 pelo Primera Division Women, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-division-women"
+    ],
+    "seoTitle": "Sporting (W) supera Alajuelense (W) por 2 a 0 pelo Primera Division",
+    "seoDescription": "Sporting (W) venceu Alajuelense (W) por 2 a 0 pelo Primera Division Women.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T08:55:18.467Z",
+    "createdAt": "2026-08-15T08:55:18.467Z",
+    "updatedAt": "2026-08-15T08:55:18.467Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809606",
+      "eventStartTime": "2026-08-15T02:00:00+00:00",
+      "retrievedAt": "2026-08-15T08:55:18.467Z",
+      "feedId": "futebol",
+      "league": "Primera Division Women"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-b16fe046e71e",
     "slug": "alex-michelsen-vence-jesper-de-jong-por-2-a-0-em-cincinnati-b16fe0",
     "sportId": "tenis",
@@ -12522,90 +12606,6 @@
       "eventId": "761707",
       "eventStartTime": "2026-08-02T01:30Z",
       "retrievedAt": "2026-08-02T10:58:05.130Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a609fda4daf0",
-    "slug": "fc-cincinnati-supera-san-jose-earthquakes-por-4-a-2-pelo-mls-a609fd",
-    "sportId": "futebol",
-    "title": "FC Cincinnati supera San Jose Earthquakes por 4 a 2 pela MLS",
-    "summary": "FC Cincinnati venceu San Jose Earthquakes por 4 a 2 pela MLS.",
-    "content": "FC Cincinnati venceu San Jose Earthquakes por 4 a 2 pela MLS, em 01 de agosto de 2026 no TQL Stadium.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "FC Cincinnati supera San Jose Earthquakes por 4 a 2 pela MLS",
-    "seoDescription": "FC Cincinnati venceu San Jose Earthquakes por 4 a 2 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-02T09:28:44.793Z",
-    "createdAt": "2026-08-02T09:28:44.793Z",
-    "updatedAt": "2026-08-02T09:28:44.793Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761700",
-      "eventStartTime": "2026-08-02T01:46Z",
-      "retrievedAt": "2026-08-02T09:28:44.793Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3ab0738ec764",
-    "slug": "portland-timbers-supera-seattle-sounders-fc-por-2-a-1-pelo-mls-3ab073",
-    "sportId": "futebol",
-    "title": "Portland Timbers supera Seattle Sounders FC por 2 a 1 pela MLS",
-    "summary": "Portland Timbers venceu Seattle Sounders FC por 2 a 1 pela MLS.",
-    "content": "Portland Timbers venceu Seattle Sounders FC por 2 a 1 pela MLS, em 01 de agosto de 2026 no Providence Park.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Portland Timbers supera Seattle Sounders FC por 2 a 1 pela MLS",
-    "seoDescription": "Portland Timbers venceu Seattle Sounders FC por 2 a 1 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-02T07:15:25.270Z",
-    "createdAt": "2026-08-02T07:15:25.270Z",
-    "updatedAt": "2026-08-02T07:15:25.270Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761708",
-      "eventStartTime": "2026-08-02T02:45Z",
-      "retrievedAt": "2026-08-02T07:15:25.270Z",
       "feedId": "futebol",
       "league": "MLS"
     },
