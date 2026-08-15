@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-4a6abf3ab1f7",
+    "slug": "terence-atmane-vence-tomas-etcheverry-por-2-a-0-em-cincinnati-4a6abf",
+    "sportId": "tenis",
+    "title": "Terence Atmane vence Tomas Etcheverry por 2 a 0 em Cincinnati",
+    "summary": "Terence Atmane superou Tomas Etcheverry por 2 a 0 em Cincinnati.",
+    "content": "Terence Atmane superou Tomas Etcheverry por 2 a 0 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Terence Atmane vence Tomas Etcheverry por 2 a 0 em Cincinnati",
+    "seoDescription": "Terence Atmane superou Tomas Etcheverry por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T22:55:48.133Z",
+    "createdAt": "2026-08-15T22:55:48.133Z",
+    "updatedAt": "2026-08-15T22:55:48.133Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813627",
+      "eventStartTime": "2026-08-15T21:00:21+00:00",
+      "retrievedAt": "2026-08-15T22:55:48.133Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2a6a04d741bc",
+    "slug": "cd-universitario-ii-e-club-deportivo-bocas-fc-ficam-no-2-a-2-pela-liga-prom-2a6a04",
+    "sportId": "futebol",
+    "title": "Cd Universitario Ii e Club Deportivo Bocas Fc ficam no 2 a 2 pela Liga Prom",
+    "summary": "Cd Universitario Ii e Club Deportivo Bocas Fc empataram por 2 a 2 pela Liga Prom.",
+    "content": "Cd Universitario Ii e Club Deportivo Bocas Fc empataram por 2 a 2 pela Liga Prom, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-prom"
+    ],
+    "seoTitle": "Cd Universitario Ii e Club Deportivo Bocas Fc ficam no 2 a 2 pela Liga",
+    "seoDescription": "Cd Universitario Ii e Club Deportivo Bocas Fc empataram por 2 a 2 pela Liga Prom.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T22:55:48.109Z",
+    "createdAt": "2026-08-15T22:55:48.109Z",
+    "updatedAt": "2026-08-15T22:55:48.109Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4778506",
+      "eventStartTime": "2026-08-15T21:00:00+00:00",
+      "retrievedAt": "2026-08-15T22:55:48.109Z",
+      "feedId": "futebol",
+      "league": "Liga Prom"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-92e7603e8d35",
     "slug": "jessica-pegula-vence-simona-waltert-por-2-a-0-em-cincinnati-92e760",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-12T12:50:09.285Z",
       "feedId": "tenis",
       "league": "Hamburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e6fa9cfad57d",
-    "slug": "lagomar-vence-sayago-por-78-a-68-em-liga-de-ascenso-e6fa9c",
-    "sportId": "basquete",
-    "title": "Lagomar vence Sayago por 78 a 68 em Liga de ascenso",
-    "summary": "Lagomar superou Sayago por 78 a 68 em Liga de ascenso.",
-    "content": "Lagomar superou Sayago por 78 a 68 em Liga de ascenso., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "Lagomar vence Sayago por 78 a 68 em Liga de ascenso",
-    "seoDescription": "Lagomar superou Sayago por 78 a 68 em Liga de ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T12:50:09.282Z",
-    "createdAt": "2026-08-12T12:50:09.282Z",
-    "updatedAt": "2026-08-12T12:50:09.282Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4802138",
-      "eventStartTime": "2026-08-11T23:15:00+00:00",
-      "retrievedAt": "2026-08-12T12:50:09.282Z",
-      "feedId": "basquete",
-      "league": "Liga de ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6b64b57373b5",
-    "slug": "san-sebastian-de-los-reyes-e-rayo-vallecano-ficam-no-0-a-0-pelo-club-friendlies-6b64b5",
-    "sportId": "futebol",
-    "title": "San Sebastian De Los Reyes e Rayo Vallecano ficam no 0 a 0 pelo Club Friendlies",
-    "summary": "San Sebastian De Los Reyes e Rayo Vallecano empataram por 0 a 0 pelo Club Friendlies.",
-    "content": "San Sebastian De Los Reyes e Rayo Vallecano empataram por 0 a 0 pelo Club Friendlies, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "San Sebastian De Los Reyes e Rayo Vallecano ficam no 0 a 0 pelo Club",
-    "seoDescription": "San Sebastian De Los Reyes e Rayo Vallecano empataram por 0 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T12:50:09.273Z",
-    "createdAt": "2026-08-12T12:50:09.273Z",
-    "updatedAt": "2026-08-12T12:50:09.273Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4804975",
-      "eventStartTime": "2026-08-12T11:00:00+00:00",
-      "retrievedAt": "2026-08-12T12:50:09.273Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
     },
     "articleFormat": "result-brief"
   }
