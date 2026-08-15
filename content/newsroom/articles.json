@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-186835c98394",
+    "slug": "samsung-lions-vence-hanwha-eagles-por-8-a-5-na-kbo-186835",
+    "sportId": "beisebol",
+    "title": "Samsung Lions vence Hanwha Eagles por 8 a 5 na KBO",
+    "summary": "Samsung Lions derrotou Hanwha Eagles por 8 a 5 na KBO.",
+    "content": "Samsung Lions derrotou Hanwha Eagles por 8 a 5 na KBO, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "kbo"
+    ],
+    "seoTitle": "Samsung Lions vence Hanwha Eagles por 8 a 5 na KBO",
+    "seoDescription": "Samsung Lions derrotou Hanwha Eagles por 8 a 5 na KBO.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T12:15:42.042Z",
+    "createdAt": "2026-08-15T12:15:42.042Z",
+    "updatedAt": "2026-08-15T12:15:42.042Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813615",
+      "eventStartTime": "2026-08-14T10:00:00+00:00",
+      "retrievedAt": "2026-08-15T12:15:42.042Z",
+      "feedId": "beisebol",
+      "league": "KBO"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3a527de19821",
+    "slug": "anna-blinkova-vence-mananchaya-sawangkaew-por-2-a-1-em-cincinnati-3a527d",
+    "sportId": "tenis",
+    "title": "Anna Blinkova vence Mananchaya Sawangkaew por 2 a 1 em Cincinnati",
+    "summary": "Anna Blinkova superou Mananchaya Sawangkaew por 2 a 1 em Cincinnati.",
+    "content": "Anna Blinkova superou Mananchaya Sawangkaew por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Anna Blinkova vence Mananchaya Sawangkaew por 2 a 1 em Cincinnati",
+    "seoDescription": "Anna Blinkova superou Mananchaya Sawangkaew por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T12:15:42.017Z",
+    "createdAt": "2026-08-15T12:15:42.017Z",
+    "updatedAt": "2026-08-15T12:15:42.017Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813447",
+      "eventStartTime": "2026-08-14T16:34:36+00:00",
+      "retrievedAt": "2026-08-15T12:15:42.017Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-fa0efc31841a",
+    "slug": "yanbian-longding-supera-dalian-k-un-city-por-3-a-1-pelo-league-one-fa0efc",
+    "sportId": "futebol",
+    "title": "Yanbian Longding supera Dalian K'un City por 3 a 1 pelo League One",
+    "summary": "Yanbian Longding venceu Dalian K'un City por 3 a 1 pelo League One.",
+    "content": "Yanbian Longding venceu Dalian K'un City por 3 a 1 pelo League One, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "league-one"
+    ],
+    "seoTitle": "Yanbian Longding supera Dalian K'un City por 3 a 1 pelo League One",
+    "seoDescription": "Yanbian Longding venceu Dalian K'un City por 3 a 1 pelo League One.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T12:15:41.961Z",
+    "createdAt": "2026-08-15T12:15:41.961Z",
+    "updatedAt": "2026-08-15T12:15:41.961Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4680076",
+      "eventStartTime": "2026-08-15T10:00:00+00:00",
+      "retrievedAt": "2026-08-15T12:15:41.961Z",
+      "feedId": "futebol",
+      "league": "League One"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ed3914b8dc0a",
     "slug": "kt-wiz-suwon-vence-kiwoom-heroes-por-8-a-3-na-kbo-ed3914",
     "sportId": "beisebol",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-11T16:32:11.742Z",
       "feedId": "beisebol",
       "league": "KBO"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3b6314c53598",
-    "slug": "max-houkes-vence-sumit-nagal-por-2-a-0-em-hamburg-3b6314",
-    "sportId": "tenis",
-    "title": "Max Houkes vence Sumit Nagal por 2 a 0 em Hamburg",
-    "summary": "Max Houkes superou Sumit Nagal por 2 a 0 em Hamburg.",
-    "content": "Max Houkes superou Sumit Nagal por 2 a 0 em Hamburg., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "hamburg"
-    ],
-    "seoTitle": "Max Houkes vence Sumit Nagal por 2 a 0 em Hamburg",
-    "seoDescription": "Max Houkes superou Sumit Nagal por 2 a 0 em Hamburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T16:32:11.741Z",
-    "createdAt": "2026-08-11T16:32:11.741Z",
-    "updatedAt": "2026-08-11T16:32:11.741Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807275",
-      "eventStartTime": "2026-08-11T14:39:35+00:00",
-      "retrievedAt": "2026-08-11T16:32:11.741Z",
-      "feedId": "tenis",
-      "league": "Hamburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a0d557535258",
-    "slug": "dorados-de-chihuahua-vence-gambusinos-de-fresnillo-por-89-a-81-em-lnbp-a0d557",
-    "sportId": "basquete",
-    "title": "Dorados De Chihuahua vence Gambusinos De Fresnillo por 89 a 81 em LNBP",
-    "summary": "Dorados De Chihuahua superou Gambusinos De Fresnillo por 89 a 81 em LNBP.",
-    "content": "Dorados De Chihuahua superou Gambusinos De Fresnillo por 89 a 81 em LNBP., em 10 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnbp"
-    ],
-    "seoTitle": "Dorados De Chihuahua vence Gambusinos De Fresnillo por 89 a 81 em LNBP",
-    "seoDescription": "Dorados De Chihuahua superou Gambusinos De Fresnillo por 89 a 81 em LNBP.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T16:32:11.737Z",
-    "createdAt": "2026-08-11T16:32:11.737Z",
-    "updatedAt": "2026-08-11T16:32:11.737Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4707855",
-      "eventStartTime": "2026-08-11T02:00:00+00:00",
-      "retrievedAt": "2026-08-11T16:32:11.737Z",
-      "feedId": "basquete",
-      "league": "LNBP"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f216dcb580b6",
-    "slug": "dynamo-spb-supera-fc-10-por-2-a-1-pelo-cup-f216dc",
-    "sportId": "futebol",
-    "title": "Dynamo SPB supera FC 10 por 2 a 1 pelo Cup",
-    "summary": "Dynamo SPB venceu FC 10 por 2 a 1 pelo Cup.",
-    "content": "Dynamo SPB venceu FC 10 por 2 a 1 pelo Cup, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "cup"
-    ],
-    "seoTitle": "Dynamo SPB supera FC 10 por 2 a 1 pelo Cup",
-    "seoDescription": "Dynamo SPB venceu FC 10 por 2 a 1 pelo Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T16:32:11.729Z",
-    "createdAt": "2026-08-11T16:32:11.729Z",
-    "updatedAt": "2026-08-11T16:32:11.729Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4800342",
-      "eventStartTime": "2026-08-11T14:00:00+00:00",
-      "retrievedAt": "2026-08-11T16:32:11.729Z",
-      "feedId": "futebol",
-      "league": "Cup"
     },
     "articleFormat": "result-brief"
   }
