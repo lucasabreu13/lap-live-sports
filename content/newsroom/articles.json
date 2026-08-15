@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-ae927eaddf07",
+    "slug": "stefanos-tsitsipas-vence-valentin-royer-por-2-a-0-em-cincinnati-ae927e",
+    "sportId": "tenis",
+    "title": "Stefanos Tsitsipas vence Valentin Royer por 2 a 0 em Cincinnati",
+    "summary": "Stefanos Tsitsipas superou Valentin Royer por 2 a 0 em Cincinnati.",
+    "content": "Stefanos Tsitsipas superou Valentin Royer por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Stefanos Tsitsipas vence Valentin Royer por 2 a 0 em Cincinnati",
+    "seoDescription": "Stefanos Tsitsipas superou Valentin Royer por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T13:05:01.985Z",
+    "createdAt": "2026-08-15T13:05:01.985Z",
+    "updatedAt": "2026-08-15T13:05:01.985Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809638",
+      "eventStartTime": "2026-08-14T15:18:59+00:00",
+      "retrievedAt": "2026-08-15T13:05:01.985Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5d6029b2e7eb",
+    "slug": "sha-ab-hadramaut-e-mukallah-fc-ficam-no-0-a-0-pelo-yemeni-league-5d6029",
+    "sportId": "futebol",
+    "title": "Sha'ab Hadramaut e Mukallah FC ficam no 0 a 0 pelo Yemeni League",
+    "summary": "Sha'ab Hadramaut e Mukallah FC empataram por 0 a 0 pelo Yemeni League.",
+    "content": "Sha'ab Hadramaut e Mukallah FC empataram por 0 a 0 pelo Yemeni League, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "yemeni-league"
+    ],
+    "seoTitle": "Sha'ab Hadramaut e Mukallah FC ficam no 0 a 0 pelo Yemeni League",
+    "seoDescription": "Sha'ab Hadramaut e Mukallah FC empataram por 0 a 0 pelo Yemeni League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T13:05:01.924Z",
+    "createdAt": "2026-08-15T13:05:01.924Z",
+    "updatedAt": "2026-08-15T13:05:01.924Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4742988",
+      "eventStartTime": "2026-08-15T13:00:00+00:00",
+      "retrievedAt": "2026-08-15T13:05:01.924Z",
+      "feedId": "futebol",
+      "league": "Yemeni League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-186835c98394",
     "slug": "samsung-lions-vence-hanwha-eagles-por-8-a-5-na-kbo-186835",
     "sportId": "beisebol",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-11T17:37:23.193Z",
       "feedId": "basquete",
       "league": "LNBP"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7413985a553e",
-    "slug": "vfb-lubeck-e-vfb-oldenburg-ficam-no-0-a-0-pela-regionalliga-741398",
-    "sportId": "futebol",
-    "title": "VfB Lübeck e VFB Oldenburg ficam no 0 a 0 pela Regionalliga",
-    "summary": "VfB Lübeck e VFB Oldenburg empataram por 0 a 0 pela Regionalliga.",
-    "content": "VfB Lübeck e VFB Oldenburg empataram por 0 a 0 pela Regionalliga, em 11 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "regionalliga"
-    ],
-    "seoTitle": "VfB Lübeck e VFB Oldenburg ficam no 0 a 0 pela Regionalliga",
-    "seoDescription": "VfB Lübeck e VFB Oldenburg empataram por 0 a 0 pela Regionalliga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T17:37:23.185Z",
-    "createdAt": "2026-08-11T17:37:23.185Z",
-    "updatedAt": "2026-08-11T17:37:23.185Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4762826",
-      "eventStartTime": "2026-08-11T17:00:00+00:00",
-      "retrievedAt": "2026-08-11T17:37:23.185Z",
-      "feedId": "futebol",
-      "league": "Regionalliga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-bf578a55f8bf",
-    "slug": "ssg-landers-vence-lotte-giants-por-8-a-4-na-kbo-bf578a",
-    "sportId": "beisebol",
-    "title": "SSG Landers vence Lotte Giants por 8 a 4 na KBO",
-    "summary": "SSG Landers derrotou Lotte Giants por 8 a 4 na KBO.",
-    "content": "SSG Landers derrotou Lotte Giants por 8 a 4 na KBO, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "kbo"
-    ],
-    "seoTitle": "SSG Landers vence Lotte Giants por 8 a 4 na KBO",
-    "seoDescription": "SSG Landers derrotou Lotte Giants por 8 a 4 na KBO.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T16:32:11.742Z",
-    "createdAt": "2026-08-11T16:32:11.742Z",
-    "updatedAt": "2026-08-11T16:32:11.742Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808382",
-      "eventStartTime": "2026-08-11T10:00:00+00:00",
-      "retrievedAt": "2026-08-11T16:32:11.742Z",
-      "feedId": "beisebol",
-      "league": "KBO"
     },
     "articleFormat": "result-brief"
   }
