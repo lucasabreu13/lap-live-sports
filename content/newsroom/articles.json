@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-d8cd92ff9321",
+    "slug": "alejandro-tabilo-vence-jan-lennard-struff-por-2-a-0-em-cincinnati-d8cd92",
+    "sportId": "tenis",
+    "title": "Alejandro Tabilo vence Jan-Lennard Struff por 2 a 0 em Cincinnati",
+    "summary": "Alejandro Tabilo superou Jan-Lennard Struff por 2 a 0 em Cincinnati.",
+    "content": "Alejandro Tabilo superou Jan-Lennard Struff por 2 a 0 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Alejandro Tabilo vence Jan-Lennard Struff por 2 a 0 em Cincinnati",
+    "seoDescription": "Alejandro Tabilo superou Jan-Lennard Struff por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T20:57:18.459Z",
+    "createdAt": "2026-08-15T20:57:18.459Z",
+    "updatedAt": "2026-08-15T20:57:18.459Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813641",
+      "eventStartTime": "2026-08-15T19:23:25+00:00",
+      "retrievedAt": "2026-08-15T20:57:18.459Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1b38b723225d",
+    "slug": "minnesota-vikings-vence-new-york-giants-por-13-a-10-em-nfl-1b38b7",
+    "sportId": "futebol-americano",
+    "title": "Minnesota Vikings vence New York Giants por 13 a 10 em NFL",
+    "summary": "Minnesota Vikings superou New York Giants por 13 a 10 em NFL.",
+    "content": "Minnesota Vikings superou New York Giants por 13 a 10 em NFL., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Minnesota Vikings vence New York Giants por 13 a 10 em NFL",
+    "seoDescription": "Minnesota Vikings superou New York Giants por 13 a 10 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T20:57:18.444Z",
+    "createdAt": "2026-08-15T20:57:18.444Z",
+    "updatedAt": "2026-08-15T20:57:18.444Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714910",
+      "eventStartTime": "2026-08-15T17:00:00+00:00",
+      "retrievedAt": "2026-08-15T20:57:18.444Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1430caa65204",
+    "slug": "atletico-fc-e-real-cartagena-ficam-no-0-a-0-pelo-primera-b-1430ca",
+    "sportId": "futebol",
+    "title": "Atlético FC e Real Cartagena ficam no 0 a 0 pelo Primera B",
+    "summary": "Atlético FC e Real Cartagena empataram por 0 a 0 pelo Primera B.",
+    "content": "Atlético FC e Real Cartagena empataram por 0 a 0 pelo Primera B, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-b"
+    ],
+    "seoTitle": "Atlético FC e Real Cartagena ficam no 0 a 0 pelo Primera B",
+    "seoDescription": "Atlético FC e Real Cartagena empataram por 0 a 0 pelo Primera B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T20:57:18.439Z",
+    "createdAt": "2026-08-15T20:57:18.439Z",
+    "updatedAt": "2026-08-15T20:57:18.439Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4732175",
+      "eventStartTime": "2026-08-15T21:00:00+00:00",
+      "retrievedAt": "2026-08-15T20:57:18.439Z",
+      "feedId": "futebol",
+      "league": "Primera B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-b2a486d80b4b",
     "slug": "linda-noskova-vence-katie-boulter-por-2-a-0-em-cincinnati-b2a486",
     "sportId": "tenis",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-12T10:04:27.955Z",
       "feedId": "basquete",
       "league": "WNBA"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1137a403ee5e",
-    "slug": "cartagena-supera-orihuela-por-3-a-0-pelo-club-friendlies-1137a4",
-    "sportId": "futebol",
-    "title": "Cartagena supera Orihuela por 3 a 0 pelo Club Friendlies",
-    "summary": "Cartagena venceu Orihuela por 3 a 0 pelo Club Friendlies.",
-    "content": "Cartagena venceu Orihuela por 3 a 0 pelo Club Friendlies, em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Cartagena supera Orihuela por 3 a 0 pelo Club Friendlies",
-    "seoDescription": "Cartagena venceu Orihuela por 3 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T10:04:27.951Z",
-    "createdAt": "2026-08-12T10:04:27.951Z",
-    "updatedAt": "2026-08-12T10:04:27.951Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4804974",
-      "eventStartTime": "2026-08-12T08:00:00+00:00",
-      "retrievedAt": "2026-08-12T10:04:27.951Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-cd59edb9f91f",
-    "slug": "colorado-rockies-vence-arizona-diamondbacks-por-3-a-2-na-mlb-cd59ed",
-    "sportId": "beisebol",
-    "title": "Colorado Rockies vence Arizona Diamondbacks por 3 a 2 na MLB",
-    "summary": "Colorado Rockies derrotou Arizona Diamondbacks por 3 a 2 na MLB.",
-    "content": "Colorado Rockies derrotou Arizona Diamondbacks por 3 a 2 na MLB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Colorado Rockies vence Arizona Diamondbacks por 3 a 2 na MLB",
-    "seoDescription": "Colorado Rockies derrotou Arizona Diamondbacks por 3 a 2 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T08:59:31.109Z",
-    "createdAt": "2026-08-12T08:59:31.109Z",
-    "updatedAt": "2026-08-12T08:59:31.109Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602897",
-      "eventStartTime": "2026-08-12T01:40:00+00:00",
-      "retrievedAt": "2026-08-12T08:59:31.109Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e1992d8853d1",
-    "slug": "khumoyun-sultanov-vence-lucio-ratti-por-2-a-0-em-astana-e1992d",
-    "sportId": "tenis",
-    "title": "Khumoyun Sultanov vence Lucio Ratti por 2 a 0 em Astana",
-    "summary": "Khumoyun Sultanov superou Lucio Ratti por 2 a 0 em Astana.",
-    "content": "Khumoyun Sultanov superou Lucio Ratti por 2 a 0 em Astana., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "astana"
-    ],
-    "seoTitle": "Khumoyun Sultanov vence Lucio Ratti por 2 a 0 em Astana",
-    "seoDescription": "Khumoyun Sultanov superou Lucio Ratti por 2 a 0 em Astana.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T08:59:31.106Z",
-    "createdAt": "2026-08-12T08:59:31.106Z",
-    "updatedAt": "2026-08-12T08:59:31.106Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808399",
-      "eventStartTime": "2026-08-12T06:07:53+00:00",
-      "retrievedAt": "2026-08-12T08:59:31.106Z",
-      "feedId": "tenis",
-      "league": "Astana"
     },
     "articleFormat": "result-brief"
   }
