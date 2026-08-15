@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-a1bae2fd4907",
+    "slug": "thiago-agustin-tirante-vence-novak-djokovic-por-2-a-1-em-cincinnati-a1bae2",
+    "sportId": "tenis",
+    "title": "Thiago Agustin Tirante vence Novak Djokovic por 2 a 1 em Cincinnati",
+    "summary": "Thiago Agustin Tirante superou Novak Djokovic por 2 a 1 em Cincinnati.",
+    "content": "Thiago Agustin Tirante superou Novak Djokovic por 2 a 1 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Thiago Agustin Tirante vence Novak Djokovic por 2 a 1 em Cincinnati",
+    "seoDescription": "Thiago Agustin Tirante superou Novak Djokovic por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T21:35:44.218Z",
+    "createdAt": "2026-08-15T21:35:44.218Z",
+    "updatedAt": "2026-08-15T21:35:44.218Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813642",
+      "eventStartTime": "2026-08-15T18:15:52+00:00",
+      "retrievedAt": "2026-08-15T21:35:44.218Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ffc6b8ee7080",
+    "slug": "organica-masachapa-e-deportivo-el-cua-ficam-no-0-a-0-pela-liga-de-ascenso-ffc6b8",
+    "sportId": "futebol",
+    "title": "Orgánica Masachapa e Deportivo El Cuá ficam no 0 a 0 pela Liga de Ascenso",
+    "summary": "Orgánica Masachapa e Deportivo El Cuá empataram por 0 a 0 pela Liga de Ascenso.",
+    "content": "Orgánica Masachapa e Deportivo El Cuá empataram por 0 a 0 pela Liga de Ascenso, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Orgánica Masachapa e Deportivo El Cuá ficam no 0 a 0 pela Liga de",
+    "seoDescription": "Orgánica Masachapa e Deportivo El Cuá empataram por 0 a 0 pela Liga de Ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T21:35:44.192Z",
+    "createdAt": "2026-08-15T21:35:44.192Z",
+    "updatedAt": "2026-08-15T21:35:44.192Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811370",
+      "eventStartTime": "2026-08-15T21:00:00+00:00",
+      "retrievedAt": "2026-08-15T21:35:44.192Z",
+      "feedId": "futebol",
+      "league": "Liga de Ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-75d9fe06e328",
     "slug": "magdalena-frech-vence-jelena-ostapenko-por-2-a-0-em-cincinnati-75d9fe",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-12T11:09:21.049Z",
       "feedId": "basquete",
       "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6c3f981d910a",
-    "slug": "sevilla-atletico-e-merida-ficam-no-0-a-0-pelo-club-friendlies-6c3f98",
-    "sportId": "futebol",
-    "title": "Sevilla Atletico e Merida ficam no 0 a 0 pelo Club Friendlies",
-    "summary": "Sevilla Atletico e Merida empataram por 0 a 0 pelo Club Friendlies.",
-    "content": "Sevilla Atletico e Merida empataram por 0 a 0 pelo Club Friendlies, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Sevilla Atletico e Merida ficam no 0 a 0 pelo Club Friendlies",
-    "seoDescription": "Sevilla Atletico e Merida empataram por 0 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T11:09:21.038Z",
-    "createdAt": "2026-08-12T11:09:21.038Z",
-    "updatedAt": "2026-08-12T11:09:21.038Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4804970",
-      "eventStartTime": "2026-08-12T08:30:00+00:00",
-      "retrievedAt": "2026-08-12T11:09:21.038Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-382e0a55e34c",
-    "slug": "tampa-bay-rays-vence-athletics-por-12-a-4-na-mlb-382e0a",
-    "sportId": "beisebol",
-    "title": "Tampa Bay Rays vence Athletics por 12 a 4 na MLB",
-    "summary": "Tampa Bay Rays derrotou Athletics por 12 a 4 na MLB.",
-    "content": "Tampa Bay Rays derrotou Athletics por 12 a 4 na MLB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Tampa Bay Rays vence Athletics por 12 a 4 na MLB",
-    "seoDescription": "Tampa Bay Rays derrotou Athletics por 12 a 4 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T10:04:27.962Z",
-    "createdAt": "2026-08-12T10:04:27.962Z",
-    "updatedAt": "2026-08-12T10:04:27.962Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602969",
-      "eventStartTime": "2026-08-12T01:40:00+00:00",
-      "retrievedAt": "2026-08-12T10:04:27.962Z",
-      "feedId": "beisebol",
-      "league": "MLB"
     },
     "articleFormat": "result-brief"
   }
