@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-600e47607af5",
+    "slug": "chiba-lotte-marines-vence-seibu-lions-por-5-a-1-na-npb-600e47",
+    "sportId": "beisebol",
+    "title": "Chiba Lotte Marines vence Seibu Lions por 5 a 1 na NPB",
+    "summary": "Chiba Lotte Marines derrotou Seibu Lions por 5 a 1 na NPB.",
+    "content": "Chiba Lotte Marines derrotou Seibu Lions por 5 a 1 na NPB, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Chiba Lotte Marines vence Seibu Lions por 5 a 1 na NPB",
+    "seoDescription": "Chiba Lotte Marines derrotou Seibu Lions por 5 a 1 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T15:56:00.311Z",
+    "createdAt": "2026-08-15T15:56:00.311Z",
+    "updatedAt": "2026-08-15T15:56:00.311Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626854",
+      "eventStartTime": "2026-08-15T08:00:00+00:00",
+      "retrievedAt": "2026-08-15T15:56:00.311Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-244a541b5a27",
+    "slug": "lyn-oslo-supera-odd-bk-por-5-a-1-pela-obos-ligaen-244a54",
+    "sportId": "futebol",
+    "title": "Lyn Oslo supera Odd BK por 5 a 1 pela OBOS ligaen",
+    "summary": "Lyn Oslo venceu Odd BK por 5 a 1 pela OBOS ligaen.",
+    "content": "Lyn Oslo venceu Odd BK por 5 a 1 pela OBOS ligaen, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "obos-ligaen"
+    ],
+    "seoTitle": "Lyn Oslo supera Odd BK por 5 a 1 pela OBOS ligaen",
+    "seoDescription": "Lyn Oslo venceu Odd BK por 5 a 1 pela OBOS ligaen.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T15:56:00.283Z",
+    "createdAt": "2026-08-15T15:56:00.283Z",
+    "updatedAt": "2026-08-15T15:56:00.283Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4637171",
+      "eventStartTime": "2026-08-15T14:00:00+00:00",
+      "retrievedAt": "2026-08-15T15:56:00.283Z",
+      "feedId": "futebol",
+      "league": "OBOS-ligaen"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-48c1f8f557e6",
     "slug": "hiroshima-toyo-carp-vence-hanshin-tigers-por-6-a-1-na-npb-48c1f8",
     "sportId": "beisebol",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-11T22:01:58.432Z",
       "feedId": "tenis",
       "league": "Toronto"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-68e03fe79ae4",
-    "slug": "verdirrojo-bbc-vence-trouville-por-72-a-69-em-liga-de-ascenso-68e03f",
-    "sportId": "basquete",
-    "title": "Verdirrojo Bbc vence Trouville por 72 a 69 em Liga de ascenso",
-    "summary": "Verdirrojo Bbc superou Trouville por 72 a 69 em Liga de ascenso.",
-    "content": "Verdirrojo Bbc superou Trouville por 72 a 69 em Liga de ascenso., em 10 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "Verdirrojo Bbc vence Trouville por 72 a 69 em Liga de ascenso",
-    "seoDescription": "Verdirrojo Bbc superou Trouville por 72 a 69 em Liga de ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T22:01:58.431Z",
-    "createdAt": "2026-08-11T22:01:58.431Z",
-    "updatedAt": "2026-08-11T22:01:58.431Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4802133",
-      "eventStartTime": "2026-08-10T23:15:00+00:00",
-      "retrievedAt": "2026-08-11T22:01:58.431Z",
-      "feedId": "basquete",
-      "league": "Liga de ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-600b427336f6",
-    "slug": "independiente-medellin-w-e-america-de-cali-w-ficam-no-0-a-0-pelo-colombian-women-s-600b42",
-    "sportId": "futebol",
-    "title": "Independiente Medellín (W) e America De Cali (W) ficam no 0 a 0 pelo Colombian Women's League",
-    "summary": "Independiente Medellín (W) e America De Cali (W) empataram por 0 a 0 pelo Colombian Women's League.",
-    "content": "Independiente Medellín (W) e America De Cali (W) empataram por 0 a 0 pelo Colombian Women's League, em 11 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "colombian-women-s-league"
-    ],
-    "seoTitle": "Independiente Medellín (W) e America De Cali (W) ficam no 0 a 0 pelo",
-    "seoDescription": "Independiente Medellín (W) e America De Cali (W) empataram por 0 a 0 pelo Colombian Women's League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T22:01:58.422Z",
-    "createdAt": "2026-08-11T22:01:58.422Z",
-    "updatedAt": "2026-08-11T22:01:58.422Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807647",
-      "eventStartTime": "2026-08-11T22:00:00+00:00",
-      "retrievedAt": "2026-08-11T22:01:58.422Z",
-      "feedId": "futebol",
-      "league": "Colombian Women's League"
     },
     "articleFormat": "result-brief"
   }
