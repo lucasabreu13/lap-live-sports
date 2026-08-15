@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-fda5761b10de",
+    "slug": "botic-van-de-zandschulp-vence-alexander-shevchenko-por-2-a-0-em-cincinnati-fda576",
+    "sportId": "tenis",
+    "title": "Botic Van De Zandschulp vence Alexander Shevchenko por 2 a 0 em Cincinnati",
+    "summary": "Botic Van De Zandschulp superou Alexander Shevchenko por 2 a 0 em Cincinnati.",
+    "content": "Botic Van De Zandschulp superou Alexander Shevchenko por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Botic Van De Zandschulp vence Alexander Shevchenko por 2 a 0 em",
+    "seoDescription": "Botic Van De Zandschulp superou Alexander Shevchenko por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T09:15:22.345Z",
+    "createdAt": "2026-08-15T09:15:22.345Z",
+    "updatedAt": "2026-08-15T09:15:22.345Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814938",
+      "eventStartTime": "2026-08-14T18:43:26+00:00",
+      "retrievedAt": "2026-08-15T09:15:22.345Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9c1a448a8c6b",
+    "slug": "san-francisco-fc-supera-independiente-por-2-a-1-pelo-lpf-9c1a44",
+    "sportId": "futebol",
+    "title": "San Francisco FC supera Independiente por 2 a 1 pelo Lpf",
+    "summary": "San Francisco FC venceu Independiente por 2 a 1 pelo Lpf.",
+    "content": "San Francisco FC venceu Independiente por 2 a 1 pelo Lpf, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "lpf"
+    ],
+    "seoTitle": "San Francisco FC supera Independiente por 2 a 1 pelo Lpf",
+    "seoDescription": "San Francisco FC venceu Independiente por 2 a 1 pelo Lpf.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T09:15:22.287Z",
+    "createdAt": "2026-08-15T09:15:22.287Z",
+    "updatedAt": "2026-08-15T09:15:22.287Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4773302",
+      "eventStartTime": "2026-08-15T01:30:00+00:00",
+      "retrievedAt": "2026-08-15T09:15:22.287Z",
+      "feedId": "futebol",
+      "league": "Lpf"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d6cd56830851",
     "slug": "iga-swiatek-vence-elena-rybakina-por-2-a-0-em-toronto-d6cd56",
     "sportId": "tenis",
@@ -12522,90 +12606,6 @@
       "eventId": "761703",
       "eventStartTime": "2026-08-02T00:30Z",
       "retrievedAt": "2026-08-02T13:22:25.153Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f5c7fb2ebc23",
-    "slug": "chicago-fire-fc-supera-charlotte-fc-por-2-a-1-pelo-mls-f5c7fb",
-    "sportId": "futebol",
-    "title": "Chicago Fire FC supera Charlotte FC por 2 a 1 pela MLS",
-    "summary": "Chicago Fire FC venceu Charlotte FC por 2 a 1 pela MLS.",
-    "content": "Chicago Fire FC venceu Charlotte FC por 2 a 1 pela MLS, em 01 de agosto de 2026 no Soldier Field.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Chicago Fire FC supera Charlotte FC por 2 a 1 pela MLS",
-    "seoDescription": "Chicago Fire FC venceu Charlotte FC por 2 a 1 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-02T11:59:33.162Z",
-    "createdAt": "2026-08-02T11:59:33.162Z",
-    "updatedAt": "2026-08-02T11:59:33.162Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761704",
-      "eventStartTime": "2026-08-02T00:30Z",
-      "retrievedAt": "2026-08-02T11:59:33.162Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0256f5d8a08f",
-    "slug": "colorado-rapids-supera-austin-fc-por-1-a-0-pelo-mls-0256f5",
-    "sportId": "futebol",
-    "title": "Colorado Rapids supera Austin FC por 1 a 0 pela MLS",
-    "summary": "Colorado Rapids venceu Austin FC por 1 a 0 pela MLS.",
-    "content": "Colorado Rapids venceu Austin FC por 1 a 0 pela MLS, em 01 de agosto de 2026 no Dick's Sporting Goods Park.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Colorado Rapids supera Austin FC por 1 a 0 pela MLS",
-    "seoDescription": "Colorado Rapids venceu Austin FC por 1 a 0 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-02T10:58:05.130Z",
-    "createdAt": "2026-08-02T10:58:05.130Z",
-    "updatedAt": "2026-08-02T10:58:05.130Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761707",
-      "eventStartTime": "2026-08-02T01:30Z",
-      "retrievedAt": "2026-08-02T10:58:05.130Z",
       "feedId": "futebol",
       "league": "MLS"
     },
