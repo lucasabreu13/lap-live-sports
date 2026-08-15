@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-6628f906fce3",
+    "slug": "pablo-carreno-busta-vence-tomas-machac-por-2-a-0-em-cincinnati-6628f9",
+    "sportId": "tenis",
+    "title": "Pablo Carreno-Busta vence Tomas Machac por 2 a 0 em Cincinnati",
+    "summary": "Pablo Carreno-Busta superou Tomas Machac por 2 a 0 em Cincinnati.",
+    "content": "Pablo Carreno-Busta superou Tomas Machac por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Pablo Carreno-Busta vence Tomas Machac por 2 a 0 em Cincinnati",
+    "seoDescription": "Pablo Carreno-Busta superou Tomas Machac por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T10:16:58.929Z",
+    "createdAt": "2026-08-15T10:16:58.929Z",
+    "updatedAt": "2026-08-15T10:16:58.929Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809632",
+      "eventStartTime": "2026-08-14T17:19:01+00:00",
+      "retrievedAt": "2026-08-15T10:16:58.929Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-57937c65bdf3",
+    "slug": "hansa-rostock-w-e-bochum-w-ficam-no-0-a-0-pelo-dfb-pokal-women-57937c",
+    "sportId": "futebol",
+    "title": "Hansa Rostock (W) e Bochum (W) ficam no 0 a 0 pelo DFB Pokal Women",
+    "summary": "Hansa Rostock (W) e Bochum (W) empataram por 0 a 0 pelo DFB Pokal Women.",
+    "content": "Hansa Rostock (W) e Bochum (W) empataram por 0 a 0 pelo DFB Pokal Women, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "dfb-pokal-women"
+    ],
+    "seoTitle": "Hansa Rostock (W) e Bochum (W) ficam no 0 a 0 pelo DFB Pokal Women",
+    "seoDescription": "Hansa Rostock (W) e Bochum (W) empataram por 0 a 0 pelo DFB Pokal Women.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T10:16:58.857Z",
+    "createdAt": "2026-08-15T10:16:58.857Z",
+    "updatedAt": "2026-08-15T10:16:58.857Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4748267",
+      "eventStartTime": "2026-08-15T09:00:00+00:00",
+      "retrievedAt": "2026-08-15T10:16:58.857Z",
+      "feedId": "futebol",
+      "league": "DFB Pokal Women"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3313ad8aca95",
     "slug": "talia-gibson-vence-lilli-tagger-por-2-a-1-em-cincinnati-3313ad",
     "sportId": "tenis",
@@ -12522,90 +12606,6 @@
       "eventId": "761702",
       "eventStartTime": "2026-08-01T23:30Z",
       "retrievedAt": "2026-08-02T19:52:32.182Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-de77dae92ec0",
-    "slug": "d-c-united-e-nashville-sc-ficam-no-2-a-2-pelo-mls-de77da",
-    "sportId": "futebol",
-    "title": "D.C. United e Nashville SC ficam no 2 a 2 pela MLS",
-    "summary": "D.C. United e Nashville SC empataram por 2 a 2 pela MLS.",
-    "content": "D.C. United e Nashville SC empataram por 2 a 2 pela MLS, em 01 de agosto de 2026 no Audi Field. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "D.C. United e Nashville SC ficam no 2 a 2 pela MLS",
-    "seoDescription": "D.C. United e Nashville SC empataram por 2 a 2 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-02T18:42:35.904Z",
-    "createdAt": "2026-08-02T18:42:35.904Z",
-    "updatedAt": "2026-08-02T18:42:35.904Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761699",
-      "eventStartTime": "2026-08-01T23:30Z",
-      "retrievedAt": "2026-08-02T18:42:35.904Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-cfc3bfe14092",
-    "slug": "cf-montreal-e-new-england-revolution-ficam-no-2-a-2-pelo-mls-cfc3bf",
-    "sportId": "futebol",
-    "title": "CF Montréal e New England Revolution ficam no 2 a 2 pela MLS",
-    "summary": "CF Montréal e New England Revolution empataram por 2 a 2 pela MLS.",
-    "content": "CF Montréal e New England Revolution empataram por 2 a 2 pela MLS, em 01 de agosto de 2026 no Stade Saputo. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "CF Montréal e New England Revolution ficam no 2 a 2 pela MLS",
-    "seoDescription": "CF Montréal e New England Revolution empataram por 2 a 2 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-02T17:45:14.350Z",
-    "createdAt": "2026-08-02T17:45:14.350Z",
-    "updatedAt": "2026-08-02T17:45:14.350Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761697",
-      "eventStartTime": "2026-08-01T23:30Z",
-      "retrievedAt": "2026-08-02T17:45:14.350Z",
       "feedId": "futebol",
       "league": "MLS"
     },
