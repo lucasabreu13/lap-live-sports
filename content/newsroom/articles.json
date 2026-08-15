@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-b09669eb6bac",
+    "slug": "escobar-g-kaliyanda-poonacha-n-vence-lammons-n-withrow-j-por-2-a-0-em-brownsburg-b09669",
+    "sportId": "tenis",
+    "title": "Escobar G./Kaliyanda Poonacha N. vence Lammons N./Withrow J. por 2 a 0 em Brownsburg",
+    "summary": "Escobar G./Kaliyanda Poonacha N. superou Lammons N./Withrow J. por 2 a 0 em Brownsburg.",
+    "content": "Escobar G./Kaliyanda Poonacha N. superou Lammons N./Withrow J. por 2 a 0 em Brownsburg., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "brownsburg"
+    ],
+    "seoTitle": "Escobar G./Kaliyanda Poonacha N. vence Lammons N./Withrow J. por 2 a 0",
+    "seoDescription": "Escobar G./Kaliyanda Poonacha N. superou Lammons N./Withrow J. por 2 a 0 em Brownsburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T03:02:44.748Z",
+    "createdAt": "2026-08-15T03:02:44.748Z",
+    "updatedAt": "2026-08-15T03:02:44.748Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815049",
+      "eventStartTime": "2026-08-15T01:38:34+00:00",
+      "retrievedAt": "2026-08-15T03:02:44.748Z",
+      "feedId": "tenis",
+      "league": "Brownsburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9952804af369",
+    "slug": "universidad-de-concepcion-vence-espanol-de-talca-por-103-a-80-em-lnb-995280",
+    "sportId": "basquete",
+    "title": "Universidad De Concepcion vence Espanol De Talca por 103 a 80 em LNB",
+    "summary": "Universidad De Concepcion superou Espanol De Talca por 103 a 80 em LNB.",
+    "content": "Universidad De Concepcion superou Espanol De Talca por 103 a 80 em LNB., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Universidad De Concepcion vence Espanol De Talca por 103 a 80 em LNB",
+    "seoDescription": "Universidad De Concepcion superou Espanol De Talca por 103 a 80 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T03:02:44.744Z",
+    "createdAt": "2026-08-15T03:02:44.744Z",
+    "updatedAt": "2026-08-15T03:02:44.744Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807265",
+      "eventStartTime": "2026-08-15T00:00:00+00:00",
+      "retrievedAt": "2026-08-15T03:02:44.744Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c074ac52beda",
+    "slug": "denver-broncos-vence-atlanta-falcons-por-27-a-7-em-nfl-c074ac",
+    "sportId": "futebol-americano",
+    "title": "Denver Broncos vence Atlanta Falcons por 27 a 7 em NFL",
+    "summary": "Denver Broncos superou Atlanta Falcons por 27 a 7 em NFL.",
+    "content": "Denver Broncos superou Atlanta Falcons por 27 a 7 em NFL., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Denver Broncos vence Atlanta Falcons por 27 a 7 em NFL",
+    "seoDescription": "Denver Broncos superou Atlanta Falcons por 27 a 7 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T03:02:44.741Z",
+    "createdAt": "2026-08-15T03:02:44.741Z",
+    "updatedAt": "2026-08-15T03:02:44.741Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714906",
+      "eventStartTime": "2026-08-14T23:00:00+00:00",
+      "retrievedAt": "2026-08-15T03:02:44.741Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9e9ed340be82",
+    "slug": "mineros-de-zacatecas-supera-venados-por-5-a-1-pela-liga-de-expansion-9e9ed3",
+    "sportId": "futebol",
+    "title": "Mineros De Zacatecas supera Venados por 5 a 1 pela Liga de Expansión",
+    "summary": "Mineros De Zacatecas venceu Venados por 5 a 1 pela Liga de Expansión.",
+    "content": "Mineros De Zacatecas venceu Venados por 5 a 1 pela Liga de Expansión, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-expansion"
+    ],
+    "seoTitle": "Mineros De Zacatecas supera Venados por 5 a 1 pela Liga de Expansión",
+    "seoDescription": "Mineros De Zacatecas venceu Venados por 5 a 1 pela Liga de Expansión.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T03:02:44.735Z",
+    "createdAt": "2026-08-15T03:02:44.735Z",
+    "updatedAt": "2026-08-15T03:02:44.735Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4761063",
+      "eventStartTime": "2026-08-15T01:00:00+00:00",
+      "retrievedAt": "2026-08-15T03:02:44.735Z",
+      "feedId": "futebol",
+      "league": "Liga de Expansión"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d6a584c31aca",
     "slug": "arizona-diamondbacks-vence-atlanta-braves-por-2-a-0-na-mlb-d6a584",
     "sportId": "beisebol",
@@ -12379,164 +12547,5 @@
       "league": "MLS"
     },
     "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e99ed5a6b1b9",
-    "slug": "san-jose-earthquakes-e-la-galaxy-ficam-no-1-a-1-pelo-mls-e99ed5",
-    "sportId": "futebol",
-    "title": "San Jose Earthquakes e LA Galaxy ficam no 1 a 1 pela MLS",
-    "summary": "San Jose Earthquakes e LA Galaxy empataram por 1 a 1 pela MLS.",
-    "content": "San Jose Earthquakes e LA Galaxy empataram por 1 a 1 pela MLS, em 25 de julho de 2026 no Stanford Stadium. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "San Jose Earthquakes e LA Galaxy ficam no 1 a 1 pela MLS",
-    "seoDescription": "San Jose Earthquakes e LA Galaxy empataram por 1 a 1 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-26T09:29:30.039Z",
-    "createdAt": "2026-07-26T09:29:30.039Z",
-    "updatedAt": "2026-07-26T09:29:30.039Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761693",
-      "eventStartTime": "2026-07-26T02:30Z",
-      "retrievedAt": "2026-07-26T09:29:30.039Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f81122a0b5a1",
-    "slug": "portland-timbers-supera-real-salt-lake-por-2-a-1-pelo-mls-f81122",
-    "sportId": "futebol",
-    "title": "Portland Timbers supera Real Salt Lake por 2 a 1 pela MLS",
-    "summary": "Portland Timbers venceu Real Salt Lake por 2 a 1 pela MLS.",
-    "content": "Portland Timbers venceu Real Salt Lake por 2 a 1 pela MLS, em 25 de julho de 2026 no Providence Park.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Portland Timbers supera Real Salt Lake por 2 a 1 pela MLS",
-    "seoDescription": "Portland Timbers venceu Real Salt Lake por 2 a 1 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-26T07:18:04.403Z",
-    "createdAt": "2026-07-26T07:18:04.403Z",
-    "updatedAt": "2026-07-26T07:18:04.403Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761692",
-      "eventStartTime": "2026-07-26T02:30Z",
-      "retrievedAt": "2026-07-26T07:18:04.403Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-51449be7887a",
-    "slug": "lafc-supera-sporting-kansas-city-por-4-a-0-pelo-mls-51449b",
-    "sportId": "futebol",
-    "title": "LAFC supera Sporting Kansas City por 4 a 0 pela MLS",
-    "summary": "LAFC venceu Sporting Kansas City por 4 a 0 pela MLS.",
-    "content": "LAFC venceu Sporting Kansas City por 4 a 0 pela MLS, em 25 de julho de 2026 no BMO Stadium.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "LAFC supera Sporting Kansas City por 4 a 0 pela MLS",
-    "seoDescription": "LAFC venceu Sporting Kansas City por 4 a 0 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-26T04:41:13.198Z",
-    "createdAt": "2026-07-26T04:41:13.198Z",
-    "updatedAt": "2026-07-26T04:41:13.198Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761694",
-      "eventStartTime": "2026-07-26T02:30Z",
-      "retrievedAt": "2026-07-26T04:41:13.198Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "curated-f1-hungria-fp3-20260725",
-    "slug": "norris-lidera-tl3-hungria-hamilton-antonelli-colados-classificacao",
-    "sportId": "formula1",
-    "title": "Norris lidera TL3 na Hungria; Hamilton e Antonelli chegam colados à classificação",
-    "summary": "Lando Norris marcou 1min17s939 no último treino livre do Hungaroring, apenas 0s117 à frente de Lewis Hamilton e 0s129 de Kimi Antonelli.",
-    "content": "A classificação do GP da Hungria ganhou ainda mais peso depois de um TL3 decidido por margens mínimas. Lando Norris colocou a McLaren no topo com 1min17s939, mas Lewis Hamilton terminou apenas 0s117 atrás com a Ferrari, enquanto Kimi Antonelli ficou a 0s129 com a Mercedes. Três equipes diferentes, portanto, chegaram separadas por pouco mais de um décimo de segundo.\n\nNo Hungaroring, essa proximidade importa especialmente porque a pista estreita costuma tornar a posição de largada mais valiosa do que em circuitos com longas zonas de ultrapassagem. O resultado do treino não garante a pole, mas mostra que McLaren, Ferrari e Mercedes têm argumentos para disputar a primeira fila quando os carros entrarem em configuração de classificação.\n\nO ponto a acompanhar é a evolução da pista e a capacidade de cada equipe de encontrar uma volta limpa no Q3. Em um cenário tão apertado, tráfego, temperatura dos pneus e pequenos erros podem valer várias posições.",
-    "sourceName": "Fonte verificada: Formula 1",
-    "sourceUrl": "https://www.formula1.com/en/latest/article/fp3-norris-edges-out-hamilton-and-antonelli-during-tight-final-practice-session-in-hungary.7EE5f5Y4pJR4TvgXJU7t5L",
-    "coverImageUrl": "/images/sports/formula1.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "formula1",
-      "gp-da-hungria",
-      "lando-norris",
-      "lewis-hamilton",
-      "kimi-antonelli"
-    ],
-    "seoTitle": "Norris lidera TL3 na Hungria antes de classificação apertada",
-    "seoDescription": "Norris liderou Hamilton por 0s117 e Antonelli por 0s129 no TL3 do GP da Hungria.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-25T12:10:00.000Z",
-    "createdAt": "2026-07-25T12:10:00.000Z",
-    "updatedAt": "2026-07-25T12:10:00.000Z",
-    "homepagePriority": 100,
-    "breaking": true,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.formula1.com/en/latest/article/fp3-norris-edges-out-hamilton-and-antonelli-during-tight-final-practice-session-in-hungary.7EE5f5Y4pJR4TvgXJU7t5L"
-    ]
   }
 ]
