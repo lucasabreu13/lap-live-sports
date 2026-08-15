@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-5dc5e70256ea",
+    "slug": "peyton-stearns-vence-harriet-dart-por-2-a-0-em-cincinnati-5dc5e7",
+    "sportId": "tenis",
+    "title": "Peyton Stearns vence Harriet Dart por 2 a 0 em Cincinnati",
+    "summary": "Peyton Stearns superou Harriet Dart por 2 a 0 em Cincinnati.",
+    "content": "Peyton Stearns superou Harriet Dart por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Peyton Stearns vence Harriet Dart por 2 a 0 em Cincinnati",
+    "seoDescription": "Peyton Stearns superou Harriet Dart por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T10:59:31.248Z",
+    "createdAt": "2026-08-15T10:59:31.248Z",
+    "updatedAt": "2026-08-15T10:59:31.248Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813445",
+      "eventStartTime": "2026-08-14T17:09:47+00:00",
+      "retrievedAt": "2026-08-15T10:59:31.248Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-77dd71063242",
+    "slug": "mito-hollyhock-e-gamba-osaka-ficam-no-1-a-1-pelo-j1-league-77dd71",
+    "sportId": "futebol",
+    "title": "Mito Hollyhock e Gamba Osaka ficam no 1 a 1 pelo J1 League",
+    "summary": "Mito Hollyhock e Gamba Osaka empataram por 1 a 1 pelo J1 League.",
+    "content": "Mito Hollyhock e Gamba Osaka empataram por 1 a 1 pelo J1 League, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "j1-league"
+    ],
+    "seoTitle": "Mito Hollyhock e Gamba Osaka ficam no 1 a 1 pelo J1 League",
+    "seoDescription": "Mito Hollyhock e Gamba Osaka empataram por 1 a 1 pelo J1 League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T10:59:31.186Z",
+    "createdAt": "2026-08-15T10:59:31.186Z",
+    "updatedAt": "2026-08-15T10:59:31.186Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4739698",
+      "eventStartTime": "2026-08-15T09:00:00+00:00",
+      "retrievedAt": "2026-08-15T10:59:31.186Z",
+      "feedId": "futebol",
+      "league": "J1 League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-0955bdd02416",
     "slug": "daniel-milavsky-vence-rei-sakamoto-por-2-a-0-em-brownsburg-0955bd",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-11T14:41:49.904Z",
       "feedId": "basquete",
       "league": "LNBP"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9cf0b0285182",
-    "slug": "al-orouba-fc-e-salam-ficam-no-0-a-0-pelo-yemeni-league-9cf0b0",
-    "sportId": "futebol",
-    "title": "Al Orouba FC e Salam ficam no 0 a 0 pelo Yemeni League",
-    "summary": "Al Orouba FC e Salam empataram por 0 a 0 pelo Yemeni League.",
-    "content": "Al Orouba FC e Salam empataram por 0 a 0 pelo Yemeni League, em 11 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "yemeni-league"
-    ],
-    "seoTitle": "Al Orouba FC e Salam ficam no 0 a 0 pelo Yemeni League",
-    "seoDescription": "Al Orouba FC e Salam empataram por 0 a 0 pelo Yemeni League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T14:41:49.897Z",
-    "createdAt": "2026-08-11T14:41:49.897Z",
-    "updatedAt": "2026-08-11T14:41:49.897Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4742986",
-      "eventStartTime": "2026-08-11T13:00:00+00:00",
-      "retrievedAt": "2026-08-11T14:41:49.897Z",
-      "feedId": "futebol",
-      "league": "Yemeni League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-38403707123c",
-    "slug": "vancouver-whitecaps-e-lafc-ficam-no-1-a-1-pelo-mls-384037",
-    "sportId": "futebol",
-    "title": "Vancouver Whitecaps e LAFC ficam no 1 a 1 pela MLS",
-    "summary": "Vancouver Whitecaps e LAFC empataram por 1 a 1 pela MLS.",
-    "content": "Vancouver Whitecaps e LAFC empataram por 1 a 1 pela MLS, em 01 de agosto de 2026 no BC Place. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Vancouver Whitecaps e LAFC ficam no 1 a 1 pela MLS",
-    "seoDescription": "Vancouver Whitecaps e LAFC empataram por 1 a 1 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-02T21:35:50.340Z",
-    "createdAt": "2026-08-02T21:35:50.340Z",
-    "updatedAt": "2026-08-02T21:35:50.340Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761698",
-      "eventStartTime": "2026-08-01T23:30Z",
-      "retrievedAt": "2026-08-02T21:35:50.340Z",
-      "feedId": "futebol",
-      "league": "MLS"
     },
     "articleFormat": "result-brief"
   }
