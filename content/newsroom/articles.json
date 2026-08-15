@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-75d9fe06e328",
+    "slug": "magdalena-frech-vence-jelena-ostapenko-por-2-a-0-em-cincinnati-75d9fe",
+    "sportId": "tenis",
+    "title": "Magdalena Frech vence Jelena Ostapenko por 2 a 0 em Cincinnati",
+    "summary": "Magdalena Frech superou Jelena Ostapenko por 2 a 0 em Cincinnati.",
+    "content": "Magdalena Frech superou Jelena Ostapenko por 2 a 0 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Magdalena Frech vence Jelena Ostapenko por 2 a 0 em Cincinnati",
+    "seoDescription": "Magdalena Frech superou Jelena Ostapenko por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T21:15:09.870Z",
+    "createdAt": "2026-08-15T21:15:09.870Z",
+    "updatedAt": "2026-08-15T21:15:09.870Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813626",
+      "eventStartTime": "2026-08-15T18:52:33+00:00",
+      "retrievedAt": "2026-08-15T21:15:09.870Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4f3f70741f39",
+    "slug": "orsomarso-e-boca-juniors-cali-ficam-no-0-a-0-pelo-primera-b-4f3f70",
+    "sportId": "futebol",
+    "title": "Orsomarso e Boca Juniors Cali ficam no 0 a 0 pelo Primera B",
+    "summary": "Orsomarso e Boca Juniors Cali empataram por 0 a 0 pelo Primera B.",
+    "content": "Orsomarso e Boca Juniors Cali empataram por 0 a 0 pelo Primera B, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-b"
+    ],
+    "seoTitle": "Orsomarso e Boca Juniors Cali ficam no 0 a 0 pelo Primera B",
+    "seoDescription": "Orsomarso e Boca Juniors Cali empataram por 0 a 0 pelo Primera B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T21:15:09.847Z",
+    "createdAt": "2026-08-15T21:15:09.847Z",
+    "updatedAt": "2026-08-15T21:15:09.847Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4732178",
+      "eventStartTime": "2026-08-15T21:00:00+00:00",
+      "retrievedAt": "2026-08-15T21:15:09.847Z",
+      "feedId": "futebol",
+      "league": "Primera B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d8cd92ff9321",
     "slug": "alejandro-tabilo-vence-jan-lennard-struff-por-2-a-0-em-cincinnati-d8cd92",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-12T10:04:27.962Z",
       "feedId": "beisebol",
       "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-76b0a14f47d9",
-    "slug": "betov-s-singh-k-vence-park-u-sinha-n-k-por-2-a-0-em-astana-76b0a1",
-    "sportId": "tenis",
-    "title": "Betov S./Singh K. vence Park U./Sinha N K. por 2 a 0 em Astana",
-    "summary": "Betov S./Singh K. superou Park U./Sinha N K. por 2 a 0 em Astana.",
-    "content": "Betov S./Singh K. superou Park U./Sinha N K. por 2 a 0 em Astana., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "astana"
-    ],
-    "seoTitle": "Betov S./Singh K. vence Park U./Sinha N K. por 2 a 0 em Astana",
-    "seoDescription": "Betov S./Singh K. superou Park U./Sinha N K. por 2 a 0 em Astana.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T10:04:27.958Z",
-    "createdAt": "2026-08-12T10:04:27.958Z",
-    "updatedAt": "2026-08-12T10:04:27.958Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808387",
-      "eventStartTime": "2026-08-12T07:59:28+00:00",
-      "retrievedAt": "2026-08-12T10:04:27.958Z",
-      "feedId": "tenis",
-      "league": "Astana"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-07ae28674ae4",
-    "slug": "las-vegas-aces-vence-washington-mystics-por-86-a-76-em-wnba-07ae28",
-    "sportId": "basquete",
-    "title": "Las Vegas Aces vence Washington Mystics por 86 a 76 em WNBA",
-    "summary": "Las Vegas Aces superou Washington Mystics por 86 a 76 em WNBA.",
-    "content": "Las Vegas Aces superou Washington Mystics por 86 a 76 em WNBA., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "Las Vegas Aces vence Washington Mystics por 86 a 76 em WNBA",
-    "seoDescription": "Las Vegas Aces superou Washington Mystics por 86 a 76 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T10:04:27.955Z",
-    "createdAt": "2026-08-12T10:04:27.955Z",
-    "updatedAt": "2026-08-12T10:04:27.955Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659870",
-      "eventStartTime": "2026-08-12T02:00:00+00:00",
-      "retrievedAt": "2026-08-12T10:04:27.955Z",
-      "feedId": "basquete",
-      "league": "WNBA"
     },
     "articleFormat": "result-brief"
   }
