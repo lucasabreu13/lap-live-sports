@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-18aca6bfc56f",
+    "slug": "mcdonald-n-opitz-j-vence-ruehl-t-veldheer-m-por-2-a-0-em-hamburg-18aca6",
+    "sportId": "tenis",
+    "title": "McDonald N./Opitz J. vence Ruehl T./Veldheer M. por 2 a 0 em Hamburg",
+    "summary": "McDonald N./Opitz J. superou Ruehl T./Veldheer M. por 2 a 0 em Hamburg.",
+    "content": "McDonald N./Opitz J. superou Ruehl T./Veldheer M. por 2 a 0 em Hamburg., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "hamburg"
+    ],
+    "seoTitle": "McDonald N./Opitz J. vence Ruehl T./Veldheer M. por 2 a 0 em Hamburg",
+    "seoDescription": "McDonald N./Opitz J. superou Ruehl T./Veldheer M. por 2 a 0 em Hamburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T19:52:54.440Z",
+    "createdAt": "2026-08-15T19:52:54.440Z",
+    "updatedAt": "2026-08-15T19:52:54.440Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4812250",
+      "eventStartTime": "2026-08-14T14:26:55+00:00",
+      "retrievedAt": "2026-08-15T19:52:54.440Z",
+      "feedId": "tenis",
+      "league": "Hamburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b6b279378951",
+    "slug": "indiana-fever-vence-dallas-wings-por-98-a-87-em-wnba-b6b279",
+    "sportId": "basquete",
+    "title": "Indiana Fever vence Dallas Wings por 98 a 87 em WNBA",
+    "summary": "Indiana Fever superou Dallas Wings por 98 a 87 em WNBA.",
+    "content": "Indiana Fever superou Dallas Wings por 98 a 87 em WNBA., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Indiana Fever vence Dallas Wings por 98 a 87 em WNBA",
+    "seoDescription": "Indiana Fever superou Dallas Wings por 98 a 87 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T19:52:54.381Z",
+    "createdAt": "2026-08-15T19:52:54.381Z",
+    "updatedAt": "2026-08-15T19:52:54.381Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659878",
+      "eventStartTime": "2026-08-14T23:30:00+00:00",
+      "retrievedAt": "2026-08-15T19:52:54.381Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-62b4dd06f4e6",
+    "slug": "santiago-city-e-brujas-salamanca-ficam-no-0-a-0-pela-liga-de-segunda-62b4dd",
+    "sportId": "futebol",
+    "title": "Santiago City e Brujas Salamanca ficam no 0 a 0 pela Liga de Segunda",
+    "summary": "Santiago City e Brujas Salamanca empataram por 0 a 0 pela Liga de Segunda.",
+    "content": "Santiago City e Brujas Salamanca empataram por 0 a 0 pela Liga de Segunda, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-segunda"
+    ],
+    "seoTitle": "Santiago City e Brujas Salamanca ficam no 0 a 0 pela Liga de Segunda",
+    "seoDescription": "Santiago City e Brujas Salamanca empataram por 0 a 0 pela Liga de Segunda.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T19:52:54.368Z",
+    "createdAt": "2026-08-15T19:52:54.368Z",
+    "updatedAt": "2026-08-15T19:52:54.368Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4784921",
+      "eventStartTime": "2026-08-15T19:00:00+00:00",
+      "retrievedAt": "2026-08-15T19:52:54.368Z",
+      "feedId": "futebol",
+      "league": "Liga de Segunda"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-db006ed1d728",
     "slug": "sara-bejlek-vence-karolina-pliskova-por-2-a-0-em-cincinnati-db006e",
     "sportId": "tenis",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-12T07:50:06.930Z",
       "feedId": "futebol",
       "league": "CONCACAF Central American Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-882141b23b03",
-    "slug": "caliente-de-durango-vence-acereros-de-monclova-por-7-a-0-na-lmb-882141",
-    "sportId": "beisebol",
-    "title": "Caliente de Durango vence Acereros de Monclova por 7 a 0 na LMB",
-    "summary": "Caliente de Durango derrotou Acereros de Monclova por 7 a 0 na LMB.",
-    "content": "Caliente de Durango derrotou Acereros de Monclova por 7 a 0 na LMB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "lmb"
-    ],
-    "seoTitle": "Caliente de Durango vence Acereros de Monclova por 7 a 0 na LMB",
-    "seoDescription": "Caliente de Durango derrotou Acereros de Monclova por 7 a 0 na LMB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T06:12:08.201Z",
-    "createdAt": "2026-08-12T06:12:08.201Z",
-    "updatedAt": "2026-08-12T06:12:08.201Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4806788",
-      "eventStartTime": "2026-08-12T01:45:00+00:00",
-      "retrievedAt": "2026-08-12T06:12:08.201Z",
-      "feedId": "beisebol",
-      "league": "LMB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-38f7a6c1b1c9",
-    "slug": "jeffrey-john-wolf-vence-shintaro-mochizuki-por-2-a-1-em-cincinnati-38f7a6",
-    "sportId": "tenis",
-    "title": "Jeffrey John Wolf vence Shintaro Mochizuki por 2 a 1 em Cincinnati",
-    "summary": "Jeffrey John Wolf superou Shintaro Mochizuki por 2 a 1 em Cincinnati.",
-    "content": "Jeffrey John Wolf superou Shintaro Mochizuki por 2 a 1 em Cincinnati., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Jeffrey John Wolf vence Shintaro Mochizuki por 2 a 1 em Cincinnati",
-    "seoDescription": "Jeffrey John Wolf superou Shintaro Mochizuki por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T06:12:08.196Z",
-    "createdAt": "2026-08-12T06:12:08.196Z",
-    "updatedAt": "2026-08-12T06:12:08.196Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809541",
-      "eventStartTime": "2026-08-12T02:35:08+00:00",
-      "retrievedAt": "2026-08-12T06:12:08.196Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8504873b0b4a",
-    "slug": "soles-de-mexicali-vence-abejas-de-leon-por-71-a-68-em-lnbp-850487",
-    "sportId": "basquete",
-    "title": "Soles De Mexicali vence Abejas de León por 71 a 68 em LNBP",
-    "summary": "Soles De Mexicali superou Abejas de León por 71 a 68 em LNBP.",
-    "content": "Soles De Mexicali superou Abejas de León por 71 a 68 em LNBP., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnbp"
-    ],
-    "seoTitle": "Soles De Mexicali vence Abejas de León por 71 a 68 em LNBP",
-    "seoDescription": "Soles De Mexicali superou Abejas de León por 71 a 68 em LNBP.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T06:12:08.193Z",
-    "createdAt": "2026-08-12T06:12:08.193Z",
-    "updatedAt": "2026-08-12T06:12:08.193Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4707860",
-      "eventStartTime": "2026-08-12T03:00:00+00:00",
-      "retrievedAt": "2026-08-12T06:12:08.193Z",
-      "feedId": "basquete",
-      "league": "LNBP"
     },
     "articleFormat": "result-brief"
   }
