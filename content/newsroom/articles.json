@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-e23f46c0e63a",
+    "slug": "kayla-day-vence-shuai-zhang-por-1-a-0-em-cincinnati-e23f46",
+    "sportId": "tenis",
+    "title": "Kayla Day vence Shuai Zhang por 1 a 0 em Cincinnati",
+    "summary": "Kayla Day superou Shuai Zhang por 1 a 0 em Cincinnati.",
+    "content": "Kayla Day superou Shuai Zhang por 1 a 0 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Kayla Day vence Shuai Zhang por 1 a 0 em Cincinnati",
+    "seoDescription": "Kayla Day superou Shuai Zhang por 1 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T16:12:18.950Z",
+    "createdAt": "2026-08-15T16:12:18.950Z",
+    "updatedAt": "2026-08-15T16:12:18.950Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813452",
+      "eventStartTime": "2026-08-15T15:11:02+00:00",
+      "retrievedAt": "2026-08-15T16:12:18.950Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-534ac22d7bf8",
+    "slug": "csikszereda-miercurea-ciuc-e-sepsi-ficam-no-0-a-0-pela-liga-1-534ac2",
+    "sportId": "futebol",
+    "title": "Csíkszereda Miercurea Ciuc e Sepsi ficam no 0 a 0 pela Liga 1",
+    "summary": "Csíkszereda Miercurea Ciuc e Sepsi empataram por 0 a 0 pela Liga 1.",
+    "content": "Csíkszereda Miercurea Ciuc e Sepsi empataram por 0 a 0 pela Liga 1, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-1"
+    ],
+    "seoTitle": "Csíkszereda Miercurea Ciuc e Sepsi ficam no 0 a 0 pela Liga 1",
+    "seoDescription": "Csíkszereda Miercurea Ciuc e Sepsi empataram por 0 a 0 pela Liga 1.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T16:12:18.921Z",
+    "createdAt": "2026-08-15T16:12:18.921Z",
+    "updatedAt": "2026-08-15T16:12:18.921Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4748474",
+      "eventStartTime": "2026-08-15T15:30:00+00:00",
+      "retrievedAt": "2026-08-15T16:12:18.921Z",
+      "feedId": "futebol",
+      "league": "Liga 1"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-600e47607af5",
     "slug": "chiba-lotte-marines-vence-seibu-lions-por-5-a-1-na-npb-600e47",
     "sportId": "beisebol",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-11T22:59:43.877Z",
       "feedId": "futebol",
       "league": "Primera B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5f2d542ae4fd",
-    "slug": "chunichi-dragons-vence-yokohama-baystars-por-5-a-2-na-npb-5f2d54",
-    "sportId": "beisebol",
-    "title": "Chunichi Dragons vence Yokohama Baystars por 5 a 2 na NPB",
-    "summary": "Chunichi Dragons derrotou Yokohama Baystars por 5 a 2 na NPB.",
-    "content": "Chunichi Dragons derrotou Yokohama Baystars por 5 a 2 na NPB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Chunichi Dragons vence Yokohama Baystars por 5 a 2 na NPB",
-    "seoDescription": "Chunichi Dragons derrotou Yokohama Baystars por 5 a 2 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T22:01:58.435Z",
-    "createdAt": "2026-08-11T22:01:58.435Z",
-    "updatedAt": "2026-08-11T22:01:58.435Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4626510",
-      "eventStartTime": "2026-08-11T05:00:00+00:00",
-      "retrievedAt": "2026-08-11T22:01:58.435Z",
-      "feedId": "beisebol",
-      "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ad8746b5cea1",
-    "slug": "mihalikova-t-nicholls-o-vence-mertens-e-shnaider-d-por-2-a-0-em-toronto-ad8746",
-    "sportId": "tenis",
-    "title": "Mihalikova T./Nicholls O. vence Mertens E./Shnaider D. por 2 a 0 em Toronto",
-    "summary": "Mihalikova T./Nicholls O. superou Mertens E./Shnaider D. por 2 a 0 em Toronto.",
-    "content": "Mihalikova T./Nicholls O. superou Mertens E./Shnaider D. por 2 a 0 em Toronto., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "toronto"
-    ],
-    "seoTitle": "Mihalikova T./Nicholls O. vence Mertens E./Shnaider D. por 2 a 0 em",
-    "seoDescription": "Mihalikova T./Nicholls O. superou Mertens E./Shnaider D. por 2 a 0 em Toronto.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T22:01:58.432Z",
-    "createdAt": "2026-08-11T22:01:58.432Z",
-    "updatedAt": "2026-08-11T22:01:58.432Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807666",
-      "eventStartTime": "2026-08-11T20:11:09+00:00",
-      "retrievedAt": "2026-08-11T22:01:58.432Z",
-      "feedId": "tenis",
-      "league": "Toronto"
     },
     "articleFormat": "result-brief"
   }
