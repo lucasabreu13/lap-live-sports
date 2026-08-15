@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-d6a584c31aca",
+    "slug": "arizona-diamondbacks-vence-atlanta-braves-por-2-a-0-na-mlb-d6a584",
+    "sportId": "beisebol",
+    "title": "Arizona Diamondbacks vence Atlanta Braves por 2 a 0 na MLB",
+    "summary": "Arizona Diamondbacks derrotou Atlanta Braves por 2 a 0 na MLB.",
+    "content": "Arizona Diamondbacks derrotou Atlanta Braves por 2 a 0 na MLB, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Arizona Diamondbacks vence Atlanta Braves por 2 a 0 na MLB",
+    "seoDescription": "Arizona Diamondbacks derrotou Atlanta Braves por 2 a 0 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T02:10:52.881Z",
+    "createdAt": "2026-08-15T02:10:52.881Z",
+    "updatedAt": "2026-08-15T02:10:52.881Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602998",
+      "eventStartTime": "2026-08-14T23:15:00+00:00",
+      "retrievedAt": "2026-08-15T02:10:52.881Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2a2ed94063e2",
+    "slug": "tampa-bay-buccaneers-vence-new-york-jets-por-24-a-16-em-nfl-2a2ed9",
+    "sportId": "futebol-americano",
+    "title": "Tampa Bay Buccaneers vence New York Jets por 24 a 16 em NFL",
+    "summary": "Tampa Bay Buccaneers superou New York Jets por 24 a 16 em NFL.",
+    "content": "Tampa Bay Buccaneers superou New York Jets por 24 a 16 em NFL., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Tampa Bay Buccaneers vence New York Jets por 24 a 16 em NFL",
+    "seoDescription": "Tampa Bay Buccaneers superou New York Jets por 24 a 16 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T02:10:52.844Z",
+    "createdAt": "2026-08-15T02:10:52.844Z",
+    "updatedAt": "2026-08-15T02:10:52.844Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714901",
+      "eventStartTime": "2026-08-14T23:00:00+00:00",
+      "retrievedAt": "2026-08-15T02:10:52.844Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c04ae2d4423f",
+    "slug": "millonarios-e-barranquilla-fc-ficam-no-0-a-0-pela-copa-colombia-c04ae2",
+    "sportId": "futebol",
+    "title": "Millonarios e Barranquilla FC ficam no 0 a 0 pela Copa Colombia",
+    "summary": "Millonarios e Barranquilla FC empataram por 0 a 0 pela Copa Colombia.",
+    "content": "Millonarios e Barranquilla FC empataram por 0 a 0 pela Copa Colombia, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-colombia"
+    ],
+    "seoTitle": "Millonarios e Barranquilla FC ficam no 0 a 0 pela Copa Colombia",
+    "seoDescription": "Millonarios e Barranquilla FC empataram por 0 a 0 pela Copa Colombia.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T02:10:52.837Z",
+    "createdAt": "2026-08-15T02:10:52.837Z",
+    "updatedAt": "2026-08-15T02:10:52.837Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4798287",
+      "eventStartTime": "2026-08-15T01:10:00+00:00",
+      "retrievedAt": "2026-08-15T02:10:52.837Z",
+      "feedId": "futebol",
+      "league": "Copa Colombia"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-c7cd6cc8bcf9",
     "slug": "cincinnati-reds-vence-miami-marlins-por-1-a-0-na-mlb-c7cd6c",
     "sportId": "beisebol",
@@ -2991,9 +3117,9 @@
     "id": "newsroom-data-9b53d5453f0d",
     "slug": "kittay-b-romboli-f-vence-siddhant-banthia-alexander-donski-por-2-a-0-em-brownsburg-9b53d5",
     "sportId": "tenis",
-    "title": "Kittay B./Romboli F. vence Siddhant Banthia / Alexander Donski por 2 a 0 em Brownsburg",
-    "summary": "Kittay B./Romboli F. superou Siddhant Banthia / Alexander Donski por 2 a 0 em Brownsburg.",
-    "content": "Kittay B./Romboli F. superou Siddhant Banthia / Alexander Donski por 2 a 0 em Brownsburg., em 13 de agosto de 2026.",
+    "title": "Rai A./Watt J. vence Kittay B./Romboli F. por 2 a 1 em Brownsburg",
+    "summary": "Rai A./Watt J. superou Kittay B./Romboli F. por 2 a 1 em Brownsburg.",
+    "content": "Rai A./Watt J. superou Kittay B./Romboli F. por 2 a 1 em Brownsburg., em 14 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
     "coverImageUrl": null,
@@ -3004,13 +3130,13 @@
       "resultado",
       "brownsburg"
     ],
-    "seoTitle": "Kittay B./Romboli F. vence Siddhant Banthia / Alexander Donski por 2 a",
-    "seoDescription": "Kittay B./Romboli F. superou Siddhant Banthia / Alexander Donski por 2 a 0 em Brownsburg.",
+    "seoTitle": "Rai A./Watt J. vence Kittay B./Romboli F. por 2 a 1 em Brownsburg",
+    "seoDescription": "Rai A./Watt J. superou Kittay B./Romboli F. por 2 a 1 em Brownsburg.",
     "status": "published",
     "scheduledAt": null,
     "publishedAt": "2026-08-14T02:42:18.919Z",
     "createdAt": "2026-08-14T02:42:18.919Z",
-    "updatedAt": "2026-08-14T02:42:18.919Z",
+    "updatedAt": "2026-08-15T02:10:52.877Z",
     "homepagePriority": 52,
     "breaking": false,
     "agentId": "tenis",
@@ -3021,13 +3147,19 @@
     "dataDriven": true,
     "provenance": {
       "provider": "LAP live-data",
-      "eventId": "365-4808198",
-      "eventStartTime": "2026-08-14T01:37:47+00:00",
-      "retrievedAt": "2026-08-14T02:42:18.919Z",
+      "eventId": "365-4814018",
+      "eventStartTime": "2026-08-14T23:10:02+00:00",
+      "retrievedAt": "2026-08-15T02:10:52.877Z",
       "feedId": "tenis",
       "league": "Brownsburg"
     },
-    "articleFormat": "result-brief"
+    "articleFormat": "result-brief",
+    "updateHistory": [
+      {
+        "updatedAt": "2026-08-15T02:10:52.877Z",
+        "sourceArticleId": "newsroom-data-ec62e5c91cb7"
+      }
+    ]
   },
   {
     "id": "newsroom-data-ab069655aedd",
@@ -12375,123 +12507,6 @@
     "articleFormat": "result-brief"
   },
   {
-    "id": "newsroom-data-6c91671c1b69",
-    "slug": "charlotte-fc-supera-red-bull-new-york-por-2-a-0-pelo-mls-6c9167",
-    "sportId": "futebol",
-    "title": "Charlotte FC supera Red Bull New York por 2 a 0 pela MLS",
-    "summary": "Charlotte FC venceu Red Bull New York por 2 a 0 pela MLS.",
-    "content": "Charlotte FC venceu Red Bull New York por 2 a 0 pela MLS, em 25 de julho de 2026 no Red Bull Arena.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Charlotte FC supera Red Bull New York por 2 a 0 pela MLS",
-    "seoDescription": "Charlotte FC venceu Red Bull New York por 2 a 0 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-26T01:13:00.057Z",
-    "createdAt": "2026-07-26T01:13:00.057Z",
-    "updatedAt": "2026-07-26T01:13:00.057Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761685",
-      "eventStartTime": "2026-07-25T22:30Z",
-      "retrievedAt": "2026-07-26T01:13:00.057Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-cedc06a5faba",
-    "slug": "mubadala-dc-open-e-tenis-empatam-por-0-a-0-em-tenis-cedc06",
-    "sportId": "tenis",
-    "title": "Mubadala DC Open e Tênis empatam por 0 a 0 em Tênis",
-    "summary": "Mubadala DC Open e Tênis terminaram empatados por 0 a 0 em Tênis.",
-    "content": "Mubadala DC Open e Tênis terminaram empatados por 0 a 0 em Tênis., em 25 de julho de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado"
-    ],
-    "seoTitle": "Mubadala DC Open e Tênis empatam por 0 a 0 em Tênis",
-    "seoDescription": "Mubadala DC Open e Tênis terminaram empatados por 0 a 0 em Tênis.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-25T16:31:41.995Z",
-    "createdAt": "2026-07-25T16:31:41.995Z",
-    "updatedAt": "2026-07-26T15:58:50.352Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "888-2026",
-      "eventStartTime": "2026-07-25T04:00Z",
-      "retrievedAt": "2026-07-26T15:58:50.352Z",
-      "feedId": "tenis",
-      "league": "Tênis"
-    },
-    "articleFormat": "result-brief",
-    "updateHistory": [
-      {
-        "updatedAt": "2026-07-26T04:41:13.201Z",
-        "sourceArticleId": "newsroom-data-5379f4583372"
-      },
-      {
-        "updatedAt": "2026-07-26T07:18:04.406Z",
-        "sourceArticleId": "newsroom-data-cedc06a5faba"
-      },
-      {
-        "updatedAt": "2026-07-26T09:29:30.041Z",
-        "sourceArticleId": "newsroom-data-5379f4583372"
-      },
-      {
-        "updatedAt": "2026-07-26T11:00:15.999Z",
-        "sourceArticleId": "newsroom-data-cedc06a5faba"
-      },
-      {
-        "updatedAt": "2026-07-26T12:14:09.673Z",
-        "sourceArticleId": "newsroom-data-5379f4583372"
-      },
-      {
-        "updatedAt": "2026-07-26T13:56:28.670Z",
-        "sourceArticleId": "newsroom-data-cedc06a5faba"
-      },
-      {
-        "updatedAt": "2026-07-26T14:57:58.007Z",
-        "sourceArticleId": "newsroom-data-5379f4583372"
-      },
-      {
-        "updatedAt": "2026-07-26T15:58:50.352Z",
-        "sourceArticleId": "newsroom-data-cedc06a5faba"
-      }
-    ]
-  },
-  {
     "id": "curated-f1-hungria-fp3-20260725",
     "slug": "norris-lidera-tl3-hungria-hamilton-antonelli-colados-classificacao",
     "sportId": "formula1",
@@ -12522,38 +12537,6 @@
     "agentId": "curadoria-lap",
     "sourceUrls": [
       "https://www.formula1.com/en/latest/article/fp3-norris-edges-out-hamilton-and-antonelli-during-tight-final-practice-session-in-hungary.7EE5f5Y4pJR4TvgXJU7t5L"
-    ]
-  },
-  {
-    "id": "curated-futebol-klopp-alemanha-20260725",
-    "slug": "jurgen-klopp-inicia-trabalho-selecao-alema-quatro-anos",
-    "sportId": "futebol",
-    "title": "Klopp inicia era na seleção alemã com contrato de quatro anos e cobrança por reconstrução",
-    "summary": "Jürgen Klopp foi apresentado como novo técnico da Alemanha após a saída de Julian Nagelsmann e assume a missão de reconstruir a seleção depois da Copa de 2026.",
-    "content": "A Alemanha abriu oficialmente um novo ciclo. Jürgen Klopp iniciou seu trabalho como técnico da seleção em contrato de quatro anos, assumindo o comando depois da saída de Julian Nagelsmann após a eliminação alemã na Copa do Mundo de 2026.\n\nA escolha reúne duas pressões. A primeira é esportiva: recuperar uma seleção tetracampeã que acumulou campanhas decepcionantes nas últimas Copas. A segunda é de ambiente. Em sua apresentação, Klopp deixou claro que pretende estabelecer limites na relação com a imprensa, especialmente em relação à privacidade de sua família.\n\nKlopp chega acompanhado por uma comissão com nomes conhecidos de seus trabalhos anteriores e terá algumas semanas antes da primeira Data Fifa para transformar ideias em convocação e modelo de jogo. O primeiro termômetro será menos o discurso e mais quais jogadores formarão a base dessa reconstrução.",
-    "sourceName": "Fonte verificada: Reuters",
-    "sourceUrl": "https://www.reuters.com/sports/soccer/klopp-become-germany-soccer-coach-dfb-says-2026-07-24/",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "futebol",
-      "alemanha",
-      "jurgen-klopp",
-      "selecao-alema"
-    ],
-    "seoTitle": "Klopp inicia era na Alemanha com contrato de quatro anos",
-    "seoDescription": "Jürgen Klopp assume a seleção alemã após a Copa de 2026 e inicia projeto de reconstrução.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-25T12:06:00.000Z",
-    "createdAt": "2026-07-25T12:06:00.000Z",
-    "updatedAt": "2026-07-25T12:06:00.000Z",
-    "homepagePriority": 96,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.reuters.com/sports/soccer/klopp-become-germany-soccer-coach-dfb-says-2026-07-24/"
     ]
   }
 ]
