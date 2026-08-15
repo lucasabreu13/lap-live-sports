@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-ed3914b8dc0a",
+    "slug": "kt-wiz-suwon-vence-kiwoom-heroes-por-8-a-3-na-kbo-ed3914",
+    "sportId": "beisebol",
+    "title": "Kt Wiz Suwon vence Kiwoom Heroes por 8 a 3 na KBO",
+    "summary": "Kt Wiz Suwon derrotou Kiwoom Heroes por 8 a 3 na KBO.",
+    "content": "Kt Wiz Suwon derrotou Kiwoom Heroes por 8 a 3 na KBO, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "kbo"
+    ],
+    "seoTitle": "Kt Wiz Suwon vence Kiwoom Heroes por 8 a 3 na KBO",
+    "seoDescription": "Kt Wiz Suwon derrotou Kiwoom Heroes por 8 a 3 na KBO.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T11:54:32.644Z",
+    "createdAt": "2026-08-15T11:54:32.644Z",
+    "updatedAt": "2026-08-15T11:54:32.644Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813619",
+      "eventStartTime": "2026-08-14T10:00:00+00:00",
+      "retrievedAt": "2026-08-15T11:54:32.644Z",
+      "feedId": "beisebol",
+      "league": "KBO"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-680c838fc95d",
+    "slug": "sebastian-baez-vence-grigor-dimitrov-por-2-a-1-em-cincinnati-680c83",
+    "sportId": "tenis",
+    "title": "Sebastian Baez vence Grigor Dimitrov por 2 a 1 em Cincinnati",
+    "summary": "Sebastian Baez superou Grigor Dimitrov por 2 a 1 em Cincinnati.",
+    "content": "Sebastian Baez superou Grigor Dimitrov por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Sebastian Baez vence Grigor Dimitrov por 2 a 1 em Cincinnati",
+    "seoDescription": "Sebastian Baez superou Grigor Dimitrov por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T11:54:32.622Z",
+    "createdAt": "2026-08-15T11:54:32.622Z",
+    "updatedAt": "2026-08-15T11:54:32.622Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809628",
+      "eventStartTime": "2026-08-14T16:36:47+00:00",
+      "retrievedAt": "2026-08-15T11:54:32.622Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ecb4b920be30",
+    "slug": "ceramica-cleopatra-e-al-nasr-ficam-no-0-a-0-pelo-club-friendlies-ecb4b9",
+    "sportId": "futebol",
+    "title": "Ceramica Cleopatra e Al Nasr ficam no 0 a 0 pelo Club Friendlies",
+    "summary": "Ceramica Cleopatra e Al Nasr empataram por 0 a 0 pelo Club Friendlies.",
+    "content": "Ceramica Cleopatra e Al Nasr empataram por 0 a 0 pelo Club Friendlies, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Ceramica Cleopatra e Al Nasr ficam no 0 a 0 pelo Club Friendlies",
+    "seoDescription": "Ceramica Cleopatra e Al Nasr empataram por 0 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T11:54:32.576Z",
+    "createdAt": "2026-08-15T11:54:32.576Z",
+    "updatedAt": "2026-08-15T11:54:32.576Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811633",
+      "eventStartTime": "2026-08-15T11:00:00+00:00",
+      "retrievedAt": "2026-08-15T11:54:32.576Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ed217d0d3da8",
     "slug": "yannick-hanfmann-vence-luca-van-assche-por-2-a-0-em-cincinnati-ed217d",
     "sportId": "tenis",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-11T16:32:11.729Z",
       "feedId": "futebol",
       "league": "Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a05d7911c3cf",
-    "slug": "kia-tigers-vence-samsung-lions-por-3-a-1-na-kbo-a05d79",
-    "sportId": "beisebol",
-    "title": "KIA Tigers vence Samsung Lions por 3 a 1 na KBO",
-    "summary": "KIA Tigers derrotou Samsung Lions por 3 a 1 na KBO.",
-    "content": "KIA Tigers derrotou Samsung Lions por 3 a 1 na KBO, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "kbo"
-    ],
-    "seoTitle": "KIA Tigers vence Samsung Lions por 3 a 1 na KBO",
-    "seoDescription": "KIA Tigers derrotou Samsung Lions por 3 a 1 na KBO.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T15:36:35.680Z",
-    "createdAt": "2026-08-11T15:36:35.680Z",
-    "updatedAt": "2026-08-11T15:36:35.680Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808381",
-      "eventStartTime": "2026-08-11T10:00:00+00:00",
-      "retrievedAt": "2026-08-11T15:36:35.680Z",
-      "feedId": "beisebol",
-      "league": "KBO"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f4e08386fe76",
-    "slug": "mcdonald-n-opitz-j-vence-moeller-m-petkovic-m-por-2-a-0-em-hamburg-f4e083",
-    "sportId": "tenis",
-    "title": "McDonald N./Opitz J. vence Moeller M./Petkovic M. por 2 a 0 em Hamburg",
-    "summary": "McDonald N./Opitz J. superou Moeller M./Petkovic M. por 2 a 0 em Hamburg.",
-    "content": "McDonald N./Opitz J. superou Moeller M./Petkovic M. por 2 a 0 em Hamburg., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "hamburg"
-    ],
-    "seoTitle": "McDonald N./Opitz J. vence Moeller M./Petkovic M. por 2 a 0 em Hamburg",
-    "seoDescription": "McDonald N./Opitz J. superou Moeller M./Petkovic M. por 2 a 0 em Hamburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T15:36:35.678Z",
-    "createdAt": "2026-08-11T15:36:35.678Z",
-    "updatedAt": "2026-08-11T15:36:35.678Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807565",
-      "eventStartTime": "2026-08-11T12:49:26+00:00",
-      "retrievedAt": "2026-08-11T15:36:35.678Z",
-      "feedId": "tenis",
-      "league": "Hamburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5e0826bb27de",
-    "slug": "seattle-storm-vence-chicago-sky-por-97-a-88-em-wnba-5e0826",
-    "sportId": "basquete",
-    "title": "Seattle Storm vence Chicago Sky por 97 a 88 em WNBA",
-    "summary": "Seattle Storm superou Chicago Sky por 97 a 88 em WNBA.",
-    "content": "Seattle Storm superou Chicago Sky por 97 a 88 em WNBA., em 10 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "Seattle Storm vence Chicago Sky por 97 a 88 em WNBA",
-    "seoDescription": "Seattle Storm superou Chicago Sky por 97 a 88 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T15:36:35.674Z",
-    "createdAt": "2026-08-11T15:36:35.674Z",
-    "updatedAt": "2026-08-11T15:36:35.674Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659867",
-      "eventStartTime": "2026-08-11T02:00:00+00:00",
-      "retrievedAt": "2026-08-11T15:36:35.674Z",
-      "feedId": "basquete",
-      "league": "WNBA"
     },
     "articleFormat": "result-brief"
   }
