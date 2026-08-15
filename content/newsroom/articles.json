@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-3f9a60ca3fe2",
+    "slug": "hayato-matsuoka-vence-khumoyun-sultanov-por-2-a-1-em-astana-3f9a60",
+    "sportId": "tenis",
+    "title": "Hayato Matsuoka vence Khumoyun Sultanov por 2 a 1 em Astana",
+    "summary": "Hayato Matsuoka superou Khumoyun Sultanov por 2 a 1 em Astana.",
+    "content": "Hayato Matsuoka superou Khumoyun Sultanov por 2 a 1 em Astana., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "astana"
+    ],
+    "seoTitle": "Hayato Matsuoka vence Khumoyun Sultanov por 2 a 1 em Astana",
+    "seoDescription": "Hayato Matsuoka superou Khumoyun Sultanov por 2 a 1 em Astana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T23:11:16.176Z",
+    "createdAt": "2026-08-15T23:11:16.176Z",
+    "updatedAt": "2026-08-15T23:11:16.176Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814177",
+      "eventStartTime": "2026-08-15T06:10:26+00:00",
+      "retrievedAt": "2026-08-15T23:11:16.176Z",
+      "feedId": "tenis",
+      "league": "Astana"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e10c7a1c51fc",
+    "slug": "sayago-vence-urupan-por-64-a-63-em-liga-de-ascenso-e10c7a",
+    "sportId": "basquete",
+    "title": "Sayago vence Urupan por 64 a 63 em Liga de ascenso",
+    "summary": "Sayago superou Urupan por 64 a 63 em Liga de ascenso.",
+    "content": "Sayago superou Urupan por 64 a 63 em Liga de ascenso., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Sayago vence Urupan por 64 a 63 em Liga de ascenso",
+    "seoDescription": "Sayago superou Urupan por 64 a 63 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T23:11:16.149Z",
+    "createdAt": "2026-08-15T23:11:16.149Z",
+    "updatedAt": "2026-08-15T23:11:16.149Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807073",
+      "eventStartTime": "2026-08-14T23:15:00+00:00",
+      "retrievedAt": "2026-08-15T23:11:16.149Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f65293122b35",
+    "slug": "los-angeles-rams-vence-kansas-city-chiefs-por-20-a-12-em-nfl-f65293",
+    "sportId": "futebol-americano",
+    "title": "Los Angeles Rams vence Kansas City Chiefs por 20 a 12 em NFL",
+    "summary": "Los Angeles Rams superou Kansas City Chiefs por 20 a 12 em NFL.",
+    "content": "Los Angeles Rams superou Kansas City Chiefs por 20 a 12 em NFL., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Los Angeles Rams vence Kansas City Chiefs por 20 a 12 em NFL",
+    "seoDescription": "Los Angeles Rams superou Kansas City Chiefs por 20 a 12 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T23:11:16.134Z",
+    "createdAt": "2026-08-15T23:11:16.134Z",
+    "updatedAt": "2026-08-15T23:11:16.134Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714913",
+      "eventStartTime": "2026-08-15T20:00:00+00:00",
+      "retrievedAt": "2026-08-15T23:11:16.134Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-721a505ac3e7",
+    "slug": "atletico-nacional-e-independiente-santa-fe-ficam-no-0-a-0-pelo-primera-a-721a50",
+    "sportId": "futebol",
+    "title": "Atletico Nacional e Independiente Santa Fe ficam no 0 a 0 pelo Primera A",
+    "summary": "Atletico Nacional e Independiente Santa Fe empataram por 0 a 0 pelo Primera A.",
+    "content": "Atletico Nacional e Independiente Santa Fe empataram por 0 a 0 pelo Primera A, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-a"
+    ],
+    "seoTitle": "Atletico Nacional e Independiente Santa Fe ficam no 0 a 0 pelo Primera",
+    "seoDescription": "Atletico Nacional e Independiente Santa Fe empataram por 0 a 0 pelo Primera A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T23:11:16.130Z",
+    "createdAt": "2026-08-15T23:11:16.130Z",
+    "updatedAt": "2026-08-15T23:11:16.130Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4732057",
+      "eventStartTime": "2026-08-15T23:05:00+00:00",
+      "retrievedAt": "2026-08-15T23:11:16.130Z",
+      "feedId": "futebol",
+      "league": "Primera A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4a6abf3ab1f7",
     "slug": "terence-atmane-vence-tomas-etcheverry-por-2-a-0-em-cincinnati-4a6abf",
     "sportId": "tenis",
@@ -12438,174 +12606,6 @@
       "eventId": "365-4807566",
       "eventStartTime": "2026-08-12T12:55:52+00:00",
       "retrievedAt": "2026-08-12T14:12:35.409Z",
-      "feedId": "tenis",
-      "league": "Hamburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b22f0d3203fa",
-    "slug": "nigeria-w-vence-china-w-por-88-a-77-em-international-friendly-w-b22f0d",
-    "sportId": "basquete",
-    "title": "Nigeria (W) vence China (W) por 88 a 77 em International Friendly (W)",
-    "summary": "Nigeria (W) superou China (W) por 88 a 77 em International Friendly (W).",
-    "content": "Nigeria (W) superou China (W) por 88 a 77 em International Friendly (W)., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "international-friendly-w"
-    ],
-    "seoTitle": "Nigeria (W) vence China (W) por 88 a 77 em International Friendly (W)",
-    "seoDescription": "Nigeria (W) superou China (W) por 88 a 77 em International Friendly (W).",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T14:12:35.406Z",
-    "createdAt": "2026-08-12T14:12:35.406Z",
-    "updatedAt": "2026-08-12T14:12:35.406Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808829",
-      "eventStartTime": "2026-08-12T11:30:00+00:00",
-      "retrievedAt": "2026-08-12T14:12:35.406Z",
-      "feedId": "basquete",
-      "league": "International Friendly (W)"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3f8570215a1e",
-    "slug": "ahli-sana-a-e-ittihad-ibb-ficam-no-0-a-0-pelo-yemeni-league-3f8570",
-    "sportId": "futebol",
-    "title": "Ahli Sana'a e Ittihad Ibb ficam no 0 a 0 pelo Yemeni League",
-    "summary": "Ahli Sana'a e Ittihad Ibb empataram por 0 a 0 pelo Yemeni League.",
-    "content": "Ahli Sana'a e Ittihad Ibb empataram por 0 a 0 pelo Yemeni League, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "yemeni-league"
-    ],
-    "seoTitle": "Ahli Sana'a e Ittihad Ibb ficam no 0 a 0 pelo Yemeni League",
-    "seoDescription": "Ahli Sana'a e Ittihad Ibb empataram por 0 a 0 pelo Yemeni League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T14:12:35.402Z",
-    "createdAt": "2026-08-12T14:12:35.402Z",
-    "updatedAt": "2026-08-12T14:12:35.402Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4710355",
-      "eventStartTime": "2026-08-12T13:00:00+00:00",
-      "retrievedAt": "2026-08-12T14:12:35.402Z",
-      "feedId": "futebol",
-      "league": "Yemeni League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-844c1c2f3410",
-    "slug": "toros-de-tijuana-vence-algodoneros-del-union-laguna-por-9-a-3-na-lmb-844c1c",
-    "sportId": "beisebol",
-    "title": "Toros de Tijuana vence Algodoneros del Unión Laguna por 9 a 3 na LMB",
-    "summary": "Toros de Tijuana derrotou Algodoneros del Unión Laguna por 9 a 3 na LMB.",
-    "content": "Toros de Tijuana derrotou Algodoneros del Unión Laguna por 9 a 3 na LMB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "lmb"
-    ],
-    "seoTitle": "Toros de Tijuana vence Algodoneros del Unión Laguna por 9 a 3 na LMB",
-    "seoDescription": "Toros de Tijuana derrotou Algodoneros del Unión Laguna por 9 a 3 na LMB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T12:50:09.292Z",
-    "createdAt": "2026-08-12T12:50:09.292Z",
-    "updatedAt": "2026-08-12T12:50:09.292Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4806790",
-      "eventStartTime": "2026-08-12T01:30:00+00:00",
-      "retrievedAt": "2026-08-12T12:50:09.292Z",
-      "feedId": "beisebol",
-      "league": "LMB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5b858339b43e",
-    "slug": "kalender-a-serdarusic-n-vence-bass-f-jans-j-por-2-a-1-em-hamburg-5b8583",
-    "sportId": "tenis",
-    "title": "Kalender A./Serdarusic N. vence Bass F./Jans J. por 2 a 1 em Hamburg",
-    "summary": "Kalender A./Serdarusic N. superou Bass F./Jans J. por 2 a 1 em Hamburg.",
-    "content": "Kalender A./Serdarusic N. superou Bass F./Jans J. por 2 a 1 em Hamburg., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "hamburg"
-    ],
-    "seoTitle": "Kalender A./Serdarusic N. vence Bass F./Jans J. por 2 a 1 em Hamburg",
-    "seoDescription": "Kalender A./Serdarusic N. superou Bass F./Jans J. por 2 a 1 em Hamburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T12:50:09.285Z",
-    "createdAt": "2026-08-12T12:50:09.285Z",
-    "updatedAt": "2026-08-12T12:50:09.285Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807564",
-      "eventStartTime": "2026-08-12T10:54:36+00:00",
-      "retrievedAt": "2026-08-12T12:50:09.285Z",
       "feedId": "tenis",
       "league": "Hamburg"
     },
