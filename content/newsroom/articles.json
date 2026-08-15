@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-ac1e469671dc",
+    "slug": "hubert-hurkacz-vence-sho-shimabukuro-por-2-a-0-em-cincinnati-ac1e46",
+    "sportId": "tenis",
+    "title": "Hubert Hurkacz vence Sho Shimabukuro por 2 a 0 em Cincinnati",
+    "summary": "Hubert Hurkacz superou Sho Shimabukuro por 2 a 0 em Cincinnati.",
+    "content": "Hubert Hurkacz superou Sho Shimabukuro por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Hubert Hurkacz vence Sho Shimabukuro por 2 a 0 em Cincinnati",
+    "seoDescription": "Hubert Hurkacz superou Sho Shimabukuro por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T14:44:47.643Z",
+    "createdAt": "2026-08-15T14:44:47.643Z",
+    "updatedAt": "2026-08-15T14:44:47.643Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813388",
+      "eventStartTime": "2026-08-14T15:13:44+00:00",
+      "retrievedAt": "2026-08-15T14:44:47.643Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-218356a93a1b",
+    "slug": "warrenpoint-town-e-ards-fc-ficam-no-0-a-0-pela-nifl-championship-218356",
+    "sportId": "futebol",
+    "title": "Warrenpoint Town e Ards FC ficam no 0 a 0 pela NIFL Championship",
+    "summary": "Warrenpoint Town e Ards FC empataram por 0 a 0 pela NIFL Championship.",
+    "content": "Warrenpoint Town e Ards FC empataram por 0 a 0 pela NIFL Championship, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "nifl-championship"
+    ],
+    "seoTitle": "Warrenpoint Town e Ards FC ficam no 0 a 0 pela NIFL Championship",
+    "seoDescription": "Warrenpoint Town e Ards FC empataram por 0 a 0 pela NIFL Championship.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T14:44:47.579Z",
+    "createdAt": "2026-08-15T14:44:47.579Z",
+    "updatedAt": "2026-08-15T14:44:47.579Z",
+    "homepagePriority": 82,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4747657",
+      "eventStartTime": "2026-08-15T14:00:00+00:00",
+      "retrievedAt": "2026-08-15T14:44:47.579Z",
+      "feedId": "futebol",
+      "league": "NIFL Championship"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3091cbf3ae4b",
     "slug": "daria-snigur-vence-yulia-starodubtsewa-por-2-a-0-em-cincinnati-3091cb",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-11T20:23:27.921Z",
       "feedId": "futebol",
       "league": "Colombian Women's League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-44eb00b491d1",
-    "slug": "orix-buffaloes-vence-rakuten-gold-eagles-por-9-a-1-na-npb-44eb00",
-    "sportId": "beisebol",
-    "title": "Orix Buffaloes vence Rakuten Gold Eagles por 9 a 1 na NPB",
-    "summary": "Orix Buffaloes derrotou Rakuten Gold Eagles por 9 a 1 na NPB.",
-    "content": "Orix Buffaloes derrotou Rakuten Gold Eagles por 9 a 1 na NPB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Orix Buffaloes vence Rakuten Gold Eagles por 9 a 1 na NPB",
-    "seoDescription": "Orix Buffaloes derrotou Rakuten Gold Eagles por 9 a 1 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T19:43:25.125Z",
-    "createdAt": "2026-08-11T19:43:25.125Z",
-    "updatedAt": "2026-08-11T19:43:25.125Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4627252",
-      "eventStartTime": "2026-08-11T09:00:00+00:00",
-      "retrievedAt": "2026-08-11T19:43:25.125Z",
-      "feedId": "beisebol",
-      "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c42ad460dd73",
-    "slug": "quentin-halys-e-soon-woo-kwon-empatam-por-0-a-0-em-cincinnati-c42ad4",
-    "sportId": "tenis",
-    "title": "Quentin Halys e Soon-Woo Kwon empatam por 0 a 0 em Cincinnati",
-    "summary": "Quentin Halys e Soon-Woo Kwon terminaram empatados por 0 a 0 em Cincinnati.",
-    "content": "Quentin Halys e Soon-Woo Kwon terminaram empatados por 0 a 0 em Cincinnati., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Quentin Halys e Soon-Woo Kwon empatam por 0 a 0 em Cincinnati",
-    "seoDescription": "Quentin Halys e Soon-Woo Kwon terminaram empatados por 0 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T19:43:25.122Z",
-    "createdAt": "2026-08-11T19:43:25.122Z",
-    "updatedAt": "2026-08-11T19:43:25.122Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808232",
-      "eventStartTime": "2026-08-11T18:58:01+00:00",
-      "retrievedAt": "2026-08-11T19:43:25.122Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
