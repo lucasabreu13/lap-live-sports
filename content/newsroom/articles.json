@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-7afb9f2d1f52",
+    "slug": "kia-tigers-vence-doosan-bears-por-6-a-1-na-kbo-7afb9f",
+    "sportId": "beisebol",
+    "title": "KIA Tigers vence Doosan Bears por 6 a 1 na KBO",
+    "summary": "KIA Tigers derrotou Doosan Bears por 6 a 1 na KBO.",
+    "content": "KIA Tigers derrotou Doosan Bears por 6 a 1 na KBO, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "kbo"
+    ],
+    "seoTitle": "KIA Tigers vence Doosan Bears por 6 a 1 na KBO",
+    "seoDescription": "KIA Tigers derrotou Doosan Bears por 6 a 1 na KBO.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T13:57:28.925Z",
+    "createdAt": "2026-08-15T13:57:28.925Z",
+    "updatedAt": "2026-08-15T13:57:28.925Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815046",
+      "eventStartTime": "2026-08-15T10:00:00+00:00",
+      "retrievedAt": "2026-08-15T13:57:28.925Z",
+      "feedId": "beisebol",
+      "league": "KBO"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9620838d0ec6",
+    "slug": "maria-timofeeva-e-katerina-siniakova-empatam-por-0-a-0-em-cincinnati-962083",
+    "sportId": "tenis",
+    "title": "Maria Timofeeva e Katerina Siniakova empatam por 0 a 0 em Cincinnati",
+    "summary": "Maria Timofeeva e Katerina Siniakova terminaram empatados por 0 a 0 em Cincinnati.",
+    "content": "Maria Timofeeva e Katerina Siniakova terminaram empatados por 0 a 0 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Maria Timofeeva e Katerina Siniakova empatam por 0 a 0 em Cincinnati",
+    "seoDescription": "Maria Timofeeva e Katerina Siniakova terminaram empatados por 0 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T13:57:28.920Z",
+    "createdAt": "2026-08-15T13:57:28.920Z",
+    "updatedAt": "2026-08-15T13:57:28.920Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809656",
+      "eventStartTime": "2026-08-15T14:00:00+00:00",
+      "retrievedAt": "2026-08-15T13:57:28.920Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f2e0e1330920",
+    "slug": "uruguay-vence-china-por-91-a-72-em-international-friendlies-f2e0e1",
+    "sportId": "basquete",
+    "title": "Uruguay vence China por 91 a 72 em International Friendlies",
+    "summary": "Uruguay superou China por 91 a 72 em International Friendlies.",
+    "content": "Uruguay superou China por 91 a 72 em International Friendlies., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendlies"
+    ],
+    "seoTitle": "Uruguay vence China por 91 a 72 em International Friendlies",
+    "seoDescription": "Uruguay superou China por 91 a 72 em International Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T13:57:28.916Z",
+    "createdAt": "2026-08-15T13:57:28.916Z",
+    "updatedAt": "2026-08-15T13:57:28.916Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815196",
+      "eventStartTime": "2026-08-15T11:30:00+00:00",
+      "retrievedAt": "2026-08-15T13:57:28.916Z",
+      "feedId": "basquete",
+      "league": "International Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-046dffb4b66e",
+    "slug": "hacken-w-supera-if-brommapojkarna-w-por-6-a-0-pelo-damallsvenskan-046dff",
+    "sportId": "futebol",
+    "title": "Hacken (W) supera If Brommapojkarna (W) por 6 a 0 pelo Damallsvenskan",
+    "summary": "Hacken (W) venceu If Brommapojkarna (W) por 6 a 0 pelo Damallsvenskan.",
+    "content": "Hacken (W) venceu If Brommapojkarna (W) por 6 a 0 pelo Damallsvenskan, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "damallsvenskan"
+    ],
+    "seoTitle": "Hacken (W) supera If Brommapojkarna (W) por 6 a 0 pelo Damallsvenskan",
+    "seoDescription": "Hacken (W) venceu If Brommapojkarna (W) por 6 a 0 pelo Damallsvenskan.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T13:57:28.907Z",
+    "createdAt": "2026-08-15T13:57:28.907Z",
+    "updatedAt": "2026-08-15T13:57:28.907Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4636256",
+      "eventStartTime": "2026-08-15T12:00:00+00:00",
+      "retrievedAt": "2026-08-15T13:57:28.907Z",
+      "feedId": "futebol",
+      "league": "Damallsvenskan"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-2150fb7867b1",
     "slug": "nc-dinos-vence-lotte-giants-por-9-a-8-na-kbo-2150fb",
     "sportId": "beisebol",
@@ -12440,174 +12608,6 @@
       "retrievedAt": "2026-08-11T19:43:25.110Z",
       "feedId": "futebol",
       "league": "Primera B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5cb84354b40b",
-    "slug": "kt-wiz-suwon-vence-nc-dinos-por-7-a-3-na-kbo-5cb843",
-    "sportId": "beisebol",
-    "title": "Kt Wiz Suwon vence NC Dinos por 7 a 3 na KBO",
-    "summary": "Kt Wiz Suwon derrotou NC Dinos por 7 a 3 na KBO.",
-    "content": "Kt Wiz Suwon derrotou NC Dinos por 7 a 3 na KBO, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "kbo"
-    ],
-    "seoTitle": "Kt Wiz Suwon vence NC Dinos por 7 a 3 na KBO",
-    "seoDescription": "Kt Wiz Suwon derrotou NC Dinos por 7 a 3 na KBO.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T18:32:22.458Z",
-    "createdAt": "2026-08-11T18:32:22.458Z",
-    "updatedAt": "2026-08-11T18:32:22.458Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808384",
-      "eventStartTime": "2026-08-11T10:00:00+00:00",
-      "retrievedAt": "2026-08-11T18:32:22.458Z",
-      "feedId": "beisebol",
-      "league": "KBO"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-167ef839df4e",
-    "slug": "brandon-nakashima-vence-luciano-darderi-por-2-a-0-em-montreal-167ef8",
-    "sportId": "tenis",
-    "title": "Brandon Nakashima vence Luciano Darderi por 2 a 0 em Montreal",
-    "summary": "Brandon Nakashima superou Luciano Darderi por 2 a 0 em Montreal.",
-    "content": "Brandon Nakashima superou Luciano Darderi por 2 a 0 em Montreal., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "montreal"
-    ],
-    "seoTitle": "Brandon Nakashima vence Luciano Darderi por 2 a 0 em Montreal",
-    "seoDescription": "Brandon Nakashima superou Luciano Darderi por 2 a 0 em Montreal.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T18:32:22.453Z",
-    "createdAt": "2026-08-11T18:32:22.453Z",
-    "updatedAt": "2026-08-11T18:32:22.453Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807292",
-      "eventStartTime": "2026-08-11T16:42:12+00:00",
-      "retrievedAt": "2026-08-11T18:32:22.453Z",
-      "feedId": "tenis",
-      "league": "Montreal"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7e70d3e77680",
-    "slug": "mineros-de-zacatecas-vence-calor-de-cancun-por-76-a-69-em-lnbp-7e70d3",
-    "sportId": "basquete",
-    "title": "Mineros de Zacatecas vence Calor de Cancun por 76 a 69 em LNBP",
-    "summary": "Mineros de Zacatecas superou Calor de Cancun por 76 a 69 em LNBP.",
-    "content": "Mineros de Zacatecas superou Calor de Cancun por 76 a 69 em LNBP., em 10 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnbp"
-    ],
-    "seoTitle": "Mineros de Zacatecas vence Calor de Cancun por 76 a 69 em LNBP",
-    "seoDescription": "Mineros de Zacatecas superou Calor de Cancun por 76 a 69 em LNBP.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T18:32:22.451Z",
-    "createdAt": "2026-08-11T18:32:22.451Z",
-    "updatedAt": "2026-08-11T18:32:22.451Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4707854",
-      "eventStartTime": "2026-08-11T01:15:00+00:00",
-      "retrievedAt": "2026-08-11T18:32:22.451Z",
-      "feedId": "basquete",
-      "league": "LNBP"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f17b935c6eb6",
-    "slug": "spakenburg-e-hollandia-ficam-no-0-a-0-pelo-club-friendlies-f17b93",
-    "sportId": "futebol",
-    "title": "Spakenburg e Hollandia ficam no 0 a 0 pelo Club Friendlies",
-    "summary": "Spakenburg e Hollandia empataram por 0 a 0 pelo Club Friendlies.",
-    "content": "Spakenburg e Hollandia empataram por 0 a 0 pelo Club Friendlies, em 11 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Spakenburg e Hollandia ficam no 0 a 0 pelo Club Friendlies",
-    "seoDescription": "Spakenburg e Hollandia empataram por 0 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T18:32:22.444Z",
-    "createdAt": "2026-08-11T18:32:22.444Z",
-    "updatedAt": "2026-08-11T18:32:22.444Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4806668",
-      "eventStartTime": "2026-08-11T17:30:00+00:00",
-      "retrievedAt": "2026-08-11T18:32:22.444Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
     },
     "articleFormat": "result-brief"
   }

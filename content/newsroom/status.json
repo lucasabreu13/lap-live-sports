@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-08-15T13:41:17.491Z",
-  "commit": "fb5e285655bfaf4089913c7d67fd68fb02213004",
-  "runId": "31887854382",
+  "validatedAt": "2026-08-15T13:57:29.271Z",
+  "commit": "f834e8d17a83c2607ee724c25012643e69b08640",
+  "runId": "31888581116",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -13,22 +13,22 @@
     "curatedMerge": "success"
   },
   "metrics": {
-    "articlesCreated": 3,
+    "articlesCreated": 4,
     "articlesUpdated": 0,
-    "articlesRemoved": 3,
+    "articlesRemoved": 4,
     "articlesRejected": null,
     "curatedArticles": 25,
     "curatedFiles": 5,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-08-15T13:41:17.251Z",
+    "lastPublishedAt": "2026-08-15T13:57:28.925Z",
     "lastPublishedBySport": {
-      "futebol": "2026-08-15T13:41:17.185Z",
+      "futebol": "2026-08-15T13:57:28.907Z",
       "futebol-americano": "2026-08-15T03:51:43.204Z",
-      "tenis": "2026-08-15T13:41:17.233Z",
+      "tenis": "2026-08-15T13:57:28.920Z",
       "ciclismo": null,
       "formula1": null,
-      "basquete": "2026-08-15T03:02:44.744Z",
-      "beisebol": "2026-08-15T13:41:17.251Z",
+      "basquete": "2026-08-15T13:57:28.916Z",
+      "beisebol": "2026-08-15T13:57:28.925Z",
       "golfe": null,
       "surfe": null
     },
@@ -40,17 +40,17 @@
         "futebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-15T13:41:17.185Z"
+          "lastPublishedAt": "2026-08-15T13:57:28.907Z"
         },
         "futebol-americano": {
           "status": "ok",
-          "ageHours": 9.8,
+          "ageHours": 10.1,
           "lastPublishedAt": "2026-08-15T03:51:43.204Z"
         },
         "tenis": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-15T13:41:17.233Z"
+          "lastPublishedAt": "2026-08-15T13:57:28.920Z"
         },
         "ciclismo": {
           "status": "critical",
@@ -64,13 +64,13 @@
         },
         "basquete": {
           "status": "ok",
-          "ageHours": 10.6,
-          "lastPublishedAt": "2026-08-15T03:02:44.744Z"
+          "ageHours": 0,
+          "lastPublishedAt": "2026-08-15T13:57:28.916Z"
         },
         "beisebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-15T13:41:17.251Z"
+          "lastPublishedAt": "2026-08-15T13:57:28.925Z"
         },
         "golfe": {
           "status": "critical",
