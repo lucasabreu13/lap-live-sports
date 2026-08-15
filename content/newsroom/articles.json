@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-f7ee17350801",
+    "slug": "emma-navarro-vence-anhelina-kalinina-por-2-a-1-em-cincinnati-f7ee17",
+    "sportId": "tenis",
+    "title": "Emma Navarro vence Anhelina Kalinina por 2 a 1 em Cincinnati",
+    "summary": "Emma Navarro superou Anhelina Kalinina por 2 a 1 em Cincinnati.",
+    "content": "Emma Navarro superou Anhelina Kalinina por 2 a 1 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Emma Navarro vence Anhelina Kalinina por 2 a 1 em Cincinnati",
+    "seoDescription": "Emma Navarro superou Anhelina Kalinina por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T23:54:50.981Z",
+    "createdAt": "2026-08-15T23:54:50.981Z",
+    "updatedAt": "2026-08-15T23:54:50.981Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813634",
+      "eventStartTime": "2026-08-15T21:36:45+00:00",
+      "retrievedAt": "2026-08-15T23:54:50.981Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-966dd67ae5e5",
+    "slug": "lagomar-vence-tabare-por-67-a-61-em-liga-de-ascenso-966dd6",
+    "sportId": "basquete",
+    "title": "Lagomar vence Tabare por 67 a 61 em Liga de ascenso",
+    "summary": "Lagomar superou Tabare por 67 a 61 em Liga de ascenso.",
+    "content": "Lagomar superou Tabare por 67 a 61 em Liga de ascenso., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Lagomar vence Tabare por 67 a 61 em Liga de ascenso",
+    "seoDescription": "Lagomar superou Tabare por 67 a 61 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T23:54:50.978Z",
+    "createdAt": "2026-08-15T23:54:50.978Z",
+    "updatedAt": "2026-08-15T23:54:50.978Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807072",
+      "eventStartTime": "2026-08-14T23:15:00+00:00",
+      "retrievedAt": "2026-08-15T23:54:50.978Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8621f43bbac4",
+    "slug": "belgrano-supera-independiente-rivadavia-por-2-a-0-pela-superliga-8621f4",
+    "sportId": "futebol",
+    "title": "Belgrano supera Independiente Rivadavia por 2 a 0 pela Superliga",
+    "summary": "Belgrano venceu Independiente Rivadavia por 2 a 0 pela Superliga.",
+    "content": "Belgrano venceu Independiente Rivadavia por 2 a 0 pela Superliga, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "superliga"
+    ],
+    "seoTitle": "Belgrano supera Independiente Rivadavia por 2 a 0 pela Superliga",
+    "seoDescription": "Belgrano venceu Independiente Rivadavia por 2 a 0 pela Superliga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T23:54:50.963Z",
+    "createdAt": "2026-08-15T23:54:50.963Z",
+    "updatedAt": "2026-08-15T23:54:50.963Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4633365",
+      "eventStartTime": "2026-08-15T22:00:00+00:00",
+      "retrievedAt": "2026-08-15T23:54:50.963Z",
+      "feedId": "futebol",
+      "league": "Superliga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d75a30b11f8c",
     "slug": "james-duckworth-vence-jeffrey-john-wolf-por-2-a-0-em-cincinnati-d75a30",
     "sportId": "tenis",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-12T16:08:42.858Z",
       "feedId": "basquete",
       "league": "Liga de ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6ac02f2bf6d4",
-    "slug": "fc-elva-supera-joker-por-3-a-0-pelo-estonian-cup-6ac02f",
-    "sportId": "futebol",
-    "title": "FC Elva supera Joker por 3 a 0 pelo Estonian Cup",
-    "summary": "FC Elva venceu Joker por 3 a 0 pelo Estonian Cup.",
-    "content": "FC Elva venceu Joker por 3 a 0 pelo Estonian Cup, em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "estonian-cup"
-    ],
-    "seoTitle": "FC Elva supera Joker por 3 a 0 pelo Estonian Cup",
-    "seoDescription": "FC Elva venceu Joker por 3 a 0 pelo Estonian Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T16:08:42.846Z",
-    "createdAt": "2026-08-12T16:08:42.846Z",
-    "updatedAt": "2026-08-12T16:08:42.846Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4797303",
-      "eventStartTime": "2026-08-12T16:00:00+00:00",
-      "retrievedAt": "2026-08-12T16:08:42.846Z",
-      "feedId": "futebol",
-      "league": "Estonian Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d0639edc14c0",
-    "slug": "baltimore-orioles-vence-minnesota-twins-por-5-a-2-na-mlb-d0639e",
-    "sportId": "beisebol",
-    "title": "Baltimore Orioles vence Minnesota Twins por 5 a 2 na MLB",
-    "summary": "Baltimore Orioles derrotou Minnesota Twins por 5 a 2 na MLB.",
-    "content": "Baltimore Orioles derrotou Minnesota Twins por 5 a 2 na MLB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Baltimore Orioles vence Minnesota Twins por 5 a 2 na MLB",
-    "seoDescription": "Baltimore Orioles derrotou Minnesota Twins por 5 a 2 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T15:13:33.037Z",
-    "createdAt": "2026-08-12T15:13:33.037Z",
-    "updatedAt": "2026-08-12T15:13:33.037Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602863",
-      "eventStartTime": "2026-08-11T23:40:00+00:00",
-      "retrievedAt": "2026-08-12T15:13:33.037Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-aef8f9cfa2bb",
-    "slug": "marco-cecchinato-vence-francesco-forti-por-2-a-0-em-todi-aef8f9",
-    "sportId": "tenis",
-    "title": "Marco Cecchinato vence Francesco Forti por 2 a 0 em Todi",
-    "summary": "Marco Cecchinato superou Francesco Forti por 2 a 0 em Todi.",
-    "content": "Marco Cecchinato superou Francesco Forti por 2 a 0 em Todi., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "todi"
-    ],
-    "seoTitle": "Marco Cecchinato vence Francesco Forti por 2 a 0 em Todi",
-    "seoDescription": "Marco Cecchinato superou Francesco Forti por 2 a 0 em Todi.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T15:13:33.026Z",
-    "createdAt": "2026-08-12T15:13:33.026Z",
-    "updatedAt": "2026-08-12T15:13:33.026Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808802",
-      "eventStartTime": "2026-08-12T13:40:43+00:00",
-      "retrievedAt": "2026-08-12T15:13:33.026Z",
-      "feedId": "tenis",
-      "league": "Todi"
     },
     "articleFormat": "result-brief"
   }
