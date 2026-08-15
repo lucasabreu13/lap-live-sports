@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-7e19ee95c658",
+    "slug": "ichikawa-t-imamura-m-vence-bar-biryukov-p-lomakin-g-por-2-a-1-em-astana-7e19ee",
+    "sportId": "tenis",
+    "title": "Ichikawa T./Imamura M. vence Bar Biryukov P./Lomakin G. por 2 a 1 em Astana",
+    "summary": "Ichikawa T./Imamura M. superou Bar Biryukov P./Lomakin G. por 2 a 1 em Astana.",
+    "content": "Ichikawa T./Imamura M. superou Bar Biryukov P./Lomakin G. por 2 a 1 em Astana., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "astana"
+    ],
+    "seoTitle": "Ichikawa T./Imamura M. vence Bar Biryukov P./Lomakin G. por 2 a 1 em",
+    "seoDescription": "Ichikawa T./Imamura M. superou Bar Biryukov P./Lomakin G. por 2 a 1 em Astana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T22:09:15.774Z",
+    "createdAt": "2026-08-15T22:09:15.774Z",
+    "updatedAt": "2026-08-15T22:09:15.774Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814710",
+      "eventStartTime": "2026-08-15T10:54:25+00:00",
+      "retrievedAt": "2026-08-15T22:09:15.774Z",
+      "feedId": "tenis",
+      "league": "Astana"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-fe9df433406d",
+    "slug": "rb-bragantino-w-supera-vitoria-w-por-6-a-2-pelo-brasileirao-women-fe9df4",
+    "sportId": "futebol",
+    "title": "RB Bragantino (W) supera Vitoria (W) por 6 a 2 pelo Brasileirão Women",
+    "summary": "RB Bragantino (W) venceu Vitoria (W) por 6 a 2 pelo Brasileirão Women.",
+    "content": "RB Bragantino (W) venceu Vitoria (W) por 6 a 2 pelo Brasileirão Women, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "brasileirao-women"
+    ],
+    "seoTitle": "RB Bragantino (W) supera Vitoria (W) por 6 a 2 pelo Brasileirão Women",
+    "seoDescription": "RB Bragantino (W) venceu Vitoria (W) por 6 a 2 pelo Brasileirão Women.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T22:09:15.730Z",
+    "createdAt": "2026-08-15T22:09:15.730Z",
+    "updatedAt": "2026-08-15T22:09:15.730Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4660876",
+      "eventStartTime": "2026-08-15T20:00:00+00:00",
+      "retrievedAt": "2026-08-15T22:09:15.730Z",
+      "feedId": "futebol",
+      "league": "Brasileirão Women"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-fd27d88a4fce",
     "slug": "baltimore-orioles-vence-tampa-bay-rays-por-6-a-5-na-mlb-fd27d8",
     "sportId": "beisebol",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-12T11:56:27.849Z",
       "feedId": "tenis",
       "league": "Hamburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-59246a0ee8d5",
-    "slug": "piratas-de-los-lagos-vence-abc-camp-imp-alvarado-por-68-a-62-em-liga-nacional-59246a",
-    "sportId": "basquete",
-    "title": "Piratas De Los Lagos vence ABC CAMP - Imp. Alvarado por 68 a 62 em Liga Nacional",
-    "summary": "Piratas De Los Lagos superou ABC CAMP - Imp. Alvarado por 68 a 62 em Liga Nacional.",
-    "content": "Piratas De Los Lagos superou ABC CAMP - Imp. Alvarado por 68 a 62 em Liga Nacional., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-nacional"
-    ],
-    "seoTitle": "Piratas De Los Lagos vence ABC CAMP - Imp. Alvarado por 68 a 62 em",
-    "seoDescription": "Piratas De Los Lagos superou ABC CAMP - Imp. Alvarado por 68 a 62 em Liga Nacional.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T11:56:27.847Z",
-    "createdAt": "2026-08-12T11:56:27.847Z",
-    "updatedAt": "2026-08-12T11:56:27.847Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808379",
-      "eventStartTime": "2026-08-12T01:00:00+00:00",
-      "retrievedAt": "2026-08-12T11:56:27.847Z",
-      "feedId": "basquete",
-      "league": "Liga Nacional"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d7867c51269c",
-    "slug": "nk-vrapce-e-zagreb-hask-ficam-no-0-a-0-pelo-club-friendlies-d7867c",
-    "sportId": "futebol",
-    "title": "NK Vrapce e Zagreb Hask ficam no 0 a 0 pelo Club Friendlies",
-    "summary": "NK Vrapce e Zagreb Hask empataram por 0 a 0 pelo Club Friendlies.",
-    "content": "NK Vrapce e Zagreb Hask empataram por 0 a 0 pelo Club Friendlies, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "NK Vrapce e Zagreb Hask ficam no 0 a 0 pelo Club Friendlies",
-    "seoDescription": "NK Vrapce e Zagreb Hask empataram por 0 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T11:56:27.837Z",
-    "createdAt": "2026-08-12T11:56:27.837Z",
-    "updatedAt": "2026-08-12T11:56:27.837Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4804972",
-      "eventStartTime": "2026-08-12T11:00:00+00:00",
-      "retrievedAt": "2026-08-12T11:56:27.837Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
     },
     "articleFormat": "result-brief"
   }
