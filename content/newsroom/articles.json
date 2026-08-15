@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-9cb2b7413283",
+    "slug": "alex-barrena-e-lukas-neumayer-empatam-por-0-a-0-em-todi-9cb2b7",
+    "sportId": "tenis",
+    "title": "Alex Barrena e Lukas Neumayer empatam por 0 a 0 em Todi",
+    "summary": "Alex Barrena e Lukas Neumayer terminaram empatados por 0 a 0 em Todi.",
+    "content": "Alex Barrena e Lukas Neumayer terminaram empatados por 0 a 0 em Todi., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "todi"
+    ],
+    "seoTitle": "Alex Barrena e Lukas Neumayer empatam por 0 a 0 em Todi",
+    "seoDescription": "Alex Barrena e Lukas Neumayer terminaram empatados por 0 a 0 em Todi.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T18:15:13.825Z",
+    "createdAt": "2026-08-15T18:15:13.825Z",
+    "updatedAt": "2026-08-15T18:15:13.825Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813387",
+      "eventStartTime": "2026-08-14T15:07:48+00:00",
+      "retrievedAt": "2026-08-15T18:15:13.825Z",
+      "feedId": "tenis",
+      "league": "Todi"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2a04c5584e5a",
+    "slug": "olimpia-vence-felix-perez-cardozo-por-108-a-87-em-lnb-2a04c5",
+    "sportId": "basquete",
+    "title": "Olimpia vence Felix Perez Cardozo por 108 a 87 em LNB",
+    "summary": "Olimpia superou Felix Perez Cardozo por 108 a 87 em LNB.",
+    "content": "Olimpia superou Felix Perez Cardozo por 108 a 87 em LNB., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Olimpia vence Felix Perez Cardozo por 108 a 87 em LNB",
+    "seoDescription": "Olimpia superou Felix Perez Cardozo por 108 a 87 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T18:15:13.774Z",
+    "createdAt": "2026-08-15T18:15:13.774Z",
+    "updatedAt": "2026-08-15T18:15:13.774Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808068",
+      "eventStartTime": "2026-08-14T23:00:00+00:00",
+      "retrievedAt": "2026-08-15T18:15:13.774Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-bdb368be9bba",
+    "slug": "atlante-u21-e-toluca-u21-ficam-no-0-a-0-pela-liga-mx-u21-bdb368",
+    "sportId": "futebol",
+    "title": "Atlante U21 e Toluca U21 ficam no 0 a 0 pela Liga MX U21",
+    "summary": "Atlante U21 e Toluca U21 empataram por 0 a 0 pela Liga MX U21.",
+    "content": "Atlante U21 e Toluca U21 empataram por 0 a 0 pela Liga MX U21, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-mx-u21"
+    ],
+    "seoTitle": "Atlante U21 e Toluca U21 ficam no 0 a 0 pela Liga MX U21",
+    "seoDescription": "Atlante U21 e Toluca U21 empataram por 0 a 0 pela Liga MX U21.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T18:15:13.752Z",
+    "createdAt": "2026-08-15T18:15:13.752Z",
+    "updatedAt": "2026-08-15T18:15:13.752Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4759889",
+      "eventStartTime": "2026-08-15T18:00:00+00:00",
+      "retrievedAt": "2026-08-15T18:15:13.752Z",
+      "feedId": "futebol",
+      "league": "Liga MX U21"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-e5a9695dddca",
     "slug": "adolfo-daniel-vallejo-vence-kyrian-jacquet-por-2-a-0-em-cincinnati-e5a969",
     "sportId": "tenis",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-12T03:09:41.081Z",
       "feedId": "basquete",
       "league": "WNBA"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c95e89d0e4e4",
-    "slug": "junior-fc-e-deportivo-pereira-ficam-no-0-a-0-pelo-primera-a-c95e89",
-    "sportId": "futebol",
-    "title": "Junior FC e Deportivo Pereira ficam no 0 a 0 pelo Primera A",
-    "summary": "Junior FC e Deportivo Pereira empataram por 0 a 0 pelo Primera A.",
-    "content": "Junior FC e Deportivo Pereira empataram por 0 a 0 pelo Primera A, em 11 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-a"
-    ],
-    "seoTitle": "Junior FC e Deportivo Pereira ficam no 0 a 0 pelo Primera A",
-    "seoDescription": "Junior FC e Deportivo Pereira empataram por 0 a 0 pelo Primera A.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T03:09:41.073Z",
-    "createdAt": "2026-08-12T03:09:41.073Z",
-    "updatedAt": "2026-08-12T03:09:41.073Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732060",
-      "eventStartTime": "2026-08-12T01:05:00+00:00",
-      "retrievedAt": "2026-08-12T03:09:41.073Z",
-      "feedId": "futebol",
-      "league": "Primera A"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b4546cfcb82f",
-    "slug": "los-angeles-dodgers-vence-kansas-city-royals-por-6-a-5-na-mlb-b4546c",
-    "sportId": "beisebol",
-    "title": "Los Angeles Dodgers vence Kansas City Royals por 6 a 5 na MLB",
-    "summary": "Los Angeles Dodgers derrotou Kansas City Royals por 6 a 5 na MLB.",
-    "content": "Los Angeles Dodgers derrotou Kansas City Royals por 6 a 5 na MLB, em 10 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Los Angeles Dodgers vence Kansas City Royals por 6 a 5 na MLB",
-    "seoDescription": "Los Angeles Dodgers derrotou Kansas City Royals por 6 a 5 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T00:41:56.151Z",
-    "createdAt": "2026-08-12T00:41:56.151Z",
-    "updatedAt": "2026-08-12T00:41:56.151Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602872",
-      "eventStartTime": "2026-08-11T02:10:00+00:00",
-      "retrievedAt": "2026-08-12T00:41:56.151Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8ef5f34564fb",
-    "slug": "alina-charaeva-vence-rebecca-marino-por-2-a-0-em-cincinnati-8ef5f3",
-    "sportId": "tenis",
-    "title": "Alina Charaeva vence Rebecca Marino por 2 a 0 em Cincinnati",
-    "summary": "Alina Charaeva superou Rebecca Marino por 2 a 0 em Cincinnati.",
-    "content": "Alina Charaeva superou Rebecca Marino por 2 a 0 em Cincinnati., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Alina Charaeva vence Rebecca Marino por 2 a 0 em Cincinnati",
-    "seoDescription": "Alina Charaeva superou Rebecca Marino por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T00:41:56.144Z",
-    "createdAt": "2026-08-12T00:41:56.144Z",
-    "updatedAt": "2026-08-12T00:41:56.144Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808278",
-      "eventStartTime": "2026-08-11T23:22:38+00:00",
-      "retrievedAt": "2026-08-12T00:41:56.144Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
