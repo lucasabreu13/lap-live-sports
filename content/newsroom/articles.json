@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-c7cd6cc8bcf9",
+    "slug": "cincinnati-reds-vence-miami-marlins-por-1-a-0-na-mlb-c7cd6c",
+    "sportId": "beisebol",
+    "title": "Cincinnati Reds vence Miami Marlins por 1 a 0 na MLB",
+    "summary": "Cincinnati Reds derrotou Miami Marlins por 1 a 0 na MLB.",
+    "content": "Cincinnati Reds derrotou Miami Marlins por 1 a 0 na MLB, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Cincinnati Reds vence Miami Marlins por 1 a 0 na MLB",
+    "seoDescription": "Cincinnati Reds derrotou Miami Marlins por 1 a 0 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T00:57:26.319Z",
+    "createdAt": "2026-08-15T00:57:26.319Z",
+    "updatedAt": "2026-08-15T00:57:26.319Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602962",
+      "eventStartTime": "2026-08-14T22:10:00+00:00",
+      "retrievedAt": "2026-08-15T00:57:26.319Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-40f4fe007de6",
+    "slug": "lammons-n-withrow-j-vence-broady-l-wendelken-h-por-1-a-0-em-brownsburg-40f4fe",
+    "sportId": "tenis",
+    "title": "Lammons N./Withrow J. vence Broady L./Wendelken H. por 1 a 0 em Brownsburg",
+    "summary": "Lammons N./Withrow J. superou Broady L./Wendelken H. por 1 a 0 em Brownsburg.",
+    "content": "Lammons N./Withrow J. superou Broady L./Wendelken H. por 1 a 0 em Brownsburg., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "brownsburg"
+    ],
+    "seoTitle": "Lammons N./Withrow J. vence Broady L./Wendelken H. por 1 a 0 em",
+    "seoDescription": "Lammons N./Withrow J. superou Broady L./Wendelken H. por 1 a 0 em Brownsburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T00:57:26.316Z",
+    "createdAt": "2026-08-15T00:57:26.316Z",
+    "updatedAt": "2026-08-15T00:57:26.316Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4812158",
+      "eventStartTime": "2026-08-14T23:57:30+00:00",
+      "retrievedAt": "2026-08-15T00:57:26.316Z",
+      "feedId": "tenis",
+      "league": "Brownsburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7884254e14d0",
+    "slug": "deportes-la-serena-supera-u-de-concepcion-por-2-a-0-pelo-first-division-788425",
+    "sportId": "futebol",
+    "title": "Deportes La Serena supera U. De Concepción por 2 a 0 pelo First Division",
+    "summary": "Deportes La Serena venceu U. De Concepción por 2 a 0 pelo First Division.",
+    "content": "Deportes La Serena venceu U. De Concepción por 2 a 0 pelo First Division, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "first-division"
+    ],
+    "seoTitle": "Deportes La Serena supera U. De Concepción por 2 a 0 pelo First",
+    "seoDescription": "Deportes La Serena venceu U. De Concepción por 2 a 0 pelo First Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T00:57:26.281Z",
+    "createdAt": "2026-08-15T00:57:26.281Z",
+    "updatedAt": "2026-08-15T00:57:26.281Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4650605",
+      "eventStartTime": "2026-08-14T23:00:00+00:00",
+      "retrievedAt": "2026-08-15T00:57:26.281Z",
+      "feedId": "futebol",
+      "league": "First Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5dc3a682c930",
     "slug": "andre-ilagan-vence-tristan-schoolkate-por-2-a-1-em-brownsburg-5dc3a6",
     "sportId": "tenis",
@@ -12428,106 +12554,6 @@
     "agentId": "curadoria-lap",
     "sourceUrls": [
       "https://www.reuters.com/sports/soccer/klopp-become-germany-soccer-coach-dfb-says-2026-07-24/"
-    ]
-  },
-  {
-    "id": "curated-nfl-mahomes-camp-20260725",
-    "slug": "mahomes-liberado-treinar-chiefs-camp-recuperacao-joelho",
-    "sportId": "futebol-americano",
-    "title": "Mahomes é liberado para treinar integralmente no camp dos Chiefs após lesão no joelho",
-    "summary": "Patrick Mahomes recebeu autorização para participar de todos os períodos do training camp; Kansas City seguirá avaliando o quarterback diariamente.",
-    "content": "Patrick Mahomes alcançou um marco importante em sua recuperação. O quarterback dos Chiefs recebeu liberação para participar integralmente dos períodos de treino no início do training camp, meses depois da lesão no joelho que encerrou sua temporada de 2025.\n\nTraining camp é o período de preparação intensiva que antecede a temporada da NFL, quando os elencos instalam sistemas, definem funções e começam a consolidar a hierarquia por posição. Estar liberado desde o início permite a Mahomes recuperar ritmo com seus companheiros, mas Kansas City não trata a autorização médica como sinônimo de processo encerrado. Andy Reid afirmou que a evolução será acompanhada dia a dia.\n\nRashee Rice também foi liberado para os treinos, enquanto Omarr Norman-Lott deve começar na PUP, lista usada para jogadores fisicamente incapazes de treinar naquele momento. Para os Chiefs, o principal indicador das próximas semanas será como Mahomes responde ao aumento progressivo de carga sem necessidade de recuos.",
-    "sourceName": "Fonte verificada: Kansas City Chiefs",
-    "sourceUrl": "https://www.chiefs.com/news/chiefs-quarterbacks-rookies-and-select-veterans-report-to-training-camp",
-    "coverImageUrl": "/images/sports/futebol-americano.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "nfl",
-      "chiefs",
-      "patrick-mahomes",
-      "training-camp",
-      "lesao"
-    ],
-    "seoTitle": "Mahomes é liberado para treinar integralmente no camp dos Chiefs",
-    "seoDescription": "Patrick Mahomes pode participar de todos os períodos de treino dos Chiefs após recuperação do joelho.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-25T12:04:00.000Z",
-    "createdAt": "2026-07-25T12:04:00.000Z",
-    "updatedAt": "2026-07-25T12:04:00.000Z",
-    "homepagePriority": 94,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.chiefs.com/news/chiefs-quarterbacks-rookies-and-select-veterans-report-to-training-camp",
-      "https://www.chiefs.com/trainingcamp/"
-    ]
-  },
-  {
-    "id": "curated-tenis-halys-kitzbuhel-20260725",
-    "slug": "quentin-halys-vence-bublik-kitzbuhel-primeiro-titulo-atp",
-    "sportId": "tenis",
-    "title": "Quentin Halys vence Bublik em Kitzbühel e conquista primeiro título ATP da carreira",
-    "summary": "Francês derrotou Alexander Bublik por 6-4 e 7-6(6), disparou 17 aces e levantou seu primeiro troféu no circuito principal.",
-    "content": "Quentin Halys transformou uma longa caminhada no circuito em seu primeiro título ATP. O francês derrotou Alexander Bublik por 6-4 e 7-6(6) na final de Kitzbühel e encerrou a campanha na Áustria com o maior troféu de sua carreira profissional.\n\nO saque foi uma das chaves da decisão: Halys acertou 17 aces contra o campeão de 2025 e conseguiu sustentar a pressão nos momentos mais importantes do segundo set. Para um jogador que conquistou seu primeiro ponto no ranking ainda adolescente, o título aos 29 anos dá outra dimensão à temporada e pode produzir um salto relevante na classificação.\n\nKitzbühel é um ATP 250, categoria que distribui 250 pontos ao campeão. Com a gira de quadra dura ganhando espaço no calendário, a questão agora é quanto desse embalo Halys conseguirá transportar da altitude e do saibro austríaco para as próximas semanas.",
-    "sourceName": "Fonte verificada: ATP Tour",
-    "sourceUrl": "https://www.atptour.com/en/news/bublik-halys-kitzbuhel-2026-final",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "tenis",
-      "atp",
-      "quentin-halys",
-      "alexander-bublik",
-      "kitzbuhel"
-    ],
-    "seoTitle": "Halys vence Bublik em Kitzbühel e conquista primeiro título ATP",
-    "seoDescription": "Quentin Halys bateu Alexander Bublik por 6-4 e 7-6(6) e conquistou seu primeiro título ATP.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-25T12:02:00.000Z",
-    "createdAt": "2026-07-25T12:02:00.000Z",
-    "updatedAt": "2026-07-25T12:02:00.000Z",
-    "homepagePriority": 90,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.atptour.com/en/news/bublik-halys-kitzbuhel-2026-final"
-    ]
-  },
-  {
-    "id": "curated-golfe-michael-kim-59-20260725",
-    "slug": "michael-kim-volta-59-lidera-3m-open-tpc-twin-cities",
-    "sportId": "golfe",
-    "title": "Michael Kim assina volta de 59 e assume liderança do 3M Open",
-    "summary": "Americano fechou a segunda rodada com 12 birdies e nenhum bogey, estabeleceu recorde do TPC Twin Cities e chegou a -14 no torneio.",
-    "content": "Michael Kim produziu uma das voltas mais raras do PGA Tour para assumir a liderança do 3M Open. O americano fez 59 golpes na segunda rodada do TPC Twin Cities, com 12 birdies e nenhum bogey, e chegou a 14 abaixo do par após 36 buracos.\n\nUma volta abaixo de 60 é um marco porque exige excelência durante praticamente todo o percurso. Kim fechou com quatro birdies consecutivos e converteu no 18 uma tacada de cerca de 7,3 metros para confirmar o 59. O cartão também estabeleceu um novo recorde do campo.\n\nO torneio, porém, está apenas na metade. Kim iniciou o sábado três tacadas à frente de Ben Kohles e com um grupo de perseguidores ainda próximo. A terceira rodada mostrará se a explosão de sexta-feira se transforma em controle de torneio ou abre espaço para uma disputa mais apertada no domingo.",
-    "sourceName": "Fonte verificada: PGA Tour",
-    "sourceUrl": "https://www.pgatour.com/article/news/latest/2026/07/24/michael-kim-59-score-leaderboard-3m-open-tpc-twin-cities",
-    "coverImageUrl": "/images/sports/golfe.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "golfe",
-      "pga-tour",
-      "3m-open",
-      "michael-kim"
-    ],
-    "seoTitle": "Michael Kim faz 59 e lidera o 3M Open",
-    "seoDescription": "Michael Kim marcou 59, novo recorde do TPC Twin Cities, e chegou a -14 no 3M Open.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-25T12:00:00.000Z",
-    "createdAt": "2026-07-25T12:00:00.000Z",
-    "updatedAt": "2026-07-25T12:00:00.000Z",
-    "homepagePriority": 88,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "sourceUrls": [
-      "https://www.pgatour.com/article/news/latest/2026/07/24/michael-kim-59-score-leaderboard-3m-open-tpc-twin-cities",
-      "https://www.pgatour.com/leaderboard"
     ]
   }
 ]
