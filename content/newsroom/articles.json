@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-db006ed1d728",
+    "slug": "sara-bejlek-vence-karolina-pliskova-por-2-a-0-em-cincinnati-db006e",
+    "sportId": "tenis",
+    "title": "Sara Bejlek vence Karolina Pliskova por 2 a 0 em Cincinnati",
+    "summary": "Sara Bejlek superou Karolina Pliskova por 2 a 0 em Cincinnati.",
+    "content": "Sara Bejlek superou Karolina Pliskova por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Sara Bejlek vence Karolina Pliskova por 2 a 0 em Cincinnati",
+    "seoDescription": "Sara Bejlek superou Karolina Pliskova por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T19:33:55.985Z",
+    "createdAt": "2026-08-15T19:33:55.985Z",
+    "updatedAt": "2026-08-15T19:33:55.985Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809641",
+      "eventStartTime": "2026-08-14T15:07:03+00:00",
+      "retrievedAt": "2026-08-15T19:33:55.985Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-119f33fd1872",
+    "slug": "spain-w-vence-germany-w-por-65-a-60-em-international-friendly-w-119f33",
+    "sportId": "basquete",
+    "title": "Spain (W) vence Germany (W) por 65 a 60 em International Friendly (W)",
+    "summary": "Spain (W) superou Germany (W) por 65 a 60 em International Friendly (W).",
+    "content": "Spain (W) superou Germany (W) por 65 a 60 em International Friendly (W)., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendly-w"
+    ],
+    "seoTitle": "Spain (W) vence Germany (W) por 65 a 60 em International Friendly (W)",
+    "seoDescription": "Spain (W) superou Germany (W) por 65 a 60 em International Friendly (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T19:33:55.920Z",
+    "createdAt": "2026-08-15T19:33:55.920Z",
+    "updatedAt": "2026-08-15T19:33:55.920Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814529",
+      "eventStartTime": "2026-08-15T17:00:00+00:00",
+      "retrievedAt": "2026-08-15T19:33:55.920Z",
+      "feedId": "basquete",
+      "league": "International Friendly (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-aac4b968d2da",
+    "slug": "municipal-limeno-reserves-e-inter-santa-tecla-reserves-ficam-no-0-a-0-pelo-torneo--aac4b9",
+    "sportId": "futebol",
+    "title": "Municipal Limeño Reserves e Inter Santa Tecla (Reserves) ficam no 0 a 0 pelo Torneo Reservas",
+    "summary": "Municipal Limeño Reserves e Inter Santa Tecla (Reserves) empataram por 0 a 0 pelo Torneo Reservas.",
+    "content": "Municipal Limeño Reserves e Inter Santa Tecla (Reserves) empataram por 0 a 0 pelo Torneo Reservas, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "torneo-reservas"
+    ],
+    "seoTitle": "Municipal Limeño Reserves e Inter Santa Tecla (Reserves) ficam no 0 a",
+    "seoDescription": "Municipal Limeño Reserves e Inter Santa Tecla (Reserves) empataram por 0 a 0 pelo Torneo Reservas.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T19:33:55.909Z",
+    "createdAt": "2026-08-15T19:33:55.909Z",
+    "updatedAt": "2026-08-15T19:33:55.909Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815332",
+      "eventStartTime": "2026-08-15T19:20:00+00:00",
+      "retrievedAt": "2026-08-15T19:33:55.909Z",
+      "feedId": "futebol",
+      "league": "Torneo Reservas"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7ee13ef6590f",
     "slug": "martin-landaluce-vence-matteo-arnaldi-por-2-a-1-em-cincinnati-7ee13e",
     "sportId": "tenis",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-12T06:12:08.193Z",
       "feedId": "basquete",
       "league": "LNBP"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8aae73339d7b",
-    "slug": "rewa-supera-tupapa-maraerenga-por-4-a-2-pela-ofc-champions-league-8aae73",
-    "sportId": "futebol",
-    "title": "Rewa supera Tupapa Maraerenga por 4 a 2 pela OFC Champions League",
-    "summary": "Rewa venceu Tupapa Maraerenga por 4 a 2 pela OFC Champions League.",
-    "content": "Rewa venceu Tupapa Maraerenga por 4 a 2 pela OFC Champions League, em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "ofc-champions-league"
-    ],
-    "seoTitle": "Rewa supera Tupapa Maraerenga por 4 a 2 pela OFC Champions League",
-    "seoDescription": "Rewa venceu Tupapa Maraerenga por 4 a 2 pela OFC Champions League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T06:12:08.188Z",
-    "createdAt": "2026-08-12T06:12:08.188Z",
-    "updatedAt": "2026-08-12T06:12:08.188Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4678088",
-      "eventStartTime": "2026-08-12T04:00:00+00:00",
-      "retrievedAt": "2026-08-12T06:12:08.188Z",
-      "feedId": "futebol",
-      "league": "OFC Champions League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-159b9383e5d0",
-    "slug": "san-francisco-giants-vence-houston-astros-por-4-a-1-na-mlb-159b93",
-    "sportId": "beisebol",
-    "title": "San Francisco Giants vence Houston Astros por 4 a 1 na MLB",
-    "summary": "San Francisco Giants derrotou Houston Astros por 4 a 1 na MLB.",
-    "content": "San Francisco Giants derrotou Houston Astros por 4 a 1 na MLB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "San Francisco Giants vence Houston Astros por 4 a 1 na MLB",
-    "seoDescription": "San Francisco Giants derrotou Houston Astros por 4 a 1 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T04:58:45.337Z",
-    "createdAt": "2026-08-12T04:58:45.337Z",
-    "updatedAt": "2026-08-12T04:58:45.337Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602924",
-      "eventStartTime": "2026-08-12T01:45:00+00:00",
-      "retrievedAt": "2026-08-12T04:58:45.337Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e155bfab8425",
-    "slug": "sho-shimabukuro-vence-hugo-dellien-por-2-a-0-em-cincinnati-e155bf",
-    "sportId": "tenis",
-    "title": "Sho Shimabukuro vence Hugo Dellien por 2 a 0 em Cincinnati",
-    "summary": "Sho Shimabukuro superou Hugo Dellien por 2 a 0 em Cincinnati.",
-    "content": "Sho Shimabukuro superou Hugo Dellien por 2 a 0 em Cincinnati., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Sho Shimabukuro vence Hugo Dellien por 2 a 0 em Cincinnati",
-    "seoDescription": "Sho Shimabukuro superou Hugo Dellien por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T04:58:45.335Z",
-    "createdAt": "2026-08-12T04:58:45.335Z",
-    "updatedAt": "2026-08-12T04:58:45.335Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808237",
-      "eventStartTime": "2026-08-12T02:38:25+00:00",
-      "retrievedAt": "2026-08-12T04:58:45.335Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
