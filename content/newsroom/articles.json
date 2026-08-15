@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-42b15394ee5a",
+    "slug": "amanda-anisimova-vence-zeynep-sonmez-por-1-a-0-em-cincinnati-42b153",
+    "sportId": "tenis",
+    "title": "Amanda Anisimova vence Zeynep Sonmez por 1 a 0 em Cincinnati",
+    "summary": "Amanda Anisimova superou Zeynep Sonmez por 1 a 0 em Cincinnati.",
+    "content": "Amanda Anisimova superou Zeynep Sonmez por 1 a 0 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Amanda Anisimova vence Zeynep Sonmez por 1 a 0 em Cincinnati",
+    "seoDescription": "Amanda Anisimova superou Zeynep Sonmez por 1 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T16:57:57.415Z",
+    "createdAt": "2026-08-15T16:57:57.415Z",
+    "updatedAt": "2026-08-15T16:57:57.415Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813635",
+      "eventStartTime": "2026-08-15T15:08:07+00:00",
+      "retrievedAt": "2026-08-15T16:57:57.415Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-06a6deabafdd",
+    "slug": "hoffenheim-w-e-fleury-91-w-ficam-no-0-a-0-pelo-club-friendlies-w-06a6de",
+    "sportId": "futebol",
+    "title": "Hoffenheim (W) e Fleury 91 (W) ficam no 0 a 0 pelo Club Friendlies (W)",
+    "summary": "Hoffenheim (W) e Fleury 91 (W) empataram por 0 a 0 pelo Club Friendlies (W).",
+    "content": "Hoffenheim (W) e Fleury 91 (W) empataram por 0 a 0 pelo Club Friendlies (W), em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies-w"
+    ],
+    "seoTitle": "Hoffenheim (W) e Fleury 91 (W) ficam no 0 a 0 pelo Club Friendlies (W)",
+    "seoDescription": "Hoffenheim (W) e Fleury 91 (W) empataram por 0 a 0 pelo Club Friendlies (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T16:57:57.382Z",
+    "createdAt": "2026-08-15T16:57:57.382Z",
+    "updatedAt": "2026-08-15T16:57:57.382Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4743424",
+      "eventStartTime": "2026-08-15T17:00:00+00:00",
+      "retrievedAt": "2026-08-15T16:57:57.382Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-1e2b10bdcdfa",
     "slug": "alexander-blockx-vence-mariano-navone-por-1-a-0-em-cincinnati-1e2b10",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-11T23:41:39.353Z",
       "feedId": "futebol",
       "league": "Primera B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ab7b6311e818",
-    "slug": "hanshin-tigers-vence-yomiuri-giants-por-9-a-1-na-npb-ab7b63",
-    "sportId": "beisebol",
-    "title": "Hanshin Tigers vence Yomiuri Giants por 9 a 1 na NPB",
-    "summary": "Hanshin Tigers derrotou Yomiuri Giants por 9 a 1 na NPB.",
-    "content": "Hanshin Tigers derrotou Yomiuri Giants por 9 a 1 na NPB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Hanshin Tigers vence Yomiuri Giants por 9 a 1 na NPB",
-    "seoDescription": "Hanshin Tigers derrotou Yomiuri Giants por 9 a 1 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T22:59:43.896Z",
-    "createdAt": "2026-08-11T22:59:43.896Z",
-    "updatedAt": "2026-08-11T22:59:43.896Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4626816",
-      "eventStartTime": "2026-08-11T05:00:00+00:00",
-      "retrievedAt": "2026-08-11T22:59:43.896Z",
-      "feedId": "beisebol",
-      "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0fa1c4b800ec",
-    "slug": "belinda-bencic-e-coco-gauff-empatam-por-0-a-0-em-toronto-0fa1c4",
-    "sportId": "tenis",
-    "title": "Belinda Bencic e Coco Gauff empatam por 0 a 0 em Toronto",
-    "summary": "Belinda Bencic e Coco Gauff terminaram empatados por 0 a 0 em Toronto.",
-    "content": "Belinda Bencic e Coco Gauff terminaram empatados por 0 a 0 em Toronto., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "toronto"
-    ],
-    "seoTitle": "Belinda Bencic e Coco Gauff empatam por 0 a 0 em Toronto",
-    "seoDescription": "Belinda Bencic e Coco Gauff terminaram empatados por 0 a 0 em Toronto.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T22:59:43.892Z",
-    "createdAt": "2026-08-11T22:59:43.892Z",
-    "updatedAt": "2026-08-11T22:59:43.892Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807733",
-      "eventStartTime": "2026-08-11T23:00:00+00:00",
-      "retrievedAt": "2026-08-11T22:59:43.892Z",
-      "feedId": "tenis",
-      "league": "Toronto"
     },
     "articleFormat": "result-brief"
   }
