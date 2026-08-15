@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-b2a486d80b4b",
+    "slug": "linda-noskova-vence-katie-boulter-por-2-a-0-em-cincinnati-b2a486",
+    "sportId": "tenis",
+    "title": "Linda Noskova vence Katie Boulter por 2 a 0 em Cincinnati",
+    "summary": "Linda Noskova superou Katie Boulter por 2 a 0 em Cincinnati.",
+    "content": "Linda Noskova superou Katie Boulter por 2 a 0 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Linda Noskova vence Katie Boulter por 2 a 0 em Cincinnati",
+    "seoDescription": "Linda Noskova superou Katie Boulter por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T20:36:23.413Z",
+    "createdAt": "2026-08-15T20:36:23.413Z",
+    "updatedAt": "2026-08-15T20:36:23.413Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813833",
+      "eventStartTime": "2026-08-15T19:02:22+00:00",
+      "retrievedAt": "2026-08-15T20:36:23.413Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1e8f85deec9d",
+    "slug": "chicago-bears-vence-cleveland-browns-por-34-a-10-em-nfl-1e8f85",
+    "sportId": "futebol-americano",
+    "title": "Chicago Bears vence Cleveland Browns por 34 a 10 em NFL",
+    "summary": "Chicago Bears superou Cleveland Browns por 34 a 10 em NFL.",
+    "content": "Chicago Bears superou Cleveland Browns por 34 a 10 em NFL., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Chicago Bears vence Cleveland Browns por 34 a 10 em NFL",
+    "seoDescription": "Chicago Bears superou Cleveland Browns por 34 a 10 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T20:36:23.397Z",
+    "createdAt": "2026-08-15T20:36:23.397Z",
+    "updatedAt": "2026-08-15T20:36:23.397Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714909",
+      "eventStartTime": "2026-08-15T17:00:00+00:00",
+      "retrievedAt": "2026-08-15T20:36:23.397Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f6959d32d434",
+    "slug": "sligo-rovers-supera-kerry-por-4-a-0-pelo-fai-cup-f6959d",
+    "sportId": "futebol",
+    "title": "Sligo Rovers supera Kerry por 4 a 0 pelo FAI Cup",
+    "summary": "Sligo Rovers venceu Kerry por 4 a 0 pelo FAI Cup.",
+    "content": "Sligo Rovers venceu Kerry por 4 a 0 pelo FAI Cup, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "fai-cup"
+    ],
+    "seoTitle": "Sligo Rovers supera Kerry por 4 a 0 pelo FAI Cup",
+    "seoDescription": "Sligo Rovers venceu Kerry por 4 a 0 pelo FAI Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T20:36:23.393Z",
+    "createdAt": "2026-08-15T20:36:23.393Z",
+    "updatedAt": "2026-08-15T20:36:23.393Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4783567",
+      "eventStartTime": "2026-08-15T18:45:00+00:00",
+      "retrievedAt": "2026-08-15T20:36:23.393Z",
+      "feedId": "futebol",
+      "league": "FAI Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-84c57cd37c59",
     "slug": "diana-shnaider-vence-tatjana-maria-por-2-a-0-em-cincinnati-84c57c",
     "sportId": "tenis",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-12T08:59:31.106Z",
       "feedId": "tenis",
       "league": "Astana"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9a95ee66dd98",
-    "slug": "phoenix-mercury-vence-los-angeles-sparks-por-94-a-87-em-wnba-9a95ee",
-    "sportId": "basquete",
-    "title": "Phoenix Mercury vence Los Angeles Sparks por 94 a 87 em WNBA",
-    "summary": "Phoenix Mercury superou Los Angeles Sparks por 94 a 87 em WNBA.",
-    "content": "Phoenix Mercury superou Los Angeles Sparks por 94 a 87 em WNBA., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "Phoenix Mercury vence Los Angeles Sparks por 94 a 87 em WNBA",
-    "seoDescription": "Phoenix Mercury superou Los Angeles Sparks por 94 a 87 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T08:59:31.102Z",
-    "createdAt": "2026-08-12T08:59:31.102Z",
-    "updatedAt": "2026-08-12T08:59:31.102Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659869",
-      "eventStartTime": "2026-08-12T02:00:00+00:00",
-      "retrievedAt": "2026-08-12T08:59:31.102Z",
-      "feedId": "basquete",
-      "league": "WNBA"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fcf7ef8ff026",
-    "slug": "deportivo-saprissa-supera-mixco-por-3-a-0-pelo-concacaf-central-american-cup-fcf7ef",
-    "sportId": "futebol",
-    "title": "Deportivo Saprissa supera Mixco por 3 a 0 pelo CONCACAF Central American Cup",
-    "summary": "Deportivo Saprissa venceu Mixco por 3 a 0 pelo CONCACAF Central American Cup.",
-    "content": "Deportivo Saprissa venceu Mixco por 3 a 0 pelo CONCACAF Central American Cup, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "concacaf-central-american-cup"
-    ],
-    "seoTitle": "Deportivo Saprissa supera Mixco por 3 a 0 pelo CONCACAF Central",
-    "seoDescription": "Deportivo Saprissa venceu Mixco por 3 a 0 pelo CONCACAF Central American Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T08:59:31.096Z",
-    "createdAt": "2026-08-12T08:59:31.096Z",
-    "updatedAt": "2026-08-12T08:59:31.096Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4730018",
-      "eventStartTime": "2026-08-12T02:00:00+00:00",
-      "retrievedAt": "2026-08-12T08:59:31.096Z",
-      "feedId": "futebol",
-      "league": "CONCACAF Central American Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-368acddb10bd",
-    "slug": "san-diego-padres-vence-milwaukee-brewers-por-11-a-2-na-mlb-368acd",
-    "sportId": "beisebol",
-    "title": "San Diego Padres vence Milwaukee Brewers por 11 a 2 na MLB",
-    "summary": "San Diego Padres derrotou Milwaukee Brewers por 11 a 2 na MLB.",
-    "content": "San Diego Padres derrotou Milwaukee Brewers por 11 a 2 na MLB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "San Diego Padres vence Milwaukee Brewers por 11 a 2 na MLB",
-    "seoDescription": "San Diego Padres derrotou Milwaukee Brewers por 11 a 2 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T07:50:06.942Z",
-    "createdAt": "2026-08-12T07:50:06.942Z",
-    "updatedAt": "2026-08-12T07:50:06.942Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602891",
-      "eventStartTime": "2026-08-12T01:40:00+00:00",
-      "retrievedAt": "2026-08-12T07:50:06.942Z",
-      "feedId": "beisebol",
-      "league": "MLB"
     },
     "articleFormat": "result-brief"
   }
