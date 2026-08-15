@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-2a26ec195525",
+    "slug": "adam-walton-vence-nicolas-mejia-por-2-a-0-em-cincinnati-2a26ec",
+    "sportId": "tenis",
+    "title": "Adam Walton vence Nicolas Mejia por 2 a 0 em Cincinnati",
+    "summary": "Adam Walton superou Nicolas Mejia por 2 a 0 em Cincinnati.",
+    "content": "Adam Walton superou Nicolas Mejia por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Adam Walton vence Nicolas Mejia por 2 a 0 em Cincinnati",
+    "seoDescription": "Adam Walton superou Nicolas Mejia por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T06:39:24.606Z",
+    "createdAt": "2026-08-15T06:39:24.606Z",
+    "updatedAt": "2026-08-15T06:39:24.606Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813395",
+      "eventStartTime": "2026-08-14T20:30:58+00:00",
+      "retrievedAt": "2026-08-15T06:39:24.606Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-afaa3872f30b",
+    "slug": "fencibles-united-e-auckland-united-ficam-no-0-a-0-pelo-national-league-afaa38",
+    "sportId": "futebol",
+    "title": "Fencibles United e Auckland United ficam no 0 a 0 pelo National League",
+    "summary": "Fencibles United e Auckland United empataram por 0 a 0 pelo National League.",
+    "content": "Fencibles United e Auckland United empataram por 0 a 0 pelo National League, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "national-league"
+    ],
+    "seoTitle": "Fencibles United e Auckland United ficam no 0 a 0 pelo National League",
+    "seoDescription": "Fencibles United e Auckland United empataram por 0 a 0 pelo National League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T06:39:24.549Z",
+    "createdAt": "2026-08-15T06:39:24.549Z",
+    "updatedAt": "2026-08-15T06:39:24.549Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4678287",
+      "eventStartTime": "2026-08-15T06:30:00+00:00",
+      "retrievedAt": "2026-08-15T06:39:24.549Z",
+      "feedId": "futebol",
+      "league": "National League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-2ac2a2877a3c",
     "slug": "michael-zheng-vence-fabian-marozsan-por-2-a-1-em-cincinnati-2ac2a2",
     "sportId": "tenis",
@@ -12507,81 +12591,6 @@
       "https://www.formula1.com/en/results/2026/races",
       "https://www.formula1.com/en/racing/2026",
       "https://www.reuters.com/sports/formula1/norris-feels-hes-doing-better-job-than-last-year-2026-07-27/"
-    ]
-  },
-  {
-    "id": "curated-nba-lebron-sixers-official-20260727",
-    "slug": "lebron-james-anuncia-ida-philadelphia-76ers-ultima-decisao",
-    "sportId": "basquete",
-    "title": "LeBron James é oficializado pelos 76ers; offseason da NBA ganha novo eixo no Leste",
-    "summary": "Philadelphia confirmou LeBron com a camisa 23. A offseason também já levou Ja Morant a Portland e LaMelo Ball a Minnesota.",
-    "content": "A mudança que sacudiu a offseason da NBA agora é oficial: LeBron James é jogador do Philadelphia 76ers e usará a camisa 23. Aos 41 anos, o maior pontuador da história da liga chega ao Leste para atuar ao lado de Joel Embiid, Tyrese Maxey e Jaylen Brown.\n\nLeBron havia anunciado a decisão na sexta-feira e dito que esta seria sua ‘última decisão’ de carreira. A oficialização ocorreu no domingo. O movimento coloca Philadelphia imediatamente entre as equipes mais observadas da próxima temporada, mas também traz uma questão central: como distribuir criação, minutos e carga física entre estrelas de perfis e históricos médicos diferentes.\n\nA offseason já tinha produzido outras mudanças relevantes. Ja Morant foi negociado pelo Memphis Grizzlies com o Portland Trail Blazers, enquanto LaMelo Ball deixou Charlotte em uma troca ampliada e passou a formar o perímetro do Minnesota Timberwolves com Anthony Edwards.\n\nO que acompanhar agora é menos rumor e mais encaixe. Philadelphia precisa transformar talento em disponibilidade e equilíbrio, enquanto Portland e Minnesota reorganizam suas hierarquias com armadores que mudam o estilo ofensivo das duas equipes.",
-    "sourceName": "Fontes verificadas: NBA.com, Reuters",
-    "sourceUrl": "https://api-hub.nba.com/news/lebron-james-free-agency-sixers-2026",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "nba",
-      "lebron-james",
-      "philadelphia-76ers",
-      "ja-morant",
-      "lamelo-ball",
-      "offseason"
-    ],
-    "seoTitle": "LeBron James é oficializado pelo Philadelphia 76ers",
-    "seoDescription": "LeBron James foi oficializado pelos 76ers; a offseason também levou Ja Morant a Portland e LaMelo Ball a Minnesota.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-27T12:06:00.000Z",
-    "createdAt": "2026-07-27T12:06:00.000Z",
-    "updatedAt": "2026-07-27T12:06:00.000Z",
-    "homepagePriority": 98,
-    "breaking": true,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://api-hub.nba.com/news/lebron-james-free-agency-sixers-2026",
-      "https://www.nba.com/news/2026-offseason-trade-tracker",
-      "https://www.reuters.com/sports/lebron-james-wear-no-23-76ers-officially-announce-his-signing-2026-07-27/"
-    ]
-  },
-  {
-    "id": "curated-nfl-camps-lions-pup-20260727",
-    "slug": "nfl-training-camps-32-times-lions-branch-joseph-pup-2026",
-    "sportId": "futebol-americano",
-    "title": "NFL entra na fase quente dos training camps; Lions começam com Branch e Joseph na PUP",
-    "summary": "Todas as 32 equipes terão seus veteranos apresentados até 28 de julho. Detroit iniciou o camp com Brian Branch e Kerby Joseph na lista PUP.",
-    "content": "A NFL entra nesta semana na parte mais intensa da pré-temporada. De acordo com o calendário oficial da liga, todas as 32 equipes terão seus veteranos apresentados aos training camps até terça-feira, 28 de julho, transformando os próximos dias em um dos primeiros grandes termômetros da temporada de 2026.\n\nTraining camp é o período de preparação em que os times instalam sistemas, avaliam novatos, testam formações e começam a definir o depth chart — a ordem de jogadores por posição. É também quando lesões e limitações físicas passam a ter impacto mais concreto na montagem dos elencos.\n\nEm Detroit, Brian Branch e Kerby Joseph começaram o camp na PUP, sigla de Physically Unable to Perform. A lista é usada para jogadores que estão no elenco, mas ainda não podem participar dos treinos por condição física. Branch se recupera de uma lesão no tendão de Aquiles; Joseph vinha de um problema no joelho. O tight end Tyler Conklin também foi colocado na lista.\n\nO que acompanhar hoje é a evolução médica desses jogadores e as primeiras disputas por vagas de titular. Nos camps, uma mudança de disponibilidade pode alterar rapidamente o desenho de uma posição inteira.",
-    "sourceName": "Fontes verificadas: NFL, Detroit Lions",
-    "sourceUrl": "https://www.nfl.com/news/2026-nfl-training-camps-report-dates-locations-announced-for-all-32-teams",
-    "coverImageUrl": "/images/sports/futebol-americano.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "nfl",
-      "training-camp",
-      "detroit-lions",
-      "brian-branch",
-      "kerby-joseph",
-      "pup"
-    ],
-    "seoTitle": "NFL abre training camps; Branch e Joseph começam na PUP",
-    "seoDescription": "Todas as equipes da NFL estarão nos camps até 28 de julho; Lions iniciam com Branch e Joseph na PUP.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-27T12:05:00.000Z",
-    "createdAt": "2026-07-27T12:05:00.000Z",
-    "updatedAt": "2026-07-27T12:05:00.000Z",
-    "homepagePriority": 94,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.nfl.com/news/2026-nfl-training-camps-report-dates-locations-announced-for-all-32-teams",
-      "https://www.nfl.com/news/nfl-training-camps-for-2026-season-open-this-week",
-      "https://www.detroitlions.com/team/transactions/",
-      "https://www.detroitlions.com/news/5-things-to-watch-2026-detroit-lions-training-camp-goff-miller-rolder-joseph-reed-moore"
     ]
   }
 ]
