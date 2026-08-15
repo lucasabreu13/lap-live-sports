@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-7ee13ef6590f",
+    "slug": "martin-landaluce-vence-matteo-arnaldi-por-2-a-1-em-cincinnati-7ee13e",
+    "sportId": "tenis",
+    "title": "Martin Landaluce vence Matteo Arnaldi por 2 a 1 em Cincinnati",
+    "summary": "Martin Landaluce superou Matteo Arnaldi por 2 a 1 em Cincinnati.",
+    "content": "Martin Landaluce superou Matteo Arnaldi por 2 a 1 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Martin Landaluce vence Matteo Arnaldi por 2 a 1 em Cincinnati",
+    "seoDescription": "Martin Landaluce superou Matteo Arnaldi por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T19:14:01.436Z",
+    "createdAt": "2026-08-15T19:14:01.436Z",
+    "updatedAt": "2026-08-15T19:14:01.436Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813625",
+      "eventStartTime": "2026-08-15T15:06:52+00:00",
+      "retrievedAt": "2026-08-15T19:14:01.436Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-939a20552a58",
+    "slug": "new-york-liberty-vence-connecticut-sun-por-82-a-75-em-wnba-939a20",
+    "sportId": "basquete",
+    "title": "New York Liberty vence Connecticut Sun por 82 a 75 em WNBA",
+    "summary": "New York Liberty superou Connecticut Sun por 82 a 75 em WNBA.",
+    "content": "New York Liberty superou Connecticut Sun por 82 a 75 em WNBA., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "New York Liberty vence Connecticut Sun por 82 a 75 em WNBA",
+    "seoDescription": "New York Liberty superou Connecticut Sun por 82 a 75 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T19:14:01.427Z",
+    "createdAt": "2026-08-15T19:14:01.427Z",
+    "updatedAt": "2026-08-15T19:14:01.427Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659879",
+      "eventStartTime": "2026-08-15T17:00:00+00:00",
+      "retrievedAt": "2026-08-15T19:14:01.427Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-01c162166c21",
+    "slug": "bogota-fc-e-patriotas-ficam-no-0-a-0-pelo-primera-b-01c162",
+    "sportId": "futebol",
+    "title": "Bogotá FC e Patriotas ficam no 0 a 0 pelo Primera B",
+    "summary": "Bogotá FC e Patriotas empataram por 0 a 0 pelo Primera B.",
+    "content": "Bogotá FC e Patriotas empataram por 0 a 0 pelo Primera B, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-b"
+    ],
+    "seoTitle": "Bogotá FC e Patriotas ficam no 0 a 0 pelo Primera B",
+    "seoDescription": "Bogotá FC e Patriotas empataram por 0 a 0 pelo Primera B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T19:14:01.415Z",
+    "createdAt": "2026-08-15T19:14:01.415Z",
+    "updatedAt": "2026-08-15T19:14:01.415Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4732170",
+      "eventStartTime": "2026-08-15T19:00:00+00:00",
+      "retrievedAt": "2026-08-15T19:14:01.415Z",
+      "feedId": "futebol",
+      "league": "Primera B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ace4d2adbb7c",
     "slug": "nikola-bartunkova-vence-alina-charaeva-por-2-a-1-em-cincinnati-ace4d2",
     "sportId": "tenis",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-12T04:58:45.335Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-eb334b69a1b4",
-    "slug": "panteras-de-aguascalientes-vence-lobos-plateados-por-111-a-88-em-lnbp-eb334b",
-    "sportId": "basquete",
-    "title": "Panteras De Aguascalientes vence Lobos Plateados por 111 a 88 em LNBP",
-    "summary": "Panteras De Aguascalientes superou Lobos Plateados por 111 a 88 em LNBP.",
-    "content": "Panteras De Aguascalientes superou Lobos Plateados por 111 a 88 em LNBP., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnbp"
-    ],
-    "seoTitle": "Panteras De Aguascalientes vence Lobos Plateados por 111 a 88 em LNBP",
-    "seoDescription": "Panteras De Aguascalientes superou Lobos Plateados por 111 a 88 em LNBP.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T04:58:45.332Z",
-    "createdAt": "2026-08-12T04:58:45.332Z",
-    "updatedAt": "2026-08-12T04:58:45.332Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4708855",
-      "eventStartTime": "2026-08-12T02:30:00+00:00",
-      "retrievedAt": "2026-08-12T04:58:45.332Z",
-      "feedId": "basquete",
-      "league": "LNBP"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-49a7fd71ffe7",
-    "slug": "tigres-uanl-e-vancouver-whitecaps-ficam-no-1-a-1-pelo-leagues-cup-49a7fd",
-    "sportId": "futebol",
-    "title": "Tigres UANL e Vancouver Whitecaps ficam no 1 a 1 pelo Leagues Cup",
-    "summary": "Tigres UANL e Vancouver Whitecaps empataram por 1 a 1 pelo Leagues Cup.",
-    "content": "Tigres UANL e Vancouver Whitecaps empataram por 1 a 1 pelo Leagues Cup, em 11 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "leagues-cup"
-    ],
-    "seoTitle": "Tigres UANL e Vancouver Whitecaps ficam no 1 a 1 pelo Leagues Cup",
-    "seoDescription": "Tigres UANL e Vancouver Whitecaps empataram por 1 a 1 pelo Leagues Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T04:58:45.329Z",
-    "createdAt": "2026-08-12T04:58:45.329Z",
-    "updatedAt": "2026-08-12T04:58:45.329Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4683997",
-      "eventStartTime": "2026-08-12T02:00:00+00:00",
-      "retrievedAt": "2026-08-12T04:58:45.329Z",
-      "feedId": "futebol",
-      "league": "Leagues Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-cf4ebca22628",
-    "slug": "st-louis-cardinals-vence-philadelphia-phillies-por-2-a-0-na-mlb-cf4ebc",
-    "sportId": "beisebol",
-    "title": "St. Louis Cardinals vence Philadelphia Phillies por 2 a 0 na MLB",
-    "summary": "St. Louis Cardinals derrotou Philadelphia Phillies por 2 a 0 na MLB.",
-    "content": "St. Louis Cardinals derrotou Philadelphia Phillies por 2 a 0 na MLB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "St. Louis Cardinals vence Philadelphia Phillies por 2 a 0 na MLB",
-    "seoDescription": "St. Louis Cardinals derrotou Philadelphia Phillies por 2 a 0 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T03:09:41.085Z",
-    "createdAt": "2026-08-12T03:09:41.085Z",
-    "updatedAt": "2026-08-12T03:09:41.085Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4603007",
-      "eventStartTime": "2026-08-11T23:45:00+00:00",
-      "retrievedAt": "2026-08-12T03:09:41.085Z",
-      "feedId": "beisebol",
-      "league": "MLB"
     },
     "articleFormat": "result-brief"
   }
