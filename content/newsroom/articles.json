@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-b16fe046e71e",
+    "slug": "alex-michelsen-vence-jesper-de-jong-por-2-a-0-em-cincinnati-b16fe0",
+    "sportId": "tenis",
+    "title": "Alex Michelsen vence Jesper De Jong por 2 a 0 em Cincinnati",
+    "summary": "Alex Michelsen superou Jesper De Jong por 2 a 0 em Cincinnati.",
+    "content": "Alex Michelsen superou Jesper De Jong por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Alex Michelsen vence Jesper De Jong por 2 a 0 em Cincinnati",
+    "seoDescription": "Alex Michelsen superou Jesper De Jong por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T08:28:50.082Z",
+    "createdAt": "2026-08-15T08:28:50.082Z",
+    "updatedAt": "2026-08-15T08:28:50.082Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809630",
+      "eventStartTime": "2026-08-14T18:44:20+00:00",
+      "retrievedAt": "2026-08-15T08:28:50.082Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e0ee68f85bde",
+    "slug": "manukau-united-supera-western-springs-por-1-a-0-pelo-national-league-e0ee68",
+    "sportId": "futebol",
+    "title": "Manukau United supera Western Springs por 1 a 0 pelo National League",
+    "summary": "Manukau United venceu Western Springs por 1 a 0 pelo National League.",
+    "content": "Manukau United venceu Western Springs por 1 a 0 pelo National League, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "national-league"
+    ],
+    "seoTitle": "Manukau United supera Western Springs por 1 a 0 pelo National League",
+    "seoDescription": "Manukau United venceu Western Springs por 1 a 0 pelo National League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T08:28:50.013Z",
+    "createdAt": "2026-08-15T08:28:50.013Z",
+    "updatedAt": "2026-08-15T08:28:50.013Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4678284",
+      "eventStartTime": "2026-08-15T06:30:00+00:00",
+      "retrievedAt": "2026-08-15T08:28:50.013Z",
+      "feedId": "futebol",
+      "league": "National League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7b719d4db298",
     "slug": "juan-manuel-cerundolo-vence-mark-lajal-por-2-a-0-em-cincinnati-7b719d",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-02T07:15:25.270Z",
       "feedId": "futebol",
       "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1a92f79fb600",
-    "slug": "la-galaxy-e-fc-dallas-ficam-no-0-a-0-pelo-mls-1a92f7",
-    "sportId": "futebol",
-    "title": "LA Galaxy e FC Dallas ficam no 0 a 0 pela MLS",
-    "summary": "LA Galaxy e FC Dallas empataram por 0 a 0 pela MLS.",
-    "content": "LA Galaxy e FC Dallas empataram por 0 a 0 pela MLS, em 01 de agosto de 2026 no Dignity Health Sports Park. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "LA Galaxy e FC Dallas ficam no 0 a 0 pela MLS",
-    "seoDescription": "LA Galaxy e FC Dallas empataram por 0 a 0 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-02T04:36:43.029Z",
-    "createdAt": "2026-08-02T04:36:43.029Z",
-    "updatedAt": "2026-08-02T04:36:43.029Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "761709",
-      "eventStartTime": "2026-08-02T02:30Z",
-      "retrievedAt": "2026-08-02T04:36:43.029Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-82718ce184af",
-    "slug": "national-bank-open-presented-by-rogers-e-tenis-empatam-por-0-a-0-em-tenis-82718c",
-    "sportId": "tenis",
-    "title": "National Bank Open presented by Rogers e Tênis empatam por 0 a 0 em Tênis",
-    "summary": "National Bank Open presented by Rogers e Tênis terminaram empatados por 0 a 0 em Tênis.",
-    "content": "National Bank Open presented by Rogers e Tênis terminaram empatados por 0 a 0 em Tênis., em 01 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "tenis"
-    ],
-    "seoTitle": "National Bank Open presented by Rogers e Tênis empatam por 0 a 0 em",
-    "seoDescription": "National Bank Open presented by Rogers e Tênis terminaram empatados por 0 a 0 em Tênis.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-01T17:40:06.729Z",
-    "createdAt": "2026-08-01T17:40:06.729Z",
-    "updatedAt": "2026-08-01T17:40:06.729Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "421-2026",
-      "eventStartTime": "2026-08-01T04:00Z",
-      "retrievedAt": "2026-08-01T17:40:06.729Z",
-      "feedId": "tenis",
-      "league": "Tênis"
     },
     "articleFormat": "result-brief"
   }
