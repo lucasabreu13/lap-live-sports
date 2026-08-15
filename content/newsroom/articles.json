@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-3091cbf3ae4b",
+    "slug": "daria-snigur-vence-yulia-starodubtsewa-por-2-a-0-em-cincinnati-3091cb",
+    "sportId": "tenis",
+    "title": "Daria Snigur vence Yulia Starodubtsewa por 2 a 0 em Cincinnati",
+    "summary": "Daria Snigur superou Yulia Starodubtsewa por 2 a 0 em Cincinnati.",
+    "content": "Daria Snigur superou Yulia Starodubtsewa por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Daria Snigur vence Yulia Starodubtsewa por 2 a 0 em Cincinnati",
+    "seoDescription": "Daria Snigur superou Yulia Starodubtsewa por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T14:16:43.411Z",
+    "createdAt": "2026-08-15T14:16:43.411Z",
+    "updatedAt": "2026-08-15T14:16:43.411Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809644",
+      "eventStartTime": "2026-08-14T15:13:49+00:00",
+      "retrievedAt": "2026-08-15T14:16:43.411Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-cbc123db09c4",
+    "slug": "cska-pomir-e-fk-vakhsh-ficam-no-0-a-0-pela-vysshaya-liga-cbc123",
+    "sportId": "futebol",
+    "title": "CSKA Pomir e FK Vakhsh ficam no 0 a 0 pela Vysshaya Liga",
+    "summary": "CSKA Pomir e FK Vakhsh empataram por 0 a 0 pela Vysshaya Liga.",
+    "content": "CSKA Pomir e FK Vakhsh empataram por 0 a 0 pela Vysshaya Liga, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "vysshaya-liga"
+    ],
+    "seoTitle": "CSKA Pomir e FK Vakhsh ficam no 0 a 0 pela Vysshaya Liga",
+    "seoDescription": "CSKA Pomir e FK Vakhsh empataram por 0 a 0 pela Vysshaya Liga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T14:16:43.356Z",
+    "createdAt": "2026-08-15T14:16:43.356Z",
+    "updatedAt": "2026-08-15T14:16:43.356Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4679401",
+      "eventStartTime": "2026-08-15T13:30:00+00:00",
+      "retrievedAt": "2026-08-15T14:16:43.356Z",
+      "feedId": "futebol",
+      "league": "Vysshaya Liga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7afb9f2d1f52",
     "slug": "kia-tigers-vence-doosan-bears-por-6-a-1-na-kbo-7afb9f",
     "sportId": "beisebol",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-11T19:43:25.122Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9f9865d36878",
-    "slug": "puerto-montt-basquetbol-vence-cd-espanol-osorno-por-82-a-79-em-lnb-9f9865",
-    "sportId": "basquete",
-    "title": "Puerto Montt Básquetbol vence CD Español Osorno por 82 a 79 em LNB",
-    "summary": "Puerto Montt Básquetbol superou CD Español Osorno por 82 a 79 em LNB.",
-    "content": "Puerto Montt Básquetbol superou CD Español Osorno por 82 a 79 em LNB., em 10 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Puerto Montt Básquetbol vence CD Español Osorno por 82 a 79 em LNB",
-    "seoDescription": "Puerto Montt Básquetbol superou CD Español Osorno por 82 a 79 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T19:43:25.120Z",
-    "createdAt": "2026-08-11T19:43:25.120Z",
-    "updatedAt": "2026-08-11T19:43:25.120Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4805020",
-      "eventStartTime": "2026-08-11T00:30:00+00:00",
-      "retrievedAt": "2026-08-11T19:43:25.120Z",
-      "feedId": "basquete",
-      "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-981ce611cf92",
-    "slug": "tigres-e-envigado-fc-ficam-no-0-a-0-pelo-primera-b-981ce6",
-    "sportId": "futebol",
-    "title": "Tigres e Envigado FC ficam no 0 a 0 pelo Primera B",
-    "summary": "Tigres e Envigado FC empataram por 0 a 0 pelo Primera B.",
-    "content": "Tigres e Envigado FC empataram por 0 a 0 pelo Primera B, em 11 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-b"
-    ],
-    "seoTitle": "Tigres e Envigado FC ficam no 0 a 0 pelo Primera B",
-    "seoDescription": "Tigres e Envigado FC empataram por 0 a 0 pelo Primera B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T19:43:25.110Z",
-    "createdAt": "2026-08-11T19:43:25.110Z",
-    "updatedAt": "2026-08-11T19:43:25.110Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732183",
-      "eventStartTime": "2026-08-11T19:00:00+00:00",
-      "retrievedAt": "2026-08-11T19:43:25.110Z",
-      "feedId": "futebol",
-      "league": "Primera B"
     },
     "articleFormat": "result-brief"
   }
