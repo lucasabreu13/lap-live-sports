@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-48c1f8f557e6",
+    "slug": "hiroshima-toyo-carp-vence-hanshin-tigers-por-6-a-1-na-npb-48c1f8",
+    "sportId": "beisebol",
+    "title": "Hiroshima Toyo Carp vence Hanshin Tigers por 6 a 1 na NPB",
+    "summary": "Hiroshima Toyo Carp derrotou Hanshin Tigers por 6 a 1 na NPB.",
+    "content": "Hiroshima Toyo Carp derrotou Hanshin Tigers por 6 a 1 na NPB, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Hiroshima Toyo Carp vence Hanshin Tigers por 6 a 1 na NPB",
+    "seoDescription": "Hiroshima Toyo Carp derrotou Hanshin Tigers por 6 a 1 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T15:42:11.872Z",
+    "createdAt": "2026-08-15T15:42:11.872Z",
+    "updatedAt": "2026-08-15T15:42:11.872Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626827",
+      "eventStartTime": "2026-08-14T09:00:00+00:00",
+      "retrievedAt": "2026-08-15T15:42:11.872Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-87315b5e5daf",
+    "slug": "daniel-altmaier-vence-coleman-wong-por-2-a-1-em-cincinnati-87315b",
+    "sportId": "tenis",
+    "title": "Daniel Altmaier vence Coleman Wong por 2 a 1 em Cincinnati",
+    "summary": "Daniel Altmaier superou Coleman Wong por 2 a 1 em Cincinnati.",
+    "content": "Daniel Altmaier superou Coleman Wong por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Daniel Altmaier vence Coleman Wong por 2 a 1 em Cincinnati",
+    "seoDescription": "Daniel Altmaier superou Coleman Wong por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T15:42:11.860Z",
+    "createdAt": "2026-08-15T15:42:11.860Z",
+    "updatedAt": "2026-08-15T15:42:11.860Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813401",
+      "eventStartTime": "2026-08-14T15:13:09+00:00",
+      "retrievedAt": "2026-08-15T15:42:11.860Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c6fb0e1e32c6",
+    "slug": "banfield-supera-racing-club-por-1-a-0-pela-superliga-c6fb0e",
+    "sportId": "futebol",
+    "title": "Banfield supera Racing Club por 1 a 0 pela Superliga",
+    "summary": "Banfield venceu Racing Club por 1 a 0 pela Superliga.",
+    "content": "Banfield venceu Racing Club por 1 a 0 pela Superliga, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "superliga"
+    ],
+    "seoTitle": "Banfield supera Racing Club por 1 a 0 pela Superliga",
+    "seoDescription": "Banfield venceu Racing Club por 1 a 0 pela Superliga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T15:42:11.807Z",
+    "createdAt": "2026-08-15T15:42:11.807Z",
+    "updatedAt": "2026-08-15T15:42:11.807Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4633366",
+      "eventStartTime": "2026-08-14T23:30:00+00:00",
+      "retrievedAt": "2026-08-15T15:42:11.807Z",
+      "feedId": "futebol",
+      "league": "Superliga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ecc80f82835a",
     "slug": "tereza-valentova-vence-mary-stoiana-por-2-a-0-em-cincinnati-ecc80f",
     "sportId": "tenis",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-11T22:01:58.422Z",
       "feedId": "futebol",
       "league": "Colombian Women's League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a9d9fdf57f0f",
-    "slug": "fukuoka-hawks-vence-chiba-lotte-marines-por-16-a-2-na-npb-a9d9fd",
-    "sportId": "beisebol",
-    "title": "Fukuoka Hawks vence Chiba Lotte Marines por 16 a 2 na NPB",
-    "summary": "Fukuoka Hawks derrotou Chiba Lotte Marines por 16 a 2 na NPB.",
-    "content": "Fukuoka Hawks derrotou Chiba Lotte Marines por 16 a 2 na NPB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Fukuoka Hawks vence Chiba Lotte Marines por 16 a 2 na NPB",
-    "seoDescription": "Fukuoka Hawks derrotou Chiba Lotte Marines por 16 a 2 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T21:11:08.403Z",
-    "createdAt": "2026-08-11T21:11:08.403Z",
-    "updatedAt": "2026-08-11T21:11:08.403Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4626506",
-      "eventStartTime": "2026-08-11T05:00:00+00:00",
-      "retrievedAt": "2026-08-11T21:11:08.403Z",
-      "feedId": "beisebol",
-      "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ba049d250448",
-    "slug": "francesco-passaro-vence-carlo-alberto-caniato-por-2-a-1-em-todi-ba049d",
-    "sportId": "tenis",
-    "title": "Francesco Passaro vence Carlo Alberto Caniato por 2 a 1 em Todi",
-    "summary": "Francesco Passaro superou Carlo Alberto Caniato por 2 a 1 em Todi.",
-    "content": "Francesco Passaro superou Carlo Alberto Caniato por 2 a 1 em Todi., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "todi"
-    ],
-    "seoTitle": "Francesco Passaro vence Carlo Alberto Caniato por 2 a 1 em Todi",
-    "seoDescription": "Francesco Passaro superou Carlo Alberto Caniato por 2 a 1 em Todi.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T21:11:08.400Z",
-    "createdAt": "2026-08-11T21:11:08.400Z",
-    "updatedAt": "2026-08-11T21:11:08.400Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808119",
-      "eventStartTime": "2026-08-11T18:40:00+00:00",
-      "retrievedAt": "2026-08-11T21:11:08.400Z",
-      "feedId": "tenis",
-      "league": "Todi"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1614d1c137a7",
-    "slug": "deportivo-campoalto-vence-capiata-bulls-por-101-a-73-em-lnb-1614d1",
-    "sportId": "basquete",
-    "title": "Deportivo Campoalto vence Capiata Bulls por 101 a 73 em LNB",
-    "summary": "Deportivo Campoalto superou Capiata Bulls por 101 a 73 em LNB.",
-    "content": "Deportivo Campoalto superou Capiata Bulls por 101 a 73 em LNB., em 10 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Deportivo Campoalto vence Capiata Bulls por 101 a 73 em LNB",
-    "seoDescription": "Deportivo Campoalto superou Capiata Bulls por 101 a 73 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-11T21:11:08.399Z",
-    "createdAt": "2026-08-11T21:11:08.399Z",
-    "updatedAt": "2026-08-11T21:11:08.399Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807534",
-      "eventStartTime": "2026-08-10T23:30:00+00:00",
-      "retrievedAt": "2026-08-11T21:11:08.399Z",
-      "feedId": "basquete",
-      "league": "LNB"
     },
     "articleFormat": "result-brief"
   }
