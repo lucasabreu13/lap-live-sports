@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-e7232e2b991d",
+    "slug": "lloyd-harris-vence-harry-wendelken-por-2-a-1-em-brownsburg-e7232e",
+    "sportId": "tenis",
+    "title": "Lloyd Harris vence Harry Wendelken por 2 a 1 em Brownsburg",
+    "summary": "Lloyd Harris superou Harry Wendelken por 2 a 1 em Brownsburg.",
+    "content": "Lloyd Harris superou Harry Wendelken por 2 a 1 em Brownsburg., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "brownsburg"
+    ],
+    "seoTitle": "Lloyd Harris vence Harry Wendelken por 2 a 1 em Brownsburg",
+    "seoDescription": "Lloyd Harris superou Harry Wendelken por 2 a 1 em Brownsburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T07:44:24.124Z",
+    "createdAt": "2026-08-15T07:44:24.124Z",
+    "updatedAt": "2026-08-15T07:44:24.124Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813622",
+      "eventStartTime": "2026-08-14T18:54:55+00:00",
+      "retrievedAt": "2026-08-15T07:44:24.124Z",
+      "feedId": "tenis",
+      "league": "Brownsburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-caccc22ca5b8",
+    "slug": "san-diego-wave-e-denver-summit-ficam-no-1-a-1-pelo-nwsl-caccc2",
+    "sportId": "futebol",
+    "title": "San Diego Wave e Denver Summit ficam no 1 a 1 pelo NWSL",
+    "summary": "San Diego Wave e Denver Summit empataram por 1 a 1 pelo NWSL.",
+    "content": "San Diego Wave e Denver Summit empataram por 1 a 1 pelo NWSL, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "nwsl"
+    ],
+    "seoTitle": "San Diego Wave e Denver Summit ficam no 1 a 1 pelo NWSL",
+    "seoDescription": "San Diego Wave e Denver Summit empataram por 1 a 1 pelo NWSL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T07:44:24.069Z",
+    "createdAt": "2026-08-15T07:44:24.069Z",
+    "updatedAt": "2026-08-15T07:44:24.069Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4655235",
+      "eventStartTime": "2026-08-15T02:00:00+00:00",
+      "retrievedAt": "2026-08-15T07:44:24.069Z",
+      "feedId": "futebol",
+      "league": "NWSL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-6763ced53ade",
     "slug": "nuno-borges-vence-thanasi-kokkinakis-por-2-a-1-em-cincinnati-6763ce",
     "sportId": "tenis",
@@ -12524,84 +12608,6 @@
       "retrievedAt": "2026-07-30T04:26:09.879Z",
       "feedId": "futebol",
       "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-75f7ff86f958",
-    "slug": "jogos-de-futebol-ao-vivo-hoje-confira-horarios-e-transmissoes-de-29-07-75f7ff",
-    "sportId": "futebol",
-    "title": "Jogos de futebol ao vivo hoje: confira horários e transmissões de 29/07",
-    "summary": "Os jogos de futebol ao vivo desta quarta-feira, 29 de julho, terão transmissões na TV e internet.",
-    "content": "Os amantes do futebol têm uma quarta-feira recheada de opções para acompanhar ao vivo. Nesta quarta, 29 de julho, diversas partidas estarão disponíveis tanto na televisão quanto em plataformas de streaming na internet, garantindo que os torcedores possam escolher como e onde assistir.\n\nA programação do dia promete agradar aos mais variados gostos, com confrontos que devem atrair a atenção de diferentes torcidas. Seja pelo conforto do sofá ou pela praticidade dos dispositivos móveis, os fãs do esporte terão a chance de acompanhar de perto as emoções do futebol.\n\nAlém disso, a diversidade de transmissões permite que o público escolha o formato que melhor se adapta à sua rotina. Com a crescente oferta de jogos online, o acesso ao futebol tem se tornado cada vez mais democrático, ampliando as possibilidades de conexão entre torcedores e seus times do coração.\n\nFique atento aos horários e canais para não perder nenhum detalhe das partidas de hoje. O futebol segue como uma paixão que une milhões de pessoas, e as transmissões ao vivo são a ponte que conecta o torcedor à magia do esporte. O dia promete ser de bola rolando e muita emoção para quem acompanha cada lance.",
-    "sourceName": "Fontes verificadas: VEJA, trivela.com.br",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUFhpanFfdjc2VFN0eGpPUEsxazhrM0hieUNyclZuTWVvTHQ2YXRINkQ4Q3ZqU1hFTlZMZ0NTeVByRkVacnZnblFFTlJJRjhIbXVjUmNfUGFwU2plVzVPbDhhVGM3TlRZRmhsVHJqcmxuVV9lOHRra2paeE9FMGZMa25yMEtLU0VCZk1fMUUxTENLemNibUtDV1JLUXNMNFZpWHVrZkVVeEl0Vjlm?oc=5",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "transmissoes-ao-vivo",
-      "jogos-do-dia"
-    ],
-    "seoTitle": "Jogos de futebol ao vivo hoje: horários e transmissões de 29/07",
-    "seoDescription": "Os jogos de futebol ao vivo desta quarta-feira, 29 de julho, terão transmissões na TV e internet.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-29T16:08:03.947Z",
-    "createdAt": "2026-07-29T16:08:03.947Z",
-    "updatedAt": "2026-07-29T16:08:11.234Z",
-    "homepagePriority": 70,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUFhpanFfdjc2VFN0eGpPUEsxazhrM0hieUNyclZuTWVvTHQ2YXRINkQ4Q3ZqU1hFTlZMZ0NTeVByRkVacnZnblFFTlJJRjhIbXVjUmNfUGFwU2plVzVPbDhhVGM3TlRZRmhsVHJqcmxuVV9lOHRra2paeE9FMGZMa25yMEtLU0VCZk1fMUUxTENLemNibUtDV1JLUXNMNFZpWHVrZkVVeEl0Vjlm?oc=5",
-      "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbVg5OGUtRHRSZldFUGdESUlMMEs2amVCUlk2OHhndHJPYmMxY1J2bGE3SldPMnJFNTZ4R1ItbXh5UHUzTGpzYmkzcWRmOHJrZmJqeF90dmVCcVdFa1JfbmFEdV90aTk4dXBfN0lQZ1pFUHNnaDNDMGJZdjZSeEFEUnJB?oc=5"
-    ],
-    "verifiedFacts": 2,
-    "editorialPolished": true,
-    "editorialDesk": "futebol",
-    "readerClarity": true
-  },
-  {
-    "id": "newsroom-data-60091c891fc9",
-    "slug": "miami-marlins-vence-philadelphia-phillies-por-8-a-7-na-temporada-regular-60091c",
-    "sportId": "beisebol",
-    "title": "Miami Marlins vence Philadelphia Phillies por 8 a 7 na temporada regular",
-    "summary": "Miami Marlins derrotou Philadelphia Phillies por 8 a 7 na temporada regular.",
-    "content": "Miami Marlins derrotou Philadelphia Phillies por 8 a 7 na temporada regular, em 27 de julho de 2026 no loanDepot park.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "temporada-regular"
-    ],
-    "seoTitle": "Miami Marlins vence Philadelphia Phillies por 8 a 7 na temporada",
-    "seoDescription": "Miami Marlins derrotou Philadelphia Phillies por 8 a 7 na temporada regular.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-28T04:24:45.987Z",
-    "createdAt": "2026-07-28T04:24:45.987Z",
-    "updatedAt": "2026-07-28T04:24:45.987Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "401816284",
-      "eventStartTime": "2026-07-27T22:40Z",
-      "retrievedAt": "2026-07-28T04:24:45.987Z",
-      "feedId": "beisebol",
-      "league": "regular-season"
     },
     "articleFormat": "result-brief"
   }
