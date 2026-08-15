@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-2ac2a2877a3c",
+    "slug": "michael-zheng-vence-fabian-marozsan-por-2-a-1-em-cincinnati-2ac2a2",
+    "sportId": "tenis",
+    "title": "Michael Zheng vence Fabian Marozsan por 2 a 1 em Cincinnati",
+    "summary": "Michael Zheng superou Fabian Marozsan por 2 a 1 em Cincinnati.",
+    "content": "Michael Zheng superou Fabian Marozsan por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Michael Zheng vence Fabian Marozsan por 2 a 1 em Cincinnati",
+    "seoDescription": "Michael Zheng superou Fabian Marozsan por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T05:59:58.767Z",
+    "createdAt": "2026-08-15T05:59:58.767Z",
+    "updatedAt": "2026-08-15T05:59:58.767Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813400",
+      "eventStartTime": "2026-08-14T20:50:35+00:00",
+      "retrievedAt": "2026-08-15T05:59:58.767Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-53155a4f62a0",
+    "slug": "utah-royals-supera-bay-fc-por-3-a-2-pelo-nwsl-53155a",
+    "sportId": "futebol",
+    "title": "Utah Royals supera Bay FC por 3 a 2 pelo NWSL",
+    "summary": "Utah Royals venceu Bay FC por 3 a 2 pelo NWSL.",
+    "content": "Utah Royals venceu Bay FC por 3 a 2 pelo NWSL, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "nwsl"
+    ],
+    "seoTitle": "Utah Royals supera Bay FC por 3 a 2 pelo NWSL",
+    "seoDescription": "Utah Royals venceu Bay FC por 3 a 2 pelo NWSL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-15T05:59:58.721Z",
+    "createdAt": "2026-08-15T05:59:58.721Z",
+    "updatedAt": "2026-08-15T05:59:58.721Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4653912",
+      "eventStartTime": "2026-08-15T02:00:00+00:00",
+      "retrievedAt": "2026-08-15T05:59:58.721Z",
+      "feedId": "futebol",
+      "league": "NWSL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-2c3717357be4",
     "slug": "chicago-white-sox-vence-detroit-tigers-por-9-a-5-na-mlb-2c3717",
     "sportId": "beisebol",
@@ -12498,79 +12582,6 @@
       "https://www.nfl.com/news/nfl-training-camps-for-2026-season-open-this-week",
       "https://www.detroitlions.com/team/transactions/",
       "https://www.detroitlions.com/news/5-things-to-watch-2026-detroit-lions-training-camp-goff-miller-rolder-joseph-reed-moore"
-    ]
-  },
-  {
-    "id": "curated-tenis-washington-20260727",
-    "slug": "washington-atp-wta-500-2026-fritz-tiafoe-pegula-osaka-keys",
-    "sportId": "tenis",
-    "title": "Washington abre a gira de quadra dura com Fritz, Tiafoe, Pegula e Osaka",
-    "summary": "ATP 500 e WTA 500 começam nesta segunda-feira e seguem até 2 de agosto; evento reúne nomes de peso na largada da gira norte-americana.",
-    "content": "A gira norte-americana de quadra dura começa a ganhar ritmo nesta segunda-feira com o Mubadala DC Open, em Washington. O torneio reúne simultaneamente um ATP 500 e um WTA 500 e será disputado até 2 de agosto.\n\nNo masculino, Taylor Fritz e Frances Tiafoe estão na programação do primeiro dia. A chave ainda reserva um confronto de primeira rodada entre Alex de Minaur e Stefanos Tsitsipas, dois jogadores capazes de elevar rapidamente o nível do torneio.\n\nNo feminino, Jessica Pegula é a cabeça de chave número 1. Elina Svitolina, Naomi Osaka e Diana Shnaider completam o grupo das quatro principais cabeças e recebem bye — avanço direto — para a segunda rodada. Madison Keys estreia diante de Liudmila Samsonova, enquanto Leylah Fernandez inicia a defesa do título.\n\nATP 500 e WTA 500 são categorias que distribuem 500 pontos ao campeão. Mais do que um torneio isolado, Washington marca a entrada efetiva no trecho de quadra dura que conduz ao US Open, por isso forma, adaptação à superfície e carga física começam a pesar mais a cada semana.",
-    "sourceName": "Fontes verificadas: ATP Tour, WTA",
-    "sourceUrl": "https://www.atptour.com/en/news/washington-2026-schedule",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "tenis",
-      "atp",
-      "wta",
-      "washington",
-      "taylor-fritz",
-      "jessica-pegula",
-      "naomi-osaka"
-    ],
-    "seoTitle": "ATP e WTA de Washington começam com Fritz, Tiafoe e Pegula",
-    "seoDescription": "Washington abre a gira de quadra dura com ATP 500 e WTA 500 entre 27 de julho e 2 de agosto.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-27T12:04:00.000Z",
-    "createdAt": "2026-07-27T12:04:00.000Z",
-    "updatedAt": "2026-07-27T12:04:00.000Z",
-    "homepagePriority": 92,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.atptour.com/en/news/washington-2026-schedule",
-      "https://www.wtatennis.com/tournaments/1045/Washington/2026",
-      "https://www.wtatennis.com/news/4546263/washington-draw-pegula-keys-and-osaka-svitolina-could-meet-in-dc-semifinals"
-    ]
-  },
-  {
-    "id": "curated-mlb-deadline-week-20260727",
-    "slug": "mlb-trade-deadline-3-agosto-mercado-acelera-negociacoes",
-    "sportId": "beisebol",
-    "title": "MLB entra na última semana antes da Trade Deadline com mercado pronto para acelerar",
-    "summary": "Prazo oficial termina em 3 de agosto, às 18h ET. Compradores e vendedores entram na fase em que uma única negociação pode alterar a corrida pelos playoffs.",
-    "content": "A MLB entrou na última semana antes da Trade Deadline de 2026. O prazo oficial para trocas termina na segunda-feira, 3 de agosto, às 18h no horário do leste dos Estados Unidos, e a tendência é de aumento no volume de negociações até o fechamento da janela.\n\nTrade Deadline é o último momento da temporada em que jogadores em rosters de 40 atletas podem ser negociados entre clubes. Depois do prazo, ainda existem mecanismos de waivers, mas as trocas desse grupo de jogadores deixam de ser permitidas.\n\nA lista de nomes acompanhados pelo mercado inclui estrelas e jogadores de impacto capazes de alterar a corrida pelos playoffs. A própria MLB destaca Tarik Skubal entre os casos mais observados, enquanto equipes ainda definem se entram definitivamente como compradoras ou vendedoras.\n\nA regra editorial aqui é importante: interesse, consulta e rumor não significam negócio fechado. A LAP só trata uma transferência como concluída quando há confirmação oficial ou fonte verificável que sustente a operação.",
-    "sourceName": "Fonte verificada: MLB",
-    "sourceUrl": "https://www.mlb.com/news/mlb-trade-deadline-2026-date-time",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Redação LAP · Curadoria verificada",
-    "tags": [
-      "mlb",
-      "trade-deadline",
-      "mercado",
-      "trocas",
-      "playoffs"
-    ],
-    "seoTitle": "MLB entra na última semana antes da Trade Deadline de 2026",
-    "seoDescription": "Trade Deadline da MLB termina em 3 de agosto às 18h ET; mercado entra na semana decisiva.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-07-27T12:03:00.000Z",
-    "createdAt": "2026-07-27T12:03:00.000Z",
-    "updatedAt": "2026-07-27T12:03:00.000Z",
-    "homepagePriority": 90,
-    "breaking": false,
-    "agentId": "curadoria-lap",
-    "articleFormat": "full",
-    "sourceUrls": [
-      "https://www.mlb.com/news/mlb-trade-deadline-2026-date-time",
-      "https://www.mlb.com/news/mlb-trade-rumors-on-top-candidates-one-week-before-trade-deadline"
     ]
   }
 ]
