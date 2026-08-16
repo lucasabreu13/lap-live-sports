@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-8b4656456db9",
+    "slug": "pericos-de-puebla-vence-piratas-de-campeche-por-10-a-4-na-lmb-8b4656",
+    "sportId": "beisebol",
+    "title": "Pericos de Puebla vence Piratas de Campeche por 10 a 4 na LMB",
+    "summary": "Pericos de Puebla derrotou Piratas de Campeche por 10 a 4 na LMB.",
+    "content": "Pericos de Puebla derrotou Piratas de Campeche por 10 a 4 na LMB, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "lmb"
+    ],
+    "seoTitle": "Pericos de Puebla vence Piratas de Campeche por 10 a 4 na LMB",
+    "seoDescription": "Pericos de Puebla derrotou Piratas de Campeche por 10 a 4 na LMB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T08:28:34.154Z",
+    "createdAt": "2026-08-16T08:28:34.154Z",
+    "updatedAt": "2026-08-16T08:28:34.154Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815334",
+      "eventStartTime": "2026-08-15T22:00:00+00:00",
+      "retrievedAt": "2026-08-16T08:28:34.154Z",
+      "feedId": "beisebol",
+      "league": "LMB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c0889d5cf513",
+    "slug": "verdirrojo-bbc-vence-ca-stockolmo-por-77-a-68-em-liga-de-ascenso-c0889d",
+    "sportId": "basquete",
+    "title": "Verdirrojo Bbc vence CA Stockolmo por 77 a 68 em Liga de ascenso",
+    "summary": "Verdirrojo Bbc superou CA Stockolmo por 77 a 68 em Liga de ascenso.",
+    "content": "Verdirrojo Bbc superou CA Stockolmo por 77 a 68 em Liga de ascenso., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Verdirrojo Bbc vence CA Stockolmo por 77 a 68 em Liga de ascenso",
+    "seoDescription": "Verdirrojo Bbc superou CA Stockolmo por 77 a 68 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T08:28:34.082Z",
+    "createdAt": "2026-08-16T08:28:34.082Z",
+    "updatedAt": "2026-08-16T08:28:34.082Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807074",
+      "eventStartTime": "2026-08-14T23:15:00+00:00",
+      "retrievedAt": "2026-08-16T08:28:34.082Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-bdb148967a6b",
+    "slug": "real-salt-lake-e-minnesota-united-ficam-no-1-a-1-pelo-mls-bdb148",
+    "sportId": "futebol",
+    "title": "Real Salt Lake e Minnesota United ficam no 1 a 1 pela MLS",
+    "summary": "Real Salt Lake e Minnesota United empataram por 1 a 1 pela MLS.",
+    "content": "Real Salt Lake e Minnesota United empataram por 1 a 1 pela MLS, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "Real Salt Lake e Minnesota United ficam no 1 a 1 pela MLS",
+    "seoDescription": "Real Salt Lake e Minnesota United empataram por 1 a 1 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T08:28:34.052Z",
+    "createdAt": "2026-08-16T08:28:34.052Z",
+    "updatedAt": "2026-08-16T08:28:34.052Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4621448",
+      "eventStartTime": "2026-08-16T01:30:00+00:00",
+      "retrievedAt": "2026-08-16T08:28:34.052Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-dafb9cdef86b",
     "slug": "jaime-faria-vence-jenson-brooksby-por-2-a-0-em-cincinnati-dafb9c",
     "sportId": "tenis",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-13T06:53:44.182Z",
       "feedId": "beisebol",
       "league": "LMB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a3ef0b535ccb",
-    "slug": "titouan-droguet-vence-stefanos-sakellaridis-por-2-a-0-em-cincinnati-a3ef0b",
-    "sportId": "tenis",
-    "title": "Titouan Droguet vence Stefanos Sakellaridis por 2 a 0 em Cincinnati",
-    "summary": "Titouan Droguet superou Stefanos Sakellaridis por 2 a 0 em Cincinnati.",
-    "content": "Titouan Droguet superou Stefanos Sakellaridis por 2 a 0 em Cincinnati., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Titouan Droguet vence Stefanos Sakellaridis por 2 a 0 em Cincinnati",
-    "seoDescription": "Titouan Droguet superou Stefanos Sakellaridis por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T06:53:44.176Z",
-    "createdAt": "2026-08-13T06:53:44.176Z",
-    "updatedAt": "2026-08-13T06:53:44.176Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4810142",
-      "eventStartTime": "2026-08-13T03:30:08+00:00",
-      "retrievedAt": "2026-08-13T06:53:44.176Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ad231cc68d40",
-    "slug": "minnesota-lynx-vence-portland-fire-por-85-a-81-em-wnba-ad231c",
-    "sportId": "basquete",
-    "title": "Minnesota Lynx vence Portland Fire por 85 a 81 em WNBA",
-    "summary": "Minnesota Lynx superou Portland Fire por 85 a 81 em WNBA.",
-    "content": "Minnesota Lynx superou Portland Fire por 85 a 81 em WNBA., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "Minnesota Lynx vence Portland Fire por 85 a 81 em WNBA",
-    "seoDescription": "Minnesota Lynx superou Portland Fire por 85 a 81 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T06:53:44.172Z",
-    "createdAt": "2026-08-13T06:53:44.172Z",
-    "updatedAt": "2026-08-13T06:53:44.172Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659875",
-      "eventStartTime": "2026-08-13T02:00:00+00:00",
-      "retrievedAt": "2026-08-13T06:53:44.172Z",
-      "feedId": "basquete",
-      "league": "WNBA"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9d6dd5ad80da",
-    "slug": "los-angeles-fc-e-queretaro-ficam-no-1-a-1-pelo-leagues-cup-9d6dd5",
-    "sportId": "futebol",
-    "title": "Los Angeles FC e Queretaro ficam no 1 a 1 pelo Leagues Cup",
-    "summary": "Los Angeles FC e Queretaro empataram por 1 a 1 pelo Leagues Cup.",
-    "content": "Los Angeles FC e Queretaro empataram por 1 a 1 pelo Leagues Cup, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "leagues-cup"
-    ],
-    "seoTitle": "Los Angeles FC e Queretaro ficam no 1 a 1 pelo Leagues Cup",
-    "seoDescription": "Los Angeles FC e Queretaro empataram por 1 a 1 pelo Leagues Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T06:53:44.163Z",
-    "createdAt": "2026-08-13T06:53:44.163Z",
-    "updatedAt": "2026-08-13T06:53:44.163Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4684002",
-      "eventStartTime": "2026-08-13T02:30:00+00:00",
-      "retrievedAt": "2026-08-13T06:53:44.163Z",
-      "feedId": "futebol",
-      "league": "Leagues Cup"
     },
     "articleFormat": "result-brief"
   }
