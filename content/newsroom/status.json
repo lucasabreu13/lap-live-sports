@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-08-16T08:56:45.367Z",
-  "commit": "1bca57cce1ed42c01ecce11806fac06de1f660c7",
-  "runId": "31937728653",
+  "validatedAt": "2026-08-16T09:20:18.525Z",
+  "commit": "66eb8a644b4edeef60e691960c5776864fed21a9",
+  "runId": "31938754232",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -20,11 +20,11 @@
     "curatedArticles": 25,
     "curatedFiles": 5,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-08-16T08:56:44.921Z",
+    "lastPublishedAt": "2026-08-16T09:20:18.125Z",
     "lastPublishedBySport": {
-      "futebol": "2026-08-16T08:56:44.902Z",
+      "futebol": "2026-08-16T09:20:18.094Z",
       "futebol-americano": "2026-08-16T03:10:52.899Z",
-      "tenis": "2026-08-16T07:59:30.892Z",
+      "tenis": "2026-08-16T09:20:18.125Z",
       "ciclismo": null,
       "formula1": null,
       "basquete": "2026-08-16T08:56:44.921Z",
@@ -40,17 +40,17 @@
         "futebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-16T08:56:44.902Z"
+          "lastPublishedAt": "2026-08-16T09:20:18.094Z"
         },
         "futebol-americano": {
           "status": "ok",
-          "ageHours": 5.8,
+          "ageHours": 6.2,
           "lastPublishedAt": "2026-08-16T03:10:52.899Z"
         },
         "tenis": {
           "status": "ok",
-          "ageHours": 1,
-          "lastPublishedAt": "2026-08-16T07:59:30.892Z"
+          "ageHours": 0,
+          "lastPublishedAt": "2026-08-16T09:20:18.125Z"
         },
         "ciclismo": {
           "status": "critical",
@@ -64,12 +64,12 @@
         },
         "basquete": {
           "status": "ok",
-          "ageHours": 0,
+          "ageHours": 0.4,
           "lastPublishedAt": "2026-08-16T08:56:44.921Z"
         },
         "beisebol": {
           "status": "ok",
-          "ageHours": 0.5,
+          "ageHours": 0.9,
           "lastPublishedAt": "2026-08-16T08:28:34.154Z"
         },
         "golfe": {

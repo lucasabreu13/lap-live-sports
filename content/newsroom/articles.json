@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-da041d3c35a9",
+    "slug": "rudolf-molleker-vence-aleksandr-braynin-por-2-a-0-em-prague-da041d",
+    "sportId": "tenis",
+    "title": "Rudolf Molleker vence Aleksandr Braynin por 2 a 0 em Prague",
+    "summary": "Rudolf Molleker superou Aleksandr Braynin por 2 a 0 em Prague.",
+    "content": "Rudolf Molleker superou Aleksandr Braynin por 2 a 0 em Prague., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Rudolf Molleker vence Aleksandr Braynin por 2 a 0 em Prague",
+    "seoDescription": "Rudolf Molleker superou Aleksandr Braynin por 2 a 0 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T09:20:18.125Z",
+    "createdAt": "2026-08-16T09:20:18.125Z",
+    "updatedAt": "2026-08-16T09:20:18.125Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815309",
+      "eventStartTime": "2026-08-16T08:09:03+00:00",
+      "retrievedAt": "2026-08-16T09:20:18.125Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8d45f2af2cfd",
+    "slug": "colorado-rapids-supera-sporting-kc-por-2-a-0-pelo-mls-8d45f2",
+    "sportId": "futebol",
+    "title": "Colorado Rapids supera Sporting KC por 2 a 0 pela MLS",
+    "summary": "Colorado Rapids venceu Sporting KC por 2 a 0 pela MLS.",
+    "content": "Colorado Rapids venceu Sporting KC por 2 a 0 pela MLS, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "Colorado Rapids supera Sporting KC por 2 a 0 pela MLS",
+    "seoDescription": "Colorado Rapids venceu Sporting KC por 2 a 0 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T09:20:18.094Z",
+    "createdAt": "2026-08-16T09:20:18.094Z",
+    "updatedAt": "2026-08-16T09:20:18.094Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4621449",
+      "eventStartTime": "2026-08-16T01:30:00+00:00",
+      "retrievedAt": "2026-08-16T09:20:18.094Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3dc51e64d3ac",
     "slug": "minnesota-lynx-vence-las-vegas-aces-por-92-a-87-em-wnba-3dc51e",
     "sportId": "basquete",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-13T09:30:54.384Z",
       "feedId": "futebol",
       "league": "Leagues Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4f5b3f114f7f",
-    "slug": "masamichi-imamura-vence-erik-arutiunian-por-2-a-0-em-astana-4f5b3f",
-    "sportId": "tenis",
-    "title": "Masamichi Imamura vence Erik Arutiunian por 2 a 0 em Astana",
-    "summary": "Masamichi Imamura superou Erik Arutiunian por 2 a 0 em Astana.",
-    "content": "Masamichi Imamura superou Erik Arutiunian por 2 a 0 em Astana., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "astana"
-    ],
-    "seoTitle": "Masamichi Imamura vence Erik Arutiunian por 2 a 0 em Astana",
-    "seoDescription": "Masamichi Imamura superou Erik Arutiunian por 2 a 0 em Astana.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T08:10:41.231Z",
-    "createdAt": "2026-08-13T08:10:41.231Z",
-    "updatedAt": "2026-08-13T08:10:41.231Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808805",
-      "eventStartTime": "2026-08-13T06:07:35+00:00",
-      "retrievedAt": "2026-08-13T08:10:41.231Z",
-      "feedId": "tenis",
-      "league": "Astana"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-12ad20ca02e2",
-    "slug": "cuenca-basket-vence-san-antonio-gold-por-89-a-61-em-liga-nacional-12ad20",
-    "sportId": "basquete",
-    "title": "Cuenca Basket vence San Antonio Gold por 89 a 61 em Liga Nacional",
-    "summary": "Cuenca Basket superou San Antonio Gold por 89 a 61 em Liga Nacional.",
-    "content": "Cuenca Basket superou San Antonio Gold por 89 a 61 em Liga Nacional., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-nacional"
-    ],
-    "seoTitle": "Cuenca Basket vence San Antonio Gold por 89 a 61 em Liga Nacional",
-    "seoDescription": "Cuenca Basket superou San Antonio Gold por 89 a 61 em Liga Nacional.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T08:10:41.229Z",
-    "createdAt": "2026-08-13T08:10:41.229Z",
-    "updatedAt": "2026-08-13T08:10:41.229Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811384",
-      "eventStartTime": "2026-08-13T01:00:00+00:00",
-      "retrievedAt": "2026-08-13T08:10:41.229Z",
-      "feedId": "basquete",
-      "league": "Liga Nacional"
     },
     "articleFormat": "result-brief"
   }
