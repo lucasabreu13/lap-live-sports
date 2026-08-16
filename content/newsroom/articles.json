@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-ac3e13b02c3a",
+    "slug": "jiri-lehecka-vence-matteo-berrettini-por-2-a-1-em-cincinnati-ac3e13",
+    "sportId": "tenis",
+    "title": "Jiri Lehecka vence Matteo Berrettini por 2 a 1 em Cincinnati",
+    "summary": "Jiri Lehecka superou Matteo Berrettini por 2 a 1 em Cincinnati.",
+    "content": "Jiri Lehecka superou Matteo Berrettini por 2 a 1 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Jiri Lehecka vence Matteo Berrettini por 2 a 1 em Cincinnati",
+    "seoDescription": "Jiri Lehecka superou Matteo Berrettini por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T03:10:52.917Z",
+    "createdAt": "2026-08-16T03:10:52.917Z",
+    "updatedAt": "2026-08-16T03:10:52.917Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814968",
+      "eventStartTime": "2026-08-15T22:31:32+00:00",
+      "retrievedAt": "2026-08-16T03:10:52.917Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-fbdfd8bd9faa",
+    "slug": "puerto-montt-basquetbol-vence-aba-ancud-por-88-a-66-em-lnb-fbdfd8",
+    "sportId": "basquete",
+    "title": "Puerto Montt Básquetbol vence ABA Ancud por 88 a 66 em LNB",
+    "summary": "Puerto Montt Básquetbol superou ABA Ancud por 88 a 66 em LNB.",
+    "content": "Puerto Montt Básquetbol superou ABA Ancud por 88 a 66 em LNB., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Puerto Montt Básquetbol vence ABA Ancud por 88 a 66 em LNB",
+    "seoDescription": "Puerto Montt Básquetbol superou ABA Ancud por 88 a 66 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T03:10:52.907Z",
+    "createdAt": "2026-08-16T03:10:52.907Z",
+    "updatedAt": "2026-08-16T03:10:52.907Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807333",
+      "eventStartTime": "2026-08-15T23:30:00+00:00",
+      "retrievedAt": "2026-08-16T03:10:52.907Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b538c14b9fda",
+    "slug": "dallas-cowboys-vence-seattle-seahawks-por-17-a-7-em-nfl-b538c1",
+    "sportId": "futebol-americano",
+    "title": "Dallas Cowboys vence Seattle Seahawks por 17 a 7 em NFL",
+    "summary": "Dallas Cowboys superou Seattle Seahawks por 17 a 7 em NFL.",
+    "content": "Dallas Cowboys superou Seattle Seahawks por 17 a 7 em NFL., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Dallas Cowboys vence Seattle Seahawks por 17 a 7 em NFL",
+    "seoDescription": "Dallas Cowboys superou Seattle Seahawks por 17 a 7 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T03:10:52.899Z",
+    "createdAt": "2026-08-16T03:10:52.899Z",
+    "updatedAt": "2026-08-16T03:10:52.899Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714916",
+      "eventStartTime": "2026-08-16T00:00:00+00:00",
+      "retrievedAt": "2026-08-16T03:10:52.899Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2716aef392d6",
+    "slug": "cucuta-deportivo-e-aguilas-doradas-ficam-no-0-a-0-pelo-primera-a-2716ae",
+    "sportId": "futebol",
+    "title": "Cucuta Deportivo e Águilas Doradas ficam no 0 a 0 pelo Primera A",
+    "summary": "Cucuta Deportivo e Águilas Doradas empataram por 0 a 0 pelo Primera A.",
+    "content": "Cucuta Deportivo e Águilas Doradas empataram por 0 a 0 pelo Primera A, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-a"
+    ],
+    "seoTitle": "Cucuta Deportivo e Águilas Doradas ficam no 0 a 0 pelo Primera A",
+    "seoDescription": "Cucuta Deportivo e Águilas Doradas empataram por 0 a 0 pelo Primera A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T03:10:52.896Z",
+    "createdAt": "2026-08-16T03:10:52.896Z",
+    "updatedAt": "2026-08-16T03:10:52.896Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4732055",
+      "eventStartTime": "2026-08-16T01:10:00+00:00",
+      "retrievedAt": "2026-08-16T03:10:52.896Z",
+      "feedId": "futebol",
+      "league": "Primera A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-63b6a3bdfe63",
     "slug": "diane-parry-vence-elise-mertens-por-2-a-1-em-cincinnati-63b6a3",
     "sportId": "tenis",
@@ -12440,174 +12608,6 @@
       "retrievedAt": "2026-08-12T19:17:25.944Z",
       "feedId": "beisebol",
       "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fadaed5214e1",
-    "slug": "francesco-forti-filippo-romano-vence-carou-i-rodriguez-c-por-2-a-0-em-todi-fadaed",
-    "sportId": "tenis",
-    "title": "Francesco Forti / Filippo Romano vence Carou I./Rodriguez C. por 2 a 0 em Todi",
-    "summary": "Francesco Forti / Filippo Romano superou Carou I./Rodriguez C. por 2 a 0 em Todi.",
-    "content": "Francesco Forti / Filippo Romano superou Carou I./Rodriguez C. por 2 a 0 em Todi., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "todi"
-    ],
-    "seoTitle": "Francesco Forti / Filippo Romano vence Carou I./Rodriguez C. por 2 a 0",
-    "seoDescription": "Francesco Forti / Filippo Romano superou Carou I./Rodriguez C. por 2 a 0 em Todi.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T19:17:25.929Z",
-    "createdAt": "2026-08-12T19:17:25.929Z",
-    "updatedAt": "2026-08-12T19:17:25.929Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808401",
-      "eventStartTime": "2026-08-12T18:16:40+00:00",
-      "retrievedAt": "2026-08-12T19:17:25.929Z",
-      "feedId": "tenis",
-      "league": "Todi"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8f44dcb1522d",
-    "slug": "universidad-catolica-w-e-deportes-recoleta-w-ficam-no-0-a-0-pela-championship-wome-8f44dc",
-    "sportId": "futebol",
-    "title": "Universidad Católica (W) e Deportes Recoleta (W) ficam no 0 a 0 pela Championship Women",
-    "summary": "Universidad Católica (W) e Deportes Recoleta (W) empataram por 0 a 0 pela Championship Women.",
-    "content": "Universidad Católica (W) e Deportes Recoleta (W) empataram por 0 a 0 pela Championship Women, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "championship-women"
-    ],
-    "seoTitle": "Universidad Católica (W) e Deportes Recoleta (W) ficam no 0 a 0 pela",
-    "seoDescription": "Universidad Católica (W) e Deportes Recoleta (W) empataram por 0 a 0 pela Championship Women.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T19:17:25.912Z",
-    "createdAt": "2026-08-12T19:17:25.912Z",
-    "updatedAt": "2026-08-12T19:17:25.912Z",
-    "homepagePriority": 82,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4679229",
-      "eventStartTime": "2026-08-12T19:00:00+00:00",
-      "retrievedAt": "2026-08-12T19:17:25.912Z",
-      "feedId": "futebol",
-      "league": "Championship Women"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b84935b73cb5",
-    "slug": "toronto-blue-jays-vence-boston-red-sox-por-5-a-3-na-mlb-b84935",
-    "sportId": "beisebol",
-    "title": "Toronto Blue Jays vence Boston Red Sox por 5 a 3 na MLB",
-    "summary": "Toronto Blue Jays derrotou Boston Red Sox por 5 a 3 na MLB.",
-    "content": "Toronto Blue Jays derrotou Boston Red Sox por 5 a 3 na MLB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Toronto Blue Jays vence Boston Red Sox por 5 a 3 na MLB",
-    "seoDescription": "Toronto Blue Jays derrotou Boston Red Sox por 5 a 3 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T18:05:12.513Z",
-    "createdAt": "2026-08-12T18:05:12.513Z",
-    "updatedAt": "2026-08-12T18:05:12.513Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602946",
-      "eventStartTime": "2026-08-11T23:07:00+00:00",
-      "retrievedAt": "2026-08-12T18:05:12.513Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c42e041c251f",
-    "slug": "alex-barrena-nicolas-kicker-vence-crivellaro-g-mecarelli-m-por-2-a-0-em-todi-c42e04",
-    "sportId": "tenis",
-    "title": "Alex Barrena /  Nicolas Kicker vence Crivellaro G./Mecarelli M. por 2 a 0 em Todi",
-    "summary": "Alex Barrena /  Nicolas Kicker superou Crivellaro G./Mecarelli M. por 2 a 0 em Todi.",
-    "content": "Alex Barrena /  Nicolas Kicker superou Crivellaro G./Mecarelli M. por 2 a 0 em Todi., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "todi"
-    ],
-    "seoTitle": "Alex Barrena /  Nicolas Kicker vence Crivellaro G./Mecarelli M. por 2",
-    "seoDescription": "Alex Barrena /  Nicolas Kicker superou Crivellaro G./Mecarelli M. por 2 a 0 em Todi.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T18:05:12.502Z",
-    "createdAt": "2026-08-12T18:05:12.502Z",
-    "updatedAt": "2026-08-12T18:05:12.502Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808397",
-      "eventStartTime": "2026-08-12T16:32:08+00:00",
-      "retrievedAt": "2026-08-12T18:05:12.502Z",
-      "feedId": "tenis",
-      "league": "Todi"
     },
     "articleFormat": "result-brief"
   }
