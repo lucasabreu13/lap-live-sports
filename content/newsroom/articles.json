@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-63b6a3bdfe63",
+    "slug": "diane-parry-vence-elise-mertens-por-2-a-1-em-cincinnati-63b6a3",
+    "sportId": "tenis",
+    "title": "Diane Parry vence Elise Mertens por 2 a 1 em Cincinnati",
+    "summary": "Diane Parry superou Elise Mertens por 2 a 1 em Cincinnati.",
+    "content": "Diane Parry superou Elise Mertens por 2 a 1 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Diane Parry vence Elise Mertens por 2 a 1 em Cincinnati",
+    "seoDescription": "Diane Parry superou Elise Mertens por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T02:09:33.721Z",
+    "createdAt": "2026-08-16T02:09:33.721Z",
+    "updatedAt": "2026-08-16T02:09:33.721Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813636",
+      "eventStartTime": "2026-08-15T22:57:35+00:00",
+      "retrievedAt": "2026-08-16T02:09:33.721Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-0a12065cc3dc",
+    "slug": "washington-mystics-vence-los-angeles-sparks-por-80-a-70-em-wnba-0a1206",
+    "sportId": "basquete",
+    "title": "Washington Mystics vence Los Angeles Sparks por 80 a 70 em WNBA",
+    "summary": "Washington Mystics superou Los Angeles Sparks por 80 a 70 em WNBA.",
+    "content": "Washington Mystics superou Los Angeles Sparks por 80 a 70 em WNBA., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Washington Mystics vence Los Angeles Sparks por 80 a 70 em WNBA",
+    "seoDescription": "Washington Mystics superou Los Angeles Sparks por 80 a 70 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T02:09:33.713Z",
+    "createdAt": "2026-08-16T02:09:33.713Z",
+    "updatedAt": "2026-08-16T02:09:33.713Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659880",
+      "eventStartTime": "2026-08-15T23:30:00+00:00",
+      "retrievedAt": "2026-08-16T02:09:33.713Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5e86378b61f9",
+    "slug": "baltimore-ravens-vence-philadelphia-eagles-por-24-a-7-em-nfl-5e8637",
+    "sportId": "futebol-americano",
+    "title": "Baltimore Ravens vence Philadelphia Eagles por 24 a 7 em NFL",
+    "summary": "Baltimore Ravens superou Philadelphia Eagles por 24 a 7 em NFL.",
+    "content": "Baltimore Ravens superou Philadelphia Eagles por 24 a 7 em NFL., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Baltimore Ravens vence Philadelphia Eagles por 24 a 7 em NFL",
+    "seoDescription": "Baltimore Ravens superou Philadelphia Eagles por 24 a 7 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T02:09:33.710Z",
+    "createdAt": "2026-08-16T02:09:33.710Z",
+    "updatedAt": "2026-08-16T02:09:33.710Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714915",
+      "eventStartTime": "2026-08-15T23:00:00+00:00",
+      "retrievedAt": "2026-08-16T02:09:33.710Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1e47e1a36a13",
+    "slug": "boyaca-chico-e-junior-fc-ficam-no-0-a-0-pelo-primera-a-1e47e1",
+    "sportId": "futebol",
+    "title": "Boyaca Chico e Junior FC ficam no 0 a 0 pelo Primera A",
+    "summary": "Boyaca Chico e Junior FC empataram por 0 a 0 pelo Primera A.",
+    "content": "Boyaca Chico e Junior FC empataram por 0 a 0 pelo Primera A, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-a"
+    ],
+    "seoTitle": "Boyaca Chico e Junior FC ficam no 0 a 0 pelo Primera A",
+    "seoDescription": "Boyaca Chico e Junior FC empataram por 0 a 0 pelo Primera A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T02:09:33.706Z",
+    "createdAt": "2026-08-16T02:09:33.706Z",
+    "updatedAt": "2026-08-16T02:09:33.706Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4732053",
+      "eventStartTime": "2026-08-16T01:10:00+00:00",
+      "retrievedAt": "2026-08-16T02:09:33.706Z",
+      "feedId": "futebol",
+      "league": "Primera A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-69c10f08cd3d",
     "slug": "arthur-fery-vence-james-duckworth-por-2-a-1-em-cincinnati-69c10f",
     "sportId": "tenis",
@@ -12440,174 +12608,6 @@
       "retrievedAt": "2026-08-12T18:05:12.502Z",
       "feedId": "tenis",
       "league": "Todi"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-37f1983956d7",
-    "slug": "deportes-ovalle-e-julio-covarrubias-ficam-no-0-a-0-pelo-tercera-division-b-37f198",
-    "sportId": "futebol",
-    "title": "Deportes Ovalle e Julio Covarrubias ficam no 0 a 0 pelo Tercera División B",
-    "summary": "Deportes Ovalle e Julio Covarrubias empataram por 0 a 0 pelo Tercera División B.",
-    "content": "Deportes Ovalle e Julio Covarrubias empataram por 0 a 0 pelo Tercera División B, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "tercera-division-b"
-    ],
-    "seoTitle": "Deportes Ovalle e Julio Covarrubias ficam no 0 a 0 pelo Tercera",
-    "seoDescription": "Deportes Ovalle e Julio Covarrubias empataram por 0 a 0 pelo Tercera División B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T18:05:12.491Z",
-    "createdAt": "2026-08-12T18:05:12.491Z",
-    "updatedAt": "2026-08-12T18:05:12.491Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808441",
-      "eventStartTime": "2026-08-12T18:00:00+00:00",
-      "retrievedAt": "2026-08-12T18:05:12.491Z",
-      "feedId": "futebol",
-      "league": "Tercera División B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e31157c2dfd0",
-    "slug": "atlanta-braves-vence-new-york-mets-por-4-a-0-na-mlb-e31157",
-    "sportId": "beisebol",
-    "title": "Atlanta Braves vence New York Mets por 4 a 0 na MLB",
-    "summary": "Atlanta Braves derrotou New York Mets por 4 a 0 na MLB.",
-    "content": "Atlanta Braves derrotou New York Mets por 4 a 0 na MLB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Atlanta Braves vence New York Mets por 4 a 0 na MLB",
-    "seoDescription": "Atlanta Braves derrotou New York Mets por 4 a 0 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T17:09:44.114Z",
-    "createdAt": "2026-08-12T17:09:44.114Z",
-    "updatedAt": "2026-08-12T17:09:44.114Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602959",
-      "eventStartTime": "2026-08-11T23:15:00+00:00",
-      "retrievedAt": "2026-08-12T17:09:44.114Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-63c059dabcfe",
-    "slug": "michalski-d-roca-batalla-o-vence-compagnucci-t-ricca-g-por-2-a-1-em-todi-63c059",
-    "sportId": "tenis",
-    "title": "Michalski D./Roca Batalla O. vence Compagnucci T./Ricca G. por 2 a 1 em Todi",
-    "summary": "Michalski D./Roca Batalla O. superou Compagnucci T./Ricca G. por 2 a 1 em Todi.",
-    "content": "Michalski D./Roca Batalla O. superou Compagnucci T./Ricca G. por 2 a 1 em Todi., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "todi"
-    ],
-    "seoTitle": "Michalski D./Roca Batalla O. vence Compagnucci T./Ricca G. por 2 a 1",
-    "seoDescription": "Michalski D./Roca Batalla O. superou Compagnucci T./Ricca G. por 2 a 1 em Todi.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T17:09:44.101Z",
-    "createdAt": "2026-08-12T17:09:44.101Z",
-    "updatedAt": "2026-08-12T17:09:44.101Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809540",
-      "eventStartTime": "2026-08-12T15:26:23+00:00",
-      "retrievedAt": "2026-08-12T17:09:44.101Z",
-      "feedId": "tenis",
-      "league": "Todi"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f8cf97cf5d33",
-    "slug": "barrancas-futbol-club-e-uribelarrea-fc-uribelarrea-ficam-no-0-a-0-pelo-promocional-f8cf97",
-    "sportId": "futebol",
-    "title": "Barrancas Futbol Club e Uribelarrea FC (Uribelarrea) ficam no 0 a 0 pelo Promocional Amateur",
-    "summary": "Barrancas Futbol Club e Uribelarrea FC (Uribelarrea) empataram por 0 a 0 pelo Promocional Amateur.",
-    "content": "Barrancas Futbol Club e Uribelarrea FC (Uribelarrea) empataram por 0 a 0 pelo Promocional Amateur, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "promocional-amateur"
-    ],
-    "seoTitle": "Barrancas Futbol Club e Uribelarrea FC (Uribelarrea) ficam no 0 a 0",
-    "seoDescription": "Barrancas Futbol Club e Uribelarrea FC (Uribelarrea) empataram por 0 a 0 pelo Promocional Amateur.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T17:09:44.086Z",
-    "createdAt": "2026-08-12T17:09:44.086Z",
-    "updatedAt": "2026-08-12T17:09:44.086Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4806398",
-      "eventStartTime": "2026-08-12T16:45:00+00:00",
-      "retrievedAt": "2026-08-12T17:09:44.086Z",
-      "feedId": "futebol",
-      "league": "Promocional Amateur"
     },
     "articleFormat": "result-brief"
   }
