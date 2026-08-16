@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-dafb9cdef86b",
+    "slug": "jaime-faria-vence-jenson-brooksby-por-2-a-0-em-cincinnati-dafb9c",
+    "sportId": "tenis",
+    "title": "Jaime Faria vence Jenson Brooksby por 2 a 0 em Cincinnati",
+    "summary": "Jaime Faria superou Jenson Brooksby por 2 a 0 em Cincinnati.",
+    "content": "Jaime Faria superou Jenson Brooksby por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Jaime Faria vence Jenson Brooksby por 2 a 0 em Cincinnati",
+    "seoDescription": "Jaime Faria superou Jenson Brooksby por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T07:59:30.892Z",
+    "createdAt": "2026-08-16T07:59:30.892Z",
+    "updatedAt": "2026-08-16T07:59:30.892Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813392",
+      "eventStartTime": "2026-08-14T23:16:51+00:00",
+      "retrievedAt": "2026-08-16T07:59:30.892Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-92c7d2f6e479",
+    "slug": "fuerza-regia-vence-freseros-de-irapuato-por-105-a-94-em-lnbp-92c7d2",
+    "sportId": "basquete",
+    "title": "Fuerza Regia vence Freseros De Irapuato por 105 a 94 em LNBP",
+    "summary": "Fuerza Regia superou Freseros De Irapuato por 105 a 94 em LNBP.",
+    "content": "Fuerza Regia superou Freseros De Irapuato por 105 a 94 em LNBP., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Fuerza Regia vence Freseros De Irapuato por 105 a 94 em LNBP",
+    "seoDescription": "Fuerza Regia superou Freseros De Irapuato por 105 a 94 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T07:59:30.848Z",
+    "createdAt": "2026-08-16T07:59:30.848Z",
+    "updatedAt": "2026-08-16T07:59:30.848Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707865",
+      "eventStartTime": "2026-08-15T22:15:00+00:00",
+      "retrievedAt": "2026-08-16T07:59:30.848Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5db242b0f59a",
+    "slug": "central-coast-supera-tiga-sport-por-2-a-0-pela-ofc-champions-league-5db242",
+    "sportId": "futebol",
+    "title": "Central Coast supera Tiga Sport por 2 a 0 pela OFC Champions League",
+    "summary": "Central Coast venceu Tiga Sport por 2 a 0 pela OFC Champions League.",
+    "content": "Central Coast venceu Tiga Sport por 2 a 0 pela OFC Champions League, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ofc-champions-league"
+    ],
+    "seoTitle": "Central Coast supera Tiga Sport por 2 a 0 pela OFC Champions League",
+    "seoDescription": "Central Coast venceu Tiga Sport por 2 a 0 pela OFC Champions League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T07:59:30.826Z",
+    "createdAt": "2026-08-16T07:59:30.826Z",
+    "updatedAt": "2026-08-16T07:59:30.826Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4678080",
+      "eventStartTime": "2026-08-16T03:00:00+00:00",
+      "retrievedAt": "2026-08-16T07:59:30.826Z",
+      "feedId": "futebol",
+      "league": "OFC Champions League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-2401a58a19a7",
     "slug": "defensor-sporting-club-w-e-cordon-w-empatam-por-0-a-0-em-lfb-w-2401a5",
     "sportId": "basquete",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-13T06:53:44.163Z",
       "feedId": "futebol",
       "league": "Leagues Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-78ba980fbb32",
-    "slug": "pericos-de-puebla-vence-piratas-de-campeche-por-5-a-3-na-lmb-78ba98",
-    "sportId": "beisebol",
-    "title": "Pericos de Puebla vence Piratas de Campeche por 5 a 3 na LMB",
-    "summary": "Pericos de Puebla derrotou Piratas de Campeche por 5 a 3 na LMB.",
-    "content": "Pericos de Puebla derrotou Piratas de Campeche por 5 a 3 na LMB, em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "lmb"
-    ],
-    "seoTitle": "Pericos de Puebla vence Piratas de Campeche por 5 a 3 na LMB",
-    "seoDescription": "Pericos de Puebla derrotou Piratas de Campeche por 5 a 3 na LMB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T05:21:49.742Z",
-    "createdAt": "2026-08-13T05:21:49.742Z",
-    "updatedAt": "2026-08-13T05:21:49.742Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807483",
-      "eventStartTime": "2026-08-13T01:50:00+00:00",
-      "retrievedAt": "2026-08-13T05:21:49.742Z",
-      "feedId": "beisebol",
-      "league": "LMB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0243cc49ed6e",
-    "slug": "kyrian-jacquet-vence-nicolai-budkov-kjaer-por-2-a-0-em-cincinnati-0243cc",
-    "sportId": "tenis",
-    "title": "Kyrian Jacquet vence Nicolai Budkov Kjaer por 2 a 0 em Cincinnati",
-    "summary": "Kyrian Jacquet superou Nicolai Budkov Kjaer por 2 a 0 em Cincinnati.",
-    "content": "Kyrian Jacquet superou Nicolai Budkov Kjaer por 2 a 0 em Cincinnati., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Kyrian Jacquet vence Nicolai Budkov Kjaer por 2 a 0 em Cincinnati",
-    "seoDescription": "Kyrian Jacquet superou Nicolai Budkov Kjaer por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T05:21:49.737Z",
-    "createdAt": "2026-08-13T05:21:49.737Z",
-    "updatedAt": "2026-08-13T05:21:49.737Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809976",
-      "eventStartTime": "2026-08-13T03:32:11+00:00",
-      "retrievedAt": "2026-08-13T05:21:49.737Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b58d15b5b28c",
-    "slug": "golden-state-valkyries-vence-chicago-sky-por-91-a-71-em-wnba-b58d15",
-    "sportId": "basquete",
-    "title": "Golden State Valkyries vence Chicago Sky por 91 a 71 em WNBA",
-    "summary": "Golden State Valkyries superou Chicago Sky por 91 a 71 em WNBA.",
-    "content": "Golden State Valkyries superou Chicago Sky por 91 a 71 em WNBA., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "Golden State Valkyries vence Chicago Sky por 91 a 71 em WNBA",
-    "seoDescription": "Golden State Valkyries superou Chicago Sky por 91 a 71 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T05:21:49.735Z",
-    "createdAt": "2026-08-13T05:21:49.735Z",
-    "updatedAt": "2026-08-13T05:21:49.735Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659871",
-      "eventStartTime": "2026-08-13T02:00:00+00:00",
-      "retrievedAt": "2026-08-13T05:21:49.735Z",
-      "feedId": "basquete",
-      "league": "WNBA"
     },
     "articleFormat": "result-brief"
   }
