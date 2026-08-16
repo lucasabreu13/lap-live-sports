@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-bb576433a6fe",
+    "slug": "new-mexico-supera-fc-tulsa-por-1-a-0-pela-usl-championship-bb5764",
+    "sportId": "futebol",
+    "title": "New Mexico supera FC Tulsa por 1 a 0 pela USL Championship",
+    "summary": "New Mexico venceu FC Tulsa por 1 a 0 pela USL Championship.",
+    "content": "New Mexico venceu FC Tulsa por 1 a 0 pela USL Championship, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "usl-championship"
+    ],
+    "seoTitle": "New Mexico supera FC Tulsa por 1 a 0 pela USL Championship",
+    "seoDescription": "New Mexico venceu FC Tulsa por 1 a 0 pela USL Championship.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T09:48:35.180Z",
+    "createdAt": "2026-08-16T09:48:35.180Z",
+    "updatedAt": "2026-08-16T09:48:35.180Z",
+    "homepagePriority": 82,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4634139",
+      "eventStartTime": "2026-08-16T01:30:00+00:00",
+      "retrievedAt": "2026-08-16T09:48:35.180Z",
+      "feedId": "futebol",
+      "league": "USL Championship"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-da041d3c35a9",
     "slug": "rudolf-molleker-vence-aleksandr-braynin-por-2-a-0-em-prague-da041d",
     "sportId": "tenis",
@@ -12566,48 +12608,6 @@
       "retrievedAt": "2026-08-13T09:30:54.393Z",
       "feedId": "basquete",
       "league": "Liga Nacional"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d449b67c9dd5",
-    "slug": "san-diego-fc-supera-puebla-por-3-a-2-pelo-leagues-cup-d449b6",
-    "sportId": "futebol",
-    "title": "San Diego FC supera Puebla por 3 a 2 pelo Leagues Cup",
-    "summary": "San Diego FC venceu Puebla por 3 a 2 pelo Leagues Cup.",
-    "content": "San Diego FC venceu Puebla por 3 a 2 pelo Leagues Cup, em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "leagues-cup"
-    ],
-    "seoTitle": "San Diego FC supera Puebla por 3 a 2 pelo Leagues Cup",
-    "seoDescription": "San Diego FC venceu Puebla por 3 a 2 pelo Leagues Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T09:30:54.384Z",
-    "createdAt": "2026-08-13T09:30:54.384Z",
-    "updatedAt": "2026-08-13T09:30:54.384Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4684003",
-      "eventStartTime": "2026-08-13T02:15:00+00:00",
-      "retrievedAt": "2026-08-13T09:30:54.384Z",
-      "feedId": "futebol",
-      "league": "Leagues Cup"
     },
     "articleFormat": "result-brief"
   }
