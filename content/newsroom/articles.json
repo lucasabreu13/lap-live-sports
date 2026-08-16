@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-6e917e13d40e",
+    "slug": "edward-winter-vence-steven-christie-por-2-a-0-em-kingston-6e917e",
+    "sportId": "tenis",
+    "title": "Edward Winter vence Steven Christie por 2 a 0 em Kingston",
+    "summary": "Edward Winter superou Steven Christie por 2 a 0 em Kingston.",
+    "content": "Edward Winter superou Steven Christie por 2 a 0 em Kingston., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Edward Winter vence Steven Christie por 2 a 0 em Kingston",
+    "seoDescription": "Edward Winter superou Steven Christie por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T19:13:02.406Z",
+    "createdAt": "2026-08-16T19:13:02.406Z",
+    "updatedAt": "2026-08-16T19:13:02.406Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815625",
+      "eventStartTime": "2026-08-16T17:50:50+00:00",
+      "retrievedAt": "2026-08-16T19:13:02.406Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2dce961100c0",
+    "slug": "club-1-de-marzo-fernando-mora-e-12-de-octubre-sd-ficam-no-0-a-0-pelo-apf-primera-b-2dce96",
+    "sportId": "futebol",
+    "title": "Club 1 De Marzo Fernando Mora e 12 de Octubre SD ficam no 0 a 0 pelo APF Primera B",
+    "summary": "Club 1 De Marzo Fernando Mora e 12 de Octubre SD empataram por 0 a 0 pelo APF Primera B.",
+    "content": "Club 1 De Marzo Fernando Mora e 12 de Octubre SD empataram por 0 a 0 pelo APF Primera B, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "apf-primera-b"
+    ],
+    "seoTitle": "Club 1 De Marzo Fernando Mora e 12 de Octubre SD ficam no 0 a 0 pelo",
+    "seoDescription": "Club 1 De Marzo Fernando Mora e 12 de Octubre SD empataram por 0 a 0 pelo APF Primera B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T19:13:02.380Z",
+    "createdAt": "2026-08-16T19:13:02.380Z",
+    "updatedAt": "2026-08-16T19:13:02.380Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809692",
+      "eventStartTime": "2026-08-16T18:00:00+00:00",
+      "retrievedAt": "2026-08-16T19:13:02.380Z",
+      "feedId": "futebol",
+      "league": "APF Primera B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-33325c08214f",
     "slug": "hsieh-s-ostapenko-j-vence-mihalikova-t-nicholls-o-por-2-a-0-em-cincinnati-33325c",
     "sportId": "tenis",
@@ -12512,96 +12596,6 @@
       "retrievedAt": "2026-08-14T05:53:49.114Z",
       "feedId": "futebol",
       "league": "Leagues Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0fb91ad4b64a",
-    "slug": "behar-a-paris-j-vence-ji-sung-nam-patrik-niklas-salminen-por-2-a-0-em-brownsburg-0fb91a",
-    "sportId": "tenis",
-    "title": "Ho R./Liutarevich I. vence Behar A./Paris J. por 2 a 0 em Brownsburg",
-    "summary": "Ho R./Liutarevich I. superou Behar A./Paris J. por 2 a 0 em Brownsburg.",
-    "content": "Ho R./Liutarevich I. superou Behar A./Paris J. por 2 a 0 em Brownsburg., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Ho R./Liutarevich I. vence Behar A./Paris J. por 2 a 0 em Brownsburg",
-    "seoDescription": "Ho R./Liutarevich I. superou Behar A./Paris J. por 2 a 0 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T04:27:55.978Z",
-    "createdAt": "2026-08-14T04:27:55.978Z",
-    "updatedAt": "2026-08-14T23:11:30.224Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814017",
-      "eventStartTime": "2026-08-14T21:21:48+00:00",
-      "retrievedAt": "2026-08-14T23:11:30.224Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief",
-    "updateHistory": [
-      {
-        "updatedAt": "2026-08-14T23:11:30.224Z",
-        "sourceArticleId": "newsroom-data-6bdf7f24f7e7"
-      }
-    ]
-  },
-  {
-    "id": "newsroom-data-cfca3b294a55",
-    "slug": "puente-alto-vence-csd-colo-colo-por-85-a-72-em-lnb-cfca3b",
-    "sportId": "basquete",
-    "title": "Puente Alto vence Csd Colo Colo por 85 a 72 em LNB",
-    "summary": "Puente Alto superou Csd Colo Colo por 85 a 72 em LNB.",
-    "content": "Puente Alto superou Csd Colo Colo por 85 a 72 em LNB., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Puente Alto vence Csd Colo Colo por 85 a 72 em LNB",
-    "seoDescription": "Puente Alto superou Csd Colo Colo por 85 a 72 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T04:27:55.975Z",
-    "createdAt": "2026-08-14T04:27:55.975Z",
-    "updatedAt": "2026-08-14T04:27:55.975Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4806547",
-      "eventStartTime": "2026-08-14T00:30:00+00:00",
-      "retrievedAt": "2026-08-14T04:27:55.975Z",
-      "feedId": "basquete",
-      "league": "LNB"
     },
     "articleFormat": "result-brief"
   }
