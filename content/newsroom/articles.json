@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-a61974e9c6e7",
+    "slug": "aziz-dougaz-vence-sergey-fomin-por-2-a-1-em-astana-a61974",
+    "sportId": "tenis",
+    "title": "Aziz Dougaz vence Sergey Fomin por 2 a 1 em Astana",
+    "summary": "Aziz Dougaz superou Sergey Fomin por 2 a 1 em Astana.",
+    "content": "Aziz Dougaz superou Sergey Fomin por 2 a 1 em Astana., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "astana"
+    ],
+    "seoTitle": "Aziz Dougaz vence Sergey Fomin por 2 a 1 em Astana",
+    "seoDescription": "Aziz Dougaz superou Sergey Fomin por 2 a 1 em Astana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T11:14:42.449Z",
+    "createdAt": "2026-08-16T11:14:42.449Z",
+    "updatedAt": "2026-08-16T11:14:42.449Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814527",
+      "eventStartTime": "2026-08-15T08:37:33+00:00",
+      "retrievedAt": "2026-08-16T11:14:42.449Z",
+      "feedId": "tenis",
+      "league": "Astana"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-091c81787fa4",
+    "slug": "chemnitzer-fc-w-e-sf-bg-marburg-w-ficam-no-0-a-0-pelo-dfb-pokal-women-091c81",
+    "sportId": "futebol",
+    "title": "Chemnitzer FC (W) e SF BG Marburg (W) ficam no 0 a 0 pelo DFB Pokal Women",
+    "summary": "Chemnitzer FC (W) e SF BG Marburg (W) empataram por 0 a 0 pelo DFB Pokal Women.",
+    "content": "Chemnitzer FC (W) e SF BG Marburg (W) empataram por 0 a 0 pelo DFB Pokal Women, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "dfb-pokal-women"
+    ],
+    "seoTitle": "Chemnitzer FC (W) e SF BG Marburg (W) ficam no 0 a 0 pelo DFB Pokal",
+    "seoDescription": "Chemnitzer FC (W) e SF BG Marburg (W) empataram por 0 a 0 pelo DFB Pokal Women.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T11:14:42.367Z",
+    "createdAt": "2026-08-16T11:14:42.367Z",
+    "updatedAt": "2026-08-16T11:14:42.367Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4748266",
+      "eventStartTime": "2026-08-16T10:00:00+00:00",
+      "retrievedAt": "2026-08-16T11:14:42.367Z",
+      "feedId": "futebol",
+      "league": "DFB Pokal Women"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-aa4605b06e69",
     "slug": "andrej-martin-vence-boris-arias-por-2-a-0-em-prague-aa4605",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-13T11:26:48.438Z",
       "feedId": "tenis",
       "league": "Astana"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b7bd2de43d86",
-    "slug": "bartolome-mitre-de-misiones-vence-river-plate-por-80-a-73-em-liga-federal-b7bd2d",
-    "sportId": "basquete",
-    "title": "Bartolomé Mitre de Misiones vence River Plate por 80 a 73 em Liga Federal",
-    "summary": "Bartolomé Mitre de Misiones superou River Plate por 80 a 73 em Liga Federal.",
-    "content": "Bartolomé Mitre de Misiones superou River Plate por 80 a 73 em Liga Federal., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-federal"
-    ],
-    "seoTitle": "Bartolomé Mitre de Misiones vence River Plate por 80 a 73 em Liga",
-    "seoDescription": "Bartolomé Mitre de Misiones superou River Plate por 80 a 73 em Liga Federal.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T11:26:48.433Z",
-    "createdAt": "2026-08-13T11:26:48.433Z",
-    "updatedAt": "2026-08-13T11:26:48.433Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807273",
-      "eventStartTime": "2026-08-13T00:00:00+00:00",
-      "retrievedAt": "2026-08-13T11:26:48.433Z",
-      "feedId": "basquete",
-      "league": "Liga Federal"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ffcb7ab88ddf",
-    "slug": "deportivo-quiche-supera-coatepeque-por-2-a-1-pelo-primera-division-ffcb7a",
-    "sportId": "futebol",
-    "title": "Deportivo Quiché supera Coatepeque por 2 a 1 pelo Primera Division",
-    "summary": "Deportivo Quiché venceu Coatepeque por 2 a 1 pelo Primera Division.",
-    "content": "Deportivo Quiché venceu Coatepeque por 2 a 1 pelo Primera Division, em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-division"
-    ],
-    "seoTitle": "Deportivo Quiché supera Coatepeque por 2 a 1 pelo Primera Division",
-    "seoDescription": "Deportivo Quiché venceu Coatepeque por 2 a 1 pelo Primera Division.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T11:26:48.422Z",
-    "createdAt": "2026-08-13T11:26:48.422Z",
-    "updatedAt": "2026-08-13T11:26:48.422Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4777112",
-      "eventStartTime": "2026-08-13T02:00:00+00:00",
-      "retrievedAt": "2026-08-13T11:26:48.422Z",
-      "feedId": "futebol",
-      "league": "Primera Division"
     },
     "articleFormat": "result-brief"
   }
