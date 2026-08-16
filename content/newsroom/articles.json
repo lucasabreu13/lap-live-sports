@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-1a2281d7b789",
+    "slug": "evan-zhu-vence-tauheed-browning-por-2-a-0-em-kingston-1a2281",
+    "sportId": "tenis",
+    "title": "Evan Zhu vence Tauheed Browning por 2 a 0 em Kingston",
+    "summary": "Evan Zhu superou Tauheed Browning por 2 a 0 em Kingston.",
+    "content": "Evan Zhu superou Tauheed Browning por 2 a 0 em Kingston., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Evan Zhu vence Tauheed Browning por 2 a 0 em Kingston",
+    "seoDescription": "Evan Zhu superou Tauheed Browning por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T20:09:26.928Z",
+    "createdAt": "2026-08-16T20:09:26.928Z",
+    "updatedAt": "2026-08-16T20:09:26.928Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815618",
+      "eventStartTime": "2026-08-16T17:18:13+00:00",
+      "retrievedAt": "2026-08-16T20:09:26.928Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-36e9dcb068f5",
+    "slug": "envigado-fc-e-internacional-fc-ficam-no-0-a-0-pelo-primera-b-36e9dc",
+    "sportId": "futebol",
+    "title": "Envigado FC e Internacional FC ficam no 0 a 0 pelo Primera B",
+    "summary": "Envigado FC e Internacional FC empataram por 0 a 0 pelo Primera B.",
+    "content": "Envigado FC e Internacional FC empataram por 0 a 0 pelo Primera B, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-b"
+    ],
+    "seoTitle": "Envigado FC e Internacional FC ficam no 0 a 0 pelo Primera B",
+    "seoDescription": "Envigado FC e Internacional FC empataram por 0 a 0 pelo Primera B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T20:09:26.884Z",
+    "createdAt": "2026-08-16T20:09:26.884Z",
+    "updatedAt": "2026-08-16T20:09:26.884Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4732176",
+      "eventStartTime": "2026-08-16T20:00:00+00:00",
+      "retrievedAt": "2026-08-16T20:09:26.884Z",
+      "feedId": "futebol",
+      "league": "Primera B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-49442ab0047a",
     "slug": "felix-auger-aliassime-vence-stefanos-tsitsipas-por-2-a-0-em-cincinnati-49442a",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-14T08:35:52.571Z",
       "feedId": "futebol",
       "league": "Liga Prom"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1a202485b886",
-    "slug": "rai-a-watt-j-vence-king-e-stalder-r-por-2-a-1-em-brownsburg-1a2024",
-    "sportId": "tenis",
-    "title": "Rai A./Watt J. vence King E./Stalder R. por 2 a 1 em Brownsburg",
-    "summary": "Rai A./Watt J. superou King E./Stalder R. por 2 a 1 em Brownsburg.",
-    "content": "Rai A./Watt J. superou King E./Stalder R. por 2 a 1 em Brownsburg., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Rai A./Watt J. vence King E./Stalder R. por 2 a 1 em Brownsburg",
-    "seoDescription": "Rai A./Watt J. superou King E./Stalder R. por 2 a 1 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T07:06:23.777Z",
-    "createdAt": "2026-08-14T07:06:23.777Z",
-    "updatedAt": "2026-08-14T07:06:23.777Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808203",
-      "eventStartTime": "2026-08-14T02:44:47+00:00",
-      "retrievedAt": "2026-08-14T07:06:23.777Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d0e2e97f21aa",
-    "slug": "deportivo-san-jose-vence-colonias-gold-basketball-por-105-a-95-em-lnb-d0e2e9",
-    "sportId": "basquete",
-    "title": "Deportivo San Jose vence Colonias Gold Basketball por 105 a 95 em LNB",
-    "summary": "Deportivo San Jose superou Colonias Gold Basketball por 105 a 95 em LNB.",
-    "content": "Deportivo San Jose superou Colonias Gold Basketball por 105 a 95 em LNB., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Deportivo San Jose vence Colonias Gold Basketball por 105 a 95 em LNB",
-    "seoDescription": "Deportivo San Jose superou Colonias Gold Basketball por 105 a 95 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T07:06:23.773Z",
-    "createdAt": "2026-08-14T07:06:23.773Z",
-    "updatedAt": "2026-08-14T07:06:23.773Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4806687",
-      "eventStartTime": "2026-08-13T23:00:00+00:00",
-      "retrievedAt": "2026-08-14T07:06:23.773Z",
-      "feedId": "basquete",
-      "league": "LNB"
     },
     "articleFormat": "result-brief"
   }
