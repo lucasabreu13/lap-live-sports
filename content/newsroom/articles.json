@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-31db3abbc061",
+    "slug": "routliffe-e-sutjiadi-a-vence-muhammad-a-stollar-f-por-2-a-0-em-cincinnati-31db3a",
+    "sportId": "tenis",
+    "title": "Routliffe E./Sutjiadi A. vence Muhammad A./Stollar F. por 2 a 0 em Cincinnati",
+    "summary": "Routliffe E./Sutjiadi A. superou Muhammad A./Stollar F. por 2 a 0 em Cincinnati.",
+    "content": "Routliffe E./Sutjiadi A. superou Muhammad A./Stollar F. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Routliffe E./Sutjiadi A. vence Muhammad A./Stollar F. por 2 a 0 em",
+    "seoDescription": "Routliffe E./Sutjiadi A. superou Muhammad A./Stollar F. por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T21:11:42.958Z",
+    "createdAt": "2026-08-16T21:11:42.958Z",
+    "updatedAt": "2026-08-16T21:11:42.958Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815100",
+      "eventStartTime": "2026-08-16T18:50:47+00:00",
+      "retrievedAt": "2026-08-16T21:11:42.958Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c1869eadc480",
+    "slug": "paulistano-vence-pinheiros-por-67-a-59-em-paulista-basketball-c1869e",
+    "sportId": "basquete",
+    "title": "Paulistano vence Pinheiros por 67 a 59 em Paulista Basketball",
+    "summary": "Paulistano superou Pinheiros por 67 a 59 em Paulista Basketball.",
+    "content": "Paulistano superou Pinheiros por 67 a 59 em Paulista Basketball., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "paulista-basketball"
+    ],
+    "seoTitle": "Paulistano vence Pinheiros por 67 a 59 em Paulista Basketball",
+    "seoDescription": "Paulistano superou Pinheiros por 67 a 59 em Paulista Basketball.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T21:11:42.951Z",
+    "createdAt": "2026-08-16T21:11:42.951Z",
+    "updatedAt": "2026-08-16T21:11:42.951Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814896",
+      "eventStartTime": "2026-08-16T14:00:00+00:00",
+      "retrievedAt": "2026-08-16T21:11:42.951Z",
+      "feedId": "basquete",
+      "league": "Paulista Basketball"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ca4611eb8123",
+    "slug": "deportivo-saprissa-w-e-chorotega-fc-w-ficam-no-0-a-0-pelo-primera-division-women-ca4611",
+    "sportId": "futebol",
+    "title": "Deportivo Saprissa (W) e Chorotega FC (W) ficam no 0 a 0 pelo Primera Division Women",
+    "summary": "Deportivo Saprissa (W) e Chorotega FC (W) empataram por 0 a 0 pelo Primera Division Women.",
+    "content": "Deportivo Saprissa (W) e Chorotega FC (W) empataram por 0 a 0 pelo Primera Division Women, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-division-women"
+    ],
+    "seoTitle": "Deportivo Saprissa (W) e Chorotega FC (W) ficam no 0 a 0 pelo Primera",
+    "seoDescription": "Deportivo Saprissa (W) e Chorotega FC (W) empataram por 0 a 0 pelo Primera Division Women.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T21:11:42.938Z",
+    "createdAt": "2026-08-16T21:11:42.938Z",
+    "updatedAt": "2026-08-16T21:11:42.938Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809663",
+      "eventStartTime": "2026-08-16T21:00:00+00:00",
+      "retrievedAt": "2026-08-16T21:11:42.938Z",
+      "feedId": "futebol",
+      "league": "Primera Division Women"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-be4c9ba9678d",
     "slug": "timo-legout-vence-aidan-mayo-por-2-a-0-em-kingston-be4c9b",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-14T09:41:14.370Z",
       "feedId": "tenis",
       "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-15ddc090985b",
-    "slug": "bauru-basket-vence-basket-osasco-por-91-a-64-em-paulista-basketball-15ddc0",
-    "sportId": "basquete",
-    "title": "Bauru Basket vence Basket Osasco por 91 a 64 em Paulista Basketball",
-    "summary": "Bauru Basket superou Basket Osasco por 91 a 64 em Paulista Basketball.",
-    "content": "Bauru Basket superou Basket Osasco por 91 a 64 em Paulista Basketball., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "paulista-basketball"
-    ],
-    "seoTitle": "Bauru Basket vence Basket Osasco por 91 a 64 em Paulista Basketball",
-    "seoDescription": "Bauru Basket superou Basket Osasco por 91 a 64 em Paulista Basketball.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T09:41:14.367Z",
-    "createdAt": "2026-08-14T09:41:14.367Z",
-    "updatedAt": "2026-08-14T09:41:14.367Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809914",
-      "eventStartTime": "2026-08-13T22:30:00+00:00",
-      "retrievedAt": "2026-08-14T09:41:14.367Z",
-      "feedId": "basquete",
-      "league": "Paulista Basketball"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f6193a3ca1ac",
-    "slug": "pittsburgh-steelers-vence-green-bay-packers-por-28-a-9-em-nfl-f6193a",
-    "sportId": "futebol-americano",
-    "title": "Pittsburgh Steelers vence Green Bay Packers por 28 a 9 em NFL",
-    "summary": "Pittsburgh Steelers superou Green Bay Packers por 28 a 9 em NFL.",
-    "content": "Pittsburgh Steelers superou Green Bay Packers por 28 a 9 em NFL., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "Pittsburgh Steelers vence Green Bay Packers por 28 a 9 em NFL",
-    "seoDescription": "Pittsburgh Steelers superou Green Bay Packers por 28 a 9 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T09:41:14.357Z",
-    "createdAt": "2026-08-14T09:41:14.357Z",
-    "updatedAt": "2026-08-14T09:41:14.357Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714904",
-      "eventStartTime": "2026-08-13T23:00:00+00:00",
-      "retrievedAt": "2026-08-14T09:41:14.357Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c959edd13a37",
-    "slug": "udelas-fc-supera-sd-atletico-nacional-por-3-a-1-pela-liga-prom-c959ed",
-    "sportId": "futebol",
-    "title": "Udelas Fc supera SD Atlético Nacional por 3 a 1 pela Liga Prom",
-    "summary": "Udelas Fc venceu SD Atlético Nacional por 3 a 1 pela Liga Prom.",
-    "content": "Udelas Fc venceu SD Atlético Nacional por 3 a 1 pela Liga Prom, em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-prom"
-    ],
-    "seoTitle": "Udelas Fc supera SD Atlético Nacional por 3 a 1 pela Liga Prom",
-    "seoDescription": "Udelas Fc venceu SD Atlético Nacional por 3 a 1 pela Liga Prom.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T09:41:14.354Z",
-    "createdAt": "2026-08-14T09:41:14.354Z",
-    "updatedAt": "2026-08-14T09:41:14.354Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4778508",
-      "eventStartTime": "2026-08-14T01:00:00+00:00",
-      "retrievedAt": "2026-08-14T09:41:14.354Z",
-      "feedId": "futebol",
-      "league": "Liga Prom"
     },
     "articleFormat": "result-brief"
   }
