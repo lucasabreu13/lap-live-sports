@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-d69cd5d97093",
+    "slug": "yakult-swallows-vence-yokohama-baystars-por-2-a-1-na-npb-d69cd5",
+    "sportId": "beisebol",
+    "title": "Yakult Swallows vence Yokohama Baystars por 2 a 1 na NPB",
+    "summary": "Yakult Swallows derrotou Yokohama Baystars por 2 a 1 na NPB.",
+    "content": "Yakult Swallows derrotou Yokohama Baystars por 2 a 1 na NPB, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Yakult Swallows vence Yokohama Baystars por 2 a 1 na NPB",
+    "seoDescription": "Yakult Swallows derrotou Yokohama Baystars por 2 a 1 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T23:09:57.784Z",
+    "createdAt": "2026-08-16T23:09:57.784Z",
+    "updatedAt": "2026-08-16T23:09:57.784Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626855",
+      "eventStartTime": "2026-08-16T09:00:00+00:00",
+      "retrievedAt": "2026-08-16T23:09:57.784Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3e82608e0bd6",
+    "slug": "andrew-fenty-vence-hunter-heck-por-2-a-1-em-kingston-3e8260",
+    "sportId": "tenis",
+    "title": "Andrew Fenty vence Hunter Heck por 2 a 1 em Kingston",
+    "summary": "Andrew Fenty superou Hunter Heck por 2 a 1 em Kingston.",
+    "content": "Andrew Fenty superou Hunter Heck por 2 a 1 em Kingston., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Andrew Fenty vence Hunter Heck por 2 a 1 em Kingston",
+    "seoDescription": "Andrew Fenty superou Hunter Heck por 2 a 1 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T23:09:57.762Z",
+    "createdAt": "2026-08-16T23:09:57.762Z",
+    "updatedAt": "2026-08-16T23:09:57.762Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815566",
+      "eventStartTime": "2026-08-16T16:52:53+00:00",
+      "retrievedAt": "2026-08-16T23:09:57.762Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7ac78374884d",
+    "slug": "club-malvin-w-vence-tabare-w-por-85-a-44-em-lfb-w-7ac783",
+    "sportId": "basquete",
+    "title": "Club Malvin (W) vence Tabare (W) por 85 a 44 em LFB (W)",
+    "summary": "Club Malvin (W) superou Tabare (W) por 85 a 44 em LFB (W).",
+    "content": "Club Malvin (W) superou Tabare (W) por 85 a 44 em LFB (W)., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lfb-w"
+    ],
+    "seoTitle": "Club Malvin (W) vence Tabare (W) por 85 a 44 em LFB (W)",
+    "seoDescription": "Club Malvin (W) superou Tabare (W) por 85 a 44 em LFB (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T23:09:57.730Z",
+    "createdAt": "2026-08-16T23:09:57.730Z",
+    "updatedAt": "2026-08-16T23:09:57.730Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814214",
+      "eventStartTime": "2026-08-16T21:30:00+00:00",
+      "retrievedAt": "2026-08-16T23:09:57.730Z",
+      "feedId": "basquete",
+      "league": "LFB (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-559b1c905984",
+    "slug": "america-de-cali-e-fortaleza-fc-ficam-no-0-a-0-pelo-primera-a-559b1c",
+    "sportId": "futebol",
+    "title": "America de Cali e Fortaleza FC ficam no 0 a 0 pelo Primera A",
+    "summary": "America de Cali e Fortaleza FC empataram por 0 a 0 pelo Primera A.",
+    "content": "America de Cali e Fortaleza FC empataram por 0 a 0 pelo Primera A, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-a"
+    ],
+    "seoTitle": "America de Cali e Fortaleza FC ficam no 0 a 0 pelo Primera A",
+    "seoDescription": "America de Cali e Fortaleza FC empataram por 0 a 0 pelo Primera A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T23:09:57.715Z",
+    "createdAt": "2026-08-16T23:09:57.715Z",
+    "updatedAt": "2026-08-16T23:09:57.715Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4732050",
+      "eventStartTime": "2026-08-16T23:05:00+00:00",
+      "retrievedAt": "2026-08-16T23:09:57.715Z",
+      "feedId": "futebol",
+      "league": "Primera A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ab213f9f1b3d",
     "slug": "ssg-landers-vence-lg-twins-por-6-a-0-na-kbo-ab213f",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-14T16:22:20.210Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c7cbda6dacb3",
-    "slug": "nk-radnik-krizevci-e-dugo-selo-ficam-no-0-a-0-pelo-club-friendlies-c7cbda",
-    "sportId": "futebol",
-    "title": "NK Radnik Krizevci e Dugo Selo ficam no 0 a 0 pelo Club Friendlies",
-    "summary": "NK Radnik Krizevci e Dugo Selo empataram por 0 a 0 pelo Club Friendlies.",
-    "content": "NK Radnik Krizevci e Dugo Selo empataram por 0 a 0 pelo Club Friendlies, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "NK Radnik Krizevci e Dugo Selo ficam no 0 a 0 pelo Club Friendlies",
-    "seoDescription": "NK Radnik Krizevci e Dugo Selo empataram por 0 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T16:22:20.186Z",
-    "createdAt": "2026-08-14T16:22:20.186Z",
-    "updatedAt": "2026-08-14T16:22:20.186Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814852",
-      "eventStartTime": "2026-08-14T15:30:00+00:00",
-      "retrievedAt": "2026-08-14T16:22:20.186Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e6f0e7853ab4",
-    "slug": "orix-buffaloes-vence-nippon-ham-fighters-por-6-a-2-na-npb-e6f0e7",
-    "sportId": "beisebol",
-    "title": "Orix Buffaloes vence Nippon Ham Fighters por 6 a 2 na NPB",
-    "summary": "Orix Buffaloes derrotou Nippon Ham Fighters por 6 a 2 na NPB.",
-    "content": "Orix Buffaloes derrotou Nippon Ham Fighters por 6 a 2 na NPB, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Orix Buffaloes vence Nippon Ham Fighters por 6 a 2 na NPB",
-    "seoDescription": "Orix Buffaloes derrotou Nippon Ham Fighters por 6 a 2 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T15:28:21.309Z",
-    "createdAt": "2026-08-14T15:28:21.309Z",
-    "updatedAt": "2026-08-14T15:28:21.309Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4627259",
-      "eventStartTime": "2026-08-14T09:00:00+00:00",
-      "retrievedAt": "2026-08-14T15:28:21.309Z",
-      "feedId": "beisebol",
-      "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-40099501c50e",
-    "slug": "jan-kumstat-vence-carlos-taberner-por-1-a-0-em-hamburg-400995",
-    "sportId": "tenis",
-    "title": "Jan Kumstat vence Carlos Taberner por 1 a 0 em Hamburg",
-    "summary": "Jan Kumstat superou Carlos Taberner por 1 a 0 em Hamburg.",
-    "content": "Jan Kumstat superou Carlos Taberner por 1 a 0 em Hamburg., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "hamburg"
-    ],
-    "seoTitle": "Jan Kumstat vence Carlos Taberner por 1 a 0 em Hamburg",
-    "seoDescription": "Jan Kumstat superou Carlos Taberner por 1 a 0 em Hamburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T15:28:21.297Z",
-    "createdAt": "2026-08-14T15:28:21.297Z",
-    "updatedAt": "2026-08-14T15:28:21.297Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4812150",
-      "eventStartTime": "2026-08-14T12:50:02+00:00",
-      "retrievedAt": "2026-08-14T15:28:21.297Z",
-      "feedId": "tenis",
-      "league": "Hamburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d6b70e467a01",
-    "slug": "sardor-tursunzoda-e-fk-khosilot-farkhor-ficam-no-0-a-0-pela-vysshaya-liga-d6b70e",
-    "sportId": "futebol",
-    "title": "Sardor Tursunzoda e Fk Khosilot Farkhor ficam no 0 a 0 pela Vysshaya Liga",
-    "summary": "Sardor Tursunzoda e Fk Khosilot Farkhor empataram por 0 a 0 pela Vysshaya Liga.",
-    "content": "Sardor Tursunzoda e Fk Khosilot Farkhor empataram por 0 a 0 pela Vysshaya Liga, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "vysshaya-liga"
-    ],
-    "seoTitle": "Sardor Tursunzoda e Fk Khosilot Farkhor ficam no 0 a 0 pela Vysshaya",
-    "seoDescription": "Sardor Tursunzoda e Fk Khosilot Farkhor empataram por 0 a 0 pela Vysshaya Liga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T15:28:21.268Z",
-    "createdAt": "2026-08-14T15:28:21.268Z",
-    "updatedAt": "2026-08-14T15:28:21.268Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4679402",
-      "eventStartTime": "2026-08-14T14:00:00+00:00",
-      "retrievedAt": "2026-08-14T15:28:21.268Z",
-      "feedId": "futebol",
-      "league": "Vysshaya Liga"
     },
     "articleFormat": "result-brief"
   }
