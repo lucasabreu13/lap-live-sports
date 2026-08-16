@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-29708913ca42",
+    "slug": "ali-habib-vence-samuel-battistone-por-2-a-0-em-roehampton-297089",
+    "sportId": "tenis",
+    "title": "Ali Habib vence Samuel Battistone por 2 a 0 em Roehampton",
+    "summary": "Ali Habib superou Samuel Battistone por 2 a 0 em Roehampton.",
+    "content": "Ali Habib superou Samuel Battistone por 2 a 0 em Roehampton., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Ali Habib vence Samuel Battistone por 2 a 0 em Roehampton",
+    "seoDescription": "Ali Habib superou Samuel Battistone por 2 a 0 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T17:11:04.155Z",
+    "createdAt": "2026-08-16T17:11:04.155Z",
+    "updatedAt": "2026-08-16T17:11:04.155Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815666",
+      "eventStartTime": "2026-08-16T16:18:28+00:00",
+      "retrievedAt": "2026-08-16T17:11:04.155Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d2074c98d997",
+    "slug": "sloga-doboj-e-borac-banjaluka-ficam-no-0-a-0-pela-premier-league-d2074c",
+    "sportId": "futebol",
+    "title": "Sloga Doboj e Borac Banjaluka ficam no 0 a 0 pela Premier League",
+    "summary": "Sloga Doboj e Borac Banjaluka empataram por 0 a 0 pela Premier League.",
+    "content": "Sloga Doboj e Borac Banjaluka empataram por 0 a 0 pela Premier League, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "premier-league"
+    ],
+    "seoTitle": "Sloga Doboj e Borac Banjaluka ficam no 0 a 0 pela Premier League",
+    "seoDescription": "Sloga Doboj e Borac Banjaluka empataram por 0 a 0 pela Premier League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T17:11:04.130Z",
+    "createdAt": "2026-08-16T17:11:04.130Z",
+    "updatedAt": "2026-08-16T17:11:04.130Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4761981",
+      "eventStartTime": "2026-08-16T17:00:00+00:00",
+      "retrievedAt": "2026-08-16T17:11:04.130Z",
+      "feedId": "futebol",
+      "league": "Premier League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5fd419788fc5",
     "slug": "aidan-kim-vence-richard-mallory-por-2-a-0-em-kingston-5fd419",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-14T00:04:46.779Z",
       "feedId": "futebol",
       "league": "Paulista Women"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b3d5519df928",
-    "slug": "rinky-hijikata-e-gael-monfils-empatam-por-0-a-0-em-cincinnati-b3d551",
-    "sportId": "tenis",
-    "title": "Rinky Hijikata e Gaël Monfils empatam por 0 a 0 em Cincinnati",
-    "summary": "Rinky Hijikata e Gaël Monfils terminaram empatados por 0 a 0 em Cincinnati.",
-    "content": "Rinky Hijikata e Gaël Monfils terminaram empatados por 0 a 0 em Cincinnati., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Rinky Hijikata e Gaël Monfils empatam por 0 a 0 em Cincinnati",
-    "seoDescription": "Rinky Hijikata e Gaël Monfils terminaram empatados por 0 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T23:23:40.891Z",
-    "createdAt": "2026-08-13T23:23:40.891Z",
-    "updatedAt": "2026-08-13T23:23:40.891Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809636",
-      "eventStartTime": "2026-08-13T23:11:35+00:00",
-      "retrievedAt": "2026-08-13T23:23:40.891Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2e95998cbc9b",
-    "slug": "sc-gaucho-e-ec-pelotas-ficam-no-0-a-0-pelo-gaucho-a2-2e9599",
-    "sportId": "futebol",
-    "title": "SC Gaucho e EC Pelotas ficam no 0 a 0 pelo Gaucho A2",
-    "summary": "SC Gaucho e EC Pelotas empataram por 0 a 0 pelo Gaucho A2.",
-    "content": "SC Gaucho e EC Pelotas empataram por 0 a 0 pelo Gaucho A2, em 13 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "gaucho-a2"
-    ],
-    "seoTitle": "SC Gaucho e EC Pelotas ficam no 0 a 0 pelo Gaucho A2",
-    "seoDescription": "SC Gaucho e EC Pelotas empataram por 0 a 0 pelo Gaucho A2.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T23:23:40.869Z",
-    "createdAt": "2026-08-13T23:23:40.869Z",
-    "updatedAt": "2026-08-13T23:23:40.869Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4762518",
-      "eventStartTime": "2026-08-13T22:00:00+00:00",
-      "retrievedAt": "2026-08-13T23:23:40.869Z",
-      "feedId": "futebol",
-      "league": "Gaucho A2"
     },
     "articleFormat": "result-brief"
   }
