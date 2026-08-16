@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-5b60d0535400",
+    "slug": "nippon-ham-fighters-vence-orix-buffaloes-por-13-a-7-na-npb-5b60d0",
+    "sportId": "beisebol",
+    "title": "Nippon Ham Fighters vence Orix Buffaloes por 13 a 7 na NPB",
+    "summary": "Nippon Ham Fighters derrotou Orix Buffaloes por 13 a 7 na NPB.",
+    "content": "Nippon Ham Fighters derrotou Orix Buffaloes por 13 a 7 na NPB, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Nippon Ham Fighters vence Orix Buffaloes por 13 a 7 na NPB",
+    "seoDescription": "Nippon Ham Fighters derrotou Orix Buffaloes por 13 a 7 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T23:53:48.629Z",
+    "createdAt": "2026-08-16T23:53:48.629Z",
+    "updatedAt": "2026-08-16T23:53:48.629Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626846",
+      "eventStartTime": "2026-08-16T04:00:00+00:00",
+      "retrievedAt": "2026-08-16T23:53:48.629Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-141d75ccbf4d",
+    "slug": "ivan-marrero-curbelo-vence-lev-seidman-por-2-a-1-em-kingston-141d75",
+    "sportId": "tenis",
+    "title": "Ivan Marrero Curbelo vence Lev Seidman por 2 a 1 em Kingston",
+    "summary": "Ivan Marrero Curbelo superou Lev Seidman por 2 a 1 em Kingston.",
+    "content": "Ivan Marrero Curbelo superou Lev Seidman por 2 a 1 em Kingston., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Ivan Marrero Curbelo vence Lev Seidman por 2 a 1 em Kingston",
+    "seoDescription": "Ivan Marrero Curbelo superou Lev Seidman por 2 a 1 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T23:53:48.615Z",
+    "createdAt": "2026-08-16T23:53:48.615Z",
+    "updatedAt": "2026-08-16T23:53:48.615Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815626",
+      "eventStartTime": "2026-08-16T15:10:58+00:00",
+      "retrievedAt": "2026-08-16T23:53:48.615Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-38b263573356",
+    "slug": "chicago-sky-vence-seattle-storm-por-82-a-80-em-wnba-38b263",
+    "sportId": "basquete",
+    "title": "Chicago Sky vence Seattle Storm por 82 a 80 em WNBA",
+    "summary": "Chicago Sky superou Seattle Storm por 82 a 80 em WNBA.",
+    "content": "Chicago Sky superou Seattle Storm por 82 a 80 em WNBA., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Chicago Sky vence Seattle Storm por 82 a 80 em WNBA",
+    "seoDescription": "Chicago Sky superou Seattle Storm por 82 a 80 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T23:53:48.584Z",
+    "createdAt": "2026-08-16T23:53:48.584Z",
+    "updatedAt": "2026-08-16T23:53:48.584Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659882",
+      "eventStartTime": "2026-08-16T21:00:00+00:00",
+      "retrievedAt": "2026-08-16T23:53:48.584Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4ceb10e292cc",
+    "slug": "inter-san-carlos-supera-perez-zeledon-por-1-a-0-pela-liga-fpd-4ceb10",
+    "sportId": "futebol",
+    "title": "Inter San Carlos supera Perez Zeledon por 1 a 0 pela liga FPD",
+    "summary": "Inter San Carlos venceu Perez Zeledon por 1 a 0 pela liga FPD.",
+    "content": "Inter San Carlos venceu Perez Zeledon por 1 a 0 pela liga FPD, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-fpd"
+    ],
+    "seoTitle": "Inter San Carlos supera Perez Zeledon por 1 a 0 pela liga FPD",
+    "seoDescription": "Inter San Carlos venceu Perez Zeledon por 1 a 0 pela liga FPD.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T23:53:48.575Z",
+    "createdAt": "2026-08-16T23:53:48.575Z",
+    "updatedAt": "2026-08-16T23:53:48.575Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4734839",
+      "eventStartTime": "2026-08-16T22:00:00+00:00",
+      "retrievedAt": "2026-08-16T23:53:48.575Z",
+      "feedId": "futebol",
+      "league": "liga FPD"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-0b7e9819f8ec",
     "slug": "yomiuri-giants-vence-chunichi-dragons-por-11-a-0-na-npb-0b7e98",
     "sportId": "beisebol",
@@ -12426,174 +12594,6 @@
       "eventId": "365-4812258",
       "eventStartTime": "2026-08-14T18:38:42+00:00",
       "retrievedAt": "2026-08-14T19:54:51.650Z",
-      "feedId": "tenis",
-      "league": "Todi"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f5e7e3d1d2b4",
-    "slug": "botafogo-sp-youth-supera-novorizontino-youth-por-2-a-1-pelo-paulista-u20-f5e7e3",
-    "sportId": "futebol",
-    "title": "Botafogo/Sp Youth supera Novorizontino Youth por 2 a 1 pelo Paulista U20",
-    "summary": "Botafogo/Sp Youth venceu Novorizontino Youth por 2 a 1 pelo Paulista U20.",
-    "content": "Botafogo/Sp Youth venceu Novorizontino Youth por 2 a 1 pelo Paulista U20, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "paulista-u20"
-    ],
-    "seoTitle": "Botafogo/Sp Youth supera Novorizontino Youth por 2 a 1 pelo Paulista",
-    "seoDescription": "Botafogo/Sp Youth venceu Novorizontino Youth por 2 a 1 pelo Paulista U20.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T19:54:51.622Z",
-    "createdAt": "2026-08-14T19:54:51.622Z",
-    "updatedAt": "2026-08-14T19:54:51.622Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4713016",
-      "eventStartTime": "2026-08-14T18:00:00+00:00",
-      "retrievedAt": "2026-08-14T19:54:51.622Z",
-      "feedId": "futebol",
-      "league": "Paulista U20"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1c5ffab98c1b",
-    "slug": "emilliana-arango-vence-venus-williams-por-2-a-0-em-cincinnati-1c5ffa",
-    "sportId": "tenis",
-    "title": "Emilliana Arango vence Venus Williams por 2 a 0 em Cincinnati",
-    "summary": "Emilliana Arango superou Venus Williams por 2 a 0 em Cincinnati.",
-    "content": "Emilliana Arango superou Venus Williams por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Emilliana Arango vence Venus Williams por 2 a 0 em Cincinnati",
-    "seoDescription": "Emilliana Arango superou Venus Williams por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T19:11:58.113Z",
-    "createdAt": "2026-08-14T19:11:58.113Z",
-    "updatedAt": "2026-08-14T19:11:58.113Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813448",
-      "eventStartTime": "2026-08-14T17:41:25+00:00",
-      "retrievedAt": "2026-08-14T19:11:58.113Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2ffdecfbdac0",
-    "slug": "westfalia-rhynern-e-sc-wiedenbruck-ficam-no-0-a-0-pela-regionalliga-2ffdec",
-    "sportId": "futebol",
-    "title": "Westfalia Rhynern e SC Wiedenbrück ficam no 0 a 0 pela Regionalliga",
-    "summary": "Westfalia Rhynern e SC Wiedenbrück empataram por 0 a 0 pela Regionalliga.",
-    "content": "Westfalia Rhynern e SC Wiedenbrück empataram por 0 a 0 pela Regionalliga, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "regionalliga"
-    ],
-    "seoTitle": "Westfalia Rhynern e SC Wiedenbrück ficam no 0 a 0 pela Regionalliga",
-    "seoDescription": "Westfalia Rhynern e SC Wiedenbrück empataram por 0 a 0 pela Regionalliga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T19:11:58.091Z",
-    "createdAt": "2026-08-14T19:11:58.091Z",
-    "updatedAt": "2026-08-14T19:11:58.091Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4769330",
-      "eventStartTime": "2026-08-14T17:30:00+00:00",
-      "retrievedAt": "2026-08-14T19:11:58.091Z",
-      "feedId": "futebol",
-      "league": "Regionalliga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8b1c0847108a",
-    "slug": "mansilla-diez-m-winter-lopez-b-vence-michalski-d-roca-batalla-o-por-2-a-1-em-todi-8b1c08",
-    "sportId": "tenis",
-    "title": "Mansilla Diez M./Winter Lopez B. vence Michalski D./Roca Batalla O. por 2 a 1 em Todi",
-    "summary": "Mansilla Diez M./Winter Lopez B. superou Michalski D./Roca Batalla O. por 2 a 1 em Todi.",
-    "content": "Mansilla Diez M./Winter Lopez B. superou Michalski D./Roca Batalla O. por 2 a 1 em Todi., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "todi"
-    ],
-    "seoTitle": "Mansilla Diez M./Winter Lopez B. vence Michalski D./Roca Batalla O.",
-    "seoDescription": "Mansilla Diez M./Winter Lopez B. superou Michalski D./Roca Batalla O. por 2 a 1 em Todi.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T18:12:13.864Z",
-    "createdAt": "2026-08-14T18:12:13.864Z",
-    "updatedAt": "2026-08-14T18:12:13.864Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4812151",
-      "eventStartTime": "2026-08-14T16:24:07+00:00",
-      "retrievedAt": "2026-08-14T18:12:13.864Z",
       "feedId": "tenis",
       "league": "Todi"
     },
