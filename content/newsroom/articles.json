@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-e12fc780290d",
+    "slug": "soles-de-mexicali-vence-santos-de-san-luis-por-84-a-75-em-lnbp-e12fc7",
+    "sportId": "basquete",
+    "title": "Soles De Mexicali vence Santos De San Luis por 84 a 75 em LNBP",
+    "summary": "Soles De Mexicali superou Santos De San Luis por 84 a 75 em LNBP.",
+    "content": "Soles De Mexicali superou Santos De San Luis por 84 a 75 em LNBP., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Soles De Mexicali vence Santos De San Luis por 84 a 75 em LNBP",
+    "seoDescription": "Soles De Mexicali superou Santos De San Luis por 84 a 75 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T05:54:34.909Z",
+    "createdAt": "2026-08-16T05:54:34.909Z",
+    "updatedAt": "2026-08-16T05:54:34.909Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707869",
+      "eventStartTime": "2026-08-16T01:00:00+00:00",
+      "retrievedAt": "2026-08-16T05:54:34.909Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ef009b1beec7",
+    "slug": "club-tijuana-w-supera-necaxa-w-por-5-a-1-pelo-mexico-ef009b",
+    "sportId": "futebol",
+    "title": "Club Tijuana (W) supera Necaxa (W) por 5 a 1 pelo Mexico",
+    "summary": "Club Tijuana (W) venceu Necaxa (W) por 5 a 1 pelo Mexico.",
+    "content": "Club Tijuana (W) venceu Necaxa (W) por 5 a 1 pelo Mexico, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mexico"
+    ],
+    "seoTitle": "Club Tijuana (W) supera Necaxa (W) por 5 a 1 pelo Mexico",
+    "seoDescription": "Club Tijuana (W) venceu Necaxa (W) por 5 a 1 pelo Mexico.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T05:54:34.896Z",
+    "createdAt": "2026-08-16T05:54:34.896Z",
+    "updatedAt": "2026-08-16T05:54:34.896Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4788412",
+      "eventStartTime": "2026-08-16T03:10:00+00:00",
+      "retrievedAt": "2026-08-16T05:54:34.896Z",
+      "feedId": "futebol",
+      "league": "Mexico"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4f95fd271b10",
     "slug": "boston-red-sox-vence-pittsburgh-pirates-por-4-a-0-na-mlb-4f95fd",
     "sportId": "beisebol",
@@ -12522,90 +12606,6 @@
       "eventId": "365-4808451",
       "eventStartTime": "2026-08-13T01:00:00+00:00",
       "retrievedAt": "2026-08-13T01:13:53.875Z",
-      "feedId": "futebol",
-      "league": "Tercera División B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f27d7a263d88",
-    "slug": "martos-gornes-s-walkow-s-vence-perez-b-ribeiro-e-por-2-a-0-em-hamburg-f27d7a",
-    "sportId": "tenis",
-    "title": "Martos Gornes S./Walkow S. vence Perez B./Ribeiro E. por 2 a 0 em Hamburg",
-    "summary": "Martos Gornes S./Walkow S. superou Perez B./Ribeiro E. por 2 a 0 em Hamburg.",
-    "content": "Martos Gornes S./Walkow S. superou Perez B./Ribeiro E. por 2 a 0 em Hamburg., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "hamburg"
-    ],
-    "seoTitle": "Martos Gornes S./Walkow S. vence Perez B./Ribeiro E. por 2 a 0 em",
-    "seoDescription": "Martos Gornes S./Walkow S. superou Perez B./Ribeiro E. por 2 a 0 em Hamburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T23:56:28.236Z",
-    "createdAt": "2026-08-12T23:56:28.236Z",
-    "updatedAt": "2026-08-12T23:56:28.236Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808388",
-      "eventStartTime": "2026-08-12T15:11:01+00:00",
-      "retrievedAt": "2026-08-12T23:56:28.236Z",
-      "feedId": "tenis",
-      "league": "Hamburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ff7b569a7671",
-    "slug": "municipal-de-paillaco-e-fernandez-vial-ficam-no-0-a-0-pelo-tercera-division-b-ff7b56",
-    "sportId": "futebol",
-    "title": "Municipal de Paillaco e Fernández Vial ficam no 0 a 0 pelo Tercera División B",
-    "summary": "Municipal de Paillaco e Fernández Vial empataram por 0 a 0 pelo Tercera División B.",
-    "content": "Municipal de Paillaco e Fernández Vial empataram por 0 a 0 pelo Tercera División B, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "tercera-division-b"
-    ],
-    "seoTitle": "Municipal de Paillaco e Fernández Vial ficam no 0 a 0 pelo Tercera",
-    "seoDescription": "Municipal de Paillaco e Fernández Vial empataram por 0 a 0 pelo Tercera División B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T23:56:28.213Z",
-    "createdAt": "2026-08-12T23:56:28.213Z",
-    "updatedAt": "2026-08-12T23:56:28.213Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808449",
-      "eventStartTime": "2026-08-12T23:30:00+00:00",
-      "retrievedAt": "2026-08-12T23:56:28.213Z",
       "feedId": "futebol",
       "league": "Tercera División B"
     },
