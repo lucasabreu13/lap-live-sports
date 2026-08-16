@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-ac8bf267ef48",
+    "slug": "fc-petrzalka-supera-fc-taran-presov-por-4-a-2-pela-2-liga-ac8bf2",
+    "sportId": "futebol",
+    "title": "FC Petrzalka supera FC Taran Presov por 4 a 2 pela 2. Liga",
+    "summary": "FC Petrzalka venceu FC Taran Presov por 4 a 2 pela 2. Liga.",
+    "content": "FC Petrzalka venceu FC Taran Presov por 4 a 2 pela 2. Liga, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "2-liga"
+    ],
+    "seoTitle": "FC Petrzalka supera FC Taran Presov por 4 a 2 pela 2. Liga",
+    "seoDescription": "FC Petrzalka venceu FC Taran Presov por 4 a 2 pela 2. Liga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T10:37:53.606Z",
+    "createdAt": "2026-08-16T10:37:53.606Z",
+    "updatedAt": "2026-08-16T10:37:53.606Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4744757",
+      "eventStartTime": "2026-08-16T08:30:00+00:00",
+      "retrievedAt": "2026-08-16T10:37:53.606Z",
+      "feedId": "futebol",
+      "league": "2. Liga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-89552a6e265a",
     "slug": "jakub-paul-vence-svyatoslav-gulin-por-2-a-1-em-prague-89552a",
     "sportId": "tenis",
@@ -12566,48 +12608,6 @@
       "retrievedAt": "2026-08-13T10:42:11.575Z",
       "feedId": "basquete",
       "league": "BSN"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1529aa966909",
-    "slug": "toluca-supera-fc-dallas-por-3-a-1-pelo-leagues-cup-1529aa",
-    "sportId": "futebol",
-    "title": "Toluca supera FC Dallas por 3 a 1 pelo Leagues Cup",
-    "summary": "Toluca venceu FC Dallas por 3 a 1 pelo Leagues Cup.",
-    "content": "Toluca venceu FC Dallas por 3 a 1 pelo Leagues Cup, em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "leagues-cup"
-    ],
-    "seoTitle": "Toluca supera FC Dallas por 3 a 1 pelo Leagues Cup",
-    "seoDescription": "Toluca venceu FC Dallas por 3 a 1 pelo Leagues Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T10:42:11.564Z",
-    "createdAt": "2026-08-13T10:42:11.564Z",
-    "updatedAt": "2026-08-13T10:42:11.564Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4684001",
-      "eventStartTime": "2026-08-13T02:00:00+00:00",
-      "retrievedAt": "2026-08-13T10:42:11.564Z",
-      "feedId": "futebol",
-      "league": "Leagues Cup"
     },
     "articleFormat": "result-brief"
   }
