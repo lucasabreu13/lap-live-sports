@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-c0631b69c9e0",
+    "slug": "diablos-rojos-del-mexico-vence-guerreros-de-oaxaca-por-11-a-0-na-lmb-c0631b",
+    "sportId": "beisebol",
+    "title": "Diablos Rojos del México vence Guerreros de Oaxaca por 11 a 0 na LMB",
+    "summary": "Diablos Rojos del México derrotou Guerreros de Oaxaca por 11 a 0 na LMB.",
+    "content": "Diablos Rojos del México derrotou Guerreros de Oaxaca por 11 a 0 na LMB, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "lmb"
+    ],
+    "seoTitle": "Diablos Rojos del México vence Guerreros de Oaxaca por 11 a 0 na LMB",
+    "seoDescription": "Diablos Rojos del México derrotou Guerreros de Oaxaca por 11 a 0 na LMB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T03:57:13.672Z",
+    "createdAt": "2026-08-16T03:57:13.672Z",
+    "updatedAt": "2026-08-16T03:57:13.672Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815331",
+      "eventStartTime": "2026-08-15T22:00:00+00:00",
+      "retrievedAt": "2026-08-16T03:57:13.672Z",
+      "feedId": "beisebol",
+      "league": "LMB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3eb74ed86f76",
+    "slug": "alexander-zverev-e-cameron-norrie-empatam-por-0-a-0-em-cincinnati-3eb74e",
+    "sportId": "tenis",
+    "title": "Alexander Zverev e Cameron Norrie empatam por 0 a 0 em Cincinnati",
+    "summary": "Alexander Zverev e Cameron Norrie terminaram empatados por 0 a 0 em Cincinnati.",
+    "content": "Alexander Zverev e Cameron Norrie terminaram empatados por 0 a 0 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Alexander Zverev e Cameron Norrie empatam por 0 a 0 em Cincinnati",
+    "seoDescription": "Alexander Zverev e Cameron Norrie terminaram empatados por 0 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T03:57:13.658Z",
+    "createdAt": "2026-08-16T03:57:13.658Z",
+    "updatedAt": "2026-08-16T03:57:13.658Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813628",
+      "eventStartTime": "2026-08-16T03:39:55+00:00",
+      "retrievedAt": "2026-08-16T03:57:13.658Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8c665a54273f",
+    "slug": "calor-de-cancun-vence-correcaminos-uat-por-90-a-83-em-lnbp-8c665a",
+    "sportId": "basquete",
+    "title": "Calor de Cancun vence Correcaminos UAT por 90 a 83 em LNBP",
+    "summary": "Calor de Cancun superou Correcaminos UAT por 90 a 83 em LNBP.",
+    "content": "Calor de Cancun superou Correcaminos UAT por 90 a 83 em LNBP., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Calor de Cancun vence Correcaminos UAT por 90 a 83 em LNBP",
+    "seoDescription": "Calor de Cancun superou Correcaminos UAT por 90 a 83 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T03:57:13.656Z",
+    "createdAt": "2026-08-16T03:57:13.656Z",
+    "updatedAt": "2026-08-16T03:57:13.656Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707867",
+      "eventStartTime": "2026-08-16T01:15:00+00:00",
+      "retrievedAt": "2026-08-16T03:57:13.656Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e4ccfe1e6933",
+    "slug": "oakland-roots-e-monterey-bay-ficam-no-1-a-1-pela-usl-championship-e4ccfe",
+    "sportId": "futebol",
+    "title": "Oakland Roots e Monterey Bay ficam no 1 a 1 pela USL Championship",
+    "summary": "Oakland Roots e Monterey Bay empataram por 1 a 1 pela USL Championship.",
+    "content": "Oakland Roots e Monterey Bay empataram por 1 a 1 pela USL Championship, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "usl-championship"
+    ],
+    "seoTitle": "Oakland Roots e Monterey Bay ficam no 1 a 1 pela USL Championship",
+    "seoDescription": "Oakland Roots e Monterey Bay empataram por 1 a 1 pela USL Championship.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T03:57:13.643Z",
+    "createdAt": "2026-08-16T03:57:13.643Z",
+    "updatedAt": "2026-08-16T03:57:13.643Z",
+    "homepagePriority": 82,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4634138",
+      "eventStartTime": "2026-08-16T02:00:00+00:00",
+      "retrievedAt": "2026-08-16T03:57:13.643Z",
+      "feedId": "futebol",
+      "league": "USL Championship"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ac3e13b02c3a",
     "slug": "jiri-lehecka-vence-matteo-berrettini-por-2-a-1-em-cincinnati-ac3e13",
     "sportId": "tenis",
@@ -12440,174 +12608,6 @@
       "retrievedAt": "2026-08-12T21:00:18.440Z",
       "feedId": "futebol",
       "league": "Serie B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9af6af9ac259",
-    "slug": "chicago-cubs-vence-washington-nationals-por-8-a-6-na-mlb-9af6af",
-    "sportId": "beisebol",
-    "title": "Chicago Cubs vence Washington Nationals por 8 a 6 na MLB",
-    "summary": "Chicago Cubs derrotou Washington Nationals por 8 a 6 na MLB.",
-    "content": "Chicago Cubs derrotou Washington Nationals por 8 a 6 na MLB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Chicago Cubs vence Washington Nationals por 8 a 6 na MLB",
-    "seoDescription": "Chicago Cubs derrotou Washington Nationals por 8 a 6 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T20:07:48.225Z",
-    "createdAt": "2026-08-12T20:07:48.225Z",
-    "updatedAt": "2026-08-12T20:07:48.225Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602996",
-      "eventStartTime": "2026-08-11T22:45:00+00:00",
-      "retrievedAt": "2026-08-12T20:07:48.225Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4d197be0eb8f",
-    "slug": "aboian-v-torres-j-b-e-dellien-m-mena-f-empatam-por-0-a-0-em-todi-4d197b",
-    "sportId": "tenis",
-    "title": "Aboian V./Torres J B. e Dellien M./Mena F. empatam por 0 a 0 em Todi",
-    "summary": "Aboian V./Torres J B. e Dellien M./Mena F. terminaram empatados por 0 a 0 em Todi.",
-    "content": "Aboian V./Torres J B. e Dellien M./Mena F. terminaram empatados por 0 a 0 em Todi., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "todi"
-    ],
-    "seoTitle": "Aboian V./Torres J B. e Dellien M./Mena F. empatam por 0 a 0 em Todi",
-    "seoDescription": "Aboian V./Torres J B. e Dellien M./Mena F. terminaram empatados por 0 a 0 em Todi.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T20:07:48.210Z",
-    "createdAt": "2026-08-12T20:07:48.210Z",
-    "updatedAt": "2026-08-12T20:07:48.210Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808402",
-      "eventStartTime": "2026-08-12T18:05:00+00:00",
-      "retrievedAt": "2026-08-12T20:07:48.210Z",
-      "feedId": "tenis",
-      "league": "Todi"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-69fcd7d43ae9",
-    "slug": "gualaceo-sc-e-independiente-juniors-ficam-no-0-a-0-pelo-serie-b-69fcd7",
-    "sportId": "futebol",
-    "title": "Gualaceo SC e Independiente Juniors ficam no 0 a 0 pelo Serie B",
-    "summary": "Gualaceo SC e Independiente Juniors empataram por 0 a 0 pelo Serie B.",
-    "content": "Gualaceo SC e Independiente Juniors empataram por 0 a 0 pelo Serie B, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "serie-b"
-    ],
-    "seoTitle": "Gualaceo SC e Independiente Juniors ficam no 0 a 0 pelo Serie B",
-    "seoDescription": "Gualaceo SC e Independiente Juniors empataram por 0 a 0 pelo Serie B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T20:07:48.195Z",
-    "createdAt": "2026-08-12T20:07:48.195Z",
-    "updatedAt": "2026-08-12T20:07:48.195Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4676149",
-      "eventStartTime": "2026-08-12T20:00:00+00:00",
-      "retrievedAt": "2026-08-12T20:07:48.195Z",
-      "feedId": "futebol",
-      "league": "Serie B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-49a6281200f5",
-    "slug": "new-york-yankees-vence-seattle-mariners-por-4-a-1-na-mlb-49a628",
-    "sportId": "beisebol",
-    "title": "New York Yankees vence Seattle Mariners por 4 a 1 na MLB",
-    "summary": "New York Yankees derrotou Seattle Mariners por 4 a 1 na MLB.",
-    "content": "New York Yankees derrotou Seattle Mariners por 4 a 1 na MLB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "New York Yankees vence Seattle Mariners por 4 a 1 na MLB",
-    "seoDescription": "New York Yankees derrotou Seattle Mariners por 4 a 1 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T19:17:25.944Z",
-    "createdAt": "2026-08-12T19:17:25.944Z",
-    "updatedAt": "2026-08-12T19:17:25.944Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602944",
-      "eventStartTime": "2026-08-11T23:05:00+00:00",
-      "retrievedAt": "2026-08-12T19:17:25.944Z",
-      "feedId": "beisebol",
-      "league": "MLB"
     },
     "articleFormat": "result-brief"
   }
