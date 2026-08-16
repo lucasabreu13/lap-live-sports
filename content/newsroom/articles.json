@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-aa4605b06e69",
+    "slug": "andrej-martin-vence-boris-arias-por-2-a-0-em-prague-aa4605",
+    "sportId": "tenis",
+    "title": "Andrej Martin vence Boris Arias por 2 a 0 em Prague",
+    "summary": "Andrej Martin superou Boris Arias por 2 a 0 em Prague.",
+    "content": "Andrej Martin superou Boris Arias por 2 a 0 em Prague., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Andrej Martin vence Boris Arias por 2 a 0 em Prague",
+    "seoDescription": "Andrej Martin superou Boris Arias por 2 a 0 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T10:57:20.508Z",
+    "createdAt": "2026-08-16T10:57:20.508Z",
+    "updatedAt": "2026-08-16T10:57:20.508Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815499",
+      "eventStartTime": "2026-08-16T09:40:30+00:00",
+      "retrievedAt": "2026-08-16T10:57:20.508Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3d33139f6b5f",
+    "slug": "holstein-kiel-w-e-magdeburger-w-ficam-no-0-a-0-pelo-dfb-pokal-women-3d3313",
+    "sportId": "futebol",
+    "title": "Holstein Kiel (W) e Magdeburger (W) ficam no 0 a 0 pelo DFB Pokal Women",
+    "summary": "Holstein Kiel (W) e Magdeburger (W) empataram por 0 a 0 pelo DFB Pokal Women.",
+    "content": "Holstein Kiel (W) e Magdeburger (W) empataram por 0 a 0 pelo DFB Pokal Women, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "dfb-pokal-women"
+    ],
+    "seoTitle": "Holstein Kiel (W) e Magdeburger (W) ficam no 0 a 0 pelo DFB Pokal",
+    "seoDescription": "Holstein Kiel (W) e Magdeburger (W) empataram por 0 a 0 pelo DFB Pokal Women.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T10:57:20.471Z",
+    "createdAt": "2026-08-16T10:57:20.471Z",
+    "updatedAt": "2026-08-16T10:57:20.471Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4748038",
+      "eventStartTime": "2026-08-16T10:00:00+00:00",
+      "retrievedAt": "2026-08-16T10:57:20.471Z",
+      "feedId": "futebol",
+      "league": "DFB Pokal Women"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ac8bf267ef48",
     "slug": "fc-petrzalka-supera-fc-taran-presov-por-4-a-2-pela-2-liga-ac8bf2",
     "sportId": "futebol",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-13T11:26:48.422Z",
       "feedId": "futebol",
       "league": "Primera Division"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c0258e5ec60a",
-    "slug": "sergey-fomin-vence-kasidit-samrej-por-2-a-0-em-astana-c0258e",
-    "sportId": "tenis",
-    "title": "Sergey Fomin vence Kasidit Samrej por 2 a 0 em Astana",
-    "summary": "Sergey Fomin superou Kasidit Samrej por 2 a 0 em Astana.",
-    "content": "Sergey Fomin superou Kasidit Samrej por 2 a 0 em Astana., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "astana"
-    ],
-    "seoTitle": "Sergey Fomin vence Kasidit Samrej por 2 a 0 em Astana",
-    "seoDescription": "Sergey Fomin superou Kasidit Samrej por 2 a 0 em Astana.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T10:42:11.580Z",
-    "createdAt": "2026-08-13T10:42:11.580Z",
-    "updatedAt": "2026-08-13T10:42:11.580Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809959",
-      "eventStartTime": "2026-08-13T07:30:40+00:00",
-      "retrievedAt": "2026-08-13T10:42:11.580Z",
-      "feedId": "tenis",
-      "league": "Astana"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-360c9ebfdab8",
-    "slug": "vaqueros-de-bayamon-vence-santeros-de-aguada-por-87-a-86-em-bsn-360c9e",
-    "sportId": "basquete",
-    "title": "Vaqueros De Bayamon vence Santeros de Aguada por 87 a 86 em BSN",
-    "summary": "Vaqueros De Bayamon superou Santeros de Aguada por 87 a 86 em BSN.",
-    "content": "Vaqueros De Bayamon superou Santeros de Aguada por 87 a 86 em BSN., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "bsn"
-    ],
-    "seoTitle": "Vaqueros De Bayamon vence Santeros de Aguada por 87 a 86 em BSN",
-    "seoDescription": "Vaqueros De Bayamon superou Santeros de Aguada por 87 a 86 em BSN.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T10:42:11.575Z",
-    "createdAt": "2026-08-13T10:42:11.575Z",
-    "updatedAt": "2026-08-13T10:42:11.575Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4804946",
-      "eventStartTime": "2026-08-13T00:00:00+00:00",
-      "retrievedAt": "2026-08-13T10:42:11.575Z",
-      "feedId": "basquete",
-      "league": "BSN"
     },
     "articleFormat": "result-brief"
   }
