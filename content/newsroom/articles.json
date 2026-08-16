@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-4aff8872f8a4",
+    "slug": "roger-pascual-ferra-e-mario-gonzalez-fernandez-empatam-por-0-a-0-em-kingston-4aff88",
+    "sportId": "tenis",
+    "title": "Roger Pascual Ferra e Mario Gonzalez Fernandez empatam por 0 a 0 em Kingston",
+    "summary": "Roger Pascual Ferra e Mario Gonzalez Fernandez terminaram empatados por 0 a 0 em Kingston.",
+    "content": "Roger Pascual Ferra e Mario Gonzalez Fernandez terminaram empatados por 0 a 0 em Kingston., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Roger Pascual Ferra e Mario Gonzalez Fernandez empatam por 0 a 0 em",
+    "seoDescription": "Roger Pascual Ferra e Mario Gonzalez Fernandez terminaram empatados por 0 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T19:32:40.640Z",
+    "createdAt": "2026-08-16T19:32:40.640Z",
+    "updatedAt": "2026-08-16T19:32:40.640Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815563",
+      "eventStartTime": "2026-08-16T19:27:01+00:00",
+      "retrievedAt": "2026-08-16T19:32:40.640Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d9ae41e5809f",
+    "slug": "winnipeg-sea-bears-e-brampton-honey-badgers-empatam-por-0-a-0-em-cebl-d9ae41",
+    "sportId": "basquete",
+    "title": "Winnipeg Sea Bears e Brampton Honey Badgers empatam por 0 a 0 em CEBL",
+    "summary": "Winnipeg Sea Bears e Brampton Honey Badgers terminaram empatados por 0 a 0 em CEBL.",
+    "content": "Winnipeg Sea Bears e Brampton Honey Badgers terminaram empatados por 0 a 0 em CEBL., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "cebl"
+    ],
+    "seoTitle": "Winnipeg Sea Bears e Brampton Honey Badgers empatam por 0 a 0 em CEBL",
+    "seoDescription": "Winnipeg Sea Bears e Brampton Honey Badgers terminaram empatados por 0 a 0 em CEBL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T19:32:40.637Z",
+    "createdAt": "2026-08-16T19:32:40.637Z",
+    "updatedAt": "2026-08-16T19:32:40.637Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807494",
+      "eventStartTime": "2026-08-16T19:30:00+00:00",
+      "retrievedAt": "2026-08-16T19:32:40.637Z",
+      "feedId": "basquete",
+      "league": "CEBL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d58bda57aca3",
+    "slug": "sc-braga-e-gil-vicente-fc-ficam-no-0-a-0-pela-liga-portugal-d58bda",
+    "sportId": "futebol",
+    "title": "SC Braga e Gil Vicente FC ficam no 0 a 0 pela Liga Portugal",
+    "summary": "SC Braga e Gil Vicente FC empataram por 0 a 0 pela Liga Portugal.",
+    "content": "SC Braga e Gil Vicente FC empataram por 0 a 0 pela Liga Portugal, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-portugal"
+    ],
+    "seoTitle": "SC Braga e Gil Vicente FC ficam no 0 a 0 pela Liga Portugal",
+    "seoDescription": "SC Braga e Gil Vicente FC empataram por 0 a 0 pela Liga Portugal.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T19:32:40.623Z",
+    "createdAt": "2026-08-16T19:32:40.623Z",
+    "updatedAt": "2026-08-16T19:32:40.623Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4757116",
+      "eventStartTime": "2026-08-16T19:30:00+00:00",
+      "retrievedAt": "2026-08-16T19:32:40.623Z",
+      "feedId": "futebol",
+      "league": "Liga Portugal"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-6e917e13d40e",
     "slug": "edward-winter-vence-steven-christie-por-2-a-0-em-kingston-6e917e",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-14T05:53:49.135Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a06ed19013aa",
-    "slug": "olivol-mundial-vence-colon-fc-por-83-a-72-em-liga-de-ascenso-a06ed1",
-    "sportId": "basquete",
-    "title": "Olivol Mundial vence Colon FC por 83 a 72 em Liga de ascenso",
-    "summary": "Olivol Mundial superou Colon FC por 83 a 72 em Liga de ascenso.",
-    "content": "Olivol Mundial superou Colon FC por 83 a 72 em Liga de ascenso., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "Olivol Mundial vence Colon FC por 83 a 72 em Liga de ascenso",
-    "seoDescription": "Olivol Mundial superou Colon FC por 83 a 72 em Liga de ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T05:53:49.133Z",
-    "createdAt": "2026-08-14T05:53:49.133Z",
-    "updatedAt": "2026-08-14T05:53:49.133Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4806503",
-      "eventStartTime": "2026-08-13T23:15:00+00:00",
-      "retrievedAt": "2026-08-14T05:53:49.133Z",
-      "feedId": "basquete",
-      "league": "Liga de ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5de67bc3d8bb",
-    "slug": "los-angeles-chargers-vence-houston-texans-por-27-a-7-em-nfl-5de67b",
-    "sportId": "futebol-americano",
-    "title": "Los Angeles Chargers vence Houston Texans por 27 a 7 em NFL",
-    "summary": "Los Angeles Chargers superou Houston Texans por 27 a 7 em NFL.",
-    "content": "Los Angeles Chargers superou Houston Texans por 27 a 7 em NFL., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "Los Angeles Chargers vence Houston Texans por 27 a 7 em NFL",
-    "seoDescription": "Los Angeles Chargers superou Houston Texans por 27 a 7 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T05:53:49.121Z",
-    "createdAt": "2026-08-14T05:53:49.121Z",
-    "updatedAt": "2026-08-14T05:53:49.121Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714903",
-      "eventStartTime": "2026-08-14T00:00:00+00:00",
-      "retrievedAt": "2026-08-14T05:53:49.121Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a24d4c586f68",
-    "slug": "portland-timbers-supera-club-tijuana-por-3-a-1-pelo-leagues-cup-a24d4c",
-    "sportId": "futebol",
-    "title": "Portland Timbers supera Club Tijuana por 3 a 1 pelo Leagues Cup",
-    "summary": "Portland Timbers venceu Club Tijuana por 3 a 1 pelo Leagues Cup.",
-    "content": "Portland Timbers venceu Club Tijuana por 3 a 1 pelo Leagues Cup, em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "leagues-cup"
-    ],
-    "seoTitle": "Portland Timbers supera Club Tijuana por 3 a 1 pelo Leagues Cup",
-    "seoDescription": "Portland Timbers venceu Club Tijuana por 3 a 1 pelo Leagues Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T05:53:49.114Z",
-    "createdAt": "2026-08-14T05:53:49.114Z",
-    "updatedAt": "2026-08-14T05:53:49.114Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4684009",
-      "eventStartTime": "2026-08-14T02:30:00+00:00",
-      "retrievedAt": "2026-08-14T05:53:49.114Z",
-      "feedId": "futebol",
-      "league": "Leagues Cup"
     },
     "articleFormat": "result-brief"
   }
