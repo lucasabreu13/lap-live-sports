@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-203e3a3c59cb",
+    "slug": "alafia-ayeni-vence-zach-stephens-por-2-a-0-em-roehampton-203e3a",
+    "sportId": "tenis",
+    "title": "Alafia Ayeni vence Zach Stephens por 2 a 0 em Roehampton",
+    "summary": "Alafia Ayeni superou Zach Stephens por 2 a 0 em Roehampton.",
+    "content": "Alafia Ayeni superou Zach Stephens por 2 a 0 em Roehampton., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Alafia Ayeni vence Zach Stephens por 2 a 0 em Roehampton",
+    "seoDescription": "Alafia Ayeni superou Zach Stephens por 2 a 0 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T15:57:04.883Z",
+    "createdAt": "2026-08-16T15:57:04.883Z",
+    "updatedAt": "2026-08-16T15:57:04.883Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815606",
+      "eventStartTime": "2026-08-16T14:24:11+00:00",
+      "retrievedAt": "2026-08-16T15:57:04.883Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-61a02d169133",
+    "slug": "super-nova-e-rigas-fs-ficam-no-0-a-0-pelo-latvian-cup-61a02d",
+    "sportId": "futebol",
+    "title": "Super Nova e Rigas FS ficam no 0 a 0 pelo Latvian Cup",
+    "summary": "Super Nova e Rigas FS empataram por 0 a 0 pelo Latvian Cup.",
+    "content": "Super Nova e Rigas FS empataram por 0 a 0 pelo Latvian Cup, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "latvian-cup"
+    ],
+    "seoTitle": "Super Nova e Rigas FS ficam no 0 a 0 pelo Latvian Cup",
+    "seoDescription": "Super Nova e Rigas FS empataram por 0 a 0 pelo Latvian Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T15:57:04.864Z",
+    "createdAt": "2026-08-16T15:57:04.864Z",
+    "updatedAt": "2026-08-16T15:57:04.864Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4773151",
+      "eventStartTime": "2026-08-16T15:00:00+00:00",
+      "retrievedAt": "2026-08-16T15:57:04.864Z",
+      "feedId": "futebol",
+      "league": "Latvian Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-19437379900f",
     "slug": "matyas-cerny-vence-dusan-obradovic-por-2-a-0-em-prague-194373",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-13T21:59:34.088Z",
       "feedId": "futebol",
       "league": "Copa Ecuador"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-758ab043ad2a",
-    "slug": "siniakova-k-zhang-s-vence-errani-s-melichar-martinez-n-por-2-a-0-em-toronto-758ab0",
-    "sportId": "tenis",
-    "title": "Siniakova K./Zhang S. vence Errani S./Melichar-Martinez N. por 2 a 0 em Toronto",
-    "summary": "Siniakova K./Zhang S. superou Errani S./Melichar-Martinez N. por 2 a 0 em Toronto.",
-    "content": "Siniakova K./Zhang S. superou Errani S./Melichar-Martinez N. por 2 a 0 em Toronto., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "toronto"
-    ],
-    "seoTitle": "Siniakova K./Zhang S. vence Errani S./Melichar-Martinez N. por 2 a 0",
-    "seoDescription": "Siniakova K./Zhang S. superou Errani S./Melichar-Martinez N. por 2 a 0 em Toronto.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T21:10:23.701Z",
-    "createdAt": "2026-08-13T21:10:23.701Z",
-    "updatedAt": "2026-08-13T21:10:23.701Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811611",
-      "eventStartTime": "2026-08-13T19:40:12+00:00",
-      "retrievedAt": "2026-08-13T21:10:23.701Z",
-      "feedId": "tenis",
-      "league": "Toronto"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8240c457db43",
-    "slug": "njardvik-supera-grotta-por-4-a-1-pelo-inkasso-deildin-8240c4",
-    "sportId": "futebol",
-    "title": "Njardvik supera Grotta por 4 a 1 pelo Inkasso Deildin",
-    "summary": "Njardvik venceu Grotta por 4 a 1 pelo Inkasso Deildin.",
-    "content": "Njardvik venceu Grotta por 4 a 1 pelo Inkasso Deildin, em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "inkasso-deildin"
-    ],
-    "seoTitle": "Njardvik supera Grotta por 4 a 1 pelo Inkasso Deildin",
-    "seoDescription": "Njardvik venceu Grotta por 4 a 1 pelo Inkasso Deildin.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T21:10:23.681Z",
-    "createdAt": "2026-08-13T21:10:23.681Z",
-    "updatedAt": "2026-08-13T21:10:23.681Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4661992",
-      "eventStartTime": "2026-08-13T19:15:00+00:00",
-      "retrievedAt": "2026-08-13T21:10:23.681Z",
-      "feedId": "futebol",
-      "league": "Inkasso Deildin"
     },
     "articleFormat": "result-brief"
   }
