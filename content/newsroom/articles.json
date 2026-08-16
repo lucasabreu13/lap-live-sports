@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-33325c08214f",
+    "slug": "hsieh-s-ostapenko-j-vence-mihalikova-t-nicholls-o-por-2-a-0-em-cincinnati-33325c",
+    "sportId": "tenis",
+    "title": "Hsieh.S/Ostapenko J. vence Mihalikova T./Nicholls O. por 2 a 0 em Cincinnati",
+    "summary": "Hsieh.S/Ostapenko J. superou Mihalikova T./Nicholls O. por 2 a 0 em Cincinnati.",
+    "content": "Hsieh.S/Ostapenko J. superou Mihalikova T./Nicholls O. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Hsieh.S/Ostapenko J. vence Mihalikova T./Nicholls O. por 2 a 0 em",
+    "seoDescription": "Hsieh.S/Ostapenko J. superou Mihalikova T./Nicholls O. por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T18:46:21.735Z",
+    "createdAt": "2026-08-16T18:46:21.735Z",
+    "updatedAt": "2026-08-16T18:46:21.735Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815122",
+      "eventStartTime": "2026-08-16T16:44:21+00:00",
+      "retrievedAt": "2026-08-16T18:46:21.735Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-718d538ba13a",
+    "slug": "brasil-pelotas-rs-e-brasil-de-farroupilha-ficam-no-0-a-0-pelo-gaucho-a2-718d53",
+    "sportId": "futebol",
+    "title": "Brasil Pelotas (RS) e Brasil de Farroupilha ficam no 0 a 0 pelo Gaucho A2",
+    "summary": "Brasil Pelotas (RS) e Brasil de Farroupilha empataram por 0 a 0 pelo Gaucho A2.",
+    "content": "Brasil Pelotas (RS) e Brasil de Farroupilha empataram por 0 a 0 pelo Gaucho A2, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "gaucho-a2"
+    ],
+    "seoTitle": "Brasil Pelotas (RS) e Brasil de Farroupilha ficam no 0 a 0 pelo Gaucho",
+    "seoDescription": "Brasil Pelotas (RS) e Brasil de Farroupilha empataram por 0 a 0 pelo Gaucho A2.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T18:46:21.691Z",
+    "createdAt": "2026-08-16T18:46:21.691Z",
+    "updatedAt": "2026-08-16T18:46:21.691Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4762517",
+      "eventStartTime": "2026-08-16T18:00:00+00:00",
+      "retrievedAt": "2026-08-16T18:46:21.691Z",
+      "feedId": "futebol",
+      "league": "Gaucho A2"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3f717d52f4b2",
     "slug": "guo-h-mladenovic-k-vence-kato-m-kichenok-l-por-2-a-0-em-cincinnati-3f717d",
     "sportId": "tenis",
@@ -12518,90 +12602,6 @@
       "retrievedAt": "2026-08-14T04:27:55.975Z",
       "feedId": "basquete",
       "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2a11b887388d",
-    "slug": "tennessee-titans-vence-san-francisco-49ers-por-19-a-13-em-nfl-2a11b8",
-    "sportId": "futebol-americano",
-    "title": "Tennessee Titans vence San Francisco 49ers por 19 a 13 em NFL",
-    "summary": "Tennessee Titans superou San Francisco 49ers por 19 a 13 em NFL.",
-    "content": "Tennessee Titans superou San Francisco 49ers por 19 a 13 em NFL., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "Tennessee Titans vence San Francisco 49ers por 19 a 13 em NFL",
-    "seoDescription": "Tennessee Titans superou San Francisco 49ers por 19 a 13 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T04:27:55.970Z",
-    "createdAt": "2026-08-14T04:27:55.970Z",
-    "updatedAt": "2026-08-14T04:27:55.970Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714911",
-      "eventStartTime": "2026-08-14T01:00:00+00:00",
-      "retrievedAt": "2026-08-14T04:27:55.970Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a3d5578b5ab3",
-    "slug": "chicago-fire-supera-cruz-azul-por-2-a-1-pelo-leagues-cup-a3d557",
-    "sportId": "futebol",
-    "title": "Chicago Fire supera Cruz Azul por 2 a 1 pelo Leagues Cup",
-    "summary": "Chicago Fire venceu Cruz Azul por 2 a 1 pelo Leagues Cup.",
-    "content": "Chicago Fire venceu Cruz Azul por 2 a 1 pelo Leagues Cup, em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "leagues-cup"
-    ],
-    "seoTitle": "Chicago Fire supera Cruz Azul por 2 a 1 pelo Leagues Cup",
-    "seoDescription": "Chicago Fire venceu Cruz Azul por 2 a 1 pelo Leagues Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T04:27:55.967Z",
-    "createdAt": "2026-08-14T04:27:55.967Z",
-    "updatedAt": "2026-08-14T04:27:55.967Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4684006",
-      "eventStartTime": "2026-08-14T01:00:00+00:00",
-      "retrievedAt": "2026-08-14T04:27:55.967Z",
-      "feedId": "futebol",
-      "league": "Leagues Cup"
     },
     "articleFormat": "result-brief"
   }
