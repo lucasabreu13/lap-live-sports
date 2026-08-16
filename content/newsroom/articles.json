@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-4cd45cec176a",
+    "slug": "leonardo-rossi-vence-benjamin-gusic-wan-por-2-a-1-em-roehampton-4cd45c",
+    "sportId": "tenis",
+    "title": "Leonardo Rossi vence Benjamin Gusic - Wan por 2 a 1 em Roehampton",
+    "summary": "Leonardo Rossi superou Benjamin Gusic - Wan por 2 a 1 em Roehampton.",
+    "content": "Leonardo Rossi superou Benjamin Gusic - Wan por 2 a 1 em Roehampton., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Leonardo Rossi vence Benjamin Gusic - Wan por 2 a 1 em Roehampton",
+    "seoDescription": "Leonardo Rossi superou Benjamin Gusic - Wan por 2 a 1 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T17:53:51.251Z",
+    "createdAt": "2026-08-16T17:53:51.251Z",
+    "updatedAt": "2026-08-16T17:53:51.251Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815660",
+      "eventStartTime": "2026-08-16T15:38:52+00:00",
+      "retrievedAt": "2026-08-16T17:53:51.251Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-680f1c3ea4b1",
+    "slug": "estudiantes-de-merida-e-puerto-cabello-ficam-no-0-a-0-pela-liga-futve-680f1c",
+    "sportId": "futebol",
+    "title": "Estudiantes de Merida e Puerto Cabello ficam no 0 a 0 pela Liga FUTVE",
+    "summary": "Estudiantes de Merida e Puerto Cabello empataram por 0 a 0 pela Liga FUTVE.",
+    "content": "Estudiantes de Merida e Puerto Cabello empataram por 0 a 0 pela Liga FUTVE, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-futve"
+    ],
+    "seoTitle": "Estudiantes de Merida e Puerto Cabello ficam no 0 a 0 pela Liga FUTVE",
+    "seoDescription": "Estudiantes de Merida e Puerto Cabello empataram por 0 a 0 pela Liga FUTVE.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T17:53:51.215Z",
+    "createdAt": "2026-08-16T17:53:51.215Z",
+    "updatedAt": "2026-08-16T17:53:51.215Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4801418",
+      "eventStartTime": "2026-08-16T17:00:00+00:00",
+      "retrievedAt": "2026-08-16T17:53:51.215Z",
+      "feedId": "futebol",
+      "league": "Liga FUTVE"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-f2486f3c8631",
     "slug": "lucas-andrade-da-silva-vence-pietro-orlando-fellin-por-2-a-0-em-kingston-f2486f",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-14T02:42:18.916Z",
       "feedId": "basquete",
       "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3ded58389c37",
-    "slug": "cincinnati-bengals-vence-detroit-lions-por-16-a-14-em-nfl-3ded58",
-    "sportId": "futebol-americano",
-    "title": "Cincinnati Bengals vence Detroit Lions por 16 a 14 em NFL",
-    "summary": "Cincinnati Bengals superou Detroit Lions por 16 a 14 em NFL.",
-    "content": "Cincinnati Bengals superou Detroit Lions por 16 a 14 em NFL., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "Cincinnati Bengals vence Detroit Lions por 16 a 14 em NFL",
-    "seoDescription": "Cincinnati Bengals superou Detroit Lions por 16 a 14 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T02:42:18.913Z",
-    "createdAt": "2026-08-14T02:42:18.913Z",
-    "updatedAt": "2026-08-14T02:42:18.913Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714902",
-      "eventStartTime": "2026-08-13T23:00:00+00:00",
-      "retrievedAt": "2026-08-14T02:42:18.913Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2ac257e072ff",
-    "slug": "deportes-santa-cruz-supera-curico-unido-por-2-a-1-pelo-primera-b-2ac257",
-    "sportId": "futebol",
-    "title": "Deportes Santa Cruz supera Curicó Unido por 2 a 1 pelo Primera B",
-    "summary": "Deportes Santa Cruz venceu Curicó Unido por 2 a 1 pelo Primera B.",
-    "content": "Deportes Santa Cruz venceu Curicó Unido por 2 a 1 pelo Primera B, em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-b"
-    ],
-    "seoTitle": "Deportes Santa Cruz supera Curicó Unido por 2 a 1 pelo Primera B",
-    "seoDescription": "Deportes Santa Cruz venceu Curicó Unido por 2 a 1 pelo Primera B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T02:42:18.905Z",
-    "createdAt": "2026-08-14T02:42:18.905Z",
-    "updatedAt": "2026-08-14T02:42:18.905Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4656623",
-      "eventStartTime": "2026-08-14T00:30:00+00:00",
-      "retrievedAt": "2026-08-14T02:42:18.905Z",
-      "feedId": "futebol",
-      "league": "Primera B"
     },
     "articleFormat": "result-brief"
   }
