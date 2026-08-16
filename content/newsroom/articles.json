@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-fedd06d8e047",
+    "slug": "texas-rangers-vence-athletics-por-5-a-3-na-mlb-fedd06",
+    "sportId": "beisebol",
+    "title": "Texas Rangers vence Athletics por 5 a 3 na MLB",
+    "summary": "Texas Rangers derrotou Athletics por 5 a 3 na MLB.",
+    "content": "Texas Rangers derrotou Athletics por 5 a 3 na MLB, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Texas Rangers vence Athletics por 5 a 3 na MLB",
+    "seoDescription": "Texas Rangers derrotou Athletics por 5 a 3 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T04:28:54.850Z",
+    "createdAt": "2026-08-16T04:28:54.850Z",
+    "updatedAt": "2026-08-16T04:28:54.850Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614697",
+      "eventStartTime": "2026-08-16T01:40:00+00:00",
+      "retrievedAt": "2026-08-16T04:28:54.850Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-554d66ea92d4",
+    "slug": "lois-boisson-vence-belinda-bencic-por-1-a-0-em-cincinnati-554d66",
+    "sportId": "tenis",
+    "title": "Lois Boisson vence Belinda Bencic por 1 a 0 em Cincinnati",
+    "summary": "Lois Boisson superou Belinda Bencic por 1 a 0 em Cincinnati.",
+    "content": "Lois Boisson superou Belinda Bencic por 1 a 0 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Lois Boisson vence Belinda Bencic por 1 a 0 em Cincinnati",
+    "seoDescription": "Lois Boisson superou Belinda Bencic por 1 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T04:28:54.847Z",
+    "createdAt": "2026-08-16T04:28:54.847Z",
+    "updatedAt": "2026-08-16T04:28:54.847Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813623",
+      "eventStartTime": "2026-08-16T02:23:19+00:00",
+      "retrievedAt": "2026-08-16T04:28:54.847Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-6d87ea33854b",
+    "slug": "gambusinos-de-fresnillo-vence-diablos-rojos-del-mexico-por-83-a-80-em-lnbp-6d87ea",
+    "sportId": "basquete",
+    "title": "Gambusinos De Fresnillo vence Diablos Rojos del Mexico por 83 a 80 em LNBP",
+    "summary": "Gambusinos De Fresnillo superou Diablos Rojos del Mexico por 83 a 80 em LNBP.",
+    "content": "Gambusinos De Fresnillo superou Diablos Rojos del Mexico por 83 a 80 em LNBP., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Gambusinos De Fresnillo vence Diablos Rojos del Mexico por 83 a 80 em",
+    "seoDescription": "Gambusinos De Fresnillo superou Diablos Rojos del Mexico por 83 a 80 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T04:28:54.845Z",
+    "createdAt": "2026-08-16T04:28:54.845Z",
+    "updatedAt": "2026-08-16T04:28:54.845Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707868",
+      "eventStartTime": "2026-08-16T02:00:00+00:00",
+      "retrievedAt": "2026-08-16T04:28:54.845Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-50d1d661a32f",
+    "slug": "louisville-city-supera-orange-county-sc-por-3-a-2-pela-usl-championship-50d1d6",
+    "sportId": "futebol",
+    "title": "Louisville City supera Orange County SC por 3 a 2 pela USL Championship",
+    "summary": "Louisville City venceu Orange County SC por 3 a 2 pela USL Championship.",
+    "content": "Louisville City venceu Orange County SC por 3 a 2 pela USL Championship, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "usl-championship"
+    ],
+    "seoTitle": "Louisville City supera Orange County SC por 3 a 2 pela USL",
+    "seoDescription": "Louisville City venceu Orange County SC por 3 a 2 pela USL Championship.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T04:28:54.831Z",
+    "createdAt": "2026-08-16T04:28:54.831Z",
+    "updatedAt": "2026-08-16T04:28:54.831Z",
+    "homepagePriority": 82,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4634137",
+      "eventStartTime": "2026-08-16T02:00:00+00:00",
+      "retrievedAt": "2026-08-16T04:28:54.831Z",
+      "feedId": "futebol",
+      "league": "USL Championship"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-c0631b69c9e0",
     "slug": "diablos-rojos-del-mexico-vence-guerreros-de-oaxaca-por-11-a-0-na-lmb-c0631b",
     "sportId": "beisebol",
@@ -12440,174 +12608,6 @@
       "retrievedAt": "2026-08-12T21:48:18.778Z",
       "feedId": "tenis",
       "league": "Montreal"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5ef21c01254e",
-    "slug": "juventud-copalera-e-deportivo-iztapa-ficam-no-0-a-0-pelo-primera-division-5ef21c",
-    "sportId": "futebol",
-    "title": "Juventud Copalera e Deportivo Iztapa ficam no 0 a 0 pelo Primera Division",
-    "summary": "Juventud Copalera e Deportivo Iztapa empataram por 0 a 0 pelo Primera Division.",
-    "content": "Juventud Copalera e Deportivo Iztapa empataram por 0 a 0 pelo Primera Division, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-division"
-    ],
-    "seoTitle": "Juventud Copalera e Deportivo Iztapa ficam no 0 a 0 pelo Primera",
-    "seoDescription": "Juventud Copalera e Deportivo Iztapa empataram por 0 a 0 pelo Primera Division.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T21:48:18.756Z",
-    "createdAt": "2026-08-12T21:48:18.756Z",
-    "updatedAt": "2026-08-12T21:48:18.756Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4777111",
-      "eventStartTime": "2026-08-12T21:23:00+00:00",
-      "retrievedAt": "2026-08-12T21:48:18.756Z",
-      "feedId": "futebol",
-      "league": "Primera Division"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-29c9a3726afe",
-    "slug": "miami-marlins-vence-pittsburgh-pirates-por-2-a-0-na-mlb-29c9a3",
-    "sportId": "beisebol",
-    "title": "Miami Marlins vence Pittsburgh Pirates por 2 a 0 na MLB",
-    "summary": "Miami Marlins derrotou Pittsburgh Pirates por 2 a 0 na MLB.",
-    "content": "Miami Marlins derrotou Pittsburgh Pirates por 2 a 0 na MLB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Miami Marlins vence Pittsburgh Pirates por 2 a 0 na MLB",
-    "seoDescription": "Miami Marlins derrotou Pittsburgh Pirates por 2 a 0 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T21:00:18.472Z",
-    "createdAt": "2026-08-12T21:00:18.472Z",
-    "updatedAt": "2026-08-12T21:00:18.472Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602947",
-      "eventStartTime": "2026-08-11T22:40:00+00:00",
-      "retrievedAt": "2026-08-12T21:00:18.472Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-748f7cbdd827",
-    "slug": "federico-agustin-gomez-vence-daniel-galan-por-2-a-0-em-todi-748f7c",
-    "sportId": "tenis",
-    "title": "Federico Agustin Gomez vence Daniel Galan por 2 a 0 em Todi",
-    "summary": "Federico Agustin Gomez superou Daniel Galan por 2 a 0 em Todi.",
-    "content": "Federico Agustin Gomez superou Daniel Galan por 2 a 0 em Todi., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "todi"
-    ],
-    "seoTitle": "Federico Agustin Gomez vence Daniel Galan por 2 a 0 em Todi",
-    "seoDescription": "Federico Agustin Gomez superou Daniel Galan por 2 a 0 em Todi.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T21:00:18.455Z",
-    "createdAt": "2026-08-12T21:00:18.455Z",
-    "updatedAt": "2026-08-12T21:00:18.455Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808906",
-      "eventStartTime": "2026-08-12T18:49:27+00:00",
-      "retrievedAt": "2026-08-12T21:00:18.455Z",
-      "feedId": "tenis",
-      "league": "Todi"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-663b7016511e",
-    "slug": "22-de-julio-e-el-nacional-ficam-no-0-a-0-pelo-serie-b-663b70",
-    "sportId": "futebol",
-    "title": "22 de Julio e El Nacional ficam no 0 a 0 pelo Serie B",
-    "summary": "22 de Julio e El Nacional empataram por 0 a 0 pelo Serie B.",
-    "content": "22 de Julio e El Nacional empataram por 0 a 0 pelo Serie B, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "serie-b"
-    ],
-    "seoTitle": "22 de Julio e El Nacional ficam no 0 a 0 pelo Serie B",
-    "seoDescription": "22 de Julio e El Nacional empataram por 0 a 0 pelo Serie B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T21:00:18.440Z",
-    "createdAt": "2026-08-12T21:00:18.440Z",
-    "updatedAt": "2026-08-12T21:00:18.440Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4676150",
-      "eventStartTime": "2026-08-12T20:00:00+00:00",
-      "retrievedAt": "2026-08-12T21:00:18.440Z",
-      "feedId": "futebol",
-      "league": "Serie B"
     },
     "articleFormat": "result-brief"
   }
