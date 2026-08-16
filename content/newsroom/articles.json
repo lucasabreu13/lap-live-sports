@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-2b98565be405",
+    "slug": "marie-bouzkova-vence-lucrezia-stefanini-por-2-a-0-em-cincinnati-2b9856",
+    "sportId": "tenis",
+    "title": "Marie Bouzkova vence Lucrezia Stefanini por 2 a 0 em Cincinnati",
+    "summary": "Marie Bouzkova superou Lucrezia Stefanini por 2 a 0 em Cincinnati.",
+    "content": "Marie Bouzkova superou Lucrezia Stefanini por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Marie Bouzkova vence Lucrezia Stefanini por 2 a 0 em Cincinnati",
+    "seoDescription": "Marie Bouzkova superou Lucrezia Stefanini por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T21:54:13.960Z",
+    "createdAt": "2026-08-16T21:54:13.960Z",
+    "updatedAt": "2026-08-16T21:54:13.960Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814940",
+      "eventStartTime": "2026-08-16T17:15:19+00:00",
+      "retrievedAt": "2026-08-16T21:54:13.960Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2eb735d8af69",
+    "slug": "mogi-das-cruzes-vence-bauru-basket-por-88-a-71-em-paulista-basketball-2eb735",
+    "sportId": "basquete",
+    "title": "Mogi das Cruzes vence Bauru Basket por 88 a 71 em Paulista Basketball",
+    "summary": "Mogi das Cruzes superou Bauru Basket por 88 a 71 em Paulista Basketball.",
+    "content": "Mogi das Cruzes superou Bauru Basket por 88 a 71 em Paulista Basketball., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "paulista-basketball"
+    ],
+    "seoTitle": "Mogi das Cruzes vence Bauru Basket por 88 a 71 em Paulista Basketball",
+    "seoDescription": "Mogi das Cruzes superou Bauru Basket por 88 a 71 em Paulista Basketball.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T21:54:13.942Z",
+    "createdAt": "2026-08-16T21:54:13.942Z",
+    "updatedAt": "2026-08-16T21:54:13.942Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813828",
+      "eventStartTime": "2026-08-15T21:00:00+00:00",
+      "retrievedAt": "2026-08-16T21:54:13.942Z",
+      "feedId": "basquete",
+      "league": "Paulista Basketball"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f18fb77fc282",
+    "slug": "central-norte-e-gimnasia-y-tiro-ficam-no-0-a-0-pelo-primera-nacional-f18fb7",
+    "sportId": "futebol",
+    "title": "Central Norte e Gimnasia y Tiro ficam no 0 a 0 pelo Primera Nacional",
+    "summary": "Central Norte e Gimnasia y Tiro empataram por 0 a 0 pelo Primera Nacional.",
+    "content": "Central Norte e Gimnasia y Tiro empataram por 0 a 0 pelo Primera Nacional, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-nacional"
+    ],
+    "seoTitle": "Central Norte e Gimnasia y Tiro ficam no 0 a 0 pelo Primera Nacional",
+    "seoDescription": "Central Norte e Gimnasia y Tiro empataram por 0 a 0 pelo Primera Nacional.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T21:54:13.914Z",
+    "createdAt": "2026-08-16T21:54:13.914Z",
+    "updatedAt": "2026-08-16T21:54:13.914Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4644033",
+      "eventStartTime": "2026-08-16T20:00:00+00:00",
+      "retrievedAt": "2026-08-16T21:54:13.914Z",
+      "feedId": "futebol",
+      "league": "Primera Nacional"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-53bfa5343b6e",
     "slug": "chan-h-joint-m-vence-mertens-e-shnaider-d-por-2-a-1-em-cincinnati-53bfa5",
     "sportId": "tenis",
@@ -12468,132 +12594,6 @@
       "eventId": "365-4602952",
       "eventStartTime": "2026-08-13T23:30:00+00:00",
       "retrievedAt": "2026-08-14T11:25:37.176Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f51834820844",
-    "slug": "bernard-tomic-e-andre-ilagan-empatam-por-0-a-0-em-brownsburg-f51834",
-    "sportId": "tenis",
-    "title": "Bernard Tomic e Andre Ilagan empatam por 0 a 0 em Brownsburg",
-    "summary": "Bernard Tomic e Andre Ilagan terminaram empatados por 0 a 0 em Brownsburg.",
-    "content": "Bernard Tomic e Andre Ilagan terminaram empatados por 0 a 0 em Brownsburg., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Bernard Tomic e Andre Ilagan empatam por 0 a 0 em Brownsburg",
-    "seoDescription": "Bernard Tomic e Andre Ilagan terminaram empatados por 0 a 0 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T11:25:37.167Z",
-    "createdAt": "2026-08-14T11:25:37.167Z",
-    "updatedAt": "2026-08-14T11:25:37.167Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811810",
-      "eventStartTime": "2026-08-14T00:40:00+00:00",
-      "retrievedAt": "2026-08-14T11:25:37.167Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-668c6124220f",
-    "slug": "atletico-levante-ud-supera-cf-intercity-por-1-a-0-pelo-club-friendlies-668c61",
-    "sportId": "futebol",
-    "title": "Atlético Levante UD supera CF Intercity por 1 a 0 pelo Club Friendlies",
-    "summary": "Atlético Levante UD venceu CF Intercity por 1 a 0 pelo Club Friendlies.",
-    "content": "Atlético Levante UD venceu CF Intercity por 1 a 0 pelo Club Friendlies, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Atlético Levante UD supera CF Intercity por 1 a 0 pelo Club Friendlies",
-    "seoDescription": "Atlético Levante UD venceu CF Intercity por 1 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T11:25:37.130Z",
-    "createdAt": "2026-08-14T11:25:37.130Z",
-    "updatedAt": "2026-08-14T11:25:37.130Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808060",
-      "eventStartTime": "2026-08-14T08:00:00+00:00",
-      "retrievedAt": "2026-08-14T11:25:37.130Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fcbd31eda4f7",
-    "slug": "milwaukee-brewers-vence-los-angeles-dodgers-por-5-a-4-na-mlb-fcbd31",
-    "sportId": "beisebol",
-    "title": "Milwaukee Brewers vence Los Angeles Dodgers por 5 a 4 na MLB",
-    "summary": "Milwaukee Brewers derrotou Los Angeles Dodgers por 5 a 4 na MLB.",
-    "content": "Milwaukee Brewers derrotou Los Angeles Dodgers por 5 a 4 na MLB, em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Milwaukee Brewers vence Los Angeles Dodgers por 5 a 4 na MLB",
-    "seoDescription": "Milwaukee Brewers derrotou Los Angeles Dodgers por 5 a 4 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T10:38:44.920Z",
-    "createdAt": "2026-08-14T10:38:44.920Z",
-    "updatedAt": "2026-08-14T10:38:44.920Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602906",
-      "eventStartTime": "2026-08-14T02:10:00+00:00",
-      "retrievedAt": "2026-08-14T10:38:44.920Z",
       "feedId": "beisebol",
       "league": "MLB"
     },
