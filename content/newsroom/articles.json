@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-19437379900f",
+    "slug": "matyas-cerny-vence-dusan-obradovic-por-2-a-0-em-prague-194373",
+    "sportId": "tenis",
+    "title": "Matyas Cerny vence Dusan Obradovic por 2 a 0 em Prague",
+    "summary": "Matyas Cerny superou Dusan Obradovic por 2 a 0 em Prague.",
+    "content": "Matyas Cerny superou Dusan Obradovic por 2 a 0 em Prague., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Matyas Cerny vence Dusan Obradovic por 2 a 0 em Prague",
+    "seoDescription": "Matyas Cerny superou Dusan Obradovic por 2 a 0 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T15:43:10.860Z",
+    "createdAt": "2026-08-16T15:43:10.860Z",
+    "updatedAt": "2026-08-16T15:43:10.860Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815314",
+      "eventStartTime": "2026-08-16T14:31:30+00:00",
+      "retrievedAt": "2026-08-16T15:43:10.860Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3da92a9ec215",
+    "slug": "jagiellonia-e-pogon-ficam-no-0-a-0-pelo-ekstraklasa-3da92a",
+    "sportId": "futebol",
+    "title": "Jagiellonia e Pogon ficam no 0 a 0 pelo Ekstraklasa",
+    "summary": "Jagiellonia e Pogon empataram por 0 a 0 pelo Ekstraklasa.",
+    "content": "Jagiellonia e Pogon empataram por 0 a 0 pelo Ekstraklasa, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ekstraklasa"
+    ],
+    "seoTitle": "Jagiellonia e Pogon ficam no 0 a 0 pelo Ekstraklasa",
+    "seoDescription": "Jagiellonia e Pogon empataram por 0 a 0 pelo Ekstraklasa.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T15:43:10.826Z",
+    "createdAt": "2026-08-16T15:43:10.826Z",
+    "updatedAt": "2026-08-16T15:43:10.826Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4736435",
+      "eventStartTime": "2026-08-16T15:30:00+00:00",
+      "retrievedAt": "2026-08-16T15:43:10.826Z",
+      "feedId": "futebol",
+      "league": "Ekstraklasa"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-b522fb5d8920",
     "slug": "luciano-emanuel-ambrogi-vence-vojtech-mares-por-2-a-0-em-prague-b522fb",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-13T21:10:23.681Z",
       "feedId": "futebol",
       "league": "Inkasso Deildin"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5e1d0540d884",
-    "slug": "ram-r-salisbury-j-e-lammons-n-withrow-j-empatam-por-0-a-0-em-brownsburg-5e1d05",
-    "sportId": "tenis",
-    "title": "Ram R./Salisbury J. e Lammons N./Withrow J. empatam por 0 a 0 em Brownsburg",
-    "summary": "Ram R./Salisbury J. e Lammons N./Withrow J. terminaram empatados por 0 a 0 em Brownsburg.",
-    "content": "Ram R./Salisbury J. e Lammons N./Withrow J. terminaram empatados por 0 a 0 em Brownsburg., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Ram R./Salisbury J. e Lammons N./Withrow J. empatam por 0 a 0 em",
-    "seoDescription": "Ram R./Salisbury J. e Lammons N./Withrow J. terminaram empatados por 0 a 0 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T20:19:18.042Z",
-    "createdAt": "2026-08-13T20:19:18.042Z",
-    "updatedAt": "2026-08-13T20:19:18.042Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808197",
-      "eventStartTime": "2026-08-13T20:10:00+00:00",
-      "retrievedAt": "2026-08-13T20:19:18.042Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1b5dc9d750d6",
-    "slug": "falcon-supera-america-de-propria-por-1-a-0-pela-copa-governo-de-sergipe-1b5dc9",
-    "sportId": "futebol",
-    "title": "Falcon supera América de Propriá por 1 a 0 pela Copa Governo de Sergipe",
-    "summary": "Falcon venceu América de Propriá por 1 a 0 pela Copa Governo de Sergipe.",
-    "content": "Falcon venceu América de Propriá por 1 a 0 pela Copa Governo de Sergipe, em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-governo-de-sergipe"
-    ],
-    "seoTitle": "Falcon supera América de Propriá por 1 a 0 pela Copa Governo de",
-    "seoDescription": "Falcon venceu América de Propriá por 1 a 0 pela Copa Governo de Sergipe.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T20:19:18.026Z",
-    "createdAt": "2026-08-13T20:19:18.026Z",
-    "updatedAt": "2026-08-13T20:19:18.026Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4780157",
-      "eventStartTime": "2026-08-13T18:15:00+00:00",
-      "retrievedAt": "2026-08-13T20:19:18.026Z",
-      "feedId": "futebol",
-      "league": "Copa Governo de Sergipe"
     },
     "articleFormat": "result-brief"
   }
