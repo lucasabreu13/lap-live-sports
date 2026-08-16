@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-53bfa5343b6e",
+    "slug": "chan-h-joint-m-vence-mertens-e-shnaider-d-por-2-a-1-em-cincinnati-53bfa5",
+    "sportId": "tenis",
+    "title": "Chan H./Joint M. vence Mertens E./Shnaider D. por 2 a 1 em Cincinnati",
+    "summary": "Chan H./Joint M. superou Mertens E./Shnaider D. por 2 a 1 em Cincinnati.",
+    "content": "Chan H./Joint M. superou Mertens E./Shnaider D. por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Chan H./Joint M. vence Mertens E./Shnaider D. por 2 a 1 em Cincinnati",
+    "seoDescription": "Chan H./Joint M. superou Mertens E./Shnaider D. por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T21:33:20.193Z",
+    "createdAt": "2026-08-16T21:33:20.193Z",
+    "updatedAt": "2026-08-16T21:33:20.193Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815113",
+      "eventStartTime": "2026-08-16T18:16:52+00:00",
+      "retrievedAt": "2026-08-16T21:33:20.193Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-41fb3beff579",
+    "slug": "sao-jose-vence-basket-osasco-por-114-a-45-em-paulista-basketball-41fb3b",
+    "sportId": "basquete",
+    "title": "São José vence Basket Osasco por 114 a 45 em Paulista Basketball",
+    "summary": "São José superou Basket Osasco por 114 a 45 em Paulista Basketball.",
+    "content": "São José superou Basket Osasco por 114 a 45 em Paulista Basketball., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "paulista-basketball"
+    ],
+    "seoTitle": "São José vence Basket Osasco por 114 a 45 em Paulista Basketball",
+    "seoDescription": "São José superou Basket Osasco por 114 a 45 em Paulista Basketball.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T21:33:20.177Z",
+    "createdAt": "2026-08-16T21:33:20.177Z",
+    "updatedAt": "2026-08-16T21:33:20.177Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814895",
+      "eventStartTime": "2026-08-16T14:00:00+00:00",
+      "retrievedAt": "2026-08-16T21:33:20.177Z",
+      "feedId": "basquete",
+      "league": "Paulista Basketball"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d9a5b3a5d054",
+    "slug": "union-deportivo-asencion-e-asociacion-deportiva-ucayali-fc-ficam-no-0-a-0-pela-lig-d9a5b3",
+    "sportId": "futebol",
+    "title": "Union Deportivo Asencion e Asociación Deportiva Ucayali FC ficam no 0 a 0 pela Liga 3",
+    "summary": "Union Deportivo Asencion e Asociación Deportiva Ucayali FC empataram por 0 a 0 pela Liga 3.",
+    "content": "Union Deportivo Asencion e Asociación Deportiva Ucayali FC empataram por 0 a 0 pela Liga 3, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-3"
+    ],
+    "seoTitle": "Union Deportivo Asencion e Asociación Deportiva Ucayali FC ficam no 0",
+    "seoDescription": "Union Deportivo Asencion e Asociación Deportiva Ucayali FC empataram por 0 a 0 pela Liga 3.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T21:33:20.166Z",
+    "createdAt": "2026-08-16T21:33:20.166Z",
+    "updatedAt": "2026-08-16T21:33:20.166Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814996",
+      "eventStartTime": "2026-08-16T20:30:00+00:00",
+      "retrievedAt": "2026-08-16T21:33:20.166Z",
+      "feedId": "futebol",
+      "league": "Liga 3"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-31db3abbc061",
     "slug": "routliffe-e-sutjiadi-a-vence-muhammad-a-stollar-f-por-2-a-0-em-cincinnati-31db3a",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-14T10:38:44.920Z",
       "feedId": "beisebol",
       "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-261a6fa47053",
-    "slug": "andres-andrade-vence-gauthier-onclin-por-2-a-0-em-brownsburg-261a6f",
-    "sportId": "tenis",
-    "title": "Andres Andrade vence Gauthier Onclin por 2 a 0 em Brownsburg",
-    "summary": "Andres Andrade superou Gauthier Onclin por 2 a 0 em Brownsburg.",
-    "content": "Andres Andrade superou Gauthier Onclin por 2 a 0 em Brownsburg., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Andres Andrade vence Gauthier Onclin por 2 a 0 em Brownsburg",
-    "seoDescription": "Andres Andrade superou Gauthier Onclin por 2 a 0 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T10:38:44.917Z",
-    "createdAt": "2026-08-14T10:38:44.917Z",
-    "updatedAt": "2026-08-14T10:38:44.917Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4812259",
-      "eventStartTime": "2026-08-14T00:56:57+00:00",
-      "retrievedAt": "2026-08-14T10:38:44.917Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-053dd5e7ea85",
-    "slug": "rsd-alcala-supera-rayo-majadahonda-por-2-a-0-pelo-club-friendlies-053dd5",
-    "sportId": "futebol",
-    "title": "RSD Alcala supera Rayo Majadahonda por 2 a 0 pelo Club Friendlies",
-    "summary": "RSD Alcala venceu Rayo Majadahonda por 2 a 0 pelo Club Friendlies.",
-    "content": "RSD Alcala venceu Rayo Majadahonda por 2 a 0 pelo Club Friendlies, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "RSD Alcala supera Rayo Majadahonda por 2 a 0 pelo Club Friendlies",
-    "seoDescription": "RSD Alcala venceu Rayo Majadahonda por 2 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T10:38:44.876Z",
-    "createdAt": "2026-08-14T10:38:44.876Z",
-    "updatedAt": "2026-08-14T10:38:44.876Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811831",
-      "eventStartTime": "2026-08-14T08:30:00+00:00",
-      "retrievedAt": "2026-08-14T10:38:44.876Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c9e6b6811a41",
-    "slug": "ho-r-liutarevich-i-vence-chandrasekar-a-yuzuki-t-por-2-a-1-em-brownsburg-c9e6b6",
-    "sportId": "tenis",
-    "title": "Ho R./Liutarevich I. vence Chandrasekar A./Yuzuki T. por 2 a 1 em Brownsburg",
-    "summary": "Ho R./Liutarevich I. superou Chandrasekar A./Yuzuki T. por 2 a 1 em Brownsburg.",
-    "content": "Ho R./Liutarevich I. superou Chandrasekar A./Yuzuki T. por 2 a 1 em Brownsburg., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Ho R./Liutarevich I. vence Chandrasekar A./Yuzuki T. por 2 a 1 em",
-    "seoDescription": "Ho R./Liutarevich I. superou Chandrasekar A./Yuzuki T. por 2 a 1 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T09:41:14.370Z",
-    "createdAt": "2026-08-14T09:41:14.370Z",
-    "updatedAt": "2026-08-14T09:41:14.370Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808201",
-      "eventStartTime": "2026-08-14T01:16:17+00:00",
-      "retrievedAt": "2026-08-14T09:41:14.370Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
     },
     "articleFormat": "result-brief"
   }
