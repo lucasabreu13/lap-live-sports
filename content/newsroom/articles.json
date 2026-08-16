@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-69c10f08cd3d",
+    "slug": "arthur-fery-vence-james-duckworth-por-2-a-1-em-cincinnati-69c10f",
+    "sportId": "tenis",
+    "title": "Arthur Fery vence James Duckworth por 2 a 1 em Cincinnati",
+    "summary": "Arthur Fery superou James Duckworth por 2 a 1 em Cincinnati.",
+    "content": "Arthur Fery superou James Duckworth por 2 a 1 em Cincinnati., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Arthur Fery vence James Duckworth por 2 a 1 em Cincinnati",
+    "seoDescription": "Arthur Fery superou James Duckworth por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T00:37:01.181Z",
+    "createdAt": "2026-08-16T00:37:01.181Z",
+    "updatedAt": "2026-08-16T00:37:01.181Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814998",
+      "eventStartTime": "2026-08-15T21:29:44+00:00",
+      "retrievedAt": "2026-08-16T00:37:01.181Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-889133e74492",
+    "slug": "yale-w-vence-lagomar-country-club-w-por-67-a-55-em-lfb-w-889133",
+    "sportId": "basquete",
+    "title": "Yale (W) vence Lagomar Country Club (W) por 67 a 55 em LFB (W)",
+    "summary": "Yale (W) superou Lagomar Country Club (W) por 67 a 55 em LFB (W).",
+    "content": "Yale (W) superou Lagomar Country Club (W) por 67 a 55 em LFB (W)., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lfb-w"
+    ],
+    "seoTitle": "Yale (W) vence Lagomar Country Club (W) por 67 a 55 em LFB (W)",
+    "seoDescription": "Yale (W) superou Lagomar Country Club (W) por 67 a 55 em LFB (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T00:37:01.175Z",
+    "createdAt": "2026-08-16T00:37:01.175Z",
+    "updatedAt": "2026-08-16T00:37:01.175Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813613",
+      "eventStartTime": "2026-08-15T22:30:00+00:00",
+      "retrievedAt": "2026-08-16T00:37:01.175Z",
+      "feedId": "basquete",
+      "league": "LFB (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b4a78dcd9afb",
+    "slug": "tigres-de-chinandega-e-matiguas-ficam-no-0-a-0-pela-liga-de-ascenso-b4a78d",
+    "sportId": "futebol",
+    "title": "Tigres de Chinandega e Matiguás ficam no 0 a 0 pela Liga de Ascenso",
+    "summary": "Tigres de Chinandega e Matiguás empataram por 0 a 0 pela Liga de Ascenso.",
+    "content": "Tigres de Chinandega e Matiguás empataram por 0 a 0 pela Liga de Ascenso, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Tigres de Chinandega e Matiguás ficam no 0 a 0 pela Liga de Ascenso",
+    "seoDescription": "Tigres de Chinandega e Matiguás empataram por 0 a 0 pela Liga de Ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T00:37:01.162Z",
+    "createdAt": "2026-08-16T00:37:01.162Z",
+    "updatedAt": "2026-08-16T00:37:01.162Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811371",
+      "eventStartTime": "2026-08-16T00:00:00+00:00",
+      "retrievedAt": "2026-08-16T00:37:01.162Z",
+      "feedId": "futebol",
+      "league": "Liga de Ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-f7ee17350801",
     "slug": "emma-navarro-vence-anhelina-kalinina-por-2-a-1-em-cincinnati-f7ee17",
     "sportId": "tenis",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-12T17:09:44.086Z",
       "feedId": "futebol",
       "league": "Promocional Amateur"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fa73b825b19c",
-    "slug": "cincinnati-reds-vence-chicago-white-sox-por-5-a-4-na-mlb-fa73b8",
-    "sportId": "beisebol",
-    "title": "Cincinnati Reds vence Chicago White Sox por 5 a 4 na MLB",
-    "summary": "Cincinnati Reds derrotou Chicago White Sox por 5 a 4 na MLB.",
-    "content": "Cincinnati Reds derrotou Chicago White Sox por 5 a 4 na MLB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Cincinnati Reds vence Chicago White Sox por 5 a 4 na MLB",
-    "seoDescription": "Cincinnati Reds derrotou Chicago White Sox por 5 a 4 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T16:08:42.874Z",
-    "createdAt": "2026-08-12T16:08:42.874Z",
-    "updatedAt": "2026-08-12T16:08:42.874Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602935",
-      "eventStartTime": "2026-08-11T23:40:00+00:00",
-      "retrievedAt": "2026-08-12T16:08:42.874Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fc4b1c4752f5",
-    "slug": "ramanathan-r-vega-hernandez-d-vence-b-arias-f-zeballos-por-2-a-0-em-hamburg-fc4b1c",
-    "sportId": "tenis",
-    "title": "Ramanathan R./Vega Hernandez D. vence B. Arias/F. Zeballos por 2 a 0 em Hamburg",
-    "summary": "Ramanathan R./Vega Hernandez D. superou B. Arias/F. Zeballos por 2 a 0 em Hamburg.",
-    "content": "Ramanathan R./Vega Hernandez D. superou B. Arias/F. Zeballos por 2 a 0 em Hamburg., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "hamburg"
-    ],
-    "seoTitle": "Ramanathan R./Vega Hernandez D. vence B. Arias/F. Zeballos por 2 a 0",
-    "seoDescription": "Ramanathan R./Vega Hernandez D. superou B. Arias/F. Zeballos por 2 a 0 em Hamburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T16:08:42.861Z",
-    "createdAt": "2026-08-12T16:08:42.861Z",
-    "updatedAt": "2026-08-12T16:08:42.861Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808394",
-      "eventStartTime": "2026-08-12T14:29:58+00:00",
-      "retrievedAt": "2026-08-12T16:08:42.861Z",
-      "feedId": "tenis",
-      "league": "Hamburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2218e9948c60",
-    "slug": "larre-borges-vence-ca-marne-por-94-a-84-em-liga-de-ascenso-2218e9",
-    "sportId": "basquete",
-    "title": "Larre Borges vence Ca Marne por 94 a 84 em Liga de ascenso",
-    "summary": "Larre Borges superou Ca Marne por 94 a 84 em Liga de ascenso.",
-    "content": "Larre Borges superou Ca Marne por 94 a 84 em Liga de ascenso., em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "Larre Borges vence Ca Marne por 94 a 84 em Liga de ascenso",
-    "seoDescription": "Larre Borges superou Ca Marne por 94 a 84 em Liga de ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T16:08:42.858Z",
-    "createdAt": "2026-08-12T16:08:42.858Z",
-    "updatedAt": "2026-08-12T16:08:42.858Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4806505",
-      "eventStartTime": "2026-08-11T23:15:00+00:00",
-      "retrievedAt": "2026-08-12T16:08:42.858Z",
-      "feedId": "basquete",
-      "league": "Liga de ascenso"
     },
     "articleFormat": "result-brief"
   }
