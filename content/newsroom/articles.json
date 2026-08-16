@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-4f95fd271b10",
+    "slug": "boston-red-sox-vence-pittsburgh-pirates-por-4-a-0-na-mlb-4f95fd",
+    "sportId": "beisebol",
+    "title": "Boston Red Sox vence Pittsburgh Pirates por 4 a 0 na MLB",
+    "summary": "Boston Red Sox derrotou Pittsburgh Pirates por 4 a 0 na MLB.",
+    "content": "Boston Red Sox derrotou Pittsburgh Pirates por 4 a 0 na MLB, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Boston Red Sox vence Pittsburgh Pirates por 4 a 0 na MLB",
+    "seoDescription": "Boston Red Sox derrotou Pittsburgh Pirates por 4 a 0 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T05:30:26.004Z",
+    "createdAt": "2026-08-16T05:30:26.004Z",
+    "updatedAt": "2026-08-16T05:30:26.004Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614577",
+      "eventStartTime": "2026-08-15T23:15:00+00:00",
+      "retrievedAt": "2026-08-16T05:30:26.004Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e570032d7697",
+    "slug": "mineros-de-zacatecas-vence-astros-de-jalisco-por-94-a-88-em-lnbp-e57003",
+    "sportId": "basquete",
+    "title": "Mineros de Zacatecas vence Astros De Jalisco por 94 a 88 em LNBP",
+    "summary": "Mineros de Zacatecas superou Astros De Jalisco por 94 a 88 em LNBP.",
+    "content": "Mineros de Zacatecas superou Astros De Jalisco por 94 a 88 em LNBP., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Mineros de Zacatecas vence Astros De Jalisco por 94 a 88 em LNBP",
+    "seoDescription": "Mineros de Zacatecas superou Astros De Jalisco por 94 a 88 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T05:30:25.926Z",
+    "createdAt": "2026-08-16T05:30:25.926Z",
+    "updatedAt": "2026-08-16T05:30:25.926Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707866",
+      "eventStartTime": "2026-08-16T01:05:00+00:00",
+      "retrievedAt": "2026-08-16T05:30:25.926Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f89d3cd3818e",
+    "slug": "atlas-guadalajara-supera-tigres-uanl-por-2-a-1-pela-liga-mx-f89d3c",
+    "sportId": "futebol",
+    "title": "Atlas Guadalajara supera Tigres UANL por 2 a 1 pela Liga MX",
+    "summary": "Atlas Guadalajara venceu Tigres UANL por 2 a 1 pela Liga MX.",
+    "content": "Atlas Guadalajara venceu Tigres UANL por 2 a 1 pela Liga MX, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-mx"
+    ],
+    "seoTitle": "Atlas Guadalajara supera Tigres UANL por 2 a 1 pela Liga MX",
+    "seoDescription": "Atlas Guadalajara venceu Tigres UANL por 2 a 1 pela Liga MX.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T05:30:25.911Z",
+    "createdAt": "2026-08-16T05:30:25.911Z",
+    "updatedAt": "2026-08-16T05:30:25.911Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4735734",
+      "eventStartTime": "2026-08-16T03:10:00+00:00",
+      "retrievedAt": "2026-08-16T05:30:25.911Z",
+      "feedId": "futebol",
+      "league": "Liga MX"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-6b5b298444b4",
     "slug": "toronto-blue-jays-vence-new-york-yankees-por-3-a-1-na-mlb-6b5b29",
     "sportId": "beisebol",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-12T23:56:28.213Z",
       "feedId": "futebol",
       "league": "Tercera División B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-344edb958740",
-    "slug": "matheus-almeida-vence-max-schoenhaus-por-2-a-0-em-hamburg-344edb",
-    "sportId": "tenis",
-    "title": "Matheus Almeida vence Max Schoenhaus por 2 a 0 em Hamburg",
-    "summary": "Matheus Almeida superou Max Schoenhaus por 2 a 0 em Hamburg.",
-    "content": "Matheus Almeida superou Max Schoenhaus por 2 a 0 em Hamburg., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "hamburg"
-    ],
-    "seoTitle": "Matheus Almeida vence Max Schoenhaus por 2 a 0 em Hamburg",
-    "seoDescription": "Matheus Almeida superou Max Schoenhaus por 2 a 0 em Hamburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T23:10:28.488Z",
-    "createdAt": "2026-08-12T23:10:28.488Z",
-    "updatedAt": "2026-08-12T23:10:28.488Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808806",
-      "eventStartTime": "2026-08-12T17:17:02+00:00",
-      "retrievedAt": "2026-08-12T23:10:28.488Z",
-      "feedId": "tenis",
-      "league": "Hamburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-49f17e7c30fc",
-    "slug": "deportes-valdivia-e-republica-independiente-de-hualqui-ficam-no-0-a-0-pelo-tercera-49f17e",
-    "sportId": "futebol",
-    "title": "Deportes Valdivia e República Independiente de Hualqui ficam no 0 a 0 pelo Tercera División B",
-    "summary": "Deportes Valdivia e República Independiente de Hualqui empataram por 0 a 0 pelo Tercera División B.",
-    "content": "Deportes Valdivia e República Independiente de Hualqui empataram por 0 a 0 pelo Tercera División B, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "tercera-division-b"
-    ],
-    "seoTitle": "Deportes Valdivia e República Independiente de Hualqui ficam no 0 a 0",
-    "seoDescription": "Deportes Valdivia e República Independiente de Hualqui empataram por 0 a 0 pelo Tercera División B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T23:10:28.468Z",
-    "createdAt": "2026-08-12T23:10:28.468Z",
-    "updatedAt": "2026-08-12T23:10:28.468Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808448",
-      "eventStartTime": "2026-08-12T23:00:00+00:00",
-      "retrievedAt": "2026-08-12T23:10:28.468Z",
-      "feedId": "futebol",
-      "league": "Tercera División B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-25c7ec0d9c6d",
-    "slug": "o-luz-r-matos-vence-cerundolo-f-etcheverry-t-m-por-2-a-0-em-montreal-25c7ec",
-    "sportId": "tenis",
-    "title": "O. Luz/R. Matos vence Cerundolo F./Etcheverry T. M. por 2 a 0 em Montreal",
-    "summary": "O. Luz/R. Matos superou Cerundolo F./Etcheverry T. M. por 2 a 0 em Montreal.",
-    "content": "O. Luz/R. Matos superou Cerundolo F./Etcheverry T. M. por 2 a 0 em Montreal., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "montreal"
-    ],
-    "seoTitle": "O. Luz/R. Matos vence Cerundolo F./Etcheverry T. M. por 2 a 0 em",
-    "seoDescription": "O. Luz/R. Matos superou Cerundolo F./Etcheverry T. M. por 2 a 0 em Montreal.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T22:29:29.169Z",
-    "createdAt": "2026-08-12T22:29:29.169Z",
-    "updatedAt": "2026-08-12T22:29:29.169Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809709",
-      "eventStartTime": "2026-08-12T20:04:31+00:00",
-      "retrievedAt": "2026-08-12T22:29:29.169Z",
-      "feedId": "tenis",
-      "league": "Montreal"
     },
     "articleFormat": "result-brief"
   }
