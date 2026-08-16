@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-8c51d11a03d6",
+    "slug": "dimitris-sakellaridis-vence-gian-luca-tanner-por-2-a-0-em-sion-8c51d1",
+    "sportId": "tenis",
+    "title": "Dimitris Sakellaridis vence Gian Luca Tanner por 2 a 0 em Sion",
+    "summary": "Dimitris Sakellaridis superou Gian Luca Tanner por 2 a 0 em Sion.",
+    "content": "Dimitris Sakellaridis superou Gian Luca Tanner por 2 a 0 em Sion., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Dimitris Sakellaridis vence Gian Luca Tanner por 2 a 0 em Sion",
+    "seoDescription": "Dimitris Sakellaridis superou Gian Luca Tanner por 2 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T13:42:06.798Z",
+    "createdAt": "2026-08-16T13:42:06.798Z",
+    "updatedAt": "2026-08-16T13:42:06.798Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815586",
+      "eventStartTime": "2026-08-16T12:25:00+00:00",
+      "retrievedAt": "2026-08-16T13:42:06.798Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-40a511c572cb",
+    "slug": "lyra-lierse-berlaar-e-wellen-ficam-no-0-a-0-pelo-belgian-cup-40a511",
+    "sportId": "futebol",
+    "title": "Lyra-Lierse Berlaar e Wellen ficam no 0 a 0 pelo Belgian Cup",
+    "summary": "Lyra-Lierse Berlaar e Wellen empataram por 0 a 0 pelo Belgian Cup.",
+    "content": "Lyra-Lierse Berlaar e Wellen empataram por 0 a 0 pelo Belgian Cup, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "belgian-cup"
+    ],
+    "seoTitle": "Lyra-Lierse Berlaar e Wellen ficam no 0 a 0 pelo Belgian Cup",
+    "seoDescription": "Lyra-Lierse Berlaar e Wellen empataram por 0 a 0 pelo Belgian Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T13:42:06.770Z",
+    "createdAt": "2026-08-16T13:42:06.770Z",
+    "updatedAt": "2026-08-16T13:42:06.770Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807685",
+      "eventStartTime": "2026-08-16T13:00:00+00:00",
+      "retrievedAt": "2026-08-16T13:42:06.770Z",
+      "feedId": "futebol",
+      "league": "Belgian Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-a6cebd5bca1c",
     "slug": "radu-mihai-papoe-vence-jakub-vrtilka-por-2-a-0-em-prague-a6cebd",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-13T15:37:53.699Z",
       "feedId": "futebol",
       "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2660540af677",
-    "slug": "corentin-moutet-e-hubert-hurkacz-empatam-por-0-a-0-em-cincinnati-266054",
-    "sportId": "tenis",
-    "title": "Corentin Moutet e Hubert Hurkacz empatam por 0 a 0 em Cincinnati",
-    "summary": "Corentin Moutet e Hubert Hurkacz terminaram empatados por 0 a 0 em Cincinnati.",
-    "content": "Corentin Moutet e Hubert Hurkacz terminaram empatados por 0 a 0 em Cincinnati., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Corentin Moutet e Hubert Hurkacz empatam por 0 a 0 em Cincinnati",
-    "seoDescription": "Corentin Moutet e Hubert Hurkacz terminaram empatados por 0 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T14:43:01.467Z",
-    "createdAt": "2026-08-13T14:43:01.467Z",
-    "updatedAt": "2026-08-13T14:43:01.467Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809622",
-      "eventStartTime": "2026-08-13T14:00:00+00:00",
-      "retrievedAt": "2026-08-13T14:43:01.467Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-289eb145bf97",
-    "slug": "mogi-das-cruzes-vence-sao-jose-por-101-a-67-em-paulista-basketball-289eb1",
-    "sportId": "basquete",
-    "title": "Mogi das Cruzes vence São José por 101 a 67 em Paulista Basketball",
-    "summary": "Mogi das Cruzes superou São José por 101 a 67 em Paulista Basketball.",
-    "content": "Mogi das Cruzes superou São José por 101 a 67 em Paulista Basketball., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "paulista-basketball"
-    ],
-    "seoTitle": "Mogi das Cruzes vence São José por 101 a 67 em Paulista Basketball",
-    "seoDescription": "Mogi das Cruzes superou São José por 101 a 67 em Paulista Basketball.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T14:43:01.464Z",
-    "createdAt": "2026-08-13T14:43:01.464Z",
-    "updatedAt": "2026-08-13T14:43:01.464Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808375",
-      "eventStartTime": "2026-08-12T23:00:00+00:00",
-      "retrievedAt": "2026-08-13T14:43:01.464Z",
-      "feedId": "basquete",
-      "league": "Paulista Basketball"
     },
     "articleFormat": "result-brief"
   }
