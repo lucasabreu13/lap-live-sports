@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-c91b9d6686ea",
+    "slug": "benjamin-hassan-e-flynn-thomas-empatam-por-0-a-0-em-sion-c91b9d",
+    "sportId": "tenis",
+    "title": "Benjamin Hassan e Flynn Thomas empatam por 0 a 0 em Sion",
+    "summary": "Benjamin Hassan e Flynn Thomas terminaram empatados por 0 a 0 em Sion.",
+    "content": "Benjamin Hassan e Flynn Thomas terminaram empatados por 0 a 0 em Sion., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Benjamin Hassan e Flynn Thomas empatam por 0 a 0 em Sion",
+    "seoDescription": "Benjamin Hassan e Flynn Thomas terminaram empatados por 0 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T15:00:20.885Z",
+    "createdAt": "2026-08-16T15:00:20.885Z",
+    "updatedAt": "2026-08-16T15:00:20.885Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815614",
+      "eventStartTime": "2026-08-16T14:32:44+00:00",
+      "retrievedAt": "2026-08-16T15:00:20.885Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4627d16ae6da",
+    "slug": "fk-istaravshan-e-fk-khujand-ficam-no-0-a-0-pela-vysshaya-liga-4627d1",
+    "sportId": "futebol",
+    "title": "FK Istaravshan e FK Khujand ficam no 0 a 0 pela Vysshaya Liga",
+    "summary": "FK Istaravshan e FK Khujand empataram por 0 a 0 pela Vysshaya Liga.",
+    "content": "FK Istaravshan e FK Khujand empataram por 0 a 0 pela Vysshaya Liga, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "vysshaya-liga"
+    ],
+    "seoTitle": "FK Istaravshan e FK Khujand ficam no 0 a 0 pela Vysshaya Liga",
+    "seoDescription": "FK Istaravshan e FK Khujand empataram por 0 a 0 pela Vysshaya Liga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T15:00:20.861Z",
+    "createdAt": "2026-08-16T15:00:20.861Z",
+    "updatedAt": "2026-08-16T15:00:20.861Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4678892",
+      "eventStartTime": "2026-08-16T14:00:00+00:00",
+      "retrievedAt": "2026-08-16T15:00:20.861Z",
+      "feedId": "futebol",
+      "league": "Vysshaya Liga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-449623610ee6",
     "slug": "ali-habib-e-oscar-weightman-empatam-por-0-a-0-em-roehampton-449623",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-13T19:42:10.831Z",
       "feedId": "futebol",
       "league": "Liga de Ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-940f24dfef00",
-    "slug": "francesco-passaro-vence-oriol-roca-batalla-por-2-a-0-em-todi-940f24",
-    "sportId": "tenis",
-    "title": "Francesco Passaro vence Oriol Roca Batalla por 2 a 0 em Todi",
-    "summary": "Francesco Passaro superou Oriol Roca Batalla por 2 a 0 em Todi.",
-    "content": "Francesco Passaro superou Oriol Roca Batalla por 2 a 0 em Todi., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "todi"
-    ],
-    "seoTitle": "Francesco Passaro vence Oriol Roca Batalla por 2 a 0 em Todi",
-    "seoDescription": "Francesco Passaro superou Oriol Roca Batalla por 2 a 0 em Todi.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T18:34:31.683Z",
-    "createdAt": "2026-08-13T18:34:31.683Z",
-    "updatedAt": "2026-08-13T18:34:31.683Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809960",
-      "eventStartTime": "2026-08-13T16:40:19+00:00",
-      "retrievedAt": "2026-08-13T18:34:31.683Z",
-      "feedId": "tenis",
-      "league": "Todi"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9a70981996ab",
-    "slug": "fk-jablonec-supera-rigas-fs-por-2-a-1-pelo-conference-league-9a7098",
-    "sportId": "futebol",
-    "title": "FK Jablonec supera Rigas FS por 2 a 1 pelo Conference League",
-    "summary": "FK Jablonec venceu Rigas FS por 2 a 1 pelo Conference League.",
-    "content": "FK Jablonec venceu Rigas FS por 2 a 1 pelo Conference League, em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "conference-league"
-    ],
-    "seoTitle": "FK Jablonec supera Rigas FS por 2 a 1 pelo Conference League",
-    "seoDescription": "FK Jablonec venceu Rigas FS por 2 a 1 pelo Conference League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T18:34:31.666Z",
-    "createdAt": "2026-08-13T18:34:31.666Z",
-    "updatedAt": "2026-08-13T18:34:31.666Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4800349",
-      "eventStartTime": "2026-08-13T16:30:00+00:00",
-      "retrievedAt": "2026-08-13T18:34:31.666Z",
-      "feedId": "futebol",
-      "league": "Conference League"
     },
     "articleFormat": "result-brief"
   }
