@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-ae5506e4ec65",
+    "slug": "norbert-gombos-vence-jiri-cizek-por-2-a-0-em-prague-ae5506",
+    "sportId": "tenis",
+    "title": "Norbert Gombos vence Jiri Cizek por 2 a 0 em Prague",
+    "summary": "Norbert Gombos superou Jiri Cizek por 2 a 0 em Prague.",
+    "content": "Norbert Gombos superou Jiri Cizek por 2 a 0 em Prague., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Norbert Gombos vence Jiri Cizek por 2 a 0 em Prague",
+    "seoDescription": "Norbert Gombos superou Jiri Cizek por 2 a 0 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T12:16:34.547Z",
+    "createdAt": "2026-08-16T12:16:34.547Z",
+    "updatedAt": "2026-08-16T12:16:34.547Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815307",
+      "eventStartTime": "2026-08-16T10:04:44+00:00",
+      "retrievedAt": "2026-08-16T12:16:34.547Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-71b081f90a53",
+    "slug": "japan-vence-south-korea-por-95-a-66-em-international-friendlies-71b081",
+    "sportId": "basquete",
+    "title": "Japan vence South Korea por 95 a 66 em International Friendlies",
+    "summary": "Japan superou South Korea por 95 a 66 em International Friendlies.",
+    "content": "Japan superou South Korea por 95 a 66 em International Friendlies., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendlies"
+    ],
+    "seoTitle": "Japan vence South Korea por 95 a 66 em International Friendlies",
+    "seoDescription": "Japan superou South Korea por 95 a 66 em International Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T12:16:34.543Z",
+    "createdAt": "2026-08-16T12:16:34.543Z",
+    "updatedAt": "2026-08-16T12:16:34.543Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815473",
+      "eventStartTime": "2026-08-16T10:05:00+00:00",
+      "retrievedAt": "2026-08-16T12:16:34.543Z",
+      "feedId": "basquete",
+      "league": "International Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-686a7e8c061d",
+    "slug": "irtysh-pavlodar-e-tobol-kostanay-ficam-no-0-a-0-pela-premier-league-686a7e",
+    "sportId": "futebol",
+    "title": "Irtysh Pavlodar e Tobol Kostanay ficam no 0 a 0 pela Premier League",
+    "summary": "Irtysh Pavlodar e Tobol Kostanay empataram por 0 a 0 pela Premier League.",
+    "content": "Irtysh Pavlodar e Tobol Kostanay empataram por 0 a 0 pela Premier League, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "premier-league"
+    ],
+    "seoTitle": "Irtysh Pavlodar e Tobol Kostanay ficam no 0 a 0 pela Premier League",
+    "seoDescription": "Irtysh Pavlodar e Tobol Kostanay empataram por 0 a 0 pela Premier League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T12:16:34.530Z",
+    "createdAt": "2026-08-16T12:16:34.530Z",
+    "updatedAt": "2026-08-16T12:16:34.530Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4678808",
+      "eventStartTime": "2026-08-16T12:00:00+00:00",
+      "retrievedAt": "2026-08-16T12:16:34.530Z",
+      "feedId": "futebol",
+      "league": "Premier League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-dc3d45bf5321",
     "slug": "andrew-paulson-vence-dominik-recek-por-2-a-0-em-prague-dc3d45",
     "sportId": "tenis",
@@ -12480,132 +12606,6 @@
       "eventId": "365-4809957",
       "eventStartTime": "2026-08-13T11:43:10+00:00",
       "retrievedAt": "2026-08-13T13:42:16.778Z",
-      "feedId": "tenis",
-      "league": "Hamburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ec3b18353000",
-    "slug": "brampton-honey-badgers-e-winnipeg-sea-bears-empatam-por-6-a-6-em-cebl-ec3b18",
-    "sportId": "basquete",
-    "title": "Brampton Honey Badgers e Winnipeg Sea Bears empatam por 6 a 6 em CEBL",
-    "summary": "Brampton Honey Badgers e Winnipeg Sea Bears terminaram empatados por 6 a 6 em CEBL.",
-    "content": "Brampton Honey Badgers e Winnipeg Sea Bears terminaram empatados por 6 a 6 em CEBL., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "cebl"
-    ],
-    "seoTitle": "Brampton Honey Badgers e Winnipeg Sea Bears empatam por 6 a 6 em CEBL",
-    "seoDescription": "Brampton Honey Badgers e Winnipeg Sea Bears terminaram empatados por 6 a 6 em CEBL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T13:42:16.775Z",
-    "createdAt": "2026-08-13T13:42:16.775Z",
-    "updatedAt": "2026-08-13T13:42:16.775Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807493",
-      "eventStartTime": "2026-08-12T23:00:00+00:00",
-      "retrievedAt": "2026-08-13T13:42:16.775Z",
-      "feedId": "basquete",
-      "league": "CEBL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-518ac5800810",
-    "slug": "cd-motagua-e-cs-cartagines-ficam-no-1-a-1-pelo-concacaf-central-american-cup-518ac5",
-    "sportId": "futebol",
-    "title": "CD Motagua e CS Cartagines ficam no 1 a 1 pelo CONCACAF Central American Cup",
-    "summary": "CD Motagua e CS Cartagines empataram por 1 a 1 pelo CONCACAF Central American Cup.",
-    "content": "CD Motagua e CS Cartagines empataram por 1 a 1 pelo CONCACAF Central American Cup, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "concacaf-central-american-cup"
-    ],
-    "seoTitle": "CD Motagua e CS Cartagines ficam no 1 a 1 pelo CONCACAF Central",
-    "seoDescription": "CD Motagua e CS Cartagines empataram por 1 a 1 pelo CONCACAF Central American Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T13:42:16.764Z",
-    "createdAt": "2026-08-13T13:42:16.764Z",
-    "updatedAt": "2026-08-13T13:42:16.764Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4730016",
-      "eventStartTime": "2026-08-13T01:00:00+00:00",
-      "retrievedAt": "2026-08-13T13:42:16.764Z",
-      "feedId": "futebol",
-      "league": "CONCACAF Central American Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1ca918915858",
-    "slug": "saba-purtseladze-vence-max-hans-rehberg-por-2-a-1-em-hamburg-1ca918",
-    "sportId": "tenis",
-    "title": "Saba Purtseladze vence Max Hans Rehberg por 2 a 1 em Hamburg",
-    "summary": "Saba Purtseladze superou Max Hans Rehberg por 2 a 1 em Hamburg.",
-    "content": "Saba Purtseladze superou Max Hans Rehberg por 2 a 1 em Hamburg., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "hamburg"
-    ],
-    "seoTitle": "Saba Purtseladze vence Max Hans Rehberg por 2 a 1 em Hamburg",
-    "seoDescription": "Saba Purtseladze superou Max Hans Rehberg por 2 a 1 em Hamburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T12:06:51.860Z",
-    "createdAt": "2026-08-13T12:06:51.860Z",
-    "updatedAt": "2026-08-13T12:06:51.860Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808876",
-      "eventStartTime": "2026-08-13T08:37:39+00:00",
-      "retrievedAt": "2026-08-13T12:06:51.860Z",
       "feedId": "tenis",
       "league": "Hamburg"
     },
