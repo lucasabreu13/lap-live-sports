@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-d7719089157d",
+    "slug": "lobos-plateados-vence-dorados-de-chihuahua-por-74-a-71-em-lnbp-d77190",
+    "sportId": "basquete",
+    "title": "Lobos Plateados vence Dorados De Chihuahua por 74 a 71 em LNBP",
+    "summary": "Lobos Plateados superou Dorados De Chihuahua por 74 a 71 em LNBP.",
+    "content": "Lobos Plateados superou Dorados De Chihuahua por 74 a 71 em LNBP., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Lobos Plateados vence Dorados De Chihuahua por 74 a 71 em LNBP",
+    "seoDescription": "Lobos Plateados superou Dorados De Chihuahua por 74 a 71 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T07:07:16.748Z",
+    "createdAt": "2026-08-16T07:07:16.748Z",
+    "updatedAt": "2026-08-16T07:07:16.748Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4708857",
+      "eventStartTime": "2026-08-15T23:00:00+00:00",
+      "retrievedAt": "2026-08-16T07:07:16.748Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f9b171daec47",
+    "slug": "las-vegas-lights-supera-brooklyn-por-2-a-1-pela-usl-championship-f9b171",
+    "sportId": "futebol",
+    "title": "Las Vegas Lights supera Brooklyn por 2 a 1 pela USL Championship",
+    "summary": "Las Vegas Lights venceu Brooklyn por 2 a 1 pela USL Championship.",
+    "content": "Las Vegas Lights venceu Brooklyn por 2 a 1 pela USL Championship, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "usl-championship"
+    ],
+    "seoTitle": "Las Vegas Lights supera Brooklyn por 2 a 1 pela USL Championship",
+    "seoDescription": "Las Vegas Lights venceu Brooklyn por 2 a 1 pela USL Championship.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T07:07:16.728Z",
+    "createdAt": "2026-08-16T07:07:16.728Z",
+    "updatedAt": "2026-08-16T07:07:16.728Z",
+    "homepagePriority": 82,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4634140",
+      "eventStartTime": "2026-08-16T02:30:00+00:00",
+      "retrievedAt": "2026-08-16T07:07:16.728Z",
+      "feedId": "futebol",
+      "league": "USL Championship"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d8900722b8d5",
     "slug": "jan-kumstat-vence-matheus-almeida-por-2-a-1-em-hamburg-d89007",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-13T03:33:02.879Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-54426b0cac9b",
-    "slug": "universidad-de-concepcion-vence-leones-de-quilpue-por-97-a-76-em-lnb-54426b",
-    "sportId": "basquete",
-    "title": "Universidad De Concepcion vence Leones De Quilpué por 97 a 76 em LNB",
-    "summary": "Universidad De Concepcion superou Leones De Quilpué por 97 a 76 em LNB.",
-    "content": "Universidad De Concepcion superou Leones De Quilpué por 97 a 76 em LNB., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Universidad De Concepcion vence Leones De Quilpué por 97 a 76 em LNB",
-    "seoDescription": "Universidad De Concepcion superou Leones De Quilpué por 97 a 76 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T03:33:02.875Z",
-    "createdAt": "2026-08-13T03:33:02.875Z",
-    "updatedAt": "2026-08-13T03:33:02.875Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4805833",
-      "eventStartTime": "2026-08-13T01:30:00+00:00",
-      "retrievedAt": "2026-08-13T03:33:02.875Z",
-      "feedId": "basquete",
-      "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-919fa331efa7",
-    "slug": "aguacatan-fc-e-huehuetecos-fc-ficam-no-0-a-0-pelo-primera-division-919fa3",
-    "sportId": "futebol",
-    "title": "Aguacatan FC e Huehuetecos FC ficam no 0 a 0 pelo Primera Division",
-    "summary": "Aguacatan FC e Huehuetecos FC empataram por 0 a 0 pelo Primera Division.",
-    "content": "Aguacatan FC e Huehuetecos FC empataram por 0 a 0 pelo Primera Division, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-division"
-    ],
-    "seoTitle": "Aguacatan FC e Huehuetecos FC ficam no 0 a 0 pelo Primera Division",
-    "seoDescription": "Aguacatan FC e Huehuetecos FC empataram por 0 a 0 pelo Primera Division.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T03:33:02.872Z",
-    "createdAt": "2026-08-13T03:33:02.872Z",
-    "updatedAt": "2026-08-13T03:33:02.872Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4777113",
-      "eventStartTime": "2026-08-13T01:15:00+00:00",
-      "retrievedAt": "2026-08-13T03:33:02.872Z",
-      "feedId": "futebol",
-      "league": "Primera Division"
     },
     "articleFormat": "result-brief"
   }
