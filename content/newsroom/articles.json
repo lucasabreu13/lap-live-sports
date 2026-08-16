@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-be4c9ba9678d",
+    "slug": "timo-legout-vence-aidan-mayo-por-2-a-0-em-kingston-be4c9b",
+    "sportId": "tenis",
+    "title": "Timo Legout vence Aidan Mayo por 2 a 0 em Kingston",
+    "summary": "Timo Legout superou Aidan Mayo por 2 a 0 em Kingston.",
+    "content": "Timo Legout superou Aidan Mayo por 2 a 0 em Kingston., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Timo Legout vence Aidan Mayo por 2 a 0 em Kingston",
+    "seoDescription": "Timo Legout superou Aidan Mayo por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T20:56:09.477Z",
+    "createdAt": "2026-08-16T20:56:09.477Z",
+    "updatedAt": "2026-08-16T20:56:09.477Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815569",
+      "eventStartTime": "2026-08-16T19:08:14+00:00",
+      "retrievedAt": "2026-08-16T20:56:09.477Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2d195eb30a06",
+    "slug": "asociacion-deportiva-tahuishco-e-nuevo-san-cristobal-ficam-no-0-a-0-pela-liga-3-2d195e",
+    "sportId": "futebol",
+    "title": "Asociación Deportiva Tahuishco e Nuevo San Cristóbal ficam no 0 a 0 pela Liga 3",
+    "summary": "Asociación Deportiva Tahuishco e Nuevo San Cristóbal empataram por 0 a 0 pela Liga 3.",
+    "content": "Asociación Deportiva Tahuishco e Nuevo San Cristóbal empataram por 0 a 0 pela Liga 3, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-3"
+    ],
+    "seoTitle": "Asociación Deportiva Tahuishco e Nuevo San Cristóbal ficam no 0 a 0",
+    "seoDescription": "Asociación Deportiva Tahuishco e Nuevo San Cristóbal empataram por 0 a 0 pela Liga 3.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T20:56:09.436Z",
+    "createdAt": "2026-08-16T20:56:09.436Z",
+    "updatedAt": "2026-08-16T20:56:09.436Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814993",
+      "eventStartTime": "2026-08-16T20:30:00+00:00",
+      "retrievedAt": "2026-08-16T20:56:09.436Z",
+      "feedId": "futebol",
+      "league": "Liga 3"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-26d070e366eb",
     "slug": "garrett-johns-vence-guillaume-dalmasso-por-2-a-0-em-kingston-26d070",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-14T09:41:14.354Z",
       "feedId": "futebol",
       "league": "Liga Prom"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0c5142b630ec",
-    "slug": "mattia-bellucci-vence-zachary-svajda-por-2-a-0-em-cincinnati-0c5142",
-    "sportId": "tenis",
-    "title": "Mattia Bellucci vence Zachary Svajda por 2 a 0 em Cincinnati",
-    "summary": "Mattia Bellucci superou Zachary Svajda por 2 a 0 em Cincinnati.",
-    "content": "Mattia Bellucci superou Zachary Svajda por 2 a 0 em Cincinnati., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Mattia Bellucci vence Zachary Svajda por 2 a 0 em Cincinnati",
-    "seoDescription": "Mattia Bellucci superou Zachary Svajda por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T08:35:52.596Z",
-    "createdAt": "2026-08-14T08:35:52.596Z",
-    "updatedAt": "2026-08-14T08:35:52.596Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809624",
-      "eventStartTime": "2026-08-14T02:42:22+00:00",
-      "retrievedAt": "2026-08-14T08:35:52.596Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2345167cc4c4",
-    "slug": "franca-vence-paulistano-por-78-a-74-em-paulista-basketball-234516",
-    "sportId": "basquete",
-    "title": "Franca vence Paulistano por 78 a 74 em Paulista Basketball",
-    "summary": "Franca superou Paulistano por 78 a 74 em Paulista Basketball.",
-    "content": "Franca superou Paulistano por 78 a 74 em Paulista Basketball., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "paulista-basketball"
-    ],
-    "seoTitle": "Franca vence Paulistano por 78 a 74 em Paulista Basketball",
-    "seoDescription": "Franca superou Paulistano por 78 a 74 em Paulista Basketball.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T08:35:52.591Z",
-    "createdAt": "2026-08-14T08:35:52.591Z",
-    "updatedAt": "2026-08-14T08:35:52.591Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809924",
-      "eventStartTime": "2026-08-13T23:00:00+00:00",
-      "retrievedAt": "2026-08-14T08:35:52.591Z",
-      "feedId": "basquete",
-      "league": "Paulista Basketball"
     },
     "articleFormat": "result-brief"
   }
