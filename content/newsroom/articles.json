@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-f2486f3c8631",
+    "slug": "lucas-andrade-da-silva-vence-pietro-orlando-fellin-por-2-a-0-em-kingston-f2486f",
+    "sportId": "tenis",
+    "title": "Lucas Andrade Da Silva vence Pietro Orlando Fellin por 2 a 0 em Kingston",
+    "summary": "Lucas Andrade Da Silva superou Pietro Orlando Fellin por 2 a 0 em Kingston.",
+    "content": "Lucas Andrade Da Silva superou Pietro Orlando Fellin por 2 a 0 em Kingston., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Lucas Andrade Da Silva vence Pietro Orlando Fellin por 2 a 0 em",
+    "seoDescription": "Lucas Andrade Da Silva superou Pietro Orlando Fellin por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T17:31:49.908Z",
+    "createdAt": "2026-08-16T17:31:49.908Z",
+    "updatedAt": "2026-08-16T17:31:49.908Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815565",
+      "eventStartTime": "2026-08-16T15:15:37+00:00",
+      "retrievedAt": "2026-08-16T17:31:49.908Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7163820b0e75",
+    "slug": "deportivo-sayaxche-e-nueva-santa-rosa-cdf-ficam-no-0-a-0-pelo-primera-division-716382",
+    "sportId": "futebol",
+    "title": "Deportivo Sayaxche e Nueva Santa Rosa CDF ficam no 0 a 0 pelo Primera Division",
+    "summary": "Deportivo Sayaxche e Nueva Santa Rosa CDF empataram por 0 a 0 pelo Primera Division.",
+    "content": "Deportivo Sayaxche e Nueva Santa Rosa CDF empataram por 0 a 0 pelo Primera Division, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-division"
+    ],
+    "seoTitle": "Deportivo Sayaxche e Nueva Santa Rosa CDF ficam no 0 a 0 pelo Primera",
+    "seoDescription": "Deportivo Sayaxche e Nueva Santa Rosa CDF empataram por 0 a 0 pelo Primera Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T17:31:49.872Z",
+    "createdAt": "2026-08-16T17:31:49.872Z",
+    "updatedAt": "2026-08-16T17:31:49.872Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4777102",
+      "eventStartTime": "2026-08-16T17:00:00+00:00",
+      "retrievedAt": "2026-08-16T17:31:49.872Z",
+      "feedId": "futebol",
+      "league": "Primera Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-29708913ca42",
     "slug": "ali-habib-vence-samuel-battistone-por-2-a-0-em-roehampton-297089",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-14T02:42:18.905Z",
       "feedId": "futebol",
       "league": "Primera B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-dc1d772bccde",
-    "slug": "katie-boulter-e-katie-volynets-empatam-por-0-a-0-em-cincinnati-dc1d77",
-    "sportId": "tenis",
-    "title": "Katie Boulter e Katie Volynets empatam por 0 a 0 em Cincinnati",
-    "summary": "Katie Boulter e Katie Volynets terminaram empatados por 0 a 0 em Cincinnati.",
-    "content": "Katie Boulter e Katie Volynets terminaram empatados por 0 a 0 em Cincinnati., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Katie Boulter e Katie Volynets empatam por 0 a 0 em Cincinnati",
-    "seoDescription": "Katie Boulter e Katie Volynets terminaram empatados por 0 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T00:04:46.799Z",
-    "createdAt": "2026-08-14T00:04:46.799Z",
-    "updatedAt": "2026-08-14T00:04:46.799Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809642",
-      "eventStartTime": "2026-08-13T23:11:20+00:00",
-      "retrievedAt": "2026-08-14T00:04:46.799Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-73ab46198dd1",
-    "slug": "sao-paulo-w-supera-santos-w-por-1-a-0-pelo-paulista-women-73ab46",
-    "sportId": "futebol",
-    "title": "São Paulo (W) supera Santos (W) por 1 a 0 pelo Paulista Women",
-    "summary": "São Paulo (W) venceu Santos (W) por 1 a 0 pelo Paulista Women.",
-    "content": "São Paulo (W) venceu Santos (W) por 1 a 0 pelo Paulista Women, em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "paulista-women"
-    ],
-    "seoTitle": "São Paulo (W) supera Santos (W) por 1 a 0 pelo Paulista Women",
-    "seoDescription": "São Paulo (W) venceu Santos (W) por 1 a 0 pelo Paulista Women.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T00:04:46.779Z",
-    "createdAt": "2026-08-14T00:04:46.779Z",
-    "updatedAt": "2026-08-14T00:04:46.779Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4705270",
-      "eventStartTime": "2026-08-13T22:00:00+00:00",
-      "retrievedAt": "2026-08-14T00:04:46.779Z",
-      "feedId": "futebol",
-      "league": "Paulista Women"
     },
     "articleFormat": "result-brief"
   }
