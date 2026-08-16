@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-3f717d52f4b2",
+    "slug": "guo-h-mladenovic-k-vence-kato-m-kichenok-l-por-2-a-0-em-cincinnati-3f717d",
+    "sportId": "tenis",
+    "title": "Guo H./Mladenovic K. vence Kato M./Kichenok L. por 2 a 0 em Cincinnati",
+    "summary": "Guo H./Mladenovic K. superou Kato M./Kichenok L. por 2 a 0 em Cincinnati.",
+    "content": "Guo H./Mladenovic K. superou Kato M./Kichenok L. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Guo H./Mladenovic K. vence Kato M./Kichenok L. por 2 a 0 em Cincinnati",
+    "seoDescription": "Guo H./Mladenovic K. superou Kato M./Kichenok L. por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T18:12:56.943Z",
+    "createdAt": "2026-08-16T18:12:56.943Z",
+    "updatedAt": "2026-08-16T18:12:56.943Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815617",
+      "eventStartTime": "2026-08-16T16:48:07+00:00",
+      "retrievedAt": "2026-08-16T18:12:56.943Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f10dc31934fa",
+    "slug": "wisla-plock-e-lech-poznan-ficam-no-0-a-0-pelo-ekstraklasa-f10dc3",
+    "sportId": "futebol",
+    "title": "Wisla Plock e Lech Poznan ficam no 0 a 0 pelo Ekstraklasa",
+    "summary": "Wisla Plock e Lech Poznan empataram por 0 a 0 pelo Ekstraklasa.",
+    "content": "Wisla Plock e Lech Poznan empataram por 0 a 0 pelo Ekstraklasa, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ekstraklasa"
+    ],
+    "seoTitle": "Wisla Plock e Lech Poznan ficam no 0 a 0 pelo Ekstraklasa",
+    "seoDescription": "Wisla Plock e Lech Poznan empataram por 0 a 0 pelo Ekstraklasa.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T18:12:56.908Z",
+    "createdAt": "2026-08-16T18:12:56.908Z",
+    "updatedAt": "2026-08-16T18:12:56.908Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4736432",
+      "eventStartTime": "2026-08-16T18:15:00+00:00",
+      "retrievedAt": "2026-08-16T18:12:56.908Z",
+      "feedId": "futebol",
+      "league": "Ekstraklasa"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4cd45cec176a",
     "slug": "leonardo-rossi-vence-benjamin-gusic-wan-por-2-a-1-em-roehampton-4cd45c",
     "sportId": "tenis",
@@ -12518,96 +12602,6 @@
       "retrievedAt": "2026-08-14T04:27:55.967Z",
       "feedId": "futebol",
       "league": "Leagues Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9b53d5453f0d",
-    "slug": "kittay-b-romboli-f-vence-siddhant-banthia-alexander-donski-por-2-a-0-em-brownsburg-9b53d5",
-    "sportId": "tenis",
-    "title": "Rai A./Watt J. vence Kittay B./Romboli F. por 2 a 1 em Brownsburg",
-    "summary": "Rai A./Watt J. superou Kittay B./Romboli F. por 2 a 1 em Brownsburg.",
-    "content": "Rai A./Watt J. superou Kittay B./Romboli F. por 2 a 1 em Brownsburg., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Rai A./Watt J. vence Kittay B./Romboli F. por 2 a 1 em Brownsburg",
-    "seoDescription": "Rai A./Watt J. superou Kittay B./Romboli F. por 2 a 1 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T02:42:18.919Z",
-    "createdAt": "2026-08-14T02:42:18.919Z",
-    "updatedAt": "2026-08-15T02:10:52.877Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814018",
-      "eventStartTime": "2026-08-14T23:10:02+00:00",
-      "retrievedAt": "2026-08-15T02:10:52.877Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief",
-    "updateHistory": [
-      {
-        "updatedAt": "2026-08-15T02:10:52.877Z",
-        "sourceArticleId": "newsroom-data-ec62e5c91cb7"
-      }
-    ]
-  },
-  {
-    "id": "newsroom-data-ab069655aedd",
-    "slug": "aba-ancud-vence-deportes-castro-por-82-a-71-em-lnb-ab0696",
-    "sportId": "basquete",
-    "title": "ABA Ancud vence Deportes Castro por 82 a 71 em LNB",
-    "summary": "ABA Ancud superou Deportes Castro por 82 a 71 em LNB.",
-    "content": "ABA Ancud superou Deportes Castro por 82 a 71 em LNB., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "ABA Ancud vence Deportes Castro por 82 a 71 em LNB",
-    "seoDescription": "ABA Ancud superou Deportes Castro por 82 a 71 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T02:42:18.916Z",
-    "createdAt": "2026-08-14T02:42:18.916Z",
-    "updatedAt": "2026-08-14T02:42:18.916Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4806546",
-      "eventStartTime": "2026-08-14T00:30:00+00:00",
-      "retrievedAt": "2026-08-14T02:42:18.916Z",
-      "feedId": "basquete",
-      "league": "LNB"
     },
     "articleFormat": "result-brief"
   }
