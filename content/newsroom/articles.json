@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-ab213f9f1b3d",
+    "slug": "ssg-landers-vence-lg-twins-por-6-a-0-na-kbo-ab213f",
+    "sportId": "beisebol",
+    "title": "SSG Landers vence LG Twins por 6 a 0 na KBO",
+    "summary": "SSG Landers derrotou LG Twins por 6 a 0 na KBO.",
+    "content": "SSG Landers derrotou LG Twins por 6 a 0 na KBO, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "kbo"
+    ],
+    "seoTitle": "SSG Landers vence LG Twins por 6 a 0 na KBO",
+    "seoDescription": "SSG Landers derrotou LG Twins por 6 a 0 na KBO.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T22:55:22.186Z",
+    "createdAt": "2026-08-16T22:55:22.186Z",
+    "updatedAt": "2026-08-16T22:55:22.186Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815408",
+      "eventStartTime": "2026-08-16T10:00:00+00:00",
+      "retrievedAt": "2026-08-16T22:55:22.186Z",
+      "feedId": "beisebol",
+      "league": "KBO"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-33116de883e4",
+    "slug": "kenta-miyoshi-vence-arklon-huertas-del-pino-por-2-a-0-em-kingston-33116d",
+    "sportId": "tenis",
+    "title": "Kenta Miyoshi vence Arklon Huertas Del Pino por 2 a 0 em Kingston",
+    "summary": "Kenta Miyoshi superou Arklon Huertas Del Pino por 2 a 0 em Kingston.",
+    "content": "Kenta Miyoshi superou Arklon Huertas Del Pino por 2 a 0 em Kingston., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Kenta Miyoshi vence Arklon Huertas Del Pino por 2 a 0 em Kingston",
+    "seoDescription": "Kenta Miyoshi superou Arklon Huertas Del Pino por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T22:55:22.172Z",
+    "createdAt": "2026-08-16T22:55:22.172Z",
+    "updatedAt": "2026-08-16T22:55:22.172Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815562",
+      "eventStartTime": "2026-08-16T21:03:29+00:00",
+      "retrievedAt": "2026-08-16T22:55:22.172Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ef3ab31331ee",
+    "slug": "herrera-e-veraguas-ficam-no-2-a-2-pelo-lpf-ef3ab3",
+    "sportId": "futebol",
+    "title": "Herrera e Veraguas ficam no 2 a 2 pelo Lpf",
+    "summary": "Herrera e Veraguas empataram por 2 a 2 pelo Lpf.",
+    "content": "Herrera e Veraguas empataram por 2 a 2 pelo Lpf, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "lpf"
+    ],
+    "seoTitle": "Herrera e Veraguas ficam no 2 a 2 pelo Lpf",
+    "seoDescription": "Herrera e Veraguas empataram por 2 a 2 pelo Lpf.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T22:55:22.145Z",
+    "createdAt": "2026-08-16T22:55:22.145Z",
+    "updatedAt": "2026-08-16T22:55:22.145Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4773299",
+      "eventStartTime": "2026-08-16T21:00:00+00:00",
+      "retrievedAt": "2026-08-16T22:55:22.145Z",
+      "feedId": "futebol",
+      "league": "Lpf"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5a0ca4edab36",
     "slug": "philadelphia-phillies-vence-minnesota-twins-por-7-a-5-na-mlb-5a0ca4",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-14T15:28:21.268Z",
       "feedId": "futebol",
       "league": "Vysshaya Liga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1c8567ddf1a3",
-    "slug": "yakult-swallows-vence-yokohama-baystars-por-7-a-2-na-npb-1c8567",
-    "sportId": "beisebol",
-    "title": "Yakult Swallows vence Yokohama Baystars por 7 a 2 na NPB",
-    "summary": "Yakult Swallows derrotou Yokohama Baystars por 7 a 2 na NPB.",
-    "content": "Yakult Swallows derrotou Yokohama Baystars por 7 a 2 na NPB, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Yakult Swallows vence Yokohama Baystars por 7 a 2 na NPB",
-    "seoDescription": "Yakult Swallows derrotou Yokohama Baystars por 7 a 2 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T14:36:56.075Z",
-    "createdAt": "2026-08-14T14:36:56.075Z",
-    "updatedAt": "2026-08-14T14:36:56.075Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4626859",
-      "eventStartTime": "2026-08-14T09:00:00+00:00",
-      "retrievedAt": "2026-08-14T14:36:56.075Z",
-      "feedId": "beisebol",
-      "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-eddd145f3778",
-    "slug": "saba-purtseladze-e-matej-dodig-empatam-por-0-a-0-em-hamburg-eddd14",
-    "sportId": "tenis",
-    "title": "Saba Purtseladze e Matej Dodig empatam por 0 a 0 em Hamburg",
-    "summary": "Saba Purtseladze e Matej Dodig terminaram empatados por 0 a 0 em Hamburg.",
-    "content": "Saba Purtseladze e Matej Dodig terminaram empatados por 0 a 0 em Hamburg., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "hamburg"
-    ],
-    "seoTitle": "Saba Purtseladze e Matej Dodig empatam por 0 a 0 em Hamburg",
-    "seoDescription": "Saba Purtseladze e Matej Dodig terminaram empatados por 0 a 0 em Hamburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T14:36:56.067Z",
-    "createdAt": "2026-08-14T14:36:56.067Z",
-    "updatedAt": "2026-08-14T14:36:56.067Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4812148",
-      "eventStartTime": "2026-08-14T13:30:10+00:00",
-      "retrievedAt": "2026-08-14T14:36:56.067Z",
-      "feedId": "tenis",
-      "league": "Hamburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e14673711d7e",
-    "slug": "qingdao-west-coast-e-chongqing-tongliangloong-ficam-no-0-a-0-pelo-super-league-e14673",
-    "sportId": "futebol",
-    "title": "Qingdao West Coast e Chongqing Tongliangloong ficam no 0 a 0 pelo Super League",
-    "summary": "Qingdao West Coast e Chongqing Tongliangloong empataram por 0 a 0 pelo Super League.",
-    "content": "Qingdao West Coast e Chongqing Tongliangloong empataram por 0 a 0 pelo Super League, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "super-league"
-    ],
-    "seoTitle": "Qingdao West Coast e Chongqing Tongliangloong ficam no 0 a 0 pelo",
-    "seoDescription": "Qingdao West Coast e Chongqing Tongliangloong empataram por 0 a 0 pelo Super League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T14:36:56.048Z",
-    "createdAt": "2026-08-14T14:36:56.048Z",
-    "updatedAt": "2026-08-14T14:36:56.048Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4677149",
-      "eventStartTime": "2026-08-14T12:00:00+00:00",
-      "retrievedAt": "2026-08-14T14:36:56.048Z",
-      "feedId": "futebol",
-      "league": "Super League"
     },
     "articleFormat": "result-brief"
   }
