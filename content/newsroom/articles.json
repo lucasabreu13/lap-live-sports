@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-57007a998084",
+    "slug": "nino-ehrenschneider-vence-christopher-papa-por-2-a-0-em-sion-57007a",
+    "sportId": "tenis",
+    "title": "Nino Ehrenschneider vence Christopher Papa por 2 a 0 em Sion",
+    "summary": "Nino Ehrenschneider superou Christopher Papa por 2 a 0 em Sion.",
+    "content": "Nino Ehrenschneider superou Christopher Papa por 2 a 0 em Sion., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Nino Ehrenschneider vence Christopher Papa por 2 a 0 em Sion",
+    "seoDescription": "Nino Ehrenschneider superou Christopher Papa por 2 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T16:16:01.726Z",
+    "createdAt": "2026-08-16T16:16:01.726Z",
+    "updatedAt": "2026-08-16T16:16:01.726Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815608",
+      "eventStartTime": "2026-08-16T13:50:33+00:00",
+      "retrievedAt": "2026-08-16T16:16:01.726Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-84a12c768ca8",
+    "slug": "deportivo-coopsol-e-amazon-callao-fc-ficam-no-0-a-0-pela-liga-3-84a12c",
+    "sportId": "futebol",
+    "title": "Deportivo Coopsol e Amazon Callao FC ficam no 0 a 0 pela Liga 3",
+    "summary": "Deportivo Coopsol e Amazon Callao FC empataram por 0 a 0 pela Liga 3.",
+    "content": "Deportivo Coopsol e Amazon Callao FC empataram por 0 a 0 pela Liga 3, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-3"
+    ],
+    "seoTitle": "Deportivo Coopsol e Amazon Callao FC ficam no 0 a 0 pela Liga 3",
+    "seoDescription": "Deportivo Coopsol e Amazon Callao FC empataram por 0 a 0 pela Liga 3.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T16:16:01.703Z",
+    "createdAt": "2026-08-16T16:16:01.703Z",
+    "updatedAt": "2026-08-16T16:16:01.703Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814981",
+      "eventStartTime": "2026-08-16T16:00:00+00:00",
+      "retrievedAt": "2026-08-16T16:16:01.703Z",
+      "feedId": "futebol",
+      "league": "Liga 3"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-203e3a3c59cb",
     "slug": "alafia-ayeni-vence-zach-stephens-por-2-a-0-em-roehampton-203e3a",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-13T22:41:43.103Z",
       "feedId": "futebol",
       "league": "Serie B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6b6ab19c9ce6",
-    "slug": "miomir-kecmanovic-vence-camilo-carabelli-ugo-por-2-a-0-em-cincinnati-6b6ab1",
-    "sportId": "tenis",
-    "title": "Miomir Kecmanovic vence Camilo Carabelli Ugo por 2 a 0 em Cincinnati",
-    "summary": "Miomir Kecmanovic superou Camilo Carabelli Ugo por 2 a 0 em Cincinnati.",
-    "content": "Miomir Kecmanovic superou Camilo Carabelli Ugo por 2 a 0 em Cincinnati., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Miomir Kecmanovic vence Camilo Carabelli Ugo por 2 a 0 em Cincinnati",
-    "seoDescription": "Miomir Kecmanovic superou Camilo Carabelli Ugo por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T21:59:34.105Z",
-    "createdAt": "2026-08-13T21:59:34.105Z",
-    "updatedAt": "2026-08-13T21:59:34.105Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809629",
-      "eventStartTime": "2026-08-13T20:26:37+00:00",
-      "retrievedAt": "2026-08-13T21:59:34.105Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-30ef6e542313",
-    "slug": "astillero-supera-daquilema-por-2-a-0-pela-copa-ecuador-30ef6e",
-    "sportId": "futebol",
-    "title": "Astillero supera Daquilema por 2 a 0 pela Copa Ecuador",
-    "summary": "Astillero venceu Daquilema por 2 a 0 pela Copa Ecuador.",
-    "content": "Astillero venceu Daquilema por 2 a 0 pela Copa Ecuador, em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-ecuador"
-    ],
-    "seoTitle": "Astillero supera Daquilema por 2 a 0 pela Copa Ecuador",
-    "seoDescription": "Astillero venceu Daquilema por 2 a 0 pela Copa Ecuador.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T21:59:34.088Z",
-    "createdAt": "2026-08-13T21:59:34.088Z",
-    "updatedAt": "2026-08-13T21:59:34.088Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4722556",
-      "eventStartTime": "2026-08-13T20:00:00+00:00",
-      "retrievedAt": "2026-08-13T21:59:34.088Z",
-      "feedId": "futebol",
-      "league": "Copa Ecuador"
     },
     "articleFormat": "result-brief"
   }
