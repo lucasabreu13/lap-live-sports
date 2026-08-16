@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-2401a58a19a7",
+    "slug": "defensor-sporting-club-w-e-cordon-w-empatam-por-0-a-0-em-lfb-w-2401a5",
+    "sportId": "basquete",
+    "title": "Defensor Sporting Club (W) e Cordon (W) empatam por 0 a 0 em LFB (W)",
+    "summary": "Defensor Sporting Club (W) e Cordon (W) terminaram empatados por 0 a 0 em LFB (W).",
+    "content": "Defensor Sporting Club (W) e Cordon (W) terminaram empatados por 0 a 0 em LFB (W)., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lfb-w"
+    ],
+    "seoTitle": "Defensor Sporting Club (W) e Cordon (W) empatam por 0 a 0 em LFB (W)",
+    "seoDescription": "Defensor Sporting Club (W) e Cordon (W) terminaram empatados por 0 a 0 em LFB (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T07:42:42.820Z",
+    "createdAt": "2026-08-16T07:42:42.820Z",
+    "updatedAt": "2026-08-16T07:42:42.820Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814528",
+      "eventStartTime": "2026-08-15T23:00:00+00:00",
+      "retrievedAt": "2026-08-16T07:42:42.820Z",
+      "feedId": "basquete",
+      "league": "LFB (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2893d5fd4d42",
+    "slug": "deportivo-saprissa-supera-cs-cartagines-por-3-a-2-pela-liga-fpd-2893d5",
+    "sportId": "futebol",
+    "title": "Deportivo Saprissa supera CS Cartagines por 3 a 2 pela liga FPD",
+    "summary": "Deportivo Saprissa venceu CS Cartagines por 3 a 2 pela liga FPD.",
+    "content": "Deportivo Saprissa venceu CS Cartagines por 3 a 2 pela liga FPD, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-fpd"
+    ],
+    "seoTitle": "Deportivo Saprissa supera CS Cartagines por 3 a 2 pela liga FPD",
+    "seoDescription": "Deportivo Saprissa venceu CS Cartagines por 3 a 2 pela liga FPD.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T07:42:42.800Z",
+    "createdAt": "2026-08-16T07:42:42.800Z",
+    "updatedAt": "2026-08-16T07:42:42.800Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4734841",
+      "eventStartTime": "2026-08-16T02:00:00+00:00",
+      "retrievedAt": "2026-08-16T07:42:42.800Z",
+      "feedId": "futebol",
+      "league": "liga FPD"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d7719089157d",
     "slug": "lobos-plateados-vence-dorados-de-chihuahua-por-74-a-71-em-lnbp-d77190",
     "sportId": "basquete",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-13T05:21:49.735Z",
       "feedId": "basquete",
       "league": "WNBA"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-19d1bbf6f571",
-    "slug": "central-coast-supera-venus-por-3-a-0-pela-ofc-champions-league-19d1bb",
-    "sportId": "futebol",
-    "title": "Central Coast supera Vénus por 3 a 0 pela OFC Champions League",
-    "summary": "Central Coast venceu Vénus por 3 a 0 pela OFC Champions League.",
-    "content": "Central Coast venceu Vénus por 3 a 0 pela OFC Champions League, em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "ofc-champions-league"
-    ],
-    "seoTitle": "Central Coast supera Vénus por 3 a 0 pela OFC Champions League",
-    "seoDescription": "Central Coast venceu Vénus por 3 a 0 pela OFC Champions League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T05:21:49.727Z",
-    "createdAt": "2026-08-13T05:21:49.727Z",
-    "updatedAt": "2026-08-13T05:21:49.727Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4678084",
-      "eventStartTime": "2026-08-13T03:00:00+00:00",
-      "retrievedAt": "2026-08-13T05:21:49.727Z",
-      "feedId": "futebol",
-      "league": "OFC Champions League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8b1d45791db2",
-    "slug": "jaime-faria-vence-yibing-wu-por-2-a-0-em-cincinnati-8b1d45",
-    "sportId": "tenis",
-    "title": "Jaime Faria vence Yibing Wu por 2 a 0 em Cincinnati",
-    "summary": "Jaime Faria superou Yibing Wu por 2 a 0 em Cincinnati.",
-    "content": "Jaime Faria superou Yibing Wu por 2 a 0 em Cincinnati., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Jaime Faria vence Yibing Wu por 2 a 0 em Cincinnati",
-    "seoDescription": "Jaime Faria superou Yibing Wu por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T03:33:02.879Z",
-    "createdAt": "2026-08-13T03:33:02.879Z",
-    "updatedAt": "2026-08-13T03:33:02.879Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809969",
-      "eventStartTime": "2026-08-13T01:51:48+00:00",
-      "retrievedAt": "2026-08-13T03:33:02.879Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
