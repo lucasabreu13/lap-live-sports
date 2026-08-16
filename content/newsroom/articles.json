@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-5a0ca4edab36",
+    "slug": "philadelphia-phillies-vence-minnesota-twins-por-7-a-5-na-mlb-5a0ca4",
+    "sportId": "beisebol",
+    "title": "Philadelphia Phillies vence Minnesota Twins por 7 a 5 na MLB",
+    "summary": "Philadelphia Phillies derrotou Minnesota Twins por 7 a 5 na MLB.",
+    "content": "Philadelphia Phillies derrotou Minnesota Twins por 7 a 5 na MLB, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Philadelphia Phillies vence Minnesota Twins por 7 a 5 na MLB",
+    "seoDescription": "Philadelphia Phillies derrotou Minnesota Twins por 7 a 5 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T22:34:11.096Z",
+    "createdAt": "2026-08-16T22:34:11.096Z",
+    "updatedAt": "2026-08-16T22:34:11.096Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614771",
+      "eventStartTime": "2026-08-16T18:10:00+00:00",
+      "retrievedAt": "2026-08-16T22:34:11.096Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7a925a0bc5e8",
+    "slug": "danilina-a-krunic-a-vence-li-a-tauson-c-por-2-a-0-em-cincinnati-7a925a",
+    "sportId": "tenis",
+    "title": "Danilina A./Krunic A. vence Li A./Tauson C. por 2 a 0 em Cincinnati",
+    "summary": "Danilina A./Krunic A. superou Li A./Tauson C. por 2 a 0 em Cincinnati.",
+    "content": "Danilina A./Krunic A. superou Li A./Tauson C. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Danilina A./Krunic A. vence Li A./Tauson C. por 2 a 0 em Cincinnati",
+    "seoDescription": "Danilina A./Krunic A. superou Li A./Tauson C. por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T22:34:11.091Z",
+    "createdAt": "2026-08-16T22:34:11.091Z",
+    "updatedAt": "2026-08-16T22:34:11.091Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815123",
+      "eventStartTime": "2026-08-16T21:27:05+00:00",
+      "retrievedAt": "2026-08-16T22:34:11.091Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-0ec50c250608",
+    "slug": "san-martin-mendoza-supera-deportivo-rincon-por-1-a-0-pelo-federal-a-0ec50c",
+    "sportId": "futebol",
+    "title": "San Martín Mendoza supera Deportivo Rincón por 1 a 0 pelo Federal A",
+    "summary": "San Martín Mendoza venceu Deportivo Rincón por 1 a 0 pelo Federal A.",
+    "content": "San Martín Mendoza venceu Deportivo Rincón por 1 a 0 pelo Federal A, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "federal-a"
+    ],
+    "seoTitle": "San Martín Mendoza supera Deportivo Rincón por 1 a 0 pelo Federal A",
+    "seoDescription": "San Martín Mendoza venceu Deportivo Rincón por 1 a 0 pelo Federal A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T22:34:11.057Z",
+    "createdAt": "2026-08-16T22:34:11.057Z",
+    "updatedAt": "2026-08-16T22:34:11.057Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4796638",
+      "eventStartTime": "2026-08-16T20:30:00+00:00",
+      "retrievedAt": "2026-08-16T22:34:11.057Z",
+      "feedId": "futebol",
+      "league": "Federal A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-2848bd8ee005",
     "slug": "milwaukee-brewers-vence-los-angeles-dodgers-por-4-a-1-na-mlb-2848bd",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-14T14:36:56.048Z",
       "feedId": "futebol",
       "league": "Super League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5bfa4e4552a4",
-    "slug": "ssg-landers-vence-lg-twins-por-5-a-3-na-kbo-5bfa4e",
-    "sportId": "beisebol",
-    "title": "SSG Landers vence LG Twins por 5 a 3 na KBO",
-    "summary": "SSG Landers derrotou LG Twins por 5 a 3 na KBO.",
-    "content": "SSG Landers derrotou LG Twins por 5 a 3 na KBO, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "kbo"
-    ],
-    "seoTitle": "SSG Landers vence LG Twins por 5 a 3 na KBO",
-    "seoDescription": "SSG Landers derrotou LG Twins por 5 a 3 na KBO.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T13:37:33.131Z",
-    "createdAt": "2026-08-14T13:37:33.131Z",
-    "updatedAt": "2026-08-14T13:37:33.131Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813618",
-      "eventStartTime": "2026-08-14T10:00:00+00:00",
-      "retrievedAt": "2026-08-14T13:37:33.131Z",
-      "feedId": "beisebol",
-      "league": "KBO"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ca3c7098d655",
-    "slug": "marton-fucsovics-e-terence-atmane-empatam-por-0-a-0-em-cincinnati-ca3c70",
-    "sportId": "tenis",
-    "title": "Marton Fucsovics e Terence Atmane empatam por 0 a 0 em Cincinnati",
-    "summary": "Marton Fucsovics e Terence Atmane terminaram empatados por 0 a 0 em Cincinnati.",
-    "content": "Marton Fucsovics e Terence Atmane terminaram empatados por 0 a 0 em Cincinnati., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Marton Fucsovics e Terence Atmane empatam por 0 a 0 em Cincinnati",
-    "seoDescription": "Marton Fucsovics e Terence Atmane terminaram empatados por 0 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T13:37:33.125Z",
-    "createdAt": "2026-08-14T13:37:33.125Z",
-    "updatedAt": "2026-08-14T13:37:33.125Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809619",
-      "eventStartTime": "2026-08-13T22:56:29+00:00",
-      "retrievedAt": "2026-08-14T13:37:33.125Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-bf16033b1d0b",
-    "slug": "eskhata-e-barkchi-gissar-ficam-no-0-a-0-pela-vysshaya-liga-bf1603",
-    "sportId": "futebol",
-    "title": "Eskhata e Barkchi Gissar ficam no 0 a 0 pela Vysshaya Liga",
-    "summary": "Eskhata e Barkchi Gissar empataram por 0 a 0 pela Vysshaya Liga.",
-    "content": "Eskhata e Barkchi Gissar empataram por 0 a 0 pela Vysshaya Liga, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "vysshaya-liga"
-    ],
-    "seoTitle": "Eskhata e Barkchi Gissar ficam no 0 a 0 pela Vysshaya Liga",
-    "seoDescription": "Eskhata e Barkchi Gissar empataram por 0 a 0 pela Vysshaya Liga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T13:37:33.085Z",
-    "createdAt": "2026-08-14T13:37:33.085Z",
-    "updatedAt": "2026-08-14T13:37:33.085Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4731055",
-      "eventStartTime": "2026-08-14T12:00:00+00:00",
-      "retrievedAt": "2026-08-14T13:37:33.085Z",
-      "feedId": "futebol",
-      "league": "Vysshaya Liga"
     },
     "articleFormat": "result-brief"
   }
