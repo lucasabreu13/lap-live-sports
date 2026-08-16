@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-6b5b298444b4",
+    "slug": "toronto-blue-jays-vence-new-york-yankees-por-3-a-1-na-mlb-6b5b29",
+    "sportId": "beisebol",
+    "title": "Toronto Blue Jays vence New York Yankees por 3 a 1 na MLB",
+    "summary": "Toronto Blue Jays derrotou New York Yankees por 3 a 1 na MLB.",
+    "content": "Toronto Blue Jays derrotou New York Yankees por 3 a 1 na MLB, em 14 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Toronto Blue Jays vence New York Yankees por 3 a 1 na MLB",
+    "seoDescription": "Toronto Blue Jays derrotou New York Yankees por 3 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T05:00:12.964Z",
+    "createdAt": "2026-08-16T05:00:12.964Z",
+    "updatedAt": "2026-08-16T05:00:12.964Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4602974",
+      "eventStartTime": "2026-08-14T23:15:00+00:00",
+      "retrievedAt": "2026-08-16T05:00:12.964Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-478a2c13b419",
+    "slug": "abejas-de-leon-vence-panteras-de-aguascalientes-por-92-a-83-em-lnbp-478a2c",
+    "sportId": "basquete",
+    "title": "Abejas de León vence Panteras De Aguascalientes por 92 a 83 em LNBP",
+    "summary": "Abejas de León superou Panteras De Aguascalientes por 92 a 83 em LNBP.",
+    "content": "Abejas de León superou Panteras De Aguascalientes por 92 a 83 em LNBP., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Abejas de León vence Panteras De Aguascalientes por 92 a 83 em LNBP",
+    "seoDescription": "Abejas de León superou Panteras De Aguascalientes por 92 a 83 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T05:00:12.914Z",
+    "createdAt": "2026-08-16T05:00:12.914Z",
+    "updatedAt": "2026-08-16T05:00:12.914Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707870",
+      "eventStartTime": "2026-08-16T02:00:00+00:00",
+      "retrievedAt": "2026-08-16T05:00:12.914Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5dcf5844ae52",
+    "slug": "st-louis-city-sc-supera-san-jose-earthquakes-por-3-a-1-pelo-mls-5dcf58",
+    "sportId": "futebol",
+    "title": "St. Louis City SC supera San Jose Earthquakes por 3 a 1 pela MLS",
+    "summary": "St. Louis City SC venceu San Jose Earthquakes por 3 a 1 pela MLS.",
+    "content": "St. Louis City SC venceu San Jose Earthquakes por 3 a 1 pela MLS, em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "St. Louis City SC supera San Jose Earthquakes por 3 a 1 pela MLS",
+    "seoDescription": "St. Louis City SC venceu San Jose Earthquakes por 3 a 1 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T05:00:12.905Z",
+    "createdAt": "2026-08-16T05:00:12.905Z",
+    "updatedAt": "2026-08-16T05:00:12.905Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4621446",
+      "eventStartTime": "2026-08-16T02:30:00+00:00",
+      "retrievedAt": "2026-08-16T05:00:12.905Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-fedd06d8e047",
     "slug": "texas-rangers-vence-athletics-por-5-a-3-na-mlb-fedd06",
     "sportId": "beisebol",
@@ -12480,132 +12606,6 @@
       "eventId": "365-4809709",
       "eventStartTime": "2026-08-12T20:04:31+00:00",
       "retrievedAt": "2026-08-12T22:29:29.169Z",
-      "feedId": "tenis",
-      "league": "Montreal"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e2c785afd031",
-    "slug": "union-cocle-ii-e-independiente-de-la-chorrera-u20-ficam-no-0-a-0-pela-liga-prom-e2c785",
-    "sportId": "futebol",
-    "title": "Unión Coclé II e Independiente De La Chorrera U20 ficam no 0 a 0 pela Liga Prom",
-    "summary": "Unión Coclé II e Independiente De La Chorrera U20 empataram por 0 a 0 pela Liga Prom.",
-    "content": "Unión Coclé II e Independiente De La Chorrera U20 empataram por 0 a 0 pela Liga Prom, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-prom"
-    ],
-    "seoTitle": "Unión Coclé II e Independiente De La Chorrera U20 ficam no 0 a 0 pela",
-    "seoDescription": "Unión Coclé II e Independiente De La Chorrera U20 empataram por 0 a 0 pela Liga Prom.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T22:29:29.158Z",
-    "createdAt": "2026-08-12T22:29:29.158Z",
-    "updatedAt": "2026-08-12T22:29:29.158Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4778511",
-      "eventStartTime": "2026-08-12T21:00:00+00:00",
-      "retrievedAt": "2026-08-12T22:29:29.158Z",
-      "feedId": "futebol",
-      "league": "Liga Prom"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5aa079e1aed9",
-    "slug": "detroit-tigers-vence-cleveland-guardians-por-6-a-4-na-mlb-5aa079",
-    "sportId": "beisebol",
-    "title": "Detroit Tigers vence Cleveland Guardians por 6 a 4 na MLB",
-    "summary": "Detroit Tigers derrotou Cleveland Guardians por 6 a 4 na MLB.",
-    "content": "Detroit Tigers derrotou Cleveland Guardians por 6 a 4 na MLB, em 11 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Detroit Tigers vence Cleveland Guardians por 6 a 4 na MLB",
-    "seoDescription": "Detroit Tigers derrotou Cleveland Guardians por 6 a 4 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T21:48:18.797Z",
-    "createdAt": "2026-08-12T21:48:18.797Z",
-    "updatedAt": "2026-08-12T21:48:18.797Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602987",
-      "eventStartTime": "2026-08-11T22:40:00+00:00",
-      "retrievedAt": "2026-08-12T21:48:18.797Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5c0d518140b3",
-    "slug": "arevalo-m-pavic-m-vence-arribage-t-olivetti-a-por-2-a-0-em-montreal-5c0d51",
-    "sportId": "tenis",
-    "title": "Arevalo M./Pavic M. vence Arribage T./Olivetti A. por 2 a 0 em Montreal",
-    "summary": "Arevalo M./Pavic M. superou Arribage T./Olivetti A. por 2 a 0 em Montreal.",
-    "content": "Arevalo M./Pavic M. superou Arribage T./Olivetti A. por 2 a 0 em Montreal., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "montreal"
-    ],
-    "seoTitle": "Arevalo M./Pavic M. vence Arribage T./Olivetti A. por 2 a 0 em",
-    "seoDescription": "Arevalo M./Pavic M. superou Arribage T./Olivetti A. por 2 a 0 em Montreal.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-12T21:48:18.778Z",
-    "createdAt": "2026-08-12T21:48:18.778Z",
-    "updatedAt": "2026-08-12T21:48:18.778Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809614",
-      "eventStartTime": "2026-08-12T20:07:14+00:00",
-      "retrievedAt": "2026-08-12T21:48:18.778Z",
       "feedId": "tenis",
       "league": "Montreal"
     },
