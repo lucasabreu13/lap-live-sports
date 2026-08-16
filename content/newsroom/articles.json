@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-89552a6e265a",
+    "slug": "jakub-paul-vence-svyatoslav-gulin-por-2-a-1-em-prague-89552a",
+    "sportId": "tenis",
+    "title": "Jakub Paul vence Svyatoslav Gulin por 2 a 1 em Prague",
+    "summary": "Jakub Paul superou Svyatoslav Gulin por 2 a 1 em Prague.",
+    "content": "Jakub Paul superou Svyatoslav Gulin por 2 a 1 em Prague., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Jakub Paul vence Svyatoslav Gulin por 2 a 1 em Prague",
+    "seoDescription": "Jakub Paul superou Svyatoslav Gulin por 2 a 1 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T10:12:11.845Z",
+    "createdAt": "2026-08-16T10:12:11.845Z",
+    "updatedAt": "2026-08-16T10:12:11.845Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815501",
+      "eventStartTime": "2026-08-16T08:23:21+00:00",
+      "retrievedAt": "2026-08-16T10:12:11.845Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b5d16f54fab4",
+    "slug": "banik-ostrava-ii-supera-viktoria-zizkov-por-4-a-1-pelo-division-2-b5d16f",
+    "sportId": "futebol",
+    "title": "Baník Ostrava II supera Viktoria Zizkov por 4 a 1 pelo Division 2",
+    "summary": "Baník Ostrava II venceu Viktoria Zizkov por 4 a 1 pelo Division 2.",
+    "content": "Baník Ostrava II venceu Viktoria Zizkov por 4 a 1 pelo Division 2, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "division-2"
+    ],
+    "seoTitle": "Baník Ostrava II supera Viktoria Zizkov por 4 a 1 pelo Division 2",
+    "seoDescription": "Baník Ostrava II venceu Viktoria Zizkov por 4 a 1 pelo Division 2.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T10:12:11.823Z",
+    "createdAt": "2026-08-16T10:12:11.823Z",
+    "updatedAt": "2026-08-16T10:12:11.823Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4744176",
+      "eventStartTime": "2026-08-16T08:15:00+00:00",
+      "retrievedAt": "2026-08-16T10:12:11.823Z",
+      "feedId": "futebol",
+      "league": "Division 2"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-bb576433a6fe",
     "slug": "new-mexico-supera-fc-tulsa-por-1-a-0-pela-usl-championship-bb5764",
     "sportId": "futebol",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-13T10:42:11.564Z",
       "feedId": "futebol",
       "league": "Leagues Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9e08999d8678",
-    "slug": "aziz-dougaz-vence-manas-manoj-dhamne-por-2-a-0-em-astana-9e0899",
-    "sportId": "tenis",
-    "title": "Aziz Dougaz vence Manas Manoj Dhamne por 2 a 0 em Astana",
-    "summary": "Aziz Dougaz superou Manas Manoj Dhamne por 2 a 0 em Astana.",
-    "content": "Aziz Dougaz superou Manas Manoj Dhamne por 2 a 0 em Astana., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "astana"
-    ],
-    "seoTitle": "Aziz Dougaz vence Manas Manoj Dhamne por 2 a 0 em Astana",
-    "seoDescription": "Aziz Dougaz superou Manas Manoj Dhamne por 2 a 0 em Astana.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T09:30:54.397Z",
-    "createdAt": "2026-08-13T09:30:54.397Z",
-    "updatedAt": "2026-08-13T09:30:54.397Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809958",
-      "eventStartTime": "2026-08-13T07:36:33+00:00",
-      "retrievedAt": "2026-08-13T09:30:54.397Z",
-      "feedId": "tenis",
-      "league": "Astana"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-95b2816889f8",
-    "slug": "cd-jorge-guzman-vence-zamora-raptors-por-83-a-64-em-liga-nacional-95b281",
-    "sportId": "basquete",
-    "title": "CD Jorge Guzman vence Zamora Raptors por 83 a 64 em Liga Nacional",
-    "summary": "CD Jorge Guzman superou Zamora Raptors por 83 a 64 em Liga Nacional.",
-    "content": "CD Jorge Guzman superou Zamora Raptors por 83 a 64 em Liga Nacional., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-nacional"
-    ],
-    "seoTitle": "CD Jorge Guzman vence Zamora Raptors por 83 a 64 em Liga Nacional",
-    "seoDescription": "CD Jorge Guzman superou Zamora Raptors por 83 a 64 em Liga Nacional.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T09:30:54.393Z",
-    "createdAt": "2026-08-13T09:30:54.393Z",
-    "updatedAt": "2026-08-13T09:30:54.393Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811385",
-      "eventStartTime": "2026-08-13T01:00:00+00:00",
-      "retrievedAt": "2026-08-13T09:30:54.393Z",
-      "feedId": "basquete",
-      "league": "Liga Nacional"
     },
     "articleFormat": "result-brief"
   }
