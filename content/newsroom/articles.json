@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-26d070e366eb",
+    "slug": "garrett-johns-vence-guillaume-dalmasso-por-2-a-0-em-kingston-26d070",
+    "sportId": "tenis",
+    "title": "Garrett Johns vence Guillaume Dalmasso por 2 a 0 em Kingston",
+    "summary": "Garrett Johns superou Guillaume Dalmasso por 2 a 0 em Kingston.",
+    "content": "Garrett Johns superou Guillaume Dalmasso por 2 a 0 em Kingston., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Garrett Johns vence Guillaume Dalmasso por 2 a 0 em Kingston",
+    "seoDescription": "Garrett Johns superou Guillaume Dalmasso por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T20:35:32.427Z",
+    "createdAt": "2026-08-16T20:35:32.427Z",
+    "updatedAt": "2026-08-16T20:35:32.427Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815560",
+      "eventStartTime": "2026-08-16T19:05:38+00:00",
+      "retrievedAt": "2026-08-16T20:35:32.427Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5e7efa6bcace",
+    "slug": "centro-social-de-pariacoto-e-pacifico-fc-ficam-no-0-a-0-pela-liga-3-5e7efa",
+    "sportId": "futebol",
+    "title": "Centro Social de Pariacoto e Pacifico FC ficam no 0 a 0 pela Liga 3",
+    "summary": "Centro Social de Pariacoto e Pacifico FC empataram por 0 a 0 pela Liga 3.",
+    "content": "Centro Social de Pariacoto e Pacifico FC empataram por 0 a 0 pela Liga 3, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-3"
+    ],
+    "seoTitle": "Centro Social de Pariacoto e Pacifico FC ficam no 0 a 0 pela Liga 3",
+    "seoDescription": "Centro Social de Pariacoto e Pacifico FC empataram por 0 a 0 pela Liga 3.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T20:35:32.400Z",
+    "createdAt": "2026-08-16T20:35:32.400Z",
+    "updatedAt": "2026-08-16T20:35:32.400Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814992",
+      "eventStartTime": "2026-08-16T20:30:00+00:00",
+      "retrievedAt": "2026-08-16T20:35:32.400Z",
+      "feedId": "futebol",
+      "league": "Liga 3"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-1a2281d7b789",
     "slug": "evan-zhu-vence-tauheed-browning-por-2-a-0-em-kingston-1a2281",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-14T08:35:52.591Z",
       "feedId": "basquete",
       "league": "Paulista Basketball"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-94c24b30ff28",
-    "slug": "new-england-patriots-e-indianapolis-colts-empatam-por-13-a-13-em-nfl-94c24b",
-    "sportId": "futebol-americano",
-    "title": "New England Patriots e Indianapolis Colts empatam por 13 a 13 em NFL",
-    "summary": "New England Patriots e Indianapolis Colts terminaram empatados por 13 a 13 em NFL.",
-    "content": "New England Patriots e Indianapolis Colts terminaram empatados por 13 a 13 em NFL., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "New England Patriots e Indianapolis Colts empatam por 13 a 13 em NFL",
-    "seoDescription": "New England Patriots e Indianapolis Colts terminaram empatados por 13 a 13 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T08:35:52.576Z",
-    "createdAt": "2026-08-14T08:35:52.576Z",
-    "updatedAt": "2026-08-14T08:35:52.576Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714905",
-      "eventStartTime": "2026-08-13T23:30:00+00:00",
-      "retrievedAt": "2026-08-14T08:35:52.576Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-11724ea6c8d2",
-    "slug": "sporting-sm-ii-e-panama-city-fc-ficam-no-0-a-0-pela-liga-prom-11724e",
-    "sportId": "futebol",
-    "title": "Sporting Sm Ii e Panamá City Fc ficam no 0 a 0 pela Liga Prom",
-    "summary": "Sporting Sm Ii e Panamá City Fc empataram por 0 a 0 pela Liga Prom.",
-    "content": "Sporting Sm Ii e Panamá City Fc empataram por 0 a 0 pela Liga Prom, em 13 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-prom"
-    ],
-    "seoTitle": "Sporting Sm Ii e Panamá City Fc ficam no 0 a 0 pela Liga Prom",
-    "seoDescription": "Sporting Sm Ii e Panamá City Fc empataram por 0 a 0 pela Liga Prom.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T08:35:52.571Z",
-    "createdAt": "2026-08-14T08:35:52.571Z",
-    "updatedAt": "2026-08-14T08:35:52.571Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4778507",
-      "eventStartTime": "2026-08-14T01:00:00+00:00",
-      "retrievedAt": "2026-08-14T08:35:52.571Z",
-      "feedId": "futebol",
-      "league": "Liga Prom"
     },
     "articleFormat": "result-brief"
   }
