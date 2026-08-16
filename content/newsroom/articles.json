@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-d8900722b8d5",
+    "slug": "jan-kumstat-vence-matheus-almeida-por-2-a-1-em-hamburg-d89007",
+    "sportId": "tenis",
+    "title": "Jan Kumstat vence Matheus Almeida por 2 a 1 em Hamburg",
+    "summary": "Jan Kumstat superou Matheus Almeida por 2 a 1 em Hamburg.",
+    "content": "Jan Kumstat superou Matheus Almeida por 2 a 1 em Hamburg., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "hamburg"
+    ],
+    "seoTitle": "Jan Kumstat vence Matheus Almeida por 2 a 1 em Hamburg",
+    "seoDescription": "Jan Kumstat superou Matheus Almeida por 2 a 1 em Hamburg.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T06:21:03.680Z",
+    "createdAt": "2026-08-16T06:21:03.680Z",
+    "updatedAt": "2026-08-16T06:21:03.680Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814868",
+      "eventStartTime": "2026-08-15T12:15:23+00:00",
+      "retrievedAt": "2026-08-16T06:21:03.680Z",
+      "feedId": "tenis",
+      "league": "Hamburg"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ee9b74531c0c",
+    "slug": "aguada-w-vence-urunday-universitario-w-por-73-a-57-em-lfb-w-ee9b74",
+    "sportId": "basquete",
+    "title": "Aguada (W) vence Urunday Universitario (W) por 73 a 57 em LFB (W)",
+    "summary": "Aguada (W) superou Urunday Universitario (W) por 73 a 57 em LFB (W).",
+    "content": "Aguada (W) superou Urunday Universitario (W) por 73 a 57 em LFB (W)., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lfb-w"
+    ],
+    "seoTitle": "Aguada (W) vence Urunday Universitario (W) por 73 a 57 em LFB (W)",
+    "seoDescription": "Aguada (W) superou Urunday Universitario (W) por 73 a 57 em LFB (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T06:21:03.639Z",
+    "createdAt": "2026-08-16T06:21:03.639Z",
+    "updatedAt": "2026-08-16T06:21:03.639Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813621",
+      "eventStartTime": "2026-08-15T23:30:00+00:00",
+      "retrievedAt": "2026-08-16T06:21:03.639Z",
+      "feedId": "basquete",
+      "league": "LFB (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9531f4922d6c",
+    "slug": "sacramento-republic-supera-lexington-por-1-a-0-pela-usl-championship-9531f4",
+    "sportId": "futebol",
+    "title": "Sacramento Republic supera Lexington por 1 a 0 pela USL Championship",
+    "summary": "Sacramento Republic venceu Lexington por 1 a 0 pela USL Championship.",
+    "content": "Sacramento Republic venceu Lexington por 1 a 0 pela USL Championship, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "usl-championship"
+    ],
+    "seoTitle": "Sacramento Republic supera Lexington por 1 a 0 pela USL Championship",
+    "seoDescription": "Sacramento Republic venceu Lexington por 1 a 0 pela USL Championship.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T06:21:03.621Z",
+    "createdAt": "2026-08-16T06:21:03.621Z",
+    "updatedAt": "2026-08-16T06:21:03.621Z",
+    "homepagePriority": 82,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4634135",
+      "eventStartTime": "2026-08-16T03:00:00+00:00",
+      "retrievedAt": "2026-08-16T06:21:03.621Z",
+      "feedId": "futebol",
+      "league": "USL Championship"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-e12fc780290d",
     "slug": "soles-de-mexicali-vence-santos-de-san-luis-por-84-a-75-em-lnbp-e12fc7",
     "sportId": "basquete",
@@ -12482,132 +12608,6 @@
       "retrievedAt": "2026-08-13T03:33:02.872Z",
       "feedId": "futebol",
       "league": "Primera Division"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-82189bbb2f89",
-    "slug": "andres-andrade-vence-joel-josef-schwaerzler-por-1-a-0-em-brownsburg-82189b",
-    "sportId": "tenis",
-    "title": "Andres Andrade vence Joel Josef Schwaerzler por 1 a 0 em Brownsburg",
-    "summary": "Andres Andrade superou Joel Josef Schwaerzler por 1 a 0 em Brownsburg.",
-    "content": "Andres Andrade superou Joel Josef Schwaerzler por 1 a 0 em Brownsburg., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Andres Andrade vence Joel Josef Schwaerzler por 1 a 0 em Brownsburg",
-    "seoDescription": "Andres Andrade superou Joel Josef Schwaerzler por 1 a 0 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T01:13:53.882Z",
-    "createdAt": "2026-08-13T01:13:53.882Z",
-    "updatedAt": "2026-08-13T01:13:53.882Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808933",
-      "eventStartTime": "2026-08-13T00:07:17+00:00",
-      "retrievedAt": "2026-08-13T01:13:53.882Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ab731101994b",
-    "slug": "corinthians-vence-pinheiros-por-88-a-70-em-paulista-basketball-ab7311",
-    "sportId": "basquete",
-    "title": "Corinthians vence Pinheiros por 88 a 70 em Paulista Basketball",
-    "summary": "Corinthians superou Pinheiros por 88 a 70 em Paulista Basketball.",
-    "content": "Corinthians superou Pinheiros por 88 a 70 em Paulista Basketball., em 12 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "paulista-basketball"
-    ],
-    "seoTitle": "Corinthians vence Pinheiros por 88 a 70 em Paulista Basketball",
-    "seoDescription": "Corinthians superou Pinheiros por 88 a 70 em Paulista Basketball.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T01:13:53.879Z",
-    "createdAt": "2026-08-13T01:13:53.879Z",
-    "updatedAt": "2026-08-13T01:13:53.879Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808374",
-      "eventStartTime": "2026-08-12T23:00:00+00:00",
-      "retrievedAt": "2026-08-13T01:13:53.879Z",
-      "feedId": "basquete",
-      "league": "Paulista Basketball"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4472643228fa",
-    "slug": "efc-conchali-e-laja-historico-ficam-no-0-a-0-pelo-tercera-division-b-447264",
-    "sportId": "futebol",
-    "title": "EFC Conchalí e Laja Histórico ficam no 0 a 0 pelo Tercera División B",
-    "summary": "EFC Conchalí e Laja Histórico empataram por 0 a 0 pelo Tercera División B.",
-    "content": "EFC Conchalí e Laja Histórico empataram por 0 a 0 pelo Tercera División B, em 12 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "tercera-division-b"
-    ],
-    "seoTitle": "EFC Conchalí e Laja Histórico ficam no 0 a 0 pelo Tercera División B",
-    "seoDescription": "EFC Conchalí e Laja Histórico empataram por 0 a 0 pelo Tercera División B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T01:13:53.875Z",
-    "createdAt": "2026-08-13T01:13:53.875Z",
-    "updatedAt": "2026-08-13T01:13:53.875Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808451",
-      "eventStartTime": "2026-08-13T01:00:00+00:00",
-      "retrievedAt": "2026-08-13T01:13:53.875Z",
-      "feedId": "futebol",
-      "league": "Tercera División B"
     },
     "articleFormat": "result-brief"
   }
