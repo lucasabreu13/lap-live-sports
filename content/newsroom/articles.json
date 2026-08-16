@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-0b7e9819f8ec",
+    "slug": "yomiuri-giants-vence-chunichi-dragons-por-11-a-0-na-npb-0b7e98",
+    "sportId": "beisebol",
+    "title": "Yomiuri Giants vence Chunichi Dragons por 11 a 0 na NPB",
+    "summary": "Yomiuri Giants derrotou Chunichi Dragons por 11 a 0 na NPB.",
+    "content": "Yomiuri Giants derrotou Chunichi Dragons por 11 a 0 na NPB, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Yomiuri Giants vence Chunichi Dragons por 11 a 0 na NPB",
+    "seoDescription": "Yomiuri Giants derrotou Chunichi Dragons por 11 a 0 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T23:32:17.865Z",
+    "createdAt": "2026-08-16T23:32:17.865Z",
+    "updatedAt": "2026-08-16T23:32:17.865Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626514",
+      "eventStartTime": "2026-08-16T04:30:00+00:00",
+      "retrievedAt": "2026-08-16T23:32:17.865Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ef8e350ea2b9",
+    "slug": "eikeri-u-gleason-q-vence-perez-e-schuurs-d-por-2-a-1-em-cincinnati-ef8e35",
+    "sportId": "tenis",
+    "title": "Eikeri U./Gleason Q. vence Perez E./Schuurs D. por 2 a 1 em Cincinnati",
+    "summary": "Eikeri U./Gleason Q. superou Perez E./Schuurs D. por 2 a 1 em Cincinnati.",
+    "content": "Eikeri U./Gleason Q. superou Perez E./Schuurs D. por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Eikeri U./Gleason Q. vence Perez E./Schuurs D. por 2 a 1 em Cincinnati",
+    "seoDescription": "Eikeri U./Gleason Q. superou Perez E./Schuurs D. por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T23:32:17.841Z",
+    "createdAt": "2026-08-16T23:32:17.841Z",
+    "updatedAt": "2026-08-16T23:32:17.841Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815111",
+      "eventStartTime": "2026-08-16T15:11:04+00:00",
+      "retrievedAt": "2026-08-16T23:32:17.841Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-10c1b233b52f",
+    "slug": "deportivo-amambay-vence-deportivo-campoalto-por-82-a-57-em-lnb-10c1b2",
+    "sportId": "basquete",
+    "title": "Deportivo Amambay vence Deportivo Campoalto por 82 a 57 em LNB",
+    "summary": "Deportivo Amambay superou Deportivo Campoalto por 82 a 57 em LNB.",
+    "content": "Deportivo Amambay superou Deportivo Campoalto por 82 a 57 em LNB., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Deportivo Amambay vence Deportivo Campoalto por 82 a 57 em LNB",
+    "seoDescription": "Deportivo Amambay superou Deportivo Campoalto por 82 a 57 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T23:32:17.795Z",
+    "createdAt": "2026-08-16T23:32:17.795Z",
+    "updatedAt": "2026-08-16T23:32:17.795Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809965",
+      "eventStartTime": "2026-08-16T21:30:00+00:00",
+      "retrievedAt": "2026-08-16T23:32:17.795Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b4fb800f011b",
+    "slug": "vitoria-supera-botafogo-por-1-a-0-pelo-serie-a-b4fb80",
+    "sportId": "futebol",
+    "title": "Vitoria supera Botafogo por 1 a 0 pelo Série A",
+    "summary": "Vitoria venceu Botafogo por 1 a 0 pelo Série A.",
+    "content": "Vitoria venceu Botafogo por 1 a 0 pelo Série A, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-a"
+    ],
+    "seoTitle": "Vitoria supera Botafogo por 1 a 0 pelo Série A",
+    "seoDescription": "Vitoria venceu Botafogo por 1 a 0 pelo Série A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T23:32:17.781Z",
+    "createdAt": "2026-08-16T23:32:17.781Z",
+    "updatedAt": "2026-08-16T23:32:17.781Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4632718",
+      "eventStartTime": "2026-08-16T21:30:00+00:00",
+      "retrievedAt": "2026-08-16T23:32:17.781Z",
+      "feedId": "futebol",
+      "league": "Série A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d69cd5d97093",
     "slug": "yakult-swallows-vence-yokohama-baystars-por-2-a-1-na-npb-d69cd5",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-14T18:12:13.864Z",
       "feedId": "tenis",
       "league": "Todi"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-29d826d4b527",
-    "slug": "bergisch-gladbach-e-dortmund-ii-ficam-no-0-a-0-pela-regionalliga-29d826",
-    "sportId": "futebol",
-    "title": "Bergisch Gladbach e Dortmund II ficam no 0 a 0 pela Regionalliga",
-    "summary": "Bergisch Gladbach e Dortmund II empataram por 0 a 0 pela Regionalliga.",
-    "content": "Bergisch Gladbach e Dortmund II empataram por 0 a 0 pela Regionalliga, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "regionalliga"
-    ],
-    "seoTitle": "Bergisch Gladbach e Dortmund II ficam no 0 a 0 pela Regionalliga",
-    "seoDescription": "Bergisch Gladbach e Dortmund II empataram por 0 a 0 pela Regionalliga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T18:12:13.842Z",
-    "createdAt": "2026-08-14T18:12:13.842Z",
-    "updatedAt": "2026-08-14T18:12:13.842Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4769328",
-      "eventStartTime": "2026-08-14T17:30:00+00:00",
-      "retrievedAt": "2026-08-14T18:12:13.842Z",
-      "feedId": "futebol",
-      "league": "Regionalliga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b3e2850bb275",
-    "slug": "marco-cecchinato-vence-juan-bautista-torres-por-2-a-0-em-todi-b3e285",
-    "sportId": "tenis",
-    "title": "Marco Cecchinato vence Juan Bautista Torres por 2 a 0 em Todi",
-    "summary": "Marco Cecchinato superou Juan Bautista Torres por 2 a 0 em Todi.",
-    "content": "Marco Cecchinato superou Juan Bautista Torres por 2 a 0 em Todi., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "todi"
-    ],
-    "seoTitle": "Marco Cecchinato vence Juan Bautista Torres por 2 a 0 em Todi",
-    "seoDescription": "Marco Cecchinato superou Juan Bautista Torres por 2 a 0 em Todi.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T17:23:16.365Z",
-    "createdAt": "2026-08-14T17:23:16.365Z",
-    "updatedAt": "2026-08-14T17:23:16.365Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811296",
-      "eventStartTime": "2026-08-14T15:38:00+00:00",
-      "retrievedAt": "2026-08-14T17:23:16.365Z",
-      "feedId": "tenis",
-      "league": "Todi"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4c16961aea51",
-    "slug": "fk-transinvest-ii-e-atmosfera-ficam-no-0-a-0-pelo-i-lyga-4c1696",
-    "sportId": "futebol",
-    "title": "FK Transinvest II e Atmosfera ficam no 0 a 0 pelo I Lyga",
-    "summary": "FK Transinvest II e Atmosfera empataram por 0 a 0 pelo I Lyga.",
-    "content": "FK Transinvest II e Atmosfera empataram por 0 a 0 pelo I Lyga, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "i-lyga"
-    ],
-    "seoTitle": "FK Transinvest II e Atmosfera ficam no 0 a 0 pelo I Lyga",
-    "seoDescription": "FK Transinvest II e Atmosfera empataram por 0 a 0 pelo I Lyga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T17:23:16.342Z",
-    "createdAt": "2026-08-14T17:23:16.342Z",
-    "updatedAt": "2026-08-14T17:23:16.342Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4750326",
-      "eventStartTime": "2026-08-14T16:00:00+00:00",
-      "retrievedAt": "2026-08-14T17:23:16.342Z",
-      "feedId": "futebol",
-      "league": "I Lyga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-49c523f9d44a",
-    "slug": "elisabetta-cocciaretto-e-lucrezia-stefanini-empatam-por-0-a-0-em-cincinnati-49c523",
-    "sportId": "tenis",
-    "title": "Elisabetta Cocciaretto e Lucrezia Stefanini empatam por 0 a 0 em Cincinnati",
-    "summary": "Elisabetta Cocciaretto e Lucrezia Stefanini terminaram empatados por 0 a 0 em Cincinnati.",
-    "content": "Elisabetta Cocciaretto e Lucrezia Stefanini terminaram empatados por 0 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Elisabetta Cocciaretto e Lucrezia Stefanini empatam por 0 a 0 em",
-    "seoDescription": "Elisabetta Cocciaretto e Lucrezia Stefanini terminaram empatados por 0 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T16:22:20.210Z",
-    "createdAt": "2026-08-14T16:22:20.210Z",
-    "updatedAt": "2026-08-14T16:22:20.210Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813453",
-      "eventStartTime": "2026-08-14T15:13:59+00:00",
-      "retrievedAt": "2026-08-14T16:22:20.210Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
