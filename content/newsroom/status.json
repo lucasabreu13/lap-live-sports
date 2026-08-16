@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-08-16T19:32:41.034Z",
-  "commit": "f956ba55ffad826e6c4267de7c6077c794c43425",
-  "runId": "31967870095",
+  "validatedAt": "2026-08-16T19:52:14.052Z",
+  "commit": "c14ce31b028cea4348c45185ed29a87963f4c7ba",
+  "runId": "31968846807",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -20,14 +20,14 @@
     "curatedArticles": 25,
     "curatedFiles": 5,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-08-16T19:32:40.640Z",
+    "lastPublishedAt": "2026-08-16T19:52:13.640Z",
     "lastPublishedBySport": {
-      "futebol": "2026-08-16T19:32:40.623Z",
+      "futebol": "2026-08-16T19:52:13.608Z",
       "futebol-americano": "2026-08-16T03:10:52.899Z",
-      "tenis": "2026-08-16T19:32:40.640Z",
+      "tenis": "2026-08-16T19:52:13.640Z",
       "ciclismo": null,
       "formula1": null,
-      "basquete": "2026-08-16T19:32:40.637Z",
+      "basquete": "2026-08-16T19:52:13.632Z",
       "beisebol": "2026-08-16T08:28:34.154Z",
       "golfe": null,
       "surfe": null
@@ -40,17 +40,17 @@
         "futebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-16T19:32:40.623Z"
+          "lastPublishedAt": "2026-08-16T19:52:13.608Z"
         },
         "futebol-americano": {
           "status": "warning",
-          "ageHours": 16.4,
+          "ageHours": 16.7,
           "lastPublishedAt": "2026-08-16T03:10:52.899Z"
         },
         "tenis": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-16T19:32:40.640Z"
+          "lastPublishedAt": "2026-08-16T19:52:13.640Z"
         },
         "ciclismo": {
           "status": "critical",
@@ -65,11 +65,11 @@
         "basquete": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-16T19:32:40.637Z"
+          "lastPublishedAt": "2026-08-16T19:52:13.632Z"
         },
         "beisebol": {
           "status": "ok",
-          "ageHours": 11.1,
+          "ageHours": 11.4,
           "lastPublishedAt": "2026-08-16T08:28:34.154Z"
         },
         "golfe": {

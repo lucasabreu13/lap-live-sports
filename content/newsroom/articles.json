@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-49442ab0047a",
+    "slug": "felix-auger-aliassime-vence-stefanos-tsitsipas-por-2-a-0-em-cincinnati-49442a",
+    "sportId": "tenis",
+    "title": "Felix Auger Aliassime vence Stefanos Tsitsipas por 2 a 0 em Cincinnati",
+    "summary": "Felix Auger Aliassime superou Stefanos Tsitsipas por 2 a 0 em Cincinnati.",
+    "content": "Felix Auger Aliassime superou Stefanos Tsitsipas por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Felix Auger Aliassime vence Stefanos Tsitsipas por 2 a 0 em Cincinnati",
+    "seoDescription": "Felix Auger Aliassime superou Stefanos Tsitsipas por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T19:52:13.640Z",
+    "createdAt": "2026-08-16T19:52:13.640Z",
+    "updatedAt": "2026-08-16T19:52:13.640Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814956",
+      "eventStartTime": "2026-08-16T17:23:33+00:00",
+      "retrievedAt": "2026-08-16T19:52:13.640Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ab39716027e5",
+    "slug": "puente-alto-vence-universidad-catolica-por-80-a-67-em-lnb-ab3971",
+    "sportId": "basquete",
+    "title": "Puente Alto vence Universidad Católica por 80 a 67 em LNB",
+    "summary": "Puente Alto superou Universidad Católica por 80 a 67 em LNB.",
+    "content": "Puente Alto superou Universidad Católica por 80 a 67 em LNB., em 15 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Puente Alto vence Universidad Católica por 80 a 67 em LNB",
+    "seoDescription": "Puente Alto superou Universidad Católica por 80 a 67 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T19:52:13.632Z",
+    "createdAt": "2026-08-16T19:52:13.632Z",
+    "updatedAt": "2026-08-16T19:52:13.632Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807331",
+      "eventStartTime": "2026-08-16T00:00:00+00:00",
+      "retrievedAt": "2026-08-16T19:52:13.632Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ef8ad218bf4b",
+    "slug": "club-lujan-supera-ca-lugano-por-2-a-1-pelo-primera-c-ef8ad2",
+    "sportId": "futebol",
+    "title": "Club Luján supera CA Lugano por 2 a 1 pelo Primera C",
+    "summary": "Club Luján venceu CA Lugano por 2 a 1 pelo Primera C.",
+    "content": "Club Luján venceu CA Lugano por 2 a 1 pelo Primera C, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-c"
+    ],
+    "seoTitle": "Club Luján supera CA Lugano por 2 a 1 pelo Primera C",
+    "seoDescription": "Club Luján venceu CA Lugano por 2 a 1 pelo Primera C.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T19:52:13.608Z",
+    "createdAt": "2026-08-16T19:52:13.608Z",
+    "updatedAt": "2026-08-16T19:52:13.608Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4639532",
+      "eventStartTime": "2026-08-16T18:00:00+00:00",
+      "retrievedAt": "2026-08-16T19:52:13.608Z",
+      "feedId": "futebol",
+      "league": "Primera C"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4aff8872f8a4",
     "slug": "roger-pascual-ferra-e-mario-gonzalez-fernandez-empatam-por-0-a-0-em-kingston-4aff88",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-14T07:06:23.773Z",
       "feedId": "basquete",
       "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4fb11c586057",
-    "slug": "arizona-cardinals-vence-las-vegas-raiders-por-27-a-14-em-nfl-4fb11c",
-    "sportId": "futebol-americano",
-    "title": "Arizona Cardinals vence Las Vegas Raiders por 27 a 14 em NFL",
-    "summary": "Arizona Cardinals superou Las Vegas Raiders por 27 a 14 em NFL.",
-    "content": "Arizona Cardinals superou Las Vegas Raiders por 27 a 14 em NFL., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "Arizona Cardinals vence Las Vegas Raiders por 27 a 14 em NFL",
-    "seoDescription": "Arizona Cardinals superou Las Vegas Raiders por 27 a 14 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T07:06:23.758Z",
-    "createdAt": "2026-08-14T07:06:23.758Z",
-    "updatedAt": "2026-08-14T07:06:23.758Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714912",
-      "eventStartTime": "2026-08-14T00:00:00+00:00",
-      "retrievedAt": "2026-08-14T07:06:23.758Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1ecae206bb13",
-    "slug": "alebrijes-supera-tepatitlan-de-morelos-por-1-a-0-pela-liga-de-expansion-1ecae2",
-    "sportId": "futebol",
-    "title": "Alebrijes supera Tepatitlán de Morelos por 1 a 0 pela Liga de Expansión",
-    "summary": "Alebrijes venceu Tepatitlán de Morelos por 1 a 0 pela Liga de Expansión.",
-    "content": "Alebrijes venceu Tepatitlán de Morelos por 1 a 0 pela Liga de Expansión, em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-de-expansion"
-    ],
-    "seoTitle": "Alebrijes supera Tepatitlán de Morelos por 1 a 0 pela Liga de",
-    "seoDescription": "Alebrijes venceu Tepatitlán de Morelos por 1 a 0 pela Liga de Expansión.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T07:06:23.754Z",
-    "createdAt": "2026-08-14T07:06:23.754Z",
-    "updatedAt": "2026-08-14T07:06:23.754Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4761065",
-      "eventStartTime": "2026-08-14T01:00:00+00:00",
-      "retrievedAt": "2026-08-14T07:06:23.754Z",
-      "feedId": "futebol",
-      "league": "Liga de Expansión"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ae7c1787aef6",
-    "slug": "catherine-mcnally-vence-mccartney-kessler-por-2-a-0-em-cincinnati-ae7c17",
-    "sportId": "tenis",
-    "title": "Catherine Mcnally vence Mccartney Kessler por 2 a 0 em Cincinnati",
-    "summary": "Catherine Mcnally superou Mccartney Kessler por 2 a 0 em Cincinnati.",
-    "content": "Catherine Mcnally superou Mccartney Kessler por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Catherine Mcnally vence Mccartney Kessler por 2 a 0 em Cincinnati",
-    "seoDescription": "Catherine Mcnally superou Mccartney Kessler por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T05:53:49.135Z",
-    "createdAt": "2026-08-14T05:53:49.135Z",
-    "updatedAt": "2026-08-14T05:53:49.135Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809659",
-      "eventStartTime": "2026-08-14T03:22:46+00:00",
-      "retrievedAt": "2026-08-14T05:53:49.135Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
