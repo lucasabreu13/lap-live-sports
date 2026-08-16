@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-449623610ee6",
+    "slug": "ali-habib-e-oscar-weightman-empatam-por-0-a-0-em-roehampton-449623",
+    "sportId": "tenis",
+    "title": "Ali Habib e Oscar Weightman empatam por 0 a 0 em Roehampton",
+    "summary": "Ali Habib e Oscar Weightman terminaram empatados por 0 a 0 em Roehampton.",
+    "content": "Ali Habib e Oscar Weightman terminaram empatados por 0 a 0 em Roehampton., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Ali Habib e Oscar Weightman empatam por 0 a 0 em Roehampton",
+    "seoDescription": "Ali Habib e Oscar Weightman terminaram empatados por 0 a 0 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T14:45:22.467Z",
+    "createdAt": "2026-08-16T14:45:22.467Z",
+    "updatedAt": "2026-08-16T14:45:22.467Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815615",
+      "eventStartTime": "2026-08-16T14:45:00+00:00",
+      "retrievedAt": "2026-08-16T14:45:22.467Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e40173a92f9f",
+    "slug": "sardarapat-fc-e-pyunik-yerevan-ficam-no-0-a-0-pela-premier-league-e40173",
+    "sportId": "futebol",
+    "title": "Sardarapat FC e Pyunik Yerevan ficam no 0 a 0 pela Premier League",
+    "summary": "Sardarapat FC e Pyunik Yerevan empataram por 0 a 0 pela Premier League.",
+    "content": "Sardarapat FC e Pyunik Yerevan empataram por 0 a 0 pela Premier League, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "premier-league"
+    ],
+    "seoTitle": "Sardarapat FC e Pyunik Yerevan ficam no 0 a 0 pela Premier League",
+    "seoDescription": "Sardarapat FC e Pyunik Yerevan empataram por 0 a 0 pela Premier League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-16T14:45:22.434Z",
+    "createdAt": "2026-08-16T14:45:22.434Z",
+    "updatedAt": "2026-08-16T14:45:22.434Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4759621",
+      "eventStartTime": "2026-08-16T14:30:00+00:00",
+      "retrievedAt": "2026-08-16T14:45:22.434Z",
+      "feedId": "futebol",
+      "league": "Premier League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-02326ad2f32d",
     "slug": "patrick-brady-vence-jesse-delaney-por-2-a-0-em-roehampton-02326a",
     "sportId": "tenis",
@@ -12524,90 +12608,6 @@
       "retrievedAt": "2026-08-13T18:34:31.666Z",
       "feedId": "futebol",
       "league": "Conference League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-08b23a507f8c",
-    "slug": "rei-sakamoto-vence-dhakshineswar-suresh-por-2-a-0-em-brownsburg-08b23a",
-    "sportId": "tenis",
-    "title": "Rei Sakamoto vence Dhakshineswar Suresh por 2 a 0 em Brownsburg",
-    "summary": "Rei Sakamoto superou Dhakshineswar Suresh por 2 a 0 em Brownsburg.",
-    "content": "Rei Sakamoto superou Dhakshineswar Suresh por 2 a 0 em Brownsburg., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Rei Sakamoto vence Dhakshineswar Suresh por 2 a 0 em Brownsburg",
-    "seoDescription": "Rei Sakamoto superou Dhakshineswar Suresh por 2 a 0 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T17:38:58.782Z",
-    "createdAt": "2026-08-13T17:38:58.782Z",
-    "updatedAt": "2026-08-13T17:38:58.782Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811612",
-      "eventStartTime": "2026-08-13T15:42:40+00:00",
-      "retrievedAt": "2026-08-13T17:38:58.782Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9044bf94fab7",
-    "slug": "union-magdalena-e-independiente-santa-fe-ficam-no-0-a-0-pela-copa-colombia-9044bf",
-    "sportId": "futebol",
-    "title": "Union Magdalena e Independiente Santa Fe ficam no 0 a 0 pela Copa Colombia",
-    "summary": "Union Magdalena e Independiente Santa Fe empataram por 0 a 0 pela Copa Colombia.",
-    "content": "Union Magdalena e Independiente Santa Fe empataram por 0 a 0 pela Copa Colombia, em 13 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-colombia"
-    ],
-    "seoTitle": "Union Magdalena e Independiente Santa Fe ficam no 0 a 0 pela Copa",
-    "seoDescription": "Union Magdalena e Independiente Santa Fe empataram por 0 a 0 pela Copa Colombia.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-13T17:38:58.763Z",
-    "createdAt": "2026-08-13T17:38:58.763Z",
-    "updatedAt": "2026-08-13T17:38:58.763Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4713982",
-      "eventStartTime": "2026-08-13T17:00:00+00:00",
-      "retrievedAt": "2026-08-13T17:38:58.763Z",
-      "feedId": "futebol",
-      "league": "Copa Colombia"
     },
     "articleFormat": "result-brief"
   }
