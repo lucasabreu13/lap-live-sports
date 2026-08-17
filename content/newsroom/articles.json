@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-1711e00fe32e",
+    "slug": "colorado-rockies-vence-san-francisco-giants-por-13-a-7-na-mlb-1711e0",
+    "sportId": "beisebol",
+    "title": "Colorado Rockies vence San Francisco Giants por 13 a 7 na MLB",
+    "summary": "Colorado Rockies derrotou San Francisco Giants por 13 a 7 na MLB.",
+    "content": "Colorado Rockies derrotou San Francisco Giants por 13 a 7 na MLB, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Colorado Rockies vence San Francisco Giants por 13 a 7 na MLB",
+    "seoDescription": "Colorado Rockies derrotou San Francisco Giants por 13 a 7 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T11:46:34.095Z",
+    "createdAt": "2026-08-17T11:46:34.095Z",
+    "updatedAt": "2026-08-17T11:46:34.095Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614605",
+      "eventStartTime": "2026-08-16T20:05:00+00:00",
+      "retrievedAt": "2026-08-17T11:46:34.095Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2d6fea6d1146",
+    "slug": "peter-makk-vence-marcus-walters-por-2-a-0-em-roehampton-2d6fea",
+    "sportId": "tenis",
+    "title": "Peter Makk vence Marcus Walters por 2 a 0 em Roehampton",
+    "summary": "Peter Makk superou Marcus Walters por 2 a 0 em Roehampton.",
+    "content": "Peter Makk superou Marcus Walters por 2 a 0 em Roehampton., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Peter Makk vence Marcus Walters por 2 a 0 em Roehampton",
+    "seoDescription": "Peter Makk superou Marcus Walters por 2 a 0 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T11:46:34.089Z",
+    "createdAt": "2026-08-17T11:46:34.089Z",
+    "updatedAt": "2026-08-17T11:46:34.089Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815881",
+      "eventStartTime": "2026-08-17T10:06:16+00:00",
+      "retrievedAt": "2026-08-17T11:46:34.089Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-a69ba2f473ca",
+    "slug": "al-khalidiyah-e-qadisiya-kuwait-ficam-no-0-a-0-pelo-club-friendlies-a69ba2",
+    "sportId": "futebol",
+    "title": "Al Khalidiyah e Qadisiya Kuwait ficam no 0 a 0 pelo Club Friendlies",
+    "summary": "Al Khalidiyah e Qadisiya Kuwait empataram por 0 a 0 pelo Club Friendlies.",
+    "content": "Al Khalidiyah e Qadisiya Kuwait empataram por 0 a 0 pelo Club Friendlies, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Al Khalidiyah e Qadisiya Kuwait ficam no 0 a 0 pelo Club Friendlies",
+    "seoDescription": "Al Khalidiyah e Qadisiya Kuwait empataram por 0 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T11:46:34.048Z",
+    "createdAt": "2026-08-17T11:46:34.048Z",
+    "updatedAt": "2026-08-17T11:46:34.048Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808455",
+      "eventStartTime": "2026-08-17T11:00:00+00:00",
+      "retrievedAt": "2026-08-17T11:46:34.048Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-591551318382",
     "slug": "san-diego-padres-vence-cleveland-guardians-por-5-a-0-na-mlb-591551",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-15T05:42:14.690Z",
       "feedId": "futebol",
       "league": "Liga de Expansión"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ef0891091be8",
-    "slug": "new-york-mets-vence-washington-nationals-por-4-a-1-na-mlb-ef0891",
-    "sportId": "beisebol",
-    "title": "New York Mets vence Washington Nationals por 4 a 1 na MLB",
-    "summary": "New York Mets derrotou Washington Nationals por 4 a 1 na MLB.",
-    "content": "New York Mets derrotou Washington Nationals por 4 a 1 na MLB, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "New York Mets vence Washington Nationals por 4 a 1 na MLB",
-    "seoDescription": "New York Mets derrotou Washington Nationals por 4 a 1 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T05:15:23.802Z",
-    "createdAt": "2026-08-15T05:15:23.802Z",
-    "updatedAt": "2026-08-15T05:15:23.802Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602910",
-      "eventStartTime": "2026-08-14T23:10:00+00:00",
-      "retrievedAt": "2026-08-15T05:15:23.802Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ad84ba2c2e00",
-    "slug": "daniel-merida-aguilar-vence-marin-cilic-por-2-a-1-em-cincinnati-ad84ba",
-    "sportId": "tenis",
-    "title": "Daniel Merida Aguilar vence Marin Cilic por 2 a 1 em Cincinnati",
-    "summary": "Daniel Merida Aguilar superou Marin Cilic por 2 a 1 em Cincinnati.",
-    "content": "Daniel Merida Aguilar superou Marin Cilic por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Daniel Merida Aguilar vence Marin Cilic por 2 a 1 em Cincinnati",
-    "seoDescription": "Daniel Merida Aguilar superou Marin Cilic por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T05:15:23.791Z",
-    "createdAt": "2026-08-15T05:15:23.791Z",
-    "updatedAt": "2026-08-15T05:15:23.791Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809625",
-      "eventStartTime": "2026-08-14T22:21:46+00:00",
-      "retrievedAt": "2026-08-15T05:15:23.791Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ee0c805b8340",
-    "slug": "eastern-suburbs-supera-bay-olympic-por-5-a-1-pelo-national-league-ee0c80",
-    "sportId": "futebol",
-    "title": "Eastern Suburbs supera Bay Olympic por 5 a 1 pelo National League",
-    "summary": "Eastern Suburbs venceu Bay Olympic por 5 a 1 pelo National League.",
-    "content": "Eastern Suburbs venceu Bay Olympic por 5 a 1 pelo National League, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "national-league"
-    ],
-    "seoTitle": "Eastern Suburbs supera Bay Olympic por 5 a 1 pelo National League",
-    "seoDescription": "Eastern Suburbs venceu Bay Olympic por 5 a 1 pelo National League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T05:15:23.749Z",
-    "createdAt": "2026-08-15T05:15:23.749Z",
-    "updatedAt": "2026-08-15T05:15:23.749Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4678288",
-      "eventStartTime": "2026-08-15T03:00:00+00:00",
-      "retrievedAt": "2026-08-15T05:15:23.749Z",
-      "feedId": "futebol",
-      "league": "National League"
     },
     "articleFormat": "result-brief"
   }
