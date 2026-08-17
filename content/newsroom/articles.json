@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-d491c1dcdfcf",
+    "slug": "dabrowski-g-krejcikova-b-vence-bucsa-c-melichar-martinez-n-por-2-a-1-em-cincinnati-d491c1",
+    "sportId": "tenis",
+    "title": "Dabrowski G./Krejcikova B. vence Bucsa C./Melichar-Martinez N. por 2 a 1 em Cincinnati",
+    "summary": "Dabrowski G./Krejcikova B. superou Bucsa C./Melichar-Martinez N. por 2 a 1 em Cincinnati.",
+    "content": "Dabrowski G./Krejcikova B. superou Bucsa C./Melichar-Martinez N. por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Dabrowski G./Krejcikova B. vence Bucsa C./Melichar-Martinez N. por 2 a",
+    "seoDescription": "Dabrowski G./Krejcikova B. superou Bucsa C./Melichar-Martinez N. por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T16:52:19.868Z",
+    "createdAt": "2026-08-17T16:52:19.868Z",
+    "updatedAt": "2026-08-17T16:52:19.868Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815639",
+      "eventStartTime": "2026-08-17T15:10:19+00:00",
+      "retrievedAt": "2026-08-17T16:52:19.868Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-03d0500a7541",
+    "slug": "slovan-bratislava-b-supera-humenne-por-3-a-0-pela-2-liga-03d050",
+    "sportId": "futebol",
+    "title": "Slovan Bratislava B supera Humenne por 3 a 0 pela 2. Liga",
+    "summary": "Slovan Bratislava B venceu Humenne por 3 a 0 pela 2. Liga.",
+    "content": "Slovan Bratislava B venceu Humenne por 3 a 0 pela 2. Liga, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "2-liga"
+    ],
+    "seoTitle": "Slovan Bratislava B supera Humenne por 3 a 0 pela 2. Liga",
+    "seoDescription": "Slovan Bratislava B venceu Humenne por 3 a 0 pela 2. Liga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T16:52:19.833Z",
+    "createdAt": "2026-08-17T16:52:19.833Z",
+    "updatedAt": "2026-08-17T16:52:19.833Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4744759",
+      "eventStartTime": "2026-08-17T15:00:00+00:00",
+      "retrievedAt": "2026-08-17T16:52:19.833Z",
+      "feedId": "futebol",
+      "league": "2. Liga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d874b084f95d",
     "slug": "mark-ceban-vence-anton-shepp-por-2-a-0-em-roehampton-d874b0",
     "sportId": "tenis",
@@ -12510,90 +12594,6 @@
       "eventId": "365-4813446",
       "eventStartTime": "2026-08-14T17:47:28+00:00",
       "retrievedAt": "2026-08-15T09:57:25.074Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-dc9b818d3358",
-    "slug": "fcm-resita-supera-stefanesti-por-2-a-0-pela-liga-2-dc9b81",
-    "sportId": "futebol",
-    "title": "FCM Resita supera Ştefăneşti por 2 a 0 pela Liga 2",
-    "summary": "FCM Resita venceu Ştefăneşti por 2 a 0 pela Liga 2.",
-    "content": "FCM Resita venceu Ştefăneşti por 2 a 0 pela Liga 2, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-2"
-    ],
-    "seoTitle": "FCM Resita supera Ştefăneşti por 2 a 0 pela Liga 2",
-    "seoDescription": "FCM Resita venceu Ştefăneşti por 2 a 0 pela Liga 2.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T09:57:25.006Z",
-    "createdAt": "2026-08-15T09:57:25.006Z",
-    "updatedAt": "2026-08-15T09:57:25.006Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4784728",
-      "eventStartTime": "2026-08-15T08:00:00+00:00",
-      "retrievedAt": "2026-08-15T09:57:25.006Z",
-      "feedId": "futebol",
-      "league": "Liga 2"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-177f6b814a40",
-    "slug": "christopher-o-connell-vence-kamil-majchrzak-por-2-a-0-em-cincinnati-177f6b",
-    "sportId": "tenis",
-    "title": "Christopher O'Connell vence Kamil Majchrzak por 2 a 0 em Cincinnati",
-    "summary": "Christopher O'Connell superou Kamil Majchrzak por 2 a 0 em Cincinnati.",
-    "content": "Christopher O'Connell superou Kamil Majchrzak por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Christopher O'Connell vence Kamil Majchrzak por 2 a 0 em Cincinnati",
-    "seoDescription": "Christopher O'Connell superou Kamil Majchrzak por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T09:42:11.053Z",
-    "createdAt": "2026-08-15T09:42:11.053Z",
-    "updatedAt": "2026-08-15T09:42:11.053Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813398",
-      "eventStartTime": "2026-08-14T18:38:03+00:00",
-      "retrievedAt": "2026-08-15T09:42:11.053Z",
       "feedId": "tenis",
       "league": "Cincinnati"
     },
