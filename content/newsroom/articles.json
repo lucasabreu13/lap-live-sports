@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-79de2677fe68",
+    "slug": "arthur-fery-e-alex-de-minaur-empatam-por-0-a-0-em-cincinnati-79de26",
+    "sportId": "tenis",
+    "title": "Arthur Fery e Alex De Minaur empatam por 0 a 0 em Cincinnati",
+    "summary": "Arthur Fery e Alex De Minaur terminaram empatados por 0 a 0 em Cincinnati.",
+    "content": "Arthur Fery e Alex De Minaur terminaram empatados por 0 a 0 em Cincinnati., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Arthur Fery e Alex De Minaur empatam por 0 a 0 em Cincinnati",
+    "seoDescription": "Arthur Fery e Alex De Minaur terminaram empatados por 0 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T18:21:26.494Z",
+    "createdAt": "2026-08-17T18:21:26.494Z",
+    "updatedAt": "2026-08-17T18:21:26.494Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815434",
+      "eventStartTime": "2026-08-17T18:03:01+00:00",
+      "retrievedAt": "2026-08-17T18:21:26.494Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-74ba55e16377",
+    "slug": "cerro-largo-fc-reserves-e-ca-progreso-reserves-ficam-no-0-a-0-pelo-reserve-league-74ba55",
+    "sportId": "futebol",
+    "title": "Cerro Largo Fc (Reserves) e Ca Progreso (Reserves) ficam no 0 a 0 pelo Reserve League",
+    "summary": "Cerro Largo Fc (Reserves) e Ca Progreso (Reserves) empataram por 0 a 0 pelo Reserve League.",
+    "content": "Cerro Largo Fc (Reserves) e Ca Progreso (Reserves) empataram por 0 a 0 pelo Reserve League, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "reserve-league"
+    ],
+    "seoTitle": "Cerro Largo Fc (Reserves) e Ca Progreso (Reserves) ficam no 0 a 0 pelo",
+    "seoDescription": "Cerro Largo Fc (Reserves) e Ca Progreso (Reserves) empataram por 0 a 0 pelo Reserve League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T18:21:26.463Z",
+    "createdAt": "2026-08-17T18:21:26.463Z",
+    "updatedAt": "2026-08-17T18:21:26.463Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811838",
+      "eventStartTime": "2026-08-17T18:00:00+00:00",
+      "retrievedAt": "2026-08-17T18:21:26.463Z",
+      "feedId": "futebol",
+      "league": "Reserve League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-c302b41bdfed",
     "slug": "juan-bautista-torres-vence-marek-gengel-por-2-a-1-em-prague-c302b4",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T10:59:31.248Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-77dd71063242",
-    "slug": "mito-hollyhock-e-gamba-osaka-ficam-no-1-a-1-pelo-j1-league-77dd71",
-    "sportId": "futebol",
-    "title": "Mito Hollyhock e Gamba Osaka ficam no 1 a 1 pelo J1 League",
-    "summary": "Mito Hollyhock e Gamba Osaka empataram por 1 a 1 pelo J1 League.",
-    "content": "Mito Hollyhock e Gamba Osaka empataram por 1 a 1 pelo J1 League, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "j1-league"
-    ],
-    "seoTitle": "Mito Hollyhock e Gamba Osaka ficam no 1 a 1 pelo J1 League",
-    "seoDescription": "Mito Hollyhock e Gamba Osaka empataram por 1 a 1 pelo J1 League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T10:59:31.186Z",
-    "createdAt": "2026-08-15T10:59:31.186Z",
-    "updatedAt": "2026-08-15T10:59:31.186Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4739698",
-      "eventStartTime": "2026-08-15T09:00:00+00:00",
-      "retrievedAt": "2026-08-15T10:59:31.186Z",
-      "feedId": "futebol",
-      "league": "J1 League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0955bdd02416",
-    "slug": "daniel-milavsky-vence-rei-sakamoto-por-2-a-0-em-brownsburg-0955bd",
-    "sportId": "tenis",
-    "title": "Daniel Milavsky vence Rei Sakamoto por 2 a 0 em Brownsburg",
-    "summary": "Daniel Milavsky superou Rei Sakamoto por 2 a 0 em Brownsburg.",
-    "content": "Daniel Milavsky superou Rei Sakamoto por 2 a 0 em Brownsburg., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Daniel Milavsky vence Rei Sakamoto por 2 a 0 em Brownsburg",
-    "seoDescription": "Daniel Milavsky superou Rei Sakamoto por 2 a 0 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T10:44:45.322Z",
-    "createdAt": "2026-08-15T10:44:45.322Z",
-    "updatedAt": "2026-08-15T10:44:45.322Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4812257",
-      "eventStartTime": "2026-08-14T17:09:57+00:00",
-      "retrievedAt": "2026-08-15T10:44:45.322Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
     },
     "articleFormat": "result-brief"
   }
