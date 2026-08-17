@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-7e0ece591f0c",
+    "slug": "seattle-mariners-vence-houston-astros-por-3-a-2-na-mlb-7e0ece",
+    "sportId": "beisebol",
+    "title": "Seattle Mariners vence Houston Astros por 3 a 2 na MLB",
+    "summary": "Seattle Mariners derrotou Houston Astros por 3 a 2 na MLB.",
+    "content": "Seattle Mariners derrotou Houston Astros por 3 a 2 na MLB, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Seattle Mariners vence Houston Astros por 3 a 2 na MLB",
+    "seoDescription": "Seattle Mariners derrotou Houston Astros por 3 a 2 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T10:53:45.373Z",
+    "createdAt": "2026-08-17T10:53:45.373Z",
+    "updatedAt": "2026-08-17T10:53:45.373Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614880",
+      "eventStartTime": "2026-08-16T23:20:00+00:00",
+      "retrievedAt": "2026-08-17T10:53:45.373Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-cd726b9647b2",
+    "slug": "gerard-campana-lee-e-theo-papamalamis-empatam-por-0-a-0-em-sion-cd726b",
+    "sportId": "tenis",
+    "title": "Gerard Campana Lee e Theo Papamalamis empatam por 0 a 0 em Sion",
+    "summary": "Gerard Campana Lee e Theo Papamalamis terminaram empatados por 0 a 0 em Sion.",
+    "content": "Gerard Campana Lee e Theo Papamalamis terminaram empatados por 0 a 0 em Sion., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Gerard Campana Lee e Theo Papamalamis empatam por 0 a 0 em Sion",
+    "seoDescription": "Gerard Campana Lee e Theo Papamalamis terminaram empatados por 0 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T10:53:45.368Z",
+    "createdAt": "2026-08-17T10:53:45.368Z",
+    "updatedAt": "2026-08-17T10:53:45.368Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815635",
+      "eventStartTime": "2026-08-17T08:08:32+00:00",
+      "retrievedAt": "2026-08-17T10:53:45.368Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5d36f7904c1d",
+    "slug": "unan-managua-supera-jalapa-art-por-2-a-1-pelo-first-division-5d36f7",
+    "sportId": "futebol",
+    "title": "UNAN Managua supera Jalapa Art por 2 a 1 pelo First Division",
+    "summary": "UNAN Managua venceu Jalapa Art por 2 a 1 pelo First Division.",
+    "content": "UNAN Managua venceu Jalapa Art por 2 a 1 pelo First Division, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "first-division"
+    ],
+    "seoTitle": "UNAN Managua supera Jalapa Art por 2 a 1 pelo First Division",
+    "seoDescription": "UNAN Managua venceu Jalapa Art por 2 a 1 pelo First Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T10:53:45.320Z",
+    "createdAt": "2026-08-17T10:53:45.320Z",
+    "updatedAt": "2026-08-17T10:53:45.320Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4763055",
+      "eventStartTime": "2026-08-17T00:00:00+00:00",
+      "retrievedAt": "2026-08-17T10:53:45.320Z",
+      "feedId": "futebol",
+      "league": "First Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7c44980118cf",
     "slug": "alex-marti-pujolras-vence-lorenzo-bocchi-por-2-a-0-em-sion-7c4498",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-15T04:54:14.407Z",
       "feedId": "futebol",
       "league": "National League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f9e28d3eaa1c",
-    "slug": "san-diego-padres-vence-cleveland-guardians-por-7-a-5-na-mlb-f9e28d",
-    "sportId": "beisebol",
-    "title": "San Diego Padres vence Cleveland Guardians por 7 a 5 na MLB",
-    "summary": "San Diego Padres derrotou Cleveland Guardians por 7 a 5 na MLB.",
-    "content": "San Diego Padres derrotou Cleveland Guardians por 7 a 5 na MLB, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "San Diego Padres vence Cleveland Guardians por 7 a 5 na MLB",
-    "seoDescription": "San Diego Padres derrotou Cleveland Guardians por 7 a 5 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T04:19:02.637Z",
-    "createdAt": "2026-08-15T04:19:02.637Z",
-    "updatedAt": "2026-08-15T04:19:02.637Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602888",
-      "eventStartTime": "2026-08-14T23:10:00+00:00",
-      "retrievedAt": "2026-08-15T04:19:02.637Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-caf9a703bbe9",
-    "slug": "sofia-kenin-vence-eva-lys-por-2-a-1-em-cincinnati-caf9a7",
-    "sportId": "tenis",
-    "title": "Sofia Kenin vence Eva Lys por 2 a 1 em Cincinnati",
-    "summary": "Sofia Kenin superou Eva Lys por 2 a 1 em Cincinnati.",
-    "content": "Sofia Kenin superou Eva Lys por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Sofia Kenin vence Eva Lys por 2 a 1 em Cincinnati",
-    "seoDescription": "Sofia Kenin superou Eva Lys por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T04:19:02.632Z",
-    "createdAt": "2026-08-15T04:19:02.632Z",
-    "updatedAt": "2026-08-15T04:19:02.632Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813638",
-      "eventStartTime": "2026-08-15T00:51:15+00:00",
-      "retrievedAt": "2026-08-15T04:19:02.632Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-450243936803",
-    "slug": "seattle-reign-supera-chicago-stars-fc-por-1-a-0-pelo-nwsl-450243",
-    "sportId": "futebol",
-    "title": "Seattle Reign supera Chicago Stars FC por 1 a 0 pelo NWSL",
-    "summary": "Seattle Reign venceu Chicago Stars FC por 1 a 0 pelo NWSL.",
-    "content": "Seattle Reign venceu Chicago Stars FC por 1 a 0 pelo NWSL, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "nwsl"
-    ],
-    "seoTitle": "Seattle Reign supera Chicago Stars FC por 1 a 0 pelo NWSL",
-    "seoDescription": "Seattle Reign venceu Chicago Stars FC por 1 a 0 pelo NWSL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T04:19:02.597Z",
-    "createdAt": "2026-08-15T04:19:02.597Z",
-    "updatedAt": "2026-08-15T04:19:02.597Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4653911",
-      "eventStartTime": "2026-08-15T02:00:00+00:00",
-      "retrievedAt": "2026-08-15T04:19:02.597Z",
-      "feedId": "futebol",
-      "league": "NWSL"
     },
     "articleFormat": "result-brief"
   }
