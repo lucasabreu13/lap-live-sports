@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-7a4f53610f50",
+    "slug": "daniil-medvedev-vence-marco-trungelliti-por-2-a-0-em-cincinnati-7a4f53",
+    "sportId": "tenis",
+    "title": "Daniil Medvedev vence Marco Trungelliti por 2 a 0 em Cincinnati",
+    "summary": "Daniil Medvedev superou Marco Trungelliti por 2 a 0 em Cincinnati.",
+    "content": "Daniil Medvedev superou Marco Trungelliti por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Daniil Medvedev vence Marco Trungelliti por 2 a 0 em Cincinnati",
+    "seoDescription": "Daniil Medvedev superou Marco Trungelliti por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T05:57:02.000Z",
+    "createdAt": "2026-08-17T05:57:02.000Z",
+    "updatedAt": "2026-08-17T05:57:02.000Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815108",
+      "eventStartTime": "2026-08-16T15:11:41+00:00",
+      "retrievedAt": "2026-08-17T05:57:02.000Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e9b2e028e95c",
+    "slug": "st-louis-city-ii-supera-the-town-fc-por-2-a-0-pelo-mls-next-pro-e9b2e0",
+    "sportId": "futebol",
+    "title": "St. Louis City II supera The Town FC por 2 a 0 pela MLS Next Pro",
+    "summary": "St. Louis City II venceu The Town FC por 2 a 0 pela MLS Next Pro.",
+    "content": "St. Louis City II venceu The Town FC por 2 a 0 pela MLS Next Pro, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls-next-pro"
+    ],
+    "seoTitle": "St. Louis City II supera The Town FC por 2 a 0 pela MLS Next Pro",
+    "seoDescription": "St. Louis City II venceu The Town FC por 2 a 0 pela MLS Next Pro.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T05:57:01.929Z",
+    "createdAt": "2026-08-17T05:57:01.929Z",
+    "updatedAt": "2026-08-17T05:57:01.929Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659126",
+      "eventStartTime": "2026-08-17T02:30:00+00:00",
+      "retrievedAt": "2026-08-17T05:57:01.929Z",
+      "feedId": "futebol",
+      "league": "MLS Next Pro"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-34f361b60bff",
     "slug": "xin-yu-wang-vence-donna-vekic-por-2-a-1-em-cincinnati-34f361",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T00:57:26.281Z",
       "feedId": "futebol",
       "league": "First Division"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5dc3a682c930",
-    "slug": "andre-ilagan-vence-tristan-schoolkate-por-2-a-1-em-brownsburg-5dc3a6",
-    "sportId": "tenis",
-    "title": "Andre Ilagan vence Tristan Schoolkate por 2 a 1 em Brownsburg",
-    "summary": "Andre Ilagan superou Tristan Schoolkate por 2 a 1 em Brownsburg.",
-    "content": "Andre Ilagan superou Tristan Schoolkate por 2 a 1 em Brownsburg., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Andre Ilagan vence Tristan Schoolkate por 2 a 1 em Brownsburg",
-    "seoDescription": "Andre Ilagan superou Tristan Schoolkate por 2 a 1 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T23:57:44.986Z",
-    "createdAt": "2026-08-14T23:57:44.986Z",
-    "updatedAt": "2026-08-14T23:57:44.986Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813630",
-      "eventStartTime": "2026-08-14T22:07:05+00:00",
-      "retrievedAt": "2026-08-14T23:57:44.986Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a28e8078ae55",
-    "slug": "osasco-sporting-youth-e-uniao-sao-joao-sp-youth-ficam-no-2-a-2-pelo-paulista-u20-a28e80",
-    "sportId": "futebol",
-    "title": "Osasco Sporting Youth e União São João/SP Youth ficam no 2 a 2 pelo Paulista U20",
-    "summary": "Osasco Sporting Youth e União São João/SP Youth empataram por 2 a 2 pelo Paulista U20.",
-    "content": "Osasco Sporting Youth e União São João/SP Youth empataram por 2 a 2 pelo Paulista U20, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "paulista-u20"
-    ],
-    "seoTitle": "Osasco Sporting Youth e União São João/SP Youth ficam no 2 a 2 pelo",
-    "seoDescription": "Osasco Sporting Youth e União São João/SP Youth empataram por 2 a 2 pelo Paulista U20.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T23:57:44.960Z",
-    "createdAt": "2026-08-14T23:57:44.960Z",
-    "updatedAt": "2026-08-14T23:57:44.960Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4713014",
-      "eventStartTime": "2026-08-14T22:00:00+00:00",
-      "retrievedAt": "2026-08-14T23:57:44.960Z",
-      "feedId": "futebol",
-      "league": "Paulista U20"
     },
     "articleFormat": "result-brief"
   }
