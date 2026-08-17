@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-6b632995d65d",
+    "slug": "felipe-meligeni-vence-luka-pavlovic-por-1-a-0-em-cancun-6b6329",
+    "sportId": "tenis",
+    "title": "Felipe Meligeni vence Luka Pavlovic por 1 a 0 em Cancun",
+    "summary": "Felipe Meligeni superou Luka Pavlovic por 1 a 0 em Cancun.",
+    "content": "Felipe Meligeni superou Luka Pavlovic por 1 a 0 em Cancun., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Felipe Meligeni vence Luka Pavlovic por 1 a 0 em Cancun",
+    "seoDescription": "Felipe Meligeni superou Luka Pavlovic por 1 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T22:58:06.469Z",
+    "createdAt": "2026-08-17T22:58:06.469Z",
+    "updatedAt": "2026-08-17T22:58:06.469Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816164",
+      "eventStartTime": "2026-08-17T21:16:09+00:00",
+      "retrievedAt": "2026-08-17T22:58:06.469Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-049bc7c6218d",
+    "slug": "new-zealand-w-vence-argentina-w-por-57-a-35-em-olympic-qualification-w-049bc7",
+    "sportId": "basquete",
+    "title": "New Zealand (W) vence Argentina (W) por 57 a 35 em Olympic Qualification (W)",
+    "summary": "New Zealand (W) superou Argentina (W) por 57 a 35 em Olympic Qualification (W).",
+    "content": "New Zealand (W) superou Argentina (W) por 57 a 35 em Olympic Qualification (W)., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "olympic-qualification-w"
+    ],
+    "seoTitle": "New Zealand (W) vence Argentina (W) por 57 a 35 em Olympic",
+    "seoDescription": "New Zealand (W) superou Argentina (W) por 57 a 35 em Olympic Qualification (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T22:58:06.465Z",
+    "createdAt": "2026-08-17T22:58:06.465Z",
+    "updatedAt": "2026-08-17T22:58:06.465Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816706",
+      "eventStartTime": "2026-08-17T20:45:00+00:00",
+      "retrievedAt": "2026-08-17T22:58:06.465Z",
+      "feedId": "basquete",
+      "league": "Olympic Qualification (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ad84a30b0953",
+    "slug": "santamarina-tandil-supera-fundacion-amigos-por-el-deporte-por-2-a-0-pelo-federal-a-ad84a3",
+    "sportId": "futebol",
+    "title": "Santamarina Tandil supera Fundación Amigos por el Deporte por 2 a 0 pelo Federal A",
+    "summary": "Santamarina Tandil venceu Fundación Amigos por el Deporte por 2 a 0 pelo Federal A.",
+    "content": "Santamarina Tandil venceu Fundación Amigos por el Deporte por 2 a 0 pelo Federal A, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "federal-a"
+    ],
+    "seoTitle": "Santamarina Tandil supera Fundación Amigos por el Deporte por 2 a 0",
+    "seoDescription": "Santamarina Tandil venceu Fundación Amigos por el Deporte por 2 a 0 pelo Federal A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T22:58:06.461Z",
+    "createdAt": "2026-08-17T22:58:06.461Z",
+    "updatedAt": "2026-08-17T22:58:06.461Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4797233",
+      "eventStartTime": "2026-08-17T21:00:00+00:00",
+      "retrievedAt": "2026-08-17T22:58:06.461Z",
+      "feedId": "futebol",
+      "league": "Federal A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-9307efaba9d8",
     "slug": "igor-marcondes-vence-alvaro-gullien-meza-por-2-a-0-em-kingston-9307ef",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-15T14:59:44.755Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f5048b553eda",
-    "slug": "moyola-park-e-ballinamallard-united-ficam-no-0-a-0-pela-nifl-championship-f5048b",
-    "sportId": "futebol",
-    "title": "Moyola Park e Ballinamallard United ficam no 0 a 0 pela NIFL Championship",
-    "summary": "Moyola Park e Ballinamallard United empataram por 0 a 0 pela NIFL Championship.",
-    "content": "Moyola Park e Ballinamallard United empataram por 0 a 0 pela NIFL Championship, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "nifl-championship"
-    ],
-    "seoTitle": "Moyola Park e Ballinamallard United ficam no 0 a 0 pela NIFL",
-    "seoDescription": "Moyola Park e Ballinamallard United empataram por 0 a 0 pela NIFL Championship.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T14:59:44.691Z",
-    "createdAt": "2026-08-15T14:59:44.691Z",
-    "updatedAt": "2026-08-15T14:59:44.691Z",
-    "homepagePriority": 82,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4747660",
-      "eventStartTime": "2026-08-15T14:00:00+00:00",
-      "retrievedAt": "2026-08-15T14:59:44.691Z",
-      "feedId": "futebol",
-      "league": "NIFL Championship"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ac1e469671dc",
-    "slug": "hubert-hurkacz-vence-sho-shimabukuro-por-2-a-0-em-cincinnati-ac1e46",
-    "sportId": "tenis",
-    "title": "Hubert Hurkacz vence Sho Shimabukuro por 2 a 0 em Cincinnati",
-    "summary": "Hubert Hurkacz superou Sho Shimabukuro por 2 a 0 em Cincinnati.",
-    "content": "Hubert Hurkacz superou Sho Shimabukuro por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Hubert Hurkacz vence Sho Shimabukuro por 2 a 0 em Cincinnati",
-    "seoDescription": "Hubert Hurkacz superou Sho Shimabukuro por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T14:44:47.643Z",
-    "createdAt": "2026-08-15T14:44:47.643Z",
-    "updatedAt": "2026-08-15T14:44:47.643Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813388",
-      "eventStartTime": "2026-08-14T15:13:44+00:00",
-      "retrievedAt": "2026-08-15T14:44:47.643Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-218356a93a1b",
-    "slug": "warrenpoint-town-e-ards-fc-ficam-no-0-a-0-pela-nifl-championship-218356",
-    "sportId": "futebol",
-    "title": "Warrenpoint Town e Ards FC ficam no 0 a 0 pela NIFL Championship",
-    "summary": "Warrenpoint Town e Ards FC empataram por 0 a 0 pela NIFL Championship.",
-    "content": "Warrenpoint Town e Ards FC empataram por 0 a 0 pela NIFL Championship, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "nifl-championship"
-    ],
-    "seoTitle": "Warrenpoint Town e Ards FC ficam no 0 a 0 pela NIFL Championship",
-    "seoDescription": "Warrenpoint Town e Ards FC empataram por 0 a 0 pela NIFL Championship.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T14:44:47.579Z",
-    "createdAt": "2026-08-15T14:44:47.579Z",
-    "updatedAt": "2026-08-15T14:44:47.579Z",
-    "homepagePriority": 82,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4747657",
-      "eventStartTime": "2026-08-15T14:00:00+00:00",
-      "retrievedAt": "2026-08-15T14:44:47.579Z",
-      "feedId": "futebol",
-      "league": "NIFL Championship"
     },
     "articleFormat": "result-brief"
   }
