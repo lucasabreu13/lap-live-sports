@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-0e75e08dc1da",
+    "slug": "miami-marlins-vence-cincinnati-reds-por-7-a-1-na-mlb-0e75e0",
+    "sportId": "beisebol",
+    "title": "Miami Marlins vence Cincinnati Reds por 7 a 1 na MLB",
+    "summary": "Miami Marlins derrotou Cincinnati Reds por 7 a 1 na MLB.",
+    "content": "Miami Marlins derrotou Cincinnati Reds por 7 a 1 na MLB, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Miami Marlins vence Cincinnati Reds por 7 a 1 na MLB",
+    "seoDescription": "Miami Marlins derrotou Cincinnati Reds por 7 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T08:22:31.108Z",
+    "createdAt": "2026-08-17T08:22:31.108Z",
+    "updatedAt": "2026-08-17T08:22:31.108Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614614",
+      "eventStartTime": "2026-08-16T17:40:00+00:00",
+      "retrievedAt": "2026-08-17T08:22:31.108Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-18dfdfaccc94",
+    "slug": "mirra-andreeva-vence-oleksandra-oliynykova-por-2-a-0-em-cincinnati-18dfdf",
+    "sportId": "tenis",
+    "title": "Mirra Andreeva vence Oleksandra Oliynykova por 2 a 0 em Cincinnati",
+    "summary": "Mirra Andreeva superou Oleksandra Oliynykova por 2 a 0 em Cincinnati.",
+    "content": "Mirra Andreeva superou Oleksandra Oliynykova por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Mirra Andreeva vence Oleksandra Oliynykova por 2 a 0 em Cincinnati",
+    "seoDescription": "Mirra Andreeva superou Oleksandra Oliynykova por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T08:22:31.097Z",
+    "createdAt": "2026-08-17T08:22:31.097Z",
+    "updatedAt": "2026-08-17T08:22:31.097Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815097",
+      "eventStartTime": "2026-08-16T15:08:16+00:00",
+      "retrievedAt": "2026-08-17T08:22:31.097Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-815e27837504",
+    "slug": "huehuetecos-fc-supera-chichicasteco-fc-por-4-a-0-pelo-primera-division-815e27",
+    "sportId": "futebol",
+    "title": "Huehuetecos FC supera Chichicasteco FC por 4 a 0 pelo Primera Division",
+    "summary": "Huehuetecos FC venceu Chichicasteco FC por 4 a 0 pelo Primera Division.",
+    "content": "Huehuetecos FC venceu Chichicasteco FC por 4 a 0 pelo Primera Division, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-division"
+    ],
+    "seoTitle": "Huehuetecos FC supera Chichicasteco FC por 4 a 0 pelo Primera Division",
+    "seoDescription": "Huehuetecos FC venceu Chichicasteco FC por 4 a 0 pelo Primera Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T08:22:31.000Z",
+    "createdAt": "2026-08-17T08:22:31.000Z",
+    "updatedAt": "2026-08-17T08:22:31.000Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4777104",
+      "eventStartTime": "2026-08-17T01:00:00+00:00",
+      "retrievedAt": "2026-08-17T08:22:31.000Z",
+      "feedId": "futebol",
+      "league": "Primera Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3026e20a8773",
     "slug": "oleksandr-ovcharenko-vence-petros-tsitsipas-por-2-a-0-em-sion-3026e2",
     "sportId": "tenis",
@@ -12468,132 +12594,6 @@
       "eventId": "365-4714906",
       "eventStartTime": "2026-08-14T23:00:00+00:00",
       "retrievedAt": "2026-08-15T03:02:44.741Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9e9ed340be82",
-    "slug": "mineros-de-zacatecas-supera-venados-por-5-a-1-pela-liga-de-expansion-9e9ed3",
-    "sportId": "futebol",
-    "title": "Mineros De Zacatecas supera Venados por 5 a 1 pela Liga de Expansión",
-    "summary": "Mineros De Zacatecas venceu Venados por 5 a 1 pela Liga de Expansión.",
-    "content": "Mineros De Zacatecas venceu Venados por 5 a 1 pela Liga de Expansión, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-de-expansion"
-    ],
-    "seoTitle": "Mineros De Zacatecas supera Venados por 5 a 1 pela Liga de Expansión",
-    "seoDescription": "Mineros De Zacatecas venceu Venados por 5 a 1 pela Liga de Expansión.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T03:02:44.735Z",
-    "createdAt": "2026-08-15T03:02:44.735Z",
-    "updatedAt": "2026-08-15T03:02:44.735Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4761063",
-      "eventStartTime": "2026-08-15T01:00:00+00:00",
-      "retrievedAt": "2026-08-15T03:02:44.735Z",
-      "feedId": "futebol",
-      "league": "Liga de Expansión"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d6a584c31aca",
-    "slug": "arizona-diamondbacks-vence-atlanta-braves-por-2-a-0-na-mlb-d6a584",
-    "sportId": "beisebol",
-    "title": "Arizona Diamondbacks vence Atlanta Braves por 2 a 0 na MLB",
-    "summary": "Arizona Diamondbacks derrotou Atlanta Braves por 2 a 0 na MLB.",
-    "content": "Arizona Diamondbacks derrotou Atlanta Braves por 2 a 0 na MLB, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Arizona Diamondbacks vence Atlanta Braves por 2 a 0 na MLB",
-    "seoDescription": "Arizona Diamondbacks derrotou Atlanta Braves por 2 a 0 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T02:10:52.881Z",
-    "createdAt": "2026-08-15T02:10:52.881Z",
-    "updatedAt": "2026-08-15T02:10:52.881Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602998",
-      "eventStartTime": "2026-08-14T23:15:00+00:00",
-      "retrievedAt": "2026-08-15T02:10:52.881Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2a2ed94063e2",
-    "slug": "tampa-bay-buccaneers-vence-new-york-jets-por-24-a-16-em-nfl-2a2ed9",
-    "sportId": "futebol-americano",
-    "title": "Tampa Bay Buccaneers vence New York Jets por 24 a 16 em NFL",
-    "summary": "Tampa Bay Buccaneers superou New York Jets por 24 a 16 em NFL.",
-    "content": "Tampa Bay Buccaneers superou New York Jets por 24 a 16 em NFL., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "Tampa Bay Buccaneers vence New York Jets por 24 a 16 em NFL",
-    "seoDescription": "Tampa Bay Buccaneers superou New York Jets por 24 a 16 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T02:10:52.844Z",
-    "createdAt": "2026-08-15T02:10:52.844Z",
-    "updatedAt": "2026-08-15T02:10:52.844Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714901",
-      "eventStartTime": "2026-08-14T23:00:00+00:00",
-      "retrievedAt": "2026-08-15T02:10:52.844Z",
       "feedId": "futebol-americano",
       "league": "NFL"
     },
