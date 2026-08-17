@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-6f2fa83b7e66",
+    "slug": "tristan-schoolkate-vence-nicolas-arseneault-por-2-a-0-em-quebec-city-6f2fa8",
+    "sportId": "tenis",
+    "title": "Tristan Schoolkate vence Nicolas Arseneault por 2 a 0 em Quebec City",
+    "summary": "Tristan Schoolkate superou Nicolas Arseneault por 2 a 0 em Quebec City.",
+    "content": "Tristan Schoolkate superou Nicolas Arseneault por 2 a 0 em Quebec City., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Tristan Schoolkate vence Nicolas Arseneault por 2 a 0 em Quebec City",
+    "seoDescription": "Tristan Schoolkate superou Nicolas Arseneault por 2 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T19:38:01.855Z",
+    "createdAt": "2026-08-17T19:38:01.855Z",
+    "updatedAt": "2026-08-17T19:38:01.855Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816152",
+      "eventStartTime": "2026-08-17T17:42:49+00:00",
+      "retrievedAt": "2026-08-17T19:38:01.855Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-537aa63b8e61",
+    "slug": "cariari-e-santa-ana-ficam-no-0-a-0-pela-liga-de-ascenso-537aa6",
+    "sportId": "futebol",
+    "title": "Cariari e Santa Ana ficam no 0 a 0 pela Liga de Ascenso",
+    "summary": "Cariari e Santa Ana empataram por 0 a 0 pela Liga de Ascenso.",
+    "content": "Cariari e Santa Ana empataram por 0 a 0 pela Liga de Ascenso, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Cariari e Santa Ana ficam no 0 a 0 pela Liga de Ascenso",
+    "seoDescription": "Cariari e Santa Ana empataram por 0 a 0 pela Liga de Ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T19:38:01.819Z",
+    "createdAt": "2026-08-17T19:38:01.819Z",
+    "updatedAt": "2026-08-17T19:38:01.819Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4795190",
+      "eventStartTime": "2026-08-17T19:00:00+00:00",
+      "retrievedAt": "2026-08-17T19:38:01.819Z",
+      "feedId": "futebol",
+      "league": "Liga de Ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-21da0a30c9b6",
     "slug": "sorana-cirstea-e-anna-kalinskaya-empatam-por-0-a-0-em-cincinnati-21da0a",
     "sportId": "tenis",
@@ -12510,90 +12594,6 @@
       "eventId": "365-4813394",
       "eventStartTime": "2026-08-14T16:40:04+00:00",
       "retrievedAt": "2026-08-15T11:40:48.418Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1a49f2c7a0fc",
-    "slug": "kozara-gradiska-e-fk-omarska-ficam-no-0-a-0-pelo-club-friendlies-1a49f2",
-    "sportId": "futebol",
-    "title": "Kozara Gradiska e Fk Omarska ficam no 0 a 0 pelo Club Friendlies",
-    "summary": "Kozara Gradiska e Fk Omarska empataram por 0 a 0 pelo Club Friendlies.",
-    "content": "Kozara Gradiska e Fk Omarska empataram por 0 a 0 pelo Club Friendlies, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Kozara Gradiska e Fk Omarska ficam no 0 a 0 pelo Club Friendlies",
-    "seoDescription": "Kozara Gradiska e Fk Omarska empataram por 0 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T11:40:48.362Z",
-    "createdAt": "2026-08-15T11:40:48.362Z",
-    "updatedAt": "2026-08-15T11:40:48.362Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807326",
-      "eventStartTime": "2026-08-15T11:00:00+00:00",
-      "retrievedAt": "2026-08-15T11:40:48.362Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4551b22f8013",
-    "slug": "tamara-korpatsch-vence-maya-joint-por-2-a-1-em-cincinnati-4551b2",
-    "sportId": "tenis",
-    "title": "Tamara Korpatsch vence Maya Joint por 2 a 1 em Cincinnati",
-    "summary": "Tamara Korpatsch superou Maya Joint por 2 a 1 em Cincinnati.",
-    "content": "Tamara Korpatsch superou Maya Joint por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Tamara Korpatsch vence Maya Joint por 2 a 1 em Cincinnati",
-    "seoDescription": "Tamara Korpatsch superou Maya Joint por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T11:20:15.509Z",
-    "createdAt": "2026-08-15T11:20:15.509Z",
-    "updatedAt": "2026-08-15T11:20:15.509Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809658",
-      "eventStartTime": "2026-08-14T17:08:44+00:00",
-      "retrievedAt": "2026-08-15T11:20:15.509Z",
       "feedId": "tenis",
       "league": "Cincinnati"
     },
