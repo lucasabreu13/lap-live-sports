@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-d874b084f95d",
+    "slug": "mark-ceban-vence-anton-shepp-por-2-a-0-em-roehampton-d874b0",
+    "sportId": "tenis",
+    "title": "Mark Ceban vence Anton Shepp por 2 a 0 em Roehampton",
+    "summary": "Mark Ceban superou Anton Shepp por 2 a 0 em Roehampton.",
+    "content": "Mark Ceban superou Anton Shepp por 2 a 0 em Roehampton., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Mark Ceban vence Anton Shepp por 2 a 0 em Roehampton",
+    "seoDescription": "Mark Ceban superou Anton Shepp por 2 a 0 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T16:20:57.117Z",
+    "createdAt": "2026-08-17T16:20:57.117Z",
+    "updatedAt": "2026-08-17T16:20:57.117Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815627",
+      "eventStartTime": "2026-08-17T15:23:31+00:00",
+      "retrievedAt": "2026-08-17T16:20:57.117Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b52bd513b804",
+    "slug": "ae-larissa-supera-kallithea-por-3-a-1-pelo-greece-cup-b52bd5",
+    "sportId": "futebol",
+    "title": "AE Larissa supera Kallithea por 3 a 1 pelo Greece Cup",
+    "summary": "AE Larissa venceu Kallithea por 3 a 1 pelo Greece Cup.",
+    "content": "AE Larissa venceu Kallithea por 3 a 1 pelo Greece Cup, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "greece-cup"
+    ],
+    "seoTitle": "AE Larissa supera Kallithea por 3 a 1 pelo Greece Cup",
+    "seoDescription": "AE Larissa venceu Kallithea por 3 a 1 pelo Greece Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T16:20:57.091Z",
+    "createdAt": "2026-08-17T16:20:57.091Z",
+    "updatedAt": "2026-08-17T16:20:57.091Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809599",
+      "eventStartTime": "2026-08-17T14:00:00+00:00",
+      "retrievedAt": "2026-08-17T16:20:57.091Z",
+      "feedId": "futebol",
+      "league": "Greece Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-845c89abbdc7",
     "slug": "nick-hardt-vence-jakub-filip-por-2-a-0-em-prague-845c89",
     "sportId": "tenis",
@@ -12510,90 +12594,6 @@
       "eventId": "365-4813398",
       "eventStartTime": "2026-08-14T18:38:03+00:00",
       "retrievedAt": "2026-08-15T09:42:11.053Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6e056be6f913",
-    "slug": "vancouver-fc-e-pacific-ficam-no-1-a-1-pela-premier-league-6e056b",
-    "sportId": "futebol",
-    "title": "Vancouver Fc e Pacific ficam no 1 a 1 pela Premier League",
-    "summary": "Vancouver Fc e Pacific empataram por 1 a 1 pela Premier League.",
-    "content": "Vancouver Fc e Pacific empataram por 1 a 1 pela Premier League, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "premier-league"
-    ],
-    "seoTitle": "Vancouver Fc e Pacific ficam no 1 a 1 pela Premier League",
-    "seoDescription": "Vancouver Fc e Pacific empataram por 1 a 1 pela Premier League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T09:42:10.994Z",
-    "createdAt": "2026-08-15T09:42:10.994Z",
-    "updatedAt": "2026-08-15T09:42:10.994Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4664861",
-      "eventStartTime": "2026-08-15T01:00:00+00:00",
-      "retrievedAt": "2026-08-15T09:42:10.994Z",
-      "feedId": "futebol",
-      "league": "Premier League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fda5761b10de",
-    "slug": "botic-van-de-zandschulp-vence-alexander-shevchenko-por-2-a-0-em-cincinnati-fda576",
-    "sportId": "tenis",
-    "title": "Botic Van De Zandschulp vence Alexander Shevchenko por 2 a 0 em Cincinnati",
-    "summary": "Botic Van De Zandschulp superou Alexander Shevchenko por 2 a 0 em Cincinnati.",
-    "content": "Botic Van De Zandschulp superou Alexander Shevchenko por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Botic Van De Zandschulp vence Alexander Shevchenko por 2 a 0 em",
-    "seoDescription": "Botic Van De Zandschulp superou Alexander Shevchenko por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T09:15:22.345Z",
-    "createdAt": "2026-08-15T09:15:22.345Z",
-    "updatedAt": "2026-08-15T09:15:22.345Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814938",
-      "eventStartTime": "2026-08-14T18:43:26+00:00",
-      "retrievedAt": "2026-08-15T09:15:22.345Z",
       "feedId": "tenis",
       "league": "Cincinnati"
     },
