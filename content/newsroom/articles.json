@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-4653905593d2",
+    "slug": "filip-peliwo-vence-nicolas-tepmahc-por-2-a-1-em-roehampton-465390",
+    "sportId": "tenis",
+    "title": "Filip Peliwo vence Nicolas Tepmahc por 2 a 1 em Roehampton",
+    "summary": "Filip Peliwo superou Nicolas Tepmahc por 2 a 1 em Roehampton.",
+    "content": "Filip Peliwo superou Nicolas Tepmahc por 2 a 1 em Roehampton., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Filip Peliwo vence Nicolas Tepmahc por 2 a 1 em Roehampton",
+    "seoDescription": "Filip Peliwo superou Nicolas Tepmahc por 2 a 1 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T14:16:45.166Z",
+    "createdAt": "2026-08-17T14:16:45.166Z",
+    "updatedAt": "2026-08-17T14:16:45.166Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815876",
+      "eventStartTime": "2026-08-17T10:07:43+00:00",
+      "retrievedAt": "2026-08-17T14:16:45.166Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c62e5c51db3b",
+    "slug": "defensor-sporting-reserves-e-racing-club-montevideo-reserves-ficam-no-1-a-1-pelo-r-c62e5c",
+    "sportId": "futebol",
+    "title": "Defensor Sporting (Reserves) e Racing Club Montevideo (Reserves) ficam no 1 a 1 pelo Reserve League",
+    "summary": "Defensor Sporting (Reserves) e Racing Club Montevideo (Reserves) empataram por 1 a 1 pelo Reserve League.",
+    "content": "Defensor Sporting (Reserves) e Racing Club Montevideo (Reserves) empataram por 1 a 1 pelo Reserve League, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "reserve-league"
+    ],
+    "seoTitle": "Defensor Sporting (Reserves) e Racing Club Montevideo (Reserves) ficam",
+    "seoDescription": "Defensor Sporting (Reserves) e Racing Club Montevideo (Reserves) empataram por 1 a 1 pelo Reserve League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T14:16:45.141Z",
+    "createdAt": "2026-08-17T14:16:45.141Z",
+    "updatedAt": "2026-08-17T14:16:45.141Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811833",
+      "eventStartTime": "2026-08-17T12:00:00+00:00",
+      "retrievedAt": "2026-08-17T14:16:45.141Z",
+      "feedId": "futebol",
+      "league": "Reserve League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-284efd7e0487",
     "slug": "alec-deckers-vence-ali-habib-por-2-a-1-em-roehampton-284efd",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T07:44:24.124Z",
       "feedId": "tenis",
       "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-caccc22ca5b8",
-    "slug": "san-diego-wave-e-denver-summit-ficam-no-1-a-1-pelo-nwsl-caccc2",
-    "sportId": "futebol",
-    "title": "San Diego Wave e Denver Summit ficam no 1 a 1 pelo NWSL",
-    "summary": "San Diego Wave e Denver Summit empataram por 1 a 1 pelo NWSL.",
-    "content": "San Diego Wave e Denver Summit empataram por 1 a 1 pelo NWSL, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "nwsl"
-    ],
-    "seoTitle": "San Diego Wave e Denver Summit ficam no 1 a 1 pelo NWSL",
-    "seoDescription": "San Diego Wave e Denver Summit empataram por 1 a 1 pelo NWSL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T07:44:24.069Z",
-    "createdAt": "2026-08-15T07:44:24.069Z",
-    "updatedAt": "2026-08-15T07:44:24.069Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4655235",
-      "eventStartTime": "2026-08-15T02:00:00+00:00",
-      "retrievedAt": "2026-08-15T07:44:24.069Z",
-      "feedId": "futebol",
-      "league": "NWSL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6763ced53ade",
-    "slug": "nuno-borges-vence-thanasi-kokkinakis-por-2-a-1-em-cincinnati-6763ce",
-    "sportId": "tenis",
-    "title": "Nuno Borges vence Thanasi Kokkinakis por 2 a 1 em Cincinnati",
-    "summary": "Nuno Borges superou Thanasi Kokkinakis por 2 a 1 em Cincinnati.",
-    "content": "Nuno Borges superou Thanasi Kokkinakis por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Nuno Borges vence Thanasi Kokkinakis por 2 a 1 em Cincinnati",
-    "seoDescription": "Nuno Borges superou Thanasi Kokkinakis por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T07:14:58.342Z",
-    "createdAt": "2026-08-15T07:14:58.342Z",
-    "updatedAt": "2026-08-15T07:14:58.342Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809626",
-      "eventStartTime": "2026-08-14T19:07:45+00:00",
-      "retrievedAt": "2026-08-15T07:14:58.342Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
