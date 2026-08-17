@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-591551318382",
+    "slug": "san-diego-padres-vence-cleveland-guardians-por-5-a-0-na-mlb-591551",
+    "sportId": "beisebol",
+    "title": "San Diego Padres vence Cleveland Guardians por 5 a 0 na MLB",
+    "summary": "San Diego Padres derrotou Cleveland Guardians por 5 a 0 na MLB.",
+    "content": "San Diego Padres derrotou Cleveland Guardians por 5 a 0 na MLB, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "San Diego Padres vence Cleveland Guardians por 5 a 0 na MLB",
+    "seoDescription": "San Diego Padres derrotou Cleveland Guardians por 5 a 0 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T11:15:38.636Z",
+    "createdAt": "2026-08-17T11:15:38.636Z",
+    "updatedAt": "2026-08-17T11:15:38.636Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614670",
+      "eventStartTime": "2026-08-16T17:40:00+00:00",
+      "retrievedAt": "2026-08-17T11:15:38.636Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-945b8be2a142",
+    "slug": "marta-kostyuk-vence-sofia-kenin-por-2-a-1-em-cincinnati-945b8b",
+    "sportId": "tenis",
+    "title": "Marta Kostyuk vence Sofia Kenin por 2 a 1 em Cincinnati",
+    "summary": "Marta Kostyuk superou Sofia Kenin por 2 a 1 em Cincinnati.",
+    "content": "Marta Kostyuk superou Sofia Kenin por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Marta Kostyuk vence Sofia Kenin por 2 a 1 em Cincinnati",
+    "seoDescription": "Marta Kostyuk superou Sofia Kenin por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T11:15:38.626Z",
+    "createdAt": "2026-08-17T11:15:38.626Z",
+    "updatedAt": "2026-08-17T11:15:38.626Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815136",
+      "eventStartTime": "2026-08-16T19:11:42+00:00",
+      "retrievedAt": "2026-08-17T11:15:38.626Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5bf6dcc86e35",
+    "slug": "jicaral-sercoba-supera-ad-cofutpa-por-1-a-0-pela-liga-de-ascenso-5bf6dc",
+    "sportId": "futebol",
+    "title": "Jicaral Sercoba supera AD Cofutpa por 1 a 0 pela Liga de Ascenso",
+    "summary": "Jicaral Sercoba venceu AD Cofutpa por 1 a 0 pela Liga de Ascenso.",
+    "content": "Jicaral Sercoba venceu AD Cofutpa por 1 a 0 pela Liga de Ascenso, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Jicaral Sercoba supera AD Cofutpa por 1 a 0 pela Liga de Ascenso",
+    "seoDescription": "Jicaral Sercoba venceu AD Cofutpa por 1 a 0 pela Liga de Ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T11:15:38.557Z",
+    "createdAt": "2026-08-17T11:15:38.557Z",
+    "updatedAt": "2026-08-17T11:15:38.557Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4795194",
+      "eventStartTime": "2026-08-17T00:00:00+00:00",
+      "retrievedAt": "2026-08-17T11:15:38.557Z",
+      "feedId": "futebol",
+      "league": "Liga de Ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7e0ece591f0c",
     "slug": "seattle-mariners-vence-houston-astros-por-3-a-2-na-mlb-7e0ece",
     "sportId": "beisebol",
@@ -12468,132 +12594,6 @@
       "eventId": "365-4678288",
       "eventStartTime": "2026-08-15T03:00:00+00:00",
       "retrievedAt": "2026-08-15T05:15:23.749Z",
-      "feedId": "futebol",
-      "league": "National League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-858af6306818",
-    "slug": "colorado-rockies-vence-san-francisco-giants-por-5-a-2-na-mlb-858af6",
-    "sportId": "beisebol",
-    "title": "Colorado Rockies vence San Francisco Giants por 5 a 2 na MLB",
-    "summary": "Colorado Rockies derrotou San Francisco Giants por 5 a 2 na MLB.",
-    "content": "Colorado Rockies derrotou San Francisco Giants por 5 a 2 na MLB, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Colorado Rockies vence San Francisco Giants por 5 a 2 na MLB",
-    "seoDescription": "Colorado Rockies derrotou San Francisco Giants por 5 a 2 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T04:54:14.457Z",
-    "createdAt": "2026-08-15T04:54:14.457Z",
-    "updatedAt": "2026-08-15T04:54:14.457Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602919",
-      "eventStartTime": "2026-08-15T02:15:00+00:00",
-      "retrievedAt": "2026-08-15T04:54:14.457Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8fdfecae04e6",
-    "slug": "sloane-stephens-vence-sinja-kraus-por-2-a-0-em-cincinnati-8fdfec",
-    "sportId": "tenis",
-    "title": "Sloane Stephens vence Sinja Kraus por 2 a 0 em Cincinnati",
-    "summary": "Sloane Stephens superou Sinja Kraus por 2 a 0 em Cincinnati.",
-    "content": "Sloane Stephens superou Sinja Kraus por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Sloane Stephens vence Sinja Kraus por 2 a 0 em Cincinnati",
-    "seoDescription": "Sloane Stephens superou Sinja Kraus por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T04:54:14.454Z",
-    "createdAt": "2026-08-15T04:54:14.454Z",
-    "updatedAt": "2026-08-15T04:54:14.454Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813443",
-      "eventStartTime": "2026-08-14T23:08:32+00:00",
-      "retrievedAt": "2026-08-15T04:54:14.454Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f6514b91c51c",
-    "slug": "birkenhead-united-supera-tauranga-city-united-afc-por-3-a-0-pelo-national-league-f6514b",
-    "sportId": "futebol",
-    "title": "Birkenhead United supera Tauranga City United Afc por 3 a 0 pelo National League",
-    "summary": "Birkenhead United venceu Tauranga City United Afc por 3 a 0 pelo National League.",
-    "content": "Birkenhead United venceu Tauranga City United Afc por 3 a 0 pelo National League, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "national-league"
-    ],
-    "seoTitle": "Birkenhead United supera Tauranga City United Afc por 3 a 0 pelo",
-    "seoDescription": "Birkenhead United venceu Tauranga City United Afc por 3 a 0 pelo National League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T04:54:14.407Z",
-    "createdAt": "2026-08-15T04:54:14.407Z",
-    "updatedAt": "2026-08-15T04:54:14.407Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4678286",
-      "eventStartTime": "2026-08-15T03:00:00+00:00",
-      "retrievedAt": "2026-08-15T04:54:14.407Z",
       "feedId": "futebol",
       "league": "National League"
     },
