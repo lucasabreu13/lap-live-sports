@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-845c89abbdc7",
+    "slug": "nick-hardt-vence-jakub-filip-por-2-a-0-em-prague-845c89",
+    "sportId": "tenis",
+    "title": "Nick Hardt vence Jakub Filip por 2 a 0 em Prague",
+    "summary": "Nick Hardt superou Jakub Filip por 2 a 0 em Prague.",
+    "content": "Nick Hardt superou Jakub Filip por 2 a 0 em Prague., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Nick Hardt vence Jakub Filip por 2 a 0 em Prague",
+    "seoDescription": "Nick Hardt superou Jakub Filip por 2 a 0 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T15:57:29.921Z",
+    "createdAt": "2026-08-17T15:57:29.921Z",
+    "updatedAt": "2026-08-17T15:57:29.921Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815450",
+      "eventStartTime": "2026-08-17T14:14:24+00:00",
+      "retrievedAt": "2026-08-17T15:57:29.921Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-97ab6df79f1e",
+    "slug": "auda-e-grobina-ficam-no-0-a-0-pelo-latvian-cup-97ab6d",
+    "sportId": "futebol",
+    "title": "Auda e Grobiņa ficam no 0 a 0 pelo Latvian Cup",
+    "summary": "Auda e Grobiņa empataram por 0 a 0 pelo Latvian Cup.",
+    "content": "Auda e Grobiņa empataram por 0 a 0 pelo Latvian Cup, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "latvian-cup"
+    ],
+    "seoTitle": "Auda e Grobiņa ficam no 0 a 0 pelo Latvian Cup",
+    "seoDescription": "Auda e Grobiņa empataram por 0 a 0 pelo Latvian Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T15:57:29.888Z",
+    "createdAt": "2026-08-17T15:57:29.888Z",
+    "updatedAt": "2026-08-17T15:57:29.888Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4773149",
+      "eventStartTime": "2026-08-17T15:00:00+00:00",
+      "retrievedAt": "2026-08-17T15:57:29.888Z",
+      "feedId": "futebol",
+      "league": "Latvian Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-01357b0a1cee",
     "slug": "alexander-donski-e-andrea-guerrieri-empatam-por-0-a-0-em-quebec-city-01357b",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T09:15:22.345Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9c1a448a8c6b",
-    "slug": "san-francisco-fc-supera-independiente-por-2-a-1-pelo-lpf-9c1a44",
-    "sportId": "futebol",
-    "title": "San Francisco FC supera Independiente por 2 a 1 pelo Lpf",
-    "summary": "San Francisco FC venceu Independiente por 2 a 1 pelo Lpf.",
-    "content": "San Francisco FC venceu Independiente por 2 a 1 pelo Lpf, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "lpf"
-    ],
-    "seoTitle": "San Francisco FC supera Independiente por 2 a 1 pelo Lpf",
-    "seoDescription": "San Francisco FC venceu Independiente por 2 a 1 pelo Lpf.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T09:15:22.287Z",
-    "createdAt": "2026-08-15T09:15:22.287Z",
-    "updatedAt": "2026-08-15T09:15:22.287Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4773302",
-      "eventStartTime": "2026-08-15T01:30:00+00:00",
-      "retrievedAt": "2026-08-15T09:15:22.287Z",
-      "feedId": "futebol",
-      "league": "Lpf"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d6cd56830851",
-    "slug": "iga-swiatek-vence-elena-rybakina-por-2-a-0-em-toronto-d6cd56",
-    "sportId": "tenis",
-    "title": "Iga Swiatek vence Elena Rybakina por 2 a 0 em Toronto",
-    "summary": "Iga Swiatek superou Elena Rybakina por 2 a 0 em Toronto.",
-    "content": "Iga Swiatek superou Elena Rybakina por 2 a 0 em Toronto., em 13 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "toronto"
-    ],
-    "seoTitle": "Iga Swiatek vence Elena Rybakina por 2 a 0 em Toronto",
-    "seoDescription": "Iga Swiatek superou Elena Rybakina por 2 a 0 em Toronto.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T08:55:18.503Z",
-    "createdAt": "2026-08-15T08:55:18.503Z",
-    "updatedAt": "2026-08-15T08:55:18.503Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811811",
-      "eventStartTime": "2026-08-13T22:10:42+00:00",
-      "retrievedAt": "2026-08-15T08:55:18.503Z",
-      "feedId": "tenis",
-      "league": "Toronto"
     },
     "articleFormat": "result-brief"
   }
