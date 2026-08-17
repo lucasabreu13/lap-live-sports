@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-5b4672482481",
+    "slug": "hanwha-eagles-vence-samsung-lions-por-0-a-0-na-kbo-5b4672",
+    "sportId": "beisebol",
+    "title": "Hanwha Eagles vence Samsung Lions por 0 a 0 na KBO",
+    "summary": "Hanwha Eagles derrotou Samsung Lions por 0 a 0 na KBO.",
+    "content": "Hanwha Eagles derrotou Samsung Lions por 0 a 0 na KBO, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "kbo"
+    ],
+    "seoTitle": "Hanwha Eagles vence Samsung Lions por 0 a 0 na KBO",
+    "seoDescription": "Hanwha Eagles derrotou Samsung Lions por 0 a 0 na KBO.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T21:46:35.425Z",
+    "createdAt": "2026-08-17T21:46:35.425Z",
+    "updatedAt": "2026-08-17T21:46:35.425Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815411",
+      "eventStartTime": "2026-08-16T10:00:00+00:00",
+      "retrievedAt": "2026-08-17T21:46:35.425Z",
+      "feedId": "beisebol",
+      "league": "KBO"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-67484bd3251f",
+    "slug": "krajicek-a-mektic-n-e-cash-r-nakashima-b-empatam-por-0-a-0-em-cincinnati-67484b",
+    "sportId": "tenis",
+    "title": "Krajicek A./Mektic N. e Cash R./Nakashima B. empatam por 0 a 0 em Cincinnati",
+    "summary": "Krajicek A./Mektic N. e Cash R./Nakashima B. terminaram empatados por 0 a 0 em Cincinnati.",
+    "content": "Krajicek A./Mektic N. e Cash R./Nakashima B. terminaram empatados por 0 a 0 em Cincinnati., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Krajicek A./Mektic N. e Cash R./Nakashima B. empatam por 0 a 0 em",
+    "seoDescription": "Krajicek A./Mektic N. e Cash R./Nakashima B. terminaram empatados por 0 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T21:46:35.406Z",
+    "createdAt": "2026-08-17T21:46:35.406Z",
+    "updatedAt": "2026-08-17T21:46:35.406Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815038",
+      "eventStartTime": "2026-08-17T21:25:07+00:00",
+      "retrievedAt": "2026-08-17T21:46:35.406Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-61fcbdbfab6c",
+    "slug": "almeria-supera-cd-eldense-por-3-a-0-pela-laliga-2-61fcbd",
+    "sportId": "futebol",
+    "title": "Almeria supera CD Eldense por 3 a 0 pela LaLiga 2",
+    "summary": "Almeria venceu CD Eldense por 3 a 0 pela LaLiga 2.",
+    "content": "Almeria venceu CD Eldense por 3 a 0 pela LaLiga 2, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "laliga-2"
+    ],
+    "seoTitle": "Almeria supera CD Eldense por 3 a 0 pela LaLiga 2",
+    "seoDescription": "Almeria venceu CD Eldense por 3 a 0 pela LaLiga 2.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T21:46:35.373Z",
+    "createdAt": "2026-08-17T21:46:35.373Z",
+    "updatedAt": "2026-08-17T21:46:35.373Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4751169",
+      "eventStartTime": "2026-08-17T19:30:00+00:00",
+      "retrievedAt": "2026-08-17T21:46:35.373Z",
+      "feedId": "futebol",
+      "league": "LaLiga 2"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-98c8d8026d78",
     "slug": "kt-wiz-suwon-vence-kiwoom-heroes-por-6-a-2-na-kbo-98c8d8",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-15T13:57:28.920Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f2e0e1330920",
-    "slug": "uruguay-vence-china-por-91-a-72-em-international-friendlies-f2e0e1",
-    "sportId": "basquete",
-    "title": "Uruguay vence China por 91 a 72 em International Friendlies",
-    "summary": "Uruguay superou China por 91 a 72 em International Friendlies.",
-    "content": "Uruguay superou China por 91 a 72 em International Friendlies., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "international-friendlies"
-    ],
-    "seoTitle": "Uruguay vence China por 91 a 72 em International Friendlies",
-    "seoDescription": "Uruguay superou China por 91 a 72 em International Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T13:57:28.916Z",
-    "createdAt": "2026-08-15T13:57:28.916Z",
-    "updatedAt": "2026-08-15T13:57:28.916Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815196",
-      "eventStartTime": "2026-08-15T11:30:00+00:00",
-      "retrievedAt": "2026-08-15T13:57:28.916Z",
-      "feedId": "basquete",
-      "league": "International Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-046dffb4b66e",
-    "slug": "hacken-w-supera-if-brommapojkarna-w-por-6-a-0-pelo-damallsvenskan-046dff",
-    "sportId": "futebol",
-    "title": "Hacken (W) supera If Brommapojkarna (W) por 6 a 0 pelo Damallsvenskan",
-    "summary": "Hacken (W) venceu If Brommapojkarna (W) por 6 a 0 pelo Damallsvenskan.",
-    "content": "Hacken (W) venceu If Brommapojkarna (W) por 6 a 0 pelo Damallsvenskan, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "damallsvenskan"
-    ],
-    "seoTitle": "Hacken (W) supera If Brommapojkarna (W) por 6 a 0 pelo Damallsvenskan",
-    "seoDescription": "Hacken (W) venceu If Brommapojkarna (W) por 6 a 0 pelo Damallsvenskan.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T13:57:28.907Z",
-    "createdAt": "2026-08-15T13:57:28.907Z",
-    "updatedAt": "2026-08-15T13:57:28.907Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4636256",
-      "eventStartTime": "2026-08-15T12:00:00+00:00",
-      "retrievedAt": "2026-08-15T13:57:28.907Z",
-      "feedId": "futebol",
-      "league": "Damallsvenskan"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2150fb7867b1",
-    "slug": "nc-dinos-vence-lotte-giants-por-9-a-8-na-kbo-2150fb",
-    "sportId": "beisebol",
-    "title": "NC Dinos vence Lotte Giants por 9 a 8 na KBO",
-    "summary": "NC Dinos derrotou Lotte Giants por 9 a 8 na KBO.",
-    "content": "NC Dinos derrotou Lotte Giants por 9 a 8 na KBO, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "kbo"
-    ],
-    "seoTitle": "NC Dinos vence Lotte Giants por 9 a 8 na KBO",
-    "seoDescription": "NC Dinos derrotou Lotte Giants por 9 a 8 na KBO.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T13:41:17.251Z",
-    "createdAt": "2026-08-15T13:41:17.251Z",
-    "updatedAt": "2026-08-15T13:41:17.251Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813616",
-      "eventStartTime": "2026-08-14T10:00:00+00:00",
-      "retrievedAt": "2026-08-15T13:41:17.251Z",
-      "feedId": "beisebol",
-      "league": "KBO"
     },
     "articleFormat": "result-brief"
   }
