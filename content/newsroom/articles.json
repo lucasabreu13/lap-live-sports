@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-05789604bb3a",
+    "slug": "olmecas-de-tabasco-vence-bravos-de-leon-por-4-a-3-na-lmb-057896",
+    "sportId": "beisebol",
+    "title": "Olmecas de Tabasco vence Bravos de León por 4 a 3 na LMB",
+    "summary": "Olmecas de Tabasco derrotou Bravos de León por 4 a 3 na LMB.",
+    "content": "Olmecas de Tabasco derrotou Bravos de León por 4 a 3 na LMB, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "lmb"
+    ],
+    "seoTitle": "Olmecas de Tabasco vence Bravos de León por 4 a 3 na LMB",
+    "seoDescription": "Olmecas de Tabasco derrotou Bravos de León por 4 a 3 na LMB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T03:11:01.924Z",
+    "createdAt": "2026-08-17T03:11:01.924Z",
+    "updatedAt": "2026-08-17T03:11:01.924Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815413",
+      "eventStartTime": "2026-08-17T00:00:00+00:00",
+      "retrievedAt": "2026-08-17T03:11:01.924Z",
+      "feedId": "beisebol",
+      "league": "LMB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7992748d2247",
+    "slug": "iga-swiatek-vence-emilliana-arango-por-2-a-0-em-cincinnati-799274",
+    "sportId": "tenis",
+    "title": "Iga Swiatek vence Emilliana Arango por 2 a 0 em Cincinnati",
+    "summary": "Iga Swiatek superou Emilliana Arango por 2 a 0 em Cincinnati.",
+    "content": "Iga Swiatek superou Emilliana Arango por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Iga Swiatek vence Emilliana Arango por 2 a 0 em Cincinnati",
+    "seoDescription": "Iga Swiatek superou Emilliana Arango por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T03:11:01.922Z",
+    "createdAt": "2026-08-17T03:11:01.922Z",
+    "updatedAt": "2026-08-17T03:11:01.922Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814967",
+      "eventStartTime": "2026-08-16T16:51:36+00:00",
+      "retrievedAt": "2026-08-17T03:11:01.922Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-77463bba1096",
+    "slug": "santeros-de-aguada-vence-vaqueros-de-bayamon-por-67-a-64-em-bsn-77463b",
+    "sportId": "basquete",
+    "title": "Santeros de Aguada vence Vaqueros De Bayamon por 67 a 64 em BSN",
+    "summary": "Santeros de Aguada superou Vaqueros De Bayamon por 67 a 64 em BSN.",
+    "content": "Santeros de Aguada superou Vaqueros De Bayamon por 67 a 64 em BSN., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "bsn"
+    ],
+    "seoTitle": "Santeros de Aguada vence Vaqueros De Bayamon por 67 a 64 em BSN",
+    "seoDescription": "Santeros de Aguada superou Vaqueros De Bayamon por 67 a 64 em BSN.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T03:11:01.876Z",
+    "createdAt": "2026-08-17T03:11:01.876Z",
+    "updatedAt": "2026-08-17T03:11:01.876Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4804948",
+      "eventStartTime": "2026-08-17T00:00:00+00:00",
+      "retrievedAt": "2026-08-17T03:11:01.876Z",
+      "feedId": "basquete",
+      "league": "BSN"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d34b2b2dc9b6",
+    "slug": "chivas-supera-santos-laguna-por-1-a-0-pela-liga-mx-d34b2b",
+    "sportId": "futebol",
+    "title": "Chivas supera Santos Laguna por 1 a 0 pela Liga MX",
+    "summary": "Chivas venceu Santos Laguna por 1 a 0 pela Liga MX.",
+    "content": "Chivas venceu Santos Laguna por 1 a 0 pela Liga MX, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-mx"
+    ],
+    "seoTitle": "Chivas supera Santos Laguna por 1 a 0 pela Liga MX",
+    "seoDescription": "Chivas venceu Santos Laguna por 1 a 0 pela Liga MX.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T03:11:01.853Z",
+    "createdAt": "2026-08-17T03:11:01.853Z",
+    "updatedAt": "2026-08-17T03:11:01.853Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4735731",
+      "eventStartTime": "2026-08-17T01:10:00+00:00",
+      "retrievedAt": "2026-08-17T03:11:01.853Z",
+      "feedId": "futebol",
+      "league": "Liga MX"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4f479a3f8cc8",
     "slug": "paulo-andre-saraiva-dos-santos-vence-matt-kuhar-por-2-a-1-em-kingston-4f479a",
     "sportId": "tenis",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-14T21:57:51.780Z",
       "feedId": "futebol",
       "league": "Women League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-39c6777890e8",
-    "slug": "cash-r-stevens-b-vence-milavsky-d-puttergill-c-por-2-a-0-em-brownsburg-39c677",
-    "sportId": "tenis",
-    "title": "Cash R./Stevens B. vence Milavsky D./Puttergill C. por 2 a 0 em Brownsburg",
-    "summary": "Cash R./Stevens B. superou Milavsky D./Puttergill C. por 2 a 0 em Brownsburg.",
-    "content": "Cash R./Stevens B. superou Milavsky D./Puttergill C. por 2 a 0 em Brownsburg., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Cash R./Stevens B. vence Milavsky D./Puttergill C. por 2 a 0 em",
-    "seoDescription": "Cash R./Stevens B. superou Milavsky D./Puttergill C. por 2 a 0 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T21:41:32.716Z",
-    "createdAt": "2026-08-14T21:41:32.716Z",
-    "updatedAt": "2026-08-14T21:41:32.716Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808204",
-      "eventStartTime": "2026-08-14T20:27:23+00:00",
-      "retrievedAt": "2026-08-14T21:41:32.716Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3364b9e631de",
-    "slug": "ud-santarem-e-oliveirense-ficam-no-1-a-1-pela-liga-3-3364b9",
-    "sportId": "futebol",
-    "title": "UD Santarem e Oliveirense ficam no 1 a 1 pela Liga 3",
-    "summary": "UD Santarem e Oliveirense empataram por 1 a 1 pela Liga 3.",
-    "content": "UD Santarem e Oliveirense empataram por 1 a 1 pela Liga 3, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-3"
-    ],
-    "seoTitle": "UD Santarem e Oliveirense ficam no 1 a 1 pela Liga 3",
-    "seoDescription": "UD Santarem e Oliveirense empataram por 1 a 1 pela Liga 3.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T21:41:32.687Z",
-    "createdAt": "2026-08-14T21:41:32.687Z",
-    "updatedAt": "2026-08-14T21:41:32.687Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4777303",
-      "eventStartTime": "2026-08-14T19:30:00+00:00",
-      "retrievedAt": "2026-08-14T21:41:32.687Z",
-      "feedId": "futebol",
-      "league": "Liga 3"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-af33c93fd06a",
-    "slug": "chicago-cubs-vence-st-louis-cardinals-por-3-a-0-na-mlb-af33c9",
-    "sportId": "beisebol",
-    "title": "Chicago Cubs vence St. Louis Cardinals por 3 a 0 na MLB",
-    "summary": "Chicago Cubs derrotou St. Louis Cardinals por 3 a 0 na MLB.",
-    "content": "Chicago Cubs derrotou St. Louis Cardinals por 3 a 0 na MLB, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Chicago Cubs vence St. Louis Cardinals por 3 a 0 na MLB",
-    "seoDescription": "Chicago Cubs derrotou St. Louis Cardinals por 3 a 0 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T21:14:55.715Z",
-    "createdAt": "2026-08-14T21:14:55.715Z",
-    "updatedAt": "2026-08-14T21:14:55.715Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602914",
-      "eventStartTime": "2026-08-14T18:20:00+00:00",
-      "retrievedAt": "2026-08-14T21:14:55.715Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e1026adc04f1",
-    "slug": "xiyu-wang-vence-maria-timofeeva-por-1-a-0-em-cincinnati-e1026a",
-    "sportId": "tenis",
-    "title": "Xiyu Wang vence Maria Timofeeva por 1 a 0 em Cincinnati",
-    "summary": "Xiyu Wang superou Maria Timofeeva por 1 a 0 em Cincinnati.",
-    "content": "Xiyu Wang superou Maria Timofeeva por 1 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Xiyu Wang vence Maria Timofeeva por 1 a 0 em Cincinnati",
-    "seoDescription": "Xiyu Wang superou Maria Timofeeva por 1 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T21:14:55.712Z",
-    "createdAt": "2026-08-14T21:14:55.712Z",
-    "updatedAt": "2026-08-14T21:14:55.712Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813444",
-      "eventStartTime": "2026-08-14T19:45:01+00:00",
-      "retrievedAt": "2026-08-14T21:14:55.712Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
