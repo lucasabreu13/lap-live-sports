@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-f981198c0108",
+    "slug": "st-louis-cardinals-vence-chicago-cubs-por-11-a-4-na-mlb-f98119",
+    "sportId": "beisebol",
+    "title": "St. Louis Cardinals vence Chicago Cubs por 11 a 4 na MLB",
+    "summary": "St. Louis Cardinals derrotou Chicago Cubs por 11 a 4 na MLB.",
+    "content": "St. Louis Cardinals derrotou Chicago Cubs por 11 a 4 na MLB, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "St. Louis Cardinals vence Chicago Cubs por 11 a 4 na MLB",
+    "seoDescription": "St. Louis Cardinals derrotou Chicago Cubs por 11 a 4 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T03:59:26.714Z",
+    "createdAt": "2026-08-17T03:59:26.714Z",
+    "updatedAt": "2026-08-17T03:59:26.714Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614730",
+      "eventStartTime": "2026-08-16T19:15:00+00:00",
+      "retrievedAt": "2026-08-17T03:59:26.714Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ef0084d8b3ae",
+    "slug": "xiyu-wang-vence-leylah-fernandez-por-2-a-1-em-cincinnati-ef0084",
+    "sportId": "tenis",
+    "title": "Xiyu Wang vence Leylah Fernandez por 2 a 1 em Cincinnati",
+    "summary": "Xiyu Wang superou Leylah Fernandez por 2 a 1 em Cincinnati.",
+    "content": "Xiyu Wang superou Leylah Fernandez por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Xiyu Wang vence Leylah Fernandez por 2 a 1 em Cincinnati",
+    "seoDescription": "Xiyu Wang superou Leylah Fernandez por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T03:59:26.706Z",
+    "createdAt": "2026-08-17T03:59:26.706Z",
+    "updatedAt": "2026-08-17T03:59:26.706Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815101",
+      "eventStartTime": "2026-08-16T21:23:50+00:00",
+      "retrievedAt": "2026-08-17T03:59:26.706Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-22d677f69958",
+    "slug": "leones-de-quilpue-vence-espanol-de-talca-por-96-a-69-em-lnb-22d677",
+    "sportId": "basquete",
+    "title": "Leones De Quilpué vence Espanol De Talca por 96 a 69 em LNB",
+    "summary": "Leones De Quilpué superou Espanol De Talca por 96 a 69 em LNB.",
+    "content": "Leones De Quilpué superou Espanol De Talca por 96 a 69 em LNB., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Leones De Quilpué vence Espanol De Talca por 96 a 69 em LNB",
+    "seoDescription": "Leones De Quilpué superou Espanol De Talca por 96 a 69 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T03:59:26.696Z",
+    "createdAt": "2026-08-17T03:59:26.696Z",
+    "updatedAt": "2026-08-17T03:59:26.696Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4812149",
+      "eventStartTime": "2026-08-16T23:30:00+00:00",
+      "retrievedAt": "2026-08-17T03:59:26.696Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-dd2232b1578f",
+    "slug": "olancho-supera-juticalpa-por-1-a-0-pela-liga-nacional-dd2232",
+    "sportId": "futebol",
+    "title": "Olancho supera Juticalpa por 1 a 0 pela Liga Nacional",
+    "summary": "Olancho venceu Juticalpa por 1 a 0 pela Liga Nacional.",
+    "content": "Olancho venceu Juticalpa por 1 a 0 pela Liga Nacional, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-nacional"
+    ],
+    "seoTitle": "Olancho supera Juticalpa por 1 a 0 pela Liga Nacional",
+    "seoDescription": "Olancho venceu Juticalpa por 1 a 0 pela Liga Nacional.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T03:59:26.677Z",
+    "createdAt": "2026-08-17T03:59:26.677Z",
+    "updatedAt": "2026-08-17T03:59:26.677Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4776144",
+      "eventStartTime": "2026-08-17T01:30:00+00:00",
+      "retrievedAt": "2026-08-17T03:59:26.677Z",
+      "feedId": "futebol",
+      "league": "Liga Nacional"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-05789604bb3a",
     "slug": "olmecas-de-tabasco-vence-bravos-de-leon-por-4-a-3-na-lmb-057896",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-14T22:46:18.144Z",
       "feedId": "futebol",
       "league": "MLS Next Pro"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-67289a552ebc",
-    "slug": "lorenzo-sonego-vence-juncheng-shang-por-2-a-0-em-cincinnati-67289a",
-    "sportId": "tenis",
-    "title": "Lorenzo Sonego vence Juncheng Shang por 2 a 0 em Cincinnati",
-    "summary": "Lorenzo Sonego superou Juncheng Shang por 2 a 0 em Cincinnati.",
-    "content": "Lorenzo Sonego superou Juncheng Shang por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Lorenzo Sonego vence Juncheng Shang por 2 a 0 em Cincinnati",
-    "seoDescription": "Lorenzo Sonego superou Juncheng Shang por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T22:17:34.568Z",
-    "createdAt": "2026-08-14T22:17:34.568Z",
-    "updatedAt": "2026-08-14T22:17:34.568Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809637",
-      "eventStartTime": "2026-08-14T20:30:58+00:00",
-      "retrievedAt": "2026-08-14T22:17:34.568Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-535a72fc134e",
-    "slug": "cuenca-juniors-supera-22-de-julio-por-1-a-0-pelo-serie-b-535a72",
-    "sportId": "futebol",
-    "title": "Cuenca Juniors supera 22 de Julio por 1 a 0 pelo Serie B",
-    "summary": "Cuenca Juniors venceu 22 de Julio por 1 a 0 pelo Serie B.",
-    "content": "Cuenca Juniors venceu 22 de Julio por 1 a 0 pelo Serie B, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "serie-b"
-    ],
-    "seoTitle": "Cuenca Juniors supera 22 de Julio por 1 a 0 pelo Serie B",
-    "seoDescription": "Cuenca Juniors venceu 22 de Julio por 1 a 0 pelo Serie B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T22:17:34.539Z",
-    "createdAt": "2026-08-14T22:17:34.539Z",
-    "updatedAt": "2026-08-14T22:17:34.539Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4677396",
-      "eventStartTime": "2026-08-14T20:00:00+00:00",
-      "retrievedAt": "2026-08-14T22:17:34.539Z",
-      "feedId": "futebol",
-      "league": "Serie B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-07c8a016fbca",
-    "slug": "blake-bayldon-trey-hilderbrand-vence-kozlov-b-kozlov-s-por-2-a-0-em-brownsburg-07c8a0",
-    "sportId": "tenis",
-    "title": "Blake Bayldon / Trey Hilderbrand vence Kozlov B./Kozlov S. por 2 a 0 em Brownsburg",
-    "summary": "Blake Bayldon / Trey Hilderbrand superou Kozlov B./Kozlov S. por 2 a 0 em Brownsburg.",
-    "content": "Blake Bayldon / Trey Hilderbrand superou Kozlov B./Kozlov S. por 2 a 0 em Brownsburg., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Blake Bayldon / Trey Hilderbrand vence Kozlov B./Kozlov S. por 2 a 0",
-    "seoDescription": "Blake Bayldon / Trey Hilderbrand superou Kozlov B./Kozlov S. por 2 a 0 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T21:57:51.810Z",
-    "createdAt": "2026-08-14T21:57:51.810Z",
-    "updatedAt": "2026-08-14T21:57:51.810Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808200",
-      "eventStartTime": "2026-08-14T19:08:31+00:00",
-      "retrievedAt": "2026-08-14T21:57:51.810Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-86767d0c5df0",
-    "slug": "cd-yanapuma-w-supera-defensores-w-por-3-a-2-pelo-women-league-86767d",
-    "sportId": "futebol",
-    "title": "CD Yanapuma (W) supera Defensores (W) por 3 a 2 pelo Women League",
-    "summary": "CD Yanapuma (W) venceu Defensores (W) por 3 a 2 pelo Women League.",
-    "content": "CD Yanapuma (W) venceu Defensores (W) por 3 a 2 pelo Women League, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "women-league"
-    ],
-    "seoTitle": "CD Yanapuma (W) supera Defensores (W) por 3 a 2 pelo Women League",
-    "seoDescription": "CD Yanapuma (W) venceu Defensores (W) por 3 a 2 pelo Women League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T21:57:51.780Z",
-    "createdAt": "2026-08-14T21:57:51.780Z",
-    "updatedAt": "2026-08-14T21:57:51.780Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814964",
-      "eventStartTime": "2026-08-14T20:00:00+00:00",
-      "retrievedAt": "2026-08-14T21:57:51.780Z",
-      "feedId": "futebol",
-      "league": "Women League"
     },
     "articleFormat": "result-brief"
   }
