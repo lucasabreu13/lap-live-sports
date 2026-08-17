@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-fc32a06711d1",
+    "slug": "chicago-white-sox-vence-detroit-tigers-por-7-a-5-na-mlb-fc32a0",
+    "sportId": "beisebol",
+    "title": "Chicago White Sox vence Detroit Tigers por 7 a 5 na MLB",
+    "summary": "Chicago White Sox derrotou Detroit Tigers por 7 a 5 na MLB.",
+    "content": "Chicago White Sox derrotou Detroit Tigers por 7 a 5 na MLB, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Chicago White Sox vence Detroit Tigers por 7 a 5 na MLB",
+    "seoDescription": "Chicago White Sox derrotou Detroit Tigers por 7 a 5 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T13:13:07.534Z",
+    "createdAt": "2026-08-17T13:13:07.534Z",
+    "updatedAt": "2026-08-17T13:13:07.534Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614807",
+      "eventStartTime": "2026-08-16T17:40:00+00:00",
+      "retrievedAt": "2026-08-17T13:13:07.534Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-6e4a77096c93",
+    "slug": "sumit-nagal-vence-eduardo-ribeiro-por-1-a-0-em-prague-6e4a77",
+    "sportId": "tenis",
+    "title": "Sumit Nagal vence Eduardo Ribeiro por 1 a 0 em Prague",
+    "summary": "Sumit Nagal superou Eduardo Ribeiro por 1 a 0 em Prague.",
+    "content": "Sumit Nagal superou Eduardo Ribeiro por 1 a 0 em Prague., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Sumit Nagal vence Eduardo Ribeiro por 1 a 0 em Prague",
+    "seoDescription": "Sumit Nagal superou Eduardo Ribeiro por 1 a 0 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T13:13:07.524Z",
+    "createdAt": "2026-08-17T13:13:07.524Z",
+    "updatedAt": "2026-08-17T13:13:07.524Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815439",
+      "eventStartTime": "2026-08-17T11:34:16+00:00",
+      "retrievedAt": "2026-08-17T13:13:07.524Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d50c3514ec9c",
+    "slug": "general-diaz-e-sport-colonial-ficam-no-0-a-0-pelo-apf-primera-c-d50c35",
+    "sportId": "futebol",
+    "title": "General Diaz e Sport Colonial ficam no 0 a 0 pelo APF Primera C",
+    "summary": "General Diaz e Sport Colonial empataram por 0 a 0 pelo APF Primera C.",
+    "content": "General Diaz e Sport Colonial empataram por 0 a 0 pelo APF Primera C, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "apf-primera-c"
+    ],
+    "seoTitle": "General Diaz e Sport Colonial ficam no 0 a 0 pelo APF Primera C",
+    "seoDescription": "General Diaz e Sport Colonial empataram por 0 a 0 pelo APF Primera C.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T13:13:07.486Z",
+    "createdAt": "2026-08-17T13:13:07.486Z",
+    "updatedAt": "2026-08-17T13:13:07.486Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809706",
+      "eventStartTime": "2026-08-17T13:00:00+00:00",
+      "retrievedAt": "2026-08-17T13:13:07.486Z",
+      "feedId": "futebol",
+      "league": "APF Primera C"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d4eccac987eb",
     "slug": "new-york-mets-vence-washington-nationals-por-4-a-3-na-mlb-d4ecca",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-15T06:39:24.606Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-afaa3872f30b",
-    "slug": "fencibles-united-e-auckland-united-ficam-no-0-a-0-pelo-national-league-afaa38",
-    "sportId": "futebol",
-    "title": "Fencibles United e Auckland United ficam no 0 a 0 pelo National League",
-    "summary": "Fencibles United e Auckland United empataram por 0 a 0 pelo National League.",
-    "content": "Fencibles United e Auckland United empataram por 0 a 0 pelo National League, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "national-league"
-    ],
-    "seoTitle": "Fencibles United e Auckland United ficam no 0 a 0 pelo National League",
-    "seoDescription": "Fencibles United e Auckland United empataram por 0 a 0 pelo National League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T06:39:24.549Z",
-    "createdAt": "2026-08-15T06:39:24.549Z",
-    "updatedAt": "2026-08-15T06:39:24.549Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4678287",
-      "eventStartTime": "2026-08-15T06:30:00+00:00",
-      "retrievedAt": "2026-08-15T06:39:24.549Z",
-      "feedId": "futebol",
-      "league": "National League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2ac2a2877a3c",
-    "slug": "michael-zheng-vence-fabian-marozsan-por-2-a-1-em-cincinnati-2ac2a2",
-    "sportId": "tenis",
-    "title": "Michael Zheng vence Fabian Marozsan por 2 a 1 em Cincinnati",
-    "summary": "Michael Zheng superou Fabian Marozsan por 2 a 1 em Cincinnati.",
-    "content": "Michael Zheng superou Fabian Marozsan por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Michael Zheng vence Fabian Marozsan por 2 a 1 em Cincinnati",
-    "seoDescription": "Michael Zheng superou Fabian Marozsan por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T05:59:58.767Z",
-    "createdAt": "2026-08-15T05:59:58.767Z",
-    "updatedAt": "2026-08-15T05:59:58.767Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813400",
-      "eventStartTime": "2026-08-14T20:50:35+00:00",
-      "retrievedAt": "2026-08-15T05:59:58.767Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-53155a4f62a0",
-    "slug": "utah-royals-supera-bay-fc-por-3-a-2-pelo-nwsl-53155a",
-    "sportId": "futebol",
-    "title": "Utah Royals supera Bay FC por 3 a 2 pelo NWSL",
-    "summary": "Utah Royals venceu Bay FC por 3 a 2 pelo NWSL.",
-    "content": "Utah Royals venceu Bay FC por 3 a 2 pelo NWSL, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "nwsl"
-    ],
-    "seoTitle": "Utah Royals supera Bay FC por 3 a 2 pelo NWSL",
-    "seoDescription": "Utah Royals venceu Bay FC por 3 a 2 pelo NWSL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T05:59:58.721Z",
-    "createdAt": "2026-08-15T05:59:58.721Z",
-    "updatedAt": "2026-08-15T05:59:58.721Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4653912",
-      "eventStartTime": "2026-08-15T02:00:00+00:00",
-      "retrievedAt": "2026-08-15T05:59:58.721Z",
-      "feedId": "futebol",
-      "league": "NWSL"
     },
     "articleFormat": "result-brief"
   }
