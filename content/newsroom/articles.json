@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-e5714a515a70",
+    "slug": "st-louis-cardinals-vence-cincinnati-reds-por-2-a-1-na-mlb-e5714a",
+    "sportId": "beisebol",
+    "title": "St. Louis Cardinals vence Cincinnati Reds por 2 a 1 na MLB",
+    "summary": "St. Louis Cardinals derrotou Cincinnati Reds por 2 a 1 na MLB.",
+    "content": "St. Louis Cardinals derrotou Cincinnati Reds por 2 a 1 na MLB, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "St. Louis Cardinals vence Cincinnati Reds por 2 a 1 na MLB",
+    "seoDescription": "St. Louis Cardinals derrotou Cincinnati Reds por 2 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T20:49:57.448Z",
+    "createdAt": "2026-08-17T20:49:57.448Z",
+    "updatedAt": "2026-08-17T20:49:57.448Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4555787",
+      "eventStartTime": "2026-08-17T17:40:00+00:00",
+      "retrievedAt": "2026-08-17T20:49:57.448Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-853cfb529b86",
+    "slug": "dusan-lajovic-vence-alexander-rozin-por-2-a-0-em-quebec-city-853cfb",
+    "sportId": "tenis",
+    "title": "Dusan Lajovic vence Alexander Rozin por 2 a 0 em Quebec City",
+    "summary": "Dusan Lajovic superou Alexander Rozin por 2 a 0 em Quebec City.",
+    "content": "Dusan Lajovic superou Alexander Rozin por 2 a 0 em Quebec City., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Dusan Lajovic vence Alexander Rozin por 2 a 0 em Quebec City",
+    "seoDescription": "Dusan Lajovic superou Alexander Rozin por 2 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T20:49:57.443Z",
+    "createdAt": "2026-08-17T20:49:57.443Z",
+    "updatedAt": "2026-08-17T20:49:57.443Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816154",
+      "eventStartTime": "2026-08-17T19:07:24+00:00",
+      "retrievedAt": "2026-08-17T20:49:57.443Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5f4ce407f7f9",
+    "slug": "south-sudan-w-vence-brazil-w-por-63-a-61-em-olympic-qualification-w-5f4ce4",
+    "sportId": "basquete",
+    "title": "South Sudan (W) vence Brazil (W) por 63 a 61 em Olympic Qualification (W)",
+    "summary": "South Sudan (W) superou Brazil (W) por 63 a 61 em Olympic Qualification (W).",
+    "content": "South Sudan (W) superou Brazil (W) por 63 a 61 em Olympic Qualification (W)., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "olympic-qualification-w"
+    ],
+    "seoTitle": "South Sudan (W) vence Brazil (W) por 63 a 61 em Olympic Qualification",
+    "seoDescription": "South Sudan (W) superou Brazil (W) por 63 a 61 em Olympic Qualification (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T20:49:57.439Z",
+    "createdAt": "2026-08-17T20:49:57.439Z",
+    "updatedAt": "2026-08-17T20:49:57.439Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816709",
+      "eventStartTime": "2026-08-17T18:30:00+00:00",
+      "retrievedAt": "2026-08-17T20:49:57.439Z",
+      "feedId": "basquete",
+      "league": "Olympic Qualification (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-0ed50940b692",
+    "slug": "cremonese-supera-sampdoria-por-2-a-0-pelo-coppa-italia-0ed509",
+    "sportId": "futebol",
+    "title": "Cremonese supera Sampdoria por 2 a 0 pelo Coppa Italia",
+    "summary": "Cremonese venceu Sampdoria por 2 a 0 pelo Coppa Italia.",
+    "content": "Cremonese venceu Sampdoria por 2 a 0 pelo Coppa Italia, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "coppa-italia"
+    ],
+    "seoTitle": "Cremonese supera Sampdoria por 2 a 0 pelo Coppa Italia",
+    "seoDescription": "Cremonese venceu Sampdoria por 2 a 0 pelo Coppa Italia.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T20:49:57.436Z",
+    "createdAt": "2026-08-17T20:49:57.436Z",
+    "updatedAt": "2026-08-17T20:49:57.436Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4747425",
+      "eventStartTime": "2026-08-17T18:45:00+00:00",
+      "retrievedAt": "2026-08-17T20:49:57.436Z",
+      "feedId": "futebol",
+      "league": "Coppa Italia"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-504a3efb771d",
     "slug": "diana-shnaider-e-maja-chwalinska-empatam-por-0-a-0-em-cincinnati-504a3e",
     "sportId": "tenis",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-15T13:05:01.985Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5d6029b2e7eb",
-    "slug": "sha-ab-hadramaut-e-mukallah-fc-ficam-no-0-a-0-pelo-yemeni-league-5d6029",
-    "sportId": "futebol",
-    "title": "Sha'ab Hadramaut e Mukallah FC ficam no 0 a 0 pelo Yemeni League",
-    "summary": "Sha'ab Hadramaut e Mukallah FC empataram por 0 a 0 pelo Yemeni League.",
-    "content": "Sha'ab Hadramaut e Mukallah FC empataram por 0 a 0 pelo Yemeni League, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "yemeni-league"
-    ],
-    "seoTitle": "Sha'ab Hadramaut e Mukallah FC ficam no 0 a 0 pelo Yemeni League",
-    "seoDescription": "Sha'ab Hadramaut e Mukallah FC empataram por 0 a 0 pelo Yemeni League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T13:05:01.924Z",
-    "createdAt": "2026-08-15T13:05:01.924Z",
-    "updatedAt": "2026-08-15T13:05:01.924Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4742988",
-      "eventStartTime": "2026-08-15T13:00:00+00:00",
-      "retrievedAt": "2026-08-15T13:05:01.924Z",
-      "feedId": "futebol",
-      "league": "Yemeni League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-186835c98394",
-    "slug": "samsung-lions-vence-hanwha-eagles-por-8-a-5-na-kbo-186835",
-    "sportId": "beisebol",
-    "title": "Samsung Lions vence Hanwha Eagles por 8 a 5 na KBO",
-    "summary": "Samsung Lions derrotou Hanwha Eagles por 8 a 5 na KBO.",
-    "content": "Samsung Lions derrotou Hanwha Eagles por 8 a 5 na KBO, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "kbo"
-    ],
-    "seoTitle": "Samsung Lions vence Hanwha Eagles por 8 a 5 na KBO",
-    "seoDescription": "Samsung Lions derrotou Hanwha Eagles por 8 a 5 na KBO.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T12:15:42.042Z",
-    "createdAt": "2026-08-15T12:15:42.042Z",
-    "updatedAt": "2026-08-15T12:15:42.042Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813615",
-      "eventStartTime": "2026-08-14T10:00:00+00:00",
-      "retrievedAt": "2026-08-15T12:15:42.042Z",
-      "feedId": "beisebol",
-      "league": "KBO"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3a527de19821",
-    "slug": "anna-blinkova-vence-mananchaya-sawangkaew-por-2-a-1-em-cincinnati-3a527d",
-    "sportId": "tenis",
-    "title": "Anna Blinkova vence Mananchaya Sawangkaew por 2 a 1 em Cincinnati",
-    "summary": "Anna Blinkova superou Mananchaya Sawangkaew por 2 a 1 em Cincinnati.",
-    "content": "Anna Blinkova superou Mananchaya Sawangkaew por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Anna Blinkova vence Mananchaya Sawangkaew por 2 a 1 em Cincinnati",
-    "seoDescription": "Anna Blinkova superou Mananchaya Sawangkaew por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T12:15:42.017Z",
-    "createdAt": "2026-08-15T12:15:42.017Z",
-    "updatedAt": "2026-08-15T12:15:42.017Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813447",
-      "eventStartTime": "2026-08-14T16:34:36+00:00",
-      "retrievedAt": "2026-08-15T12:15:42.017Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fa0efc31841a",
-    "slug": "yanbian-longding-supera-dalian-k-un-city-por-3-a-1-pelo-league-one-fa0efc",
-    "sportId": "futebol",
-    "title": "Yanbian Longding supera Dalian K'un City por 3 a 1 pelo League One",
-    "summary": "Yanbian Longding venceu Dalian K'un City por 3 a 1 pelo League One.",
-    "content": "Yanbian Longding venceu Dalian K'un City por 3 a 1 pelo League One, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "league-one"
-    ],
-    "seoTitle": "Yanbian Longding supera Dalian K'un City por 3 a 1 pelo League One",
-    "seoDescription": "Yanbian Longding venceu Dalian K'un City por 3 a 1 pelo League One.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T12:15:41.961Z",
-    "createdAt": "2026-08-15T12:15:41.961Z",
-    "updatedAt": "2026-08-15T12:15:41.961Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4680076",
-      "eventStartTime": "2026-08-15T10:00:00+00:00",
-      "retrievedAt": "2026-08-15T12:15:41.961Z",
-      "feedId": "futebol",
-      "league": "League One"
     },
     "articleFormat": "result-brief"
   }
