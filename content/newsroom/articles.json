@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-c302b41bdfed",
+    "slug": "juan-bautista-torres-vence-marek-gengel-por-2-a-1-em-prague-c302b4",
+    "sportId": "tenis",
+    "title": "Juan Bautista Torres vence Marek Gengel por 2 a 1 em Prague",
+    "summary": "Juan Bautista Torres superou Marek Gengel por 2 a 1 em Prague.",
+    "content": "Juan Bautista Torres superou Marek Gengel por 2 a 1 em Prague., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Juan Bautista Torres vence Marek Gengel por 2 a 1 em Prague",
+    "seoDescription": "Juan Bautista Torres superou Marek Gengel por 2 a 1 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T17:51:26.574Z",
+    "createdAt": "2026-08-17T17:51:26.574Z",
+    "updatedAt": "2026-08-17T17:51:26.574Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815498",
+      "eventStartTime": "2026-08-17T15:22:56+00:00",
+      "retrievedAt": "2026-08-17T17:51:26.574Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1e87f33914b6",
+    "slug": "fc-nomme-united-ii-supera-kalju-nomme-ii-por-2-a-0-pelo-esiliiga-1e87f3",
+    "sportId": "futebol",
+    "title": "FC Nomme United II supera Kalju Nomme II por 2 a 0 pelo Esiliiga",
+    "summary": "FC Nomme United II venceu Kalju Nomme II por 2 a 0 pelo Esiliiga.",
+    "content": "FC Nomme United II venceu Kalju Nomme II por 2 a 0 pelo Esiliiga, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "esiliiga"
+    ],
+    "seoTitle": "FC Nomme United II supera Kalju Nomme II por 2 a 0 pelo Esiliiga",
+    "seoDescription": "FC Nomme United II venceu Kalju Nomme II por 2 a 0 pelo Esiliiga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T17:51:26.540Z",
+    "createdAt": "2026-08-17T17:51:26.540Z",
+    "updatedAt": "2026-08-17T17:51:26.540Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4684607",
+      "eventStartTime": "2026-08-17T16:00:00+00:00",
+      "retrievedAt": "2026-08-17T17:51:26.540Z",
+      "feedId": "futebol",
+      "league": "Esiliiga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-95aeffe590d7",
     "slug": "iga-swiatek-vence-maria-sakkari-por-2-a-1-em-cincinnati-95aeff",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T10:44:45.322Z",
       "feedId": "tenis",
       "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a08bd95cf38f",
-    "slug": "phnom-penh-crown-supera-persik-kediri-por-4-a-0-pelo-club-friendlies-a08bd9",
-    "sportId": "futebol",
-    "title": "Phnom Penh Crown supera Persik Kediri por 4 a 0 pelo Club Friendlies",
-    "summary": "Phnom Penh Crown venceu Persik Kediri por 4 a 0 pelo Club Friendlies.",
-    "content": "Phnom Penh Crown venceu Persik Kediri por 4 a 0 pelo Club Friendlies, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Phnom Penh Crown supera Persik Kediri por 4 a 0 pelo Club Friendlies",
-    "seoDescription": "Phnom Penh Crown venceu Persik Kediri por 4 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T10:44:45.258Z",
-    "createdAt": "2026-08-15T10:44:45.258Z",
-    "updatedAt": "2026-08-15T10:44:45.258Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814855",
-      "eventStartTime": "2026-08-15T08:30:00+00:00",
-      "retrievedAt": "2026-08-15T10:44:45.258Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6628f906fce3",
-    "slug": "pablo-carreno-busta-vence-tomas-machac-por-2-a-0-em-cincinnati-6628f9",
-    "sportId": "tenis",
-    "title": "Pablo Carreno-Busta vence Tomas Machac por 2 a 0 em Cincinnati",
-    "summary": "Pablo Carreno-Busta superou Tomas Machac por 2 a 0 em Cincinnati.",
-    "content": "Pablo Carreno-Busta superou Tomas Machac por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Pablo Carreno-Busta vence Tomas Machac por 2 a 0 em Cincinnati",
-    "seoDescription": "Pablo Carreno-Busta superou Tomas Machac por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T10:16:58.929Z",
-    "createdAt": "2026-08-15T10:16:58.929Z",
-    "updatedAt": "2026-08-15T10:16:58.929Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809632",
-      "eventStartTime": "2026-08-14T17:19:01+00:00",
-      "retrievedAt": "2026-08-15T10:16:58.929Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
