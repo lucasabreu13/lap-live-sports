@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-34f361b60bff",
+    "slug": "xin-yu-wang-vence-donna-vekic-por-2-a-1-em-cincinnati-34f361",
+    "sportId": "tenis",
+    "title": "Xin-Yu Wang vence Donna Vekic por 2 a 1 em Cincinnati",
+    "summary": "Xin-Yu Wang superou Donna Vekic por 2 a 1 em Cincinnati.",
+    "content": "Xin-Yu Wang superou Donna Vekic por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Xin-Yu Wang vence Donna Vekic por 2 a 1 em Cincinnati",
+    "seoDescription": "Xin-Yu Wang superou Donna Vekic por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T05:20:09.786Z",
+    "createdAt": "2026-08-17T05:20:09.786Z",
+    "updatedAt": "2026-08-17T05:20:09.786Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815098",
+      "eventStartTime": "2026-08-16T15:10:08+00:00",
+      "retrievedAt": "2026-08-17T05:20:09.786Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3cb28c121727",
+    "slug": "club-tijuana-supera-cruz-azul-por-2-a-1-pela-liga-mx-3cb28c",
+    "sportId": "futebol",
+    "title": "Club Tijuana supera Cruz Azul por 2 a 1 pela Liga MX",
+    "summary": "Club Tijuana venceu Cruz Azul por 2 a 1 pela Liga MX.",
+    "content": "Club Tijuana venceu Cruz Azul por 2 a 1 pela Liga MX, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-mx"
+    ],
+    "seoTitle": "Club Tijuana supera Cruz Azul por 2 a 1 pela Liga MX",
+    "seoDescription": "Club Tijuana venceu Cruz Azul por 2 a 1 pela Liga MX.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T05:20:09.685Z",
+    "createdAt": "2026-08-17T05:20:09.685Z",
+    "updatedAt": "2026-08-17T05:20:09.685Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4735730",
+      "eventStartTime": "2026-08-17T03:00:00+00:00",
+      "retrievedAt": "2026-08-17T05:20:09.685Z",
+      "feedId": "futebol",
+      "league": "Liga MX"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-a0b6e1b32d1b",
     "slug": "frances-tiafoe-vence-lorenzo-sonego-por-2-a-0-em-cincinnati-a0b6e1",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-14T23:57:44.960Z",
       "feedId": "futebol",
       "league": "Paulista U20"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8429f3b2b211",
-    "slug": "marco-trungelliti-vence-hamad-medjedovic-por-2-a-0-em-cincinnati-8429f3",
-    "sportId": "tenis",
-    "title": "Marco Trungelliti vence Hamad Medjedovic por 2 a 0 em Cincinnati",
-    "summary": "Marco Trungelliti superou Hamad Medjedovic por 2 a 0 em Cincinnati.",
-    "content": "Marco Trungelliti superou Hamad Medjedovic por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Marco Trungelliti vence Hamad Medjedovic por 2 a 0 em Cincinnati",
-    "seoDescription": "Marco Trungelliti superou Hamad Medjedovic por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T23:34:18.571Z",
-    "createdAt": "2026-08-14T23:34:18.571Z",
-    "updatedAt": "2026-08-14T23:34:18.571Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813399",
-      "eventStartTime": "2026-08-14T20:50:46+00:00",
-      "retrievedAt": "2026-08-14T23:34:18.571Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4e1d08801138",
-    "slug": "2-de-mayo-supera-recoleta-fc-por-2-a-1-pela-copa-de-primera-4e1d08",
-    "sportId": "futebol",
-    "title": "2 de Mayo supera Recoleta FC por 2 a 1 pela Copa de Primera",
-    "summary": "2 de Mayo venceu Recoleta FC por 2 a 1 pela Copa de Primera.",
-    "content": "2 de Mayo venceu Recoleta FC por 2 a 1 pela Copa de Primera, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-de-primera"
-    ],
-    "seoTitle": "2 de Mayo supera Recoleta FC por 2 a 1 pela Copa de Primera",
-    "seoDescription": "2 de Mayo venceu Recoleta FC por 2 a 1 pela Copa de Primera.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T23:34:18.541Z",
-    "createdAt": "2026-08-14T23:34:18.541Z",
-    "updatedAt": "2026-08-14T23:34:18.541Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4764155",
-      "eventStartTime": "2026-08-14T21:30:00+00:00",
-      "retrievedAt": "2026-08-14T23:34:18.541Z",
-      "feedId": "futebol",
-      "league": "Copa de Primera"
     },
     "articleFormat": "result-brief"
   }
