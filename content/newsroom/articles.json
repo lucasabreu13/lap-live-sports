@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-284efd7e0487",
+    "slug": "alec-deckers-vence-ali-habib-por-2-a-1-em-roehampton-284efd",
+    "sportId": "tenis",
+    "title": "Alec Deckers vence Ali Habib por 2 a 1 em Roehampton",
+    "summary": "Alec Deckers superou Ali Habib por 2 a 1 em Roehampton.",
+    "content": "Alec Deckers superou Ali Habib por 2 a 1 em Roehampton., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Alec Deckers vence Ali Habib por 2 a 1 em Roehampton",
+    "seoDescription": "Alec Deckers superou Ali Habib por 2 a 1 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T13:52:20.385Z",
+    "createdAt": "2026-08-17T13:52:20.385Z",
+    "updatedAt": "2026-08-17T13:52:20.385Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815880",
+      "eventStartTime": "2026-08-17T11:48:06+00:00",
+      "retrievedAt": "2026-08-17T13:52:20.385Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-42970dde072d",
+    "slug": "cd-rio-blanco-supera-juventus-managua-por-2-a-0-pela-liga-de-ascenso-42970d",
+    "sportId": "futebol",
+    "title": "CD Rio Blanco supera Juventus Managua por 2 a 0 pela Liga de Ascenso",
+    "summary": "CD Rio Blanco venceu Juventus Managua por 2 a 0 pela Liga de Ascenso.",
+    "content": "CD Rio Blanco venceu Juventus Managua por 2 a 0 pela Liga de Ascenso, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "CD Rio Blanco supera Juventus Managua por 2 a 0 pela Liga de Ascenso",
+    "seoDescription": "CD Rio Blanco venceu Juventus Managua por 2 a 0 pela Liga de Ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T13:52:20.356Z",
+    "createdAt": "2026-08-17T13:52:20.356Z",
+    "updatedAt": "2026-08-17T13:52:20.356Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811374",
+      "eventStartTime": "2026-08-17T00:00:00+00:00",
+      "retrievedAt": "2026-08-17T13:52:20.356Z",
+      "feedId": "futebol",
+      "league": "Liga de Ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-fc32a06711d1",
     "slug": "chicago-white-sox-vence-detroit-tigers-por-7-a-5-na-mlb-fc32a0",
     "sportId": "beisebol",
@@ -12510,90 +12594,6 @@
       "eventId": "365-4809626",
       "eventStartTime": "2026-08-14T19:07:45+00:00",
       "retrievedAt": "2026-08-15T07:14:58.342Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e16b928cd03f",
-    "slug": "ska-khabarovsk-supera-veles-por-2-a-0-pelo-russian-first-league-e16b92",
-    "sportId": "futebol",
-    "title": "SKA Khabarovsk supera Veles por 2 a 0 pelo Russian First League",
-    "summary": "SKA Khabarovsk venceu Veles por 2 a 0 pelo Russian First League.",
-    "content": "SKA Khabarovsk venceu Veles por 2 a 0 pelo Russian First League, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "russian-first-league"
-    ],
-    "seoTitle": "SKA Khabarovsk supera Veles por 2 a 0 pelo Russian First League",
-    "seoDescription": "SKA Khabarovsk venceu Veles por 2 a 0 pelo Russian First League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T07:14:58.284Z",
-    "createdAt": "2026-08-15T07:14:58.284Z",
-    "updatedAt": "2026-08-15T07:14:58.284Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4760480",
-      "eventStartTime": "2026-08-15T05:00:00+00:00",
-      "retrievedAt": "2026-08-15T07:14:58.284Z",
-      "feedId": "futebol",
-      "league": "Russian First League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2a26ec195525",
-    "slug": "adam-walton-vence-nicolas-mejia-por-2-a-0-em-cincinnati-2a26ec",
-    "sportId": "tenis",
-    "title": "Adam Walton vence Nicolas Mejia por 2 a 0 em Cincinnati",
-    "summary": "Adam Walton superou Nicolas Mejia por 2 a 0 em Cincinnati.",
-    "content": "Adam Walton superou Nicolas Mejia por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Adam Walton vence Nicolas Mejia por 2 a 0 em Cincinnati",
-    "seoDescription": "Adam Walton superou Nicolas Mejia por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T06:39:24.606Z",
-    "createdAt": "2026-08-15T06:39:24.606Z",
-    "updatedAt": "2026-08-15T06:39:24.606Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813395",
-      "eventStartTime": "2026-08-14T20:30:58+00:00",
-      "retrievedAt": "2026-08-15T06:39:24.606Z",
       "feedId": "tenis",
       "league": "Cincinnati"
     },
