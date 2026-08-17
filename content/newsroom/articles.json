@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-2256aed3c85d",
+    "slug": "atlanta-braves-vence-arizona-diamondbacks-por-5-a-3-na-mlb-2256ae",
+    "sportId": "beisebol",
+    "title": "Atlanta Braves vence Arizona Diamondbacks por 5 a 3 na MLB",
+    "summary": "Atlanta Braves derrotou Arizona Diamondbacks por 5 a 3 na MLB.",
+    "content": "Atlanta Braves derrotou Arizona Diamondbacks por 5 a 3 na MLB, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Atlanta Braves vence Arizona Diamondbacks por 5 a 3 na MLB",
+    "seoDescription": "Atlanta Braves derrotou Arizona Diamondbacks por 5 a 3 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T09:05:53.306Z",
+    "createdAt": "2026-08-17T09:05:53.306Z",
+    "updatedAt": "2026-08-17T09:05:53.306Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614798",
+      "eventStartTime": "2026-08-16T17:35:00+00:00",
+      "retrievedAt": "2026-08-17T09:05:53.306Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-cecac9e27afb",
+    "slug": "aoyama-s-liang-e-vence-neel-i-olmos-g-por-2-a-0-em-cincinnati-cecac9",
+    "sportId": "tenis",
+    "title": "Aoyama S./Liang E. vence Neel I./Olmos G. por 2 a 0 em Cincinnati",
+    "summary": "Aoyama S./Liang E. superou Neel I./Olmos G. por 2 a 0 em Cincinnati.",
+    "content": "Aoyama S./Liang E. superou Neel I./Olmos G. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Aoyama S./Liang E. vence Neel I./Olmos G. por 2 a 0 em Cincinnati",
+    "seoDescription": "Aoyama S./Liang E. superou Neel I./Olmos G. por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T09:05:53.293Z",
+    "createdAt": "2026-08-17T09:05:53.293Z",
+    "updatedAt": "2026-08-17T09:05:53.293Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815121",
+      "eventStartTime": "2026-08-16T15:06:38+00:00",
+      "retrievedAt": "2026-08-17T09:05:53.293Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9693ca151940",
+    "slug": "fc-dallas-supera-austin-fc-por-2-a-1-pelo-mls-9693ca",
+    "sportId": "futebol",
+    "title": "FC Dallas supera Austin FC por 2 a 1 pela MLS",
+    "summary": "FC Dallas venceu Austin FC por 2 a 1 pela MLS.",
+    "content": "FC Dallas venceu Austin FC por 2 a 1 pela MLS, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "FC Dallas supera Austin FC por 2 a 1 pela MLS",
+    "seoDescription": "FC Dallas venceu Austin FC por 2 a 1 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T09:05:53.225Z",
+    "createdAt": "2026-08-17T09:05:53.225Z",
+    "updatedAt": "2026-08-17T09:05:53.225Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4621453",
+      "eventStartTime": "2026-08-17T00:30:00+00:00",
+      "retrievedAt": "2026-08-17T09:05:53.225Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-0e75e08dc1da",
     "slug": "miami-marlins-vence-cincinnati-reds-por-7-a-1-na-mlb-0e75e0",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-15T03:51:43.197Z",
       "feedId": "futebol",
       "league": "Primera Division Women"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b09669eb6bac",
-    "slug": "escobar-g-kaliyanda-poonacha-n-vence-lammons-n-withrow-j-por-2-a-0-em-brownsburg-b09669",
-    "sportId": "tenis",
-    "title": "Escobar G./Kaliyanda Poonacha N. vence Lammons N./Withrow J. por 2 a 0 em Brownsburg",
-    "summary": "Escobar G./Kaliyanda Poonacha N. superou Lammons N./Withrow J. por 2 a 0 em Brownsburg.",
-    "content": "Escobar G./Kaliyanda Poonacha N. superou Lammons N./Withrow J. por 2 a 0 em Brownsburg., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Escobar G./Kaliyanda Poonacha N. vence Lammons N./Withrow J. por 2 a 0",
-    "seoDescription": "Escobar G./Kaliyanda Poonacha N. superou Lammons N./Withrow J. por 2 a 0 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T03:02:44.748Z",
-    "createdAt": "2026-08-15T03:02:44.748Z",
-    "updatedAt": "2026-08-15T03:02:44.748Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815049",
-      "eventStartTime": "2026-08-15T01:38:34+00:00",
-      "retrievedAt": "2026-08-15T03:02:44.748Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9952804af369",
-    "slug": "universidad-de-concepcion-vence-espanol-de-talca-por-103-a-80-em-lnb-995280",
-    "sportId": "basquete",
-    "title": "Universidad De Concepcion vence Espanol De Talca por 103 a 80 em LNB",
-    "summary": "Universidad De Concepcion superou Espanol De Talca por 103 a 80 em LNB.",
-    "content": "Universidad De Concepcion superou Espanol De Talca por 103 a 80 em LNB., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Universidad De Concepcion vence Espanol De Talca por 103 a 80 em LNB",
-    "seoDescription": "Universidad De Concepcion superou Espanol De Talca por 103 a 80 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T03:02:44.744Z",
-    "createdAt": "2026-08-15T03:02:44.744Z",
-    "updatedAt": "2026-08-15T03:02:44.744Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807265",
-      "eventStartTime": "2026-08-15T00:00:00+00:00",
-      "retrievedAt": "2026-08-15T03:02:44.744Z",
-      "feedId": "basquete",
-      "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c074ac52beda",
-    "slug": "denver-broncos-vence-atlanta-falcons-por-27-a-7-em-nfl-c074ac",
-    "sportId": "futebol-americano",
-    "title": "Denver Broncos vence Atlanta Falcons por 27 a 7 em NFL",
-    "summary": "Denver Broncos superou Atlanta Falcons por 27 a 7 em NFL.",
-    "content": "Denver Broncos superou Atlanta Falcons por 27 a 7 em NFL., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "Denver Broncos vence Atlanta Falcons por 27 a 7 em NFL",
-    "seoDescription": "Denver Broncos superou Atlanta Falcons por 27 a 7 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T03:02:44.741Z",
-    "createdAt": "2026-08-15T03:02:44.741Z",
-    "updatedAt": "2026-08-15T03:02:44.741Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714906",
-      "eventStartTime": "2026-08-14T23:00:00+00:00",
-      "retrievedAt": "2026-08-15T03:02:44.741Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
     },
     "articleFormat": "result-brief"
   }
