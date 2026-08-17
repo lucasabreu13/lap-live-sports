@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-21da0a30c9b6",
+    "slug": "sorana-cirstea-e-anna-kalinskaya-empatam-por-0-a-0-em-cincinnati-21da0a",
+    "sportId": "tenis",
+    "title": "Sorana Cirstea e Anna Kalinskaya empatam por 0 a 0 em Cincinnati",
+    "summary": "Sorana Cirstea e Anna Kalinskaya terminaram empatados por 0 a 0 em Cincinnati.",
+    "content": "Sorana Cirstea e Anna Kalinskaya terminaram empatados por 0 a 0 em Cincinnati., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Sorana Cirstea e Anna Kalinskaya empatam por 0 a 0 em Cincinnati",
+    "seoDescription": "Sorana Cirstea e Anna Kalinskaya terminaram empatados por 0 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T19:05:41.446Z",
+    "createdAt": "2026-08-17T19:05:41.446Z",
+    "updatedAt": "2026-08-17T19:05:41.446Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815435",
+      "eventStartTime": "2026-08-17T17:50:34+00:00",
+      "retrievedAt": "2026-08-17T19:05:41.446Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ab987bb8f633",
+    "slug": "chelmsford-city-e-ebbsfleet-united-ficam-no-0-a-0-pelo-national-league-n-s-ab987b",
+    "sportId": "futebol",
+    "title": "Chelmsford City e Ebbsfleet United ficam no 0 a 0 pelo National League N/S",
+    "summary": "Chelmsford City e Ebbsfleet United empataram por 0 a 0 pelo National League N/S.",
+    "content": "Chelmsford City e Ebbsfleet United empataram por 0 a 0 pelo National League N/S, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "national-league-n-s"
+    ],
+    "seoTitle": "Chelmsford City e Ebbsfleet United ficam no 0 a 0 pelo National League",
+    "seoDescription": "Chelmsford City e Ebbsfleet United empataram por 0 a 0 pelo National League N/S.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T19:05:41.411Z",
+    "createdAt": "2026-08-17T19:05:41.411Z",
+    "updatedAt": "2026-08-17T19:05:41.411Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4765047",
+      "eventStartTime": "2026-08-17T18:45:00+00:00",
+      "retrievedAt": "2026-08-17T19:05:41.411Z",
+      "feedId": "futebol",
+      "league": "National League N/S"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-79de2677fe68",
     "slug": "arthur-fery-e-alex-de-minaur-empatam-por-0-a-0-em-cincinnati-79de26",
     "sportId": "tenis",
@@ -12510,90 +12594,6 @@
       "eventId": "365-4809658",
       "eventStartTime": "2026-08-14T17:08:44+00:00",
       "retrievedAt": "2026-08-15T11:20:15.509Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-93da7b87b22b",
-    "slug": "kashima-antlers-supera-nagoya-grampus-por-2-a-1-pelo-j1-league-93da7b",
-    "sportId": "futebol",
-    "title": "Kashima Antlers supera Nagoya Grampus por 2 a 1 pelo J1 League",
-    "summary": "Kashima Antlers venceu Nagoya Grampus por 2 a 1 pelo J1 League.",
-    "content": "Kashima Antlers venceu Nagoya Grampus por 2 a 1 pelo J1 League, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "j1-league"
-    ],
-    "seoTitle": "Kashima Antlers supera Nagoya Grampus por 2 a 1 pelo J1 League",
-    "seoDescription": "Kashima Antlers venceu Nagoya Grampus por 2 a 1 pelo J1 League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T11:20:15.447Z",
-    "createdAt": "2026-08-15T11:20:15.447Z",
-    "updatedAt": "2026-08-15T11:20:15.447Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4739699",
-      "eventStartTime": "2026-08-15T09:00:00+00:00",
-      "retrievedAt": "2026-08-15T11:20:15.447Z",
-      "feedId": "futebol",
-      "league": "J1 League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5dc5e70256ea",
-    "slug": "peyton-stearns-vence-harriet-dart-por-2-a-0-em-cincinnati-5dc5e7",
-    "sportId": "tenis",
-    "title": "Peyton Stearns vence Harriet Dart por 2 a 0 em Cincinnati",
-    "summary": "Peyton Stearns superou Harriet Dart por 2 a 0 em Cincinnati.",
-    "content": "Peyton Stearns superou Harriet Dart por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Peyton Stearns vence Harriet Dart por 2 a 0 em Cincinnati",
-    "seoDescription": "Peyton Stearns superou Harriet Dart por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T10:59:31.248Z",
-    "createdAt": "2026-08-15T10:59:31.248Z",
-    "updatedAt": "2026-08-15T10:59:31.248Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813445",
-      "eventStartTime": "2026-08-14T17:09:47+00:00",
-      "retrievedAt": "2026-08-15T10:59:31.248Z",
       "feedId": "tenis",
       "league": "Cincinnati"
     },
