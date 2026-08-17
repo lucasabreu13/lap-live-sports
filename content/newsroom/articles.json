@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-b08052e54af0",
+    "slug": "klepac-a-lumsden-m-vence-detiuc-a-khromacheva-i-por-2-a-0-em-cincinnati-b08052",
+    "sportId": "tenis",
+    "title": "Klepac A./Lumsden M. vence Detiuc A./Khromacheva I. por 2 a 0 em Cincinnati",
+    "summary": "Klepac A./Lumsden M. superou Detiuc A./Khromacheva I. por 2 a 0 em Cincinnati.",
+    "content": "Klepac A./Lumsden M. superou Detiuc A./Khromacheva I. por 2 a 0 em Cincinnati., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Klepac A./Lumsden M. vence Detiuc A./Khromacheva I. por 2 a 0 em",
+    "seoDescription": "Klepac A./Lumsden M. superou Detiuc A./Khromacheva I. por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T23:57:57.769Z",
+    "createdAt": "2026-08-17T23:57:57.769Z",
+    "updatedAt": "2026-08-17T23:57:57.769Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815647",
+      "eventStartTime": "2026-08-17T21:12:35+00:00",
+      "retrievedAt": "2026-08-17T23:57:57.769Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1320e1cbb29f",
+    "slug": "deportes-copiapo-supera-curico-unido-por-4-a-0-pelo-primera-b-1320e1",
+    "sportId": "futebol",
+    "title": "Deportes Copiapo supera Curicó Unido por 4 a 0 pelo Primera B",
+    "summary": "Deportes Copiapo venceu Curicó Unido por 4 a 0 pelo Primera B.",
+    "content": "Deportes Copiapo venceu Curicó Unido por 4 a 0 pelo Primera B, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-b"
+    ],
+    "seoTitle": "Deportes Copiapo supera Curicó Unido por 4 a 0 pelo Primera B",
+    "seoDescription": "Deportes Copiapo venceu Curicó Unido por 4 a 0 pelo Primera B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T23:57:57.733Z",
+    "createdAt": "2026-08-17T23:57:57.733Z",
+    "updatedAt": "2026-08-17T23:57:57.733Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4656614",
+      "eventStartTime": "2026-08-17T22:00:00+00:00",
+      "retrievedAt": "2026-08-17T23:57:57.733Z",
+      "feedId": "futebol",
+      "league": "Primera B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3a4d3873a372",
     "slug": "jovic-i-mcnally-c-vence-tang-q-xu-y-por-2-a-1-em-cincinnati-3a4d38",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T15:56:00.283Z",
       "feedId": "futebol",
       "league": "OBOS-ligaen"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-48c1f8f557e6",
-    "slug": "hiroshima-toyo-carp-vence-hanshin-tigers-por-6-a-1-na-npb-48c1f8",
-    "sportId": "beisebol",
-    "title": "Hiroshima Toyo Carp vence Hanshin Tigers por 6 a 1 na NPB",
-    "summary": "Hiroshima Toyo Carp derrotou Hanshin Tigers por 6 a 1 na NPB.",
-    "content": "Hiroshima Toyo Carp derrotou Hanshin Tigers por 6 a 1 na NPB, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Hiroshima Toyo Carp vence Hanshin Tigers por 6 a 1 na NPB",
-    "seoDescription": "Hiroshima Toyo Carp derrotou Hanshin Tigers por 6 a 1 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T15:42:11.872Z",
-    "createdAt": "2026-08-15T15:42:11.872Z",
-    "updatedAt": "2026-08-15T15:42:11.872Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4626827",
-      "eventStartTime": "2026-08-14T09:00:00+00:00",
-      "retrievedAt": "2026-08-15T15:42:11.872Z",
-      "feedId": "beisebol",
-      "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-87315b5e5daf",
-    "slug": "daniel-altmaier-vence-coleman-wong-por-2-a-1-em-cincinnati-87315b",
-    "sportId": "tenis",
-    "title": "Daniel Altmaier vence Coleman Wong por 2 a 1 em Cincinnati",
-    "summary": "Daniel Altmaier superou Coleman Wong por 2 a 1 em Cincinnati.",
-    "content": "Daniel Altmaier superou Coleman Wong por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Daniel Altmaier vence Coleman Wong por 2 a 1 em Cincinnati",
-    "seoDescription": "Daniel Altmaier superou Coleman Wong por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T15:42:11.860Z",
-    "createdAt": "2026-08-15T15:42:11.860Z",
-    "updatedAt": "2026-08-15T15:42:11.860Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813401",
-      "eventStartTime": "2026-08-14T15:13:09+00:00",
-      "retrievedAt": "2026-08-15T15:42:11.860Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
