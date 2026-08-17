@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-ab775321caea",
+    "slug": "moez-echargui-e-hugo-grenier-empatam-por-0-a-0-em-cancun-ab7753",
+    "sportId": "tenis",
+    "title": "Moez Echargui e Hugo Grenier empatam por 0 a 0 em Cancun",
+    "summary": "Moez Echargui e Hugo Grenier terminaram empatados por 0 a 0 em Cancun.",
+    "content": "Moez Echargui e Hugo Grenier terminaram empatados por 0 a 0 em Cancun., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Moez Echargui e Hugo Grenier empatam por 0 a 0 em Cancun",
+    "seoDescription": "Moez Echargui e Hugo Grenier terminaram empatados por 0 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T19:57:31.021Z",
+    "createdAt": "2026-08-17T19:57:31.021Z",
+    "updatedAt": "2026-08-17T19:57:31.021Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816158",
+      "eventStartTime": "2026-08-17T20:00:00+00:00",
+      "retrievedAt": "2026-08-17T19:57:31.021Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-600b427336f6",
+    "slug": "independiente-medellin-w-e-america-de-cali-w-ficam-no-0-a-0-pelo-colombian-women-s-600b42",
+    "sportId": "futebol",
+    "title": "Independiente Medellín (W) e America De Cali (W) ficam no 0 a 0 pelo Colombian Women's League",
+    "summary": "Independiente Medellín (W) e America De Cali (W) empataram por 0 a 0 pelo Colombian Women's League.",
+    "content": "Independiente Medellín (W) e America De Cali (W) empataram por 0 a 0 pelo Colombian Women's League, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "colombian-women-s-league"
+    ],
+    "seoTitle": "Independiente Medellín (W) e America De Cali (W) ficam no 0 a 0 pelo",
+    "seoDescription": "Independiente Medellín (W) e America De Cali (W) empataram por 0 a 0 pelo Colombian Women's League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T19:57:30.986Z",
+    "createdAt": "2026-08-17T19:57:30.986Z",
+    "updatedAt": "2026-08-17T19:57:30.986Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807647",
+      "eventStartTime": "2026-08-17T20:00:00+00:00",
+      "retrievedAt": "2026-08-17T19:57:30.986Z",
+      "feedId": "futebol",
+      "league": "Colombian Women's League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-6f2fa83b7e66",
     "slug": "tristan-schoolkate-vence-nicolas-arseneault-por-2-a-0-em-quebec-city-6f2fa8",
     "sportId": "tenis",
@@ -12510,90 +12594,6 @@
       "eventId": "365-4809628",
       "eventStartTime": "2026-08-14T16:36:47+00:00",
       "retrievedAt": "2026-08-15T11:54:32.622Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ecb4b920be30",
-    "slug": "ceramica-cleopatra-e-al-nasr-ficam-no-0-a-0-pelo-club-friendlies-ecb4b9",
-    "sportId": "futebol",
-    "title": "Ceramica Cleopatra e Al Nasr ficam no 0 a 0 pelo Club Friendlies",
-    "summary": "Ceramica Cleopatra e Al Nasr empataram por 0 a 0 pelo Club Friendlies.",
-    "content": "Ceramica Cleopatra e Al Nasr empataram por 0 a 0 pelo Club Friendlies, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Ceramica Cleopatra e Al Nasr ficam no 0 a 0 pelo Club Friendlies",
-    "seoDescription": "Ceramica Cleopatra e Al Nasr empataram por 0 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T11:54:32.576Z",
-    "createdAt": "2026-08-15T11:54:32.576Z",
-    "updatedAt": "2026-08-15T11:54:32.576Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811633",
-      "eventStartTime": "2026-08-15T11:00:00+00:00",
-      "retrievedAt": "2026-08-15T11:54:32.576Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ed217d0d3da8",
-    "slug": "yannick-hanfmann-vence-luca-van-assche-por-2-a-0-em-cincinnati-ed217d",
-    "sportId": "tenis",
-    "title": "Yannick Hanfmann vence Luca Van Assche por 2 a 0 em Cincinnati",
-    "summary": "Yannick Hanfmann superou Luca Van Assche por 2 a 0 em Cincinnati.",
-    "content": "Yannick Hanfmann superou Luca Van Assche por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Yannick Hanfmann vence Luca Van Assche por 2 a 0 em Cincinnati",
-    "seoDescription": "Yannick Hanfmann superou Luca Van Assche por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T11:40:48.418Z",
-    "createdAt": "2026-08-15T11:40:48.418Z",
-    "updatedAt": "2026-08-15T11:40:48.418Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813394",
-      "eventStartTime": "2026-08-14T16:40:04+00:00",
-      "retrievedAt": "2026-08-15T11:40:48.418Z",
       "feedId": "tenis",
       "league": "Cincinnati"
     },
