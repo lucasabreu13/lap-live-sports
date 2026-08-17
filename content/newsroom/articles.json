@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-4f479a3f8cc8",
+    "slug": "paulo-andre-saraiva-dos-santos-vence-matt-kuhar-por-2-a-1-em-kingston-4f479a",
+    "sportId": "tenis",
+    "title": "Paulo Andre Saraiva Dos Santos vence Matt Kuhar por 2 a 1 em Kingston",
+    "summary": "Paulo Andre Saraiva Dos Santos superou Matt Kuhar por 2 a 1 em Kingston.",
+    "content": "Paulo Andre Saraiva Dos Santos superou Matt Kuhar por 2 a 1 em Kingston., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Paulo Andre Saraiva Dos Santos vence Matt Kuhar por 2 a 1 em Kingston",
+    "seoDescription": "Paulo Andre Saraiva Dos Santos superou Matt Kuhar por 2 a 1 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T02:07:58.543Z",
+    "createdAt": "2026-08-17T02:07:58.543Z",
+    "updatedAt": "2026-08-17T02:07:58.543Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815567",
+      "eventStartTime": "2026-08-16T20:36:38+00:00",
+      "retrievedAt": "2026-08-17T02:07:58.543Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-fe0949152300",
+    "slug": "atletico-puerto-varas-vence-cd-espanol-osorno-por-95-a-79-em-lnb-fe0949",
+    "sportId": "basquete",
+    "title": "Atlético Puerto Varas vence CD Español Osorno por 95 a 79 em LNB",
+    "summary": "Atlético Puerto Varas superou CD Español Osorno por 95 a 79 em LNB.",
+    "content": "Atlético Puerto Varas superou CD Español Osorno por 95 a 79 em LNB., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Atlético Puerto Varas vence CD Español Osorno por 95 a 79 em LNB",
+    "seoDescription": "Atlético Puerto Varas superou CD Español Osorno por 95 a 79 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T02:07:58.522Z",
+    "createdAt": "2026-08-17T02:07:58.522Z",
+    "updatedAt": "2026-08-17T02:07:58.522Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811321",
+      "eventStartTime": "2026-08-17T00:00:00+00:00",
+      "retrievedAt": "2026-08-17T02:07:58.522Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d255b3dd11ce",
+    "slug": "once-caldas-e-alianza-fc-ficam-no-0-a-0-pelo-primera-a-d255b3",
+    "sportId": "futebol",
+    "title": "Once Caldas e Alianza FC ficam no 0 a 0 pelo Primera A",
+    "summary": "Once Caldas e Alianza FC empataram por 0 a 0 pelo Primera A.",
+    "content": "Once Caldas e Alianza FC empataram por 0 a 0 pelo Primera A, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-a"
+    ],
+    "seoTitle": "Once Caldas e Alianza FC ficam no 0 a 0 pelo Primera A",
+    "seoDescription": "Once Caldas e Alianza FC empataram por 0 a 0 pelo Primera A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T02:07:58.507Z",
+    "createdAt": "2026-08-17T02:07:58.507Z",
+    "updatedAt": "2026-08-17T02:07:58.507Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4732051",
+      "eventStartTime": "2026-08-17T01:15:00+00:00",
+      "retrievedAt": "2026-08-17T02:07:58.507Z",
+      "feedId": "futebol",
+      "league": "Primera A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-08cfa83b5ac9",
     "slug": "miguel-tobon-vence-lorenzo-claverie-por-2-a-1-em-kingston-08cfa8",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-14T21:14:55.712Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-085ce1d57eca",
-    "slug": "ruch-chorzow-supera-lechia-gdansk-por-1-a-0-pela-i-liga-085ce1",
-    "sportId": "futebol",
-    "title": "Ruch Chorzow supera Lechia Gdansk por 1 a 0 pela I Liga",
-    "summary": "Ruch Chorzow venceu Lechia Gdansk por 1 a 0 pela I Liga.",
-    "content": "Ruch Chorzow venceu Lechia Gdansk por 1 a 0 pela I Liga, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "i-liga"
-    ],
-    "seoTitle": "Ruch Chorzow supera Lechia Gdansk por 1 a 0 pela I Liga",
-    "seoDescription": "Ruch Chorzow venceu Lechia Gdansk por 1 a 0 pela I Liga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T21:14:55.682Z",
-    "createdAt": "2026-08-14T21:14:55.682Z",
-    "updatedAt": "2026-08-14T21:14:55.682Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4742643",
-      "eventStartTime": "2026-08-14T19:00:00+00:00",
-      "retrievedAt": "2026-08-14T21:14:55.682Z",
-      "feedId": "futebol",
-      "league": "I Liga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-760a7d47e0cd",
-    "slug": "oleksandra-oliynykova-vence-elvina-kalieva-por-2-a-0-em-cincinnati-760a7d",
-    "sportId": "tenis",
-    "title": "Oleksandra Oliynykova vence Elvina Kalieva por 2 a 0 em Cincinnati",
-    "summary": "Oleksandra Oliynykova superou Elvina Kalieva por 2 a 0 em Cincinnati.",
-    "content": "Oleksandra Oliynykova superou Elvina Kalieva por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Oleksandra Oliynykova vence Elvina Kalieva por 2 a 0 em Cincinnati",
-    "seoDescription": "Oleksandra Oliynykova superou Elvina Kalieva por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T20:52:30.588Z",
-    "createdAt": "2026-08-14T20:52:30.588Z",
-    "updatedAt": "2026-08-14T20:52:30.588Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809646",
-      "eventStartTime": "2026-08-14T19:09:49+00:00",
-      "retrievedAt": "2026-08-14T20:52:30.588Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e7b34296d430",
-    "slug": "saint-etienne-supera-clermont-foot-por-3-a-1-pelo-ligue-2-e7b342",
-    "sportId": "futebol",
-    "title": "Saint-Étienne supera Clermont Foot por 3 a 1 pelo Ligue 2",
-    "summary": "Saint-Étienne venceu Clermont Foot por 3 a 1 pelo Ligue 2.",
-    "content": "Saint-Étienne venceu Clermont Foot por 3 a 1 pelo Ligue 2, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "ligue-2"
-    ],
-    "seoTitle": "Saint-Étienne supera Clermont Foot por 3 a 1 pelo Ligue 2",
-    "seoDescription": "Saint-Étienne venceu Clermont Foot por 3 a 1 pelo Ligue 2.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T20:52:30.566Z",
-    "createdAt": "2026-08-14T20:52:30.566Z",
-    "updatedAt": "2026-08-14T20:52:30.566Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4735587",
-      "eventStartTime": "2026-08-14T18:45:00+00:00",
-      "retrievedAt": "2026-08-14T20:52:30.566Z",
-      "feedId": "futebol",
-      "league": "Ligue 2"
     },
     "articleFormat": "result-brief"
   }
