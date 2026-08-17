@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-13ab03cbba3a",
+    "slug": "yuki-bhambri-michael-venus-e-brooksby-j-svajda-z-empatam-por-0-a-0-em-cincinnati-13ab03",
+    "sportId": "tenis",
+    "title": "Yuki Bhambri/Michael Venus e Brooksby J./Svajda Z. empatam por 0 a 0 em Cincinnati",
+    "summary": "Yuki Bhambri/Michael Venus e Brooksby J./Svajda Z. terminaram empatados por 0 a 0 em Cincinnati.",
+    "content": "Yuki Bhambri/Michael Venus e Brooksby J./Svajda Z. terminaram empatados por 0 a 0 em Cincinnati., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Yuki Bhambri/Michael Venus e Brooksby J./Svajda Z. empatam por 0 a 0",
+    "seoDescription": "Yuki Bhambri/Michael Venus e Brooksby J./Svajda Z. terminaram empatados por 0 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T15:15:05.591Z",
+    "createdAt": "2026-08-17T15:15:05.591Z",
+    "updatedAt": "2026-08-17T15:15:05.591Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815640",
+      "eventStartTime": "2026-08-17T15:00:00+00:00",
+      "retrievedAt": "2026-08-17T15:15:05.591Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-35058d7b767d",
+    "slug": "independiente-w-supera-huracan-w-por-3-a-2-pelo-campeonato-femenino-35058d",
+    "sportId": "futebol",
+    "title": "Independiente (W) supera Huracán (W) por 3 a 2 pelo Campeonato Femenino",
+    "summary": "Independiente (W) venceu Huracán (W) por 3 a 2 pelo Campeonato Femenino.",
+    "content": "Independiente (W) venceu Huracán (W) por 3 a 2 pelo Campeonato Femenino, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "campeonato-femenino"
+    ],
+    "seoTitle": "Independiente (W) supera Huracán (W) por 3 a 2 pelo Campeonato",
+    "seoDescription": "Independiente (W) venceu Huracán (W) por 3 a 2 pelo Campeonato Femenino.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T15:15:05.565Z",
+    "createdAt": "2026-08-17T15:15:05.565Z",
+    "updatedAt": "2026-08-17T15:15:05.565Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4810138",
+      "eventStartTime": "2026-08-17T13:00:00+00:00",
+      "retrievedAt": "2026-08-17T15:15:05.565Z",
+      "feedId": "futebol",
+      "league": "Campeonato Femenino"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-a40be84f9e3a",
     "slug": "coco-gauff-vence-ludmilla-samsonova-por-2-a-1-em-cincinnati-a40be8",
     "sportId": "tenis",
@@ -12510,90 +12594,6 @@
       "eventId": "365-4809630",
       "eventStartTime": "2026-08-14T18:44:20+00:00",
       "retrievedAt": "2026-08-15T08:28:50.082Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e0ee68f85bde",
-    "slug": "manukau-united-supera-western-springs-por-1-a-0-pelo-national-league-e0ee68",
-    "sportId": "futebol",
-    "title": "Manukau United supera Western Springs por 1 a 0 pelo National League",
-    "summary": "Manukau United venceu Western Springs por 1 a 0 pelo National League.",
-    "content": "Manukau United venceu Western Springs por 1 a 0 pelo National League, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "national-league"
-    ],
-    "seoTitle": "Manukau United supera Western Springs por 1 a 0 pelo National League",
-    "seoDescription": "Manukau United venceu Western Springs por 1 a 0 pelo National League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T08:28:50.013Z",
-    "createdAt": "2026-08-15T08:28:50.013Z",
-    "updatedAt": "2026-08-15T08:28:50.013Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4678284",
-      "eventStartTime": "2026-08-15T06:30:00+00:00",
-      "retrievedAt": "2026-08-15T08:28:50.013Z",
-      "feedId": "futebol",
-      "league": "National League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7b719d4db298",
-    "slug": "juan-manuel-cerundolo-vence-mark-lajal-por-2-a-0-em-cincinnati-7b719d",
-    "sportId": "tenis",
-    "title": "Juan Manuel Cerundolo vence Mark Lajal por 2 a 0 em Cincinnati",
-    "summary": "Juan Manuel Cerundolo superou Mark Lajal por 2 a 0 em Cincinnati.",
-    "content": "Juan Manuel Cerundolo superou Mark Lajal por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Juan Manuel Cerundolo vence Mark Lajal por 2 a 0 em Cincinnati",
-    "seoDescription": "Juan Manuel Cerundolo superou Mark Lajal por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T07:59:35.283Z",
-    "createdAt": "2026-08-15T07:59:35.283Z",
-    "updatedAt": "2026-08-15T07:59:35.283Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813396",
-      "eventStartTime": "2026-08-14T18:47:49+00:00",
-      "retrievedAt": "2026-08-15T07:59:35.283Z",
       "feedId": "tenis",
       "league": "Cincinnati"
     },
