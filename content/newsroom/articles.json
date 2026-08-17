@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-08cfa83b5ac9",
+    "slug": "miguel-tobon-vence-lorenzo-claverie-por-2-a-1-em-kingston-08cfa8",
+    "sportId": "tenis",
+    "title": "Miguel Tobon vence Lorenzo Claverie por 2 a 1 em Kingston",
+    "summary": "Miguel Tobon superou Lorenzo Claverie por 2 a 1 em Kingston.",
+    "content": "Miguel Tobon superou Lorenzo Claverie por 2 a 1 em Kingston., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Miguel Tobon vence Lorenzo Claverie por 2 a 1 em Kingston",
+    "seoDescription": "Miguel Tobon superou Lorenzo Claverie por 2 a 1 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T00:35:17.373Z",
+    "createdAt": "2026-08-17T00:35:17.373Z",
+    "updatedAt": "2026-08-17T00:35:17.373Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815558",
+      "eventStartTime": "2026-08-16T21:38:00+00:00",
+      "retrievedAt": "2026-08-17T00:35:17.373Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-74bb58cc6004",
+    "slug": "colonias-gold-basketball-vence-capiata-bulls-por-83-a-56-em-lnb-74bb58",
+    "sportId": "basquete",
+    "title": "Colonias Gold Basketball vence Capiata Bulls por 83 a 56 em LNB",
+    "summary": "Colonias Gold Basketball superou Capiata Bulls por 83 a 56 em LNB.",
+    "content": "Colonias Gold Basketball superou Capiata Bulls por 83 a 56 em LNB., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Colonias Gold Basketball vence Capiata Bulls por 83 a 56 em LNB",
+    "seoDescription": "Colonias Gold Basketball superou Capiata Bulls por 83 a 56 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T00:35:17.364Z",
+    "createdAt": "2026-08-17T00:35:17.364Z",
+    "updatedAt": "2026-08-17T00:35:17.364Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809966",
+      "eventStartTime": "2026-08-16T22:30:00+00:00",
+      "retrievedAt": "2026-08-17T00:35:17.364Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-bb340b251d13",
+    "slug": "cruzeiro-supera-corinthians-por-2-a-1-pelo-serie-a-bb340b",
+    "sportId": "futebol",
+    "title": "Cruzeiro supera Corinthians por 2 a 1 pelo Série A",
+    "summary": "Cruzeiro venceu Corinthians por 2 a 1 pelo Série A.",
+    "content": "Cruzeiro venceu Corinthians por 2 a 1 pelo Série A, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-a"
+    ],
+    "seoTitle": "Cruzeiro supera Corinthians por 2 a 1 pelo Série A",
+    "seoDescription": "Cruzeiro venceu Corinthians por 2 a 1 pelo Série A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T00:35:17.352Z",
+    "createdAt": "2026-08-17T00:35:17.352Z",
+    "updatedAt": "2026-08-17T00:35:17.352Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4632723",
+      "eventStartTime": "2026-08-16T22:30:00+00:00",
+      "retrievedAt": "2026-08-17T00:35:17.352Z",
+      "feedId": "futebol",
+      "league": "Série A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5b60d0535400",
     "slug": "nippon-ham-fighters-vence-orix-buffaloes-por-13-a-7-na-npb-5b60d0",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-14T20:52:30.566Z",
       "feedId": "futebol",
       "league": "Ligue 2"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0ea3f038b26b",
-    "slug": "viktorija-golubic-vence-alycia-parks-por-2-a-0-em-cincinnati-0ea3f0",
-    "sportId": "tenis",
-    "title": "Viktorija Golubic vence Alycia Parks por 2 a 0 em Cincinnati",
-    "summary": "Viktorija Golubic superou Alycia Parks por 2 a 0 em Cincinnati.",
-    "content": "Viktorija Golubic superou Alycia Parks por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Viktorija Golubic vence Alycia Parks por 2 a 0 em Cincinnati",
-    "seoDescription": "Viktorija Golubic superou Alycia Parks por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T20:21:13.642Z",
-    "createdAt": "2026-08-14T20:21:13.642Z",
-    "updatedAt": "2026-08-14T20:21:13.642Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809645",
-      "eventStartTime": "2026-08-14T19:07:06+00:00",
-      "retrievedAt": "2026-08-14T20:21:13.642Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-792408e434b7",
-    "slug": "cska-1948-sofia-supera-cherno-more-varna-por-4-a-1-pela-parva-liga-792408",
-    "sportId": "futebol",
-    "title": "CSKA 1948 Sofia supera Cherno More Varna por 4 a 1 pela Parva Liga",
-    "summary": "CSKA 1948 Sofia venceu Cherno More Varna por 4 a 1 pela Parva Liga.",
-    "content": "CSKA 1948 Sofia venceu Cherno More Varna por 4 a 1 pela Parva Liga, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "parva-liga"
-    ],
-    "seoTitle": "CSKA 1948 Sofia supera Cherno More Varna por 4 a 1 pela Parva Liga",
-    "seoDescription": "CSKA 1948 Sofia venceu Cherno More Varna por 4 a 1 pela Parva Liga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T20:21:13.615Z",
-    "createdAt": "2026-08-14T20:21:13.615Z",
-    "updatedAt": "2026-08-14T20:21:13.615Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4733604",
-      "eventStartTime": "2026-08-14T18:15:00+00:00",
-      "retrievedAt": "2026-08-14T20:21:13.615Z",
-      "feedId": "futebol",
-      "league": "Parva Liga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-80dde392724a",
-    "slug": "nicolas-kicker-vence-francesco-passaro-por-2-a-0-em-todi-80dde3",
-    "sportId": "tenis",
-    "title": "Nicolas Kicker vence Francesco Passaro por 2 a 0 em Todi",
-    "summary": "Nicolas Kicker superou Francesco Passaro por 2 a 0 em Todi.",
-    "content": "Nicolas Kicker superou Francesco Passaro por 2 a 0 em Todi., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "todi"
-    ],
-    "seoTitle": "Nicolas Kicker vence Francesco Passaro por 2 a 0 em Todi",
-    "seoDescription": "Nicolas Kicker superou Francesco Passaro por 2 a 0 em Todi.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T19:54:51.650Z",
-    "createdAt": "2026-08-14T19:54:51.650Z",
-    "updatedAt": "2026-08-14T19:54:51.650Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4812258",
-      "eventStartTime": "2026-08-14T18:38:42+00:00",
-      "retrievedAt": "2026-08-14T19:54:51.650Z",
-      "feedId": "tenis",
-      "league": "Todi"
     },
     "articleFormat": "result-brief"
   }
