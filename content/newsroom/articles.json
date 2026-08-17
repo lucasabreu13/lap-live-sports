@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-95aeffe590d7",
+    "slug": "iga-swiatek-vence-maria-sakkari-por-2-a-1-em-cincinnati-95aeff",
+    "sportId": "tenis",
+    "title": "Iga Swiatek vence Maria Sakkari por 2 a 1 em Cincinnati",
+    "summary": "Iga Swiatek superou Maria Sakkari por 2 a 1 em Cincinnati.",
+    "content": "Iga Swiatek superou Maria Sakkari por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Iga Swiatek vence Maria Sakkari por 2 a 1 em Cincinnati",
+    "seoDescription": "Iga Swiatek superou Maria Sakkari por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T17:17:07.390Z",
+    "createdAt": "2026-08-17T17:17:07.390Z",
+    "updatedAt": "2026-08-17T17:17:07.390Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815855",
+      "eventStartTime": "2026-08-17T15:09:31+00:00",
+      "retrievedAt": "2026-08-17T17:17:07.390Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e8ba8dc2ea18",
+    "slug": "gnistan-supera-ilves-por-3-a-2-pelo-veikkausliiga-e8ba8d",
+    "sportId": "futebol",
+    "title": "Gnistan supera Ilves por 3 a 2 pelo Veikkausliiga",
+    "summary": "Gnistan venceu Ilves por 3 a 2 pelo Veikkausliiga.",
+    "content": "Gnistan venceu Ilves por 3 a 2 pelo Veikkausliiga, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "veikkausliiga"
+    ],
+    "seoTitle": "Gnistan supera Ilves por 3 a 2 pelo Veikkausliiga",
+    "seoDescription": "Gnistan venceu Ilves por 3 a 2 pelo Veikkausliiga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T17:17:07.355Z",
+    "createdAt": "2026-08-17T17:17:07.355Z",
+    "updatedAt": "2026-08-17T17:17:07.355Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4636813",
+      "eventStartTime": "2026-08-17T15:00:00+00:00",
+      "retrievedAt": "2026-08-17T17:17:07.355Z",
+      "feedId": "futebol",
+      "league": "Veikkausliiga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d491c1dcdfcf",
     "slug": "dabrowski-g-krejcikova-b-vence-bucsa-c-melichar-martinez-n-por-2-a-1-em-cincinnati-d491c1",
     "sportId": "tenis",
@@ -12510,90 +12594,6 @@
       "eventId": "365-4809632",
       "eventStartTime": "2026-08-14T17:19:01+00:00",
       "retrievedAt": "2026-08-15T10:16:58.929Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-57937c65bdf3",
-    "slug": "hansa-rostock-w-e-bochum-w-ficam-no-0-a-0-pelo-dfb-pokal-women-57937c",
-    "sportId": "futebol",
-    "title": "Hansa Rostock (W) e Bochum (W) ficam no 0 a 0 pelo DFB Pokal Women",
-    "summary": "Hansa Rostock (W) e Bochum (W) empataram por 0 a 0 pelo DFB Pokal Women.",
-    "content": "Hansa Rostock (W) e Bochum (W) empataram por 0 a 0 pelo DFB Pokal Women, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "dfb-pokal-women"
-    ],
-    "seoTitle": "Hansa Rostock (W) e Bochum (W) ficam no 0 a 0 pelo DFB Pokal Women",
-    "seoDescription": "Hansa Rostock (W) e Bochum (W) empataram por 0 a 0 pelo DFB Pokal Women.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T10:16:58.857Z",
-    "createdAt": "2026-08-15T10:16:58.857Z",
-    "updatedAt": "2026-08-15T10:16:58.857Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4748267",
-      "eventStartTime": "2026-08-15T09:00:00+00:00",
-      "retrievedAt": "2026-08-15T10:16:58.857Z",
-      "feedId": "futebol",
-      "league": "DFB Pokal Women"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3313ad8aca95",
-    "slug": "talia-gibson-vence-lilli-tagger-por-2-a-1-em-cincinnati-3313ad",
-    "sportId": "tenis",
-    "title": "Talia Gibson vence Lilli Tagger por 2 a 1 em Cincinnati",
-    "summary": "Talia Gibson superou Lilli Tagger por 2 a 1 em Cincinnati.",
-    "content": "Talia Gibson superou Lilli Tagger por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Talia Gibson vence Lilli Tagger por 2 a 1 em Cincinnati",
-    "seoDescription": "Talia Gibson superou Lilli Tagger por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T09:57:25.074Z",
-    "createdAt": "2026-08-15T09:57:25.074Z",
-    "updatedAt": "2026-08-15T09:57:25.074Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813446",
-      "eventStartTime": "2026-08-14T17:47:28+00:00",
-      "retrievedAt": "2026-08-15T09:57:25.074Z",
       "feedId": "tenis",
       "league": "Cincinnati"
     },
