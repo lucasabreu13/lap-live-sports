@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-a0b6e1b32d1b",
+    "slug": "frances-tiafoe-vence-lorenzo-sonego-por-2-a-0-em-cincinnati-a0b6e1",
+    "sportId": "tenis",
+    "title": "Frances Tiafoe vence Lorenzo Sonego por 2 a 0 em Cincinnati",
+    "summary": "Frances Tiafoe superou Lorenzo Sonego por 2 a 0 em Cincinnati.",
+    "content": "Frances Tiafoe superou Lorenzo Sonego por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Frances Tiafoe vence Lorenzo Sonego por 2 a 0 em Cincinnati",
+    "seoDescription": "Frances Tiafoe superou Lorenzo Sonego por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T04:41:18.290Z",
+    "createdAt": "2026-08-17T04:41:18.290Z",
+    "updatedAt": "2026-08-17T04:41:18.290Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815117",
+      "eventStartTime": "2026-08-17T02:08:19+00:00",
+      "retrievedAt": "2026-08-17T04:41:18.290Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1ddc0680406f",
+    "slug": "portland-fire-vence-phoenix-mercury-por-88-a-85-em-wnba-1ddc06",
+    "sportId": "basquete",
+    "title": "Portland Fire vence Phoenix Mercury por 88 a 85 em WNBA",
+    "summary": "Portland Fire superou Phoenix Mercury por 88 a 85 em WNBA.",
+    "content": "Portland Fire superou Phoenix Mercury por 88 a 85 em WNBA., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Portland Fire vence Phoenix Mercury por 88 a 85 em WNBA",
+    "seoDescription": "Portland Fire superou Phoenix Mercury por 88 a 85 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T04:41:18.287Z",
+    "createdAt": "2026-08-17T04:41:18.287Z",
+    "updatedAt": "2026-08-17T04:41:18.287Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659883",
+      "eventStartTime": "2026-08-16T23:00:00+00:00",
+      "retrievedAt": "2026-08-17T04:41:18.287Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-53d5e7e22efb",
+    "slug": "vancouver-whitecaps-supera-seattle-sounders-por-2-a-0-pelo-mls-53d5e7",
+    "sportId": "futebol",
+    "title": "Vancouver Whitecaps supera Seattle Sounders por 2 a 0 pela MLS",
+    "summary": "Vancouver Whitecaps venceu Seattle Sounders por 2 a 0 pela MLS.",
+    "content": "Vancouver Whitecaps venceu Seattle Sounders por 2 a 0 pela MLS, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "Vancouver Whitecaps supera Seattle Sounders por 2 a 0 pela MLS",
+    "seoDescription": "Vancouver Whitecaps venceu Seattle Sounders por 2 a 0 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T04:41:18.262Z",
+    "createdAt": "2026-08-17T04:41:18.262Z",
+    "updatedAt": "2026-08-17T04:41:18.262Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4621443",
+      "eventStartTime": "2026-08-17T02:30:00+00:00",
+      "retrievedAt": "2026-08-17T04:41:18.262Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-f981198c0108",
     "slug": "st-louis-cardinals-vence-chicago-cubs-por-11-a-4-na-mlb-f98119",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-14T23:34:18.541Z",
       "feedId": "futebol",
       "league": "Copa de Primera"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ad9e6a7a8dce",
-    "slug": "alianza-reserves-e-cacahuatique-reserves-ficam-no-0-a-0-pelo-torneo-reservas-ad9e6a",
-    "sportId": "futebol",
-    "title": "Alianza Reserves e Cacahuatique Reserves ficam no 0 a 0 pelo Torneo Reservas",
-    "summary": "Alianza Reserves e Cacahuatique Reserves empataram por 0 a 0 pelo Torneo Reservas.",
-    "content": "Alianza Reserves e Cacahuatique Reserves empataram por 0 a 0 pelo Torneo Reservas, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "torneo-reservas"
-    ],
-    "seoTitle": "Alianza Reserves e Cacahuatique Reserves ficam no 0 a 0 pelo Torneo",
-    "seoDescription": "Alianza Reserves e Cacahuatique Reserves empataram por 0 a 0 pelo Torneo Reservas.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T23:11:30.198Z",
-    "createdAt": "2026-08-14T23:11:30.198Z",
-    "updatedAt": "2026-08-14T23:11:30.198Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815023",
-      "eventStartTime": "2026-08-14T23:00:00+00:00",
-      "retrievedAt": "2026-08-14T23:11:30.198Z",
-      "feedId": "futebol",
-      "league": "Torneo Reservas"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-dedc6a9517db",
-    "slug": "xin-yu-wang-vence-hanne-vandewinkel-por-2-a-0-em-cincinnati-dedc6a",
-    "sportId": "tenis",
-    "title": "Xin-Yu Wang vence Hanne Vandewinkel por 2 a 0 em Cincinnati",
-    "summary": "Xin-Yu Wang superou Hanne Vandewinkel por 2 a 0 em Cincinnati.",
-    "content": "Xin-Yu Wang superou Hanne Vandewinkel por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Xin-Yu Wang vence Hanne Vandewinkel por 2 a 0 em Cincinnati",
-    "seoDescription": "Xin-Yu Wang superou Hanne Vandewinkel por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T22:46:18.173Z",
-    "createdAt": "2026-08-14T22:46:18.173Z",
-    "updatedAt": "2026-08-14T22:46:18.173Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813451",
-      "eventStartTime": "2026-08-14T20:38:19+00:00",
-      "retrievedAt": "2026-08-14T22:46:18.173Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-515f67326769",
-    "slug": "new-york-red-bulls-ii-supera-atlanta-united-ii-por-2-a-1-pelo-mls-next-pro-515f67",
-    "sportId": "futebol",
-    "title": "New York Red Bulls II supera Atlanta United II por 2 a 1 pela MLS Next Pro",
-    "summary": "New York Red Bulls II venceu Atlanta United II por 2 a 1 pela MLS Next Pro.",
-    "content": "New York Red Bulls II venceu Atlanta United II por 2 a 1 pela MLS Next Pro, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls-next-pro"
-    ],
-    "seoTitle": "New York Red Bulls II supera Atlanta United II por 2 a 1 pela MLS Next",
-    "seoDescription": "New York Red Bulls II venceu Atlanta United II por 2 a 1 pela MLS Next Pro.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-14T22:46:18.144Z",
-    "createdAt": "2026-08-14T22:46:18.144Z",
-    "updatedAt": "2026-08-14T22:46:18.144Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659130",
-      "eventStartTime": "2026-08-14T20:00:00+00:00",
-      "retrievedAt": "2026-08-14T22:46:18.144Z",
-      "feedId": "futebol",
-      "league": "MLS Next Pro"
     },
     "articleFormat": "result-brief"
   }
