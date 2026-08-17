@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-7e6742dca801",
+    "slug": "siniakova-k-townsend-t-vence-jurak-schreiber-d-wu-f-h-por-2-a-1-em-cincinnati-7e6742",
+    "sportId": "tenis",
+    "title": "Siniakova K./Townsend T. vence Jurak Schreiber D./Wu F-H. por 2 a 1 em Cincinnati",
+    "summary": "Siniakova K./Townsend T. superou Jurak Schreiber D./Wu F-H. por 2 a 1 em Cincinnati.",
+    "content": "Siniakova K./Townsend T. superou Jurak Schreiber D./Wu F-H. por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Siniakova K./Townsend T. vence Jurak Schreiber D./Wu F-H. por 2 a 1 em",
+    "seoDescription": "Siniakova K./Townsend T. superou Jurak Schreiber D./Wu F-H. por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T23:19:11.886Z",
+    "createdAt": "2026-08-17T23:19:11.886Z",
+    "updatedAt": "2026-08-17T23:19:11.886Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815645",
+      "eventStartTime": "2026-08-17T21:18:03+00:00",
+      "retrievedAt": "2026-08-17T23:19:11.886Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-fe933213c952",
+    "slug": "sportivo-bella-italia-supera-lito-por-3-a-0-pelo-divisional-c-fe9332",
+    "sportId": "futebol",
+    "title": "Sportivo Bella Italia supera Lito por 3 a 0 pelo Divisional C",
+    "summary": "Sportivo Bella Italia venceu Lito por 3 a 0 pelo Divisional C.",
+    "content": "Sportivo Bella Italia venceu Lito por 3 a 0 pelo Divisional C, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "divisional-c"
+    ],
+    "seoTitle": "Sportivo Bella Italia supera Lito por 3 a 0 pelo Divisional C",
+    "seoDescription": "Sportivo Bella Italia venceu Lito por 3 a 0 pelo Divisional C.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T23:19:11.854Z",
+    "createdAt": "2026-08-17T23:19:11.854Z",
+    "updatedAt": "2026-08-17T23:19:11.854Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815329",
+      "eventStartTime": "2026-08-17T21:00:00+00:00",
+      "retrievedAt": "2026-08-17T23:19:11.854Z",
+      "feedId": "futebol",
+      "league": "Divisional C"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-6b632995d65d",
     "slug": "felipe-meligeni-vence-luka-pavlovic-por-1-a-0-em-cancun-6b6329",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T15:21:01.316Z",
       "feedId": "futebol",
       "league": "Liga MX U21"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d0c5e8157fe5",
-    "slug": "rakuten-gold-eagles-vence-fukuoka-hawks-por-6-a-4-na-npb-d0c5e8",
-    "sportId": "beisebol",
-    "title": "Rakuten Gold Eagles vence Fukuoka Hawks por 6 a 4 na NPB",
-    "summary": "Rakuten Gold Eagles derrotou Fukuoka Hawks por 6 a 4 na NPB.",
-    "content": "Rakuten Gold Eagles derrotou Fukuoka Hawks por 6 a 4 na NPB, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Rakuten Gold Eagles vence Fukuoka Hawks por 6 a 4 na NPB",
-    "seoDescription": "Rakuten Gold Eagles derrotou Fukuoka Hawks por 6 a 4 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T14:59:44.763Z",
-    "createdAt": "2026-08-15T14:59:44.763Z",
-    "updatedAt": "2026-08-15T14:59:44.763Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4627132",
-      "eventStartTime": "2026-08-15T05:00:00+00:00",
-      "retrievedAt": "2026-08-15T14:59:44.763Z",
-      "feedId": "beisebol",
-      "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f4db6ab8e88e",
-    "slug": "quentin-halys-vence-vit-kopriva-por-2-a-0-em-cincinnati-f4db6a",
-    "sportId": "tenis",
-    "title": "Quentin Halys vence Vit Kopriva por 2 a 0 em Cincinnati",
-    "summary": "Quentin Halys superou Vit Kopriva por 2 a 0 em Cincinnati.",
-    "content": "Quentin Halys superou Vit Kopriva por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Quentin Halys vence Vit Kopriva por 2 a 0 em Cincinnati",
-    "seoDescription": "Quentin Halys superou Vit Kopriva por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T14:59:44.755Z",
-    "createdAt": "2026-08-15T14:59:44.755Z",
-    "updatedAt": "2026-08-15T14:59:44.755Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813393",
-      "eventStartTime": "2026-08-14T15:13:39+00:00",
-      "retrievedAt": "2026-08-15T14:59:44.755Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
