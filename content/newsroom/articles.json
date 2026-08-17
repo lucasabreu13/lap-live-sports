@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-05e7c90c6a8f",
+    "slug": "elena-rybakina-vence-taylor-townsend-por-2-a-0-em-cincinnati-05e7c9",
+    "sportId": "tenis",
+    "title": "Elena Rybakina vence Taylor Townsend por 2 a 0 em Cincinnati",
+    "summary": "Elena Rybakina superou Taylor Townsend por 2 a 0 em Cincinnati.",
+    "content": "Elena Rybakina superou Taylor Townsend por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Elena Rybakina vence Taylor Townsend por 2 a 0 em Cincinnati",
+    "seoDescription": "Elena Rybakina superou Taylor Townsend por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T06:39:34.677Z",
+    "createdAt": "2026-08-17T06:39:34.677Z",
+    "updatedAt": "2026-08-17T06:39:34.677Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813633",
+      "eventStartTime": "2026-08-16T15:08:29+00:00",
+      "retrievedAt": "2026-08-17T06:39:34.677Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-35eec3cef79c",
+    "slug": "los-angeles-fc-ii-supera-tacoma-defiance-por-4-a-3-pelo-mls-next-pro-35eec3",
+    "sportId": "futebol",
+    "title": "Los Angeles FC II supera Tacoma Defiance por 4 a 3 pela MLS Next Pro",
+    "summary": "Los Angeles FC II venceu Tacoma Defiance por 4 a 3 pela MLS Next Pro.",
+    "content": "Los Angeles FC II venceu Tacoma Defiance por 4 a 3 pela MLS Next Pro, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls-next-pro"
+    ],
+    "seoTitle": "Los Angeles FC II supera Tacoma Defiance por 4 a 3 pela MLS Next Pro",
+    "seoDescription": "Los Angeles FC II venceu Tacoma Defiance por 4 a 3 pela MLS Next Pro.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T06:39:34.570Z",
+    "createdAt": "2026-08-17T06:39:34.570Z",
+    "updatedAt": "2026-08-17T06:39:34.570Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659120",
+      "eventStartTime": "2026-08-17T02:00:00+00:00",
+      "retrievedAt": "2026-08-17T06:39:34.570Z",
+      "feedId": "futebol",
+      "league": "MLS Next Pro"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7a4f53610f50",
     "slug": "daniil-medvedev-vence-marco-trungelliti-por-2-a-0-em-cincinnati-7a4f53",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T00:57:26.319Z",
       "feedId": "beisebol",
       "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-40f4fe007de6",
-    "slug": "lammons-n-withrow-j-vence-broady-l-wendelken-h-por-1-a-0-em-brownsburg-40f4fe",
-    "sportId": "tenis",
-    "title": "Lammons N./Withrow J. vence Broady L./Wendelken H. por 1 a 0 em Brownsburg",
-    "summary": "Lammons N./Withrow J. superou Broady L./Wendelken H. por 1 a 0 em Brownsburg.",
-    "content": "Lammons N./Withrow J. superou Broady L./Wendelken H. por 1 a 0 em Brownsburg., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "brownsburg"
-    ],
-    "seoTitle": "Lammons N./Withrow J. vence Broady L./Wendelken H. por 1 a 0 em",
-    "seoDescription": "Lammons N./Withrow J. superou Broady L./Wendelken H. por 1 a 0 em Brownsburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T00:57:26.316Z",
-    "createdAt": "2026-08-15T00:57:26.316Z",
-    "updatedAt": "2026-08-15T00:57:26.316Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4812158",
-      "eventStartTime": "2026-08-14T23:57:30+00:00",
-      "retrievedAt": "2026-08-15T00:57:26.316Z",
-      "feedId": "tenis",
-      "league": "Brownsburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7884254e14d0",
-    "slug": "deportes-la-serena-supera-u-de-concepcion-por-2-a-0-pelo-first-division-788425",
-    "sportId": "futebol",
-    "title": "Deportes La Serena supera U. De Concepción por 2 a 0 pelo First Division",
-    "summary": "Deportes La Serena venceu U. De Concepción por 2 a 0 pelo First Division.",
-    "content": "Deportes La Serena venceu U. De Concepción por 2 a 0 pelo First Division, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "first-division"
-    ],
-    "seoTitle": "Deportes La Serena supera U. De Concepción por 2 a 0 pelo First",
-    "seoDescription": "Deportes La Serena venceu U. De Concepción por 2 a 0 pelo First Division.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T00:57:26.281Z",
-    "createdAt": "2026-08-15T00:57:26.281Z",
-    "updatedAt": "2026-08-15T00:57:26.281Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4650605",
-      "eventStartTime": "2026-08-14T23:00:00+00:00",
-      "retrievedAt": "2026-08-15T00:57:26.281Z",
-      "feedId": "futebol",
-      "league": "First Division"
     },
     "articleFormat": "result-brief"
   }
