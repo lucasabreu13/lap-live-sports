@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-7581b1a680d8",
+    "slug": "stefanos-sakellaridis-vence-karl-poling-por-2-a-1-em-quebec-city-7581b1",
+    "sportId": "tenis",
+    "title": "Stefanos Sakellaridis vence Karl Poling por 2 a 1 em Quebec City",
+    "summary": "Stefanos Sakellaridis superou Karl Poling por 2 a 1 em Quebec City.",
+    "content": "Stefanos Sakellaridis superou Karl Poling por 2 a 1 em Quebec City., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Stefanos Sakellaridis vence Karl Poling por 2 a 1 em Quebec City",
+    "seoDescription": "Stefanos Sakellaridis superou Karl Poling por 2 a 1 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T22:12:42.275Z",
+    "createdAt": "2026-08-17T22:12:42.275Z",
+    "updatedAt": "2026-08-17T22:12:42.275Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816153",
+      "eventStartTime": "2026-08-17T19:35:13+00:00",
+      "retrievedAt": "2026-08-17T22:12:42.275Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-10f203a720f7",
+    "slug": "santos-fc-e-alianza-universidad-ficam-no-3-a-3-pela-liga-2-10f203",
+    "sportId": "futebol",
+    "title": "Santos FC e Alianza Universidad ficam no 3 a 3 pela Liga 2",
+    "summary": "Santos FC e Alianza Universidad empataram por 3 a 3 pela Liga 2.",
+    "content": "Santos FC e Alianza Universidad empataram por 3 a 3 pela Liga 2, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-2"
+    ],
+    "seoTitle": "Santos FC e Alianza Universidad ficam no 3 a 3 pela Liga 2",
+    "seoDescription": "Santos FC e Alianza Universidad empataram por 3 a 3 pela Liga 2.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T22:12:42.242Z",
+    "createdAt": "2026-08-17T22:12:42.242Z",
+    "updatedAt": "2026-08-17T22:12:42.242Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4800612",
+      "eventStartTime": "2026-08-17T20:00:00+00:00",
+      "retrievedAt": "2026-08-17T22:12:42.242Z",
+      "feedId": "futebol",
+      "league": "Liga 2"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5b4672482481",
     "slug": "hanwha-eagles-vence-samsung-lions-por-0-a-0-na-kbo-5b4672",
     "sportId": "beisebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T14:16:43.356Z",
       "feedId": "futebol",
       "league": "Vysshaya Liga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7afb9f2d1f52",
-    "slug": "kia-tigers-vence-doosan-bears-por-6-a-1-na-kbo-7afb9f",
-    "sportId": "beisebol",
-    "title": "KIA Tigers vence Doosan Bears por 6 a 1 na KBO",
-    "summary": "KIA Tigers derrotou Doosan Bears por 6 a 1 na KBO.",
-    "content": "KIA Tigers derrotou Doosan Bears por 6 a 1 na KBO, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "kbo"
-    ],
-    "seoTitle": "KIA Tigers vence Doosan Bears por 6 a 1 na KBO",
-    "seoDescription": "KIA Tigers derrotou Doosan Bears por 6 a 1 na KBO.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T13:57:28.925Z",
-    "createdAt": "2026-08-15T13:57:28.925Z",
-    "updatedAt": "2026-08-15T13:57:28.925Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815046",
-      "eventStartTime": "2026-08-15T10:00:00+00:00",
-      "retrievedAt": "2026-08-15T13:57:28.925Z",
-      "feedId": "beisebol",
-      "league": "KBO"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9620838d0ec6",
-    "slug": "maria-timofeeva-e-katerina-siniakova-empatam-por-0-a-0-em-cincinnati-962083",
-    "sportId": "tenis",
-    "title": "Maria Timofeeva e Katerina Siniakova empatam por 0 a 0 em Cincinnati",
-    "summary": "Maria Timofeeva e Katerina Siniakova terminaram empatados por 0 a 0 em Cincinnati.",
-    "content": "Maria Timofeeva e Katerina Siniakova terminaram empatados por 0 a 0 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Maria Timofeeva e Katerina Siniakova empatam por 0 a 0 em Cincinnati",
-    "seoDescription": "Maria Timofeeva e Katerina Siniakova terminaram empatados por 0 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T13:57:28.920Z",
-    "createdAt": "2026-08-15T13:57:28.920Z",
-    "updatedAt": "2026-08-15T13:57:28.920Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809656",
-      "eventStartTime": "2026-08-15T14:00:00+00:00",
-      "retrievedAt": "2026-08-15T13:57:28.920Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
