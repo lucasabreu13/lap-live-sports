@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-7c44980118cf",
+    "slug": "alex-marti-pujolras-vence-lorenzo-bocchi-por-2-a-0-em-sion-7c4498",
+    "sportId": "tenis",
+    "title": "Alex Marti Pujolras vence Lorenzo Bocchi por 2 a 0 em Sion",
+    "summary": "Alex Marti Pujolras superou Lorenzo Bocchi por 2 a 0 em Sion.",
+    "content": "Alex Marti Pujolras superou Lorenzo Bocchi por 2 a 0 em Sion., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Alex Marti Pujolras vence Lorenzo Bocchi por 2 a 0 em Sion",
+    "seoDescription": "Alex Marti Pujolras superou Lorenzo Bocchi por 2 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T10:21:02.358Z",
+    "createdAt": "2026-08-17T10:21:02.358Z",
+    "updatedAt": "2026-08-17T10:21:02.358Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815661",
+      "eventStartTime": "2026-08-17T08:09:38+00:00",
+      "retrievedAt": "2026-08-17T10:21:02.358Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4043a9472425",
+    "slug": "deportes-iquique-e-deportes-antofagasta-ficam-no-1-a-1-pelo-primera-b-4043a9",
+    "sportId": "futebol",
+    "title": "Deportes Iquique e Deportes Antofagasta ficam no 1 a 1 pelo Primera B",
+    "summary": "Deportes Iquique e Deportes Antofagasta empataram por 1 a 1 pelo Primera B.",
+    "content": "Deportes Iquique e Deportes Antofagasta empataram por 1 a 1 pelo Primera B, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-b"
+    ],
+    "seoTitle": "Deportes Iquique e Deportes Antofagasta ficam no 1 a 1 pelo Primera B",
+    "seoDescription": "Deportes Iquique e Deportes Antofagasta empataram por 1 a 1 pelo Primera B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T10:21:02.324Z",
+    "createdAt": "2026-08-17T10:21:02.324Z",
+    "updatedAt": "2026-08-17T10:21:02.324Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4656618",
+      "eventStartTime": "2026-08-17T00:00:00+00:00",
+      "retrievedAt": "2026-08-17T10:21:02.324Z",
+      "feedId": "futebol",
+      "league": "Primera B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7666ab8a84b0",
     "slug": "luca-wiedenmann-vence-thiago-cigarran-por-1-a-0-em-sion-7666ab",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T04:19:02.597Z",
       "feedId": "futebol",
       "league": "NWSL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8dbed5d057d3",
-    "slug": "houston-astros-vence-seattle-mariners-por-10-a-7-na-mlb-8dbed5",
-    "sportId": "beisebol",
-    "title": "Houston Astros vence Seattle Mariners por 10 a 7 na MLB",
-    "summary": "Houston Astros derrotou Seattle Mariners por 10 a 7 na MLB.",
-    "content": "Houston Astros derrotou Seattle Mariners por 10 a 7 na MLB, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Houston Astros vence Seattle Mariners por 10 a 7 na MLB",
-    "seoDescription": "Houston Astros derrotou Seattle Mariners por 10 a 7 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T03:51:43.240Z",
-    "createdAt": "2026-08-15T03:51:43.240Z",
-    "updatedAt": "2026-08-15T03:51:43.240Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602979",
-      "eventStartTime": "2026-08-15T00:10:00+00:00",
-      "retrievedAt": "2026-08-15T03:51:43.240Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b5660a2d461a",
-    "slug": "aleksandar-kovacevic-vence-karen-khachanov-por-2-a-1-em-cincinnati-b5660a",
-    "sportId": "tenis",
-    "title": "Aleksandar Kovacevic vence Karen Khachanov por 2 a 1 em Cincinnati",
-    "summary": "Aleksandar Kovacevic superou Karen Khachanov por 2 a 1 em Cincinnati.",
-    "content": "Aleksandar Kovacevic superou Karen Khachanov por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Aleksandar Kovacevic vence Karen Khachanov por 2 a 1 em Cincinnati",
-    "seoDescription": "Aleksandar Kovacevic superou Karen Khachanov por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T03:51:43.236Z",
-    "createdAt": "2026-08-15T03:51:43.236Z",
-    "updatedAt": "2026-08-15T03:51:43.236Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809633",
-      "eventStartTime": "2026-08-15T01:24:35+00:00",
-      "retrievedAt": "2026-08-15T03:51:43.236Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
