@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-d4eccac987eb",
+    "slug": "new-york-mets-vence-washington-nationals-por-4-a-3-na-mlb-d4ecca",
+    "sportId": "beisebol",
+    "title": "New York Mets vence Washington Nationals por 4 a 3 na MLB",
+    "summary": "New York Mets derrotou Washington Nationals por 4 a 3 na MLB.",
+    "content": "New York Mets derrotou Washington Nationals por 4 a 3 na MLB, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "New York Mets vence Washington Nationals por 4 a 3 na MLB",
+    "seoDescription": "New York Mets derrotou Washington Nationals por 4 a 3 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T12:19:38.556Z",
+    "createdAt": "2026-08-17T12:19:38.556Z",
+    "updatedAt": "2026-08-17T12:19:38.556Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614734",
+      "eventStartTime": "2026-08-16T17:40:00+00:00",
+      "retrievedAt": "2026-08-17T12:19:38.556Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-92b63077107c",
+    "slug": "javier-barranco-cosano-vence-andrej-martin-por-2-a-1-em-prague-92b630",
+    "sportId": "tenis",
+    "title": "Javier Barranco Cosano vence Andrej Martin por 2 a 1 em Prague",
+    "summary": "Javier Barranco Cosano superou Andrej Martin por 2 a 1 em Prague.",
+    "content": "Javier Barranco Cosano superou Andrej Martin por 2 a 1 em Prague., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Javier Barranco Cosano vence Andrej Martin por 2 a 1 em Prague",
+    "seoDescription": "Javier Barranco Cosano superou Andrej Martin por 2 a 1 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T12:19:38.546Z",
+    "createdAt": "2026-08-17T12:19:38.546Z",
+    "updatedAt": "2026-08-17T12:19:38.546Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815534",
+      "eventStartTime": "2026-08-17T08:52:42+00:00",
+      "retrievedAt": "2026-08-17T12:19:38.546Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-07507a31f204",
+    "slug": "independiente-petrolero-supera-gv-san-jose-por-1-a-0-pela-liga-de-futbol-prof-07507a",
+    "sportId": "futebol",
+    "title": "Independiente Petrolero supera GV San Jose por 1 a 0 pela Liga De Futbol Prof",
+    "summary": "Independiente Petrolero venceu GV San Jose por 1 a 0 pela Liga De Futbol Prof.",
+    "content": "Independiente Petrolero venceu GV San Jose por 1 a 0 pela Liga De Futbol Prof, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-futbol-prof"
+    ],
+    "seoTitle": "Independiente Petrolero supera GV San Jose por 1 a 0 pela Liga De",
+    "seoDescription": "Independiente Petrolero venceu GV San Jose por 1 a 0 pela Liga De Futbol Prof.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T12:19:38.509Z",
+    "createdAt": "2026-08-17T12:19:38.509Z",
+    "updatedAt": "2026-08-17T12:19:38.509Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4806268",
+      "eventStartTime": "2026-08-17T00:00:00+00:00",
+      "retrievedAt": "2026-08-17T12:19:38.509Z",
+      "feedId": "futebol",
+      "league": "Liga De Futbol Prof"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-1711e00fe32e",
     "slug": "colorado-rockies-vence-san-francisco-giants-por-13-a-7-na-mlb-1711e0",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-15T05:59:58.721Z",
       "feedId": "futebol",
       "league": "NWSL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2c3717357be4",
-    "slug": "chicago-white-sox-vence-detroit-tigers-por-9-a-5-na-mlb-2c3717",
-    "sportId": "beisebol",
-    "title": "Chicago White Sox vence Detroit Tigers por 9 a 5 na MLB",
-    "summary": "Chicago White Sox derrotou Detroit Tigers por 9 a 5 na MLB.",
-    "content": "Chicago White Sox derrotou Detroit Tigers por 9 a 5 na MLB, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Chicago White Sox vence Detroit Tigers por 9 a 5 na MLB",
-    "seoDescription": "Chicago White Sox derrotou Detroit Tigers por 9 a 5 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T05:42:14.746Z",
-    "createdAt": "2026-08-15T05:42:14.746Z",
-    "updatedAt": "2026-08-15T05:42:14.746Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602943",
-      "eventStartTime": "2026-08-14T22:40:00+00:00",
-      "retrievedAt": "2026-08-15T05:42:14.746Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-34f0a6ce09a0",
-    "slug": "ludmilla-samsonova-vence-yulia-putintseva-por-2-a-1-em-cincinnati-34f0a6",
-    "sportId": "tenis",
-    "title": "Ludmilla Samsonova vence Yulia Putintseva por 2 a 1 em Cincinnati",
-    "summary": "Ludmilla Samsonova superou Yulia Putintseva por 2 a 1 em Cincinnati.",
-    "content": "Ludmilla Samsonova superou Yulia Putintseva por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Ludmilla Samsonova vence Yulia Putintseva por 2 a 1 em Cincinnati",
-    "seoDescription": "Ludmilla Samsonova superou Yulia Putintseva por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T05:42:14.732Z",
-    "createdAt": "2026-08-15T05:42:14.732Z",
-    "updatedAt": "2026-08-15T05:42:14.732Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809657",
-      "eventStartTime": "2026-08-14T20:53:24+00:00",
-      "retrievedAt": "2026-08-15T05:42:14.732Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c072c95033f1",
-    "slug": "atletico-la-paz-supera-piratas-fc-por-2-a-0-pela-liga-de-expansion-c072c9",
-    "sportId": "futebol",
-    "title": "Atletico La Paz supera Piratas FC por 2 a 0 pela Liga de Expansión",
-    "summary": "Atletico La Paz venceu Piratas FC por 2 a 0 pela Liga de Expansión.",
-    "content": "Atletico La Paz venceu Piratas FC por 2 a 0 pela Liga de Expansión, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-de-expansion"
-    ],
-    "seoTitle": "Atletico La Paz supera Piratas FC por 2 a 0 pela Liga de Expansión",
-    "seoDescription": "Atletico La Paz venceu Piratas FC por 2 a 0 pela Liga de Expansión.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T05:42:14.690Z",
-    "createdAt": "2026-08-15T05:42:14.690Z",
-    "updatedAt": "2026-08-15T05:42:14.690Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4761319",
-      "eventStartTime": "2026-08-15T03:00:00+00:00",
-      "retrievedAt": "2026-08-15T05:42:14.690Z",
-      "feedId": "futebol",
-      "league": "Liga de Expansión"
     },
     "articleFormat": "result-brief"
   }
