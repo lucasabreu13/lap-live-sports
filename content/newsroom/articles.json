@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-98c8d8026d78",
+    "slug": "kt-wiz-suwon-vence-kiwoom-heroes-por-6-a-2-na-kbo-98c8d8",
+    "sportId": "beisebol",
+    "title": "Kt Wiz Suwon vence Kiwoom Heroes por 6 a 2 na KBO",
+    "summary": "Kt Wiz Suwon derrotou Kiwoom Heroes por 6 a 2 na KBO.",
+    "content": "Kt Wiz Suwon derrotou Kiwoom Heroes por 6 a 2 na KBO, em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "kbo"
+    ],
+    "seoTitle": "Kt Wiz Suwon vence Kiwoom Heroes por 6 a 2 na KBO",
+    "seoDescription": "Kt Wiz Suwon derrotou Kiwoom Heroes por 6 a 2 na KBO.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T21:15:33.262Z",
+    "createdAt": "2026-08-17T21:15:33.262Z",
+    "updatedAt": "2026-08-17T21:15:33.262Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815409",
+      "eventStartTime": "2026-08-16T10:00:00+00:00",
+      "retrievedAt": "2026-08-17T21:15:33.262Z",
+      "feedId": "beisebol",
+      "league": "KBO"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-bb2b10765560",
+    "slug": "harold-mayot-vence-gustavo-heide-por-2-a-0-em-kingston-bb2b10",
+    "sportId": "tenis",
+    "title": "Harold Mayot vence Gustavo Heide por 2 a 0 em Kingston",
+    "summary": "Harold Mayot superou Gustavo Heide por 2 a 0 em Kingston.",
+    "content": "Harold Mayot superou Gustavo Heide por 2 a 0 em Kingston., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Harold Mayot vence Gustavo Heide por 2 a 0 em Kingston",
+    "seoDescription": "Harold Mayot superou Gustavo Heide por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T21:15:33.244Z",
+    "createdAt": "2026-08-17T21:15:33.244Z",
+    "updatedAt": "2026-08-17T21:15:33.244Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815577",
+      "eventStartTime": "2026-08-17T19:22:52+00:00",
+      "retrievedAt": "2026-08-17T21:15:33.244Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5a483d6e4c84",
+    "slug": "atletico-bucaramanga-e-deportivo-pasto-ficam-no-0-a-0-pelo-primera-a-5a483d",
+    "sportId": "futebol",
+    "title": "Atlético Bucaramanga e Deportivo Pasto ficam no 0 a 0 pelo Primera A",
+    "summary": "Atlético Bucaramanga e Deportivo Pasto empataram por 0 a 0 pelo Primera A.",
+    "content": "Atlético Bucaramanga e Deportivo Pasto empataram por 0 a 0 pelo Primera A, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-a"
+    ],
+    "seoTitle": "Atlético Bucaramanga e Deportivo Pasto ficam no 0 a 0 pelo Primera A",
+    "seoDescription": "Atlético Bucaramanga e Deportivo Pasto empataram por 0 a 0 pelo Primera A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T21:15:33.215Z",
+    "createdAt": "2026-08-17T21:15:33.215Z",
+    "updatedAt": "2026-08-17T21:15:33.215Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4732049",
+      "eventStartTime": "2026-08-17T21:05:00+00:00",
+      "retrievedAt": "2026-08-17T21:15:33.215Z",
+      "feedId": "futebol",
+      "league": "Primera A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-e5714a515a70",
     "slug": "st-louis-cardinals-vence-cincinnati-reds-por-2-a-1-na-mlb-e5714a",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-15T13:41:17.251Z",
       "feedId": "beisebol",
       "league": "KBO"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ce1db2df6a83",
-    "slug": "jessica-bouzas-maneiro-vence-anna-bondar-por-2-a-0-em-cincinnati-ce1db2",
-    "sportId": "tenis",
-    "title": "Jessica Bouzas Maneiro vence Anna Bondar por 2 a 0 em Cincinnati",
-    "summary": "Jessica Bouzas Maneiro superou Anna Bondar por 2 a 0 em Cincinnati.",
-    "content": "Jessica Bouzas Maneiro superou Anna Bondar por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Jessica Bouzas Maneiro vence Anna Bondar por 2 a 0 em Cincinnati",
-    "seoDescription": "Jessica Bouzas Maneiro superou Anna Bondar por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T13:41:17.233Z",
-    "createdAt": "2026-08-15T13:41:17.233Z",
-    "updatedAt": "2026-08-15T13:41:17.233Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809655",
-      "eventStartTime": "2026-08-14T15:13:54+00:00",
-      "retrievedAt": "2026-08-15T13:41:17.233Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c9a831349c9c",
-    "slug": "leeds-united-e-fc-augsburg-ficam-no-0-a-0-pelo-club-friendlies-c9a831",
-    "sportId": "futebol",
-    "title": "Leeds United e FC Augsburg ficam no 0 a 0 pelo Club Friendlies",
-    "summary": "Leeds United e FC Augsburg empataram por 0 a 0 pelo Club Friendlies.",
-    "content": "Leeds United e FC Augsburg empataram por 0 a 0 pelo Club Friendlies, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Leeds United e FC Augsburg ficam no 0 a 0 pelo Club Friendlies",
-    "seoDescription": "Leeds United e FC Augsburg empataram por 0 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T13:41:17.185Z",
-    "createdAt": "2026-08-15T13:41:17.185Z",
-    "updatedAt": "2026-08-15T13:41:17.185Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4767033",
-      "eventStartTime": "2026-08-15T13:00:00+00:00",
-      "retrievedAt": "2026-08-15T13:41:17.185Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ae927eaddf07",
-    "slug": "stefanos-tsitsipas-vence-valentin-royer-por-2-a-0-em-cincinnati-ae927e",
-    "sportId": "tenis",
-    "title": "Stefanos Tsitsipas vence Valentin Royer por 2 a 0 em Cincinnati",
-    "summary": "Stefanos Tsitsipas superou Valentin Royer por 2 a 0 em Cincinnati.",
-    "content": "Stefanos Tsitsipas superou Valentin Royer por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Stefanos Tsitsipas vence Valentin Royer por 2 a 0 em Cincinnati",
-    "seoDescription": "Stefanos Tsitsipas superou Valentin Royer por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T13:05:01.985Z",
-    "createdAt": "2026-08-15T13:05:01.985Z",
-    "updatedAt": "2026-08-15T13:05:01.985Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809638",
-      "eventStartTime": "2026-08-14T15:18:59+00:00",
-      "retrievedAt": "2026-08-15T13:05:01.985Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
