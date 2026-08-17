@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-3026e20a8773",
+    "slug": "oleksandr-ovcharenko-vence-petros-tsitsipas-por-2-a-0-em-sion-3026e2",
+    "sportId": "tenis",
+    "title": "Oleksandr Ovcharenko vence Petros Tsitsipas por 2 a 0 em Sion",
+    "summary": "Oleksandr Ovcharenko superou Petros Tsitsipas por 2 a 0 em Sion.",
+    "content": "Oleksandr Ovcharenko superou Petros Tsitsipas por 2 a 0 em Sion., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Oleksandr Ovcharenko vence Petros Tsitsipas por 2 a 0 em Sion",
+    "seoDescription": "Oleksandr Ovcharenko superou Petros Tsitsipas por 2 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T07:37:35.938Z",
+    "createdAt": "2026-08-17T07:37:35.938Z",
+    "updatedAt": "2026-08-17T07:37:35.938Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815609",
+      "eventStartTime": "2026-08-16T15:08:23+00:00",
+      "retrievedAt": "2026-08-17T07:37:35.938Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f9249aabc37d",
+    "slug": "angel-city-e-washington-spirit-ficam-no-1-a-1-pelo-nwsl-f9249a",
+    "sportId": "futebol",
+    "title": "Angel City e Washington Spirit ficam no 1 a 1 pelo NWSL",
+    "summary": "Angel City e Washington Spirit empataram por 1 a 1 pelo NWSL.",
+    "content": "Angel City e Washington Spirit empataram por 1 a 1 pelo NWSL, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "nwsl"
+    ],
+    "seoTitle": "Angel City e Washington Spirit ficam no 1 a 1 pelo NWSL",
+    "seoDescription": "Angel City e Washington Spirit empataram por 1 a 1 pelo NWSL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-17T07:37:35.848Z",
+    "createdAt": "2026-08-17T07:37:35.848Z",
+    "updatedAt": "2026-08-17T07:37:35.848Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4653915",
+      "eventStartTime": "2026-08-17T01:00:00+00:00",
+      "retrievedAt": "2026-08-17T07:37:35.848Z",
+      "feedId": "futebol",
+      "league": "NWSL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-05e7c90c6a8f",
     "slug": "elena-rybakina-vence-taylor-townsend-por-2-a-0-em-cincinnati-05e7c9",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T02:10:52.844Z",
       "feedId": "futebol-americano",
       "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c04ae2d4423f",
-    "slug": "millonarios-e-barranquilla-fc-ficam-no-0-a-0-pela-copa-colombia-c04ae2",
-    "sportId": "futebol",
-    "title": "Millonarios e Barranquilla FC ficam no 0 a 0 pela Copa Colombia",
-    "summary": "Millonarios e Barranquilla FC empataram por 0 a 0 pela Copa Colombia.",
-    "content": "Millonarios e Barranquilla FC empataram por 0 a 0 pela Copa Colombia, em 14 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-colombia"
-    ],
-    "seoTitle": "Millonarios e Barranquilla FC ficam no 0 a 0 pela Copa Colombia",
-    "seoDescription": "Millonarios e Barranquilla FC empataram por 0 a 0 pela Copa Colombia.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T02:10:52.837Z",
-    "createdAt": "2026-08-15T02:10:52.837Z",
-    "updatedAt": "2026-08-15T02:10:52.837Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4798287",
-      "eventStartTime": "2026-08-15T01:10:00+00:00",
-      "retrievedAt": "2026-08-15T02:10:52.837Z",
-      "feedId": "futebol",
-      "league": "Copa Colombia"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c7cd6cc8bcf9",
-    "slug": "cincinnati-reds-vence-miami-marlins-por-1-a-0-na-mlb-c7cd6c",
-    "sportId": "beisebol",
-    "title": "Cincinnati Reds vence Miami Marlins por 1 a 0 na MLB",
-    "summary": "Cincinnati Reds derrotou Miami Marlins por 1 a 0 na MLB.",
-    "content": "Cincinnati Reds derrotou Miami Marlins por 1 a 0 na MLB, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Cincinnati Reds vence Miami Marlins por 1 a 0 na MLB",
-    "seoDescription": "Cincinnati Reds derrotou Miami Marlins por 1 a 0 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T00:57:26.319Z",
-    "createdAt": "2026-08-15T00:57:26.319Z",
-    "updatedAt": "2026-08-15T00:57:26.319Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602962",
-      "eventStartTime": "2026-08-14T22:10:00+00:00",
-      "retrievedAt": "2026-08-15T00:57:26.319Z",
-      "feedId": "beisebol",
-      "league": "MLB"
     },
     "articleFormat": "result-brief"
   }
