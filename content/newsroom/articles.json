@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-6419f8562375",
+    "slug": "heliovaara-h-patten-h-vence-hanfmann-y-kecmanovic-m-por-2-a-0-em-cincinnati-6419f8",
+    "sportId": "tenis",
+    "title": "Heliovaara H./Patten H. vence Hanfmann Y./Kecmanovic M. por 2 a 0 em Cincinnati",
+    "summary": "Heliovaara H./Patten H. superou Hanfmann Y./Kecmanovic M. por 2 a 0 em Cincinnati.",
+    "content": "Heliovaara H./Patten H. superou Hanfmann Y./Kecmanovic M. por 2 a 0 em Cincinnati., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Heliovaara H./Patten H. vence Hanfmann Y./Kecmanovic M. por 2 a 0 em",
+    "seoDescription": "Heliovaara H./Patten H. superou Hanfmann Y./Kecmanovic M. por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T17:50:17.231Z",
+    "createdAt": "2026-08-18T17:50:17.231Z",
+    "updatedAt": "2026-08-18T17:50:17.231Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817227",
+      "eventStartTime": "2026-08-18T16:30:00+00:00",
+      "retrievedAt": "2026-08-18T17:50:17.231Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8c1e5ba8c26f",
+    "slug": "bayern-munich-supera-fc-heidenheim-por-4-a-2-pelo-club-friendlies-8c1e5b",
+    "sportId": "futebol",
+    "title": "Bayern Munich supera FC Heidenheim por 4 a 2 pelo Club Friendlies",
+    "summary": "Bayern Munich venceu FC Heidenheim por 4 a 2 pelo Club Friendlies.",
+    "content": "Bayern Munich venceu FC Heidenheim por 4 a 2 pelo Club Friendlies, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Bayern Munich supera FC Heidenheim por 4 a 2 pelo Club Friendlies",
+    "seoDescription": "Bayern Munich venceu FC Heidenheim por 4 a 2 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T17:50:17.210Z",
+    "createdAt": "2026-08-18T17:50:17.210Z",
+    "updatedAt": "2026-08-18T17:50:17.210Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4805030",
+      "eventStartTime": "2026-08-18T16:00:00+00:00",
+      "retrievedAt": "2026-08-18T17:50:17.210Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-1a3973fd2db4",
     "slug": "gray-a-rybakov-a-vence-dhamne-m-perego-g-por-2-a-0-em-roehampton-1a3973",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T04:28:54.850Z",
       "feedId": "beisebol",
       "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-554d66ea92d4",
-    "slug": "lois-boisson-vence-belinda-bencic-por-1-a-0-em-cincinnati-554d66",
-    "sportId": "tenis",
-    "title": "Lois Boisson vence Belinda Bencic por 1 a 0 em Cincinnati",
-    "summary": "Lois Boisson superou Belinda Bencic por 1 a 0 em Cincinnati.",
-    "content": "Lois Boisson superou Belinda Bencic por 1 a 0 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Lois Boisson vence Belinda Bencic por 1 a 0 em Cincinnati",
-    "seoDescription": "Lois Boisson superou Belinda Bencic por 1 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T04:28:54.847Z",
-    "createdAt": "2026-08-16T04:28:54.847Z",
-    "updatedAt": "2026-08-16T04:28:54.847Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813623",
-      "eventStartTime": "2026-08-16T02:23:19+00:00",
-      "retrievedAt": "2026-08-16T04:28:54.847Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6d87ea33854b",
-    "slug": "gambusinos-de-fresnillo-vence-diablos-rojos-del-mexico-por-83-a-80-em-lnbp-6d87ea",
-    "sportId": "basquete",
-    "title": "Gambusinos De Fresnillo vence Diablos Rojos del Mexico por 83 a 80 em LNBP",
-    "summary": "Gambusinos De Fresnillo superou Diablos Rojos del Mexico por 83 a 80 em LNBP.",
-    "content": "Gambusinos De Fresnillo superou Diablos Rojos del Mexico por 83 a 80 em LNBP., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnbp"
-    ],
-    "seoTitle": "Gambusinos De Fresnillo vence Diablos Rojos del Mexico por 83 a 80 em",
-    "seoDescription": "Gambusinos De Fresnillo superou Diablos Rojos del Mexico por 83 a 80 em LNBP.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T04:28:54.845Z",
-    "createdAt": "2026-08-16T04:28:54.845Z",
-    "updatedAt": "2026-08-16T04:28:54.845Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4707868",
-      "eventStartTime": "2026-08-16T02:00:00+00:00",
-      "retrievedAt": "2026-08-16T04:28:54.845Z",
-      "feedId": "basquete",
-      "league": "LNBP"
     },
     "articleFormat": "result-brief"
   }
