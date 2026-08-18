@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-a612f5d772a8",
+    "slug": "los-angeles-dodgers-vence-colorado-rockies-por-11-a-5-na-mlb-a612f5",
+    "sportId": "beisebol",
+    "title": "Los Angeles Dodgers vence Colorado Rockies por 11 a 5 na MLB",
+    "summary": "Los Angeles Dodgers derrotou Colorado Rockies por 11 a 5 na MLB.",
+    "content": "Los Angeles Dodgers derrotou Colorado Rockies por 11 a 5 na MLB, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Los Angeles Dodgers vence Colorado Rockies por 11 a 5 na MLB",
+    "seoDescription": "Los Angeles Dodgers derrotou Colorado Rockies por 11 a 5 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T03:55:22.334Z",
+    "createdAt": "2026-08-18T03:55:22.334Z",
+    "updatedAt": "2026-08-18T03:55:22.334Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614849",
+      "eventStartTime": "2026-08-18T00:40:00+00:00",
+      "retrievedAt": "2026-08-18T03:55:22.334Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-55da22972c68",
+    "slug": "kostyuk-m-stearns-p-vence-v-williams-s-williams-por-2-a-1-em-cincinnati-55da22",
+    "sportId": "tenis",
+    "title": "Kostyuk M./Stearns P. vence V. Williams / S. Williams por 2 a 1 em Cincinnati",
+    "summary": "Kostyuk M./Stearns P. superou V. Williams / S. Williams por 2 a 1 em Cincinnati.",
+    "content": "Kostyuk M./Stearns P. superou V. Williams / S. Williams por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Kostyuk M./Stearns P. vence V. Williams / S. Williams por 2 a 1 em",
+    "seoDescription": "Kostyuk M./Stearns P. superou V. Williams / S. Williams por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T03:55:22.331Z",
+    "createdAt": "2026-08-18T03:55:22.331Z",
+    "updatedAt": "2026-08-18T03:55:22.331Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815628",
+      "eventStartTime": "2026-08-18T01:02:11+00:00",
+      "retrievedAt": "2026-08-18T03:55:22.331Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-58231b23e1d8",
+    "slug": "canada-w-vence-senegal-w-por-72-a-57-em-olympic-qualification-w-58231b",
+    "sportId": "basquete",
+    "title": "Canada (W) vence Senegal (W) por 72 a 57 em Olympic Qualification (W)",
+    "summary": "Canada (W) superou Senegal (W) por 72 a 57 em Olympic Qualification (W).",
+    "content": "Canada (W) superou Senegal (W) por 72 a 57 em Olympic Qualification (W)., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "olympic-qualification-w"
+    ],
+    "seoTitle": "Canada (W) vence Senegal (W) por 72 a 57 em Olympic Qualification (W)",
+    "seoDescription": "Canada (W) superou Senegal (W) por 72 a 57 em Olympic Qualification (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T03:55:22.325Z",
+    "createdAt": "2026-08-18T03:55:22.325Z",
+    "updatedAt": "2026-08-18T03:55:22.325Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816707",
+      "eventStartTime": "2026-08-17T23:30:00+00:00",
+      "retrievedAt": "2026-08-18T03:55:22.325Z",
+      "feedId": "basquete",
+      "league": "Olympic Qualification (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-257a984b4b7f",
+    "slug": "leon-supera-necaxa-por-2-a-1-pela-liga-mx-257a98",
+    "sportId": "futebol",
+    "title": "Leon supera Necaxa por 2 a 1 pela Liga MX",
+    "summary": "Leon venceu Necaxa por 2 a 1 pela Liga MX.",
+    "content": "Leon venceu Necaxa por 2 a 1 pela Liga MX, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-mx"
+    ],
+    "seoTitle": "Leon supera Necaxa por 2 a 1 pela Liga MX",
+    "seoDescription": "Leon venceu Necaxa por 2 a 1 pela Liga MX.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T03:55:22.317Z",
+    "createdAt": "2026-08-18T03:55:22.317Z",
+    "updatedAt": "2026-08-18T03:55:22.317Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4735729",
+      "eventStartTime": "2026-08-18T01:00:00+00:00",
+      "retrievedAt": "2026-08-18T03:55:22.317Z",
+      "feedId": "futebol",
+      "league": "Liga MX"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-0f31a4464495",
     "slug": "kansas-city-royals-vence-athletics-por-9-a-5-na-mlb-0f31a4",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-15T18:15:13.752Z",
       "feedId": "futebol",
       "league": "Liga MX U21"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e5a9695dddca",
-    "slug": "adolfo-daniel-vallejo-vence-kyrian-jacquet-por-2-a-0-em-cincinnati-e5a969",
-    "sportId": "tenis",
-    "title": "Adolfo Daniel Vallejo vence Kyrian Jacquet por 2 a 0 em Cincinnati",
-    "summary": "Adolfo Daniel Vallejo superou Kyrian Jacquet por 2 a 0 em Cincinnati.",
-    "content": "Adolfo Daniel Vallejo superou Kyrian Jacquet por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Adolfo Daniel Vallejo vence Kyrian Jacquet por 2 a 0 em Cincinnati",
-    "seoDescription": "Adolfo Daniel Vallejo superou Kyrian Jacquet por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T17:56:10.776Z",
-    "createdAt": "2026-08-15T17:56:10.776Z",
-    "updatedAt": "2026-08-15T17:56:10.776Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813391",
-      "eventStartTime": "2026-08-14T15:12:36+00:00",
-      "retrievedAt": "2026-08-15T17:56:10.776Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-345a35b03013",
-    "slug": "zeleznicar-pancevo-e-fk-crvena-zvezda-ficam-no-0-a-0-pela-super-liga-345a35",
-    "sportId": "futebol",
-    "title": "Zeleznicar Pancevo e FK Crvena zvezda ficam no 0 a 0 pela Super Liga",
-    "summary": "Zeleznicar Pancevo e FK Crvena zvezda empataram por 0 a 0 pela Super Liga.",
-    "content": "Zeleznicar Pancevo e FK Crvena zvezda empataram por 0 a 0 pela Super Liga, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "super-liga"
-    ],
-    "seoTitle": "Zeleznicar Pancevo e FK Crvena zvezda ficam no 0 a 0 pela Super Liga",
-    "seoDescription": "Zeleznicar Pancevo e FK Crvena zvezda empataram por 0 a 0 pela Super Liga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T17:56:10.701Z",
-    "createdAt": "2026-08-15T17:56:10.701Z",
-    "updatedAt": "2026-08-15T17:56:10.701Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4737638",
-      "eventStartTime": "2026-08-15T18:00:00+00:00",
-      "retrievedAt": "2026-08-15T17:56:10.701Z",
-      "feedId": "futebol",
-      "league": "Super Liga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c68b3aa6d308",
-    "slug": "maxim-mrva-vence-alex-barrena-por-2-a-0-em-todi-c68b3a",
-    "sportId": "tenis",
-    "title": "Maxim Mrva vence Alex Barrena por 2 a 0 em Todi",
-    "summary": "Maxim Mrva superou Alex Barrena por 2 a 0 em Todi.",
-    "content": "Maxim Mrva superou Alex Barrena por 2 a 0 em Todi., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "todi"
-    ],
-    "seoTitle": "Maxim Mrva vence Alex Barrena por 2 a 0 em Todi",
-    "seoDescription": "Maxim Mrva superou Alex Barrena por 2 a 0 em Todi.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T17:41:46.705Z",
-    "createdAt": "2026-08-15T17:41:46.705Z",
-    "updatedAt": "2026-08-15T17:41:46.705Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814939",
-      "eventStartTime": "2026-08-15T16:10:20+00:00",
-      "retrievedAt": "2026-08-15T17:41:46.705Z",
-      "feedId": "tenis",
-      "league": "Todi"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-031c4ec4a59b",
-    "slug": "phonix-lubeck-e-vfb-lubeck-ficam-no-0-a-0-pela-regionalliga-031c4e",
-    "sportId": "futebol",
-    "title": "Phönix Lübeck e VfB Lübeck ficam no 0 a 0 pela Regionalliga",
-    "summary": "Phönix Lübeck e VfB Lübeck empataram por 0 a 0 pela Regionalliga.",
-    "content": "Phönix Lübeck e VfB Lübeck empataram por 0 a 0 pela Regionalliga, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "regionalliga"
-    ],
-    "seoTitle": "Phönix Lübeck e VfB Lübeck ficam no 0 a 0 pela Regionalliga",
-    "seoDescription": "Phönix Lübeck e VfB Lübeck empataram por 0 a 0 pela Regionalliga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T17:41:46.680Z",
-    "createdAt": "2026-08-15T17:41:46.680Z",
-    "updatedAt": "2026-08-15T17:41:46.680Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4762824",
-      "eventStartTime": "2026-08-15T17:00:00+00:00",
-      "retrievedAt": "2026-08-15T17:41:46.680Z",
-      "feedId": "futebol",
-      "league": "Regionalliga"
     },
     "articleFormat": "result-brief"
   }
