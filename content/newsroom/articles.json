@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-75977582bcc9",
+    "slug": "s-doumbia-f-reboul-vence-buse-i-cobolli-f-por-2-a-1-em-cincinnati-759775",
+    "sportId": "tenis",
+    "title": "S. Doumbia/F. Reboul vence Buse I./Cobolli F. por 2 a 1 em Cincinnati",
+    "summary": "S. Doumbia/F. Reboul superou Buse I./Cobolli F. por 2 a 1 em Cincinnati.",
+    "content": "S. Doumbia/F. Reboul superou Buse I./Cobolli F. por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "S. Doumbia/F. Reboul vence Buse I./Cobolli F. por 2 a 1 em Cincinnati",
+    "seoDescription": "S. Doumbia/F. Reboul superou Buse I./Cobolli F. por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T07:52:33.291Z",
+    "createdAt": "2026-08-18T07:52:33.291Z",
+    "updatedAt": "2026-08-18T07:52:33.291Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815120",
+      "eventStartTime": "2026-08-17T23:55:15+00:00",
+      "retrievedAt": "2026-08-18T07:52:33.291Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ba68187212e7",
+    "slug": "guarani-e-ypiranga-rs-ficam-no-2-a-2-pelo-serie-c-ba6818",
+    "sportId": "futebol",
+    "title": "Guarani e Ypiranga-RS ficam no 2 a 2 pelo Serie C",
+    "summary": "Guarani e Ypiranga-RS empataram por 2 a 2 pelo Serie C.",
+    "content": "Guarani e Ypiranga-RS empataram por 2 a 2 pelo Serie C, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-c"
+    ],
+    "seoTitle": "Guarani e Ypiranga-RS ficam no 2 a 2 pelo Serie C",
+    "seoDescription": "Guarani e Ypiranga-RS empataram por 2 a 2 pelo Serie C.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T07:52:33.249Z",
+    "createdAt": "2026-08-18T07:52:33.249Z",
+    "updatedAt": "2026-08-18T07:52:33.249Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4677740",
+      "eventStartTime": "2026-08-17T23:00:00+00:00",
+      "retrievedAt": "2026-08-18T07:52:33.249Z",
+      "feedId": "futebol",
+      "league": "Serie C"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3a16da0c589d",
     "slug": "adam-walton-vence-ignacio-buse-por-2-a-0-em-cincinnati-3a16da",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T20:57:18.439Z",
       "feedId": "futebol",
       "league": "Primera B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b2a486d80b4b",
-    "slug": "linda-noskova-vence-katie-boulter-por-2-a-0-em-cincinnati-b2a486",
-    "sportId": "tenis",
-    "title": "Linda Noskova vence Katie Boulter por 2 a 0 em Cincinnati",
-    "summary": "Linda Noskova superou Katie Boulter por 2 a 0 em Cincinnati.",
-    "content": "Linda Noskova superou Katie Boulter por 2 a 0 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Linda Noskova vence Katie Boulter por 2 a 0 em Cincinnati",
-    "seoDescription": "Linda Noskova superou Katie Boulter por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T20:36:23.413Z",
-    "createdAt": "2026-08-15T20:36:23.413Z",
-    "updatedAt": "2026-08-15T20:36:23.413Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813833",
-      "eventStartTime": "2026-08-15T19:02:22+00:00",
-      "retrievedAt": "2026-08-15T20:36:23.413Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1e8f85deec9d",
-    "slug": "chicago-bears-vence-cleveland-browns-por-34-a-10-em-nfl-1e8f85",
-    "sportId": "futebol-americano",
-    "title": "Chicago Bears vence Cleveland Browns por 34 a 10 em NFL",
-    "summary": "Chicago Bears superou Cleveland Browns por 34 a 10 em NFL.",
-    "content": "Chicago Bears superou Cleveland Browns por 34 a 10 em NFL., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "Chicago Bears vence Cleveland Browns por 34 a 10 em NFL",
-    "seoDescription": "Chicago Bears superou Cleveland Browns por 34 a 10 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T20:36:23.397Z",
-    "createdAt": "2026-08-15T20:36:23.397Z",
-    "updatedAt": "2026-08-15T20:36:23.397Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714909",
-      "eventStartTime": "2026-08-15T17:00:00+00:00",
-      "retrievedAt": "2026-08-15T20:36:23.397Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
     },
     "articleFormat": "result-brief"
   }
