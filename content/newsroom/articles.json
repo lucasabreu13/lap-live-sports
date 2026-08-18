@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-b40285cd8dc8",
+    "slug": "melo-m-zverev-a-vence-navone-m-tabilo-a-por-2-a-0-em-cincinnati-b40285",
+    "sportId": "tenis",
+    "title": "Melo M./Zverev A. vence Navone M./Tabilo A. por 2 a 0 em Cincinnati",
+    "summary": "Melo M./Zverev A. superou Navone M./Tabilo A. por 2 a 0 em Cincinnati.",
+    "content": "Melo M./Zverev A. superou Navone M./Tabilo A. por 2 a 0 em Cincinnati., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Melo M./Zverev A. vence Navone M./Tabilo A. por 2 a 0 em Cincinnati",
+    "seoDescription": "Melo M./Zverev A. superou Navone M./Tabilo A. por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T20:38:22.646Z",
+    "createdAt": "2026-08-18T20:38:22.646Z",
+    "updatedAt": "2026-08-18T20:38:22.646Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817132",
+      "eventStartTime": "2026-08-18T19:05:33+00:00",
+      "retrievedAt": "2026-08-18T20:38:22.646Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-be66690521c1",
+    "slug": "scarborough-athletic-supera-spennymoor-town-por-3-a-0-pelo-national-league-n-s-be6669",
+    "sportId": "futebol",
+    "title": "Scarborough Athletic supera Spennymoor Town por 3 a 0 pelo National League N/S",
+    "summary": "Scarborough Athletic venceu Spennymoor Town por 3 a 0 pelo National League N/S.",
+    "content": "Scarborough Athletic venceu Spennymoor Town por 3 a 0 pelo National League N/S, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "national-league-n-s"
+    ],
+    "seoTitle": "Scarborough Athletic supera Spennymoor Town por 3 a 0 pelo National",
+    "seoDescription": "Scarborough Athletic venceu Spennymoor Town por 3 a 0 pelo National League N/S.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T20:38:22.629Z",
+    "createdAt": "2026-08-18T20:38:22.629Z",
+    "updatedAt": "2026-08-18T20:38:22.629Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4765066",
+      "eventStartTime": "2026-08-18T18:45:00+00:00",
+      "retrievedAt": "2026-08-18T20:38:22.629Z",
+      "feedId": "futebol",
+      "league": "National League N/S"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5a130f39d9b1",
     "slug": "ram-r-salisbury-j-vence-cash-j-glasspool-l-por-2-a-1-em-cincinnati-5a130f",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T07:42:42.820Z",
       "feedId": "basquete",
       "league": "LFB (W)"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2893d5fd4d42",
-    "slug": "deportivo-saprissa-supera-cs-cartagines-por-3-a-2-pela-liga-fpd-2893d5",
-    "sportId": "futebol",
-    "title": "Deportivo Saprissa supera CS Cartagines por 3 a 2 pela liga FPD",
-    "summary": "Deportivo Saprissa venceu CS Cartagines por 3 a 2 pela liga FPD.",
-    "content": "Deportivo Saprissa venceu CS Cartagines por 3 a 2 pela liga FPD, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-fpd"
-    ],
-    "seoTitle": "Deportivo Saprissa supera CS Cartagines por 3 a 2 pela liga FPD",
-    "seoDescription": "Deportivo Saprissa venceu CS Cartagines por 3 a 2 pela liga FPD.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T07:42:42.800Z",
-    "createdAt": "2026-08-16T07:42:42.800Z",
-    "updatedAt": "2026-08-16T07:42:42.800Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4734841",
-      "eventStartTime": "2026-08-16T02:00:00+00:00",
-      "retrievedAt": "2026-08-16T07:42:42.800Z",
-      "feedId": "futebol",
-      "league": "liga FPD"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d7719089157d",
-    "slug": "lobos-plateados-vence-dorados-de-chihuahua-por-74-a-71-em-lnbp-d77190",
-    "sportId": "basquete",
-    "title": "Lobos Plateados vence Dorados De Chihuahua por 74 a 71 em LNBP",
-    "summary": "Lobos Plateados superou Dorados De Chihuahua por 74 a 71 em LNBP.",
-    "content": "Lobos Plateados superou Dorados De Chihuahua por 74 a 71 em LNBP., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnbp"
-    ],
-    "seoTitle": "Lobos Plateados vence Dorados De Chihuahua por 74 a 71 em LNBP",
-    "seoDescription": "Lobos Plateados superou Dorados De Chihuahua por 74 a 71 em LNBP.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T07:07:16.748Z",
-    "createdAt": "2026-08-16T07:07:16.748Z",
-    "updatedAt": "2026-08-16T07:07:16.748Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4708857",
-      "eventStartTime": "2026-08-15T23:00:00+00:00",
-      "retrievedAt": "2026-08-16T07:07:16.748Z",
-      "feedId": "basquete",
-      "league": "LNBP"
     },
     "articleFormat": "result-brief"
   }
