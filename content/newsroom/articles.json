@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-0c06824ca8ff",
+    "slug": "yokohama-baystars-vence-yomiuri-giants-por-4-a-3-na-npb-0c0682",
+    "sportId": "beisebol",
+    "title": "Yokohama Baystars vence Yomiuri Giants por 4 a 3 na NPB",
+    "summary": "Yokohama Baystars derrotou Yomiuri Giants por 4 a 3 na NPB.",
+    "content": "Yokohama Baystars derrotou Yomiuri Giants por 4 a 3 na NPB, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Yokohama Baystars vence Yomiuri Giants por 4 a 3 na NPB",
+    "seoDescription": "Yokohama Baystars derrotou Yomiuri Giants por 4 a 3 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T11:59:03.415Z",
+    "createdAt": "2026-08-18T11:59:03.415Z",
+    "updatedAt": "2026-08-18T11:59:03.415Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626849",
+      "eventStartTime": "2026-08-18T08:45:00+00:00",
+      "retrievedAt": "2026-08-18T11:59:03.415Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-de3acc4d8dfb",
+    "slug": "max-hans-rehberg-e-jakub-nicod-empatam-por-0-a-0-em-prague-de3acc",
+    "sportId": "tenis",
+    "title": "Max Hans Rehberg e Jakub Nicod empatam por 0 a 0 em Prague",
+    "summary": "Max Hans Rehberg e Jakub Nicod terminaram empatados por 0 a 0 em Prague.",
+    "content": "Max Hans Rehberg e Jakub Nicod terminaram empatados por 0 a 0 em Prague., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Max Hans Rehberg e Jakub Nicod empatam por 0 a 0 em Prague",
+    "seoDescription": "Max Hans Rehberg e Jakub Nicod terminaram empatados por 0 a 0 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T11:59:03.412Z",
+    "createdAt": "2026-08-18T11:59:03.412Z",
+    "updatedAt": "2026-08-18T11:59:03.412Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815443",
+      "eventStartTime": "2026-08-18T10:55:50+00:00",
+      "retrievedAt": "2026-08-18T11:59:03.412Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4932c5f792ac",
+    "slug": "sydney-fc-supera-sd-raiders-por-1-a-0-pelo-australia-cup-4932c5",
+    "sportId": "futebol",
+    "title": "Sydney FC supera Sd Raiders por 1 a 0 pelo Australia Cup",
+    "summary": "Sydney FC venceu Sd Raiders por 1 a 0 pelo Australia Cup.",
+    "content": "Sydney FC venceu Sd Raiders por 1 a 0 pelo Australia Cup, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "australia-cup"
+    ],
+    "seoTitle": "Sydney FC supera Sd Raiders por 1 a 0 pelo Australia Cup",
+    "seoDescription": "Sydney FC venceu Sd Raiders por 1 a 0 pelo Australia Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T11:59:03.378Z",
+    "createdAt": "2026-08-18T11:59:03.378Z",
+    "updatedAt": "2026-08-18T11:59:03.378Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809147",
+      "eventStartTime": "2026-08-18T09:30:00+00:00",
+      "retrievedAt": "2026-08-18T11:59:03.378Z",
+      "feedId": "futebol",
+      "league": "Australia Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3e07e5eeb65a",
     "slug": "dominic-stricker-vence-raphael-perot-por-2-a-0-em-sion-3e07e5",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-15T23:11:16.176Z",
       "feedId": "tenis",
       "league": "Astana"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e10c7a1c51fc",
-    "slug": "sayago-vence-urupan-por-64-a-63-em-liga-de-ascenso-e10c7a",
-    "sportId": "basquete",
-    "title": "Sayago vence Urupan por 64 a 63 em Liga de ascenso",
-    "summary": "Sayago superou Urupan por 64 a 63 em Liga de ascenso.",
-    "content": "Sayago superou Urupan por 64 a 63 em Liga de ascenso., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "Sayago vence Urupan por 64 a 63 em Liga de ascenso",
-    "seoDescription": "Sayago superou Urupan por 64 a 63 em Liga de ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T23:11:16.149Z",
-    "createdAt": "2026-08-15T23:11:16.149Z",
-    "updatedAt": "2026-08-15T23:11:16.149Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807073",
-      "eventStartTime": "2026-08-14T23:15:00+00:00",
-      "retrievedAt": "2026-08-15T23:11:16.149Z",
-      "feedId": "basquete",
-      "league": "Liga de ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f65293122b35",
-    "slug": "los-angeles-rams-vence-kansas-city-chiefs-por-20-a-12-em-nfl-f65293",
-    "sportId": "futebol-americano",
-    "title": "Los Angeles Rams vence Kansas City Chiefs por 20 a 12 em NFL",
-    "summary": "Los Angeles Rams superou Kansas City Chiefs por 20 a 12 em NFL.",
-    "content": "Los Angeles Rams superou Kansas City Chiefs por 20 a 12 em NFL., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "Los Angeles Rams vence Kansas City Chiefs por 20 a 12 em NFL",
-    "seoDescription": "Los Angeles Rams superou Kansas City Chiefs por 20 a 12 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T23:11:16.134Z",
-    "createdAt": "2026-08-15T23:11:16.134Z",
-    "updatedAt": "2026-08-15T23:11:16.134Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714913",
-      "eventStartTime": "2026-08-15T20:00:00+00:00",
-      "retrievedAt": "2026-08-15T23:11:16.134Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-721a505ac3e7",
-    "slug": "atletico-nacional-e-independiente-santa-fe-ficam-no-0-a-0-pelo-primera-a-721a50",
-    "sportId": "futebol",
-    "title": "Atletico Nacional e Independiente Santa Fe ficam no 0 a 0 pelo Primera A",
-    "summary": "Atletico Nacional e Independiente Santa Fe empataram por 0 a 0 pelo Primera A.",
-    "content": "Atletico Nacional e Independiente Santa Fe empataram por 0 a 0 pelo Primera A, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-a"
-    ],
-    "seoTitle": "Atletico Nacional e Independiente Santa Fe ficam no 0 a 0 pelo Primera",
-    "seoDescription": "Atletico Nacional e Independiente Santa Fe empataram por 0 a 0 pelo Primera A.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T23:11:16.130Z",
-    "createdAt": "2026-08-15T23:11:16.130Z",
-    "updatedAt": "2026-08-15T23:11:16.130Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732057",
-      "eventStartTime": "2026-08-15T23:05:00+00:00",
-      "retrievedAt": "2026-08-15T23:11:16.130Z",
-      "feedId": "futebol",
-      "league": "Primera A"
     },
     "articleFormat": "result-brief"
   }
