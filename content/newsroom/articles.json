@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-3bf53b125501",
+    "slug": "otto-virtanen-e-yibing-wu-empatam-por-0-a-0-em-cancun-3bf53b",
+    "sportId": "tenis",
+    "title": "Otto Virtanen e Yibing Wu empatam por 0 a 0 em Cancun",
+    "summary": "Otto Virtanen e Yibing Wu terminaram empatados por 0 a 0 em Cancun.",
+    "content": "Otto Virtanen e Yibing Wu terminaram empatados por 0 a 0 em Cancun., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Otto Virtanen e Yibing Wu empatam por 0 a 0 em Cancun",
+    "seoDescription": "Otto Virtanen e Yibing Wu terminaram empatados por 0 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T19:55:09.290Z",
+    "createdAt": "2026-08-18T19:55:09.290Z",
+    "updatedAt": "2026-08-18T19:55:09.290Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816193",
+      "eventStartTime": "2026-08-18T20:00:00+00:00",
+      "retrievedAt": "2026-08-18T19:55:09.290Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-26550f28e5df",
+    "slug": "sheppey-united-e-margate-fc-ficam-no-0-a-0-pelo-non-league-premier-26550f",
+    "sportId": "futebol",
+    "title": "Sheppey United e Margate FC ficam no 0 a 0 pelo Non League Premier",
+    "summary": "Sheppey United e Margate FC empataram por 0 a 0 pelo Non League Premier.",
+    "content": "Sheppey United e Margate FC empataram por 0 a 0 pelo Non League Premier, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "non-league-premier"
+    ],
+    "seoTitle": "Sheppey United e Margate FC ficam no 0 a 0 pelo Non League Premier",
+    "seoDescription": "Sheppey United e Margate FC empataram por 0 a 0 pelo Non League Premier.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T19:55:09.270Z",
+    "createdAt": "2026-08-18T19:55:09.270Z",
+    "updatedAt": "2026-08-18T19:55:09.270Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814166",
+      "eventStartTime": "2026-08-18T18:45:00+00:00",
+      "retrievedAt": "2026-08-18T19:55:09.270Z",
+      "feedId": "futebol",
+      "league": "Non League Premier"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-052b9032786d",
     "slug": "bass-f-duncan-s-vence-frydrych-v-stephens-z-por-2-a-0-em-roehampton-052b90",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T05:54:34.909Z",
       "feedId": "basquete",
       "league": "LNBP"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ef009b1beec7",
-    "slug": "club-tijuana-w-supera-necaxa-w-por-5-a-1-pelo-mexico-ef009b",
-    "sportId": "futebol",
-    "title": "Club Tijuana (W) supera Necaxa (W) por 5 a 1 pelo Mexico",
-    "summary": "Club Tijuana (W) venceu Necaxa (W) por 5 a 1 pelo Mexico.",
-    "content": "Club Tijuana (W) venceu Necaxa (W) por 5 a 1 pelo Mexico, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mexico"
-    ],
-    "seoTitle": "Club Tijuana (W) supera Necaxa (W) por 5 a 1 pelo Mexico",
-    "seoDescription": "Club Tijuana (W) venceu Necaxa (W) por 5 a 1 pelo Mexico.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T05:54:34.896Z",
-    "createdAt": "2026-08-16T05:54:34.896Z",
-    "updatedAt": "2026-08-16T05:54:34.896Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4788412",
-      "eventStartTime": "2026-08-16T03:10:00+00:00",
-      "retrievedAt": "2026-08-16T05:54:34.896Z",
-      "feedId": "futebol",
-      "league": "Mexico"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4f95fd271b10",
-    "slug": "boston-red-sox-vence-pittsburgh-pirates-por-4-a-0-na-mlb-4f95fd",
-    "sportId": "beisebol",
-    "title": "Boston Red Sox vence Pittsburgh Pirates por 4 a 0 na MLB",
-    "summary": "Boston Red Sox derrotou Pittsburgh Pirates por 4 a 0 na MLB.",
-    "content": "Boston Red Sox derrotou Pittsburgh Pirates por 4 a 0 na MLB, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Boston Red Sox vence Pittsburgh Pirates por 4 a 0 na MLB",
-    "seoDescription": "Boston Red Sox derrotou Pittsburgh Pirates por 4 a 0 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T05:30:26.004Z",
-    "createdAt": "2026-08-16T05:30:26.004Z",
-    "updatedAt": "2026-08-16T05:30:26.004Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614577",
-      "eventStartTime": "2026-08-15T23:15:00+00:00",
-      "retrievedAt": "2026-08-16T05:30:26.004Z",
-      "feedId": "beisebol",
-      "league": "MLB"
     },
     "articleFormat": "result-brief"
   }
