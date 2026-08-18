@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-a5411026f27d",
+    "slug": "valentin-royer-vence-luis-augusto-miguel-por-2-a-1-em-kingston-a54110",
+    "sportId": "tenis",
+    "title": "Valentin Royer vence Luis Augusto Miguel por 2 a 1 em Kingston",
+    "summary": "Valentin Royer superou Luis Augusto Miguel por 2 a 1 em Kingston.",
+    "content": "Valentin Royer superou Luis Augusto Miguel por 2 a 1 em Kingston., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Valentin Royer vence Luis Augusto Miguel por 2 a 1 em Kingston",
+    "seoDescription": "Valentin Royer superou Luis Augusto Miguel por 2 a 1 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T21:58:05.055Z",
+    "createdAt": "2026-08-18T21:58:05.055Z",
+    "updatedAt": "2026-08-18T21:58:05.055Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815561",
+      "eventStartTime": "2026-08-18T16:56:33+00:00",
+      "retrievedAt": "2026-08-18T21:58:05.055Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-43479cdd9dea",
+    "slug": "lagomar-vence-verdirrojo-bbc-por-73-a-57-em-liga-de-ascenso-43479c",
+    "sportId": "basquete",
+    "title": "Lagomar vence Verdirrojo Bbc por 73 a 57 em Liga de ascenso",
+    "summary": "Lagomar superou Verdirrojo Bbc por 73 a 57 em Liga de ascenso.",
+    "content": "Lagomar superou Verdirrojo Bbc por 73 a 57 em Liga de ascenso., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Lagomar vence Verdirrojo Bbc por 73 a 57 em Liga de ascenso",
+    "seoDescription": "Lagomar superou Verdirrojo Bbc por 73 a 57 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T21:58:05.042Z",
+    "createdAt": "2026-08-18T21:58:05.042Z",
+    "updatedAt": "2026-08-18T21:58:05.042Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815404",
+      "eventStartTime": "2026-08-17T23:15:00+00:00",
+      "retrievedAt": "2026-08-18T21:58:05.042Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-0fade068a30f",
+    "slug": "caracas-fc-supera-yaracuyanos-por-3-a-2-pela-copa-venezuela-0fade0",
+    "sportId": "futebol",
+    "title": "Caracas FC supera Yaracuyanos por 3 a 2 pela Copa Venezuela",
+    "summary": "Caracas FC venceu Yaracuyanos por 3 a 2 pela Copa Venezuela.",
+    "content": "Caracas FC venceu Yaracuyanos por 3 a 2 pela Copa Venezuela, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-venezuela"
+    ],
+    "seoTitle": "Caracas FC supera Yaracuyanos por 3 a 2 pela Copa Venezuela",
+    "seoDescription": "Caracas FC venceu Yaracuyanos por 3 a 2 pela Copa Venezuela.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T21:58:05.031Z",
+    "createdAt": "2026-08-18T21:58:05.031Z",
+    "updatedAt": "2026-08-18T21:58:05.031Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4743194",
+      "eventStartTime": "2026-08-18T20:00:00+00:00",
+      "retrievedAt": "2026-08-18T21:58:05.031Z",
+      "feedId": "futebol",
+      "league": "Copa Venezuela"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-c2589a7e44fe",
     "slug": "rei-sakamoto-vence-jurij-rodionov-por-2-a-0-em-quebec-city-c2589a",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-16T10:12:11.823Z",
       "feedId": "futebol",
       "league": "Division 2"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-bb576433a6fe",
-    "slug": "new-mexico-supera-fc-tulsa-por-1-a-0-pela-usl-championship-bb5764",
-    "sportId": "futebol",
-    "title": "New Mexico supera FC Tulsa por 1 a 0 pela USL Championship",
-    "summary": "New Mexico venceu FC Tulsa por 1 a 0 pela USL Championship.",
-    "content": "New Mexico venceu FC Tulsa por 1 a 0 pela USL Championship, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "usl-championship"
-    ],
-    "seoTitle": "New Mexico supera FC Tulsa por 1 a 0 pela USL Championship",
-    "seoDescription": "New Mexico venceu FC Tulsa por 1 a 0 pela USL Championship.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T09:48:35.180Z",
-    "createdAt": "2026-08-16T09:48:35.180Z",
-    "updatedAt": "2026-08-16T09:48:35.180Z",
-    "homepagePriority": 82,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4634139",
-      "eventStartTime": "2026-08-16T01:30:00+00:00",
-      "retrievedAt": "2026-08-16T09:48:35.180Z",
-      "feedId": "futebol",
-      "league": "USL Championship"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-da041d3c35a9",
-    "slug": "rudolf-molleker-vence-aleksandr-braynin-por-2-a-0-em-prague-da041d",
-    "sportId": "tenis",
-    "title": "Rudolf Molleker vence Aleksandr Braynin por 2 a 0 em Prague",
-    "summary": "Rudolf Molleker superou Aleksandr Braynin por 2 a 0 em Prague.",
-    "content": "Rudolf Molleker superou Aleksandr Braynin por 2 a 0 em Prague., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Rudolf Molleker vence Aleksandr Braynin por 2 a 0 em Prague",
-    "seoDescription": "Rudolf Molleker superou Aleksandr Braynin por 2 a 0 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T09:20:18.125Z",
-    "createdAt": "2026-08-16T09:20:18.125Z",
-    "updatedAt": "2026-08-16T09:20:18.125Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815309",
-      "eventStartTime": "2026-08-16T08:09:03+00:00",
-      "retrievedAt": "2026-08-16T09:20:18.125Z",
-      "feedId": "tenis",
-      "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8d45f2af2cfd",
-    "slug": "colorado-rapids-supera-sporting-kc-por-2-a-0-pelo-mls-8d45f2",
-    "sportId": "futebol",
-    "title": "Colorado Rapids supera Sporting KC por 2 a 0 pela MLS",
-    "summary": "Colorado Rapids venceu Sporting KC por 2 a 0 pela MLS.",
-    "content": "Colorado Rapids venceu Sporting KC por 2 a 0 pela MLS, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Colorado Rapids supera Sporting KC por 2 a 0 pela MLS",
-    "seoDescription": "Colorado Rapids venceu Sporting KC por 2 a 0 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T09:20:18.094Z",
-    "createdAt": "2026-08-16T09:20:18.094Z",
-    "updatedAt": "2026-08-16T09:20:18.094Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4621449",
-      "eventStartTime": "2026-08-16T01:30:00+00:00",
-      "retrievedAt": "2026-08-16T09:20:18.094Z",
-      "feedId": "futebol",
-      "league": "MLS"
     },
     "articleFormat": "result-brief"
   }
