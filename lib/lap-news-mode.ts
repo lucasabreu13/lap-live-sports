@@ -1,7 +1,7 @@
 import { NEWSROOM_ACTIVE_WINDOW_MS, getNewsroomArticles, newsroomArticleToNewsItem } from "@/lib/newsroom-content";
 import type { LivePayload, NewsItem } from "@/lib/live-data";
 
-const HOME_NEWS_LIMIT = 16;
+const HOME_NEWS_LIMIT = 24;
 const NEWSROOM_ARCHIVE_LIMIT = 250;
 const FUTURE_CLOCK_TOLERANCE_MS = 5 * 60 * 1000;
 
@@ -17,6 +17,10 @@ function isActiveNewsItem(item: NewsItem, now = Date.now()) {
   return ageMs >= -FUTURE_CLOCK_TOLERANCE_MS && ageMs <= NEWSROOM_ACTIVE_WINDOW_MS;
 }
 
+function hasArticleSpecificImage(item: NewsItem) {
+  return Boolean(item.imageUrl && /^https:\/\//i.test(item.imageUrl));
+}
+
 export async function applyLapOnlyNews(payload: LivePayload): Promise<LivePayload> {
   // O reader devolve apenas a janela editorial ativa de 72h, ordenada por relevância.
   const newsroom = (await getNewsroomArticles(NEWSROOM_ARCHIVE_LIMIT)).map(newsroomArticleToNewsItem);
@@ -28,26 +32,40 @@ export async function applyLapOnlyNews(payload: LivePayload): Promise<LivePayloa
     newsroomBySport.set(item.sportId, current);
   }
 
-  // Conteúdo editorial vindo do CMS também respeita a mesma janela, evitando que
-  // uma matéria antiga volte para a home por causa de um cache ou fonte paralela.
+  const sourceNews = payload.feeds
+    .flatMap((feed) => feed.news)
+    .filter((item) => isActiveNewsItem(item))
+    .filter(hasArticleSpecificImage);
+
+  // Conteúdo editorial vindo do CMS também respeita a mesma janela.
   const internalEditorial = payload.editorial
     .filter((item) => item.kind === "editorial")
-    .filter((item) => isActiveNewsItem(item));
+    .filter((item) => isActiveNewsItem(item))
+    .filter(hasArticleSpecificImage);
+
+  const newsroomWithSpecificImages = newsroom
+    .filter((item) => isActiveNewsItem(item))
+    .filter(hasArticleSpecificImage);
 
   const homepageNews = uniqueNews([
-    ...newsroom.slice(0, HOME_NEWS_LIMIT),
+    ...sourceNews,
+    ...newsroomWithSpecificImages,
     ...internalEditorial,
-  ]).slice(0, HOME_NEWS_LIMIT);
+  ])
+    .sort((a, b) => new Date(b.publishedAt || 0).getTime() - new Date(a.publishedAt || 0).getTime())
+    .slice(0, HOME_NEWS_LIMIT);
 
   return {
     ...payload,
-    // Home: principais matérias dos últimos 3 dias, com as novas sempre ganhando espaço.
+    // Home: notícias recentes com imagem vinculada à própria publicação.
     editorial: homepageNews,
     feeds: payload.feeds.map((feed) => ({
       ...feed,
-      // Modalidades: todo o arquivo autoral ativo daquele esporte dentro das últimas 72h.
-      // A URL permanente das matérias mais antigas continua existindo fora da vitrine.
-      news: uniqueNews(newsroomBySport.get(feed.id) ?? []),
+      // Modalidades: fonte atual primeiro; arquivo LAP entra como complemento.
+      news: uniqueNews([
+        ...feed.news.filter((item) => isActiveNewsItem(item) && hasArticleSpecificImage(item)),
+        ...(newsroomBySport.get(feed.id) ?? []).filter(hasArticleSpecificImage),
+      ]),
     })),
   };
 }
