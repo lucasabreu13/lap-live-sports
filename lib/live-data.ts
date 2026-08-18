@@ -657,6 +657,27 @@ async function loadNews(sport: SportDefinition): Promise<NewsItem[]> {
     .slice(0, 18);
 }
 
+export async function refreshPayloadNews(payload: LivePayload): Promise<LivePayload> {
+  // A segunda passagem roda isolada dos placares. Em runtimes serverless, dezenas de
+  // scoreboards simultâneos podem consumir as conexões antes de a fonte editorial responder.
+  const results = await Promise.allSettled(SPORTS.map((sport) => loadNews(sport)));
+  const newsBySport = new Map<SportId, NewsItem[]>();
+  results.forEach((result, index) => {
+    if (result.status === "fulfilled" && result.value.length) {
+      newsBySport.set(SPORTS[index].id, result.value);
+    }
+  });
+  if (!newsBySport.size) return payload;
+
+  return {
+    ...payload,
+    feeds: payload.feeds.map((feed) => ({
+      ...feed,
+      news: newsBySport.get(feed.id) ?? feed.news,
+    })),
+  };
+}
+
 function scoreFromCompetitor(competitor: unknown) {
   const item = asRecord(competitor);
   const team = asRecord(item.team);

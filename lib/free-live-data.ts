@@ -1,4 +1,4 @@
-import { applyLivePayloadPatch, getLivePayload, ingestLiveWebhook, type LivePayload, type LiveWebhookPatch, type SportFeed } from "@/lib/live-data";
+import { applyLivePayloadPatch, getLivePayload, ingestLiveWebhook, refreshPayloadNews, type LivePayload, type LiveWebhookPatch, type SportFeed } from "@/lib/live-data";
 import { readLiveCache, writeLiveCache, type LiveCacheRecord } from "@/lib/live-cache-store";
 import { applyLapOnlyNews } from "@/lib/lap-news-mode";
 import { apply365ScoresOverlay, removeRetiredContent } from "@/lib/365scores-overlay";
@@ -123,7 +123,8 @@ async function toPresentationPayload(payload: LivePayload) {
 
 async function refreshFromSources(persisted: LiveCacheRecord<LivePayload> | null) {
   const sourcePayload = await getLivePayload();
-  const fresh = await apply365ScoresOverlay(sourcePayload).catch(() => removeRetiredContent(sourcePayload));
+  const scorePayload = await apply365ScoresOverlay(sourcePayload).catch(() => removeRetiredContent(sourcePayload));
+  const fresh = await refreshPayloadNews(scorePayload).catch(() => scorePayload);
   const persistedAge = persisted ? cacheAgeMs(persisted.cachedAt) : Number.POSITIVE_INFINITY;
   const canUsePersisted = Boolean(persisted && persistedAge <= PERSISTED_STALE_TTL_MS);
   const cleanedPersisted = persisted ? { ...persisted, payload: removeRetiredContent(persisted.payload) } : null;
