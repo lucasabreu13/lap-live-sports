@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-5db36c41e056",
+    "slug": "arribage-t-olivetti-a-vence-fery-a-lehecka-j-por-2-a-1-em-cincinnati-5db36c",
+    "sportId": "tenis",
+    "title": "Arribage T./Olivetti A. vence Fery A./Lehecka J. por 2 a 1 em Cincinnati",
+    "summary": "Arribage T./Olivetti A. superou Fery A./Lehecka J. por 2 a 1 em Cincinnati.",
+    "content": "Arribage T./Olivetti A. superou Fery A./Lehecka J. por 2 a 1 em Cincinnati., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Arribage T./Olivetti A. vence Fery A./Lehecka J. por 2 a 1 em",
+    "seoDescription": "Arribage T./Olivetti A. superou Fery A./Lehecka J. por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T20:59:05.865Z",
+    "createdAt": "2026-08-18T20:59:05.865Z",
+    "updatedAt": "2026-08-18T20:59:05.865Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815646",
+      "eventStartTime": "2026-08-18T18:35:34+00:00",
+      "retrievedAt": "2026-08-18T20:59:05.865Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-945e6137e7d8",
+    "slug": "fenerbahce-sk-e-lyon-ficam-no-1-a-1-pelo-ucl-qualifiers-945e61",
+    "sportId": "futebol",
+    "title": "Fenerbahçe SK e Lyon ficam no 1 a 1 pelo UCL Qualifiers",
+    "summary": "Fenerbahçe SK e Lyon empataram por 1 a 1 pelo UCL Qualifiers.",
+    "content": "Fenerbahçe SK e Lyon empataram por 1 a 1 pelo UCL Qualifiers, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ucl-qualifiers"
+    ],
+    "seoTitle": "Fenerbahçe SK e Lyon ficam no 1 a 1 pelo UCL Qualifiers",
+    "seoDescription": "Fenerbahçe SK e Lyon empataram por 1 a 1 pelo UCL Qualifiers.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T20:59:05.843Z",
+    "createdAt": "2026-08-18T20:59:05.843Z",
+    "updatedAt": "2026-08-18T20:59:05.843Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809607",
+      "eventStartTime": "2026-08-18T19:00:00+00:00",
+      "retrievedAt": "2026-08-18T20:59:05.843Z",
+      "feedId": "futebol",
+      "league": "UCL Qualifiers"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-e0de449191a4",
     "slug": "nicolai-budkov-kjaer-vence-bu-yunchaokete-por-2-a-0-em-quebec-city-e0de44",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T08:28:34.052Z",
       "feedId": "futebol",
       "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-dafb9cdef86b",
-    "slug": "jaime-faria-vence-jenson-brooksby-por-2-a-0-em-cincinnati-dafb9c",
-    "sportId": "tenis",
-    "title": "Jaime Faria vence Jenson Brooksby por 2 a 0 em Cincinnati",
-    "summary": "Jaime Faria superou Jenson Brooksby por 2 a 0 em Cincinnati.",
-    "content": "Jaime Faria superou Jenson Brooksby por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Jaime Faria vence Jenson Brooksby por 2 a 0 em Cincinnati",
-    "seoDescription": "Jaime Faria superou Jenson Brooksby por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T07:59:30.892Z",
-    "createdAt": "2026-08-16T07:59:30.892Z",
-    "updatedAt": "2026-08-16T07:59:30.892Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813392",
-      "eventStartTime": "2026-08-14T23:16:51+00:00",
-      "retrievedAt": "2026-08-16T07:59:30.892Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-92c7d2f6e479",
-    "slug": "fuerza-regia-vence-freseros-de-irapuato-por-105-a-94-em-lnbp-92c7d2",
-    "sportId": "basquete",
-    "title": "Fuerza Regia vence Freseros De Irapuato por 105 a 94 em LNBP",
-    "summary": "Fuerza Regia superou Freseros De Irapuato por 105 a 94 em LNBP.",
-    "content": "Fuerza Regia superou Freseros De Irapuato por 105 a 94 em LNBP., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnbp"
-    ],
-    "seoTitle": "Fuerza Regia vence Freseros De Irapuato por 105 a 94 em LNBP",
-    "seoDescription": "Fuerza Regia superou Freseros De Irapuato por 105 a 94 em LNBP.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T07:59:30.848Z",
-    "createdAt": "2026-08-16T07:59:30.848Z",
-    "updatedAt": "2026-08-16T07:59:30.848Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4707865",
-      "eventStartTime": "2026-08-15T22:15:00+00:00",
-      "retrievedAt": "2026-08-16T07:59:30.848Z",
-      "feedId": "basquete",
-      "league": "LNBP"
     },
     "articleFormat": "result-brief"
   }
