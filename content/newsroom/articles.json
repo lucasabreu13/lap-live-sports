@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-66f576cc6d44",
+    "slug": "pavlasek-a-rikl-p-vence-yuki-bhambri-michael-venus-por-2-a-0-em-cincinnati-66f576",
+    "sportId": "tenis",
+    "title": "Pavlasek A./Rikl P. vence Yuki Bhambri/Michael Venus por 2 a 0 em Cincinnati",
+    "summary": "Pavlasek A./Rikl P. superou Yuki Bhambri/Michael Venus por 2 a 0 em Cincinnati.",
+    "content": "Pavlasek A./Rikl P. superou Yuki Bhambri/Michael Venus por 2 a 0 em Cincinnati., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Pavlasek A./Rikl P. vence Yuki Bhambri/Michael Venus por 2 a 0 em",
+    "seoDescription": "Pavlasek A./Rikl P. superou Yuki Bhambri/Michael Venus por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T22:19:19.809Z",
+    "createdAt": "2026-08-18T22:19:19.809Z",
+    "updatedAt": "2026-08-18T22:19:19.809Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816666",
+      "eventStartTime": "2026-08-18T20:37:34+00:00",
+      "retrievedAt": "2026-08-18T22:19:19.809Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-a49fd922faad",
+    "slug": "trujillanos-fc-e-urena-sc-ficam-no-2-a-2-pela-copa-venezuela-a49fd9",
+    "sportId": "futebol",
+    "title": "Trujillanos FC e Ureña SC ficam no 2 a 2 pela Copa Venezuela",
+    "summary": "Trujillanos FC e Ureña SC empataram por 2 a 2 pela Copa Venezuela.",
+    "content": "Trujillanos FC e Ureña SC empataram por 2 a 2 pela Copa Venezuela, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-venezuela"
+    ],
+    "seoTitle": "Trujillanos FC e Ureña SC ficam no 2 a 2 pela Copa Venezuela",
+    "seoDescription": "Trujillanos FC e Ureña SC empataram por 2 a 2 pela Copa Venezuela.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T22:19:19.790Z",
+    "createdAt": "2026-08-18T22:19:19.790Z",
+    "updatedAt": "2026-08-18T22:19:19.790Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4743199",
+      "eventStartTime": "2026-08-18T20:00:00+00:00",
+      "retrievedAt": "2026-08-18T22:19:19.790Z",
+      "feedId": "futebol",
+      "league": "Copa Venezuela"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-a5411026f27d",
     "slug": "valentin-royer-vence-luis-augusto-miguel-por-2-a-1-em-kingston-a54110",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T10:37:53.606Z",
       "feedId": "futebol",
       "league": "2. Liga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-89552a6e265a",
-    "slug": "jakub-paul-vence-svyatoslav-gulin-por-2-a-1-em-prague-89552a",
-    "sportId": "tenis",
-    "title": "Jakub Paul vence Svyatoslav Gulin por 2 a 1 em Prague",
-    "summary": "Jakub Paul superou Svyatoslav Gulin por 2 a 1 em Prague.",
-    "content": "Jakub Paul superou Svyatoslav Gulin por 2 a 1 em Prague., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Jakub Paul vence Svyatoslav Gulin por 2 a 1 em Prague",
-    "seoDescription": "Jakub Paul superou Svyatoslav Gulin por 2 a 1 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T10:12:11.845Z",
-    "createdAt": "2026-08-16T10:12:11.845Z",
-    "updatedAt": "2026-08-16T10:12:11.845Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815501",
-      "eventStartTime": "2026-08-16T08:23:21+00:00",
-      "retrievedAt": "2026-08-16T10:12:11.845Z",
-      "feedId": "tenis",
-      "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b5d16f54fab4",
-    "slug": "banik-ostrava-ii-supera-viktoria-zizkov-por-4-a-1-pelo-division-2-b5d16f",
-    "sportId": "futebol",
-    "title": "Baník Ostrava II supera Viktoria Zizkov por 4 a 1 pelo Division 2",
-    "summary": "Baník Ostrava II venceu Viktoria Zizkov por 4 a 1 pelo Division 2.",
-    "content": "Baník Ostrava II venceu Viktoria Zizkov por 4 a 1 pelo Division 2, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "division-2"
-    ],
-    "seoTitle": "Baník Ostrava II supera Viktoria Zizkov por 4 a 1 pelo Division 2",
-    "seoDescription": "Baník Ostrava II venceu Viktoria Zizkov por 4 a 1 pelo Division 2.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T10:12:11.823Z",
-    "createdAt": "2026-08-16T10:12:11.823Z",
-    "updatedAt": "2026-08-16T10:12:11.823Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4744176",
-      "eventStartTime": "2026-08-16T08:15:00+00:00",
-      "retrievedAt": "2026-08-16T10:12:11.823Z",
-      "feedId": "futebol",
-      "league": "Division 2"
     },
     "articleFormat": "result-brief"
   }

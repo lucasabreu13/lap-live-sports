@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-08-18T21:58:05.634Z",
-  "commit": "506ace74198400793181c888fdfb5b99ec1ff27f",
-  "runId": "32190410604",
+  "validatedAt": "2026-08-18T22:19:20.198Z",
+  "commit": "b3d6aaaf4064ee23effd9b85ef90b3a6c22f19e7",
+  "runId": "32192127262",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -13,18 +13,18 @@
     "curatedMerge": "success"
   },
   "metrics": {
-    "articlesCreated": 3,
+    "articlesCreated": 2,
     "articlesUpdated": 0,
-    "articlesRemoved": 3,
+    "articlesRemoved": 2,
     "articlesRejected": null,
     "curatedArticles": 25,
     "curatedFiles": 5,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-08-18T21:58:05.055Z",
+    "lastPublishedAt": "2026-08-18T22:19:19.809Z",
     "lastPublishedBySport": {
-      "futebol": "2026-08-18T21:58:05.031Z",
+      "futebol": "2026-08-18T22:19:19.790Z",
       "futebol-americano": null,
-      "tenis": "2026-08-18T21:58:05.055Z",
+      "tenis": "2026-08-18T22:19:19.809Z",
       "ciclismo": null,
       "formula1": null,
       "basquete": "2026-08-18T21:58:05.042Z",
@@ -40,7 +40,7 @@
         "futebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-18T21:58:05.031Z"
+          "lastPublishedAt": "2026-08-18T22:19:19.790Z"
         },
         "futebol-americano": {
           "status": "critical",
@@ -50,7 +50,7 @@
         "tenis": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-18T21:58:05.055Z"
+          "lastPublishedAt": "2026-08-18T22:19:19.809Z"
         },
         "ciclismo": {
           "status": "critical",
@@ -64,12 +64,12 @@
         },
         "basquete": {
           "status": "ok",
-          "ageHours": 0,
+          "ageHours": 0.4,
           "lastPublishedAt": "2026-08-18T21:58:05.042Z"
         },
         "beisebol": {
           "status": "ok",
-          "ageHours": 1.8,
+          "ageHours": 2.1,
           "lastPublishedAt": "2026-08-18T20:11:25.318Z"
         },
         "golfe": {
