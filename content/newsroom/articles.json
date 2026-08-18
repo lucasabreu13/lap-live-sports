@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-3a16da0c589d",
+    "slug": "adam-walton-vence-ignacio-buse-por-2-a-0-em-cincinnati-3a16da",
+    "sportId": "tenis",
+    "title": "Adam Walton vence Ignacio Buse por 2 a 0 em Cincinnati",
+    "summary": "Adam Walton superou Ignacio Buse por 2 a 0 em Cincinnati.",
+    "content": "Adam Walton superou Ignacio Buse por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Adam Walton vence Ignacio Buse por 2 a 0 em Cincinnati",
+    "seoDescription": "Adam Walton superou Ignacio Buse por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T07:12:45.835Z",
+    "createdAt": "2026-08-18T07:12:45.835Z",
+    "updatedAt": "2026-08-18T07:12:45.835Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815106",
+      "eventStartTime": "2026-08-16T22:44:17+00:00",
+      "retrievedAt": "2026-08-18T07:12:45.835Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7fa5632dc323",
+    "slug": "palestino-supera-huachipato-por-5-a-1-pelo-first-division-7fa563",
+    "sportId": "futebol",
+    "title": "Palestino supera Huachipato por 5 a 1 pelo First Division",
+    "summary": "Palestino venceu Huachipato por 5 a 1 pelo First Division.",
+    "content": "Palestino venceu Huachipato por 5 a 1 pelo First Division, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "first-division"
+    ],
+    "seoTitle": "Palestino supera Huachipato por 5 a 1 pelo First Division",
+    "seoDescription": "Palestino venceu Huachipato por 5 a 1 pelo First Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T07:12:45.802Z",
+    "createdAt": "2026-08-18T07:12:45.802Z",
+    "updatedAt": "2026-08-18T07:12:45.802Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4650606",
+      "eventStartTime": "2026-08-18T00:30:00+00:00",
+      "retrievedAt": "2026-08-18T07:12:45.802Z",
+      "feedId": "futebol",
+      "league": "First Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-43db43b83b19",
     "slug": "laslo-djere-vence-samuel-heredia-por-2-a-0-em-cancun-43db43",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T20:36:23.397Z",
       "feedId": "futebol-americano",
       "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f6959d32d434",
-    "slug": "sligo-rovers-supera-kerry-por-4-a-0-pelo-fai-cup-f6959d",
-    "sportId": "futebol",
-    "title": "Sligo Rovers supera Kerry por 4 a 0 pelo FAI Cup",
-    "summary": "Sligo Rovers venceu Kerry por 4 a 0 pelo FAI Cup.",
-    "content": "Sligo Rovers venceu Kerry por 4 a 0 pelo FAI Cup, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "fai-cup"
-    ],
-    "seoTitle": "Sligo Rovers supera Kerry por 4 a 0 pelo FAI Cup",
-    "seoDescription": "Sligo Rovers venceu Kerry por 4 a 0 pelo FAI Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T20:36:23.393Z",
-    "createdAt": "2026-08-15T20:36:23.393Z",
-    "updatedAt": "2026-08-15T20:36:23.393Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4783567",
-      "eventStartTime": "2026-08-15T18:45:00+00:00",
-      "retrievedAt": "2026-08-15T20:36:23.393Z",
-      "feedId": "futebol",
-      "league": "FAI Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-84c57cd37c59",
-    "slug": "diana-shnaider-vence-tatjana-maria-por-2-a-0-em-cincinnati-84c57c",
-    "sportId": "tenis",
-    "title": "Diana Shnaider vence Tatjana Maria por 2 a 0 em Cincinnati",
-    "summary": "Diana Shnaider superou Tatjana Maria por 2 a 0 em Cincinnati.",
-    "content": "Diana Shnaider superou Tatjana Maria por 2 a 0 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Diana Shnaider vence Tatjana Maria por 2 a 0 em Cincinnati",
-    "seoDescription": "Diana Shnaider superou Tatjana Maria por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T20:10:29.394Z",
-    "createdAt": "2026-08-15T20:10:29.394Z",
-    "updatedAt": "2026-08-15T20:10:29.394Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813632",
-      "eventStartTime": "2026-08-15T18:30:04+00:00",
-      "retrievedAt": "2026-08-15T20:10:29.394Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
