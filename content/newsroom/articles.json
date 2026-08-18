@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-c146ea8134ab",
+    "slug": "tampa-bay-rays-vence-baltimore-orioles-por-7-a-6-na-mlb-c146ea",
+    "sportId": "beisebol",
+    "title": "Tampa Bay Rays vence Baltimore Orioles por 7 a 6 na MLB",
+    "summary": "Tampa Bay Rays derrotou Baltimore Orioles por 7 a 6 na MLB.",
+    "content": "Tampa Bay Rays derrotou Baltimore Orioles por 7 a 6 na MLB, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Tampa Bay Rays vence Baltimore Orioles por 7 a 6 na MLB",
+    "seoDescription": "Tampa Bay Rays derrotou Baltimore Orioles por 7 a 6 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T11:14:45.257Z",
+    "createdAt": "2026-08-18T11:14:45.257Z",
+    "updatedAt": "2026-08-18T11:14:45.257Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614655",
+      "eventStartTime": "2026-08-17T22:05:00+00:00",
+      "retrievedAt": "2026-08-18T11:14:45.257Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e3bca44f139f",
+    "slug": "ryan-nijboer-vence-murkel-dellien-por-2-a-0-em-sion-e3bca4",
+    "sportId": "tenis",
+    "title": "Ryan Nijboer vence Murkel Dellien por 2 a 0 em Sion",
+    "summary": "Ryan Nijboer superou Murkel Dellien por 2 a 0 em Sion.",
+    "content": "Ryan Nijboer superou Murkel Dellien por 2 a 0 em Sion., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Ryan Nijboer vence Murkel Dellien por 2 a 0 em Sion",
+    "seoDescription": "Ryan Nijboer superou Murkel Dellien por 2 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T11:14:45.248Z",
+    "createdAt": "2026-08-18T11:14:45.248Z",
+    "updatedAt": "2026-08-18T11:14:45.248Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815611",
+      "eventStartTime": "2026-08-18T09:49:48+00:00",
+      "retrievedAt": "2026-08-18T11:14:45.248Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b2b66ac6a507",
+    "slug": "fram-reykjavik-supera-stjarnan-por-3-a-1-pelo-besta-deild-karla-b2b66a",
+    "sportId": "futebol",
+    "title": "Fram Reykjavik supera Stjarnan por 3 a 1 pelo Besta deild karla",
+    "summary": "Fram Reykjavik venceu Stjarnan por 3 a 1 pelo Besta deild karla.",
+    "content": "Fram Reykjavik venceu Stjarnan por 3 a 1 pelo Besta deild karla, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "besta-deild-karla"
+    ],
+    "seoTitle": "Fram Reykjavik supera Stjarnan por 3 a 1 pelo Besta deild karla",
+    "seoDescription": "Fram Reykjavik venceu Stjarnan por 3 a 1 pelo Besta deild karla.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T11:14:45.222Z",
+    "createdAt": "2026-08-18T11:14:45.222Z",
+    "updatedAt": "2026-08-18T11:14:45.222Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4653775",
+      "eventStartTime": "2026-08-17T19:15:00+00:00",
+      "retrievedAt": "2026-08-18T11:14:45.222Z",
+      "feedId": "futebol",
+      "league": "Besta-deild karla"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-2c3e462b7254",
     "slug": "chun-hsin-tseng-vence-hynek-barton-por-2-a-0-em-prague-2c3e46",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-15T22:55:48.109Z",
       "feedId": "futebol",
       "league": "Liga Prom"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-92e7603e8d35",
-    "slug": "jessica-pegula-vence-simona-waltert-por-2-a-0-em-cincinnati-92e760",
-    "sportId": "tenis",
-    "title": "Jessica Pegula vence Simona Waltert por 2 a 0 em Cincinnati",
-    "summary": "Jessica Pegula superou Simona Waltert por 2 a 0 em Cincinnati.",
-    "content": "Jessica Pegula superou Simona Waltert por 2 a 0 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Jessica Pegula vence Simona Waltert por 2 a 0 em Cincinnati",
-    "seoDescription": "Jessica Pegula superou Simona Waltert por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T22:35:23.753Z",
-    "createdAt": "2026-08-15T22:35:23.753Z",
-    "updatedAt": "2026-08-15T22:35:23.753Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813640",
-      "eventStartTime": "2026-08-15T20:40:40+00:00",
-      "retrievedAt": "2026-08-15T22:35:23.753Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e2c99856b379",
-    "slug": "bahia-w-e-corinthians-w-ficam-no-1-a-1-pelo-brasileirao-women-e2c998",
-    "sportId": "futebol",
-    "title": "Bahia (W) e Corinthians (W) ficam no 1 a 1 pelo Brasileirão Women",
-    "summary": "Bahia (W) e Corinthians (W) empataram por 1 a 1 pelo Brasileirão Women.",
-    "content": "Bahia (W) e Corinthians (W) empataram por 1 a 1 pelo Brasileirão Women, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "brasileirao-women"
-    ],
-    "seoTitle": "Bahia (W) e Corinthians (W) ficam no 1 a 1 pelo Brasileirão Women",
-    "seoDescription": "Bahia (W) e Corinthians (W) empataram por 1 a 1 pelo Brasileirão Women.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T22:35:23.730Z",
-    "createdAt": "2026-08-15T22:35:23.730Z",
-    "updatedAt": "2026-08-15T22:35:23.730Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4658968",
-      "eventStartTime": "2026-08-15T20:30:00+00:00",
-      "retrievedAt": "2026-08-15T22:35:23.730Z",
-      "feedId": "futebol",
-      "league": "Brasileirão Women"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7e19ee95c658",
-    "slug": "ichikawa-t-imamura-m-vence-bar-biryukov-p-lomakin-g-por-2-a-1-em-astana-7e19ee",
-    "sportId": "tenis",
-    "title": "Ichikawa T./Imamura M. vence Bar Biryukov P./Lomakin G. por 2 a 1 em Astana",
-    "summary": "Ichikawa T./Imamura M. superou Bar Biryukov P./Lomakin G. por 2 a 1 em Astana.",
-    "content": "Ichikawa T./Imamura M. superou Bar Biryukov P./Lomakin G. por 2 a 1 em Astana., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "astana"
-    ],
-    "seoTitle": "Ichikawa T./Imamura M. vence Bar Biryukov P./Lomakin G. por 2 a 1 em",
-    "seoDescription": "Ichikawa T./Imamura M. superou Bar Biryukov P./Lomakin G. por 2 a 1 em Astana.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T22:09:15.774Z",
-    "createdAt": "2026-08-15T22:09:15.774Z",
-    "updatedAt": "2026-08-15T22:09:15.774Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814710",
-      "eventStartTime": "2026-08-15T10:54:25+00:00",
-      "retrievedAt": "2026-08-15T22:09:15.774Z",
-      "feedId": "tenis",
-      "league": "Astana"
     },
     "articleFormat": "result-brief"
   }
