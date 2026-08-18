@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-5a130f39d9b1",
+    "slug": "ram-r-salisbury-j-vence-cash-j-glasspool-l-por-2-a-1-em-cincinnati-5a130f",
+    "sportId": "tenis",
+    "title": "Ram R./Salisbury J. vence Cash J./Glasspool L. por 2 a 1 em Cincinnati",
+    "summary": "Ram R./Salisbury J. superou Cash J./Glasspool L. por 2 a 1 em Cincinnati.",
+    "content": "Ram R./Salisbury J. superou Cash J./Glasspool L. por 2 a 1 em Cincinnati., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Ram R./Salisbury J. vence Cash J./Glasspool L. por 2 a 1 em Cincinnati",
+    "seoDescription": "Ram R./Salisbury J. superou Cash J./Glasspool L. por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T20:22:39.267Z",
+    "createdAt": "2026-08-18T20:22:39.267Z",
+    "updatedAt": "2026-08-18T20:22:39.267Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815030",
+      "eventStartTime": "2026-08-18T17:03:46+00:00",
+      "retrievedAt": "2026-08-18T20:22:39.267Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-48e25cb5cd87",
+    "slug": "juventud-unida-sm-supera-muniz-por-1-a-0-pelo-primera-c-48e25c",
+    "sportId": "futebol",
+    "title": "Juventud Unida SM supera Muñiz por 1 a 0 pelo Primera C",
+    "summary": "Juventud Unida SM venceu Muñiz por 1 a 0 pelo Primera C.",
+    "content": "Juventud Unida SM venceu Muñiz por 1 a 0 pelo Primera C, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-c"
+    ],
+    "seoTitle": "Juventud Unida SM supera Muñiz por 1 a 0 pelo Primera C",
+    "seoDescription": "Juventud Unida SM venceu Muñiz por 1 a 0 pelo Primera C.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T20:22:39.250Z",
+    "createdAt": "2026-08-18T20:22:39.250Z",
+    "updatedAt": "2026-08-18T20:22:39.250Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4639537",
+      "eventStartTime": "2026-08-18T18:00:00+00:00",
+      "retrievedAt": "2026-08-18T20:22:39.250Z",
+      "feedId": "futebol",
+      "league": "Primera C"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-0175a6d1a38c",
     "slug": "detroit-tigers-vence-pittsburgh-pirates-por-8-a-5-na-mlb-0175a6",
     "sportId": "beisebol",
@@ -8,7 +92,7 @@
     "content": "Detroit Tigers derrotou Pittsburgh Pirates por 8 a 5 na MLB, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -50,7 +134,7 @@
     "content": "Pedro Martinez superou Evan Zhu por 2 a 0 em Kingston., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -92,7 +176,7 @@
     "content": "Ourense CF venceu Arenteiro por 2 a 1 pelo Club Friendlies, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -134,7 +218,7 @@
     "content": "Otto Virtanen e Yibing Wu terminaram empatados por 0 a 0 em Cancun., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -176,7 +260,7 @@
     "content": "Sheppey United e Margate FC empataram por 0 a 0 pelo Non League Premier, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -218,7 +302,7 @@
     "content": "Bass F./Duncan S. superou Frydrych V./Stephens Z. por 2 a 0 em Roehampton., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -260,7 +344,7 @@
     "content": "Harrow Borough e Southall empataram por 0 a 0 pelo Non League Premier, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -302,7 +386,7 @@
     "content": "Lammons N./Withrow J. superou Arends S./Pel D. por 2 a 0 em Quebec City., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -344,7 +428,7 @@
     "content": "Cd Huarte e Valle De Egüés empataram por 0 a 0 pelo Club Friendlies, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -386,7 +470,7 @@
     "content": "Xiyu Wang e Elina Svitolina terminaram empatados por 0 a 0 em Cincinnati., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -428,7 +512,7 @@
     "content": "Varbergs BoIS venceu Boljan por 5 a 0 pelo Svenska Cupen, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -470,7 +554,7 @@
     "content": "Heliovaara H./Patten H. superou Hanfmann Y./Kecmanovic M. por 2 a 0 em Cincinnati., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -512,7 +596,7 @@
     "content": "Bayern Munich venceu FC Heidenheim por 4 a 2 pelo Club Friendlies, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -554,7 +638,7 @@
     "content": "Gray A./Rybakov A. superou Dhamne M./Perego G. por 2 a 0 em Roehampton., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -596,7 +680,7 @@
     "content": "FC Trollhattan e Mjällby AIF empataram por 0 a 0 pelo Svenska Cupen, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -638,7 +722,7 @@
     "content": "Henry Bernet superou Johan Nikles por 2 a 0 em Sion., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -680,7 +764,7 @@
     "content": "Puerto Montt Básquetbol superou Deportes Castro por 92 a 72 em LNB., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -722,7 +806,7 @@
     "content": "Bardejov venceu FC Slovan Giraltovce por 6 a 2 pelo Slovakia Cup, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -764,7 +848,7 @@
     "content": "Ayeni A./Poullain L. superou Boitan G A./Durasovic V. por 2 a 0 em Roehampton., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -806,7 +890,7 @@
     "content": "Družstevník Bešeňov e Nové Zámky empataram por 0 a 0 pelo Slovakia Cup, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -848,7 +932,7 @@
     "content": "Jeffrey Von Der Schulenburg superou Georgii Kravchenko por 2 a 0 em Sion., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -890,7 +974,7 @@
     "content": "Topoľčany e Baník Lehota P.Vtáčnikom empataram por 0 a 0 pelo Slovakia Cup, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -932,7 +1016,7 @@
     "content": "Seibu Lions derrotou Orix Buffaloes por 7 a 4 na NPB, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -974,7 +1058,7 @@
     "content": "João Fonseca e Christopher O'Connell terminaram empatados por 0 a 0 em Cincinnati., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -1016,7 +1100,7 @@
     "content": "Fountain Gate venceu Mashujaa Fc por 1 a 0 pelo Ligi Kuu Bara, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -1058,7 +1142,7 @@
     "content": "Hiroshima Toyo Carp derrotou Chunichi Dragons por 11 a 4 na NPB, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -1100,7 +1184,7 @@
     "content": "Anton Matusevich superou Yuta Shimizu por 2 a 0 em Roehampton., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -1142,7 +1226,7 @@
     "content": "Sakaryaspor e Sabail empataram por 0 a 0 pelo Club Friendlies, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -1184,7 +1268,7 @@
     "content": "Hanshin Tigers derrotou Yakult Swallows por 3 a 2 na NPB, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -1226,7 +1310,7 @@
     "content": "Jan Kumstat superou Petr Brunclik por 2 a 0 em Prague., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -1268,7 +1352,7 @@
     "content": "Independiente venceu Lanus por 3 a 1 pela Superliga, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -1310,7 +1394,7 @@
     "content": "Doosan Bears derrotou NC Dinos por 6 a 4 na KBO, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -1352,7 +1436,7 @@
     "content": "Dimitar Kuzmanov superou Marvin Moeller por 2 a 0 em Sion., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -1394,7 +1478,7 @@
     "content": "Beijing Guoan venceu Shanghai Shenhua por 3 a 0 pelo Super League, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -1436,7 +1520,7 @@
     "content": "Rakuten Gold Eagles derrotou Chiba Lotte Marines por 6 a 2 na NPB, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -1478,7 +1562,7 @@
     "content": "Lucio Ratti superou Ognjen Milic por 2 a 1 em Sion., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -1520,7 +1604,7 @@
     "content": "Afturelding e HK Kopavogur empataram por 2 a 2 pelo Inkasso Deildin, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -1562,7 +1646,7 @@
     "content": "Yokohama Baystars derrotou Yomiuri Giants por 4 a 3 na NPB, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -1604,7 +1688,7 @@
     "content": "Max Hans Rehberg e Jakub Nicod terminaram empatados por 0 a 0 em Prague., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -1646,7 +1730,7 @@
     "content": "Sydney FC venceu Sd Raiders por 1 a 0 pelo Australia Cup, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -1688,7 +1772,7 @@
     "content": "Dominic Stricker superou Raphael Perot por 2 a 0 em Sion., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -1730,7 +1814,7 @@
     "content": "Maksimir (Cro) e Concordia Zagreb empataram por 0 a 0 pelo Club Friendlies, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -1772,7 +1856,7 @@
     "content": "Tampa Bay Rays derrotou Baltimore Orioles por 7 a 6 na MLB, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -1814,7 +1898,7 @@
     "content": "Ryan Nijboer superou Murkel Dellien por 2 a 0 em Sion., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -1856,7 +1940,7 @@
     "content": "Fram Reykjavik venceu Stjarnan por 3 a 1 pelo Besta deild karla, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -1898,7 +1982,7 @@
     "content": "Chun Hsin Tseng superou Hynek Barton por 2 a 0 em Prague., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -1940,7 +2024,7 @@
     "content": "General Caballero JLM venceu Tacuary por 4 a 1 pelo Division Intermedia, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -1982,7 +2066,7 @@
     "content": "Juan Manuel La Serna superou Facundo Mena por 2 a 0 em Sion., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -2024,7 +2108,7 @@
     "content": "San Luis de Quillota venceu Deportes Santa Cruz por 2 a 0 pelo Primera B, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -2066,7 +2150,7 @@
     "content": "Luca Staeheli superou Andrey Chepelev por 2 a 0 em Sion., em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -2108,7 +2192,7 @@
     "content": "Velez Sarsfield e Defensa Y Justicia empataram por 1 a 1 pela Superliga, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -2150,7 +2234,7 @@
     "content": "Schnaitter / Wallner superou Krawietz K./Puetz T. por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -2192,7 +2276,7 @@
     "content": "Queretaro (W) venceu Leon (W) por 1 a 0 pelo Mexico, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -2234,7 +2318,7 @@
     "content": "Fukuoka Hawks derrotou Nippon Ham Fighters por 7 a 1 na NPB, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -2276,7 +2360,7 @@
     "content": "Frantzen C./Haase R. superou Miedler L./Polmans M. por 2 a 0 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -2318,7 +2402,7 @@
     "content": "Ferroviária venceu Paysandu por 4 a 0 pelo Serie C, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -2360,7 +2444,7 @@
     "content": "S. Doumbia/F. Reboul superou Buse I./Cobolli F. por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -2402,7 +2486,7 @@
     "content": "Guarani e Ypiranga-RS empataram por 2 a 2 pelo Serie C, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -2444,7 +2528,7 @@
     "content": "Adam Walton superou Ignacio Buse por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -2486,7 +2570,7 @@
     "content": "Palestino venceu Huachipato por 5 a 1 pelo First Division, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -2528,7 +2612,7 @@
     "content": "Laslo Djere superou Samuel Heredia por 2 a 0 em Cancun., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -2570,7 +2654,7 @@
     "content": "Indiana Fever superou Atlanta Dream por 95 a 91 em WNBA., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -2612,7 +2696,7 @@
     "content": "Gimnasia Mendoza venceu Talleres Cordoba por 3 a 1 pela Superliga, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -2654,7 +2738,7 @@
     "content": "Alejandro Moro Canas superou Felix Balshaw por 2 a 0 em Cancun., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -2696,7 +2780,7 @@
     "content": "Pitbulls Santa Bárbara FC venceu CS Uruguay por 2 a 1 pela Liga de Ascenso, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -2738,7 +2822,7 @@
     "content": "Amanda Anisimova superou Alexandra Eala por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -2780,7 +2864,7 @@
     "content": "Deportivo San Jose superou Felix Perez Cardozo por 93 a 75 em LNB., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -2822,7 +2906,7 @@
     "content": "Puebla venceu Pachuca por 3 a 2 pela Liga MX, em 18 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -2864,7 +2948,7 @@
     "content": "Philadelphia Phillies derrotou Miami Marlins por 6 a 5 na MLB, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -2906,7 +2990,7 @@
     "content": "Tommy Paul superou Adolfo Daniel Vallejo por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -2948,7 +3032,7 @@
     "content": "Mexico (W) superou Philippines (W) por 61 a 58 em Olympic Qualification (W)., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -2990,7 +3074,7 @@
     "content": "CD Árabe Unido venceu Tauro FC por 1 a 0 pelo Lpf, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -3032,7 +3116,7 @@
     "content": "Minnesota Twins derrotou Atlanta Braves por 4 a 2 na MLB, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -3074,7 +3158,7 @@
     "content": "Alan Magadan superou David Jorda Sanchis por 2 a 0 em Cancun., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -3116,7 +3200,7 @@
     "content": "Golden State Valkyries superou Dallas Wings por 78 a 70 em WNBA., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -3158,7 +3242,7 @@
     "content": "Sporting San José venceu Escorpiones Belén por 2 a 0 pela liga FPD, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -3200,7 +3284,7 @@
     "content": "Los Angeles Dodgers derrotou Colorado Rockies por 11 a 5 na MLB, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -3242,7 +3326,7 @@
     "content": "Kostyuk M./Stearns P. superou V. Williams / S. Williams por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -3284,7 +3368,7 @@
     "content": "Canada (W) superou Senegal (W) por 72 a 57 em Olympic Qualification (W)., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -3326,7 +3410,7 @@
     "content": "Leon venceu Necaxa por 2 a 1 pela Liga MX, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -3368,7 +3452,7 @@
     "content": "Kansas City Royals derrotou Athletics por 9 a 5 na MLB, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -3410,7 +3494,7 @@
     "content": "Lloyd Harris superou Abdullah Shelbayh por 2 a 0 em Cancun., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -3452,7 +3536,7 @@
     "content": "CD Valdivia superou Las Animas por 90 a 58 em LNB., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -3494,7 +3578,7 @@
     "content": "Monterrey (W) venceu Santos Laguna (W) por 4 a 1 pelo Mexico, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -3536,7 +3620,7 @@
     "content": "New York Mets derrotou San Diego Padres por 2 a 1 na MLB, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -3578,7 +3662,7 @@
     "content": "Errani S./Fernandez L. superou Korpatsch T./Webley-Smith E. por 2 a 0 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -3620,7 +3704,7 @@
     "content": "Leones De Quilpué superou Universidad Católica por 79 a 76 em LNB., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -3662,7 +3746,7 @@
     "content": "Toluca (W) e Atlas (W) empataram por 1 a 1 pelo Mexico, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -3704,7 +3788,7 @@
     "content": "Kempen M./Panova A. superou Hunter S./Krawczyk D. por 2 a 0 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -3746,7 +3830,7 @@
     "content": "Internacional e Remo empataram por 1 a 1 pelo Série A, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -3788,7 +3872,7 @@
     "content": "Klepac A./Lumsden M. superou Detiuc A./Khromacheva I. por 2 a 0 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -3830,7 +3914,7 @@
     "content": "Deportes Copiapo venceu Curicó Unido por 4 a 0 pelo Primera B, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -3872,7 +3956,7 @@
     "content": "Jovic I./McNally C. superou Tang Q./Xu Y. por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -3914,7 +3998,7 @@
     "content": "Urupan e Tabare terminaram empatados por 0 a 0 em Liga de ascenso., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -3956,7 +4040,7 @@
     "content": "3 De Noviembre venceu Atlético Tembetary por 3 a 0 pelo Division Intermedia, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -3998,7 +4082,7 @@
     "content": "Siniakova K./Townsend T. superou Jurak Schreiber D./Wu F-H. por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -4040,7 +4124,7 @@
     "content": "Sportivo Bella Italia venceu Lito por 3 a 0 pelo Divisional C, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -4082,7 +4166,7 @@
     "content": "Felipe Meligeni superou Luka Pavlovic por 1 a 0 em Cancun., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -4124,7 +4208,7 @@
     "content": "New Zealand (W) superou Argentina (W) por 57 a 35 em Olympic Qualification (W)., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -4166,7 +4250,7 @@
     "content": "Santamarina Tandil venceu Fundación Amigos por el Deporte por 2 a 0 pelo Federal A, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -4208,7 +4292,7 @@
     "content": "Igor Marcondes superou Alvaro Gullien Meza por 2 a 0 em Kingston., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -4250,7 +4334,7 @@
     "content": "Cesar Vallejo Reserve e CD Juventud Cautivo empataram por 1 a 1 pela Liga 3, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -4292,7 +4376,7 @@
     "content": "Stefanos Sakellaridis superou Karl Poling por 2 a 1 em Quebec City., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -4334,7 +4418,7 @@
     "content": "Santos FC e Alianza Universidad empataram por 3 a 3 pela Liga 2, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -4376,7 +4460,7 @@
     "content": "Hanwha Eagles derrotou Samsung Lions por 0 a 0 na KBO, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -4418,7 +4502,7 @@
     "content": "Krajicek A./Mektic N. e Cash R./Nakashima B. terminaram empatados por 0 a 0 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -4460,7 +4544,7 @@
     "content": "Almeria venceu CD Eldense por 3 a 0 pela LaLiga 2, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -4502,7 +4586,7 @@
     "content": "Kt Wiz Suwon derrotou Kiwoom Heroes por 6 a 2 na KBO, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -4544,7 +4628,7 @@
     "content": "Harold Mayot superou Gustavo Heide por 2 a 0 em Kingston., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -4586,7 +4670,7 @@
     "content": "Atlético Bucaramanga e Deportivo Pasto empataram por 0 a 0 pelo Primera A, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -4628,7 +4712,7 @@
     "content": "St. Louis Cardinals derrotou Cincinnati Reds por 2 a 1 na MLB, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -4670,7 +4754,7 @@
     "content": "Dusan Lajovic superou Alexander Rozin por 2 a 0 em Quebec City., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -4712,7 +4796,7 @@
     "content": "South Sudan (W) superou Brazil (W) por 63 a 61 em Olympic Qualification (W)., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -4754,7 +4838,7 @@
     "content": "Cremonese venceu Sampdoria por 2 a 0 pelo Coppa Italia, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -4796,7 +4880,7 @@
     "content": "Diana Shnaider e Maja Chwalinska terminaram empatados por 0 a 0 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -4838,7 +4922,7 @@
     "content": "Orsomarso (W) e Dep. Pasto (W) empataram por 0 a 0 pelo Colombian Women's League, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -4880,7 +4964,7 @@
     "content": "Moez Echargui e Hugo Grenier terminaram empatados por 0 a 0 em Cancun., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -4922,7 +5006,7 @@
     "content": "Independiente Medellín (W) e America De Cali (W) empataram por 0 a 0 pelo Colombian Women's League, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -4964,7 +5048,7 @@
     "content": "Tristan Schoolkate superou Nicolas Arseneault por 2 a 0 em Quebec City., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -5006,7 +5090,7 @@
     "content": "Cariari e Santa Ana empataram por 0 a 0 pela Liga de Ascenso, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -5048,7 +5132,7 @@
     "content": "Sorana Cirstea e Anna Kalinskaya terminaram empatados por 0 a 0 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -5090,7 +5174,7 @@
     "content": "Chelmsford City e Ebbsfleet United empataram por 0 a 0 pelo National League N/S, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -5132,7 +5216,7 @@
     "content": "Arthur Fery e Alex De Minaur terminaram empatados por 0 a 0 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -5174,7 +5258,7 @@
     "content": "Cerro Largo Fc (Reserves) e Ca Progreso (Reserves) empataram por 0 a 0 pelo Reserve League, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -5216,7 +5300,7 @@
     "content": "Juan Bautista Torres superou Marek Gengel por 2 a 1 em Prague., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -5258,7 +5342,7 @@
     "content": "FC Nomme United II venceu Kalju Nomme II por 2 a 0 pelo Esiliiga, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -5300,7 +5384,7 @@
     "content": "Iga Swiatek superou Maria Sakkari por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -5342,7 +5426,7 @@
     "content": "Gnistan venceu Ilves por 3 a 2 pelo Veikkausliiga, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -5384,7 +5468,7 @@
     "content": "Dabrowski G./Krejcikova B. superou Bucsa C./Melichar-Martinez N. por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -5426,7 +5510,7 @@
     "content": "Slovan Bratislava B venceu Humenne por 3 a 0 pela 2. Liga, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -5468,7 +5552,7 @@
     "content": "Mark Ceban superou Anton Shepp por 2 a 0 em Roehampton., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -5510,7 +5594,7 @@
     "content": "AE Larissa venceu Kallithea por 3 a 1 pelo Greece Cup, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -5552,7 +5636,7 @@
     "content": "Nick Hardt superou Jakub Filip por 2 a 0 em Prague., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -5594,7 +5678,7 @@
     "content": "Auda e Grobiņa empataram por 0 a 0 pelo Latvian Cup, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -5636,7 +5720,7 @@
     "content": "Alexander Donski e Andrea Guerrieri terminaram empatados por 0 a 0 em Quebec City., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -5678,7 +5762,7 @@
     "content": "Albion Fc (Reserves) venceu Ca River Plate (Uru) (Reserves) por 5 a 2 pelo Reserve League, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -5720,7 +5804,7 @@
     "content": "Yuki Bhambri/Michael Venus e Brooksby J./Svajda Z. terminaram empatados por 0 a 0 em Cincinnati., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -5762,7 +5846,7 @@
     "content": "Independiente (W) venceu Huracán (W) por 3 a 2 pelo Campeonato Femenino, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -5804,7 +5888,7 @@
     "content": "Coco Gauff superou Ludmilla Samsonova por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -5846,7 +5930,7 @@
     "content": "Shillong Lajong e Northeast United empataram por 0 a 0 pelo durand cup, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -5888,7 +5972,7 @@
     "content": "Filip Peliwo superou Nicolas Tepmahc por 2 a 1 em Roehampton., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -5930,7 +6014,7 @@
     "content": "Defensor Sporting (Reserves) e Racing Club Montevideo (Reserves) empataram por 1 a 1 pelo Reserve League, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -5972,7 +6056,7 @@
     "content": "Alec Deckers superou Ali Habib por 2 a 1 em Roehampton., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -6014,7 +6098,7 @@
     "content": "CD Rio Blanco venceu Juventus Managua por 2 a 0 pela Liga de Ascenso, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -6056,7 +6140,7 @@
     "content": "Chicago White Sox derrotou Detroit Tigers por 7 a 5 na MLB, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -6098,7 +6182,7 @@
     "content": "Sumit Nagal superou Eduardo Ribeiro por 1 a 0 em Prague., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -6140,7 +6224,7 @@
     "content": "General Diaz e Sport Colonial empataram por 0 a 0 pelo APF Primera C, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -6182,7 +6266,7 @@
     "content": "New York Mets derrotou Washington Nationals por 4 a 3 na MLB, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -6224,7 +6308,7 @@
     "content": "Javier Barranco Cosano superou Andrej Martin por 2 a 1 em Prague., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -6266,7 +6350,7 @@
     "content": "Independiente Petrolero venceu GV San Jose por 1 a 0 pela Liga De Futbol Prof, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -6308,7 +6392,7 @@
     "content": "Colorado Rockies derrotou San Francisco Giants por 13 a 7 na MLB, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -6350,7 +6434,7 @@
     "content": "Peter Makk superou Marcus Walters por 2 a 0 em Roehampton., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -6392,7 +6476,7 @@
     "content": "Al Khalidiyah e Qadisiya Kuwait empataram por 0 a 0 pelo Club Friendlies, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -6434,7 +6518,7 @@
     "content": "San Diego Padres derrotou Cleveland Guardians por 5 a 0 na MLB, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -6476,7 +6560,7 @@
     "content": "Marta Kostyuk superou Sofia Kenin por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -6518,7 +6602,7 @@
     "content": "Jicaral Sercoba venceu AD Cofutpa por 1 a 0 pela Liga de Ascenso, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -6560,7 +6644,7 @@
     "content": "Seattle Mariners derrotou Houston Astros por 3 a 2 na MLB, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -6602,7 +6686,7 @@
     "content": "Gerard Campana Lee e Theo Papamalamis terminaram empatados por 0 a 0 em Sion., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -6644,7 +6728,7 @@
     "content": "UNAN Managua venceu Jalapa Art por 2 a 1 pelo First Division, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -6686,7 +6770,7 @@
     "content": "Alex Marti Pujolras superou Lorenzo Bocchi por 2 a 0 em Sion., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -6728,7 +6812,7 @@
     "content": "Deportes Iquique e Deportes Antofagasta empataram por 1 a 1 pelo Primera B, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -6770,7 +6854,7 @@
     "content": "Luca Wiedenmann superou Thiago Cigarran por 1 a 0 em Sion., em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -6812,7 +6896,7 @@
     "content": "Caguas Sporting venceu San Juan FC por 2 a 1 pelo LPR Pro, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -6854,7 +6938,7 @@
     "content": "Atlanta Braves derrotou Arizona Diamondbacks por 5 a 3 na MLB, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -6896,7 +6980,7 @@
     "content": "Aoyama S./Liang E. superou Neel I./Olmos G. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -6938,7 +7022,7 @@
     "content": "FC Dallas venceu Austin FC por 2 a 1 pela MLS, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -6980,7 +7064,7 @@
     "content": "Miami Marlins derrotou Cincinnati Reds por 7 a 1 na MLB, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -7022,7 +7106,7 @@
     "content": "Mirra Andreeva superou Oleksandra Oliynykova por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -7064,7 +7148,7 @@
     "content": "Huehuetecos FC venceu Chichicasteco FC por 4 a 0 pelo Primera Division, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -7106,7 +7190,7 @@
     "content": "Oleksandr Ovcharenko superou Petros Tsitsipas por 2 a 0 em Sion., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -7148,7 +7232,7 @@
     "content": "Angel City e Washington Spirit empataram por 1 a 1 pelo NWSL, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -7190,7 +7274,7 @@
     "content": "Elena Rybakina superou Taylor Townsend por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -7232,7 +7316,7 @@
     "content": "Los Angeles FC II venceu Tacoma Defiance por 4 a 3 pela MLS Next Pro, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -7274,7 +7358,7 @@
     "content": "Daniil Medvedev superou Marco Trungelliti por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -7316,7 +7400,7 @@
     "content": "St. Louis City II venceu The Town FC por 2 a 0 pela MLS Next Pro, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -7358,7 +7442,7 @@
     "content": "Xin-Yu Wang superou Donna Vekic por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -7400,7 +7484,7 @@
     "content": "Club Tijuana venceu Cruz Azul por 2 a 1 pela Liga MX, em 17 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -7442,7 +7526,7 @@
     "content": "Frances Tiafoe superou Lorenzo Sonego por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -7484,7 +7568,7 @@
     "content": "Portland Fire superou Phoenix Mercury por 88 a 85 em WNBA., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -7526,7 +7610,7 @@
     "content": "Vancouver Whitecaps venceu Seattle Sounders por 2 a 0 pela MLS, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -7568,7 +7652,7 @@
     "content": "St. Louis Cardinals derrotou Chicago Cubs por 11 a 4 na MLB, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -7610,7 +7694,7 @@
     "content": "Xiyu Wang superou Leylah Fernandez por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -7652,7 +7736,7 @@
     "content": "Leones De Quilpué superou Espanol De Talca por 96 a 69 em LNB., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -7694,7 +7778,7 @@
     "content": "Olancho venceu Juticalpa por 1 a 0 pela Liga Nacional, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -7736,7 +7820,7 @@
     "content": "Olmecas de Tabasco derrotou Bravos de León por 4 a 3 na LMB, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -7778,7 +7862,7 @@
     "content": "Iga Swiatek superou Emilliana Arango por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -7820,7 +7904,7 @@
     "content": "Santeros de Aguada superou Vaqueros De Bayamon por 67 a 64 em BSN., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -7862,7 +7946,7 @@
     "content": "Chivas venceu Santos Laguna por 1 a 0 pela Liga MX, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -7904,7 +7988,7 @@
     "content": "Paulo Andre Saraiva Dos Santos superou Matt Kuhar por 2 a 1 em Kingston., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -7946,7 +8030,7 @@
     "content": "Atlético Puerto Varas superou CD Español Osorno por 95 a 79 em LNB., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -7988,7 +8072,7 @@
     "content": "Once Caldas e Alianza FC empataram por 0 a 0 pelo Primera A, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -8030,7 +8114,7 @@
     "content": "Miguel Tobon superou Lorenzo Claverie por 2 a 1 em Kingston., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -8072,7 +8156,7 @@
     "content": "Colonias Gold Basketball superou Capiata Bulls por 83 a 56 em LNB., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -8114,7 +8198,7 @@
     "content": "Cruzeiro venceu Corinthians por 2 a 1 pelo Série A, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -8156,7 +8240,7 @@
     "content": "Nippon Ham Fighters derrotou Orix Buffaloes por 13 a 7 na NPB, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -8198,7 +8282,7 @@
     "content": "Ivan Marrero Curbelo superou Lev Seidman por 2 a 1 em Kingston., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -8240,7 +8324,7 @@
     "content": "Chicago Sky superou Seattle Storm por 82 a 80 em WNBA., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -8282,7 +8366,7 @@
     "content": "Inter San Carlos venceu Perez Zeledon por 1 a 0 pela liga FPD, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -8324,7 +8408,7 @@
     "content": "Yomiuri Giants derrotou Chunichi Dragons por 11 a 0 na NPB, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -8366,7 +8450,7 @@
     "content": "Eikeri U./Gleason Q. superou Perez E./Schuurs D. por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -8408,7 +8492,7 @@
     "content": "Deportivo Amambay superou Deportivo Campoalto por 82 a 57 em LNB., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -8450,7 +8534,7 @@
     "content": "Vitoria venceu Botafogo por 1 a 0 pelo Série A, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -8492,7 +8576,7 @@
     "content": "Yakult Swallows derrotou Yokohama Baystars por 2 a 1 na NPB, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -8534,7 +8618,7 @@
     "content": "Andrew Fenty superou Hunter Heck por 2 a 1 em Kingston., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -8576,7 +8660,7 @@
     "content": "Club Malvin (W) superou Tabare (W) por 85 a 44 em LFB (W)., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -8618,7 +8702,7 @@
     "content": "America de Cali e Fortaleza FC empataram por 0 a 0 pelo Primera A, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -8660,7 +8744,7 @@
     "content": "SSG Landers derrotou LG Twins por 6 a 0 na KBO, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -8702,7 +8786,7 @@
     "content": "Kenta Miyoshi superou Arklon Huertas Del Pino por 2 a 0 em Kingston., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -8744,7 +8828,7 @@
     "content": "Herrera e Veraguas empataram por 2 a 2 pelo Lpf, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -8786,7 +8870,7 @@
     "content": "Philadelphia Phillies derrotou Minnesota Twins por 7 a 5 na MLB, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -8828,7 +8912,7 @@
     "content": "Danilina A./Krunic A. superou Li A./Tauson C. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -8870,7 +8954,7 @@
     "content": "San Martín Mendoza venceu Deportivo Rincón por 1 a 0 pelo Federal A, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -8912,7 +8996,7 @@
     "content": "Milwaukee Brewers derrotou Los Angeles Dodgers por 4 a 1 na MLB, em 15 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -8954,7 +9038,7 @@
     "content": "Bouzkova M./Noskova L. superou Dolehide C./Navarro E. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -8996,7 +9080,7 @@
     "content": "Franca superou Corinthians por 79 a 77 em Paulista Basketball., em 15 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -9038,7 +9122,7 @@
     "content": "Union Magdalena e Leones empataram por 0 a 0 pelo Primera B, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -9080,7 +9164,7 @@
     "content": "Marie Bouzkova superou Lucrezia Stefanini por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -9122,7 +9206,7 @@
     "content": "Mogi das Cruzes superou Bauru Basket por 88 a 71 em Paulista Basketball., em 15 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -9164,7 +9248,7 @@
     "content": "Central Norte e Gimnasia y Tiro empataram por 0 a 0 pelo Primera Nacional, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -9206,7 +9290,7 @@
     "content": "Chan H./Joint M. superou Mertens E./Shnaider D. por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -9248,7 +9332,7 @@
     "content": "São José superou Basket Osasco por 114 a 45 em Paulista Basketball., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -9290,7 +9374,7 @@
     "content": "Union Deportivo Asencion e Asociación Deportiva Ucayali FC empataram por 0 a 0 pela Liga 3, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -9332,7 +9416,7 @@
     "content": "Routliffe E./Sutjiadi A. superou Muhammad A./Stollar F. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -9374,7 +9458,7 @@
     "content": "Paulistano superou Pinheiros por 67 a 59 em Paulista Basketball., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -9416,7 +9500,7 @@
     "content": "Deportivo Saprissa (W) e Chorotega FC (W) empataram por 0 a 0 pelo Primera Division Women, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -9458,7 +9542,7 @@
     "content": "Timo Legout superou Aidan Mayo por 2 a 0 em Kingston., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -9500,7 +9584,7 @@
     "content": "Asociación Deportiva Tahuishco e Nuevo San Cristóbal empataram por 0 a 0 pela Liga 3, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -9542,7 +9626,7 @@
     "content": "Garrett Johns superou Guillaume Dalmasso por 2 a 0 em Kingston., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -9584,7 +9668,7 @@
     "content": "Centro Social de Pariacoto e Pacifico FC empataram por 0 a 0 pela Liga 3, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -9626,7 +9710,7 @@
     "content": "Evan Zhu superou Tauheed Browning por 2 a 0 em Kingston., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -9668,7 +9752,7 @@
     "content": "Envigado FC e Internacional FC empataram por 0 a 0 pelo Primera B, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -9710,7 +9794,7 @@
     "content": "Felix Auger Aliassime superou Stefanos Tsitsipas por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -9752,7 +9836,7 @@
     "content": "Puente Alto superou Universidad Católica por 80 a 67 em LNB., em 15 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -9794,7 +9878,7 @@
     "content": "Club Luján venceu CA Lugano por 2 a 1 pelo Primera C, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -9836,7 +9920,7 @@
     "content": "Roger Pascual Ferra e Mario Gonzalez Fernandez terminaram empatados por 0 a 0 em Kingston., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -9878,7 +9962,7 @@
     "content": "Winnipeg Sea Bears e Brampton Honey Badgers terminaram empatados por 0 a 0 em CEBL., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -9920,7 +10004,7 @@
     "content": "SC Braga e Gil Vicente FC empataram por 0 a 0 pela Liga Portugal, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -9962,7 +10046,7 @@
     "content": "Edward Winter superou Steven Christie por 2 a 0 em Kingston., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -10004,7 +10088,7 @@
     "content": "Club 1 De Marzo Fernando Mora e 12 de Octubre SD empataram por 0 a 0 pelo APF Primera B, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -10046,7 +10130,7 @@
     "content": "Hsieh.S/Ostapenko J. superou Mihalikova T./Nicholls O. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -10088,7 +10172,7 @@
     "content": "Brasil Pelotas (RS) e Brasil de Farroupilha empataram por 0 a 0 pelo Gaucho A2, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -10130,7 +10214,7 @@
     "content": "Guo H./Mladenovic K. superou Kato M./Kichenok L. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -10172,7 +10256,7 @@
     "content": "Wisla Plock e Lech Poznan empataram por 0 a 0 pelo Ekstraklasa, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -10214,7 +10298,7 @@
     "content": "Leonardo Rossi superou Benjamin Gusic - Wan por 2 a 1 em Roehampton., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -10256,7 +10340,7 @@
     "content": "Estudiantes de Merida e Puerto Cabello empataram por 0 a 0 pela Liga FUTVE, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -10298,7 +10382,7 @@
     "content": "Lucas Andrade Da Silva superou Pietro Orlando Fellin por 2 a 0 em Kingston., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -10340,7 +10424,7 @@
     "content": "Deportivo Sayaxche e Nueva Santa Rosa CDF empataram por 0 a 0 pelo Primera Division, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -10382,7 +10466,7 @@
     "content": "Ali Habib superou Samuel Battistone por 2 a 0 em Roehampton., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -10424,7 +10508,7 @@
     "content": "Sloga Doboj e Borac Banjaluka empataram por 0 a 0 pela Premier League, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -10466,7 +10550,7 @@
     "content": "Aidan Kim superou Richard Mallory por 2 a 0 em Kingston., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -10508,7 +10592,7 @@
     "content": "Hodoš e NK Tromejnik empataram por 0 a 0 pelo Hervis Pokal, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -10550,7 +10634,7 @@
     "content": "Nino Ehrenschneider superou Christopher Papa por 2 a 0 em Sion., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -10592,7 +10676,7 @@
     "content": "Deportivo Coopsol e Amazon Callao FC empataram por 0 a 0 pela Liga 3, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -10634,7 +10718,7 @@
     "content": "Alafia Ayeni superou Zach Stephens por 2 a 0 em Roehampton., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -10676,7 +10760,7 @@
     "content": "Super Nova e Rigas FS empataram por 0 a 0 pelo Latvian Cup, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -10718,7 +10802,7 @@
     "content": "Matyas Cerny superou Dusan Obradovic por 2 a 0 em Prague., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -10760,7 +10844,7 @@
     "content": "Jagiellonia e Pogon empataram por 0 a 0 pelo Ekstraklasa, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -10802,7 +10886,7 @@
     "content": "Luciano Emanuel Ambrogi superou Vojtech Mares por 2 a 0 em Prague., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -10844,7 +10928,7 @@
     "content": "América U21 e Atlético San Luis U21 empataram por 0 a 0 pela Liga MX U21, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -10886,7 +10970,7 @@
     "content": "Benjamin Hassan e Flynn Thomas terminaram empatados por 0 a 0 em Sion., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -10928,7 +11012,7 @@
     "content": "FK Istaravshan e FK Khujand empataram por 0 a 0 pela Vysshaya Liga, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -10970,7 +11054,7 @@
     "content": "Ali Habib e Oscar Weightman terminaram empatados por 0 a 0 em Roehampton., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -11012,7 +11096,7 @@
     "content": "Sardarapat FC e Pyunik Yerevan empataram por 0 a 0 pela Premier League, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -11054,7 +11138,7 @@
     "content": "Patrick Brady superou Jesse Delaney por 2 a 0 em Roehampton., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -11096,7 +11180,7 @@
     "content": "Merstham e Ashford Town (Middlesex) empataram por 0 a 0 pelo FA Trophy, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -11138,7 +11222,7 @@
     "content": "John Echeverria superou Oliver Bonding por 2 a 0 em Roehampton., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -11180,7 +11264,7 @@
     "content": "Degerfors IF venceu IFK Göteborg por 3 a 0 pelo Allsvenskan, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -11222,7 +11306,7 @@
     "content": "Dimitris Sakellaridis superou Gian Luca Tanner por 2 a 0 em Sion., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -11264,7 +11348,7 @@
     "content": "Lyra-Lierse Berlaar e Wellen empataram por 0 a 0 pelo Belgian Cup, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -11306,7 +11390,7 @@
     "content": "Radu Mihai Papoe superou Jakub Vrtilka por 2 a 0 em Prague., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -11348,7 +11432,7 @@
     "content": "Saarbrucken (W) e Greuther Fürth (W) empataram por 0 a 0 pelo DFB Pokal Women, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -11390,7 +11474,7 @@
     "content": "Norbert Gombos superou Jiri Cizek por 2 a 0 em Prague., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -11432,7 +11516,7 @@
     "content": "Japan superou South Korea por 95 a 66 em International Friendlies., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -11474,7 +11558,7 @@
     "content": "Irtysh Pavlodar e Tobol Kostanay empataram por 0 a 0 pela Premier League, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -11516,7 +11600,7 @@
     "content": "Andrew Paulson superou Dominik Recek por 2 a 0 em Prague., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -11558,7 +11642,7 @@
     "content": "FC Minsk (W) e Dnepr Mogilev (W) empataram por 0 a 0 pelo Belarus Women's Cup, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -11600,7 +11684,7 @@
     "content": "Wormatia Worms (W) e SV Eutingen (W) empataram por 0 a 0 pelo DFB Pokal Women, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -11642,7 +11726,7 @@
     "content": "Aziz Dougaz superou Sergey Fomin por 2 a 1 em Astana., em 15 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -11684,7 +11768,7 @@
     "content": "Chemnitzer FC (W) e SF BG Marburg (W) empataram por 0 a 0 pelo DFB Pokal Women, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -11726,7 +11810,7 @@
     "content": "Andrej Martin superou Boris Arias por 2 a 0 em Prague., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -11768,7 +11852,7 @@
     "content": "Holstein Kiel (W) e Magdeburger (W) empataram por 0 a 0 pelo DFB Pokal Women, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -11810,7 +11894,7 @@
     "content": "FC Petrzalka venceu FC Taran Presov por 4 a 2 pela 2. Liga, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -11852,7 +11936,7 @@
     "content": "Jakub Paul superou Svyatoslav Gulin por 2 a 1 em Prague., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -11894,7 +11978,7 @@
     "content": "Baník Ostrava II venceu Viktoria Zizkov por 4 a 1 pelo Division 2, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -11936,7 +12020,7 @@
     "content": "New Mexico venceu FC Tulsa por 1 a 0 pela USL Championship, em 15 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -11978,7 +12062,7 @@
     "content": "Rudolf Molleker superou Aleksandr Braynin por 2 a 0 em Prague., em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -12020,7 +12104,7 @@
     "content": "Colorado Rapids venceu Sporting KC por 2 a 0 pela MLS, em 15 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -12062,7 +12146,7 @@
     "content": "Minnesota Lynx superou Las Vegas Aces por 92 a 87 em WNBA., em 15 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -12104,7 +12188,7 @@
     "content": "Ho Chi Minh City e Dong Tam Long An empataram por 0 a 0 pelo Club Friendlies, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -12146,7 +12230,7 @@
     "content": "Pericos de Puebla derrotou Piratas de Campeche por 10 a 4 na LMB, em 15 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/beisebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · MLB",
     "tags": [
@@ -12188,7 +12272,7 @@
     "content": "Verdirrojo Bbc superou CA Stockolmo por 77 a 68 em Liga de ascenso., em 14 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -12230,7 +12314,7 @@
     "content": "Real Salt Lake e Minnesota United empataram por 1 a 1 pela MLS, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -12272,7 +12356,7 @@
     "content": "Jaime Faria superou Jenson Brooksby por 2 a 0 em Cincinnati., em 14 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/tenis.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Tênis",
     "tags": [
@@ -12314,7 +12398,7 @@
     "content": "Fuerza Regia superou Freseros De Irapuato por 105 a 94 em LNBP., em 15 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -12356,7 +12440,7 @@
     "content": "Central Coast venceu Tiga Sport por 2 a 0 pela OFC Champions League, em 16 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -12398,7 +12482,7 @@
     "content": "Defensor Sporting Club (W) e Cordon (W) terminaram empatados por 0 a 0 em LFB (W)., em 15 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -12440,7 +12524,7 @@
     "content": "Deportivo Saprissa venceu CS Cartagines por 3 a 2 pela liga FPD, em 15 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/futebol.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · Futebol",
     "tags": [
@@ -12482,7 +12566,7 @@
     "content": "Lobos Plateados superou Dorados De Chihuahua por 74 a 71 em LNBP., em 15 de agosto de 2026.",
     "sourceName": "LAP Dados",
     "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
+    "coverImageUrl": "/images/sports/basquete.jpg",
     "authorName": "Redação LAP",
     "authorRole": "Newsroom AI · NBA",
     "tags": [
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T07:07:16.748Z",
       "feedId": "basquete",
       "league": "LNBP"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f9b171daec47",
-    "slug": "las-vegas-lights-supera-brooklyn-por-2-a-1-pela-usl-championship-f9b171",
-    "sportId": "futebol",
-    "title": "Las Vegas Lights supera Brooklyn por 2 a 1 pela USL Championship",
-    "summary": "Las Vegas Lights venceu Brooklyn por 2 a 1 pela USL Championship.",
-    "content": "Las Vegas Lights venceu Brooklyn por 2 a 1 pela USL Championship, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "usl-championship"
-    ],
-    "seoTitle": "Las Vegas Lights supera Brooklyn por 2 a 1 pela USL Championship",
-    "seoDescription": "Las Vegas Lights venceu Brooklyn por 2 a 1 pela USL Championship.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T07:07:16.728Z",
-    "createdAt": "2026-08-16T07:07:16.728Z",
-    "updatedAt": "2026-08-16T07:07:16.728Z",
-    "homepagePriority": 82,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4634140",
-      "eventStartTime": "2026-08-16T02:30:00+00:00",
-      "retrievedAt": "2026-08-16T07:07:16.728Z",
-      "feedId": "futebol",
-      "league": "USL Championship"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d8900722b8d5",
-    "slug": "jan-kumstat-vence-matheus-almeida-por-2-a-1-em-hamburg-d89007",
-    "sportId": "tenis",
-    "title": "Jan Kumstat vence Matheus Almeida por 2 a 1 em Hamburg",
-    "summary": "Jan Kumstat superou Matheus Almeida por 2 a 1 em Hamburg.",
-    "content": "Jan Kumstat superou Matheus Almeida por 2 a 1 em Hamburg., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "hamburg"
-    ],
-    "seoTitle": "Jan Kumstat vence Matheus Almeida por 2 a 1 em Hamburg",
-    "seoDescription": "Jan Kumstat superou Matheus Almeida por 2 a 1 em Hamburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T06:21:03.680Z",
-    "createdAt": "2026-08-16T06:21:03.680Z",
-    "updatedAt": "2026-08-16T06:21:03.680Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814868",
-      "eventStartTime": "2026-08-15T12:15:23+00:00",
-      "retrievedAt": "2026-08-16T06:21:03.680Z",
-      "feedId": "tenis",
-      "league": "Hamburg"
     },
     "articleFormat": "result-brief"
   }
