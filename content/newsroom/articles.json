@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-0f31a4464495",
+    "slug": "kansas-city-royals-vence-athletics-por-9-a-5-na-mlb-0f31a4",
+    "sportId": "beisebol",
+    "title": "Kansas City Royals vence Athletics por 9 a 5 na MLB",
+    "summary": "Kansas City Royals derrotou Athletics por 9 a 5 na MLB.",
+    "content": "Kansas City Royals derrotou Athletics por 9 a 5 na MLB, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Kansas City Royals vence Athletics por 9 a 5 na MLB",
+    "seoDescription": "Kansas City Royals derrotou Athletics por 9 a 5 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T03:09:25.988Z",
+    "createdAt": "2026-08-18T03:09:25.988Z",
+    "updatedAt": "2026-08-18T03:09:25.988Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614634",
+      "eventStartTime": "2026-08-17T23:40:00+00:00",
+      "retrievedAt": "2026-08-18T03:09:25.988Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-0a623e4c9472",
+    "slug": "lloyd-harris-vence-abdullah-shelbayh-por-2-a-0-em-cancun-0a623e",
+    "sportId": "tenis",
+    "title": "Lloyd Harris vence Abdullah Shelbayh por 2 a 0 em Cancun",
+    "summary": "Lloyd Harris superou Abdullah Shelbayh por 2 a 0 em Cancun.",
+    "content": "Lloyd Harris superou Abdullah Shelbayh por 2 a 0 em Cancun., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Lloyd Harris vence Abdullah Shelbayh por 2 a 0 em Cancun",
+    "seoDescription": "Lloyd Harris superou Abdullah Shelbayh por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T03:09:25.985Z",
+    "createdAt": "2026-08-18T03:09:25.985Z",
+    "updatedAt": "2026-08-18T03:09:25.985Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816157",
+      "eventStartTime": "2026-08-18T01:57:01+00:00",
+      "retrievedAt": "2026-08-18T03:09:25.985Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e60ca041b3e2",
+    "slug": "cd-valdivia-vence-las-animas-por-90-a-58-em-lnb-e60ca0",
+    "sportId": "basquete",
+    "title": "CD Valdivia vence Las Animas por 90 a 58 em LNB",
+    "summary": "CD Valdivia superou Las Animas por 90 a 58 em LNB.",
+    "content": "CD Valdivia superou Las Animas por 90 a 58 em LNB., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "CD Valdivia vence Las Animas por 90 a 58 em LNB",
+    "seoDescription": "CD Valdivia superou Las Animas por 90 a 58 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T03:09:25.981Z",
+    "createdAt": "2026-08-18T03:09:25.981Z",
+    "updatedAt": "2026-08-18T03:09:25.981Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4812228",
+      "eventStartTime": "2026-08-18T00:30:00+00:00",
+      "retrievedAt": "2026-08-18T03:09:25.981Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1e591ec95a6b",
+    "slug": "monterrey-w-supera-santos-laguna-w-por-4-a-1-pelo-mexico-1e591e",
+    "sportId": "futebol",
+    "title": "Monterrey (W) supera Santos Laguna (W) por 4 a 1 pelo Mexico",
+    "summary": "Monterrey (W) venceu Santos Laguna (W) por 4 a 1 pelo Mexico.",
+    "content": "Monterrey (W) venceu Santos Laguna (W) por 4 a 1 pelo Mexico, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mexico"
+    ],
+    "seoTitle": "Monterrey (W) supera Santos Laguna (W) por 4 a 1 pelo Mexico",
+    "seoDescription": "Monterrey (W) venceu Santos Laguna (W) por 4 a 1 pelo Mexico.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T03:09:25.975Z",
+    "createdAt": "2026-08-18T03:09:25.975Z",
+    "updatedAt": "2026-08-18T03:09:25.975Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4788416",
+      "eventStartTime": "2026-08-18T01:06:00+00:00",
+      "retrievedAt": "2026-08-18T03:09:25.975Z",
+      "feedId": "futebol",
+      "league": "Mexico"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3ba78c4b93e7",
     "slug": "new-york-mets-vence-san-diego-padres-por-2-a-1-na-mlb-3ba78c",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-15T17:41:46.680Z",
       "feedId": "futebol",
       "league": "Regionalliga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ba7353870f54",
-    "slug": "maja-chwalinska-vence-cristina-bucsa-por-1-a-0-em-cincinnati-ba7353",
-    "sportId": "tenis",
-    "title": "Maja Chwalinska vence Cristina Bucsa por 1 a 0 em Cincinnati",
-    "summary": "Maja Chwalinska superou Cristina Bucsa por 1 a 0 em Cincinnati.",
-    "content": "Maja Chwalinska superou Cristina Bucsa por 1 a 0 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Maja Chwalinska vence Cristina Bucsa por 1 a 0 em Cincinnati",
-    "seoDescription": "Maja Chwalinska superou Cristina Bucsa por 1 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T17:16:53.274Z",
-    "createdAt": "2026-08-15T17:16:53.274Z",
-    "updatedAt": "2026-08-15T17:16:53.274Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813631",
-      "eventStartTime": "2026-08-15T15:07:24+00:00",
-      "retrievedAt": "2026-08-15T17:16:53.274Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-77876db2da98",
-    "slug": "managua-fc-e-real-esteli-fc-ficam-no-0-a-0-pelo-first-division-77876d",
-    "sportId": "futebol",
-    "title": "Managua FC e Real Estelí FC ficam no 0 a 0 pelo First Division",
-    "summary": "Managua FC e Real Estelí FC empataram por 0 a 0 pelo First Division.",
-    "content": "Managua FC e Real Estelí FC empataram por 0 a 0 pelo First Division, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "first-division"
-    ],
-    "seoTitle": "Managua FC e Real Estelí FC ficam no 0 a 0 pelo First Division",
-    "seoDescription": "Managua FC e Real Estelí FC empataram por 0 a 0 pelo First Division.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T17:16:53.241Z",
-    "createdAt": "2026-08-15T17:16:53.241Z",
-    "updatedAt": "2026-08-15T17:16:53.241Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4764131",
-      "eventStartTime": "2026-08-15T17:00:00+00:00",
-      "retrievedAt": "2026-08-15T17:16:53.241Z",
-      "feedId": "futebol",
-      "league": "First Division"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-42b15394ee5a",
-    "slug": "amanda-anisimova-vence-zeynep-sonmez-por-1-a-0-em-cincinnati-42b153",
-    "sportId": "tenis",
-    "title": "Amanda Anisimova vence Zeynep Sonmez por 1 a 0 em Cincinnati",
-    "summary": "Amanda Anisimova superou Zeynep Sonmez por 1 a 0 em Cincinnati.",
-    "content": "Amanda Anisimova superou Zeynep Sonmez por 1 a 0 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Amanda Anisimova vence Zeynep Sonmez por 1 a 0 em Cincinnati",
-    "seoDescription": "Amanda Anisimova superou Zeynep Sonmez por 1 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T16:57:57.415Z",
-    "createdAt": "2026-08-15T16:57:57.415Z",
-    "updatedAt": "2026-08-15T16:57:57.415Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813635",
-      "eventStartTime": "2026-08-15T15:08:07+00:00",
-      "retrievedAt": "2026-08-15T16:57:57.415Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-06a6deabafdd",
-    "slug": "hoffenheim-w-e-fleury-91-w-ficam-no-0-a-0-pelo-club-friendlies-w-06a6de",
-    "sportId": "futebol",
-    "title": "Hoffenheim (W) e Fleury 91 (W) ficam no 0 a 0 pelo Club Friendlies (W)",
-    "summary": "Hoffenheim (W) e Fleury 91 (W) empataram por 0 a 0 pelo Club Friendlies (W).",
-    "content": "Hoffenheim (W) e Fleury 91 (W) empataram por 0 a 0 pelo Club Friendlies (W), em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies-w"
-    ],
-    "seoTitle": "Hoffenheim (W) e Fleury 91 (W) ficam no 0 a 0 pelo Club Friendlies (W)",
-    "seoDescription": "Hoffenheim (W) e Fleury 91 (W) empataram por 0 a 0 pelo Club Friendlies (W).",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T16:57:57.382Z",
-    "createdAt": "2026-08-15T16:57:57.382Z",
-    "updatedAt": "2026-08-15T16:57:57.382Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4743424",
-      "eventStartTime": "2026-08-15T17:00:00+00:00",
-      "retrievedAt": "2026-08-15T16:57:57.382Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies (W)"
     },
     "articleFormat": "result-brief"
   }
