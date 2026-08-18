@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-ad7d6d12dee6",
+    "slug": "fukuoka-hawks-vence-nippon-ham-fighters-por-7-a-1-na-npb-ad7d6d",
+    "sportId": "beisebol",
+    "title": "Fukuoka Hawks vence Nippon Ham Fighters por 7 a 1 na NPB",
+    "summary": "Fukuoka Hawks derrotou Nippon Ham Fighters por 7 a 1 na NPB.",
+    "content": "Fukuoka Hawks derrotou Nippon Ham Fighters por 7 a 1 na NPB, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Fukuoka Hawks vence Nippon Ham Fighters por 7 a 1 na NPB",
+    "seoDescription": "Fukuoka Hawks derrotou Nippon Ham Fighters por 7 a 1 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T08:22:33.654Z",
+    "createdAt": "2026-08-18T08:22:33.654Z",
+    "updatedAt": "2026-08-18T08:22:33.654Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4627287",
+      "eventStartTime": "2026-08-18T05:00:00+00:00",
+      "retrievedAt": "2026-08-18T08:22:33.654Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-0b6c0a8eae61",
+    "slug": "frantzen-c-haase-r-vence-miedler-l-polmans-m-por-2-a-0-em-cincinnati-0b6c0a",
+    "sportId": "tenis",
+    "title": "Frantzen C./Haase R. vence Miedler L./Polmans M. por 2 a 0 em Cincinnati",
+    "summary": "Frantzen C./Haase R. superou Miedler L./Polmans M. por 2 a 0 em Cincinnati.",
+    "content": "Frantzen C./Haase R. superou Miedler L./Polmans M. por 2 a 0 em Cincinnati., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Frantzen C./Haase R. vence Miedler L./Polmans M. por 2 a 0 em",
+    "seoDescription": "Frantzen C./Haase R. superou Miedler L./Polmans M. por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T08:22:33.652Z",
+    "createdAt": "2026-08-18T08:22:33.652Z",
+    "updatedAt": "2026-08-18T08:22:33.652Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816658",
+      "eventStartTime": "2026-08-17T23:42:45+00:00",
+      "retrievedAt": "2026-08-18T08:22:33.652Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3f75cc2b79ea",
+    "slug": "ferroviaria-supera-paysandu-por-4-a-0-pelo-serie-c-3f75cc",
+    "sportId": "futebol",
+    "title": "Ferroviária supera Paysandu por 4 a 0 pelo Serie C",
+    "summary": "Ferroviária venceu Paysandu por 4 a 0 pelo Serie C.",
+    "content": "Ferroviária venceu Paysandu por 4 a 0 pelo Serie C, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-c"
+    ],
+    "seoTitle": "Ferroviária supera Paysandu por 4 a 0 pelo Serie C",
+    "seoDescription": "Ferroviária venceu Paysandu por 4 a 0 pelo Serie C.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T08:22:33.608Z",
+    "createdAt": "2026-08-18T08:22:33.608Z",
+    "updatedAt": "2026-08-18T08:22:33.608Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4677741",
+      "eventStartTime": "2026-08-17T23:00:00+00:00",
+      "retrievedAt": "2026-08-18T08:22:33.608Z",
+      "feedId": "futebol",
+      "league": "Serie C"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-75977582bcc9",
     "slug": "s-doumbia-f-reboul-vence-buse-i-cobolli-f-por-2-a-1-em-cincinnati-759775",
     "sportId": "tenis",
@@ -12468,132 +12594,6 @@
       "eventId": "365-4732178",
       "eventStartTime": "2026-08-15T21:00:00+00:00",
       "retrievedAt": "2026-08-15T21:15:09.847Z",
-      "feedId": "futebol",
-      "league": "Primera B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d8cd92ff9321",
-    "slug": "alejandro-tabilo-vence-jan-lennard-struff-por-2-a-0-em-cincinnati-d8cd92",
-    "sportId": "tenis",
-    "title": "Alejandro Tabilo vence Jan-Lennard Struff por 2 a 0 em Cincinnati",
-    "summary": "Alejandro Tabilo superou Jan-Lennard Struff por 2 a 0 em Cincinnati.",
-    "content": "Alejandro Tabilo superou Jan-Lennard Struff por 2 a 0 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Alejandro Tabilo vence Jan-Lennard Struff por 2 a 0 em Cincinnati",
-    "seoDescription": "Alejandro Tabilo superou Jan-Lennard Struff por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T20:57:18.459Z",
-    "createdAt": "2026-08-15T20:57:18.459Z",
-    "updatedAt": "2026-08-15T20:57:18.459Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813641",
-      "eventStartTime": "2026-08-15T19:23:25+00:00",
-      "retrievedAt": "2026-08-15T20:57:18.459Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1b38b723225d",
-    "slug": "minnesota-vikings-vence-new-york-giants-por-13-a-10-em-nfl-1b38b7",
-    "sportId": "futebol-americano",
-    "title": "Minnesota Vikings vence New York Giants por 13 a 10 em NFL",
-    "summary": "Minnesota Vikings superou New York Giants por 13 a 10 em NFL.",
-    "content": "Minnesota Vikings superou New York Giants por 13 a 10 em NFL., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "Minnesota Vikings vence New York Giants por 13 a 10 em NFL",
-    "seoDescription": "Minnesota Vikings superou New York Giants por 13 a 10 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T20:57:18.444Z",
-    "createdAt": "2026-08-15T20:57:18.444Z",
-    "updatedAt": "2026-08-15T20:57:18.444Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714910",
-      "eventStartTime": "2026-08-15T17:00:00+00:00",
-      "retrievedAt": "2026-08-15T20:57:18.444Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1430caa65204",
-    "slug": "atletico-fc-e-real-cartagena-ficam-no-0-a-0-pelo-primera-b-1430ca",
-    "sportId": "futebol",
-    "title": "Atlético FC e Real Cartagena ficam no 0 a 0 pelo Primera B",
-    "summary": "Atlético FC e Real Cartagena empataram por 0 a 0 pelo Primera B.",
-    "content": "Atlético FC e Real Cartagena empataram por 0 a 0 pelo Primera B, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-b"
-    ],
-    "seoTitle": "Atlético FC e Real Cartagena ficam no 0 a 0 pelo Primera B",
-    "seoDescription": "Atlético FC e Real Cartagena empataram por 0 a 0 pelo Primera B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T20:57:18.439Z",
-    "createdAt": "2026-08-15T20:57:18.439Z",
-    "updatedAt": "2026-08-15T20:57:18.439Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732175",
-      "eventStartTime": "2026-08-15T21:00:00+00:00",
-      "retrievedAt": "2026-08-15T20:57:18.439Z",
       "feedId": "futebol",
       "league": "Primera B"
     },
