@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { fetchBrowserSportsNews } from "@/lib/browser-news";
 import { EventCard } from "@/components/event-card";
 import { LapHeader } from "@/components/lap-header";
@@ -127,31 +127,61 @@ function LatestCard({ item }: { item: NewsItem }) {
 
 export function EditorialHome({ initialPayload = null }: { initialPayload?: LivePayload | null }) {
   const [payload, setPayload] = useState<LivePayload | null>(initialPayload);
-  const [failed, setFailed] = useState(false);
+  const [failures, setFailures] = useState({ scores: false, news: false });
+  const newsRef = useRef<NewsItem[]>([]);
+  const failed = failures.scores || failures.news;
 
   useEffect(() => {
     let active = true;
     let timer = 0;
     const schedule = (next: LivePayload | null) => {
       const hasLive = Boolean(next?.feeds.some((feed) => feed.scores.some((score) => score.state === "in")));
-      timer = window.setTimeout(load, hasLive ? 15_000 : 120_000);
+      timer = window.setTimeout(loadScores, hasLive ? 15_000 : 60_000);
     };
-    const load = async () => {
+    const loadScores = async () => {
       try {
-        const [response, browserNews] = await Promise.all([
-          fetch("/api/live"),
-          fetchBrowserSportsNews(),
-        ]);
+        const response = await fetch("/api/live");
         if (!response.ok) throw new Error("Falha ao carregar");
-        const next = mergeBrowserNews(await response.json() as LivePayload, browserNews);
-        if (active) { setPayload(next); setFailed(false); schedule(next); }
+        const next = mergeBrowserNews(await response.json() as LivePayload, newsRef.current);
+        if (active) {
+          setPayload(next);
+          setFailures((current) => ({ ...current, scores: false }));
+          schedule(next);
+        }
       } catch {
-        if (active) { setFailed(true); schedule(payload); }
+        if (active) {
+          setFailures((current) => ({ ...current, scores: true }));
+          timer = window.setTimeout(loadScores, 30_000);
+        }
       }
     };
-    // A carga no navegador é imediata: ela completa o snapshot do servidor com
-    // notícias e imagens da origem pública, sem esperar o próximo ciclo de placares.
-    void load();
+    void loadScores();
+    return () => { active = false; window.clearTimeout(timer); };
+  }, []);
+
+  useEffect(() => {
+    let active = true;
+    let timer = 0;
+    const loadNews = async () => {
+      try {
+        const browserNews = await fetchBrowserSportsNews();
+        if (!browserNews.length) throw new Error("Feed editorial vazio");
+        if (active) {
+          newsRef.current = browserNews;
+          setPayload((current) => current ? mergeBrowserNews(current, browserNews) : current);
+          setFailures((current) => ({ ...current, news: false }));
+          timer = window.setTimeout(loadNews, 5 * 60_000);
+        }
+      } catch {
+        if (active) {
+          setFailures((current) => ({ ...current, news: true }));
+          timer = window.setTimeout(loadNews, 60_000);
+        }
+      }
+    };
+    // Notícias entram imediatamente e depois renovam em ciclo próprio, sem disputar
+    // conexões com os placares que aceleram durante eventos ao vivo.
+    void loadNews();
     return () => { active = false; window.clearTimeout(timer); };
   }, []);
 
