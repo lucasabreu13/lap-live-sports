@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-3e07e5eeb65a",
+    "slug": "dominic-stricker-vence-raphael-perot-por-2-a-0-em-sion-3e07e5",
+    "sportId": "tenis",
+    "title": "Dominic Stricker vence Raphael Perot por 2 a 0 em Sion",
+    "summary": "Dominic Stricker superou Raphael Perot por 2 a 0 em Sion.",
+    "content": "Dominic Stricker superou Raphael Perot por 2 a 0 em Sion., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Dominic Stricker vence Raphael Perot por 2 a 0 em Sion",
+    "seoDescription": "Dominic Stricker superou Raphael Perot por 2 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T11:41:36.222Z",
+    "createdAt": "2026-08-18T11:41:36.222Z",
+    "updatedAt": "2026-08-18T11:41:36.222Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815637",
+      "eventStartTime": "2026-08-18T10:00:27+00:00",
+      "retrievedAt": "2026-08-18T11:41:36.222Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1463155d0bd5",
+    "slug": "maksimir-cro-e-concordia-zagreb-ficam-no-0-a-0-pelo-club-friendlies-146315",
+    "sportId": "futebol",
+    "title": "Maksimir (Cro) e Concordia Zagreb ficam no 0 a 0 pelo Club Friendlies",
+    "summary": "Maksimir (Cro) e Concordia Zagreb empataram por 0 a 0 pelo Club Friendlies.",
+    "content": "Maksimir (Cro) e Concordia Zagreb empataram por 0 a 0 pelo Club Friendlies, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Maksimir (Cro) e Concordia Zagreb ficam no 0 a 0 pelo Club Friendlies",
+    "seoDescription": "Maksimir (Cro) e Concordia Zagreb empataram por 0 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T11:41:36.209Z",
+    "createdAt": "2026-08-18T11:41:36.209Z",
+    "updatedAt": "2026-08-18T11:41:36.209Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809972",
+      "eventStartTime": "2026-08-18T11:00:00+00:00",
+      "retrievedAt": "2026-08-18T11:41:36.209Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-c146ea8134ab",
     "slug": "tampa-bay-rays-vence-baltimore-orioles-por-7-a-6-na-mlb-c146ea",
     "sportId": "beisebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T23:11:16.130Z",
       "feedId": "futebol",
       "league": "Primera A"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4a6abf3ab1f7",
-    "slug": "terence-atmane-vence-tomas-etcheverry-por-2-a-0-em-cincinnati-4a6abf",
-    "sportId": "tenis",
-    "title": "Terence Atmane vence Tomas Etcheverry por 2 a 0 em Cincinnati",
-    "summary": "Terence Atmane superou Tomas Etcheverry por 2 a 0 em Cincinnati.",
-    "content": "Terence Atmane superou Tomas Etcheverry por 2 a 0 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Terence Atmane vence Tomas Etcheverry por 2 a 0 em Cincinnati",
-    "seoDescription": "Terence Atmane superou Tomas Etcheverry por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T22:55:48.133Z",
-    "createdAt": "2026-08-15T22:55:48.133Z",
-    "updatedAt": "2026-08-15T22:55:48.133Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813627",
-      "eventStartTime": "2026-08-15T21:00:21+00:00",
-      "retrievedAt": "2026-08-15T22:55:48.133Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2a6a04d741bc",
-    "slug": "cd-universitario-ii-e-club-deportivo-bocas-fc-ficam-no-2-a-2-pela-liga-prom-2a6a04",
-    "sportId": "futebol",
-    "title": "Cd Universitario Ii e Club Deportivo Bocas Fc ficam no 2 a 2 pela Liga Prom",
-    "summary": "Cd Universitario Ii e Club Deportivo Bocas Fc empataram por 2 a 2 pela Liga Prom.",
-    "content": "Cd Universitario Ii e Club Deportivo Bocas Fc empataram por 2 a 2 pela Liga Prom, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-prom"
-    ],
-    "seoTitle": "Cd Universitario Ii e Club Deportivo Bocas Fc ficam no 2 a 2 pela Liga",
-    "seoDescription": "Cd Universitario Ii e Club Deportivo Bocas Fc empataram por 2 a 2 pela Liga Prom.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T22:55:48.109Z",
-    "createdAt": "2026-08-15T22:55:48.109Z",
-    "updatedAt": "2026-08-15T22:55:48.109Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4778506",
-      "eventStartTime": "2026-08-15T21:00:00+00:00",
-      "retrievedAt": "2026-08-15T22:55:48.109Z",
-      "feedId": "futebol",
-      "league": "Liga Prom"
     },
     "articleFormat": "result-brief"
   }
