@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-1a3973fd2db4",
+    "slug": "gray-a-rybakov-a-vence-dhamne-m-perego-g-por-2-a-0-em-roehampton-1a3973",
+    "sportId": "tenis",
+    "title": "Gray A./Rybakov A. vence Dhamne M./Perego G. por 2 a 0 em Roehampton",
+    "summary": "Gray A./Rybakov A. superou Dhamne M./Perego G. por 2 a 0 em Roehampton.",
+    "content": "Gray A./Rybakov A. superou Dhamne M./Perego G. por 2 a 0 em Roehampton., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Gray A./Rybakov A. vence Dhamne M./Perego G. por 2 a 0 em Roehampton",
+    "seoDescription": "Gray A./Rybakov A. superou Dhamne M./Perego G. por 2 a 0 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T17:17:46.319Z",
+    "createdAt": "2026-08-18T17:17:46.319Z",
+    "updatedAt": "2026-08-18T17:17:46.319Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816533",
+      "eventStartTime": "2026-08-18T15:49:54+00:00",
+      "retrievedAt": "2026-08-18T17:17:46.319Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2c81ed78a954",
+    "slug": "fc-trollhattan-e-mjallby-aif-ficam-no-0-a-0-pelo-svenska-cupen-2c81ed",
+    "sportId": "futebol",
+    "title": "FC Trollhattan e Mjällby AIF ficam no 0 a 0 pelo Svenska Cupen",
+    "summary": "FC Trollhattan e Mjällby AIF empataram por 0 a 0 pelo Svenska Cupen.",
+    "content": "FC Trollhattan e Mjällby AIF empataram por 0 a 0 pelo Svenska Cupen, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "svenska-cupen"
+    ],
+    "seoTitle": "FC Trollhattan e Mjällby AIF ficam no 0 a 0 pelo Svenska Cupen",
+    "seoDescription": "FC Trollhattan e Mjällby AIF empataram por 0 a 0 pelo Svenska Cupen.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T17:17:46.299Z",
+    "createdAt": "2026-08-18T17:17:46.299Z",
+    "updatedAt": "2026-08-18T17:17:46.299Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4729869",
+      "eventStartTime": "2026-08-18T17:00:00+00:00",
+      "retrievedAt": "2026-08-18T17:17:46.299Z",
+      "feedId": "futebol",
+      "league": "Svenska Cupen"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4a38c65d534b",
     "slug": "henry-bernet-vence-johan-nikles-por-2-a-0-em-sion-4a38c6",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T04:28:54.845Z",
       "feedId": "basquete",
       "league": "LNBP"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-50d1d661a32f",
-    "slug": "louisville-city-supera-orange-county-sc-por-3-a-2-pela-usl-championship-50d1d6",
-    "sportId": "futebol",
-    "title": "Louisville City supera Orange County SC por 3 a 2 pela USL Championship",
-    "summary": "Louisville City venceu Orange County SC por 3 a 2 pela USL Championship.",
-    "content": "Louisville City venceu Orange County SC por 3 a 2 pela USL Championship, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "usl-championship"
-    ],
-    "seoTitle": "Louisville City supera Orange County SC por 3 a 2 pela USL",
-    "seoDescription": "Louisville City venceu Orange County SC por 3 a 2 pela USL Championship.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T04:28:54.831Z",
-    "createdAt": "2026-08-16T04:28:54.831Z",
-    "updatedAt": "2026-08-16T04:28:54.831Z",
-    "homepagePriority": 82,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4634137",
-      "eventStartTime": "2026-08-16T02:00:00+00:00",
-      "retrievedAt": "2026-08-16T04:28:54.831Z",
-      "feedId": "futebol",
-      "league": "USL Championship"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c0631b69c9e0",
-    "slug": "diablos-rojos-del-mexico-vence-guerreros-de-oaxaca-por-11-a-0-na-lmb-c0631b",
-    "sportId": "beisebol",
-    "title": "Diablos Rojos del México vence Guerreros de Oaxaca por 11 a 0 na LMB",
-    "summary": "Diablos Rojos del México derrotou Guerreros de Oaxaca por 11 a 0 na LMB.",
-    "content": "Diablos Rojos del México derrotou Guerreros de Oaxaca por 11 a 0 na LMB, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "lmb"
-    ],
-    "seoTitle": "Diablos Rojos del México vence Guerreros de Oaxaca por 11 a 0 na LMB",
-    "seoDescription": "Diablos Rojos del México derrotou Guerreros de Oaxaca por 11 a 0 na LMB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T03:57:13.672Z",
-    "createdAt": "2026-08-16T03:57:13.672Z",
-    "updatedAt": "2026-08-16T03:57:13.672Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815331",
-      "eventStartTime": "2026-08-15T22:00:00+00:00",
-      "retrievedAt": "2026-08-16T03:57:13.672Z",
-      "feedId": "beisebol",
-      "league": "LMB"
     },
     "articleFormat": "result-brief"
   }
