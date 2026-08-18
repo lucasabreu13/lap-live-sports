@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-2c3e462b7254",
+    "slug": "chun-hsin-tseng-vence-hynek-barton-por-2-a-0-em-prague-2c3e46",
+    "sportId": "tenis",
+    "title": "Chun Hsin Tseng vence Hynek Barton por 2 a 0 em Prague",
+    "summary": "Chun Hsin Tseng superou Hynek Barton por 2 a 0 em Prague.",
+    "content": "Chun Hsin Tseng superou Hynek Barton por 2 a 0 em Prague., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Chun Hsin Tseng vence Hynek Barton por 2 a 0 em Prague",
+    "seoDescription": "Chun Hsin Tseng superou Hynek Barton por 2 a 0 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T10:52:18.341Z",
+    "createdAt": "2026-08-18T10:52:18.341Z",
+    "updatedAt": "2026-08-18T10:52:18.341Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815451",
+      "eventStartTime": "2026-08-18T09:31:23+00:00",
+      "retrievedAt": "2026-08-18T10:52:18.341Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-0f5eb36c32b8",
+    "slug": "general-caballero-jlm-supera-tacuary-por-4-a-1-pelo-division-intermedia-0f5eb3",
+    "sportId": "futebol",
+    "title": "General Caballero JLM supera Tacuary por 4 a 1 pelo Division Intermedia",
+    "summary": "General Caballero JLM venceu Tacuary por 4 a 1 pelo Division Intermedia.",
+    "content": "General Caballero JLM venceu Tacuary por 4 a 1 pelo Division Intermedia, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "division-intermedia"
+    ],
+    "seoTitle": "General Caballero JLM supera Tacuary por 4 a 1 pelo Division",
+    "seoDescription": "General Caballero JLM venceu Tacuary por 4 a 1 pelo Division Intermedia.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T10:52:18.308Z",
+    "createdAt": "2026-08-18T10:52:18.308Z",
+    "updatedAt": "2026-08-18T10:52:18.308Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4808299",
+      "eventStartTime": "2026-08-17T22:00:00+00:00",
+      "retrievedAt": "2026-08-18T10:52:18.308Z",
+      "feedId": "futebol",
+      "league": "Division Intermedia"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-70540eacec19",
     "slug": "juan-manuel-la-serna-vence-facundo-mena-por-2-a-0-em-sion-70540e",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T22:09:15.774Z",
       "feedId": "tenis",
       "league": "Astana"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fe9df433406d",
-    "slug": "rb-bragantino-w-supera-vitoria-w-por-6-a-2-pelo-brasileirao-women-fe9df4",
-    "sportId": "futebol",
-    "title": "RB Bragantino (W) supera Vitoria (W) por 6 a 2 pelo Brasileirão Women",
-    "summary": "RB Bragantino (W) venceu Vitoria (W) por 6 a 2 pelo Brasileirão Women.",
-    "content": "RB Bragantino (W) venceu Vitoria (W) por 6 a 2 pelo Brasileirão Women, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "brasileirao-women"
-    ],
-    "seoTitle": "RB Bragantino (W) supera Vitoria (W) por 6 a 2 pelo Brasileirão Women",
-    "seoDescription": "RB Bragantino (W) venceu Vitoria (W) por 6 a 2 pelo Brasileirão Women.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T22:09:15.730Z",
-    "createdAt": "2026-08-15T22:09:15.730Z",
-    "updatedAt": "2026-08-15T22:09:15.730Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4660876",
-      "eventStartTime": "2026-08-15T20:00:00+00:00",
-      "retrievedAt": "2026-08-15T22:09:15.730Z",
-      "feedId": "futebol",
-      "league": "Brasileirão Women"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fd27d88a4fce",
-    "slug": "baltimore-orioles-vence-tampa-bay-rays-por-6-a-5-na-mlb-fd27d8",
-    "sportId": "beisebol",
-    "title": "Baltimore Orioles vence Tampa Bay Rays por 6 a 5 na MLB",
-    "summary": "Baltimore Orioles derrotou Tampa Bay Rays por 6 a 5 na MLB.",
-    "content": "Baltimore Orioles derrotou Tampa Bay Rays por 6 a 5 na MLB, em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Baltimore Orioles vence Tampa Bay Rays por 6 a 5 na MLB",
-    "seoDescription": "Baltimore Orioles derrotou Tampa Bay Rays por 6 a 5 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T21:55:18.505Z",
-    "createdAt": "2026-08-15T21:55:18.505Z",
-    "updatedAt": "2026-08-15T21:55:18.505Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4602982",
-      "eventStartTime": "2026-08-14T23:10:00+00:00",
-      "retrievedAt": "2026-08-15T21:55:18.505Z",
-      "feedId": "beisebol",
-      "league": "MLB"
     },
     "articleFormat": "result-brief"
   }
