@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-c2589a7e44fe",
+    "slug": "rei-sakamoto-vence-jurij-rodionov-por-2-a-0-em-quebec-city-c2589a",
+    "sportId": "tenis",
+    "title": "Rei Sakamoto vence Jurij Rodionov por 2 a 0 em Quebec City",
+    "summary": "Rei Sakamoto superou Jurij Rodionov por 2 a 0 em Quebec City.",
+    "content": "Rei Sakamoto superou Jurij Rodionov por 2 a 0 em Quebec City., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Rei Sakamoto vence Jurij Rodionov por 2 a 0 em Quebec City",
+    "seoDescription": "Rei Sakamoto superou Jurij Rodionov por 2 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T21:44:35.188Z",
+    "createdAt": "2026-08-18T21:44:35.188Z",
+    "updatedAt": "2026-08-18T21:44:35.188Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816174",
+      "eventStartTime": "2026-08-18T19:59:33+00:00",
+      "retrievedAt": "2026-08-18T21:44:35.188Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f45b4afe1ce5",
+    "slug": "ca-stockolmo-vence-trouville-por-81-a-54-em-liga-de-ascenso-f45b4a",
+    "sportId": "basquete",
+    "title": "CA Stockolmo vence Trouville por 81 a 54 em Liga de ascenso",
+    "summary": "CA Stockolmo superou Trouville por 81 a 54 em Liga de ascenso.",
+    "content": "CA Stockolmo superou Trouville por 81 a 54 em Liga de ascenso., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "CA Stockolmo vence Trouville por 81 a 54 em Liga de ascenso",
+    "seoDescription": "CA Stockolmo superou Trouville por 81 a 54 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T21:44:35.184Z",
+    "createdAt": "2026-08-18T21:44:35.184Z",
+    "updatedAt": "2026-08-18T21:44:35.184Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815403",
+      "eventStartTime": "2026-08-17T23:15:00+00:00",
+      "retrievedAt": "2026-08-18T21:44:35.184Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-99252356c548",
+    "slug": "club-nacional-supera-benjamin-aceval-por-2-a-0-pela-copa-paraguay-992523",
+    "sportId": "futebol",
+    "title": "Club Nacional supera Benjamín Aceval por 2 a 0 pela Copa Paraguay",
+    "summary": "Club Nacional venceu Benjamín Aceval por 2 a 0 pela Copa Paraguay.",
+    "content": "Club Nacional venceu Benjamín Aceval por 2 a 0 pela Copa Paraguay, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-paraguay"
+    ],
+    "seoTitle": "Club Nacional supera Benjamín Aceval por 2 a 0 pela Copa Paraguay",
+    "seoDescription": "Club Nacional venceu Benjamín Aceval por 2 a 0 pela Copa Paraguay.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T21:44:35.171Z",
+    "createdAt": "2026-08-18T21:44:35.171Z",
+    "updatedAt": "2026-08-18T21:44:35.171Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4804072",
+      "eventStartTime": "2026-08-18T19:30:00+00:00",
+      "retrievedAt": "2026-08-18T21:44:35.171Z",
+      "feedId": "futebol",
+      "league": "Copa Paraguay"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7507e78d8a60",
     "slug": "andrea-pellegrino-vence-nishesh-basavareddy-por-2-a-1-em-quebec-city-7507e7",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-16T09:20:18.094Z",
       "feedId": "futebol",
       "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3dc51e64d3ac",
-    "slug": "minnesota-lynx-vence-las-vegas-aces-por-92-a-87-em-wnba-3dc51e",
-    "sportId": "basquete",
-    "title": "Minnesota Lynx vence Las Vegas Aces por 92 a 87 em WNBA",
-    "summary": "Minnesota Lynx superou Las Vegas Aces por 92 a 87 em WNBA.",
-    "content": "Minnesota Lynx superou Las Vegas Aces por 92 a 87 em WNBA., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "Minnesota Lynx vence Las Vegas Aces por 92 a 87 em WNBA",
-    "seoDescription": "Minnesota Lynx superou Las Vegas Aces por 92 a 87 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T08:56:44.921Z",
-    "createdAt": "2026-08-16T08:56:44.921Z",
-    "updatedAt": "2026-08-16T08:56:44.921Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659881",
-      "eventStartTime": "2026-08-16T00:00:00+00:00",
-      "retrievedAt": "2026-08-16T08:56:44.921Z",
-      "feedId": "basquete",
-      "league": "WNBA"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9817760a71d3",
-    "slug": "ho-chi-minh-city-e-dong-tam-long-an-ficam-no-0-a-0-pelo-club-friendlies-981776",
-    "sportId": "futebol",
-    "title": "Ho Chi Minh City e Dong Tam Long An ficam no 0 a 0 pelo Club Friendlies",
-    "summary": "Ho Chi Minh City e Dong Tam Long An empataram por 0 a 0 pelo Club Friendlies.",
-    "content": "Ho Chi Minh City e Dong Tam Long An empataram por 0 a 0 pelo Club Friendlies, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Ho Chi Minh City e Dong Tam Long An ficam no 0 a 0 pelo Club",
-    "seoDescription": "Ho Chi Minh City e Dong Tam Long An empataram por 0 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T08:56:44.902Z",
-    "createdAt": "2026-08-16T08:56:44.902Z",
-    "updatedAt": "2026-08-16T08:56:44.902Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814842",
-      "eventStartTime": "2026-08-16T08:00:00+00:00",
-      "retrievedAt": "2026-08-16T08:56:44.902Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8b4656456db9",
-    "slug": "pericos-de-puebla-vence-piratas-de-campeche-por-10-a-4-na-lmb-8b4656",
-    "sportId": "beisebol",
-    "title": "Pericos de Puebla vence Piratas de Campeche por 10 a 4 na LMB",
-    "summary": "Pericos de Puebla derrotou Piratas de Campeche por 10 a 4 na LMB.",
-    "content": "Pericos de Puebla derrotou Piratas de Campeche por 10 a 4 na LMB, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "lmb"
-    ],
-    "seoTitle": "Pericos de Puebla vence Piratas de Campeche por 10 a 4 na LMB",
-    "seoDescription": "Pericos de Puebla derrotou Piratas de Campeche por 10 a 4 na LMB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T08:28:34.154Z",
-    "createdAt": "2026-08-16T08:28:34.154Z",
-    "updatedAt": "2026-08-16T08:28:34.154Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815334",
-      "eventStartTime": "2026-08-15T22:00:00+00:00",
-      "retrievedAt": "2026-08-16T08:28:34.154Z",
-      "feedId": "beisebol",
-      "league": "LMB"
     },
     "articleFormat": "result-brief"
   }
