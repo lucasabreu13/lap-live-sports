@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-f0f807e4e644",
+    "slug": "hiroshima-toyo-carp-vence-chunichi-dragons-por-11-a-4-na-npb-f0f807",
+    "sportId": "beisebol",
+    "title": "Hiroshima Toyo Carp vence Chunichi Dragons por 11 a 4 na NPB",
+    "summary": "Hiroshima Toyo Carp derrotou Chunichi Dragons por 11 a 4 na NPB.",
+    "content": "Hiroshima Toyo Carp derrotou Chunichi Dragons por 11 a 4 na NPB, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Hiroshima Toyo Carp vence Chunichi Dragons por 11 a 4 na NPB",
+    "seoDescription": "Hiroshima Toyo Carp derrotou Chunichi Dragons por 11 a 4 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T14:49:39.294Z",
+    "createdAt": "2026-08-18T14:49:39.294Z",
+    "updatedAt": "2026-08-18T14:49:39.294Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4627260",
+      "eventStartTime": "2026-08-18T09:00:00+00:00",
+      "retrievedAt": "2026-08-18T14:49:39.294Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9d147648c87b",
+    "slug": "anton-matusevich-vence-yuta-shimizu-por-2-a-0-em-roehampton-9d1476",
+    "sportId": "tenis",
+    "title": "Anton Matusevich vence Yuta Shimizu por 2 a 0 em Roehampton",
+    "summary": "Anton Matusevich superou Yuta Shimizu por 2 a 0 em Roehampton.",
+    "content": "Anton Matusevich superou Yuta Shimizu por 2 a 0 em Roehampton., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Anton Matusevich vence Yuta Shimizu por 2 a 0 em Roehampton",
+    "seoDescription": "Anton Matusevich superou Yuta Shimizu por 2 a 0 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T14:49:39.286Z",
+    "createdAt": "2026-08-18T14:49:39.286Z",
+    "updatedAt": "2026-08-18T14:49:39.286Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816181",
+      "eventStartTime": "2026-08-18T12:20:37+00:00",
+      "retrievedAt": "2026-08-18T14:49:39.286Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9c938b5e8953",
+    "slug": "sakaryaspor-e-sabail-ficam-no-0-a-0-pelo-club-friendlies-9c938b",
+    "sportId": "futebol",
+    "title": "Sakaryaspor e Sabail ficam no 0 a 0 pelo Club Friendlies",
+    "summary": "Sakaryaspor e Sabail empataram por 0 a 0 pelo Club Friendlies.",
+    "content": "Sakaryaspor e Sabail empataram por 0 a 0 pelo Club Friendlies, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Sakaryaspor e Sabail ficam no 0 a 0 pelo Club Friendlies",
+    "seoDescription": "Sakaryaspor e Sabail empataram por 0 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T14:49:39.263Z",
+    "createdAt": "2026-08-18T14:49:39.263Z",
+    "updatedAt": "2026-08-18T14:49:39.263Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816721",
+      "eventStartTime": "2026-08-18T14:00:00+00:00",
+      "retrievedAt": "2026-08-18T14:49:39.263Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-0ac8a670812e",
     "slug": "hanshin-tigers-vence-yakult-swallows-por-3-a-2-na-npb-0ac8a6",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-16T02:09:33.710Z",
       "feedId": "futebol-americano",
       "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1e47e1a36a13",
-    "slug": "boyaca-chico-e-junior-fc-ficam-no-0-a-0-pelo-primera-a-1e47e1",
-    "sportId": "futebol",
-    "title": "Boyaca Chico e Junior FC ficam no 0 a 0 pelo Primera A",
-    "summary": "Boyaca Chico e Junior FC empataram por 0 a 0 pelo Primera A.",
-    "content": "Boyaca Chico e Junior FC empataram por 0 a 0 pelo Primera A, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-a"
-    ],
-    "seoTitle": "Boyaca Chico e Junior FC ficam no 0 a 0 pelo Primera A",
-    "seoDescription": "Boyaca Chico e Junior FC empataram por 0 a 0 pelo Primera A.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T02:09:33.706Z",
-    "createdAt": "2026-08-16T02:09:33.706Z",
-    "updatedAt": "2026-08-16T02:09:33.706Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732053",
-      "eventStartTime": "2026-08-16T01:10:00+00:00",
-      "retrievedAt": "2026-08-16T02:09:33.706Z",
-      "feedId": "futebol",
-      "league": "Primera A"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-69c10f08cd3d",
-    "slug": "arthur-fery-vence-james-duckworth-por-2-a-1-em-cincinnati-69c10f",
-    "sportId": "tenis",
-    "title": "Arthur Fery vence James Duckworth por 2 a 1 em Cincinnati",
-    "summary": "Arthur Fery superou James Duckworth por 2 a 1 em Cincinnati.",
-    "content": "Arthur Fery superou James Duckworth por 2 a 1 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Arthur Fery vence James Duckworth por 2 a 1 em Cincinnati",
-    "seoDescription": "Arthur Fery superou James Duckworth por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T00:37:01.181Z",
-    "createdAt": "2026-08-16T00:37:01.181Z",
-    "updatedAt": "2026-08-16T00:37:01.181Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814998",
-      "eventStartTime": "2026-08-15T21:29:44+00:00",
-      "retrievedAt": "2026-08-16T00:37:01.181Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-889133e74492",
-    "slug": "yale-w-vence-lagomar-country-club-w-por-67-a-55-em-lfb-w-889133",
-    "sportId": "basquete",
-    "title": "Yale (W) vence Lagomar Country Club (W) por 67 a 55 em LFB (W)",
-    "summary": "Yale (W) superou Lagomar Country Club (W) por 67 a 55 em LFB (W).",
-    "content": "Yale (W) superou Lagomar Country Club (W) por 67 a 55 em LFB (W)., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lfb-w"
-    ],
-    "seoTitle": "Yale (W) vence Lagomar Country Club (W) por 67 a 55 em LFB (W)",
-    "seoDescription": "Yale (W) superou Lagomar Country Club (W) por 67 a 55 em LFB (W).",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T00:37:01.175Z",
-    "createdAt": "2026-08-16T00:37:01.175Z",
-    "updatedAt": "2026-08-16T00:37:01.175Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813613",
-      "eventStartTime": "2026-08-15T22:30:00+00:00",
-      "retrievedAt": "2026-08-16T00:37:01.175Z",
-      "feedId": "basquete",
-      "league": "LFB (W)"
     },
     "articleFormat": "result-brief"
   }
