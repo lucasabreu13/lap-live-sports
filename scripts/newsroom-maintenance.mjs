@@ -6,6 +6,18 @@ const FUTURE_TOLERANCE_MS = 5 * 60 * 1000;
 const UPDATE_WINDOW_MS = 36 * 60 * 60 * 1000;
 const MAX_STORED_ARTICLES = 300;
 
+const COVER_IMAGES = {
+  futebol: "/images/sports/futebol.jpg",
+  "futebol-americano": "/images/sports/futebol-americano.jpg",
+  tenis: "/images/sports/tenis.jpg",
+  ciclismo: "/images/sports/ciclismo.jpg",
+  formula1: "/images/sports/formula1.jpg",
+  basquete: "/images/sports/basquete.jpg",
+  beisebol: "/images/sports/beisebol.jpg",
+  golfe: "/images/sports/golfe.jpg",
+  surfe: "/images/sports/surfe.jpg",
+};
+
 const STOPWORDS = new Set(["para", "com", "sem", "sobre", "entre", "apos", "após", "antes", "mais", "menos", "pela", "pelo", "pelos", "pelas", "uma", "dos", "das", "que", "the", "and", "from", "with", "em", "por", "na", "no", "nas", "nos"]);
 
 function normalize(value = "") {
@@ -62,7 +74,7 @@ function normalizeDataDrivenArticle(article) {
     content: content || summary,
     seoTitle: fixCompetitionGrammar(article.seoTitle || title),
     seoDescription: fixCompetitionGrammar(article.seoDescription || summary),
-    coverImageUrl: null,
+    coverImageUrl: article.coverImageUrl || COVER_IMAGES[article.sportId] || null,
     articleFormat: "result-brief",
     homepagePriority: priority <= 60 ? Math.min(priority, 52) : priority,
   };
