@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-9f5bde0cc603",
+    "slug": "seibu-lions-vence-orix-buffaloes-por-7-a-4-na-npb-9f5bde",
+    "sportId": "beisebol",
+    "title": "Seibu Lions vence Orix Buffaloes por 7 a 4 na NPB",
+    "summary": "Seibu Lions derrotou Orix Buffaloes por 7 a 4 na NPB.",
+    "content": "Seibu Lions derrotou Orix Buffaloes por 7 a 4 na NPB, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Seibu Lions vence Orix Buffaloes por 7 a 4 na NPB",
+    "seoDescription": "Seibu Lions derrotou Orix Buffaloes por 7 a 4 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T15:20:49.729Z",
+    "createdAt": "2026-08-18T15:20:49.729Z",
+    "updatedAt": "2026-08-18T15:20:49.729Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4627270",
+      "eventStartTime": "2026-08-18T09:00:00+00:00",
+      "retrievedAt": "2026-08-18T15:20:49.729Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b1d86efab13b",
+    "slug": "joao-fonseca-e-christopher-o-connell-empatam-por-0-a-0-em-cincinnati-b1d86e",
+    "sportId": "tenis",
+    "title": "João Fonseca e Christopher O'Connell empatam por 0 a 0 em Cincinnati",
+    "summary": "João Fonseca e Christopher O'Connell terminaram empatados por 0 a 0 em Cincinnati.",
+    "content": "João Fonseca e Christopher O'Connell terminaram empatados por 0 a 0 em Cincinnati., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "João Fonseca e Christopher O'Connell empatam por 0 a 0 em Cincinnati",
+    "seoDescription": "João Fonseca e Christopher O'Connell terminaram empatados por 0 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T15:20:49.720Z",
+    "createdAt": "2026-08-18T15:20:49.720Z",
+    "updatedAt": "2026-08-18T15:20:49.720Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816179",
+      "eventStartTime": "2026-08-18T15:00:00+00:00",
+      "retrievedAt": "2026-08-18T15:20:49.720Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-6439f208e73d",
+    "slug": "fountain-gate-supera-mashujaa-fc-por-1-a-0-pelo-ligi-kuu-bara-6439f2",
+    "sportId": "futebol",
+    "title": "Fountain Gate supera Mashujaa Fc por 1 a 0 pelo Ligi Kuu Bara",
+    "summary": "Fountain Gate venceu Mashujaa Fc por 1 a 0 pelo Ligi Kuu Bara.",
+    "content": "Fountain Gate venceu Mashujaa Fc por 1 a 0 pelo Ligi Kuu Bara, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ligi-kuu-bara"
+    ],
+    "seoTitle": "Fountain Gate supera Mashujaa Fc por 1 a 0 pelo Ligi Kuu Bara",
+    "seoDescription": "Fountain Gate venceu Mashujaa Fc por 1 a 0 pelo Ligi Kuu Bara.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T15:20:49.699Z",
+    "createdAt": "2026-08-18T15:20:49.699Z",
+    "updatedAt": "2026-08-18T15:20:49.699Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4782351",
+      "eventStartTime": "2026-08-18T13:00:00+00:00",
+      "retrievedAt": "2026-08-18T15:20:49.699Z",
+      "feedId": "futebol",
+      "league": "Ligi Kuu Bara"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-f0f807e4e644",
     "slug": "hiroshima-toyo-carp-vence-chunichi-dragons-por-11-a-4-na-npb-f0f807",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-16T03:10:52.896Z",
       "feedId": "futebol",
       "league": "Primera A"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-63b6a3bdfe63",
-    "slug": "diane-parry-vence-elise-mertens-por-2-a-1-em-cincinnati-63b6a3",
-    "sportId": "tenis",
-    "title": "Diane Parry vence Elise Mertens por 2 a 1 em Cincinnati",
-    "summary": "Diane Parry superou Elise Mertens por 2 a 1 em Cincinnati.",
-    "content": "Diane Parry superou Elise Mertens por 2 a 1 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Diane Parry vence Elise Mertens por 2 a 1 em Cincinnati",
-    "seoDescription": "Diane Parry superou Elise Mertens por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T02:09:33.721Z",
-    "createdAt": "2026-08-16T02:09:33.721Z",
-    "updatedAt": "2026-08-16T02:09:33.721Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813636",
-      "eventStartTime": "2026-08-15T22:57:35+00:00",
-      "retrievedAt": "2026-08-16T02:09:33.721Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0a12065cc3dc",
-    "slug": "washington-mystics-vence-los-angeles-sparks-por-80-a-70-em-wnba-0a1206",
-    "sportId": "basquete",
-    "title": "Washington Mystics vence Los Angeles Sparks por 80 a 70 em WNBA",
-    "summary": "Washington Mystics superou Los Angeles Sparks por 80 a 70 em WNBA.",
-    "content": "Washington Mystics superou Los Angeles Sparks por 80 a 70 em WNBA., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "Washington Mystics vence Los Angeles Sparks por 80 a 70 em WNBA",
-    "seoDescription": "Washington Mystics superou Los Angeles Sparks por 80 a 70 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T02:09:33.713Z",
-    "createdAt": "2026-08-16T02:09:33.713Z",
-    "updatedAt": "2026-08-16T02:09:33.713Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659880",
-      "eventStartTime": "2026-08-15T23:30:00+00:00",
-      "retrievedAt": "2026-08-16T02:09:33.713Z",
-      "feedId": "basquete",
-      "league": "WNBA"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5e86378b61f9",
-    "slug": "baltimore-ravens-vence-philadelphia-eagles-por-24-a-7-em-nfl-5e8637",
-    "sportId": "futebol-americano",
-    "title": "Baltimore Ravens vence Philadelphia Eagles por 24 a 7 em NFL",
-    "summary": "Baltimore Ravens superou Philadelphia Eagles por 24 a 7 em NFL.",
-    "content": "Baltimore Ravens superou Philadelphia Eagles por 24 a 7 em NFL., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "Baltimore Ravens vence Philadelphia Eagles por 24 a 7 em NFL",
-    "seoDescription": "Baltimore Ravens superou Philadelphia Eagles por 24 a 7 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T02:09:33.710Z",
-    "createdAt": "2026-08-16T02:09:33.710Z",
-    "updatedAt": "2026-08-16T02:09:33.710Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714915",
-      "eventStartTime": "2026-08-15T23:00:00+00:00",
-      "retrievedAt": "2026-08-16T02:09:33.710Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
     },
     "articleFormat": "result-brief"
   }
