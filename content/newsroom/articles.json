@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-3ac4aa763fa6",
+    "slug": "o-luz-r-matos-vence-harrison-c-skupski-n-por-2-a-1-em-cincinnati-3ac4aa",
+    "sportId": "tenis",
+    "title": "O. Luz/R. Matos vence Harrison C./Skupski N. por 2 a 1 em Cincinnati",
+    "summary": "O. Luz/R. Matos superou Harrison C./Skupski N. por 2 a 1 em Cincinnati.",
+    "content": "O. Luz/R. Matos superou Harrison C./Skupski N. por 2 a 1 em Cincinnati., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "O. Luz/R. Matos vence Harrison C./Skupski N. por 2 a 1 em Cincinnati",
+    "seoDescription": "O. Luz/R. Matos superou Harrison C./Skupski N. por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T23:55:58.203Z",
+    "createdAt": "2026-08-18T23:55:58.203Z",
+    "updatedAt": "2026-08-18T23:55:58.203Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815029",
+      "eventStartTime": "2026-08-18T22:15:29+00:00",
+      "retrievedAt": "2026-08-18T23:55:58.203Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b7c430bc4efc",
+    "slug": "boca-juniors-supera-recoleta-fc-por-4-a-0-pelo-conmebol-sudamericana-b7c430",
+    "sportId": "futebol",
+    "title": "Boca Juniors supera Recoleta FC por 4 a 0 pelo CONMEBOL Sudamericana",
+    "summary": "Boca Juniors venceu Recoleta FC por 4 a 0 pelo CONMEBOL Sudamericana.",
+    "content": "Boca Juniors venceu Recoleta FC por 4 a 0 pelo CONMEBOL Sudamericana, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "conmebol-sudamericana"
+    ],
+    "seoTitle": "Boca Juniors supera Recoleta FC por 4 a 0 pelo CONMEBOL Sudamericana",
+    "seoDescription": "Boca Juniors venceu Recoleta FC por 4 a 0 pelo CONMEBOL Sudamericana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T23:55:58.191Z",
+    "createdAt": "2026-08-18T23:55:58.191Z",
+    "updatedAt": "2026-08-18T23:55:58.191Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4800549",
+      "eventStartTime": "2026-08-18T22:00:00+00:00",
+      "retrievedAt": "2026-08-18T23:55:58.191Z",
+      "feedId": "futebol",
+      "league": "CONMEBOL Sudamericana"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-fa5a9ab9cf87",
     "slug": "blanchet-u-jacquet-k-vence-jung-j-maginley-j-por-2-a-1-em-quebec-city-fa5a9a",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T12:16:34.530Z",
       "feedId": "futebol",
       "league": "Premier League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-dc3d45bf5321",
-    "slug": "andrew-paulson-vence-dominik-recek-por-2-a-0-em-prague-dc3d45",
-    "sportId": "tenis",
-    "title": "Andrew Paulson vence Dominik Recek por 2 a 0 em Prague",
-    "summary": "Andrew Paulson superou Dominik Recek por 2 a 0 em Prague.",
-    "content": "Andrew Paulson superou Dominik Recek por 2 a 0 em Prague., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Andrew Paulson vence Dominik Recek por 2 a 0 em Prague",
-    "seoDescription": "Andrew Paulson superou Dominik Recek por 2 a 0 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T11:54:38.959Z",
-    "createdAt": "2026-08-16T11:54:38.959Z",
-    "updatedAt": "2026-08-16T11:54:38.959Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815500",
-      "eventStartTime": "2026-08-16T10:10:15+00:00",
-      "retrievedAt": "2026-08-16T11:54:38.959Z",
-      "feedId": "tenis",
-      "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a9d77914ef8a",
-    "slug": "fc-minsk-w-e-dnepr-mogilev-w-ficam-no-0-a-0-pelo-belarus-women-s-cup-a9d779",
-    "sportId": "futebol",
-    "title": "FC Minsk (W) e Dnepr Mogilev (W) ficam no 0 a 0 pelo Belarus Women's Cup",
-    "summary": "FC Minsk (W) e Dnepr Mogilev (W) empataram por 0 a 0 pelo Belarus Women's Cup.",
-    "content": "FC Minsk (W) e Dnepr Mogilev (W) empataram por 0 a 0 pelo Belarus Women's Cup, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "belarus-women-s-cup"
-    ],
-    "seoTitle": "FC Minsk (W) e Dnepr Mogilev (W) ficam no 0 a 0 pelo Belarus Women's",
-    "seoDescription": "FC Minsk (W) e Dnepr Mogilev (W) empataram por 0 a 0 pelo Belarus Women's Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T11:54:38.946Z",
-    "createdAt": "2026-08-16T11:54:38.946Z",
-    "updatedAt": "2026-08-16T11:54:38.946Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4796829",
-      "eventStartTime": "2026-08-16T10:00:00+00:00",
-      "retrievedAt": "2026-08-16T11:54:38.946Z",
-      "feedId": "futebol",
-      "league": "Belarus Women's Cup"
     },
     "articleFormat": "result-brief"
   }
