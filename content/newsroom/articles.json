@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-4a38c65d534b",
+    "slug": "henry-bernet-vence-johan-nikles-por-2-a-0-em-sion-4a38c6",
+    "sportId": "tenis",
+    "title": "Henry Bernet vence Johan Nikles por 2 a 0 em Sion",
+    "summary": "Henry Bernet superou Johan Nikles por 2 a 0 em Sion.",
+    "content": "Henry Bernet superou Johan Nikles por 2 a 0 em Sion., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Henry Bernet vence Johan Nikles por 2 a 0 em Sion",
+    "seoDescription": "Henry Bernet superou Johan Nikles por 2 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T16:54:46.497Z",
+    "createdAt": "2026-08-18T16:54:46.497Z",
+    "updatedAt": "2026-08-18T16:54:46.497Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815636",
+      "eventStartTime": "2026-08-18T15:41:50+00:00",
+      "retrievedAt": "2026-08-18T16:54:46.497Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-926a11fc8b2f",
+    "slug": "puerto-montt-basquetbol-vence-deportes-castro-por-92-a-72-em-lnb-926a11",
+    "sportId": "basquete",
+    "title": "Puerto Montt Básquetbol vence Deportes Castro por 92 a 72 em LNB",
+    "summary": "Puerto Montt Básquetbol superou Deportes Castro por 92 a 72 em LNB.",
+    "content": "Puerto Montt Básquetbol superou Deportes Castro por 92 a 72 em LNB., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Puerto Montt Básquetbol vence Deportes Castro por 92 a 72 em LNB",
+    "seoDescription": "Puerto Montt Básquetbol superou Deportes Castro por 92 a 72 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T16:54:46.493Z",
+    "createdAt": "2026-08-18T16:54:46.493Z",
+    "updatedAt": "2026-08-18T16:54:46.493Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814543",
+      "eventStartTime": "2026-08-18T00:30:00+00:00",
+      "retrievedAt": "2026-08-18T16:54:46.493Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3315d83ed50c",
+    "slug": "bardejov-supera-fc-slovan-giraltovce-por-6-a-2-pelo-slovakia-cup-3315d8",
+    "sportId": "futebol",
+    "title": "Bardejov supera FC Slovan Giraltovce por 6 a 2 pelo Slovakia Cup",
+    "summary": "Bardejov venceu FC Slovan Giraltovce por 6 a 2 pelo Slovakia Cup.",
+    "content": "Bardejov venceu FC Slovan Giraltovce por 6 a 2 pelo Slovakia Cup, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "slovakia-cup"
+    ],
+    "seoTitle": "Bardejov supera FC Slovan Giraltovce por 6 a 2 pelo Slovakia Cup",
+    "seoDescription": "Bardejov venceu FC Slovan Giraltovce por 6 a 2 pelo Slovakia Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T16:54:46.488Z",
+    "createdAt": "2026-08-18T16:54:46.488Z",
+    "updatedAt": "2026-08-18T16:54:46.488Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4802102",
+      "eventStartTime": "2026-08-18T15:00:00+00:00",
+      "retrievedAt": "2026-08-18T16:54:46.488Z",
+      "feedId": "futebol",
+      "league": "Slovakia Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4d89b2345cf0",
     "slug": "ayeni-a-poullain-l-vence-boitan-g-a-durasovic-v-por-2-a-0-em-roehampton-4d89b2",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-16T03:57:13.672Z",
       "feedId": "beisebol",
       "league": "LMB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3eb74ed86f76",
-    "slug": "alexander-zverev-e-cameron-norrie-empatam-por-0-a-0-em-cincinnati-3eb74e",
-    "sportId": "tenis",
-    "title": "Alexander Zverev e Cameron Norrie empatam por 0 a 0 em Cincinnati",
-    "summary": "Alexander Zverev e Cameron Norrie terminaram empatados por 0 a 0 em Cincinnati.",
-    "content": "Alexander Zverev e Cameron Norrie terminaram empatados por 0 a 0 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Alexander Zverev e Cameron Norrie empatam por 0 a 0 em Cincinnati",
-    "seoDescription": "Alexander Zverev e Cameron Norrie terminaram empatados por 0 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T03:57:13.658Z",
-    "createdAt": "2026-08-16T03:57:13.658Z",
-    "updatedAt": "2026-08-16T03:57:13.658Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813628",
-      "eventStartTime": "2026-08-16T03:39:55+00:00",
-      "retrievedAt": "2026-08-16T03:57:13.658Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8c665a54273f",
-    "slug": "calor-de-cancun-vence-correcaminos-uat-por-90-a-83-em-lnbp-8c665a",
-    "sportId": "basquete",
-    "title": "Calor de Cancun vence Correcaminos UAT por 90 a 83 em LNBP",
-    "summary": "Calor de Cancun superou Correcaminos UAT por 90 a 83 em LNBP.",
-    "content": "Calor de Cancun superou Correcaminos UAT por 90 a 83 em LNBP., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnbp"
-    ],
-    "seoTitle": "Calor de Cancun vence Correcaminos UAT por 90 a 83 em LNBP",
-    "seoDescription": "Calor de Cancun superou Correcaminos UAT por 90 a 83 em LNBP.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T03:57:13.656Z",
-    "createdAt": "2026-08-16T03:57:13.656Z",
-    "updatedAt": "2026-08-16T03:57:13.656Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4707867",
-      "eventStartTime": "2026-08-16T01:15:00+00:00",
-      "retrievedAt": "2026-08-16T03:57:13.656Z",
-      "feedId": "basquete",
-      "league": "LNBP"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e4ccfe1e6933",
-    "slug": "oakland-roots-e-monterey-bay-ficam-no-1-a-1-pela-usl-championship-e4ccfe",
-    "sportId": "futebol",
-    "title": "Oakland Roots e Monterey Bay ficam no 1 a 1 pela USL Championship",
-    "summary": "Oakland Roots e Monterey Bay empataram por 1 a 1 pela USL Championship.",
-    "content": "Oakland Roots e Monterey Bay empataram por 1 a 1 pela USL Championship, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "usl-championship"
-    ],
-    "seoTitle": "Oakland Roots e Monterey Bay ficam no 1 a 1 pela USL Championship",
-    "seoDescription": "Oakland Roots e Monterey Bay empataram por 1 a 1 pela USL Championship.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T03:57:13.643Z",
-    "createdAt": "2026-08-16T03:57:13.643Z",
-    "updatedAt": "2026-08-16T03:57:13.643Z",
-    "homepagePriority": 82,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4634138",
-      "eventStartTime": "2026-08-16T02:00:00+00:00",
-      "retrievedAt": "2026-08-16T03:57:13.643Z",
-      "feedId": "futebol",
-      "league": "USL Championship"
     },
     "articleFormat": "result-brief"
   }
