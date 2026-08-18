@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-1088013297bf",
+    "slug": "roman-safiullin-vence-sebastian-ofner-por-2-a-0-em-cancun-108801",
+    "sportId": "tenis",
+    "title": "Roman Safiullin vence Sebastian Ofner por 2 a 0 em Cancun",
+    "summary": "Roman Safiullin superou Sebastian Ofner por 2 a 0 em Cancun.",
+    "content": "Roman Safiullin superou Sebastian Ofner por 2 a 0 em Cancun., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Roman Safiullin vence Sebastian Ofner por 2 a 0 em Cancun",
+    "seoDescription": "Roman Safiullin superou Sebastian Ofner por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T22:46:22.142Z",
+    "createdAt": "2026-08-18T22:46:22.142Z",
+    "updatedAt": "2026-08-18T22:46:22.142Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816192",
+      "eventStartTime": "2026-08-18T21:19:36+00:00",
+      "retrievedAt": "2026-08-18T22:46:22.142Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-39571d8ef148",
+    "slug": "falcon-e-atletico-gloriense-ficam-no-0-a-0-pela-copa-governo-de-sergipe-39571d",
+    "sportId": "futebol",
+    "title": "Falcon e Atletico Gloriense ficam no 0 a 0 pela Copa Governo de Sergipe",
+    "summary": "Falcon e Atletico Gloriense empataram por 0 a 0 pela Copa Governo de Sergipe.",
+    "content": "Falcon e Atletico Gloriense empataram por 0 a 0 pela Copa Governo de Sergipe, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-governo-de-sergipe"
+    ],
+    "seoTitle": "Falcon e Atletico Gloriense ficam no 0 a 0 pela Copa Governo de",
+    "seoDescription": "Falcon e Atletico Gloriense empataram por 0 a 0 pela Copa Governo de Sergipe.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T22:46:22.124Z",
+    "createdAt": "2026-08-18T22:46:22.124Z",
+    "updatedAt": "2026-08-18T22:46:22.124Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814892",
+      "eventStartTime": "2026-08-18T22:00:00+00:00",
+      "retrievedAt": "2026-08-18T22:46:22.124Z",
+      "feedId": "futebol",
+      "league": "Copa Governo de Sergipe"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-66f576cc6d44",
     "slug": "pavlasek-a-rikl-p-vence-yuki-bhambri-michael-venus-por-2-a-0-em-cincinnati-66f576",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T10:57:20.508Z",
       "feedId": "tenis",
       "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3d33139f6b5f",
-    "slug": "holstein-kiel-w-e-magdeburger-w-ficam-no-0-a-0-pelo-dfb-pokal-women-3d3313",
-    "sportId": "futebol",
-    "title": "Holstein Kiel (W) e Magdeburger (W) ficam no 0 a 0 pelo DFB Pokal Women",
-    "summary": "Holstein Kiel (W) e Magdeburger (W) empataram por 0 a 0 pelo DFB Pokal Women.",
-    "content": "Holstein Kiel (W) e Magdeburger (W) empataram por 0 a 0 pelo DFB Pokal Women, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "dfb-pokal-women"
-    ],
-    "seoTitle": "Holstein Kiel (W) e Magdeburger (W) ficam no 0 a 0 pelo DFB Pokal",
-    "seoDescription": "Holstein Kiel (W) e Magdeburger (W) empataram por 0 a 0 pelo DFB Pokal Women.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T10:57:20.471Z",
-    "createdAt": "2026-08-16T10:57:20.471Z",
-    "updatedAt": "2026-08-16T10:57:20.471Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4748038",
-      "eventStartTime": "2026-08-16T10:00:00+00:00",
-      "retrievedAt": "2026-08-16T10:57:20.471Z",
-      "feedId": "futebol",
-      "league": "DFB Pokal Women"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ac8bf267ef48",
-    "slug": "fc-petrzalka-supera-fc-taran-presov-por-4-a-2-pela-2-liga-ac8bf2",
-    "sportId": "futebol",
-    "title": "FC Petrzalka supera FC Taran Presov por 4 a 2 pela 2. Liga",
-    "summary": "FC Petrzalka venceu FC Taran Presov por 4 a 2 pela 2. Liga.",
-    "content": "FC Petrzalka venceu FC Taran Presov por 4 a 2 pela 2. Liga, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "2-liga"
-    ],
-    "seoTitle": "FC Petrzalka supera FC Taran Presov por 4 a 2 pela 2. Liga",
-    "seoDescription": "FC Petrzalka venceu FC Taran Presov por 4 a 2 pela 2. Liga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T10:37:53.606Z",
-    "createdAt": "2026-08-16T10:37:53.606Z",
-    "updatedAt": "2026-08-16T10:37:53.606Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4744757",
-      "eventStartTime": "2026-08-16T08:30:00+00:00",
-      "retrievedAt": "2026-08-16T10:37:53.606Z",
-      "feedId": "futebol",
-      "league": "2. Liga"
     },
     "articleFormat": "result-brief"
   }
