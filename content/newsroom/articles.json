@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-3ba78c4b93e7",
+    "slug": "new-york-mets-vence-san-diego-padres-por-2-a-1-na-mlb-3ba78c",
+    "sportId": "beisebol",
+    "title": "New York Mets vence San Diego Padres por 2 a 1 na MLB",
+    "summary": "New York Mets derrotou San Diego Padres por 2 a 1 na MLB.",
+    "content": "New York Mets derrotou San Diego Padres por 2 a 1 na MLB, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "New York Mets vence San Diego Padres por 2 a 1 na MLB",
+    "seoDescription": "New York Mets derrotou San Diego Padres por 2 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T02:15:00.203Z",
+    "createdAt": "2026-08-18T02:15:00.203Z",
+    "updatedAt": "2026-08-18T02:15:00.203Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614691",
+      "eventStartTime": "2026-08-17T23:10:00+00:00",
+      "retrievedAt": "2026-08-18T02:15:00.203Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4638a6ab3c6f",
+    "slug": "errani-s-fernandez-l-vence-korpatsch-t-webley-smith-e-por-2-a-0-em-cincinnati-4638a6",
+    "sportId": "tenis",
+    "title": "Errani S./Fernandez L. vence Korpatsch T./Webley-Smith E. por 2 a 0 em Cincinnati",
+    "summary": "Errani S./Fernandez L. superou Korpatsch T./Webley-Smith E. por 2 a 0 em Cincinnati.",
+    "content": "Errani S./Fernandez L. superou Korpatsch T./Webley-Smith E. por 2 a 0 em Cincinnati., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Errani S./Fernandez L. vence Korpatsch T./Webley-Smith E. por 2 a 0 em",
+    "seoDescription": "Errani S./Fernandez L. superou Korpatsch T./Webley-Smith E. por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T02:15:00.198Z",
+    "createdAt": "2026-08-18T02:15:00.198Z",
+    "updatedAt": "2026-08-18T02:15:00.198Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816947",
+      "eventStartTime": "2026-08-18T00:41:23+00:00",
+      "retrievedAt": "2026-08-18T02:15:00.198Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-505a64c78571",
+    "slug": "leones-de-quilpue-vence-universidad-catolica-por-79-a-76-em-lnb-505a64",
+    "sportId": "basquete",
+    "title": "Leones De Quilpué vence Universidad Católica por 79 a 76 em LNB",
+    "summary": "Leones De Quilpué superou Universidad Católica por 79 a 76 em LNB.",
+    "content": "Leones De Quilpué superou Universidad Católica por 79 a 76 em LNB., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Leones De Quilpué vence Universidad Católica por 79 a 76 em LNB",
+    "seoDescription": "Leones De Quilpué superou Universidad Católica por 79 a 76 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T02:15:00.194Z",
+    "createdAt": "2026-08-18T02:15:00.194Z",
+    "updatedAt": "2026-08-18T02:15:00.194Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816206",
+      "eventStartTime": "2026-08-18T00:00:00+00:00",
+      "retrievedAt": "2026-08-18T02:15:00.194Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-61a6dbc8dd17",
+    "slug": "toluca-w-e-atlas-w-ficam-no-1-a-1-pelo-mexico-61a6db",
+    "sportId": "futebol",
+    "title": "Toluca (W) e Atlas (W) ficam no 1 a 1 pelo Mexico",
+    "summary": "Toluca (W) e Atlas (W) empataram por 1 a 1 pelo Mexico.",
+    "content": "Toluca (W) e Atlas (W) empataram por 1 a 1 pelo Mexico, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mexico"
+    ],
+    "seoTitle": "Toluca (W) e Atlas (W) ficam no 1 a 1 pelo Mexico",
+    "seoDescription": "Toluca (W) e Atlas (W) empataram por 1 a 1 pelo Mexico.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T02:15:00.188Z",
+    "createdAt": "2026-08-18T02:15:00.188Z",
+    "updatedAt": "2026-08-18T02:15:00.188Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4788415",
+      "eventStartTime": "2026-08-18T00:00:00+00:00",
+      "retrievedAt": "2026-08-18T02:15:00.188Z",
+      "feedId": "futebol",
+      "league": "Mexico"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-62852e50c22d",
     "slug": "kempen-m-panova-a-vence-hunter-s-krawczyk-d-por-2-a-0-em-cincinnati-62852e",
     "sportId": "tenis",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-15T16:57:57.382Z",
       "feedId": "futebol",
       "league": "Club Friendlies (W)"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1e2b10bdcdfa",
-    "slug": "alexander-blockx-vence-mariano-navone-por-1-a-0-em-cincinnati-1e2b10",
-    "sportId": "tenis",
-    "title": "Alexander Blockx vence Mariano Navone por 1 a 0 em Cincinnati",
-    "summary": "Alexander Blockx superou Mariano Navone por 1 a 0 em Cincinnati.",
-    "content": "Alexander Blockx superou Mariano Navone por 1 a 0 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Alexander Blockx vence Mariano Navone por 1 a 0 em Cincinnati",
-    "seoDescription": "Alexander Blockx superou Mariano Navone por 1 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T16:39:30.879Z",
-    "createdAt": "2026-08-15T16:39:30.879Z",
-    "updatedAt": "2026-08-15T16:39:30.879Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813624",
-      "eventStartTime": "2026-08-15T15:10:06+00:00",
-      "retrievedAt": "2026-08-15T16:39:30.879Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-48297d00cb27",
-    "slug": "flenu-e-sg-tertre-hautrage-ficam-no-0-a-0-pelo-belgian-cup-48297d",
-    "sportId": "futebol",
-    "title": "Flenu e Sg-Tertre-Hautrage ficam no 0 a 0 pelo Belgian Cup",
-    "summary": "Flenu e Sg-Tertre-Hautrage empataram por 0 a 0 pelo Belgian Cup.",
-    "content": "Flenu e Sg-Tertre-Hautrage empataram por 0 a 0 pelo Belgian Cup, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "belgian-cup"
-    ],
-    "seoTitle": "Flenu e Sg-Tertre-Hautrage ficam no 0 a 0 pelo Belgian Cup",
-    "seoDescription": "Flenu e Sg-Tertre-Hautrage empataram por 0 a 0 pelo Belgian Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T16:39:30.849Z",
-    "createdAt": "2026-08-15T16:39:30.849Z",
-    "updatedAt": "2026-08-15T16:39:30.849Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807722",
-      "eventStartTime": "2026-08-15T16:00:00+00:00",
-      "retrievedAt": "2026-08-15T16:39:30.849Z",
-      "feedId": "futebol",
-      "league": "Belgian Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e23f46c0e63a",
-    "slug": "kayla-day-vence-shuai-zhang-por-1-a-0-em-cincinnati-e23f46",
-    "sportId": "tenis",
-    "title": "Kayla Day vence Shuai Zhang por 1 a 0 em Cincinnati",
-    "summary": "Kayla Day superou Shuai Zhang por 1 a 0 em Cincinnati.",
-    "content": "Kayla Day superou Shuai Zhang por 1 a 0 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Kayla Day vence Shuai Zhang por 1 a 0 em Cincinnati",
-    "seoDescription": "Kayla Day superou Shuai Zhang por 1 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T16:12:18.950Z",
-    "createdAt": "2026-08-15T16:12:18.950Z",
-    "updatedAt": "2026-08-15T16:12:18.950Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813452",
-      "eventStartTime": "2026-08-15T15:11:02+00:00",
-      "retrievedAt": "2026-08-15T16:12:18.950Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-534ac22d7bf8",
-    "slug": "csikszereda-miercurea-ciuc-e-sepsi-ficam-no-0-a-0-pela-liga-1-534ac2",
-    "sportId": "futebol",
-    "title": "Csíkszereda Miercurea Ciuc e Sepsi ficam no 0 a 0 pela Liga 1",
-    "summary": "Csíkszereda Miercurea Ciuc e Sepsi empataram por 0 a 0 pela Liga 1.",
-    "content": "Csíkszereda Miercurea Ciuc e Sepsi empataram por 0 a 0 pela Liga 1, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-1"
-    ],
-    "seoTitle": "Csíkszereda Miercurea Ciuc e Sepsi ficam no 0 a 0 pela Liga 1",
-    "seoDescription": "Csíkszereda Miercurea Ciuc e Sepsi empataram por 0 a 0 pela Liga 1.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T16:12:18.921Z",
-    "createdAt": "2026-08-15T16:12:18.921Z",
-    "updatedAt": "2026-08-15T16:12:18.921Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4748474",
-      "eventStartTime": "2026-08-15T15:30:00+00:00",
-      "retrievedAt": "2026-08-15T16:12:18.921Z",
-      "feedId": "futebol",
-      "league": "Liga 1"
     },
     "articleFormat": "result-brief"
   }
