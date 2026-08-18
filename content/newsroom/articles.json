@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-4d787bcdd901",
+    "slug": "minnesota-twins-vence-atlanta-braves-por-4-a-2-na-mlb-4d787b",
+    "sportId": "beisebol",
+    "title": "Minnesota Twins vence Atlanta Braves por 4 a 2 na MLB",
+    "summary": "Minnesota Twins derrotou Atlanta Braves por 4 a 2 na MLB.",
+    "content": "Minnesota Twins derrotou Atlanta Braves por 4 a 2 na MLB, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Minnesota Twins vence Atlanta Braves por 4 a 2 na MLB",
+    "seoDescription": "Minnesota Twins derrotou Atlanta Braves por 4 a 2 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T04:24:16.784Z",
+    "createdAt": "2026-08-18T04:24:16.784Z",
+    "updatedAt": "2026-08-18T04:24:16.784Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614792",
+      "eventStartTime": "2026-08-17T23:40:00+00:00",
+      "retrievedAt": "2026-08-18T04:24:16.784Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e71abb67f97f",
+    "slug": "alan-magadan-vence-david-jorda-sanchis-por-2-a-0-em-cancun-e71abb",
+    "sportId": "tenis",
+    "title": "Alan Magadan vence David Jorda Sanchis por 2 a 0 em Cancun",
+    "summary": "Alan Magadan superou David Jorda Sanchis por 2 a 0 em Cancun.",
+    "content": "Alan Magadan superou David Jorda Sanchis por 2 a 0 em Cancun., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Alan Magadan vence David Jorda Sanchis por 2 a 0 em Cancun",
+    "seoDescription": "Alan Magadan superou David Jorda Sanchis por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T04:24:16.780Z",
+    "createdAt": "2026-08-18T04:24:16.780Z",
+    "updatedAt": "2026-08-18T04:24:16.780Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816162",
+      "eventStartTime": "2026-08-18T00:54:33+00:00",
+      "retrievedAt": "2026-08-18T04:24:16.780Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-dff7b6be0d9e",
+    "slug": "golden-state-valkyries-vence-dallas-wings-por-78-a-70-em-wnba-dff7b6",
+    "sportId": "basquete",
+    "title": "Golden State Valkyries vence Dallas Wings por 78 a 70 em WNBA",
+    "summary": "Golden State Valkyries superou Dallas Wings por 78 a 70 em WNBA.",
+    "content": "Golden State Valkyries superou Dallas Wings por 78 a 70 em WNBA., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Golden State Valkyries vence Dallas Wings por 78 a 70 em WNBA",
+    "seoDescription": "Golden State Valkyries superou Dallas Wings por 78 a 70 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T04:24:16.774Z",
+    "createdAt": "2026-08-18T04:24:16.774Z",
+    "updatedAt": "2026-08-18T04:24:16.774Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659885",
+      "eventStartTime": "2026-08-18T02:00:00+00:00",
+      "retrievedAt": "2026-08-18T04:24:16.774Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-12393ae47ede",
+    "slug": "sporting-san-jose-supera-escorpiones-belen-por-2-a-0-pela-liga-fpd-12393a",
+    "sportId": "futebol",
+    "title": "Sporting San José supera Escorpiones Belén por 2 a 0 pela liga FPD",
+    "summary": "Sporting San José venceu Escorpiones Belén por 2 a 0 pela liga FPD.",
+    "content": "Sporting San José venceu Escorpiones Belén por 2 a 0 pela liga FPD, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-fpd"
+    ],
+    "seoTitle": "Sporting San José supera Escorpiones Belén por 2 a 0 pela liga FPD",
+    "seoDescription": "Sporting San José venceu Escorpiones Belén por 2 a 0 pela liga FPD.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T04:24:16.769Z",
+    "createdAt": "2026-08-18T04:24:16.769Z",
+    "updatedAt": "2026-08-18T04:24:16.769Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4784798",
+      "eventStartTime": "2026-08-18T02:00:00+00:00",
+      "retrievedAt": "2026-08-18T04:24:16.769Z",
+      "feedId": "futebol",
+      "league": "liga FPD"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-a612f5d772a8",
     "slug": "los-angeles-dodgers-vence-colorado-rockies-por-11-a-5-na-mlb-a612f5",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-15T18:47:57.125Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5fb784ad92c5",
-    "slug": "san-jacinto-albion-w-e-canadian-w-ficam-no-0-a-0-pelo-campeonato-femenino-a-5fb784",
-    "sportId": "futebol",
-    "title": "San Jacinto Albion (W) e Canadian (W) ficam no 0 a 0 pelo Campeonato Femenino A",
-    "summary": "San Jacinto Albion (W) e Canadian (W) empataram por 0 a 0 pelo Campeonato Femenino A.",
-    "content": "San Jacinto Albion (W) e Canadian (W) empataram por 0 a 0 pelo Campeonato Femenino A, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "campeonato-femenino-a"
-    ],
-    "seoTitle": "San Jacinto Albion (W) e Canadian (W) ficam no 0 a 0 pelo Campeonato",
-    "seoDescription": "San Jacinto Albion (W) e Canadian (W) empataram por 0 a 0 pelo Campeonato Femenino A.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T18:47:57.052Z",
-    "createdAt": "2026-08-15T18:47:57.052Z",
-    "updatedAt": "2026-08-15T18:47:57.052Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814206",
-      "eventStartTime": "2026-08-15T18:30:00+00:00",
-      "retrievedAt": "2026-08-15T18:47:57.052Z",
-      "feedId": "futebol",
-      "league": "Campeonato Femenino A"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9cb2b7413283",
-    "slug": "alex-barrena-e-lukas-neumayer-empatam-por-0-a-0-em-todi-9cb2b7",
-    "sportId": "tenis",
-    "title": "Alex Barrena e Lukas Neumayer empatam por 0 a 0 em Todi",
-    "summary": "Alex Barrena e Lukas Neumayer terminaram empatados por 0 a 0 em Todi.",
-    "content": "Alex Barrena e Lukas Neumayer terminaram empatados por 0 a 0 em Todi., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "todi"
-    ],
-    "seoTitle": "Alex Barrena e Lukas Neumayer empatam por 0 a 0 em Todi",
-    "seoDescription": "Alex Barrena e Lukas Neumayer terminaram empatados por 0 a 0 em Todi.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T18:15:13.825Z",
-    "createdAt": "2026-08-15T18:15:13.825Z",
-    "updatedAt": "2026-08-15T18:15:13.825Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813387",
-      "eventStartTime": "2026-08-14T15:07:48+00:00",
-      "retrievedAt": "2026-08-15T18:15:13.825Z",
-      "feedId": "tenis",
-      "league": "Todi"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2a04c5584e5a",
-    "slug": "olimpia-vence-felix-perez-cardozo-por-108-a-87-em-lnb-2a04c5",
-    "sportId": "basquete",
-    "title": "Olimpia vence Felix Perez Cardozo por 108 a 87 em LNB",
-    "summary": "Olimpia superou Felix Perez Cardozo por 108 a 87 em LNB.",
-    "content": "Olimpia superou Felix Perez Cardozo por 108 a 87 em LNB., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Olimpia vence Felix Perez Cardozo por 108 a 87 em LNB",
-    "seoDescription": "Olimpia superou Felix Perez Cardozo por 108 a 87 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T18:15:13.774Z",
-    "createdAt": "2026-08-15T18:15:13.774Z",
-    "updatedAt": "2026-08-15T18:15:13.774Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808068",
-      "eventStartTime": "2026-08-14T23:00:00+00:00",
-      "retrievedAt": "2026-08-15T18:15:13.774Z",
-      "feedId": "basquete",
-      "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-bdb368be9bba",
-    "slug": "atlante-u21-e-toluca-u21-ficam-no-0-a-0-pela-liga-mx-u21-bdb368",
-    "sportId": "futebol",
-    "title": "Atlante U21 e Toluca U21 ficam no 0 a 0 pela Liga MX U21",
-    "summary": "Atlante U21 e Toluca U21 empataram por 0 a 0 pela Liga MX U21.",
-    "content": "Atlante U21 e Toluca U21 empataram por 0 a 0 pela Liga MX U21, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-mx-u21"
-    ],
-    "seoTitle": "Atlante U21 e Toluca U21 ficam no 0 a 0 pela Liga MX U21",
-    "seoDescription": "Atlante U21 e Toluca U21 empataram por 0 a 0 pela Liga MX U21.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T18:15:13.752Z",
-    "createdAt": "2026-08-15T18:15:13.752Z",
-    "updatedAt": "2026-08-15T18:15:13.752Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4759889",
-      "eventStartTime": "2026-08-15T18:00:00+00:00",
-      "retrievedAt": "2026-08-15T18:15:13.752Z",
-      "feedId": "futebol",
-      "league": "Liga MX U21"
     },
     "articleFormat": "result-brief"
   }
