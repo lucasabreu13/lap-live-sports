@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-d078f7093c4c",
+    "slug": "rakuten-gold-eagles-vence-chiba-lotte-marines-por-6-a-2-na-npb-d078f7",
+    "sportId": "beisebol",
+    "title": "Rakuten Gold Eagles vence Chiba Lotte Marines por 6 a 2 na NPB",
+    "summary": "Rakuten Gold Eagles derrotou Chiba Lotte Marines por 6 a 2 na NPB.",
+    "content": "Rakuten Gold Eagles derrotou Chiba Lotte Marines por 6 a 2 na NPB, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Rakuten Gold Eagles vence Chiba Lotte Marines por 6 a 2 na NPB",
+    "seoDescription": "Rakuten Gold Eagles derrotou Chiba Lotte Marines por 6 a 2 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T12:42:49.241Z",
+    "createdAt": "2026-08-18T12:42:49.241Z",
+    "updatedAt": "2026-08-18T12:42:49.241Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626815",
+      "eventStartTime": "2026-08-18T09:00:00+00:00",
+      "retrievedAt": "2026-08-18T12:42:49.241Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-eb6b6f473f40",
+    "slug": "lucio-ratti-vence-ognjen-milic-por-2-a-1-em-sion-eb6b6f",
+    "sportId": "tenis",
+    "title": "Lucio Ratti vence Ognjen Milic por 2 a 1 em Sion",
+    "summary": "Lucio Ratti superou Ognjen Milic por 2 a 1 em Sion.",
+    "content": "Lucio Ratti superou Ognjen Milic por 2 a 1 em Sion., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Lucio Ratti vence Ognjen Milic por 2 a 1 em Sion",
+    "seoDescription": "Lucio Ratti superou Ognjen Milic por 2 a 1 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T12:42:49.240Z",
+    "createdAt": "2026-08-18T12:42:49.240Z",
+    "updatedAt": "2026-08-18T12:42:49.240Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815630",
+      "eventStartTime": "2026-08-18T10:10:24+00:00",
+      "retrievedAt": "2026-08-18T12:42:49.240Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-81e7887c9a74",
+    "slug": "afturelding-e-hk-kopavogur-ficam-no-2-a-2-pelo-inkasso-deildin-81e788",
+    "sportId": "futebol",
+    "title": "Afturelding e HK Kopavogur ficam no 2 a 2 pelo Inkasso Deildin",
+    "summary": "Afturelding e HK Kopavogur empataram por 2 a 2 pelo Inkasso Deildin.",
+    "content": "Afturelding e HK Kopavogur empataram por 2 a 2 pelo Inkasso Deildin, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "inkasso-deildin"
+    ],
+    "seoTitle": "Afturelding e HK Kopavogur ficam no 2 a 2 pelo Inkasso Deildin",
+    "seoDescription": "Afturelding e HK Kopavogur empataram por 2 a 2 pelo Inkasso Deildin.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T12:42:49.231Z",
+    "createdAt": "2026-08-18T12:42:49.231Z",
+    "updatedAt": "2026-08-18T12:42:49.231Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4661986",
+      "eventStartTime": "2026-08-17T19:15:00+00:00",
+      "retrievedAt": "2026-08-18T12:42:49.231Z",
+      "feedId": "futebol",
+      "league": "Inkasso Deildin"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-0c06824ca8ff",
     "slug": "yokohama-baystars-vence-yomiuri-giants-por-4-a-3-na-npb-0c0682",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-15T23:33:02.543Z",
       "feedId": "basquete",
       "league": "LNB 2"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-38e731a7b56b",
-    "slug": "jacksonville-jaguars-vence-new-orleans-saints-por-24-a-20-em-nfl-38e731",
-    "sportId": "futebol-americano",
-    "title": "Jacksonville Jaguars vence New Orleans Saints por 24 a 20 em NFL",
-    "summary": "Jacksonville Jaguars superou New Orleans Saints por 24 a 20 em NFL.",
-    "content": "Jacksonville Jaguars superou New Orleans Saints por 24 a 20 em NFL., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "Jacksonville Jaguars vence New Orleans Saints por 24 a 20 em NFL",
-    "seoDescription": "Jacksonville Jaguars superou New Orleans Saints por 24 a 20 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T23:33:02.541Z",
-    "createdAt": "2026-08-15T23:33:02.541Z",
-    "updatedAt": "2026-08-15T23:33:02.541Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714914",
-      "eventStartTime": "2026-08-15T20:00:00+00:00",
-      "retrievedAt": "2026-08-15T23:33:02.541Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5e8d5e57c1ca",
-    "slug": "athletico-paranaense-e-rb-bragantino-ficam-no-1-a-1-pelo-serie-a-5e8d5e",
-    "sportId": "futebol",
-    "title": "Athletico Paranaense e RB Bragantino ficam no 1 a 1 pelo Série A",
-    "summary": "Athletico Paranaense e RB Bragantino empataram por 1 a 1 pelo Série A.",
-    "content": "Athletico Paranaense e RB Bragantino empataram por 1 a 1 pelo Série A, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "serie-a"
-    ],
-    "seoTitle": "Athletico Paranaense e RB Bragantino ficam no 1 a 1 pelo Série A",
-    "seoDescription": "Athletico Paranaense e RB Bragantino empataram por 1 a 1 pelo Série A.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T23:33:02.538Z",
-    "createdAt": "2026-08-15T23:33:02.538Z",
-    "updatedAt": "2026-08-15T23:33:02.538Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4632719",
-      "eventStartTime": "2026-08-15T21:30:00+00:00",
-      "retrievedAt": "2026-08-15T23:33:02.538Z",
-      "feedId": "futebol",
-      "league": "Série A"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3f9a60ca3fe2",
-    "slug": "hayato-matsuoka-vence-khumoyun-sultanov-por-2-a-1-em-astana-3f9a60",
-    "sportId": "tenis",
-    "title": "Hayato Matsuoka vence Khumoyun Sultanov por 2 a 1 em Astana",
-    "summary": "Hayato Matsuoka superou Khumoyun Sultanov por 2 a 1 em Astana.",
-    "content": "Hayato Matsuoka superou Khumoyun Sultanov por 2 a 1 em Astana., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "astana"
-    ],
-    "seoTitle": "Hayato Matsuoka vence Khumoyun Sultanov por 2 a 1 em Astana",
-    "seoDescription": "Hayato Matsuoka superou Khumoyun Sultanov por 2 a 1 em Astana.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T23:11:16.176Z",
-    "createdAt": "2026-08-15T23:11:16.176Z",
-    "updatedAt": "2026-08-15T23:11:16.176Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814177",
-      "eventStartTime": "2026-08-15T06:10:26+00:00",
-      "retrievedAt": "2026-08-15T23:11:16.176Z",
-      "feedId": "tenis",
-      "league": "Astana"
     },
     "articleFormat": "result-brief"
   }
