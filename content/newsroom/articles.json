@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-0ac8a670812e",
+    "slug": "hanshin-tigers-vence-yakult-swallows-por-3-a-2-na-npb-0ac8a6",
+    "sportId": "beisebol",
+    "title": "Hanshin Tigers vence Yakult Swallows por 3 a 2 na NPB",
+    "summary": "Hanshin Tigers derrotou Yakult Swallows por 3 a 2 na NPB.",
+    "content": "Hanshin Tigers derrotou Yakult Swallows por 3 a 2 na NPB, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Hanshin Tigers vence Yakult Swallows por 3 a 2 na NPB",
+    "seoDescription": "Hanshin Tigers derrotou Yakult Swallows por 3 a 2 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T14:05:14.679Z",
+    "createdAt": "2026-08-18T14:05:14.679Z",
+    "updatedAt": "2026-08-18T14:05:14.679Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626829",
+      "eventStartTime": "2026-08-18T09:00:00+00:00",
+      "retrievedAt": "2026-08-18T14:05:14.679Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9975bbc88e0d",
+    "slug": "jan-kumstat-vence-petr-brunclik-por-2-a-0-em-prague-9975bb",
+    "sportId": "tenis",
+    "title": "Jan Kumstat vence Petr Brunclik por 2 a 0 em Prague",
+    "summary": "Jan Kumstat superou Petr Brunclik por 2 a 0 em Prague.",
+    "content": "Jan Kumstat superou Petr Brunclik por 2 a 0 em Prague., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Jan Kumstat vence Petr Brunclik por 2 a 0 em Prague",
+    "seoDescription": "Jan Kumstat superou Petr Brunclik por 2 a 0 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T14:05:14.673Z",
+    "createdAt": "2026-08-18T14:05:14.673Z",
+    "updatedAt": "2026-08-18T14:05:14.673Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815444",
+      "eventStartTime": "2026-08-18T12:24:51+00:00",
+      "retrievedAt": "2026-08-18T14:05:14.673Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f44f1a2528fb",
+    "slug": "independiente-supera-lanus-por-3-a-1-pela-superliga-f44f1a",
+    "sportId": "futebol",
+    "title": "Independiente supera Lanus por 3 a 1 pela Superliga",
+    "summary": "Independiente venceu Lanus por 3 a 1 pela Superliga.",
+    "content": "Independiente venceu Lanus por 3 a 1 pela Superliga, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "superliga"
+    ],
+    "seoTitle": "Independiente supera Lanus por 3 a 1 pela Superliga",
+    "seoDescription": "Independiente venceu Lanus por 3 a 1 pela Superliga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T14:05:14.659Z",
+    "createdAt": "2026-08-18T14:05:14.659Z",
+    "updatedAt": "2026-08-18T14:05:14.659Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4633373",
+      "eventStartTime": "2026-08-17T20:00:00+00:00",
+      "retrievedAt": "2026-08-18T14:05:14.659Z",
+      "feedId": "futebol",
+      "league": "Superliga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4b35498b1824",
     "slug": "doosan-bears-vence-nc-dinos-por-6-a-4-na-kbo-4b3549",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-16T00:37:01.175Z",
       "feedId": "basquete",
       "league": "LFB (W)"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b4a78dcd9afb",
-    "slug": "tigres-de-chinandega-e-matiguas-ficam-no-0-a-0-pela-liga-de-ascenso-b4a78d",
-    "sportId": "futebol",
-    "title": "Tigres de Chinandega e Matiguás ficam no 0 a 0 pela Liga de Ascenso",
-    "summary": "Tigres de Chinandega e Matiguás empataram por 0 a 0 pela Liga de Ascenso.",
-    "content": "Tigres de Chinandega e Matiguás empataram por 0 a 0 pela Liga de Ascenso, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "Tigres de Chinandega e Matiguás ficam no 0 a 0 pela Liga de Ascenso",
-    "seoDescription": "Tigres de Chinandega e Matiguás empataram por 0 a 0 pela Liga de Ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T00:37:01.162Z",
-    "createdAt": "2026-08-16T00:37:01.162Z",
-    "updatedAt": "2026-08-16T00:37:01.162Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811371",
-      "eventStartTime": "2026-08-16T00:00:00+00:00",
-      "retrievedAt": "2026-08-16T00:37:01.162Z",
-      "feedId": "futebol",
-      "league": "Liga de Ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f7ee17350801",
-    "slug": "emma-navarro-vence-anhelina-kalinina-por-2-a-1-em-cincinnati-f7ee17",
-    "sportId": "tenis",
-    "title": "Emma Navarro vence Anhelina Kalinina por 2 a 1 em Cincinnati",
-    "summary": "Emma Navarro superou Anhelina Kalinina por 2 a 1 em Cincinnati.",
-    "content": "Emma Navarro superou Anhelina Kalinina por 2 a 1 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Emma Navarro vence Anhelina Kalinina por 2 a 1 em Cincinnati",
-    "seoDescription": "Emma Navarro superou Anhelina Kalinina por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T23:54:50.981Z",
-    "createdAt": "2026-08-15T23:54:50.981Z",
-    "updatedAt": "2026-08-15T23:54:50.981Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813634",
-      "eventStartTime": "2026-08-15T21:36:45+00:00",
-      "retrievedAt": "2026-08-15T23:54:50.981Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-966dd67ae5e5",
-    "slug": "lagomar-vence-tabare-por-67-a-61-em-liga-de-ascenso-966dd6",
-    "sportId": "basquete",
-    "title": "Lagomar vence Tabare por 67 a 61 em Liga de ascenso",
-    "summary": "Lagomar superou Tabare por 67 a 61 em Liga de ascenso.",
-    "content": "Lagomar superou Tabare por 67 a 61 em Liga de ascenso., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "Lagomar vence Tabare por 67 a 61 em Liga de ascenso",
-    "seoDescription": "Lagomar superou Tabare por 67 a 61 em Liga de ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T23:54:50.978Z",
-    "createdAt": "2026-08-15T23:54:50.978Z",
-    "updatedAt": "2026-08-15T23:54:50.978Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807072",
-      "eventStartTime": "2026-08-14T23:15:00+00:00",
-      "retrievedAt": "2026-08-15T23:54:50.978Z",
-      "feedId": "basquete",
-      "league": "Liga de ascenso"
     },
     "articleFormat": "result-brief"
   }
