@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import { fetchBrowserSportsNews } from "@/lib/browser-news";
 import { EventCard } from "@/components/event-card";
 import { LapHeader } from "@/components/lap-header";
 import { curateHomepageNews } from "@/lib/home-news-curation";
@@ -39,6 +40,20 @@ function uniqueNews(items: NewsItem[]) {
   return Array.from(new Map(items.map((item) => [item.slug || item.id, item])).values());
 }
 
+function mergeBrowserNews(payload: LivePayload, news: NewsItem[]): LivePayload {
+  if (!news.length) return payload;
+  const bySport = new Map<SportId, NewsItem[]>();
+  news.forEach((item) => bySport.set(item.sportId, [...(bySport.get(item.sportId) ?? []), item]));
+  return {
+    ...payload,
+    editorial: uniqueNews([...news, ...payload.editorial]),
+    feeds: payload.feeds.map((feed) => ({
+      ...feed,
+      news: uniqueNews([...(bySport.get(feed.id) ?? []), ...feed.news]),
+    })),
+  };
+}
+
 function newsImage(item: NewsItem) {
   return item.imageUrl || "";
 }
@@ -64,6 +79,7 @@ function Visual({ item, eager = false, sizes }: { item: NewsItem; eager?: boolea
       priority={eager}
       sizes={sizes}
       className={styles.storyImage}
+      unoptimized
     />
   );
 }
@@ -122,15 +138,20 @@ export function EditorialHome({ initialPayload = null }: { initialPayload?: Live
     };
     const load = async () => {
       try {
-        const response = await fetch("/api/live");
+        const [response, browserNews] = await Promise.all([
+          fetch("/api/live"),
+          fetchBrowserSportsNews(),
+        ]);
         if (!response.ok) throw new Error("Falha ao carregar");
-        const next = await response.json() as LivePayload;
+        const next = mergeBrowserNews(await response.json() as LivePayload, browserNews);
         if (active) { setPayload(next); setFailed(false); schedule(next); }
       } catch {
         if (active) { setFailed(true); schedule(payload); }
       }
     };
-    if (initialPayload) schedule(initialPayload); else void load();
+    // A carga no navegador é imediata: ela completa o snapshot do servidor com
+    // notícias e imagens da origem pública, sem esperar o próximo ciclo de placares.
+    void load();
     return () => { active = false; window.clearTimeout(timer); };
   }, []);
 
@@ -197,7 +218,7 @@ export function EditorialHome({ initialPayload = null }: { initialPayload?: Live
       <div className={`${styles.sectionBar} ${styles.shell}`}><div><p>Modalidades</p><h2>Escolha seu esporte</h2></div></div>
       <nav className={`${styles.sportGrid} ${styles.shell}`} aria-label="Modalidades da LAP">{PUBLIC_SPORTS.map((sport) => {
         const latestForSport = allNews.find((item) => item.sportId === sport.id && item.imageUrl);
-        return <Link key={sport.id} href={`/modalidades/${sport.id}`} className={styles.sportTile}>{latestForSport?.imageUrl ? <Image src={latestForSport.imageUrl} alt={latestForSport.imageAlt || latestForSport.title} fill sizes="(max-width: 640px) 50vw, (max-width: 1000px) 33vw, 20vw" /> : null}<div><span>{sport.icon}</span><h3>{sport.name}</h3><p>Ver cobertura →</p></div></Link>;
+        return <Link key={sport.id} href={`/modalidades/${sport.id}`} className={styles.sportTile}>{latestForSport?.imageUrl ? <Image src={latestForSport.imageUrl} alt={latestForSport.imageAlt || latestForSport.title} fill unoptimized sizes="(max-width: 640px) 50vw, (max-width: 1000px) 33vw, 20vw" /> : null}<div><span>{sport.icon}</span><h3>{sport.name}</h3><p>Ver cobertura →</p></div></Link>;
       })}</nav>
     </section>
 
