@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-7507e78d8a60",
+    "slug": "andrea-pellegrino-vence-nishesh-basavareddy-por-2-a-1-em-quebec-city-7507e7",
+    "sportId": "tenis",
+    "title": "Andrea Pellegrino vence Nishesh Basavareddy por 2 a 1 em Quebec City",
+    "summary": "Andrea Pellegrino superou Nishesh Basavareddy por 2 a 1 em Quebec City.",
+    "content": "Andrea Pellegrino superou Nishesh Basavareddy por 2 a 1 em Quebec City., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Andrea Pellegrino vence Nishesh Basavareddy por 2 a 1 em Quebec City",
+    "seoDescription": "Andrea Pellegrino superou Nishesh Basavareddy por 2 a 1 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T21:18:53.091Z",
+    "createdAt": "2026-08-18T21:18:53.091Z",
+    "updatedAt": "2026-08-18T21:18:53.091Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816173",
+      "eventStartTime": "2026-08-18T19:04:53+00:00",
+      "retrievedAt": "2026-08-18T21:18:53.091Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8faaa22bba87",
+    "slug": "levski-sofia-e-aek-athens-ficam-no-0-a-0-pelo-ucl-qualifiers-8faaa2",
+    "sportId": "futebol",
+    "title": "Levski Sofia e AEK Athens ficam no 0 a 0 pelo UCL Qualifiers",
+    "summary": "Levski Sofia e AEK Athens empataram por 0 a 0 pelo UCL Qualifiers.",
+    "content": "Levski Sofia e AEK Athens empataram por 0 a 0 pelo UCL Qualifiers, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ucl-qualifiers"
+    ],
+    "seoTitle": "Levski Sofia e AEK Athens ficam no 0 a 0 pelo UCL Qualifiers",
+    "seoDescription": "Levski Sofia e AEK Athens empataram por 0 a 0 pelo UCL Qualifiers.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T21:18:53.063Z",
+    "createdAt": "2026-08-18T21:18:53.063Z",
+    "updatedAt": "2026-08-18T21:18:53.063Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809608",
+      "eventStartTime": "2026-08-18T19:00:00+00:00",
+      "retrievedAt": "2026-08-18T21:18:53.063Z",
+      "feedId": "futebol",
+      "league": "UCL Qualifiers"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5db36c41e056",
     "slug": "arribage-t-olivetti-a-vence-fery-a-lehecka-j-por-2-a-1-em-cincinnati-5db36c",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T08:28:34.154Z",
       "feedId": "beisebol",
       "league": "LMB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c0889d5cf513",
-    "slug": "verdirrojo-bbc-vence-ca-stockolmo-por-77-a-68-em-liga-de-ascenso-c0889d",
-    "sportId": "basquete",
-    "title": "Verdirrojo Bbc vence CA Stockolmo por 77 a 68 em Liga de ascenso",
-    "summary": "Verdirrojo Bbc superou CA Stockolmo por 77 a 68 em Liga de ascenso.",
-    "content": "Verdirrojo Bbc superou CA Stockolmo por 77 a 68 em Liga de ascenso., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "Verdirrojo Bbc vence CA Stockolmo por 77 a 68 em Liga de ascenso",
-    "seoDescription": "Verdirrojo Bbc superou CA Stockolmo por 77 a 68 em Liga de ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T08:28:34.082Z",
-    "createdAt": "2026-08-16T08:28:34.082Z",
-    "updatedAt": "2026-08-16T08:28:34.082Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807074",
-      "eventStartTime": "2026-08-14T23:15:00+00:00",
-      "retrievedAt": "2026-08-16T08:28:34.082Z",
-      "feedId": "basquete",
-      "league": "Liga de ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-bdb148967a6b",
-    "slug": "real-salt-lake-e-minnesota-united-ficam-no-1-a-1-pelo-mls-bdb148",
-    "sportId": "futebol",
-    "title": "Real Salt Lake e Minnesota United ficam no 1 a 1 pela MLS",
-    "summary": "Real Salt Lake e Minnesota United empataram por 1 a 1 pela MLS.",
-    "content": "Real Salt Lake e Minnesota United empataram por 1 a 1 pela MLS, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "Real Salt Lake e Minnesota United ficam no 1 a 1 pela MLS",
-    "seoDescription": "Real Salt Lake e Minnesota United empataram por 1 a 1 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T08:28:34.052Z",
-    "createdAt": "2026-08-16T08:28:34.052Z",
-    "updatedAt": "2026-08-16T08:28:34.052Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4621448",
-      "eventStartTime": "2026-08-16T01:30:00+00:00",
-      "retrievedAt": "2026-08-16T08:28:34.052Z",
-      "feedId": "futebol",
-      "league": "MLS"
     },
     "articleFormat": "result-brief"
   }
