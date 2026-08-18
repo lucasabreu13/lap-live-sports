@@ -430,7 +430,7 @@ function stableSlug(seed: string) {
 
 type ArticleTransport = Pick<NewsItem, "slug" | "sportId" | "title" | "excerpt" | "source" | "url" | "publishedAt" | "imageUrl" | "imageAlt">;
 
-function encodeArticleTransport(item: ArticleTransport) {
+export function encodeArticleTransport(item: ArticleTransport) {
   return Buffer.from(JSON.stringify(item), "utf8").toString("base64url");
 }
 
@@ -487,6 +487,62 @@ function parseGoogleNewsRss(xml: string, sportId: SportId): NewsItem[] {
       kind: "brief" as const,
       ...baseItem,
       internalUrl: `/materias/${slug}?d=${encodeArticleTransport(baseItem)}`,
+    }];
+  });
+}
+
+const ESPN_NEWS_PATHS: Partial<Record<SportId, string[]>> = {
+  futebol: ["soccer/bra.1", "soccer/eng.1", "soccer/uefa.champions", "soccer/conmebol.libertadores"],
+  "futebol-americano": ["football/nfl"],
+  formula1: ["racing/f1"],
+  basquete: ["basketball/nba"],
+  tenis: ["tennis/atp"],
+  beisebol: ["baseball/mlb"],
+  mma: ["mma/ufc"],
+};
+
+function parseEspnNews(json: unknown, sportId: SportId): NewsItem[] {
+  return asArray<Record<string, unknown>>(asRecord(json).articles).flatMap((article, index) => {
+    const title = repairMojibake(asText(article.headline)).trim();
+    const excerpt = repairMojibake(asText(article.description, asText(article.story))).trim();
+    const publishedAt = asText(article.published, asText(article.lastModified)) || null;
+    const link = asText(asRecord(asRecord(article.links).web).href);
+    const images = asArray<Record<string, unknown>>(article.images);
+    const selectedImage = images.find((image) => /^https:\/\//i.test(asText(image.url)));
+    const imageUrl = selectedImage ? asText(selectedImage.url) : "";
+    if (!title || !excerpt || !link || !imageUrl) return [];
+
+    const publishedTimestamp = publishedAt ? new Date(publishedAt).getTime() : Number.NaN;
+    const ageMs = Date.now() - publishedTimestamp;
+    if (!Number.isFinite(publishedTimestamp) || ageMs < -5 * 60_000 || ageMs > 4 * 24 * 60 * 60_000) return [];
+
+    let originalUrl: URL;
+    try {
+      originalUrl = new URL(link);
+    } catch {
+      return [];
+    }
+    if (originalUrl.protocol !== "https:") return [];
+
+    const slug = stableSlug(`${originalUrl.toString()}|${title}`);
+    const imageAlt = repairMojibake(asText(selectedImage?.caption, title)).trim() || title;
+    const transport: ArticleTransport = {
+      slug,
+      sportId,
+      title,
+      excerpt,
+      source: "ESPN Brasil",
+      url: originalUrl.toString(),
+      publishedAt,
+      imageUrl,
+      imageAlt,
+    };
+
+    return [{
+      id: `espn-${sportId}-${index}-${slug}`,
+      kind: "brief" as const,
+      ...transport,
+      internalUrl: `/materias/${slug}?d=${encodeArticleTransport(transport)}`,
     }];
   });
 }
@@ -582,10 +638,23 @@ async function fetchWithTimeout(url: string, init?: RequestInit, timeoutMs = 9_0
 }
 
 async function loadNews(sport: SportDefinition): Promise<NewsItem[]> {
-  const url = `${RSS_BASE}&q=${encodeURIComponent(`${sport.query} when:2d`)}`;
-  const response = await fetchWithTimeout(url, { cache: "no-store", headers: { "user-agent": "LAP Sports Dashboard/4.0" } });
-  if (!response.ok) throw new Error(`RSS ${response.status}`);
-  return parseGoogleNewsRss(await response.text(), sport.id);
+  const paths = ESPN_NEWS_PATHS[sport.id] ?? [];
+  if (!paths.length) return [];
+
+  const results = await Promise.allSettled(paths.map(async (path) => {
+    const url = `${ESPN_BASE}/${path}/news?limit=12&region=br&lang=pt`;
+    const response = await fetchWithTimeout(url, {
+      cache: "no-store",
+      headers: { "user-agent": "LAP Sports Dashboard/6.0" },
+    });
+    if (!response.ok) throw new Error(`ESPN News ${response.status}`);
+    return parseEspnNews(await response.json(), sport.id);
+  }));
+
+  const items = results.flatMap((result) => result.status === "fulfilled" ? result.value : []);
+  return Array.from(new Map(items.map((item) => [item.url || item.slug, item])).values())
+    .sort((a, b) => new Date(b.publishedAt || 0).getTime() - new Date(a.publishedAt || 0).getTime())
+    .slice(0, 18);
 }
 
 function scoreFromCompetitor(competitor: unknown) {

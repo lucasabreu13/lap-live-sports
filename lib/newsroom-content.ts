@@ -5,7 +5,7 @@ import curatedLeBron20260724Payload from "@/content/newsroom/curated-articles-le
 import curatedArticles20260727Payload from "@/content/newsroom/curated-articles-20260727.json";
 import editorialOverridesPayload from "@/content/newsroom/editorial-overrides.json";
 import type { EditorialArticle } from "@/lib/editorial-store";
-import type { LivePayload, NewsItem, SportId } from "@/lib/live-data";
+import { encodeArticleTransport, type LivePayload, type NewsItem, type SportId } from "@/lib/live-data";
 
 export type NewsroomEditorialArticle = EditorialArticle & {
   homepagePriority?: number;
@@ -137,7 +137,7 @@ function orderArticles(items: NewsroomEditorialArticle[], limit: number) {
       if (Math.abs(scoreDiff) > 0.001) return scoreDiff;
       return articleTimestamp(b) - articleTimestamp(a);
     })
-    .slice(0, Math.max(1, Math.min(limit, 250)));
+    .slice(0, Math.max(1, Math.min(limit, 1000)));
 }
 
 function getCuratedArticles() {
@@ -155,7 +155,7 @@ function getCuratedArticles() {
     .filter((article): article is NewsroomEditorialArticle => article !== null);
 }
 
-async function getAllNewsroomArticles(limit = 250): Promise<NewsroomEditorialArticle[]> {
+async function getAllNewsroomArticles(limit = 1000): Promise<NewsroomEditorialArticle[]> {
   const url = process.env.NEWSROOM_CONTENT_URL || DEFAULT_CONTENT_URL;
   const curated = getCuratedArticles();
   let automated: NewsroomEditorialArticle[] = [];
@@ -183,7 +183,7 @@ async function getAllNewsroomArticles(limit = 250): Promise<NewsroomEditorialArt
 }
 
 export async function getNewsroomArticles(limit = 48): Promise<NewsroomEditorialArticle[]> {
-  const all = await getAllNewsroomArticles(250);
+  const all = await getAllNewsroomArticles(1000);
   // Política editorial LAP: notícias ocupam home e páginas de modalidade por 72 horas.
   // Depois disso deixam a vitrine gradualmente, mas a URL permanente da matéria continua acessível.
   return orderArticles(all.filter((article) => isNewsroomArticleActive(article)), limit);
@@ -191,12 +191,12 @@ export async function getNewsroomArticles(limit = 48): Promise<NewsroomEditorial
 
 export async function getNewsroomArticleBySlug(slug: string): Promise<NewsroomEditorialArticle | null> {
   // Busca o arquivo completo para preservar URLs antigas mesmo depois da janela de 72 horas.
-  const articles = await getAllNewsroomArticles(250);
+  const articles = await getAllNewsroomArticles(1000);
   return articles.find((article) => article.slug === slug) ?? null;
 }
 
 export function newsroomArticleToNewsItem(article: NewsroomEditorialArticle): NewsItem {
-  return {
+  const item: NewsItem = {
     id: article.id,
     kind: "editorial",
     slug: article.slug,
@@ -210,4 +210,18 @@ export function newsroomArticleToNewsItem(article: NewsroomEditorialArticle): Ne
     imageUrl: article.coverImageUrl,
     imageAlt: article.title,
   };
+  if (article.articleFormat === "result-brief" && article.sourceUrl) {
+    item.internalUrl = `/materias/${article.slug}?d=${encodeArticleTransport({
+      slug: item.slug,
+      sportId: item.sportId,
+      title: item.title,
+      excerpt: item.excerpt,
+      source: item.source,
+      url: article.sourceUrl,
+      publishedAt: item.publishedAt,
+      imageUrl: null,
+      imageAlt: item.title,
+    })}`;
+  }
+  return item;
 }

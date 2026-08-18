@@ -8,7 +8,6 @@ import { LapHeader } from "@/components/lap-header";
 import { curateHomepageNews } from "@/lib/home-news-curation";
 import { SPORTS, type LivePayload, type NewsItem, type ScoreItem, type SportId } from "@/lib/live-data";
 import { PUBLIC_SPORTS } from "@/lib/public-sports";
-import { sportCoverImage } from "@/lib/sport-visuals";
 import styles from "./editorial-home.module.css";
 
 function relativeTime(value: string | null) {
@@ -41,11 +40,11 @@ function uniqueNews(items: NewsItem[]) {
 }
 
 function newsImage(item: NewsItem) {
-  return item.imageUrl || sportCoverImage(item.sportId).image;
+  return item.imageUrl || "";
 }
 
 function newsAlt(item: NewsItem) {
-  return item.imageAlt || item.title || sportCoverImage(item.sportId).alt;
+  return item.imageAlt || item.title;
 }
 
 function sportName(id: SportId) {
@@ -138,7 +137,7 @@ export function EditorialHome({ initialPayload = null }: { initialPayload?: Live
   const allNews = useMemo(() => {
     if (!payload) return [];
     return uniqueNews([...payload.editorial, ...payload.feeds.flatMap((feed) => feed.news)])
-      .filter((item) => item.kind === "editorial")
+      .filter((item) => item.imageUrl && /^https:\/\//i.test(item.imageUrl))
       .sort((a, b) => new Date(b.publishedAt || 0).getTime() - new Date(a.publishedAt || 0).getTime());
   }, [payload]);
 
@@ -156,7 +155,7 @@ export function EditorialHome({ initialPayload = null }: { initialPayload?: Live
   const lead = curated[0] || null;
   const sideStories = curated.slice(1, 3);
   const used = new Set([lead, ...sideStories].filter(Boolean).map((item) => item!.slug || item!.id));
-  const latest = allNews.filter((item) => !used.has(item.slug || item.id)).slice(0, 9);
+  const latest = curated.filter((item) => !used.has(item.slug || item.id)).slice(0, 9);
 
   return <main id="main-content" tabIndex={-1} data-lap-shell="editorial-v7">
     <LapHeader activeSport="todos" />
@@ -197,8 +196,8 @@ export function EditorialHome({ initialPayload = null }: { initialPayload?: Live
     <section className={styles.sportsSection}>
       <div className={`${styles.sectionBar} ${styles.shell}`}><div><p>Modalidades</p><h2>Escolha seu esporte</h2></div></div>
       <nav className={`${styles.sportGrid} ${styles.shell}`} aria-label="Modalidades da LAP">{PUBLIC_SPORTS.map((sport) => {
-        const visual = sportCoverImage(sport.id);
-        return <Link key={sport.id} href={`/modalidades/${sport.id}`} className={styles.sportTile}><Image src={visual.image} alt={visual.alt} fill sizes="(max-width: 640px) 50vw, (max-width: 1000px) 33vw, 20vw" /><div><span>{sport.icon}</span><h3>{sport.name}</h3><p>Ver cobertura →</p></div></Link>;
+        const latestForSport = allNews.find((item) => item.sportId === sport.id && item.imageUrl);
+        return <Link key={sport.id} href={`/modalidades/${sport.id}`} className={styles.sportTile}>{latestForSport?.imageUrl ? <Image src={latestForSport.imageUrl} alt={latestForSport.imageAlt || latestForSport.title} fill sizes="(max-width: 640px) 50vw, (max-width: 1000px) 33vw, 20vw" /> : null}<div><span>{sport.icon}</span><h3>{sport.name}</h3><p>Ver cobertura →</p></div></Link>;
       })}</nav>
     </section>
 

@@ -22,9 +22,12 @@ function uniqueNews(items: NewsItem[]) {
 async function withNewsroom(payload: LivePayload): Promise<LivePayload> {
   const newsroom = (await getNewsroomArticles(48)).map(newsroomArticleToNewsItem);
   if (!newsroom.length) return payload;
+  const newsroomWithSpecificImages = newsroom.filter((item) => item.imageUrl && /^https:\/\//i.test(item.imageUrl));
   return {
     ...payload,
-    editorial: uniqueNews([...newsroom, ...payload.editorial]).slice(0, 48),
+    editorial: uniqueNews([...payload.editorial, ...newsroomWithSpecificImages])
+      .sort((a, b) => new Date(b.publishedAt || 0).getTime() - new Date(a.publishedAt || 0).getTime())
+      .slice(0, 48),
   };
 }
 
