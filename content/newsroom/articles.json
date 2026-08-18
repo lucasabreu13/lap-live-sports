@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-27294bdcefc0",
+    "slug": "philadelphia-phillies-vence-miami-marlins-por-6-a-5-na-mlb-27294b",
+    "sportId": "beisebol",
+    "title": "Philadelphia Phillies vence Miami Marlins por 6 a 5 na MLB",
+    "summary": "Philadelphia Phillies derrotou Miami Marlins por 6 a 5 na MLB.",
+    "content": "Philadelphia Phillies derrotou Miami Marlins por 6 a 5 na MLB, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Philadelphia Phillies vence Miami Marlins por 6 a 5 na MLB",
+    "seoDescription": "Philadelphia Phillies derrotou Miami Marlins por 6 a 5 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T04:59:28.579Z",
+    "createdAt": "2026-08-18T04:59:28.579Z",
+    "updatedAt": "2026-08-18T04:59:28.579Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614784",
+      "eventStartTime": "2026-08-17T22:40:00+00:00",
+      "retrievedAt": "2026-08-18T04:59:28.579Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1d266eb1554d",
+    "slug": "tommy-paul-vence-adolfo-daniel-vallejo-por-2-a-1-em-cincinnati-1d266e",
+    "sportId": "tenis",
+    "title": "Tommy Paul vence Adolfo Daniel Vallejo por 2 a 1 em Cincinnati",
+    "summary": "Tommy Paul superou Adolfo Daniel Vallejo por 2 a 1 em Cincinnati.",
+    "content": "Tommy Paul superou Adolfo Daniel Vallejo por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Tommy Paul vence Adolfo Daniel Vallejo por 2 a 1 em Cincinnati",
+    "seoDescription": "Tommy Paul superou Adolfo Daniel Vallejo por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T04:59:28.570Z",
+    "createdAt": "2026-08-18T04:59:28.570Z",
+    "updatedAt": "2026-08-18T04:59:28.570Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815446",
+      "eventStartTime": "2026-08-18T02:42:34+00:00",
+      "retrievedAt": "2026-08-18T04:59:28.570Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-12464bf551a2",
+    "slug": "mexico-w-vence-philippines-w-por-61-a-58-em-olympic-qualification-w-12464b",
+    "sportId": "basquete",
+    "title": "Mexico (W) vence Philippines (W) por 61 a 58 em Olympic Qualification (W)",
+    "summary": "Mexico (W) superou Philippines (W) por 61 a 58 em Olympic Qualification (W).",
+    "content": "Mexico (W) superou Philippines (W) por 61 a 58 em Olympic Qualification (W)., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "olympic-qualification-w"
+    ],
+    "seoTitle": "Mexico (W) vence Philippines (W) por 61 a 58 em Olympic Qualification",
+    "seoDescription": "Mexico (W) superou Philippines (W) por 61 a 58 em Olympic Qualification (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T04:59:28.566Z",
+    "createdAt": "2026-08-18T04:59:28.566Z",
+    "updatedAt": "2026-08-18T04:59:28.566Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816708",
+      "eventStartTime": "2026-08-18T02:30:00+00:00",
+      "retrievedAt": "2026-08-18T04:59:28.566Z",
+      "feedId": "basquete",
+      "league": "Olympic Qualification (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-eb17f62081ac",
+    "slug": "cd-arabe-unido-supera-tauro-fc-por-1-a-0-pelo-lpf-eb17f6",
+    "sportId": "futebol",
+    "title": "CD Árabe Unido supera Tauro FC por 1 a 0 pelo Lpf",
+    "summary": "CD Árabe Unido venceu Tauro FC por 1 a 0 pelo Lpf.",
+    "content": "CD Árabe Unido venceu Tauro FC por 1 a 0 pelo Lpf, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "lpf"
+    ],
+    "seoTitle": "CD Árabe Unido supera Tauro FC por 1 a 0 pelo Lpf",
+    "seoDescription": "CD Árabe Unido venceu Tauro FC por 1 a 0 pelo Lpf.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T04:59:28.560Z",
+    "createdAt": "2026-08-18T04:59:28.560Z",
+    "updatedAt": "2026-08-18T04:59:28.560Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4773296",
+      "eventStartTime": "2026-08-18T01:00:00+00:00",
+      "retrievedAt": "2026-08-18T04:59:28.560Z",
+      "feedId": "futebol",
+      "league": "Lpf"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4d787bcdd901",
     "slug": "minnesota-twins-vence-atlanta-braves-por-4-a-2-na-mlb-4d787b",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-15T19:33:55.909Z",
       "feedId": "futebol",
       "league": "Torneo Reservas"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7ee13ef6590f",
-    "slug": "martin-landaluce-vence-matteo-arnaldi-por-2-a-1-em-cincinnati-7ee13e",
-    "sportId": "tenis",
-    "title": "Martin Landaluce vence Matteo Arnaldi por 2 a 1 em Cincinnati",
-    "summary": "Martin Landaluce superou Matteo Arnaldi por 2 a 1 em Cincinnati.",
-    "content": "Martin Landaluce superou Matteo Arnaldi por 2 a 1 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Martin Landaluce vence Matteo Arnaldi por 2 a 1 em Cincinnati",
-    "seoDescription": "Martin Landaluce superou Matteo Arnaldi por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T19:14:01.436Z",
-    "createdAt": "2026-08-15T19:14:01.436Z",
-    "updatedAt": "2026-08-15T19:14:01.436Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813625",
-      "eventStartTime": "2026-08-15T15:06:52+00:00",
-      "retrievedAt": "2026-08-15T19:14:01.436Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-939a20552a58",
-    "slug": "new-york-liberty-vence-connecticut-sun-por-82-a-75-em-wnba-939a20",
-    "sportId": "basquete",
-    "title": "New York Liberty vence Connecticut Sun por 82 a 75 em WNBA",
-    "summary": "New York Liberty superou Connecticut Sun por 82 a 75 em WNBA.",
-    "content": "New York Liberty superou Connecticut Sun por 82 a 75 em WNBA., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "New York Liberty vence Connecticut Sun por 82 a 75 em WNBA",
-    "seoDescription": "New York Liberty superou Connecticut Sun por 82 a 75 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T19:14:01.427Z",
-    "createdAt": "2026-08-15T19:14:01.427Z",
-    "updatedAt": "2026-08-15T19:14:01.427Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659879",
-      "eventStartTime": "2026-08-15T17:00:00+00:00",
-      "retrievedAt": "2026-08-15T19:14:01.427Z",
-      "feedId": "basquete",
-      "league": "WNBA"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-01c162166c21",
-    "slug": "bogota-fc-e-patriotas-ficam-no-0-a-0-pelo-primera-b-01c162",
-    "sportId": "futebol",
-    "title": "Bogotá FC e Patriotas ficam no 0 a 0 pelo Primera B",
-    "summary": "Bogotá FC e Patriotas empataram por 0 a 0 pelo Primera B.",
-    "content": "Bogotá FC e Patriotas empataram por 0 a 0 pelo Primera B, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-b"
-    ],
-    "seoTitle": "Bogotá FC e Patriotas ficam no 0 a 0 pelo Primera B",
-    "seoDescription": "Bogotá FC e Patriotas empataram por 0 a 0 pelo Primera B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T19:14:01.415Z",
-    "createdAt": "2026-08-15T19:14:01.415Z",
-    "updatedAt": "2026-08-15T19:14:01.415Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732170",
-      "eventStartTime": "2026-08-15T19:00:00+00:00",
-      "retrievedAt": "2026-08-15T19:14:01.415Z",
-      "feedId": "futebol",
-      "league": "Primera B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ace4d2adbb7c",
-    "slug": "nikola-bartunkova-vence-alina-charaeva-por-2-a-1-em-cincinnati-ace4d2",
-    "sportId": "tenis",
-    "title": "Nikola Bartunkova vence Alina Charaeva por 2 a 1 em Cincinnati",
-    "summary": "Nikola Bartunkova superou Alina Charaeva por 2 a 1 em Cincinnati.",
-    "content": "Nikola Bartunkova superou Alina Charaeva por 2 a 1 em Cincinnati., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Nikola Bartunkova vence Alina Charaeva por 2 a 1 em Cincinnati",
-    "seoDescription": "Nikola Bartunkova superou Alina Charaeva por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T18:47:57.125Z",
-    "createdAt": "2026-08-15T18:47:57.125Z",
-    "updatedAt": "2026-08-15T18:47:57.125Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813450",
-      "eventStartTime": "2026-08-14T15:13:59+00:00",
-      "retrievedAt": "2026-08-15T18:47:57.125Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
