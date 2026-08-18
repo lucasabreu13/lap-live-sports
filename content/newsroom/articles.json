@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-4d89b2345cf0",
+    "slug": "ayeni-a-poullain-l-vence-boitan-g-a-durasovic-v-por-2-a-0-em-roehampton-4d89b2",
+    "sportId": "tenis",
+    "title": "Ayeni A./Poullain L. vence Boitan G A./Durasovic V. por 2 a 0 em Roehampton",
+    "summary": "Ayeni A./Poullain L. superou Boitan G A./Durasovic V. por 2 a 0 em Roehampton.",
+    "content": "Ayeni A./Poullain L. superou Boitan G A./Durasovic V. por 2 a 0 em Roehampton., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Ayeni A./Poullain L. vence Boitan G A./Durasovic V. por 2 a 0 em",
+    "seoDescription": "Ayeni A./Poullain L. superou Boitan G A./Durasovic V. por 2 a 0 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T16:18:44.338Z",
+    "createdAt": "2026-08-18T16:18:44.338Z",
+    "updatedAt": "2026-08-18T16:18:44.338Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816536",
+      "eventStartTime": "2026-08-18T15:23:57+00:00",
+      "retrievedAt": "2026-08-18T16:18:44.338Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d2bd49749fcb",
+    "slug": "druzstevnik-besenov-e-nove-zamky-ficam-no-0-a-0-pelo-slovakia-cup-d2bd49",
+    "sportId": "futebol",
+    "title": "Družstevník Bešeňov e Nové Zámky ficam no 0 a 0 pelo Slovakia Cup",
+    "summary": "Družstevník Bešeňov e Nové Zámky empataram por 0 a 0 pelo Slovakia Cup.",
+    "content": "Družstevník Bešeňov e Nové Zámky empataram por 0 a 0 pelo Slovakia Cup, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "slovakia-cup"
+    ],
+    "seoTitle": "Družstevník Bešeňov e Nové Zámky ficam no 0 a 0 pelo Slovakia Cup",
+    "seoDescription": "Družstevník Bešeňov e Nové Zámky empataram por 0 a 0 pelo Slovakia Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T16:18:44.319Z",
+    "createdAt": "2026-08-18T16:18:44.319Z",
+    "updatedAt": "2026-08-18T16:18:44.319Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4802124",
+      "eventStartTime": "2026-08-18T15:00:00+00:00",
+      "retrievedAt": "2026-08-18T16:18:44.319Z",
+      "feedId": "futebol",
+      "league": "Slovakia Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-c24cbefe2e9c",
     "slug": "jeffrey-von-der-schulenburg-vence-georgii-kravchenko-por-2-a-0-em-sion-c24cbe",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T03:57:13.643Z",
       "feedId": "futebol",
       "league": "USL Championship"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ac3e13b02c3a",
-    "slug": "jiri-lehecka-vence-matteo-berrettini-por-2-a-1-em-cincinnati-ac3e13",
-    "sportId": "tenis",
-    "title": "Jiri Lehecka vence Matteo Berrettini por 2 a 1 em Cincinnati",
-    "summary": "Jiri Lehecka superou Matteo Berrettini por 2 a 1 em Cincinnati.",
-    "content": "Jiri Lehecka superou Matteo Berrettini por 2 a 1 em Cincinnati., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Jiri Lehecka vence Matteo Berrettini por 2 a 1 em Cincinnati",
-    "seoDescription": "Jiri Lehecka superou Matteo Berrettini por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T03:10:52.917Z",
-    "createdAt": "2026-08-16T03:10:52.917Z",
-    "updatedAt": "2026-08-16T03:10:52.917Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814968",
-      "eventStartTime": "2026-08-15T22:31:32+00:00",
-      "retrievedAt": "2026-08-16T03:10:52.917Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fbdfd8bd9faa",
-    "slug": "puerto-montt-basquetbol-vence-aba-ancud-por-88-a-66-em-lnb-fbdfd8",
-    "sportId": "basquete",
-    "title": "Puerto Montt Básquetbol vence ABA Ancud por 88 a 66 em LNB",
-    "summary": "Puerto Montt Básquetbol superou ABA Ancud por 88 a 66 em LNB.",
-    "content": "Puerto Montt Básquetbol superou ABA Ancud por 88 a 66 em LNB., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Puerto Montt Básquetbol vence ABA Ancud por 88 a 66 em LNB",
-    "seoDescription": "Puerto Montt Básquetbol superou ABA Ancud por 88 a 66 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T03:10:52.907Z",
-    "createdAt": "2026-08-16T03:10:52.907Z",
-    "updatedAt": "2026-08-16T03:10:52.907Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807333",
-      "eventStartTime": "2026-08-15T23:30:00+00:00",
-      "retrievedAt": "2026-08-16T03:10:52.907Z",
-      "feedId": "basquete",
-      "league": "LNB"
     },
     "articleFormat": "result-brief"
   }
