@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-cff4f6c56d9b",
+    "slug": "jesper-de-jong-vence-dane-sweeny-por-2-a-0-em-quebec-city-cff4f6",
+    "sportId": "tenis",
+    "title": "Jesper De Jong vence Dane Sweeny por 2 a 0 em Quebec City",
+    "summary": "Jesper De Jong superou Dane Sweeny por 2 a 0 em Quebec City.",
+    "content": "Jesper De Jong superou Dane Sweeny por 2 a 0 em Quebec City., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Jesper De Jong vence Dane Sweeny por 2 a 0 em Quebec City",
+    "seoDescription": "Jesper De Jong superou Dane Sweeny por 2 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T23:11:47.978Z",
+    "createdAt": "2026-08-18T23:11:47.978Z",
+    "updatedAt": "2026-08-18T23:11:47.978Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816184",
+      "eventStartTime": "2026-08-18T21:33:43+00:00",
+      "retrievedAt": "2026-08-18T23:11:47.978Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4a61e8ef0899",
+    "slug": "riestra-e-gimnasia-la-plata-ficam-no-1-a-1-pela-copa-argentina-4a61e8",
+    "sportId": "futebol",
+    "title": "Riestra e Gimnasia La Plata ficam no 1 a 1 pela Copa Argentina",
+    "summary": "Riestra e Gimnasia La Plata empataram por 1 a 1 pela Copa Argentina.",
+    "content": "Riestra e Gimnasia La Plata empataram por 1 a 1 pela Copa Argentina, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-argentina"
+    ],
+    "seoTitle": "Riestra e Gimnasia La Plata ficam no 1 a 1 pela Copa Argentina",
+    "seoDescription": "Riestra e Gimnasia La Plata empataram por 1 a 1 pela Copa Argentina.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T23:11:47.960Z",
+    "createdAt": "2026-08-18T23:11:47.960Z",
+    "updatedAt": "2026-08-18T23:11:47.960Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4779134",
+      "eventStartTime": "2026-08-18T20:00:00+00:00",
+      "retrievedAt": "2026-08-18T23:11:47.960Z",
+      "feedId": "futebol",
+      "league": "Copa Argentina"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-1088013297bf",
     "slug": "roman-safiullin-vence-sebastian-ofner-por-2-a-0-em-cancun-108801",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T11:14:42.449Z",
       "feedId": "tenis",
       "league": "Astana"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-091c81787fa4",
-    "slug": "chemnitzer-fc-w-e-sf-bg-marburg-w-ficam-no-0-a-0-pelo-dfb-pokal-women-091c81",
-    "sportId": "futebol",
-    "title": "Chemnitzer FC (W) e SF BG Marburg (W) ficam no 0 a 0 pelo DFB Pokal Women",
-    "summary": "Chemnitzer FC (W) e SF BG Marburg (W) empataram por 0 a 0 pelo DFB Pokal Women.",
-    "content": "Chemnitzer FC (W) e SF BG Marburg (W) empataram por 0 a 0 pelo DFB Pokal Women, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "dfb-pokal-women"
-    ],
-    "seoTitle": "Chemnitzer FC (W) e SF BG Marburg (W) ficam no 0 a 0 pelo DFB Pokal",
-    "seoDescription": "Chemnitzer FC (W) e SF BG Marburg (W) empataram por 0 a 0 pelo DFB Pokal Women.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T11:14:42.367Z",
-    "createdAt": "2026-08-16T11:14:42.367Z",
-    "updatedAt": "2026-08-16T11:14:42.367Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4748266",
-      "eventStartTime": "2026-08-16T10:00:00+00:00",
-      "retrievedAt": "2026-08-16T11:14:42.367Z",
-      "feedId": "futebol",
-      "league": "DFB Pokal Women"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-aa4605b06e69",
-    "slug": "andrej-martin-vence-boris-arias-por-2-a-0-em-prague-aa4605",
-    "sportId": "tenis",
-    "title": "Andrej Martin vence Boris Arias por 2 a 0 em Prague",
-    "summary": "Andrej Martin superou Boris Arias por 2 a 0 em Prague.",
-    "content": "Andrej Martin superou Boris Arias por 2 a 0 em Prague., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Andrej Martin vence Boris Arias por 2 a 0 em Prague",
-    "seoDescription": "Andrej Martin superou Boris Arias por 2 a 0 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T10:57:20.508Z",
-    "createdAt": "2026-08-16T10:57:20.508Z",
-    "updatedAt": "2026-08-16T10:57:20.508Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815499",
-      "eventStartTime": "2026-08-16T09:40:30+00:00",
-      "retrievedAt": "2026-08-16T10:57:20.508Z",
-      "feedId": "tenis",
-      "league": "Prague"
     },
     "articleFormat": "result-brief"
   }
