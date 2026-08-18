@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-43db43b83b19",
+    "slug": "laslo-djere-vence-samuel-heredia-por-2-a-0-em-cancun-43db43",
+    "sportId": "tenis",
+    "title": "Laslo Djere vence Samuel Heredia por 2 a 0 em Cancun",
+    "summary": "Laslo Djere superou Samuel Heredia por 2 a 0 em Cancun.",
+    "content": "Laslo Djere superou Samuel Heredia por 2 a 0 em Cancun., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Laslo Djere vence Samuel Heredia por 2 a 0 em Cancun",
+    "seoDescription": "Laslo Djere superou Samuel Heredia por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T06:23:04.138Z",
+    "createdAt": "2026-08-18T06:23:04.138Z",
+    "updatedAt": "2026-08-18T06:23:04.138Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816160",
+      "eventStartTime": "2026-08-18T00:11:48+00:00",
+      "retrievedAt": "2026-08-18T06:23:04.138Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-76d3f39ce3e3",
+    "slug": "indiana-fever-vence-atlanta-dream-por-95-a-91-em-wnba-76d3f3",
+    "sportId": "basquete",
+    "title": "Indiana Fever vence Atlanta Dream por 95 a 91 em WNBA",
+    "summary": "Indiana Fever superou Atlanta Dream por 95 a 91 em WNBA.",
+    "content": "Indiana Fever superou Atlanta Dream por 95 a 91 em WNBA., em 16 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Indiana Fever vence Atlanta Dream por 95 a 91 em WNBA",
+    "seoDescription": "Indiana Fever superou Atlanta Dream por 95 a 91 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T06:23:04.132Z",
+    "createdAt": "2026-08-18T06:23:04.132Z",
+    "updatedAt": "2026-08-18T06:23:04.132Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659884",
+      "eventStartTime": "2026-08-16T21:00:00+00:00",
+      "retrievedAt": "2026-08-18T06:23:04.132Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2f7222a688b8",
+    "slug": "gimnasia-mendoza-supera-talleres-cordoba-por-3-a-1-pela-superliga-2f7222",
+    "sportId": "futebol",
+    "title": "Gimnasia Mendoza supera Talleres Cordoba por 3 a 1 pela Superliga",
+    "summary": "Gimnasia Mendoza venceu Talleres Cordoba por 3 a 1 pela Superliga.",
+    "content": "Gimnasia Mendoza venceu Talleres Cordoba por 3 a 1 pela Superliga, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "superliga"
+    ],
+    "seoTitle": "Gimnasia Mendoza supera Talleres Cordoba por 3 a 1 pela Superliga",
+    "seoDescription": "Gimnasia Mendoza venceu Talleres Cordoba por 3 a 1 pela Superliga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T06:23:04.093Z",
+    "createdAt": "2026-08-18T06:23:04.093Z",
+    "updatedAt": "2026-08-18T06:23:04.093Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4633372",
+      "eventStartTime": "2026-08-18T00:30:00+00:00",
+      "retrievedAt": "2026-08-18T06:23:04.093Z",
+      "feedId": "futebol",
+      "league": "Superliga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-03dd67a17e43",
     "slug": "alejandro-moro-canas-vence-felix-balshaw-por-2-a-0-em-cancun-03dd67",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-15T20:10:29.394Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6c5096da1e10",
-    "slug": "buffalo-bills-vence-carolina-panthers-por-29-a-14-em-nfl-6c5096",
-    "sportId": "futebol-americano",
-    "title": "Buffalo Bills vence Carolina Panthers por 29 a 14 em NFL",
-    "summary": "Buffalo Bills superou Carolina Panthers por 29 a 14 em NFL.",
-    "content": "Buffalo Bills superou Carolina Panthers por 29 a 14 em NFL., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "Buffalo Bills vence Carolina Panthers por 29 a 14 em NFL",
-    "seoDescription": "Buffalo Bills superou Carolina Panthers por 29 a 14 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T20:10:29.378Z",
-    "createdAt": "2026-08-15T20:10:29.378Z",
-    "updatedAt": "2026-08-15T20:10:29.378Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714908",
-      "eventStartTime": "2026-08-15T17:00:00+00:00",
-      "retrievedAt": "2026-08-15T20:10:29.378Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b5f399081c4e",
-    "slug": "rangers-de-talca-supera-magallanes-por-2-a-1-pelo-primera-b-b5f399",
-    "sportId": "futebol",
-    "title": "Rangers De Talca supera Magallanes por 2 a 1 pelo Primera B",
-    "summary": "Rangers De Talca venceu Magallanes por 2 a 1 pelo Primera B.",
-    "content": "Rangers De Talca venceu Magallanes por 2 a 1 pelo Primera B, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-b"
-    ],
-    "seoTitle": "Rangers De Talca supera Magallanes por 2 a 1 pelo Primera B",
-    "seoDescription": "Rangers De Talca venceu Magallanes por 2 a 1 pelo Primera B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T20:10:29.373Z",
-    "createdAt": "2026-08-15T20:10:29.373Z",
-    "updatedAt": "2026-08-15T20:10:29.373Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4656615",
-      "eventStartTime": "2026-08-15T19:00:00+00:00",
-      "retrievedAt": "2026-08-15T20:10:29.373Z",
-      "feedId": "futebol",
-      "league": "Primera B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-18aca6bfc56f",
-    "slug": "mcdonald-n-opitz-j-vence-ruehl-t-veldheer-m-por-2-a-0-em-hamburg-18aca6",
-    "sportId": "tenis",
-    "title": "McDonald N./Opitz J. vence Ruehl T./Veldheer M. por 2 a 0 em Hamburg",
-    "summary": "McDonald N./Opitz J. superou Ruehl T./Veldheer M. por 2 a 0 em Hamburg.",
-    "content": "McDonald N./Opitz J. superou Ruehl T./Veldheer M. por 2 a 0 em Hamburg., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "hamburg"
-    ],
-    "seoTitle": "McDonald N./Opitz J. vence Ruehl T./Veldheer M. por 2 a 0 em Hamburg",
-    "seoDescription": "McDonald N./Opitz J. superou Ruehl T./Veldheer M. por 2 a 0 em Hamburg.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T19:52:54.440Z",
-    "createdAt": "2026-08-15T19:52:54.440Z",
-    "updatedAt": "2026-08-15T19:52:54.440Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4812250",
-      "eventStartTime": "2026-08-14T14:26:55+00:00",
-      "retrievedAt": "2026-08-15T19:52:54.440Z",
-      "feedId": "tenis",
-      "league": "Hamburg"
     },
     "articleFormat": "result-brief"
   }
