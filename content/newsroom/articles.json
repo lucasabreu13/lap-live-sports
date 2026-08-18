@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-0175a6d1a38c",
+    "slug": "detroit-tigers-vence-pittsburgh-pirates-por-8-a-5-na-mlb-0175a6",
+    "sportId": "beisebol",
+    "title": "Detroit Tigers vence Pittsburgh Pirates por 8 a 5 na MLB",
+    "summary": "Detroit Tigers derrotou Pittsburgh Pirates por 8 a 5 na MLB.",
+    "content": "Detroit Tigers derrotou Pittsburgh Pirates por 8 a 5 na MLB, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Detroit Tigers vence Pittsburgh Pirates por 8 a 5 na MLB",
+    "seoDescription": "Detroit Tigers derrotou Pittsburgh Pirates por 8 a 5 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T20:11:25.318Z",
+    "createdAt": "2026-08-18T20:11:25.318Z",
+    "updatedAt": "2026-08-18T20:11:25.318Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614786",
+      "eventStartTime": "2026-08-17T23:05:00+00:00",
+      "retrievedAt": "2026-08-18T20:11:25.318Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3e2a04925326",
+    "slug": "pedro-martinez-vence-evan-zhu-por-2-a-0-em-kingston-3e2a04",
+    "sportId": "tenis",
+    "title": "Pedro Martinez vence Evan Zhu por 2 a 0 em Kingston",
+    "summary": "Pedro Martinez superou Evan Zhu por 2 a 0 em Kingston.",
+    "content": "Pedro Martinez superou Evan Zhu por 2 a 0 em Kingston., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Pedro Martinez vence Evan Zhu por 2 a 0 em Kingston",
+    "seoDescription": "Pedro Martinez superou Evan Zhu por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T20:11:25.303Z",
+    "createdAt": "2026-08-18T20:11:25.303Z",
+    "updatedAt": "2026-08-18T20:11:25.303Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816755",
+      "eventStartTime": "2026-08-18T17:55:53+00:00",
+      "retrievedAt": "2026-08-18T20:11:25.303Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-da3b965a32ec",
+    "slug": "ourense-cf-supera-arenteiro-por-2-a-1-pelo-club-friendlies-da3b96",
+    "sportId": "futebol",
+    "title": "Ourense CF supera Arenteiro por 2 a 1 pelo Club Friendlies",
+    "summary": "Ourense CF venceu Arenteiro por 2 a 1 pelo Club Friendlies.",
+    "content": "Ourense CF venceu Arenteiro por 2 a 1 pelo Club Friendlies, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Ourense CF supera Arenteiro por 2 a 1 pelo Club Friendlies",
+    "seoDescription": "Ourense CF venceu Arenteiro por 2 a 1 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T20:11:25.285Z",
+    "createdAt": "2026-08-18T20:11:25.285Z",
+    "updatedAt": "2026-08-18T20:11:25.285Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817231",
+      "eventStartTime": "2026-08-18T18:00:00+00:00",
+      "retrievedAt": "2026-08-18T20:11:25.285Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3bf53b125501",
     "slug": "otto-virtanen-e-yibing-wu-empatam-por-0-a-0-em-cancun-3bf53b",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-16T06:21:03.680Z",
       "feedId": "tenis",
       "league": "Hamburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ee9b74531c0c",
-    "slug": "aguada-w-vence-urunday-universitario-w-por-73-a-57-em-lfb-w-ee9b74",
-    "sportId": "basquete",
-    "title": "Aguada (W) vence Urunday Universitario (W) por 73 a 57 em LFB (W)",
-    "summary": "Aguada (W) superou Urunday Universitario (W) por 73 a 57 em LFB (W).",
-    "content": "Aguada (W) superou Urunday Universitario (W) por 73 a 57 em LFB (W)., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lfb-w"
-    ],
-    "seoTitle": "Aguada (W) vence Urunday Universitario (W) por 73 a 57 em LFB (W)",
-    "seoDescription": "Aguada (W) superou Urunday Universitario (W) por 73 a 57 em LFB (W).",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T06:21:03.639Z",
-    "createdAt": "2026-08-16T06:21:03.639Z",
-    "updatedAt": "2026-08-16T06:21:03.639Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813621",
-      "eventStartTime": "2026-08-15T23:30:00+00:00",
-      "retrievedAt": "2026-08-16T06:21:03.639Z",
-      "feedId": "basquete",
-      "league": "LFB (W)"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9531f4922d6c",
-    "slug": "sacramento-republic-supera-lexington-por-1-a-0-pela-usl-championship-9531f4",
-    "sportId": "futebol",
-    "title": "Sacramento Republic supera Lexington por 1 a 0 pela USL Championship",
-    "summary": "Sacramento Republic venceu Lexington por 1 a 0 pela USL Championship.",
-    "content": "Sacramento Republic venceu Lexington por 1 a 0 pela USL Championship, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "usl-championship"
-    ],
-    "seoTitle": "Sacramento Republic supera Lexington por 1 a 0 pela USL Championship",
-    "seoDescription": "Sacramento Republic venceu Lexington por 1 a 0 pela USL Championship.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T06:21:03.621Z",
-    "createdAt": "2026-08-16T06:21:03.621Z",
-    "updatedAt": "2026-08-16T06:21:03.621Z",
-    "homepagePriority": 82,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4634135",
-      "eventStartTime": "2026-08-16T03:00:00+00:00",
-      "retrievedAt": "2026-08-16T06:21:03.621Z",
-      "feedId": "futebol",
-      "league": "USL Championship"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e12fc780290d",
-    "slug": "soles-de-mexicali-vence-santos-de-san-luis-por-84-a-75-em-lnbp-e12fc7",
-    "sportId": "basquete",
-    "title": "Soles De Mexicali vence Santos De San Luis por 84 a 75 em LNBP",
-    "summary": "Soles De Mexicali superou Santos De San Luis por 84 a 75 em LNBP.",
-    "content": "Soles De Mexicali superou Santos De San Luis por 84 a 75 em LNBP., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnbp"
-    ],
-    "seoTitle": "Soles De Mexicali vence Santos De San Luis por 84 a 75 em LNBP",
-    "seoDescription": "Soles De Mexicali superou Santos De San Luis por 84 a 75 em LNBP.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T05:54:34.909Z",
-    "createdAt": "2026-08-16T05:54:34.909Z",
-    "updatedAt": "2026-08-16T05:54:34.909Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4707869",
-      "eventStartTime": "2026-08-16T01:00:00+00:00",
-      "retrievedAt": "2026-08-16T05:54:34.909Z",
-      "feedId": "basquete",
-      "league": "LNBP"
     },
     "articleFormat": "result-brief"
   }
