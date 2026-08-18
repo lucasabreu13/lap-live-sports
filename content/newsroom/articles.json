@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-c24cbefe2e9c",
+    "slug": "jeffrey-von-der-schulenburg-vence-georgii-kravchenko-por-2-a-0-em-sion-c24cbe",
+    "sportId": "tenis",
+    "title": "Jeffrey Von Der Schulenburg vence Georgii Kravchenko por 2 a 0 em Sion",
+    "summary": "Jeffrey Von Der Schulenburg superou Georgii Kravchenko por 2 a 0 em Sion.",
+    "content": "Jeffrey Von Der Schulenburg superou Georgii Kravchenko por 2 a 0 em Sion., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Jeffrey Von Der Schulenburg vence Georgii Kravchenko por 2 a 0 em Sion",
+    "seoDescription": "Jeffrey Von Der Schulenburg superou Georgii Kravchenko por 2 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T15:54:26.521Z",
+    "createdAt": "2026-08-18T15:54:26.521Z",
+    "updatedAt": "2026-08-18T15:54:26.521Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815643",
+      "eventStartTime": "2026-08-18T14:03:37+00:00",
+      "retrievedAt": "2026-08-18T15:54:26.521Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c9f8f12136c8",
+    "slug": "topolcany-e-banik-lehota-p-vtacnikom-ficam-no-0-a-0-pelo-slovakia-cup-c9f8f1",
+    "sportId": "futebol",
+    "title": "Topoľčany e Baník Lehota P.Vtáčnikom ficam no 0 a 0 pelo Slovakia Cup",
+    "summary": "Topoľčany e Baník Lehota P.Vtáčnikom empataram por 0 a 0 pelo Slovakia Cup.",
+    "content": "Topoľčany e Baník Lehota P.Vtáčnikom empataram por 0 a 0 pelo Slovakia Cup, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "slovakia-cup"
+    ],
+    "seoTitle": "Topoľčany e Baník Lehota P.Vtáčnikom ficam no 0 a 0 pelo Slovakia Cup",
+    "seoDescription": "Topoľčany e Baník Lehota P.Vtáčnikom empataram por 0 a 0 pelo Slovakia Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T15:54:26.502Z",
+    "createdAt": "2026-08-18T15:54:26.502Z",
+    "updatedAt": "2026-08-18T15:54:26.502Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4801979",
+      "eventStartTime": "2026-08-18T15:00:00+00:00",
+      "retrievedAt": "2026-08-18T15:54:26.502Z",
+      "feedId": "futebol",
+      "league": "Slovakia Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-9f5bde0cc603",
     "slug": "seibu-lions-vence-orix-buffaloes-por-7-a-4-na-npb-9f5bde",
     "sportId": "beisebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T03:10:52.907Z",
       "feedId": "basquete",
       "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b538c14b9fda",
-    "slug": "dallas-cowboys-vence-seattle-seahawks-por-17-a-7-em-nfl-b538c1",
-    "sportId": "futebol-americano",
-    "title": "Dallas Cowboys vence Seattle Seahawks por 17 a 7 em NFL",
-    "summary": "Dallas Cowboys superou Seattle Seahawks por 17 a 7 em NFL.",
-    "content": "Dallas Cowboys superou Seattle Seahawks por 17 a 7 em NFL., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NFL",
-    "tags": [
-      "nfl",
-      "resultado",
-      "nfl"
-    ],
-    "seoTitle": "Dallas Cowboys vence Seattle Seahawks por 17 a 7 em NFL",
-    "seoDescription": "Dallas Cowboys superou Seattle Seahawks por 17 a 7 em NFL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T03:10:52.899Z",
-    "createdAt": "2026-08-16T03:10:52.899Z",
-    "updatedAt": "2026-08-16T03:10:52.899Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol-americano",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4714916",
-      "eventStartTime": "2026-08-16T00:00:00+00:00",
-      "retrievedAt": "2026-08-16T03:10:52.899Z",
-      "feedId": "futebol-americano",
-      "league": "NFL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2716aef392d6",
-    "slug": "cucuta-deportivo-e-aguilas-doradas-ficam-no-0-a-0-pelo-primera-a-2716ae",
-    "sportId": "futebol",
-    "title": "Cucuta Deportivo e Águilas Doradas ficam no 0 a 0 pelo Primera A",
-    "summary": "Cucuta Deportivo e Águilas Doradas empataram por 0 a 0 pelo Primera A.",
-    "content": "Cucuta Deportivo e Águilas Doradas empataram por 0 a 0 pelo Primera A, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-a"
-    ],
-    "seoTitle": "Cucuta Deportivo e Águilas Doradas ficam no 0 a 0 pelo Primera A",
-    "seoDescription": "Cucuta Deportivo e Águilas Doradas empataram por 0 a 0 pelo Primera A.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T03:10:52.896Z",
-    "createdAt": "2026-08-16T03:10:52.896Z",
-    "updatedAt": "2026-08-16T03:10:52.896Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732055",
-      "eventStartTime": "2026-08-16T01:10:00+00:00",
-      "retrievedAt": "2026-08-16T03:10:52.896Z",
-      "feedId": "futebol",
-      "league": "Primera A"
     },
     "articleFormat": "result-brief"
   }
