@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-03dd67a17e43",
+    "slug": "alejandro-moro-canas-vence-felix-balshaw-por-2-a-0-em-cancun-03dd67",
+    "sportId": "tenis",
+    "title": "Alejandro Moro Canas vence Felix Balshaw por 2 a 0 em Cancun",
+    "summary": "Alejandro Moro Canas superou Felix Balshaw por 2 a 0 em Cancun.",
+    "content": "Alejandro Moro Canas superou Felix Balshaw por 2 a 0 em Cancun., em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Alejandro Moro Canas vence Felix Balshaw por 2 a 0 em Cancun",
+    "seoDescription": "Alejandro Moro Canas superou Felix Balshaw por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T05:55:06.646Z",
+    "createdAt": "2026-08-18T05:55:06.646Z",
+    "updatedAt": "2026-08-18T05:55:06.646Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816159",
+      "eventStartTime": "2026-08-18T00:53:00+00:00",
+      "retrievedAt": "2026-08-18T05:55:06.646Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-6fca973aa8c6",
+    "slug": "pitbulls-santa-barbara-fc-supera-cs-uruguay-por-2-a-1-pela-liga-de-ascenso-6fca97",
+    "sportId": "futebol",
+    "title": "Pitbulls Santa Bárbara FC supera CS Uruguay por 2 a 1 pela Liga de Ascenso",
+    "summary": "Pitbulls Santa Bárbara FC venceu CS Uruguay por 2 a 1 pela Liga de Ascenso.",
+    "content": "Pitbulls Santa Bárbara FC venceu CS Uruguay por 2 a 1 pela Liga de Ascenso, em 17 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": null,
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Pitbulls Santa Bárbara FC supera CS Uruguay por 2 a 1 pela Liga de",
+    "seoDescription": "Pitbulls Santa Bárbara FC venceu CS Uruguay por 2 a 1 pela Liga de Ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-18T05:55:06.599Z",
+    "createdAt": "2026-08-18T05:55:06.599Z",
+    "updatedAt": "2026-08-18T05:55:06.599Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4795192",
+      "eventStartTime": "2026-08-18T01:00:00+00:00",
+      "retrievedAt": "2026-08-18T05:55:06.599Z",
+      "feedId": "futebol",
+      "league": "Liga de Ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-eb11e38246a1",
     "slug": "amanda-anisimova-vence-alexandra-eala-por-2-a-1-em-cincinnati-eb11e3",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-15T19:52:54.440Z",
       "feedId": "tenis",
       "league": "Hamburg"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b6b279378951",
-    "slug": "indiana-fever-vence-dallas-wings-por-98-a-87-em-wnba-b6b279",
-    "sportId": "basquete",
-    "title": "Indiana Fever vence Dallas Wings por 98 a 87 em WNBA",
-    "summary": "Indiana Fever superou Dallas Wings por 98 a 87 em WNBA.",
-    "content": "Indiana Fever superou Dallas Wings por 98 a 87 em WNBA., em 14 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "Indiana Fever vence Dallas Wings por 98 a 87 em WNBA",
-    "seoDescription": "Indiana Fever superou Dallas Wings por 98 a 87 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T19:52:54.381Z",
-    "createdAt": "2026-08-15T19:52:54.381Z",
-    "updatedAt": "2026-08-15T19:52:54.381Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659878",
-      "eventStartTime": "2026-08-14T23:30:00+00:00",
-      "retrievedAt": "2026-08-15T19:52:54.381Z",
-      "feedId": "basquete",
-      "league": "WNBA"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-62b4dd06f4e6",
-    "slug": "santiago-city-e-brujas-salamanca-ficam-no-0-a-0-pela-liga-de-segunda-62b4dd",
-    "sportId": "futebol",
-    "title": "Santiago City e Brujas Salamanca ficam no 0 a 0 pela Liga de Segunda",
-    "summary": "Santiago City e Brujas Salamanca empataram por 0 a 0 pela Liga de Segunda.",
-    "content": "Santiago City e Brujas Salamanca empataram por 0 a 0 pela Liga de Segunda, em 15 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": null,
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-de-segunda"
-    ],
-    "seoTitle": "Santiago City e Brujas Salamanca ficam no 0 a 0 pela Liga de Segunda",
-    "seoDescription": "Santiago City e Brujas Salamanca empataram por 0 a 0 pela Liga de Segunda.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-15T19:52:54.368Z",
-    "createdAt": "2026-08-15T19:52:54.368Z",
-    "updatedAt": "2026-08-15T19:52:54.368Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4784921",
-      "eventStartTime": "2026-08-15T19:00:00+00:00",
-      "retrievedAt": "2026-08-15T19:52:54.368Z",
-      "feedId": "futebol",
-      "league": "Liga de Segunda"
     },
     "articleFormat": "result-brief"
   }
