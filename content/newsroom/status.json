@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-08-18T09:00:35.034Z",
-  "commit": "aaa4d1259b9a2bca62efd8c9434179df82665c5d",
-  "runId": "32119282815",
+  "validatedAt": "2026-08-18T09:46:30.725Z",
+  "commit": "322b3d2be663f7df981a4c56ce4d7db77b9e09c0",
+  "runId": "32123318193",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -20,11 +20,11 @@
     "curatedArticles": 25,
     "curatedFiles": 5,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-08-18T09:00:34.748Z",
+    "lastPublishedAt": "2026-08-18T09:46:30.360Z",
     "lastPublishedBySport": {
-      "futebol": "2026-08-18T09:00:34.713Z",
+      "futebol": "2026-08-18T09:46:30.325Z",
       "futebol-americano": "2026-08-16T03:10:52.899Z",
-      "tenis": "2026-08-18T09:00:34.748Z",
+      "tenis": "2026-08-18T09:46:30.360Z",
       "ciclismo": null,
       "formula1": null,
       "basquete": "2026-08-18T06:23:04.132Z",
@@ -40,17 +40,17 @@
         "futebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-18T09:00:34.713Z"
+          "lastPublishedAt": "2026-08-18T09:46:30.325Z"
         },
         "futebol-americano": {
           "status": "critical",
-          "ageHours": 53.8,
+          "ageHours": 54.6,
           "lastPublishedAt": "2026-08-16T03:10:52.899Z"
         },
         "tenis": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-18T09:00:34.748Z"
+          "lastPublishedAt": "2026-08-18T09:46:30.360Z"
         },
         "ciclismo": {
           "status": "critical",
@@ -64,12 +64,12 @@
         },
         "basquete": {
           "status": "ok",
-          "ageHours": 2.6,
+          "ageHours": 3.4,
           "lastPublishedAt": "2026-08-18T06:23:04.132Z"
         },
         "beisebol": {
           "status": "ok",
-          "ageHours": 0.6,
+          "ageHours": 1.4,
           "lastPublishedAt": "2026-08-18T08:22:33.654Z"
         },
         "golfe": {
