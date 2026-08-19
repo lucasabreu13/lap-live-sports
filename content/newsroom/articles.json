@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-430467f9def7",
+    "slug": "coleman-wong-vence-alexandre-muller-por-2-a-0-em-cancun-430467",
+    "sportId": "tenis",
+    "title": "Coleman Wong vence Alexandre Muller por 2 a 0 em Cancun",
+    "summary": "Coleman Wong superou Alexandre Muller por 2 a 0 em Cancun.",
+    "content": "Coleman Wong superou Alexandre Muller por 2 a 0 em Cancun., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Coleman Wong vence Alexandre Muller por 2 a 0 em Cancun",
+    "seoDescription": "Coleman Wong superou Alexandre Muller por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T23:19:42.585Z",
+    "createdAt": "2026-08-19T23:19:42.585Z",
+    "updatedAt": "2026-08-19T23:19:42.585Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816195",
+      "eventStartTime": "2026-08-19T21:14:25+00:00",
+      "retrievedAt": "2026-08-19T23:19:42.585Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3f19e3ccf523",
+    "slug": "ec-pelotas-e-gloria-de-vacaria-ficam-no-0-a-0-pelo-gaucho-a2-3f19e3",
+    "sportId": "futebol",
+    "title": "EC Pelotas e Glória de Vacaria ficam no 0 a 0 pelo Gaucho A2",
+    "summary": "EC Pelotas e Glória de Vacaria empataram por 0 a 0 pelo Gaucho A2.",
+    "content": "EC Pelotas e Glória de Vacaria empataram por 0 a 0 pelo Gaucho A2, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "gaucho-a2"
+    ],
+    "seoTitle": "EC Pelotas e Glória de Vacaria ficam no 0 a 0 pelo Gaucho A2",
+    "seoDescription": "EC Pelotas e Glória de Vacaria empataram por 0 a 0 pelo Gaucho A2.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T23:19:42.558Z",
+    "createdAt": "2026-08-19T23:19:42.558Z",
+    "updatedAt": "2026-08-19T23:19:42.558Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4762509",
+      "eventStartTime": "2026-08-19T22:30:00+00:00",
+      "retrievedAt": "2026-08-19T23:19:42.558Z",
+      "feedId": "futebol",
+      "league": "Gaucho A2"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-bf5caf78fa13",
     "slug": "falck-r-suarez-b-vence-ficovich-j-p-huertas-del-pino-cordova-a-por-2-a-1-em-kingst-bf5caf",
     "sportId": "tenis",
@@ -12510,90 +12594,6 @@
       "eventId": "365-4815108",
       "eventStartTime": "2026-08-16T15:11:41+00:00",
       "retrievedAt": "2026-08-17T05:57:02.000Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e9b2e028e95c",
-    "slug": "st-louis-city-ii-supera-the-town-fc-por-2-a-0-pelo-mls-next-pro-e9b2e0",
-    "sportId": "futebol",
-    "title": "St. Louis City II supera The Town FC por 2 a 0 pela MLS Next Pro",
-    "summary": "St. Louis City II venceu The Town FC por 2 a 0 pela MLS Next Pro.",
-    "content": "St. Louis City II venceu The Town FC por 2 a 0 pela MLS Next Pro, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls-next-pro"
-    ],
-    "seoTitle": "St. Louis City II supera The Town FC por 2 a 0 pela MLS Next Pro",
-    "seoDescription": "St. Louis City II venceu The Town FC por 2 a 0 pela MLS Next Pro.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T05:57:01.929Z",
-    "createdAt": "2026-08-17T05:57:01.929Z",
-    "updatedAt": "2026-08-17T05:57:01.929Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659126",
-      "eventStartTime": "2026-08-17T02:30:00+00:00",
-      "retrievedAt": "2026-08-17T05:57:01.929Z",
-      "feedId": "futebol",
-      "league": "MLS Next Pro"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-34f361b60bff",
-    "slug": "xin-yu-wang-vence-donna-vekic-por-2-a-1-em-cincinnati-34f361",
-    "sportId": "tenis",
-    "title": "Xin-Yu Wang vence Donna Vekic por 2 a 1 em Cincinnati",
-    "summary": "Xin-Yu Wang superou Donna Vekic por 2 a 1 em Cincinnati.",
-    "content": "Xin-Yu Wang superou Donna Vekic por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Xin-Yu Wang vence Donna Vekic por 2 a 1 em Cincinnati",
-    "seoDescription": "Xin-Yu Wang superou Donna Vekic por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T05:20:09.786Z",
-    "createdAt": "2026-08-17T05:20:09.786Z",
-    "updatedAt": "2026-08-17T05:20:09.786Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815098",
-      "eventStartTime": "2026-08-16T15:10:08+00:00",
-      "retrievedAt": "2026-08-17T05:20:09.786Z",
       "feedId": "tenis",
       "league": "Cincinnati"
     },
