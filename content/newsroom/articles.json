@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-6ed96ade2ea2",
+    "slug": "sultanes-de-monterrey-vence-caliente-de-durango-por-6-a-2-na-lmb-6ed96a",
+    "sportId": "beisebol",
+    "title": "Sultanes de Monterrey vence Caliente de Durango por 6 a 2 na LMB",
+    "summary": "Sultanes de Monterrey derrotou Caliente de Durango por 6 a 2 na LMB.",
+    "content": "Sultanes de Monterrey derrotou Caliente de Durango por 6 a 2 na LMB, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "lmb"
+    ],
+    "seoTitle": "Sultanes de Monterrey vence Caliente de Durango por 6 a 2 na LMB",
+    "seoDescription": "Sultanes de Monterrey derrotou Caliente de Durango por 6 a 2 na LMB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T05:43:53.319Z",
+    "createdAt": "2026-08-19T05:43:53.319Z",
+    "updatedAt": "2026-08-19T05:43:53.319Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816776",
+      "eventStartTime": "2026-08-19T01:30:00+00:00",
+      "retrievedAt": "2026-08-19T05:43:53.319Z",
+      "feedId": "beisebol",
+      "league": "LMB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4f85204bc171",
+    "slug": "rojer-j-j-winegar-t-vence-alex-hernandez-rodrigo-pacheco-mendez-por-2-a-0-em-cancu-4f8520",
+    "sportId": "tenis",
+    "title": "Rojer J-J./Winegar T. vence Alex Hernandez / Rodrigo Pacheco Mendez por 2 a 0 em Cancun",
+    "summary": "Rojer J-J./Winegar T. superou Alex Hernandez / Rodrigo Pacheco Mendez por 2 a 0 em Cancun.",
+    "content": "Rojer J-J./Winegar T. superou Alex Hernandez / Rodrigo Pacheco Mendez por 2 a 0 em Cancun., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Rojer J-J./Winegar T. vence Alex Hernandez / Rodrigo Pacheco Mendez",
+    "seoDescription": "Rojer J-J./Winegar T. superou Alex Hernandez / Rodrigo Pacheco Mendez por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T05:43:53.316Z",
+    "createdAt": "2026-08-19T05:43:53.316Z",
+    "updatedAt": "2026-08-19T05:43:53.316Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817024",
+      "eventStartTime": "2026-08-19T04:24:12+00:00",
+      "retrievedAt": "2026-08-19T05:43:53.316Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f2d02a8f4a91",
+    "slug": "connecticut-sun-vence-los-angeles-sparks-por-85-a-77-em-wnba-f2d02a",
+    "sportId": "basquete",
+    "title": "Connecticut Sun vence Los Angeles Sparks por 85 a 77 em WNBA",
+    "summary": "Connecticut Sun superou Los Angeles Sparks por 85 a 77 em WNBA.",
+    "content": "Connecticut Sun superou Los Angeles Sparks por 85 a 77 em WNBA., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Connecticut Sun vence Los Angeles Sparks por 85 a 77 em WNBA",
+    "seoDescription": "Connecticut Sun superou Los Angeles Sparks por 85 a 77 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T05:43:53.312Z",
+    "createdAt": "2026-08-19T05:43:53.312Z",
+    "updatedAt": "2026-08-19T05:43:53.312Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659887",
+      "eventStartTime": "2026-08-18T23:00:00+00:00",
+      "retrievedAt": "2026-08-19T05:43:53.312Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-cb08e9029253",
+    "slug": "auckland-city-supera-rewa-por-3-a-1-pela-ofc-champions-league-cb08e9",
+    "sportId": "futebol",
+    "title": "Auckland City supera Rewa por 3 a 1 pela OFC Champions League",
+    "summary": "Auckland City venceu Rewa por 3 a 1 pela OFC Champions League.",
+    "content": "Auckland City venceu Rewa por 3 a 1 pela OFC Champions League, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ofc-champions-league"
+    ],
+    "seoTitle": "Auckland City supera Rewa por 3 a 1 pela OFC Champions League",
+    "seoDescription": "Auckland City venceu Rewa por 3 a 1 pela OFC Champions League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T05:43:53.298Z",
+    "createdAt": "2026-08-19T05:43:53.298Z",
+    "updatedAt": "2026-08-19T05:43:53.298Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815481",
+      "eventStartTime": "2026-08-19T03:00:00+00:00",
+      "retrievedAt": "2026-08-19T05:43:53.298Z",
+      "feedId": "futebol",
+      "league": "OFC Champions League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-cd4527fe38be",
     "slug": "toronto-blue-jays-vence-tampa-bay-rays-por-10-a-5-na-mlb-cd4527",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-16T17:11:04.155Z",
       "feedId": "tenis",
       "league": "Roehampton"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d2074c98d997",
-    "slug": "sloga-doboj-e-borac-banjaluka-ficam-no-0-a-0-pela-premier-league-d2074c",
-    "sportId": "futebol",
-    "title": "Sloga Doboj e Borac Banjaluka ficam no 0 a 0 pela Premier League",
-    "summary": "Sloga Doboj e Borac Banjaluka empataram por 0 a 0 pela Premier League.",
-    "content": "Sloga Doboj e Borac Banjaluka empataram por 0 a 0 pela Premier League, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "premier-league"
-    ],
-    "seoTitle": "Sloga Doboj e Borac Banjaluka ficam no 0 a 0 pela Premier League",
-    "seoDescription": "Sloga Doboj e Borac Banjaluka empataram por 0 a 0 pela Premier League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T17:11:04.130Z",
-    "createdAt": "2026-08-16T17:11:04.130Z",
-    "updatedAt": "2026-08-16T17:11:04.130Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4761981",
-      "eventStartTime": "2026-08-16T17:00:00+00:00",
-      "retrievedAt": "2026-08-16T17:11:04.130Z",
-      "feedId": "futebol",
-      "league": "Premier League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5fd419788fc5",
-    "slug": "aidan-kim-vence-richard-mallory-por-2-a-0-em-kingston-5fd419",
-    "sportId": "tenis",
-    "title": "Aidan Kim vence Richard Mallory por 2 a 0 em Kingston",
-    "summary": "Aidan Kim superou Richard Mallory por 2 a 0 em Kingston.",
-    "content": "Aidan Kim superou Richard Mallory por 2 a 0 em Kingston., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Aidan Kim vence Richard Mallory por 2 a 0 em Kingston",
-    "seoDescription": "Aidan Kim superou Richard Mallory por 2 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T16:47:35.237Z",
-    "createdAt": "2026-08-16T16:47:35.237Z",
-    "updatedAt": "2026-08-16T16:47:35.237Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815613",
-      "eventStartTime": "2026-08-16T15:11:04+00:00",
-      "retrievedAt": "2026-08-16T16:47:35.237Z",
-      "feedId": "tenis",
-      "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b64e1bd9bb57",
-    "slug": "hodos-e-nk-tromejnik-ficam-no-0-a-0-pelo-hervis-pokal-b64e1b",
-    "sportId": "futebol",
-    "title": "Hodoš e NK Tromejnik ficam no 0 a 0 pelo Hervis Pokal",
-    "summary": "Hodoš e NK Tromejnik empataram por 0 a 0 pelo Hervis Pokal.",
-    "content": "Hodoš e NK Tromejnik empataram por 0 a 0 pelo Hervis Pokal, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "hervis-pokal"
-    ],
-    "seoTitle": "Hodoš e NK Tromejnik ficam no 0 a 0 pelo Hervis Pokal",
-    "seoDescription": "Hodoš e NK Tromejnik empataram por 0 a 0 pelo Hervis Pokal.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T16:47:35.207Z",
-    "createdAt": "2026-08-16T16:47:35.207Z",
-    "updatedAt": "2026-08-16T16:47:35.207Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811621",
-      "eventStartTime": "2026-08-16T15:30:00+00:00",
-      "retrievedAt": "2026-08-16T16:47:35.207Z",
-      "feedId": "futebol",
-      "league": "Hervis Pokal"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-57007a998084",
-    "slug": "nino-ehrenschneider-vence-christopher-papa-por-2-a-0-em-sion-57007a",
-    "sportId": "tenis",
-    "title": "Nino Ehrenschneider vence Christopher Papa por 2 a 0 em Sion",
-    "summary": "Nino Ehrenschneider superou Christopher Papa por 2 a 0 em Sion.",
-    "content": "Nino Ehrenschneider superou Christopher Papa por 2 a 0 em Sion., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Nino Ehrenschneider vence Christopher Papa por 2 a 0 em Sion",
-    "seoDescription": "Nino Ehrenschneider superou Christopher Papa por 2 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T16:16:01.726Z",
-    "createdAt": "2026-08-16T16:16:01.726Z",
-    "updatedAt": "2026-08-16T16:16:01.726Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815608",
-      "eventStartTime": "2026-08-16T13:50:33+00:00",
-      "retrievedAt": "2026-08-16T16:16:01.726Z",
-      "feedId": "tenis",
-      "league": "Sion"
     },
     "articleFormat": "result-brief"
   }
