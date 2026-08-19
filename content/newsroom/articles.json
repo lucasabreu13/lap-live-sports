@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-8dd403ed25e9",
+    "slug": "papa-c-zheng-b-vence-genov-a-wehnelt-k-por-2-a-1-em-sion-8dd403",
+    "sportId": "tenis",
+    "title": "Papa C./Zheng B. vence Genov A./Wehnelt K. por 2 a 1 em Sion",
+    "summary": "Papa C./Zheng B. superou Genov A./Wehnelt K. por 2 a 1 em Sion.",
+    "content": "Papa C./Zheng B. superou Genov A./Wehnelt K. por 2 a 1 em Sion., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Papa C./Zheng B. vence Genov A./Wehnelt K. por 2 a 1 em Sion",
+    "seoDescription": "Papa C./Zheng B. superou Genov A./Wehnelt K. por 2 a 1 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T10:52:15.117Z",
+    "createdAt": "2026-08-19T10:52:15.117Z",
+    "updatedAt": "2026-08-19T10:52:15.117Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815580",
+      "eventStartTime": "2026-08-19T09:11:08+00:00",
+      "retrievedAt": "2026-08-19T10:52:15.117Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d467c0ee3ed7",
+    "slug": "mio-biwako-shiga-e-japan-soccer-college-ficam-no-0-a-0-pelo-emperors-cup-d467c0",
+    "sportId": "futebol",
+    "title": "MIO Biwako Shiga e Japan Soccer College ficam no 0 a 0 pelo Emperors Cup",
+    "summary": "MIO Biwako Shiga e Japan Soccer College empataram por 0 a 0 pelo Emperors Cup.",
+    "content": "MIO Biwako Shiga e Japan Soccer College empataram por 0 a 0 pelo Emperors Cup, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "emperors-cup"
+    ],
+    "seoTitle": "MIO Biwako Shiga e Japan Soccer College ficam no 0 a 0 pelo Emperors",
+    "seoDescription": "MIO Biwako Shiga e Japan Soccer College empataram por 0 a 0 pelo Emperors Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T10:52:15.092Z",
+    "createdAt": "2026-08-19T10:52:15.092Z",
+    "updatedAt": "2026-08-19T10:52:15.092Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4804056",
+      "eventStartTime": "2026-08-19T10:00:00+00:00",
+      "retrievedAt": "2026-08-19T10:52:15.092Z",
+      "feedId": "futebol",
+      "league": "Emperors Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-07e39cac1ae9",
     "slug": "ribeiro-e-soto-m-vence-j-paul-m-vocel-por-2-a-0-em-prague-07e39c",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T20:35:32.400Z",
       "feedId": "futebol",
       "league": "Liga 3"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1a2281d7b789",
-    "slug": "evan-zhu-vence-tauheed-browning-por-2-a-0-em-kingston-1a2281",
-    "sportId": "tenis",
-    "title": "Evan Zhu vence Tauheed Browning por 2 a 0 em Kingston",
-    "summary": "Evan Zhu superou Tauheed Browning por 2 a 0 em Kingston.",
-    "content": "Evan Zhu superou Tauheed Browning por 2 a 0 em Kingston., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Evan Zhu vence Tauheed Browning por 2 a 0 em Kingston",
-    "seoDescription": "Evan Zhu superou Tauheed Browning por 2 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T20:09:26.928Z",
-    "createdAt": "2026-08-16T20:09:26.928Z",
-    "updatedAt": "2026-08-16T20:09:26.928Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815618",
-      "eventStartTime": "2026-08-16T17:18:13+00:00",
-      "retrievedAt": "2026-08-16T20:09:26.928Z",
-      "feedId": "tenis",
-      "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-36e9dcb068f5",
-    "slug": "envigado-fc-e-internacional-fc-ficam-no-0-a-0-pelo-primera-b-36e9dc",
-    "sportId": "futebol",
-    "title": "Envigado FC e Internacional FC ficam no 0 a 0 pelo Primera B",
-    "summary": "Envigado FC e Internacional FC empataram por 0 a 0 pelo Primera B.",
-    "content": "Envigado FC e Internacional FC empataram por 0 a 0 pelo Primera B, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-b"
-    ],
-    "seoTitle": "Envigado FC e Internacional FC ficam no 0 a 0 pelo Primera B",
-    "seoDescription": "Envigado FC e Internacional FC empataram por 0 a 0 pelo Primera B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T20:09:26.884Z",
-    "createdAt": "2026-08-16T20:09:26.884Z",
-    "updatedAt": "2026-08-16T20:09:26.884Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732176",
-      "eventStartTime": "2026-08-16T20:00:00+00:00",
-      "retrievedAt": "2026-08-16T20:09:26.884Z",
-      "feedId": "futebol",
-      "league": "Primera B"
     },
     "articleFormat": "result-brief"
   }
