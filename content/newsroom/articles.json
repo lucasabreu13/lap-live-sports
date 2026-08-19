@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-01489f18b79b",
+    "slug": "new-york-yankees-vence-baltimore-orioles-por-3-a-1-na-mlb-01489f",
+    "sportId": "beisebol",
+    "title": "New York Yankees vence Baltimore Orioles por 3 a 1 na MLB",
+    "summary": "New York Yankees derrotou Baltimore Orioles por 3 a 1 na MLB.",
+    "content": "New York Yankees derrotou Baltimore Orioles por 3 a 1 na MLB, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "New York Yankees vence Baltimore Orioles por 3 a 1 na MLB",
+    "seoDescription": "New York Yankees derrotou Baltimore Orioles por 3 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T07:02:51.494Z",
+    "createdAt": "2026-08-19T07:02:51.494Z",
+    "updatedAt": "2026-08-19T07:02:51.494Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614770",
+      "eventStartTime": "2026-08-18T22:35:00+00:00",
+      "retrievedAt": "2026-08-19T07:02:51.494Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1dbd648fd826",
+    "slug": "alexei-popyrin-vence-francesco-maestrelli-por-2-a-0-em-quebec-city-1dbd64",
+    "sportId": "tenis",
+    "title": "Alexei Popyrin vence Francesco Maestrelli por 2 a 0 em Quebec City",
+    "summary": "Alexei Popyrin superou Francesco Maestrelli por 2 a 0 em Quebec City.",
+    "content": "Alexei Popyrin superou Francesco Maestrelli por 2 a 0 em Quebec City., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Alexei Popyrin vence Francesco Maestrelli por 2 a 0 em Quebec City",
+    "seoDescription": "Alexei Popyrin superou Francesco Maestrelli por 2 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T07:02:51.482Z",
+    "createdAt": "2026-08-19T07:02:51.482Z",
+    "updatedAt": "2026-08-19T07:02:51.482Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816186",
+      "eventStartTime": "2026-08-18T22:42:45+00:00",
+      "retrievedAt": "2026-08-19T07:02:51.482Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-dd723ebbfd50",
+    "slug": "independiente-del-valle-supera-deportes-tolima-por-1-a-0-pelo-conmebol-libertadore-dd723e",
+    "sportId": "futebol",
+    "title": "Independiente del Valle supera Deportes Tolima por 1 a 0 pelo CONMEBOL Libertadores",
+    "summary": "Independiente del Valle venceu Deportes Tolima por 1 a 0 pelo CONMEBOL Libertadores.",
+    "content": "Independiente del Valle venceu Deportes Tolima por 1 a 0 pelo CONMEBOL Libertadores, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "conmebol-libertadores"
+    ],
+    "seoTitle": "Independiente del Valle supera Deportes Tolima por 1 a 0 pelo CONMEBOL",
+    "seoDescription": "Independiente del Valle venceu Deportes Tolima por 1 a 0 pelo CONMEBOL Libertadores.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T07:02:51.449Z",
+    "createdAt": "2026-08-19T07:02:51.449Z",
+    "updatedAt": "2026-08-19T07:02:51.449Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4728059",
+      "eventStartTime": "2026-08-19T00:30:00+00:00",
+      "retrievedAt": "2026-08-19T07:02:51.449Z",
+      "feedId": "futebol",
+      "league": "CONMEBOL Libertadores"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5e8ed568d286",
     "slug": "toros-de-tijuana-vence-charros-de-jalisco-por-4-a-0-na-lmb-5e8ed5",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-16T18:46:21.691Z",
       "feedId": "futebol",
       "league": "Gaucho A2"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3f717d52f4b2",
-    "slug": "guo-h-mladenovic-k-vence-kato-m-kichenok-l-por-2-a-0-em-cincinnati-3f717d",
-    "sportId": "tenis",
-    "title": "Guo H./Mladenovic K. vence Kato M./Kichenok L. por 2 a 0 em Cincinnati",
-    "summary": "Guo H./Mladenovic K. superou Kato M./Kichenok L. por 2 a 0 em Cincinnati.",
-    "content": "Guo H./Mladenovic K. superou Kato M./Kichenok L. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Guo H./Mladenovic K. vence Kato M./Kichenok L. por 2 a 0 em Cincinnati",
-    "seoDescription": "Guo H./Mladenovic K. superou Kato M./Kichenok L. por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T18:12:56.943Z",
-    "createdAt": "2026-08-16T18:12:56.943Z",
-    "updatedAt": "2026-08-16T18:12:56.943Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815617",
-      "eventStartTime": "2026-08-16T16:48:07+00:00",
-      "retrievedAt": "2026-08-16T18:12:56.943Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f10dc31934fa",
-    "slug": "wisla-plock-e-lech-poznan-ficam-no-0-a-0-pelo-ekstraklasa-f10dc3",
-    "sportId": "futebol",
-    "title": "Wisla Plock e Lech Poznan ficam no 0 a 0 pelo Ekstraklasa",
-    "summary": "Wisla Plock e Lech Poznan empataram por 0 a 0 pelo Ekstraklasa.",
-    "content": "Wisla Plock e Lech Poznan empataram por 0 a 0 pelo Ekstraklasa, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "ekstraklasa"
-    ],
-    "seoTitle": "Wisla Plock e Lech Poznan ficam no 0 a 0 pelo Ekstraklasa",
-    "seoDescription": "Wisla Plock e Lech Poznan empataram por 0 a 0 pelo Ekstraklasa.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T18:12:56.908Z",
-    "createdAt": "2026-08-16T18:12:56.908Z",
-    "updatedAt": "2026-08-16T18:12:56.908Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4736432",
-      "eventStartTime": "2026-08-16T18:15:00+00:00",
-      "retrievedAt": "2026-08-16T18:12:56.908Z",
-      "feedId": "futebol",
-      "league": "Ekstraklasa"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4cd45cec176a",
-    "slug": "leonardo-rossi-vence-benjamin-gusic-wan-por-2-a-1-em-roehampton-4cd45c",
-    "sportId": "tenis",
-    "title": "Leonardo Rossi vence Benjamin Gusic - Wan por 2 a 1 em Roehampton",
-    "summary": "Leonardo Rossi superou Benjamin Gusic - Wan por 2 a 1 em Roehampton.",
-    "content": "Leonardo Rossi superou Benjamin Gusic - Wan por 2 a 1 em Roehampton., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "roehampton"
-    ],
-    "seoTitle": "Leonardo Rossi vence Benjamin Gusic - Wan por 2 a 1 em Roehampton",
-    "seoDescription": "Leonardo Rossi superou Benjamin Gusic - Wan por 2 a 1 em Roehampton.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T17:53:51.251Z",
-    "createdAt": "2026-08-16T17:53:51.251Z",
-    "updatedAt": "2026-08-16T17:53:51.251Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815660",
-      "eventStartTime": "2026-08-16T15:38:52+00:00",
-      "retrievedAt": "2026-08-16T17:53:51.251Z",
-      "feedId": "tenis",
-      "league": "Roehampton"
     },
     "articleFormat": "result-brief"
   }
