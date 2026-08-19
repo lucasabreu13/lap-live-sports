@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-285cbdc4f781",
+    "slug": "basel-v-ribero-f-e-chepelev-a-kuzmanov-d-empatam-por-0-a-0-em-sion-285cbd",
+    "sportId": "tenis",
+    "title": "Basel V./Ribero F. e Chepelev A./Kuzmanov D. empatam por 0 a 0 em Sion",
+    "summary": "Basel V./Ribero F. e Chepelev A./Kuzmanov D. terminaram empatados por 0 a 0 em Sion.",
+    "content": "Basel V./Ribero F. e Chepelev A./Kuzmanov D. terminaram empatados por 0 a 0 em Sion., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Basel V./Ribero F. e Chepelev A./Kuzmanov D. empatam por 0 a 0 em Sion",
+    "seoDescription": "Basel V./Ribero F. e Chepelev A./Kuzmanov D. terminaram empatados por 0 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T16:54:08.771Z",
+    "createdAt": "2026-08-19T16:54:08.771Z",
+    "updatedAt": "2026-08-19T16:54:08.771Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816532",
+      "eventStartTime": "2026-08-19T16:50:00+00:00",
+      "retrievedAt": "2026-08-19T16:54:08.771Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7e79f7e20bc6",
+    "slug": "olympic-e-saku-sporting-ficam-no-0-a-0-pelo-estonian-cup-7e79f7",
+    "sportId": "futebol",
+    "title": "Olympic e Saku Sporting ficam no 0 a 0 pelo Estonian Cup",
+    "summary": "Olympic e Saku Sporting empataram por 0 a 0 pelo Estonian Cup.",
+    "content": "Olympic e Saku Sporting empataram por 0 a 0 pelo Estonian Cup, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "estonian-cup"
+    ],
+    "seoTitle": "Olympic e Saku Sporting ficam no 0 a 0 pelo Estonian Cup",
+    "seoDescription": "Olympic e Saku Sporting empataram por 0 a 0 pelo Estonian Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T16:54:08.750Z",
+    "createdAt": "2026-08-19T16:54:08.750Z",
+    "updatedAt": "2026-08-19T16:54:08.750Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4800515",
+      "eventStartTime": "2026-08-19T16:00:00+00:00",
+      "retrievedAt": "2026-08-19T16:54:08.750Z",
+      "feedId": "futebol",
+      "league": "Estonian Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-fd5be427dbf6",
     "slug": "escobar-g-kaliyanda-poonacha-n-vence-kittay-b-stalder-r-por-2-a-0-em-quebec-city-fd5be4",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T23:09:57.715Z",
       "feedId": "futebol",
       "league": "Primera A"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ab213f9f1b3d",
-    "slug": "ssg-landers-vence-lg-twins-por-6-a-0-na-kbo-ab213f",
-    "sportId": "beisebol",
-    "title": "SSG Landers vence LG Twins por 6 a 0 na KBO",
-    "summary": "SSG Landers derrotou LG Twins por 6 a 0 na KBO.",
-    "content": "SSG Landers derrotou LG Twins por 6 a 0 na KBO, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "kbo"
-    ],
-    "seoTitle": "SSG Landers vence LG Twins por 6 a 0 na KBO",
-    "seoDescription": "SSG Landers derrotou LG Twins por 6 a 0 na KBO.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T22:55:22.186Z",
-    "createdAt": "2026-08-16T22:55:22.186Z",
-    "updatedAt": "2026-08-16T22:55:22.186Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815408",
-      "eventStartTime": "2026-08-16T10:00:00+00:00",
-      "retrievedAt": "2026-08-16T22:55:22.186Z",
-      "feedId": "beisebol",
-      "league": "KBO"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-33116de883e4",
-    "slug": "kenta-miyoshi-vence-arklon-huertas-del-pino-por-2-a-0-em-kingston-33116d",
-    "sportId": "tenis",
-    "title": "Kenta Miyoshi vence Arklon Huertas Del Pino por 2 a 0 em Kingston",
-    "summary": "Kenta Miyoshi superou Arklon Huertas Del Pino por 2 a 0 em Kingston.",
-    "content": "Kenta Miyoshi superou Arklon Huertas Del Pino por 2 a 0 em Kingston., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Kenta Miyoshi vence Arklon Huertas Del Pino por 2 a 0 em Kingston",
-    "seoDescription": "Kenta Miyoshi superou Arklon Huertas Del Pino por 2 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T22:55:22.172Z",
-    "createdAt": "2026-08-16T22:55:22.172Z",
-    "updatedAt": "2026-08-16T22:55:22.172Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815562",
-      "eventStartTime": "2026-08-16T21:03:29+00:00",
-      "retrievedAt": "2026-08-16T22:55:22.172Z",
-      "feedId": "tenis",
-      "league": "Kingston"
     },
     "articleFormat": "result-brief"
   }
