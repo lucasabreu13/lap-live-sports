@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-8b9d0fd821bb",
+    "slug": "reymond-a-sanchez-l-vence-sheehy-j-zink-t-por-2-a-0-em-kingston-8b9d0f",
+    "sportId": "tenis",
+    "title": "Reymond A./Sanchez L. vence Sheehy J./Zink T. por 2 a 0 em Kingston",
+    "summary": "Reymond A./Sanchez L. superou Sheehy J./Zink T. por 2 a 0 em Kingston.",
+    "content": "Reymond A./Sanchez L. superou Sheehy J./Zink T. por 2 a 0 em Kingston., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Reymond A./Sanchez L. vence Sheehy J./Zink T. por 2 a 0 em Kingston",
+    "seoDescription": "Reymond A./Sanchez L. superou Sheehy J./Zink T. por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T23:43:22.731Z",
+    "createdAt": "2026-08-19T23:43:22.731Z",
+    "updatedAt": "2026-08-19T23:43:22.731Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819212",
+      "eventStartTime": "2026-08-19T22:12:30+00:00",
+      "retrievedAt": "2026-08-19T23:43:22.731Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-a5decf1c43ae",
+    "slug": "desportiva-aracaju-e-lagarto-ficam-no-0-a-0-pela-copa-governo-de-sergipe-a5decf",
+    "sportId": "futebol",
+    "title": "Desportiva Aracaju e Lagarto ficam no 0 a 0 pela Copa Governo de Sergipe",
+    "summary": "Desportiva Aracaju e Lagarto empataram por 0 a 0 pela Copa Governo de Sergipe.",
+    "content": "Desportiva Aracaju e Lagarto empataram por 0 a 0 pela Copa Governo de Sergipe, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-governo-de-sergipe"
+    ],
+    "seoTitle": "Desportiva Aracaju e Lagarto ficam no 0 a 0 pela Copa Governo de",
+    "seoDescription": "Desportiva Aracaju e Lagarto empataram por 0 a 0 pela Copa Governo de Sergipe.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T23:43:22.705Z",
+    "createdAt": "2026-08-19T23:43:22.705Z",
+    "updatedAt": "2026-08-19T23:43:22.705Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4814891",
+      "eventStartTime": "2026-08-19T22:00:00+00:00",
+      "retrievedAt": "2026-08-19T23:43:22.705Z",
+      "feedId": "futebol",
+      "league": "Copa Governo de Sergipe"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-430467f9def7",
     "slug": "coleman-wong-vence-alexandre-muller-por-2-a-0-em-cancun-430467",
     "sportId": "tenis",
@@ -12510,90 +12594,6 @@
       "eventId": "365-4813633",
       "eventStartTime": "2026-08-16T15:08:29+00:00",
       "retrievedAt": "2026-08-17T06:39:34.677Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-35eec3cef79c",
-    "slug": "los-angeles-fc-ii-supera-tacoma-defiance-por-4-a-3-pelo-mls-next-pro-35eec3",
-    "sportId": "futebol",
-    "title": "Los Angeles FC II supera Tacoma Defiance por 4 a 3 pela MLS Next Pro",
-    "summary": "Los Angeles FC II venceu Tacoma Defiance por 4 a 3 pela MLS Next Pro.",
-    "content": "Los Angeles FC II venceu Tacoma Defiance por 4 a 3 pela MLS Next Pro, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls-next-pro"
-    ],
-    "seoTitle": "Los Angeles FC II supera Tacoma Defiance por 4 a 3 pela MLS Next Pro",
-    "seoDescription": "Los Angeles FC II venceu Tacoma Defiance por 4 a 3 pela MLS Next Pro.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T06:39:34.570Z",
-    "createdAt": "2026-08-17T06:39:34.570Z",
-    "updatedAt": "2026-08-17T06:39:34.570Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659120",
-      "eventStartTime": "2026-08-17T02:00:00+00:00",
-      "retrievedAt": "2026-08-17T06:39:34.570Z",
-      "feedId": "futebol",
-      "league": "MLS Next Pro"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7a4f53610f50",
-    "slug": "daniil-medvedev-vence-marco-trungelliti-por-2-a-0-em-cincinnati-7a4f53",
-    "sportId": "tenis",
-    "title": "Daniil Medvedev vence Marco Trungelliti por 2 a 0 em Cincinnati",
-    "summary": "Daniil Medvedev superou Marco Trungelliti por 2 a 0 em Cincinnati.",
-    "content": "Daniil Medvedev superou Marco Trungelliti por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Daniil Medvedev vence Marco Trungelliti por 2 a 0 em Cincinnati",
-    "seoDescription": "Daniil Medvedev superou Marco Trungelliti por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T05:57:02.000Z",
-    "createdAt": "2026-08-17T05:57:02.000Z",
-    "updatedAt": "2026-08-17T05:57:02.000Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815108",
-      "eventStartTime": "2026-08-16T15:11:41+00:00",
-      "retrievedAt": "2026-08-17T05:57:02.000Z",
       "feedId": "tenis",
       "league": "Cincinnati"
     },
