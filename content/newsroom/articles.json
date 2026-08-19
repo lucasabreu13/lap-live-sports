@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-9192da66e672",
+    "slug": "rio-noguchi-vence-luis-carlos-alvarez-por-2-a-1-em-cancun-9192da",
+    "sportId": "tenis",
+    "title": "Rio Noguchi vence Luis Carlos Alvarez por 2 a 1 em Cancun",
+    "summary": "Rio Noguchi superou Luis Carlos Alvarez por 2 a 1 em Cancun.",
+    "content": "Rio Noguchi superou Luis Carlos Alvarez por 2 a 1 em Cancun., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Rio Noguchi vence Luis Carlos Alvarez por 2 a 1 em Cancun",
+    "seoDescription": "Rio Noguchi superou Luis Carlos Alvarez por 2 a 1 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T08:22:35.327Z",
+    "createdAt": "2026-08-19T08:22:35.327Z",
+    "updatedAt": "2026-08-19T08:22:35.327Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816161",
+      "eventStartTime": "2026-08-18T21:15:28+00:00",
+      "retrievedAt": "2026-08-19T08:22:35.327Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-58e06f901b99",
+    "slug": "banfield-e-ferrocarril-midland-ficam-no-2-a-2-pela-copa-argentina-58e06f",
+    "sportId": "futebol",
+    "title": "Banfield e Ferrocarril Midland ficam no 2 a 2 pela Copa Argentina",
+    "summary": "Banfield e Ferrocarril Midland empataram por 2 a 2 pela Copa Argentina.",
+    "content": "Banfield e Ferrocarril Midland empataram por 2 a 2 pela Copa Argentina, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-argentina"
+    ],
+    "seoTitle": "Banfield e Ferrocarril Midland ficam no 2 a 2 pela Copa Argentina",
+    "seoDescription": "Banfield e Ferrocarril Midland empataram por 2 a 2 pela Copa Argentina.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T08:22:35.280Z",
+    "createdAt": "2026-08-19T08:22:35.280Z",
+    "updatedAt": "2026-08-19T08:22:35.280Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4712799",
+      "eventStartTime": "2026-08-19T00:15:00+00:00",
+      "retrievedAt": "2026-08-19T08:22:35.280Z",
+      "feedId": "futebol",
+      "league": "Copa Argentina"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-91bc9cbc09a2",
     "slug": "sara-bejlek-vence-ekaterina-alexandrova-por-2-a-1-em-cincinnati-91bc9c",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T19:32:40.623Z",
       "feedId": "futebol",
       "league": "Liga Portugal"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6e917e13d40e",
-    "slug": "edward-winter-vence-steven-christie-por-2-a-0-em-kingston-6e917e",
-    "sportId": "tenis",
-    "title": "Edward Winter vence Steven Christie por 2 a 0 em Kingston",
-    "summary": "Edward Winter superou Steven Christie por 2 a 0 em Kingston.",
-    "content": "Edward Winter superou Steven Christie por 2 a 0 em Kingston., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Edward Winter vence Steven Christie por 2 a 0 em Kingston",
-    "seoDescription": "Edward Winter superou Steven Christie por 2 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T19:13:02.406Z",
-    "createdAt": "2026-08-16T19:13:02.406Z",
-    "updatedAt": "2026-08-16T19:13:02.406Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815625",
-      "eventStartTime": "2026-08-16T17:50:50+00:00",
-      "retrievedAt": "2026-08-16T19:13:02.406Z",
-      "feedId": "tenis",
-      "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2dce961100c0",
-    "slug": "club-1-de-marzo-fernando-mora-e-12-de-octubre-sd-ficam-no-0-a-0-pelo-apf-primera-b-2dce96",
-    "sportId": "futebol",
-    "title": "Club 1 De Marzo Fernando Mora e 12 de Octubre SD ficam no 0 a 0 pelo APF Primera B",
-    "summary": "Club 1 De Marzo Fernando Mora e 12 de Octubre SD empataram por 0 a 0 pelo APF Primera B.",
-    "content": "Club 1 De Marzo Fernando Mora e 12 de Octubre SD empataram por 0 a 0 pelo APF Primera B, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "apf-primera-b"
-    ],
-    "seoTitle": "Club 1 De Marzo Fernando Mora e 12 de Octubre SD ficam no 0 a 0 pelo",
-    "seoDescription": "Club 1 De Marzo Fernando Mora e 12 de Octubre SD empataram por 0 a 0 pelo APF Primera B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T19:13:02.380Z",
-    "createdAt": "2026-08-16T19:13:02.380Z",
-    "updatedAt": "2026-08-16T19:13:02.380Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809692",
-      "eventStartTime": "2026-08-16T18:00:00+00:00",
-      "retrievedAt": "2026-08-16T19:13:02.380Z",
-      "feedId": "futebol",
-      "league": "APF Primera B"
     },
     "articleFormat": "result-brief"
   }
