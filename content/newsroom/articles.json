@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-73d3ea9811bc",
+    "slug": "max-hans-rehberg-vence-kimmer-coppejans-por-2-a-0-em-prague-73d3ea",
+    "sportId": "tenis",
+    "title": "Max Hans Rehberg vence Kimmer Coppejans por 2 a 0 em Prague",
+    "summary": "Max Hans Rehberg superou Kimmer Coppejans por 2 a 0 em Prague.",
+    "content": "Max Hans Rehberg superou Kimmer Coppejans por 2 a 0 em Prague., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Max Hans Rehberg vence Kimmer Coppejans por 2 a 0 em Prague",
+    "seoDescription": "Max Hans Rehberg superou Kimmer Coppejans por 2 a 0 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T14:16:11.602Z",
+    "createdAt": "2026-08-19T14:16:11.602Z",
+    "updatedAt": "2026-08-19T14:16:11.602Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817091",
+      "eventStartTime": "2026-08-19T12:32:38+00:00",
+      "retrievedAt": "2026-08-19T14:16:11.602Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7491bac71e45",
+    "slug": "shanghai-port-e-dalian-yingbo-ficam-no-1-a-1-pelo-super-league-7491ba",
+    "sportId": "futebol",
+    "title": "Shanghai Port e Dalian Yingbo ficam no 1 a 1 pelo Super League",
+    "summary": "Shanghai Port e Dalian Yingbo empataram por 1 a 1 pelo Super League.",
+    "content": "Shanghai Port e Dalian Yingbo empataram por 1 a 1 pelo Super League, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "super-league"
+    ],
+    "seoTitle": "Shanghai Port e Dalian Yingbo ficam no 1 a 1 pelo Super League",
+    "seoDescription": "Shanghai Port e Dalian Yingbo empataram por 1 a 1 pelo Super League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T14:16:11.582Z",
+    "createdAt": "2026-08-19T14:16:11.582Z",
+    "updatedAt": "2026-08-19T14:16:11.582Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4673346",
+      "eventStartTime": "2026-08-19T11:35:00+00:00",
+      "retrievedAt": "2026-08-19T14:16:11.582Z",
+      "feedId": "futebol",
+      "league": "Super League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-93574b42888a",
     "slug": "maxim-mrva-vence-cezar-cretu-por-2-a-0-em-prague-93574b",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T21:54:13.960Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2eb735d8af69",
-    "slug": "mogi-das-cruzes-vence-bauru-basket-por-88-a-71-em-paulista-basketball-2eb735",
-    "sportId": "basquete",
-    "title": "Mogi das Cruzes vence Bauru Basket por 88 a 71 em Paulista Basketball",
-    "summary": "Mogi das Cruzes superou Bauru Basket por 88 a 71 em Paulista Basketball.",
-    "content": "Mogi das Cruzes superou Bauru Basket por 88 a 71 em Paulista Basketball., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "paulista-basketball"
-    ],
-    "seoTitle": "Mogi das Cruzes vence Bauru Basket por 88 a 71 em Paulista Basketball",
-    "seoDescription": "Mogi das Cruzes superou Bauru Basket por 88 a 71 em Paulista Basketball.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T21:54:13.942Z",
-    "createdAt": "2026-08-16T21:54:13.942Z",
-    "updatedAt": "2026-08-16T21:54:13.942Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813828",
-      "eventStartTime": "2026-08-15T21:00:00+00:00",
-      "retrievedAt": "2026-08-16T21:54:13.942Z",
-      "feedId": "basquete",
-      "league": "Paulista Basketball"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f18fb77fc282",
-    "slug": "central-norte-e-gimnasia-y-tiro-ficam-no-0-a-0-pelo-primera-nacional-f18fb7",
-    "sportId": "futebol",
-    "title": "Central Norte e Gimnasia y Tiro ficam no 0 a 0 pelo Primera Nacional",
-    "summary": "Central Norte e Gimnasia y Tiro empataram por 0 a 0 pelo Primera Nacional.",
-    "content": "Central Norte e Gimnasia y Tiro empataram por 0 a 0 pelo Primera Nacional, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-nacional"
-    ],
-    "seoTitle": "Central Norte e Gimnasia y Tiro ficam no 0 a 0 pelo Primera Nacional",
-    "seoDescription": "Central Norte e Gimnasia y Tiro empataram por 0 a 0 pelo Primera Nacional.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T21:54:13.914Z",
-    "createdAt": "2026-08-16T21:54:13.914Z",
-    "updatedAt": "2026-08-16T21:54:13.914Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4644033",
-      "eventStartTime": "2026-08-16T20:00:00+00:00",
-      "retrievedAt": "2026-08-16T21:54:13.914Z",
-      "feedId": "futebol",
-      "league": "Primera Nacional"
     },
     "articleFormat": "result-brief"
   }
