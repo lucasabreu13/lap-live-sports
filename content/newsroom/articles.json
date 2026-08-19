@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-64c85079323f",
+    "slug": "grevelius-e-heinonen-a-vence-mansilla-diez-m-winter-lopez-b-por-2-a-1-em-prague-64c850",
+    "sportId": "tenis",
+    "title": "Grevelius E./Heinonen A. vence Mansilla Diez M./Winter Lopez B. por 2 a 1 em Prague",
+    "summary": "Grevelius E./Heinonen A. superou Mansilla Diez M./Winter Lopez B. por 2 a 1 em Prague.",
+    "content": "Grevelius E./Heinonen A. superou Mansilla Diez M./Winter Lopez B. por 2 a 1 em Prague., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Grevelius E./Heinonen A. vence Mansilla Diez M./Winter Lopez B. por 2",
+    "seoDescription": "Grevelius E./Heinonen A. superou Mansilla Diez M./Winter Lopez B. por 2 a 1 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T11:15:11.237Z",
+    "createdAt": "2026-08-19T11:15:11.237Z",
+    "updatedAt": "2026-08-19T11:15:11.237Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815583",
+      "eventStartTime": "2026-08-19T08:01:35+00:00",
+      "retrievedAt": "2026-08-19T11:15:11.237Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f1267df58009",
+    "slug": "elche-ilicitano-supera-cartagena-por-2-a-0-pelo-club-friendlies-f1267d",
+    "sportId": "futebol",
+    "title": "Elche Ilicitano supera Cartagena por 2 a 0 pelo Club Friendlies",
+    "summary": "Elche Ilicitano venceu Cartagena por 2 a 0 pelo Club Friendlies.",
+    "content": "Elche Ilicitano venceu Cartagena por 2 a 0 pelo Club Friendlies, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Elche Ilicitano supera Cartagena por 2 a 0 pelo Club Friendlies",
+    "seoDescription": "Elche Ilicitano venceu Cartagena por 2 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T11:15:11.213Z",
+    "createdAt": "2026-08-19T11:15:11.213Z",
+    "updatedAt": "2026-08-19T11:15:11.213Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815495",
+      "eventStartTime": "2026-08-19T08:00:00+00:00",
+      "retrievedAt": "2026-08-19T11:15:11.213Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-8dd403ed25e9",
     "slug": "papa-c-zheng-b-vence-genov-a-wehnelt-k-por-2-a-1-em-sion-8dd403",
     "sportId": "tenis",
@@ -12510,90 +12594,6 @@
       "eventId": "365-4814993",
       "eventStartTime": "2026-08-16T20:30:00+00:00",
       "retrievedAt": "2026-08-16T20:56:09.436Z",
-      "feedId": "futebol",
-      "league": "Liga 3"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-26d070e366eb",
-    "slug": "garrett-johns-vence-guillaume-dalmasso-por-2-a-0-em-kingston-26d070",
-    "sportId": "tenis",
-    "title": "Garrett Johns vence Guillaume Dalmasso por 2 a 0 em Kingston",
-    "summary": "Garrett Johns superou Guillaume Dalmasso por 2 a 0 em Kingston.",
-    "content": "Garrett Johns superou Guillaume Dalmasso por 2 a 0 em Kingston., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Garrett Johns vence Guillaume Dalmasso por 2 a 0 em Kingston",
-    "seoDescription": "Garrett Johns superou Guillaume Dalmasso por 2 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T20:35:32.427Z",
-    "createdAt": "2026-08-16T20:35:32.427Z",
-    "updatedAt": "2026-08-16T20:35:32.427Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815560",
-      "eventStartTime": "2026-08-16T19:05:38+00:00",
-      "retrievedAt": "2026-08-16T20:35:32.427Z",
-      "feedId": "tenis",
-      "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5e7efa6bcace",
-    "slug": "centro-social-de-pariacoto-e-pacifico-fc-ficam-no-0-a-0-pela-liga-3-5e7efa",
-    "sportId": "futebol",
-    "title": "Centro Social de Pariacoto e Pacifico FC ficam no 0 a 0 pela Liga 3",
-    "summary": "Centro Social de Pariacoto e Pacifico FC empataram por 0 a 0 pela Liga 3.",
-    "content": "Centro Social de Pariacoto e Pacifico FC empataram por 0 a 0 pela Liga 3, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-3"
-    ],
-    "seoTitle": "Centro Social de Pariacoto e Pacifico FC ficam no 0 a 0 pela Liga 3",
-    "seoDescription": "Centro Social de Pariacoto e Pacifico FC empataram por 0 a 0 pela Liga 3.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T20:35:32.400Z",
-    "createdAt": "2026-08-16T20:35:32.400Z",
-    "updatedAt": "2026-08-16T20:35:32.400Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814992",
-      "eventStartTime": "2026-08-16T20:30:00+00:00",
-      "retrievedAt": "2026-08-16T20:35:32.400Z",
       "feedId": "futebol",
       "league": "Liga 3"
     },
