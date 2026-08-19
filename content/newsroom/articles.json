@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-23cd6fc6238f",
+    "slug": "tyler-zink-vence-lucas-andrade-da-silva-por-2-a-1-em-kingston-23cd6f",
+    "sportId": "tenis",
+    "title": "Tyler Zink vence Lucas Andrade Da Silva por 2 a 1 em Kingston",
+    "summary": "Tyler Zink superou Lucas Andrade Da Silva por 2 a 1 em Kingston.",
+    "content": "Tyler Zink superou Lucas Andrade Da Silva por 2 a 1 em Kingston., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Tyler Zink vence Lucas Andrade Da Silva por 2 a 1 em Kingston",
+    "seoDescription": "Tyler Zink superou Lucas Andrade Da Silva por 2 a 1 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T11:59:09.793Z",
+    "createdAt": "2026-08-19T11:59:09.793Z",
+    "updatedAt": "2026-08-19T11:59:09.793Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816753",
+      "eventStartTime": "2026-08-18T20:21:13+00:00",
+      "retrievedAt": "2026-08-19T11:59:09.793Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8b084bec9644",
+    "slug": "fukushima-united-supera-oyama-sc-por-7-a-0-pelo-emperors-cup-8b084b",
+    "sportId": "futebol",
+    "title": "Fukushima United supera Oyama Sc por 7 a 0 pelo Emperors Cup",
+    "summary": "Fukushima United venceu Oyama Sc por 7 a 0 pelo Emperors Cup.",
+    "content": "Fukushima United venceu Oyama Sc por 7 a 0 pelo Emperors Cup, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "emperors-cup"
+    ],
+    "seoTitle": "Fukushima United supera Oyama Sc por 7 a 0 pelo Emperors Cup",
+    "seoDescription": "Fukushima United venceu Oyama Sc por 7 a 0 pelo Emperors Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T11:59:09.739Z",
+    "createdAt": "2026-08-19T11:59:09.739Z",
+    "updatedAt": "2026-08-19T11:59:09.739Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4796661",
+      "eventStartTime": "2026-08-19T10:00:00+00:00",
+      "retrievedAt": "2026-08-19T11:59:09.739Z",
+      "feedId": "futebol",
+      "league": "Emperors Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-85a5f708c6f0",
     "slug": "felix-auger-aliassime-vence-juan-manuel-cerundolo-por-2-a-0-em-cincinnati-85a5f7",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T21:11:42.958Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c1869eadc480",
-    "slug": "paulistano-vence-pinheiros-por-67-a-59-em-paulista-basketball-c1869e",
-    "sportId": "basquete",
-    "title": "Paulistano vence Pinheiros por 67 a 59 em Paulista Basketball",
-    "summary": "Paulistano superou Pinheiros por 67 a 59 em Paulista Basketball.",
-    "content": "Paulistano superou Pinheiros por 67 a 59 em Paulista Basketball., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "paulista-basketball"
-    ],
-    "seoTitle": "Paulistano vence Pinheiros por 67 a 59 em Paulista Basketball",
-    "seoDescription": "Paulistano superou Pinheiros por 67 a 59 em Paulista Basketball.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T21:11:42.951Z",
-    "createdAt": "2026-08-16T21:11:42.951Z",
-    "updatedAt": "2026-08-16T21:11:42.951Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814896",
-      "eventStartTime": "2026-08-16T14:00:00+00:00",
-      "retrievedAt": "2026-08-16T21:11:42.951Z",
-      "feedId": "basquete",
-      "league": "Paulista Basketball"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ca4611eb8123",
-    "slug": "deportivo-saprissa-w-e-chorotega-fc-w-ficam-no-0-a-0-pelo-primera-division-women-ca4611",
-    "sportId": "futebol",
-    "title": "Deportivo Saprissa (W) e Chorotega FC (W) ficam no 0 a 0 pelo Primera Division Women",
-    "summary": "Deportivo Saprissa (W) e Chorotega FC (W) empataram por 0 a 0 pelo Primera Division Women.",
-    "content": "Deportivo Saprissa (W) e Chorotega FC (W) empataram por 0 a 0 pelo Primera Division Women, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-division-women"
-    ],
-    "seoTitle": "Deportivo Saprissa (W) e Chorotega FC (W) ficam no 0 a 0 pelo Primera",
-    "seoDescription": "Deportivo Saprissa (W) e Chorotega FC (W) empataram por 0 a 0 pelo Primera Division Women.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T21:11:42.938Z",
-    "createdAt": "2026-08-16T21:11:42.938Z",
-    "updatedAt": "2026-08-16T21:11:42.938Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809663",
-      "eventStartTime": "2026-08-16T21:00:00+00:00",
-      "retrievedAt": "2026-08-16T21:11:42.938Z",
-      "feedId": "futebol",
-      "league": "Primera Division Women"
     },
     "articleFormat": "result-brief"
   }
