@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-85a5f708c6f0",
+    "slug": "felix-auger-aliassime-vence-juan-manuel-cerundolo-por-2-a-0-em-cincinnati-85a5f7",
+    "sportId": "tenis",
+    "title": "Felix Auger Aliassime vence Juan Manuel Cerundolo por 2 a 0 em Cincinnati",
+    "summary": "Felix Auger Aliassime superou Juan Manuel Cerundolo por 2 a 0 em Cincinnati.",
+    "content": "Felix Auger Aliassime superou Juan Manuel Cerundolo por 2 a 0 em Cincinnati., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Felix Auger Aliassime vence Juan Manuel Cerundolo por 2 a 0 em",
+    "seoDescription": "Felix Auger Aliassime superou Juan Manuel Cerundolo por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T11:41:28.778Z",
+    "createdAt": "2026-08-19T11:41:28.778Z",
+    "updatedAt": "2026-08-19T11:41:28.778Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816169",
+      "eventStartTime": "2026-08-18T23:12:42+00:00",
+      "retrievedAt": "2026-08-19T11:41:28.778Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9f756cebcd28",
+    "slug": "grulla-morioka-supera-sapporo-university-por-1-a-0-pelo-emperors-cup-9f756c",
+    "sportId": "futebol",
+    "title": "Grulla Morioka supera Sapporo University por 1 a 0 pelo Emperors Cup",
+    "summary": "Grulla Morioka venceu Sapporo University por 1 a 0 pelo Emperors Cup.",
+    "content": "Grulla Morioka venceu Sapporo University por 1 a 0 pelo Emperors Cup, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "emperors-cup"
+    ],
+    "seoTitle": "Grulla Morioka supera Sapporo University por 1 a 0 pelo Emperors Cup",
+    "seoDescription": "Grulla Morioka venceu Sapporo University por 1 a 0 pelo Emperors Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T11:41:28.745Z",
+    "createdAt": "2026-08-19T11:41:28.745Z",
+    "updatedAt": "2026-08-19T11:41:28.745Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4736070",
+      "eventStartTime": "2026-08-19T09:30:00+00:00",
+      "retrievedAt": "2026-08-19T11:41:28.745Z",
+      "feedId": "futebol",
+      "league": "Emperors Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-64c85079323f",
     "slug": "grevelius-e-heinonen-a-vence-mansilla-diez-m-winter-lopez-b-por-2-a-1-em-prague-64c850",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T21:11:42.938Z",
       "feedId": "futebol",
       "league": "Primera Division Women"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-be4c9ba9678d",
-    "slug": "timo-legout-vence-aidan-mayo-por-2-a-0-em-kingston-be4c9b",
-    "sportId": "tenis",
-    "title": "Timo Legout vence Aidan Mayo por 2 a 0 em Kingston",
-    "summary": "Timo Legout superou Aidan Mayo por 2 a 0 em Kingston.",
-    "content": "Timo Legout superou Aidan Mayo por 2 a 0 em Kingston., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Timo Legout vence Aidan Mayo por 2 a 0 em Kingston",
-    "seoDescription": "Timo Legout superou Aidan Mayo por 2 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T20:56:09.477Z",
-    "createdAt": "2026-08-16T20:56:09.477Z",
-    "updatedAt": "2026-08-16T20:56:09.477Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815569",
-      "eventStartTime": "2026-08-16T19:08:14+00:00",
-      "retrievedAt": "2026-08-16T20:56:09.477Z",
-      "feedId": "tenis",
-      "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2d195eb30a06",
-    "slug": "asociacion-deportiva-tahuishco-e-nuevo-san-cristobal-ficam-no-0-a-0-pela-liga-3-2d195e",
-    "sportId": "futebol",
-    "title": "Asociación Deportiva Tahuishco e Nuevo San Cristóbal ficam no 0 a 0 pela Liga 3",
-    "summary": "Asociación Deportiva Tahuishco e Nuevo San Cristóbal empataram por 0 a 0 pela Liga 3.",
-    "content": "Asociación Deportiva Tahuishco e Nuevo San Cristóbal empataram por 0 a 0 pela Liga 3, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-3"
-    ],
-    "seoTitle": "Asociación Deportiva Tahuishco e Nuevo San Cristóbal ficam no 0 a 0",
-    "seoDescription": "Asociación Deportiva Tahuishco e Nuevo San Cristóbal empataram por 0 a 0 pela Liga 3.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T20:56:09.436Z",
-    "createdAt": "2026-08-16T20:56:09.436Z",
-    "updatedAt": "2026-08-16T20:56:09.436Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814993",
-      "eventStartTime": "2026-08-16T20:30:00+00:00",
-      "retrievedAt": "2026-08-16T20:56:09.436Z",
-      "feedId": "futebol",
-      "league": "Liga 3"
     },
     "articleFormat": "result-brief"
   }
