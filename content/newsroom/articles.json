@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-ab98aa7b7698",
+    "slug": "milwaukee-brewers-vence-seattle-mariners-por-22-a-0-na-mlb-ab98aa",
+    "sportId": "beisebol",
+    "title": "Milwaukee Brewers vence Seattle Mariners por 22 a 0 na MLB",
+    "summary": "Milwaukee Brewers derrotou Seattle Mariners por 22 a 0 na MLB.",
+    "content": "Milwaukee Brewers derrotou Seattle Mariners por 22 a 0 na MLB, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Milwaukee Brewers vence Seattle Mariners por 22 a 0 na MLB",
+    "seoDescription": "Milwaukee Brewers derrotou Seattle Mariners por 22 a 0 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T04:28:01.149Z",
+    "createdAt": "2026-08-19T04:28:01.149Z",
+    "updatedAt": "2026-08-19T04:28:01.149Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614788",
+      "eventStartTime": "2026-08-18T23:40:00+00:00",
+      "retrievedAt": "2026-08-19T04:28:01.149Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-700995ff369f",
+    "slug": "pablo-llamas-ruiz-vence-francisco-comesana-por-2-a-0-em-cancun-700995",
+    "sportId": "tenis",
+    "title": "Pablo Llamas Ruiz vence Francisco Comesana por 2 a 0 em Cancun",
+    "summary": "Pablo Llamas Ruiz superou Francisco Comesana por 2 a 0 em Cancun.",
+    "content": "Pablo Llamas Ruiz superou Francisco Comesana por 2 a 0 em Cancun., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Pablo Llamas Ruiz vence Francisco Comesana por 2 a 0 em Cancun",
+    "seoDescription": "Pablo Llamas Ruiz superou Francisco Comesana por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T04:28:01.143Z",
+    "createdAt": "2026-08-19T04:28:01.143Z",
+    "updatedAt": "2026-08-19T04:28:01.143Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816191",
+      "eventStartTime": "2026-08-19T02:09:44+00:00",
+      "retrievedAt": "2026-08-19T04:28:01.143Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-a769ff08d8ee",
+    "slug": "larre-borges-vence-colon-fc-por-101-a-87-em-liga-de-ascenso-a769ff",
+    "sportId": "basquete",
+    "title": "Larre Borges vence Colon FC por 101 a 87 em Liga de ascenso",
+    "summary": "Larre Borges superou Colon FC por 101 a 87 em Liga de ascenso.",
+    "content": "Larre Borges superou Colon FC por 101 a 87 em Liga de ascenso., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Larre Borges vence Colon FC por 101 a 87 em Liga de ascenso",
+    "seoDescription": "Larre Borges superou Colon FC por 101 a 87 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T04:28:01.141Z",
+    "createdAt": "2026-08-19T04:28:01.141Z",
+    "updatedAt": "2026-08-19T04:28:01.141Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816148",
+      "eventStartTime": "2026-08-18T23:15:00+00:00",
+      "retrievedAt": "2026-08-19T04:28:01.141Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-152b788f852d",
+    "slug": "nautico-supera-ceara-por-1-a-0-pelo-serie-b-152b78",
+    "sportId": "futebol",
+    "title": "Náutico supera Ceara por 1 a 0 pelo Serie B",
+    "summary": "Náutico venceu Ceara por 1 a 0 pelo Serie B.",
+    "content": "Náutico venceu Ceara por 1 a 0 pelo Serie B, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-b"
+    ],
+    "seoTitle": "Náutico supera Ceara por 1 a 0 pelo Serie B",
+    "seoDescription": "Náutico venceu Ceara por 1 a 0 pelo Serie B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T04:28:01.131Z",
+    "createdAt": "2026-08-19T04:28:01.131Z",
+    "updatedAt": "2026-08-19T04:28:01.131Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4669851",
+      "eventStartTime": "2026-08-19T00:30:00+00:00",
+      "retrievedAt": "2026-08-19T04:28:01.131Z",
+      "feedId": "futebol",
+      "league": "Serie B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-cd49c518acc2",
     "slug": "texas-rangers-vence-washington-nationals-por-5-a-0-na-mlb-cd49c5",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-16T15:43:10.860Z",
       "feedId": "tenis",
       "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3da92a9ec215",
-    "slug": "jagiellonia-e-pogon-ficam-no-0-a-0-pelo-ekstraklasa-3da92a",
-    "sportId": "futebol",
-    "title": "Jagiellonia e Pogon ficam no 0 a 0 pelo Ekstraklasa",
-    "summary": "Jagiellonia e Pogon empataram por 0 a 0 pelo Ekstraklasa.",
-    "content": "Jagiellonia e Pogon empataram por 0 a 0 pelo Ekstraklasa, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "ekstraklasa"
-    ],
-    "seoTitle": "Jagiellonia e Pogon ficam no 0 a 0 pelo Ekstraklasa",
-    "seoDescription": "Jagiellonia e Pogon empataram por 0 a 0 pelo Ekstraklasa.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T15:43:10.826Z",
-    "createdAt": "2026-08-16T15:43:10.826Z",
-    "updatedAt": "2026-08-16T15:43:10.826Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4736435",
-      "eventStartTime": "2026-08-16T15:30:00+00:00",
-      "retrievedAt": "2026-08-16T15:43:10.826Z",
-      "feedId": "futebol",
-      "league": "Ekstraklasa"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b522fb5d8920",
-    "slug": "luciano-emanuel-ambrogi-vence-vojtech-mares-por-2-a-0-em-prague-b522fb",
-    "sportId": "tenis",
-    "title": "Luciano Emanuel Ambrogi vence Vojtech Mares por 2 a 0 em Prague",
-    "summary": "Luciano Emanuel Ambrogi superou Vojtech Mares por 2 a 0 em Prague.",
-    "content": "Luciano Emanuel Ambrogi superou Vojtech Mares por 2 a 0 em Prague., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Luciano Emanuel Ambrogi vence Vojtech Mares por 2 a 0 em Prague",
-    "seoDescription": "Luciano Emanuel Ambrogi superou Vojtech Mares por 2 a 0 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T15:23:35.586Z",
-    "createdAt": "2026-08-16T15:23:35.586Z",
-    "updatedAt": "2026-08-16T15:23:35.586Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815622",
-      "eventStartTime": "2026-08-16T13:06:52+00:00",
-      "retrievedAt": "2026-08-16T15:23:35.586Z",
-      "feedId": "tenis",
-      "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1b12d601bc4b",
-    "slug": "america-u21-e-atletico-san-luis-u21-ficam-no-0-a-0-pela-liga-mx-u21-1b12d6",
-    "sportId": "futebol",
-    "title": "América U21 e Atlético San Luis U21 ficam no 0 a 0 pela Liga MX U21",
-    "summary": "América U21 e Atlético San Luis U21 empataram por 0 a 0 pela Liga MX U21.",
-    "content": "América U21 e Atlético San Luis U21 empataram por 0 a 0 pela Liga MX U21, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-mx-u21"
-    ],
-    "seoTitle": "América U21 e Atlético San Luis U21 ficam no 0 a 0 pela Liga MX U21",
-    "seoDescription": "América U21 e Atlético San Luis U21 empataram por 0 a 0 pela Liga MX U21.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T15:23:35.553Z",
-    "createdAt": "2026-08-16T15:23:35.553Z",
-    "updatedAt": "2026-08-16T15:23:35.553Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4759886",
-      "eventStartTime": "2026-08-16T15:00:00+00:00",
-      "retrievedAt": "2026-08-16T15:23:35.553Z",
-      "feedId": "futebol",
-      "league": "Liga MX U21"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c91b9d6686ea",
-    "slug": "benjamin-hassan-e-flynn-thomas-empatam-por-0-a-0-em-sion-c91b9d",
-    "sportId": "tenis",
-    "title": "Benjamin Hassan e Flynn Thomas empatam por 0 a 0 em Sion",
-    "summary": "Benjamin Hassan e Flynn Thomas terminaram empatados por 0 a 0 em Sion.",
-    "content": "Benjamin Hassan e Flynn Thomas terminaram empatados por 0 a 0 em Sion., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Benjamin Hassan e Flynn Thomas empatam por 0 a 0 em Sion",
-    "seoDescription": "Benjamin Hassan e Flynn Thomas terminaram empatados por 0 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T15:00:20.885Z",
-    "createdAt": "2026-08-16T15:00:20.885Z",
-    "updatedAt": "2026-08-16T15:00:20.885Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815614",
-      "eventStartTime": "2026-08-16T14:32:44+00:00",
-      "retrievedAt": "2026-08-16T15:00:20.885Z",
-      "feedId": "tenis",
-      "league": "Sion"
     },
     "articleFormat": "result-brief"
   }
