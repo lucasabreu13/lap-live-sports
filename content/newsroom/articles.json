@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-1589306ed522",
+    "slug": "dominik-recek-daniel-siniakov-vence-kielan-s-vega-hernandez-d-por-2-a-1-em-prague-158930",
+    "sportId": "tenis",
+    "title": "Dominik Recek / Daniel Siniakov vence Kielan S./Vega Hernandez D. por 2 a 1 em Prague",
+    "summary": "Dominik Recek / Daniel Siniakov superou Kielan S./Vega Hernandez D. por 2 a 1 em Prague.",
+    "content": "Dominik Recek / Daniel Siniakov superou Kielan S./Vega Hernandez D. por 2 a 1 em Prague., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Dominik Recek / Daniel Siniakov vence Kielan S./Vega Hernandez D. por",
+    "seoDescription": "Dominik Recek / Daniel Siniakov superou Kielan S./Vega Hernandez D. por 2 a 1 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T09:46:46.629Z",
+    "createdAt": "2026-08-19T09:46:46.629Z",
+    "updatedAt": "2026-08-19T09:46:46.629Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816544",
+      "eventStartTime": "2026-08-19T08:06:23+00:00",
+      "retrievedAt": "2026-08-19T09:46:46.629Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c245c95fc067",
+    "slug": "ud-ibiza-supera-arenas-de-getxo-por-4-a-1-pelo-club-friendlies-c245c9",
+    "sportId": "futebol",
+    "title": "UD Ibiza supera Arenas de Getxo por 4 a 1 pelo Club Friendlies",
+    "summary": "UD Ibiza venceu Arenas de Getxo por 4 a 1 pelo Club Friendlies.",
+    "content": "UD Ibiza venceu Arenas de Getxo por 4 a 1 pelo Club Friendlies, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "UD Ibiza supera Arenas de Getxo por 4 a 1 pelo Club Friendlies",
+    "seoDescription": "UD Ibiza venceu Arenas de Getxo por 4 a 1 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T09:46:46.599Z",
+    "createdAt": "2026-08-19T09:46:46.599Z",
+    "updatedAt": "2026-08-19T09:46:46.599Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818849",
+      "eventStartTime": "2026-08-19T08:00:00+00:00",
+      "retrievedAt": "2026-08-19T09:46:46.599Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-bc93759d2844",
     "slug": "edward-winter-vence-john-chin-por-2-a-0-em-kingston-bc9375",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T19:52:13.632Z",
       "feedId": "basquete",
       "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ef8ad218bf4b",
-    "slug": "club-lujan-supera-ca-lugano-por-2-a-1-pelo-primera-c-ef8ad2",
-    "sportId": "futebol",
-    "title": "Club Luján supera CA Lugano por 2 a 1 pelo Primera C",
-    "summary": "Club Luján venceu CA Lugano por 2 a 1 pelo Primera C.",
-    "content": "Club Luján venceu CA Lugano por 2 a 1 pelo Primera C, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-c"
-    ],
-    "seoTitle": "Club Luján supera CA Lugano por 2 a 1 pelo Primera C",
-    "seoDescription": "Club Luján venceu CA Lugano por 2 a 1 pelo Primera C.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T19:52:13.608Z",
-    "createdAt": "2026-08-16T19:52:13.608Z",
-    "updatedAt": "2026-08-16T19:52:13.608Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4639532",
-      "eventStartTime": "2026-08-16T18:00:00+00:00",
-      "retrievedAt": "2026-08-16T19:52:13.608Z",
-      "feedId": "futebol",
-      "league": "Primera C"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4aff8872f8a4",
-    "slug": "roger-pascual-ferra-e-mario-gonzalez-fernandez-empatam-por-0-a-0-em-kingston-4aff88",
-    "sportId": "tenis",
-    "title": "Roger Pascual Ferra e Mario Gonzalez Fernandez empatam por 0 a 0 em Kingston",
-    "summary": "Roger Pascual Ferra e Mario Gonzalez Fernandez terminaram empatados por 0 a 0 em Kingston.",
-    "content": "Roger Pascual Ferra e Mario Gonzalez Fernandez terminaram empatados por 0 a 0 em Kingston., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Roger Pascual Ferra e Mario Gonzalez Fernandez empatam por 0 a 0 em",
-    "seoDescription": "Roger Pascual Ferra e Mario Gonzalez Fernandez terminaram empatados por 0 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T19:32:40.640Z",
-    "createdAt": "2026-08-16T19:32:40.640Z",
-    "updatedAt": "2026-08-16T19:32:40.640Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815563",
-      "eventStartTime": "2026-08-16T19:27:01+00:00",
-      "retrievedAt": "2026-08-16T19:32:40.640Z",
-      "feedId": "tenis",
-      "league": "Kingston"
     },
     "articleFormat": "result-brief"
   }
