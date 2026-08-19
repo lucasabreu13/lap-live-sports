@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-ab7e8741267c",
+    "slug": "cleveland-guardians-vence-san-francisco-giants-por-8-a-1-na-mlb-ab7e87",
+    "sportId": "beisebol",
+    "title": "Cleveland Guardians vence San Francisco Giants por 8 a 1 na MLB",
+    "summary": "Cleveland Guardians derrotou San Francisco Giants por 8 a 1 na MLB.",
+    "content": "Cleveland Guardians derrotou San Francisco Giants por 8 a 1 na MLB, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Cleveland Guardians vence San Francisco Giants por 8 a 1 na MLB",
+    "seoDescription": "Cleveland Guardians derrotou San Francisco Giants por 8 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T02:06:39.827Z",
+    "createdAt": "2026-08-19T02:06:39.827Z",
+    "updatedAt": "2026-08-19T02:06:39.827Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614626",
+      "eventStartTime": "2026-08-18T22:40:00+00:00",
+      "retrievedAt": "2026-08-19T02:06:39.827Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-953587576273",
+    "slug": "stanislas-wawrinka-vence-dalibor-svrcina-por-2-a-0-em-cancun-953587",
+    "sportId": "tenis",
+    "title": "Stanislas Wawrinka vence Dalibor Svrcina por 2 a 0 em Cancun",
+    "summary": "Stanislas Wawrinka superou Dalibor Svrcina por 2 a 0 em Cancun.",
+    "content": "Stanislas Wawrinka superou Dalibor Svrcina por 2 a 0 em Cancun., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Stanislas Wawrinka vence Dalibor Svrcina por 2 a 0 em Cancun",
+    "seoDescription": "Stanislas Wawrinka superou Dalibor Svrcina por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T02:06:39.821Z",
+    "createdAt": "2026-08-19T02:06:39.821Z",
+    "updatedAt": "2026-08-19T02:06:39.821Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816194",
+      "eventStartTime": "2026-08-18T23:16:16+00:00",
+      "retrievedAt": "2026-08-19T02:06:39.821Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9719ab9dc177",
+    "slug": "ca-marne-vence-club-deportivo-albatros-por-76-a-68-em-liga-de-ascenso-9719ab",
+    "sportId": "basquete",
+    "title": "Ca Marne vence Club Deportivo Albatros por 76 a 68 em Liga de ascenso",
+    "summary": "Ca Marne superou Club Deportivo Albatros por 76 a 68 em Liga de ascenso.",
+    "content": "Ca Marne superou Club Deportivo Albatros por 76 a 68 em Liga de ascenso., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Ca Marne vence Club Deportivo Albatros por 76 a 68 em Liga de ascenso",
+    "seoDescription": "Ca Marne superou Club Deportivo Albatros por 76 a 68 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T02:06:39.814Z",
+    "createdAt": "2026-08-19T02:06:39.814Z",
+    "updatedAt": "2026-08-19T02:06:39.814Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816146",
+      "eventStartTime": "2026-08-18T23:15:00+00:00",
+      "retrievedAt": "2026-08-19T02:06:39.814Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-382db7addc59",
+    "slug": "xv-de-piracicaba-supera-comercial-sp-por-1-a-0-pela-copa-paulista-382db7",
+    "sportId": "futebol",
+    "title": "XV de Piracicaba supera Comercial-SP por 1 a 0 pela Copa Paulista",
+    "summary": "XV de Piracicaba venceu Comercial-SP por 1 a 0 pela Copa Paulista.",
+    "content": "XV de Piracicaba venceu Comercial-SP por 1 a 0 pela Copa Paulista, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-paulista"
+    ],
+    "seoTitle": "XV de Piracicaba supera Comercial-SP por 1 a 0 pela Copa Paulista",
+    "seoDescription": "XV de Piracicaba venceu Comercial-SP por 1 a 0 pela Copa Paulista.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T02:06:39.806Z",
+    "createdAt": "2026-08-19T02:06:39.806Z",
+    "updatedAt": "2026-08-19T02:06:39.806Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4773381",
+      "eventStartTime": "2026-08-18T23:00:00+00:00",
+      "retrievedAt": "2026-08-19T02:06:39.806Z",
+      "feedId": "futebol",
+      "league": "Copa Paulista"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-39a92408c4b9",
     "slug": "aryna-sabalenka-vence-xin-yu-wang-por-2-a-0-em-cincinnati-39a924",
     "sportId": "tenis",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-16T13:42:06.798Z",
       "feedId": "tenis",
       "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-40a511c572cb",
-    "slug": "lyra-lierse-berlaar-e-wellen-ficam-no-0-a-0-pelo-belgian-cup-40a511",
-    "sportId": "futebol",
-    "title": "Lyra-Lierse Berlaar e Wellen ficam no 0 a 0 pelo Belgian Cup",
-    "summary": "Lyra-Lierse Berlaar e Wellen empataram por 0 a 0 pelo Belgian Cup.",
-    "content": "Lyra-Lierse Berlaar e Wellen empataram por 0 a 0 pelo Belgian Cup, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "belgian-cup"
-    ],
-    "seoTitle": "Lyra-Lierse Berlaar e Wellen ficam no 0 a 0 pelo Belgian Cup",
-    "seoDescription": "Lyra-Lierse Berlaar e Wellen empataram por 0 a 0 pelo Belgian Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T13:42:06.770Z",
-    "createdAt": "2026-08-16T13:42:06.770Z",
-    "updatedAt": "2026-08-16T13:42:06.770Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807685",
-      "eventStartTime": "2026-08-16T13:00:00+00:00",
-      "retrievedAt": "2026-08-16T13:42:06.770Z",
-      "feedId": "futebol",
-      "league": "Belgian Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a6cebd5bca1c",
-    "slug": "radu-mihai-papoe-vence-jakub-vrtilka-por-2-a-0-em-prague-a6cebd",
-    "sportId": "tenis",
-    "title": "Radu Mihai Papoe vence Jakub Vrtilka por 2 a 0 em Prague",
-    "summary": "Radu Mihai Papoe superou Jakub Vrtilka por 2 a 0 em Prague.",
-    "content": "Radu Mihai Papoe superou Jakub Vrtilka por 2 a 0 em Prague., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Radu Mihai Papoe vence Jakub Vrtilka por 2 a 0 em Prague",
-    "seoDescription": "Radu Mihai Papoe superou Jakub Vrtilka por 2 a 0 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T13:06:55.566Z",
-    "createdAt": "2026-08-16T13:06:55.566Z",
-    "updatedAt": "2026-08-16T13:06:55.566Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815557",
-      "eventStartTime": "2026-08-16T11:55:00+00:00",
-      "retrievedAt": "2026-08-16T13:06:55.566Z",
-      "feedId": "tenis",
-      "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d4b15663ad00",
-    "slug": "saarbrucken-w-e-greuther-furth-w-ficam-no-0-a-0-pelo-dfb-pokal-women-d4b156",
-    "sportId": "futebol",
-    "title": "Saarbrucken (W) e Greuther Fürth (W) ficam no 0 a 0 pelo DFB Pokal Women",
-    "summary": "Saarbrucken (W) e Greuther Fürth (W) empataram por 0 a 0 pelo DFB Pokal Women.",
-    "content": "Saarbrucken (W) e Greuther Fürth (W) empataram por 0 a 0 pelo DFB Pokal Women, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "dfb-pokal-women"
-    ],
-    "seoTitle": "Saarbrucken (W) e Greuther Fürth (W) ficam no 0 a 0 pelo DFB Pokal",
-    "seoDescription": "Saarbrucken (W) e Greuther Fürth (W) empataram por 0 a 0 pelo DFB Pokal Women.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T13:06:55.536Z",
-    "createdAt": "2026-08-16T13:06:55.536Z",
-    "updatedAt": "2026-08-16T13:06:55.536Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4748034",
-      "eventStartTime": "2026-08-16T12:00:00+00:00",
-      "retrievedAt": "2026-08-16T13:06:55.536Z",
-      "feedId": "futebol",
-      "league": "DFB Pokal Women"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ae5506e4ec65",
-    "slug": "norbert-gombos-vence-jiri-cizek-por-2-a-0-em-prague-ae5506",
-    "sportId": "tenis",
-    "title": "Norbert Gombos vence Jiri Cizek por 2 a 0 em Prague",
-    "summary": "Norbert Gombos superou Jiri Cizek por 2 a 0 em Prague.",
-    "content": "Norbert Gombos superou Jiri Cizek por 2 a 0 em Prague., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Norbert Gombos vence Jiri Cizek por 2 a 0 em Prague",
-    "seoDescription": "Norbert Gombos superou Jiri Cizek por 2 a 0 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T12:16:34.547Z",
-    "createdAt": "2026-08-16T12:16:34.547Z",
-    "updatedAt": "2026-08-16T12:16:34.547Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815307",
-      "eventStartTime": "2026-08-16T10:04:44+00:00",
-      "retrievedAt": "2026-08-16T12:16:34.547Z",
-      "feedId": "tenis",
-      "league": "Prague"
     },
     "articleFormat": "result-brief"
   }
