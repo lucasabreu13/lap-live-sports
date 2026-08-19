@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-138fcdb5f347",
+    "slug": "lg-twins-vence-kt-wiz-suwon-por-1-a-0-na-kbo-138fcd",
+    "sportId": "beisebol",
+    "title": "LG Twins vence Kt Wiz Suwon por 1 a 0 na KBO",
+    "summary": "LG Twins derrotou Kt Wiz Suwon por 1 a 0 na KBO.",
+    "content": "LG Twins derrotou Kt Wiz Suwon por 1 a 0 na KBO, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "kbo"
+    ],
+    "seoTitle": "LG Twins vence Kt Wiz Suwon por 1 a 0 na KBO",
+    "seoDescription": "LG Twins derrotou Kt Wiz Suwon por 1 a 0 na KBO.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T17:17:16.190Z",
+    "createdAt": "2026-08-19T17:17:16.190Z",
+    "updatedAt": "2026-08-19T17:17:16.190Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818559",
+      "eventStartTime": "2026-08-19T10:00:00+00:00",
+      "retrievedAt": "2026-08-19T17:17:16.190Z",
+      "feedId": "beisebol",
+      "league": "KBO"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-addde21b2546",
+    "slug": "blancaneaux-g-hermans-m-vence-estevez-j-la-serna-j-m-por-2-a-1-em-sion-addde2",
+    "sportId": "tenis",
+    "title": "Blancaneaux G./Hermans M. vence Estevez J./La Serna J M. por 2 a 1 em Sion",
+    "summary": "Blancaneaux G./Hermans M. superou Estevez J./La Serna J M. por 2 a 1 em Sion.",
+    "content": "Blancaneaux G./Hermans M. superou Estevez J./La Serna J M. por 2 a 1 em Sion., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Blancaneaux G./Hermans M. vence Estevez J./La Serna J M. por 2 a 1 em",
+    "seoDescription": "Blancaneaux G./Hermans M. superou Estevez J./La Serna J M. por 2 a 1 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T17:17:16.181Z",
+    "createdAt": "2026-08-19T17:17:16.181Z",
+    "updatedAt": "2026-08-19T17:17:16.181Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816542",
+      "eventStartTime": "2026-08-19T15:47:26+00:00",
+      "retrievedAt": "2026-08-19T17:17:16.181Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-97f7ece934dc",
+    "slug": "deportivo-quiche-e-deportivo-gomerano-ficam-no-0-a-0-pelo-primera-division-97f7ec",
+    "sportId": "futebol",
+    "title": "Deportivo Quiché e Deportivo Gomerano ficam no 0 a 0 pelo Primera Division",
+    "summary": "Deportivo Quiché e Deportivo Gomerano empataram por 0 a 0 pelo Primera Division.",
+    "content": "Deportivo Quiché e Deportivo Gomerano empataram por 0 a 0 pelo Primera Division, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-division"
+    ],
+    "seoTitle": "Deportivo Quiché e Deportivo Gomerano ficam no 0 a 0 pelo Primera",
+    "seoDescription": "Deportivo Quiché e Deportivo Gomerano empataram por 0 a 0 pelo Primera Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T17:17:16.158Z",
+    "createdAt": "2026-08-19T17:17:16.158Z",
+    "updatedAt": "2026-08-19T17:17:16.158Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4777098",
+      "eventStartTime": "2026-08-19T17:00:00+00:00",
+      "retrievedAt": "2026-08-19T17:17:16.158Z",
+      "feedId": "futebol",
+      "league": "Primera Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-285cbdc4f781",
     "slug": "basel-v-ribero-f-e-chepelev-a-kuzmanov-d-empatam-por-0-a-0-em-sion-285cbd",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-16T23:09:57.784Z",
       "feedId": "beisebol",
       "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3e82608e0bd6",
-    "slug": "andrew-fenty-vence-hunter-heck-por-2-a-1-em-kingston-3e8260",
-    "sportId": "tenis",
-    "title": "Andrew Fenty vence Hunter Heck por 2 a 1 em Kingston",
-    "summary": "Andrew Fenty superou Hunter Heck por 2 a 1 em Kingston.",
-    "content": "Andrew Fenty superou Hunter Heck por 2 a 1 em Kingston., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Andrew Fenty vence Hunter Heck por 2 a 1 em Kingston",
-    "seoDescription": "Andrew Fenty superou Hunter Heck por 2 a 1 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T23:09:57.762Z",
-    "createdAt": "2026-08-16T23:09:57.762Z",
-    "updatedAt": "2026-08-16T23:09:57.762Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815566",
-      "eventStartTime": "2026-08-16T16:52:53+00:00",
-      "retrievedAt": "2026-08-16T23:09:57.762Z",
-      "feedId": "tenis",
-      "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7ac78374884d",
-    "slug": "club-malvin-w-vence-tabare-w-por-85-a-44-em-lfb-w-7ac783",
-    "sportId": "basquete",
-    "title": "Club Malvin (W) vence Tabare (W) por 85 a 44 em LFB (W)",
-    "summary": "Club Malvin (W) superou Tabare (W) por 85 a 44 em LFB (W).",
-    "content": "Club Malvin (W) superou Tabare (W) por 85 a 44 em LFB (W)., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lfb-w"
-    ],
-    "seoTitle": "Club Malvin (W) vence Tabare (W) por 85 a 44 em LFB (W)",
-    "seoDescription": "Club Malvin (W) superou Tabare (W) por 85 a 44 em LFB (W).",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T23:09:57.730Z",
-    "createdAt": "2026-08-16T23:09:57.730Z",
-    "updatedAt": "2026-08-16T23:09:57.730Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814214",
-      "eventStartTime": "2026-08-16T21:30:00+00:00",
-      "retrievedAt": "2026-08-16T23:09:57.730Z",
-      "feedId": "basquete",
-      "league": "LFB (W)"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-559b1c905984",
-    "slug": "america-de-cali-e-fortaleza-fc-ficam-no-0-a-0-pelo-primera-a-559b1c",
-    "sportId": "futebol",
-    "title": "America de Cali e Fortaleza FC ficam no 0 a 0 pelo Primera A",
-    "summary": "America de Cali e Fortaleza FC empataram por 0 a 0 pelo Primera A.",
-    "content": "America de Cali e Fortaleza FC empataram por 0 a 0 pelo Primera A, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-a"
-    ],
-    "seoTitle": "America de Cali e Fortaleza FC ficam no 0 a 0 pelo Primera A",
-    "seoDescription": "America de Cali e Fortaleza FC empataram por 0 a 0 pelo Primera A.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T23:09:57.715Z",
-    "createdAt": "2026-08-16T23:09:57.715Z",
-    "updatedAt": "2026-08-16T23:09:57.715Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732050",
-      "eventStartTime": "2026-08-16T23:05:00+00:00",
-      "retrievedAt": "2026-08-16T23:09:57.715Z",
-      "feedId": "futebol",
-      "league": "Primera A"
     },
     "articleFormat": "result-brief"
   }
