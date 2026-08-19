@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-1dbd2a074b4f",
+    "slug": "bernet-stricker-vence-kalyanpur-a-nedunchezhiyan-j-por-2-a-0-em-sion-1dbd2a",
+    "sportId": "tenis",
+    "title": "Bernet/Stricker vence Kalyanpur A./Nedunchezhiyan J. por 2 a 0 em Sion",
+    "summary": "Bernet/Stricker superou Kalyanpur A./Nedunchezhiyan J. por 2 a 0 em Sion.",
+    "content": "Bernet/Stricker superou Kalyanpur A./Nedunchezhiyan J. por 2 a 0 em Sion., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Bernet/Stricker vence Kalyanpur A./Nedunchezhiyan J. por 2 a 0 em Sion",
+    "seoDescription": "Bernet/Stricker superou Kalyanpur A./Nedunchezhiyan J. por 2 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T18:17:45.287Z",
+    "createdAt": "2026-08-19T18:17:45.287Z",
+    "updatedAt": "2026-08-19T18:17:45.287Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816537",
+      "eventStartTime": "2026-08-19T16:47:16+00:00",
+      "retrievedAt": "2026-08-19T18:17:45.287Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-da225b2540fb",
+    "slug": "slovakia-vence-angola-por-73-a-63-em-international-friendlies-da225b",
+    "sportId": "basquete",
+    "title": "Slovakia vence Angola por 73 a 63 em International Friendlies",
+    "summary": "Slovakia superou Angola por 73 a 63 em International Friendlies.",
+    "content": "Slovakia superou Angola por 73 a 63 em International Friendlies., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendlies"
+    ],
+    "seoTitle": "Slovakia vence Angola por 73 a 63 em International Friendlies",
+    "seoDescription": "Slovakia superou Angola por 73 a 63 em International Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T18:17:45.284Z",
+    "createdAt": "2026-08-19T18:17:45.284Z",
+    "updatedAt": "2026-08-19T18:17:45.284Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818946",
+      "eventStartTime": "2026-08-19T16:00:00+00:00",
+      "retrievedAt": "2026-08-19T18:17:45.284Z",
+      "feedId": "basquete",
+      "league": "International Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f57afba53e7c",
+    "slug": "ofk-bor-e-vozdovac-ficam-no-0-a-0-pela-prva-liga-f57afb",
+    "sportId": "futebol",
+    "title": "OFK Bor e Vozdovac ficam no 0 a 0 pela Prva Liga",
+    "summary": "OFK Bor e Vozdovac empataram por 0 a 0 pela Prva Liga.",
+    "content": "OFK Bor e Vozdovac empataram por 0 a 0 pela Prva Liga, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "prva-liga"
+    ],
+    "seoTitle": "OFK Bor e Vozdovac ficam no 0 a 0 pela Prva Liga",
+    "seoDescription": "OFK Bor e Vozdovac empataram por 0 a 0 pela Prva Liga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T18:17:45.276Z",
+    "createdAt": "2026-08-19T18:17:45.276Z",
+    "updatedAt": "2026-08-19T18:17:45.276Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4738265",
+      "eventStartTime": "2026-08-19T17:00:00+00:00",
+      "retrievedAt": "2026-08-19T18:17:45.276Z",
+      "feedId": "futebol",
+      "league": "Prva Liga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-b65f3077d4eb",
     "slug": "choinski-j-de-jong-j-e-schoolkate-t-sweeny-d-empatam-por-0-a-0-em-quebec-city-b65f30",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-16T23:53:48.575Z",
       "feedId": "futebol",
       "league": "liga FPD"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0b7e9819f8ec",
-    "slug": "yomiuri-giants-vence-chunichi-dragons-por-11-a-0-na-npb-0b7e98",
-    "sportId": "beisebol",
-    "title": "Yomiuri Giants vence Chunichi Dragons por 11 a 0 na NPB",
-    "summary": "Yomiuri Giants derrotou Chunichi Dragons por 11 a 0 na NPB.",
-    "content": "Yomiuri Giants derrotou Chunichi Dragons por 11 a 0 na NPB, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Yomiuri Giants vence Chunichi Dragons por 11 a 0 na NPB",
-    "seoDescription": "Yomiuri Giants derrotou Chunichi Dragons por 11 a 0 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T23:32:17.865Z",
-    "createdAt": "2026-08-16T23:32:17.865Z",
-    "updatedAt": "2026-08-16T23:32:17.865Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4626514",
-      "eventStartTime": "2026-08-16T04:30:00+00:00",
-      "retrievedAt": "2026-08-16T23:32:17.865Z",
-      "feedId": "beisebol",
-      "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ef8e350ea2b9",
-    "slug": "eikeri-u-gleason-q-vence-perez-e-schuurs-d-por-2-a-1-em-cincinnati-ef8e35",
-    "sportId": "tenis",
-    "title": "Eikeri U./Gleason Q. vence Perez E./Schuurs D. por 2 a 1 em Cincinnati",
-    "summary": "Eikeri U./Gleason Q. superou Perez E./Schuurs D. por 2 a 1 em Cincinnati.",
-    "content": "Eikeri U./Gleason Q. superou Perez E./Schuurs D. por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Eikeri U./Gleason Q. vence Perez E./Schuurs D. por 2 a 1 em Cincinnati",
-    "seoDescription": "Eikeri U./Gleason Q. superou Perez E./Schuurs D. por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T23:32:17.841Z",
-    "createdAt": "2026-08-16T23:32:17.841Z",
-    "updatedAt": "2026-08-16T23:32:17.841Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815111",
-      "eventStartTime": "2026-08-16T15:11:04+00:00",
-      "retrievedAt": "2026-08-16T23:32:17.841Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-10c1b233b52f",
-    "slug": "deportivo-amambay-vence-deportivo-campoalto-por-82-a-57-em-lnb-10c1b2",
-    "sportId": "basquete",
-    "title": "Deportivo Amambay vence Deportivo Campoalto por 82 a 57 em LNB",
-    "summary": "Deportivo Amambay superou Deportivo Campoalto por 82 a 57 em LNB.",
-    "content": "Deportivo Amambay superou Deportivo Campoalto por 82 a 57 em LNB., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Deportivo Amambay vence Deportivo Campoalto por 82 a 57 em LNB",
-    "seoDescription": "Deportivo Amambay superou Deportivo Campoalto por 82 a 57 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T23:32:17.795Z",
-    "createdAt": "2026-08-16T23:32:17.795Z",
-    "updatedAt": "2026-08-16T23:32:17.795Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809965",
-      "eventStartTime": "2026-08-16T21:30:00+00:00",
-      "retrievedAt": "2026-08-16T23:32:17.795Z",
-      "feedId": "basquete",
-      "league": "LNB"
     },
     "articleFormat": "result-brief"
   }
