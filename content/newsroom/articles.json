@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-bf5caf78fa13",
+    "slug": "falck-r-suarez-b-vence-ficovich-j-p-huertas-del-pino-cordova-a-por-2-a-1-em-kingst-bf5caf",
+    "sportId": "tenis",
+    "title": "Falck R./Suarez B. vence Ficovich J P./Huertas Del Pino Cordova A. por 2 a 1 em Kingston",
+    "summary": "Falck R./Suarez B. superou Ficovich J P./Huertas Del Pino Cordova A. por 2 a 1 em Kingston.",
+    "content": "Falck R./Suarez B. superou Ficovich J P./Huertas Del Pino Cordova A. por 2 a 1 em Kingston., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Falck R./Suarez B. vence Ficovich J P./Huertas Del Pino Cordova A. por",
+    "seoDescription": "Falck R./Suarez B. superou Ficovich J P./Huertas Del Pino Cordova A. por 2 a 1 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T22:58:23.214Z",
+    "createdAt": "2026-08-19T22:58:23.214Z",
+    "updatedAt": "2026-08-19T22:58:23.214Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819259",
+      "eventStartTime": "2026-08-19T21:20:41+00:00",
+      "retrievedAt": "2026-08-19T22:58:23.214Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d073ac13b117",
+    "slug": "ge-bage-e-guarani-va-ficam-no-0-a-0-pelo-gaucho-a2-d073ac",
+    "sportId": "futebol",
+    "title": "GE Bagé e Guarani-VA ficam no 0 a 0 pelo Gaucho A2",
+    "summary": "GE Bagé e Guarani-VA empataram por 0 a 0 pelo Gaucho A2.",
+    "content": "GE Bagé e Guarani-VA empataram por 0 a 0 pelo Gaucho A2, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "gaucho-a2"
+    ],
+    "seoTitle": "GE Bagé e Guarani-VA ficam no 0 a 0 pelo Gaucho A2",
+    "seoDescription": "GE Bagé e Guarani-VA empataram por 0 a 0 pelo Gaucho A2.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T22:58:23.185Z",
+    "createdAt": "2026-08-19T22:58:23.185Z",
+    "updatedAt": "2026-08-19T22:58:23.185Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4777046",
+      "eventStartTime": "2026-08-19T22:00:00+00:00",
+      "retrievedAt": "2026-08-19T22:58:23.185Z",
+      "feedId": "futebol",
+      "league": "Gaucho A2"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-9ee3c16ef7f6",
     "slug": "bianchi-j-j-pearson-k-e-bax-f-mayot-h-empatam-por-0-a-0-em-kingston-9ee3c1",
     "sportId": "tenis",
@@ -12510,90 +12594,6 @@
       "eventId": "365-4815098",
       "eventStartTime": "2026-08-16T15:10:08+00:00",
       "retrievedAt": "2026-08-17T05:20:09.786Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3cb28c121727",
-    "slug": "club-tijuana-supera-cruz-azul-por-2-a-1-pela-liga-mx-3cb28c",
-    "sportId": "futebol",
-    "title": "Club Tijuana supera Cruz Azul por 2 a 1 pela Liga MX",
-    "summary": "Club Tijuana venceu Cruz Azul por 2 a 1 pela Liga MX.",
-    "content": "Club Tijuana venceu Cruz Azul por 2 a 1 pela Liga MX, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-mx"
-    ],
-    "seoTitle": "Club Tijuana supera Cruz Azul por 2 a 1 pela Liga MX",
-    "seoDescription": "Club Tijuana venceu Cruz Azul por 2 a 1 pela Liga MX.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T05:20:09.685Z",
-    "createdAt": "2026-08-17T05:20:09.685Z",
-    "updatedAt": "2026-08-17T05:20:09.685Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4735730",
-      "eventStartTime": "2026-08-17T03:00:00+00:00",
-      "retrievedAt": "2026-08-17T05:20:09.685Z",
-      "feedId": "futebol",
-      "league": "Liga MX"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a0b6e1b32d1b",
-    "slug": "frances-tiafoe-vence-lorenzo-sonego-por-2-a-0-em-cincinnati-a0b6e1",
-    "sportId": "tenis",
-    "title": "Frances Tiafoe vence Lorenzo Sonego por 2 a 0 em Cincinnati",
-    "summary": "Frances Tiafoe superou Lorenzo Sonego por 2 a 0 em Cincinnati.",
-    "content": "Frances Tiafoe superou Lorenzo Sonego por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Frances Tiafoe vence Lorenzo Sonego por 2 a 0 em Cincinnati",
-    "seoDescription": "Frances Tiafoe superou Lorenzo Sonego por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T04:41:18.290Z",
-    "createdAt": "2026-08-17T04:41:18.290Z",
-    "updatedAt": "2026-08-17T04:41:18.290Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815117",
-      "eventStartTime": "2026-08-17T02:08:19+00:00",
-      "retrievedAt": "2026-08-17T04:41:18.290Z",
       "feedId": "tenis",
       "league": "Cincinnati"
     },
