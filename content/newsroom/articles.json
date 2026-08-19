@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-548f1b14ced2",
+    "slug": "neuchrist-m-poljak-d-e-staeheli-l-zahraj-p-empatam-por-0-a-0-em-sion-548f1b",
+    "sportId": "tenis",
+    "title": "Neuchrist M./Poljak D. e Staeheli L./Zahraj P. empatam por 0 a 0 em Sion",
+    "summary": "Neuchrist M./Poljak D. e Staeheli L./Zahraj P. terminaram empatados por 0 a 0 em Sion.",
+    "content": "Neuchrist M./Poljak D. e Staeheli L./Zahraj P. terminaram empatados por 0 a 0 em Sion., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Neuchrist M./Poljak D. e Staeheli L./Zahraj P. empatam por 0 a 0 em",
+    "seoDescription": "Neuchrist M./Poljak D. e Staeheli L./Zahraj P. terminaram empatados por 0 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T12:44:11.574Z",
+    "createdAt": "2026-08-19T12:44:11.574Z",
+    "updatedAt": "2026-08-19T12:44:11.574Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815579",
+      "eventStartTime": "2026-08-19T12:05:00+00:00",
+      "retrievedAt": "2026-08-19T12:44:11.574Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-de54bbb567ad",
+    "slug": "fc-anyang-supera-jeju-sk-por-2-a-1-pelo-fa-cup-de54bb",
+    "sportId": "futebol",
+    "title": "FC Anyang supera Jeju SK por 2 a 1 pelo FA Cup",
+    "summary": "FC Anyang venceu Jeju SK por 2 a 1 pelo FA Cup.",
+    "content": "FC Anyang venceu Jeju SK por 2 a 1 pelo FA Cup, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "fa-cup"
+    ],
+    "seoTitle": "FC Anyang supera Jeju SK por 2 a 1 pelo FA Cup",
+    "seoDescription": "FC Anyang venceu Jeju SK por 2 a 1 pelo FA Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T12:44:11.549Z",
+    "createdAt": "2026-08-19T12:44:11.549Z",
+    "updatedAt": "2026-08-19T12:44:11.549Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4797743",
+      "eventStartTime": "2026-08-19T10:30:00+00:00",
+      "retrievedAt": "2026-08-19T12:44:11.549Z",
+      "feedId": "futebol",
+      "league": "FA Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-23cd6fc6238f",
     "slug": "tyler-zink-vence-lucas-andrade-da-silva-por-2-a-1-em-kingston-23cd6f",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T21:33:20.177Z",
       "feedId": "basquete",
       "league": "Paulista Basketball"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d9a5b3a5d054",
-    "slug": "union-deportivo-asencion-e-asociacion-deportiva-ucayali-fc-ficam-no-0-a-0-pela-lig-d9a5b3",
-    "sportId": "futebol",
-    "title": "Union Deportivo Asencion e Asociación Deportiva Ucayali FC ficam no 0 a 0 pela Liga 3",
-    "summary": "Union Deportivo Asencion e Asociación Deportiva Ucayali FC empataram por 0 a 0 pela Liga 3.",
-    "content": "Union Deportivo Asencion e Asociación Deportiva Ucayali FC empataram por 0 a 0 pela Liga 3, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-3"
-    ],
-    "seoTitle": "Union Deportivo Asencion e Asociación Deportiva Ucayali FC ficam no 0",
-    "seoDescription": "Union Deportivo Asencion e Asociación Deportiva Ucayali FC empataram por 0 a 0 pela Liga 3.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T21:33:20.166Z",
-    "createdAt": "2026-08-16T21:33:20.166Z",
-    "updatedAt": "2026-08-16T21:33:20.166Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814996",
-      "eventStartTime": "2026-08-16T20:30:00+00:00",
-      "retrievedAt": "2026-08-16T21:33:20.166Z",
-      "feedId": "futebol",
-      "league": "Liga 3"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-31db3abbc061",
-    "slug": "routliffe-e-sutjiadi-a-vence-muhammad-a-stollar-f-por-2-a-0-em-cincinnati-31db3a",
-    "sportId": "tenis",
-    "title": "Routliffe E./Sutjiadi A. vence Muhammad A./Stollar F. por 2 a 0 em Cincinnati",
-    "summary": "Routliffe E./Sutjiadi A. superou Muhammad A./Stollar F. por 2 a 0 em Cincinnati.",
-    "content": "Routliffe E./Sutjiadi A. superou Muhammad A./Stollar F. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Routliffe E./Sutjiadi A. vence Muhammad A./Stollar F. por 2 a 0 em",
-    "seoDescription": "Routliffe E./Sutjiadi A. superou Muhammad A./Stollar F. por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T21:11:42.958Z",
-    "createdAt": "2026-08-16T21:11:42.958Z",
-    "updatedAt": "2026-08-16T21:11:42.958Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815100",
-      "eventStartTime": "2026-08-16T18:50:47+00:00",
-      "retrievedAt": "2026-08-16T21:11:42.958Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
