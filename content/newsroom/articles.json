@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-cd49c518acc2",
+    "slug": "texas-rangers-vence-washington-nationals-por-5-a-0-na-mlb-cd49c5",
+    "sportId": "beisebol",
+    "title": "Texas Rangers vence Washington Nationals por 5 a 0 na MLB",
+    "summary": "Texas Rangers derrotou Washington Nationals por 5 a 0 na MLB.",
+    "content": "Texas Rangers derrotou Washington Nationals por 5 a 0 na MLB, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Texas Rangers vence Washington Nationals por 5 a 0 na MLB",
+    "seoDescription": "Texas Rangers derrotou Washington Nationals por 5 a 0 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T03:56:34.990Z",
+    "createdAt": "2026-08-19T03:56:34.990Z",
+    "updatedAt": "2026-08-19T03:56:34.990Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614619",
+      "eventStartTime": "2026-08-19T00:05:00+00:00",
+      "retrievedAt": "2026-08-19T03:56:34.990Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f755ce5d3ad3",
+    "slug": "kenta-miyoshi-vence-joel-josef-schwaerzler-por-2-a-0-em-kingston-f755ce",
+    "sportId": "tenis",
+    "title": "Kenta Miyoshi vence Joel Josef Schwaerzler por 2 a 0 em Kingston",
+    "summary": "Kenta Miyoshi superou Joel Josef Schwaerzler por 2 a 0 em Kingston.",
+    "content": "Kenta Miyoshi superou Joel Josef Schwaerzler por 2 a 0 em Kingston., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Kenta Miyoshi vence Joel Josef Schwaerzler por 2 a 0 em Kingston",
+    "seoDescription": "Kenta Miyoshi superou Joel Josef Schwaerzler por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T03:56:34.985Z",
+    "createdAt": "2026-08-19T03:56:34.985Z",
+    "updatedAt": "2026-08-19T03:56:34.985Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816754",
+      "eventStartTime": "2026-08-18T23:00:24+00:00",
+      "retrievedAt": "2026-08-19T03:56:34.985Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-a69795be917f",
+    "slug": "olimpia-vence-sayago-por-76-a-63-em-liga-de-ascenso-a69795",
+    "sportId": "basquete",
+    "title": "Olimpia vence Sayago por 76 a 63 em Liga de ascenso",
+    "summary": "Olimpia superou Sayago por 76 a 63 em Liga de ascenso.",
+    "content": "Olimpia superou Sayago por 76 a 63 em Liga de ascenso., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Olimpia vence Sayago por 76 a 63 em Liga de ascenso",
+    "seoDescription": "Olimpia superou Sayago por 76 a 63 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T03:56:34.970Z",
+    "createdAt": "2026-08-19T03:56:34.970Z",
+    "updatedAt": "2026-08-19T03:56:34.970Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816147",
+      "eventStartTime": "2026-08-18T23:15:00+00:00",
+      "retrievedAt": "2026-08-19T03:56:34.970Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2b3e3133ee31",
+    "slug": "juventude-supera-goias-por-1-a-0-pelo-serie-b-2b3e31",
+    "sportId": "futebol",
+    "title": "Juventude supera Goias por 1 a 0 pelo Serie B",
+    "summary": "Juventude venceu Goias por 1 a 0 pelo Serie B.",
+    "content": "Juventude venceu Goias por 1 a 0 pelo Serie B, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-b"
+    ],
+    "seoTitle": "Juventude supera Goias por 1 a 0 pelo Serie B",
+    "seoDescription": "Juventude venceu Goias por 1 a 0 pelo Serie B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T03:56:34.959Z",
+    "createdAt": "2026-08-19T03:56:34.959Z",
+    "updatedAt": "2026-08-19T03:56:34.959Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4669850",
+      "eventStartTime": "2026-08-19T00:35:00+00:00",
+      "retrievedAt": "2026-08-19T03:56:34.959Z",
+      "feedId": "futebol",
+      "league": "Serie B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-77201b7d97df",
     "slug": "los-angeles-angels-vence-houston-astros-por-3-a-1-na-mlb-77201b",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-16T15:00:20.885Z",
       "feedId": "tenis",
       "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4627d16ae6da",
-    "slug": "fk-istaravshan-e-fk-khujand-ficam-no-0-a-0-pela-vysshaya-liga-4627d1",
-    "sportId": "futebol",
-    "title": "FK Istaravshan e FK Khujand ficam no 0 a 0 pela Vysshaya Liga",
-    "summary": "FK Istaravshan e FK Khujand empataram por 0 a 0 pela Vysshaya Liga.",
-    "content": "FK Istaravshan e FK Khujand empataram por 0 a 0 pela Vysshaya Liga, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "vysshaya-liga"
-    ],
-    "seoTitle": "FK Istaravshan e FK Khujand ficam no 0 a 0 pela Vysshaya Liga",
-    "seoDescription": "FK Istaravshan e FK Khujand empataram por 0 a 0 pela Vysshaya Liga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T15:00:20.861Z",
-    "createdAt": "2026-08-16T15:00:20.861Z",
-    "updatedAt": "2026-08-16T15:00:20.861Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4678892",
-      "eventStartTime": "2026-08-16T14:00:00+00:00",
-      "retrievedAt": "2026-08-16T15:00:20.861Z",
-      "feedId": "futebol",
-      "league": "Vysshaya Liga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-449623610ee6",
-    "slug": "ali-habib-e-oscar-weightman-empatam-por-0-a-0-em-roehampton-449623",
-    "sportId": "tenis",
-    "title": "Ali Habib e Oscar Weightman empatam por 0 a 0 em Roehampton",
-    "summary": "Ali Habib e Oscar Weightman terminaram empatados por 0 a 0 em Roehampton.",
-    "content": "Ali Habib e Oscar Weightman terminaram empatados por 0 a 0 em Roehampton., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "roehampton"
-    ],
-    "seoTitle": "Ali Habib e Oscar Weightman empatam por 0 a 0 em Roehampton",
-    "seoDescription": "Ali Habib e Oscar Weightman terminaram empatados por 0 a 0 em Roehampton.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T14:45:22.467Z",
-    "createdAt": "2026-08-16T14:45:22.467Z",
-    "updatedAt": "2026-08-16T14:45:22.467Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815615",
-      "eventStartTime": "2026-08-16T14:45:00+00:00",
-      "retrievedAt": "2026-08-16T14:45:22.467Z",
-      "feedId": "tenis",
-      "league": "Roehampton"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e40173a92f9f",
-    "slug": "sardarapat-fc-e-pyunik-yerevan-ficam-no-0-a-0-pela-premier-league-e40173",
-    "sportId": "futebol",
-    "title": "Sardarapat FC e Pyunik Yerevan ficam no 0 a 0 pela Premier League",
-    "summary": "Sardarapat FC e Pyunik Yerevan empataram por 0 a 0 pela Premier League.",
-    "content": "Sardarapat FC e Pyunik Yerevan empataram por 0 a 0 pela Premier League, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "premier-league"
-    ],
-    "seoTitle": "Sardarapat FC e Pyunik Yerevan ficam no 0 a 0 pela Premier League",
-    "seoDescription": "Sardarapat FC e Pyunik Yerevan empataram por 0 a 0 pela Premier League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T14:45:22.434Z",
-    "createdAt": "2026-08-16T14:45:22.434Z",
-    "updatedAt": "2026-08-16T14:45:22.434Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4759621",
-      "eventStartTime": "2026-08-16T14:30:00+00:00",
-      "retrievedAt": "2026-08-16T14:45:22.434Z",
-      "feedId": "futebol",
-      "league": "Premier League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-02326ad2f32d",
-    "slug": "patrick-brady-vence-jesse-delaney-por-2-a-0-em-roehampton-02326a",
-    "sportId": "tenis",
-    "title": "Patrick Brady vence Jesse Delaney por 2 a 0 em Roehampton",
-    "summary": "Patrick Brady superou Jesse Delaney por 2 a 0 em Roehampton.",
-    "content": "Patrick Brady superou Jesse Delaney por 2 a 0 em Roehampton., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "roehampton"
-    ],
-    "seoTitle": "Patrick Brady vence Jesse Delaney por 2 a 0 em Roehampton",
-    "seoDescription": "Patrick Brady superou Jesse Delaney por 2 a 0 em Roehampton.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T14:19:14.807Z",
-    "createdAt": "2026-08-16T14:19:14.807Z",
-    "updatedAt": "2026-08-16T14:19:14.807Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815624",
-      "eventStartTime": "2026-08-16T13:22:37+00:00",
-      "retrievedAt": "2026-08-16T14:19:14.807Z",
-      "feedId": "tenis",
-      "league": "Roehampton"
     },
     "articleFormat": "result-brief"
   }
