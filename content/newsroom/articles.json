@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-dc5a949779dd",
+    "slug": "siniakova-k-townsend-t-e-jovic-i-mcnally-c-empatam-por-0-a-0-em-cincinnati-dc5a94",
+    "sportId": "tenis",
+    "title": "Siniakova K./Townsend T. e Jovic I./McNally C. empatam por 0 a 0 em Cincinnati",
+    "summary": "Siniakova K./Townsend T. e Jovic I./McNally C. terminaram empatados por 0 a 0 em Cincinnati.",
+    "content": "Siniakova K./Townsend T. e Jovic I./McNally C. terminaram empatados por 0 a 0 em Cincinnati., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Siniakova K./Townsend T. e Jovic I./McNally C. empatam por 0 a 0 em",
+    "seoDescription": "Siniakova K./Townsend T. e Jovic I./McNally C. terminaram empatados por 0 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T19:47:08.570Z",
+    "createdAt": "2026-08-19T19:47:08.570Z",
+    "updatedAt": "2026-08-19T19:47:08.570Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816941",
+      "eventStartTime": "2026-08-19T19:09:26+00:00",
+      "retrievedAt": "2026-08-19T19:47:08.570Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2bfb6bef8d12",
+    "slug": "krasnodar-supera-dynamo-moscow-por-1-a-0-pelo-cup-2bfb6b",
+    "sportId": "futebol",
+    "title": "Krasnodar supera Dynamo Moscow por 1 a 0 pelo Cup",
+    "summary": "Krasnodar venceu Dynamo Moscow por 1 a 0 pelo Cup.",
+    "content": "Krasnodar venceu Dynamo Moscow por 1 a 0 pelo Cup, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "cup"
+    ],
+    "seoTitle": "Krasnodar supera Dynamo Moscow por 1 a 0 pelo Cup",
+    "seoDescription": "Krasnodar venceu Dynamo Moscow por 1 a 0 pelo Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T19:47:08.545Z",
+    "createdAt": "2026-08-19T19:47:08.545Z",
+    "updatedAt": "2026-08-19T19:47:08.545Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4745339",
+      "eventStartTime": "2026-08-19T17:45:00+00:00",
+      "retrievedAt": "2026-08-19T19:47:08.545Z",
+      "feedId": "futebol",
+      "league": "Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-e21673e1025a",
     "slug": "maestrelli-f-pellegrino-a-e-poling-k-puttergill-c-empatam-por-0-a-0-em-quebec-city-e21673",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-17T02:07:58.507Z",
       "feedId": "futebol",
       "league": "Primera A"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-08cfa83b5ac9",
-    "slug": "miguel-tobon-vence-lorenzo-claverie-por-2-a-1-em-kingston-08cfa8",
-    "sportId": "tenis",
-    "title": "Miguel Tobon vence Lorenzo Claverie por 2 a 1 em Kingston",
-    "summary": "Miguel Tobon superou Lorenzo Claverie por 2 a 1 em Kingston.",
-    "content": "Miguel Tobon superou Lorenzo Claverie por 2 a 1 em Kingston., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Miguel Tobon vence Lorenzo Claverie por 2 a 1 em Kingston",
-    "seoDescription": "Miguel Tobon superou Lorenzo Claverie por 2 a 1 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T00:35:17.373Z",
-    "createdAt": "2026-08-17T00:35:17.373Z",
-    "updatedAt": "2026-08-17T00:35:17.373Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815558",
-      "eventStartTime": "2026-08-16T21:38:00+00:00",
-      "retrievedAt": "2026-08-17T00:35:17.373Z",
-      "feedId": "tenis",
-      "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-74bb58cc6004",
-    "slug": "colonias-gold-basketball-vence-capiata-bulls-por-83-a-56-em-lnb-74bb58",
-    "sportId": "basquete",
-    "title": "Colonias Gold Basketball vence Capiata Bulls por 83 a 56 em LNB",
-    "summary": "Colonias Gold Basketball superou Capiata Bulls por 83 a 56 em LNB.",
-    "content": "Colonias Gold Basketball superou Capiata Bulls por 83 a 56 em LNB., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Colonias Gold Basketball vence Capiata Bulls por 83 a 56 em LNB",
-    "seoDescription": "Colonias Gold Basketball superou Capiata Bulls por 83 a 56 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T00:35:17.364Z",
-    "createdAt": "2026-08-17T00:35:17.364Z",
-    "updatedAt": "2026-08-17T00:35:17.364Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809966",
-      "eventStartTime": "2026-08-16T22:30:00+00:00",
-      "retrievedAt": "2026-08-17T00:35:17.364Z",
-      "feedId": "basquete",
-      "league": "LNB"
     },
     "articleFormat": "result-brief"
   }
