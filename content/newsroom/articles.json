@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-39a92408c4b9",
+    "slug": "aryna-sabalenka-vence-xin-yu-wang-por-2-a-0-em-cincinnati-39a924",
+    "sportId": "tenis",
+    "title": "Aryna Sabalenka vence Xin-Yu Wang por 2 a 0 em Cincinnati",
+    "summary": "Aryna Sabalenka superou Xin-Yu Wang por 2 a 0 em Cincinnati.",
+    "content": "Aryna Sabalenka superou Xin-Yu Wang por 2 a 0 em Cincinnati., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Aryna Sabalenka vence Xin-Yu Wang por 2 a 0 em Cincinnati",
+    "seoDescription": "Aryna Sabalenka superou Xin-Yu Wang por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T00:39:30.092Z",
+    "createdAt": "2026-08-19T00:39:30.092Z",
+    "updatedAt": "2026-08-19T00:39:30.092Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816167",
+      "eventStartTime": "2026-08-18T23:09:22+00:00",
+      "retrievedAt": "2026-08-19T00:39:30.092Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-306e0886770d",
+    "slug": "londrina-e-atletico-goianiense-ficam-no-0-a-0-pelo-serie-b-306e08",
+    "sportId": "futebol",
+    "title": "Londrina e Atlético Goianiense ficam no 0 a 0 pelo Serie B",
+    "summary": "Londrina e Atlético Goianiense empataram por 0 a 0 pelo Serie B.",
+    "content": "Londrina e Atlético Goianiense empataram por 0 a 0 pelo Serie B, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-b"
+    ],
+    "seoTitle": "Londrina e Atlético Goianiense ficam no 0 a 0 pelo Serie B",
+    "seoDescription": "Londrina e Atlético Goianiense empataram por 0 a 0 pelo Serie B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T00:39:30.071Z",
+    "createdAt": "2026-08-19T00:39:30.071Z",
+    "updatedAt": "2026-08-19T00:39:30.071Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4669848",
+      "eventStartTime": "2026-08-18T22:30:00+00:00",
+      "retrievedAt": "2026-08-19T00:39:30.071Z",
+      "feedId": "futebol",
+      "league": "Serie B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3ac4aa763fa6",
     "slug": "o-luz-r-matos-vence-harrison-c-skupski-n-por-2-a-1-em-cincinnati-3ac4aa",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T12:16:34.547Z",
       "feedId": "tenis",
       "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-71b081f90a53",
-    "slug": "japan-vence-south-korea-por-95-a-66-em-international-friendlies-71b081",
-    "sportId": "basquete",
-    "title": "Japan vence South Korea por 95 a 66 em International Friendlies",
-    "summary": "Japan superou South Korea por 95 a 66 em International Friendlies.",
-    "content": "Japan superou South Korea por 95 a 66 em International Friendlies., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "international-friendlies"
-    ],
-    "seoTitle": "Japan vence South Korea por 95 a 66 em International Friendlies",
-    "seoDescription": "Japan superou South Korea por 95 a 66 em International Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T12:16:34.543Z",
-    "createdAt": "2026-08-16T12:16:34.543Z",
-    "updatedAt": "2026-08-16T12:16:34.543Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815473",
-      "eventStartTime": "2026-08-16T10:05:00+00:00",
-      "retrievedAt": "2026-08-16T12:16:34.543Z",
-      "feedId": "basquete",
-      "league": "International Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-686a7e8c061d",
-    "slug": "irtysh-pavlodar-e-tobol-kostanay-ficam-no-0-a-0-pela-premier-league-686a7e",
-    "sportId": "futebol",
-    "title": "Irtysh Pavlodar e Tobol Kostanay ficam no 0 a 0 pela Premier League",
-    "summary": "Irtysh Pavlodar e Tobol Kostanay empataram por 0 a 0 pela Premier League.",
-    "content": "Irtysh Pavlodar e Tobol Kostanay empataram por 0 a 0 pela Premier League, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "premier-league"
-    ],
-    "seoTitle": "Irtysh Pavlodar e Tobol Kostanay ficam no 0 a 0 pela Premier League",
-    "seoDescription": "Irtysh Pavlodar e Tobol Kostanay empataram por 0 a 0 pela Premier League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T12:16:34.530Z",
-    "createdAt": "2026-08-16T12:16:34.530Z",
-    "updatedAt": "2026-08-16T12:16:34.530Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4678808",
-      "eventStartTime": "2026-08-16T12:00:00+00:00",
-      "retrievedAt": "2026-08-16T12:16:34.530Z",
-      "feedId": "futebol",
-      "league": "Premier League"
     },
     "articleFormat": "result-brief"
   }
