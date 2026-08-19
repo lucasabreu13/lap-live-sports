@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-4cfd729f16e5",
+    "slug": "hignett-l-walters-m-e-bittoun-kouzmine-c-shimizu-y-empatam-por-0-a-0-em-roehampton-4cfd72",
+    "sportId": "tenis",
+    "title": "Hignett L./Walters M. e Bittoun Kouzmine C./Shimizu Y. empatam por 0 a 0 em Roehampton",
+    "summary": "Hignett L./Walters M. e Bittoun Kouzmine C./Shimizu Y. terminaram empatados por 0 a 0 em Roehampton.",
+    "content": "Hignett L./Walters M. e Bittoun Kouzmine C./Shimizu Y. terminaram empatados por 0 a 0 em Roehampton., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Hignett L./Walters M. e Bittoun Kouzmine C./Shimizu Y. empatam por 0 a",
+    "seoDescription": "Hignett L./Walters M. e Bittoun Kouzmine C./Shimizu Y. terminaram empatados por 0 a 0 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T15:29:45.379Z",
+    "createdAt": "2026-08-19T15:29:45.379Z",
+    "updatedAt": "2026-08-19T15:29:45.379Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816541",
+      "eventStartTime": "2026-08-19T14:40:00+00:00",
+      "retrievedAt": "2026-08-19T15:29:45.379Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7c28ce21ba03",
+    "slug": "guerreros-de-neumane-vence-cd-jorge-guzman-por-81-a-76-em-liga-nacional-7c28ce",
+    "sportId": "basquete",
+    "title": "Guerreros de Neumane vence CD Jorge Guzman por 81 a 76 em Liga Nacional",
+    "summary": "Guerreros de Neumane superou CD Jorge Guzman por 81 a 76 em Liga Nacional.",
+    "content": "Guerreros de Neumane superou CD Jorge Guzman por 81 a 76 em Liga Nacional., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-nacional"
+    ],
+    "seoTitle": "Guerreros de Neumane vence CD Jorge Guzman por 81 a 76 em Liga",
+    "seoDescription": "Guerreros de Neumane superou CD Jorge Guzman por 81 a 76 em Liga Nacional.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T15:29:45.374Z",
+    "createdAt": "2026-08-19T15:29:45.374Z",
+    "updatedAt": "2026-08-19T15:29:45.374Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818422",
+      "eventStartTime": "2026-08-19T01:00:00+00:00",
+      "retrievedAt": "2026-08-19T15:29:45.374Z",
+      "feedId": "basquete",
+      "league": "Liga Nacional"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ec8116b35fa0",
+    "slug": "olimp-comrat-e-fc-balti-ficam-no-0-a-0-pelo-cupa-ec8116",
+    "sportId": "futebol",
+    "title": "Olimp Comrat e FC Balti ficam no 0 a 0 pelo Cupa",
+    "summary": "Olimp Comrat e FC Balti empataram por 0 a 0 pelo Cupa.",
+    "content": "Olimp Comrat e FC Balti empataram por 0 a 0 pelo Cupa, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "cupa"
+    ],
+    "seoTitle": "Olimp Comrat e FC Balti ficam no 0 a 0 pelo Cupa",
+    "seoDescription": "Olimp Comrat e FC Balti empataram por 0 a 0 pelo Cupa.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T15:29:45.363Z",
+    "createdAt": "2026-08-19T15:29:45.363Z",
+    "updatedAt": "2026-08-19T15:29:45.363Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4804800",
+      "eventStartTime": "2026-08-19T14:00:00+00:00",
+      "retrievedAt": "2026-08-19T15:29:45.363Z",
+      "feedId": "futebol",
+      "league": "Cupa"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-a73e36e6f66f",
     "slug": "bonding-o-maxted-l-e-hands-t-summers-m-empatam-por-0-a-0-em-roehampton-a73e36",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-16T22:34:11.057Z",
       "feedId": "futebol",
       "league": "Federal A"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2848bd8ee005",
-    "slug": "milwaukee-brewers-vence-los-angeles-dodgers-por-4-a-1-na-mlb-2848bd",
-    "sportId": "beisebol",
-    "title": "Milwaukee Brewers vence Los Angeles Dodgers por 4 a 1 na MLB",
-    "summary": "Milwaukee Brewers derrotou Los Angeles Dodgers por 4 a 1 na MLB.",
-    "content": "Milwaukee Brewers derrotou Los Angeles Dodgers por 4 a 1 na MLB, em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Milwaukee Brewers vence Los Angeles Dodgers por 4 a 1 na MLB",
-    "seoDescription": "Milwaukee Brewers derrotou Los Angeles Dodgers por 4 a 1 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T22:09:43.644Z",
-    "createdAt": "2026-08-16T22:09:43.644Z",
-    "updatedAt": "2026-08-16T22:09:43.644Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614871",
-      "eventStartTime": "2026-08-15T23:15:00+00:00",
-      "retrievedAt": "2026-08-16T22:09:43.644Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-33673a247ea1",
-    "slug": "bouzkova-m-noskova-l-vence-dolehide-c-navarro-e-por-2-a-0-em-cincinnati-33673a",
-    "sportId": "tenis",
-    "title": "Bouzkova M./Noskova L. vence Dolehide C./Navarro E. por 2 a 0 em Cincinnati",
-    "summary": "Bouzkova M./Noskova L. superou Dolehide C./Navarro E. por 2 a 0 em Cincinnati.",
-    "content": "Bouzkova M./Noskova L. superou Dolehide C./Navarro E. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Bouzkova M./Noskova L. vence Dolehide C./Navarro E. por 2 a 0 em",
-    "seoDescription": "Bouzkova M./Noskova L. superou Dolehide C./Navarro E. por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T22:09:43.611Z",
-    "createdAt": "2026-08-16T22:09:43.611Z",
-    "updatedAt": "2026-08-16T22:09:43.611Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815620",
-      "eventStartTime": "2026-08-16T20:41:00+00:00",
-      "retrievedAt": "2026-08-16T22:09:43.611Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1ea0ba840e6c",
-    "slug": "franca-vence-corinthians-por-79-a-77-em-paulista-basketball-1ea0ba",
-    "sportId": "basquete",
-    "title": "Franca vence Corinthians por 79 a 77 em Paulista Basketball",
-    "summary": "Franca superou Corinthians por 79 a 77 em Paulista Basketball.",
-    "content": "Franca superou Corinthians por 79 a 77 em Paulista Basketball., em 15 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "paulista-basketball"
-    ],
-    "seoTitle": "Franca vence Corinthians por 79 a 77 em Paulista Basketball",
-    "seoDescription": "Franca superou Corinthians por 79 a 77 em Paulista Basketball.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T22:09:43.609Z",
-    "createdAt": "2026-08-16T22:09:43.609Z",
-    "updatedAt": "2026-08-16T22:09:43.609Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813830",
-      "eventStartTime": "2026-08-15T19:00:00+00:00",
-      "retrievedAt": "2026-08-16T22:09:43.609Z",
-      "feedId": "basquete",
-      "league": "Paulista Basketball"
     },
     "articleFormat": "result-brief"
   }
