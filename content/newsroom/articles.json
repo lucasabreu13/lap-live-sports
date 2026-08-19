@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-91bc9cbc09a2",
+    "slug": "sara-bejlek-vence-ekaterina-alexandrova-por-2-a-1-em-cincinnati-91bc9c",
+    "sportId": "tenis",
+    "title": "Sara Bejlek vence Ekaterina Alexandrova por 2 a 1 em Cincinnati",
+    "summary": "Sara Bejlek superou Ekaterina Alexandrova por 2 a 1 em Cincinnati.",
+    "content": "Sara Bejlek superou Ekaterina Alexandrova por 2 a 1 em Cincinnati., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Sara Bejlek vence Ekaterina Alexandrova por 2 a 1 em Cincinnati",
+    "seoDescription": "Sara Bejlek superou Ekaterina Alexandrova por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T07:51:27.131Z",
+    "createdAt": "2026-08-19T07:51:27.131Z",
+    "updatedAt": "2026-08-19T07:51:27.131Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816168",
+      "eventStartTime": "2026-08-18T21:15:37+00:00",
+      "retrievedAt": "2026-08-19T07:51:27.131Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8414f66e1596",
+    "slug": "sao-paulo-supera-bolivar-por-3-a-1-pelo-conmebol-sudamericana-8414f6",
+    "sportId": "futebol",
+    "title": "São Paulo supera Bolívar por 3 a 1 pelo CONMEBOL Sudamericana",
+    "summary": "São Paulo venceu Bolívar por 3 a 1 pelo CONMEBOL Sudamericana.",
+    "content": "São Paulo venceu Bolívar por 3 a 1 pelo CONMEBOL Sudamericana, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "conmebol-sudamericana"
+    ],
+    "seoTitle": "São Paulo supera Bolívar por 3 a 1 pelo CONMEBOL Sudamericana",
+    "seoDescription": "São Paulo venceu Bolívar por 3 a 1 pelo CONMEBOL Sudamericana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T07:51:27.085Z",
+    "createdAt": "2026-08-19T07:51:27.085Z",
+    "updatedAt": "2026-08-19T07:51:27.085Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4800504",
+      "eventStartTime": "2026-08-19T00:30:00+00:00",
+      "retrievedAt": "2026-08-19T07:51:27.085Z",
+      "feedId": "futebol",
+      "league": "CONMEBOL Sudamericana"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-01489f18b79b",
     "slug": "new-york-yankees-vence-baltimore-orioles-por-3-a-1-na-mlb-01489f",
     "sportId": "beisebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T19:13:02.380Z",
       "feedId": "futebol",
       "league": "APF Primera B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-33325c08214f",
-    "slug": "hsieh-s-ostapenko-j-vence-mihalikova-t-nicholls-o-por-2-a-0-em-cincinnati-33325c",
-    "sportId": "tenis",
-    "title": "Hsieh.S/Ostapenko J. vence Mihalikova T./Nicholls O. por 2 a 0 em Cincinnati",
-    "summary": "Hsieh.S/Ostapenko J. superou Mihalikova T./Nicholls O. por 2 a 0 em Cincinnati.",
-    "content": "Hsieh.S/Ostapenko J. superou Mihalikova T./Nicholls O. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Hsieh.S/Ostapenko J. vence Mihalikova T./Nicholls O. por 2 a 0 em",
-    "seoDescription": "Hsieh.S/Ostapenko J. superou Mihalikova T./Nicholls O. por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T18:46:21.735Z",
-    "createdAt": "2026-08-16T18:46:21.735Z",
-    "updatedAt": "2026-08-16T18:46:21.735Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815122",
-      "eventStartTime": "2026-08-16T16:44:21+00:00",
-      "retrievedAt": "2026-08-16T18:46:21.735Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-718d538ba13a",
-    "slug": "brasil-pelotas-rs-e-brasil-de-farroupilha-ficam-no-0-a-0-pelo-gaucho-a2-718d53",
-    "sportId": "futebol",
-    "title": "Brasil Pelotas (RS) e Brasil de Farroupilha ficam no 0 a 0 pelo Gaucho A2",
-    "summary": "Brasil Pelotas (RS) e Brasil de Farroupilha empataram por 0 a 0 pelo Gaucho A2.",
-    "content": "Brasil Pelotas (RS) e Brasil de Farroupilha empataram por 0 a 0 pelo Gaucho A2, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "gaucho-a2"
-    ],
-    "seoTitle": "Brasil Pelotas (RS) e Brasil de Farroupilha ficam no 0 a 0 pelo Gaucho",
-    "seoDescription": "Brasil Pelotas (RS) e Brasil de Farroupilha empataram por 0 a 0 pelo Gaucho A2.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T18:46:21.691Z",
-    "createdAt": "2026-08-16T18:46:21.691Z",
-    "updatedAt": "2026-08-16T18:46:21.691Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4762517",
-      "eventStartTime": "2026-08-16T18:00:00+00:00",
-      "retrievedAt": "2026-08-16T18:46:21.691Z",
-      "feedId": "futebol",
-      "league": "Gaucho A2"
     },
     "articleFormat": "result-brief"
   }
