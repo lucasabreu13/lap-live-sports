@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-d7020ee3a758",
+    "slug": "moez-echargui-vence-otto-virtanen-por-2-a-0-em-cancun-d7020e",
+    "sportId": "tenis",
+    "title": "Moez Echargui vence Otto Virtanen por 2 a 0 em Cancun",
+    "summary": "Moez Echargui superou Otto Virtanen por 2 a 0 em Cancun.",
+    "content": "Moez Echargui superou Otto Virtanen por 2 a 0 em Cancun., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Moez Echargui vence Otto Virtanen por 2 a 0 em Cancun",
+    "seoDescription": "Moez Echargui superou Otto Virtanen por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T23:57:48.977Z",
+    "createdAt": "2026-08-19T23:57:48.977Z",
+    "updatedAt": "2026-08-19T23:57:48.977Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816208",
+      "eventStartTime": "2026-08-19T21:13:29+00:00",
+      "retrievedAt": "2026-08-19T23:57:48.977Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b9248515aef6",
+    "slug": "cd-imperial-unido-e-lautaro-de-buin-ficam-no-0-a-0-pelo-tercera-division-a-b92485",
+    "sportId": "futebol",
+    "title": "Cd Imperial Unido e Lautaro De Buin ficam no 0 a 0 pelo Tercera Division A",
+    "summary": "Cd Imperial Unido e Lautaro De Buin empataram por 0 a 0 pelo Tercera Division A.",
+    "content": "Cd Imperial Unido e Lautaro De Buin empataram por 0 a 0 pelo Tercera Division A, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "tercera-division-a"
+    ],
+    "seoTitle": "Cd Imperial Unido e Lautaro De Buin ficam no 0 a 0 pelo Tercera",
+    "seoDescription": "Cd Imperial Unido e Lautaro De Buin empataram por 0 a 0 pelo Tercera Division A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T23:57:48.962Z",
+    "createdAt": "2026-08-19T23:57:48.962Z",
+    "updatedAt": "2026-08-19T23:57:48.962Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4726872",
+      "eventStartTime": "2026-08-20T00:00:00+00:00",
+      "retrievedAt": "2026-08-19T23:57:48.962Z",
+      "feedId": "futebol",
+      "league": "Tercera Division A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-8b9d0fd821bb",
     "slug": "reymond-a-sanchez-l-vence-sheehy-j-zink-t-por-2-a-0-em-kingston-8b9d0f",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-17T07:37:35.938Z",
       "feedId": "tenis",
       "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f9249aabc37d",
-    "slug": "angel-city-e-washington-spirit-ficam-no-1-a-1-pelo-nwsl-f9249a",
-    "sportId": "futebol",
-    "title": "Angel City e Washington Spirit ficam no 1 a 1 pelo NWSL",
-    "summary": "Angel City e Washington Spirit empataram por 1 a 1 pelo NWSL.",
-    "content": "Angel City e Washington Spirit empataram por 1 a 1 pelo NWSL, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "nwsl"
-    ],
-    "seoTitle": "Angel City e Washington Spirit ficam no 1 a 1 pelo NWSL",
-    "seoDescription": "Angel City e Washington Spirit empataram por 1 a 1 pelo NWSL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T07:37:35.848Z",
-    "createdAt": "2026-08-17T07:37:35.848Z",
-    "updatedAt": "2026-08-17T07:37:35.848Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4653915",
-      "eventStartTime": "2026-08-17T01:00:00+00:00",
-      "retrievedAt": "2026-08-17T07:37:35.848Z",
-      "feedId": "futebol",
-      "league": "NWSL"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-05e7c90c6a8f",
-    "slug": "elena-rybakina-vence-taylor-townsend-por-2-a-0-em-cincinnati-05e7c9",
-    "sportId": "tenis",
-    "title": "Elena Rybakina vence Taylor Townsend por 2 a 0 em Cincinnati",
-    "summary": "Elena Rybakina superou Taylor Townsend por 2 a 0 em Cincinnati.",
-    "content": "Elena Rybakina superou Taylor Townsend por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Elena Rybakina vence Taylor Townsend por 2 a 0 em Cincinnati",
-    "seoDescription": "Elena Rybakina superou Taylor Townsend por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T06:39:34.677Z",
-    "createdAt": "2026-08-17T06:39:34.677Z",
-    "updatedAt": "2026-08-17T06:39:34.677Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4813633",
-      "eventStartTime": "2026-08-16T15:08:29+00:00",
-      "retrievedAt": "2026-08-17T06:39:34.677Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
