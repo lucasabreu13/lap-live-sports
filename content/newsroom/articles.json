@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-1d12b1b02e3d",
+    "slug": "nesterov-p-ovcharenko-o-vence-compagnucci-t-ricca-g-por-2-a-1-em-sion-1d12b1",
+    "sportId": "tenis",
+    "title": "Nesterov P./Ovcharenko O. vence Compagnucci T./Ricca G. por 2 a 1 em Sion",
+    "summary": "Nesterov P./Ovcharenko O. superou Compagnucci T./Ricca G. por 2 a 1 em Sion.",
+    "content": "Nesterov P./Ovcharenko O. superou Compagnucci T./Ricca G. por 2 a 1 em Sion., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Nesterov P./Ovcharenko O. vence Compagnucci T./Ricca G. por 2 a 1 em",
+    "seoDescription": "Nesterov P./Ovcharenko O. superou Compagnucci T./Ricca G. por 2 a 1 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T15:58:15.169Z",
+    "createdAt": "2026-08-19T15:58:15.169Z",
+    "updatedAt": "2026-08-19T15:58:15.169Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815578",
+      "eventStartTime": "2026-08-19T13:39:35+00:00",
+      "retrievedAt": "2026-08-19T15:58:15.169Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ac01996fb7e2",
+    "slug": "slovan-tomasovce-e-komarno-ficam-no-0-a-0-pelo-slovakia-cup-ac0199",
+    "sportId": "futebol",
+    "title": "Slovan Tomášovce e Komarno ficam no 0 a 0 pelo Slovakia Cup",
+    "summary": "Slovan Tomášovce e Komarno empataram por 0 a 0 pelo Slovakia Cup.",
+    "content": "Slovan Tomášovce e Komarno empataram por 0 a 0 pelo Slovakia Cup, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "slovakia-cup"
+    ],
+    "seoTitle": "Slovan Tomášovce e Komarno ficam no 0 a 0 pelo Slovakia Cup",
+    "seoDescription": "Slovan Tomášovce e Komarno empataram por 0 a 0 pelo Slovakia Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T15:58:15.147Z",
+    "createdAt": "2026-08-19T15:58:15.147Z",
+    "updatedAt": "2026-08-19T15:58:15.147Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815539",
+      "eventStartTime": "2026-08-19T15:15:00+00:00",
+      "retrievedAt": "2026-08-19T15:58:15.147Z",
+      "feedId": "futebol",
+      "league": "Slovakia Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4cfd729f16e5",
     "slug": "hignett-l-walters-m-e-bittoun-kouzmine-c-shimizu-y-empatam-por-0-a-0-em-roehampton-4cfd72",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T22:34:11.096Z",
       "feedId": "beisebol",
       "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7a925a0bc5e8",
-    "slug": "danilina-a-krunic-a-vence-li-a-tauson-c-por-2-a-0-em-cincinnati-7a925a",
-    "sportId": "tenis",
-    "title": "Danilina A./Krunic A. vence Li A./Tauson C. por 2 a 0 em Cincinnati",
-    "summary": "Danilina A./Krunic A. superou Li A./Tauson C. por 2 a 0 em Cincinnati.",
-    "content": "Danilina A./Krunic A. superou Li A./Tauson C. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Danilina A./Krunic A. vence Li A./Tauson C. por 2 a 0 em Cincinnati",
-    "seoDescription": "Danilina A./Krunic A. superou Li A./Tauson C. por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T22:34:11.091Z",
-    "createdAt": "2026-08-16T22:34:11.091Z",
-    "updatedAt": "2026-08-16T22:34:11.091Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815123",
-      "eventStartTime": "2026-08-16T21:27:05+00:00",
-      "retrievedAt": "2026-08-16T22:34:11.091Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0ec50c250608",
-    "slug": "san-martin-mendoza-supera-deportivo-rincon-por-1-a-0-pelo-federal-a-0ec50c",
-    "sportId": "futebol",
-    "title": "San Martín Mendoza supera Deportivo Rincón por 1 a 0 pelo Federal A",
-    "summary": "San Martín Mendoza venceu Deportivo Rincón por 1 a 0 pelo Federal A.",
-    "content": "San Martín Mendoza venceu Deportivo Rincón por 1 a 0 pelo Federal A, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "federal-a"
-    ],
-    "seoTitle": "San Martín Mendoza supera Deportivo Rincón por 1 a 0 pelo Federal A",
-    "seoDescription": "San Martín Mendoza venceu Deportivo Rincón por 1 a 0 pelo Federal A.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T22:34:11.057Z",
-    "createdAt": "2026-08-16T22:34:11.057Z",
-    "updatedAt": "2026-08-16T22:34:11.057Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4796638",
-      "eventStartTime": "2026-08-16T20:30:00+00:00",
-      "retrievedAt": "2026-08-16T22:34:11.057Z",
-      "feedId": "futebol",
-      "league": "Federal A"
     },
     "articleFormat": "result-brief"
   }
