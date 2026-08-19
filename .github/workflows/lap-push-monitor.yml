@@ -7,24 +7,56 @@ on:
 
 concurrency:
   group: lap-live-push-monitor
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 7
     steps:
       - name: Check live events every minute
         env:
           CRON_SECRET: ${{ secrets.LAP_CRON_SECRET }}
         run: |
+          set -uo pipefail
+
+          if [ -z "${CRON_SECRET:-}" ]; then
+            echo "::error::LAP_CRON_SECRET is not configured"
+            exit 1
+          fi
+
+          successes=0
+          failures=0
+
           for attempt in 1 2 3 4 5; do
+            cycle_started="$(date +%s)"
             echo "Live check ${attempt}/5"
-            curl --fail-with-body --show-error --silent \
-              --retry 2 --retry-delay 3 --retry-all-errors --max-time 90 \
+
+            if response="$(curl --fail-with-body --show-error --silent \
+              --connect-timeout 10 --max-time 50 \
               --request POST \
               --header "Authorization: Bearer ${CRON_SECRET}" \
-              "https://lap-live-sports.vercel.app/api/push/monitor"
-            echo
-            if [ "${attempt}" -lt 5 ]; then sleep 55; fi
+              "https://lap-live-sports.vercel.app/api/push/monitor" 2>&1)"; then
+              successes=$((successes + 1))
+              echo "${response}"
+            else
+              curl_status=$?
+              failures=$((failures + 1))
+              echo "::warning::Push monitor attempt ${attempt} failed with curl status ${curl_status}: ${response}"
+            fi
+
+            if [ "${attempt}" -lt 5 ]; then
+              elapsed=$(( $(date +%s) - cycle_started ))
+              sleep_for=$(( 60 - elapsed ))
+              if [ "${sleep_for}" -gt 0 ]; then
+                sleep "${sleep_for}"
+              fi
+            fi
           done
+
+          echo "Push monitor summary: ${successes} successful, ${failures} failed"
+
+          if [ "${successes}" -lt 2 ]; then
+            echo "::error::Push monitor is persistently unavailable (${successes}/5 successful checks)"
+            exit 1
+          fi
