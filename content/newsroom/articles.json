@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-45112257f4ed",
+    "slug": "clement-chidekh-vence-kenta-miyoshi-por-2-a-0-em-kingston-451122",
+    "sportId": "tenis",
+    "title": "Clement Chidekh vence Kenta Miyoshi por 2 a 0 em Kingston",
+    "summary": "Clement Chidekh superou Kenta Miyoshi por 2 a 0 em Kingston.",
+    "content": "Clement Chidekh superou Kenta Miyoshi por 2 a 0 em Kingston., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Clement Chidekh vence Kenta Miyoshi por 2 a 0 em Kingston",
+    "seoDescription": "Clement Chidekh superou Kenta Miyoshi por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T21:47:10.726Z",
+    "createdAt": "2026-08-19T21:47:10.726Z",
+    "updatedAt": "2026-08-19T21:47:10.726Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818717",
+      "eventStartTime": "2026-08-19T20:03:04+00:00",
+      "retrievedAt": "2026-08-19T21:47:10.726Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-52bb5efbaf7f",
+    "slug": "juventud-copalera-e-huehuetecos-fc-ficam-no-0-a-0-pelo-primera-division-52bb5e",
+    "sportId": "futebol",
+    "title": "Juventud Copalera e Huehuetecos FC ficam no 0 a 0 pelo Primera Division",
+    "summary": "Juventud Copalera e Huehuetecos FC empataram por 0 a 0 pelo Primera Division.",
+    "content": "Juventud Copalera e Huehuetecos FC empataram por 0 a 0 pelo Primera Division, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-division"
+    ],
+    "seoTitle": "Juventud Copalera e Huehuetecos FC ficam no 0 a 0 pelo Primera",
+    "seoDescription": "Juventud Copalera e Huehuetecos FC empataram por 0 a 0 pelo Primera Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T21:47:10.706Z",
+    "createdAt": "2026-08-19T21:47:10.706Z",
+    "updatedAt": "2026-08-19T21:47:10.706Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4777097",
+      "eventStartTime": "2026-08-19T21:23:00+00:00",
+      "retrievedAt": "2026-08-19T21:47:10.706Z",
+      "feedId": "futebol",
+      "league": "Primera Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d88e9a95cfa2",
     "slug": "valentin-royer-vence-tyler-zink-por-2-a-0-em-kingston-d88e9a",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-17T03:59:26.706Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-22d677f69958",
-    "slug": "leones-de-quilpue-vence-espanol-de-talca-por-96-a-69-em-lnb-22d677",
-    "sportId": "basquete",
-    "title": "Leones De Quilpué vence Espanol De Talca por 96 a 69 em LNB",
-    "summary": "Leones De Quilpué superou Espanol De Talca por 96 a 69 em LNB.",
-    "content": "Leones De Quilpué superou Espanol De Talca por 96 a 69 em LNB., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Leones De Quilpué vence Espanol De Talca por 96 a 69 em LNB",
-    "seoDescription": "Leones De Quilpué superou Espanol De Talca por 96 a 69 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T03:59:26.696Z",
-    "createdAt": "2026-08-17T03:59:26.696Z",
-    "updatedAt": "2026-08-17T03:59:26.696Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4812149",
-      "eventStartTime": "2026-08-16T23:30:00+00:00",
-      "retrievedAt": "2026-08-17T03:59:26.696Z",
-      "feedId": "basquete",
-      "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-dd2232b1578f",
-    "slug": "olancho-supera-juticalpa-por-1-a-0-pela-liga-nacional-dd2232",
-    "sportId": "futebol",
-    "title": "Olancho supera Juticalpa por 1 a 0 pela Liga Nacional",
-    "summary": "Olancho venceu Juticalpa por 1 a 0 pela Liga Nacional.",
-    "content": "Olancho venceu Juticalpa por 1 a 0 pela Liga Nacional, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-nacional"
-    ],
-    "seoTitle": "Olancho supera Juticalpa por 1 a 0 pela Liga Nacional",
-    "seoDescription": "Olancho venceu Juticalpa por 1 a 0 pela Liga Nacional.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T03:59:26.677Z",
-    "createdAt": "2026-08-17T03:59:26.677Z",
-    "updatedAt": "2026-08-17T03:59:26.677Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4776144",
-      "eventStartTime": "2026-08-17T01:30:00+00:00",
-      "retrievedAt": "2026-08-17T03:59:26.677Z",
-      "feedId": "futebol",
-      "league": "Liga Nacional"
     },
     "articleFormat": "result-brief"
   }
