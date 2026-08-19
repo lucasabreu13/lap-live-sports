@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-77201b7d97df",
+    "slug": "los-angeles-angels-vence-houston-astros-por-3-a-1-na-mlb-77201b",
+    "sportId": "beisebol",
+    "title": "Los Angeles Angels vence Houston Astros por 3 a 1 na MLB",
+    "summary": "Los Angeles Angels derrotou Houston Astros por 3 a 1 na MLB.",
+    "content": "Los Angeles Angels derrotou Houston Astros por 3 a 1 na MLB, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Los Angeles Angels vence Houston Astros por 3 a 1 na MLB",
+    "seoDescription": "Los Angeles Angels derrotou Houston Astros por 3 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T03:09:12.575Z",
+    "createdAt": "2026-08-19T03:09:12.575Z",
+    "updatedAt": "2026-08-19T03:09:12.575Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614877",
+      "eventStartTime": "2026-08-19T00:10:00+00:00",
+      "retrievedAt": "2026-08-19T03:09:12.575Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-6e789d3ad82a",
+    "slug": "benjamin-bonzi-vence-justin-boulais-por-2-a-0-em-quebec-city-6e789d",
+    "sportId": "tenis",
+    "title": "Benjamin Bonzi vence Justin Boulais por 2 a 0 em Quebec City",
+    "summary": "Benjamin Bonzi superou Justin Boulais por 2 a 0 em Quebec City.",
+    "content": "Benjamin Bonzi superou Justin Boulais por 2 a 0 em Quebec City., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Benjamin Bonzi vence Justin Boulais por 2 a 0 em Quebec City",
+    "seoDescription": "Benjamin Bonzi superou Justin Boulais por 2 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T03:09:12.573Z",
+    "createdAt": "2026-08-19T03:09:12.573Z",
+    "updatedAt": "2026-08-19T03:09:12.573Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816187",
+      "eventStartTime": "2026-08-19T00:47:50+00:00",
+      "retrievedAt": "2026-08-19T03:09:12.573Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-155213d53197",
+    "slug": "chicago-sky-vence-new-york-liberty-por-93-a-86-em-wnba-155213",
+    "sportId": "basquete",
+    "title": "Chicago Sky vence New York Liberty por 93 a 86 em WNBA",
+    "summary": "Chicago Sky superou New York Liberty por 93 a 86 em WNBA.",
+    "content": "Chicago Sky superou New York Liberty por 93 a 86 em WNBA., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Chicago Sky vence New York Liberty por 93 a 86 em WNBA",
+    "seoDescription": "Chicago Sky superou New York Liberty por 93 a 86 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T03:09:12.571Z",
+    "createdAt": "2026-08-19T03:09:12.571Z",
+    "updatedAt": "2026-08-19T03:09:12.571Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659889",
+      "eventStartTime": "2026-08-19T01:00:00+00:00",
+      "retrievedAt": "2026-08-19T03:09:12.571Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-825bc253d0da",
+    "slug": "cs-cartagines-supera-verdes-fc-por-4-a-0-pelo-concacaf-central-american-cup-825bc2",
+    "sportId": "futebol",
+    "title": "CS Cartagines supera Verdes FC por 4 a 0 pelo CONCACAF Central American Cup",
+    "summary": "CS Cartagines venceu Verdes FC por 4 a 0 pelo CONCACAF Central American Cup.",
+    "content": "CS Cartagines venceu Verdes FC por 4 a 0 pelo CONCACAF Central American Cup, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "concacaf-central-american-cup"
+    ],
+    "seoTitle": "CS Cartagines supera Verdes FC por 4 a 0 pelo CONCACAF Central",
+    "seoDescription": "CS Cartagines venceu Verdes FC por 4 a 0 pelo CONCACAF Central American Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T03:09:12.565Z",
+    "createdAt": "2026-08-19T03:09:12.565Z",
+    "updatedAt": "2026-08-19T03:09:12.565Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4730011",
+      "eventStartTime": "2026-08-19T01:00:00+00:00",
+      "retrievedAt": "2026-08-19T03:09:12.565Z",
+      "feedId": "futebol",
+      "league": "CONCACAF Central American Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ab7e8741267c",
     "slug": "cleveland-guardians-vence-san-francisco-giants-por-8-a-1-na-mlb-ab7e87",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-16T14:19:14.807Z",
       "feedId": "tenis",
       "league": "Roehampton"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6ce9981b2479",
-    "slug": "merstham-e-ashford-town-middlesex-ficam-no-0-a-0-pelo-fa-trophy-6ce998",
-    "sportId": "futebol",
-    "title": "Merstham e Ashford Town (Middlesex) ficam no 0 a 0 pelo FA Trophy",
-    "summary": "Merstham e Ashford Town (Middlesex) empataram por 0 a 0 pelo FA Trophy.",
-    "content": "Merstham e Ashford Town (Middlesex) empataram por 0 a 0 pelo FA Trophy, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "fa-trophy"
-    ],
-    "seoTitle": "Merstham e Ashford Town (Middlesex) ficam no 0 a 0 pelo FA Trophy",
-    "seoDescription": "Merstham e Ashford Town (Middlesex) empataram por 0 a 0 pelo FA Trophy.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T14:19:14.778Z",
-    "createdAt": "2026-08-16T14:19:14.778Z",
-    "updatedAt": "2026-08-16T14:19:14.778Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4759057",
-      "eventStartTime": "2026-08-16T14:00:00+00:00",
-      "retrievedAt": "2026-08-16T14:19:14.778Z",
-      "feedId": "futebol",
-      "league": "FA Trophy"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7c29d60e211a",
-    "slug": "john-echeverria-vence-oliver-bonding-por-2-a-0-em-roehampton-7c29d6",
-    "sportId": "tenis",
-    "title": "John Echeverria vence Oliver Bonding por 2 a 0 em Roehampton",
-    "summary": "John Echeverria superou Oliver Bonding por 2 a 0 em Roehampton.",
-    "content": "John Echeverria superou Oliver Bonding por 2 a 0 em Roehampton., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "roehampton"
-    ],
-    "seoTitle": "John Echeverria vence Oliver Bonding por 2 a 0 em Roehampton",
-    "seoDescription": "John Echeverria superou Oliver Bonding por 2 a 0 em Roehampton.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T13:58:24.840Z",
-    "createdAt": "2026-08-16T13:58:24.840Z",
-    "updatedAt": "2026-08-16T13:58:24.840Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815588",
-      "eventStartTime": "2026-08-16T11:35:00+00:00",
-      "retrievedAt": "2026-08-16T13:58:24.840Z",
-      "feedId": "tenis",
-      "league": "Roehampton"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8035fccd5616",
-    "slug": "degerfors-if-supera-ifk-goteborg-por-3-a-0-pelo-allsvenskan-8035fc",
-    "sportId": "futebol",
-    "title": "Degerfors IF supera IFK Göteborg por 3 a 0 pelo Allsvenskan",
-    "summary": "Degerfors IF venceu IFK Göteborg por 3 a 0 pelo Allsvenskan.",
-    "content": "Degerfors IF venceu IFK Göteborg por 3 a 0 pelo Allsvenskan, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "allsvenskan"
-    ],
-    "seoTitle": "Degerfors IF supera IFK Göteborg por 3 a 0 pelo Allsvenskan",
-    "seoDescription": "Degerfors IF venceu IFK Göteborg por 3 a 0 pelo Allsvenskan.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T13:58:24.812Z",
-    "createdAt": "2026-08-16T13:58:24.812Z",
-    "updatedAt": "2026-08-16T13:58:24.812Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4636046",
-      "eventStartTime": "2026-08-16T12:00:00+00:00",
-      "retrievedAt": "2026-08-16T13:58:24.812Z",
-      "feedId": "futebol",
-      "league": "Allsvenskan"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8c51d11a03d6",
-    "slug": "dimitris-sakellaridis-vence-gian-luca-tanner-por-2-a-0-em-sion-8c51d1",
-    "sportId": "tenis",
-    "title": "Dimitris Sakellaridis vence Gian Luca Tanner por 2 a 0 em Sion",
-    "summary": "Dimitris Sakellaridis superou Gian Luca Tanner por 2 a 0 em Sion.",
-    "content": "Dimitris Sakellaridis superou Gian Luca Tanner por 2 a 0 em Sion., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Dimitris Sakellaridis vence Gian Luca Tanner por 2 a 0 em Sion",
-    "seoDescription": "Dimitris Sakellaridis superou Gian Luca Tanner por 2 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T13:42:06.798Z",
-    "createdAt": "2026-08-16T13:42:06.798Z",
-    "updatedAt": "2026-08-16T13:42:06.798Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815586",
-      "eventStartTime": "2026-08-16T12:25:00+00:00",
-      "retrievedAt": "2026-08-16T13:42:06.798Z",
-      "feedId": "tenis",
-      "league": "Sion"
     },
     "articleFormat": "result-brief"
   }
