@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-e21673e1025a",
+    "slug": "maestrelli-f-pellegrino-a-e-poling-k-puttergill-c-empatam-por-0-a-0-em-quebec-city-e21673",
+    "sportId": "tenis",
+    "title": "Maestrelli F./Pellegrino A. e Poling K./Puttergill C. empatam por 0 a 0 em Quebec City",
+    "summary": "Maestrelli F./Pellegrino A. e Poling K./Puttergill C. terminaram empatados por 0 a 0 em Quebec City.",
+    "content": "Maestrelli F./Pellegrino A. e Poling K./Puttergill C. terminaram empatados por 0 a 0 em Quebec City., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Maestrelli F./Pellegrino A. e Poling K./Puttergill C. empatam por 0 a",
+    "seoDescription": "Maestrelli F./Pellegrino A. e Poling K./Puttergill C. terminaram empatados por 0 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T19:26:04.111Z",
+    "createdAt": "2026-08-19T19:26:04.111Z",
+    "updatedAt": "2026-08-19T19:26:04.111Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817252",
+      "eventStartTime": "2026-08-19T18:30:11+00:00",
+      "retrievedAt": "2026-08-19T19:26:04.111Z",
+      "feedId": "tenis",
+      "league": "Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e899fb268980",
+    "slug": "mitteldeutscher-vence-basketball-lowen-braunschweig-por-88-a-78-em-club-friendlies-e899fb",
+    "sportId": "basquete",
+    "title": "Mitteldeutscher vence Basketball Lowen Braunschweig por 88 a 78 em Club Friendlies",
+    "summary": "Mitteldeutscher superou Basketball Lowen Braunschweig por 88 a 78 em Club Friendlies.",
+    "content": "Mitteldeutscher superou Basketball Lowen Braunschweig por 88 a 78 em Club Friendlies., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Mitteldeutscher vence Basketball Lowen Braunschweig por 88 a 78 em",
+    "seoDescription": "Mitteldeutscher superou Basketball Lowen Braunschweig por 88 a 78 em Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T19:26:04.107Z",
+    "createdAt": "2026-08-19T19:26:04.107Z",
+    "updatedAt": "2026-08-19T19:26:04.107Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817021",
+      "eventStartTime": "2026-08-19T17:00:00+00:00",
+      "retrievedAt": "2026-08-19T19:26:04.107Z",
+      "feedId": "basquete",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-242735ff8a8d",
+    "slug": "mamelodi-sundowns-supera-marumo-gallants-por-2-a-0-pela-premier-league-242735",
+    "sportId": "futebol",
+    "title": "Mamelodi Sundowns supera Marumo Gallants por 2 a 0 pela Premier League",
+    "summary": "Mamelodi Sundowns venceu Marumo Gallants por 2 a 0 pela Premier League.",
+    "content": "Mamelodi Sundowns venceu Marumo Gallants por 2 a 0 pela Premier League, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "premier-league"
+    ],
+    "seoTitle": "Mamelodi Sundowns supera Marumo Gallants por 2 a 0 pela Premier League",
+    "seoDescription": "Mamelodi Sundowns venceu Marumo Gallants por 2 a 0 pela Premier League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T19:26:04.104Z",
+    "createdAt": "2026-08-19T19:26:04.104Z",
+    "updatedAt": "2026-08-19T19:26:04.104Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4795068",
+      "eventStartTime": "2026-08-19T17:30:00+00:00",
+      "retrievedAt": "2026-08-19T19:26:04.104Z",
+      "feedId": "futebol",
+      "league": "Premier League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4e0b4eafad94",
     "slug": "soon-woo-kwon-e-shintaro-mochizuki-empatam-por-0-a-0-em-quebec-city-4e0b4e",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-17T00:35:17.364Z",
       "feedId": "basquete",
       "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-bb340b251d13",
-    "slug": "cruzeiro-supera-corinthians-por-2-a-1-pelo-serie-a-bb340b",
-    "sportId": "futebol",
-    "title": "Cruzeiro supera Corinthians por 2 a 1 pelo Série A",
-    "summary": "Cruzeiro venceu Corinthians por 2 a 1 pelo Série A.",
-    "content": "Cruzeiro venceu Corinthians por 2 a 1 pelo Série A, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "serie-a"
-    ],
-    "seoTitle": "Cruzeiro supera Corinthians por 2 a 1 pelo Série A",
-    "seoDescription": "Cruzeiro venceu Corinthians por 2 a 1 pelo Série A.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T00:35:17.352Z",
-    "createdAt": "2026-08-17T00:35:17.352Z",
-    "updatedAt": "2026-08-17T00:35:17.352Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4632723",
-      "eventStartTime": "2026-08-16T22:30:00+00:00",
-      "retrievedAt": "2026-08-17T00:35:17.352Z",
-      "feedId": "futebol",
-      "league": "Série A"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5b60d0535400",
-    "slug": "nippon-ham-fighters-vence-orix-buffaloes-por-13-a-7-na-npb-5b60d0",
-    "sportId": "beisebol",
-    "title": "Nippon Ham Fighters vence Orix Buffaloes por 13 a 7 na NPB",
-    "summary": "Nippon Ham Fighters derrotou Orix Buffaloes por 13 a 7 na NPB.",
-    "content": "Nippon Ham Fighters derrotou Orix Buffaloes por 13 a 7 na NPB, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Nippon Ham Fighters vence Orix Buffaloes por 13 a 7 na NPB",
-    "seoDescription": "Nippon Ham Fighters derrotou Orix Buffaloes por 13 a 7 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T23:53:48.629Z",
-    "createdAt": "2026-08-16T23:53:48.629Z",
-    "updatedAt": "2026-08-16T23:53:48.629Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4626846",
-      "eventStartTime": "2026-08-16T04:00:00+00:00",
-      "retrievedAt": "2026-08-16T23:53:48.629Z",
-      "feedId": "beisebol",
-      "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-141d75ccbf4d",
-    "slug": "ivan-marrero-curbelo-vence-lev-seidman-por-2-a-1-em-kingston-141d75",
-    "sportId": "tenis",
-    "title": "Ivan Marrero Curbelo vence Lev Seidman por 2 a 1 em Kingston",
-    "summary": "Ivan Marrero Curbelo superou Lev Seidman por 2 a 1 em Kingston.",
-    "content": "Ivan Marrero Curbelo superou Lev Seidman por 2 a 1 em Kingston., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Ivan Marrero Curbelo vence Lev Seidman por 2 a 1 em Kingston",
-    "seoDescription": "Ivan Marrero Curbelo superou Lev Seidman por 2 a 1 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T23:53:48.615Z",
-    "createdAt": "2026-08-16T23:53:48.615Z",
-    "updatedAt": "2026-08-16T23:53:48.615Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815626",
-      "eventStartTime": "2026-08-16T15:10:58+00:00",
-      "retrievedAt": "2026-08-16T23:53:48.615Z",
-      "feedId": "tenis",
-      "league": "Kingston"
     },
     "articleFormat": "result-brief"
   }
