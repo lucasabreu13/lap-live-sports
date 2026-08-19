@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-8789e120c5f1",
+    "slug": "aleksandar-vukic-vence-kyrian-jacquet-por-1-a-0-em-quebec-city-8789e1",
+    "sportId": "tenis",
+    "title": "Aleksandar Vukic vence Kyrian Jacquet por 1 a 0 em Quebec City",
+    "summary": "Aleksandar Vukic superou Kyrian Jacquet por 1 a 0 em Quebec City.",
+    "content": "Aleksandar Vukic superou Kyrian Jacquet por 1 a 0 em Quebec City., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Aleksandar Vukic vence Kyrian Jacquet por 1 a 0 em Quebec City",
+    "seoDescription": "Aleksandar Vukic superou Kyrian Jacquet por 1 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T20:14:41.483Z",
+    "createdAt": "2026-08-19T20:14:41.483Z",
+    "updatedAt": "2026-08-19T20:14:41.483Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816183",
+      "eventStartTime": "2026-08-19T18:10:15+00:00",
+      "retrievedAt": "2026-08-19T20:14:41.483Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c4b338c05a5c",
+    "slug": "slovenia-vence-latvia-por-89-a-86-em-international-friendlies-c4b338",
+    "sportId": "basquete",
+    "title": "Slovenia vence Latvia por 89 a 86 em International Friendlies",
+    "summary": "Slovenia superou Latvia por 89 a 86 em International Friendlies.",
+    "content": "Slovenia superou Latvia por 89 a 86 em International Friendlies., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendlies"
+    ],
+    "seoTitle": "Slovenia vence Latvia por 89 a 86 em International Friendlies",
+    "seoDescription": "Slovenia superou Latvia por 89 a 86 em International Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T20:14:41.474Z",
+    "createdAt": "2026-08-19T20:14:41.474Z",
+    "updatedAt": "2026-08-19T20:14:41.474Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816985",
+      "eventStartTime": "2026-08-19T18:00:00+00:00",
+      "retrievedAt": "2026-08-19T20:14:41.474Z",
+      "feedId": "basquete",
+      "league": "International Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8deea24248e5",
+    "slug": "chacarita-juniors-e-club-atletico-guemes-ficam-no-0-a-0-pelo-primera-nacional-8deea2",
+    "sportId": "futebol",
+    "title": "Chacarita Juniors e Club Atletico Guemes ficam no 0 a 0 pelo Primera Nacional",
+    "summary": "Chacarita Juniors e Club Atletico Guemes empataram por 0 a 0 pelo Primera Nacional.",
+    "content": "Chacarita Juniors e Club Atletico Guemes empataram por 0 a 0 pelo Primera Nacional, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-nacional"
+    ],
+    "seoTitle": "Chacarita Juniors e Club Atletico Guemes ficam no 0 a 0 pelo Primera",
+    "seoDescription": "Chacarita Juniors e Club Atletico Guemes empataram por 0 a 0 pelo Primera Nacional.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T20:14:41.471Z",
+    "createdAt": "2026-08-19T20:14:41.471Z",
+    "updatedAt": "2026-08-19T20:14:41.471Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4643965",
+      "eventStartTime": "2026-08-19T18:00:00+00:00",
+      "retrievedAt": "2026-08-19T20:14:41.471Z",
+      "feedId": "futebol",
+      "league": "Primera Nacional"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-dc5a949779dd",
     "slug": "siniakova-k-townsend-t-e-jovic-i-mcnally-c-empatam-por-0-a-0-em-cincinnati-dc5a94",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-17T03:11:01.853Z",
       "feedId": "futebol",
       "league": "Liga MX"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4f479a3f8cc8",
-    "slug": "paulo-andre-saraiva-dos-santos-vence-matt-kuhar-por-2-a-1-em-kingston-4f479a",
-    "sportId": "tenis",
-    "title": "Paulo Andre Saraiva Dos Santos vence Matt Kuhar por 2 a 1 em Kingston",
-    "summary": "Paulo Andre Saraiva Dos Santos superou Matt Kuhar por 2 a 1 em Kingston.",
-    "content": "Paulo Andre Saraiva Dos Santos superou Matt Kuhar por 2 a 1 em Kingston., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Paulo Andre Saraiva Dos Santos vence Matt Kuhar por 2 a 1 em Kingston",
-    "seoDescription": "Paulo Andre Saraiva Dos Santos superou Matt Kuhar por 2 a 1 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T02:07:58.543Z",
-    "createdAt": "2026-08-17T02:07:58.543Z",
-    "updatedAt": "2026-08-17T02:07:58.543Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815567",
-      "eventStartTime": "2026-08-16T20:36:38+00:00",
-      "retrievedAt": "2026-08-17T02:07:58.543Z",
-      "feedId": "tenis",
-      "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fe0949152300",
-    "slug": "atletico-puerto-varas-vence-cd-espanol-osorno-por-95-a-79-em-lnb-fe0949",
-    "sportId": "basquete",
-    "title": "Atlético Puerto Varas vence CD Español Osorno por 95 a 79 em LNB",
-    "summary": "Atlético Puerto Varas superou CD Español Osorno por 95 a 79 em LNB.",
-    "content": "Atlético Puerto Varas superou CD Español Osorno por 95 a 79 em LNB., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Atlético Puerto Varas vence CD Español Osorno por 95 a 79 em LNB",
-    "seoDescription": "Atlético Puerto Varas superou CD Español Osorno por 95 a 79 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T02:07:58.522Z",
-    "createdAt": "2026-08-17T02:07:58.522Z",
-    "updatedAt": "2026-08-17T02:07:58.522Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811321",
-      "eventStartTime": "2026-08-17T00:00:00+00:00",
-      "retrievedAt": "2026-08-17T02:07:58.522Z",
-      "feedId": "basquete",
-      "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d255b3dd11ce",
-    "slug": "once-caldas-e-alianza-fc-ficam-no-0-a-0-pelo-primera-a-d255b3",
-    "sportId": "futebol",
-    "title": "Once Caldas e Alianza FC ficam no 0 a 0 pelo Primera A",
-    "summary": "Once Caldas e Alianza FC empataram por 0 a 0 pelo Primera A.",
-    "content": "Once Caldas e Alianza FC empataram por 0 a 0 pelo Primera A, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-a"
-    ],
-    "seoTitle": "Once Caldas e Alianza FC ficam no 0 a 0 pelo Primera A",
-    "seoDescription": "Once Caldas e Alianza FC empataram por 0 a 0 pelo Primera A.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T02:07:58.507Z",
-    "createdAt": "2026-08-17T02:07:58.507Z",
-    "updatedAt": "2026-08-17T02:07:58.507Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732051",
-      "eventStartTime": "2026-08-17T01:15:00+00:00",
-      "retrievedAt": "2026-08-17T02:07:58.507Z",
-      "feedId": "futebol",
-      "league": "Primera A"
     },
     "articleFormat": "result-brief"
   }
