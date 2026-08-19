@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-4e0b4eafad94",
+    "slug": "soon-woo-kwon-e-shintaro-mochizuki-empatam-por-0-a-0-em-quebec-city-4e0b4e",
+    "sportId": "tenis",
+    "title": "Soon-Woo Kwon e Shintaro Mochizuki empatam por 0 a 0 em Quebec City",
+    "summary": "Soon-Woo Kwon e Shintaro Mochizuki terminaram empatados por 0 a 0 em Quebec City.",
+    "content": "Soon-Woo Kwon e Shintaro Mochizuki terminaram empatados por 0 a 0 em Quebec City., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Soon-Woo Kwon e Shintaro Mochizuki empatam por 0 a 0 em Quebec City",
+    "seoDescription": "Soon-Woo Kwon e Shintaro Mochizuki terminaram empatados por 0 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T18:59:52.029Z",
+    "createdAt": "2026-08-19T18:59:52.029Z",
+    "updatedAt": "2026-08-19T18:59:52.029Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818431",
+      "eventStartTime": "2026-08-19T18:49:21+00:00",
+      "retrievedAt": "2026-08-19T18:59:52.029Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5de04e1e57af",
+    "slug": "javor-matis-supera-jedinstvo-ub-por-3-a-0-pela-prva-liga-5de04e",
+    "sportId": "futebol",
+    "title": "Javor Matis supera Jedinstvo Ub por 3 a 0 pela Prva Liga",
+    "summary": "Javor Matis venceu Jedinstvo Ub por 3 a 0 pela Prva Liga.",
+    "content": "Javor Matis venceu Jedinstvo Ub por 3 a 0 pela Prva Liga, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "prva-liga"
+    ],
+    "seoTitle": "Javor Matis supera Jedinstvo Ub por 3 a 0 pela Prva Liga",
+    "seoDescription": "Javor Matis venceu Jedinstvo Ub por 3 a 0 pela Prva Liga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T18:59:52.006Z",
+    "createdAt": "2026-08-19T18:59:52.006Z",
+    "updatedAt": "2026-08-19T18:59:52.006Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4737463",
+      "eventStartTime": "2026-08-19T17:00:00+00:00",
+      "retrievedAt": "2026-08-19T18:59:52.006Z",
+      "feedId": "futebol",
+      "league": "Prva Liga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-1dbd2a074b4f",
     "slug": "bernet-stricker-vence-kalyanpur-a-nedunchezhiyan-j-por-2-a-0-em-sion-1dbd2a",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-16T23:53:48.615Z",
       "feedId": "tenis",
       "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-38b263573356",
-    "slug": "chicago-sky-vence-seattle-storm-por-82-a-80-em-wnba-38b263",
-    "sportId": "basquete",
-    "title": "Chicago Sky vence Seattle Storm por 82 a 80 em WNBA",
-    "summary": "Chicago Sky superou Seattle Storm por 82 a 80 em WNBA.",
-    "content": "Chicago Sky superou Seattle Storm por 82 a 80 em WNBA., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "Chicago Sky vence Seattle Storm por 82 a 80 em WNBA",
-    "seoDescription": "Chicago Sky superou Seattle Storm por 82 a 80 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T23:53:48.584Z",
-    "createdAt": "2026-08-16T23:53:48.584Z",
-    "updatedAt": "2026-08-16T23:53:48.584Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659882",
-      "eventStartTime": "2026-08-16T21:00:00+00:00",
-      "retrievedAt": "2026-08-16T23:53:48.584Z",
-      "feedId": "basquete",
-      "league": "WNBA"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4ceb10e292cc",
-    "slug": "inter-san-carlos-supera-perez-zeledon-por-1-a-0-pela-liga-fpd-4ceb10",
-    "sportId": "futebol",
-    "title": "Inter San Carlos supera Perez Zeledon por 1 a 0 pela liga FPD",
-    "summary": "Inter San Carlos venceu Perez Zeledon por 1 a 0 pela liga FPD.",
-    "content": "Inter San Carlos venceu Perez Zeledon por 1 a 0 pela liga FPD, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-fpd"
-    ],
-    "seoTitle": "Inter San Carlos supera Perez Zeledon por 1 a 0 pela liga FPD",
-    "seoDescription": "Inter San Carlos venceu Perez Zeledon por 1 a 0 pela liga FPD.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T23:53:48.575Z",
-    "createdAt": "2026-08-16T23:53:48.575Z",
-    "updatedAt": "2026-08-16T23:53:48.575Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4734839",
-      "eventStartTime": "2026-08-16T22:00:00+00:00",
-      "retrievedAt": "2026-08-16T23:53:48.575Z",
-      "feedId": "futebol",
-      "league": "liga FPD"
     },
     "articleFormat": "result-brief"
   }
