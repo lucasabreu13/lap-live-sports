@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-3e3940d0f849",
+    "slug": "thiago-agustin-tirante-vence-jakub-mensik-por-2-a-1-em-cincinnati-3e3940",
+    "sportId": "tenis",
+    "title": "Thiago Agustin Tirante vence Jakub Mensik por 2 a 1 em Cincinnati",
+    "summary": "Thiago Agustin Tirante superou Jakub Mensik por 2 a 1 em Cincinnati.",
+    "content": "Thiago Agustin Tirante superou Jakub Mensik por 2 a 1 em Cincinnati., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Thiago Agustin Tirante vence Jakub Mensik por 2 a 1 em Cincinnati",
+    "seoDescription": "Thiago Agustin Tirante superou Jakub Mensik por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T22:13:31.535Z",
+    "createdAt": "2026-08-19T22:13:31.535Z",
+    "updatedAt": "2026-08-19T22:13:31.535Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816954",
+      "eventStartTime": "2026-08-19T17:07:17+00:00",
+      "retrievedAt": "2026-08-19T22:13:31.535Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ce349883ca13",
+    "slug": "monagas-sc-supera-mineros-de-guayana-por-1-a-0-pela-copa-venezuela-ce3498",
+    "sportId": "futebol",
+    "title": "Monagas SC supera Mineros De Guayana por 1 a 0 pela Copa Venezuela",
+    "summary": "Monagas SC venceu Mineros De Guayana por 1 a 0 pela Copa Venezuela.",
+    "content": "Monagas SC venceu Mineros De Guayana por 1 a 0 pela Copa Venezuela, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-venezuela"
+    ],
+    "seoTitle": "Monagas SC supera Mineros De Guayana por 1 a 0 pela Copa Venezuela",
+    "seoDescription": "Monagas SC venceu Mineros De Guayana por 1 a 0 pela Copa Venezuela.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T22:13:31.503Z",
+    "createdAt": "2026-08-19T22:13:31.503Z",
+    "updatedAt": "2026-08-19T22:13:31.503Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4743196",
+      "eventStartTime": "2026-08-19T20:00:00+00:00",
+      "retrievedAt": "2026-08-19T22:13:31.503Z",
+      "feedId": "futebol",
+      "league": "Copa Venezuela"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-45112257f4ed",
     "slug": "clement-chidekh-vence-kenta-miyoshi-por-2-a-0-em-kingston-451122",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-17T04:41:18.262Z",
       "feedId": "futebol",
       "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f981198c0108",
-    "slug": "st-louis-cardinals-vence-chicago-cubs-por-11-a-4-na-mlb-f98119",
-    "sportId": "beisebol",
-    "title": "St. Louis Cardinals vence Chicago Cubs por 11 a 4 na MLB",
-    "summary": "St. Louis Cardinals derrotou Chicago Cubs por 11 a 4 na MLB.",
-    "content": "St. Louis Cardinals derrotou Chicago Cubs por 11 a 4 na MLB, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "St. Louis Cardinals vence Chicago Cubs por 11 a 4 na MLB",
-    "seoDescription": "St. Louis Cardinals derrotou Chicago Cubs por 11 a 4 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T03:59:26.714Z",
-    "createdAt": "2026-08-17T03:59:26.714Z",
-    "updatedAt": "2026-08-17T03:59:26.714Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614730",
-      "eventStartTime": "2026-08-16T19:15:00+00:00",
-      "retrievedAt": "2026-08-17T03:59:26.714Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ef0084d8b3ae",
-    "slug": "xiyu-wang-vence-leylah-fernandez-por-2-a-1-em-cincinnati-ef0084",
-    "sportId": "tenis",
-    "title": "Xiyu Wang vence Leylah Fernandez por 2 a 1 em Cincinnati",
-    "summary": "Xiyu Wang superou Leylah Fernandez por 2 a 1 em Cincinnati.",
-    "content": "Xiyu Wang superou Leylah Fernandez por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Xiyu Wang vence Leylah Fernandez por 2 a 1 em Cincinnati",
-    "seoDescription": "Xiyu Wang superou Leylah Fernandez por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T03:59:26.706Z",
-    "createdAt": "2026-08-17T03:59:26.706Z",
-    "updatedAt": "2026-08-17T03:59:26.706Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815101",
-      "eventStartTime": "2026-08-16T21:23:50+00:00",
-      "retrievedAt": "2026-08-17T03:59:26.706Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
