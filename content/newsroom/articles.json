@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-5e8ed568d286",
+    "slug": "toros-de-tijuana-vence-charros-de-jalisco-por-4-a-0-na-lmb-5e8ed5",
+    "sportId": "beisebol",
+    "title": "Toros de Tijuana vence Charros de Jalisco por 4 a 0 na LMB",
+    "summary": "Toros de Tijuana derrotou Charros de Jalisco por 4 a 0 na LMB.",
+    "content": "Toros de Tijuana derrotou Charros de Jalisco por 4 a 0 na LMB, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "lmb"
+    ],
+    "seoTitle": "Toros de Tijuana vence Charros de Jalisco por 4 a 0 na LMB",
+    "seoDescription": "Toros de Tijuana derrotou Charros de Jalisco por 4 a 0 na LMB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T06:02:26.090Z",
+    "createdAt": "2026-08-19T06:02:26.090Z",
+    "updatedAt": "2026-08-19T06:02:26.090Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816777",
+      "eventStartTime": "2026-08-19T02:35:00+00:00",
+      "retrievedAt": "2026-08-19T06:02:26.090Z",
+      "feedId": "beisebol",
+      "league": "LMB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-698d0b678aa3",
+    "slug": "kavcic-b-purcell-m-vence-banthia-s-kadhe-a-por-2-a-0-em-kingston-698d0b",
+    "sportId": "tenis",
+    "title": "Kavcic B./Purcell M. vence Banthia S./Kadhe A. por 2 a 0 em Kingston",
+    "summary": "Kavcic B./Purcell M. superou Banthia S./Kadhe A. por 2 a 0 em Kingston.",
+    "content": "Kavcic B./Purcell M. superou Banthia S./Kadhe A. por 2 a 0 em Kingston., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Kavcic B./Purcell M. vence Banthia S./Kadhe A. por 2 a 0 em Kingston",
+    "seoDescription": "Kavcic B./Purcell M. superou Banthia S./Kadhe A. por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T06:02:26.088Z",
+    "createdAt": "2026-08-19T06:02:26.088Z",
+    "updatedAt": "2026-08-19T06:02:26.088Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816530",
+      "eventStartTime": "2026-08-18T22:58:33+00:00",
+      "retrievedAt": "2026-08-19T06:02:26.088Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c393021c8728",
+    "slug": "olimpia-vence-san-alfonzo-por-102-a-84-em-lnb-c39302",
+    "sportId": "basquete",
+    "title": "Olimpia vence San Alfonzo por 102 a 84 em LNB",
+    "summary": "Olimpia superou San Alfonzo por 102 a 84 em LNB.",
+    "content": "Olimpia superou San Alfonzo por 102 a 84 em LNB., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Olimpia vence San Alfonzo por 102 a 84 em LNB",
+    "seoDescription": "Olimpia superou San Alfonzo por 102 a 84 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T06:02:26.079Z",
+    "createdAt": "2026-08-19T06:02:26.079Z",
+    "updatedAt": "2026-08-19T06:02:26.079Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4809661",
+      "eventStartTime": "2026-08-18T23:00:00+00:00",
+      "retrievedAt": "2026-08-19T06:02:26.079Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-01ff78015788",
+    "slug": "estudiantes-de-la-plata-supera-universidad-catolica-por-3-a-0-pelo-conmebol-libert-01ff78",
+    "sportId": "futebol",
+    "title": "Estudiantes de La Plata supera Universidad Catolica por 3 a 0 pelo CONMEBOL Libertadores",
+    "summary": "Estudiantes de La Plata venceu Universidad Catolica por 3 a 0 pelo CONMEBOL Libertadores.",
+    "content": "Estudiantes de La Plata venceu Universidad Catolica por 3 a 0 pelo CONMEBOL Libertadores, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "conmebol-libertadores"
+    ],
+    "seoTitle": "Estudiantes de La Plata supera Universidad Catolica por 3 a 0 pelo",
+    "seoDescription": "Estudiantes de La Plata venceu Universidad Catolica por 3 a 0 pelo CONMEBOL Libertadores.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T06:02:26.070Z",
+    "createdAt": "2026-08-19T06:02:26.070Z",
+    "updatedAt": "2026-08-19T06:02:26.070Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4728054",
+      "eventStartTime": "2026-08-19T00:30:00+00:00",
+      "retrievedAt": "2026-08-19T06:02:26.070Z",
+      "feedId": "futebol",
+      "league": "CONMEBOL Libertadores"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-6ed96ade2ea2",
     "slug": "sultanes-de-monterrey-vence-caliente-de-durango-por-6-a-2-na-lmb-6ed96a",
     "sportId": "beisebol",
@@ -12426,174 +12594,6 @@
       "eventId": "365-4815660",
       "eventStartTime": "2026-08-16T15:38:52+00:00",
       "retrievedAt": "2026-08-16T17:53:51.251Z",
-      "feedId": "tenis",
-      "league": "Roehampton"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-680f1c3ea4b1",
-    "slug": "estudiantes-de-merida-e-puerto-cabello-ficam-no-0-a-0-pela-liga-futve-680f1c",
-    "sportId": "futebol",
-    "title": "Estudiantes de Merida e Puerto Cabello ficam no 0 a 0 pela Liga FUTVE",
-    "summary": "Estudiantes de Merida e Puerto Cabello empataram por 0 a 0 pela Liga FUTVE.",
-    "content": "Estudiantes de Merida e Puerto Cabello empataram por 0 a 0 pela Liga FUTVE, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-futve"
-    ],
-    "seoTitle": "Estudiantes de Merida e Puerto Cabello ficam no 0 a 0 pela Liga FUTVE",
-    "seoDescription": "Estudiantes de Merida e Puerto Cabello empataram por 0 a 0 pela Liga FUTVE.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T17:53:51.215Z",
-    "createdAt": "2026-08-16T17:53:51.215Z",
-    "updatedAt": "2026-08-16T17:53:51.215Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4801418",
-      "eventStartTime": "2026-08-16T17:00:00+00:00",
-      "retrievedAt": "2026-08-16T17:53:51.215Z",
-      "feedId": "futebol",
-      "league": "Liga FUTVE"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f2486f3c8631",
-    "slug": "lucas-andrade-da-silva-vence-pietro-orlando-fellin-por-2-a-0-em-kingston-f2486f",
-    "sportId": "tenis",
-    "title": "Lucas Andrade Da Silva vence Pietro Orlando Fellin por 2 a 0 em Kingston",
-    "summary": "Lucas Andrade Da Silva superou Pietro Orlando Fellin por 2 a 0 em Kingston.",
-    "content": "Lucas Andrade Da Silva superou Pietro Orlando Fellin por 2 a 0 em Kingston., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Lucas Andrade Da Silva vence Pietro Orlando Fellin por 2 a 0 em",
-    "seoDescription": "Lucas Andrade Da Silva superou Pietro Orlando Fellin por 2 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T17:31:49.908Z",
-    "createdAt": "2026-08-16T17:31:49.908Z",
-    "updatedAt": "2026-08-16T17:31:49.908Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815565",
-      "eventStartTime": "2026-08-16T15:15:37+00:00",
-      "retrievedAt": "2026-08-16T17:31:49.908Z",
-      "feedId": "tenis",
-      "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7163820b0e75",
-    "slug": "deportivo-sayaxche-e-nueva-santa-rosa-cdf-ficam-no-0-a-0-pelo-primera-division-716382",
-    "sportId": "futebol",
-    "title": "Deportivo Sayaxche e Nueva Santa Rosa CDF ficam no 0 a 0 pelo Primera Division",
-    "summary": "Deportivo Sayaxche e Nueva Santa Rosa CDF empataram por 0 a 0 pelo Primera Division.",
-    "content": "Deportivo Sayaxche e Nueva Santa Rosa CDF empataram por 0 a 0 pelo Primera Division, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-division"
-    ],
-    "seoTitle": "Deportivo Sayaxche e Nueva Santa Rosa CDF ficam no 0 a 0 pelo Primera",
-    "seoDescription": "Deportivo Sayaxche e Nueva Santa Rosa CDF empataram por 0 a 0 pelo Primera Division.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T17:31:49.872Z",
-    "createdAt": "2026-08-16T17:31:49.872Z",
-    "updatedAt": "2026-08-16T17:31:49.872Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4777102",
-      "eventStartTime": "2026-08-16T17:00:00+00:00",
-      "retrievedAt": "2026-08-16T17:31:49.872Z",
-      "feedId": "futebol",
-      "league": "Primera Division"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-29708913ca42",
-    "slug": "ali-habib-vence-samuel-battistone-por-2-a-0-em-roehampton-297089",
-    "sportId": "tenis",
-    "title": "Ali Habib vence Samuel Battistone por 2 a 0 em Roehampton",
-    "summary": "Ali Habib superou Samuel Battistone por 2 a 0 em Roehampton.",
-    "content": "Ali Habib superou Samuel Battistone por 2 a 0 em Roehampton., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "roehampton"
-    ],
-    "seoTitle": "Ali Habib vence Samuel Battistone por 2 a 0 em Roehampton",
-    "seoDescription": "Ali Habib superou Samuel Battistone por 2 a 0 em Roehampton.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T17:11:04.155Z",
-    "createdAt": "2026-08-16T17:11:04.155Z",
-    "updatedAt": "2026-08-16T17:11:04.155Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815666",
-      "eventStartTime": "2026-08-16T16:18:28+00:00",
-      "retrievedAt": "2026-08-16T17:11:04.155Z",
       "feedId": "tenis",
       "league": "Roehampton"
     },
