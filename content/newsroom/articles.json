@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-cd4527fe38be",
+    "slug": "toronto-blue-jays-vence-tampa-bay-rays-por-10-a-5-na-mlb-cd4527",
+    "sportId": "beisebol",
+    "title": "Toronto Blue Jays vence Tampa Bay Rays por 10 a 5 na MLB",
+    "summary": "Toronto Blue Jays derrotou Tampa Bay Rays por 10 a 5 na MLB.",
+    "content": "Toronto Blue Jays derrotou Tampa Bay Rays por 10 a 5 na MLB, em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Toronto Blue Jays vence Tampa Bay Rays por 10 a 5 na MLB",
+    "seoDescription": "Toronto Blue Jays derrotou Tampa Bay Rays por 10 a 5 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T05:01:54.579Z",
+    "createdAt": "2026-08-19T05:01:54.579Z",
+    "updatedAt": "2026-08-19T05:01:54.579Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614695",
+      "eventStartTime": "2026-08-18T22:40:00+00:00",
+      "retrievedAt": "2026-08-19T05:01:54.579Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4be8bade45c2",
+    "slug": "henrique-rocha-vence-seong-chan-hong-por-2-a-0-em-cancun-4be8ba",
+    "sportId": "tenis",
+    "title": "Henrique Rocha vence Seong Chan Hong por 2 a 0 em Cancun",
+    "summary": "Henrique Rocha superou Seong Chan Hong por 2 a 0 em Cancun.",
+    "content": "Henrique Rocha superou Seong Chan Hong por 2 a 0 em Cancun., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Henrique Rocha vence Seong Chan Hong por 2 a 0 em Cancun",
+    "seoDescription": "Henrique Rocha superou Seong Chan Hong por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T05:01:54.566Z",
+    "createdAt": "2026-08-19T05:01:54.566Z",
+    "updatedAt": "2026-08-19T05:01:54.566Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816196",
+      "eventStartTime": "2026-08-19T02:28:52+00:00",
+      "retrievedAt": "2026-08-19T05:01:54.566Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f2e4ec97c196",
+    "slug": "montevideo-bbc-vence-olivol-mundial-por-87-a-84-em-liga-de-ascenso-f2e4ec",
+    "sportId": "basquete",
+    "title": "Montevideo BBC vence Olivol Mundial por 87 a 84 em Liga de ascenso",
+    "summary": "Montevideo BBC superou Olivol Mundial por 87 a 84 em Liga de ascenso.",
+    "content": "Montevideo BBC superou Olivol Mundial por 87 a 84 em Liga de ascenso., em 18 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Montevideo BBC vence Olivol Mundial por 87 a 84 em Liga de ascenso",
+    "seoDescription": "Montevideo BBC superou Olivol Mundial por 87 a 84 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T05:01:54.562Z",
+    "createdAt": "2026-08-19T05:01:54.562Z",
+    "updatedAt": "2026-08-19T05:01:54.562Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816149",
+      "eventStartTime": "2026-08-18T23:15:00+00:00",
+      "retrievedAt": "2026-08-19T05:01:54.562Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ab6799a8f373",
+    "slug": "club-sport-herediano-supera-real-esteli-fc-por-2-a-0-pelo-concacaf-central-america-ab6799",
+    "sportId": "futebol",
+    "title": "Club Sport Herediano supera Real Estelí FC por 2 a 0 pelo CONCACAF Central American Cup",
+    "summary": "Club Sport Herediano venceu Real Estelí FC por 2 a 0 pelo CONCACAF Central American Cup.",
+    "content": "Club Sport Herediano venceu Real Estelí FC por 2 a 0 pelo CONCACAF Central American Cup, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "concacaf-central-american-cup"
+    ],
+    "seoTitle": "Club Sport Herediano supera Real Estelí FC por 2 a 0 pelo CONCACAF",
+    "seoDescription": "Club Sport Herediano venceu Real Estelí FC por 2 a 0 pelo CONCACAF Central American Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-19T05:01:54.549Z",
+    "createdAt": "2026-08-19T05:01:54.549Z",
+    "updatedAt": "2026-08-19T05:01:54.549Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4730009",
+      "eventStartTime": "2026-08-19T03:00:00+00:00",
+      "retrievedAt": "2026-08-19T05:01:54.549Z",
+      "feedId": "futebol",
+      "league": "CONCACAF Central American Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ab98aa7b7698",
     "slug": "milwaukee-brewers-vence-seattle-mariners-por-22-a-0-na-mlb-ab98aa",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-16T16:16:01.726Z",
       "feedId": "tenis",
       "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-84a12c768ca8",
-    "slug": "deportivo-coopsol-e-amazon-callao-fc-ficam-no-0-a-0-pela-liga-3-84a12c",
-    "sportId": "futebol",
-    "title": "Deportivo Coopsol e Amazon Callao FC ficam no 0 a 0 pela Liga 3",
-    "summary": "Deportivo Coopsol e Amazon Callao FC empataram por 0 a 0 pela Liga 3.",
-    "content": "Deportivo Coopsol e Amazon Callao FC empataram por 0 a 0 pela Liga 3, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-3"
-    ],
-    "seoTitle": "Deportivo Coopsol e Amazon Callao FC ficam no 0 a 0 pela Liga 3",
-    "seoDescription": "Deportivo Coopsol e Amazon Callao FC empataram por 0 a 0 pela Liga 3.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T16:16:01.703Z",
-    "createdAt": "2026-08-16T16:16:01.703Z",
-    "updatedAt": "2026-08-16T16:16:01.703Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814981",
-      "eventStartTime": "2026-08-16T16:00:00+00:00",
-      "retrievedAt": "2026-08-16T16:16:01.703Z",
-      "feedId": "futebol",
-      "league": "Liga 3"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-203e3a3c59cb",
-    "slug": "alafia-ayeni-vence-zach-stephens-por-2-a-0-em-roehampton-203e3a",
-    "sportId": "tenis",
-    "title": "Alafia Ayeni vence Zach Stephens por 2 a 0 em Roehampton",
-    "summary": "Alafia Ayeni superou Zach Stephens por 2 a 0 em Roehampton.",
-    "content": "Alafia Ayeni superou Zach Stephens por 2 a 0 em Roehampton., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "roehampton"
-    ],
-    "seoTitle": "Alafia Ayeni vence Zach Stephens por 2 a 0 em Roehampton",
-    "seoDescription": "Alafia Ayeni superou Zach Stephens por 2 a 0 em Roehampton.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T15:57:04.883Z",
-    "createdAt": "2026-08-16T15:57:04.883Z",
-    "updatedAt": "2026-08-16T15:57:04.883Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815606",
-      "eventStartTime": "2026-08-16T14:24:11+00:00",
-      "retrievedAt": "2026-08-16T15:57:04.883Z",
-      "feedId": "tenis",
-      "league": "Roehampton"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-61a02d169133",
-    "slug": "super-nova-e-rigas-fs-ficam-no-0-a-0-pelo-latvian-cup-61a02d",
-    "sportId": "futebol",
-    "title": "Super Nova e Rigas FS ficam no 0 a 0 pelo Latvian Cup",
-    "summary": "Super Nova e Rigas FS empataram por 0 a 0 pelo Latvian Cup.",
-    "content": "Super Nova e Rigas FS empataram por 0 a 0 pelo Latvian Cup, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "latvian-cup"
-    ],
-    "seoTitle": "Super Nova e Rigas FS ficam no 0 a 0 pelo Latvian Cup",
-    "seoDescription": "Super Nova e Rigas FS empataram por 0 a 0 pelo Latvian Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T15:57:04.864Z",
-    "createdAt": "2026-08-16T15:57:04.864Z",
-    "updatedAt": "2026-08-16T15:57:04.864Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4773151",
-      "eventStartTime": "2026-08-16T15:00:00+00:00",
-      "retrievedAt": "2026-08-16T15:57:04.864Z",
-      "feedId": "futebol",
-      "league": "Latvian Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-19437379900f",
-    "slug": "matyas-cerny-vence-dusan-obradovic-por-2-a-0-em-prague-194373",
-    "sportId": "tenis",
-    "title": "Matyas Cerny vence Dusan Obradovic por 2 a 0 em Prague",
-    "summary": "Matyas Cerny superou Dusan Obradovic por 2 a 0 em Prague.",
-    "content": "Matyas Cerny superou Dusan Obradovic por 2 a 0 em Prague., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Matyas Cerny vence Dusan Obradovic por 2 a 0 em Prague",
-    "seoDescription": "Matyas Cerny superou Dusan Obradovic por 2 a 0 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-16T15:43:10.860Z",
-    "createdAt": "2026-08-16T15:43:10.860Z",
-    "updatedAt": "2026-08-16T15:43:10.860Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815314",
-      "eventStartTime": "2026-08-16T14:31:30+00:00",
-      "retrievedAt": "2026-08-16T15:43:10.860Z",
-      "feedId": "tenis",
-      "league": "Prague"
     },
     "articleFormat": "result-brief"
   }
