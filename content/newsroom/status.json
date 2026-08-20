@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-08-20T16:58:20.235Z",
-  "commit": "7037526b00808645a07b0e41a3b197e0e5ee73bc",
-  "runId": "32394951819",
+  "validatedAt": "2026-08-20T17:25:23.190Z",
+  "commit": "7cde77e79538c5c943503269e47ff7b9552aa22d",
+  "runId": "32397484039",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -20,15 +20,15 @@
     "curatedArticles": 25,
     "curatedFiles": 5,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-08-20T16:58:19.882Z",
+    "lastPublishedAt": "2026-08-20T17:25:22.823Z",
     "lastPublishedBySport": {
-      "futebol": "2026-08-20T16:58:19.854Z",
+      "futebol": "2026-08-20T17:25:22.786Z",
       "futebol-americano": null,
-      "tenis": "2026-08-20T16:58:19.878Z",
+      "tenis": "2026-08-20T17:25:22.818Z",
       "ciclismo": null,
       "formula1": null,
       "basquete": "2026-08-20T09:48:05.281Z",
-      "beisebol": "2026-08-20T16:58:19.882Z",
+      "beisebol": "2026-08-20T17:25:22.823Z",
       "golfe": null,
       "surfe": null
     },
@@ -40,7 +40,7 @@
         "futebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-20T16:58:19.854Z"
+          "lastPublishedAt": "2026-08-20T17:25:22.786Z"
         },
         "futebol-americano": {
           "status": "critical",
@@ -50,7 +50,7 @@
         "tenis": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-20T16:58:19.878Z"
+          "lastPublishedAt": "2026-08-20T17:25:22.818Z"
         },
         "ciclismo": {
           "status": "critical",
@@ -64,13 +64,13 @@
         },
         "basquete": {
           "status": "ok",
-          "ageHours": 7.2,
+          "ageHours": 7.6,
           "lastPublishedAt": "2026-08-20T09:48:05.281Z"
         },
         "beisebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-20T16:58:19.882Z"
+          "lastPublishedAt": "2026-08-20T17:25:22.823Z"
         },
         "golfe": {
           "status": "critical",

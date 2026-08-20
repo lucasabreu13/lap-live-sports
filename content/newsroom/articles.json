@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-b53b0db6e3d7",
+    "slug": "kia-tigers-vence-hanwha-eagles-por-10-a-6-na-kbo-b53b0d",
+    "sportId": "beisebol",
+    "title": "KIA Tigers vence Hanwha Eagles por 10 a 6 na KBO",
+    "summary": "KIA Tigers derrotou Hanwha Eagles por 10 a 6 na KBO.",
+    "content": "KIA Tigers derrotou Hanwha Eagles por 10 a 6 na KBO, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "kbo"
+    ],
+    "seoTitle": "KIA Tigers vence Hanwha Eagles por 10 a 6 na KBO",
+    "seoDescription": "KIA Tigers derrotou Hanwha Eagles por 10 a 6 na KBO.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T17:25:22.823Z",
+    "createdAt": "2026-08-20T17:25:22.823Z",
+    "updatedAt": "2026-08-20T17:25:22.823Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819505",
+      "eventStartTime": "2026-08-20T10:00:00+00:00",
+      "retrievedAt": "2026-08-20T17:25:22.823Z",
+      "feedId": "beisebol",
+      "league": "KBO"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d39d91c4d97d",
+    "slug": "donski-a-rai-a-vence-arseneault-n-rozin-a-por-2-a-0-em-quebec-city-d39d91",
+    "sportId": "tenis",
+    "title": "Donski A./Rai A. vence Arseneault N./Rozin A. por 2 a 0 em Quebec City",
+    "summary": "Donski A./Rai A. superou Arseneault N./Rozin A. por 2 a 0 em Quebec City.",
+    "content": "Donski A./Rai A. superou Arseneault N./Rozin A. por 2 a 0 em Quebec City., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Donski A./Rai A. vence Arseneault N./Rozin A. por 2 a 0 em Quebec City",
+    "seoDescription": "Donski A./Rai A. superou Arseneault N./Rozin A. por 2 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T17:25:22.818Z",
+    "createdAt": "2026-08-20T17:25:22.818Z",
+    "updatedAt": "2026-08-20T17:25:22.818Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819263",
+      "eventStartTime": "2026-08-20T15:10:35+00:00",
+      "retrievedAt": "2026-08-20T17:25:22.818Z",
+      "feedId": "tenis",
+      "league": "Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-defc181da450",
+    "slug": "arsenal-tula-supera-rotor-volgograd-por-2-a-1-pelo-russian-first-league-defc18",
+    "sportId": "futebol",
+    "title": "Arsenal Tula supera Rotor Volgograd por 2 a 1 pelo Russian First League",
+    "summary": "Arsenal Tula venceu Rotor Volgograd por 2 a 1 pelo Russian First League.",
+    "content": "Arsenal Tula venceu Rotor Volgograd por 2 a 1 pelo Russian First League, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "russian-first-league"
+    ],
+    "seoTitle": "Arsenal Tula supera Rotor Volgograd por 2 a 1 pelo Russian First",
+    "seoDescription": "Arsenal Tula venceu Rotor Volgograd por 2 a 1 pelo Russian First League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T17:25:22.786Z",
+    "createdAt": "2026-08-20T17:25:22.786Z",
+    "updatedAt": "2026-08-20T17:25:22.786Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4760472",
+      "eventStartTime": "2026-08-20T15:30:00+00:00",
+      "retrievedAt": "2026-08-20T17:25:22.786Z",
+      "feedId": "futebol",
+      "league": "Russian First League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ea6de4a167ee",
     "slug": "ssg-landers-vence-samsung-lions-por-6-a-4-na-kbo-ea6de4",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-17T22:58:06.469Z",
       "feedId": "tenis",
       "league": "Cancun"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-049bc7c6218d",
-    "slug": "new-zealand-w-vence-argentina-w-por-57-a-35-em-olympic-qualification-w-049bc7",
-    "sportId": "basquete",
-    "title": "New Zealand (W) vence Argentina (W) por 57 a 35 em Olympic Qualification (W)",
-    "summary": "New Zealand (W) superou Argentina (W) por 57 a 35 em Olympic Qualification (W).",
-    "content": "New Zealand (W) superou Argentina (W) por 57 a 35 em Olympic Qualification (W)., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "olympic-qualification-w"
-    ],
-    "seoTitle": "New Zealand (W) vence Argentina (W) por 57 a 35 em Olympic",
-    "seoDescription": "New Zealand (W) superou Argentina (W) por 57 a 35 em Olympic Qualification (W).",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T22:58:06.465Z",
-    "createdAt": "2026-08-17T22:58:06.465Z",
-    "updatedAt": "2026-08-17T22:58:06.465Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816706",
-      "eventStartTime": "2026-08-17T20:45:00+00:00",
-      "retrievedAt": "2026-08-17T22:58:06.465Z",
-      "feedId": "basquete",
-      "league": "Olympic Qualification (W)"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ad84a30b0953",
-    "slug": "santamarina-tandil-supera-fundacion-amigos-por-el-deporte-por-2-a-0-pelo-federal-a-ad84a3",
-    "sportId": "futebol",
-    "title": "Santamarina Tandil supera Fundación Amigos por el Deporte por 2 a 0 pelo Federal A",
-    "summary": "Santamarina Tandil venceu Fundación Amigos por el Deporte por 2 a 0 pelo Federal A.",
-    "content": "Santamarina Tandil venceu Fundación Amigos por el Deporte por 2 a 0 pelo Federal A, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "federal-a"
-    ],
-    "seoTitle": "Santamarina Tandil supera Fundación Amigos por el Deporte por 2 a 0",
-    "seoDescription": "Santamarina Tandil venceu Fundación Amigos por el Deporte por 2 a 0 pelo Federal A.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T22:58:06.461Z",
-    "createdAt": "2026-08-17T22:58:06.461Z",
-    "updatedAt": "2026-08-17T22:58:06.461Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4797233",
-      "eventStartTime": "2026-08-17T21:00:00+00:00",
-      "retrievedAt": "2026-08-17T22:58:06.461Z",
-      "feedId": "futebol",
-      "league": "Federal A"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9307efaba9d8",
-    "slug": "igor-marcondes-vence-alvaro-gullien-meza-por-2-a-0-em-kingston-9307ef",
-    "sportId": "tenis",
-    "title": "Igor Marcondes vence Alvaro Gullien Meza por 2 a 0 em Kingston",
-    "summary": "Igor Marcondes superou Alvaro Gullien Meza por 2 a 0 em Kingston.",
-    "content": "Igor Marcondes superou Alvaro Gullien Meza por 2 a 0 em Kingston., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Igor Marcondes vence Alvaro Gullien Meza por 2 a 0 em Kingston",
-    "seoDescription": "Igor Marcondes superou Alvaro Gullien Meza por 2 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T22:39:24.252Z",
-    "createdAt": "2026-08-17T22:39:24.252Z",
-    "updatedAt": "2026-08-17T22:39:24.252Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815570",
-      "eventStartTime": "2026-08-17T21:18:52+00:00",
-      "retrievedAt": "2026-08-17T22:39:24.252Z",
-      "feedId": "tenis",
-      "league": "Kingston"
     },
     "articleFormat": "result-brief"
   }
