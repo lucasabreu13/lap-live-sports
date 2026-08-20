@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-34e27a1e535d",
+    "slug": "erler-a-stevens-b-vence-balshaw-f-jorda-sanchis-d-por-2-a-1-em-cancun-34e27a",
+    "sportId": "tenis",
+    "title": "Erler A./Stevens B. vence Balshaw F./Jorda Sanchis D. por 2 a 1 em Cancun",
+    "summary": "Erler A./Stevens B. superou Balshaw F./Jorda Sanchis D. por 2 a 1 em Cancun.",
+    "content": "Erler A./Stevens B. superou Balshaw F./Jorda Sanchis D. por 2 a 1 em Cancun., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Erler A./Stevens B. vence Balshaw F./Jorda Sanchis D. por 2 a 1 em",
+    "seoDescription": "Erler A./Stevens B. superou Balshaw F./Jorda Sanchis D. por 2 a 1 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T06:03:06.174Z",
+    "createdAt": "2026-08-20T06:03:06.174Z",
+    "updatedAt": "2026-08-20T06:03:06.174Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817223",
+      "eventStartTime": "2026-08-20T03:43:46+00:00",
+      "retrievedAt": "2026-08-20T06:03:06.174Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7aeed68e8135",
+    "slug": "vaqueros-de-bayamon-vence-santeros-de-aguada-por-97-a-79-em-bsn-7aeed6",
+    "sportId": "basquete",
+    "title": "Vaqueros De Bayamon vence Santeros de Aguada por 97 a 79 em BSN",
+    "summary": "Vaqueros De Bayamon superou Santeros de Aguada por 97 a 79 em BSN.",
+    "content": "Vaqueros De Bayamon superou Santeros de Aguada por 97 a 79 em BSN., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "bsn"
+    ],
+    "seoTitle": "Vaqueros De Bayamon vence Santeros de Aguada por 97 a 79 em BSN",
+    "seoDescription": "Vaqueros De Bayamon superou Santeros de Aguada por 97 a 79 em BSN.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T06:03:06.170Z",
+    "createdAt": "2026-08-20T06:03:06.170Z",
+    "updatedAt": "2026-08-20T06:03:06.170Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4805038",
+      "eventStartTime": "2026-08-20T00:00:00+00:00",
+      "retrievedAt": "2026-08-20T06:03:06.170Z",
+      "feedId": "basquete",
+      "league": "BSN"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7ccdbb0e4563",
+    "slug": "portland-timbers-supera-san-diego-fc-por-3-a-1-pelo-mls-7ccdbb",
+    "sportId": "futebol",
+    "title": "Portland Timbers supera San Diego FC por 3 a 1 pela MLS",
+    "summary": "Portland Timbers venceu San Diego FC por 3 a 1 pela MLS.",
+    "content": "Portland Timbers venceu San Diego FC por 3 a 1 pela MLS, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "Portland Timbers supera San Diego FC por 3 a 1 pela MLS",
+    "seoDescription": "Portland Timbers venceu San Diego FC por 3 a 1 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T06:03:06.157Z",
+    "createdAt": "2026-08-20T06:03:06.157Z",
+    "updatedAt": "2026-08-20T06:03:06.157Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4621429",
+      "eventStartTime": "2026-08-20T02:30:00+00:00",
+      "retrievedAt": "2026-08-20T06:03:06.157Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-71f9e7395db9",
     "slug": "liutarevich-i-reyes-varela-m-a-vence-barrios-vera-m-t-mejia-n-por-2-a-0-em-cancun-71f9e7",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-17T13:52:20.385Z",
       "feedId": "tenis",
       "league": "Roehampton"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-42970dde072d",
-    "slug": "cd-rio-blanco-supera-juventus-managua-por-2-a-0-pela-liga-de-ascenso-42970d",
-    "sportId": "futebol",
-    "title": "CD Rio Blanco supera Juventus Managua por 2 a 0 pela Liga de Ascenso",
-    "summary": "CD Rio Blanco venceu Juventus Managua por 2 a 0 pela Liga de Ascenso.",
-    "content": "CD Rio Blanco venceu Juventus Managua por 2 a 0 pela Liga de Ascenso, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "CD Rio Blanco supera Juventus Managua por 2 a 0 pela Liga de Ascenso",
-    "seoDescription": "CD Rio Blanco venceu Juventus Managua por 2 a 0 pela Liga de Ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T13:52:20.356Z",
-    "createdAt": "2026-08-17T13:52:20.356Z",
-    "updatedAt": "2026-08-17T13:52:20.356Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811374",
-      "eventStartTime": "2026-08-17T00:00:00+00:00",
-      "retrievedAt": "2026-08-17T13:52:20.356Z",
-      "feedId": "futebol",
-      "league": "Liga de Ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fc32a06711d1",
-    "slug": "chicago-white-sox-vence-detroit-tigers-por-7-a-5-na-mlb-fc32a0",
-    "sportId": "beisebol",
-    "title": "Chicago White Sox vence Detroit Tigers por 7 a 5 na MLB",
-    "summary": "Chicago White Sox derrotou Detroit Tigers por 7 a 5 na MLB.",
-    "content": "Chicago White Sox derrotou Detroit Tigers por 7 a 5 na MLB, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Chicago White Sox vence Detroit Tigers por 7 a 5 na MLB",
-    "seoDescription": "Chicago White Sox derrotou Detroit Tigers por 7 a 5 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T13:13:07.534Z",
-    "createdAt": "2026-08-17T13:13:07.534Z",
-    "updatedAt": "2026-08-17T13:13:07.534Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614807",
-      "eventStartTime": "2026-08-16T17:40:00+00:00",
-      "retrievedAt": "2026-08-17T13:13:07.534Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6e4a77096c93",
-    "slug": "sumit-nagal-vence-eduardo-ribeiro-por-1-a-0-em-prague-6e4a77",
-    "sportId": "tenis",
-    "title": "Sumit Nagal vence Eduardo Ribeiro por 1 a 0 em Prague",
-    "summary": "Sumit Nagal superou Eduardo Ribeiro por 1 a 0 em Prague.",
-    "content": "Sumit Nagal superou Eduardo Ribeiro por 1 a 0 em Prague., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Sumit Nagal vence Eduardo Ribeiro por 1 a 0 em Prague",
-    "seoDescription": "Sumit Nagal superou Eduardo Ribeiro por 1 a 0 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T13:13:07.524Z",
-    "createdAt": "2026-08-17T13:13:07.524Z",
-    "updatedAt": "2026-08-17T13:13:07.524Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815439",
-      "eventStartTime": "2026-08-17T11:34:16+00:00",
-      "retrievedAt": "2026-08-17T13:13:07.524Z",
-      "feedId": "tenis",
-      "league": "Prague"
     },
     "articleFormat": "result-brief"
   }
