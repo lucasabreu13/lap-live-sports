@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-87404507825e",
+    "slug": "guerreros-de-oaxaca-vence-olmecas-de-tabasco-por-2-a-1-na-lmb-874045",
+    "sportId": "beisebol",
+    "title": "Guerreros de Oaxaca vence Olmecas de Tabasco por 2 a 1 na LMB",
+    "summary": "Guerreros de Oaxaca derrotou Olmecas de Tabasco por 2 a 1 na LMB.",
+    "content": "Guerreros de Oaxaca derrotou Olmecas de Tabasco por 2 a 1 na LMB, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "lmb"
+    ],
+    "seoTitle": "Guerreros de Oaxaca vence Olmecas de Tabasco por 2 a 1 na LMB",
+    "seoDescription": "Guerreros de Oaxaca derrotou Olmecas de Tabasco por 2 a 1 na LMB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T04:30:11.243Z",
+    "createdAt": "2026-08-20T04:30:11.243Z",
+    "updatedAt": "2026-08-20T04:30:11.243Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816788",
+      "eventStartTime": "2026-08-20T01:30:00+00:00",
+      "retrievedAt": "2026-08-20T04:30:11.243Z",
+      "feedId": "beisebol",
+      "league": "LMB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-805644551e9f",
+    "slug": "jacob-fearnley-vence-mackenzie-mcdonald-por-2-a-0-em-quebec-city-805644",
+    "sportId": "tenis",
+    "title": "Jacob Fearnley vence Mackenzie McDonald por 2 a 0 em Quebec City",
+    "summary": "Jacob Fearnley superou Mackenzie McDonald por 2 a 0 em Quebec City.",
+    "content": "Jacob Fearnley superou Mackenzie McDonald por 2 a 0 em Quebec City., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Jacob Fearnley vence Mackenzie McDonald por 2 a 0 em Quebec City",
+    "seoDescription": "Jacob Fearnley superou Mackenzie McDonald por 2 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T04:30:11.241Z",
+    "createdAt": "2026-08-20T04:30:11.241Z",
+    "updatedAt": "2026-08-20T04:30:11.241Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816182",
+      "eventStartTime": "2026-08-20T01:10:11+00:00",
+      "retrievedAt": "2026-08-20T04:30:11.241Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b5332d196db7",
+    "slug": "gambusinos-de-fresnillo-vence-fuerza-regia-por-82-a-74-em-lnbp-b5332d",
+    "sportId": "basquete",
+    "title": "Gambusinos De Fresnillo vence Fuerza Regia por 82 a 74 em LNBP",
+    "summary": "Gambusinos De Fresnillo superou Fuerza Regia por 82 a 74 em LNBP.",
+    "content": "Gambusinos De Fresnillo superou Fuerza Regia por 82 a 74 em LNBP., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Gambusinos De Fresnillo vence Fuerza Regia por 82 a 74 em LNBP",
+    "seoDescription": "Gambusinos De Fresnillo superou Fuerza Regia por 82 a 74 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T04:30:11.230Z",
+    "createdAt": "2026-08-20T04:30:11.230Z",
+    "updatedAt": "2026-08-20T04:30:11.230Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707879",
+      "eventStartTime": "2026-08-20T02:15:00+00:00",
+      "retrievedAt": "2026-08-20T04:30:11.230Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e649fc76e9d9",
+    "slug": "phoenix-rising-fc-supera-colorado-springs-switchbacks-por-3-a-1-pela-usl-champions-e649fc",
+    "sportId": "futebol",
+    "title": "Phoenix Rising FC supera Colorado Springs Switchbacks por 3 a 1 pela USL Championship",
+    "summary": "Phoenix Rising FC venceu Colorado Springs Switchbacks por 3 a 1 pela USL Championship.",
+    "content": "Phoenix Rising FC venceu Colorado Springs Switchbacks por 3 a 1 pela USL Championship, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "usl-championship"
+    ],
+    "seoTitle": "Phoenix Rising FC supera Colorado Springs Switchbacks por 3 a 1 pela",
+    "seoDescription": "Phoenix Rising FC venceu Colorado Springs Switchbacks por 3 a 1 pela USL Championship.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T04:30:11.221Z",
+    "createdAt": "2026-08-20T04:30:11.221Z",
+    "updatedAt": "2026-08-20T04:30:11.221Z",
+    "homepagePriority": 82,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4634131",
+      "eventStartTime": "2026-08-20T02:00:00+00:00",
+      "retrievedAt": "2026-08-20T04:30:11.221Z",
+      "feedId": "futebol",
+      "league": "USL Championship"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-81f46b7a581f",
     "slug": "arizona-diamondbacks-vence-boston-red-sox-por-7-a-6-na-mlb-81f46b",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-17T11:46:34.048Z",
       "feedId": "futebol",
       "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-591551318382",
-    "slug": "san-diego-padres-vence-cleveland-guardians-por-5-a-0-na-mlb-591551",
-    "sportId": "beisebol",
-    "title": "San Diego Padres vence Cleveland Guardians por 5 a 0 na MLB",
-    "summary": "San Diego Padres derrotou Cleveland Guardians por 5 a 0 na MLB.",
-    "content": "San Diego Padres derrotou Cleveland Guardians por 5 a 0 na MLB, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "San Diego Padres vence Cleveland Guardians por 5 a 0 na MLB",
-    "seoDescription": "San Diego Padres derrotou Cleveland Guardians por 5 a 0 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T11:15:38.636Z",
-    "createdAt": "2026-08-17T11:15:38.636Z",
-    "updatedAt": "2026-08-17T11:15:38.636Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614670",
-      "eventStartTime": "2026-08-16T17:40:00+00:00",
-      "retrievedAt": "2026-08-17T11:15:38.636Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-945b8be2a142",
-    "slug": "marta-kostyuk-vence-sofia-kenin-por-2-a-1-em-cincinnati-945b8b",
-    "sportId": "tenis",
-    "title": "Marta Kostyuk vence Sofia Kenin por 2 a 1 em Cincinnati",
-    "summary": "Marta Kostyuk superou Sofia Kenin por 2 a 1 em Cincinnati.",
-    "content": "Marta Kostyuk superou Sofia Kenin por 2 a 1 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Marta Kostyuk vence Sofia Kenin por 2 a 1 em Cincinnati",
-    "seoDescription": "Marta Kostyuk superou Sofia Kenin por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T11:15:38.626Z",
-    "createdAt": "2026-08-17T11:15:38.626Z",
-    "updatedAt": "2026-08-17T11:15:38.626Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815136",
-      "eventStartTime": "2026-08-16T19:11:42+00:00",
-      "retrievedAt": "2026-08-17T11:15:38.626Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5bf6dcc86e35",
-    "slug": "jicaral-sercoba-supera-ad-cofutpa-por-1-a-0-pela-liga-de-ascenso-5bf6dc",
-    "sportId": "futebol",
-    "title": "Jicaral Sercoba supera AD Cofutpa por 1 a 0 pela Liga de Ascenso",
-    "summary": "Jicaral Sercoba venceu AD Cofutpa por 1 a 0 pela Liga de Ascenso.",
-    "content": "Jicaral Sercoba venceu AD Cofutpa por 1 a 0 pela Liga de Ascenso, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "Jicaral Sercoba supera AD Cofutpa por 1 a 0 pela Liga de Ascenso",
-    "seoDescription": "Jicaral Sercoba venceu AD Cofutpa por 1 a 0 pela Liga de Ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T11:15:38.557Z",
-    "createdAt": "2026-08-17T11:15:38.557Z",
-    "updatedAt": "2026-08-17T11:15:38.557Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4795194",
-      "eventStartTime": "2026-08-17T00:00:00+00:00",
-      "retrievedAt": "2026-08-17T11:15:38.557Z",
-      "feedId": "futebol",
-      "league": "Liga de Ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7e0ece591f0c",
-    "slug": "seattle-mariners-vence-houston-astros-por-3-a-2-na-mlb-7e0ece",
-    "sportId": "beisebol",
-    "title": "Seattle Mariners vence Houston Astros por 3 a 2 na MLB",
-    "summary": "Seattle Mariners derrotou Houston Astros por 3 a 2 na MLB.",
-    "content": "Seattle Mariners derrotou Houston Astros por 3 a 2 na MLB, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Seattle Mariners vence Houston Astros por 3 a 2 na MLB",
-    "seoDescription": "Seattle Mariners derrotou Houston Astros por 3 a 2 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T10:53:45.373Z",
-    "createdAt": "2026-08-17T10:53:45.373Z",
-    "updatedAt": "2026-08-17T10:53:45.373Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614880",
-      "eventStartTime": "2026-08-16T23:20:00+00:00",
-      "retrievedAt": "2026-08-17T10:53:45.373Z",
-      "feedId": "beisebol",
-      "league": "MLB"
     },
     "articleFormat": "result-brief"
   }
