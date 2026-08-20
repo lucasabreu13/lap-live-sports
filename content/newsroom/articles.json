@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-a6d28633c8e6",
+    "slug": "los-angeles-dodgers-vence-colorado-rockies-por-6-a-4-na-mlb-a6d286",
+    "sportId": "beisebol",
+    "title": "Los Angeles Dodgers vence Colorado Rockies por 6 a 4 na MLB",
+    "summary": "Los Angeles Dodgers derrotou Colorado Rockies por 6 a 4 na MLB.",
+    "content": "Los Angeles Dodgers derrotou Colorado Rockies por 6 a 4 na MLB, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Los Angeles Dodgers vence Colorado Rockies por 6 a 4 na MLB",
+    "seoDescription": "Los Angeles Dodgers derrotou Colorado Rockies por 6 a 4 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T21:58:52.469Z",
+    "createdAt": "2026-08-20T21:58:52.469Z",
+    "updatedAt": "2026-08-20T21:58:52.469Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614665",
+      "eventStartTime": "2026-08-20T00:40:00+00:00",
+      "retrievedAt": "2026-08-20T21:58:52.469Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-a9a1a93c12fe",
+    "slug": "flavio-cobolli-vence-tommy-paul-por-2-a-1-em-cincinnati-a9a1a9",
+    "sportId": "tenis",
+    "title": "Flavio Cobolli vence Tommy Paul por 2 a 1 em Cincinnati",
+    "summary": "Flavio Cobolli superou Tommy Paul por 2 a 1 em Cincinnati.",
+    "content": "Flavio Cobolli superou Tommy Paul por 2 a 1 em Cincinnati., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Flavio Cobolli vence Tommy Paul por 2 a 1 em Cincinnati",
+    "seoDescription": "Flavio Cobolli superou Tommy Paul por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T21:58:52.443Z",
+    "createdAt": "2026-08-20T21:58:52.443Z",
+    "updatedAt": "2026-08-20T21:58:52.443Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819272",
+      "eventStartTime": "2026-08-20T19:46:22+00:00",
+      "retrievedAt": "2026-08-20T21:58:52.443Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-302353fdfa9d",
+    "slug": "delfin-supera-juventud-italiana-por-1-a-0-pela-copa-ecuador-302353",
+    "sportId": "futebol",
+    "title": "Delfin supera Juventud Italiana por 1 a 0 pela Copa Ecuador",
+    "summary": "Delfin venceu Juventud Italiana por 1 a 0 pela Copa Ecuador.",
+    "content": "Delfin venceu Juventud Italiana por 1 a 0 pela Copa Ecuador, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-ecuador"
+    ],
+    "seoTitle": "Delfin supera Juventud Italiana por 1 a 0 pela Copa Ecuador",
+    "seoDescription": "Delfin venceu Juventud Italiana por 1 a 0 pela Copa Ecuador.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T21:58:52.410Z",
+    "createdAt": "2026-08-20T21:58:52.410Z",
+    "updatedAt": "2026-08-20T21:58:52.410Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4728272",
+      "eventStartTime": "2026-08-20T20:00:00+00:00",
+      "retrievedAt": "2026-08-20T21:58:52.410Z",
+      "feedId": "futebol",
+      "league": "Copa Ecuador"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-2a0e66650abb",
     "slug": "kansas-city-royals-vence-athletics-por-6-a-2-na-mlb-2a0e66",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T04:24:16.784Z",
       "feedId": "beisebol",
       "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e71abb67f97f",
-    "slug": "alan-magadan-vence-david-jorda-sanchis-por-2-a-0-em-cancun-e71abb",
-    "sportId": "tenis",
-    "title": "Alan Magadan vence David Jorda Sanchis por 2 a 0 em Cancun",
-    "summary": "Alan Magadan superou David Jorda Sanchis por 2 a 0 em Cancun.",
-    "content": "Alan Magadan superou David Jorda Sanchis por 2 a 0 em Cancun., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cancun"
-    ],
-    "seoTitle": "Alan Magadan vence David Jorda Sanchis por 2 a 0 em Cancun",
-    "seoDescription": "Alan Magadan superou David Jorda Sanchis por 2 a 0 em Cancun.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T04:24:16.780Z",
-    "createdAt": "2026-08-18T04:24:16.780Z",
-    "updatedAt": "2026-08-18T04:24:16.780Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816162",
-      "eventStartTime": "2026-08-18T00:54:33+00:00",
-      "retrievedAt": "2026-08-18T04:24:16.780Z",
-      "feedId": "tenis",
-      "league": "Cancun"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-dff7b6be0d9e",
-    "slug": "golden-state-valkyries-vence-dallas-wings-por-78-a-70-em-wnba-dff7b6",
-    "sportId": "basquete",
-    "title": "Golden State Valkyries vence Dallas Wings por 78 a 70 em WNBA",
-    "summary": "Golden State Valkyries superou Dallas Wings por 78 a 70 em WNBA.",
-    "content": "Golden State Valkyries superou Dallas Wings por 78 a 70 em WNBA., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "Golden State Valkyries vence Dallas Wings por 78 a 70 em WNBA",
-    "seoDescription": "Golden State Valkyries superou Dallas Wings por 78 a 70 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T04:24:16.774Z",
-    "createdAt": "2026-08-18T04:24:16.774Z",
-    "updatedAt": "2026-08-18T04:24:16.774Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659885",
-      "eventStartTime": "2026-08-18T02:00:00+00:00",
-      "retrievedAt": "2026-08-18T04:24:16.774Z",
-      "feedId": "basquete",
-      "league": "WNBA"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-12393ae47ede",
-    "slug": "sporting-san-jose-supera-escorpiones-belen-por-2-a-0-pela-liga-fpd-12393a",
-    "sportId": "futebol",
-    "title": "Sporting San José supera Escorpiones Belén por 2 a 0 pela liga FPD",
-    "summary": "Sporting San José venceu Escorpiones Belén por 2 a 0 pela liga FPD.",
-    "content": "Sporting San José venceu Escorpiones Belén por 2 a 0 pela liga FPD, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-fpd"
-    ],
-    "seoTitle": "Sporting San José supera Escorpiones Belén por 2 a 0 pela liga FPD",
-    "seoDescription": "Sporting San José venceu Escorpiones Belén por 2 a 0 pela liga FPD.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T04:24:16.769Z",
-    "createdAt": "2026-08-18T04:24:16.769Z",
-    "updatedAt": "2026-08-18T04:24:16.769Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4784798",
-      "eventStartTime": "2026-08-18T02:00:00+00:00",
-      "retrievedAt": "2026-08-18T04:24:16.769Z",
-      "feedId": "futebol",
-      "league": "liga FPD"
     },
     "articleFormat": "result-brief"
   }
