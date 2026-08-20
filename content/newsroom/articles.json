@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-ea6de4a167ee",
+    "slug": "ssg-landers-vence-samsung-lions-por-6-a-4-na-kbo-ea6de4",
+    "sportId": "beisebol",
+    "title": "SSG Landers vence Samsung Lions por 6 a 4 na KBO",
+    "summary": "SSG Landers derrotou Samsung Lions por 6 a 4 na KBO.",
+    "content": "SSG Landers derrotou Samsung Lions por 6 a 4 na KBO, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "kbo"
+    ],
+    "seoTitle": "SSG Landers vence Samsung Lions por 6 a 4 na KBO",
+    "seoDescription": "SSG Landers derrotou Samsung Lions por 6 a 4 na KBO.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T16:58:19.882Z",
+    "createdAt": "2026-08-20T16:58:19.882Z",
+    "updatedAt": "2026-08-20T16:58:19.882Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819502",
+      "eventStartTime": "2026-08-20T10:00:00+00:00",
+      "retrievedAt": "2026-08-20T16:58:19.882Z",
+      "feedId": "beisebol",
+      "league": "KBO"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-a9bf22a5fca9",
+    "slug": "falck-r-suarez-b-e-heide-g-queiroz-miguel-l-a-empatam-por-0-a-0-em-kingston-a9bf22",
+    "sportId": "tenis",
+    "title": "Falck R./Suarez B. e Heide G./Queiroz Miguel L A. empatam por 0 a 0 em Kingston",
+    "summary": "Falck R./Suarez B. e Heide G./Queiroz Miguel L A. terminaram empatados por 0 a 0 em Kingston.",
+    "content": "Falck R./Suarez B. e Heide G./Queiroz Miguel L A. terminaram empatados por 0 a 0 em Kingston., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Falck R./Suarez B. e Heide G./Queiroz Miguel L A. empatam por 0 a 0 em",
+    "seoDescription": "Falck R./Suarez B. e Heide G./Queiroz Miguel L A. terminaram empatados por 0 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T16:58:19.878Z",
+    "createdAt": "2026-08-20T16:58:19.878Z",
+    "updatedAt": "2026-08-20T16:58:19.878Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819499",
+      "eventStartTime": "2026-08-20T17:00:00+00:00",
+      "retrievedAt": "2026-08-20T16:58:19.878Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-6fde3c12f11f",
+    "slug": "jippo-supera-kapa-por-3-a-1-pelo-ykkosliiga-6fde3c",
+    "sportId": "futebol",
+    "title": "JIPPO supera Kapa por 3 a 1 pelo Ykkosliiga",
+    "summary": "JIPPO venceu Kapa por 3 a 1 pelo Ykkosliiga.",
+    "content": "JIPPO venceu Kapa por 3 a 1 pelo Ykkosliiga, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ykkosliiga"
+    ],
+    "seoTitle": "JIPPO supera Kapa por 3 a 1 pelo Ykkosliiga",
+    "seoDescription": "JIPPO venceu Kapa por 3 a 1 pelo Ykkosliiga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T16:58:19.854Z",
+    "createdAt": "2026-08-20T16:58:19.854Z",
+    "updatedAt": "2026-08-20T16:58:19.854Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4649904",
+      "eventStartTime": "2026-08-20T15:00:00+00:00",
+      "retrievedAt": "2026-08-20T16:58:19.854Z",
+      "feedId": "futebol",
+      "league": "Ykkosliiga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-88e7fbcff7ec",
     "slug": "lotte-giants-vence-kiwoom-heroes-por-7-a-1-na-kbo-88e7fb",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-17T22:39:24.252Z",
       "feedId": "tenis",
       "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ce68051824a0",
-    "slug": "cesar-vallejo-reserve-e-cd-juventud-cautivo-ficam-no-1-a-1-pela-liga-3-ce6805",
-    "sportId": "futebol",
-    "title": "Cesar Vallejo Reserve e CD Juventud Cautivo ficam no 1 a 1 pela Liga 3",
-    "summary": "Cesar Vallejo Reserve e CD Juventud Cautivo empataram por 1 a 1 pela Liga 3.",
-    "content": "Cesar Vallejo Reserve e CD Juventud Cautivo empataram por 1 a 1 pela Liga 3, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-3"
-    ],
-    "seoTitle": "Cesar Vallejo Reserve e CD Juventud Cautivo ficam no 1 a 1 pela Liga 3",
-    "seoDescription": "Cesar Vallejo Reserve e CD Juventud Cautivo empataram por 1 a 1 pela Liga 3.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T22:39:24.223Z",
-    "createdAt": "2026-08-17T22:39:24.223Z",
-    "updatedAt": "2026-08-17T22:39:24.223Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814997",
-      "eventStartTime": "2026-08-17T20:00:00+00:00",
-      "retrievedAt": "2026-08-17T22:39:24.223Z",
-      "feedId": "futebol",
-      "league": "Liga 3"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7581b1a680d8",
-    "slug": "stefanos-sakellaridis-vence-karl-poling-por-2-a-1-em-quebec-city-7581b1",
-    "sportId": "tenis",
-    "title": "Stefanos Sakellaridis vence Karl Poling por 2 a 1 em Quebec City",
-    "summary": "Stefanos Sakellaridis superou Karl Poling por 2 a 1 em Quebec City.",
-    "content": "Stefanos Sakellaridis superou Karl Poling por 2 a 1 em Quebec City., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "quebec-city"
-    ],
-    "seoTitle": "Stefanos Sakellaridis vence Karl Poling por 2 a 1 em Quebec City",
-    "seoDescription": "Stefanos Sakellaridis superou Karl Poling por 2 a 1 em Quebec City.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T22:12:42.275Z",
-    "createdAt": "2026-08-17T22:12:42.275Z",
-    "updatedAt": "2026-08-17T22:12:42.275Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816153",
-      "eventStartTime": "2026-08-17T19:35:13+00:00",
-      "retrievedAt": "2026-08-17T22:12:42.275Z",
-      "feedId": "tenis",
-      "league": " Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-10f203a720f7",
-    "slug": "santos-fc-e-alianza-universidad-ficam-no-3-a-3-pela-liga-2-10f203",
-    "sportId": "futebol",
-    "title": "Santos FC e Alianza Universidad ficam no 3 a 3 pela Liga 2",
-    "summary": "Santos FC e Alianza Universidad empataram por 3 a 3 pela Liga 2.",
-    "content": "Santos FC e Alianza Universidad empataram por 3 a 3 pela Liga 2, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-2"
-    ],
-    "seoTitle": "Santos FC e Alianza Universidad ficam no 3 a 3 pela Liga 2",
-    "seoDescription": "Santos FC e Alianza Universidad empataram por 3 a 3 pela Liga 2.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T22:12:42.242Z",
-    "createdAt": "2026-08-17T22:12:42.242Z",
-    "updatedAt": "2026-08-17T22:12:42.242Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4800612",
-      "eventStartTime": "2026-08-17T20:00:00+00:00",
-      "retrievedAt": "2026-08-17T22:12:42.242Z",
-      "feedId": "futebol",
-      "league": "Liga 2"
     },
     "articleFormat": "result-brief"
   }
