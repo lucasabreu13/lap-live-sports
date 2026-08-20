@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-c6a7c53ba3e6",
+    "slug": "paulson-a-vliegen-j-vence-barton-h-vrbensky-m-por-2-a-1-em-prague-c6a7c5",
+    "sportId": "tenis",
+    "title": "Paulson A./Vliegen J. vence Barton H./Vrbensky M. por 2 a 1 em Prague",
+    "summary": "Paulson A./Vliegen J. superou Barton H./Vrbensky M. por 2 a 1 em Prague.",
+    "content": "Paulson A./Vliegen J. superou Barton H./Vrbensky M. por 2 a 1 em Prague., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Paulson A./Vliegen J. vence Barton H./Vrbensky M. por 2 a 1 em Prague",
+    "seoDescription": "Paulson A./Vliegen J. superou Barton H./Vrbensky M. por 2 a 1 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T13:24:40.770Z",
+    "createdAt": "2026-08-20T13:24:40.770Z",
+    "updatedAt": "2026-08-20T13:24:40.770Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819175",
+      "eventStartTime": "2026-08-20T10:37:52+00:00",
+      "retrievedAt": "2026-08-20T13:24:40.770Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-671254af27d7",
+    "slug": "botafogo-sp-e-criciuma-ficam-no-1-a-1-pelo-serie-b-671254",
+    "sportId": "futebol",
+    "title": "Botafogo-SP e Criciúma ficam no 1 a 1 pelo Serie B",
+    "summary": "Botafogo-SP e Criciúma empataram por 1 a 1 pelo Serie B.",
+    "content": "Botafogo-SP e Criciúma empataram por 1 a 1 pelo Serie B, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-b"
+    ],
+    "seoTitle": "Botafogo-SP e Criciúma ficam no 1 a 1 pelo Serie B",
+    "seoDescription": "Botafogo-SP e Criciúma empataram por 1 a 1 pelo Serie B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T13:24:40.747Z",
+    "createdAt": "2026-08-20T13:24:40.747Z",
+    "updatedAt": "2026-08-20T13:24:40.747Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4669151",
+      "eventStartTime": "2026-08-20T00:30:00+00:00",
+      "retrievedAt": "2026-08-20T13:24:40.747Z",
+      "feedId": "futebol",
+      "league": "Serie B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-776b718bdbfd",
     "slug": "lui-maxted-vence-gabi-boitan-por-1-a-0-em-roehampton-776b71",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-17T20:19:13.280Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1f88ce979c9f",
-    "slug": "orsomarso-w-e-dep-pasto-w-ficam-no-0-a-0-pelo-colombian-women-s-league-1f88ce",
-    "sportId": "futebol",
-    "title": "Orsomarso (W) e Dep. Pasto (W) ficam no 0 a 0 pelo Colombian Women's League",
-    "summary": "Orsomarso (W) e Dep. Pasto (W) empataram por 0 a 0 pelo Colombian Women's League.",
-    "content": "Orsomarso (W) e Dep. Pasto (W) empataram por 0 a 0 pelo Colombian Women's League, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "colombian-women-s-league"
-    ],
-    "seoTitle": "Orsomarso (W) e Dep. Pasto (W) ficam no 0 a 0 pelo Colombian Women's",
-    "seoDescription": "Orsomarso (W) e Dep. Pasto (W) empataram por 0 a 0 pelo Colombian Women's League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T20:19:13.246Z",
-    "createdAt": "2026-08-17T20:19:13.246Z",
-    "updatedAt": "2026-08-17T20:19:13.246Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807734",
-      "eventStartTime": "2026-08-17T20:00:00+00:00",
-      "retrievedAt": "2026-08-17T20:19:13.246Z",
-      "feedId": "futebol",
-      "league": "Colombian Women's League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ab775321caea",
-    "slug": "moez-echargui-e-hugo-grenier-empatam-por-0-a-0-em-cancun-ab7753",
-    "sportId": "tenis",
-    "title": "Moez Echargui e Hugo Grenier empatam por 0 a 0 em Cancun",
-    "summary": "Moez Echargui e Hugo Grenier terminaram empatados por 0 a 0 em Cancun.",
-    "content": "Moez Echargui e Hugo Grenier terminaram empatados por 0 a 0 em Cancun., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cancun"
-    ],
-    "seoTitle": "Moez Echargui e Hugo Grenier empatam por 0 a 0 em Cancun",
-    "seoDescription": "Moez Echargui e Hugo Grenier terminaram empatados por 0 a 0 em Cancun.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T19:57:31.021Z",
-    "createdAt": "2026-08-17T19:57:31.021Z",
-    "updatedAt": "2026-08-17T19:57:31.021Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816158",
-      "eventStartTime": "2026-08-17T20:00:00+00:00",
-      "retrievedAt": "2026-08-17T19:57:31.021Z",
-      "feedId": "tenis",
-      "league": "Cancun"
     },
     "articleFormat": "result-brief"
   }
