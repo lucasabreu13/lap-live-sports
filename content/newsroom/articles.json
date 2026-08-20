@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-b70bb9dbc749",
+    "slug": "cincinnati-reds-vence-st-louis-cardinals-por-5-a-4-na-mlb-b70bb9",
+    "sportId": "beisebol",
+    "title": "Cincinnati Reds vence St. Louis Cardinals por 5 a 4 na MLB",
+    "summary": "Cincinnati Reds derrotou St. Louis Cardinals por 5 a 4 na MLB.",
+    "content": "Cincinnati Reds derrotou St. Louis Cardinals por 5 a 4 na MLB, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Cincinnati Reds vence St. Louis Cardinals por 5 a 4 na MLB",
+    "seoDescription": "Cincinnati Reds derrotou St. Louis Cardinals por 5 a 4 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T17:53:29.819Z",
+    "createdAt": "2026-08-20T17:53:29.819Z",
+    "updatedAt": "2026-08-20T17:53:29.819Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614858",
+      "eventStartTime": "2026-08-19T22:40:00+00:00",
+      "retrievedAt": "2026-08-20T17:53:29.819Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-bf83545f5d6c",
+    "slug": "behar-a-romboli-f-vence-poling-k-puttergill-c-por-2-a-0-em-quebec-city-bf8354",
+    "sportId": "tenis",
+    "title": "Behar A./Romboli F. vence Poling K./Puttergill C. por 2 a 0 em Quebec City",
+    "summary": "Behar A./Romboli F. superou Poling K./Puttergill C. por 2 a 0 em Quebec City.",
+    "content": "Behar A./Romboli F. superou Poling K./Puttergill C. por 2 a 0 em Quebec City., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Behar A./Romboli F. vence Poling K./Puttergill C. por 2 a 0 em Quebec",
+    "seoDescription": "Behar A./Romboli F. superou Poling K./Puttergill C. por 2 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T17:53:29.790Z",
+    "createdAt": "2026-08-20T17:53:29.790Z",
+    "updatedAt": "2026-08-20T17:53:29.790Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819264",
+      "eventStartTime": "2026-08-20T16:46:02+00:00",
+      "retrievedAt": "2026-08-20T17:53:29.790Z",
+      "feedId": "tenis",
+      "league": "Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-91ccc4a7cae3",
+    "slug": "rosenborg-w-supera-lyn-w-por-3-a-2-pelo-toppserien-women-91ccc4",
+    "sportId": "futebol",
+    "title": "Rosenborg (W) supera Lyn (W) por 3 a 2 pelo Toppserien Women",
+    "summary": "Rosenborg (W) venceu Lyn (W) por 3 a 2 pelo Toppserien Women.",
+    "content": "Rosenborg (W) venceu Lyn (W) por 3 a 2 pelo Toppserien Women, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "toppserien-women"
+    ],
+    "seoTitle": "Rosenborg (W) supera Lyn (W) por 3 a 2 pelo Toppserien Women",
+    "seoDescription": "Rosenborg (W) venceu Lyn (W) por 3 a 2 pelo Toppserien Women.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T17:53:29.764Z",
+    "createdAt": "2026-08-20T17:53:29.764Z",
+    "updatedAt": "2026-08-20T17:53:29.764Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807663",
+      "eventStartTime": "2026-08-20T16:00:00+00:00",
+      "retrievedAt": "2026-08-20T17:53:29.764Z",
+      "feedId": "futebol",
+      "league": "Toppserien Women"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-b53b0db6e3d7",
     "slug": "kia-tigers-vence-hanwha-eagles-por-10-a-6-na-kbo-b53b0d",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-17T23:43:04.445Z",
       "feedId": "futebol",
       "league": "Division Intermedia"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7e6742dca801",
-    "slug": "siniakova-k-townsend-t-vence-jurak-schreiber-d-wu-f-h-por-2-a-1-em-cincinnati-7e6742",
-    "sportId": "tenis",
-    "title": "Siniakova K./Townsend T. vence Jurak Schreiber D./Wu F-H. por 2 a 1 em Cincinnati",
-    "summary": "Siniakova K./Townsend T. superou Jurak Schreiber D./Wu F-H. por 2 a 1 em Cincinnati.",
-    "content": "Siniakova K./Townsend T. superou Jurak Schreiber D./Wu F-H. por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Siniakova K./Townsend T. vence Jurak Schreiber D./Wu F-H. por 2 a 1 em",
-    "seoDescription": "Siniakova K./Townsend T. superou Jurak Schreiber D./Wu F-H. por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T23:19:11.886Z",
-    "createdAt": "2026-08-17T23:19:11.886Z",
-    "updatedAt": "2026-08-17T23:19:11.886Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815645",
-      "eventStartTime": "2026-08-17T21:18:03+00:00",
-      "retrievedAt": "2026-08-17T23:19:11.886Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fe933213c952",
-    "slug": "sportivo-bella-italia-supera-lito-por-3-a-0-pelo-divisional-c-fe9332",
-    "sportId": "futebol",
-    "title": "Sportivo Bella Italia supera Lito por 3 a 0 pelo Divisional C",
-    "summary": "Sportivo Bella Italia venceu Lito por 3 a 0 pelo Divisional C.",
-    "content": "Sportivo Bella Italia venceu Lito por 3 a 0 pelo Divisional C, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "divisional-c"
-    ],
-    "seoTitle": "Sportivo Bella Italia supera Lito por 3 a 0 pelo Divisional C",
-    "seoDescription": "Sportivo Bella Italia venceu Lito por 3 a 0 pelo Divisional C.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T23:19:11.854Z",
-    "createdAt": "2026-08-17T23:19:11.854Z",
-    "updatedAt": "2026-08-17T23:19:11.854Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815329",
-      "eventStartTime": "2026-08-17T21:00:00+00:00",
-      "retrievedAt": "2026-08-17T23:19:11.854Z",
-      "feedId": "futebol",
-      "league": "Divisional C"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6b632995d65d",
-    "slug": "felipe-meligeni-vence-luka-pavlovic-por-1-a-0-em-cancun-6b6329",
-    "sportId": "tenis",
-    "title": "Felipe Meligeni vence Luka Pavlovic por 1 a 0 em Cancun",
-    "summary": "Felipe Meligeni superou Luka Pavlovic por 1 a 0 em Cancun.",
-    "content": "Felipe Meligeni superou Luka Pavlovic por 1 a 0 em Cancun., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cancun"
-    ],
-    "seoTitle": "Felipe Meligeni vence Luka Pavlovic por 1 a 0 em Cancun",
-    "seoDescription": "Felipe Meligeni superou Luka Pavlovic por 1 a 0 em Cancun.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T22:58:06.469Z",
-    "createdAt": "2026-08-17T22:58:06.469Z",
-    "updatedAt": "2026-08-17T22:58:06.469Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816164",
-      "eventStartTime": "2026-08-17T21:16:09+00:00",
-      "retrievedAt": "2026-08-17T22:58:06.469Z",
-      "feedId": "tenis",
-      "league": "Cancun"
     },
     "articleFormat": "result-brief"
   }
