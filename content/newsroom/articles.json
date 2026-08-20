@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-8811c49b09ee",
+    "slug": "alexis-galarneau-vence-dino-prizmic-por-2-a-0-em-quebec-city-8811c4",
+    "sportId": "tenis",
+    "title": "Alexis Galarneau vence Dino Prizmic por 2 a 0 em Quebec City",
+    "summary": "Alexis Galarneau superou Dino Prizmic por 2 a 0 em Quebec City.",
+    "content": "Alexis Galarneau superou Dino Prizmic por 2 a 0 em Quebec City., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Alexis Galarneau vence Dino Prizmic por 2 a 0 em Quebec City",
+    "seoDescription": "Alexis Galarneau superou Dino Prizmic por 2 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T10:18:45.107Z",
+    "createdAt": "2026-08-20T10:18:45.107Z",
+    "updatedAt": "2026-08-20T10:18:45.107Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816172",
+      "eventStartTime": "2026-08-19T23:05:51+00:00",
+      "retrievedAt": "2026-08-20T10:18:45.107Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-03a22e54e61a",
+    "slug": "nueva-santa-rosa-cdf-supera-aff-guatemala-por-2-a-0-pelo-primera-division-03a22e",
+    "sportId": "futebol",
+    "title": "Nueva Santa Rosa CDF supera AFF Guatemala por 2 a 0 pelo Primera Division",
+    "summary": "Nueva Santa Rosa CDF venceu AFF Guatemala por 2 a 0 pelo Primera Division.",
+    "content": "Nueva Santa Rosa CDF venceu AFF Guatemala por 2 a 0 pelo Primera Division, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-division"
+    ],
+    "seoTitle": "Nueva Santa Rosa CDF supera AFF Guatemala por 2 a 0 pelo Primera",
+    "seoDescription": "Nueva Santa Rosa CDF venceu AFF Guatemala por 2 a 0 pelo Primera Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T10:18:45.062Z",
+    "createdAt": "2026-08-20T10:18:45.062Z",
+    "updatedAt": "2026-08-20T10:18:45.062Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4777089",
+      "eventStartTime": "2026-08-20T01:00:00+00:00",
+      "retrievedAt": "2026-08-20T10:18:45.062Z",
+      "feedId": "futebol",
+      "league": "Primera Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-e9ffbc0a8d82",
     "slug": "madison-keys-vence-xiyu-wang-por-2-a-0-em-cincinnati-e9ffbc",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-17T17:51:26.574Z",
       "feedId": "tenis",
       "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1e87f33914b6",
-    "slug": "fc-nomme-united-ii-supera-kalju-nomme-ii-por-2-a-0-pelo-esiliiga-1e87f3",
-    "sportId": "futebol",
-    "title": "FC Nomme United II supera Kalju Nomme II por 2 a 0 pelo Esiliiga",
-    "summary": "FC Nomme United II venceu Kalju Nomme II por 2 a 0 pelo Esiliiga.",
-    "content": "FC Nomme United II venceu Kalju Nomme II por 2 a 0 pelo Esiliiga, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "esiliiga"
-    ],
-    "seoTitle": "FC Nomme United II supera Kalju Nomme II por 2 a 0 pelo Esiliiga",
-    "seoDescription": "FC Nomme United II venceu Kalju Nomme II por 2 a 0 pelo Esiliiga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T17:51:26.540Z",
-    "createdAt": "2026-08-17T17:51:26.540Z",
-    "updatedAt": "2026-08-17T17:51:26.540Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4684607",
-      "eventStartTime": "2026-08-17T16:00:00+00:00",
-      "retrievedAt": "2026-08-17T17:51:26.540Z",
-      "feedId": "futebol",
-      "league": "Esiliiga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-95aeffe590d7",
-    "slug": "iga-swiatek-vence-maria-sakkari-por-2-a-1-em-cincinnati-95aeff",
-    "sportId": "tenis",
-    "title": "Iga Swiatek vence Maria Sakkari por 2 a 1 em Cincinnati",
-    "summary": "Iga Swiatek superou Maria Sakkari por 2 a 1 em Cincinnati.",
-    "content": "Iga Swiatek superou Maria Sakkari por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Iga Swiatek vence Maria Sakkari por 2 a 1 em Cincinnati",
-    "seoDescription": "Iga Swiatek superou Maria Sakkari por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T17:17:07.390Z",
-    "createdAt": "2026-08-17T17:17:07.390Z",
-    "updatedAt": "2026-08-17T17:17:07.390Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815855",
-      "eventStartTime": "2026-08-17T15:09:31+00:00",
-      "retrievedAt": "2026-08-17T17:17:07.390Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
