@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-05cc5dee0b09",
+    "slug": "fancutt-t-watanabe-s-vence-fellin-p-o-winter-e-por-2-a-0-em-kingston-05cc5d",
+    "sportId": "tenis",
+    "title": "Fancutt T./Watanabe S. vence Fellin P O./Winter E. por 2 a 0 em Kingston",
+    "summary": "Fancutt T./Watanabe S. superou Fellin P O./Winter E. por 2 a 0 em Kingston.",
+    "content": "Fancutt T./Watanabe S. superou Fellin P O./Winter E. por 2 a 0 em Kingston., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Fancutt T./Watanabe S. vence Fellin P O./Winter E. por 2 a 0 em",
+    "seoDescription": "Fancutt T./Watanabe S. superou Fellin P O./Winter E. por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T08:23:51.130Z",
+    "createdAt": "2026-08-20T08:23:51.130Z",
+    "updatedAt": "2026-08-20T08:23:51.130Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819268",
+      "eventStartTime": "2026-08-19T23:44:39+00:00",
+      "retrievedAt": "2026-08-20T08:23:51.130Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-fe9d273f8fd4",
+    "slug": "defensor-sporting-club-w-vence-cordon-w-por-71-a-47-em-lfb-w-fe9d27",
+    "sportId": "basquete",
+    "title": "Defensor Sporting Club (W) vence Cordon (W) por 71 a 47 em LFB (W)",
+    "summary": "Defensor Sporting Club (W) superou Cordon (W) por 71 a 47 em LFB (W).",
+    "content": "Defensor Sporting Club (W) superou Cordon (W) por 71 a 47 em LFB (W)., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lfb-w"
+    ],
+    "seoTitle": "Defensor Sporting Club (W) vence Cordon (W) por 71 a 47 em LFB (W)",
+    "seoDescription": "Defensor Sporting Club (W) superou Cordon (W) por 71 a 47 em LFB (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T08:23:51.114Z",
+    "createdAt": "2026-08-20T08:23:51.114Z",
+    "updatedAt": "2026-08-20T08:23:51.114Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815192",
+      "eventStartTime": "2026-08-19T23:30:00+00:00",
+      "retrievedAt": "2026-08-20T08:23:51.114Z",
+      "feedId": "basquete",
+      "league": "LFB (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2fdd126317e2",
+    "slug": "fc-dallas-supera-real-salt-lake-por-4-a-3-pelo-mls-2fdd12",
+    "sportId": "futebol",
+    "title": "FC Dallas supera Real Salt Lake por 4 a 3 pela MLS",
+    "summary": "FC Dallas venceu Real Salt Lake por 4 a 3 pela MLS.",
+    "content": "FC Dallas venceu Real Salt Lake por 4 a 3 pela MLS, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "FC Dallas supera Real Salt Lake por 4 a 3 pela MLS",
+    "seoDescription": "FC Dallas venceu Real Salt Lake por 4 a 3 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T08:23:51.101Z",
+    "createdAt": "2026-08-20T08:23:51.101Z",
+    "updatedAt": "2026-08-20T08:23:51.101Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4621432",
+      "eventStartTime": "2026-08-20T01:30:00+00:00",
+      "retrievedAt": "2026-08-20T08:23:51.101Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-101587756dc5",
     "slug": "taylor-fritz-vence-christopher-o-connell-por-2-a-0-em-cincinnati-101587",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-17T15:57:29.921Z",
       "feedId": "tenis",
       "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-97ab6df79f1e",
-    "slug": "auda-e-grobina-ficam-no-0-a-0-pelo-latvian-cup-97ab6d",
-    "sportId": "futebol",
-    "title": "Auda e Grobiņa ficam no 0 a 0 pelo Latvian Cup",
-    "summary": "Auda e Grobiņa empataram por 0 a 0 pelo Latvian Cup.",
-    "content": "Auda e Grobiņa empataram por 0 a 0 pelo Latvian Cup, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "latvian-cup"
-    ],
-    "seoTitle": "Auda e Grobiņa ficam no 0 a 0 pelo Latvian Cup",
-    "seoDescription": "Auda e Grobiņa empataram por 0 a 0 pelo Latvian Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T15:57:29.888Z",
-    "createdAt": "2026-08-17T15:57:29.888Z",
-    "updatedAt": "2026-08-17T15:57:29.888Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4773149",
-      "eventStartTime": "2026-08-17T15:00:00+00:00",
-      "retrievedAt": "2026-08-17T15:57:29.888Z",
-      "feedId": "futebol",
-      "league": "Latvian Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-01357b0a1cee",
-    "slug": "alexander-donski-e-andrea-guerrieri-empatam-por-0-a-0-em-quebec-city-01357b",
-    "sportId": "tenis",
-    "title": "Alexander Donski e Andrea Guerrieri empatam por 0 a 0 em Quebec City",
-    "summary": "Alexander Donski e Andrea Guerrieri terminaram empatados por 0 a 0 em Quebec City.",
-    "content": "Alexander Donski e Andrea Guerrieri terminaram empatados por 0 a 0 em Quebec City., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "quebec-city"
-    ],
-    "seoTitle": "Alexander Donski e Andrea Guerrieri empatam por 0 a 0 em Quebec City",
-    "seoDescription": "Alexander Donski e Andrea Guerrieri terminaram empatados por 0 a 0 em Quebec City.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T15:41:01.608Z",
-    "createdAt": "2026-08-17T15:41:01.608Z",
-    "updatedAt": "2026-08-17T15:41:01.608Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816156",
-      "eventStartTime": "2026-08-17T15:09:31+00:00",
-      "retrievedAt": "2026-08-17T15:41:01.608Z",
-      "feedId": "tenis",
-      "league": " Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-de27a0b59862",
-    "slug": "albion-fc-reserves-supera-ca-river-plate-uru-reserves-por-5-a-2-pelo-reserve-leagu-de27a0",
-    "sportId": "futebol",
-    "title": "Albion Fc (Reserves) supera Ca River Plate (Uru) (Reserves) por 5 a 2 pelo Reserve League",
-    "summary": "Albion Fc (Reserves) venceu Ca River Plate (Uru) (Reserves) por 5 a 2 pelo Reserve League.",
-    "content": "Albion Fc (Reserves) venceu Ca River Plate (Uru) (Reserves) por 5 a 2 pelo Reserve League, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "reserve-league"
-    ],
-    "seoTitle": "Albion Fc (Reserves) supera Ca River Plate (Uru) (Reserves) por 5 a 2",
-    "seoDescription": "Albion Fc (Reserves) venceu Ca River Plate (Uru) (Reserves) por 5 a 2 pelo Reserve League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T15:41:01.579Z",
-    "createdAt": "2026-08-17T15:41:01.579Z",
-    "updatedAt": "2026-08-17T15:41:01.579Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811835",
-      "eventStartTime": "2026-08-17T13:00:00+00:00",
-      "retrievedAt": "2026-08-17T15:41:01.579Z",
-      "feedId": "futebol",
-      "league": "Reserve League"
     },
     "articleFormat": "result-brief"
   }
