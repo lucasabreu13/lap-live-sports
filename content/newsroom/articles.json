@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-85a9ee5195af",
+    "slug": "chicago-white-sox-vence-chicago-cubs-por-3-a-0-na-mlb-85a9ee",
+    "sportId": "beisebol",
+    "title": "Chicago White Sox vence Chicago Cubs por 3 a 0 na MLB",
+    "summary": "Chicago White Sox derrotou Chicago Cubs por 3 a 0 na MLB.",
+    "content": "Chicago White Sox derrotou Chicago Cubs por 3 a 0 na MLB, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Chicago White Sox vence Chicago Cubs por 3 a 0 na MLB",
+    "seoDescription": "Chicago White Sox derrotou Chicago Cubs por 3 a 0 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T07:03:45.540Z",
+    "createdAt": "2026-08-20T07:03:45.540Z",
+    "updatedAt": "2026-08-20T07:03:45.540Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614701",
+      "eventStartTime": "2026-08-19T18:20:00+00:00",
+      "retrievedAt": "2026-08-20T07:03:45.540Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d065d8fd7cd0",
+    "slug": "boulais-j-chan-d-vence-gille-s-verbeek-s-por-2-a-0-em-quebec-city-d065d8",
+    "sportId": "tenis",
+    "title": "Boulais J./Chan D. vence Gille S./Verbeek S. por 2 a 0 em Quebec City",
+    "summary": "Boulais J./Chan D. superou Gille S./Verbeek S. por 2 a 0 em Quebec City.",
+    "content": "Boulais J./Chan D. superou Gille S./Verbeek S. por 2 a 0 em Quebec City., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Boulais J./Chan D. vence Gille S./Verbeek S. por 2 a 0 em Quebec City",
+    "seoDescription": "Boulais J./Chan D. superou Gille S./Verbeek S. por 2 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T07:03:45.521Z",
+    "createdAt": "2026-08-20T07:03:45.521Z",
+    "updatedAt": "2026-08-20T07:03:45.521Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816699",
+      "eventStartTime": "2026-08-20T01:09:55+00:00",
+      "retrievedAt": "2026-08-20T07:03:45.521Z",
+      "feedId": "tenis",
+      "league": "Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4a5fca1a4969",
+    "slug": "lagomar-country-club-w-vence-yale-w-por-64-a-41-em-lfb-w-4a5fca",
+    "sportId": "basquete",
+    "title": "Lagomar Country Club (W) vence Yale (W) por 64 a 41 em LFB (W)",
+    "summary": "Lagomar Country Club (W) superou Yale (W) por 64 a 41 em LFB (W).",
+    "content": "Lagomar Country Club (W) superou Yale (W) por 64 a 41 em LFB (W)., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lfb-w"
+    ],
+    "seoTitle": "Lagomar Country Club (W) vence Yale (W) por 64 a 41 em LFB (W)",
+    "seoDescription": "Lagomar Country Club (W) superou Yale (W) por 64 a 41 em LFB (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T07:03:45.510Z",
+    "createdAt": "2026-08-20T07:03:45.510Z",
+    "updatedAt": "2026-08-20T07:03:45.510Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815191",
+      "eventStartTime": "2026-08-20T00:00:00+00:00",
+      "retrievedAt": "2026-08-20T07:03:45.510Z",
+      "feedId": "basquete",
+      "league": "LFB (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3c03023de9c1",
+    "slug": "los-angeles-galaxy-supera-san-jose-earthquakes-por-1-a-0-pelo-mls-3c0302",
+    "sportId": "futebol",
+    "title": "Los Angeles Galaxy supera San Jose Earthquakes por 1 a 0 pela MLS",
+    "summary": "Los Angeles Galaxy venceu San Jose Earthquakes por 1 a 0 pela MLS.",
+    "content": "Los Angeles Galaxy venceu San Jose Earthquakes por 1 a 0 pela MLS, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "Los Angeles Galaxy supera San Jose Earthquakes por 1 a 0 pela MLS",
+    "seoDescription": "Los Angeles Galaxy venceu San Jose Earthquakes por 1 a 0 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T07:03:45.497Z",
+    "createdAt": "2026-08-20T07:03:45.497Z",
+    "updatedAt": "2026-08-20T07:03:45.497Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4621430",
+      "eventStartTime": "2026-08-20T02:30:00+00:00",
+      "retrievedAt": "2026-08-20T07:03:45.497Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-34e27a1e535d",
     "slug": "erler-a-stevens-b-vence-balshaw-f-jorda-sanchis-d-por-2-a-1-em-cancun-34e27a",
     "sportId": "tenis",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-17T14:50:51.018Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b4f1f317dbfb",
-    "slug": "shillong-lajong-e-northeast-united-ficam-no-0-a-0-pelo-durand-cup-b4f1f3",
-    "sportId": "futebol",
-    "title": "Shillong Lajong e Northeast United ficam no 0 a 0 pelo durand cup",
-    "summary": "Shillong Lajong e Northeast United empataram por 0 a 0 pelo durand cup.",
-    "content": "Shillong Lajong e Northeast United empataram por 0 a 0 pelo durand cup, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "durand-cup"
-    ],
-    "seoTitle": "Shillong Lajong e Northeast United ficam no 0 a 0 pelo durand cup",
-    "seoDescription": "Shillong Lajong e Northeast United empataram por 0 a 0 pelo durand cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T14:50:50.976Z",
-    "createdAt": "2026-08-17T14:50:50.976Z",
-    "updatedAt": "2026-08-17T14:50:50.976Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816237",
-      "eventStartTime": "2026-08-17T13:30:00+00:00",
-      "retrievedAt": "2026-08-17T14:50:50.976Z",
-      "feedId": "futebol",
-      "league": "durand-cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4653905593d2",
-    "slug": "filip-peliwo-vence-nicolas-tepmahc-por-2-a-1-em-roehampton-465390",
-    "sportId": "tenis",
-    "title": "Filip Peliwo vence Nicolas Tepmahc por 2 a 1 em Roehampton",
-    "summary": "Filip Peliwo superou Nicolas Tepmahc por 2 a 1 em Roehampton.",
-    "content": "Filip Peliwo superou Nicolas Tepmahc por 2 a 1 em Roehampton., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "roehampton"
-    ],
-    "seoTitle": "Filip Peliwo vence Nicolas Tepmahc por 2 a 1 em Roehampton",
-    "seoDescription": "Filip Peliwo superou Nicolas Tepmahc por 2 a 1 em Roehampton.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T14:16:45.166Z",
-    "createdAt": "2026-08-17T14:16:45.166Z",
-    "updatedAt": "2026-08-17T14:16:45.166Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815876",
-      "eventStartTime": "2026-08-17T10:07:43+00:00",
-      "retrievedAt": "2026-08-17T14:16:45.166Z",
-      "feedId": "tenis",
-      "league": "Roehampton"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c62e5c51db3b",
-    "slug": "defensor-sporting-reserves-e-racing-club-montevideo-reserves-ficam-no-1-a-1-pelo-r-c62e5c",
-    "sportId": "futebol",
-    "title": "Defensor Sporting (Reserves) e Racing Club Montevideo (Reserves) ficam no 1 a 1 pelo Reserve League",
-    "summary": "Defensor Sporting (Reserves) e Racing Club Montevideo (Reserves) empataram por 1 a 1 pelo Reserve League.",
-    "content": "Defensor Sporting (Reserves) e Racing Club Montevideo (Reserves) empataram por 1 a 1 pelo Reserve League, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "reserve-league"
-    ],
-    "seoTitle": "Defensor Sporting (Reserves) e Racing Club Montevideo (Reserves) ficam",
-    "seoDescription": "Defensor Sporting (Reserves) e Racing Club Montevideo (Reserves) empataram por 1 a 1 pelo Reserve League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T14:16:45.141Z",
-    "createdAt": "2026-08-17T14:16:45.141Z",
-    "updatedAt": "2026-08-17T14:16:45.141Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811833",
-      "eventStartTime": "2026-08-17T12:00:00+00:00",
-      "retrievedAt": "2026-08-17T14:16:45.141Z",
-      "feedId": "futebol",
-      "league": "Reserve League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-284efd7e0487",
-    "slug": "alec-deckers-vence-ali-habib-por-2-a-1-em-roehampton-284efd",
-    "sportId": "tenis",
-    "title": "Alec Deckers vence Ali Habib por 2 a 1 em Roehampton",
-    "summary": "Alec Deckers superou Ali Habib por 2 a 1 em Roehampton.",
-    "content": "Alec Deckers superou Ali Habib por 2 a 1 em Roehampton., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "roehampton"
-    ],
-    "seoTitle": "Alec Deckers vence Ali Habib por 2 a 1 em Roehampton",
-    "seoDescription": "Alec Deckers superou Ali Habib por 2 a 1 em Roehampton.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T13:52:20.385Z",
-    "createdAt": "2026-08-17T13:52:20.385Z",
-    "updatedAt": "2026-08-17T13:52:20.385Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815880",
-      "eventStartTime": "2026-08-17T11:48:06+00:00",
-      "retrievedAt": "2026-08-17T13:52:20.385Z",
-      "feedId": "tenis",
-      "league": "Roehampton"
     },
     "articleFormat": "result-brief"
   }
