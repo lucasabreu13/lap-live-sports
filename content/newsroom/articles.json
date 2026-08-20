@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-88e7fbcff7ec",
+    "slug": "lotte-giants-vence-kiwoom-heroes-por-7-a-1-na-kbo-88e7fb",
+    "sportId": "beisebol",
+    "title": "Lotte Giants vence Kiwoom Heroes por 7 a 1 na KBO",
+    "summary": "Lotte Giants derrotou Kiwoom Heroes por 7 a 1 na KBO.",
+    "content": "Lotte Giants derrotou Kiwoom Heroes por 7 a 1 na KBO, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "kbo"
+    ],
+    "seoTitle": "Lotte Giants vence Kiwoom Heroes por 7 a 1 na KBO",
+    "seoDescription": "Lotte Giants derrotou Kiwoom Heroes por 7 a 1 na KBO.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T16:21:17.419Z",
+    "createdAt": "2026-08-20T16:21:17.419Z",
+    "updatedAt": "2026-08-20T16:21:17.419Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819506",
+      "eventStartTime": "2026-08-20T10:00:00+00:00",
+      "retrievedAt": "2026-08-20T16:21:17.419Z",
+      "feedId": "beisebol",
+      "league": "KBO"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9d4a1270862f",
+    "slug": "norbert-gombos-vence-radu-mihai-papoe-por-2-a-1-em-prague-9d4a12",
+    "sportId": "tenis",
+    "title": "Norbert Gombos vence Radu Mihai Papoe por 2 a 1 em Prague",
+    "summary": "Norbert Gombos superou Radu Mihai Papoe por 2 a 1 em Prague.",
+    "content": "Norbert Gombos superou Radu Mihai Papoe por 2 a 1 em Prague., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Norbert Gombos vence Radu Mihai Papoe por 2 a 1 em Prague",
+    "seoDescription": "Norbert Gombos superou Radu Mihai Papoe por 2 a 1 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T16:21:17.409Z",
+    "createdAt": "2026-08-20T16:21:17.409Z",
+    "updatedAt": "2026-08-20T16:21:17.409Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819149",
+      "eventStartTime": "2026-08-20T13:56:32+00:00",
+      "retrievedAt": "2026-08-20T16:21:17.409Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-32ba9f39ab54",
+    "slug": "ironi-nir-ramat-hasharon-e-maccabi-ironi-ashdod-ficam-no-0-a-0-pelo-fa-cup-32ba9f",
+    "sportId": "futebol",
+    "title": "Ironi Nir Ramat HaSharon e Maccabi Ironi Ashdod ficam no 0 a 0 pelo FA Cup",
+    "summary": "Ironi Nir Ramat HaSharon e Maccabi Ironi Ashdod empataram por 0 a 0 pelo FA Cup.",
+    "content": "Ironi Nir Ramat HaSharon e Maccabi Ironi Ashdod empataram por 0 a 0 pelo FA Cup, em 20 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "fa-cup"
+    ],
+    "seoTitle": "Ironi Nir Ramat HaSharon e Maccabi Ironi Ashdod ficam no 0 a 0 pelo FA",
+    "seoDescription": "Ironi Nir Ramat HaSharon e Maccabi Ironi Ashdod empataram por 0 a 0 pelo FA Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T16:21:17.380Z",
+    "createdAt": "2026-08-20T16:21:17.380Z",
+    "updatedAt": "2026-08-20T16:21:17.380Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4804531",
+      "eventStartTime": "2026-08-20T16:00:00+00:00",
+      "retrievedAt": "2026-08-20T16:21:17.380Z",
+      "feedId": "futebol",
+      "league": "FA Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ba3a3525a6b8",
     "slug": "anton-matusevich-e-mark-ceban-empatam-por-0-a-0-em-roehampton-ba3a35",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-17T22:12:42.242Z",
       "feedId": "futebol",
       "league": "Liga 2"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5b4672482481",
-    "slug": "hanwha-eagles-vence-samsung-lions-por-0-a-0-na-kbo-5b4672",
-    "sportId": "beisebol",
-    "title": "Hanwha Eagles vence Samsung Lions por 0 a 0 na KBO",
-    "summary": "Hanwha Eagles derrotou Samsung Lions por 0 a 0 na KBO.",
-    "content": "Hanwha Eagles derrotou Samsung Lions por 0 a 0 na KBO, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "kbo"
-    ],
-    "seoTitle": "Hanwha Eagles vence Samsung Lions por 0 a 0 na KBO",
-    "seoDescription": "Hanwha Eagles derrotou Samsung Lions por 0 a 0 na KBO.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T21:46:35.425Z",
-    "createdAt": "2026-08-17T21:46:35.425Z",
-    "updatedAt": "2026-08-17T21:46:35.425Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815411",
-      "eventStartTime": "2026-08-16T10:00:00+00:00",
-      "retrievedAt": "2026-08-17T21:46:35.425Z",
-      "feedId": "beisebol",
-      "league": "KBO"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-67484bd3251f",
-    "slug": "krajicek-a-mektic-n-e-cash-r-nakashima-b-empatam-por-0-a-0-em-cincinnati-67484b",
-    "sportId": "tenis",
-    "title": "Krajicek A./Mektic N. e Cash R./Nakashima B. empatam por 0 a 0 em Cincinnati",
-    "summary": "Krajicek A./Mektic N. e Cash R./Nakashima B. terminaram empatados por 0 a 0 em Cincinnati.",
-    "content": "Krajicek A./Mektic N. e Cash R./Nakashima B. terminaram empatados por 0 a 0 em Cincinnati., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Krajicek A./Mektic N. e Cash R./Nakashima B. empatam por 0 a 0 em",
-    "seoDescription": "Krajicek A./Mektic N. e Cash R./Nakashima B. terminaram empatados por 0 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T21:46:35.406Z",
-    "createdAt": "2026-08-17T21:46:35.406Z",
-    "updatedAt": "2026-08-17T21:46:35.406Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815038",
-      "eventStartTime": "2026-08-17T21:25:07+00:00",
-      "retrievedAt": "2026-08-17T21:46:35.406Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-61fcbdbfab6c",
-    "slug": "almeria-supera-cd-eldense-por-3-a-0-pela-laliga-2-61fcbd",
-    "sportId": "futebol",
-    "title": "Almeria supera CD Eldense por 3 a 0 pela LaLiga 2",
-    "summary": "Almeria venceu CD Eldense por 3 a 0 pela LaLiga 2.",
-    "content": "Almeria venceu CD Eldense por 3 a 0 pela LaLiga 2, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "laliga-2"
-    ],
-    "seoTitle": "Almeria supera CD Eldense por 3 a 0 pela LaLiga 2",
-    "seoDescription": "Almeria venceu CD Eldense por 3 a 0 pela LaLiga 2.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T21:46:35.373Z",
-    "createdAt": "2026-08-17T21:46:35.373Z",
-    "updatedAt": "2026-08-17T21:46:35.373Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4751169",
-      "eventStartTime": "2026-08-17T19:30:00+00:00",
-      "retrievedAt": "2026-08-17T21:46:35.373Z",
-      "feedId": "futebol",
-      "league": "LaLiga 2"
     },
     "articleFormat": "result-brief"
   }
