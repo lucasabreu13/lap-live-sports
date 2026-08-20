@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-7110a4d5f0ed",
+    "slug": "nesterov-p-ovcharenko-o-e-papa-c-zheng-b-empatam-por-0-a-0-em-sion-7110a4",
+    "sportId": "tenis",
+    "title": "Nesterov P./Ovcharenko O. e Papa C./Zheng B. empatam por 0 a 0 em Sion",
+    "summary": "Nesterov P./Ovcharenko O. e Papa C./Zheng B. terminaram empatados por 0 a 0 em Sion.",
+    "content": "Nesterov P./Ovcharenko O. e Papa C./Zheng B. terminaram empatados por 0 a 0 em Sion., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Nesterov P./Ovcharenko O. e Papa C./Zheng B. empatam por 0 a 0 em Sion",
+    "seoDescription": "Nesterov P./Ovcharenko O. e Papa C./Zheng B. terminaram empatados por 0 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T15:23:16.029Z",
+    "createdAt": "2026-08-20T15:23:16.029Z",
+    "updatedAt": "2026-08-20T15:23:16.029Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819115",
+      "eventStartTime": "2026-08-20T14:36:38+00:00",
+      "retrievedAt": "2026-08-20T15:23:16.029Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b1d9d999e34d",
+    "slug": "hilal-hudaydah-e-wahda-sana-a-ficam-no-0-a-0-pelo-yemeni-league-b1d9d9",
+    "sportId": "futebol",
+    "title": "Hilal Hudaydah e Wahda Sana'a ficam no 0 a 0 pelo Yemeni League",
+    "summary": "Hilal Hudaydah e Wahda Sana'a empataram por 0 a 0 pelo Yemeni League.",
+    "content": "Hilal Hudaydah e Wahda Sana'a empataram por 0 a 0 pelo Yemeni League, em 20 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "yemeni-league"
+    ],
+    "seoTitle": "Hilal Hudaydah e Wahda Sana'a ficam no 0 a 0 pelo Yemeni League",
+    "seoDescription": "Hilal Hudaydah e Wahda Sana'a empataram por 0 a 0 pelo Yemeni League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T15:23:16.014Z",
+    "createdAt": "2026-08-20T15:23:16.014Z",
+    "updatedAt": "2026-08-20T15:23:16.014Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4710364",
+      "eventStartTime": "2026-08-20T13:00:00+00:00",
+      "retrievedAt": "2026-08-20T15:23:16.014Z",
+      "feedId": "futebol",
+      "league": "Yemeni League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5cf671b8c9c3",
     "slug": "filip-cristian-jianu-vence-max-hans-rehberg-por-2-a-0-em-prague-5cf671",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-17T21:15:33.244Z",
       "feedId": "tenis",
       "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5a483d6e4c84",
-    "slug": "atletico-bucaramanga-e-deportivo-pasto-ficam-no-0-a-0-pelo-primera-a-5a483d",
-    "sportId": "futebol",
-    "title": "Atlético Bucaramanga e Deportivo Pasto ficam no 0 a 0 pelo Primera A",
-    "summary": "Atlético Bucaramanga e Deportivo Pasto empataram por 0 a 0 pelo Primera A.",
-    "content": "Atlético Bucaramanga e Deportivo Pasto empataram por 0 a 0 pelo Primera A, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-a"
-    ],
-    "seoTitle": "Atlético Bucaramanga e Deportivo Pasto ficam no 0 a 0 pelo Primera A",
-    "seoDescription": "Atlético Bucaramanga e Deportivo Pasto empataram por 0 a 0 pelo Primera A.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T21:15:33.215Z",
-    "createdAt": "2026-08-17T21:15:33.215Z",
-    "updatedAt": "2026-08-17T21:15:33.215Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732049",
-      "eventStartTime": "2026-08-17T21:05:00+00:00",
-      "retrievedAt": "2026-08-17T21:15:33.215Z",
-      "feedId": "futebol",
-      "league": "Primera A"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e5714a515a70",
-    "slug": "st-louis-cardinals-vence-cincinnati-reds-por-2-a-1-na-mlb-e5714a",
-    "sportId": "beisebol",
-    "title": "St. Louis Cardinals vence Cincinnati Reds por 2 a 1 na MLB",
-    "summary": "St. Louis Cardinals derrotou Cincinnati Reds por 2 a 1 na MLB.",
-    "content": "St. Louis Cardinals derrotou Cincinnati Reds por 2 a 1 na MLB, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "St. Louis Cardinals vence Cincinnati Reds por 2 a 1 na MLB",
-    "seoDescription": "St. Louis Cardinals derrotou Cincinnati Reds por 2 a 1 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T20:49:57.448Z",
-    "createdAt": "2026-08-17T20:49:57.448Z",
-    "updatedAt": "2026-08-17T20:49:57.448Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4555787",
-      "eventStartTime": "2026-08-17T17:40:00+00:00",
-      "retrievedAt": "2026-08-17T20:49:57.448Z",
-      "feedId": "beisebol",
-      "league": "MLB"
     },
     "articleFormat": "result-brief"
   }
