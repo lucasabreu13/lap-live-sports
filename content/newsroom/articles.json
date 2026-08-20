@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-d07e260fd725",
+    "slug": "grevelius-e-heinonen-a-vence-molchanov-d-pavel-b-por-2-a-0-em-prague-d07e26",
+    "sportId": "tenis",
+    "title": "Grevelius E./Heinonen A. vence Molchanov D./Pavel B. por 2 a 0 em Prague",
+    "summary": "Grevelius E./Heinonen A. superou Molchanov D./Pavel B. por 2 a 0 em Prague.",
+    "content": "Grevelius E./Heinonen A. superou Molchanov D./Pavel B. por 2 a 0 em Prague., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Grevelius E./Heinonen A. vence Molchanov D./Pavel B. por 2 a 0 em",
+    "seoDescription": "Grevelius E./Heinonen A. superou Molchanov D./Pavel B. por 2 a 0 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T10:54:10.169Z",
+    "createdAt": "2026-08-20T10:54:10.169Z",
+    "updatedAt": "2026-08-20T10:54:10.169Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818882",
+      "eventStartTime": "2026-08-20T09:02:36+00:00",
+      "retrievedAt": "2026-08-20T10:54:10.169Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2d99d853a385",
+    "slug": "north-texas-e-austin-fc-ii-ficam-no-0-a-0-pelo-mls-next-pro-2d99d8",
+    "sportId": "futebol",
+    "title": "North Texas e Austin Fc II ficam no 0 a 0 pela MLS Next Pro",
+    "summary": "North Texas e Austin Fc II empataram por 0 a 0 pela MLS Next Pro.",
+    "content": "North Texas e Austin Fc II empataram por 0 a 0 pela MLS Next Pro, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls-next-pro"
+    ],
+    "seoTitle": "North Texas e Austin Fc II ficam no 0 a 0 pela MLS Next Pro",
+    "seoDescription": "North Texas e Austin Fc II empataram por 0 a 0 pela MLS Next Pro.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T10:54:10.139Z",
+    "createdAt": "2026-08-20T10:54:10.139Z",
+    "updatedAt": "2026-08-20T10:54:10.139Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659114",
+      "eventStartTime": "2026-08-20T00:45:00+00:00",
+      "retrievedAt": "2026-08-20T10:54:10.139Z",
+      "feedId": "futebol",
+      "league": "MLS Next Pro"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-8811c49b09ee",
     "slug": "alexis-galarneau-vence-dino-prizmic-por-2-a-0-em-quebec-city-8811c4",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-17T18:21:26.494Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-74ba55e16377",
-    "slug": "cerro-largo-fc-reserves-e-ca-progreso-reserves-ficam-no-0-a-0-pelo-reserve-league-74ba55",
-    "sportId": "futebol",
-    "title": "Cerro Largo Fc (Reserves) e Ca Progreso (Reserves) ficam no 0 a 0 pelo Reserve League",
-    "summary": "Cerro Largo Fc (Reserves) e Ca Progreso (Reserves) empataram por 0 a 0 pelo Reserve League.",
-    "content": "Cerro Largo Fc (Reserves) e Ca Progreso (Reserves) empataram por 0 a 0 pelo Reserve League, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "reserve-league"
-    ],
-    "seoTitle": "Cerro Largo Fc (Reserves) e Ca Progreso (Reserves) ficam no 0 a 0 pelo",
-    "seoDescription": "Cerro Largo Fc (Reserves) e Ca Progreso (Reserves) empataram por 0 a 0 pelo Reserve League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T18:21:26.463Z",
-    "createdAt": "2026-08-17T18:21:26.463Z",
-    "updatedAt": "2026-08-17T18:21:26.463Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4811838",
-      "eventStartTime": "2026-08-17T18:00:00+00:00",
-      "retrievedAt": "2026-08-17T18:21:26.463Z",
-      "feedId": "futebol",
-      "league": "Reserve League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c302b41bdfed",
-    "slug": "juan-bautista-torres-vence-marek-gengel-por-2-a-1-em-prague-c302b4",
-    "sportId": "tenis",
-    "title": "Juan Bautista Torres vence Marek Gengel por 2 a 1 em Prague",
-    "summary": "Juan Bautista Torres superou Marek Gengel por 2 a 1 em Prague.",
-    "content": "Juan Bautista Torres superou Marek Gengel por 2 a 1 em Prague., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Juan Bautista Torres vence Marek Gengel por 2 a 1 em Prague",
-    "seoDescription": "Juan Bautista Torres superou Marek Gengel por 2 a 1 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T17:51:26.574Z",
-    "createdAt": "2026-08-17T17:51:26.574Z",
-    "updatedAt": "2026-08-17T17:51:26.574Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815498",
-      "eventStartTime": "2026-08-17T15:22:56+00:00",
-      "retrievedAt": "2026-08-17T17:51:26.574Z",
-      "feedId": "tenis",
-      "league": "Prague"
     },
     "articleFormat": "result-brief"
   }
