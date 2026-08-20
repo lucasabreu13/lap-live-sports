@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-95b18c959231",
+    "slug": "guo-h-mladenovic-k-vence-kostyuk-m-stearns-p-por-2-a-1-em-cincinnati-95b18c",
+    "sportId": "tenis",
+    "title": "Guo H./Mladenovic K. vence Kostyuk M./Stearns P. por 2 a 1 em Cincinnati",
+    "summary": "Guo H./Mladenovic K. superou Kostyuk M./Stearns P. por 2 a 1 em Cincinnati.",
+    "content": "Guo H./Mladenovic K. superou Kostyuk M./Stearns P. por 2 a 1 em Cincinnati., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Guo H./Mladenovic K. vence Kostyuk M./Stearns P. por 2 a 1 em",
+    "seoDescription": "Guo H./Mladenovic K. superou Kostyuk M./Stearns P. por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T23:46:41.348Z",
+    "createdAt": "2026-08-20T23:46:41.348Z",
+    "updatedAt": "2026-08-20T23:46:41.348Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816973",
+      "eventStartTime": "2026-08-19T22:51:08+00:00",
+      "retrievedAt": "2026-08-20T23:46:41.348Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-57b80532cafa",
+    "slug": "canada-w-vence-philippines-w-por-85-a-38-em-olympic-qualification-w-57b805",
+    "sportId": "basquete",
+    "title": "Canada (W) vence Philippines (W) por 85 a 38 em Olympic Qualification (W)",
+    "summary": "Canada (W) superou Philippines (W) por 85 a 38 em Olympic Qualification (W).",
+    "content": "Canada (W) superou Philippines (W) por 85 a 38 em Olympic Qualification (W)., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "olympic-qualification-w"
+    ],
+    "seoTitle": "Canada (W) vence Philippines (W) por 85 a 38 em Olympic Qualification",
+    "seoDescription": "Canada (W) superou Philippines (W) por 85 a 38 em Olympic Qualification (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T23:46:41.339Z",
+    "createdAt": "2026-08-20T23:46:41.339Z",
+    "updatedAt": "2026-08-20T23:46:41.339Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817246",
+      "eventStartTime": "2026-08-19T23:30:00+00:00",
+      "retrievedAt": "2026-08-20T23:46:41.339Z",
+      "feedId": "basquete",
+      "league": "Olympic Qualification (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c1cc32712fed",
+    "slug": "philadelphia-union-e-inter-miami-ficam-no-2-a-2-pelo-mls-c1cc32",
+    "sportId": "futebol",
+    "title": "Philadelphia Union e Inter Miami ficam no 2 a 2 pela MLS",
+    "summary": "Philadelphia Union e Inter Miami empataram por 2 a 2 pela MLS.",
+    "content": "Philadelphia Union e Inter Miami empataram por 2 a 2 pela MLS, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "Philadelphia Union e Inter Miami ficam no 2 a 2 pela MLS",
+    "seoDescription": "Philadelphia Union e Inter Miami empataram por 2 a 2 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T23:46:41.330Z",
+    "createdAt": "2026-08-20T23:46:41.330Z",
+    "updatedAt": "2026-08-20T23:46:41.330Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4621437",
+      "eventStartTime": "2026-08-19T23:30:00+00:00",
+      "retrievedAt": "2026-08-20T23:46:41.330Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-815a81346bf4",
     "slug": "philadelphia-phillies-vence-miami-marlins-por-4-a-1-na-mlb-815a81",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T07:12:45.835Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7fa5632dc323",
-    "slug": "palestino-supera-huachipato-por-5-a-1-pelo-first-division-7fa563",
-    "sportId": "futebol",
-    "title": "Palestino supera Huachipato por 5 a 1 pelo First Division",
-    "summary": "Palestino venceu Huachipato por 5 a 1 pelo First Division.",
-    "content": "Palestino venceu Huachipato por 5 a 1 pelo First Division, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "first-division"
-    ],
-    "seoTitle": "Palestino supera Huachipato por 5 a 1 pelo First Division",
-    "seoDescription": "Palestino venceu Huachipato por 5 a 1 pelo First Division.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T07:12:45.802Z",
-    "createdAt": "2026-08-18T07:12:45.802Z",
-    "updatedAt": "2026-08-18T07:12:45.802Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4650606",
-      "eventStartTime": "2026-08-18T00:30:00+00:00",
-      "retrievedAt": "2026-08-18T07:12:45.802Z",
-      "feedId": "futebol",
-      "league": "First Division"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-43db43b83b19",
-    "slug": "laslo-djere-vence-samuel-heredia-por-2-a-0-em-cancun-43db43",
-    "sportId": "tenis",
-    "title": "Laslo Djere vence Samuel Heredia por 2 a 0 em Cancun",
-    "summary": "Laslo Djere superou Samuel Heredia por 2 a 0 em Cancun.",
-    "content": "Laslo Djere superou Samuel Heredia por 2 a 0 em Cancun., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cancun"
-    ],
-    "seoTitle": "Laslo Djere vence Samuel Heredia por 2 a 0 em Cancun",
-    "seoDescription": "Laslo Djere superou Samuel Heredia por 2 a 0 em Cancun.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T06:23:04.138Z",
-    "createdAt": "2026-08-18T06:23:04.138Z",
-    "updatedAt": "2026-08-18T06:23:04.138Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816160",
-      "eventStartTime": "2026-08-18T00:11:48+00:00",
-      "retrievedAt": "2026-08-18T06:23:04.138Z",
-      "feedId": "tenis",
-      "league": "Cancun"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-76d3f39ce3e3",
-    "slug": "indiana-fever-vence-atlanta-dream-por-95-a-91-em-wnba-76d3f3",
-    "sportId": "basquete",
-    "title": "Indiana Fever vence Atlanta Dream por 95 a 91 em WNBA",
-    "summary": "Indiana Fever superou Atlanta Dream por 95 a 91 em WNBA.",
-    "content": "Indiana Fever superou Atlanta Dream por 95 a 91 em WNBA., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "Indiana Fever vence Atlanta Dream por 95 a 91 em WNBA",
-    "seoDescription": "Indiana Fever superou Atlanta Dream por 95 a 91 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T06:23:04.132Z",
-    "createdAt": "2026-08-18T06:23:04.132Z",
-    "updatedAt": "2026-08-18T06:23:04.132Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659884",
-      "eventStartTime": "2026-08-16T21:00:00+00:00",
-      "retrievedAt": "2026-08-18T06:23:04.132Z",
-      "feedId": "basquete",
-      "league": "WNBA"
     },
     "articleFormat": "result-brief"
   }
