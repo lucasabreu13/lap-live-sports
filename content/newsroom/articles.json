@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-c999fc90cfdc",
+    "slug": "jans-j-whitehouse-m-vence-latinovic-s-loof-t-por-2-a-0-em-prague-c999fc",
+    "sportId": "tenis",
+    "title": "Jans J./Whitehouse M. vence Latinovic S./Loof T. por 2 a 0 em Prague",
+    "summary": "Jans J./Whitehouse M. superou Latinovic S./Loof T. por 2 a 0 em Prague.",
+    "content": "Jans J./Whitehouse M. superou Latinovic S./Loof T. por 2 a 0 em Prague., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Jans J./Whitehouse M. vence Latinovic S./Loof T. por 2 a 0 em Prague",
+    "seoDescription": "Jans J./Whitehouse M. superou Latinovic S./Loof T. por 2 a 0 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T11:49:27.440Z",
+    "createdAt": "2026-08-20T11:49:27.440Z",
+    "updatedAt": "2026-08-20T11:49:27.440Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819150",
+      "eventStartTime": "2026-08-20T10:38:36+00:00",
+      "retrievedAt": "2026-08-20T11:49:27.440Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-730b20e2fcf8",
+    "slug": "fc-elva-supera-fc-maardu-por-1-a-0-pelo-esiliiga-730b20",
+    "sportId": "futebol",
+    "title": "FC Elva supera FC Maardu por 1 a 0 pelo Esiliiga",
+    "summary": "FC Elva venceu FC Maardu por 1 a 0 pelo Esiliiga.",
+    "content": "FC Elva venceu FC Maardu por 1 a 0 pelo Esiliiga, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "esiliiga"
+    ],
+    "seoTitle": "FC Elva supera FC Maardu por 1 a 0 pelo Esiliiga",
+    "seoDescription": "FC Elva venceu FC Maardu por 1 a 0 pelo Esiliiga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T11:49:27.410Z",
+    "createdAt": "2026-08-20T11:49:27.410Z",
+    "updatedAt": "2026-08-20T11:49:27.410Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4668675",
+      "eventStartTime": "2026-08-20T09:30:00+00:00",
+      "retrievedAt": "2026-08-20T11:49:27.410Z",
+      "feedId": "futebol",
+      "league": "Esiliiga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-a172ad470de6",
     "slug": "oliver-tarvet-vence-charles-broom-por-1-a-0-em-roehampton-a172ad",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-17T19:38:01.855Z",
       "feedId": "tenis",
       "league": " Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-537aa63b8e61",
-    "slug": "cariari-e-santa-ana-ficam-no-0-a-0-pela-liga-de-ascenso-537aa6",
-    "sportId": "futebol",
-    "title": "Cariari e Santa Ana ficam no 0 a 0 pela Liga de Ascenso",
-    "summary": "Cariari e Santa Ana empataram por 0 a 0 pela Liga de Ascenso.",
-    "content": "Cariari e Santa Ana empataram por 0 a 0 pela Liga de Ascenso, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "Cariari e Santa Ana ficam no 0 a 0 pela Liga de Ascenso",
-    "seoDescription": "Cariari e Santa Ana empataram por 0 a 0 pela Liga de Ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T19:38:01.819Z",
-    "createdAt": "2026-08-17T19:38:01.819Z",
-    "updatedAt": "2026-08-17T19:38:01.819Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4795190",
-      "eventStartTime": "2026-08-17T19:00:00+00:00",
-      "retrievedAt": "2026-08-17T19:38:01.819Z",
-      "feedId": "futebol",
-      "league": "Liga de Ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-21da0a30c9b6",
-    "slug": "sorana-cirstea-e-anna-kalinskaya-empatam-por-0-a-0-em-cincinnati-21da0a",
-    "sportId": "tenis",
-    "title": "Sorana Cirstea e Anna Kalinskaya empatam por 0 a 0 em Cincinnati",
-    "summary": "Sorana Cirstea e Anna Kalinskaya terminaram empatados por 0 a 0 em Cincinnati.",
-    "content": "Sorana Cirstea e Anna Kalinskaya terminaram empatados por 0 a 0 em Cincinnati., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Sorana Cirstea e Anna Kalinskaya empatam por 0 a 0 em Cincinnati",
-    "seoDescription": "Sorana Cirstea e Anna Kalinskaya terminaram empatados por 0 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T19:05:41.446Z",
-    "createdAt": "2026-08-17T19:05:41.446Z",
-    "updatedAt": "2026-08-17T19:05:41.446Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815435",
-      "eventStartTime": "2026-08-17T17:50:34+00:00",
-      "retrievedAt": "2026-08-17T19:05:41.446Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
