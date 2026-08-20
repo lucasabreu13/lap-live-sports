@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-88572b2535d2",
+    "slug": "lorenzo-musetti-vence-jaime-faria-por-2-a-0-em-cincinnati-88572b",
+    "sportId": "tenis",
+    "title": "Lorenzo Musetti vence Jaime Faria por 2 a 0 em Cincinnati",
+    "summary": "Lorenzo Musetti superou Jaime Faria por 2 a 0 em Cincinnati.",
+    "content": "Lorenzo Musetti superou Jaime Faria por 2 a 0 em Cincinnati., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Lorenzo Musetti vence Jaime Faria por 2 a 0 em Cincinnati",
+    "seoDescription": "Lorenzo Musetti superou Jaime Faria por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T03:10:49.593Z",
+    "createdAt": "2026-08-20T03:10:49.593Z",
+    "updatedAt": "2026-08-20T03:10:49.593Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818553",
+      "eventStartTime": "2026-08-20T01:20:23+00:00",
+      "retrievedAt": "2026-08-20T03:10:49.593Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-aa0bd9ff360d",
+    "slug": "zamora-raptors-vence-san-antonio-gold-por-85-a-62-em-liga-nacional-aa0bd9",
+    "sportId": "basquete",
+    "title": "Zamora Raptors vence San Antonio Gold por 85 a 62 em Liga Nacional",
+    "summary": "Zamora Raptors superou San Antonio Gold por 85 a 62 em Liga Nacional.",
+    "content": "Zamora Raptors superou San Antonio Gold por 85 a 62 em Liga Nacional., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-nacional"
+    ],
+    "seoTitle": "Zamora Raptors vence San Antonio Gold por 85 a 62 em Liga Nacional",
+    "seoDescription": "Zamora Raptors superou San Antonio Gold por 85 a 62 em Liga Nacional.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T03:10:49.587Z",
+    "createdAt": "2026-08-20T03:10:49.587Z",
+    "updatedAt": "2026-08-20T03:10:49.587Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818425",
+      "eventStartTime": "2026-08-20T01:00:00+00:00",
+      "retrievedAt": "2026-08-20T03:10:49.587Z",
+      "feedId": "basquete",
+      "league": "Liga Nacional"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-af2d4cf46bc4",
+    "slug": "patriotas-e-orsomarso-ficam-no-1-a-1-pelo-primera-b-af2d4c",
+    "sportId": "futebol",
+    "title": "Patriotas e Orsomarso ficam no 1 a 1 pelo Primera B",
+    "summary": "Patriotas e Orsomarso empataram por 1 a 1 pelo Primera B.",
+    "content": "Patriotas e Orsomarso empataram por 1 a 1 pelo Primera B, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-b"
+    ],
+    "seoTitle": "Patriotas e Orsomarso ficam no 1 a 1 pelo Primera B",
+    "seoDescription": "Patriotas e Orsomarso empataram por 1 a 1 pelo Primera B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T03:10:49.579Z",
+    "createdAt": "2026-08-20T03:10:49.579Z",
+    "updatedAt": "2026-08-20T03:10:49.579Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4732184",
+      "eventStartTime": "2026-08-20T01:10:00+00:00",
+      "retrievedAt": "2026-08-20T03:10:49.579Z",
+      "feedId": "futebol",
+      "league": "Primera B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-86ec0e2e89f8",
     "slug": "bouzkova-m-noskova-l-vence-dabrowski-g-krejcikova-b-por-2-a-1-em-cincinnati-86ec0e",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-17T10:21:02.324Z",
       "feedId": "futebol",
       "league": "Primera B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7666ab8a84b0",
-    "slug": "luca-wiedenmann-vence-thiago-cigarran-por-1-a-0-em-sion-7666ab",
-    "sportId": "tenis",
-    "title": "Luca Wiedenmann vence Thiago Cigarran por 1 a 0 em Sion",
-    "summary": "Luca Wiedenmann superou Thiago Cigarran por 1 a 0 em Sion.",
-    "content": "Luca Wiedenmann superou Thiago Cigarran por 1 a 0 em Sion., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Luca Wiedenmann vence Thiago Cigarran por 1 a 0 em Sion",
-    "seoDescription": "Luca Wiedenmann superou Thiago Cigarran por 1 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T09:54:50.454Z",
-    "createdAt": "2026-08-17T09:54:50.454Z",
-    "updatedAt": "2026-08-17T09:54:50.454Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815642",
-      "eventStartTime": "2026-08-17T08:11:53+00:00",
-      "retrievedAt": "2026-08-17T09:54:50.454Z",
-      "feedId": "tenis",
-      "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f116b137c963",
-    "slug": "caguas-sporting-supera-san-juan-fc-por-2-a-1-pelo-lpr-pro-f116b1",
-    "sportId": "futebol",
-    "title": "Caguas Sporting supera San Juan FC por 2 a 1 pelo LPR Pro",
-    "summary": "Caguas Sporting venceu San Juan FC por 2 a 1 pelo LPR Pro.",
-    "content": "Caguas Sporting venceu San Juan FC por 2 a 1 pelo LPR Pro, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "lpr-pro"
-    ],
-    "seoTitle": "Caguas Sporting supera San Juan FC por 2 a 1 pelo LPR Pro",
-    "seoDescription": "Caguas Sporting venceu San Juan FC por 2 a 1 pelo LPR Pro.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T09:54:50.412Z",
-    "createdAt": "2026-08-17T09:54:50.412Z",
-    "updatedAt": "2026-08-17T09:54:50.412Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814026",
-      "eventStartTime": "2026-08-17T00:30:00+00:00",
-      "retrievedAt": "2026-08-17T09:54:50.412Z",
-      "feedId": "futebol",
-      "league": "LPR Pro"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2256aed3c85d",
-    "slug": "atlanta-braves-vence-arizona-diamondbacks-por-5-a-3-na-mlb-2256ae",
-    "sportId": "beisebol",
-    "title": "Atlanta Braves vence Arizona Diamondbacks por 5 a 3 na MLB",
-    "summary": "Atlanta Braves derrotou Arizona Diamondbacks por 5 a 3 na MLB.",
-    "content": "Atlanta Braves derrotou Arizona Diamondbacks por 5 a 3 na MLB, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Atlanta Braves vence Arizona Diamondbacks por 5 a 3 na MLB",
-    "seoDescription": "Atlanta Braves derrotou Arizona Diamondbacks por 5 a 3 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T09:05:53.306Z",
-    "createdAt": "2026-08-17T09:05:53.306Z",
-    "updatedAt": "2026-08-17T09:05:53.306Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614798",
-      "eventStartTime": "2026-08-16T17:35:00+00:00",
-      "retrievedAt": "2026-08-17T09:05:53.306Z",
-      "feedId": "beisebol",
-      "league": "MLB"
     },
     "articleFormat": "result-brief"
   }
