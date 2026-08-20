@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-1e0694b01ab6",
+    "slug": "pericos-de-puebla-vence-diablos-rojos-del-mexico-por-13-a-5-na-lmb-1e0694",
+    "sportId": "beisebol",
+    "title": "Pericos de Puebla vence Diablos Rojos del México por 13 a 5 na LMB",
+    "summary": "Pericos de Puebla derrotou Diablos Rojos del México por 13 a 5 na LMB.",
+    "content": "Pericos de Puebla derrotou Diablos Rojos del México por 13 a 5 na LMB, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "lmb"
+    ],
+    "seoTitle": "Pericos de Puebla vence Diablos Rojos del México por 13 a 5 na LMB",
+    "seoDescription": "Pericos de Puebla derrotou Diablos Rojos del México por 13 a 5 na LMB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T05:04:38.305Z",
+    "createdAt": "2026-08-20T05:04:38.305Z",
+    "updatedAt": "2026-08-20T05:04:38.305Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816787",
+      "eventStartTime": "2026-08-20T01:00:00+00:00",
+      "retrievedAt": "2026-08-20T05:04:38.305Z",
+      "feedId": "beisebol",
+      "league": "LMB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-755329006d63",
+    "slug": "blake-bayldon-trey-hilderbrand-vence-llamas-ruiz-p-shelbayh-a-por-2-a-1-em-cancun-755329",
+    "sportId": "tenis",
+    "title": "Blake Bayldon / Trey Hilderbrand vence Llamas Ruiz P./Shelbayh A. por 2 a 1 em Cancun",
+    "summary": "Blake Bayldon / Trey Hilderbrand superou Llamas Ruiz P./Shelbayh A. por 2 a 1 em Cancun.",
+    "content": "Blake Bayldon / Trey Hilderbrand superou Llamas Ruiz P./Shelbayh A. por 2 a 1 em Cancun., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Blake Bayldon / Trey Hilderbrand vence Llamas Ruiz P./Shelbayh A. por",
+    "seoDescription": "Blake Bayldon / Trey Hilderbrand superou Llamas Ruiz P./Shelbayh A. por 2 a 1 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T05:04:38.302Z",
+    "createdAt": "2026-08-20T05:04:38.302Z",
+    "updatedAt": "2026-08-20T05:04:38.302Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817027",
+      "eventStartTime": "2026-08-20T03:13:10+00:00",
+      "retrievedAt": "2026-08-20T05:04:38.302Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5dd9a78d9376",
+    "slug": "dorados-de-chihuahua-vence-abejas-de-leon-por-97-a-81-em-lnbp-5dd9a7",
+    "sportId": "basquete",
+    "title": "Dorados De Chihuahua vence Abejas de León por 97 a 81 em LNBP",
+    "summary": "Dorados De Chihuahua superou Abejas de León por 97 a 81 em LNBP.",
+    "content": "Dorados De Chihuahua superou Abejas de León por 97 a 81 em LNBP., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Dorados De Chihuahua vence Abejas de León por 97 a 81 em LNBP",
+    "seoDescription": "Dorados De Chihuahua superou Abejas de León por 97 a 81 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T05:04:38.298Z",
+    "createdAt": "2026-08-20T05:04:38.298Z",
+    "updatedAt": "2026-08-20T05:04:38.298Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707877",
+      "eventStartTime": "2026-08-20T02:00:00+00:00",
+      "retrievedAt": "2026-08-20T05:04:38.298Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-07f71c5e19cb",
+    "slug": "cd-fas-e-csd-municipal-ficam-no-1-a-1-pelo-concacaf-central-american-cup-07f71c",
+    "sportId": "futebol",
+    "title": "CD FAS e CSD Municipal ficam no 1 a 1 pelo CONCACAF Central American Cup",
+    "summary": "CD FAS e CSD Municipal empataram por 1 a 1 pelo CONCACAF Central American Cup.",
+    "content": "CD FAS e CSD Municipal empataram por 1 a 1 pelo CONCACAF Central American Cup, em 20 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "concacaf-central-american-cup"
+    ],
+    "seoTitle": "CD FAS e CSD Municipal ficam no 1 a 1 pelo CONCACAF Central American",
+    "seoDescription": "CD FAS e CSD Municipal empataram por 1 a 1 pelo CONCACAF Central American Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T05:04:38.287Z",
+    "createdAt": "2026-08-20T05:04:38.287Z",
+    "updatedAt": "2026-08-20T05:04:38.287Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4730006",
+      "eventStartTime": "2026-08-20T03:00:00+00:00",
+      "retrievedAt": "2026-08-20T05:04:38.287Z",
+      "feedId": "futebol",
+      "league": "CONCACAF Central American Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-87404507825e",
     "slug": "guerreros-de-oaxaca-vence-olmecas-de-tabasco-por-2-a-1-na-lmb-874045",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-17T12:19:38.546Z",
       "feedId": "tenis",
       "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-07507a31f204",
-    "slug": "independiente-petrolero-supera-gv-san-jose-por-1-a-0-pela-liga-de-futbol-prof-07507a",
-    "sportId": "futebol",
-    "title": "Independiente Petrolero supera GV San Jose por 1 a 0 pela Liga De Futbol Prof",
-    "summary": "Independiente Petrolero venceu GV San Jose por 1 a 0 pela Liga De Futbol Prof.",
-    "content": "Independiente Petrolero venceu GV San Jose por 1 a 0 pela Liga De Futbol Prof, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-de-futbol-prof"
-    ],
-    "seoTitle": "Independiente Petrolero supera GV San Jose por 1 a 0 pela Liga De",
-    "seoDescription": "Independiente Petrolero venceu GV San Jose por 1 a 0 pela Liga De Futbol Prof.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T12:19:38.509Z",
-    "createdAt": "2026-08-17T12:19:38.509Z",
-    "updatedAt": "2026-08-17T12:19:38.509Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4806268",
-      "eventStartTime": "2026-08-17T00:00:00+00:00",
-      "retrievedAt": "2026-08-17T12:19:38.509Z",
-      "feedId": "futebol",
-      "league": "Liga De Futbol Prof"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1711e00fe32e",
-    "slug": "colorado-rockies-vence-san-francisco-giants-por-13-a-7-na-mlb-1711e0",
-    "sportId": "beisebol",
-    "title": "Colorado Rockies vence San Francisco Giants por 13 a 7 na MLB",
-    "summary": "Colorado Rockies derrotou San Francisco Giants por 13 a 7 na MLB.",
-    "content": "Colorado Rockies derrotou San Francisco Giants por 13 a 7 na MLB, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Colorado Rockies vence San Francisco Giants por 13 a 7 na MLB",
-    "seoDescription": "Colorado Rockies derrotou San Francisco Giants por 13 a 7 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T11:46:34.095Z",
-    "createdAt": "2026-08-17T11:46:34.095Z",
-    "updatedAt": "2026-08-17T11:46:34.095Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614605",
-      "eventStartTime": "2026-08-16T20:05:00+00:00",
-      "retrievedAt": "2026-08-17T11:46:34.095Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2d6fea6d1146",
-    "slug": "peter-makk-vence-marcus-walters-por-2-a-0-em-roehampton-2d6fea",
-    "sportId": "tenis",
-    "title": "Peter Makk vence Marcus Walters por 2 a 0 em Roehampton",
-    "summary": "Peter Makk superou Marcus Walters por 2 a 0 em Roehampton.",
-    "content": "Peter Makk superou Marcus Walters por 2 a 0 em Roehampton., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "roehampton"
-    ],
-    "seoTitle": "Peter Makk vence Marcus Walters por 2 a 0 em Roehampton",
-    "seoDescription": "Peter Makk superou Marcus Walters por 2 a 0 em Roehampton.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T11:46:34.089Z",
-    "createdAt": "2026-08-17T11:46:34.089Z",
-    "updatedAt": "2026-08-17T11:46:34.089Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815881",
-      "eventStartTime": "2026-08-17T10:06:16+00:00",
-      "retrievedAt": "2026-08-17T11:46:34.089Z",
-      "feedId": "tenis",
-      "league": "Roehampton"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a69ba2f473ca",
-    "slug": "al-khalidiyah-e-qadisiya-kuwait-ficam-no-0-a-0-pelo-club-friendlies-a69ba2",
-    "sportId": "futebol",
-    "title": "Al Khalidiyah e Qadisiya Kuwait ficam no 0 a 0 pelo Club Friendlies",
-    "summary": "Al Khalidiyah e Qadisiya Kuwait empataram por 0 a 0 pelo Club Friendlies.",
-    "content": "Al Khalidiyah e Qadisiya Kuwait empataram por 0 a 0 pelo Club Friendlies, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Al Khalidiyah e Qadisiya Kuwait ficam no 0 a 0 pelo Club Friendlies",
-    "seoDescription": "Al Khalidiyah e Qadisiya Kuwait empataram por 0 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T11:46:34.048Z",
-    "createdAt": "2026-08-17T11:46:34.048Z",
-    "updatedAt": "2026-08-17T11:46:34.048Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808455",
-      "eventStartTime": "2026-08-17T11:00:00+00:00",
-      "retrievedAt": "2026-08-17T11:46:34.048Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
     },
     "articleFormat": "result-brief"
   }
