@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-1cfb87de316e",
+    "slug": "britto-l-saraiva-dos-santos-p-a-vence-chopra-k-marrero-curbelo-i-por-2-a-0-em-king-1cfb87",
+    "sportId": "tenis",
+    "title": "Britto L./Saraiva Dos Santos P A. vence Chopra K./Marrero Curbelo I. por 2 a 0 em Kingston",
+    "summary": "Britto L./Saraiva Dos Santos P A. superou Chopra K./Marrero Curbelo I. por 2 a 0 em Kingston.",
+    "content": "Britto L./Saraiva Dos Santos P A. superou Chopra K./Marrero Curbelo I. por 2 a 0 em Kingston., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Britto L./Saraiva Dos Santos P A. vence Chopra K./Marrero Curbelo I.",
+    "seoDescription": "Britto L./Saraiva Dos Santos P A. superou Chopra K./Marrero Curbelo I. por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T00:58:03.988Z",
+    "createdAt": "2026-08-20T00:58:03.988Z",
+    "updatedAt": "2026-08-20T00:58:03.988Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816546",
+      "eventStartTime": "2026-08-19T23:42:24+00:00",
+      "retrievedAt": "2026-08-20T00:58:03.988Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c6033131d6f6",
+    "slug": "aguada-w-vence-urunday-universitario-w-por-92-a-65-em-lfb-w-c60331",
+    "sportId": "basquete",
+    "title": "Aguada (W) vence Urunday Universitario (W) por 92 a 65 em LFB (W)",
+    "summary": "Aguada (W) superou Urunday Universitario (W) por 92 a 65 em LFB (W).",
+    "content": "Aguada (W) superou Urunday Universitario (W) por 92 a 65 em LFB (W)., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lfb-w"
+    ],
+    "seoTitle": "Aguada (W) vence Urunday Universitario (W) por 92 a 65 em LFB (W)",
+    "seoDescription": "Aguada (W) superou Urunday Universitario (W) por 92 a 65 em LFB (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T00:58:03.985Z",
+    "createdAt": "2026-08-20T00:58:03.985Z",
+    "updatedAt": "2026-08-20T00:58:03.985Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815193",
+      "eventStartTime": "2026-08-19T23:00:00+00:00",
+      "retrievedAt": "2026-08-20T00:58:03.985Z",
+      "feedId": "basquete",
+      "league": "LFB (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c04cfa02f5b8",
+    "slug": "deportivo-ocotal-e-bravos-del-primavera-ficam-no-0-a-0-pela-liga-de-ascenso-c04cfa",
+    "sportId": "futebol",
+    "title": "Deportivo Ocotal e Bravos Del Primavera ficam no 0 a 0 pela Liga de Ascenso",
+    "summary": "Deportivo Ocotal e Bravos Del Primavera empataram por 0 a 0 pela Liga de Ascenso.",
+    "content": "Deportivo Ocotal e Bravos Del Primavera empataram por 0 a 0 pela Liga de Ascenso, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Deportivo Ocotal e Bravos Del Primavera ficam no 0 a 0 pela Liga de",
+    "seoDescription": "Deportivo Ocotal e Bravos Del Primavera empataram por 0 a 0 pela Liga de Ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T00:58:03.978Z",
+    "createdAt": "2026-08-20T00:58:03.978Z",
+    "updatedAt": "2026-08-20T00:58:03.978Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4811375",
+      "eventStartTime": "2026-08-20T00:00:00+00:00",
+      "retrievedAt": "2026-08-20T00:58:03.978Z",
+      "feedId": "futebol",
+      "league": "Liga de Ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d7020ee3a758",
     "slug": "moez-echargui-vence-otto-virtanen-por-2-a-0-em-cancun-d7020e",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-17T08:22:31.108Z",
       "feedId": "beisebol",
       "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-18dfdfaccc94",
-    "slug": "mirra-andreeva-vence-oleksandra-oliynykova-por-2-a-0-em-cincinnati-18dfdf",
-    "sportId": "tenis",
-    "title": "Mirra Andreeva vence Oleksandra Oliynykova por 2 a 0 em Cincinnati",
-    "summary": "Mirra Andreeva superou Oleksandra Oliynykova por 2 a 0 em Cincinnati.",
-    "content": "Mirra Andreeva superou Oleksandra Oliynykova por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Mirra Andreeva vence Oleksandra Oliynykova por 2 a 0 em Cincinnati",
-    "seoDescription": "Mirra Andreeva superou Oleksandra Oliynykova por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T08:22:31.097Z",
-    "createdAt": "2026-08-17T08:22:31.097Z",
-    "updatedAt": "2026-08-17T08:22:31.097Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815097",
-      "eventStartTime": "2026-08-16T15:08:16+00:00",
-      "retrievedAt": "2026-08-17T08:22:31.097Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-815e27837504",
-    "slug": "huehuetecos-fc-supera-chichicasteco-fc-por-4-a-0-pelo-primera-division-815e27",
-    "sportId": "futebol",
-    "title": "Huehuetecos FC supera Chichicasteco FC por 4 a 0 pelo Primera Division",
-    "summary": "Huehuetecos FC venceu Chichicasteco FC por 4 a 0 pelo Primera Division.",
-    "content": "Huehuetecos FC venceu Chichicasteco FC por 4 a 0 pelo Primera Division, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-division"
-    ],
-    "seoTitle": "Huehuetecos FC supera Chichicasteco FC por 4 a 0 pelo Primera Division",
-    "seoDescription": "Huehuetecos FC venceu Chichicasteco FC por 4 a 0 pelo Primera Division.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T08:22:31.000Z",
-    "createdAt": "2026-08-17T08:22:31.000Z",
-    "updatedAt": "2026-08-17T08:22:31.000Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4777104",
-      "eventStartTime": "2026-08-17T01:00:00+00:00",
-      "retrievedAt": "2026-08-17T08:22:31.000Z",
-      "feedId": "futebol",
-      "league": "Primera Division"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3026e20a8773",
-    "slug": "oleksandr-ovcharenko-vence-petros-tsitsipas-por-2-a-0-em-sion-3026e2",
-    "sportId": "tenis",
-    "title": "Oleksandr Ovcharenko vence Petros Tsitsipas por 2 a 0 em Sion",
-    "summary": "Oleksandr Ovcharenko superou Petros Tsitsipas por 2 a 0 em Sion.",
-    "content": "Oleksandr Ovcharenko superou Petros Tsitsipas por 2 a 0 em Sion., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Oleksandr Ovcharenko vence Petros Tsitsipas por 2 a 0 em Sion",
-    "seoDescription": "Oleksandr Ovcharenko superou Petros Tsitsipas por 2 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T07:37:35.938Z",
-    "createdAt": "2026-08-17T07:37:35.938Z",
-    "updatedAt": "2026-08-17T07:37:35.938Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815609",
-      "eventStartTime": "2026-08-16T15:08:23+00:00",
-      "retrievedAt": "2026-08-17T07:37:35.938Z",
-      "feedId": "tenis",
-      "league": "Sion"
     },
     "articleFormat": "result-brief"
   }
