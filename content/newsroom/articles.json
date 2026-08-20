@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-5ae804d6689e",
+    "slug": "minnesota-twins-vence-atlanta-braves-por-6-a-4-na-mlb-5ae804",
+    "sportId": "beisebol",
+    "title": "Minnesota Twins vence Atlanta Braves por 6 a 4 na MLB",
+    "summary": "Minnesota Twins derrotou Atlanta Braves por 6 a 4 na MLB.",
+    "content": "Minnesota Twins derrotou Atlanta Braves por 6 a 4 na MLB, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Minnesota Twins vence Atlanta Braves por 6 a 4 na MLB",
+    "seoDescription": "Minnesota Twins derrotou Atlanta Braves por 6 a 4 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T22:52:16.692Z",
+    "createdAt": "2026-08-20T22:52:16.692Z",
+    "updatedAt": "2026-08-20T22:52:16.692Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614736",
+      "eventStartTime": "2026-08-19T17:40:00+00:00",
+      "retrievedAt": "2026-08-20T22:52:16.692Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-6c5671728d4b",
+    "slug": "stevenson-d-willis-m-vence-hach-verdugo-h-martinez-l-d-por-2-a-1-em-cancun-6c5671",
+    "sportId": "tenis",
+    "title": "Stevenson D./Willis M. vence Hach Verdugo H / Martinez L D por 2 a 1 em Cancun",
+    "summary": "Stevenson D./Willis M. superou Hach Verdugo H / Martinez L D por 2 a 1 em Cancun.",
+    "content": "Stevenson D./Willis M. superou Hach Verdugo H / Martinez L D por 2 a 1 em Cancun., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Stevenson D./Willis M. vence Hach Verdugo H / Martinez L D por 2 a 1",
+    "seoDescription": "Stevenson D./Willis M. superou Hach Verdugo H / Martinez L D por 2 a 1 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T22:52:16.644Z",
+    "createdAt": "2026-08-20T22:52:16.644Z",
+    "updatedAt": "2026-08-20T22:52:16.644Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817026",
+      "eventStartTime": "2026-08-20T21:08:52+00:00",
+      "retrievedAt": "2026-08-20T22:52:16.644Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c0d72cc878a9",
+    "slug": "new-zealand-w-vence-south-sudan-w-por-82-a-74-em-olympic-qualification-w-c0d72c",
+    "sportId": "basquete",
+    "title": "New Zealand (W) vence South Sudan (W) por 82 a 74 em Olympic Qualification (W)",
+    "summary": "New Zealand (W) superou South Sudan (W) por 82 a 74 em Olympic Qualification (W).",
+    "content": "New Zealand (W) superou South Sudan (W) por 82 a 74 em Olympic Qualification (W)., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "olympic-qualification-w"
+    ],
+    "seoTitle": "New Zealand (W) vence South Sudan (W) por 82 a 74 em Olympic",
+    "seoDescription": "New Zealand (W) superou South Sudan (W) por 82 a 74 em Olympic Qualification (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T22:52:16.640Z",
+    "createdAt": "2026-08-20T22:52:16.640Z",
+    "updatedAt": "2026-08-20T22:52:16.640Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817250",
+      "eventStartTime": "2026-08-20T20:45:00+00:00",
+      "retrievedAt": "2026-08-20T22:52:16.640Z",
+      "feedId": "basquete",
+      "league": "Olympic Qualification (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9c539a8353b3",
+    "slug": "gualaceo-sc-supera-cuenca-juniors-por-3-a-0-pelo-serie-b-9c539a",
+    "sportId": "futebol",
+    "title": "Gualaceo SC supera Cuenca Juniors por 3 a 0 pelo Serie B",
+    "summary": "Gualaceo SC venceu Cuenca Juniors por 3 a 0 pelo Serie B.",
+    "content": "Gualaceo SC venceu Cuenca Juniors por 3 a 0 pelo Serie B, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-b"
+    ],
+    "seoTitle": "Gualaceo SC supera Cuenca Juniors por 3 a 0 pelo Serie B",
+    "seoDescription": "Gualaceo SC venceu Cuenca Juniors por 3 a 0 pelo Serie B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T22:52:16.634Z",
+    "createdAt": "2026-08-20T22:52:16.634Z",
+    "updatedAt": "2026-08-20T22:52:16.634Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4676157",
+      "eventStartTime": "2026-08-20T20:30:00+00:00",
+      "retrievedAt": "2026-08-20T22:52:16.634Z",
+      "feedId": "futebol",
+      "league": "Serie B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-840b662de94f",
     "slug": "hsieh-s-ostapenko-j-vence-guo-h-mladenovic-k-por-2-a-0-em-cincinnati-840b66",
     "sportId": "tenis",
@@ -12426,174 +12594,6 @@
       "eventId": "365-4815445",
       "eventStartTime": "2026-08-18T02:20:36+00:00",
       "retrievedAt": "2026-08-18T05:29:26.968Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fbea70a5de56",
-    "slug": "deportivo-san-jose-vence-felix-perez-cardozo-por-93-a-75-em-lnb-fbea70",
-    "sportId": "basquete",
-    "title": "Deportivo San Jose vence Felix Perez Cardozo por 93 a 75 em LNB",
-    "summary": "Deportivo San Jose superou Felix Perez Cardozo por 93 a 75 em LNB.",
-    "content": "Deportivo San Jose superou Felix Perez Cardozo por 93 a 75 em LNB., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Deportivo San Jose vence Felix Perez Cardozo por 93 a 75 em LNB",
-    "seoDescription": "Deportivo San Jose superou Felix Perez Cardozo por 93 a 75 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T05:29:26.965Z",
-    "createdAt": "2026-08-18T05:29:26.965Z",
-    "updatedAt": "2026-08-18T05:29:26.965Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808492",
-      "eventStartTime": "2026-08-17T23:00:00+00:00",
-      "retrievedAt": "2026-08-18T05:29:26.965Z",
-      "feedId": "basquete",
-      "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-84d349ec83f5",
-    "slug": "puebla-supera-pachuca-por-3-a-2-pela-liga-mx-84d349",
-    "sportId": "futebol",
-    "title": "Puebla supera Pachuca por 3 a 2 pela Liga MX",
-    "summary": "Puebla venceu Pachuca por 3 a 2 pela Liga MX.",
-    "content": "Puebla venceu Pachuca por 3 a 2 pela Liga MX, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-mx"
-    ],
-    "seoTitle": "Puebla supera Pachuca por 3 a 2 pela Liga MX",
-    "seoDescription": "Puebla venceu Pachuca por 3 a 2 pela Liga MX.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T05:29:26.949Z",
-    "createdAt": "2026-08-18T05:29:26.949Z",
-    "updatedAt": "2026-08-18T05:29:26.949Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4735728",
-      "eventStartTime": "2026-08-18T03:06:00+00:00",
-      "retrievedAt": "2026-08-18T05:29:26.949Z",
-      "feedId": "futebol",
-      "league": "Liga MX"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-27294bdcefc0",
-    "slug": "philadelphia-phillies-vence-miami-marlins-por-6-a-5-na-mlb-27294b",
-    "sportId": "beisebol",
-    "title": "Philadelphia Phillies vence Miami Marlins por 6 a 5 na MLB",
-    "summary": "Philadelphia Phillies derrotou Miami Marlins por 6 a 5 na MLB.",
-    "content": "Philadelphia Phillies derrotou Miami Marlins por 6 a 5 na MLB, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Philadelphia Phillies vence Miami Marlins por 6 a 5 na MLB",
-    "seoDescription": "Philadelphia Phillies derrotou Miami Marlins por 6 a 5 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T04:59:28.579Z",
-    "createdAt": "2026-08-18T04:59:28.579Z",
-    "updatedAt": "2026-08-18T04:59:28.579Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614784",
-      "eventStartTime": "2026-08-17T22:40:00+00:00",
-      "retrievedAt": "2026-08-18T04:59:28.579Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1d266eb1554d",
-    "slug": "tommy-paul-vence-adolfo-daniel-vallejo-por-2-a-1-em-cincinnati-1d266e",
-    "sportId": "tenis",
-    "title": "Tommy Paul vence Adolfo Daniel Vallejo por 2 a 1 em Cincinnati",
-    "summary": "Tommy Paul superou Adolfo Daniel Vallejo por 2 a 1 em Cincinnati.",
-    "content": "Tommy Paul superou Adolfo Daniel Vallejo por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Tommy Paul vence Adolfo Daniel Vallejo por 2 a 1 em Cincinnati",
-    "seoDescription": "Tommy Paul superou Adolfo Daniel Vallejo por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T04:59:28.570Z",
-    "createdAt": "2026-08-18T04:59:28.570Z",
-    "updatedAt": "2026-08-18T04:59:28.570Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815446",
-      "eventStartTime": "2026-08-18T02:42:34+00:00",
-      "retrievedAt": "2026-08-18T04:59:28.570Z",
       "feedId": "tenis",
       "league": "Cincinnati"
     },
