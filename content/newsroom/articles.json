@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-7c62a00d5375",
+    "slug": "merino-a-zhu-m-vence-basel-v-ribero-f-por-2-a-1-em-sion-7c62a0",
+    "sportId": "tenis",
+    "title": "Merino A./Zhu M. vence Basel V./Ribero F. por 2 a 1 em Sion",
+    "summary": "Merino A./Zhu M. superou Basel V./Ribero F. por 2 a 1 em Sion.",
+    "content": "Merino A./Zhu M. superou Basel V./Ribero F. por 2 a 1 em Sion., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Merino A./Zhu M. vence Basel V./Ribero F. por 2 a 1 em Sion",
+    "seoDescription": "Merino A./Zhu M. superou Basel V./Ribero F. por 2 a 1 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T19:42:35.098Z",
+    "createdAt": "2026-08-20T19:42:35.098Z",
+    "updatedAt": "2026-08-20T19:42:35.098Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819144",
+      "eventStartTime": "2026-08-20T16:09:40+00:00",
+      "retrievedAt": "2026-08-20T19:42:35.098Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-abcdb0840c41",
+    "slug": "bosnia-herzegovina-vence-poland-por-69-a-60-em-international-friendlies-abcdb0",
+    "sportId": "basquete",
+    "title": "Bosnia & Herzegovina vence Poland por 69 a 60 em International Friendlies",
+    "summary": "Bosnia & Herzegovina superou Poland por 69 a 60 em International Friendlies.",
+    "content": "Bosnia & Herzegovina superou Poland por 69 a 60 em International Friendlies., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendlies"
+    ],
+    "seoTitle": "Bosnia & Herzegovina vence Poland por 69 a 60 em International",
+    "seoDescription": "Bosnia & Herzegovina superou Poland por 69 a 60 em International Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T19:42:35.082Z",
+    "createdAt": "2026-08-20T19:42:35.082Z",
+    "updatedAt": "2026-08-20T19:42:35.082Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819699",
+      "eventStartTime": "2026-08-20T17:00:00+00:00",
+      "retrievedAt": "2026-08-20T19:42:35.082Z",
+      "feedId": "basquete",
+      "league": "International Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-dd6c54490361",
+    "slug": "baltika-e-dynamo-makhachkala-ficam-no-1-a-1-pelo-cup-dd6c54",
+    "sportId": "futebol",
+    "title": "Baltika e Dynamo Makhachkala ficam no 1 a 1 pelo Cup",
+    "summary": "Baltika e Dynamo Makhachkala empataram por 1 a 1 pelo Cup.",
+    "content": "Baltika e Dynamo Makhachkala empataram por 1 a 1 pelo Cup, em 20 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "cup"
+    ],
+    "seoTitle": "Baltika e Dynamo Makhachkala ficam no 1 a 1 pelo Cup",
+    "seoDescription": "Baltika e Dynamo Makhachkala empataram por 1 a 1 pelo Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T19:42:35.074Z",
+    "createdAt": "2026-08-20T19:42:35.074Z",
+    "updatedAt": "2026-08-20T19:42:35.074Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4745342",
+      "eventStartTime": "2026-08-20T17:45:00+00:00",
+      "retrievedAt": "2026-08-20T19:42:35.074Z",
+      "feedId": "futebol",
+      "league": "Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-aa314d4178e3",
     "slug": "marcondes-i-zormann-m-vence-kim-a-martin-d-por-2-a-0-em-kingston-aa314d",
     "sportId": "tenis",
@@ -12468,132 +12594,6 @@
       "eventId": "365-4816947",
       "eventStartTime": "2026-08-18T00:41:23+00:00",
       "retrievedAt": "2026-08-18T02:15:00.198Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-505a64c78571",
-    "slug": "leones-de-quilpue-vence-universidad-catolica-por-79-a-76-em-lnb-505a64",
-    "sportId": "basquete",
-    "title": "Leones De Quilpué vence Universidad Católica por 79 a 76 em LNB",
-    "summary": "Leones De Quilpué superou Universidad Católica por 79 a 76 em LNB.",
-    "content": "Leones De Quilpué superou Universidad Católica por 79 a 76 em LNB., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Leones De Quilpué vence Universidad Católica por 79 a 76 em LNB",
-    "seoDescription": "Leones De Quilpué superou Universidad Católica por 79 a 76 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T02:15:00.194Z",
-    "createdAt": "2026-08-18T02:15:00.194Z",
-    "updatedAt": "2026-08-18T02:15:00.194Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816206",
-      "eventStartTime": "2026-08-18T00:00:00+00:00",
-      "retrievedAt": "2026-08-18T02:15:00.194Z",
-      "feedId": "basquete",
-      "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-61a6dbc8dd17",
-    "slug": "toluca-w-e-atlas-w-ficam-no-1-a-1-pelo-mexico-61a6db",
-    "sportId": "futebol",
-    "title": "Toluca (W) e Atlas (W) ficam no 1 a 1 pelo Mexico",
-    "summary": "Toluca (W) e Atlas (W) empataram por 1 a 1 pelo Mexico.",
-    "content": "Toluca (W) e Atlas (W) empataram por 1 a 1 pelo Mexico, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mexico"
-    ],
-    "seoTitle": "Toluca (W) e Atlas (W) ficam no 1 a 1 pelo Mexico",
-    "seoDescription": "Toluca (W) e Atlas (W) empataram por 1 a 1 pelo Mexico.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T02:15:00.188Z",
-    "createdAt": "2026-08-18T02:15:00.188Z",
-    "updatedAt": "2026-08-18T02:15:00.188Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4788415",
-      "eventStartTime": "2026-08-18T00:00:00+00:00",
-      "retrievedAt": "2026-08-18T02:15:00.188Z",
-      "feedId": "futebol",
-      "league": "Mexico"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-62852e50c22d",
-    "slug": "kempen-m-panova-a-vence-hunter-s-krawczyk-d-por-2-a-0-em-cincinnati-62852e",
-    "sportId": "tenis",
-    "title": "Kempen M./Panova A. vence Hunter S./Krawczyk D. por 2 a 0 em Cincinnati",
-    "summary": "Kempen M./Panova A. superou Hunter S./Krawczyk D. por 2 a 0 em Cincinnati.",
-    "content": "Kempen M./Panova A. superou Hunter S./Krawczyk D. por 2 a 0 em Cincinnati., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Kempen M./Panova A. vence Hunter S./Krawczyk D. por 2 a 0 em",
-    "seoDescription": "Kempen M./Panova A. superou Hunter S./Krawczyk D. por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T00:58:47.312Z",
-    "createdAt": "2026-08-18T00:58:47.312Z",
-    "updatedAt": "2026-08-18T00:58:47.312Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815104",
-      "eventStartTime": "2026-08-17T23:30:02+00:00",
-      "retrievedAt": "2026-08-18T00:58:47.312Z",
       "feedId": "tenis",
       "league": "Cincinnati"
     },
