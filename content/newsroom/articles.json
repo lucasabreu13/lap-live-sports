@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-55bc3b5d639b",
+    "slug": "new-york-mets-vence-san-diego-padres-por-4-a-2-na-mlb-55bc3b",
+    "sportId": "beisebol",
+    "title": "New York Mets vence San Diego Padres por 4 a 2 na MLB",
+    "summary": "New York Mets derrotou San Diego Padres por 4 a 2 na MLB.",
+    "content": "New York Mets derrotou San Diego Padres por 4 a 2 na MLB, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "New York Mets vence San Diego Padres por 4 a 2 na MLB",
+    "seoDescription": "New York Mets derrotou San Diego Padres por 4 a 2 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T21:04:02.577Z",
+    "createdAt": "2026-08-20T21:04:02.577Z",
+    "updatedAt": "2026-08-20T21:04:02.577Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614694",
+      "eventStartTime": "2026-08-19T17:10:00+00:00",
+      "retrievedAt": "2026-08-20T21:04:02.577Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ef7572de4d0d",
+    "slug": "alexei-popyrin-e-hugo-gaston-empatam-por-0-a-0-em-quebec-city-ef7572",
+    "sportId": "tenis",
+    "title": "Alexei Popyrin e Hugo Gaston empatam por 0 a 0 em Quebec City",
+    "summary": "Alexei Popyrin e Hugo Gaston terminaram empatados por 0 a 0 em Quebec City.",
+    "content": "Alexei Popyrin e Hugo Gaston terminaram empatados por 0 a 0 em Quebec City., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Alexei Popyrin e Hugo Gaston empatam por 0 a 0 em Quebec City",
+    "seoDescription": "Alexei Popyrin e Hugo Gaston terminaram empatados por 0 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T21:04:02.551Z",
+    "createdAt": "2026-08-20T21:04:02.551Z",
+    "updatedAt": "2026-08-20T21:04:02.551Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818725",
+      "eventStartTime": "2026-08-20T20:20:40+00:00",
+      "retrievedAt": "2026-08-20T21:04:02.551Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8c3df2fd02b6",
+    "slug": "brazil-w-vence-argentina-w-por-58-a-53-em-olympic-qualification-w-8c3df2",
+    "sportId": "basquete",
+    "title": "Brazil (W) vence Argentina (W) por 58 a 53 em Olympic Qualification (W)",
+    "summary": "Brazil (W) superou Argentina (W) por 58 a 53 em Olympic Qualification (W).",
+    "content": "Brazil (W) superou Argentina (W) por 58 a 53 em Olympic Qualification (W)., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "olympic-qualification-w"
+    ],
+    "seoTitle": "Brazil (W) vence Argentina (W) por 58 a 53 em Olympic Qualification",
+    "seoDescription": "Brazil (W) superou Argentina (W) por 58 a 53 em Olympic Qualification (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T21:04:02.549Z",
+    "createdAt": "2026-08-20T21:04:02.549Z",
+    "updatedAt": "2026-08-20T21:04:02.549Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817249",
+      "eventStartTime": "2026-08-20T18:00:00+00:00",
+      "retrievedAt": "2026-08-20T21:04:02.549Z",
+      "feedId": "basquete",
+      "league": "Olympic Qualification (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e8c5be4ca85d",
+    "slug": "atletico-fc-supera-cumbaya-por-3-a-0-pelo-serie-b-e8c5be",
+    "sportId": "futebol",
+    "title": "Atlético FC supera Cumbaya por 3 a 0 pelo Serie B",
+    "summary": "Atlético FC venceu Cumbaya por 3 a 0 pelo Serie B.",
+    "content": "Atlético FC venceu Cumbaya por 3 a 0 pelo Serie B, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-b"
+    ],
+    "seoTitle": "Atlético FC supera Cumbaya por 3 a 0 pelo Serie B",
+    "seoDescription": "Atlético FC venceu Cumbaya por 3 a 0 pelo Serie B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T21:04:02.545Z",
+    "createdAt": "2026-08-20T21:04:02.545Z",
+    "updatedAt": "2026-08-20T21:04:02.545Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4677395",
+      "eventStartTime": "2026-08-20T19:00:00+00:00",
+      "retrievedAt": "2026-08-20T21:04:02.545Z",
+      "feedId": "futebol",
+      "league": "Serie B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7b8c4fc274a2",
     "slug": "rodrigo-pacheco-mendez-vence-tomas-barrios-vera-por-2-a-0-em-cancun-7b8c4f",
     "sportId": "tenis",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-18T03:55:22.317Z",
       "feedId": "futebol",
       "league": "Liga MX"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0f31a4464495",
-    "slug": "kansas-city-royals-vence-athletics-por-9-a-5-na-mlb-0f31a4",
-    "sportId": "beisebol",
-    "title": "Kansas City Royals vence Athletics por 9 a 5 na MLB",
-    "summary": "Kansas City Royals derrotou Athletics por 9 a 5 na MLB.",
-    "content": "Kansas City Royals derrotou Athletics por 9 a 5 na MLB, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Kansas City Royals vence Athletics por 9 a 5 na MLB",
-    "seoDescription": "Kansas City Royals derrotou Athletics por 9 a 5 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T03:09:25.988Z",
-    "createdAt": "2026-08-18T03:09:25.988Z",
-    "updatedAt": "2026-08-18T03:09:25.988Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614634",
-      "eventStartTime": "2026-08-17T23:40:00+00:00",
-      "retrievedAt": "2026-08-18T03:09:25.988Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0a623e4c9472",
-    "slug": "lloyd-harris-vence-abdullah-shelbayh-por-2-a-0-em-cancun-0a623e",
-    "sportId": "tenis",
-    "title": "Lloyd Harris vence Abdullah Shelbayh por 2 a 0 em Cancun",
-    "summary": "Lloyd Harris superou Abdullah Shelbayh por 2 a 0 em Cancun.",
-    "content": "Lloyd Harris superou Abdullah Shelbayh por 2 a 0 em Cancun., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cancun"
-    ],
-    "seoTitle": "Lloyd Harris vence Abdullah Shelbayh por 2 a 0 em Cancun",
-    "seoDescription": "Lloyd Harris superou Abdullah Shelbayh por 2 a 0 em Cancun.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T03:09:25.985Z",
-    "createdAt": "2026-08-18T03:09:25.985Z",
-    "updatedAt": "2026-08-18T03:09:25.985Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816157",
-      "eventStartTime": "2026-08-18T01:57:01+00:00",
-      "retrievedAt": "2026-08-18T03:09:25.985Z",
-      "feedId": "tenis",
-      "league": "Cancun"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e60ca041b3e2",
-    "slug": "cd-valdivia-vence-las-animas-por-90-a-58-em-lnb-e60ca0",
-    "sportId": "basquete",
-    "title": "CD Valdivia vence Las Animas por 90 a 58 em LNB",
-    "summary": "CD Valdivia superou Las Animas por 90 a 58 em LNB.",
-    "content": "CD Valdivia superou Las Animas por 90 a 58 em LNB., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "CD Valdivia vence Las Animas por 90 a 58 em LNB",
-    "seoDescription": "CD Valdivia superou Las Animas por 90 a 58 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T03:09:25.981Z",
-    "createdAt": "2026-08-18T03:09:25.981Z",
-    "updatedAt": "2026-08-18T03:09:25.981Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4812228",
-      "eventStartTime": "2026-08-18T00:30:00+00:00",
-      "retrievedAt": "2026-08-18T03:09:25.981Z",
-      "feedId": "basquete",
-      "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1e591ec95a6b",
-    "slug": "monterrey-w-supera-santos-laguna-w-por-4-a-1-pelo-mexico-1e591e",
-    "sportId": "futebol",
-    "title": "Monterrey (W) supera Santos Laguna (W) por 4 a 1 pelo Mexico",
-    "summary": "Monterrey (W) venceu Santos Laguna (W) por 4 a 1 pelo Mexico.",
-    "content": "Monterrey (W) venceu Santos Laguna (W) por 4 a 1 pelo Mexico, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mexico"
-    ],
-    "seoTitle": "Monterrey (W) supera Santos Laguna (W) por 4 a 1 pelo Mexico",
-    "seoDescription": "Monterrey (W) venceu Santos Laguna (W) por 4 a 1 pelo Mexico.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T03:09:25.975Z",
-    "createdAt": "2026-08-18T03:09:25.975Z",
-    "updatedAt": "2026-08-18T03:09:25.975Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4788416",
-      "eventStartTime": "2026-08-18T01:06:00+00:00",
-      "retrievedAt": "2026-08-18T03:09:25.975Z",
-      "feedId": "futebol",
-      "league": "Mexico"
     },
     "articleFormat": "result-brief"
   }
