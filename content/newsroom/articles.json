@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-81f46b7a581f",
+    "slug": "arizona-diamondbacks-vence-boston-red-sox-por-7-a-6-na-mlb-81f46b",
+    "sportId": "beisebol",
+    "title": "Arizona Diamondbacks vence Boston Red Sox por 7 a 6 na MLB",
+    "summary": "Arizona Diamondbacks derrotou Boston Red Sox por 7 a 6 na MLB.",
+    "content": "Arizona Diamondbacks derrotou Boston Red Sox por 7 a 6 na MLB, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Arizona Diamondbacks vence Boston Red Sox por 7 a 6 na MLB",
+    "seoDescription": "Arizona Diamondbacks derrotou Boston Red Sox por 7 a 6 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T03:56:41.334Z",
+    "createdAt": "2026-08-20T03:56:41.334Z",
+    "updatedAt": "2026-08-20T03:56:41.334Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614813",
+      "eventStartTime": "2026-08-19T20:10:00+00:00",
+      "retrievedAt": "2026-08-20T03:56:41.334Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8d9250313d7d",
+    "slug": "alan-magadan-vence-alex-hernandez-por-2-a-1-em-cancun-8d9250",
+    "sportId": "tenis",
+    "title": "Alan Magadan vence Alex Hernandez por 2 a 1 em Cancun",
+    "summary": "Alan Magadan superou Alex Hernandez por 2 a 1 em Cancun.",
+    "content": "Alan Magadan superou Alex Hernandez por 2 a 1 em Cancun., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Alan Magadan vence Alex Hernandez por 2 a 1 em Cancun",
+    "seoDescription": "Alan Magadan superou Alex Hernandez por 2 a 1 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T03:56:41.320Z",
+    "createdAt": "2026-08-20T03:56:41.320Z",
+    "updatedAt": "2026-08-20T03:56:41.320Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818859",
+      "eventStartTime": "2026-08-20T01:16:17+00:00",
+      "retrievedAt": "2026-08-20T03:56:41.320Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f357bdbb4491",
+    "slug": "cuenca-basket-vence-abc-camp-imp-alvarado-por-72-a-70-em-liga-nacional-f357bd",
+    "sportId": "basquete",
+    "title": "Cuenca Basket vence ABC CAMP - Imp. Alvarado por 72 a 70 em Liga Nacional",
+    "summary": "Cuenca Basket superou ABC CAMP - Imp. Alvarado por 72 a 70 em Liga Nacional.",
+    "content": "Cuenca Basket superou ABC CAMP - Imp. Alvarado por 72 a 70 em Liga Nacional., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-nacional"
+    ],
+    "seoTitle": "Cuenca Basket vence ABC CAMP - Imp. Alvarado por 72 a 70 em Liga",
+    "seoDescription": "Cuenca Basket superou ABC CAMP - Imp. Alvarado por 72 a 70 em Liga Nacional.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T03:56:41.311Z",
+    "createdAt": "2026-08-20T03:56:41.311Z",
+    "updatedAt": "2026-08-20T03:56:41.311Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818424",
+      "eventStartTime": "2026-08-20T00:30:00+00:00",
+      "retrievedAt": "2026-08-20T03:56:41.311Z",
+      "feedId": "basquete",
+      "league": "Liga Nacional"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-29addb8bb7d4",
+    "slug": "deportivo-mictlan-supera-deportivo-sayaxche-por-2-a-0-pelo-primera-division-29addb",
+    "sportId": "futebol",
+    "title": "Deportivo Mictlan supera Deportivo Sayaxche por 2 a 0 pelo Primera Division",
+    "summary": "Deportivo Mictlan venceu Deportivo Sayaxche por 2 a 0 pelo Primera Division.",
+    "content": "Deportivo Mictlan venceu Deportivo Sayaxche por 2 a 0 pelo Primera Division, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-division"
+    ],
+    "seoTitle": "Deportivo Mictlan supera Deportivo Sayaxche por 2 a 0 pelo Primera",
+    "seoDescription": "Deportivo Mictlan venceu Deportivo Sayaxche por 2 a 0 pelo Primera Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T03:56:41.303Z",
+    "createdAt": "2026-08-20T03:56:41.303Z",
+    "updatedAt": "2026-08-20T03:56:41.303Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4777091",
+      "eventStartTime": "2026-08-20T02:00:00+00:00",
+      "retrievedAt": "2026-08-20T03:56:41.303Z",
+      "feedId": "futebol",
+      "league": "Primera Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-88572b2535d2",
     "slug": "lorenzo-musetti-vence-jaime-faria-por-2-a-0-em-cincinnati-88572b",
     "sportId": "tenis",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-17T10:53:45.373Z",
       "feedId": "beisebol",
       "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-cd726b9647b2",
-    "slug": "gerard-campana-lee-e-theo-papamalamis-empatam-por-0-a-0-em-sion-cd726b",
-    "sportId": "tenis",
-    "title": "Gerard Campana Lee e Theo Papamalamis empatam por 0 a 0 em Sion",
-    "summary": "Gerard Campana Lee e Theo Papamalamis terminaram empatados por 0 a 0 em Sion.",
-    "content": "Gerard Campana Lee e Theo Papamalamis terminaram empatados por 0 a 0 em Sion., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Gerard Campana Lee e Theo Papamalamis empatam por 0 a 0 em Sion",
-    "seoDescription": "Gerard Campana Lee e Theo Papamalamis terminaram empatados por 0 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T10:53:45.368Z",
-    "createdAt": "2026-08-17T10:53:45.368Z",
-    "updatedAt": "2026-08-17T10:53:45.368Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815635",
-      "eventStartTime": "2026-08-17T08:08:32+00:00",
-      "retrievedAt": "2026-08-17T10:53:45.368Z",
-      "feedId": "tenis",
-      "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5d36f7904c1d",
-    "slug": "unan-managua-supera-jalapa-art-por-2-a-1-pelo-first-division-5d36f7",
-    "sportId": "futebol",
-    "title": "UNAN Managua supera Jalapa Art por 2 a 1 pelo First Division",
-    "summary": "UNAN Managua venceu Jalapa Art por 2 a 1 pelo First Division.",
-    "content": "UNAN Managua venceu Jalapa Art por 2 a 1 pelo First Division, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "first-division"
-    ],
-    "seoTitle": "UNAN Managua supera Jalapa Art por 2 a 1 pelo First Division",
-    "seoDescription": "UNAN Managua venceu Jalapa Art por 2 a 1 pelo First Division.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T10:53:45.320Z",
-    "createdAt": "2026-08-17T10:53:45.320Z",
-    "updatedAt": "2026-08-17T10:53:45.320Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4763055",
-      "eventStartTime": "2026-08-17T00:00:00+00:00",
-      "retrievedAt": "2026-08-17T10:53:45.320Z",
-      "feedId": "futebol",
-      "league": "First Division"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7c44980118cf",
-    "slug": "alex-marti-pujolras-vence-lorenzo-bocchi-por-2-a-0-em-sion-7c4498",
-    "sportId": "tenis",
-    "title": "Alex Marti Pujolras vence Lorenzo Bocchi por 2 a 0 em Sion",
-    "summary": "Alex Marti Pujolras superou Lorenzo Bocchi por 2 a 0 em Sion.",
-    "content": "Alex Marti Pujolras superou Lorenzo Bocchi por 2 a 0 em Sion., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Alex Marti Pujolras vence Lorenzo Bocchi por 2 a 0 em Sion",
-    "seoDescription": "Alex Marti Pujolras superou Lorenzo Bocchi por 2 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T10:21:02.358Z",
-    "createdAt": "2026-08-17T10:21:02.358Z",
-    "updatedAt": "2026-08-17T10:21:02.358Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815661",
-      "eventStartTime": "2026-08-17T08:09:38+00:00",
-      "retrievedAt": "2026-08-17T10:21:02.358Z",
-      "feedId": "tenis",
-      "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4043a9472425",
-    "slug": "deportes-iquique-e-deportes-antofagasta-ficam-no-1-a-1-pelo-primera-b-4043a9",
-    "sportId": "futebol",
-    "title": "Deportes Iquique e Deportes Antofagasta ficam no 1 a 1 pelo Primera B",
-    "summary": "Deportes Iquique e Deportes Antofagasta empataram por 1 a 1 pelo Primera B.",
-    "content": "Deportes Iquique e Deportes Antofagasta empataram por 1 a 1 pelo Primera B, em 16 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-b"
-    ],
-    "seoTitle": "Deportes Iquique e Deportes Antofagasta ficam no 1 a 1 pelo Primera B",
-    "seoDescription": "Deportes Iquique e Deportes Antofagasta empataram por 1 a 1 pelo Primera B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T10:21:02.324Z",
-    "createdAt": "2026-08-17T10:21:02.324Z",
-    "updatedAt": "2026-08-17T10:21:02.324Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4656618",
-      "eventStartTime": "2026-08-17T00:00:00+00:00",
-      "retrievedAt": "2026-08-17T10:21:02.324Z",
-      "feedId": "futebol",
-      "league": "Primera B"
     },
     "articleFormat": "result-brief"
   }
