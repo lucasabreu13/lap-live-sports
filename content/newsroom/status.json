@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-08-20T21:58:52.821Z",
-  "commit": "96713e4125705277e5c7968f5d8617c634161822",
-  "runId": "32422074326",
+  "validatedAt": "2026-08-20T22:26:31.482Z",
+  "commit": "66ae5d26e2961cbbddf35b9c0ed56e68e1df063f",
+  "runId": "32424237439",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -20,14 +20,14 @@
     "curatedArticles": 25,
     "curatedFiles": 5,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-08-20T21:58:52.469Z",
+    "lastPublishedAt": "2026-08-20T22:26:31.095Z",
     "lastPublishedBySport": {
-      "futebol": "2026-08-20T21:58:52.410Z",
+      "futebol": "2026-08-20T22:26:31.075Z",
       "futebol-americano": null,
-      "tenis": "2026-08-20T21:58:52.443Z",
+      "tenis": "2026-08-20T22:26:31.095Z",
       "ciclismo": null,
       "formula1": null,
-      "basquete": "2026-08-20T21:40:08.215Z",
+      "basquete": "2026-08-20T22:26:31.089Z",
       "beisebol": "2026-08-20T21:58:52.469Z",
       "golfe": null,
       "surfe": null
@@ -40,7 +40,7 @@
         "futebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-20T21:58:52.410Z"
+          "lastPublishedAt": "2026-08-20T22:26:31.075Z"
         },
         "futebol-americano": {
           "status": "critical",
@@ -50,7 +50,7 @@
         "tenis": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-20T21:58:52.443Z"
+          "lastPublishedAt": "2026-08-20T22:26:31.095Z"
         },
         "ciclismo": {
           "status": "critical",
@@ -64,12 +64,12 @@
         },
         "basquete": {
           "status": "ok",
-          "ageHours": 0.3,
-          "lastPublishedAt": "2026-08-20T21:40:08.215Z"
+          "ageHours": 0,
+          "lastPublishedAt": "2026-08-20T22:26:31.089Z"
         },
         "beisebol": {
           "status": "ok",
-          "ageHours": 0,
+          "ageHours": 0.5,
           "lastPublishedAt": "2026-08-20T21:58:52.469Z"
         },
         "golfe": {

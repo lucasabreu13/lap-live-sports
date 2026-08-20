@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-840b662de94f",
+    "slug": "hsieh-s-ostapenko-j-vence-guo-h-mladenovic-k-por-2-a-0-em-cincinnati-840b66",
+    "sportId": "tenis",
+    "title": "Hsieh.S/Ostapenko J. vence Guo H./Mladenovic K. por 2 a 0 em Cincinnati",
+    "summary": "Hsieh.S/Ostapenko J. superou Guo H./Mladenovic K. por 2 a 0 em Cincinnati.",
+    "content": "Hsieh.S/Ostapenko J. superou Guo H./Mladenovic K. por 2 a 0 em Cincinnati., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Hsieh.S/Ostapenko J. vence Guo H./Mladenovic K. por 2 a 0 em",
+    "seoDescription": "Hsieh.S/Ostapenko J. superou Guo H./Mladenovic K. por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T22:26:31.095Z",
+    "createdAt": "2026-08-20T22:26:31.095Z",
+    "updatedAt": "2026-08-20T22:26:31.095Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819513",
+      "eventStartTime": "2026-08-20T19:11:52+00:00",
+      "retrievedAt": "2026-08-20T22:26:31.095Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8b732ef031f9",
+    "slug": "minnesota-lynx-vence-golden-state-valkyries-por-77-a-66-em-wnba-8b732e",
+    "sportId": "basquete",
+    "title": "Minnesota Lynx vence Golden State Valkyries por 77 a 66 em WNBA",
+    "summary": "Minnesota Lynx superou Golden State Valkyries por 77 a 66 em WNBA.",
+    "content": "Minnesota Lynx superou Golden State Valkyries por 77 a 66 em WNBA., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Minnesota Lynx vence Golden State Valkyries por 77 a 66 em WNBA",
+    "seoDescription": "Minnesota Lynx superou Golden State Valkyries por 77 a 66 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T22:26:31.089Z",
+    "createdAt": "2026-08-20T22:26:31.089Z",
+    "updatedAt": "2026-08-20T22:26:31.089Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659891",
+      "eventStartTime": "2026-08-20T02:00:00+00:00",
+      "retrievedAt": "2026-08-20T22:26:31.089Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9d04e6977a43",
+    "slug": "independiente-juniors-e-el-nacional-ficam-no-1-a-1-pelo-serie-b-9d04e6",
+    "sportId": "futebol",
+    "title": "Independiente Juniors e El Nacional ficam no 1 a 1 pelo Serie B",
+    "summary": "Independiente Juniors e El Nacional empataram por 1 a 1 pelo Serie B.",
+    "content": "Independiente Juniors e El Nacional empataram por 1 a 1 pelo Serie B, em 20 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-b"
+    ],
+    "seoTitle": "Independiente Juniors e El Nacional ficam no 1 a 1 pelo Serie B",
+    "seoDescription": "Independiente Juniors e El Nacional empataram por 1 a 1 pelo Serie B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T22:26:31.075Z",
+    "createdAt": "2026-08-20T22:26:31.075Z",
+    "updatedAt": "2026-08-20T22:26:31.075Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4676155",
+      "eventStartTime": "2026-08-20T20:30:00+00:00",
+      "retrievedAt": "2026-08-20T22:26:31.075Z",
+      "feedId": "futebol",
+      "league": "Serie B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-a6d28633c8e6",
     "slug": "los-angeles-dodgers-vence-colorado-rockies-por-6-a-4-na-mlb-a6d286",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T04:59:28.570Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-12464bf551a2",
-    "slug": "mexico-w-vence-philippines-w-por-61-a-58-em-olympic-qualification-w-12464b",
-    "sportId": "basquete",
-    "title": "Mexico (W) vence Philippines (W) por 61 a 58 em Olympic Qualification (W)",
-    "summary": "Mexico (W) superou Philippines (W) por 61 a 58 em Olympic Qualification (W).",
-    "content": "Mexico (W) superou Philippines (W) por 61 a 58 em Olympic Qualification (W)., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "olympic-qualification-w"
-    ],
-    "seoTitle": "Mexico (W) vence Philippines (W) por 61 a 58 em Olympic Qualification",
-    "seoDescription": "Mexico (W) superou Philippines (W) por 61 a 58 em Olympic Qualification (W).",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T04:59:28.566Z",
-    "createdAt": "2026-08-18T04:59:28.566Z",
-    "updatedAt": "2026-08-18T04:59:28.566Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816708",
-      "eventStartTime": "2026-08-18T02:30:00+00:00",
-      "retrievedAt": "2026-08-18T04:59:28.566Z",
-      "feedId": "basquete",
-      "league": "Olympic Qualification (W)"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-eb17f62081ac",
-    "slug": "cd-arabe-unido-supera-tauro-fc-por-1-a-0-pelo-lpf-eb17f6",
-    "sportId": "futebol",
-    "title": "CD Árabe Unido supera Tauro FC por 1 a 0 pelo Lpf",
-    "summary": "CD Árabe Unido venceu Tauro FC por 1 a 0 pelo Lpf.",
-    "content": "CD Árabe Unido venceu Tauro FC por 1 a 0 pelo Lpf, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "lpf"
-    ],
-    "seoTitle": "CD Árabe Unido supera Tauro FC por 1 a 0 pelo Lpf",
-    "seoDescription": "CD Árabe Unido venceu Tauro FC por 1 a 0 pelo Lpf.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T04:59:28.560Z",
-    "createdAt": "2026-08-18T04:59:28.560Z",
-    "updatedAt": "2026-08-18T04:59:28.560Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4773296",
-      "eventStartTime": "2026-08-18T01:00:00+00:00",
-      "retrievedAt": "2026-08-18T04:59:28.560Z",
-      "feedId": "futebol",
-      "league": "Lpf"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4d787bcdd901",
-    "slug": "minnesota-twins-vence-atlanta-braves-por-4-a-2-na-mlb-4d787b",
-    "sportId": "beisebol",
-    "title": "Minnesota Twins vence Atlanta Braves por 4 a 2 na MLB",
-    "summary": "Minnesota Twins derrotou Atlanta Braves por 4 a 2 na MLB.",
-    "content": "Minnesota Twins derrotou Atlanta Braves por 4 a 2 na MLB, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Minnesota Twins vence Atlanta Braves por 4 a 2 na MLB",
-    "seoDescription": "Minnesota Twins derrotou Atlanta Braves por 4 a 2 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T04:24:16.784Z",
-    "createdAt": "2026-08-18T04:24:16.784Z",
-    "updatedAt": "2026-08-18T04:24:16.784Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614792",
-      "eventStartTime": "2026-08-17T23:40:00+00:00",
-      "retrievedAt": "2026-08-18T04:24:16.784Z",
-      "feedId": "beisebol",
-      "league": "MLB"
     },
     "articleFormat": "result-brief"
   }
