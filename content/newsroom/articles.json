@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-113552fad7a0",
+    "slug": "gauthier-onclin-vence-timofey-skatov-por-2-a-1-em-cancun-113552",
+    "sportId": "tenis",
+    "title": "Gauthier Onclin vence Timofey Skatov por 2 a 1 em Cancun",
+    "summary": "Gauthier Onclin superou Timofey Skatov por 2 a 1 em Cancun.",
+    "content": "Gauthier Onclin superou Timofey Skatov por 2 a 1 em Cancun., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Gauthier Onclin vence Timofey Skatov por 2 a 1 em Cancun",
+    "seoDescription": "Gauthier Onclin superou Timofey Skatov por 2 a 1 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T14:06:12.884Z",
+    "createdAt": "2026-08-20T14:06:12.884Z",
+    "updatedAt": "2026-08-20T14:06:12.884Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818858",
+      "eventStartTime": "2026-08-19T22:56:45+00:00",
+      "retrievedAt": "2026-08-20T14:06:12.884Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-53b2854dad95",
+    "slug": "el-dakhleya-fc-e-mega-sport-ficam-no-0-a-0-pelo-2nd-division-53b285",
+    "sportId": "futebol",
+    "title": "El Dakhleya FC e Mega Sport ficam no 0 a 0 pelo 2nd Division",
+    "summary": "El Dakhleya FC e Mega Sport empataram por 0 a 0 pelo 2nd Division.",
+    "content": "El Dakhleya FC e Mega Sport empataram por 0 a 0 pelo 2nd Division, em 20 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "2nd-division"
+    ],
+    "seoTitle": "El Dakhleya FC e Mega Sport ficam no 0 a 0 pelo 2nd Division",
+    "seoDescription": "El Dakhleya FC e Mega Sport empataram por 0 a 0 pelo 2nd Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T14:06:12.835Z",
+    "createdAt": "2026-08-20T14:06:12.835Z",
+    "updatedAt": "2026-08-20T14:06:12.835Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4769599",
+      "eventStartTime": "2026-08-20T13:30:00+00:00",
+      "retrievedAt": "2026-08-20T14:06:12.835Z",
+      "feedId": "futebol",
+      "league": "2nd Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-c6a7c53ba3e6",
     "slug": "paulson-a-vliegen-j-vence-barton-h-vrbensky-m-por-2-a-1-em-prague-c6a7c5",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-17T20:49:57.439Z",
       "feedId": "basquete",
       "league": "Olympic Qualification (W)"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0ed50940b692",
-    "slug": "cremonese-supera-sampdoria-por-2-a-0-pelo-coppa-italia-0ed509",
-    "sportId": "futebol",
-    "title": "Cremonese supera Sampdoria por 2 a 0 pelo Coppa Italia",
-    "summary": "Cremonese venceu Sampdoria por 2 a 0 pelo Coppa Italia.",
-    "content": "Cremonese venceu Sampdoria por 2 a 0 pelo Coppa Italia, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "coppa-italia"
-    ],
-    "seoTitle": "Cremonese supera Sampdoria por 2 a 0 pelo Coppa Italia",
-    "seoDescription": "Cremonese venceu Sampdoria por 2 a 0 pelo Coppa Italia.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T20:49:57.436Z",
-    "createdAt": "2026-08-17T20:49:57.436Z",
-    "updatedAt": "2026-08-17T20:49:57.436Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4747425",
-      "eventStartTime": "2026-08-17T18:45:00+00:00",
-      "retrievedAt": "2026-08-17T20:49:57.436Z",
-      "feedId": "futebol",
-      "league": "Coppa Italia"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-504a3efb771d",
-    "slug": "diana-shnaider-e-maja-chwalinska-empatam-por-0-a-0-em-cincinnati-504a3e",
-    "sportId": "tenis",
-    "title": "Diana Shnaider e Maja Chwalinska empatam por 0 a 0 em Cincinnati",
-    "summary": "Diana Shnaider e Maja Chwalinska terminaram empatados por 0 a 0 em Cincinnati.",
-    "content": "Diana Shnaider e Maja Chwalinska terminaram empatados por 0 a 0 em Cincinnati., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Diana Shnaider e Maja Chwalinska empatam por 0 a 0 em Cincinnati",
-    "seoDescription": "Diana Shnaider e Maja Chwalinska terminaram empatados por 0 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T20:19:13.280Z",
-    "createdAt": "2026-08-17T20:19:13.280Z",
-    "updatedAt": "2026-08-17T20:19:13.280Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815436",
-      "eventStartTime": "2026-08-17T19:08:39+00:00",
-      "retrievedAt": "2026-08-17T20:19:13.280Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
