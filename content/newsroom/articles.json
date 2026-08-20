@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-aa314d4178e3",
+    "slug": "marcondes-i-zormann-m-vence-kim-a-martin-d-por-2-a-0-em-kingston-aa314d",
+    "sportId": "tenis",
+    "title": "Marcondes I./Zormann M. vence Kim A./Martin D. por 2 a 0 em Kingston",
+    "summary": "Marcondes I./Zormann M. superou Kim A./Martin D. por 2 a 0 em Kingston.",
+    "content": "Marcondes I./Zormann M. superou Kim A./Martin D. por 2 a 0 em Kingston., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Marcondes I./Zormann M. vence Kim A./Martin D. por 2 a 0 em Kingston",
+    "seoDescription": "Marcondes I./Zormann M. superou Kim A./Martin D. por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T19:08:15.727Z",
+    "createdAt": "2026-08-20T19:08:15.727Z",
+    "updatedAt": "2026-08-20T19:08:15.727Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816539",
+      "eventStartTime": "2026-08-20T16:15:19+00:00",
+      "retrievedAt": "2026-08-20T19:08:15.727Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-979ca8c50e59",
+    "slug": "estonia-vence-lithuania-por-110-a-108-em-international-friendlies-979ca8",
+    "sportId": "basquete",
+    "title": "Estonia vence Lithuania por 110 a 108 em International Friendlies",
+    "summary": "Estonia superou Lithuania por 110 a 108 em International Friendlies.",
+    "content": "Estonia superou Lithuania por 110 a 108 em International Friendlies., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendlies"
+    ],
+    "seoTitle": "Estonia vence Lithuania por 110 a 108 em International Friendlies",
+    "seoDescription": "Estonia superou Lithuania por 110 a 108 em International Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T19:08:15.715Z",
+    "createdAt": "2026-08-20T19:08:15.715Z",
+    "updatedAt": "2026-08-20T19:08:15.715Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818727",
+      "eventStartTime": "2026-08-20T16:30:00+00:00",
+      "retrievedAt": "2026-08-20T19:08:15.715Z",
+      "feedId": "basquete",
+      "league": "International Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-45d1cf6d33ff",
+    "slug": "vendsyssel-ff-supera-hiller-d-por-1-a-0-pelo-1st-division-45d1cf",
+    "sportId": "futebol",
+    "title": "Vendsyssel FF supera Hillerød por 1 a 0 pelo 1st Division",
+    "summary": "Vendsyssel FF venceu Hillerød por 1 a 0 pelo 1st Division.",
+    "content": "Vendsyssel FF venceu Hillerød por 1 a 0 pelo 1st Division, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "1st-division"
+    ],
+    "seoTitle": "Vendsyssel FF supera Hillerød por 1 a 0 pelo 1st Division",
+    "seoDescription": "Vendsyssel FF venceu Hillerød por 1 a 0 pelo 1st Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T19:08:15.707Z",
+    "createdAt": "2026-08-20T19:08:15.707Z",
+    "updatedAt": "2026-08-20T19:08:15.707Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4734965",
+      "eventStartTime": "2026-08-20T17:00:00+00:00",
+      "retrievedAt": "2026-08-20T19:08:15.707Z",
+      "feedId": "futebol",
+      "league": "1st Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-a371f41db90d",
     "slug": "bolelli-s-vavassori-a-vence-pavlasek-a-rikl-p-por-2-a-0-em-cincinnati-a371f4",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T00:58:47.312Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2102d2c262c3",
-    "slug": "internacional-e-remo-ficam-no-1-a-1-pelo-serie-a-2102d2",
-    "sportId": "futebol",
-    "title": "Internacional e Remo ficam no 1 a 1 pelo Série A",
-    "summary": "Internacional e Remo empataram por 1 a 1 pelo Série A.",
-    "content": "Internacional e Remo empataram por 1 a 1 pelo Série A, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "serie-a"
-    ],
-    "seoTitle": "Internacional e Remo ficam no 1 a 1 pelo Série A",
-    "seoDescription": "Internacional e Remo empataram por 1 a 1 pelo Série A.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T00:58:47.274Z",
-    "createdAt": "2026-08-18T00:58:47.274Z",
-    "updatedAt": "2026-08-18T00:58:47.274Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4632720",
-      "eventStartTime": "2026-08-17T23:00:00+00:00",
-      "retrievedAt": "2026-08-18T00:58:47.274Z",
-      "feedId": "futebol",
-      "league": "Série A"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b08052e54af0",
-    "slug": "klepac-a-lumsden-m-vence-detiuc-a-khromacheva-i-por-2-a-0-em-cincinnati-b08052",
-    "sportId": "tenis",
-    "title": "Klepac A./Lumsden M. vence Detiuc A./Khromacheva I. por 2 a 0 em Cincinnati",
-    "summary": "Klepac A./Lumsden M. superou Detiuc A./Khromacheva I. por 2 a 0 em Cincinnati.",
-    "content": "Klepac A./Lumsden M. superou Detiuc A./Khromacheva I. por 2 a 0 em Cincinnati., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Klepac A./Lumsden M. vence Detiuc A./Khromacheva I. por 2 a 0 em",
-    "seoDescription": "Klepac A./Lumsden M. superou Detiuc A./Khromacheva I. por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T23:57:57.769Z",
-    "createdAt": "2026-08-17T23:57:57.769Z",
-    "updatedAt": "2026-08-17T23:57:57.769Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815647",
-      "eventStartTime": "2026-08-17T21:12:35+00:00",
-      "retrievedAt": "2026-08-17T23:57:57.769Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1320e1cbb29f",
-    "slug": "deportes-copiapo-supera-curico-unido-por-4-a-0-pelo-primera-b-1320e1",
-    "sportId": "futebol",
-    "title": "Deportes Copiapo supera Curicó Unido por 4 a 0 pelo Primera B",
-    "summary": "Deportes Copiapo venceu Curicó Unido por 4 a 0 pelo Primera B.",
-    "content": "Deportes Copiapo venceu Curicó Unido por 4 a 0 pelo Primera B, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-b"
-    ],
-    "seoTitle": "Deportes Copiapo supera Curicó Unido por 4 a 0 pelo Primera B",
-    "seoDescription": "Deportes Copiapo venceu Curicó Unido por 4 a 0 pelo Primera B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T23:57:57.733Z",
-    "createdAt": "2026-08-17T23:57:57.733Z",
-    "updatedAt": "2026-08-17T23:57:57.733Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4656614",
-      "eventStartTime": "2026-08-17T22:00:00+00:00",
-      "retrievedAt": "2026-08-17T23:57:57.733Z",
-      "feedId": "futebol",
-      "league": "Primera B"
     },
     "articleFormat": "result-brief"
   }
