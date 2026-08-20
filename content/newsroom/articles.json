@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-71f9e7395db9",
+    "slug": "liutarevich-i-reyes-varela-m-a-vence-barrios-vera-m-t-mejia-n-por-2-a-0-em-cancun-71f9e7",
+    "sportId": "tenis",
+    "title": "Liutarevich I./Reyes-Varela M A. vence Barrios Vera M T./Mejia N. por 2 a 0 em Cancun",
+    "summary": "Liutarevich I./Reyes-Varela M A. superou Barrios Vera M T./Mejia N. por 2 a 0 em Cancun.",
+    "content": "Liutarevich I./Reyes-Varela M A. superou Barrios Vera M T./Mejia N. por 2 a 0 em Cancun., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Liutarevich I./Reyes-Varela M A. vence Barrios Vera M T./Mejia N. por",
+    "seoDescription": "Liutarevich I./Reyes-Varela M A. superou Barrios Vera M T./Mejia N. por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T05:44:42.512Z",
+    "createdAt": "2026-08-20T05:44:42.512Z",
+    "updatedAt": "2026-08-20T05:44:42.512Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817025",
+      "eventStartTime": "2026-08-20T04:13:28+00:00",
+      "retrievedAt": "2026-08-20T05:44:42.512Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-541679a6c86e",
+    "slug": "freseros-de-irapuato-vence-calor-de-cancun-por-93-a-89-em-lnbp-541679",
+    "sportId": "basquete",
+    "title": "Freseros De Irapuato vence Calor de Cancun por 93 a 89 em LNBP",
+    "summary": "Freseros De Irapuato superou Calor de Cancun por 93 a 89 em LNBP.",
+    "content": "Freseros De Irapuato superou Calor de Cancun por 93 a 89 em LNBP., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Freseros De Irapuato vence Calor de Cancun por 93 a 89 em LNBP",
+    "seoDescription": "Freseros De Irapuato superou Calor de Cancun por 93 a 89 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T05:44:42.509Z",
+    "createdAt": "2026-08-20T05:44:42.509Z",
+    "updatedAt": "2026-08-20T05:44:42.509Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707878",
+      "eventStartTime": "2026-08-20T02:00:00+00:00",
+      "retrievedAt": "2026-08-20T05:44:42.509Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-0d078209bfd9",
+    "slug": "houston-dynamo-supera-vancouver-whitecaps-por-1-a-0-pelo-mls-0d0782",
+    "sportId": "futebol",
+    "title": "Houston Dynamo supera Vancouver Whitecaps por 1 a 0 pela MLS",
+    "summary": "Houston Dynamo venceu Vancouver Whitecaps por 1 a 0 pela MLS.",
+    "content": "Houston Dynamo venceu Vancouver Whitecaps por 1 a 0 pela MLS, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls"
+    ],
+    "seoTitle": "Houston Dynamo supera Vancouver Whitecaps por 1 a 0 pela MLS",
+    "seoDescription": "Houston Dynamo venceu Vancouver Whitecaps por 1 a 0 pela MLS.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T05:44:42.500Z",
+    "createdAt": "2026-08-20T05:44:42.500Z",
+    "updatedAt": "2026-08-20T05:44:42.500Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4621428",
+      "eventStartTime": "2026-08-20T02:30:00+00:00",
+      "retrievedAt": "2026-08-20T05:44:42.500Z",
+      "feedId": "futebol",
+      "league": "MLS"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-1e0694b01ab6",
     "slug": "pericos-de-puebla-vence-diablos-rojos-del-mexico-por-13-a-5-na-lmb-1e0694",
     "sportId": "beisebol",
@@ -12468,132 +12594,6 @@
       "eventId": "365-4815439",
       "eventStartTime": "2026-08-17T11:34:16+00:00",
       "retrievedAt": "2026-08-17T13:13:07.524Z",
-      "feedId": "tenis",
-      "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d50c3514ec9c",
-    "slug": "general-diaz-e-sport-colonial-ficam-no-0-a-0-pelo-apf-primera-c-d50c35",
-    "sportId": "futebol",
-    "title": "General Diaz e Sport Colonial ficam no 0 a 0 pelo APF Primera C",
-    "summary": "General Diaz e Sport Colonial empataram por 0 a 0 pelo APF Primera C.",
-    "content": "General Diaz e Sport Colonial empataram por 0 a 0 pelo APF Primera C, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "apf-primera-c"
-    ],
-    "seoTitle": "General Diaz e Sport Colonial ficam no 0 a 0 pelo APF Primera C",
-    "seoDescription": "General Diaz e Sport Colonial empataram por 0 a 0 pelo APF Primera C.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T13:13:07.486Z",
-    "createdAt": "2026-08-17T13:13:07.486Z",
-    "updatedAt": "2026-08-17T13:13:07.486Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809706",
-      "eventStartTime": "2026-08-17T13:00:00+00:00",
-      "retrievedAt": "2026-08-17T13:13:07.486Z",
-      "feedId": "futebol",
-      "league": "APF Primera C"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d4eccac987eb",
-    "slug": "new-york-mets-vence-washington-nationals-por-4-a-3-na-mlb-d4ecca",
-    "sportId": "beisebol",
-    "title": "New York Mets vence Washington Nationals por 4 a 3 na MLB",
-    "summary": "New York Mets derrotou Washington Nationals por 4 a 3 na MLB.",
-    "content": "New York Mets derrotou Washington Nationals por 4 a 3 na MLB, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "New York Mets vence Washington Nationals por 4 a 3 na MLB",
-    "seoDescription": "New York Mets derrotou Washington Nationals por 4 a 3 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T12:19:38.556Z",
-    "createdAt": "2026-08-17T12:19:38.556Z",
-    "updatedAt": "2026-08-17T12:19:38.556Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614734",
-      "eventStartTime": "2026-08-16T17:40:00+00:00",
-      "retrievedAt": "2026-08-17T12:19:38.556Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-92b63077107c",
-    "slug": "javier-barranco-cosano-vence-andrej-martin-por-2-a-1-em-prague-92b630",
-    "sportId": "tenis",
-    "title": "Javier Barranco Cosano vence Andrej Martin por 2 a 1 em Prague",
-    "summary": "Javier Barranco Cosano superou Andrej Martin por 2 a 1 em Prague.",
-    "content": "Javier Barranco Cosano superou Andrej Martin por 2 a 1 em Prague., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Javier Barranco Cosano vence Andrej Martin por 2 a 1 em Prague",
-    "seoDescription": "Javier Barranco Cosano superou Andrej Martin por 2 a 1 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T12:19:38.546Z",
-    "createdAt": "2026-08-17T12:19:38.546Z",
-    "updatedAt": "2026-08-17T12:19:38.546Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815534",
-      "eventStartTime": "2026-08-17T08:52:42+00:00",
-      "retrievedAt": "2026-08-17T12:19:38.546Z",
       "feedId": "tenis",
       "league": "Prague"
     },
