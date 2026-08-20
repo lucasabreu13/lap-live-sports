@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-86ec0e2e89f8",
+    "slug": "bouzkova-m-noskova-l-vence-dabrowski-g-krejcikova-b-por-2-a-1-em-cincinnati-86ec0e",
+    "sportId": "tenis",
+    "title": "Bouzkova M./Noskova L. vence Dabrowski G./Krejcikova B. por 2 a 1 em Cincinnati",
+    "summary": "Bouzkova M./Noskova L. superou Dabrowski G./Krejcikova B. por 2 a 1 em Cincinnati.",
+    "content": "Bouzkova M./Noskova L. superou Dabrowski G./Krejcikova B. por 2 a 1 em Cincinnati., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Bouzkova M./Noskova L. vence Dabrowski G./Krejcikova B. por 2 a 1 em",
+    "seoDescription": "Bouzkova M./Noskova L. superou Dabrowski G./Krejcikova B. por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T02:15:24.467Z",
+    "createdAt": "2026-08-20T02:15:24.467Z",
+    "updatedAt": "2026-08-20T02:15:24.467Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816700",
+      "eventStartTime": "2026-08-20T00:57:45+00:00",
+      "retrievedAt": "2026-08-20T02:15:24.467Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c98bcdf77790",
+    "slug": "club-malvin-w-vence-tabare-w-por-61-a-48-em-lfb-w-c98bcd",
+    "sportId": "basquete",
+    "title": "Club Malvin (W) vence Tabare (W) por 61 a 48 em LFB (W)",
+    "summary": "Club Malvin (W) superou Tabare (W) por 61 a 48 em LFB (W).",
+    "content": "Club Malvin (W) superou Tabare (W) por 61 a 48 em LFB (W)., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lfb-w"
+    ],
+    "seoTitle": "Club Malvin (W) vence Tabare (W) por 61 a 48 em LFB (W)",
+    "seoDescription": "Club Malvin (W) superou Tabare (W) por 61 a 48 em LFB (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T02:15:24.463Z",
+    "createdAt": "2026-08-20T02:15:24.463Z",
+    "updatedAt": "2026-08-20T02:15:24.463Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815194",
+      "eventStartTime": "2026-08-20T00:15:00+00:00",
+      "retrievedAt": "2026-08-20T02:15:24.463Z",
+      "feedId": "basquete",
+      "league": "LFB (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-97411dec7370",
+    "slug": "houston-dash-supera-chicago-stars-fc-por-5-a-0-pelo-nwsl-97411d",
+    "sportId": "futebol",
+    "title": "Houston Dash supera Chicago Stars FC por 5 a 0 pelo NWSL",
+    "summary": "Houston Dash venceu Chicago Stars FC por 5 a 0 pelo NWSL.",
+    "content": "Houston Dash venceu Chicago Stars FC por 5 a 0 pelo NWSL, em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "nwsl"
+    ],
+    "seoTitle": "Houston Dash supera Chicago Stars FC por 5 a 0 pelo NWSL",
+    "seoDescription": "Houston Dash venceu Chicago Stars FC por 5 a 0 pelo NWSL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T02:15:24.456Z",
+    "createdAt": "2026-08-20T02:15:24.456Z",
+    "updatedAt": "2026-08-20T02:15:24.456Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4653917",
+      "eventStartTime": "2026-08-20T00:00:00+00:00",
+      "retrievedAt": "2026-08-20T02:15:24.456Z",
+      "feedId": "futebol",
+      "league": "NWSL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-1cfb87de316e",
     "slug": "britto-l-saraiva-dos-santos-p-a-vence-chopra-k-marrero-curbelo-i-por-2-a-0-em-king-1cfb87",
     "sportId": "tenis",
@@ -12468,132 +12594,6 @@
       "eventId": "365-4614798",
       "eventStartTime": "2026-08-16T17:35:00+00:00",
       "retrievedAt": "2026-08-17T09:05:53.306Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-cecac9e27afb",
-    "slug": "aoyama-s-liang-e-vence-neel-i-olmos-g-por-2-a-0-em-cincinnati-cecac9",
-    "sportId": "tenis",
-    "title": "Aoyama S./Liang E. vence Neel I./Olmos G. por 2 a 0 em Cincinnati",
-    "summary": "Aoyama S./Liang E. superou Neel I./Olmos G. por 2 a 0 em Cincinnati.",
-    "content": "Aoyama S./Liang E. superou Neel I./Olmos G. por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Aoyama S./Liang E. vence Neel I./Olmos G. por 2 a 0 em Cincinnati",
-    "seoDescription": "Aoyama S./Liang E. superou Neel I./Olmos G. por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T09:05:53.293Z",
-    "createdAt": "2026-08-17T09:05:53.293Z",
-    "updatedAt": "2026-08-17T09:05:53.293Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815121",
-      "eventStartTime": "2026-08-16T15:06:38+00:00",
-      "retrievedAt": "2026-08-17T09:05:53.293Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9693ca151940",
-    "slug": "fc-dallas-supera-austin-fc-por-2-a-1-pelo-mls-9693ca",
-    "sportId": "futebol",
-    "title": "FC Dallas supera Austin FC por 2 a 1 pela MLS",
-    "summary": "FC Dallas venceu Austin FC por 2 a 1 pela MLS.",
-    "content": "FC Dallas venceu Austin FC por 2 a 1 pela MLS, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mls"
-    ],
-    "seoTitle": "FC Dallas supera Austin FC por 2 a 1 pela MLS",
-    "seoDescription": "FC Dallas venceu Austin FC por 2 a 1 pela MLS.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T09:05:53.225Z",
-    "createdAt": "2026-08-17T09:05:53.225Z",
-    "updatedAt": "2026-08-17T09:05:53.225Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4621453",
-      "eventStartTime": "2026-08-17T00:30:00+00:00",
-      "retrievedAt": "2026-08-17T09:05:53.225Z",
-      "feedId": "futebol",
-      "league": "MLS"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0e75e08dc1da",
-    "slug": "miami-marlins-vence-cincinnati-reds-por-7-a-1-na-mlb-0e75e0",
-    "sportId": "beisebol",
-    "title": "Miami Marlins vence Cincinnati Reds por 7 a 1 na MLB",
-    "summary": "Miami Marlins derrotou Cincinnati Reds por 7 a 1 na MLB.",
-    "content": "Miami Marlins derrotou Cincinnati Reds por 7 a 1 na MLB, em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Miami Marlins vence Cincinnati Reds por 7 a 1 na MLB",
-    "seoDescription": "Miami Marlins derrotou Cincinnati Reds por 7 a 1 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T08:22:31.108Z",
-    "createdAt": "2026-08-17T08:22:31.108Z",
-    "updatedAt": "2026-08-17T08:22:31.108Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614614",
-      "eventStartTime": "2026-08-16T17:40:00+00:00",
-      "retrievedAt": "2026-08-17T08:22:31.108Z",
       "feedId": "beisebol",
       "league": "MLB"
     },
