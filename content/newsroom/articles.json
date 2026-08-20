@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-776b718bdbfd",
+    "slug": "lui-maxted-vence-gabi-boitan-por-1-a-0-em-roehampton-776b71",
+    "sportId": "tenis",
+    "title": "Lui Maxted vence Gabi Boitan por 1 a 0 em Roehampton",
+    "summary": "Lui Maxted superou Gabi Boitan por 1 a 0 em Roehampton.",
+    "content": "Lui Maxted superou Gabi Boitan por 1 a 0 em Roehampton., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Lui Maxted vence Gabi Boitan por 1 a 0 em Roehampton",
+    "seoDescription": "Lui Maxted superou Gabi Boitan por 1 a 0 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T12:23:14.166Z",
+    "createdAt": "2026-08-20T12:23:14.166Z",
+    "updatedAt": "2026-08-20T12:23:14.166Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818960",
+      "eventStartTime": "2026-08-20T10:07:22+00:00",
+      "retrievedAt": "2026-08-20T12:23:14.166Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-de469aa326c0",
+    "slug": "van-e-syunik-ficam-no-0-a-0-pela-premier-league-de469a",
+    "sportId": "futebol",
+    "title": "Van e Syunik ficam no 0 a 0 pela Premier League",
+    "summary": "Van e Syunik empataram por 0 a 0 pela Premier League.",
+    "content": "Van e Syunik empataram por 0 a 0 pela Premier League, em 20 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "premier-league"
+    ],
+    "seoTitle": "Van e Syunik ficam no 0 a 0 pela Premier League",
+    "seoDescription": "Van e Syunik empataram por 0 a 0 pela Premier League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-20T12:23:14.132Z",
+    "createdAt": "2026-08-20T12:23:14.132Z",
+    "updatedAt": "2026-08-20T12:23:14.132Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4759618",
+      "eventStartTime": "2026-08-20T12:15:00+00:00",
+      "retrievedAt": "2026-08-20T12:23:14.132Z",
+      "feedId": "futebol",
+      "league": "Premier League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-c999fc90cfdc",
     "slug": "jans-j-whitehouse-m-vence-latinovic-s-loof-t-por-2-a-0-em-prague-c999fc",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-17T19:57:31.021Z",
       "feedId": "tenis",
       "league": "Cancun"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-600b427336f6",
-    "slug": "independiente-medellin-w-e-america-de-cali-w-ficam-no-0-a-0-pelo-colombian-women-s-600b42",
-    "sportId": "futebol",
-    "title": "Independiente Medellín (W) e America De Cali (W) ficam no 0 a 0 pelo Colombian Women's League",
-    "summary": "Independiente Medellín (W) e America De Cali (W) empataram por 0 a 0 pelo Colombian Women's League.",
-    "content": "Independiente Medellín (W) e America De Cali (W) empataram por 0 a 0 pelo Colombian Women's League, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "colombian-women-s-league"
-    ],
-    "seoTitle": "Independiente Medellín (W) e America De Cali (W) ficam no 0 a 0 pelo",
-    "seoDescription": "Independiente Medellín (W) e America De Cali (W) empataram por 0 a 0 pelo Colombian Women's League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T19:57:30.986Z",
-    "createdAt": "2026-08-17T19:57:30.986Z",
-    "updatedAt": "2026-08-17T19:57:30.986Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4807647",
-      "eventStartTime": "2026-08-17T20:00:00+00:00",
-      "retrievedAt": "2026-08-17T19:57:30.986Z",
-      "feedId": "futebol",
-      "league": "Colombian Women's League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6f2fa83b7e66",
-    "slug": "tristan-schoolkate-vence-nicolas-arseneault-por-2-a-0-em-quebec-city-6f2fa8",
-    "sportId": "tenis",
-    "title": "Tristan Schoolkate vence Nicolas Arseneault por 2 a 0 em Quebec City",
-    "summary": "Tristan Schoolkate superou Nicolas Arseneault por 2 a 0 em Quebec City.",
-    "content": "Tristan Schoolkate superou Nicolas Arseneault por 2 a 0 em Quebec City., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "quebec-city"
-    ],
-    "seoTitle": "Tristan Schoolkate vence Nicolas Arseneault por 2 a 0 em Quebec City",
-    "seoDescription": "Tristan Schoolkate superou Nicolas Arseneault por 2 a 0 em Quebec City.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-17T19:38:01.855Z",
-    "createdAt": "2026-08-17T19:38:01.855Z",
-    "updatedAt": "2026-08-17T19:38:01.855Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816152",
-      "eventStartTime": "2026-08-17T17:42:49+00:00",
-      "retrievedAt": "2026-08-17T19:38:01.855Z",
-      "feedId": "tenis",
-      "league": " Quebec City"
     },
     "articleFormat": "result-brief"
   }
