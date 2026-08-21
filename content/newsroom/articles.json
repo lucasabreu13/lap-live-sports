@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-7d56d9aa0581",
+    "slug": "hanshin-tigers-vence-yokohama-baystars-por-4-a-1-na-npb-7d56d9",
+    "sportId": "beisebol",
+    "title": "Hanshin Tigers vence Yokohama Baystars por 4 a 1 na NPB",
+    "summary": "Hanshin Tigers derrotou Yokohama Baystars por 4 a 1 na NPB.",
+    "content": "Hanshin Tigers derrotou Yokohama Baystars por 4 a 1 na NPB, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Hanshin Tigers vence Yokohama Baystars por 4 a 1 na NPB",
+    "seoDescription": "Hanshin Tigers derrotou Yokohama Baystars por 4 a 1 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T12:23:04.562Z",
+    "createdAt": "2026-08-21T12:23:04.562Z",
+    "updatedAt": "2026-08-21T12:23:04.562Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626831",
+      "eventStartTime": "2026-08-21T09:00:00+00:00",
+      "retrievedAt": "2026-08-21T12:23:04.562Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5ffea7b2d020",
+    "slug": "tommaso-compagnucci-vence-juan-manuel-la-serna-por-2-a-1-em-sion-5ffea7",
+    "sportId": "tenis",
+    "title": "Tommaso Compagnucci vence Juan Manuel La Serna por 2 a 1 em Sion",
+    "summary": "Tommaso Compagnucci superou Juan Manuel La Serna por 2 a 1 em Sion.",
+    "content": "Tommaso Compagnucci superou Juan Manuel La Serna por 2 a 1 em Sion., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Tommaso Compagnucci vence Juan Manuel La Serna por 2 a 1 em Sion",
+    "seoDescription": "Tommaso Compagnucci superou Juan Manuel La Serna por 2 a 1 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T12:23:04.559Z",
+    "createdAt": "2026-08-21T12:23:04.559Z",
+    "updatedAt": "2026-08-21T12:23:04.559Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818884",
+      "eventStartTime": "2026-08-20T09:10:10+00:00",
+      "retrievedAt": "2026-08-21T12:23:04.559Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-fa3db95f56ac",
+    "slug": "kashiwa-reysol-supera-v-varen-nagasaki-por-4-a-2-pelo-j1-league-fa3db9",
+    "sportId": "futebol",
+    "title": "Kashiwa Reysol supera V-Varen Nagasaki por 4 a 2 pelo J1 League",
+    "summary": "Kashiwa Reysol venceu V-Varen Nagasaki por 4 a 2 pelo J1 League.",
+    "content": "Kashiwa Reysol venceu V-Varen Nagasaki por 4 a 2 pelo J1 League, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "j1-league"
+    ],
+    "seoTitle": "Kashiwa Reysol supera V-Varen Nagasaki por 4 a 2 pelo J1 League",
+    "seoDescription": "Kashiwa Reysol venceu V-Varen Nagasaki por 4 a 2 pelo J1 League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T12:23:04.465Z",
+    "createdAt": "2026-08-21T12:23:04.465Z",
+    "updatedAt": "2026-08-21T12:23:04.465Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4739690",
+      "eventStartTime": "2026-08-21T10:00:00+00:00",
+      "retrievedAt": "2026-08-21T12:23:04.465Z",
+      "feedId": "futebol",
+      "league": "J1 League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-29e2c312f459",
     "slug": "nys-roger-vasselin-vence-heliovaara-h-patten-h-por-2-a-0-em-cincinnati-29e2c3",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T19:55:09.270Z",
       "feedId": "futebol",
       "league": "Non League Premier"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-052b9032786d",
-    "slug": "bass-f-duncan-s-vence-frydrych-v-stephens-z-por-2-a-0-em-roehampton-052b90",
-    "sportId": "tenis",
-    "title": "Bass F./Duncan S. vence Frydrych V./Stephens Z. por 2 a 0 em Roehampton",
-    "summary": "Bass F./Duncan S. superou Frydrych V./Stephens Z. por 2 a 0 em Roehampton.",
-    "content": "Bass F./Duncan S. superou Frydrych V./Stephens Z. por 2 a 0 em Roehampton., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "roehampton"
-    ],
-    "seoTitle": "Bass F./Duncan S. vence Frydrych V./Stephens Z. por 2 a 0 em",
-    "seoDescription": "Bass F./Duncan S. superou Frydrych V./Stephens Z. por 2 a 0 em Roehampton.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T19:37:17.676Z",
-    "createdAt": "2026-08-18T19:37:17.676Z",
-    "updatedAt": "2026-08-18T19:37:17.676Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816531",
-      "eventStartTime": "2026-08-18T17:10:15+00:00",
-      "retrievedAt": "2026-08-18T19:37:17.676Z",
-      "feedId": "tenis",
-      "league": "Roehampton"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c8e37f65efae",
-    "slug": "harrow-borough-e-southall-ficam-no-0-a-0-pelo-non-league-premier-c8e37f",
-    "sportId": "futebol",
-    "title": "Harrow Borough e Southall ficam no 0 a 0 pelo Non League Premier",
-    "summary": "Harrow Borough e Southall empataram por 0 a 0 pelo Non League Premier.",
-    "content": "Harrow Borough e Southall empataram por 0 a 0 pelo Non League Premier, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "non-league-premier"
-    ],
-    "seoTitle": "Harrow Borough e Southall ficam no 0 a 0 pelo Non League Premier",
-    "seoDescription": "Harrow Borough e Southall empataram por 0 a 0 pelo Non League Premier.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T19:37:17.656Z",
-    "createdAt": "2026-08-18T19:37:17.656Z",
-    "updatedAt": "2026-08-18T19:37:17.656Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814086",
-      "eventStartTime": "2026-08-18T18:45:00+00:00",
-      "retrievedAt": "2026-08-18T19:37:17.656Z",
-      "feedId": "futebol",
-      "league": "Non League Premier"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e733b7ba63ec",
-    "slug": "lammons-n-withrow-j-vence-arends-s-pel-d-por-2-a-0-em-quebec-city-e733b7",
-    "sportId": "tenis",
-    "title": "Lammons N./Withrow J. vence Arends S./Pel D. por 2 a 0 em Quebec City",
-    "summary": "Lammons N./Withrow J. superou Arends S./Pel D. por 2 a 0 em Quebec City.",
-    "content": "Lammons N./Withrow J. superou Arends S./Pel D. por 2 a 0 em Quebec City., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "quebec-city"
-    ],
-    "seoTitle": "Lammons N./Withrow J. vence Arends S./Pel D. por 2 a 0 em Quebec City",
-    "seoDescription": "Lammons N./Withrow J. superou Arends S./Pel D. por 2 a 0 em Quebec City.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T19:04:43.658Z",
-    "createdAt": "2026-08-18T19:04:43.658Z",
-    "updatedAt": "2026-08-18T19:04:43.658Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816702",
-      "eventStartTime": "2026-08-18T17:24:12+00:00",
-      "retrievedAt": "2026-08-18T19:04:43.658Z",
-      "feedId": "tenis",
-      "league": "Quebec City"
     },
     "articleFormat": "result-brief"
   }
