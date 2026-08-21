@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-f1ec92e679d3",
+    "slug": "milwaukee-brewers-vence-seattle-mariners-por-7-a-4-na-mlb-f1ec92",
+    "sportId": "beisebol",
+    "title": "Milwaukee Brewers vence Seattle Mariners por 7 a 4 na MLB",
+    "summary": "Milwaukee Brewers derrotou Seattle Mariners por 7 a 4 na MLB.",
+    "content": "Milwaukee Brewers derrotou Seattle Mariners por 7 a 4 na MLB, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Milwaukee Brewers vence Seattle Mariners por 7 a 4 na MLB",
+    "seoDescription": "Milwaukee Brewers derrotou Seattle Mariners por 7 a 4 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T23:57:24.352Z",
+    "createdAt": "2026-08-21T23:57:24.352Z",
+    "updatedAt": "2026-08-21T23:57:24.352Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614720",
+      "eventStartTime": "2026-08-20T18:10:00+00:00",
+      "retrievedAt": "2026-08-21T23:57:24.352Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-03de4bd2de24",
+    "slug": "lloyd-harris-vence-pablo-llamas-ruiz-por-1-a-0-em-cancun-03de4b",
+    "sportId": "tenis",
+    "title": "Lloyd Harris vence Pablo Llamas Ruiz por 1 a 0 em Cancun",
+    "summary": "Lloyd Harris superou Pablo Llamas Ruiz por 1 a 0 em Cancun.",
+    "content": "Lloyd Harris superou Pablo Llamas Ruiz por 1 a 0 em Cancun., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Lloyd Harris vence Pablo Llamas Ruiz por 1 a 0 em Cancun",
+    "seoDescription": "Lloyd Harris superou Pablo Llamas Ruiz por 1 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T23:57:24.334Z",
+    "createdAt": "2026-08-21T23:57:24.334Z",
+    "updatedAt": "2026-08-21T23:57:24.334Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819540",
+      "eventStartTime": "2026-08-20T22:53:25+00:00",
+      "retrievedAt": "2026-08-21T23:57:24.334Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4af5e5a629cd",
+    "slug": "villa-dalmine-supera-deportivo-laferrere-por-2-a-0-pelo-primera-b-metropolitana-4af5e5",
+    "sportId": "futebol",
+    "title": "Villa Dalmine supera Deportivo Laferrere por 2 a 0 pelo Primera B Metropolitana",
+    "summary": "Villa Dalmine venceu Deportivo Laferrere por 2 a 0 pelo Primera B Metropolitana.",
+    "content": "Villa Dalmine venceu Deportivo Laferrere por 2 a 0 pelo Primera B Metropolitana, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-b-metropolitana"
+    ],
+    "seoTitle": "Villa Dalmine supera Deportivo Laferrere por 2 a 0 pelo Primera B",
+    "seoDescription": "Villa Dalmine venceu Deportivo Laferrere por 2 a 0 pelo Primera B Metropolitana.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T23:57:24.244Z",
+    "createdAt": "2026-08-21T23:57:24.244Z",
+    "updatedAt": "2026-08-21T23:57:24.244Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4639086",
+      "eventStartTime": "2026-08-21T22:00:00+00:00",
+      "retrievedAt": "2026-08-21T23:57:24.244Z",
+      "feedId": "futebol",
+      "league": "Primera B Metropolitana"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7921869ad72a",
     "slug": "balaji-n-s-chandrasekar-a-vence-stevenson-d-willis-m-por-2-a-1-em-cancun-792186",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-19T05:43:53.298Z",
       "feedId": "futebol",
       "league": "OFC Champions League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-cd4527fe38be",
-    "slug": "toronto-blue-jays-vence-tampa-bay-rays-por-10-a-5-na-mlb-cd4527",
-    "sportId": "beisebol",
-    "title": "Toronto Blue Jays vence Tampa Bay Rays por 10 a 5 na MLB",
-    "summary": "Toronto Blue Jays derrotou Tampa Bay Rays por 10 a 5 na MLB.",
-    "content": "Toronto Blue Jays derrotou Tampa Bay Rays por 10 a 5 na MLB, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Toronto Blue Jays vence Tampa Bay Rays por 10 a 5 na MLB",
-    "seoDescription": "Toronto Blue Jays derrotou Tampa Bay Rays por 10 a 5 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T05:01:54.579Z",
-    "createdAt": "2026-08-19T05:01:54.579Z",
-    "updatedAt": "2026-08-19T05:01:54.579Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614695",
-      "eventStartTime": "2026-08-18T22:40:00+00:00",
-      "retrievedAt": "2026-08-19T05:01:54.579Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4be8bade45c2",
-    "slug": "henrique-rocha-vence-seong-chan-hong-por-2-a-0-em-cancun-4be8ba",
-    "sportId": "tenis",
-    "title": "Henrique Rocha vence Seong Chan Hong por 2 a 0 em Cancun",
-    "summary": "Henrique Rocha superou Seong Chan Hong por 2 a 0 em Cancun.",
-    "content": "Henrique Rocha superou Seong Chan Hong por 2 a 0 em Cancun., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cancun"
-    ],
-    "seoTitle": "Henrique Rocha vence Seong Chan Hong por 2 a 0 em Cancun",
-    "seoDescription": "Henrique Rocha superou Seong Chan Hong por 2 a 0 em Cancun.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T05:01:54.566Z",
-    "createdAt": "2026-08-19T05:01:54.566Z",
-    "updatedAt": "2026-08-19T05:01:54.566Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816196",
-      "eventStartTime": "2026-08-19T02:28:52+00:00",
-      "retrievedAt": "2026-08-19T05:01:54.566Z",
-      "feedId": "tenis",
-      "league": "Cancun"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f2e4ec97c196",
-    "slug": "montevideo-bbc-vence-olivol-mundial-por-87-a-84-em-liga-de-ascenso-f2e4ec",
-    "sportId": "basquete",
-    "title": "Montevideo BBC vence Olivol Mundial por 87 a 84 em Liga de ascenso",
-    "summary": "Montevideo BBC superou Olivol Mundial por 87 a 84 em Liga de ascenso.",
-    "content": "Montevideo BBC superou Olivol Mundial por 87 a 84 em Liga de ascenso., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "Montevideo BBC vence Olivol Mundial por 87 a 84 em Liga de ascenso",
-    "seoDescription": "Montevideo BBC superou Olivol Mundial por 87 a 84 em Liga de ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T05:01:54.562Z",
-    "createdAt": "2026-08-19T05:01:54.562Z",
-    "updatedAt": "2026-08-19T05:01:54.562Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816149",
-      "eventStartTime": "2026-08-18T23:15:00+00:00",
-      "retrievedAt": "2026-08-19T05:01:54.562Z",
-      "feedId": "basquete",
-      "league": "Liga de ascenso"
     },
     "articleFormat": "result-brief"
   }
