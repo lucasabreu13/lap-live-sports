@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-3d235ac13d74",
+    "slug": "spain-w-vence-nigeria-w-por-83-a-58-em-international-friendly-w-3d235a",
+    "sportId": "basquete",
+    "title": "Spain (W) vence Nigeria (W) por 83 a 58 em International Friendly (W)",
+    "summary": "Spain (W) superou Nigeria (W) por 83 a 58 em International Friendly (W).",
+    "content": "Spain (W) superou Nigeria (W) por 83 a 58 em International Friendly (W)., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendly-w"
+    ],
+    "seoTitle": "Spain (W) vence Nigeria (W) por 83 a 58 em International Friendly (W)",
+    "seoDescription": "Spain (W) superou Nigeria (W) por 83 a 58 em International Friendly (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T20:58:00.138Z",
+    "createdAt": "2026-08-21T20:58:00.138Z",
+    "updatedAt": "2026-08-21T20:58:00.138Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820195",
+      "eventStartTime": "2026-08-21T19:00:00+00:00",
+      "retrievedAt": "2026-08-21T20:58:00.138Z",
+      "feedId": "basquete",
+      "league": "International Friendly (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-70b640a21167",
+    "slug": "sligo-rovers-e-waterford-fc-ficam-no-0-a-0-pelo-ireland-1-70b640",
+    "sportId": "futebol",
+    "title": "Sligo Rovers e Waterford FC ficam no 0 a 0 pelo Ireland 1",
+    "summary": "Sligo Rovers e Waterford FC empataram por 0 a 0 pelo Ireland 1.",
+    "content": "Sligo Rovers e Waterford FC empataram por 0 a 0 pelo Ireland 1, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ireland-1"
+    ],
+    "seoTitle": "Sligo Rovers e Waterford FC ficam no 0 a 0 pelo Ireland 1",
+    "seoDescription": "Sligo Rovers e Waterford FC empataram por 0 a 0 pelo Ireland 1.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T20:58:00.130Z",
+    "createdAt": "2026-08-21T20:58:00.130Z",
+    "updatedAt": "2026-08-21T20:58:00.130Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4633856",
+      "eventStartTime": "2026-08-21T19:00:00+00:00",
+      "retrievedAt": "2026-08-21T20:58:00.130Z",
+      "feedId": "futebol",
+      "league": "Ireland 1"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-206da48584f5",
     "slug": "germany-vence-czechia-por-115-a-82-em-international-friendlies-206da4",
     "sportId": "basquete",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T02:06:39.827Z",
       "feedId": "beisebol",
       "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-953587576273",
-    "slug": "stanislas-wawrinka-vence-dalibor-svrcina-por-2-a-0-em-cancun-953587",
-    "sportId": "tenis",
-    "title": "Stanislas Wawrinka vence Dalibor Svrcina por 2 a 0 em Cancun",
-    "summary": "Stanislas Wawrinka superou Dalibor Svrcina por 2 a 0 em Cancun.",
-    "content": "Stanislas Wawrinka superou Dalibor Svrcina por 2 a 0 em Cancun., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cancun"
-    ],
-    "seoTitle": "Stanislas Wawrinka vence Dalibor Svrcina por 2 a 0 em Cancun",
-    "seoDescription": "Stanislas Wawrinka superou Dalibor Svrcina por 2 a 0 em Cancun.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T02:06:39.821Z",
-    "createdAt": "2026-08-19T02:06:39.821Z",
-    "updatedAt": "2026-08-19T02:06:39.821Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816194",
-      "eventStartTime": "2026-08-18T23:16:16+00:00",
-      "retrievedAt": "2026-08-19T02:06:39.821Z",
-      "feedId": "tenis",
-      "league": "Cancun"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9719ab9dc177",
-    "slug": "ca-marne-vence-club-deportivo-albatros-por-76-a-68-em-liga-de-ascenso-9719ab",
-    "sportId": "basquete",
-    "title": "Ca Marne vence Club Deportivo Albatros por 76 a 68 em Liga de ascenso",
-    "summary": "Ca Marne superou Club Deportivo Albatros por 76 a 68 em Liga de ascenso.",
-    "content": "Ca Marne superou Club Deportivo Albatros por 76 a 68 em Liga de ascenso., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "Ca Marne vence Club Deportivo Albatros por 76 a 68 em Liga de ascenso",
-    "seoDescription": "Ca Marne superou Club Deportivo Albatros por 76 a 68 em Liga de ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T02:06:39.814Z",
-    "createdAt": "2026-08-19T02:06:39.814Z",
-    "updatedAt": "2026-08-19T02:06:39.814Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816146",
-      "eventStartTime": "2026-08-18T23:15:00+00:00",
-      "retrievedAt": "2026-08-19T02:06:39.814Z",
-      "feedId": "basquete",
-      "league": "Liga de ascenso"
     },
     "articleFormat": "result-brief"
   }
