@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-eed043d015ee",
+    "slug": "hugo-gaston-vence-jesper-de-jong-por-2-a-0-em-quebec-city-eed043",
+    "sportId": "tenis",
+    "title": "Hugo Gaston vence Jesper De Jong por 2 a 0 em Quebec City",
+    "summary": "Hugo Gaston superou Jesper De Jong por 2 a 0 em Quebec City.",
+    "content": "Hugo Gaston superou Jesper De Jong por 2 a 0 em Quebec City., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Hugo Gaston vence Jesper De Jong por 2 a 0 em Quebec City",
+    "seoDescription": "Hugo Gaston superou Jesper De Jong por 2 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T19:34:46.962Z",
+    "createdAt": "2026-08-21T19:34:46.962Z",
+    "updatedAt": "2026-08-21T19:34:46.962Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820295",
+      "eventStartTime": "2026-08-21T17:26:12+00:00",
+      "retrievedAt": "2026-08-21T19:34:46.962Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-042e5bd56218",
+    "slug": "fbc-melgar-w-e-flamengo-fbc-w-ficam-no-0-a-0-pelo-women-league-042e5b",
+    "sportId": "futebol",
+    "title": "FBC Melgar (W) e Flamengo FBC (W) ficam no 0 a 0 pelo Women League",
+    "summary": "FBC Melgar (W) e Flamengo FBC (W) empataram por 0 a 0 pelo Women League.",
+    "content": "FBC Melgar (W) e Flamengo FBC (W) empataram por 0 a 0 pelo Women League, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "women-league"
+    ],
+    "seoTitle": "FBC Melgar (W) e Flamengo FBC (W) ficam no 0 a 0 pelo Women League",
+    "seoDescription": "FBC Melgar (W) e Flamengo FBC (W) empataram por 0 a 0 pelo Women League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T19:34:46.924Z",
+    "createdAt": "2026-08-21T19:34:46.924Z",
+    "updatedAt": "2026-08-21T19:34:46.924Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815004",
+      "eventStartTime": "2026-08-21T19:00:00+00:00",
+      "retrievedAt": "2026-08-21T19:34:46.924Z",
+      "feedId": "futebol",
+      "league": "Women League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-346c03222a29",
     "slug": "trouville-vence-lagomar-por-83-a-80-em-liga-de-ascenso-346c03",
     "sportId": "basquete",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-18T23:55:58.203Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b7c430bc4efc",
-    "slug": "boca-juniors-supera-recoleta-fc-por-4-a-0-pelo-conmebol-sudamericana-b7c430",
-    "sportId": "futebol",
-    "title": "Boca Juniors supera Recoleta FC por 4 a 0 pelo CONMEBOL Sudamericana",
-    "summary": "Boca Juniors venceu Recoleta FC por 4 a 0 pelo CONMEBOL Sudamericana.",
-    "content": "Boca Juniors venceu Recoleta FC por 4 a 0 pelo CONMEBOL Sudamericana, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "conmebol-sudamericana"
-    ],
-    "seoTitle": "Boca Juniors supera Recoleta FC por 4 a 0 pelo CONMEBOL Sudamericana",
-    "seoDescription": "Boca Juniors venceu Recoleta FC por 4 a 0 pelo CONMEBOL Sudamericana.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T23:55:58.191Z",
-    "createdAt": "2026-08-18T23:55:58.191Z",
-    "updatedAt": "2026-08-18T23:55:58.191Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4800549",
-      "eventStartTime": "2026-08-18T22:00:00+00:00",
-      "retrievedAt": "2026-08-18T23:55:58.191Z",
-      "feedId": "futebol",
-      "league": "CONMEBOL Sudamericana"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fa5a9ab9cf87",
-    "slug": "blanchet-u-jacquet-k-vence-jung-j-maginley-j-por-2-a-1-em-quebec-city-fa5a9a",
-    "sportId": "tenis",
-    "title": "Blanchet U./Jacquet K. vence Jung J./Maginley J. por 2 a 1 em Quebec City",
-    "summary": "Blanchet U./Jacquet K. superou Jung J./Maginley J. por 2 a 1 em Quebec City.",
-    "content": "Blanchet U./Jacquet K. superou Jung J./Maginley J. por 2 a 1 em Quebec City., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "quebec-city"
-    ],
-    "seoTitle": "Blanchet U./Jacquet K. vence Jung J./Maginley J. por 2 a 1 em Quebec",
-    "seoDescription": "Blanchet U./Jacquet K. superou Jung J./Maginley J. por 2 a 1 em Quebec City.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T23:34:13.827Z",
-    "createdAt": "2026-08-18T23:34:13.827Z",
-    "updatedAt": "2026-08-18T23:34:13.827Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816701",
-      "eventStartTime": "2026-08-18T21:33:05+00:00",
-      "retrievedAt": "2026-08-18T23:34:13.827Z",
-      "feedId": "tenis",
-      "league": "Quebec City"
     },
     "articleFormat": "result-brief"
   }
