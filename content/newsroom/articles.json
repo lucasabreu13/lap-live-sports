@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-621ec7419272",
+    "slug": "alianza-atletico-supera-sporting-cristal-por-3-a-1-pela-liga-1-621ec7",
+    "sportId": "futebol",
+    "title": "Alianza Atletico supera Sporting Cristal por 3 a 1 pela Liga 1",
+    "summary": "Alianza Atletico venceu Sporting Cristal por 3 a 1 pela Liga 1.",
+    "content": "Alianza Atletico venceu Sporting Cristal por 3 a 1 pela Liga 1, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-1"
+    ],
+    "seoTitle": "Alianza Atletico supera Sporting Cristal por 3 a 1 pela Liga 1",
+    "seoDescription": "Alianza Atletico venceu Sporting Cristal por 3 a 1 pela Liga 1.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T22:00:10.291Z",
+    "createdAt": "2026-08-21T22:00:10.291Z",
+    "updatedAt": "2026-08-21T22:00:10.291Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4760860",
+      "eventStartTime": "2026-08-21T20:00:00+00:00",
+      "retrievedAt": "2026-08-21T22:00:10.291Z",
+      "feedId": "futebol",
+      "league": "Liga 1"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-f52c6ceb2a55",
     "slug": "cleveland-guardians-vence-san-francisco-giants-por-5-a-2-na-mlb-f52c6c",
     "sportId": "beisebol",
@@ -12554,48 +12596,6 @@
       "retrievedAt": "2026-08-19T03:56:34.959Z",
       "feedId": "futebol",
       "league": "Serie B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-77201b7d97df",
-    "slug": "los-angeles-angels-vence-houston-astros-por-3-a-1-na-mlb-77201b",
-    "sportId": "beisebol",
-    "title": "Los Angeles Angels vence Houston Astros por 3 a 1 na MLB",
-    "summary": "Los Angeles Angels derrotou Houston Astros por 3 a 1 na MLB.",
-    "content": "Los Angeles Angels derrotou Houston Astros por 3 a 1 na MLB, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Los Angeles Angels vence Houston Astros por 3 a 1 na MLB",
-    "seoDescription": "Los Angeles Angels derrotou Houston Astros por 3 a 1 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T03:09:12.575Z",
-    "createdAt": "2026-08-19T03:09:12.575Z",
-    "updatedAt": "2026-08-19T03:09:12.575Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614877",
-      "eventStartTime": "2026-08-19T00:10:00+00:00",
-      "retrievedAt": "2026-08-19T03:09:12.575Z",
-      "feedId": "beisebol",
-      "league": "MLB"
     },
     "articleFormat": "result-brief"
   }
