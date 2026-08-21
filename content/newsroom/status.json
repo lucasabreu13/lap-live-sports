@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-08-21T00:37:49.091Z",
-  "commit": "2193c96dec485bf3e40f857042438f2c2678a51b",
-  "runId": "32433356256",
+  "validatedAt": "2026-08-21T02:11:23.632Z",
+  "commit": "54ffcd9248c3de7c5feb4a14219dd7c7b184edf0",
+  "runId": "32438953155",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -20,14 +20,14 @@
     "curatedArticles": 25,
     "curatedFiles": 5,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-08-21T00:37:48.294Z",
+    "lastPublishedAt": "2026-08-21T02:11:23.302Z",
     "lastPublishedBySport": {
-      "futebol": "2026-08-21T00:37:48.284Z",
+      "futebol": "2026-08-21T02:11:23.283Z",
       "futebol-americano": null,
-      "tenis": "2026-08-21T00:37:48.294Z",
+      "tenis": "2026-08-21T02:11:23.302Z",
       "ciclismo": null,
       "formula1": null,
-      "basquete": "2026-08-21T00:37:48.292Z",
+      "basquete": "2026-08-21T02:11:23.289Z",
       "beisebol": "2026-08-20T23:16:01.729Z",
       "golfe": null,
       "surfe": null
@@ -40,7 +40,7 @@
         "futebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-21T00:37:48.284Z"
+          "lastPublishedAt": "2026-08-21T02:11:23.283Z"
         },
         "futebol-americano": {
           "status": "critical",
@@ -50,7 +50,7 @@
         "tenis": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-21T00:37:48.294Z"
+          "lastPublishedAt": "2026-08-21T02:11:23.302Z"
         },
         "ciclismo": {
           "status": "critical",
@@ -65,11 +65,11 @@
         "basquete": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-21T00:37:48.292Z"
+          "lastPublishedAt": "2026-08-21T02:11:23.289Z"
         },
         "beisebol": {
           "status": "ok",
-          "ageHours": 1.4,
+          "ageHours": 2.9,
           "lastPublishedAt": "2026-08-20T23:16:01.729Z"
         },
         "golfe": {

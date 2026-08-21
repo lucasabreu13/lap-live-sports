@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-3f60d1c1aa87",
+    "slug": "hubert-hurkacz-vence-henrique-rocha-por-2-a-1-em-cancun-3f60d1",
+    "sportId": "tenis",
+    "title": "Hubert Hurkacz vence Henrique Rocha por 2 a 1 em Cancun",
+    "summary": "Hubert Hurkacz superou Henrique Rocha por 2 a 1 em Cancun.",
+    "content": "Hubert Hurkacz superou Henrique Rocha por 2 a 1 em Cancun., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Hubert Hurkacz vence Henrique Rocha por 2 a 1 em Cancun",
+    "seoDescription": "Hubert Hurkacz superou Henrique Rocha por 2 a 1 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T02:11:23.302Z",
+    "createdAt": "2026-08-21T02:11:23.302Z",
+    "updatedAt": "2026-08-21T02:11:23.302Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818733",
+      "eventStartTime": "2026-08-20T21:11:36+00:00",
+      "retrievedAt": "2026-08-21T02:11:23.302Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-584ef0b0996c",
+    "slug": "felix-perez-cardozo-vence-capiata-bulls-por-99-a-72-em-lnb-584ef0",
+    "sportId": "basquete",
+    "title": "Felix Perez Cardozo vence Capiata Bulls por 99 a 72 em LNB",
+    "summary": "Felix Perez Cardozo superou Capiata Bulls por 99 a 72 em LNB.",
+    "content": "Felix Perez Cardozo superou Capiata Bulls por 99 a 72 em LNB., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Felix Perez Cardozo vence Capiata Bulls por 99 a 72 em LNB",
+    "seoDescription": "Felix Perez Cardozo superou Capiata Bulls por 99 a 72 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T02:11:23.289Z",
+    "createdAt": "2026-08-21T02:11:23.289Z",
+    "updatedAt": "2026-08-21T02:11:23.289Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4810151",
+      "eventStartTime": "2026-08-20T23:30:00+00:00",
+      "retrievedAt": "2026-08-21T02:11:23.289Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-36dbbc4ff8e4",
+    "slug": "deportivo-pasto-e-independiente-medellin-ficam-no-0-a-0-pela-copa-colombia-36dbbc",
+    "sportId": "futebol",
+    "title": "Deportivo Pasto e Independiente Medellin ficam no 0 a 0 pela Copa Colombia",
+    "summary": "Deportivo Pasto e Independiente Medellin empataram por 0 a 0 pela Copa Colombia.",
+    "content": "Deportivo Pasto e Independiente Medellin empataram por 0 a 0 pela Copa Colombia, em 20 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-colombia"
+    ],
+    "seoTitle": "Deportivo Pasto e Independiente Medellin ficam no 0 a 0 pela Copa",
+    "seoDescription": "Deportivo Pasto e Independiente Medellin empataram por 0 a 0 pela Copa Colombia.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T02:11:23.283Z",
+    "createdAt": "2026-08-21T02:11:23.283Z",
+    "updatedAt": "2026-08-21T02:11:23.283Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4797354",
+      "eventStartTime": "2026-08-21T01:00:00+00:00",
+      "retrievedAt": "2026-08-21T02:11:23.283Z",
+      "feedId": "futebol",
+      "league": "Copa Colombia"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-da37a1a1090f",
     "slug": "iga-swiatek-e-elena-rybakina-empatam-por-0-a-0-em-cincinnati-da37a1",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T09:00:34.713Z",
       "feedId": "futebol",
       "league": "Mexico"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ad7d6d12dee6",
-    "slug": "fukuoka-hawks-vence-nippon-ham-fighters-por-7-a-1-na-npb-ad7d6d",
-    "sportId": "beisebol",
-    "title": "Fukuoka Hawks vence Nippon Ham Fighters por 7 a 1 na NPB",
-    "summary": "Fukuoka Hawks derrotou Nippon Ham Fighters por 7 a 1 na NPB.",
-    "content": "Fukuoka Hawks derrotou Nippon Ham Fighters por 7 a 1 na NPB, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Fukuoka Hawks vence Nippon Ham Fighters por 7 a 1 na NPB",
-    "seoDescription": "Fukuoka Hawks derrotou Nippon Ham Fighters por 7 a 1 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T08:22:33.654Z",
-    "createdAt": "2026-08-18T08:22:33.654Z",
-    "updatedAt": "2026-08-18T08:22:33.654Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4627287",
-      "eventStartTime": "2026-08-18T05:00:00+00:00",
-      "retrievedAt": "2026-08-18T08:22:33.654Z",
-      "feedId": "beisebol",
-      "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0b6c0a8eae61",
-    "slug": "frantzen-c-haase-r-vence-miedler-l-polmans-m-por-2-a-0-em-cincinnati-0b6c0a",
-    "sportId": "tenis",
-    "title": "Frantzen C./Haase R. vence Miedler L./Polmans M. por 2 a 0 em Cincinnati",
-    "summary": "Frantzen C./Haase R. superou Miedler L./Polmans M. por 2 a 0 em Cincinnati.",
-    "content": "Frantzen C./Haase R. superou Miedler L./Polmans M. por 2 a 0 em Cincinnati., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Frantzen C./Haase R. vence Miedler L./Polmans M. por 2 a 0 em",
-    "seoDescription": "Frantzen C./Haase R. superou Miedler L./Polmans M. por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T08:22:33.652Z",
-    "createdAt": "2026-08-18T08:22:33.652Z",
-    "updatedAt": "2026-08-18T08:22:33.652Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816658",
-      "eventStartTime": "2026-08-17T23:42:45+00:00",
-      "retrievedAt": "2026-08-18T08:22:33.652Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3f75cc2b79ea",
-    "slug": "ferroviaria-supera-paysandu-por-4-a-0-pelo-serie-c-3f75cc",
-    "sportId": "futebol",
-    "title": "Ferroviária supera Paysandu por 4 a 0 pelo Serie C",
-    "summary": "Ferroviária venceu Paysandu por 4 a 0 pelo Serie C.",
-    "content": "Ferroviária venceu Paysandu por 4 a 0 pelo Serie C, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "serie-c"
-    ],
-    "seoTitle": "Ferroviária supera Paysandu por 4 a 0 pelo Serie C",
-    "seoDescription": "Ferroviária venceu Paysandu por 4 a 0 pelo Serie C.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T08:22:33.608Z",
-    "createdAt": "2026-08-18T08:22:33.608Z",
-    "updatedAt": "2026-08-18T08:22:33.608Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4677741",
-      "eventStartTime": "2026-08-17T23:00:00+00:00",
-      "retrievedAt": "2026-08-18T08:22:33.608Z",
-      "feedId": "futebol",
-      "league": "Serie C"
     },
     "articleFormat": "result-brief"
   }
