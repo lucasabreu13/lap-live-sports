@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-4761ece7b492",
+    "slug": "redcar-town-e-bridlington-town-ficam-no-0-a-0-pelo-fa-cup-qualifying-rounds-4761ec",
+    "sportId": "futebol",
+    "title": "Redcar Town e Bridlington Town ficam no 0 a 0 pelo FA Cup Qualifying Rounds",
+    "summary": "Redcar Town e Bridlington Town empataram por 0 a 0 pelo FA Cup Qualifying Rounds.",
+    "content": "Redcar Town e Bridlington Town empataram por 0 a 0 pelo FA Cup Qualifying Rounds, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "fa-cup-qualifying-rounds"
+    ],
+    "seoTitle": "Redcar Town e Bridlington Town ficam no 0 a 0 pelo FA Cup Qualifying",
+    "seoDescription": "Redcar Town e Bridlington Town empataram por 0 a 0 pelo FA Cup Qualifying Rounds.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T20:13:06.420Z",
+    "createdAt": "2026-08-21T20:13:06.420Z",
+    "updatedAt": "2026-08-21T20:13:06.420Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4807143",
+      "eventStartTime": "2026-08-21T18:45:00+00:00",
+      "retrievedAt": "2026-08-21T20:13:06.420Z",
+      "feedId": "futebol",
+      "league": "FA Cup - Qualifying Rounds"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-85413ce1f6b1",
     "slug": "amazon-callao-fc-e-centro-social-de-pariacoto-ficam-no-0-a-0-pela-liga-3-85413c",
     "sportId": "futebol",
@@ -12554,48 +12596,6 @@
       "retrievedAt": "2026-08-19T00:39:30.092Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-306e0886770d",
-    "slug": "londrina-e-atletico-goianiense-ficam-no-0-a-0-pelo-serie-b-306e08",
-    "sportId": "futebol",
-    "title": "Londrina e Atlético Goianiense ficam no 0 a 0 pelo Serie B",
-    "summary": "Londrina e Atlético Goianiense empataram por 0 a 0 pelo Serie B.",
-    "content": "Londrina e Atlético Goianiense empataram por 0 a 0 pelo Serie B, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "serie-b"
-    ],
-    "seoTitle": "Londrina e Atlético Goianiense ficam no 0 a 0 pelo Serie B",
-    "seoDescription": "Londrina e Atlético Goianiense empataram por 0 a 0 pelo Serie B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T00:39:30.071Z",
-    "createdAt": "2026-08-19T00:39:30.071Z",
-    "updatedAt": "2026-08-19T00:39:30.071Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4669848",
-      "eventStartTime": "2026-08-18T22:30:00+00:00",
-      "retrievedAt": "2026-08-19T00:39:30.071Z",
-      "feedId": "futebol",
-      "league": "Serie B"
     },
     "articleFormat": "result-brief"
   }
