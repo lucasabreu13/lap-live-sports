@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-346c03222a29",
+    "slug": "trouville-vence-lagomar-por-83-a-80-em-liga-de-ascenso-346c03",
+    "sportId": "basquete",
+    "title": "Trouville vence Lagomar por 83 a 80 em Liga de ascenso",
+    "summary": "Trouville superou Lagomar por 83 a 80 em Liga de ascenso.",
+    "content": "Trouville superou Lagomar por 83 a 80 em Liga de ascenso., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Trouville vence Lagomar por 83 a 80 em Liga de ascenso",
+    "seoDescription": "Trouville superou Lagomar por 83 a 80 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T19:04:17.310Z",
+    "createdAt": "2026-08-21T19:04:17.310Z",
+    "updatedAt": "2026-08-21T19:04:17.310Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815897",
+      "eventStartTime": "2026-08-20T23:15:00+00:00",
+      "retrievedAt": "2026-08-21T19:04:17.310Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-38a72041f14c",
+    "slug": "wellen-e-berg-en-dal-ficam-no-0-a-0-pelo-belgian-cup-38a720",
+    "sportId": "futebol",
+    "title": "Wellen e Berg En Dal ficam no 0 a 0 pelo Belgian Cup",
+    "summary": "Wellen e Berg En Dal empataram por 0 a 0 pelo Belgian Cup.",
+    "content": "Wellen e Berg En Dal empataram por 0 a 0 pelo Belgian Cup, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "belgian-cup"
+    ],
+    "seoTitle": "Wellen e Berg En Dal ficam no 0 a 0 pelo Belgian Cup",
+    "seoDescription": "Wellen e Berg En Dal empataram por 0 a 0 pelo Belgian Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T19:04:17.283Z",
+    "createdAt": "2026-08-21T19:04:17.283Z",
+    "updatedAt": "2026-08-21T19:04:17.283Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815903",
+      "eventStartTime": "2026-08-21T18:30:00+00:00",
+      "retrievedAt": "2026-08-21T19:04:17.283Z",
+      "feedId": "futebol",
+      "league": "Belgian Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-e76ddba6c0f6",
     "slug": "arribage-t-olivetti-a-vence-arevalo-m-pavic-m-por-2-a-1-em-cincinnati-e76ddb",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-18T23:34:13.827Z",
       "feedId": "tenis",
       "league": "Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-61832d3cd35c",
-    "slug": "river-plate-res-supera-atletico-tucuman-res-por-4-a-1-pela-liga-profesional-reserv-61832d",
-    "sportId": "futebol",
-    "title": "River Plate Res. supera Atlético Tucumán Res. por 4 a 1 pela Liga Profesional Reserva",
-    "summary": "River Plate Res. venceu Atlético Tucumán Res. por 4 a 1 pela Liga Profesional Reserva.",
-    "content": "River Plate Res. venceu Atlético Tucumán Res. por 4 a 1 pela Liga Profesional Reserva, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-profesional-reserva"
-    ],
-    "seoTitle": "River Plate Res. supera Atlético Tucumán Res. por 4 a 1 pela Liga",
-    "seoDescription": "River Plate Res. venceu Atlético Tucumán Res. por 4 a 1 pela Liga Profesional Reserva.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T23:34:13.809Z",
-    "createdAt": "2026-08-18T23:34:13.809Z",
-    "updatedAt": "2026-08-18T23:34:13.809Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4806317",
-      "eventStartTime": "2026-08-18T20:00:00+00:00",
-      "retrievedAt": "2026-08-18T23:34:13.809Z",
-      "feedId": "futebol",
-      "league": "Liga Profesional - Reserva"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-cff4f6c56d9b",
-    "slug": "jesper-de-jong-vence-dane-sweeny-por-2-a-0-em-quebec-city-cff4f6",
-    "sportId": "tenis",
-    "title": "Jesper De Jong vence Dane Sweeny por 2 a 0 em Quebec City",
-    "summary": "Jesper De Jong superou Dane Sweeny por 2 a 0 em Quebec City.",
-    "content": "Jesper De Jong superou Dane Sweeny por 2 a 0 em Quebec City., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "quebec-city"
-    ],
-    "seoTitle": "Jesper De Jong vence Dane Sweeny por 2 a 0 em Quebec City",
-    "seoDescription": "Jesper De Jong superou Dane Sweeny por 2 a 0 em Quebec City.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T23:11:47.978Z",
-    "createdAt": "2026-08-18T23:11:47.978Z",
-    "updatedAt": "2026-08-18T23:11:47.978Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816184",
-      "eventStartTime": "2026-08-18T21:33:43+00:00",
-      "retrievedAt": "2026-08-18T23:11:47.978Z",
-      "feedId": "tenis",
-      "league": " Quebec City"
     },
     "articleFormat": "result-brief"
   }
