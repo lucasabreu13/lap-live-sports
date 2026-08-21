@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-654946ee2098",
+    "slug": "moise-kouame-vence-roman-andres-burruchaga-por-2-a-0-em-cancun-654946",
+    "sportId": "tenis",
+    "title": "Moise Kouame vence Roman Andres Burruchaga por 2 a 0 em Cancun",
+    "summary": "Moise Kouame superou Roman Andres Burruchaga por 2 a 0 em Cancun.",
+    "content": "Moise Kouame superou Roman Andres Burruchaga por 2 a 0 em Cancun., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Moise Kouame vence Roman Andres Burruchaga por 2 a 0 em Cancun",
+    "seoDescription": "Moise Kouame superou Roman Andres Burruchaga por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T03:14:21.436Z",
+    "createdAt": "2026-08-21T03:14:21.436Z",
+    "updatedAt": "2026-08-21T03:14:21.436Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819543",
+      "eventStartTime": "2026-08-21T01:26:03+00:00",
+      "retrievedAt": "2026-08-21T03:14:21.436Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d629ce16a459",
+    "slug": "dallas-wings-vence-indiana-fever-por-91-a-85-em-wnba-d629ce",
+    "sportId": "basquete",
+    "title": "Dallas Wings vence Indiana Fever por 91 a 85 em WNBA",
+    "summary": "Dallas Wings superou Indiana Fever por 91 a 85 em WNBA.",
+    "content": "Dallas Wings superou Indiana Fever por 91 a 85 em WNBA., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Dallas Wings vence Indiana Fever por 91 a 85 em WNBA",
+    "seoDescription": "Dallas Wings superou Indiana Fever por 91 a 85 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T03:14:21.433Z",
+    "createdAt": "2026-08-21T03:14:21.433Z",
+    "updatedAt": "2026-08-21T03:14:21.433Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659892",
+      "eventStartTime": "2026-08-21T00:00:00+00:00",
+      "retrievedAt": "2026-08-21T03:14:21.433Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-0cbc2c836539",
+    "slug": "las-vegas-raiders-vence-houston-texans-por-22-a-20-em-nfl-0cbc2c",
+    "sportId": "futebol-americano",
+    "title": "Las Vegas Raiders vence Houston Texans por 22 a 20 em NFL",
+    "summary": "Las Vegas Raiders superou Houston Texans por 22 a 20 em NFL.",
+    "content": "Las Vegas Raiders superou Houston Texans por 22 a 20 em NFL., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": "/images/sports/futebol-americano.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Las Vegas Raiders vence Houston Texans por 22 a 20 em NFL",
+    "seoDescription": "Las Vegas Raiders superou Houston Texans por 22 a 20 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T03:14:21.430Z",
+    "createdAt": "2026-08-21T03:14:21.430Z",
+    "updatedAt": "2026-08-21T03:14:21.430Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714917",
+      "eventStartTime": "2026-08-21T00:00:00+00:00",
+      "retrievedAt": "2026-08-21T03:14:21.430Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3a50cb5519e1",
+    "slug": "correcaminos-supera-atletico-morelia-por-3-a-1-pela-liga-de-expansion-3a50cb",
+    "sportId": "futebol",
+    "title": "Correcaminos supera Atlético Morelia por 3 a 1 pela Liga de Expansión",
+    "summary": "Correcaminos venceu Atlético Morelia por 3 a 1 pela Liga de Expansión.",
+    "content": "Correcaminos venceu Atlético Morelia por 3 a 1 pela Liga de Expansión, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-expansion"
+    ],
+    "seoTitle": "Correcaminos supera Atlético Morelia por 3 a 1 pela Liga de Expansión",
+    "seoDescription": "Correcaminos venceu Atlético Morelia por 3 a 1 pela Liga de Expansión.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T03:14:21.427Z",
+    "createdAt": "2026-08-21T03:14:21.427Z",
+    "updatedAt": "2026-08-21T03:14:21.427Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4761056",
+      "eventStartTime": "2026-08-21T01:00:00+00:00",
+      "retrievedAt": "2026-08-21T03:14:21.427Z",
+      "feedId": "futebol",
+      "league": "Liga de Expansión"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3f60d1c1aa87",
     "slug": "hubert-hurkacz-vence-henrique-rocha-por-2-a-1-em-cancun-3f60d1",
     "sportId": "tenis",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-18T10:17:12.457Z",
       "feedId": "futebol",
       "league": "Primera B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-374e067d014f",
-    "slug": "luca-staeheli-vence-andrey-chepelev-por-2-a-0-em-sion-374e06",
-    "sportId": "tenis",
-    "title": "Luca Staeheli vence Andrey Chepelev por 2 a 0 em Sion",
-    "summary": "Luca Staeheli superou Andrey Chepelev por 2 a 0 em Sion.",
-    "content": "Luca Staeheli superou Andrey Chepelev por 2 a 0 em Sion., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Luca Staeheli vence Andrey Chepelev por 2 a 0 em Sion",
-    "seoDescription": "Luca Staeheli superou Andrey Chepelev por 2 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T09:46:30.360Z",
-    "createdAt": "2026-08-18T09:46:30.360Z",
-    "updatedAt": "2026-08-18T09:46:30.360Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815633",
-      "eventStartTime": "2026-08-18T08:14:25+00:00",
-      "retrievedAt": "2026-08-18T09:46:30.360Z",
-      "feedId": "tenis",
-      "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b17de7170dff",
-    "slug": "velez-sarsfield-e-defensa-y-justicia-ficam-no-1-a-1-pela-superliga-b17de7",
-    "sportId": "futebol",
-    "title": "Velez Sarsfield e Defensa Y Justicia ficam no 1 a 1 pela Superliga",
-    "summary": "Velez Sarsfield e Defensa Y Justicia empataram por 1 a 1 pela Superliga.",
-    "content": "Velez Sarsfield e Defensa Y Justicia empataram por 1 a 1 pela Superliga, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "superliga"
-    ],
-    "seoTitle": "Velez Sarsfield e Defensa Y Justicia ficam no 1 a 1 pela Superliga",
-    "seoDescription": "Velez Sarsfield e Defensa Y Justicia empataram por 1 a 1 pela Superliga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T09:46:30.325Z",
-    "createdAt": "2026-08-18T09:46:30.325Z",
-    "updatedAt": "2026-08-18T09:46:30.325Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4633375",
-      "eventStartTime": "2026-08-17T22:15:00+00:00",
-      "retrievedAt": "2026-08-18T09:46:30.325Z",
-      "feedId": "futebol",
-      "league": "Superliga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b96c00bb5fad",
-    "slug": "schnaitter-wallner-vence-krawietz-k-puetz-t-por-2-a-1-em-cincinnati-b96c00",
-    "sportId": "tenis",
-    "title": "Schnaitter / Wallner vence Krawietz K./Puetz T. por 2 a 1 em Cincinnati",
-    "summary": "Schnaitter / Wallner superou Krawietz K./Puetz T. por 2 a 1 em Cincinnati.",
-    "content": "Schnaitter / Wallner superou Krawietz K./Puetz T. por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Schnaitter / Wallner vence Krawietz K./Puetz T. por 2 a 1 em",
-    "seoDescription": "Schnaitter / Wallner superou Krawietz K./Puetz T. por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T09:00:34.748Z",
-    "createdAt": "2026-08-18T09:00:34.748Z",
-    "updatedAt": "2026-08-18T09:00:34.748Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815036",
-      "eventStartTime": "2026-08-17T23:14:36+00:00",
-      "retrievedAt": "2026-08-18T09:00:34.748Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5c94d4080366",
-    "slug": "queretaro-w-supera-leon-w-por-1-a-0-pelo-mexico-5c94d4",
-    "sportId": "futebol",
-    "title": "Queretaro (W) supera Leon (W) por 1 a 0 pelo Mexico",
-    "summary": "Queretaro (W) venceu Leon (W) por 1 a 0 pelo Mexico.",
-    "content": "Queretaro (W) venceu Leon (W) por 1 a 0 pelo Mexico, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "mexico"
-    ],
-    "seoTitle": "Queretaro (W) supera Leon (W) por 1 a 0 pelo Mexico",
-    "seoDescription": "Queretaro (W) venceu Leon (W) por 1 a 0 pelo Mexico.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T09:00:34.713Z",
-    "createdAt": "2026-08-18T09:00:34.713Z",
-    "updatedAt": "2026-08-18T09:00:34.713Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4788414",
-      "eventStartTime": "2026-08-17T23:00:00+00:00",
-      "retrievedAt": "2026-08-18T09:00:34.713Z",
-      "feedId": "futebol",
-      "league": "Mexico"
     },
     "articleFormat": "result-brief"
   }
