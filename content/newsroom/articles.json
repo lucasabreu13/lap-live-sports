@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-f52c6ceb2a55",
+    "slug": "cleveland-guardians-vence-san-francisco-giants-por-5-a-2-na-mlb-f52c6c",
+    "sportId": "beisebol",
+    "title": "Cleveland Guardians vence San Francisco Giants por 5 a 2 na MLB",
+    "summary": "Cleveland Guardians derrotou San Francisco Giants por 5 a 2 na MLB.",
+    "content": "Cleveland Guardians derrotou San Francisco Giants por 5 a 2 na MLB, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Cleveland Guardians vence San Francisco Giants por 5 a 2 na MLB",
+    "seoDescription": "Cleveland Guardians derrotou San Francisco Giants por 5 a 2 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T21:45:06.177Z",
+    "createdAt": "2026-08-21T21:45:06.177Z",
+    "updatedAt": "2026-08-21T21:45:06.177Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614842",
+      "eventStartTime": "2026-08-20T17:10:00+00:00",
+      "retrievedAt": "2026-08-21T21:45:06.177Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ca9524120af8",
+    "slug": "ad-fafe-e-guimaraes-b-ficam-no-1-a-1-pela-liga-3-ca9524",
+    "sportId": "futebol",
+    "title": "AD Fafe e Guimarães B ficam no 1 a 1 pela Liga 3",
+    "summary": "AD Fafe e Guimarães B empataram por 1 a 1 pela Liga 3.",
+    "content": "AD Fafe e Guimarães B empataram por 1 a 1 pela Liga 3, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-3"
+    ],
+    "seoTitle": "AD Fafe e Guimarães B ficam no 1 a 1 pela Liga 3",
+    "seoDescription": "AD Fafe e Guimarães B empataram por 1 a 1 pela Liga 3.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T21:45:06.035Z",
+    "createdAt": "2026-08-21T21:45:06.035Z",
+    "updatedAt": "2026-08-21T21:45:06.035Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4777297",
+      "eventStartTime": "2026-08-21T19:30:00+00:00",
+      "retrievedAt": "2026-08-21T21:45:06.035Z",
+      "feedId": "futebol",
+      "league": "Liga 3"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ae2266b88741",
     "slug": "roman-safiullin-vence-stanislas-wawrinka-por-2-a-0-em-cancun-ae2266",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T03:09:12.575Z",
       "feedId": "beisebol",
       "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6e789d3ad82a",
-    "slug": "benjamin-bonzi-vence-justin-boulais-por-2-a-0-em-quebec-city-6e789d",
-    "sportId": "tenis",
-    "title": "Benjamin Bonzi vence Justin Boulais por 2 a 0 em Quebec City",
-    "summary": "Benjamin Bonzi superou Justin Boulais por 2 a 0 em Quebec City.",
-    "content": "Benjamin Bonzi superou Justin Boulais por 2 a 0 em Quebec City., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "quebec-city"
-    ],
-    "seoTitle": "Benjamin Bonzi vence Justin Boulais por 2 a 0 em Quebec City",
-    "seoDescription": "Benjamin Bonzi superou Justin Boulais por 2 a 0 em Quebec City.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T03:09:12.573Z",
-    "createdAt": "2026-08-19T03:09:12.573Z",
-    "updatedAt": "2026-08-19T03:09:12.573Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816187",
-      "eventStartTime": "2026-08-19T00:47:50+00:00",
-      "retrievedAt": "2026-08-19T03:09:12.573Z",
-      "feedId": "tenis",
-      "league": " Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-155213d53197",
-    "slug": "chicago-sky-vence-new-york-liberty-por-93-a-86-em-wnba-155213",
-    "sportId": "basquete",
-    "title": "Chicago Sky vence New York Liberty por 93 a 86 em WNBA",
-    "summary": "Chicago Sky superou New York Liberty por 93 a 86 em WNBA.",
-    "content": "Chicago Sky superou New York Liberty por 93 a 86 em WNBA., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "Chicago Sky vence New York Liberty por 93 a 86 em WNBA",
-    "seoDescription": "Chicago Sky superou New York Liberty por 93 a 86 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T03:09:12.571Z",
-    "createdAt": "2026-08-19T03:09:12.571Z",
-    "updatedAt": "2026-08-19T03:09:12.571Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659889",
-      "eventStartTime": "2026-08-19T01:00:00+00:00",
-      "retrievedAt": "2026-08-19T03:09:12.571Z",
-      "feedId": "basquete",
-      "league": "WNBA"
     },
     "articleFormat": "result-brief"
   }

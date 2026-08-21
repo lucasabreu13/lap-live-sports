@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-08-21T21:20:25.331Z",
-  "commit": "95729ef7e3ac7389144814c8f1a33f9a842d7dc6",
-  "runId": "32528017080",
+  "validatedAt": "2026-08-21T21:45:06.533Z",
+  "commit": "a90c57b1740b814cbb58086f92bc7302d5fb9314",
+  "runId": "32529932608",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -20,15 +20,15 @@
     "curatedArticles": 25,
     "curatedFiles": 5,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-08-21T21:20:24.967Z",
+    "lastPublishedAt": "2026-08-21T21:45:06.177Z",
     "lastPublishedBySport": {
-      "futebol": "2026-08-21T21:20:24.903Z",
+      "futebol": "2026-08-21T21:45:06.035Z",
       "futebol-americano": "2026-08-21T05:22:13.493Z",
       "tenis": "2026-08-21T21:20:24.967Z",
       "ciclismo": null,
       "formula1": null,
       "basquete": "2026-08-21T20:58:00.138Z",
-      "beisebol": "2026-08-21T14:51:24.674Z",
+      "beisebol": "2026-08-21T21:45:06.177Z",
       "golfe": null,
       "surfe": null
     },
@@ -40,16 +40,16 @@
         "futebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-21T21:20:24.903Z"
+          "lastPublishedAt": "2026-08-21T21:45:06.035Z"
         },
         "futebol-americano": {
           "status": "warning",
-          "ageHours": 16,
+          "ageHours": 16.4,
           "lastPublishedAt": "2026-08-21T05:22:13.493Z"
         },
         "tenis": {
           "status": "ok",
-          "ageHours": 0,
+          "ageHours": 0.4,
           "lastPublishedAt": "2026-08-21T21:20:24.967Z"
         },
         "ciclismo": {
@@ -64,13 +64,13 @@
         },
         "basquete": {
           "status": "ok",
-          "ageHours": 0.4,
+          "ageHours": 0.8,
           "lastPublishedAt": "2026-08-21T20:58:00.138Z"
         },
         "beisebol": {
           "status": "ok",
-          "ageHours": 6.5,
-          "lastPublishedAt": "2026-08-21T14:51:24.674Z"
+          "ageHours": 0,
+          "lastPublishedAt": "2026-08-21T21:45:06.177Z"
         },
         "golfe": {
           "status": "critical",
