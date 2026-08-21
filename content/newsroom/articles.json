@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-87a7b0634d91",
+    "slug": "seibu-lions-vence-rakuten-gold-eagles-por-6-a-4-na-npb-87a7b0",
+    "sportId": "beisebol",
+    "title": "Seibu Lions vence Rakuten Gold Eagles por 6 a 4 na NPB",
+    "summary": "Seibu Lions derrotou Rakuten Gold Eagles por 6 a 4 na NPB.",
+    "content": "Seibu Lions derrotou Rakuten Gold Eagles por 6 a 4 na NPB, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Seibu Lions vence Rakuten Gold Eagles por 6 a 4 na NPB",
+    "seoDescription": "Seibu Lions derrotou Rakuten Gold Eagles por 6 a 4 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T14:51:24.674Z",
+    "createdAt": "2026-08-21T14:51:24.674Z",
+    "updatedAt": "2026-08-21T14:51:24.674Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626834",
+      "eventStartTime": "2026-08-21T09:00:00+00:00",
+      "retrievedAt": "2026-08-21T14:51:24.674Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-803636d6c693",
+    "slug": "neuchrist-m-poljak-d-vence-merino-a-zhu-m-por-2-a-0-em-sion-803636",
+    "sportId": "tenis",
+    "title": "Neuchrist M./Poljak D. vence Merino A./Zhu M. por 2 a 0 em Sion",
+    "summary": "Neuchrist M./Poljak D. superou Merino A./Zhu M. por 2 a 0 em Sion.",
+    "content": "Neuchrist M./Poljak D. superou Merino A./Zhu M. por 2 a 0 em Sion., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Neuchrist M./Poljak D. vence Merino A./Zhu M. por 2 a 0 em Sion",
+    "seoDescription": "Neuchrist M./Poljak D. superou Merino A./Zhu M. por 2 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T14:51:24.667Z",
+    "createdAt": "2026-08-21T14:51:24.667Z",
+    "updatedAt": "2026-08-21T14:51:24.667Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820277",
+      "eventStartTime": "2026-08-21T13:45:30+00:00",
+      "retrievedAt": "2026-08-21T14:51:24.667Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1e2601624ba0",
+    "slug": "al-tadamun-hadramaut-e-alsadd-fc-ficam-no-0-a-0-pelo-yemeni-league-1e2601",
+    "sportId": "futebol",
+    "title": "Al Tadamun Hadramaut e Alsadd FC ficam no 0 a 0 pelo Yemeni League",
+    "summary": "Al Tadamun Hadramaut e Alsadd FC empataram por 0 a 0 pelo Yemeni League.",
+    "content": "Al Tadamun Hadramaut e Alsadd FC empataram por 0 a 0 pelo Yemeni League, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "yemeni-league"
+    ],
+    "seoTitle": "Al Tadamun Hadramaut e Alsadd FC ficam no 0 a 0 pelo Yemeni League",
+    "seoDescription": "Al Tadamun Hadramaut e Alsadd FC empataram por 0 a 0 pelo Yemeni League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T14:51:24.640Z",
+    "createdAt": "2026-08-21T14:51:24.640Z",
+    "updatedAt": "2026-08-21T14:51:24.640Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4742993",
+      "eventStartTime": "2026-08-21T13:00:00+00:00",
+      "retrievedAt": "2026-08-21T14:51:24.640Z",
+      "feedId": "futebol",
+      "league": "Yemeni League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-cc06c68b4230",
     "slug": "chiba-lotte-marines-vence-nippon-ham-fighters-por-4-a-3-na-npb-cc06c6",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T20:57:36.109Z",
       "feedId": "futebol",
       "league": "Liga Revelacao U23"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b40285cd8dc8",
-    "slug": "melo-m-zverev-a-vence-navone-m-tabilo-a-por-2-a-0-em-cincinnati-b40285",
-    "sportId": "tenis",
-    "title": "Melo M./Zverev A. vence Navone M./Tabilo A. por 2 a 0 em Cincinnati",
-    "summary": "Melo M./Zverev A. superou Navone M./Tabilo A. por 2 a 0 em Cincinnati.",
-    "content": "Melo M./Zverev A. superou Navone M./Tabilo A. por 2 a 0 em Cincinnati., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Melo M./Zverev A. vence Navone M./Tabilo A. por 2 a 0 em Cincinnati",
-    "seoDescription": "Melo M./Zverev A. superou Navone M./Tabilo A. por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T20:38:22.646Z",
-    "createdAt": "2026-08-18T20:38:22.646Z",
-    "updatedAt": "2026-08-18T20:38:22.646Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4817132",
-      "eventStartTime": "2026-08-18T19:05:33+00:00",
-      "retrievedAt": "2026-08-18T20:38:22.646Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-be66690521c1",
-    "slug": "scarborough-athletic-supera-spennymoor-town-por-3-a-0-pelo-national-league-n-s-be6669",
-    "sportId": "futebol",
-    "title": "Scarborough Athletic supera Spennymoor Town por 3 a 0 pelo National League N/S",
-    "summary": "Scarborough Athletic venceu Spennymoor Town por 3 a 0 pelo National League N/S.",
-    "content": "Scarborough Athletic venceu Spennymoor Town por 3 a 0 pelo National League N/S, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "national-league-n-s"
-    ],
-    "seoTitle": "Scarborough Athletic supera Spennymoor Town por 3 a 0 pelo National",
-    "seoDescription": "Scarborough Athletic venceu Spennymoor Town por 3 a 0 pelo National League N/S.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T20:38:22.629Z",
-    "createdAt": "2026-08-18T20:38:22.629Z",
-    "updatedAt": "2026-08-18T20:38:22.629Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4765066",
-      "eventStartTime": "2026-08-18T18:45:00+00:00",
-      "retrievedAt": "2026-08-18T20:38:22.629Z",
-      "feedId": "futebol",
-      "league": "National League N/S"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5a130f39d9b1",
-    "slug": "ram-r-salisbury-j-vence-cash-j-glasspool-l-por-2-a-1-em-cincinnati-5a130f",
-    "sportId": "tenis",
-    "title": "Ram R./Salisbury J. vence Cash J./Glasspool L. por 2 a 1 em Cincinnati",
-    "summary": "Ram R./Salisbury J. superou Cash J./Glasspool L. por 2 a 1 em Cincinnati.",
-    "content": "Ram R./Salisbury J. superou Cash J./Glasspool L. por 2 a 1 em Cincinnati., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Ram R./Salisbury J. vence Cash J./Glasspool L. por 2 a 1 em Cincinnati",
-    "seoDescription": "Ram R./Salisbury J. superou Cash J./Glasspool L. por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T20:22:39.267Z",
-    "createdAt": "2026-08-18T20:22:39.267Z",
-    "updatedAt": "2026-08-18T20:22:39.267Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815030",
-      "eventStartTime": "2026-08-18T17:03:46+00:00",
-      "retrievedAt": "2026-08-18T20:22:39.267Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
