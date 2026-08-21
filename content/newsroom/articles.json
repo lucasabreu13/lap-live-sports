@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-7a5a7e12c937",
+    "slug": "chunichi-dragons-vence-yakult-swallows-por-3-a-0-na-npb-7a5a7e",
+    "sportId": "beisebol",
+    "title": "Chunichi Dragons vence Yakult Swallows por 3 a 0 na NPB",
+    "summary": "Chunichi Dragons derrotou Yakult Swallows por 3 a 0 na NPB.",
+    "content": "Chunichi Dragons derrotou Yakult Swallows por 3 a 0 na NPB, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Chunichi Dragons vence Yakult Swallows por 3 a 0 na NPB",
+    "seoDescription": "Chunichi Dragons derrotou Yakult Swallows por 3 a 0 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T13:23:47.076Z",
+    "createdAt": "2026-08-21T13:23:47.076Z",
+    "updatedAt": "2026-08-21T13:23:47.076Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626835",
+      "eventStartTime": "2026-08-21T09:00:00+00:00",
+      "retrievedAt": "2026-08-21T13:23:47.076Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-bb635221a532",
+    "slug": "lloyd-harris-vence-darwin-blanch-por-2-a-0-em-cancun-bb6352",
+    "sportId": "tenis",
+    "title": "Lloyd Harris vence Darwin Blanch por 2 a 0 em Cancun",
+    "summary": "Lloyd Harris superou Darwin Blanch por 2 a 0 em Cancun.",
+    "content": "Lloyd Harris superou Darwin Blanch por 2 a 0 em Cancun., em 19 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Lloyd Harris vence Darwin Blanch por 2 a 0 em Cancun",
+    "seoDescription": "Lloyd Harris superou Darwin Blanch por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T13:23:47.071Z",
+    "createdAt": "2026-08-21T13:23:47.071Z",
+    "updatedAt": "2026-08-21T13:23:47.071Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818861",
+      "eventStartTime": "2026-08-20T01:43:13+00:00",
+      "retrievedAt": "2026-08-21T13:23:47.071Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-38e333c251e5",
+    "slug": "vilkhivtsi-e-chornomorets-odesa-ficam-no-0-a-0-pelo-ukrainian-cup-38e333",
+    "sportId": "futebol",
+    "title": "Vilkhivtsi e Chornomorets Odesa ficam no 0 a 0 pelo Ukrainian Cup",
+    "summary": "Vilkhivtsi e Chornomorets Odesa empataram por 0 a 0 pelo Ukrainian Cup.",
+    "content": "Vilkhivtsi e Chornomorets Odesa empataram por 0 a 0 pelo Ukrainian Cup, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ukrainian-cup"
+    ],
+    "seoTitle": "Vilkhivtsi e Chornomorets Odesa ficam no 0 a 0 pelo Ukrainian Cup",
+    "seoDescription": "Vilkhivtsi e Chornomorets Odesa empataram por 0 a 0 pelo Ukrainian Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T13:23:46.962Z",
+    "createdAt": "2026-08-21T13:23:46.962Z",
+    "updatedAt": "2026-08-21T13:23:46.962Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4803808",
+      "eventStartTime": "2026-08-21T12:00:00+00:00",
+      "retrievedAt": "2026-08-21T13:23:46.962Z",
+      "feedId": "futebol",
+      "league": "Ukrainian Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7d56d9aa0581",
     "slug": "hanshin-tigers-vence-yokohama-baystars-por-4-a-1-na-npb-7d56d9",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T20:11:25.303Z",
       "feedId": "tenis",
       "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-da3b965a32ec",
-    "slug": "ourense-cf-supera-arenteiro-por-2-a-1-pelo-club-friendlies-da3b96",
-    "sportId": "futebol",
-    "title": "Ourense CF supera Arenteiro por 2 a 1 pelo Club Friendlies",
-    "summary": "Ourense CF venceu Arenteiro por 2 a 1 pelo Club Friendlies.",
-    "content": "Ourense CF venceu Arenteiro por 2 a 1 pelo Club Friendlies, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Ourense CF supera Arenteiro por 2 a 1 pelo Club Friendlies",
-    "seoDescription": "Ourense CF venceu Arenteiro por 2 a 1 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T20:11:25.285Z",
-    "createdAt": "2026-08-18T20:11:25.285Z",
-    "updatedAt": "2026-08-18T20:11:25.285Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4817231",
-      "eventStartTime": "2026-08-18T18:00:00+00:00",
-      "retrievedAt": "2026-08-18T20:11:25.285Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3bf53b125501",
-    "slug": "otto-virtanen-e-yibing-wu-empatam-por-0-a-0-em-cancun-3bf53b",
-    "sportId": "tenis",
-    "title": "Otto Virtanen e Yibing Wu empatam por 0 a 0 em Cancun",
-    "summary": "Otto Virtanen e Yibing Wu terminaram empatados por 0 a 0 em Cancun.",
-    "content": "Otto Virtanen e Yibing Wu terminaram empatados por 0 a 0 em Cancun., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cancun"
-    ],
-    "seoTitle": "Otto Virtanen e Yibing Wu empatam por 0 a 0 em Cancun",
-    "seoDescription": "Otto Virtanen e Yibing Wu terminaram empatados por 0 a 0 em Cancun.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T19:55:09.290Z",
-    "createdAt": "2026-08-18T19:55:09.290Z",
-    "updatedAt": "2026-08-18T19:55:09.290Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816193",
-      "eventStartTime": "2026-08-18T20:00:00+00:00",
-      "retrievedAt": "2026-08-18T19:55:09.290Z",
-      "feedId": "tenis",
-      "league": "Cancun"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-26550f28e5df",
-    "slug": "sheppey-united-e-margate-fc-ficam-no-0-a-0-pelo-non-league-premier-26550f",
-    "sportId": "futebol",
-    "title": "Sheppey United e Margate FC ficam no 0 a 0 pelo Non League Premier",
-    "summary": "Sheppey United e Margate FC empataram por 0 a 0 pelo Non League Premier.",
-    "content": "Sheppey United e Margate FC empataram por 0 a 0 pelo Non League Premier, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "non-league-premier"
-    ],
-    "seoTitle": "Sheppey United e Margate FC ficam no 0 a 0 pelo Non League Premier",
-    "seoDescription": "Sheppey United e Margate FC empataram por 0 a 0 pelo Non League Premier.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T19:55:09.270Z",
-    "createdAt": "2026-08-18T19:55:09.270Z",
-    "updatedAt": "2026-08-18T19:55:09.270Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814166",
-      "eventStartTime": "2026-08-18T18:45:00+00:00",
-      "retrievedAt": "2026-08-18T19:55:09.270Z",
-      "feedId": "futebol",
-      "league": "Non League Premier"
     },
     "articleFormat": "result-brief"
   }
