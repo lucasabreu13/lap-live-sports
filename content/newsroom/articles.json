@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-ab1793cbb0d0",
+    "slug": "yomiuri-giants-vence-yokohama-baystars-por-6-a-3-na-npb-ab1793",
+    "sportId": "beisebol",
+    "title": "Yomiuri Giants vence Yokohama Baystars por 6 a 3 na NPB",
+    "summary": "Yomiuri Giants derrotou Yokohama Baystars por 6 a 3 na NPB.",
+    "content": "Yomiuri Giants derrotou Yokohama Baystars por 6 a 3 na NPB, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Yomiuri Giants vence Yokohama Baystars por 6 a 3 na NPB",
+    "seoDescription": "Yomiuri Giants derrotou Yokohama Baystars por 6 a 3 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T06:25:50.435Z",
+    "createdAt": "2026-08-21T06:25:50.435Z",
+    "updatedAt": "2026-08-21T06:25:50.435Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4627090",
+      "eventStartTime": "2026-08-20T08:45:00+00:00",
+      "retrievedAt": "2026-08-21T06:25:50.435Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ef9d6fb4997e",
+    "slug": "jessica-pegula-vence-amanda-anisimova-por-2-a-1-em-cincinnati-ef9d6f",
+    "sportId": "tenis",
+    "title": "Jessica Pegula vence Amanda Anisimova por 2 a 1 em Cincinnati",
+    "summary": "Jessica Pegula superou Amanda Anisimova por 2 a 1 em Cincinnati.",
+    "content": "Jessica Pegula superou Amanda Anisimova por 2 a 1 em Cincinnati., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Jessica Pegula vence Amanda Anisimova por 2 a 1 em Cincinnati",
+    "seoDescription": "Jessica Pegula superou Amanda Anisimova por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T06:25:50.407Z",
+    "createdAt": "2026-08-21T06:25:50.407Z",
+    "updatedAt": "2026-08-21T06:25:50.407Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819265",
+      "eventStartTime": "2026-08-20T17:10:02+00:00",
+      "retrievedAt": "2026-08-21T06:25:50.407Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2485fad889bb",
+    "slug": "colonias-gold-basketball-vence-deportivo-campoalto-por-91-a-74-em-lnb-2485fa",
+    "sportId": "basquete",
+    "title": "Colonias Gold Basketball vence Deportivo Campoalto por 91 a 74 em LNB",
+    "summary": "Colonias Gold Basketball superou Deportivo Campoalto por 91 a 74 em LNB.",
+    "content": "Colonias Gold Basketball superou Deportivo Campoalto por 91 a 74 em LNB., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Colonias Gold Basketball vence Deportivo Campoalto por 91 a 74 em LNB",
+    "seoDescription": "Colonias Gold Basketball superou Deportivo Campoalto por 91 a 74 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T06:25:50.379Z",
+    "createdAt": "2026-08-21T06:25:50.379Z",
+    "updatedAt": "2026-08-21T06:25:50.379Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4810153",
+      "eventStartTime": "2026-08-20T23:00:00+00:00",
+      "retrievedAt": "2026-08-21T06:25:50.379Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2b555428bb50",
+    "slug": "cavalier-fc-e-salcedo-ficam-no-0-a-0-pelo-concacaf-caribbean-cup-2b5554",
+    "sportId": "futebol",
+    "title": "Cavalier FC e Salcedo ficam no 0 a 0 pelo CONCACAF Caribbean Cup",
+    "summary": "Cavalier FC e Salcedo empataram por 0 a 0 pelo CONCACAF Caribbean Cup.",
+    "content": "Cavalier FC e Salcedo empataram por 0 a 0 pelo CONCACAF Caribbean Cup, em 20 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "concacaf-caribbean-cup"
+    ],
+    "seoTitle": "Cavalier FC e Salcedo ficam no 0 a 0 pelo CONCACAF Caribbean Cup",
+    "seoDescription": "Cavalier FC e Salcedo empataram por 0 a 0 pelo CONCACAF Caribbean Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T06:25:50.365Z",
+    "createdAt": "2026-08-21T06:25:50.365Z",
+    "updatedAt": "2026-08-21T06:25:50.365Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4729989",
+      "eventStartTime": "2026-08-21T00:00:00+00:00",
+      "retrievedAt": "2026-08-21T06:25:50.365Z",
+      "feedId": "futebol",
+      "league": "CONCACAF Caribbean Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-68e22e2afc91",
     "slug": "daniil-glinka-vence-harold-mayot-por-2-a-0-em-kingston-68e22e",
     "sportId": "tenis",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-18T14:05:14.659Z",
       "feedId": "futebol",
       "league": "Superliga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4b35498b1824",
-    "slug": "doosan-bears-vence-nc-dinos-por-6-a-4-na-kbo-4b3549",
-    "sportId": "beisebol",
-    "title": "Doosan Bears vence NC Dinos por 6 a 4 na KBO",
-    "summary": "Doosan Bears derrotou NC Dinos por 6 a 4 na KBO.",
-    "content": "Doosan Bears derrotou NC Dinos por 6 a 4 na KBO, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "kbo"
-    ],
-    "seoTitle": "Doosan Bears vence NC Dinos por 6 a 4 na KBO",
-    "seoDescription": "Doosan Bears derrotou NC Dinos por 6 a 4 na KBO.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T13:28:49.595Z",
-    "createdAt": "2026-08-18T13:28:49.595Z",
-    "updatedAt": "2026-08-18T13:28:49.595Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816943",
-      "eventStartTime": "2026-08-18T10:00:00+00:00",
-      "retrievedAt": "2026-08-18T13:28:49.595Z",
-      "feedId": "beisebol",
-      "league": "KBO"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-abfba52eaedd",
-    "slug": "dimitar-kuzmanov-vence-marvin-moeller-por-2-a-0-em-sion-abfba5",
-    "sportId": "tenis",
-    "title": "Dimitar Kuzmanov vence Marvin Moeller por 2 a 0 em Sion",
-    "summary": "Dimitar Kuzmanov superou Marvin Moeller por 2 a 0 em Sion.",
-    "content": "Dimitar Kuzmanov superou Marvin Moeller por 2 a 0 em Sion., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Dimitar Kuzmanov vence Marvin Moeller por 2 a 0 em Sion",
-    "seoDescription": "Dimitar Kuzmanov superou Marvin Moeller por 2 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T13:28:49.590Z",
-    "createdAt": "2026-08-18T13:28:49.590Z",
-    "updatedAt": "2026-08-18T13:28:49.590Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815629",
-      "eventStartTime": "2026-08-18T11:12:54+00:00",
-      "retrievedAt": "2026-08-18T13:28:49.590Z",
-      "feedId": "tenis",
-      "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2d074ee5fad6",
-    "slug": "beijing-guoan-supera-shanghai-shenhua-por-3-a-0-pelo-super-league-2d074e",
-    "sportId": "futebol",
-    "title": "Beijing Guoan supera Shanghai Shenhua por 3 a 0 pelo Super League",
-    "summary": "Beijing Guoan venceu Shanghai Shenhua por 3 a 0 pelo Super League.",
-    "content": "Beijing Guoan venceu Shanghai Shenhua por 3 a 0 pelo Super League, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "super-league"
-    ],
-    "seoTitle": "Beijing Guoan supera Shanghai Shenhua por 3 a 0 pelo Super League",
-    "seoDescription": "Beijing Guoan venceu Shanghai Shenhua por 3 a 0 pelo Super League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T13:28:49.568Z",
-    "createdAt": "2026-08-18T13:28:49.568Z",
-    "updatedAt": "2026-08-18T13:28:49.568Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4673348",
-      "eventStartTime": "2026-08-18T11:35:00+00:00",
-      "retrievedAt": "2026-08-18T13:28:49.568Z",
-      "feedId": "futebol",
-      "league": "Super League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d078f7093c4c",
-    "slug": "rakuten-gold-eagles-vence-chiba-lotte-marines-por-6-a-2-na-npb-d078f7",
-    "sportId": "beisebol",
-    "title": "Rakuten Gold Eagles vence Chiba Lotte Marines por 6 a 2 na NPB",
-    "summary": "Rakuten Gold Eagles derrotou Chiba Lotte Marines por 6 a 2 na NPB.",
-    "content": "Rakuten Gold Eagles derrotou Chiba Lotte Marines por 6 a 2 na NPB, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Rakuten Gold Eagles vence Chiba Lotte Marines por 6 a 2 na NPB",
-    "seoDescription": "Rakuten Gold Eagles derrotou Chiba Lotte Marines por 6 a 2 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T12:42:49.241Z",
-    "createdAt": "2026-08-18T12:42:49.241Z",
-    "updatedAt": "2026-08-18T12:42:49.241Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4626815",
-      "eventStartTime": "2026-08-18T09:00:00+00:00",
-      "retrievedAt": "2026-08-18T12:42:49.241Z",
-      "feedId": "beisebol",
-      "league": "NPB"
     },
     "articleFormat": "result-brief"
   }
