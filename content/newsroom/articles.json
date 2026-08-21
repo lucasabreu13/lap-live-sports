@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-29e2c312f459",
+    "slug": "nys-roger-vasselin-vence-heliovaara-h-patten-h-por-2-a-0-em-cincinnati-29e2c3",
+    "sportId": "tenis",
+    "title": "Nys / Roger-Vasselin vence Heliovaara H./Patten H. por 2 a 0 em Cincinnati",
+    "summary": "Nys / Roger-Vasselin superou Heliovaara H./Patten H. por 2 a 0 em Cincinnati.",
+    "content": "Nys / Roger-Vasselin superou Heliovaara H./Patten H. por 2 a 0 em Cincinnati., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Nys / Roger-Vasselin vence Heliovaara H./Patten H. por 2 a 0 em",
+    "seoDescription": "Nys / Roger-Vasselin superou Heliovaara H./Patten H. por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T11:48:34.406Z",
+    "createdAt": "2026-08-21T11:48:34.406Z",
+    "updatedAt": "2026-08-21T11:48:34.406Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817260",
+      "eventStartTime": "2026-08-20T15:09:58+00:00",
+      "retrievedAt": "2026-08-21T11:48:34.406Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-34ebfea3628d",
+    "slug": "ahrobiznes-supera-rebel-por-4-a-0-pelo-ukrainian-cup-34ebfe",
+    "sportId": "futebol",
+    "title": "Ahrobiznes supera Rebel por 4 a 0 pelo Ukrainian Cup",
+    "summary": "Ahrobiznes venceu Rebel por 4 a 0 pelo Ukrainian Cup.",
+    "content": "Ahrobiznes venceu Rebel por 4 a 0 pelo Ukrainian Cup, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ukrainian-cup"
+    ],
+    "seoTitle": "Ahrobiznes supera Rebel por 4 a 0 pelo Ukrainian Cup",
+    "seoDescription": "Ahrobiznes venceu Rebel por 4 a 0 pelo Ukrainian Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T11:48:34.326Z",
+    "createdAt": "2026-08-21T11:48:34.326Z",
+    "updatedAt": "2026-08-21T11:48:34.326Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4803807",
+      "eventStartTime": "2026-08-21T09:00:00+00:00",
+      "retrievedAt": "2026-08-21T11:48:34.326Z",
+      "feedId": "futebol",
+      "league": "Ukrainian Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7714e6757808",
     "slug": "druzhba-kozaki-e-bazys-ficam-no-0-a-0-pelo-ukrainian-cup-7714e6",
     "sportId": "futebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-18T19:04:43.658Z",
       "feedId": "tenis",
       "league": "Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5efdb27c980f",
-    "slug": "cd-huarte-e-valle-de-egues-ficam-no-0-a-0-pelo-club-friendlies-5efdb2",
-    "sportId": "futebol",
-    "title": "Cd Huarte e Valle De Egüés ficam no 0 a 0 pelo Club Friendlies",
-    "summary": "Cd Huarte e Valle De Egüés empataram por 0 a 0 pelo Club Friendlies.",
-    "content": "Cd Huarte e Valle De Egüés empataram por 0 a 0 pelo Club Friendlies, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Cd Huarte e Valle De Egüés ficam no 0 a 0 pelo Club Friendlies",
-    "seoDescription": "Cd Huarte e Valle De Egüés empataram por 0 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T19:04:43.638Z",
-    "createdAt": "2026-08-18T19:04:43.638Z",
-    "updatedAt": "2026-08-18T19:04:43.638Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809970",
-      "eventStartTime": "2026-08-18T18:15:00+00:00",
-      "retrievedAt": "2026-08-18T19:04:43.638Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-37a8d7029cb8",
-    "slug": "xiyu-wang-e-elina-svitolina-empatam-por-0-a-0-em-cincinnati-37a8d7",
-    "sportId": "tenis",
-    "title": "Xiyu Wang e Elina Svitolina empatam por 0 a 0 em Cincinnati",
-    "summary": "Xiyu Wang e Elina Svitolina terminaram empatados por 0 a 0 em Cincinnati.",
-    "content": "Xiyu Wang e Elina Svitolina terminaram empatados por 0 a 0 em Cincinnati., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Xiyu Wang e Elina Svitolina empatam por 0 a 0 em Cincinnati",
-    "seoDescription": "Xiyu Wang e Elina Svitolina terminaram empatados por 0 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T18:20:38.138Z",
-    "createdAt": "2026-08-18T18:20:38.138Z",
-    "updatedAt": "2026-08-18T18:20:38.138Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816209",
-      "eventStartTime": "2026-08-18T18:10:00+00:00",
-      "retrievedAt": "2026-08-18T18:20:38.138Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
