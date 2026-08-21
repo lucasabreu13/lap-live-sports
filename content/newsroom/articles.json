@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-3e24e32c21f8",
+    "slug": "chiba-lotte-marines-vence-rakuten-gold-eagles-por-4-a-3-na-npb-3e24e3",
+    "sportId": "beisebol",
+    "title": "Chiba Lotte Marines vence Rakuten Gold Eagles por 4 a 3 na NPB",
+    "summary": "Chiba Lotte Marines derrotou Rakuten Gold Eagles por 4 a 3 na NPB.",
+    "content": "Chiba Lotte Marines derrotou Rakuten Gold Eagles por 4 a 3 na NPB, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Chiba Lotte Marines vence Rakuten Gold Eagles por 4 a 3 na NPB",
+    "seoDescription": "Chiba Lotte Marines derrotou Rakuten Gold Eagles por 4 a 3 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T08:02:57.043Z",
+    "createdAt": "2026-08-21T08:02:57.043Z",
+    "updatedAt": "2026-08-21T08:02:57.043Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626823",
+      "eventStartTime": "2026-08-20T09:00:00+00:00",
+      "retrievedAt": "2026-08-21T08:02:57.043Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-80331c9e4e3b",
+    "slug": "kempen-m-panova-a-vence-chan-h-joint-m-por-2-a-1-em-cincinnati-80331c",
+    "sportId": "tenis",
+    "title": "Kempen M./Panova A. vence Chan H./Joint M. por 2 a 1 em Cincinnati",
+    "summary": "Kempen M./Panova A. superou Chan H./Joint M. por 2 a 1 em Cincinnati.",
+    "content": "Kempen M./Panova A. superou Chan H./Joint M. por 2 a 1 em Cincinnati., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Kempen M./Panova A. vence Chan H./Joint M. por 2 a 1 em Cincinnati",
+    "seoDescription": "Kempen M./Panova A. superou Chan H./Joint M. por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T08:02:57.024Z",
+    "createdAt": "2026-08-21T08:02:57.024Z",
+    "updatedAt": "2026-08-21T08:02:57.024Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819145",
+      "eventStartTime": "2026-08-20T15:09:36+00:00",
+      "retrievedAt": "2026-08-21T08:02:57.024Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c6d9be8f28db",
+    "slug": "venados-supera-dorados-de-sinaloa-por-4-a-2-pela-liga-de-expansion-c6d9be",
+    "sportId": "futebol",
+    "title": "Venados supera Dorados de Sinaloa por 4 a 2 pela Liga de Expansión",
+    "summary": "Venados venceu Dorados de Sinaloa por 4 a 2 pela Liga de Expansión.",
+    "content": "Venados venceu Dorados de Sinaloa por 4 a 2 pela Liga de Expansión, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-expansion"
+    ],
+    "seoTitle": "Venados supera Dorados de Sinaloa por 4 a 2 pela Liga de Expansión",
+    "seoDescription": "Venados venceu Dorados de Sinaloa por 4 a 2 pela Liga de Expansión.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T08:02:56.946Z",
+    "createdAt": "2026-08-21T08:02:56.946Z",
+    "updatedAt": "2026-08-21T08:02:56.946Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4761057",
+      "eventStartTime": "2026-08-20T23:00:00+00:00",
+      "retrievedAt": "2026-08-21T08:02:56.946Z",
+      "feedId": "futebol",
+      "league": "Liga de Expansión"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-12df8b9d96f0",
     "slug": "nc-dinos-vence-doosan-bears-por-5-a-4-na-kbo-12df8b",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T15:20:49.720Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6439f208e73d",
-    "slug": "fountain-gate-supera-mashujaa-fc-por-1-a-0-pelo-ligi-kuu-bara-6439f2",
-    "sportId": "futebol",
-    "title": "Fountain Gate supera Mashujaa Fc por 1 a 0 pelo Ligi Kuu Bara",
-    "summary": "Fountain Gate venceu Mashujaa Fc por 1 a 0 pelo Ligi Kuu Bara.",
-    "content": "Fountain Gate venceu Mashujaa Fc por 1 a 0 pelo Ligi Kuu Bara, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "ligi-kuu-bara"
-    ],
-    "seoTitle": "Fountain Gate supera Mashujaa Fc por 1 a 0 pelo Ligi Kuu Bara",
-    "seoDescription": "Fountain Gate venceu Mashujaa Fc por 1 a 0 pelo Ligi Kuu Bara.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T15:20:49.699Z",
-    "createdAt": "2026-08-18T15:20:49.699Z",
-    "updatedAt": "2026-08-18T15:20:49.699Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4782351",
-      "eventStartTime": "2026-08-18T13:00:00+00:00",
-      "retrievedAt": "2026-08-18T15:20:49.699Z",
-      "feedId": "futebol",
-      "league": "Ligi Kuu Bara"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f0f807e4e644",
-    "slug": "hiroshima-toyo-carp-vence-chunichi-dragons-por-11-a-4-na-npb-f0f807",
-    "sportId": "beisebol",
-    "title": "Hiroshima Toyo Carp vence Chunichi Dragons por 11 a 4 na NPB",
-    "summary": "Hiroshima Toyo Carp derrotou Chunichi Dragons por 11 a 4 na NPB.",
-    "content": "Hiroshima Toyo Carp derrotou Chunichi Dragons por 11 a 4 na NPB, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Hiroshima Toyo Carp vence Chunichi Dragons por 11 a 4 na NPB",
-    "seoDescription": "Hiroshima Toyo Carp derrotou Chunichi Dragons por 11 a 4 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T14:49:39.294Z",
-    "createdAt": "2026-08-18T14:49:39.294Z",
-    "updatedAt": "2026-08-18T14:49:39.294Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4627260",
-      "eventStartTime": "2026-08-18T09:00:00+00:00",
-      "retrievedAt": "2026-08-18T14:49:39.294Z",
-      "feedId": "beisebol",
-      "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9d147648c87b",
-    "slug": "anton-matusevich-vence-yuta-shimizu-por-2-a-0-em-roehampton-9d1476",
-    "sportId": "tenis",
-    "title": "Anton Matusevich vence Yuta Shimizu por 2 a 0 em Roehampton",
-    "summary": "Anton Matusevich superou Yuta Shimizu por 2 a 0 em Roehampton.",
-    "content": "Anton Matusevich superou Yuta Shimizu por 2 a 0 em Roehampton., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "roehampton"
-    ],
-    "seoTitle": "Anton Matusevich vence Yuta Shimizu por 2 a 0 em Roehampton",
-    "seoDescription": "Anton Matusevich superou Yuta Shimizu por 2 a 0 em Roehampton.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T14:49:39.286Z",
-    "createdAt": "2026-08-18T14:49:39.286Z",
-    "updatedAt": "2026-08-18T14:49:39.286Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816181",
-      "eventStartTime": "2026-08-18T12:20:37+00:00",
-      "retrievedAt": "2026-08-18T14:49:39.286Z",
-      "feedId": "tenis",
-      "league": "Roehampton"
     },
     "articleFormat": "result-brief"
   }
