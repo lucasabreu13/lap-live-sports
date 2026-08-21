@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-cc06c68b4230",
+    "slug": "chiba-lotte-marines-vence-nippon-ham-fighters-por-4-a-3-na-npb-cc06c6",
+    "sportId": "beisebol",
+    "title": "Chiba Lotte Marines vence Nippon Ham Fighters por 4 a 3 na NPB",
+    "summary": "Chiba Lotte Marines derrotou Nippon Ham Fighters por 4 a 3 na NPB.",
+    "content": "Chiba Lotte Marines derrotou Nippon Ham Fighters por 4 a 3 na NPB, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Chiba Lotte Marines vence Nippon Ham Fighters por 4 a 3 na NPB",
+    "seoDescription": "Chiba Lotte Marines derrotou Nippon Ham Fighters por 4 a 3 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T14:04:09.518Z",
+    "createdAt": "2026-08-21T14:04:09.518Z",
+    "updatedAt": "2026-08-21T14:04:09.518Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626853",
+      "eventStartTime": "2026-08-21T09:00:00+00:00",
+      "retrievedAt": "2026-08-21T14:04:09.518Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9abeec19ef39",
+    "slug": "hands-t-summers-m-vence-bass-f-duncan-s-por-2-a-1-em-roehampton-9abeec",
+    "sportId": "tenis",
+    "title": "Hands T./Summers M. vence Bass F./Duncan S. por 2 a 1 em Roehampton",
+    "summary": "Hands T./Summers M. superou Bass F./Duncan S. por 2 a 1 em Roehampton.",
+    "content": "Hands T./Summers M. superou Bass F./Duncan S. por 2 a 1 em Roehampton., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Hands T./Summers M. vence Bass F./Duncan S. por 2 a 1 em Roehampton",
+    "seoDescription": "Hands T./Summers M. superou Bass F./Duncan S. por 2 a 1 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T14:04:09.513Z",
+    "createdAt": "2026-08-21T14:04:09.513Z",
+    "updatedAt": "2026-08-21T14:04:09.513Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819097",
+      "eventStartTime": "2026-08-21T12:18:46+00:00",
+      "retrievedAt": "2026-08-21T14:04:09.513Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c0c76ab07d89",
+    "slug": "ismaily-e-fc-masar-ficam-no-0-a-0-pelo-2nd-division-c0c76a",
+    "sportId": "futebol",
+    "title": "Ismaily e FC Masar ficam no 0 a 0 pelo 2nd Division",
+    "summary": "Ismaily e FC Masar empataram por 0 a 0 pelo 2nd Division.",
+    "content": "Ismaily e FC Masar empataram por 0 a 0 pelo 2nd Division, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "2nd-division"
+    ],
+    "seoTitle": "Ismaily e FC Masar ficam no 0 a 0 pelo 2nd Division",
+    "seoDescription": "Ismaily e FC Masar empataram por 0 a 0 pelo 2nd Division.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T14:04:09.486Z",
+    "createdAt": "2026-08-21T14:04:09.486Z",
+    "updatedAt": "2026-08-21T14:04:09.486Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4769072",
+      "eventStartTime": "2026-08-21T13:30:00+00:00",
+      "retrievedAt": "2026-08-21T14:04:09.486Z",
+      "feedId": "futebol",
+      "league": "2nd Division"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-7a5a7e12c937",
     "slug": "chunichi-dragons-vence-yakult-swallows-por-3-a-0-na-npb-7a5a7e",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T20:22:39.267Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-48e25cb5cd87",
-    "slug": "juventud-unida-sm-supera-muniz-por-1-a-0-pelo-primera-c-48e25c",
-    "sportId": "futebol",
-    "title": "Juventud Unida SM supera Muñiz por 1 a 0 pelo Primera C",
-    "summary": "Juventud Unida SM venceu Muñiz por 1 a 0 pelo Primera C.",
-    "content": "Juventud Unida SM venceu Muñiz por 1 a 0 pelo Primera C, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-c"
-    ],
-    "seoTitle": "Juventud Unida SM supera Muñiz por 1 a 0 pelo Primera C",
-    "seoDescription": "Juventud Unida SM venceu Muñiz por 1 a 0 pelo Primera C.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T20:22:39.250Z",
-    "createdAt": "2026-08-18T20:22:39.250Z",
-    "updatedAt": "2026-08-18T20:22:39.250Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4639537",
-      "eventStartTime": "2026-08-18T18:00:00+00:00",
-      "retrievedAt": "2026-08-18T20:22:39.250Z",
-      "feedId": "futebol",
-      "league": "Primera C"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0175a6d1a38c",
-    "slug": "detroit-tigers-vence-pittsburgh-pirates-por-8-a-5-na-mlb-0175a6",
-    "sportId": "beisebol",
-    "title": "Detroit Tigers vence Pittsburgh Pirates por 8 a 5 na MLB",
-    "summary": "Detroit Tigers derrotou Pittsburgh Pirates por 8 a 5 na MLB.",
-    "content": "Detroit Tigers derrotou Pittsburgh Pirates por 8 a 5 na MLB, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Detroit Tigers vence Pittsburgh Pirates por 8 a 5 na MLB",
-    "seoDescription": "Detroit Tigers derrotou Pittsburgh Pirates por 8 a 5 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T20:11:25.318Z",
-    "createdAt": "2026-08-18T20:11:25.318Z",
-    "updatedAt": "2026-08-18T20:11:25.318Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614786",
-      "eventStartTime": "2026-08-17T23:05:00+00:00",
-      "retrievedAt": "2026-08-18T20:11:25.318Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3e2a04925326",
-    "slug": "pedro-martinez-vence-evan-zhu-por-2-a-0-em-kingston-3e2a04",
-    "sportId": "tenis",
-    "title": "Pedro Martinez vence Evan Zhu por 2 a 0 em Kingston",
-    "summary": "Pedro Martinez superou Evan Zhu por 2 a 0 em Kingston.",
-    "content": "Pedro Martinez superou Evan Zhu por 2 a 0 em Kingston., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Pedro Martinez vence Evan Zhu por 2 a 0 em Kingston",
-    "seoDescription": "Pedro Martinez superou Evan Zhu por 2 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T20:11:25.303Z",
-    "createdAt": "2026-08-18T20:11:25.303Z",
-    "updatedAt": "2026-08-18T20:11:25.303Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816755",
-      "eventStartTime": "2026-08-18T17:55:53+00:00",
-      "retrievedAt": "2026-08-18T20:11:25.303Z",
-      "feedId": "tenis",
-      "league": "Kingston"
     },
     "articleFormat": "result-brief"
   }
