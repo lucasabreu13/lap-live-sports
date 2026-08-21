@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-e3663b29ac2c",
+    "slug": "hiroshima-toyo-carp-vence-chunichi-dragons-por-2-a-1-na-npb-e3663b",
+    "sportId": "beisebol",
+    "title": "Hiroshima Toyo Carp vence Chunichi Dragons por 2 a 1 na NPB",
+    "summary": "Hiroshima Toyo Carp derrotou Chunichi Dragons por 2 a 1 na NPB.",
+    "content": "Hiroshima Toyo Carp derrotou Chunichi Dragons por 2 a 1 na NPB, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Hiroshima Toyo Carp vence Chunichi Dragons por 2 a 1 na NPB",
+    "seoDescription": "Hiroshima Toyo Carp derrotou Chunichi Dragons por 2 a 1 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T09:24:37.812Z",
+    "createdAt": "2026-08-21T09:24:37.812Z",
+    "updatedAt": "2026-08-21T09:24:37.812Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4627274",
+      "eventStartTime": "2026-08-20T09:00:00+00:00",
+      "retrievedAt": "2026-08-21T09:24:37.812Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-241a87905dc1",
+    "slug": "lorenzo-giustino-vence-dimitar-kuzmanov-por-2-a-1-em-sion-241a87",
+    "sportId": "tenis",
+    "title": "Lorenzo Giustino vence Dimitar Kuzmanov por 2 a 1 em Sion",
+    "summary": "Lorenzo Giustino superou Dimitar Kuzmanov por 2 a 1 em Sion.",
+    "content": "Lorenzo Giustino superou Dimitar Kuzmanov por 2 a 1 em Sion., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Lorenzo Giustino vence Dimitar Kuzmanov por 2 a 1 em Sion",
+    "seoDescription": "Lorenzo Giustino superou Dimitar Kuzmanov por 2 a 1 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T09:24:37.797Z",
+    "createdAt": "2026-08-21T09:24:37.797Z",
+    "updatedAt": "2026-08-21T09:24:37.797Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819096",
+      "eventStartTime": "2026-08-20T12:04:29+00:00",
+      "retrievedAt": "2026-08-21T09:24:37.797Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2ea061c90483",
+    "slug": "cadiz-cf-b-e-lion-city-ficam-no-0-a-0-pelo-club-friendlies-2ea061",
+    "sportId": "futebol",
+    "title": "Cádiz CF B e Lion City ficam no 0 a 0 pelo Club Friendlies",
+    "summary": "Cádiz CF B e Lion City empataram por 0 a 0 pelo Club Friendlies.",
+    "content": "Cádiz CF B e Lion City empataram por 0 a 0 pelo Club Friendlies, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Cádiz CF B e Lion City ficam no 0 a 0 pelo Club Friendlies",
+    "seoDescription": "Cádiz CF B e Lion City empataram por 0 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T09:24:37.728Z",
+    "createdAt": "2026-08-21T09:24:37.728Z",
+    "updatedAt": "2026-08-21T09:24:37.728Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819835",
+      "eventStartTime": "2026-08-21T08:30:00+00:00",
+      "retrievedAt": "2026-08-21T09:24:37.728Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-6191c821d18d",
     "slug": "yakult-swallows-vence-hanshin-tigers-por-4-a-1-na-npb-6191c8",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T16:54:46.488Z",
       "feedId": "futebol",
       "league": "Slovakia Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4d89b2345cf0",
-    "slug": "ayeni-a-poullain-l-vence-boitan-g-a-durasovic-v-por-2-a-0-em-roehampton-4d89b2",
-    "sportId": "tenis",
-    "title": "Ayeni A./Poullain L. vence Boitan G A./Durasovic V. por 2 a 0 em Roehampton",
-    "summary": "Ayeni A./Poullain L. superou Boitan G A./Durasovic V. por 2 a 0 em Roehampton.",
-    "content": "Ayeni A./Poullain L. superou Boitan G A./Durasovic V. por 2 a 0 em Roehampton., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "roehampton"
-    ],
-    "seoTitle": "Ayeni A./Poullain L. vence Boitan G A./Durasovic V. por 2 a 0 em",
-    "seoDescription": "Ayeni A./Poullain L. superou Boitan G A./Durasovic V. por 2 a 0 em Roehampton.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T16:18:44.338Z",
-    "createdAt": "2026-08-18T16:18:44.338Z",
-    "updatedAt": "2026-08-18T16:18:44.338Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816536",
-      "eventStartTime": "2026-08-18T15:23:57+00:00",
-      "retrievedAt": "2026-08-18T16:18:44.338Z",
-      "feedId": "tenis",
-      "league": "Roehampton"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d2bd49749fcb",
-    "slug": "druzstevnik-besenov-e-nove-zamky-ficam-no-0-a-0-pelo-slovakia-cup-d2bd49",
-    "sportId": "futebol",
-    "title": "Družstevník Bešeňov e Nové Zámky ficam no 0 a 0 pelo Slovakia Cup",
-    "summary": "Družstevník Bešeňov e Nové Zámky empataram por 0 a 0 pelo Slovakia Cup.",
-    "content": "Družstevník Bešeňov e Nové Zámky empataram por 0 a 0 pelo Slovakia Cup, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "slovakia-cup"
-    ],
-    "seoTitle": "Družstevník Bešeňov e Nové Zámky ficam no 0 a 0 pelo Slovakia Cup",
-    "seoDescription": "Družstevník Bešeňov e Nové Zámky empataram por 0 a 0 pelo Slovakia Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T16:18:44.319Z",
-    "createdAt": "2026-08-18T16:18:44.319Z",
-    "updatedAt": "2026-08-18T16:18:44.319Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4802124",
-      "eventStartTime": "2026-08-18T15:00:00+00:00",
-      "retrievedAt": "2026-08-18T16:18:44.319Z",
-      "feedId": "futebol",
-      "league": "Slovakia Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c24cbefe2e9c",
-    "slug": "jeffrey-von-der-schulenburg-vence-georgii-kravchenko-por-2-a-0-em-sion-c24cbe",
-    "sportId": "tenis",
-    "title": "Jeffrey Von Der Schulenburg vence Georgii Kravchenko por 2 a 0 em Sion",
-    "summary": "Jeffrey Von Der Schulenburg superou Georgii Kravchenko por 2 a 0 em Sion.",
-    "content": "Jeffrey Von Der Schulenburg superou Georgii Kravchenko por 2 a 0 em Sion., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Jeffrey Von Der Schulenburg vence Georgii Kravchenko por 2 a 0 em Sion",
-    "seoDescription": "Jeffrey Von Der Schulenburg superou Georgii Kravchenko por 2 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T15:54:26.521Z",
-    "createdAt": "2026-08-18T15:54:26.521Z",
-    "updatedAt": "2026-08-18T15:54:26.521Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815643",
-      "eventStartTime": "2026-08-18T14:03:37+00:00",
-      "retrievedAt": "2026-08-18T15:54:26.521Z",
-      "feedId": "tenis",
-      "league": "Sion"
     },
     "articleFormat": "result-brief"
   }
