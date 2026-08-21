@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-0a64f5786027",
+    "slug": "pedro-martinez-vence-juan-carlos-prado-angelo-por-2-a-1-em-kingston-0a64f5",
+    "sportId": "tenis",
+    "title": "Pedro Martinez vence Juan Carlos Prado Angelo por 2 a 1 em Kingston",
+    "summary": "Pedro Martinez superou Juan Carlos Prado Angelo por 2 a 1 em Kingston.",
+    "content": "Pedro Martinez superou Juan Carlos Prado Angelo por 2 a 1 em Kingston., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Pedro Martinez vence Juan Carlos Prado Angelo por 2 a 1 em Kingston",
+    "seoDescription": "Pedro Martinez superou Juan Carlos Prado Angelo por 2 a 1 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T05:22:13.517Z",
+    "createdAt": "2026-08-21T05:22:13.517Z",
+    "updatedAt": "2026-08-21T05:22:13.517Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819209",
+      "eventStartTime": "2026-08-20T20:26:28+00:00",
+      "retrievedAt": "2026-08-21T05:22:13.517Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ae98f7299073",
+    "slug": "lobos-plateados-vence-diablos-rojos-del-mexico-por-89-a-88-em-lnbp-ae98f7",
+    "sportId": "basquete",
+    "title": "Lobos Plateados vence Diablos Rojos del Mexico por 89 a 88 em LNBP",
+    "summary": "Lobos Plateados superou Diablos Rojos del Mexico por 89 a 88 em LNBP.",
+    "content": "Lobos Plateados superou Diablos Rojos del Mexico por 89 a 88 em LNBP., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Lobos Plateados vence Diablos Rojos del Mexico por 89 a 88 em LNBP",
+    "seoDescription": "Lobos Plateados superou Diablos Rojos del Mexico por 89 a 88 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T05:22:13.499Z",
+    "createdAt": "2026-08-21T05:22:13.499Z",
+    "updatedAt": "2026-08-21T05:22:13.499Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4708859",
+      "eventStartTime": "2026-08-21T02:15:00+00:00",
+      "retrievedAt": "2026-08-21T05:22:13.499Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3fc865ed29b8",
+    "slug": "san-francisco-49ers-vence-los-angeles-chargers-por-41-a-17-em-nfl-3fc865",
+    "sportId": "futebol-americano",
+    "title": "San Francisco 49ers vence Los Angeles Chargers por 41 a 17 em NFL",
+    "summary": "San Francisco 49ers superou Los Angeles Chargers por 41 a 17 em NFL.",
+    "content": "San Francisco 49ers superou Los Angeles Chargers por 41 a 17 em NFL., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": "/images/sports/futebol-americano.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "San Francisco 49ers vence Los Angeles Chargers por 41 a 17 em NFL",
+    "seoDescription": "San Francisco 49ers superou Los Angeles Chargers por 41 a 17 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T05:22:13.493Z",
+    "createdAt": "2026-08-21T05:22:13.493Z",
+    "updatedAt": "2026-08-21T05:22:13.493Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714918",
+      "eventStartTime": "2026-08-21T02:00:00+00:00",
+      "retrievedAt": "2026-08-21T05:22:13.493Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9f65e3f261ba",
+    "slug": "champions-academy-e-arabe-unido-ii-ficam-no-2-a-2-pela-liga-prom-9f65e3",
+    "sportId": "futebol",
+    "title": "Champions Academy e Arabe Unido Ii ficam no 2 a 2 pela Liga Prom",
+    "summary": "Champions Academy e Arabe Unido Ii empataram por 2 a 2 pela Liga Prom.",
+    "content": "Champions Academy e Arabe Unido Ii empataram por 2 a 2 pela Liga Prom, em 20 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-prom"
+    ],
+    "seoTitle": "Champions Academy e Arabe Unido Ii ficam no 2 a 2 pela Liga Prom",
+    "seoDescription": "Champions Academy e Arabe Unido Ii empataram por 2 a 2 pela Liga Prom.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T05:22:13.490Z",
+    "createdAt": "2026-08-21T05:22:13.490Z",
+    "updatedAt": "2026-08-21T05:22:13.490Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4778499",
+      "eventStartTime": "2026-08-21T01:00:00+00:00",
+      "retrievedAt": "2026-08-21T05:22:13.490Z",
+      "feedId": "futebol",
+      "league": "Liga Prom"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-02812c631ab5",
     "slug": "alvarez-l-c-magadan-a-vence-heredia-s-sharan-d-por-2-a-0-em-cancun-02812c",
     "sportId": "tenis",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-18T11:59:03.415Z",
       "feedId": "beisebol",
       "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-de3acc4d8dfb",
-    "slug": "max-hans-rehberg-e-jakub-nicod-empatam-por-0-a-0-em-prague-de3acc",
-    "sportId": "tenis",
-    "title": "Max Hans Rehberg e Jakub Nicod empatam por 0 a 0 em Prague",
-    "summary": "Max Hans Rehberg e Jakub Nicod terminaram empatados por 0 a 0 em Prague.",
-    "content": "Max Hans Rehberg e Jakub Nicod terminaram empatados por 0 a 0 em Prague., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Max Hans Rehberg e Jakub Nicod empatam por 0 a 0 em Prague",
-    "seoDescription": "Max Hans Rehberg e Jakub Nicod terminaram empatados por 0 a 0 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T11:59:03.412Z",
-    "createdAt": "2026-08-18T11:59:03.412Z",
-    "updatedAt": "2026-08-18T11:59:03.412Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815443",
-      "eventStartTime": "2026-08-18T10:55:50+00:00",
-      "retrievedAt": "2026-08-18T11:59:03.412Z",
-      "feedId": "tenis",
-      "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4932c5f792ac",
-    "slug": "sydney-fc-supera-sd-raiders-por-1-a-0-pelo-australia-cup-4932c5",
-    "sportId": "futebol",
-    "title": "Sydney FC supera Sd Raiders por 1 a 0 pelo Australia Cup",
-    "summary": "Sydney FC venceu Sd Raiders por 1 a 0 pelo Australia Cup.",
-    "content": "Sydney FC venceu Sd Raiders por 1 a 0 pelo Australia Cup, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "australia-cup"
-    ],
-    "seoTitle": "Sydney FC supera Sd Raiders por 1 a 0 pelo Australia Cup",
-    "seoDescription": "Sydney FC venceu Sd Raiders por 1 a 0 pelo Australia Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T11:59:03.378Z",
-    "createdAt": "2026-08-18T11:59:03.378Z",
-    "updatedAt": "2026-08-18T11:59:03.378Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809147",
-      "eventStartTime": "2026-08-18T09:30:00+00:00",
-      "retrievedAt": "2026-08-18T11:59:03.378Z",
-      "feedId": "futebol",
-      "league": "Australia Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3e07e5eeb65a",
-    "slug": "dominic-stricker-vence-raphael-perot-por-2-a-0-em-sion-3e07e5",
-    "sportId": "tenis",
-    "title": "Dominic Stricker vence Raphael Perot por 2 a 0 em Sion",
-    "summary": "Dominic Stricker superou Raphael Perot por 2 a 0 em Sion.",
-    "content": "Dominic Stricker superou Raphael Perot por 2 a 0 em Sion., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Dominic Stricker vence Raphael Perot por 2 a 0 em Sion",
-    "seoDescription": "Dominic Stricker superou Raphael Perot por 2 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T11:41:36.222Z",
-    "createdAt": "2026-08-18T11:41:36.222Z",
-    "updatedAt": "2026-08-18T11:41:36.222Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815637",
-      "eventStartTime": "2026-08-18T10:00:27+00:00",
-      "retrievedAt": "2026-08-18T11:41:36.222Z",
-      "feedId": "tenis",
-      "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1463155d0bd5",
-    "slug": "maksimir-cro-e-concordia-zagreb-ficam-no-0-a-0-pelo-club-friendlies-146315",
-    "sportId": "futebol",
-    "title": "Maksimir (Cro) e Concordia Zagreb ficam no 0 a 0 pelo Club Friendlies",
-    "summary": "Maksimir (Cro) e Concordia Zagreb empataram por 0 a 0 pelo Club Friendlies.",
-    "content": "Maksimir (Cro) e Concordia Zagreb empataram por 0 a 0 pelo Club Friendlies, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Maksimir (Cro) e Concordia Zagreb ficam no 0 a 0 pelo Club Friendlies",
-    "seoDescription": "Maksimir (Cro) e Concordia Zagreb empataram por 0 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T11:41:36.209Z",
-    "createdAt": "2026-08-18T11:41:36.209Z",
-    "updatedAt": "2026-08-18T11:41:36.209Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809972",
-      "eventStartTime": "2026-08-18T11:00:00+00:00",
-      "retrievedAt": "2026-08-18T11:41:36.209Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
     },
     "articleFormat": "result-brief"
   }
