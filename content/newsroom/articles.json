@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-7921869ad72a",
+    "slug": "balaji-n-s-chandrasekar-a-vence-stevenson-d-willis-m-por-2-a-1-em-cancun-792186",
+    "sportId": "tenis",
+    "title": "Balaji N S./Chandrasekar A. vence Stevenson D./Willis M. por 2 a 1 em Cancun",
+    "summary": "Balaji N S./Chandrasekar A. superou Stevenson D./Willis M. por 2 a 1 em Cancun.",
+    "content": "Balaji N S./Chandrasekar A. superou Stevenson D./Willis M. por 2 a 1 em Cancun., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Balaji N S./Chandrasekar A. vence Stevenson D./Willis M. por 2 a 1 em",
+    "seoDescription": "Balaji N S./Chandrasekar A. superou Stevenson D./Willis M. por 2 a 1 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T23:37:15.065Z",
+    "createdAt": "2026-08-21T23:37:15.065Z",
+    "updatedAt": "2026-08-21T23:37:15.065Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820306",
+      "eventStartTime": "2026-08-21T21:41:57+00:00",
+      "retrievedAt": "2026-08-21T23:37:15.065Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c2e7ba36208d",
+    "slug": "rubio-nu-e-sportivo-trinidense-ficam-no-0-a-0-pela-copa-de-primera-c2e7ba",
+    "sportId": "futebol",
+    "title": "Rubio Ñu e Sportivo Trinidense ficam no 0 a 0 pela Copa de Primera",
+    "summary": "Rubio Ñu e Sportivo Trinidense empataram por 0 a 0 pela Copa de Primera.",
+    "content": "Rubio Ñu e Sportivo Trinidense empataram por 0 a 0 pela Copa de Primera, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "copa-de-primera"
+    ],
+    "seoTitle": "Rubio Ñu e Sportivo Trinidense ficam no 0 a 0 pela Copa de Primera",
+    "seoDescription": "Rubio Ñu e Sportivo Trinidense empataram por 0 a 0 pela Copa de Primera.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T23:37:15.030Z",
+    "createdAt": "2026-08-21T23:37:15.030Z",
+    "updatedAt": "2026-08-21T23:37:15.030Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4764162",
+      "eventStartTime": "2026-08-21T21:30:00+00:00",
+      "retrievedAt": "2026-08-21T23:37:15.030Z",
+      "feedId": "futebol",
+      "league": "Copa de Primera"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3680711f65b5",
     "slug": "texas-rangers-vence-washington-nationals-por-2-a-0-na-mlb-368071",
     "sportId": "beisebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T05:01:54.562Z",
       "feedId": "basquete",
       "league": "Liga de ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ab6799a8f373",
-    "slug": "club-sport-herediano-supera-real-esteli-fc-por-2-a-0-pelo-concacaf-central-america-ab6799",
-    "sportId": "futebol",
-    "title": "Club Sport Herediano supera Real Estelí FC por 2 a 0 pelo CONCACAF Central American Cup",
-    "summary": "Club Sport Herediano venceu Real Estelí FC por 2 a 0 pelo CONCACAF Central American Cup.",
-    "content": "Club Sport Herediano venceu Real Estelí FC por 2 a 0 pelo CONCACAF Central American Cup, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "concacaf-central-american-cup"
-    ],
-    "seoTitle": "Club Sport Herediano supera Real Estelí FC por 2 a 0 pelo CONCACAF",
-    "seoDescription": "Club Sport Herediano venceu Real Estelí FC por 2 a 0 pelo CONCACAF Central American Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T05:01:54.549Z",
-    "createdAt": "2026-08-19T05:01:54.549Z",
-    "updatedAt": "2026-08-19T05:01:54.549Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4730009",
-      "eventStartTime": "2026-08-19T03:00:00+00:00",
-      "retrievedAt": "2026-08-19T05:01:54.549Z",
-      "feedId": "futebol",
-      "league": "CONCACAF Central American Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ab98aa7b7698",
-    "slug": "milwaukee-brewers-vence-seattle-mariners-por-22-a-0-na-mlb-ab98aa",
-    "sportId": "beisebol",
-    "title": "Milwaukee Brewers vence Seattle Mariners por 22 a 0 na MLB",
-    "summary": "Milwaukee Brewers derrotou Seattle Mariners por 22 a 0 na MLB.",
-    "content": "Milwaukee Brewers derrotou Seattle Mariners por 22 a 0 na MLB, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Milwaukee Brewers vence Seattle Mariners por 22 a 0 na MLB",
-    "seoDescription": "Milwaukee Brewers derrotou Seattle Mariners por 22 a 0 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T04:28:01.149Z",
-    "createdAt": "2026-08-19T04:28:01.149Z",
-    "updatedAt": "2026-08-19T04:28:01.149Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614788",
-      "eventStartTime": "2026-08-18T23:40:00+00:00",
-      "retrievedAt": "2026-08-19T04:28:01.149Z",
-      "feedId": "beisebol",
-      "league": "MLB"
     },
     "articleFormat": "result-brief"
   }
