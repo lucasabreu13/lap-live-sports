@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-3b625b6befea",
+    "slug": "dominic-stricker-vence-mika-brunold-por-2-a-0-em-sion-3b625b",
+    "sportId": "tenis",
+    "title": "Dominic Stricker vence Mika Brunold por 2 a 0 em Sion",
+    "summary": "Dominic Stricker superou Mika Brunold por 2 a 0 em Sion.",
+    "content": "Dominic Stricker superou Mika Brunold por 2 a 0 em Sion., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Dominic Stricker vence Mika Brunold por 2 a 0 em Sion",
+    "seoDescription": "Dominic Stricker superou Mika Brunold por 2 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T10:54:42.313Z",
+    "createdAt": "2026-08-21T10:54:42.313Z",
+    "updatedAt": "2026-08-21T10:54:42.313Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819114",
+      "eventStartTime": "2026-08-20T10:10:44+00:00",
+      "retrievedAt": "2026-08-21T10:54:42.313Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-645cff89fc44",
+    "slug": "san-sebastian-de-los-reyes-e-atletico-baleares-ficam-no-0-a-0-pelo-club-friendlies-645cff",
+    "sportId": "futebol",
+    "title": "San Sebastian De Los Reyes e Atletico Baleares ficam no 0 a 0 pelo Club Friendlies",
+    "summary": "San Sebastian De Los Reyes e Atletico Baleares empataram por 0 a 0 pelo Club Friendlies.",
+    "content": "San Sebastian De Los Reyes e Atletico Baleares empataram por 0 a 0 pelo Club Friendlies, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "San Sebastian De Los Reyes e Atletico Baleares ficam no 0 a 0 pelo",
+    "seoDescription": "San Sebastian De Los Reyes e Atletico Baleares empataram por 0 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T10:54:42.214Z",
+    "createdAt": "2026-08-21T10:54:42.214Z",
+    "updatedAt": "2026-08-21T10:54:42.214Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816933",
+      "eventStartTime": "2026-08-21T10:00:00+00:00",
+      "retrievedAt": "2026-08-21T10:54:42.214Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d946fd85bb14",
     "slug": "benjamin-hassan-vence-geoffrey-blancaneaux-por-2-a-1-em-sion-d946fd",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-18T18:20:38.123Z",
       "feedId": "futebol",
       "league": "Svenska Cupen"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6419f8562375",
-    "slug": "heliovaara-h-patten-h-vence-hanfmann-y-kecmanovic-m-por-2-a-0-em-cincinnati-6419f8",
-    "sportId": "tenis",
-    "title": "Heliovaara H./Patten H. vence Hanfmann Y./Kecmanovic M. por 2 a 0 em Cincinnati",
-    "summary": "Heliovaara H./Patten H. superou Hanfmann Y./Kecmanovic M. por 2 a 0 em Cincinnati.",
-    "content": "Heliovaara H./Patten H. superou Hanfmann Y./Kecmanovic M. por 2 a 0 em Cincinnati., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Heliovaara H./Patten H. vence Hanfmann Y./Kecmanovic M. por 2 a 0 em",
-    "seoDescription": "Heliovaara H./Patten H. superou Hanfmann Y./Kecmanovic M. por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T17:50:17.231Z",
-    "createdAt": "2026-08-18T17:50:17.231Z",
-    "updatedAt": "2026-08-18T17:50:17.231Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4817227",
-      "eventStartTime": "2026-08-18T16:30:00+00:00",
-      "retrievedAt": "2026-08-18T17:50:17.231Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8c1e5ba8c26f",
-    "slug": "bayern-munich-supera-fc-heidenheim-por-4-a-2-pelo-club-friendlies-8c1e5b",
-    "sportId": "futebol",
-    "title": "Bayern Munich supera FC Heidenheim por 4 a 2 pelo Club Friendlies",
-    "summary": "Bayern Munich venceu FC Heidenheim por 4 a 2 pelo Club Friendlies.",
-    "content": "Bayern Munich venceu FC Heidenheim por 4 a 2 pelo Club Friendlies, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Bayern Munich supera FC Heidenheim por 4 a 2 pelo Club Friendlies",
-    "seoDescription": "Bayern Munich venceu FC Heidenheim por 4 a 2 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T17:50:17.210Z",
-    "createdAt": "2026-08-18T17:50:17.210Z",
-    "updatedAt": "2026-08-18T17:50:17.210Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4805030",
-      "eventStartTime": "2026-08-18T16:00:00+00:00",
-      "retrievedAt": "2026-08-18T17:50:17.210Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
     },
     "articleFormat": "result-brief"
   }
