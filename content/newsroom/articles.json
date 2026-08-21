@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-68e22e2afc91",
+    "slug": "daniil-glinka-vence-harold-mayot-por-2-a-0-em-kingston-68e22e",
+    "sportId": "tenis",
+    "title": "Daniil Glinka vence Harold Mayot por 2 a 0 em Kingston",
+    "summary": "Daniil Glinka superou Harold Mayot por 2 a 0 em Kingston.",
+    "content": "Daniil Glinka superou Harold Mayot por 2 a 0 em Kingston., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Daniil Glinka vence Harold Mayot por 2 a 0 em Kingston",
+    "seoDescription": "Daniil Glinka superou Harold Mayot por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T05:54:19.856Z",
+    "createdAt": "2026-08-21T05:54:19.856Z",
+    "updatedAt": "2026-08-21T05:54:19.856Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819269",
+      "eventStartTime": "2026-08-20T18:00:05+00:00",
+      "retrievedAt": "2026-08-21T05:54:19.856Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d4e1e4cef773",
+    "slug": "soles-de-mexicali-vence-mineros-de-zacatecas-por-84-a-68-em-lnbp-d4e1e4",
+    "sportId": "basquete",
+    "title": "Soles De Mexicali vence Mineros de Zacatecas por 84 a 68 em LNBP",
+    "summary": "Soles De Mexicali superou Mineros de Zacatecas por 84 a 68 em LNBP.",
+    "content": "Soles De Mexicali superou Mineros de Zacatecas por 84 a 68 em LNBP., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Soles De Mexicali vence Mineros de Zacatecas por 84 a 68 em LNBP",
+    "seoDescription": "Soles De Mexicali superou Mineros de Zacatecas por 84 a 68 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T05:54:19.829Z",
+    "createdAt": "2026-08-21T05:54:19.829Z",
+    "updatedAt": "2026-08-21T05:54:19.829Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707885",
+      "eventStartTime": "2026-08-21T03:00:00+00:00",
+      "retrievedAt": "2026-08-21T05:54:19.829Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-986914359d3a",
+    "slug": "corinthians-supera-rosario-central-por-1-a-0-pelo-conmebol-libertadores-986914",
+    "sportId": "futebol",
+    "title": "Corinthians supera Rosario Central por 1 a 0 pelo CONMEBOL Libertadores",
+    "summary": "Corinthians venceu Rosario Central por 1 a 0 pelo CONMEBOL Libertadores.",
+    "content": "Corinthians venceu Rosario Central por 1 a 0 pelo CONMEBOL Libertadores, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "conmebol-libertadores"
+    ],
+    "seoTitle": "Corinthians supera Rosario Central por 1 a 0 pelo CONMEBOL",
+    "seoDescription": "Corinthians venceu Rosario Central por 1 a 0 pelo CONMEBOL Libertadores.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T05:54:19.825Z",
+    "createdAt": "2026-08-21T05:54:19.825Z",
+    "updatedAt": "2026-08-21T05:54:19.825Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4728068",
+      "eventStartTime": "2026-08-21T00:30:00+00:00",
+      "retrievedAt": "2026-08-21T05:54:19.825Z",
+      "feedId": "futebol",
+      "league": "CONMEBOL Libertadores"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-0a64f5786027",
     "slug": "pedro-martinez-vence-juan-carlos-prado-angelo-por-2-a-1-em-kingston-0a64f5",
     "sportId": "tenis",
@@ -12468,132 +12594,6 @@
       "eventId": "365-4626815",
       "eventStartTime": "2026-08-18T09:00:00+00:00",
       "retrievedAt": "2026-08-18T12:42:49.241Z",
-      "feedId": "beisebol",
-      "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-eb6b6f473f40",
-    "slug": "lucio-ratti-vence-ognjen-milic-por-2-a-1-em-sion-eb6b6f",
-    "sportId": "tenis",
-    "title": "Lucio Ratti vence Ognjen Milic por 2 a 1 em Sion",
-    "summary": "Lucio Ratti superou Ognjen Milic por 2 a 1 em Sion.",
-    "content": "Lucio Ratti superou Ognjen Milic por 2 a 1 em Sion., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Lucio Ratti vence Ognjen Milic por 2 a 1 em Sion",
-    "seoDescription": "Lucio Ratti superou Ognjen Milic por 2 a 1 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T12:42:49.240Z",
-    "createdAt": "2026-08-18T12:42:49.240Z",
-    "updatedAt": "2026-08-18T12:42:49.240Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815630",
-      "eventStartTime": "2026-08-18T10:10:24+00:00",
-      "retrievedAt": "2026-08-18T12:42:49.240Z",
-      "feedId": "tenis",
-      "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-81e7887c9a74",
-    "slug": "afturelding-e-hk-kopavogur-ficam-no-2-a-2-pelo-inkasso-deildin-81e788",
-    "sportId": "futebol",
-    "title": "Afturelding e HK Kopavogur ficam no 2 a 2 pelo Inkasso Deildin",
-    "summary": "Afturelding e HK Kopavogur empataram por 2 a 2 pelo Inkasso Deildin.",
-    "content": "Afturelding e HK Kopavogur empataram por 2 a 2 pelo Inkasso Deildin, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "inkasso-deildin"
-    ],
-    "seoTitle": "Afturelding e HK Kopavogur ficam no 2 a 2 pelo Inkasso Deildin",
-    "seoDescription": "Afturelding e HK Kopavogur empataram por 2 a 2 pelo Inkasso Deildin.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T12:42:49.231Z",
-    "createdAt": "2026-08-18T12:42:49.231Z",
-    "updatedAt": "2026-08-18T12:42:49.231Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4661986",
-      "eventStartTime": "2026-08-17T19:15:00+00:00",
-      "retrievedAt": "2026-08-18T12:42:49.231Z",
-      "feedId": "futebol",
-      "league": "Inkasso Deildin"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0c06824ca8ff",
-    "slug": "yokohama-baystars-vence-yomiuri-giants-por-4-a-3-na-npb-0c0682",
-    "sportId": "beisebol",
-    "title": "Yokohama Baystars vence Yomiuri Giants por 4 a 3 na NPB",
-    "summary": "Yokohama Baystars derrotou Yomiuri Giants por 4 a 3 na NPB.",
-    "content": "Yokohama Baystars derrotou Yomiuri Giants por 4 a 3 na NPB, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Yokohama Baystars vence Yomiuri Giants por 4 a 3 na NPB",
-    "seoDescription": "Yokohama Baystars derrotou Yomiuri Giants por 4 a 3 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T11:59:03.415Z",
-    "createdAt": "2026-08-18T11:59:03.415Z",
-    "updatedAt": "2026-08-18T11:59:03.415Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4626849",
-      "eventStartTime": "2026-08-18T08:45:00+00:00",
-      "retrievedAt": "2026-08-18T11:59:03.415Z",
       "feedId": "beisebol",
       "league": "NPB"
     },
