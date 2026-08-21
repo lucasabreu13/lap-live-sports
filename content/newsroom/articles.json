@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-02812c631ab5",
+    "slug": "alvarez-l-c-magadan-a-vence-heredia-s-sharan-d-por-2-a-0-em-cancun-02812c",
+    "sportId": "tenis",
+    "title": "Alvarez L C./Magadan A. vence Heredia S./Sharan D. por 2 a 0 em Cancun",
+    "summary": "Alvarez L C./Magadan A. superou Heredia S./Sharan D. por 2 a 0 em Cancun.",
+    "content": "Alvarez L C./Magadan A. superou Heredia S./Sharan D. por 2 a 0 em Cancun., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Alvarez L C./Magadan A. vence Heredia S./Sharan D. por 2 a 0 em Cancun",
+    "seoDescription": "Alvarez L C./Magadan A. superou Heredia S./Sharan D. por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T04:51:18.016Z",
+    "createdAt": "2026-08-21T04:51:18.016Z",
+    "updatedAt": "2026-08-21T04:51:18.016Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817224",
+      "eventStartTime": "2026-08-21T03:11:41+00:00",
+      "retrievedAt": "2026-08-21T04:51:18.016Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e225deca91b4",
+    "slug": "panteras-de-aguascalientes-vence-santos-de-san-luis-por-85-a-75-em-lnbp-e225de",
+    "sportId": "basquete",
+    "title": "Panteras De Aguascalientes vence Santos De San Luis por 85 a 75 em LNBP",
+    "summary": "Panteras De Aguascalientes superou Santos De San Luis por 85 a 75 em LNBP.",
+    "content": "Panteras De Aguascalientes superou Santos De San Luis por 85 a 75 em LNBP., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnbp"
+    ],
+    "seoTitle": "Panteras De Aguascalientes vence Santos De San Luis por 85 a 75 em",
+    "seoDescription": "Panteras De Aguascalientes superou Santos De San Luis por 85 a 75 em LNBP.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T04:51:18.013Z",
+    "createdAt": "2026-08-21T04:51:18.013Z",
+    "updatedAt": "2026-08-21T04:51:18.013Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4707884",
+      "eventStartTime": "2026-08-21T02:30:00+00:00",
+      "retrievedAt": "2026-08-21T04:51:18.013Z",
+      "feedId": "basquete",
+      "league": "LNBP"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-a9ac71d38310",
+    "slug": "tepatitlan-de-morelos-supera-tlaxcala-por-3-a-2-pela-liga-de-expansion-a9ac71",
+    "sportId": "futebol",
+    "title": "Tepatitlán de Morelos supera Tlaxcala por 3 a 2 pela Liga de Expansión",
+    "summary": "Tepatitlán de Morelos venceu Tlaxcala por 3 a 2 pela Liga de Expansión.",
+    "content": "Tepatitlán de Morelos venceu Tlaxcala por 3 a 2 pela Liga de Expansión, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-expansion"
+    ],
+    "seoTitle": "Tepatitlán de Morelos supera Tlaxcala por 3 a 2 pela Liga de Expansión",
+    "seoDescription": "Tepatitlán de Morelos venceu Tlaxcala por 3 a 2 pela Liga de Expansión.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T04:51:18.009Z",
+    "createdAt": "2026-08-21T04:51:18.009Z",
+    "updatedAt": "2026-08-21T04:51:18.009Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4761058",
+      "eventStartTime": "2026-08-21T01:00:00+00:00",
+      "retrievedAt": "2026-08-21T04:51:18.009Z",
+      "feedId": "futebol",
+      "league": "Liga de Expansión"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-0588daa412c0",
     "slug": "fukuoka-hawks-vence-nippon-ham-fighters-por-5-a-5-na-npb-0588da",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T11:41:36.209Z",
       "feedId": "futebol",
       "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c146ea8134ab",
-    "slug": "tampa-bay-rays-vence-baltimore-orioles-por-7-a-6-na-mlb-c146ea",
-    "sportId": "beisebol",
-    "title": "Tampa Bay Rays vence Baltimore Orioles por 7 a 6 na MLB",
-    "summary": "Tampa Bay Rays derrotou Baltimore Orioles por 7 a 6 na MLB.",
-    "content": "Tampa Bay Rays derrotou Baltimore Orioles por 7 a 6 na MLB, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Tampa Bay Rays vence Baltimore Orioles por 7 a 6 na MLB",
-    "seoDescription": "Tampa Bay Rays derrotou Baltimore Orioles por 7 a 6 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T11:14:45.257Z",
-    "createdAt": "2026-08-18T11:14:45.257Z",
-    "updatedAt": "2026-08-18T11:14:45.257Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614655",
-      "eventStartTime": "2026-08-17T22:05:00+00:00",
-      "retrievedAt": "2026-08-18T11:14:45.257Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e3bca44f139f",
-    "slug": "ryan-nijboer-vence-murkel-dellien-por-2-a-0-em-sion-e3bca4",
-    "sportId": "tenis",
-    "title": "Ryan Nijboer vence Murkel Dellien por 2 a 0 em Sion",
-    "summary": "Ryan Nijboer superou Murkel Dellien por 2 a 0 em Sion.",
-    "content": "Ryan Nijboer superou Murkel Dellien por 2 a 0 em Sion., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Ryan Nijboer vence Murkel Dellien por 2 a 0 em Sion",
-    "seoDescription": "Ryan Nijboer superou Murkel Dellien por 2 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T11:14:45.248Z",
-    "createdAt": "2026-08-18T11:14:45.248Z",
-    "updatedAt": "2026-08-18T11:14:45.248Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815611",
-      "eventStartTime": "2026-08-18T09:49:48+00:00",
-      "retrievedAt": "2026-08-18T11:14:45.248Z",
-      "feedId": "tenis",
-      "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b2b66ac6a507",
-    "slug": "fram-reykjavik-supera-stjarnan-por-3-a-1-pelo-besta-deild-karla-b2b66a",
-    "sportId": "futebol",
-    "title": "Fram Reykjavik supera Stjarnan por 3 a 1 pelo Besta deild karla",
-    "summary": "Fram Reykjavik venceu Stjarnan por 3 a 1 pelo Besta deild karla.",
-    "content": "Fram Reykjavik venceu Stjarnan por 3 a 1 pelo Besta deild karla, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "besta-deild-karla"
-    ],
-    "seoTitle": "Fram Reykjavik supera Stjarnan por 3 a 1 pelo Besta deild karla",
-    "seoDescription": "Fram Reykjavik venceu Stjarnan por 3 a 1 pelo Besta deild karla.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T11:14:45.222Z",
-    "createdAt": "2026-08-18T11:14:45.222Z",
-    "updatedAt": "2026-08-18T11:14:45.222Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4653775",
-      "eventStartTime": "2026-08-17T19:15:00+00:00",
-      "retrievedAt": "2026-08-18T11:14:45.222Z",
-      "feedId": "futebol",
-      "league": "Besta-deild karla"
     },
     "articleFormat": "result-brief"
   }
