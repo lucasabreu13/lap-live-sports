@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-08-21T20:58:00.605Z",
-  "commit": "e86a6fc817e83ca80b80c0da57c4e8e9978f5561",
-  "runId": "32526186874",
+  "validatedAt": "2026-08-21T21:20:25.331Z",
+  "commit": "95729ef7e3ac7389144814c8f1a33f9a842d7dc6",
+  "runId": "32528017080",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -20,11 +20,11 @@
     "curatedArticles": 25,
     "curatedFiles": 5,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-08-21T20:58:00.138Z",
+    "lastPublishedAt": "2026-08-21T21:20:24.967Z",
     "lastPublishedBySport": {
-      "futebol": "2026-08-21T20:58:00.130Z",
+      "futebol": "2026-08-21T21:20:24.903Z",
       "futebol-americano": "2026-08-21T05:22:13.493Z",
-      "tenis": "2026-08-21T19:34:46.962Z",
+      "tenis": "2026-08-21T21:20:24.967Z",
       "ciclismo": null,
       "formula1": null,
       "basquete": "2026-08-21T20:58:00.138Z",
@@ -40,17 +40,17 @@
         "futebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-21T20:58:00.130Z"
+          "lastPublishedAt": "2026-08-21T21:20:24.903Z"
         },
         "futebol-americano": {
           "status": "warning",
-          "ageHours": 15.6,
+          "ageHours": 16,
           "lastPublishedAt": "2026-08-21T05:22:13.493Z"
         },
         "tenis": {
           "status": "ok",
-          "ageHours": 1.4,
-          "lastPublishedAt": "2026-08-21T19:34:46.962Z"
+          "ageHours": 0,
+          "lastPublishedAt": "2026-08-21T21:20:24.967Z"
         },
         "ciclismo": {
           "status": "critical",
@@ -64,12 +64,12 @@
         },
         "basquete": {
           "status": "ok",
-          "ageHours": 0,
+          "ageHours": 0.4,
           "lastPublishedAt": "2026-08-21T20:58:00.138Z"
         },
         "beisebol": {
           "status": "ok",
-          "ageHours": 6.1,
+          "ageHours": 6.5,
           "lastPublishedAt": "2026-08-21T14:51:24.674Z"
         },
         "golfe": {
