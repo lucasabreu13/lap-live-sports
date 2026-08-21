@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-105c0bed63f1",
+    "slug": "los-angeles-angels-vence-houston-astros-por-18-a-3-na-mlb-105c0b",
+    "sportId": "beisebol",
+    "title": "Los Angeles Angels vence Houston Astros por 18 a 3 na MLB",
+    "summary": "Los Angeles Angels derrotou Houston Astros por 18 a 3 na MLB.",
+    "content": "Los Angeles Angels derrotou Houston Astros por 18 a 3 na MLB, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Los Angeles Angels vence Houston Astros por 18 a 3 na MLB",
+    "seoDescription": "Los Angeles Angels derrotou Houston Astros por 18 a 3 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T22:27:21.806Z",
+    "createdAt": "2026-08-21T22:27:21.806Z",
+    "updatedAt": "2026-08-21T22:27:21.806Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614787",
+      "eventStartTime": "2026-08-21T00:10:00+00:00",
+      "retrievedAt": "2026-08-21T22:27:21.806Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1085b7ff8d0c",
+    "slug": "ldu-portoviejo-supera-22-de-julio-por-2-a-0-pelo-serie-b-1085b7",
+    "sportId": "futebol",
+    "title": "LDU Portoviejo supera 22 de Julio por 2 a 0 pelo Serie B",
+    "summary": "LDU Portoviejo venceu 22 de Julio por 2 a 0 pelo Serie B.",
+    "content": "LDU Portoviejo venceu 22 de Julio por 2 a 0 pelo Serie B, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-b"
+    ],
+    "seoTitle": "LDU Portoviejo supera 22 de Julio por 2 a 0 pelo Serie B",
+    "seoDescription": "LDU Portoviejo venceu 22 de Julio por 2 a 0 pelo Serie B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T22:27:21.738Z",
+    "createdAt": "2026-08-21T22:27:21.738Z",
+    "updatedAt": "2026-08-21T22:27:21.738Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4676156",
+      "eventStartTime": "2026-08-21T20:30:00+00:00",
+      "retrievedAt": "2026-08-21T22:27:21.738Z",
+      "feedId": "futebol",
+      "league": "Serie B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-621ec7419272",
     "slug": "alianza-atletico-supera-sporting-cristal-por-3-a-1-pela-liga-1-621ec7",
     "sportId": "futebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T03:56:34.985Z",
       "feedId": "tenis",
       "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a69795be917f",
-    "slug": "olimpia-vence-sayago-por-76-a-63-em-liga-de-ascenso-a69795",
-    "sportId": "basquete",
-    "title": "Olimpia vence Sayago por 76 a 63 em Liga de ascenso",
-    "summary": "Olimpia superou Sayago por 76 a 63 em Liga de ascenso.",
-    "content": "Olimpia superou Sayago por 76 a 63 em Liga de ascenso., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "Olimpia vence Sayago por 76 a 63 em Liga de ascenso",
-    "seoDescription": "Olimpia superou Sayago por 76 a 63 em Liga de ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T03:56:34.970Z",
-    "createdAt": "2026-08-19T03:56:34.970Z",
-    "updatedAt": "2026-08-19T03:56:34.970Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816147",
-      "eventStartTime": "2026-08-18T23:15:00+00:00",
-      "retrievedAt": "2026-08-19T03:56:34.970Z",
-      "feedId": "basquete",
-      "league": "Liga de ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2b3e3133ee31",
-    "slug": "juventude-supera-goias-por-1-a-0-pelo-serie-b-2b3e31",
-    "sportId": "futebol",
-    "title": "Juventude supera Goias por 1 a 0 pelo Serie B",
-    "summary": "Juventude venceu Goias por 1 a 0 pelo Serie B.",
-    "content": "Juventude venceu Goias por 1 a 0 pelo Serie B, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "serie-b"
-    ],
-    "seoTitle": "Juventude supera Goias por 1 a 0 pelo Serie B",
-    "seoDescription": "Juventude venceu Goias por 1 a 0 pelo Serie B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T03:56:34.959Z",
-    "createdAt": "2026-08-19T03:56:34.959Z",
-    "updatedAt": "2026-08-19T03:56:34.959Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4669850",
-      "eventStartTime": "2026-08-19T00:35:00+00:00",
-      "retrievedAt": "2026-08-19T03:56:34.959Z",
-      "feedId": "futebol",
-      "league": "Serie B"
     },
     "articleFormat": "result-brief"
   }
