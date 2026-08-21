@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-e76ddba6c0f6",
+    "slug": "arribage-t-olivetti-a-vence-arevalo-m-pavic-m-por-2-a-1-em-cincinnati-e76ddb",
+    "sportId": "tenis",
+    "title": "Arribage T./Olivetti A. vence Arevalo M./Pavic M. por 2 a 1 em Cincinnati",
+    "summary": "Arribage T./Olivetti A. superou Arevalo M./Pavic M. por 2 a 1 em Cincinnati.",
+    "content": "Arribage T./Olivetti A. superou Arevalo M./Pavic M. por 2 a 1 em Cincinnati., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Arribage T./Olivetti A. vence Arevalo M./Pavic M. por 2 a 1 em",
+    "seoDescription": "Arribage T./Olivetti A. superou Arevalo M./Pavic M. por 2 a 1 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T18:20:40.530Z",
+    "createdAt": "2026-08-21T18:20:40.530Z",
+    "updatedAt": "2026-08-21T18:20:40.530Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818438",
+      "eventStartTime": "2026-08-20T15:15:01+00:00",
+      "retrievedAt": "2026-08-21T18:20:40.530Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-579d8b567de4",
+    "slug": "portugal-w-vence-iceland-w-por-66-a-53-em-international-friendly-w-579d8b",
+    "sportId": "basquete",
+    "title": "Portugal (W) vence Iceland (W) por 66 a 53 em International Friendly (W)",
+    "summary": "Portugal (W) superou Iceland (W) por 66 a 53 em International Friendly (W).",
+    "content": "Portugal (W) superou Iceland (W) por 66 a 53 em International Friendly (W)., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendly-w"
+    ],
+    "seoTitle": "Portugal (W) vence Iceland (W) por 66 a 53 em International Friendly",
+    "seoDescription": "Portugal (W) superou Iceland (W) por 66 a 53 em International Friendly (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T18:20:40.494Z",
+    "createdAt": "2026-08-21T18:20:40.494Z",
+    "updatedAt": "2026-08-21T18:20:40.494Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820944",
+      "eventStartTime": "2026-08-21T16:00:00+00:00",
+      "retrievedAt": "2026-08-21T18:20:40.494Z",
+      "feedId": "basquete",
+      "league": "International Friendly (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d0114b2e8092",
+    "slug": "capitan-figari-fbc-e-pilcomayo-ficam-no-0-a-0-pelo-apf-primera-c-d0114b",
+    "sportId": "futebol",
+    "title": "Capitan Figari FBC e Pilcomayo ficam no 0 a 0 pelo APF Primera C",
+    "summary": "Capitan Figari FBC e Pilcomayo empataram por 0 a 0 pelo APF Primera C.",
+    "content": "Capitan Figari FBC e Pilcomayo empataram por 0 a 0 pelo APF Primera C, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "apf-primera-c"
+    ],
+    "seoTitle": "Capitan Figari FBC e Pilcomayo ficam no 0 a 0 pelo APF Primera C",
+    "seoDescription": "Capitan Figari FBC e Pilcomayo empataram por 0 a 0 pelo APF Primera C.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T18:20:40.486Z",
+    "createdAt": "2026-08-21T18:20:40.486Z",
+    "updatedAt": "2026-08-21T18:20:40.486Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818464",
+      "eventStartTime": "2026-08-21T18:00:00+00:00",
+      "retrievedAt": "2026-08-21T18:20:40.486Z",
+      "feedId": "futebol",
+      "league": "APF Primera C"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-47f3adb56d3b",
     "slug": "luca-van-assche-vence-rei-sakamoto-por-2-a-1-em-quebec-city-47f3ad",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T23:11:47.978Z",
       "feedId": "tenis",
       "league": " Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4a61e8ef0899",
-    "slug": "riestra-e-gimnasia-la-plata-ficam-no-1-a-1-pela-copa-argentina-4a61e8",
-    "sportId": "futebol",
-    "title": "Riestra e Gimnasia La Plata ficam no 1 a 1 pela Copa Argentina",
-    "summary": "Riestra e Gimnasia La Plata empataram por 1 a 1 pela Copa Argentina.",
-    "content": "Riestra e Gimnasia La Plata empataram por 1 a 1 pela Copa Argentina, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-argentina"
-    ],
-    "seoTitle": "Riestra e Gimnasia La Plata ficam no 1 a 1 pela Copa Argentina",
-    "seoDescription": "Riestra e Gimnasia La Plata empataram por 1 a 1 pela Copa Argentina.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T23:11:47.960Z",
-    "createdAt": "2026-08-18T23:11:47.960Z",
-    "updatedAt": "2026-08-18T23:11:47.960Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4779134",
-      "eventStartTime": "2026-08-18T20:00:00+00:00",
-      "retrievedAt": "2026-08-18T23:11:47.960Z",
-      "feedId": "futebol",
-      "league": "Copa Argentina"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1088013297bf",
-    "slug": "roman-safiullin-vence-sebastian-ofner-por-2-a-0-em-cancun-108801",
-    "sportId": "tenis",
-    "title": "Roman Safiullin vence Sebastian Ofner por 2 a 0 em Cancun",
-    "summary": "Roman Safiullin superou Sebastian Ofner por 2 a 0 em Cancun.",
-    "content": "Roman Safiullin superou Sebastian Ofner por 2 a 0 em Cancun., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cancun"
-    ],
-    "seoTitle": "Roman Safiullin vence Sebastian Ofner por 2 a 0 em Cancun",
-    "seoDescription": "Roman Safiullin superou Sebastian Ofner por 2 a 0 em Cancun.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T22:46:22.142Z",
-    "createdAt": "2026-08-18T22:46:22.142Z",
-    "updatedAt": "2026-08-18T22:46:22.142Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816192",
-      "eventStartTime": "2026-08-18T21:19:36+00:00",
-      "retrievedAt": "2026-08-18T22:46:22.142Z",
-      "feedId": "tenis",
-      "league": "Cancun"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-39571d8ef148",
-    "slug": "falcon-e-atletico-gloriense-ficam-no-0-a-0-pela-copa-governo-de-sergipe-39571d",
-    "sportId": "futebol",
-    "title": "Falcon e Atletico Gloriense ficam no 0 a 0 pela Copa Governo de Sergipe",
-    "summary": "Falcon e Atletico Gloriense empataram por 0 a 0 pela Copa Governo de Sergipe.",
-    "content": "Falcon e Atletico Gloriense empataram por 0 a 0 pela Copa Governo de Sergipe, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-governo-de-sergipe"
-    ],
-    "seoTitle": "Falcon e Atletico Gloriense ficam no 0 a 0 pela Copa Governo de",
-    "seoDescription": "Falcon e Atletico Gloriense empataram por 0 a 0 pela Copa Governo de Sergipe.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T22:46:22.124Z",
-    "createdAt": "2026-08-18T22:46:22.124Z",
-    "updatedAt": "2026-08-18T22:46:22.124Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814892",
-      "eventStartTime": "2026-08-18T22:00:00+00:00",
-      "retrievedAt": "2026-08-18T22:46:22.124Z",
-      "feedId": "futebol",
-      "league": "Copa Governo de Sergipe"
     },
     "articleFormat": "result-brief"
   }
