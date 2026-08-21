@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-da37a1a1090f",
+    "slug": "iga-swiatek-e-elena-rybakina-empatam-por-0-a-0-em-cincinnati-da37a1",
+    "sportId": "tenis",
+    "title": "Iga Swiatek e Elena Rybakina empatam por 0 a 0 em Cincinnati",
+    "summary": "Iga Swiatek e Elena Rybakina terminaram empatados por 0 a 0 em Cincinnati.",
+    "content": "Iga Swiatek e Elena Rybakina terminaram empatados por 0 a 0 em Cincinnati., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Iga Swiatek e Elena Rybakina empatam por 0 a 0 em Cincinnati",
+    "seoDescription": "Iga Swiatek e Elena Rybakina terminaram empatados por 0 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T00:37:48.294Z",
+    "createdAt": "2026-08-21T00:37:48.294Z",
+    "updatedAt": "2026-08-21T00:37:48.294Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819270",
+      "eventStartTime": "2026-08-20T23:09:21+00:00",
+      "retrievedAt": "2026-08-21T00:37:48.294Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-bd59189ad8f7",
+    "slug": "mogi-das-cruzes-vence-basket-osasco-por-89-a-74-em-paulista-basketball-bd5918",
+    "sportId": "basquete",
+    "title": "Mogi das Cruzes vence Basket Osasco por 89 a 74 em Paulista Basketball",
+    "summary": "Mogi das Cruzes superou Basket Osasco por 89 a 74 em Paulista Basketball.",
+    "content": "Mogi das Cruzes superou Basket Osasco por 89 a 74 em Paulista Basketball., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "paulista-basketball"
+    ],
+    "seoTitle": "Mogi das Cruzes vence Basket Osasco por 89 a 74 em Paulista Basketball",
+    "seoDescription": "Mogi das Cruzes superou Basket Osasco por 89 a 74 em Paulista Basketball.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T00:37:48.292Z",
+    "createdAt": "2026-08-21T00:37:48.292Z",
+    "updatedAt": "2026-08-21T00:37:48.292Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816922",
+      "eventStartTime": "2026-08-20T22:30:00+00:00",
+      "retrievedAt": "2026-08-21T00:37:48.292Z",
+      "feedId": "basquete",
+      "league": "Paulista Basketball"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5e2cbda316e1",
+    "slug": "crb-supera-athletic-club-por-2-a-0-pelo-serie-b-5e2cbd",
+    "sportId": "futebol",
+    "title": "CRB supera Athletic Club por 2 a 0 pelo Serie B",
+    "summary": "CRB venceu Athletic Club por 2 a 0 pelo Serie B.",
+    "content": "CRB venceu Athletic Club por 2 a 0 pelo Serie B, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-b"
+    ],
+    "seoTitle": "CRB supera Athletic Club por 2 a 0 pelo Serie B",
+    "seoDescription": "CRB venceu Athletic Club por 2 a 0 pelo Serie B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T00:37:48.284Z",
+    "createdAt": "2026-08-21T00:37:48.284Z",
+    "updatedAt": "2026-08-21T00:37:48.284Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4669150",
+      "eventStartTime": "2026-08-20T22:30:00+00:00",
+      "retrievedAt": "2026-08-21T00:37:48.284Z",
+      "feedId": "futebol",
+      "league": "Serie B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-95b18c959231",
     "slug": "guo-h-mladenovic-k-vence-kostyuk-m-stearns-p-por-2-a-1-em-cincinnati-95b18c",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T08:22:33.608Z",
       "feedId": "futebol",
       "league": "Serie C"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-75977582bcc9",
-    "slug": "s-doumbia-f-reboul-vence-buse-i-cobolli-f-por-2-a-1-em-cincinnati-759775",
-    "sportId": "tenis",
-    "title": "S. Doumbia/F. Reboul vence Buse I./Cobolli F. por 2 a 1 em Cincinnati",
-    "summary": "S. Doumbia/F. Reboul superou Buse I./Cobolli F. por 2 a 1 em Cincinnati.",
-    "content": "S. Doumbia/F. Reboul superou Buse I./Cobolli F. por 2 a 1 em Cincinnati., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "S. Doumbia/F. Reboul vence Buse I./Cobolli F. por 2 a 1 em Cincinnati",
-    "seoDescription": "S. Doumbia/F. Reboul superou Buse I./Cobolli F. por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T07:52:33.291Z",
-    "createdAt": "2026-08-18T07:52:33.291Z",
-    "updatedAt": "2026-08-18T07:52:33.291Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815120",
-      "eventStartTime": "2026-08-17T23:55:15+00:00",
-      "retrievedAt": "2026-08-18T07:52:33.291Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ba68187212e7",
-    "slug": "guarani-e-ypiranga-rs-ficam-no-2-a-2-pelo-serie-c-ba6818",
-    "sportId": "futebol",
-    "title": "Guarani e Ypiranga-RS ficam no 2 a 2 pelo Serie C",
-    "summary": "Guarani e Ypiranga-RS empataram por 2 a 2 pelo Serie C.",
-    "content": "Guarani e Ypiranga-RS empataram por 2 a 2 pelo Serie C, em 17 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "serie-c"
-    ],
-    "seoTitle": "Guarani e Ypiranga-RS ficam no 2 a 2 pelo Serie C",
-    "seoDescription": "Guarani e Ypiranga-RS empataram por 2 a 2 pelo Serie C.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T07:52:33.249Z",
-    "createdAt": "2026-08-18T07:52:33.249Z",
-    "updatedAt": "2026-08-18T07:52:33.249Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4677740",
-      "eventStartTime": "2026-08-17T23:00:00+00:00",
-      "retrievedAt": "2026-08-18T07:52:33.249Z",
-      "feedId": "futebol",
-      "league": "Serie C"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3a16da0c589d",
-    "slug": "adam-walton-vence-ignacio-buse-por-2-a-0-em-cincinnati-3a16da",
-    "sportId": "tenis",
-    "title": "Adam Walton vence Ignacio Buse por 2 a 0 em Cincinnati",
-    "summary": "Adam Walton superou Ignacio Buse por 2 a 0 em Cincinnati.",
-    "content": "Adam Walton superou Ignacio Buse por 2 a 0 em Cincinnati., em 16 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Adam Walton vence Ignacio Buse por 2 a 0 em Cincinnati",
-    "seoDescription": "Adam Walton superou Ignacio Buse por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T07:12:45.835Z",
-    "createdAt": "2026-08-18T07:12:45.835Z",
-    "updatedAt": "2026-08-18T07:12:45.835Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815106",
-      "eventStartTime": "2026-08-16T22:44:17+00:00",
-      "retrievedAt": "2026-08-18T07:12:45.835Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
