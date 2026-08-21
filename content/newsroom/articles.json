@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-63909d7bf8e6",
+    "slug": "orix-buffaloes-vence-seibu-lions-por-3-a-1-na-npb-63909d",
+    "sportId": "beisebol",
+    "title": "Orix Buffaloes vence Seibu Lions por 3 a 1 na NPB",
+    "summary": "Orix Buffaloes derrotou Seibu Lions por 3 a 1 na NPB.",
+    "content": "Orix Buffaloes derrotou Seibu Lions por 3 a 1 na NPB, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Orix Buffaloes vence Seibu Lions por 3 a 1 na NPB",
+    "seoDescription": "Orix Buffaloes derrotou Seibu Lions por 3 a 1 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T09:57:39.171Z",
+    "createdAt": "2026-08-21T09:57:39.171Z",
+    "updatedAt": "2026-08-21T09:57:39.171Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4627275",
+      "eventStartTime": "2026-08-20T09:00:00+00:00",
+      "retrievedAt": "2026-08-21T09:57:39.171Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1b237970a62c",
+    "slug": "chun-hsin-tseng-vence-oleksii-krutykh-por-2-a-0-em-prague-1b2379",
+    "sportId": "tenis",
+    "title": "Chun Hsin Tseng vence Oleksii Krutykh por 2 a 0 em Prague",
+    "summary": "Chun Hsin Tseng superou Oleksii Krutykh por 2 a 0 em Prague.",
+    "content": "Chun Hsin Tseng superou Oleksii Krutykh por 2 a 0 em Prague., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Chun Hsin Tseng vence Oleksii Krutykh por 2 a 0 em Prague",
+    "seoDescription": "Chun Hsin Tseng superou Oleksii Krutykh por 2 a 0 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T09:57:39.156Z",
+    "createdAt": "2026-08-21T09:57:39.156Z",
+    "updatedAt": "2026-08-21T09:57:39.156Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818925",
+      "eventStartTime": "2026-08-20T12:00:59+00:00",
+      "retrievedAt": "2026-08-21T09:57:39.156Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e41269671957",
+    "slug": "real-cartagena-supera-bogota-fc-por-2-a-0-pelo-primera-b-e41269",
+    "sportId": "futebol",
+    "title": "Real Cartagena supera Bogotá FC por 2 a 0 pelo Primera B",
+    "summary": "Real Cartagena venceu Bogotá FC por 2 a 0 pelo Primera B.",
+    "content": "Real Cartagena venceu Bogotá FC por 2 a 0 pelo Primera B, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-b"
+    ],
+    "seoTitle": "Real Cartagena supera Bogotá FC por 2 a 0 pelo Primera B",
+    "seoDescription": "Real Cartagena venceu Bogotá FC por 2 a 0 pelo Primera B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T09:57:39.075Z",
+    "createdAt": "2026-08-21T09:57:39.075Z",
+    "updatedAt": "2026-08-21T09:57:39.075Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4732182",
+      "eventStartTime": "2026-08-20T22:45:00+00:00",
+      "retrievedAt": "2026-08-21T09:57:39.075Z",
+      "feedId": "futebol",
+      "league": "Primera B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-e3663b29ac2c",
     "slug": "hiroshima-toyo-carp-vence-chunichi-dragons-por-2-a-1-na-npb-e3663b",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T17:17:46.299Z",
       "feedId": "futebol",
       "league": "Svenska Cupen"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4a38c65d534b",
-    "slug": "henry-bernet-vence-johan-nikles-por-2-a-0-em-sion-4a38c6",
-    "sportId": "tenis",
-    "title": "Henry Bernet vence Johan Nikles por 2 a 0 em Sion",
-    "summary": "Henry Bernet superou Johan Nikles por 2 a 0 em Sion.",
-    "content": "Henry Bernet superou Johan Nikles por 2 a 0 em Sion., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Henry Bernet vence Johan Nikles por 2 a 0 em Sion",
-    "seoDescription": "Henry Bernet superou Johan Nikles por 2 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T16:54:46.497Z",
-    "createdAt": "2026-08-18T16:54:46.497Z",
-    "updatedAt": "2026-08-18T16:54:46.497Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815636",
-      "eventStartTime": "2026-08-18T15:41:50+00:00",
-      "retrievedAt": "2026-08-18T16:54:46.497Z",
-      "feedId": "tenis",
-      "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-926a11fc8b2f",
-    "slug": "puerto-montt-basquetbol-vence-deportes-castro-por-92-a-72-em-lnb-926a11",
-    "sportId": "basquete",
-    "title": "Puerto Montt Básquetbol vence Deportes Castro por 92 a 72 em LNB",
-    "summary": "Puerto Montt Básquetbol superou Deportes Castro por 92 a 72 em LNB.",
-    "content": "Puerto Montt Básquetbol superou Deportes Castro por 92 a 72 em LNB., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Puerto Montt Básquetbol vence Deportes Castro por 92 a 72 em LNB",
-    "seoDescription": "Puerto Montt Básquetbol superou Deportes Castro por 92 a 72 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T16:54:46.493Z",
-    "createdAt": "2026-08-18T16:54:46.493Z",
-    "updatedAt": "2026-08-18T16:54:46.493Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814543",
-      "eventStartTime": "2026-08-18T00:30:00+00:00",
-      "retrievedAt": "2026-08-18T16:54:46.493Z",
-      "feedId": "basquete",
-      "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3315d83ed50c",
-    "slug": "bardejov-supera-fc-slovan-giraltovce-por-6-a-2-pelo-slovakia-cup-3315d8",
-    "sportId": "futebol",
-    "title": "Bardejov supera FC Slovan Giraltovce por 6 a 2 pelo Slovakia Cup",
-    "summary": "Bardejov venceu FC Slovan Giraltovce por 6 a 2 pelo Slovakia Cup.",
-    "content": "Bardejov venceu FC Slovan Giraltovce por 6 a 2 pelo Slovakia Cup, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "slovakia-cup"
-    ],
-    "seoTitle": "Bardejov supera FC Slovan Giraltovce por 6 a 2 pelo Slovakia Cup",
-    "seoDescription": "Bardejov venceu FC Slovan Giraltovce por 6 a 2 pelo Slovakia Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T16:54:46.488Z",
-    "createdAt": "2026-08-18T16:54:46.488Z",
-    "updatedAt": "2026-08-18T16:54:46.488Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4802102",
-      "eventStartTime": "2026-08-18T15:00:00+00:00",
-      "retrievedAt": "2026-08-18T16:54:46.488Z",
-      "feedId": "futebol",
-      "league": "Slovakia Cup"
     },
     "articleFormat": "result-brief"
   }
