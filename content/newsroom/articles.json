@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-6191c821d18d",
+    "slug": "yakult-swallows-vence-hanshin-tigers-por-4-a-1-na-npb-6191c8",
+    "sportId": "beisebol",
+    "title": "Yakult Swallows vence Hanshin Tigers por 4 a 1 na NPB",
+    "summary": "Yakult Swallows derrotou Hanshin Tigers por 4 a 1 na NPB.",
+    "content": "Yakult Swallows derrotou Hanshin Tigers por 4 a 1 na NPB, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Yakult Swallows vence Hanshin Tigers por 4 a 1 na NPB",
+    "seoDescription": "Yakult Swallows derrotou Hanshin Tigers por 4 a 1 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T08:54:56.450Z",
+    "createdAt": "2026-08-21T08:54:56.450Z",
+    "updatedAt": "2026-08-21T08:54:56.450Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4627133",
+      "eventStartTime": "2026-08-20T09:00:00+00:00",
+      "retrievedAt": "2026-08-21T08:54:56.450Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-ac2530fc6c0a",
+    "slug": "lucas-poullain-vence-michael-geerts-por-2-a-1-em-roehampton-ac2530",
+    "sportId": "tenis",
+    "title": "Lucas Poullain vence Michael Geerts por 2 a 1 em Roehampton",
+    "summary": "Lucas Poullain superou Michael Geerts por 2 a 1 em Roehampton.",
+    "content": "Lucas Poullain superou Michael Geerts por 2 a 1 em Roehampton., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Lucas Poullain vence Michael Geerts por 2 a 1 em Roehampton",
+    "seoDescription": "Lucas Poullain superou Michael Geerts por 2 a 1 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T08:54:56.431Z",
+    "createdAt": "2026-08-21T08:54:56.431Z",
+    "updatedAt": "2026-08-21T08:54:56.431Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819098",
+      "eventStartTime": "2026-08-20T13:43:53+00:00",
+      "retrievedAt": "2026-08-21T08:54:56.431Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-49e0358db7a6",
+    "slug": "brasil-de-farroupilha-e-uniao-rs-ficam-no-1-a-1-pelo-gaucho-a2-49e035",
+    "sportId": "futebol",
+    "title": "Brasil de Farroupilha e União-RS ficam no 1 a 1 pelo Gaucho A2",
+    "summary": "Brasil de Farroupilha e União-RS empataram por 1 a 1 pelo Gaucho A2.",
+    "content": "Brasil de Farroupilha e União-RS empataram por 1 a 1 pelo Gaucho A2, em 20 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "gaucho-a2"
+    ],
+    "seoTitle": "Brasil de Farroupilha e União-RS ficam no 1 a 1 pelo Gaucho A2",
+    "seoDescription": "Brasil de Farroupilha e União-RS empataram por 1 a 1 pelo Gaucho A2.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T08:54:56.352Z",
+    "createdAt": "2026-08-21T08:54:56.352Z",
+    "updatedAt": "2026-08-21T08:54:56.352Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4762510",
+      "eventStartTime": "2026-08-20T23:00:00+00:00",
+      "retrievedAt": "2026-08-21T08:54:56.352Z",
+      "feedId": "futebol",
+      "league": "Gaucho A2"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3e24e32c21f8",
     "slug": "chiba-lotte-marines-vence-rakuten-gold-eagles-por-4-a-3-na-npb-3e24e3",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T15:54:26.521Z",
       "feedId": "tenis",
       "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c9f8f12136c8",
-    "slug": "topolcany-e-banik-lehota-p-vtacnikom-ficam-no-0-a-0-pelo-slovakia-cup-c9f8f1",
-    "sportId": "futebol",
-    "title": "Topoľčany e Baník Lehota P.Vtáčnikom ficam no 0 a 0 pelo Slovakia Cup",
-    "summary": "Topoľčany e Baník Lehota P.Vtáčnikom empataram por 0 a 0 pelo Slovakia Cup.",
-    "content": "Topoľčany e Baník Lehota P.Vtáčnikom empataram por 0 a 0 pelo Slovakia Cup, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "slovakia-cup"
-    ],
-    "seoTitle": "Topoľčany e Baník Lehota P.Vtáčnikom ficam no 0 a 0 pelo Slovakia Cup",
-    "seoDescription": "Topoľčany e Baník Lehota P.Vtáčnikom empataram por 0 a 0 pelo Slovakia Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T15:54:26.502Z",
-    "createdAt": "2026-08-18T15:54:26.502Z",
-    "updatedAt": "2026-08-18T15:54:26.502Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4801979",
-      "eventStartTime": "2026-08-18T15:00:00+00:00",
-      "retrievedAt": "2026-08-18T15:54:26.502Z",
-      "feedId": "futebol",
-      "league": "Slovakia Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9f5bde0cc603",
-    "slug": "seibu-lions-vence-orix-buffaloes-por-7-a-4-na-npb-9f5bde",
-    "sportId": "beisebol",
-    "title": "Seibu Lions vence Orix Buffaloes por 7 a 4 na NPB",
-    "summary": "Seibu Lions derrotou Orix Buffaloes por 7 a 4 na NPB.",
-    "content": "Seibu Lions derrotou Orix Buffaloes por 7 a 4 na NPB, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "npb"
-    ],
-    "seoTitle": "Seibu Lions vence Orix Buffaloes por 7 a 4 na NPB",
-    "seoDescription": "Seibu Lions derrotou Orix Buffaloes por 7 a 4 na NPB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T15:20:49.729Z",
-    "createdAt": "2026-08-18T15:20:49.729Z",
-    "updatedAt": "2026-08-18T15:20:49.729Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4627270",
-      "eventStartTime": "2026-08-18T09:00:00+00:00",
-      "retrievedAt": "2026-08-18T15:20:49.729Z",
-      "feedId": "beisebol",
-      "league": "NPB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b1d86efab13b",
-    "slug": "joao-fonseca-e-christopher-o-connell-empatam-por-0-a-0-em-cincinnati-b1d86e",
-    "sportId": "tenis",
-    "title": "João Fonseca e Christopher O'Connell empatam por 0 a 0 em Cincinnati",
-    "summary": "João Fonseca e Christopher O'Connell terminaram empatados por 0 a 0 em Cincinnati.",
-    "content": "João Fonseca e Christopher O'Connell terminaram empatados por 0 a 0 em Cincinnati., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "João Fonseca e Christopher O'Connell empatam por 0 a 0 em Cincinnati",
-    "seoDescription": "João Fonseca e Christopher O'Connell terminaram empatados por 0 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T15:20:49.720Z",
-    "createdAt": "2026-08-18T15:20:49.720Z",
-    "updatedAt": "2026-08-18T15:20:49.720Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816179",
-      "eventStartTime": "2026-08-18T15:00:00+00:00",
-      "retrievedAt": "2026-08-18T15:20:49.720Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
