@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-b9331df18557",
+    "slug": "geerts-m-martineau-m-vence-echeverria-j-matusevich-a-por-2-a-0-em-roehampton-b9331d",
+    "sportId": "tenis",
+    "title": "Geerts M./Martineau M. vence Echeverria J./Matusevich A. por 2 a 0 em Roehampton",
+    "summary": "Geerts M./Martineau M. superou Echeverria J./Matusevich A. por 2 a 0 em Roehampton.",
+    "content": "Geerts M./Martineau M. superou Echeverria J./Matusevich A. por 2 a 0 em Roehampton., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "roehampton"
+    ],
+    "seoTitle": "Geerts M./Martineau M. vence Echeverria J./Matusevich A. por 2 a 0 em",
+    "seoDescription": "Geerts M./Martineau M. superou Echeverria J./Matusevich A. por 2 a 0 em Roehampton.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T15:21:59.091Z",
+    "createdAt": "2026-08-21T15:21:59.091Z",
+    "updatedAt": "2026-08-21T15:21:59.091Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819208",
+      "eventStartTime": "2026-08-21T13:55:17+00:00",
+      "retrievedAt": "2026-08-21T15:21:59.091Z",
+      "feedId": "tenis",
+      "league": "Roehampton"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-419606ddab6d",
+    "slug": "harem-spor-vence-gaziantep-basketbol-por-76-a-70-em-club-friendlies-419606",
+    "sportId": "basquete",
+    "title": "Harem Spor vence Gaziantep Basketbol por 76 a 70 em Club Friendlies",
+    "summary": "Harem Spor superou Gaziantep Basketbol por 76 a 70 em Club Friendlies.",
+    "content": "Harem Spor superou Gaziantep Basketbol por 76 a 70 em Club Friendlies., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Harem Spor vence Gaziantep Basketbol por 76 a 70 em Club Friendlies",
+    "seoDescription": "Harem Spor superou Gaziantep Basketbol por 76 a 70 em Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T15:21:59.087Z",
+    "createdAt": "2026-08-21T15:21:59.087Z",
+    "updatedAt": "2026-08-21T15:21:59.087Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819827",
+      "eventStartTime": "2026-08-21T13:00:00+00:00",
+      "retrievedAt": "2026-08-21T15:21:59.087Z",
+      "feedId": "basquete",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-07e2f6c8cfb7",
+    "slug": "tigres-uanl-u21-e-atlante-u21-ficam-no-0-a-0-pela-liga-mx-u21-07e2f6",
+    "sportId": "futebol",
+    "title": "Tigres UANL U21 e Atlante U21 ficam no 0 a 0 pela Liga MX U21",
+    "summary": "Tigres UANL U21 e Atlante U21 empataram por 0 a 0 pela Liga MX U21.",
+    "content": "Tigres UANL U21 e Atlante U21 empataram por 0 a 0 pela Liga MX U21, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-mx-u21"
+    ],
+    "seoTitle": "Tigres UANL U21 e Atlante U21 ficam no 0 a 0 pela Liga MX U21",
+    "seoDescription": "Tigres UANL U21 e Atlante U21 empataram por 0 a 0 pela Liga MX U21.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T15:21:59.079Z",
+    "createdAt": "2026-08-21T15:21:59.079Z",
+    "updatedAt": "2026-08-21T15:21:59.079Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4759876",
+      "eventStartTime": "2026-08-21T15:00:00+00:00",
+      "retrievedAt": "2026-08-21T15:21:59.079Z",
+      "feedId": "futebol",
+      "league": "Liga MX U21"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-87a7b0634d91",
     "slug": "seibu-lions-vence-rakuten-gold-eagles-por-6-a-4-na-npb-87a7b0",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T20:59:05.865Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-945e6137e7d8",
-    "slug": "fenerbahce-sk-e-lyon-ficam-no-1-a-1-pelo-ucl-qualifiers-945e61",
-    "sportId": "futebol",
-    "title": "Fenerbahçe SK e Lyon ficam no 1 a 1 pelo UCL Qualifiers",
-    "summary": "Fenerbahçe SK e Lyon empataram por 1 a 1 pelo UCL Qualifiers.",
-    "content": "Fenerbahçe SK e Lyon empataram por 1 a 1 pelo UCL Qualifiers, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "ucl-qualifiers"
-    ],
-    "seoTitle": "Fenerbahçe SK e Lyon ficam no 1 a 1 pelo UCL Qualifiers",
-    "seoDescription": "Fenerbahçe SK e Lyon empataram por 1 a 1 pelo UCL Qualifiers.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T20:59:05.843Z",
-    "createdAt": "2026-08-18T20:59:05.843Z",
-    "updatedAt": "2026-08-18T20:59:05.843Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809607",
-      "eventStartTime": "2026-08-18T19:00:00+00:00",
-      "retrievedAt": "2026-08-18T20:59:05.843Z",
-      "feedId": "futebol",
-      "league": "UCL Qualifiers"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e0de449191a4",
-    "slug": "nicolai-budkov-kjaer-vence-bu-yunchaokete-por-2-a-0-em-quebec-city-e0de44",
-    "sportId": "tenis",
-    "title": "Nicolai Budkov Kjaer vence Bu Yunchaokete por 2 a 0 em Quebec City",
-    "summary": "Nicolai Budkov Kjaer superou Bu Yunchaokete por 2 a 0 em Quebec City.",
-    "content": "Nicolai Budkov Kjaer superou Bu Yunchaokete por 2 a 0 em Quebec City., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "quebec-city"
-    ],
-    "seoTitle": "Nicolai Budkov Kjaer vence Bu Yunchaokete por 2 a 0 em Quebec City",
-    "seoDescription": "Nicolai Budkov Kjaer superou Bu Yunchaokete por 2 a 0 em Quebec City.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T20:57:36.123Z",
-    "createdAt": "2026-08-18T20:57:36.123Z",
-    "updatedAt": "2026-08-18T20:57:36.123Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816185",
-      "eventStartTime": "2026-08-18T19:36:01+00:00",
-      "retrievedAt": "2026-08-18T20:57:36.123Z",
-      "feedId": "tenis",
-      "league": " Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4cb44ba9643c",
-    "slug": "farense-u23-e-estoril-u23-ficam-no-1-a-1-pela-liga-revelacao-u23-4cb44b",
-    "sportId": "futebol",
-    "title": "Farense U23 e Estoril U23 ficam no 1 a 1 pela Liga Revelacao U23",
-    "summary": "Farense U23 e Estoril U23 empataram por 1 a 1 pela Liga Revelacao U23.",
-    "content": "Farense U23 e Estoril U23 empataram por 1 a 1 pela Liga Revelacao U23, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-revelacao-u23"
-    ],
-    "seoTitle": "Farense U23 e Estoril U23 ficam no 1 a 1 pela Liga Revelacao U23",
-    "seoDescription": "Farense U23 e Estoril U23 empataram por 1 a 1 pela Liga Revelacao U23.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T20:57:36.109Z",
-    "createdAt": "2026-08-18T20:57:36.109Z",
-    "updatedAt": "2026-08-18T20:57:36.109Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4782132",
-      "eventStartTime": "2026-08-18T19:00:00+00:00",
-      "retrievedAt": "2026-08-18T20:57:36.109Z",
-      "feedId": "futebol",
-      "league": "Liga Revelacao U23"
     },
     "articleFormat": "result-brief"
   }
