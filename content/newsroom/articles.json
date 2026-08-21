@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-edbdd69fac21",
+    "slug": "m-granollers-h-zeballos-vence-darderi-l-etcheverry-t-m-por-2-a-0-em-cincinnati-edbdd6",
+    "sportId": "tenis",
+    "title": "M. Granollers/ H. Zeballos vence Darderi L / Etcheverry T M por 2 a 0 em Cincinnati",
+    "summary": "M. Granollers/ H. Zeballos superou Darderi L / Etcheverry T M por 2 a 0 em Cincinnati.",
+    "content": "M. Granollers/ H. Zeballos superou Darderi L / Etcheverry T M por 2 a 0 em Cincinnati., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "M. Granollers/ H. Zeballos vence Darderi L / Etcheverry T M por 2 a 0",
+    "seoDescription": "M. Granollers/ H. Zeballos superou Darderi L / Etcheverry T M por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T16:58:22.297Z",
+    "createdAt": "2026-08-21T16:58:22.297Z",
+    "updatedAt": "2026-08-21T16:58:22.297Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819152",
+      "eventStartTime": "2026-08-21T15:10:53+00:00",
+      "retrievedAt": "2026-08-21T16:58:22.297Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c8ca4e0312a9",
+    "slug": "nea-salamis-e-digenis-ficam-no-0-a-0-pelo-club-friendlies-c8ca4e",
+    "sportId": "futebol",
+    "title": "Nea Salamis e Digenis ficam no 0 a 0 pelo Club Friendlies",
+    "summary": "Nea Salamis e Digenis empataram por 0 a 0 pelo Club Friendlies.",
+    "content": "Nea Salamis e Digenis empataram por 0 a 0 pelo Club Friendlies, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Nea Salamis e Digenis ficam no 0 a 0 pelo Club Friendlies",
+    "seoDescription": "Nea Salamis e Digenis empataram por 0 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T16:58:22.283Z",
+    "createdAt": "2026-08-21T16:58:22.283Z",
+    "updatedAt": "2026-08-21T16:58:22.283Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816932",
+      "eventStartTime": "2026-08-21T16:30:00+00:00",
+      "retrievedAt": "2026-08-21T16:58:22.283Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-c3ca0fd790ee",
     "slug": "barry-c-broom-c-vence-gray-a-rybakov-a-por-2-a-1-em-roehampton-c3ca0f",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-18T21:58:05.031Z",
       "feedId": "futebol",
       "league": "Copa Venezuela"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c2589a7e44fe",
-    "slug": "rei-sakamoto-vence-jurij-rodionov-por-2-a-0-em-quebec-city-c2589a",
-    "sportId": "tenis",
-    "title": "Rei Sakamoto vence Jurij Rodionov por 2 a 0 em Quebec City",
-    "summary": "Rei Sakamoto superou Jurij Rodionov por 2 a 0 em Quebec City.",
-    "content": "Rei Sakamoto superou Jurij Rodionov por 2 a 0 em Quebec City., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "quebec-city"
-    ],
-    "seoTitle": "Rei Sakamoto vence Jurij Rodionov por 2 a 0 em Quebec City",
-    "seoDescription": "Rei Sakamoto superou Jurij Rodionov por 2 a 0 em Quebec City.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T21:44:35.188Z",
-    "createdAt": "2026-08-18T21:44:35.188Z",
-    "updatedAt": "2026-08-18T21:44:35.188Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816174",
-      "eventStartTime": "2026-08-18T19:59:33+00:00",
-      "retrievedAt": "2026-08-18T21:44:35.188Z",
-      "feedId": "tenis",
-      "league": " Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f45b4afe1ce5",
-    "slug": "ca-stockolmo-vence-trouville-por-81-a-54-em-liga-de-ascenso-f45b4a",
-    "sportId": "basquete",
-    "title": "CA Stockolmo vence Trouville por 81 a 54 em Liga de ascenso",
-    "summary": "CA Stockolmo superou Trouville por 81 a 54 em Liga de ascenso.",
-    "content": "CA Stockolmo superou Trouville por 81 a 54 em Liga de ascenso., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "CA Stockolmo vence Trouville por 81 a 54 em Liga de ascenso",
-    "seoDescription": "CA Stockolmo superou Trouville por 81 a 54 em Liga de ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T21:44:35.184Z",
-    "createdAt": "2026-08-18T21:44:35.184Z",
-    "updatedAt": "2026-08-18T21:44:35.184Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815403",
-      "eventStartTime": "2026-08-17T23:15:00+00:00",
-      "retrievedAt": "2026-08-18T21:44:35.184Z",
-      "feedId": "basquete",
-      "league": "Liga de ascenso"
     },
     "articleFormat": "result-brief"
   }
