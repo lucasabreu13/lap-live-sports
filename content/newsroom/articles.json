@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-0588daa412c0",
+    "slug": "fukuoka-hawks-vence-nippon-ham-fighters-por-5-a-5-na-npb-0588da",
+    "sportId": "beisebol",
+    "title": "Fukuoka Hawks vence Nippon Ham Fighters por 5 a 5 na NPB",
+    "summary": "Fukuoka Hawks derrotou Nippon Ham Fighters por 5 a 5 na NPB.",
+    "content": "Fukuoka Hawks derrotou Nippon Ham Fighters por 5 a 5 na NPB, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Fukuoka Hawks vence Nippon Ham Fighters por 5 a 5 na NPB",
+    "seoDescription": "Fukuoka Hawks derrotou Nippon Ham Fighters por 5 a 5 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T04:00:48.019Z",
+    "createdAt": "2026-08-21T04:00:48.019Z",
+    "updatedAt": "2026-08-21T04:00:48.019Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4626828",
+      "eventStartTime": "2026-08-20T05:00:00+00:00",
+      "retrievedAt": "2026-08-21T04:00:48.019Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-0a556c78a387",
+    "slug": "gonzalez-s-ho-r-vence-mac-kiger-ryan-seggerman-por-2-a-0-em-cancun-0a556c",
+    "sportId": "tenis",
+    "title": "Gonzalez S./Ho R. vence Mac Kiger / Ryan Seggerman por 2 a 0 em Cancun",
+    "summary": "Gonzalez S./Ho R. superou Mac Kiger / Ryan Seggerman por 2 a 0 em Cancun.",
+    "content": "Gonzalez S./Ho R. superou Mac Kiger / Ryan Seggerman por 2 a 0 em Cancun., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cancun"
+    ],
+    "seoTitle": "Gonzalez S./Ho R. vence Mac Kiger / Ryan Seggerman por 2 a 0 em Cancun",
+    "seoDescription": "Gonzalez S./Ho R. superou Mac Kiger / Ryan Seggerman por 2 a 0 em Cancun.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T04:00:47.988Z",
+    "createdAt": "2026-08-21T04:00:47.988Z",
+    "updatedAt": "2026-08-21T04:00:47.988Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817238",
+      "eventStartTime": "2026-08-21T02:24:48+00:00",
+      "retrievedAt": "2026-08-21T04:00:47.988Z",
+      "feedId": "tenis",
+      "league": "Cancun"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9ac0312224dc",
+    "slug": "las-vegas-aces-vence-connecticut-sun-por-101-a-78-em-wnba-9ac031",
+    "sportId": "basquete",
+    "title": "Las Vegas Aces vence Connecticut Sun por 101 a 78 em WNBA",
+    "summary": "Las Vegas Aces superou Connecticut Sun por 101 a 78 em WNBA.",
+    "content": "Las Vegas Aces superou Connecticut Sun por 101 a 78 em WNBA., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Las Vegas Aces vence Connecticut Sun por 101 a 78 em WNBA",
+    "seoDescription": "Las Vegas Aces superou Connecticut Sun por 101 a 78 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T04:00:47.985Z",
+    "createdAt": "2026-08-21T04:00:47.985Z",
+    "updatedAt": "2026-08-21T04:00:47.985Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659893",
+      "eventStartTime": "2026-08-21T02:00:00+00:00",
+      "retrievedAt": "2026-08-21T04:00:47.985Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-4eeb2f30d451",
+    "slug": "los-angeles-fc-ii-supera-sporting-kansas-city-ii-por-2-a-1-pelo-mls-next-pro-4eeb2f",
+    "sportId": "futebol",
+    "title": "Los Angeles FC II supera Sporting Kansas City II por 2 a 1 pela MLS Next Pro",
+    "summary": "Los Angeles FC II venceu Sporting Kansas City II por 2 a 1 pela MLS Next Pro.",
+    "content": "Los Angeles FC II venceu Sporting Kansas City II por 2 a 1 pela MLS Next Pro, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "mls-next-pro"
+    ],
+    "seoTitle": "Los Angeles FC II supera Sporting Kansas City II por 2 a 1 pela MLS",
+    "seoDescription": "Los Angeles FC II venceu Sporting Kansas City II por 2 a 1 pela MLS Next Pro.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T04:00:47.977Z",
+    "createdAt": "2026-08-21T04:00:47.977Z",
+    "updatedAt": "2026-08-21T04:00:47.977Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659113",
+      "eventStartTime": "2026-08-21T02:00:00+00:00",
+      "retrievedAt": "2026-08-21T04:00:47.977Z",
+      "feedId": "futebol",
+      "league": "MLS Next Pro"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-654946ee2098",
     "slug": "moise-kouame-vence-roman-andres-burruchaga-por-2-a-0-em-cancun-654946",
     "sportId": "tenis",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-18T11:14:45.222Z",
       "feedId": "futebol",
       "league": "Besta-deild karla"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-2c3e462b7254",
-    "slug": "chun-hsin-tseng-vence-hynek-barton-por-2-a-0-em-prague-2c3e46",
-    "sportId": "tenis",
-    "title": "Chun Hsin Tseng vence Hynek Barton por 2 a 0 em Prague",
-    "summary": "Chun Hsin Tseng superou Hynek Barton por 2 a 0 em Prague.",
-    "content": "Chun Hsin Tseng superou Hynek Barton por 2 a 0 em Prague., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Chun Hsin Tseng vence Hynek Barton por 2 a 0 em Prague",
-    "seoDescription": "Chun Hsin Tseng superou Hynek Barton por 2 a 0 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T10:52:18.341Z",
-    "createdAt": "2026-08-18T10:52:18.341Z",
-    "updatedAt": "2026-08-18T10:52:18.341Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815451",
-      "eventStartTime": "2026-08-18T09:31:23+00:00",
-      "retrievedAt": "2026-08-18T10:52:18.341Z",
-      "feedId": "tenis",
-      "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0f5eb36c32b8",
-    "slug": "general-caballero-jlm-supera-tacuary-por-4-a-1-pelo-division-intermedia-0f5eb3",
-    "sportId": "futebol",
-    "title": "General Caballero JLM supera Tacuary por 4 a 1 pelo Division Intermedia",
-    "summary": "General Caballero JLM venceu Tacuary por 4 a 1 pelo Division Intermedia.",
-    "content": "General Caballero JLM venceu Tacuary por 4 a 1 pelo Division Intermedia, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "division-intermedia"
-    ],
-    "seoTitle": "General Caballero JLM supera Tacuary por 4 a 1 pelo Division",
-    "seoDescription": "General Caballero JLM venceu Tacuary por 4 a 1 pelo Division Intermedia.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T10:52:18.308Z",
-    "createdAt": "2026-08-18T10:52:18.308Z",
-    "updatedAt": "2026-08-18T10:52:18.308Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4808299",
-      "eventStartTime": "2026-08-17T22:00:00+00:00",
-      "retrievedAt": "2026-08-18T10:52:18.308Z",
-      "feedId": "futebol",
-      "league": "Division Intermedia"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-70540eacec19",
-    "slug": "juan-manuel-la-serna-vence-facundo-mena-por-2-a-0-em-sion-70540e",
-    "sportId": "tenis",
-    "title": "Juan Manuel La Serna vence Facundo Mena por 2 a 0 em Sion",
-    "summary": "Juan Manuel La Serna superou Facundo Mena por 2 a 0 em Sion.",
-    "content": "Juan Manuel La Serna superou Facundo Mena por 2 a 0 em Sion., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Juan Manuel La Serna vence Facundo Mena por 2 a 0 em Sion",
-    "seoDescription": "Juan Manuel La Serna superou Facundo Mena por 2 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T10:17:12.492Z",
-    "createdAt": "2026-08-18T10:17:12.492Z",
-    "updatedAt": "2026-08-18T10:17:12.492Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815650",
-      "eventStartTime": "2026-08-18T08:12:56+00:00",
-      "retrievedAt": "2026-08-18T10:17:12.492Z",
-      "feedId": "tenis",
-      "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-56d861eaa5e4",
-    "slug": "san-luis-de-quillota-supera-deportes-santa-cruz-por-2-a-0-pelo-primera-b-56d861",
-    "sportId": "futebol",
-    "title": "San Luis de Quillota supera Deportes Santa Cruz por 2 a 0 pelo Primera B",
-    "summary": "San Luis de Quillota venceu Deportes Santa Cruz por 2 a 0 pelo Primera B.",
-    "content": "San Luis de Quillota venceu Deportes Santa Cruz por 2 a 0 pelo Primera B, em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-b"
-    ],
-    "seoTitle": "San Luis de Quillota supera Deportes Santa Cruz por 2 a 0 pelo Primera",
-    "seoDescription": "San Luis de Quillota venceu Deportes Santa Cruz por 2 a 0 pelo Primera B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T10:17:12.457Z",
-    "createdAt": "2026-08-18T10:17:12.457Z",
-    "updatedAt": "2026-08-18T10:17:12.457Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4656617",
-      "eventStartTime": "2026-08-17T22:00:00+00:00",
-      "retrievedAt": "2026-08-18T10:17:12.457Z",
-      "feedId": "futebol",
-      "league": "Primera B"
     },
     "articleFormat": "result-brief"
   }
