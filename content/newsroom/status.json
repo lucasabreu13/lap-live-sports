@@ -1,9 +1,9 @@
 {
   "status": "ok",
   "coverageStatus": "critical",
-  "validatedAt": "2026-08-21T15:21:59.471Z",
-  "commit": "8fe639dad6b729038d2a12b06a10fe1829fa75a1",
-  "runId": "32497176146",
+  "validatedAt": "2026-08-21T15:55:11.229Z",
+  "commit": "5b07f4f28416941707dbb1bf3dc39275ec9f07a7",
+  "runId": "32500171412",
   "event": "schedule",
   "stages": {
     "agents": "success",
@@ -13,18 +13,18 @@
     "curatedMerge": "success"
   },
   "metrics": {
-    "articlesCreated": 3,
+    "articlesCreated": 2,
     "articlesUpdated": 0,
-    "articlesRemoved": 3,
+    "articlesRemoved": 2,
     "articlesRejected": null,
     "curatedArticles": 25,
     "curatedFiles": 5,
     "editorialOverrides": 1,
-    "lastPublishedAt": "2026-08-21T15:21:59.091Z",
+    "lastPublishedAt": "2026-08-21T15:55:10.853Z",
     "lastPublishedBySport": {
-      "futebol": "2026-08-21T15:21:59.079Z",
+      "futebol": "2026-08-21T15:55:10.819Z",
       "futebol-americano": "2026-08-21T05:22:13.493Z",
-      "tenis": "2026-08-21T15:21:59.091Z",
+      "tenis": "2026-08-21T15:55:10.853Z",
       "ciclismo": null,
       "formula1": null,
       "basquete": "2026-08-21T15:21:59.087Z",
@@ -40,17 +40,17 @@
         "futebol": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-21T15:21:59.079Z"
+          "lastPublishedAt": "2026-08-21T15:55:10.819Z"
         },
         "futebol-americano": {
           "status": "ok",
-          "ageHours": 10,
+          "ageHours": 10.5,
           "lastPublishedAt": "2026-08-21T05:22:13.493Z"
         },
         "tenis": {
           "status": "ok",
           "ageHours": 0,
-          "lastPublishedAt": "2026-08-21T15:21:59.091Z"
+          "lastPublishedAt": "2026-08-21T15:55:10.853Z"
         },
         "ciclismo": {
           "status": "critical",
@@ -64,12 +64,12 @@
         },
         "basquete": {
           "status": "ok",
-          "ageHours": 0,
+          "ageHours": 0.6,
           "lastPublishedAt": "2026-08-21T15:21:59.087Z"
         },
         "beisebol": {
           "status": "ok",
-          "ageHours": 0.5,
+          "ageHours": 1.1,
           "lastPublishedAt": "2026-08-21T14:51:24.674Z"
         },
         "golfe": {
