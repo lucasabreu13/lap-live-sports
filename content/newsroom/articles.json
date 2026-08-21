@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-3124a06b781b",
+    "slug": "milwaukee-brewers-vence-atlanta-braves-por-2-a-1-na-mlb-3124a0",
+    "sportId": "beisebol",
+    "title": "Milwaukee Brewers vence Atlanta Braves por 2 a 1 na MLB",
+    "summary": "Milwaukee Brewers derrotou Atlanta Braves por 2 a 1 na MLB.",
+    "content": "Milwaukee Brewers derrotou Atlanta Braves por 2 a 1 na MLB, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Milwaukee Brewers vence Atlanta Braves por 2 a 1 na MLB",
+    "seoDescription": "Milwaukee Brewers derrotou Atlanta Braves por 2 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T22:49:08.809Z",
+    "createdAt": "2026-08-21T22:49:08.809Z",
+    "updatedAt": "2026-08-21T22:49:08.809Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614832",
+      "eventStartTime": "2026-08-21T20:10:00+00:00",
+      "retrievedAt": "2026-08-21T22:49:08.809Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b7e031f98552",
+    "slug": "sport-huancayo-reserve-supera-estudiantil-cni-por-1-a-0-pela-liga-2-b7e031",
+    "sportId": "futebol",
+    "title": "Sport Huancayo Reserve supera Estudiantil CNI por 1 a 0 pela Liga 2",
+    "summary": "Sport Huancayo Reserve venceu Estudiantil CNI por 1 a 0 pela Liga 2.",
+    "content": "Sport Huancayo Reserve venceu Estudiantil CNI por 1 a 0 pela Liga 2, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-2"
+    ],
+    "seoTitle": "Sport Huancayo Reserve supera Estudiantil CNI por 1 a 0 pela Liga 2",
+    "seoDescription": "Sport Huancayo Reserve venceu Estudiantil CNI por 1 a 0 pela Liga 2.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T22:49:08.689Z",
+    "createdAt": "2026-08-21T22:49:08.689Z",
+    "updatedAt": "2026-08-21T22:49:08.689Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4801909",
+      "eventStartTime": "2026-08-21T20:30:00+00:00",
+      "retrievedAt": "2026-08-21T22:49:08.689Z",
+      "feedId": "futebol",
+      "league": "Liga 2"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-105c0bed63f1",
     "slug": "los-angeles-angels-vence-houston-astros-por-18-a-3-na-mlb-105c0b",
     "sportId": "beisebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T04:28:01.131Z",
       "feedId": "futebol",
       "league": "Serie B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-cd49c518acc2",
-    "slug": "texas-rangers-vence-washington-nationals-por-5-a-0-na-mlb-cd49c5",
-    "sportId": "beisebol",
-    "title": "Texas Rangers vence Washington Nationals por 5 a 0 na MLB",
-    "summary": "Texas Rangers derrotou Washington Nationals por 5 a 0 na MLB.",
-    "content": "Texas Rangers derrotou Washington Nationals por 5 a 0 na MLB, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "Texas Rangers vence Washington Nationals por 5 a 0 na MLB",
-    "seoDescription": "Texas Rangers derrotou Washington Nationals por 5 a 0 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T03:56:34.990Z",
-    "createdAt": "2026-08-19T03:56:34.990Z",
-    "updatedAt": "2026-08-19T03:56:34.990Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614619",
-      "eventStartTime": "2026-08-19T00:05:00+00:00",
-      "retrievedAt": "2026-08-19T03:56:34.990Z",
-      "feedId": "beisebol",
-      "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f755ce5d3ad3",
-    "slug": "kenta-miyoshi-vence-joel-josef-schwaerzler-por-2-a-0-em-kingston-f755ce",
-    "sportId": "tenis",
-    "title": "Kenta Miyoshi vence Joel Josef Schwaerzler por 2 a 0 em Kingston",
-    "summary": "Kenta Miyoshi superou Joel Josef Schwaerzler por 2 a 0 em Kingston.",
-    "content": "Kenta Miyoshi superou Joel Josef Schwaerzler por 2 a 0 em Kingston., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Kenta Miyoshi vence Joel Josef Schwaerzler por 2 a 0 em Kingston",
-    "seoDescription": "Kenta Miyoshi superou Joel Josef Schwaerzler por 2 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T03:56:34.985Z",
-    "createdAt": "2026-08-19T03:56:34.985Z",
-    "updatedAt": "2026-08-19T03:56:34.985Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816754",
-      "eventStartTime": "2026-08-18T23:00:24+00:00",
-      "retrievedAt": "2026-08-19T03:56:34.985Z",
-      "feedId": "tenis",
-      "league": "Kingston"
     },
     "articleFormat": "result-brief"
   }
