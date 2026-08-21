@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-bd92c800215b",
+    "slug": "zizou-bergs-vence-andrea-pellegrino-por-2-a-0-em-quebec-city-bd92c8",
+    "sportId": "tenis",
+    "title": "Zizou Bergs vence Andrea Pellegrino por 2 a 0 em Quebec City",
+    "summary": "Zizou Bergs superou Andrea Pellegrino por 2 a 0 em Quebec City.",
+    "content": "Zizou Bergs superou Andrea Pellegrino por 2 a 0 em Quebec City., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Zizou Bergs vence Andrea Pellegrino por 2 a 0 em Quebec City",
+    "seoDescription": "Zizou Bergs superou Andrea Pellegrino por 2 a 0 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T17:24:41.018Z",
+    "createdAt": "2026-08-21T17:24:41.018Z",
+    "updatedAt": "2026-08-21T17:24:41.018Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818724",
+      "eventStartTime": "2026-08-20T22:39:45+00:00",
+      "retrievedAt": "2026-08-21T17:24:41.018Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-21167258ab9d",
+    "slug": "haka-supera-sjk-akatemia-por-2-a-0-pelo-ykkosliiga-211672",
+    "sportId": "futebol",
+    "title": "Haka supera SJK Akatemia por 2 a 0 pelo Ykkosliiga",
+    "summary": "Haka venceu SJK Akatemia por 2 a 0 pelo Ykkosliiga.",
+    "content": "Haka venceu SJK Akatemia por 2 a 0 pelo Ykkosliiga, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ykkosliiga"
+    ],
+    "seoTitle": "Haka supera SJK Akatemia por 2 a 0 pelo Ykkosliiga",
+    "seoDescription": "Haka venceu SJK Akatemia por 2 a 0 pelo Ykkosliiga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T17:24:40.963Z",
+    "createdAt": "2026-08-21T17:24:40.963Z",
+    "updatedAt": "2026-08-21T17:24:40.963Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4651926",
+      "eventStartTime": "2026-08-21T15:30:00+00:00",
+      "retrievedAt": "2026-08-21T17:24:40.963Z",
+      "feedId": "futebol",
+      "league": "Ykkosliiga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-edbdd69fac21",
     "slug": "m-granollers-h-zeballos-vence-darderi-l-etcheverry-t-m-por-2-a-0-em-cincinnati-edbdd6",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-18T21:58:05.055Z",
       "feedId": "tenis",
       "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-43479cdd9dea",
-    "slug": "lagomar-vence-verdirrojo-bbc-por-73-a-57-em-liga-de-ascenso-43479c",
-    "sportId": "basquete",
-    "title": "Lagomar vence Verdirrojo Bbc por 73 a 57 em Liga de ascenso",
-    "summary": "Lagomar superou Verdirrojo Bbc por 73 a 57 em Liga de ascenso.",
-    "content": "Lagomar superou Verdirrojo Bbc por 73 a 57 em Liga de ascenso., em 17 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-de-ascenso"
-    ],
-    "seoTitle": "Lagomar vence Verdirrojo Bbc por 73 a 57 em Liga de ascenso",
-    "seoDescription": "Lagomar superou Verdirrojo Bbc por 73 a 57 em Liga de ascenso.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T21:58:05.042Z",
-    "createdAt": "2026-08-18T21:58:05.042Z",
-    "updatedAt": "2026-08-18T21:58:05.042Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815404",
-      "eventStartTime": "2026-08-17T23:15:00+00:00",
-      "retrievedAt": "2026-08-18T21:58:05.042Z",
-      "feedId": "basquete",
-      "league": "Liga de ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-0fade068a30f",
-    "slug": "caracas-fc-supera-yaracuyanos-por-3-a-2-pela-copa-venezuela-0fade0",
-    "sportId": "futebol",
-    "title": "Caracas FC supera Yaracuyanos por 3 a 2 pela Copa Venezuela",
-    "summary": "Caracas FC venceu Yaracuyanos por 3 a 2 pela Copa Venezuela.",
-    "content": "Caracas FC venceu Yaracuyanos por 3 a 2 pela Copa Venezuela, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-venezuela"
-    ],
-    "seoTitle": "Caracas FC supera Yaracuyanos por 3 a 2 pela Copa Venezuela",
-    "seoDescription": "Caracas FC venceu Yaracuyanos por 3 a 2 pela Copa Venezuela.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T21:58:05.031Z",
-    "createdAt": "2026-08-18T21:58:05.031Z",
-    "updatedAt": "2026-08-18T21:58:05.031Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4743194",
-      "eventStartTime": "2026-08-18T20:00:00+00:00",
-      "retrievedAt": "2026-08-18T21:58:05.031Z",
-      "feedId": "futebol",
-      "league": "Copa Venezuela"
     },
     "articleFormat": "result-brief"
   }
