@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-47f3adb56d3b",
+    "slug": "luca-van-assche-vence-rei-sakamoto-por-2-a-1-em-quebec-city-47f3ad",
+    "sportId": "tenis",
+    "title": "Luca Van Assche vence Rei Sakamoto por 2 a 1 em Quebec City",
+    "summary": "Luca Van Assche superou Rei Sakamoto por 2 a 1 em Quebec City.",
+    "content": "Luca Van Assche superou Rei Sakamoto por 2 a 1 em Quebec City., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "quebec-city"
+    ],
+    "seoTitle": "Luca Van Assche vence Rei Sakamoto por 2 a 1 em Quebec City",
+    "seoDescription": "Luca Van Assche superou Rei Sakamoto por 2 a 1 em Quebec City.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T17:53:02.072Z",
+    "createdAt": "2026-08-21T17:53:02.072Z",
+    "updatedAt": "2026-08-21T17:53:02.072Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818723",
+      "eventStartTime": "2026-08-20T17:16:08+00:00",
+      "retrievedAt": "2026-08-21T17:53:02.072Z",
+      "feedId": "tenis",
+      "league": " Quebec City"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2e7bf5f76187",
+    "slug": "croatia-vence-turkiye-por-95-a-94-em-international-friendlies-2e7bf5",
+    "sportId": "basquete",
+    "title": "Croatia vence Turkiye por 95 a 94 em International Friendlies",
+    "summary": "Croatia superou Turkiye por 95 a 94 em International Friendlies.",
+    "content": "Croatia superou Turkiye por 95 a 94 em International Friendlies., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendlies"
+    ],
+    "seoTitle": "Croatia vence Turkiye por 95 a 94 em International Friendlies",
+    "seoDescription": "Croatia superou Turkiye por 95 a 94 em International Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T17:53:02.030Z",
+    "createdAt": "2026-08-21T17:53:02.030Z",
+    "updatedAt": "2026-08-21T17:53:02.030Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819710",
+      "eventStartTime": "2026-08-21T15:45:00+00:00",
+      "retrievedAt": "2026-08-21T17:53:02.030Z",
+      "feedId": "basquete",
+      "league": "International Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-6aef843023db",
+    "slug": "ad-torrejon-cf-e-real-avila-ficam-no-0-a-0-pelo-club-friendlies-6aef84",
+    "sportId": "futebol",
+    "title": "AD Torrejón CF e Real Ávila ficam no 0 a 0 pelo Club Friendlies",
+    "summary": "AD Torrejón CF e Real Ávila empataram por 0 a 0 pelo Club Friendlies.",
+    "content": "AD Torrejón CF e Real Ávila empataram por 0 a 0 pelo Club Friendlies, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "AD Torrejón CF e Real Ávila ficam no 0 a 0 pelo Club Friendlies",
+    "seoDescription": "AD Torrejón CF e Real Ávila empataram por 0 a 0 pelo Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T17:53:02.021Z",
+    "createdAt": "2026-08-21T17:53:02.021Z",
+    "updatedAt": "2026-08-21T17:53:02.021Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820965",
+      "eventStartTime": "2026-08-21T17:30:00+00:00",
+      "retrievedAt": "2026-08-21T17:53:02.021Z",
+      "feedId": "futebol",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-bd92c800215b",
     "slug": "zizou-bergs-vence-andrea-pellegrino-por-2-a-0-em-quebec-city-bd92c8",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-18T22:46:22.124Z",
       "feedId": "futebol",
       "league": "Copa Governo de Sergipe"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-66f576cc6d44",
-    "slug": "pavlasek-a-rikl-p-vence-yuki-bhambri-michael-venus-por-2-a-0-em-cincinnati-66f576",
-    "sportId": "tenis",
-    "title": "Pavlasek A./Rikl P. vence Yuki Bhambri/Michael Venus por 2 a 0 em Cincinnati",
-    "summary": "Pavlasek A./Rikl P. superou Yuki Bhambri/Michael Venus por 2 a 0 em Cincinnati.",
-    "content": "Pavlasek A./Rikl P. superou Yuki Bhambri/Michael Venus por 2 a 0 em Cincinnati., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Pavlasek A./Rikl P. vence Yuki Bhambri/Michael Venus por 2 a 0 em",
-    "seoDescription": "Pavlasek A./Rikl P. superou Yuki Bhambri/Michael Venus por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T22:19:19.809Z",
-    "createdAt": "2026-08-18T22:19:19.809Z",
-    "updatedAt": "2026-08-18T22:19:19.809Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816666",
-      "eventStartTime": "2026-08-18T20:37:34+00:00",
-      "retrievedAt": "2026-08-18T22:19:19.809Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a49fd922faad",
-    "slug": "trujillanos-fc-e-urena-sc-ficam-no-2-a-2-pela-copa-venezuela-a49fd9",
-    "sportId": "futebol",
-    "title": "Trujillanos FC e Ureña SC ficam no 2 a 2 pela Copa Venezuela",
-    "summary": "Trujillanos FC e Ureña SC empataram por 2 a 2 pela Copa Venezuela.",
-    "content": "Trujillanos FC e Ureña SC empataram por 2 a 2 pela Copa Venezuela, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-venezuela"
-    ],
-    "seoTitle": "Trujillanos FC e Ureña SC ficam no 2 a 2 pela Copa Venezuela",
-    "seoDescription": "Trujillanos FC e Ureña SC empataram por 2 a 2 pela Copa Venezuela.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T22:19:19.790Z",
-    "createdAt": "2026-08-18T22:19:19.790Z",
-    "updatedAt": "2026-08-18T22:19:19.790Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4743199",
-      "eventStartTime": "2026-08-18T20:00:00+00:00",
-      "retrievedAt": "2026-08-18T22:19:19.790Z",
-      "feedId": "futebol",
-      "league": "Copa Venezuela"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a5411026f27d",
-    "slug": "valentin-royer-vence-luis-augusto-miguel-por-2-a-1-em-kingston-a54110",
-    "sportId": "tenis",
-    "title": "Valentin Royer vence Luis Augusto Miguel por 2 a 1 em Kingston",
-    "summary": "Valentin Royer superou Luis Augusto Miguel por 2 a 1 em Kingston.",
-    "content": "Valentin Royer superou Luis Augusto Miguel por 2 a 1 em Kingston., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Valentin Royer vence Luis Augusto Miguel por 2 a 1 em Kingston",
-    "seoDescription": "Valentin Royer superou Luis Augusto Miguel por 2 a 1 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-18T21:58:05.055Z",
-    "createdAt": "2026-08-18T21:58:05.055Z",
-    "updatedAt": "2026-08-18T21:58:05.055Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815561",
-      "eventStartTime": "2026-08-18T16:56:33+00:00",
-      "retrievedAt": "2026-08-18T21:58:05.055Z",
-      "feedId": "tenis",
-      "league": "Kingston"
     },
     "articleFormat": "result-brief"
   }
