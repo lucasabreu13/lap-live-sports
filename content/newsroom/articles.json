@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-206da48584f5",
+    "slug": "germany-vence-czechia-por-115-a-82-em-international-friendlies-206da4",
+    "sportId": "basquete",
+    "title": "Germany vence Czechia por 115 a 82 em International Friendlies",
+    "summary": "Germany superou Czechia por 115 a 82 em International Friendlies.",
+    "content": "Germany superou Czechia por 115 a 82 em International Friendlies., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendlies"
+    ],
+    "seoTitle": "Germany vence Czechia por 115 a 82 em International Friendlies",
+    "seoDescription": "Germany superou Czechia por 115 a 82 em International Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T20:39:58.910Z",
+    "createdAt": "2026-08-21T20:39:58.910Z",
+    "updatedAt": "2026-08-21T20:39:58.910Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820291",
+      "eventStartTime": "2026-08-21T18:30:00+00:00",
+      "retrievedAt": "2026-08-21T20:39:58.910Z",
+      "feedId": "basquete",
+      "league": "International Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e2614a75ae63",
+    "slug": "athlone-town-supera-wexford-youths-por-2-a-0-pelo-division-1-e2614a",
+    "sportId": "futebol",
+    "title": "Athlone Town supera Wexford Youths por 2 a 0 pelo Division 1",
+    "summary": "Athlone Town venceu Wexford Youths por 2 a 0 pelo Division 1.",
+    "content": "Athlone Town venceu Wexford Youths por 2 a 0 pelo Division 1, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "division-1"
+    ],
+    "seoTitle": "Athlone Town supera Wexford Youths por 2 a 0 pelo Division 1",
+    "seoDescription": "Athlone Town venceu Wexford Youths por 2 a 0 pelo Division 1.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-21T20:39:58.903Z",
+    "createdAt": "2026-08-21T20:39:58.903Z",
+    "updatedAt": "2026-08-21T20:39:58.903Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4633677",
+      "eventStartTime": "2026-08-21T18:45:00+00:00",
+      "retrievedAt": "2026-08-21T20:39:58.903Z",
+      "feedId": "futebol",
+      "league": "Division 1"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4761ece7b492",
     "slug": "redcar-town-e-bridlington-town-ficam-no-0-a-0-pelo-fa-cup-qualifying-rounds-4761ec",
     "sportId": "futebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T02:06:39.814Z",
       "feedId": "basquete",
       "league": "Liga de ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-382db7addc59",
-    "slug": "xv-de-piracicaba-supera-comercial-sp-por-1-a-0-pela-copa-paulista-382db7",
-    "sportId": "futebol",
-    "title": "XV de Piracicaba supera Comercial-SP por 1 a 0 pela Copa Paulista",
-    "summary": "XV de Piracicaba venceu Comercial-SP por 1 a 0 pela Copa Paulista.",
-    "content": "XV de Piracicaba venceu Comercial-SP por 1 a 0 pela Copa Paulista, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-paulista"
-    ],
-    "seoTitle": "XV de Piracicaba supera Comercial-SP por 1 a 0 pela Copa Paulista",
-    "seoDescription": "XV de Piracicaba venceu Comercial-SP por 1 a 0 pela Copa Paulista.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T02:06:39.806Z",
-    "createdAt": "2026-08-19T02:06:39.806Z",
-    "updatedAt": "2026-08-19T02:06:39.806Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4773381",
-      "eventStartTime": "2026-08-18T23:00:00+00:00",
-      "retrievedAt": "2026-08-19T02:06:39.806Z",
-      "feedId": "futebol",
-      "league": "Copa Paulista"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-39a92408c4b9",
-    "slug": "aryna-sabalenka-vence-xin-yu-wang-por-2-a-0-em-cincinnati-39a924",
-    "sportId": "tenis",
-    "title": "Aryna Sabalenka vence Xin-Yu Wang por 2 a 0 em Cincinnati",
-    "summary": "Aryna Sabalenka superou Xin-Yu Wang por 2 a 0 em Cincinnati.",
-    "content": "Aryna Sabalenka superou Xin-Yu Wang por 2 a 0 em Cincinnati., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Aryna Sabalenka vence Xin-Yu Wang por 2 a 0 em Cincinnati",
-    "seoDescription": "Aryna Sabalenka superou Xin-Yu Wang por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T00:39:30.092Z",
-    "createdAt": "2026-08-19T00:39:30.092Z",
-    "updatedAt": "2026-08-19T00:39:30.092Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816167",
-      "eventStartTime": "2026-08-18T23:09:22+00:00",
-      "retrievedAt": "2026-08-19T00:39:30.092Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
