@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-b84c884f8e5f",
+    "slug": "ucsa-e-kolos-kovalivka-ficam-no-0-a-0-pelo-ukrainian-cup-b84c88",
+    "sportId": "futebol",
+    "title": "Ucsa e Kolos Kovalivka ficam no 0 a 0 pelo Ukrainian Cup",
+    "summary": "Ucsa e Kolos Kovalivka empataram por 0 a 0 pelo Ukrainian Cup.",
+    "content": "Ucsa e Kolos Kovalivka empataram por 0 a 0 pelo Ukrainian Cup, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ukrainian-cup"
+    ],
+    "seoTitle": "Ucsa e Kolos Kovalivka ficam no 0 a 0 pelo Ukrainian Cup",
+    "seoDescription": "Ucsa e Kolos Kovalivka empataram por 0 a 0 pelo Ukrainian Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T09:38:21.014Z",
+    "createdAt": "2026-08-22T09:38:21.014Z",
+    "updatedAt": "2026-08-22T09:38:21.014Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4802676",
+      "eventStartTime": "2026-08-22T09:00:00+00:00",
+      "retrievedAt": "2026-08-22T09:38:21.014Z",
+      "feedId": "futebol",
+      "league": "Ukrainian Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-950fb8bbf90b",
     "slug": "leon-w-supera-monterrey-w-por-3-a-2-pela-liga-mx-femenil-950fb8",
     "sportId": "futebol",
@@ -12554,48 +12596,6 @@
       "retrievedAt": "2026-08-19T15:29:45.379Z",
       "feedId": "tenis",
       "league": "Roehampton"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7c28ce21ba03",
-    "slug": "guerreros-de-neumane-vence-cd-jorge-guzman-por-81-a-76-em-liga-nacional-7c28ce",
-    "sportId": "basquete",
-    "title": "Guerreros de Neumane vence CD Jorge Guzman por 81 a 76 em Liga Nacional",
-    "summary": "Guerreros de Neumane superou CD Jorge Guzman por 81 a 76 em Liga Nacional.",
-    "content": "Guerreros de Neumane superou CD Jorge Guzman por 81 a 76 em Liga Nacional., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-nacional"
-    ],
-    "seoTitle": "Guerreros de Neumane vence CD Jorge Guzman por 81 a 76 em Liga",
-    "seoDescription": "Guerreros de Neumane superou CD Jorge Guzman por 81 a 76 em Liga Nacional.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T15:29:45.374Z",
-    "createdAt": "2026-08-19T15:29:45.374Z",
-    "updatedAt": "2026-08-19T15:29:45.374Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4818422",
-      "eventStartTime": "2026-08-19T01:00:00+00:00",
-      "retrievedAt": "2026-08-19T15:29:45.374Z",
-      "feedId": "basquete",
-      "league": "Liga Nacional"
     },
     "articleFormat": "result-brief"
   }
