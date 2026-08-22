@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-16cccf38ceca",
+    "slug": "felix-balshaw-vence-luca-pow-por-2-a-0-em-winston-salem-16cccf",
+    "sportId": "tenis",
+    "title": "Felix Balshaw vence Luca Pow por 2 a 0 em Winston Salem",
+    "summary": "Felix Balshaw superou Luca Pow por 2 a 0 em Winston Salem.",
+    "content": "Felix Balshaw superou Luca Pow por 2 a 0 em Winston Salem., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "winston-salem"
+    ],
+    "seoTitle": "Felix Balshaw vence Luca Pow por 2 a 0 em Winston Salem",
+    "seoDescription": "Felix Balshaw superou Luca Pow por 2 a 0 em Winston Salem.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T17:15:50.390Z",
+    "createdAt": "2026-08-22T17:15:50.390Z",
+    "updatedAt": "2026-08-22T17:15:50.390Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4821346",
+      "eventStartTime": "2026-08-22T15:10:47+00:00",
+      "retrievedAt": "2026-08-22T17:15:50.390Z",
+      "feedId": "tenis",
+      "league": "Winston Salem"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1c2c0b2c30b7",
+    "slug": "glorias-navales-e-municipal-mejillones-ficam-no-0-a-0-pelo-tercera-division-b-1c2c0b",
+    "sportId": "futebol",
+    "title": "Glorias Navales e Municipal Mejillones ficam no 0 a 0 pelo Tercera División B",
+    "summary": "Glorias Navales e Municipal Mejillones empataram por 0 a 0 pelo Tercera División B.",
+    "content": "Glorias Navales e Municipal Mejillones empataram por 0 a 0 pelo Tercera División B, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "tercera-division-b"
+    ],
+    "seoTitle": "Glorias Navales e Municipal Mejillones ficam no 0 a 0 pelo Tercera",
+    "seoDescription": "Glorias Navales e Municipal Mejillones empataram por 0 a 0 pelo Tercera División B.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T17:15:50.368Z",
+    "createdAt": "2026-08-22T17:15:50.368Z",
+    "updatedAt": "2026-08-22T17:15:50.368Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818442",
+      "eventStartTime": "2026-08-22T16:00:00+00:00",
+      "retrievedAt": "2026-08-22T17:15:50.368Z",
+      "feedId": "futebol",
+      "league": "Tercera División B"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-4b16c1ee2733",
     "slug": "ferrymead-bays-fc-supera-nelson-suburbs-por-5-a-0-pelo-national-league-4b16c1",
     "sportId": "futebol",
@@ -12510,90 +12594,6 @@
       "eventId": "365-4818554",
       "eventStartTime": "2026-08-19T17:54:59+00:00",
       "retrievedAt": "2026-08-19T21:15:23.512Z",
-      "feedId": "tenis",
-      "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-73c693a93d49",
-    "slug": "tigres-supera-envigado-fc-por-2-a-1-pelo-primera-b-73c693",
-    "sportId": "futebol",
-    "title": "Tigres supera Envigado FC por 2 a 1 pelo Primera B",
-    "summary": "Tigres venceu Envigado FC por 2 a 1 pelo Primera B.",
-    "content": "Tigres venceu Envigado FC por 2 a 1 pelo Primera B, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-b"
-    ],
-    "seoTitle": "Tigres supera Envigado FC por 2 a 1 pelo Primera B",
-    "seoDescription": "Tigres venceu Envigado FC por 2 a 1 pelo Primera B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T21:15:23.497Z",
-    "createdAt": "2026-08-19T21:15:23.497Z",
-    "updatedAt": "2026-08-19T21:15:23.497Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732183",
-      "eventStartTime": "2026-08-19T19:00:00+00:00",
-      "retrievedAt": "2026-08-19T21:15:23.497Z",
-      "feedId": "futebol",
-      "league": "Primera B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d8717b51f1e7",
-    "slug": "falck-r-suarez-b-e-martinez-p-midon-l-empatam-por-0-a-0-em-kingston-d8717b",
-    "sportId": "tenis",
-    "title": "Falck R./Suarez B. e Martinez P./Midon L. empatam por 0 a 0 em Kingston",
-    "summary": "Falck R./Suarez B. e Martinez P./Midon L. terminaram empatados por 0 a 0 em Kingston.",
-    "content": "Falck R./Suarez B. e Martinez P./Midon L. terminaram empatados por 0 a 0 em Kingston., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Falck R./Suarez B. e Martinez P./Midon L. empatam por 0 a 0 em",
-    "seoDescription": "Falck R./Suarez B. e Martinez P./Midon L. terminaram empatados por 0 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T20:45:34.330Z",
-    "createdAt": "2026-08-19T20:45:34.330Z",
-    "updatedAt": "2026-08-19T20:45:34.330Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816529",
-      "eventStartTime": "2026-08-19T20:40:00+00:00",
-      "retrievedAt": "2026-08-19T20:45:34.330Z",
       "feedId": "tenis",
       "league": "Kingston"
     },
