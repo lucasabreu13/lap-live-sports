@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-5b0e328e024f",
+    "slug": "abdullah-shelbayh-vence-ryan-seggerman-por-2-a-1-em-winston-salem-5b0e32",
+    "sportId": "tenis",
+    "title": "Abdullah Shelbayh vence Ryan Seggerman por 2 a 1 em Winston Salem",
+    "summary": "Abdullah Shelbayh superou Ryan Seggerman por 2 a 1 em Winston Salem.",
+    "content": "Abdullah Shelbayh superou Ryan Seggerman por 2 a 1 em Winston Salem., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "winston-salem"
+    ],
+    "seoTitle": "Abdullah Shelbayh vence Ryan Seggerman por 2 a 1 em Winston Salem",
+    "seoDescription": "Abdullah Shelbayh superou Ryan Seggerman por 2 a 1 em Winston Salem.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T20:57:14.273Z",
+    "createdAt": "2026-08-22T20:57:14.273Z",
+    "updatedAt": "2026-08-22T20:57:14.273Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4821352",
+      "eventStartTime": "2026-08-22T18:20:24+00:00",
+      "retrievedAt": "2026-08-22T20:57:14.273Z",
+      "feedId": "tenis",
+      "league": "Winston Salem"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1d75c10f15f1",
+    "slug": "fluminense-supera-remo-por-2-a-1-pelo-serie-a-1d75c1",
+    "sportId": "futebol",
+    "title": "Fluminense supera Remo por 2 a 1 pelo Série A",
+    "summary": "Fluminense venceu Remo por 2 a 1 pelo Série A.",
+    "content": "Fluminense venceu Remo por 2 a 1 pelo Série A, em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "serie-a"
+    ],
+    "seoTitle": "Fluminense supera Remo por 2 a 1 pelo Série A",
+    "seoDescription": "Fluminense venceu Remo por 2 a 1 pelo Série A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T20:57:14.256Z",
+    "createdAt": "2026-08-22T20:57:14.256Z",
+    "updatedAt": "2026-08-22T20:57:14.256Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4632716",
+      "eventStartTime": "2026-08-22T19:00:00+00:00",
+      "retrievedAt": "2026-08-22T20:57:14.256Z",
+      "feedId": "futebol",
+      "league": "Série A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-2e521a9ab6d3",
     "slug": "darja-vidmanova-vence-caroline-werner-por-2-a-0-em-monterrey-2e521a",
     "sportId": "tenis",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-20T03:10:49.593Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-aa0bd9ff360d",
-    "slug": "zamora-raptors-vence-san-antonio-gold-por-85-a-62-em-liga-nacional-aa0bd9",
-    "sportId": "basquete",
-    "title": "Zamora Raptors vence San Antonio Gold por 85 a 62 em Liga Nacional",
-    "summary": "Zamora Raptors superou San Antonio Gold por 85 a 62 em Liga Nacional.",
-    "content": "Zamora Raptors superou San Antonio Gold por 85 a 62 em Liga Nacional., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "liga-nacional"
-    ],
-    "seoTitle": "Zamora Raptors vence San Antonio Gold por 85 a 62 em Liga Nacional",
-    "seoDescription": "Zamora Raptors superou San Antonio Gold por 85 a 62 em Liga Nacional.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-20T03:10:49.587Z",
-    "createdAt": "2026-08-20T03:10:49.587Z",
-    "updatedAt": "2026-08-20T03:10:49.587Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4818425",
-      "eventStartTime": "2026-08-20T01:00:00+00:00",
-      "retrievedAt": "2026-08-20T03:10:49.587Z",
-      "feedId": "basquete",
-      "league": "Liga Nacional"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-af2d4cf46bc4",
-    "slug": "patriotas-e-orsomarso-ficam-no-1-a-1-pelo-primera-b-af2d4c",
-    "sportId": "futebol",
-    "title": "Patriotas e Orsomarso ficam no 1 a 1 pelo Primera B",
-    "summary": "Patriotas e Orsomarso empataram por 1 a 1 pelo Primera B.",
-    "content": "Patriotas e Orsomarso empataram por 1 a 1 pelo Primera B, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-b"
-    ],
-    "seoTitle": "Patriotas e Orsomarso ficam no 1 a 1 pelo Primera B",
-    "seoDescription": "Patriotas e Orsomarso empataram por 1 a 1 pelo Primera B.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-20T03:10:49.579Z",
-    "createdAt": "2026-08-20T03:10:49.579Z",
-    "updatedAt": "2026-08-20T03:10:49.579Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4732184",
-      "eventStartTime": "2026-08-20T01:10:00+00:00",
-      "retrievedAt": "2026-08-20T03:10:49.579Z",
-      "feedId": "futebol",
-      "league": "Primera B"
     },
     "articleFormat": "result-brief"
   }
