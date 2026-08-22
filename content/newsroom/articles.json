@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-3225fb191084",
+    "slug": "philadelphia-phillies-vence-st-louis-cardinals-por-7-a-6-na-mlb-3225fb",
+    "sportId": "beisebol",
+    "title": "Philadelphia Phillies vence St. Louis Cardinals por 7 a 6 na MLB",
+    "summary": "Philadelphia Phillies derrotou St. Louis Cardinals por 7 a 6 na MLB.",
+    "content": "Philadelphia Phillies derrotou St. Louis Cardinals por 7 a 6 na MLB, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Philadelphia Phillies vence St. Louis Cardinals por 7 a 6 na MLB",
+    "seoDescription": "Philadelphia Phillies derrotou St. Louis Cardinals por 7 a 6 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T07:42:53.002Z",
+    "createdAt": "2026-08-22T07:42:53.002Z",
+    "updatedAt": "2026-08-22T07:42:53.002Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614729",
+      "eventStartTime": "2026-08-21T22:40:00+00:00",
+      "retrievedAt": "2026-08-22T07:42:53.002Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2dd1a7176f35",
+    "slug": "chiba-jets-vence-nishinomiya-por-100-a-95-em-club-friendlies-2dd1a7",
+    "sportId": "basquete",
+    "title": "Chiba Jets vence Nishinomiya por 100 a 95 em Club Friendlies",
+    "summary": "Chiba Jets superou Nishinomiya por 100 a 95 em Club Friendlies.",
+    "content": "Chiba Jets superou Nishinomiya por 100 a 95 em Club Friendlies., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Chiba Jets vence Nishinomiya por 100 a 95 em Club Friendlies",
+    "seoDescription": "Chiba Jets superou Nishinomiya por 100 a 95 em Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T07:42:52.915Z",
+    "createdAt": "2026-08-22T07:42:52.915Z",
+    "updatedAt": "2026-08-22T07:42:52.915Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820595",
+      "eventStartTime": "2026-08-22T05:00:00+00:00",
+      "retrievedAt": "2026-08-22T07:42:52.915Z",
+      "feedId": "basquete",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-314bcfb18f03",
+    "slug": "birkenhead-united-e-fencibles-united-ficam-no-0-a-0-pelo-national-league-314bcf",
+    "sportId": "futebol",
+    "title": "Birkenhead United e Fencibles United ficam no 0 a 0 pelo National League",
+    "summary": "Birkenhead United e Fencibles United empataram por 0 a 0 pelo National League.",
+    "content": "Birkenhead United e Fencibles United empataram por 0 a 0 pelo National League, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "national-league"
+    ],
+    "seoTitle": "Birkenhead United e Fencibles United ficam no 0 a 0 pelo National",
+    "seoDescription": "Birkenhead United e Fencibles United empataram por 0 a 0 pelo National League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T07:42:52.904Z",
+    "createdAt": "2026-08-22T07:42:52.904Z",
+    "updatedAt": "2026-08-22T07:42:52.904Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4678280",
+      "eventStartTime": "2026-08-22T05:30:00+00:00",
+      "retrievedAt": "2026-08-22T07:42:52.904Z",
+      "feedId": "futebol",
+      "league": "National League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-fa053f197c8b",
     "slug": "sultanes-de-monterrey-vence-caliente-de-durango-por-8-a-7-na-lmb-fa053f",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-19T14:16:11.582Z",
       "feedId": "futebol",
       "league": "Super League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-93574b42888a",
-    "slug": "maxim-mrva-vence-cezar-cretu-por-2-a-0-em-prague-93574b",
-    "sportId": "tenis",
-    "title": "Maxim Mrva vence Cezar Cretu por 2 a 0 em Prague",
-    "summary": "Maxim Mrva superou Cezar Cretu por 2 a 0 em Prague.",
-    "content": "Maxim Mrva superou Cezar Cretu por 2 a 0 em Prague., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Maxim Mrva vence Cezar Cretu por 2 a 0 em Prague",
-    "seoDescription": "Maxim Mrva superou Cezar Cretu por 2 a 0 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T13:30:57.952Z",
-    "createdAt": "2026-08-19T13:30:57.952Z",
-    "updatedAt": "2026-08-19T13:30:57.952Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4817215",
-      "eventStartTime": "2026-08-19T11:42:41+00:00",
-      "retrievedAt": "2026-08-19T13:30:57.952Z",
-      "feedId": "tenis",
-      "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-33706e1ca5a2",
-    "slug": "al-orouba-fc-e-al-yarmok-ficam-no-0-a-0-pelo-yemeni-league-33706e",
-    "sportId": "futebol",
-    "title": "Al Orouba FC e Al Yarmok ficam no 0 a 0 pelo Yemeni League",
-    "summary": "Al Orouba FC e Al Yarmok empataram por 0 a 0 pelo Yemeni League.",
-    "content": "Al Orouba FC e Al Yarmok empataram por 0 a 0 pelo Yemeni League, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "yemeni-league"
-    ],
-    "seoTitle": "Al Orouba FC e Al Yarmok ficam no 0 a 0 pelo Yemeni League",
-    "seoDescription": "Al Orouba FC e Al Yarmok empataram por 0 a 0 pelo Yemeni League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T13:30:57.927Z",
-    "createdAt": "2026-08-19T13:30:57.927Z",
-    "updatedAt": "2026-08-19T13:30:57.927Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4742990",
-      "eventStartTime": "2026-08-19T13:00:00+00:00",
-      "retrievedAt": "2026-08-19T13:30:57.927Z",
-      "feedId": "futebol",
-      "league": "Yemeni League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-548f1b14ced2",
-    "slug": "neuchrist-m-poljak-d-e-staeheli-l-zahraj-p-empatam-por-0-a-0-em-sion-548f1b",
-    "sportId": "tenis",
-    "title": "Neuchrist M./Poljak D. e Staeheli L./Zahraj P. empatam por 0 a 0 em Sion",
-    "summary": "Neuchrist M./Poljak D. e Staeheli L./Zahraj P. terminaram empatados por 0 a 0 em Sion.",
-    "content": "Neuchrist M./Poljak D. e Staeheli L./Zahraj P. terminaram empatados por 0 a 0 em Sion., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Neuchrist M./Poljak D. e Staeheli L./Zahraj P. empatam por 0 a 0 em",
-    "seoDescription": "Neuchrist M./Poljak D. e Staeheli L./Zahraj P. terminaram empatados por 0 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T12:44:11.574Z",
-    "createdAt": "2026-08-19T12:44:11.574Z",
-    "updatedAt": "2026-08-19T12:44:11.574Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815579",
-      "eventStartTime": "2026-08-19T12:05:00+00:00",
-      "retrievedAt": "2026-08-19T12:44:11.574Z",
-      "feedId": "tenis",
-      "league": "Sion"
     },
     "articleFormat": "result-brief"
   }
