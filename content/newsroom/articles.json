@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-624d731223e5",
+    "slug": "baltimore-orioles-vence-tampa-bay-rays-por-5-a-3-na-mlb-624d73",
+    "sportId": "beisebol",
+    "title": "Baltimore Orioles vence Tampa Bay Rays por 5 a 3 na MLB",
+    "summary": "Baltimore Orioles derrotou Tampa Bay Rays por 5 a 3 na MLB.",
+    "content": "Baltimore Orioles derrotou Tampa Bay Rays por 5 a 3 na MLB, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Baltimore Orioles vence Tampa Bay Rays por 5 a 3 na MLB",
+    "seoDescription": "Baltimore Orioles derrotou Tampa Bay Rays por 5 a 3 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T02:08:58.573Z",
+    "createdAt": "2026-08-22T02:08:58.573Z",
+    "updatedAt": "2026-08-22T02:08:58.573Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614766",
+      "eventStartTime": "2026-08-21T23:15:00+00:00",
+      "retrievedAt": "2026-08-22T02:08:58.573Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-e765588c6877",
+    "slug": "sayago-vence-tabare-por-71-a-68-em-liga-de-ascenso-e76558",
+    "sportId": "basquete",
+    "title": "Sayago vence Tabare por 71 a 68 em Liga de ascenso",
+    "summary": "Sayago superou Tabare por 71 a 68 em Liga de ascenso.",
+    "content": "Sayago superou Tabare por 71 a 68 em Liga de ascenso., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Sayago vence Tabare por 71 a 68 em Liga de ascenso",
+    "seoDescription": "Sayago superou Tabare por 71 a 68 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T02:08:58.494Z",
+    "createdAt": "2026-08-22T02:08:58.494Z",
+    "updatedAt": "2026-08-22T02:08:58.494Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817064",
+      "eventStartTime": "2026-08-22T00:15:00+00:00",
+      "retrievedAt": "2026-08-22T02:08:58.494Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2de103d913ec",
+    "slug": "new-york-jets-vence-pittsburgh-steelers-por-17-a-0-em-nfl-2de103",
+    "sportId": "futebol-americano",
+    "title": "New York Jets vence Pittsburgh Steelers por 17 a 0 em NFL",
+    "summary": "New York Jets superou Pittsburgh Steelers por 17 a 0 em NFL.",
+    "content": "New York Jets superou Pittsburgh Steelers por 17 a 0 em NFL., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": "/images/sports/futebol-americano.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "New York Jets vence Pittsburgh Steelers por 17 a 0 em NFL",
+    "seoDescription": "New York Jets superou Pittsburgh Steelers por 17 a 0 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T02:08:58.492Z",
+    "createdAt": "2026-08-22T02:08:58.492Z",
+    "updatedAt": "2026-08-22T02:08:58.492Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714920",
+      "eventStartTime": "2026-08-21T23:00:00+00:00",
+      "retrievedAt": "2026-08-22T02:08:58.492Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-007d79661130",
+    "slug": "chorotega-fc-w-e-dimas-escazu-w-ficam-no-0-a-0-pelo-primera-division-women-007d79",
+    "sportId": "futebol",
+    "title": "Chorotega FC (W) e Dimas Escazu (W) ficam no 0 a 0 pelo Primera Division Women",
+    "summary": "Chorotega FC (W) e Dimas Escazu (W) empataram por 0 a 0 pelo Primera Division Women.",
+    "content": "Chorotega FC (W) e Dimas Escazu (W) empataram por 0 a 0 pelo Primera Division Women, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "primera-division-women"
+    ],
+    "seoTitle": "Chorotega FC (W) e Dimas Escazu (W) ficam no 0 a 0 pelo Primera",
+    "seoDescription": "Chorotega FC (W) e Dimas Escazu (W) empataram por 0 a 0 pelo Primera Division Women.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T02:08:58.486Z",
+    "createdAt": "2026-08-22T02:08:58.486Z",
+    "updatedAt": "2026-08-22T02:08:58.486Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816960",
+      "eventStartTime": "2026-08-22T01:00:00+00:00",
+      "retrievedAt": "2026-08-22T02:08:58.486Z",
+      "feedId": "futebol",
+      "league": "Primera Division Women"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-8bb30a905ab2",
     "slug": "toronto-blue-jays-vence-tampa-bay-rays-por-5-a-1-na-mlb-8bb30a",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-19T06:02:26.088Z",
       "feedId": "tenis",
       "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c393021c8728",
-    "slug": "olimpia-vence-san-alfonzo-por-102-a-84-em-lnb-c39302",
-    "sportId": "basquete",
-    "title": "Olimpia vence San Alfonzo por 102 a 84 em LNB",
-    "summary": "Olimpia superou San Alfonzo por 102 a 84 em LNB.",
-    "content": "Olimpia superou San Alfonzo por 102 a 84 em LNB., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lnb"
-    ],
-    "seoTitle": "Olimpia vence San Alfonzo por 102 a 84 em LNB",
-    "seoDescription": "Olimpia superou San Alfonzo por 102 a 84 em LNB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T06:02:26.079Z",
-    "createdAt": "2026-08-19T06:02:26.079Z",
-    "updatedAt": "2026-08-19T06:02:26.079Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4809661",
-      "eventStartTime": "2026-08-18T23:00:00+00:00",
-      "retrievedAt": "2026-08-19T06:02:26.079Z",
-      "feedId": "basquete",
-      "league": "LNB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-01ff78015788",
-    "slug": "estudiantes-de-la-plata-supera-universidad-catolica-por-3-a-0-pelo-conmebol-libert-01ff78",
-    "sportId": "futebol",
-    "title": "Estudiantes de La Plata supera Universidad Catolica por 3 a 0 pelo CONMEBOL Libertadores",
-    "summary": "Estudiantes de La Plata venceu Universidad Catolica por 3 a 0 pelo CONMEBOL Libertadores.",
-    "content": "Estudiantes de La Plata venceu Universidad Catolica por 3 a 0 pelo CONMEBOL Libertadores, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "conmebol-libertadores"
-    ],
-    "seoTitle": "Estudiantes de La Plata supera Universidad Catolica por 3 a 0 pelo",
-    "seoDescription": "Estudiantes de La Plata venceu Universidad Catolica por 3 a 0 pelo CONMEBOL Libertadores.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T06:02:26.070Z",
-    "createdAt": "2026-08-19T06:02:26.070Z",
-    "updatedAt": "2026-08-19T06:02:26.070Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4728054",
-      "eventStartTime": "2026-08-19T00:30:00+00:00",
-      "retrievedAt": "2026-08-19T06:02:26.070Z",
-      "feedId": "futebol",
-      "league": "CONMEBOL Libertadores"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-6ed96ade2ea2",
-    "slug": "sultanes-de-monterrey-vence-caliente-de-durango-por-6-a-2-na-lmb-6ed96a",
-    "sportId": "beisebol",
-    "title": "Sultanes de Monterrey vence Caliente de Durango por 6 a 2 na LMB",
-    "summary": "Sultanes de Monterrey derrotou Caliente de Durango por 6 a 2 na LMB.",
-    "content": "Sultanes de Monterrey derrotou Caliente de Durango por 6 a 2 na LMB, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "lmb"
-    ],
-    "seoTitle": "Sultanes de Monterrey vence Caliente de Durango por 6 a 2 na LMB",
-    "seoDescription": "Sultanes de Monterrey derrotou Caliente de Durango por 6 a 2 na LMB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T05:43:53.319Z",
-    "createdAt": "2026-08-19T05:43:53.319Z",
-    "updatedAt": "2026-08-19T05:43:53.319Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816776",
-      "eventStartTime": "2026-08-19T01:30:00+00:00",
-      "retrievedAt": "2026-08-19T05:43:53.319Z",
-      "feedId": "beisebol",
-      "league": "LMB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4f85204bc171",
-    "slug": "rojer-j-j-winegar-t-vence-alex-hernandez-rodrigo-pacheco-mendez-por-2-a-0-em-cancu-4f8520",
-    "sportId": "tenis",
-    "title": "Rojer J-J./Winegar T. vence Alex Hernandez / Rodrigo Pacheco Mendez por 2 a 0 em Cancun",
-    "summary": "Rojer J-J./Winegar T. superou Alex Hernandez / Rodrigo Pacheco Mendez por 2 a 0 em Cancun.",
-    "content": "Rojer J-J./Winegar T. superou Alex Hernandez / Rodrigo Pacheco Mendez por 2 a 0 em Cancun., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cancun"
-    ],
-    "seoTitle": "Rojer J-J./Winegar T. vence Alex Hernandez / Rodrigo Pacheco Mendez",
-    "seoDescription": "Rojer J-J./Winegar T. superou Alex Hernandez / Rodrigo Pacheco Mendez por 2 a 0 em Cancun.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T05:43:53.316Z",
-    "createdAt": "2026-08-19T05:43:53.316Z",
-    "updatedAt": "2026-08-19T05:43:53.316Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4817024",
-      "eventStartTime": "2026-08-19T04:24:12+00:00",
-      "retrievedAt": "2026-08-19T05:43:53.316Z",
-      "feedId": "tenis",
-      "league": "Cancun"
     },
     "articleFormat": "result-brief"
   }
