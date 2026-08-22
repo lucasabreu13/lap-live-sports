@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-ed4f902d8b56",
+    "slug": "mees-rottgering-vence-hunter-heck-por-2-a-0-em-winston-salem-ed4f90",
+    "sportId": "tenis",
+    "title": "Mees Rottgering vence Hunter Heck por 2 a 0 em Winston Salem",
+    "summary": "Mees Rottgering superou Hunter Heck por 2 a 0 em Winston Salem.",
+    "content": "Mees Rottgering superou Hunter Heck por 2 a 0 em Winston Salem., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "winston-salem"
+    ],
+    "seoTitle": "Mees Rottgering vence Hunter Heck por 2 a 0 em Winston Salem",
+    "seoDescription": "Mees Rottgering superou Hunter Heck por 2 a 0 em Winston Salem.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T18:21:30.411Z",
+    "createdAt": "2026-08-22T18:21:30.411Z",
+    "updatedAt": "2026-08-22T18:21:30.411Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4821347",
+      "eventStartTime": "2026-08-22T17:12:02+00:00",
+      "retrievedAt": "2026-08-22T18:21:30.411Z",
+      "feedId": "tenis",
+      "league": "Winston Salem"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-0eb819212bba",
+    "slug": "montenegro-vence-slovenia-por-85-a-78-em-international-friendlies-0eb819",
+    "sportId": "basquete",
+    "title": "Montenegro vence Slovenia por 85 a 78 em International Friendlies",
+    "summary": "Montenegro superou Slovenia por 85 a 78 em International Friendlies.",
+    "content": "Montenegro superou Slovenia por 85 a 78 em International Friendlies., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendlies"
+    ],
+    "seoTitle": "Montenegro vence Slovenia por 85 a 78 em International Friendlies",
+    "seoDescription": "Montenegro superou Slovenia por 85 a 78 em International Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T18:21:30.406Z",
+    "createdAt": "2026-08-22T18:21:30.406Z",
+    "updatedAt": "2026-08-22T18:21:30.406Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820945",
+      "eventStartTime": "2026-08-22T16:00:00+00:00",
+      "retrievedAt": "2026-08-22T18:21:30.406Z",
+      "feedId": "basquete",
+      "league": "International Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-51f94bc3da5b",
+    "slug": "nk-celje-e-nk-radomlje-ficam-no-0-a-0-pela-prvaliga-51f94b",
+    "sportId": "futebol",
+    "title": "NK Celje e NK Radomlje ficam no 0 a 0 pela PrvaLiga",
+    "summary": "NK Celje e NK Radomlje empataram por 0 a 0 pela PrvaLiga.",
+    "content": "NK Celje e NK Radomlje empataram por 0 a 0 pela PrvaLiga, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "prvaliga"
+    ],
+    "seoTitle": "NK Celje e NK Radomlje ficam no 0 a 0 pela PrvaLiga",
+    "seoDescription": "NK Celje e NK Radomlje empataram por 0 a 0 pela PrvaLiga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T18:21:30.396Z",
+    "createdAt": "2026-08-22T18:21:30.396Z",
+    "updatedAt": "2026-08-22T18:21:30.396Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4742832",
+      "eventStartTime": "2026-08-22T18:15:00+00:00",
+      "retrievedAt": "2026-08-22T18:21:30.396Z",
+      "feedId": "futebol",
+      "league": "PrvaLiga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-c327297c65f1",
     "slug": "quinn-vandecasteele-vence-li-tu-por-2-a-0-em-winston-salem-c32729",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-19T23:19:42.558Z",
       "feedId": "futebol",
       "league": "Gaucho A2"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-bf5caf78fa13",
-    "slug": "falck-r-suarez-b-vence-ficovich-j-p-huertas-del-pino-cordova-a-por-2-a-1-em-kingst-bf5caf",
-    "sportId": "tenis",
-    "title": "Falck R./Suarez B. vence Ficovich J P./Huertas Del Pino Cordova A. por 2 a 1 em Kingston",
-    "summary": "Falck R./Suarez B. superou Ficovich J P./Huertas Del Pino Cordova A. por 2 a 1 em Kingston.",
-    "content": "Falck R./Suarez B. superou Ficovich J P./Huertas Del Pino Cordova A. por 2 a 1 em Kingston., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Falck R./Suarez B. vence Ficovich J P./Huertas Del Pino Cordova A. por",
-    "seoDescription": "Falck R./Suarez B. superou Ficovich J P./Huertas Del Pino Cordova A. por 2 a 1 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T22:58:23.214Z",
-    "createdAt": "2026-08-19T22:58:23.214Z",
-    "updatedAt": "2026-08-19T22:58:23.214Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4819259",
-      "eventStartTime": "2026-08-19T21:20:41+00:00",
-      "retrievedAt": "2026-08-19T22:58:23.214Z",
-      "feedId": "tenis",
-      "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d073ac13b117",
-    "slug": "ge-bage-e-guarani-va-ficam-no-0-a-0-pelo-gaucho-a2-d073ac",
-    "sportId": "futebol",
-    "title": "GE Bagé e Guarani-VA ficam no 0 a 0 pelo Gaucho A2",
-    "summary": "GE Bagé e Guarani-VA empataram por 0 a 0 pelo Gaucho A2.",
-    "content": "GE Bagé e Guarani-VA empataram por 0 a 0 pelo Gaucho A2, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "gaucho-a2"
-    ],
-    "seoTitle": "GE Bagé e Guarani-VA ficam no 0 a 0 pelo Gaucho A2",
-    "seoDescription": "GE Bagé e Guarani-VA empataram por 0 a 0 pelo Gaucho A2.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T22:58:23.185Z",
-    "createdAt": "2026-08-19T22:58:23.185Z",
-    "updatedAt": "2026-08-19T22:58:23.185Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4777046",
-      "eventStartTime": "2026-08-19T22:00:00+00:00",
-      "retrievedAt": "2026-08-19T22:58:23.185Z",
-      "feedId": "futebol",
-      "league": "Gaucho A2"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9ee3c16ef7f6",
-    "slug": "bianchi-j-j-pearson-k-e-bax-f-mayot-h-empatam-por-0-a-0-em-kingston-9ee3c1",
-    "sportId": "tenis",
-    "title": "Bianchi J J./Pearson K. e Bax F./Mayot H. empatam por 0 a 0 em Kingston",
-    "summary": "Bianchi J J./Pearson K. e Bax F./Mayot H. terminaram empatados por 0 a 0 em Kingston.",
-    "content": "Bianchi J J./Pearson K. e Bax F./Mayot H. terminaram empatados por 0 a 0 em Kingston., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Bianchi J J./Pearson K. e Bax F./Mayot H. empatam por 0 a 0 em",
-    "seoDescription": "Bianchi J J./Pearson K. e Bax F./Mayot H. terminaram empatados por 0 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T22:40:34.608Z",
-    "createdAt": "2026-08-19T22:40:34.608Z",
-    "updatedAt": "2026-08-19T22:40:34.608Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816548",
-      "eventStartTime": "2026-08-19T22:40:00+00:00",
-      "retrievedAt": "2026-08-19T22:40:34.608Z",
-      "feedId": "tenis",
-      "league": "Kingston"
     },
     "articleFormat": "result-brief"
   }
