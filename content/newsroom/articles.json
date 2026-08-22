@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-377bb2380d44",
+    "slug": "st-johnstone-e-celtic-ficam-no-0-a-0-pelo-premiership-377bb2",
+    "sportId": "futebol",
+    "title": "St. Johnstone e Celtic ficam no 0 a 0 pelo Premiership",
+    "summary": "St. Johnstone e Celtic empataram por 0 a 0 pelo Premiership.",
+    "content": "St. Johnstone e Celtic empataram por 0 a 0 pelo Premiership, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "premiership"
+    ],
+    "seoTitle": "St. Johnstone e Celtic ficam no 0 a 0 pelo Premiership",
+    "seoDescription": "St. Johnstone e Celtic empataram por 0 a 0 pelo Premiership.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T14:16:17.084Z",
+    "createdAt": "2026-08-22T14:16:17.084Z",
+    "updatedAt": "2026-08-22T14:16:17.084Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4741674",
+      "eventStartTime": "2026-08-22T14:00:00+00:00",
+      "retrievedAt": "2026-08-22T14:16:17.084Z",
+      "feedId": "futebol",
+      "league": "Premiership"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-f6725a85731a",
     "slug": "bulgaria-vence-slovakia-por-81-a-79-em-international-friendlies-f6725a",
     "sportId": "basquete",
@@ -12554,48 +12596,6 @@
       "retrievedAt": "2026-08-19T19:26:04.104Z",
       "feedId": "futebol",
       "league": "Premier League"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4e0b4eafad94",
-    "slug": "soon-woo-kwon-e-shintaro-mochizuki-empatam-por-0-a-0-em-quebec-city-4e0b4e",
-    "sportId": "tenis",
-    "title": "Soon-Woo Kwon e Shintaro Mochizuki empatam por 0 a 0 em Quebec City",
-    "summary": "Soon-Woo Kwon e Shintaro Mochizuki terminaram empatados por 0 a 0 em Quebec City.",
-    "content": "Soon-Woo Kwon e Shintaro Mochizuki terminaram empatados por 0 a 0 em Quebec City., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "quebec-city"
-    ],
-    "seoTitle": "Soon-Woo Kwon e Shintaro Mochizuki empatam por 0 a 0 em Quebec City",
-    "seoDescription": "Soon-Woo Kwon e Shintaro Mochizuki terminaram empatados por 0 a 0 em Quebec City.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T18:59:52.029Z",
-    "createdAt": "2026-08-19T18:59:52.029Z",
-    "updatedAt": "2026-08-19T18:59:52.029Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4818431",
-      "eventStartTime": "2026-08-19T18:49:21+00:00",
-      "retrievedAt": "2026-08-19T18:59:52.029Z",
-      "feedId": "tenis",
-      "league": " Quebec City"
     },
     "articleFormat": "result-brief"
   }
