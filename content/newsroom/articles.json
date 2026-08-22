@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-3032af1e4dfa",
+    "slug": "dellien-m-mena-f-vence-nesterov-p-ovcharenko-o-por-2-a-0-em-sion-3032af",
+    "sportId": "tenis",
+    "title": "Dellien M./Mena F. vence Nesterov P./Ovcharenko O. por 2 a 0 em Sion",
+    "summary": "Dellien M./Mena F. superou Nesterov P./Ovcharenko O. por 2 a 0 em Sion.",
+    "content": "Dellien M./Mena F. superou Nesterov P./Ovcharenko O. por 2 a 0 em Sion., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "sion"
+    ],
+    "seoTitle": "Dellien M./Mena F. vence Nesterov P./Ovcharenko O. por 2 a 0 em Sion",
+    "seoDescription": "Dellien M./Mena F. superou Nesterov P./Ovcharenko O. por 2 a 0 em Sion.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T10:57:18.678Z",
+    "createdAt": "2026-08-22T10:57:18.678Z",
+    "updatedAt": "2026-08-22T10:57:18.678Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820279",
+      "eventStartTime": "2026-08-21T13:36:46+00:00",
+      "retrievedAt": "2026-08-22T10:57:18.678Z",
+      "feedId": "tenis",
+      "league": "Sion"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-54a83f8a2e32",
+    "slug": "south-east-melbourne-vence-melbourne-united-por-91-a-89-em-nbl-54a83f",
+    "sportId": "basquete",
+    "title": "South East Melbourne vence Melbourne United por 91 a 89 em NBL",
+    "summary": "South East Melbourne superou Melbourne United por 91 a 89 em NBL.",
+    "content": "South East Melbourne superou Melbourne United por 91 a 89 em NBL., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "nbl"
+    ],
+    "seoTitle": "South East Melbourne vence Melbourne United por 91 a 89 em NBL",
+    "seoDescription": "South East Melbourne superou Melbourne United por 91 a 89 em NBL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T10:57:18.640Z",
+    "createdAt": "2026-08-22T10:57:18.640Z",
+    "updatedAt": "2026-08-22T10:57:18.640Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4821406",
+      "eventStartTime": "2026-08-22T09:00:00+00:00",
+      "retrievedAt": "2026-08-22T10:57:18.640Z",
+      "feedId": "basquete",
+      "league": "NBL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-d7de54f8faaf",
+    "slug": "skala-1911-e-zorya-luhansk-ficam-no-0-a-0-pelo-ukrainian-cup-d7de54",
+    "sportId": "futebol",
+    "title": "Skala 1911 e Zorya Luhansk ficam no 0 a 0 pelo Ukrainian Cup",
+    "summary": "Skala 1911 e Zorya Luhansk empataram por 0 a 0 pelo Ukrainian Cup.",
+    "content": "Skala 1911 e Zorya Luhansk empataram por 0 a 0 pelo Ukrainian Cup, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ukrainian-cup"
+    ],
+    "seoTitle": "Skala 1911 e Zorya Luhansk ficam no 0 a 0 pelo Ukrainian Cup",
+    "seoDescription": "Skala 1911 e Zorya Luhansk empataram por 0 a 0 pelo Ukrainian Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T10:57:18.631Z",
+    "createdAt": "2026-08-22T10:57:18.631Z",
+    "updatedAt": "2026-08-22T10:57:18.631Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4802671",
+      "eventStartTime": "2026-08-22T10:00:00+00:00",
+      "retrievedAt": "2026-08-22T10:57:18.631Z",
+      "feedId": "futebol",
+      "league": "Ukrainian Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-336d6ad765a0",
     "slug": "to4ka-odessa-e-epicentr-ficam-no-0-a-0-pelo-ukrainian-cup-336d6a",
     "sportId": "futebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-19T16:54:08.771Z",
       "feedId": "tenis",
       "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7e79f7e20bc6",
-    "slug": "olympic-e-saku-sporting-ficam-no-0-a-0-pelo-estonian-cup-7e79f7",
-    "sportId": "futebol",
-    "title": "Olympic e Saku Sporting ficam no 0 a 0 pelo Estonian Cup",
-    "summary": "Olympic e Saku Sporting empataram por 0 a 0 pelo Estonian Cup.",
-    "content": "Olympic e Saku Sporting empataram por 0 a 0 pelo Estonian Cup, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "estonian-cup"
-    ],
-    "seoTitle": "Olympic e Saku Sporting ficam no 0 a 0 pelo Estonian Cup",
-    "seoDescription": "Olympic e Saku Sporting empataram por 0 a 0 pelo Estonian Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T16:54:08.750Z",
-    "createdAt": "2026-08-19T16:54:08.750Z",
-    "updatedAt": "2026-08-19T16:54:08.750Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4800515",
-      "eventStartTime": "2026-08-19T16:00:00+00:00",
-      "retrievedAt": "2026-08-19T16:54:08.750Z",
-      "feedId": "futebol",
-      "league": "Estonian Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-fd5be427dbf6",
-    "slug": "escobar-g-kaliyanda-poonacha-n-vence-kittay-b-stalder-r-por-2-a-0-em-quebec-city-fd5be4",
-    "sportId": "tenis",
-    "title": "Escobar G./Kaliyanda Poonacha N. vence Kittay B./Stalder R. por 2 a 0 em Quebec City",
-    "summary": "Escobar G./Kaliyanda Poonacha N. superou Kittay B./Stalder R. por 2 a 0 em Quebec City.",
-    "content": "Escobar G./Kaliyanda Poonacha N. superou Kittay B./Stalder R. por 2 a 0 em Quebec City., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "quebec-city"
-    ],
-    "seoTitle": "Escobar G./Kaliyanda Poonacha N. vence Kittay B./Stalder R. por 2 a 0",
-    "seoDescription": "Escobar G./Kaliyanda Poonacha N. superou Kittay B./Stalder R. por 2 a 0 em Quebec City.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T16:26:25.122Z",
-    "createdAt": "2026-08-19T16:26:25.122Z",
-    "updatedAt": "2026-08-19T16:26:25.122Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4817256",
-      "eventStartTime": "2026-08-19T15:12:45+00:00",
-      "retrievedAt": "2026-08-19T16:26:25.122Z",
-      "feedId": "tenis",
-      "league": "Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a927b72f3971",
-    "slug": "lovca-e-dukla-b-bystrica-ficam-no-0-a-0-pelo-slovakia-cup-a927b7",
-    "sportId": "futebol",
-    "title": "Lovča e Dukla B. Bystrica ficam no 0 a 0 pelo Slovakia Cup",
-    "summary": "Lovča e Dukla B. Bystrica empataram por 0 a 0 pelo Slovakia Cup.",
-    "content": "Lovča e Dukla B. Bystrica empataram por 0 a 0 pelo Slovakia Cup, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "slovakia-cup"
-    ],
-    "seoTitle": "Lovča e Dukla B. Bystrica ficam no 0 a 0 pelo Slovakia Cup",
-    "seoDescription": "Lovča e Dukla B. Bystrica empataram por 0 a 0 pelo Slovakia Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T16:26:25.101Z",
-    "createdAt": "2026-08-19T16:26:25.101Z",
-    "updatedAt": "2026-08-19T16:26:25.101Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4794732",
-      "eventStartTime": "2026-08-19T15:00:00+00:00",
-      "retrievedAt": "2026-08-19T16:26:25.101Z",
-      "feedId": "futebol",
-      "league": "Slovakia Cup"
     },
     "articleFormat": "result-brief"
   }
