@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-35916a48c8b5",
+    "slug": "fc-thun-e-servette-fc-ficam-no-0-a-0-pelo-super-league-35916a",
+    "sportId": "futebol",
+    "title": "FC Thun e Servette FC ficam no 0 a 0 pelo Super League",
+    "summary": "FC Thun e Servette FC empataram por 0 a 0 pelo Super League.",
+    "content": "FC Thun e Servette FC empataram por 0 a 0 pelo Super League, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "super-league"
+    ],
+    "seoTitle": "FC Thun e Servette FC ficam no 0 a 0 pelo Super League",
+    "seoDescription": "FC Thun e Servette FC empataram por 0 a 0 pelo Super League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T14:44:13.137Z",
+    "createdAt": "2026-08-22T14:44:13.137Z",
+    "updatedAt": "2026-08-22T14:44:13.137Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4751631",
+      "eventStartTime": "2026-08-22T14:30:00+00:00",
+      "retrievedAt": "2026-08-22T14:44:13.137Z",
+      "feedId": "futebol",
+      "league": "Super League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-377bb2380d44",
     "slug": "st-johnstone-e-celtic-ficam-no-0-a-0-pelo-premiership-377bb2",
     "sportId": "futebol",
@@ -12554,48 +12596,6 @@
       "retrievedAt": "2026-08-19T19:26:04.107Z",
       "feedId": "basquete",
       "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-242735ff8a8d",
-    "slug": "mamelodi-sundowns-supera-marumo-gallants-por-2-a-0-pela-premier-league-242735",
-    "sportId": "futebol",
-    "title": "Mamelodi Sundowns supera Marumo Gallants por 2 a 0 pela Premier League",
-    "summary": "Mamelodi Sundowns venceu Marumo Gallants por 2 a 0 pela Premier League.",
-    "content": "Mamelodi Sundowns venceu Marumo Gallants por 2 a 0 pela Premier League, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "premier-league"
-    ],
-    "seoTitle": "Mamelodi Sundowns supera Marumo Gallants por 2 a 0 pela Premier League",
-    "seoDescription": "Mamelodi Sundowns venceu Marumo Gallants por 2 a 0 pela Premier League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T19:26:04.104Z",
-    "createdAt": "2026-08-19T19:26:04.104Z",
-    "updatedAt": "2026-08-19T19:26:04.104Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4795068",
-      "eventStartTime": "2026-08-19T17:30:00+00:00",
-      "retrievedAt": "2026-08-19T19:26:04.104Z",
-      "feedId": "futebol",
-      "league": "Premier League"
     },
     "articleFormat": "result-brief"
   }
