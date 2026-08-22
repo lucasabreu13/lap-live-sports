@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-d014a6ffd749",
+    "slug": "matiguas-e-organica-masachapa-ficam-no-0-a-0-pela-liga-de-ascenso-d014a6",
+    "sportId": "futebol",
+    "title": "Matiguás e Orgánica Masachapa ficam no 0 a 0 pela Liga de Ascenso",
+    "summary": "Matiguás e Orgánica Masachapa empataram por 0 a 0 pela Liga de Ascenso.",
+    "content": "Matiguás e Orgánica Masachapa empataram por 0 a 0 pela Liga de Ascenso, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Matiguás e Orgánica Masachapa ficam no 0 a 0 pela Liga de Ascenso",
+    "seoDescription": "Matiguás e Orgánica Masachapa empataram por 0 a 0 pela Liga de Ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T21:16:10.967Z",
+    "createdAt": "2026-08-22T21:16:10.967Z",
+    "updatedAt": "2026-08-22T21:16:10.967Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820207",
+      "eventStartTime": "2026-08-22T21:00:00+00:00",
+      "retrievedAt": "2026-08-22T21:16:10.967Z",
+      "feedId": "futebol",
+      "league": "Liga de Ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5b0e328e024f",
     "slug": "abdullah-shelbayh-vence-ryan-seggerman-por-2-a-1-em-winston-salem-5b0e32",
     "sportId": "tenis",
@@ -12554,48 +12596,6 @@
       "retrievedAt": "2026-08-20T03:56:41.303Z",
       "feedId": "futebol",
       "league": "Primera Division"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-88572b2535d2",
-    "slug": "lorenzo-musetti-vence-jaime-faria-por-2-a-0-em-cincinnati-88572b",
-    "sportId": "tenis",
-    "title": "Lorenzo Musetti vence Jaime Faria por 2 a 0 em Cincinnati",
-    "summary": "Lorenzo Musetti superou Jaime Faria por 2 a 0 em Cincinnati.",
-    "content": "Lorenzo Musetti superou Jaime Faria por 2 a 0 em Cincinnati., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Lorenzo Musetti vence Jaime Faria por 2 a 0 em Cincinnati",
-    "seoDescription": "Lorenzo Musetti superou Jaime Faria por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-20T03:10:49.593Z",
-    "createdAt": "2026-08-20T03:10:49.593Z",
-    "updatedAt": "2026-08-20T03:10:49.593Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4818553",
-      "eventStartTime": "2026-08-20T01:20:23+00:00",
-      "retrievedAt": "2026-08-20T03:10:49.593Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
