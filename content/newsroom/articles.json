@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-60e11714d32b",
+    "slug": "new-york-yankees-vence-baltimore-orioles-por-6-a-1-na-mlb-60e117",
+    "sportId": "beisebol",
+    "title": "New York Yankees vence Baltimore Orioles por 6 a 1 na MLB",
+    "summary": "New York Yankees derrotou Baltimore Orioles por 6 a 1 na MLB.",
+    "content": "New York Yankees derrotou Baltimore Orioles por 6 a 1 na MLB, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "New York Yankees vence Baltimore Orioles por 6 a 1 na MLB",
+    "seoDescription": "New York Yankees derrotou Baltimore Orioles por 6 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T07:59:53.239Z",
+    "createdAt": "2026-08-22T07:59:53.239Z",
+    "updatedAt": "2026-08-22T07:59:53.239Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614635",
+      "eventStartTime": "2026-08-20T22:35:00+00:00",
+      "retrievedAt": "2026-08-22T07:59:53.239Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b6e354fc0e08",
+    "slug": "rb-omiya-ardija-supera-consadole-sapporo-por-4-a-1-pelo-j2-league-b6e354",
+    "sportId": "futebol",
+    "title": "RB Omiya Ardija supera Consadole Sapporo por 4 a 1 pelo J2 League",
+    "summary": "RB Omiya Ardija venceu Consadole Sapporo por 4 a 1 pelo J2 League.",
+    "content": "RB Omiya Ardija venceu Consadole Sapporo por 4 a 1 pelo J2 League, em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "j2-league"
+    ],
+    "seoTitle": "RB Omiya Ardija supera Consadole Sapporo por 4 a 1 pelo J2 League",
+    "seoDescription": "RB Omiya Ardija venceu Consadole Sapporo por 4 a 1 pelo J2 League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T07:59:53.098Z",
+    "createdAt": "2026-08-22T07:59:53.098Z",
+    "updatedAt": "2026-08-22T07:59:53.098Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4740157",
+      "eventStartTime": "2026-08-22T06:00:00+00:00",
+      "retrievedAt": "2026-08-22T07:59:53.098Z",
+      "feedId": "futebol",
+      "league": "J2 League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3225fb191084",
     "slug": "philadelphia-phillies-vence-st-louis-cardinals-por-7-a-6-na-mlb-3225fb",
     "sportId": "beisebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T14:59:07.392Z",
       "feedId": "futebol",
       "league": "Greece Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-73d3ea9811bc",
-    "slug": "max-hans-rehberg-vence-kimmer-coppejans-por-2-a-0-em-prague-73d3ea",
-    "sportId": "tenis",
-    "title": "Max Hans Rehberg vence Kimmer Coppejans por 2 a 0 em Prague",
-    "summary": "Max Hans Rehberg superou Kimmer Coppejans por 2 a 0 em Prague.",
-    "content": "Max Hans Rehberg superou Kimmer Coppejans por 2 a 0 em Prague., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Max Hans Rehberg vence Kimmer Coppejans por 2 a 0 em Prague",
-    "seoDescription": "Max Hans Rehberg superou Kimmer Coppejans por 2 a 0 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T14:16:11.602Z",
-    "createdAt": "2026-08-19T14:16:11.602Z",
-    "updatedAt": "2026-08-19T14:16:11.602Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4817091",
-      "eventStartTime": "2026-08-19T12:32:38+00:00",
-      "retrievedAt": "2026-08-19T14:16:11.602Z",
-      "feedId": "tenis",
-      "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-7491bac71e45",
-    "slug": "shanghai-port-e-dalian-yingbo-ficam-no-1-a-1-pelo-super-league-7491ba",
-    "sportId": "futebol",
-    "title": "Shanghai Port e Dalian Yingbo ficam no 1 a 1 pelo Super League",
-    "summary": "Shanghai Port e Dalian Yingbo empataram por 1 a 1 pelo Super League.",
-    "content": "Shanghai Port e Dalian Yingbo empataram por 1 a 1 pelo Super League, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "super-league"
-    ],
-    "seoTitle": "Shanghai Port e Dalian Yingbo ficam no 1 a 1 pelo Super League",
-    "seoDescription": "Shanghai Port e Dalian Yingbo empataram por 1 a 1 pelo Super League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T14:16:11.582Z",
-    "createdAt": "2026-08-19T14:16:11.582Z",
-    "updatedAt": "2026-08-19T14:16:11.582Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4673346",
-      "eventStartTime": "2026-08-19T11:35:00+00:00",
-      "retrievedAt": "2026-08-19T14:16:11.582Z",
-      "feedId": "futebol",
-      "league": "Super League"
     },
     "articleFormat": "result-brief"
   }
