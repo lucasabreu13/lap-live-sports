@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-6b8eb17b6e23",
+    "slug": "levanga-hokkaido-vence-shimane-susanoo-magic-por-74-a-73-em-club-friendlies-6b8eb1",
+    "sportId": "basquete",
+    "title": "Levanga Hokkaido vence Shimane Susanoo Magic por 74 a 73 em Club Friendlies",
+    "summary": "Levanga Hokkaido superou Shimane Susanoo Magic por 74 a 73 em Club Friendlies.",
+    "content": "Levanga Hokkaido superou Shimane Susanoo Magic por 74 a 73 em Club Friendlies., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "club-friendlies"
+    ],
+    "seoTitle": "Levanga Hokkaido vence Shimane Susanoo Magic por 74 a 73 em Club",
+    "seoDescription": "Levanga Hokkaido superou Shimane Susanoo Magic por 74 a 73 em Club Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T11:15:55.428Z",
+    "createdAt": "2026-08-22T11:15:55.428Z",
+    "updatedAt": "2026-08-22T11:15:55.428Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820594",
+      "eventStartTime": "2026-08-22T09:00:00+00:00",
+      "retrievedAt": "2026-08-22T11:15:55.428Z",
+      "feedId": "basquete",
+      "league": "Club Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8130bb4b08b6",
+    "slug": "yangpyeong-e-gyeongju-h-n-ficam-no-3-a-3-pelo-k-league-3-8130bb",
+    "sportId": "futebol",
+    "title": "Yangpyeong e Gyeongju H&N ficam no 3 a 3 pelo K League 3",
+    "summary": "Yangpyeong e Gyeongju H&N empataram por 3 a 3 pelo K League 3.",
+    "content": "Yangpyeong e Gyeongju H&N empataram por 3 a 3 pelo K League 3, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "k-league-3"
+    ],
+    "seoTitle": "Yangpyeong e Gyeongju H&N ficam no 3 a 3 pelo K League 3",
+    "seoDescription": "Yangpyeong e Gyeongju H&N empataram por 3 a 3 pelo K League 3.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T11:15:55.419Z",
+    "createdAt": "2026-08-22T11:15:55.419Z",
+    "updatedAt": "2026-08-22T11:15:55.419Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4667022",
+      "eventStartTime": "2026-08-22T09:00:00+00:00",
+      "retrievedAt": "2026-08-22T11:15:55.419Z",
+      "feedId": "futebol",
+      "league": "K League 3"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-3032af1e4dfa",
     "slug": "dellien-m-mena-f-vence-nesterov-p-ovcharenko-o-por-2-a-0-em-sion-3032af",
     "sportId": "tenis",
@@ -12510,90 +12594,6 @@
       "eventId": "365-4816542",
       "eventStartTime": "2026-08-19T15:47:26+00:00",
       "retrievedAt": "2026-08-19T17:17:16.181Z",
-      "feedId": "tenis",
-      "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-97f7ece934dc",
-    "slug": "deportivo-quiche-e-deportivo-gomerano-ficam-no-0-a-0-pelo-primera-division-97f7ec",
-    "sportId": "futebol",
-    "title": "Deportivo Quiché e Deportivo Gomerano ficam no 0 a 0 pelo Primera Division",
-    "summary": "Deportivo Quiché e Deportivo Gomerano empataram por 0 a 0 pelo Primera Division.",
-    "content": "Deportivo Quiché e Deportivo Gomerano empataram por 0 a 0 pelo Primera Division, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-division"
-    ],
-    "seoTitle": "Deportivo Quiché e Deportivo Gomerano ficam no 0 a 0 pelo Primera",
-    "seoDescription": "Deportivo Quiché e Deportivo Gomerano empataram por 0 a 0 pelo Primera Division.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T17:17:16.158Z",
-    "createdAt": "2026-08-19T17:17:16.158Z",
-    "updatedAt": "2026-08-19T17:17:16.158Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4777098",
-      "eventStartTime": "2026-08-19T17:00:00+00:00",
-      "retrievedAt": "2026-08-19T17:17:16.158Z",
-      "feedId": "futebol",
-      "league": "Primera Division"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-285cbdc4f781",
-    "slug": "basel-v-ribero-f-e-chepelev-a-kuzmanov-d-empatam-por-0-a-0-em-sion-285cbd",
-    "sportId": "tenis",
-    "title": "Basel V./Ribero F. e Chepelev A./Kuzmanov D. empatam por 0 a 0 em Sion",
-    "summary": "Basel V./Ribero F. e Chepelev A./Kuzmanov D. terminaram empatados por 0 a 0 em Sion.",
-    "content": "Basel V./Ribero F. e Chepelev A./Kuzmanov D. terminaram empatados por 0 a 0 em Sion., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Basel V./Ribero F. e Chepelev A./Kuzmanov D. empatam por 0 a 0 em Sion",
-    "seoDescription": "Basel V./Ribero F. e Chepelev A./Kuzmanov D. terminaram empatados por 0 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T16:54:08.771Z",
-    "createdAt": "2026-08-19T16:54:08.771Z",
-    "updatedAt": "2026-08-19T16:54:08.771Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816532",
-      "eventStartTime": "2026-08-19T16:50:00+00:00",
-      "retrievedAt": "2026-08-19T16:54:08.771Z",
       "feedId": "tenis",
       "league": "Sion"
     },
