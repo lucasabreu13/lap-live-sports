@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-d41e6171f52d",
+    "slug": "pierre-hugues-herbert-vence-kenta-miyoshi-por-2-a-1-em-winston-salem-d41e61",
+    "sportId": "tenis",
+    "title": "Pierre-Hugues Herbert vence Kenta Miyoshi por 2 a 1 em Winston Salem",
+    "summary": "Pierre-Hugues Herbert superou Kenta Miyoshi por 2 a 1 em Winston Salem.",
+    "content": "Pierre-Hugues Herbert superou Kenta Miyoshi por 2 a 1 em Winston Salem., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "winston-salem"
+    ],
+    "seoTitle": "Pierre-Hugues Herbert vence Kenta Miyoshi por 2 a 1 em Winston Salem",
+    "seoDescription": "Pierre-Hugues Herbert superou Kenta Miyoshi por 2 a 1 em Winston Salem.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T17:42:21.932Z",
+    "createdAt": "2026-08-22T17:42:21.932Z",
+    "updatedAt": "2026-08-22T17:42:21.932Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4821349",
+      "eventStartTime": "2026-08-22T15:08:47+00:00",
+      "retrievedAt": "2026-08-22T17:42:21.932Z",
+      "feedId": "tenis",
+      "league": "Winston Salem"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-1a36ca499a58",
+    "slug": "cleveland-browns-e-buffalo-bills-empatam-por-0-a-0-em-nfl-1a36ca",
+    "sportId": "futebol-americano",
+    "title": "Cleveland Browns e Buffalo Bills empatam por 0 a 0 em NFL",
+    "summary": "Cleveland Browns e Buffalo Bills terminaram empatados por 0 a 0 em NFL.",
+    "content": "Cleveland Browns e Buffalo Bills terminaram empatados por 0 a 0 em NFL., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": "/images/sports/futebol-americano.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Cleveland Browns e Buffalo Bills empatam por 0 a 0 em NFL",
+    "seoDescription": "Cleveland Browns e Buffalo Bills terminaram empatados por 0 a 0 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T17:42:21.908Z",
+    "createdAt": "2026-08-22T17:42:21.908Z",
+    "updatedAt": "2026-08-22T17:42:21.908Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714925",
+      "eventStartTime": "2026-08-22T17:00:00+00:00",
+      "retrievedAt": "2026-08-22T17:42:21.908Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-9ebf9227b6ca",
+    "slug": "veszprem-fc-e-szombathelyi-haladas-ficam-no-0-a-0-pelo-hungarian-cup-9ebf92",
+    "sportId": "futebol",
+    "title": "Veszprem FC e Szombathelyi Haladas ficam no 0 a 0 pelo Hungarian Cup",
+    "summary": "Veszprem FC e Szombathelyi Haladas empataram por 0 a 0 pelo Hungarian Cup.",
+    "content": "Veszprem FC e Szombathelyi Haladas empataram por 0 a 0 pelo Hungarian Cup, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "hungarian-cup"
+    ],
+    "seoTitle": "Veszprem FC e Szombathelyi Haladas ficam no 0 a 0 pelo Hungarian Cup",
+    "seoDescription": "Veszprem FC e Szombathelyi Haladas empataram por 0 a 0 pelo Hungarian Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T17:42:21.903Z",
+    "createdAt": "2026-08-22T17:42:21.903Z",
+    "updatedAt": "2026-08-22T17:42:21.903Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4803903",
+      "eventStartTime": "2026-08-22T17:00:00+00:00",
+      "retrievedAt": "2026-08-22T17:42:21.903Z",
+      "feedId": "futebol",
+      "league": "Hungarian Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-16cccf38ceca",
     "slug": "felix-balshaw-vence-luca-pow-por-2-a-0-em-winston-salem-16cccf",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-19T22:13:31.503Z",
       "feedId": "futebol",
       "league": "Copa Venezuela"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-45112257f4ed",
-    "slug": "clement-chidekh-vence-kenta-miyoshi-por-2-a-0-em-kingston-451122",
-    "sportId": "tenis",
-    "title": "Clement Chidekh vence Kenta Miyoshi por 2 a 0 em Kingston",
-    "summary": "Clement Chidekh superou Kenta Miyoshi por 2 a 0 em Kingston.",
-    "content": "Clement Chidekh superou Kenta Miyoshi por 2 a 0 em Kingston., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Clement Chidekh vence Kenta Miyoshi por 2 a 0 em Kingston",
-    "seoDescription": "Clement Chidekh superou Kenta Miyoshi por 2 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T21:47:10.726Z",
-    "createdAt": "2026-08-19T21:47:10.726Z",
-    "updatedAt": "2026-08-19T21:47:10.726Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4818717",
-      "eventStartTime": "2026-08-19T20:03:04+00:00",
-      "retrievedAt": "2026-08-19T21:47:10.726Z",
-      "feedId": "tenis",
-      "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-52bb5efbaf7f",
-    "slug": "juventud-copalera-e-huehuetecos-fc-ficam-no-0-a-0-pelo-primera-division-52bb5e",
-    "sportId": "futebol",
-    "title": "Juventud Copalera e Huehuetecos FC ficam no 0 a 0 pelo Primera Division",
-    "summary": "Juventud Copalera e Huehuetecos FC empataram por 0 a 0 pelo Primera Division.",
-    "content": "Juventud Copalera e Huehuetecos FC empataram por 0 a 0 pelo Primera Division, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "primera-division"
-    ],
-    "seoTitle": "Juventud Copalera e Huehuetecos FC ficam no 0 a 0 pelo Primera",
-    "seoDescription": "Juventud Copalera e Huehuetecos FC empataram por 0 a 0 pelo Primera Division.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T21:47:10.706Z",
-    "createdAt": "2026-08-19T21:47:10.706Z",
-    "updatedAt": "2026-08-19T21:47:10.706Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4777097",
-      "eventStartTime": "2026-08-19T21:23:00+00:00",
-      "retrievedAt": "2026-08-19T21:47:10.706Z",
-      "feedId": "futebol",
-      "league": "Primera Division"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d88e9a95cfa2",
-    "slug": "valentin-royer-vence-tyler-zink-por-2-a-0-em-kingston-d88e9a",
-    "sportId": "tenis",
-    "title": "Valentin Royer vence Tyler Zink por 2 a 0 em Kingston",
-    "summary": "Valentin Royer superou Tyler Zink por 2 a 0 em Kingston.",
-    "content": "Valentin Royer superou Tyler Zink por 2 a 0 em Kingston., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Valentin Royer vence Tyler Zink por 2 a 0 em Kingston",
-    "seoDescription": "Valentin Royer superou Tyler Zink por 2 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T21:15:23.512Z",
-    "createdAt": "2026-08-19T21:15:23.512Z",
-    "updatedAt": "2026-08-19T21:15:23.512Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4818554",
-      "eventStartTime": "2026-08-19T17:54:59+00:00",
-      "retrievedAt": "2026-08-19T21:15:23.512Z",
-      "feedId": "tenis",
-      "league": "Kingston"
     },
     "articleFormat": "result-brief"
   }
