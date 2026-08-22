@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-8bb30a905ab2",
+    "slug": "toronto-blue-jays-vence-tampa-bay-rays-por-5-a-1-na-mlb-8bb30a",
+    "sportId": "beisebol",
+    "title": "Toronto Blue Jays vence Tampa Bay Rays por 5 a 1 na MLB",
+    "summary": "Toronto Blue Jays derrotou Tampa Bay Rays por 5 a 1 na MLB.",
+    "content": "Toronto Blue Jays derrotou Tampa Bay Rays por 5 a 1 na MLB, em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Toronto Blue Jays vence Tampa Bay Rays por 5 a 1 na MLB",
+    "seoDescription": "Toronto Blue Jays derrotou Tampa Bay Rays por 5 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T00:55:53.247Z",
+    "createdAt": "2026-08-22T00:55:53.247Z",
+    "updatedAt": "2026-08-22T00:55:53.247Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614731",
+      "eventStartTime": "2026-08-20T17:10:00+00:00",
+      "retrievedAt": "2026-08-22T00:55:53.247Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-c9cf0b4bf487",
+    "slug": "estudiantes-rio-cuarto-e-san-lorenzo-ficam-no-0-a-0-pela-superliga-c9cf0b",
+    "sportId": "futebol",
+    "title": "Estudiantes Río Cuarto e San Lorenzo ficam no 0 a 0 pela Superliga",
+    "summary": "Estudiantes Río Cuarto e San Lorenzo empataram por 0 a 0 pela Superliga.",
+    "content": "Estudiantes Río Cuarto e San Lorenzo empataram por 0 a 0 pela Superliga, em 21 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "superliga"
+    ],
+    "seoTitle": "Estudiantes Río Cuarto e San Lorenzo ficam no 0 a 0 pela Superliga",
+    "seoDescription": "Estudiantes Río Cuarto e San Lorenzo empataram por 0 a 0 pela Superliga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T00:55:53.104Z",
+    "createdAt": "2026-08-22T00:55:53.104Z",
+    "updatedAt": "2026-08-22T00:55:53.104Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4633360",
+      "eventStartTime": "2026-08-21T23:00:00+00:00",
+      "retrievedAt": "2026-08-22T00:55:53.104Z",
+      "feedId": "futebol",
+      "league": "Superliga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-f1ec92e679d3",
     "slug": "milwaukee-brewers-vence-seattle-mariners-por-7-a-4-na-mlb-f1ec92",
     "sportId": "beisebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T05:43:53.316Z",
       "feedId": "tenis",
       "league": "Cancun"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f2d02a8f4a91",
-    "slug": "connecticut-sun-vence-los-angeles-sparks-por-85-a-77-em-wnba-f2d02a",
-    "sportId": "basquete",
-    "title": "Connecticut Sun vence Los Angeles Sparks por 85 a 77 em WNBA",
-    "summary": "Connecticut Sun superou Los Angeles Sparks por 85 a 77 em WNBA.",
-    "content": "Connecticut Sun superou Los Angeles Sparks por 85 a 77 em WNBA., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "wnba"
-    ],
-    "seoTitle": "Connecticut Sun vence Los Angeles Sparks por 85 a 77 em WNBA",
-    "seoDescription": "Connecticut Sun superou Los Angeles Sparks por 85 a 77 em WNBA.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T05:43:53.312Z",
-    "createdAt": "2026-08-19T05:43:53.312Z",
-    "updatedAt": "2026-08-19T05:43:53.312Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4659887",
-      "eventStartTime": "2026-08-18T23:00:00+00:00",
-      "retrievedAt": "2026-08-19T05:43:53.312Z",
-      "feedId": "basquete",
-      "league": "WNBA"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-cb08e9029253",
-    "slug": "auckland-city-supera-rewa-por-3-a-1-pela-ofc-champions-league-cb08e9",
-    "sportId": "futebol",
-    "title": "Auckland City supera Rewa por 3 a 1 pela OFC Champions League",
-    "summary": "Auckland City venceu Rewa por 3 a 1 pela OFC Champions League.",
-    "content": "Auckland City venceu Rewa por 3 a 1 pela OFC Champions League, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "ofc-champions-league"
-    ],
-    "seoTitle": "Auckland City supera Rewa por 3 a 1 pela OFC Champions League",
-    "seoDescription": "Auckland City venceu Rewa por 3 a 1 pela OFC Champions League.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T05:43:53.298Z",
-    "createdAt": "2026-08-19T05:43:53.298Z",
-    "updatedAt": "2026-08-19T05:43:53.298Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815481",
-      "eventStartTime": "2026-08-19T03:00:00+00:00",
-      "retrievedAt": "2026-08-19T05:43:53.298Z",
-      "feedId": "futebol",
-      "league": "OFC Champions League"
     },
     "articleFormat": "result-brief"
   }
