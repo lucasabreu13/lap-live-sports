@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-fa053f197c8b",
+    "slug": "sultanes-de-monterrey-vence-caliente-de-durango-por-8-a-7-na-lmb-fa053f",
+    "sportId": "beisebol",
+    "title": "Sultanes de Monterrey vence Caliente de Durango por 8 a 7 na LMB",
+    "summary": "Sultanes de Monterrey derrotou Caliente de Durango por 8 a 7 na LMB.",
+    "content": "Sultanes de Monterrey derrotou Caliente de Durango por 8 a 7 na LMB, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "lmb"
+    ],
+    "seoTitle": "Sultanes de Monterrey vence Caliente de Durango por 8 a 7 na LMB",
+    "seoDescription": "Sultanes de Monterrey derrotou Caliente de Durango por 8 a 7 na LMB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T07:06:51.631Z",
+    "createdAt": "2026-08-22T07:06:51.631Z",
+    "updatedAt": "2026-08-22T07:06:51.631Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816793",
+      "eventStartTime": "2026-08-22T01:30:00+00:00",
+      "retrievedAt": "2026-08-22T07:06:51.631Z",
+      "feedId": "beisebol",
+      "league": "LMB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-12ff7f878d22",
+    "slug": "club-america-supera-fc-juarez-por-2-a-1-pela-liga-mx-12ff7f",
+    "sportId": "futebol",
+    "title": "Club América supera FC Juarez por 2 a 1 pela Liga MX",
+    "summary": "Club América venceu FC Juarez por 2 a 1 pela Liga MX.",
+    "content": "Club América venceu FC Juarez por 2 a 1 pela Liga MX, em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-mx"
+    ],
+    "seoTitle": "Club América supera FC Juarez por 2 a 1 pela Liga MX",
+    "seoDescription": "Club América venceu FC Juarez por 2 a 1 pela Liga MX.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T07:06:51.513Z",
+    "createdAt": "2026-08-22T07:06:51.513Z",
+    "updatedAt": "2026-08-22T07:06:51.513Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4735726",
+      "eventStartTime": "2026-08-22T03:00:00+00:00",
+      "retrievedAt": "2026-08-22T07:06:51.513Z",
+      "feedId": "futebol",
+      "league": "Liga MX"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-93243a1187b5",
     "slug": "miami-marlins-vence-washington-nationals-por-3-a-2-na-mlb-93243a",
     "sportId": "beisebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T12:44:11.574Z",
       "feedId": "tenis",
       "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-de54bbb567ad",
-    "slug": "fc-anyang-supera-jeju-sk-por-2-a-1-pelo-fa-cup-de54bb",
-    "sportId": "futebol",
-    "title": "FC Anyang supera Jeju SK por 2 a 1 pelo FA Cup",
-    "summary": "FC Anyang venceu Jeju SK por 2 a 1 pelo FA Cup.",
-    "content": "FC Anyang venceu Jeju SK por 2 a 1 pelo FA Cup, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "fa-cup"
-    ],
-    "seoTitle": "FC Anyang supera Jeju SK por 2 a 1 pelo FA Cup",
-    "seoDescription": "FC Anyang venceu Jeju SK por 2 a 1 pelo FA Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T12:44:11.549Z",
-    "createdAt": "2026-08-19T12:44:11.549Z",
-    "updatedAt": "2026-08-19T12:44:11.549Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4797743",
-      "eventStartTime": "2026-08-19T10:30:00+00:00",
-      "retrievedAt": "2026-08-19T12:44:11.549Z",
-      "feedId": "futebol",
-      "league": "FA Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-23cd6fc6238f",
-    "slug": "tyler-zink-vence-lucas-andrade-da-silva-por-2-a-1-em-kingston-23cd6f",
-    "sportId": "tenis",
-    "title": "Tyler Zink vence Lucas Andrade Da Silva por 2 a 1 em Kingston",
-    "summary": "Tyler Zink superou Lucas Andrade Da Silva por 2 a 1 em Kingston.",
-    "content": "Tyler Zink superou Lucas Andrade Da Silva por 2 a 1 em Kingston., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Tyler Zink vence Lucas Andrade Da Silva por 2 a 1 em Kingston",
-    "seoDescription": "Tyler Zink superou Lucas Andrade Da Silva por 2 a 1 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T11:59:09.793Z",
-    "createdAt": "2026-08-19T11:59:09.793Z",
-    "updatedAt": "2026-08-19T11:59:09.793Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816753",
-      "eventStartTime": "2026-08-18T20:21:13+00:00",
-      "retrievedAt": "2026-08-19T11:59:09.793Z",
-      "feedId": "tenis",
-      "league": "Kingston"
     },
     "articleFormat": "result-brief"
   }
