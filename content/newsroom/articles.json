@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-ee6ce5da4929",
+    "slug": "los-angeles-dodgers-vence-pittsburgh-pirates-por-5-a-4-na-mlb-ee6ce5",
+    "sportId": "beisebol",
+    "title": "Los Angeles Dodgers vence Pittsburgh Pirates por 5 a 4 na MLB",
+    "summary": "Los Angeles Dodgers derrotou Pittsburgh Pirates por 5 a 4 na MLB.",
+    "content": "Los Angeles Dodgers derrotou Pittsburgh Pirates por 5 a 4 na MLB, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Los Angeles Dodgers vence Pittsburgh Pirates por 5 a 4 na MLB",
+    "seoDescription": "Los Angeles Dodgers derrotou Pittsburgh Pirates por 5 a 4 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T05:49:56.169Z",
+    "createdAt": "2026-08-22T05:49:56.169Z",
+    "updatedAt": "2026-08-22T05:49:56.169Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614709",
+      "eventStartTime": "2026-08-22T02:10:00+00:00",
+      "retrievedAt": "2026-08-22T05:49:56.169Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-929f9d316f02",
+    "slug": "eastern-suburbs-e-east-coast-bays-ficam-no-1-a-1-pelo-national-league-929f9d",
+    "sportId": "futebol",
+    "title": "Eastern Suburbs e East Coast Bays ficam no 1 a 1 pelo National League",
+    "summary": "Eastern Suburbs e East Coast Bays empataram por 1 a 1 pelo National League.",
+    "content": "Eastern Suburbs e East Coast Bays empataram por 1 a 1 pelo National League, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "national-league"
+    ],
+    "seoTitle": "Eastern Suburbs e East Coast Bays ficam no 1 a 1 pelo National League",
+    "seoDescription": "Eastern Suburbs e East Coast Bays empataram por 1 a 1 pelo National League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T05:49:56.043Z",
+    "createdAt": "2026-08-22T05:49:56.043Z",
+    "updatedAt": "2026-08-22T05:49:56.043Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4678279",
+      "eventStartTime": "2026-08-22T03:00:00+00:00",
+      "retrievedAt": "2026-08-22T05:49:56.043Z",
+      "feedId": "futebol",
+      "league": "National League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-416ec88378a0",
     "slug": "texas-rangers-vence-los-angeles-angels-por-2-a-1-na-mlb-416ec8",
     "sportId": "beisebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T11:41:28.778Z",
       "feedId": "tenis",
       "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9f756cebcd28",
-    "slug": "grulla-morioka-supera-sapporo-university-por-1-a-0-pelo-emperors-cup-9f756c",
-    "sportId": "futebol",
-    "title": "Grulla Morioka supera Sapporo University por 1 a 0 pelo Emperors Cup",
-    "summary": "Grulla Morioka venceu Sapporo University por 1 a 0 pelo Emperors Cup.",
-    "content": "Grulla Morioka venceu Sapporo University por 1 a 0 pelo Emperors Cup, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "emperors-cup"
-    ],
-    "seoTitle": "Grulla Morioka supera Sapporo University por 1 a 0 pelo Emperors Cup",
-    "seoDescription": "Grulla Morioka venceu Sapporo University por 1 a 0 pelo Emperors Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T11:41:28.745Z",
-    "createdAt": "2026-08-19T11:41:28.745Z",
-    "updatedAt": "2026-08-19T11:41:28.745Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4736070",
-      "eventStartTime": "2026-08-19T09:30:00+00:00",
-      "retrievedAt": "2026-08-19T11:41:28.745Z",
-      "feedId": "futebol",
-      "league": "Emperors Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-64c85079323f",
-    "slug": "grevelius-e-heinonen-a-vence-mansilla-diez-m-winter-lopez-b-por-2-a-1-em-prague-64c850",
-    "sportId": "tenis",
-    "title": "Grevelius E./Heinonen A. vence Mansilla Diez M./Winter Lopez B. por 2 a 1 em Prague",
-    "summary": "Grevelius E./Heinonen A. superou Mansilla Diez M./Winter Lopez B. por 2 a 1 em Prague.",
-    "content": "Grevelius E./Heinonen A. superou Mansilla Diez M./Winter Lopez B. por 2 a 1 em Prague., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Grevelius E./Heinonen A. vence Mansilla Diez M./Winter Lopez B. por 2",
-    "seoDescription": "Grevelius E./Heinonen A. superou Mansilla Diez M./Winter Lopez B. por 2 a 1 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T11:15:11.237Z",
-    "createdAt": "2026-08-19T11:15:11.237Z",
-    "updatedAt": "2026-08-19T11:15:11.237Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815583",
-      "eventStartTime": "2026-08-19T08:01:35+00:00",
-      "retrievedAt": "2026-08-19T11:15:11.237Z",
-      "feedId": "tenis",
-      "league": "Prague"
     },
     "articleFormat": "result-brief"
   }
