@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-ef00bb38cec7",
+    "slug": "lozova-e-kudrivka-ficam-no-0-a-0-pelo-ukrainian-cup-ef00bb",
+    "sportId": "futebol",
+    "title": "Lozova e Kudrivka ficam no 0 a 0 pelo Ukrainian Cup",
+    "summary": "Lozova e Kudrivka empataram por 0 a 0 pelo Ukrainian Cup.",
+    "content": "Lozova e Kudrivka empataram por 0 a 0 pelo Ukrainian Cup, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ukrainian-cup"
+    ],
+    "seoTitle": "Lozova e Kudrivka ficam no 0 a 0 pelo Ukrainian Cup",
+    "seoDescription": "Lozova e Kudrivka empataram por 0 a 0 pelo Ukrainian Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T09:56:25.179Z",
+    "createdAt": "2026-08-22T09:56:25.179Z",
+    "updatedAt": "2026-08-22T09:56:25.179Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4802677",
+      "eventStartTime": "2026-08-22T09:00:00+00:00",
+      "retrievedAt": "2026-08-22T09:56:25.179Z",
+      "feedId": "futebol",
+      "league": "Ukrainian Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-b84c884f8e5f",
     "slug": "ucsa-e-kolos-kovalivka-ficam-no-0-a-0-pelo-ukrainian-cup-b84c88",
     "sportId": "futebol",
@@ -12554,48 +12596,6 @@
       "retrievedAt": "2026-08-19T15:58:15.147Z",
       "feedId": "futebol",
       "league": "Slovakia Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-4cfd729f16e5",
-    "slug": "hignett-l-walters-m-e-bittoun-kouzmine-c-shimizu-y-empatam-por-0-a-0-em-roehampton-4cfd72",
-    "sportId": "tenis",
-    "title": "Hignett L./Walters M. e Bittoun Kouzmine C./Shimizu Y. empatam por 0 a 0 em Roehampton",
-    "summary": "Hignett L./Walters M. e Bittoun Kouzmine C./Shimizu Y. terminaram empatados por 0 a 0 em Roehampton.",
-    "content": "Hignett L./Walters M. e Bittoun Kouzmine C./Shimizu Y. terminaram empatados por 0 a 0 em Roehampton., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "roehampton"
-    ],
-    "seoTitle": "Hignett L./Walters M. e Bittoun Kouzmine C./Shimizu Y. empatam por 0 a",
-    "seoDescription": "Hignett L./Walters M. e Bittoun Kouzmine C./Shimizu Y. terminaram empatados por 0 a 0 em Roehampton.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T15:29:45.379Z",
-    "createdAt": "2026-08-19T15:29:45.379Z",
-    "updatedAt": "2026-08-19T15:29:45.379Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816541",
-      "eventStartTime": "2026-08-19T14:40:00+00:00",
-      "retrievedAt": "2026-08-19T15:29:45.379Z",
-      "feedId": "tenis",
-      "league": "Roehampton"
     },
     "articleFormat": "result-brief"
   }
