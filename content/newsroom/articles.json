@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-09f10d6ca839",
+    "slug": "the-bees-e-highbury-ficam-no-0-a-0-pela-championship-09f10d",
+    "sportId": "futebol",
+    "title": "The Bees e Highbury ficam no 0 a 0 pela Championship",
+    "summary": "The Bees e Highbury empataram por 0 a 0 pela Championship.",
+    "content": "The Bees e Highbury empataram por 0 a 0 pela Championship, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "championship"
+    ],
+    "seoTitle": "The Bees e Highbury ficam no 0 a 0 pela Championship",
+    "seoDescription": "The Bees e Highbury empataram por 0 a 0 pela Championship.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T13:42:00.358Z",
+    "createdAt": "2026-08-22T13:42:00.358Z",
+    "updatedAt": "2026-08-22T13:42:00.358Z",
+    "homepagePriority": 82,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4813821",
+      "eventStartTime": "2026-08-22T13:00:00+00:00",
+      "retrievedAt": "2026-08-22T13:42:00.358Z",
+      "feedId": "futebol",
+      "league": "Championship"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d4bd1d31d8e1",
     "slug": "fc-inter-turku-2-e-tpv-ficam-no-0-a-0-pelo-ykkonen-d4bd1d",
     "sportId": "futebol",
@@ -12554,48 +12596,6 @@
       "retrievedAt": "2026-08-19T18:17:45.287Z",
       "feedId": "tenis",
       "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-da225b2540fb",
-    "slug": "slovakia-vence-angola-por-73-a-63-em-international-friendlies-da225b",
-    "sportId": "basquete",
-    "title": "Slovakia vence Angola por 73 a 63 em International Friendlies",
-    "summary": "Slovakia superou Angola por 73 a 63 em International Friendlies.",
-    "content": "Slovakia superou Angola por 73 a 63 em International Friendlies., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "international-friendlies"
-    ],
-    "seoTitle": "Slovakia vence Angola por 73 a 63 em International Friendlies",
-    "seoDescription": "Slovakia superou Angola por 73 a 63 em International Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T18:17:45.284Z",
-    "createdAt": "2026-08-19T18:17:45.284Z",
-    "updatedAt": "2026-08-19T18:17:45.284Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4818946",
-      "eventStartTime": "2026-08-19T16:00:00+00:00",
-      "retrievedAt": "2026-08-19T18:17:45.284Z",
-      "feedId": "basquete",
-      "league": "International Friendlies"
     },
     "articleFormat": "result-brief"
   }
