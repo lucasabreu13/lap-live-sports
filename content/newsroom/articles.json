@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-f6725a85731a",
+    "slug": "bulgaria-vence-slovakia-por-81-a-79-em-international-friendlies-f6725a",
+    "sportId": "basquete",
+    "title": "Bulgaria vence Slovakia por 81 a 79 em International Friendlies",
+    "summary": "Bulgaria superou Slovakia por 81 a 79 em International Friendlies.",
+    "content": "Bulgaria superou Slovakia por 81 a 79 em International Friendlies., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendlies"
+    ],
+    "seoTitle": "Bulgaria vence Slovakia por 81 a 79 em International Friendlies",
+    "seoDescription": "Bulgaria superou Slovakia por 81 a 79 em International Friendlies.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T13:57:33.907Z",
+    "createdAt": "2026-08-22T13:57:33.907Z",
+    "updatedAt": "2026-08-22T13:57:33.907Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820538",
+      "eventStartTime": "2026-08-21T16:00:00+00:00",
+      "retrievedAt": "2026-08-22T13:57:33.907Z",
+      "feedId": "basquete",
+      "league": "International Friendlies"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-92ac7eecaa9f",
+    "slug": "kairat-almaty-e-irtysh-pavlodar-ficam-no-0-a-0-pela-premier-league-92ac7e",
+    "sportId": "futebol",
+    "title": "Kairat Almaty e Irtysh Pavlodar ficam no 0 a 0 pela Premier League",
+    "summary": "Kairat Almaty e Irtysh Pavlodar empataram por 0 a 0 pela Premier League.",
+    "content": "Kairat Almaty e Irtysh Pavlodar empataram por 0 a 0 pela Premier League, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "premier-league"
+    ],
+    "seoTitle": "Kairat Almaty e Irtysh Pavlodar ficam no 0 a 0 pela Premier League",
+    "seoDescription": "Kairat Almaty e Irtysh Pavlodar empataram por 0 a 0 pela Premier League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T13:57:33.886Z",
+    "createdAt": "2026-08-22T13:57:33.886Z",
+    "updatedAt": "2026-08-22T13:57:33.886Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4678806",
+      "eventStartTime": "2026-08-22T14:00:00+00:00",
+      "retrievedAt": "2026-08-22T13:57:33.886Z",
+      "feedId": "futebol",
+      "league": "Premier League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-09f10d6ca839",
     "slug": "the-bees-e-highbury-ficam-no-0-a-0-pela-championship-09f10d",
     "sportId": "futebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T18:59:52.029Z",
       "feedId": "tenis",
       "league": " Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5de04e1e57af",
-    "slug": "javor-matis-supera-jedinstvo-ub-por-3-a-0-pela-prva-liga-5de04e",
-    "sportId": "futebol",
-    "title": "Javor Matis supera Jedinstvo Ub por 3 a 0 pela Prva Liga",
-    "summary": "Javor Matis venceu Jedinstvo Ub por 3 a 0 pela Prva Liga.",
-    "content": "Javor Matis venceu Jedinstvo Ub por 3 a 0 pela Prva Liga, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "prva-liga"
-    ],
-    "seoTitle": "Javor Matis supera Jedinstvo Ub por 3 a 0 pela Prva Liga",
-    "seoDescription": "Javor Matis venceu Jedinstvo Ub por 3 a 0 pela Prva Liga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T18:59:52.006Z",
-    "createdAt": "2026-08-19T18:59:52.006Z",
-    "updatedAt": "2026-08-19T18:59:52.006Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4737463",
-      "eventStartTime": "2026-08-19T17:00:00+00:00",
-      "retrievedAt": "2026-08-19T18:59:52.006Z",
-      "feedId": "futebol",
-      "league": "Prva Liga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1dbd2a074b4f",
-    "slug": "bernet-stricker-vence-kalyanpur-a-nedunchezhiyan-j-por-2-a-0-em-sion-1dbd2a",
-    "sportId": "tenis",
-    "title": "Bernet/Stricker vence Kalyanpur A./Nedunchezhiyan J. por 2 a 0 em Sion",
-    "summary": "Bernet/Stricker superou Kalyanpur A./Nedunchezhiyan J. por 2 a 0 em Sion.",
-    "content": "Bernet/Stricker superou Kalyanpur A./Nedunchezhiyan J. por 2 a 0 em Sion., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Bernet/Stricker vence Kalyanpur A./Nedunchezhiyan J. por 2 a 0 em Sion",
-    "seoDescription": "Bernet/Stricker superou Kalyanpur A./Nedunchezhiyan J. por 2 a 0 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T18:17:45.287Z",
-    "createdAt": "2026-08-19T18:17:45.287Z",
-    "updatedAt": "2026-08-19T18:17:45.287Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816537",
-      "eventStartTime": "2026-08-19T16:47:16+00:00",
-      "retrievedAt": "2026-08-19T18:17:45.287Z",
-      "feedId": "tenis",
-      "league": "Sion"
     },
     "articleFormat": "result-brief"
   }
