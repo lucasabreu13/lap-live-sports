@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-941766002843",
+    "slug": "naval-e-atletico-oriente-ficam-no-0-a-0-pelo-tercera-division-a-941766",
+    "sportId": "futebol",
+    "title": "Naval e Atletico Oriente ficam no 0 a 0 pelo Tercera Division A",
+    "summary": "Naval e Atletico Oriente empataram por 0 a 0 pelo Tercera Division A.",
+    "content": "Naval e Atletico Oriente empataram por 0 a 0 pelo Tercera Division A, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "tercera-division-a"
+    ],
+    "seoTitle": "Naval e Atletico Oriente ficam no 0 a 0 pelo Tercera Division A",
+    "seoDescription": "Naval e Atletico Oriente empataram por 0 a 0 pelo Tercera Division A.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T19:53:41.070Z",
+    "createdAt": "2026-08-22T19:53:41.070Z",
+    "updatedAt": "2026-08-22T19:53:41.070Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4726861",
+      "eventStartTime": "2026-08-22T19:30:00+00:00",
+      "retrievedAt": "2026-08-22T19:53:41.070Z",
+      "feedId": "futebol",
+      "league": "Tercera Division A"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-0a051f4ef859",
     "slug": "sebastian-gorzny-vence-marc-polmans-por-2-a-1-em-winston-salem-0a051f",
     "sportId": "tenis",
@@ -12554,48 +12596,6 @@
       "retrievedAt": "2026-08-20T00:58:03.978Z",
       "feedId": "futebol",
       "league": "Liga de Ascenso"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d7020ee3a758",
-    "slug": "moez-echargui-vence-otto-virtanen-por-2-a-0-em-cancun-d7020e",
-    "sportId": "tenis",
-    "title": "Moez Echargui vence Otto Virtanen por 2 a 0 em Cancun",
-    "summary": "Moez Echargui superou Otto Virtanen por 2 a 0 em Cancun.",
-    "content": "Moez Echargui superou Otto Virtanen por 2 a 0 em Cancun., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cancun"
-    ],
-    "seoTitle": "Moez Echargui vence Otto Virtanen por 2 a 0 em Cancun",
-    "seoDescription": "Moez Echargui superou Otto Virtanen por 2 a 0 em Cancun.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T23:57:48.977Z",
-    "createdAt": "2026-08-19T23:57:48.977Z",
-    "updatedAt": "2026-08-19T23:57:48.977Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816208",
-      "eventStartTime": "2026-08-19T21:13:29+00:00",
-      "retrievedAt": "2026-08-19T23:57:48.977Z",
-      "feedId": "tenis",
-      "league": "Cancun"
     },
     "articleFormat": "result-brief"
   }
