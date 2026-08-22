@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-73788ff7f8b1",
+    "slug": "kt-wiz-suwon-vence-ssg-landers-por-3-a-3-na-kbo-73788f",
+    "sportId": "beisebol",
+    "title": "Kt Wiz Suwon vence SSG Landers por 3 a 3 na KBO",
+    "summary": "Kt Wiz Suwon derrotou SSG Landers por 3 a 3 na KBO.",
+    "content": "Kt Wiz Suwon derrotou SSG Landers por 3 a 3 na KBO, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "kbo"
+    ],
+    "seoTitle": "Kt Wiz Suwon vence SSG Landers por 3 a 3 na KBO",
+    "seoDescription": "Kt Wiz Suwon derrotou SSG Landers por 3 a 3 na KBO.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T12:20:26.211Z",
+    "createdAt": "2026-08-22T12:20:26.211Z",
+    "updatedAt": "2026-08-22T12:20:26.211Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820367",
+      "eventStartTime": "2026-08-21T10:00:00+00:00",
+      "retrievedAt": "2026-08-22T12:20:26.211Z",
+      "feedId": "beisebol",
+      "league": "KBO"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-0014906d2b0b",
+    "slug": "shenzhen-peng-city-e-zhejiang-ficam-no-0-a-0-pelo-super-league-001490",
+    "sportId": "futebol",
+    "title": "Shenzhen Peng City e Zhejiang ficam no 0 a 0 pelo Super League",
+    "summary": "Shenzhen Peng City e Zhejiang empataram por 0 a 0 pelo Super League.",
+    "content": "Shenzhen Peng City e Zhejiang empataram por 0 a 0 pelo Super League, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "super-league"
+    ],
+    "seoTitle": "Shenzhen Peng City e Zhejiang ficam no 0 a 0 pelo Super League",
+    "seoDescription": "Shenzhen Peng City e Zhejiang empataram por 0 a 0 pelo Super League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T12:20:26.133Z",
+    "createdAt": "2026-08-22T12:20:26.133Z",
+    "updatedAt": "2026-08-22T12:20:26.133Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4673313",
+      "eventStartTime": "2026-08-22T11:35:00+00:00",
+      "retrievedAt": "2026-08-22T12:20:26.133Z",
+      "feedId": "futebol",
+      "league": "Super League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-c75cdc399770",
     "slug": "eintracht-frankfurt-w-supera-fc-koln-w-por-2-a-0-pela-frauen-bundesliga-c75cdc",
     "sportId": "futebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T18:17:45.276Z",
       "feedId": "futebol",
       "league": "Prva Liga"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-b65f3077d4eb",
-    "slug": "choinski-j-de-jong-j-e-schoolkate-t-sweeny-d-empatam-por-0-a-0-em-quebec-city-b65f30",
-    "sportId": "tenis",
-    "title": "Choinski J./de Jong J. e Schoolkate T./Sweeny D. empatam por 0 a 0 em Quebec City",
-    "summary": "Choinski J./de Jong J. e Schoolkate T./Sweeny D. terminaram empatados por 0 a 0 em Quebec City.",
-    "content": "Choinski J./de Jong J. e Schoolkate T./Sweeny D. terminaram empatados por 0 a 0 em Quebec City., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "quebec-city"
-    ],
-    "seoTitle": "Choinski J./de Jong J. e Schoolkate T./Sweeny D. empatam por 0 a 0 em",
-    "seoDescription": "Choinski J./de Jong J. e Schoolkate T./Sweeny D. terminaram empatados por 0 a 0 em Quebec City.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T17:46:53.238Z",
-    "createdAt": "2026-08-19T17:46:53.238Z",
-    "updatedAt": "2026-08-19T17:46:53.238Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4817254",
-      "eventStartTime": "2026-08-19T17:00:00+00:00",
-      "retrievedAt": "2026-08-19T17:46:53.238Z",
-      "feedId": "tenis",
-      "league": "Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8341309a45a9",
-    "slug": "levadia-tallinn-e-paide-linnameeskond-ficam-no-0-a-0-pelo-estonian-cup-834130",
-    "sportId": "futebol",
-    "title": "Levadia Tallinn e Paide Linnameeskond ficam no 0 a 0 pelo Estonian Cup",
-    "summary": "Levadia Tallinn e Paide Linnameeskond empataram por 0 a 0 pelo Estonian Cup.",
-    "content": "Levadia Tallinn e Paide Linnameeskond empataram por 0 a 0 pelo Estonian Cup, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "estonian-cup"
-    ],
-    "seoTitle": "Levadia Tallinn e Paide Linnameeskond ficam no 0 a 0 pelo Estonian Cup",
-    "seoDescription": "Levadia Tallinn e Paide Linnameeskond empataram por 0 a 0 pelo Estonian Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T17:46:53.219Z",
-    "createdAt": "2026-08-19T17:46:53.219Z",
-    "updatedAt": "2026-08-19T17:46:53.219Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4817099",
-      "eventStartTime": "2026-08-19T17:00:00+00:00",
-      "retrievedAt": "2026-08-19T17:46:53.219Z",
-      "feedId": "futebol",
-      "league": "Estonian Cup"
     },
     "articleFormat": "result-brief"
   }
