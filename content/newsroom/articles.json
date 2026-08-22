@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-7006aceb2f0b",
+    "slug": "valentin-royer-vence-clement-chidekh-por-2-a-1-em-kingston-7006ac",
+    "sportId": "tenis",
+    "title": "Valentin Royer vence Clement Chidekh por 2 a 1 em Kingston",
+    "summary": "Valentin Royer superou Clement Chidekh por 2 a 1 em Kingston.",
+    "content": "Valentin Royer superou Clement Chidekh por 2 a 1 em Kingston., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Valentin Royer vence Clement Chidekh por 2 a 1 em Kingston",
+    "seoDescription": "Valentin Royer superou Clement Chidekh por 2 a 1 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T19:15:03.963Z",
+    "createdAt": "2026-08-22T19:15:03.963Z",
+    "updatedAt": "2026-08-22T19:15:03.963Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820296",
+      "eventStartTime": "2026-08-21T20:09:03+00:00",
+      "retrievedAt": "2026-08-22T19:15:03.963Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8d22a1482aa5",
+    "slug": "detroit-lions-vence-washington-commanders-por-17-a-13-em-nfl-8d22a1",
+    "sportId": "futebol-americano",
+    "title": "Detroit Lions vence Washington Commanders por 17 a 13 em NFL",
+    "summary": "Detroit Lions superou Washington Commanders por 17 a 13 em NFL.",
+    "content": "Detroit Lions superou Washington Commanders por 17 a 13 em NFL., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": "/images/sports/futebol-americano.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Detroit Lions vence Washington Commanders por 17 a 13 em NFL",
+    "seoDescription": "Detroit Lions superou Washington Commanders por 17 a 13 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T19:15:03.882Z",
+    "createdAt": "2026-08-22T19:15:03.882Z",
+    "updatedAt": "2026-08-22T19:15:03.882Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714922",
+      "eventStartTime": "2026-08-22T16:00:00+00:00",
+      "retrievedAt": "2026-08-22T19:15:03.882Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-68d3ce03ae68",
+    "slug": "asociacion-deportiva-ucayali-fc-e-asociacion-deportiva-tahuishco-ficam-no-0-a-0-pe-68d3ce",
+    "sportId": "futebol",
+    "title": "Asociación Deportiva Ucayali FC e Asociación Deportiva Tahuishco ficam no 0 a 0 pela Liga 3",
+    "summary": "Asociación Deportiva Ucayali FC e Asociación Deportiva Tahuishco empataram por 0 a 0 pela Liga 3.",
+    "content": "Asociación Deportiva Ucayali FC e Asociación Deportiva Tahuishco empataram por 0 a 0 pela Liga 3, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-3"
+    ],
+    "seoTitle": "Asociación Deportiva Ucayali FC e Asociación Deportiva Tahuishco ficam",
+    "seoDescription": "Asociación Deportiva Ucayali FC e Asociación Deportiva Tahuishco empataram por 0 a 0 pela Liga 3.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T19:15:03.870Z",
+    "createdAt": "2026-08-22T19:15:03.870Z",
+    "updatedAt": "2026-08-22T19:15:03.870Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820979",
+      "eventStartTime": "2026-08-22T19:00:00+00:00",
+      "retrievedAt": "2026-08-22T19:15:03.870Z",
+      "feedId": "futebol",
+      "league": "Liga 3"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ed4f902d8b56",
     "slug": "mees-rottgering-vence-hunter-heck-por-2-a-0-em-winston-salem-ed4f90",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-19T23:43:22.731Z",
       "feedId": "tenis",
       "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a5decf1c43ae",
-    "slug": "desportiva-aracaju-e-lagarto-ficam-no-0-a-0-pela-copa-governo-de-sergipe-a5decf",
-    "sportId": "futebol",
-    "title": "Desportiva Aracaju e Lagarto ficam no 0 a 0 pela Copa Governo de Sergipe",
-    "summary": "Desportiva Aracaju e Lagarto empataram por 0 a 0 pela Copa Governo de Sergipe.",
-    "content": "Desportiva Aracaju e Lagarto empataram por 0 a 0 pela Copa Governo de Sergipe, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-governo-de-sergipe"
-    ],
-    "seoTitle": "Desportiva Aracaju e Lagarto ficam no 0 a 0 pela Copa Governo de",
-    "seoDescription": "Desportiva Aracaju e Lagarto empataram por 0 a 0 pela Copa Governo de Sergipe.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T23:43:22.705Z",
-    "createdAt": "2026-08-19T23:43:22.705Z",
-    "updatedAt": "2026-08-19T23:43:22.705Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814891",
-      "eventStartTime": "2026-08-19T22:00:00+00:00",
-      "retrievedAt": "2026-08-19T23:43:22.705Z",
-      "feedId": "futebol",
-      "league": "Copa Governo de Sergipe"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-430467f9def7",
-    "slug": "coleman-wong-vence-alexandre-muller-por-2-a-0-em-cancun-430467",
-    "sportId": "tenis",
-    "title": "Coleman Wong vence Alexandre Muller por 2 a 0 em Cancun",
-    "summary": "Coleman Wong superou Alexandre Muller por 2 a 0 em Cancun.",
-    "content": "Coleman Wong superou Alexandre Muller por 2 a 0 em Cancun., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cancun"
-    ],
-    "seoTitle": "Coleman Wong vence Alexandre Muller por 2 a 0 em Cancun",
-    "seoDescription": "Coleman Wong superou Alexandre Muller por 2 a 0 em Cancun.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T23:19:42.585Z",
-    "createdAt": "2026-08-19T23:19:42.585Z",
-    "updatedAt": "2026-08-19T23:19:42.585Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816195",
-      "eventStartTime": "2026-08-19T21:14:25+00:00",
-      "retrievedAt": "2026-08-19T23:19:42.585Z",
-      "feedId": "tenis",
-      "league": "Cancun"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3f19e3ccf523",
-    "slug": "ec-pelotas-e-gloria-de-vacaria-ficam-no-0-a-0-pelo-gaucho-a2-3f19e3",
-    "sportId": "futebol",
-    "title": "EC Pelotas e Glória de Vacaria ficam no 0 a 0 pelo Gaucho A2",
-    "summary": "EC Pelotas e Glória de Vacaria empataram por 0 a 0 pelo Gaucho A2.",
-    "content": "EC Pelotas e Glória de Vacaria empataram por 0 a 0 pelo Gaucho A2, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "gaucho-a2"
-    ],
-    "seoTitle": "EC Pelotas e Glória de Vacaria ficam no 0 a 0 pelo Gaucho A2",
-    "seoDescription": "EC Pelotas e Glória de Vacaria empataram por 0 a 0 pelo Gaucho A2.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T23:19:42.558Z",
-    "createdAt": "2026-08-19T23:19:42.558Z",
-    "updatedAt": "2026-08-19T23:19:42.558Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4762509",
-      "eventStartTime": "2026-08-19T22:30:00+00:00",
-      "retrievedAt": "2026-08-19T23:19:42.558Z",
-      "feedId": "futebol",
-      "league": "Gaucho A2"
     },
     "articleFormat": "result-brief"
   }
