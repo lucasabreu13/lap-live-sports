@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-c75cdc399770",
+    "slug": "eintracht-frankfurt-w-supera-fc-koln-w-por-2-a-0-pela-frauen-bundesliga-c75cdc",
+    "sportId": "futebol",
+    "title": "Eintracht Frankfurt (W) supera FC Köln (W) por 2 a 0 pela Frauen Bundesliga",
+    "summary": "Eintracht Frankfurt (W) venceu FC Köln (W) por 2 a 0 pela Frauen Bundesliga.",
+    "content": "Eintracht Frankfurt (W) venceu FC Köln (W) por 2 a 0 pela Frauen Bundesliga, em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "frauen-bundesliga"
+    ],
+    "seoTitle": "Eintracht Frankfurt (W) supera FC Köln (W) por 2 a 0 pela Frauen",
+    "seoDescription": "Eintracht Frankfurt (W) venceu FC Köln (W) por 2 a 0 pela Frauen Bundesliga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T11:55:58.688Z",
+    "createdAt": "2026-08-22T11:55:58.688Z",
+    "updatedAt": "2026-08-22T11:55:58.688Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4773769",
+      "eventStartTime": "2026-08-22T10:00:00+00:00",
+      "retrievedAt": "2026-08-22T11:55:58.688Z",
+      "feedId": "futebol",
+      "league": "Frauen Bundesliga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ae0f56b15d05",
     "slug": "kryvbas-supera-rokyta-por-1-a-0-pelo-ukrainian-cup-ae0f56",
     "sportId": "futebol",
@@ -12554,48 +12596,6 @@
       "retrievedAt": "2026-08-19T17:46:53.219Z",
       "feedId": "futebol",
       "league": "Estonian Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-138fcdb5f347",
-    "slug": "lg-twins-vence-kt-wiz-suwon-por-1-a-0-na-kbo-138fcd",
-    "sportId": "beisebol",
-    "title": "LG Twins vence Kt Wiz Suwon por 1 a 0 na KBO",
-    "summary": "LG Twins derrotou Kt Wiz Suwon por 1 a 0 na KBO.",
-    "content": "LG Twins derrotou Kt Wiz Suwon por 1 a 0 na KBO, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "kbo"
-    ],
-    "seoTitle": "LG Twins vence Kt Wiz Suwon por 1 a 0 na KBO",
-    "seoDescription": "LG Twins derrotou Kt Wiz Suwon por 1 a 0 na KBO.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T17:17:16.190Z",
-    "createdAt": "2026-08-19T17:17:16.190Z",
-    "updatedAt": "2026-08-19T17:17:16.190Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4818559",
-      "eventStartTime": "2026-08-19T10:00:00+00:00",
-      "retrievedAt": "2026-08-19T17:17:16.190Z",
-      "feedId": "beisebol",
-      "league": "KBO"
     },
     "articleFormat": "result-brief"
   }
