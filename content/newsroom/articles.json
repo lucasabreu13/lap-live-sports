@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-c327297c65f1",
+    "slug": "quinn-vandecasteele-vence-li-tu-por-2-a-0-em-winston-salem-c32729",
+    "sportId": "tenis",
+    "title": "Quinn Vandecasteele vence Li Tu por 2 a 0 em Winston Salem",
+    "summary": "Quinn Vandecasteele superou Li Tu por 2 a 0 em Winston Salem.",
+    "content": "Quinn Vandecasteele superou Li Tu por 2 a 0 em Winston Salem., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "winston-salem"
+    ],
+    "seoTitle": "Quinn Vandecasteele vence Li Tu por 2 a 0 em Winston Salem",
+    "seoDescription": "Quinn Vandecasteele superou Li Tu por 2 a 0 em Winston Salem.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T17:57:31.445Z",
+    "createdAt": "2026-08-22T17:57:31.445Z",
+    "updatedAt": "2026-08-22T17:57:31.445Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4821356",
+      "eventStartTime": "2026-08-22T16:37:40+00:00",
+      "retrievedAt": "2026-08-22T17:57:31.445Z",
+      "feedId": "tenis",
+      "league": "Winston Salem"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7213320b0ebf",
+    "slug": "czechia-w-vence-turkiye-w-por-77-a-76-em-international-friendly-w-721332",
+    "sportId": "basquete",
+    "title": "Czechia (W) vence Turkiye (W) por 77 a 76 em International Friendly (W)",
+    "summary": "Czechia (W) superou Turkiye (W) por 77 a 76 em International Friendly (W).",
+    "content": "Czechia (W) superou Turkiye (W) por 77 a 76 em International Friendly (W)., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "international-friendly-w"
+    ],
+    "seoTitle": "Czechia (W) vence Turkiye (W) por 77 a 76 em International Friendly",
+    "seoDescription": "Czechia (W) superou Turkiye (W) por 77 a 76 em International Friendly (W).",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T17:57:31.440Z",
+    "createdAt": "2026-08-22T17:57:31.440Z",
+    "updatedAt": "2026-08-22T17:57:31.440Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818471",
+      "eventStartTime": "2026-08-22T16:00:00+00:00",
+      "retrievedAt": "2026-08-22T17:57:31.440Z",
+      "feedId": "basquete",
+      "league": "International Friendly (W)"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8e81891bc7b9",
+    "slug": "n-e-c-nijmegen-e-excelsior-ficam-no-0-a-0-pelo-eredivisie-8e8189",
+    "sportId": "futebol",
+    "title": "N.E.C. Nijmegen e Excelsior ficam no 0 a 0 pelo Eredivisie",
+    "summary": "N.E.C. Nijmegen e Excelsior empataram por 0 a 0 pelo Eredivisie.",
+    "content": "N.E.C. Nijmegen e Excelsior empataram por 0 a 0 pelo Eredivisie, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "eredivisie"
+    ],
+    "seoTitle": "N.E.C. Nijmegen e Excelsior ficam no 0 a 0 pelo Eredivisie",
+    "seoDescription": "N.E.C. Nijmegen e Excelsior empataram por 0 a 0 pelo Eredivisie.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T17:57:31.435Z",
+    "createdAt": "2026-08-22T17:57:31.435Z",
+    "updatedAt": "2026-08-22T17:57:31.435Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4734617",
+      "eventStartTime": "2026-08-22T18:00:00+00:00",
+      "retrievedAt": "2026-08-22T17:57:31.435Z",
+      "feedId": "futebol",
+      "league": "Eredivisie"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-d41e6171f52d",
     "slug": "pierre-hugues-herbert-vence-kenta-miyoshi-por-2-a-1-em-winston-salem-d41e61",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-19T22:40:34.608Z",
       "feedId": "tenis",
       "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ebd52974974f",
-    "slug": "union-deportivo-asencion-supera-asociacion-deportiva-ucayali-fc-por-2-a-1-pela-lig-ebd529",
-    "sportId": "futebol",
-    "title": "Union Deportivo Asencion supera Asociación Deportiva Ucayali FC por 2 a 1 pela Liga 3",
-    "summary": "Union Deportivo Asencion venceu Asociación Deportiva Ucayali FC por 2 a 1 pela Liga 3.",
-    "content": "Union Deportivo Asencion venceu Asociación Deportiva Ucayali FC por 2 a 1 pela Liga 3, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "liga-3"
-    ],
-    "seoTitle": "Union Deportivo Asencion supera Asociación Deportiva Ucayali FC por 2",
-    "seoDescription": "Union Deportivo Asencion venceu Asociación Deportiva Ucayali FC por 2 a 1 pela Liga 3.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T22:40:34.586Z",
-    "createdAt": "2026-08-19T22:40:34.586Z",
-    "updatedAt": "2026-08-19T22:40:34.586Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4814996",
-      "eventStartTime": "2026-08-19T20:30:00+00:00",
-      "retrievedAt": "2026-08-19T22:40:34.586Z",
-      "feedId": "futebol",
-      "league": "Liga 3"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-3e3940d0f849",
-    "slug": "thiago-agustin-tirante-vence-jakub-mensik-por-2-a-1-em-cincinnati-3e3940",
-    "sportId": "tenis",
-    "title": "Thiago Agustin Tirante vence Jakub Mensik por 2 a 1 em Cincinnati",
-    "summary": "Thiago Agustin Tirante superou Jakub Mensik por 2 a 1 em Cincinnati.",
-    "content": "Thiago Agustin Tirante superou Jakub Mensik por 2 a 1 em Cincinnati., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Thiago Agustin Tirante vence Jakub Mensik por 2 a 1 em Cincinnati",
-    "seoDescription": "Thiago Agustin Tirante superou Jakub Mensik por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T22:13:31.535Z",
-    "createdAt": "2026-08-19T22:13:31.535Z",
-    "updatedAt": "2026-08-19T22:13:31.535Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816954",
-      "eventStartTime": "2026-08-19T17:07:17+00:00",
-      "retrievedAt": "2026-08-19T22:13:31.535Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ce349883ca13",
-    "slug": "monagas-sc-supera-mineros-de-guayana-por-1-a-0-pela-copa-venezuela-ce3498",
-    "sportId": "futebol",
-    "title": "Monagas SC supera Mineros De Guayana por 1 a 0 pela Copa Venezuela",
-    "summary": "Monagas SC venceu Mineros De Guayana por 1 a 0 pela Copa Venezuela.",
-    "content": "Monagas SC venceu Mineros De Guayana por 1 a 0 pela Copa Venezuela, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-venezuela"
-    ],
-    "seoTitle": "Monagas SC supera Mineros De Guayana por 1 a 0 pela Copa Venezuela",
-    "seoDescription": "Monagas SC venceu Mineros De Guayana por 1 a 0 pela Copa Venezuela.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T22:13:31.503Z",
-    "createdAt": "2026-08-19T22:13:31.503Z",
-    "updatedAt": "2026-08-19T22:13:31.503Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4743196",
-      "eventStartTime": "2026-08-19T20:00:00+00:00",
-      "retrievedAt": "2026-08-19T22:13:31.503Z",
-      "feedId": "futebol",
-      "league": "Copa Venezuela"
     },
     "articleFormat": "result-brief"
   }
