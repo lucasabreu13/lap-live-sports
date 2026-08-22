@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-de52011a01fb",
+    "slug": "hugo-grenier-vence-neil-oberleitner-por-2-a-0-em-winston-salem-de5201",
+    "sportId": "tenis",
+    "title": "Hugo Grenier vence Neil Oberleitner por 2 a 0 em Winston Salem",
+    "summary": "Hugo Grenier superou Neil Oberleitner por 2 a 0 em Winston Salem.",
+    "content": "Hugo Grenier superou Neil Oberleitner por 2 a 0 em Winston Salem., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "winston-salem"
+    ],
+    "seoTitle": "Hugo Grenier vence Neil Oberleitner por 2 a 0 em Winston Salem",
+    "seoDescription": "Hugo Grenier superou Neil Oberleitner por 2 a 0 em Winston Salem.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T16:39:22.395Z",
+    "createdAt": "2026-08-22T16:39:22.395Z",
+    "updatedAt": "2026-08-22T16:39:22.395Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4821355",
+      "eventStartTime": "2026-08-22T15:09:27+00:00",
+      "retrievedAt": "2026-08-22T16:39:22.395Z",
+      "feedId": "tenis",
+      "league": "Winston Salem"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-2e6d798cd1f7",
+    "slug": "onhaye-e-habay-la-neuve-ficam-no-0-a-0-pelo-belgian-cup-2e6d79",
+    "sportId": "futebol",
+    "title": "Onhaye e Habay La Neuve ficam no 0 a 0 pelo Belgian Cup",
+    "summary": "Onhaye e Habay La Neuve empataram por 0 a 0 pelo Belgian Cup.",
+    "content": "Onhaye e Habay La Neuve empataram por 0 a 0 pelo Belgian Cup, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "belgian-cup"
+    ],
+    "seoTitle": "Onhaye e Habay La Neuve ficam no 0 a 0 pelo Belgian Cup",
+    "seoDescription": "Onhaye e Habay La Neuve empataram por 0 a 0 pelo Belgian Cup.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T16:39:22.378Z",
+    "createdAt": "2026-08-22T16:39:22.378Z",
+    "updatedAt": "2026-08-22T16:39:22.378Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815904",
+      "eventStartTime": "2026-08-22T16:00:00+00:00",
+      "retrievedAt": "2026-08-22T16:39:22.378Z",
+      "feedId": "futebol",
+      "league": "Belgian Cup"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-dc55239b656c",
     "slug": "union-deportivo-provincial-e-defensores-de-glew-ficam-no-0-a-0-pelo-promocional-am-dc5523",
     "sportId": "futebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T20:45:34.306Z",
       "feedId": "futebol",
       "league": "National League N/S"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8789e120c5f1",
-    "slug": "aleksandar-vukic-vence-kyrian-jacquet-por-1-a-0-em-quebec-city-8789e1",
-    "sportId": "tenis",
-    "title": "Aleksandar Vukic vence Kyrian Jacquet por 1 a 0 em Quebec City",
-    "summary": "Aleksandar Vukic superou Kyrian Jacquet por 1 a 0 em Quebec City.",
-    "content": "Aleksandar Vukic superou Kyrian Jacquet por 1 a 0 em Quebec City., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "quebec-city"
-    ],
-    "seoTitle": "Aleksandar Vukic vence Kyrian Jacquet por 1 a 0 em Quebec City",
-    "seoDescription": "Aleksandar Vukic superou Kyrian Jacquet por 1 a 0 em Quebec City.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T20:14:41.483Z",
-    "createdAt": "2026-08-19T20:14:41.483Z",
-    "updatedAt": "2026-08-19T20:14:41.483Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816183",
-      "eventStartTime": "2026-08-19T18:10:15+00:00",
-      "retrievedAt": "2026-08-19T20:14:41.483Z",
-      "feedId": "tenis",
-      "league": " Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c4b338c05a5c",
-    "slug": "slovenia-vence-latvia-por-89-a-86-em-international-friendlies-c4b338",
-    "sportId": "basquete",
-    "title": "Slovenia vence Latvia por 89 a 86 em International Friendlies",
-    "summary": "Slovenia superou Latvia por 89 a 86 em International Friendlies.",
-    "content": "Slovenia superou Latvia por 89 a 86 em International Friendlies., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "international-friendlies"
-    ],
-    "seoTitle": "Slovenia vence Latvia por 89 a 86 em International Friendlies",
-    "seoDescription": "Slovenia superou Latvia por 89 a 86 em International Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T20:14:41.474Z",
-    "createdAt": "2026-08-19T20:14:41.474Z",
-    "updatedAt": "2026-08-19T20:14:41.474Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816985",
-      "eventStartTime": "2026-08-19T18:00:00+00:00",
-      "retrievedAt": "2026-08-19T20:14:41.474Z",
-      "feedId": "basquete",
-      "league": "International Friendlies"
     },
     "articleFormat": "result-brief"
   }
