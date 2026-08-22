@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-416ec88378a0",
+    "slug": "texas-rangers-vence-los-angeles-angels-por-2-a-1-na-mlb-416ec8",
+    "sportId": "beisebol",
+    "title": "Texas Rangers vence Los Angeles Angels por 2 a 1 na MLB",
+    "summary": "Texas Rangers derrotou Los Angeles Angels por 2 a 1 na MLB.",
+    "content": "Texas Rangers derrotou Los Angeles Angels por 2 a 1 na MLB, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Texas Rangers vence Los Angeles Angels por 2 a 1 na MLB",
+    "seoDescription": "Texas Rangers derrotou Los Angeles Angels por 2 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T05:19:00.097Z",
+    "createdAt": "2026-08-22T05:19:00.097Z",
+    "updatedAt": "2026-08-22T05:19:00.097Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614583",
+      "eventStartTime": "2026-08-22T00:15:00+00:00",
+      "retrievedAt": "2026-08-22T05:19:00.097Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-50acfd819558",
+    "slug": "grevelius-e-heinonen-a-vence-dominik-recek-daniel-siniakov-por-2-a-0-em-prague-50acfd",
+    "sportId": "tenis",
+    "title": "Grevelius E./Heinonen A. vence Dominik Recek / Daniel Siniakov por 2 a 0 em Prague",
+    "summary": "Grevelius E./Heinonen A. superou Dominik Recek / Daniel Siniakov por 2 a 0 em Prague.",
+    "content": "Grevelius E./Heinonen A. superou Dominik Recek / Daniel Siniakov por 2 a 0 em Prague., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "prague"
+    ],
+    "seoTitle": "Grevelius E./Heinonen A. vence Dominik Recek / Daniel Siniakov por 2 a",
+    "seoDescription": "Grevelius E./Heinonen A. superou Dominik Recek / Daniel Siniakov por 2 a 0 em Prague.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T05:19:00.091Z",
+    "createdAt": "2026-08-22T05:19:00.091Z",
+    "updatedAt": "2026-08-22T05:19:00.091Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819711",
+      "eventStartTime": "2026-08-21T09:08:44+00:00",
+      "retrievedAt": "2026-08-22T05:19:00.091Z",
+      "feedId": "tenis",
+      "league": "Prague"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-20b5d023a62a",
+    "slug": "petone-e-wellington-olympic-ficam-no-1-a-1-pelo-national-league-20b5d0",
+    "sportId": "futebol",
+    "title": "Petone e Wellington Olympic ficam no 1 a 1 pelo National League",
+    "summary": "Petone e Wellington Olympic empataram por 1 a 1 pelo National League.",
+    "content": "Petone e Wellington Olympic empataram por 1 a 1 pelo National League, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "national-league"
+    ],
+    "seoTitle": "Petone e Wellington Olympic ficam no 1 a 1 pelo National League",
+    "seoDescription": "Petone e Wellington Olympic empataram por 1 a 1 pelo National League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T05:19:00.002Z",
+    "createdAt": "2026-08-22T05:19:00.002Z",
+    "updatedAt": "2026-08-22T05:19:00.002Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4678282",
+      "eventStartTime": "2026-08-22T03:15:00+00:00",
+      "retrievedAt": "2026-08-22T05:19:00.002Z",
+      "feedId": "futebol",
+      "league": "National League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-741ec19f899f",
     "slug": "cleveland-guardians-vence-colorado-rockies-por-9-a-1-na-mlb-741ec1",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-19T11:15:11.237Z",
       "feedId": "tenis",
       "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f1267df58009",
-    "slug": "elche-ilicitano-supera-cartagena-por-2-a-0-pelo-club-friendlies-f1267d",
-    "sportId": "futebol",
-    "title": "Elche Ilicitano supera Cartagena por 2 a 0 pelo Club Friendlies",
-    "summary": "Elche Ilicitano venceu Cartagena por 2 a 0 pelo Club Friendlies.",
-    "content": "Elche Ilicitano venceu Cartagena por 2 a 0 pelo Club Friendlies, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Elche Ilicitano supera Cartagena por 2 a 0 pelo Club Friendlies",
-    "seoDescription": "Elche Ilicitano venceu Cartagena por 2 a 0 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T11:15:11.213Z",
-    "createdAt": "2026-08-19T11:15:11.213Z",
-    "updatedAt": "2026-08-19T11:15:11.213Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815495",
-      "eventStartTime": "2026-08-19T08:00:00+00:00",
-      "retrievedAt": "2026-08-19T11:15:11.213Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8dd403ed25e9",
-    "slug": "papa-c-zheng-b-vence-genov-a-wehnelt-k-por-2-a-1-em-sion-8dd403",
-    "sportId": "tenis",
-    "title": "Papa C./Zheng B. vence Genov A./Wehnelt K. por 2 a 1 em Sion",
-    "summary": "Papa C./Zheng B. superou Genov A./Wehnelt K. por 2 a 1 em Sion.",
-    "content": "Papa C./Zheng B. superou Genov A./Wehnelt K. por 2 a 1 em Sion., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "sion"
-    ],
-    "seoTitle": "Papa C./Zheng B. vence Genov A./Wehnelt K. por 2 a 1 em Sion",
-    "seoDescription": "Papa C./Zheng B. superou Genov A./Wehnelt K. por 2 a 1 em Sion.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T10:52:15.117Z",
-    "createdAt": "2026-08-19T10:52:15.117Z",
-    "updatedAt": "2026-08-19T10:52:15.117Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815580",
-      "eventStartTime": "2026-08-19T09:11:08+00:00",
-      "retrievedAt": "2026-08-19T10:52:15.117Z",
-      "feedId": "tenis",
-      "league": "Sion"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d467c0ee3ed7",
-    "slug": "mio-biwako-shiga-e-japan-soccer-college-ficam-no-0-a-0-pelo-emperors-cup-d467c0",
-    "sportId": "futebol",
-    "title": "MIO Biwako Shiga e Japan Soccer College ficam no 0 a 0 pelo Emperors Cup",
-    "summary": "MIO Biwako Shiga e Japan Soccer College empataram por 0 a 0 pelo Emperors Cup.",
-    "content": "MIO Biwako Shiga e Japan Soccer College empataram por 0 a 0 pelo Emperors Cup, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "emperors-cup"
-    ],
-    "seoTitle": "MIO Biwako Shiga e Japan Soccer College ficam no 0 a 0 pelo Emperors",
-    "seoDescription": "MIO Biwako Shiga e Japan Soccer College empataram por 0 a 0 pelo Emperors Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T10:52:15.092Z",
-    "createdAt": "2026-08-19T10:52:15.092Z",
-    "updatedAt": "2026-08-19T10:52:15.092Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4804056",
-      "eventStartTime": "2026-08-19T10:00:00+00:00",
-      "retrievedAt": "2026-08-19T10:52:15.092Z",
-      "feedId": "futebol",
-      "league": "Emperors Cup"
     },
     "articleFormat": "result-brief"
   }
