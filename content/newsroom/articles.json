@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-d4bd1d31d8e1",
+    "slug": "fc-inter-turku-2-e-tpv-ficam-no-0-a-0-pelo-ykkonen-d4bd1d",
+    "sportId": "futebol",
+    "title": "Fc Inter Turku 2 e TPV ficam no 0 a 0 pelo Ykkonen",
+    "summary": "Fc Inter Turku 2 e TPV empataram por 0 a 0 pelo Ykkonen.",
+    "content": "Fc Inter Turku 2 e TPV empataram por 0 a 0 pelo Ykkonen, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ykkonen"
+    ],
+    "seoTitle": "Fc Inter Turku 2 e TPV ficam no 0 a 0 pelo Ykkonen",
+    "seoDescription": "Fc Inter Turku 2 e TPV empataram por 0 a 0 pelo Ykkonen.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T13:07:04.110Z",
+    "createdAt": "2026-08-22T13:07:04.110Z",
+    "updatedAt": "2026-08-22T13:07:04.110Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4700118",
+      "eventStartTime": "2026-08-22T12:00:00+00:00",
+      "retrievedAt": "2026-08-22T13:07:04.110Z",
+      "feedId": "futebol",
+      "league": "Ykkonen"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-73788ff7f8b1",
     "slug": "kt-wiz-suwon-vence-ssg-landers-por-3-a-3-na-kbo-73788f",
     "sportId": "beisebol",
@@ -12554,48 +12596,6 @@
       "retrievedAt": "2026-08-19T18:17:45.284Z",
       "feedId": "basquete",
       "league": "International Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-f57afba53e7c",
-    "slug": "ofk-bor-e-vozdovac-ficam-no-0-a-0-pela-prva-liga-f57afb",
-    "sportId": "futebol",
-    "title": "OFK Bor e Vozdovac ficam no 0 a 0 pela Prva Liga",
-    "summary": "OFK Bor e Vozdovac empataram por 0 a 0 pela Prva Liga.",
-    "content": "OFK Bor e Vozdovac empataram por 0 a 0 pela Prva Liga, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "prva-liga"
-    ],
-    "seoTitle": "OFK Bor e Vozdovac ficam no 0 a 0 pela Prva Liga",
-    "seoDescription": "OFK Bor e Vozdovac empataram por 0 a 0 pela Prva Liga.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T18:17:45.276Z",
-    "createdAt": "2026-08-19T18:17:45.276Z",
-    "updatedAt": "2026-08-19T18:17:45.276Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4738265",
-      "eventStartTime": "2026-08-19T17:00:00+00:00",
-      "retrievedAt": "2026-08-19T18:17:45.276Z",
-      "feedId": "futebol",
-      "league": "Prva Liga"
     },
     "articleFormat": "result-brief"
   }
