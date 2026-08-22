@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-741ec19f899f",
+    "slug": "cleveland-guardians-vence-colorado-rockies-por-9-a-1-na-mlb-741ec1",
+    "sportId": "beisebol",
+    "title": "Cleveland Guardians vence Colorado Rockies por 9 a 1 na MLB",
+    "summary": "Cleveland Guardians derrotou Colorado Rockies por 9 a 1 na MLB.",
+    "content": "Cleveland Guardians derrotou Colorado Rockies por 9 a 1 na MLB, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Cleveland Guardians vence Colorado Rockies por 9 a 1 na MLB",
+    "seoDescription": "Cleveland Guardians derrotou Colorado Rockies por 9 a 1 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T04:56:07.511Z",
+    "createdAt": "2026-08-22T04:56:07.511Z",
+    "updatedAt": "2026-08-22T04:56:07.511Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614721",
+      "eventStartTime": "2026-08-22T00:40:00+00:00",
+      "retrievedAt": "2026-08-22T04:56:07.511Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-3c93186480f3",
+    "slug": "atlanta-dream-vence-los-angeles-sparks-por-124-a-88-em-wnba-3c9318",
+    "sportId": "basquete",
+    "title": "Atlanta Dream vence Los Angeles Sparks por 124 a 88 em WNBA",
+    "summary": "Atlanta Dream superou Los Angeles Sparks por 124 a 88 em WNBA.",
+    "content": "Atlanta Dream superou Los Angeles Sparks por 124 a 88 em WNBA., em 20 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "wnba"
+    ],
+    "seoTitle": "Atlanta Dream vence Los Angeles Sparks por 124 a 88 em WNBA",
+    "seoDescription": "Atlanta Dream superou Los Angeles Sparks por 124 a 88 em WNBA.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T04:56:07.429Z",
+    "createdAt": "2026-08-22T04:56:07.429Z",
+    "updatedAt": "2026-08-22T04:56:07.429Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4659894",
+      "eventStartTime": "2026-08-21T02:00:00+00:00",
+      "retrievedAt": "2026-08-22T04:56:07.429Z",
+      "feedId": "basquete",
+      "league": "WNBA"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-95a7adebb76e",
+    "slug": "auckland-city-supera-central-coast-por-2-a-0-pela-ofc-champions-league-95a7ad",
+    "sportId": "futebol",
+    "title": "Auckland City supera Central Coast por 2 a 0 pela OFC Champions League",
+    "summary": "Auckland City venceu Central Coast por 2 a 0 pela OFC Champions League.",
+    "content": "Auckland City venceu Central Coast por 2 a 0 pela OFC Champions League, em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ofc-champions-league"
+    ],
+    "seoTitle": "Auckland City supera Central Coast por 2 a 0 pela OFC Champions League",
+    "seoDescription": "Auckland City venceu Central Coast por 2 a 0 pela OFC Champions League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T04:56:07.396Z",
+    "createdAt": "2026-08-22T04:56:07.396Z",
+    "updatedAt": "2026-08-22T04:56:07.396Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4818913",
+      "eventStartTime": "2026-08-22T03:00:00+00:00",
+      "retrievedAt": "2026-08-22T04:56:07.396Z",
+      "feedId": "futebol",
+      "league": "OFC Champions League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-5c79f73b950b",
     "slug": "toros-de-tijuana-vence-charros-de-jalisco-por-2-a-1-na-lmb-5c79f7",
     "sportId": "beisebol",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-19T10:52:15.092Z",
       "feedId": "futebol",
       "league": "Emperors Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-07e39cac1ae9",
-    "slug": "ribeiro-e-soto-m-vence-j-paul-m-vocel-por-2-a-0-em-prague-07e39c",
-    "sportId": "tenis",
-    "title": "Ribeiro E./Soto M. vence J. Paul / M. Vocel por 2 a 0 em Prague",
-    "summary": "Ribeiro E./Soto M. superou J. Paul / M. Vocel por 2 a 0 em Prague.",
-    "content": "Ribeiro E./Soto M. superou J. Paul / M. Vocel por 2 a 0 em Prague., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Ribeiro E./Soto M. vence J. Paul / M. Vocel por 2 a 0 em Prague",
-    "seoDescription": "Ribeiro E./Soto M. superou J. Paul / M. Vocel por 2 a 0 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T10:17:38.598Z",
-    "createdAt": "2026-08-19T10:17:38.598Z",
-    "updatedAt": "2026-08-19T10:17:38.598Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816538",
-      "eventStartTime": "2026-08-19T08:03:51+00:00",
-      "retrievedAt": "2026-08-19T10:17:38.598Z",
-      "feedId": "tenis",
-      "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-716b3cec007d",
-    "slug": "azul-claro-numazu-supera-arterivo-wakayama-por-6-a-0-pelo-emperors-cup-716b3c",
-    "sportId": "futebol",
-    "title": "Azul Claro Numazu supera Arterivo Wakayama por 6 a 0 pelo Emperors Cup",
-    "summary": "Azul Claro Numazu venceu Arterivo Wakayama por 6 a 0 pelo Emperors Cup.",
-    "content": "Azul Claro Numazu venceu Arterivo Wakayama por 6 a 0 pelo Emperors Cup, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "emperors-cup"
-    ],
-    "seoTitle": "Azul Claro Numazu supera Arterivo Wakayama por 6 a 0 pelo Emperors Cup",
-    "seoDescription": "Azul Claro Numazu venceu Arterivo Wakayama por 6 a 0 pelo Emperors Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T10:17:38.566Z",
-    "createdAt": "2026-08-19T10:17:38.566Z",
-    "updatedAt": "2026-08-19T10:17:38.566Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4735607",
-      "eventStartTime": "2026-08-19T08:00:00+00:00",
-      "retrievedAt": "2026-08-19T10:17:38.566Z",
-      "feedId": "futebol",
-      "league": "Emperors Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1589306ed522",
-    "slug": "dominik-recek-daniel-siniakov-vence-kielan-s-vega-hernandez-d-por-2-a-1-em-prague-158930",
-    "sportId": "tenis",
-    "title": "Dominik Recek / Daniel Siniakov vence Kielan S./Vega Hernandez D. por 2 a 1 em Prague",
-    "summary": "Dominik Recek / Daniel Siniakov superou Kielan S./Vega Hernandez D. por 2 a 1 em Prague.",
-    "content": "Dominik Recek / Daniel Siniakov superou Kielan S./Vega Hernandez D. por 2 a 1 em Prague., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "prague"
-    ],
-    "seoTitle": "Dominik Recek / Daniel Siniakov vence Kielan S./Vega Hernandez D. por",
-    "seoDescription": "Dominik Recek / Daniel Siniakov superou Kielan S./Vega Hernandez D. por 2 a 1 em Prague.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T09:46:46.629Z",
-    "createdAt": "2026-08-19T09:46:46.629Z",
-    "updatedAt": "2026-08-19T09:46:46.629Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816544",
-      "eventStartTime": "2026-08-19T08:06:23+00:00",
-      "retrievedAt": "2026-08-19T09:46:46.629Z",
-      "feedId": "tenis",
-      "league": "Prague"
     },
     "articleFormat": "result-brief"
   }
