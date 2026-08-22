@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-77e3613217c7",
+    "slug": "drita-e-prishtina-ficam-no-0-a-0-pela-superliga-77e361",
+    "sportId": "futebol",
+    "title": "Drita e Prishtina ficam no 0 a 0 pela Superliga",
+    "summary": "Drita e Prishtina empataram por 0 a 0 pela Superliga.",
+    "content": "Drita e Prishtina empataram por 0 a 0 pela Superliga, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "superliga"
+    ],
+    "seoTitle": "Drita e Prishtina ficam no 0 a 0 pela Superliga",
+    "seoDescription": "Drita e Prishtina empataram por 0 a 0 pela Superliga.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T14:58:52.015Z",
+    "createdAt": "2026-08-22T14:58:52.015Z",
+    "updatedAt": "2026-08-22T14:58:52.015Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4815941",
+      "eventStartTime": "2026-08-22T14:30:00+00:00",
+      "retrievedAt": "2026-08-22T14:58:52.015Z",
+      "feedId": "futebol",
+      "league": "Superliga"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-35916a48c8b5",
     "slug": "fc-thun-e-servette-fc-ficam-no-0-a-0-pelo-super-league-35916a",
     "sportId": "futebol",
@@ -12554,48 +12596,6 @@
       "retrievedAt": "2026-08-19T19:26:04.111Z",
       "feedId": "tenis",
       "league": "Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-e899fb268980",
-    "slug": "mitteldeutscher-vence-basketball-lowen-braunschweig-por-88-a-78-em-club-friendlies-e899fb",
-    "sportId": "basquete",
-    "title": "Mitteldeutscher vence Basketball Lowen Braunschweig por 88 a 78 em Club Friendlies",
-    "summary": "Mitteldeutscher superou Basketball Lowen Braunschweig por 88 a 78 em Club Friendlies.",
-    "content": "Mitteldeutscher superou Basketball Lowen Braunschweig por 88 a 78 em Club Friendlies., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "Mitteldeutscher vence Basketball Lowen Braunschweig por 88 a 78 em",
-    "seoDescription": "Mitteldeutscher superou Basketball Lowen Braunschweig por 88 a 78 em Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T19:26:04.107Z",
-    "createdAt": "2026-08-19T19:26:04.107Z",
-    "updatedAt": "2026-08-19T19:26:04.107Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4817021",
-      "eventStartTime": "2026-08-19T17:00:00+00:00",
-      "retrievedAt": "2026-08-19T19:26:04.107Z",
-      "feedId": "basquete",
-      "league": "Club Friendlies"
     },
     "articleFormat": "result-brief"
   }
