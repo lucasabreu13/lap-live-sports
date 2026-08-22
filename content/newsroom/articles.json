@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-93243a1187b5",
+    "slug": "miami-marlins-vence-washington-nationals-por-3-a-2-na-mlb-93243a",
+    "sportId": "beisebol",
+    "title": "Miami Marlins vence Washington Nationals por 3 a 2 na MLB",
+    "summary": "Miami Marlins derrotou Washington Nationals por 3 a 2 na MLB.",
+    "content": "Miami Marlins derrotou Washington Nationals por 3 a 2 na MLB, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "Miami Marlins vence Washington Nationals por 3 a 2 na MLB",
+    "seoDescription": "Miami Marlins derrotou Washington Nationals por 3 a 2 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T06:20:10.679Z",
+    "createdAt": "2026-08-22T06:20:10.679Z",
+    "updatedAt": "2026-08-22T06:20:10.679Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614606",
+      "eventStartTime": "2026-08-21T23:10:00+00:00",
+      "retrievedAt": "2026-08-22T06:20:10.679Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-f3eb20d8d2e9",
+    "slug": "toluca-supera-queretaro-por-2-a-1-pela-liga-mx-f3eb20",
+    "sportId": "futebol",
+    "title": "Toluca supera Queretaro por 2 a 1 pela Liga MX",
+    "summary": "Toluca venceu Queretaro por 2 a 1 pela Liga MX.",
+    "content": "Toluca venceu Queretaro por 2 a 1 pela Liga MX, em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-mx"
+    ],
+    "seoTitle": "Toluca supera Queretaro por 2 a 1 pela Liga MX",
+    "seoDescription": "Toluca venceu Queretaro por 2 a 1 pela Liga MX.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T06:20:10.580Z",
+    "createdAt": "2026-08-22T06:20:10.580Z",
+    "updatedAt": "2026-08-22T06:20:10.580Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4735725",
+      "eventStartTime": "2026-08-22T03:00:00+00:00",
+      "retrievedAt": "2026-08-22T06:20:10.580Z",
+      "feedId": "futebol",
+      "league": "Liga MX"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-ee6ce5da4929",
     "slug": "los-angeles-dodgers-vence-pittsburgh-pirates-por-5-a-4-na-mlb-ee6ce5",
     "sportId": "beisebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T11:59:09.793Z",
       "feedId": "tenis",
       "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8b084bec9644",
-    "slug": "fukushima-united-supera-oyama-sc-por-7-a-0-pelo-emperors-cup-8b084b",
-    "sportId": "futebol",
-    "title": "Fukushima United supera Oyama Sc por 7 a 0 pelo Emperors Cup",
-    "summary": "Fukushima United venceu Oyama Sc por 7 a 0 pelo Emperors Cup.",
-    "content": "Fukushima United venceu Oyama Sc por 7 a 0 pelo Emperors Cup, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "emperors-cup"
-    ],
-    "seoTitle": "Fukushima United supera Oyama Sc por 7 a 0 pelo Emperors Cup",
-    "seoDescription": "Fukushima United venceu Oyama Sc por 7 a 0 pelo Emperors Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T11:59:09.739Z",
-    "createdAt": "2026-08-19T11:59:09.739Z",
-    "updatedAt": "2026-08-19T11:59:09.739Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4796661",
-      "eventStartTime": "2026-08-19T10:00:00+00:00",
-      "retrievedAt": "2026-08-19T11:59:09.739Z",
-      "feedId": "futebol",
-      "league": "Emperors Cup"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-85a5f708c6f0",
-    "slug": "felix-auger-aliassime-vence-juan-manuel-cerundolo-por-2-a-0-em-cincinnati-85a5f7",
-    "sportId": "tenis",
-    "title": "Felix Auger Aliassime vence Juan Manuel Cerundolo por 2 a 0 em Cincinnati",
-    "summary": "Felix Auger Aliassime superou Juan Manuel Cerundolo por 2 a 0 em Cincinnati.",
-    "content": "Felix Auger Aliassime superou Juan Manuel Cerundolo por 2 a 0 em Cincinnati., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Felix Auger Aliassime vence Juan Manuel Cerundolo por 2 a 0 em",
-    "seoDescription": "Felix Auger Aliassime superou Juan Manuel Cerundolo por 2 a 0 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T11:41:28.778Z",
-    "createdAt": "2026-08-19T11:41:28.778Z",
-    "updatedAt": "2026-08-19T11:41:28.778Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816169",
-      "eventStartTime": "2026-08-18T23:12:42+00:00",
-      "retrievedAt": "2026-08-19T11:41:28.778Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
     },
     "articleFormat": "result-brief"
   }
