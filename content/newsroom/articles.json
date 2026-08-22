@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-f896eda39aad",
+    "slug": "coco-gauff-vence-marta-kostyuk-por-2-a-0-em-cincinnati-f896ed",
+    "sportId": "tenis",
+    "title": "Coco Gauff vence Marta Kostyuk por 2 a 0 em Cincinnati",
+    "summary": "Coco Gauff superou Marta Kostyuk por 2 a 0 em Cincinnati.",
+    "content": "Coco Gauff superou Marta Kostyuk por 2 a 0 em Cincinnati., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "cincinnati"
+    ],
+    "seoTitle": "Coco Gauff vence Marta Kostyuk por 2 a 0 em Cincinnati",
+    "seoDescription": "Coco Gauff superou Marta Kostyuk por 2 a 0 em Cincinnati.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T03:05:24.399Z",
+    "createdAt": "2026-08-22T03:05:24.399Z",
+    "updatedAt": "2026-08-22T03:05:24.399Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4819530",
+      "eventStartTime": "2026-08-22T01:48:08+00:00",
+      "retrievedAt": "2026-08-22T03:05:24.399Z",
+      "feedId": "tenis",
+      "league": "Cincinnati"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-b4a14cda54c8",
+    "slug": "deportivo-san-jose-vence-olimpia-por-95-a-91-em-lnb-b4a14c",
+    "sportId": "basquete",
+    "title": "Deportivo San Jose vence Olimpia por 95 a 91 em LNB",
+    "summary": "Deportivo San Jose superou Olimpia por 95 a 91 em LNB.",
+    "content": "Deportivo San Jose superou Olimpia por 95 a 91 em LNB., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "lnb"
+    ],
+    "seoTitle": "Deportivo San Jose vence Olimpia por 95 a 91 em LNB",
+    "seoDescription": "Deportivo San Jose superou Olimpia por 95 a 91 em LNB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T03:05:24.395Z",
+    "createdAt": "2026-08-22T03:05:24.395Z",
+    "updatedAt": "2026-08-22T03:05:24.395Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4810154",
+      "eventStartTime": "2026-08-22T00:00:00+00:00",
+      "retrievedAt": "2026-08-22T03:05:24.395Z",
+      "feedId": "basquete",
+      "league": "LNB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-984ec21b99d8",
+    "slug": "carolina-panthers-vence-jacksonville-jaguars-por-34-a-17-em-nfl-984ec2",
+    "sportId": "futebol-americano",
+    "title": "Carolina Panthers vence Jacksonville Jaguars por 34 a 17 em NFL",
+    "summary": "Carolina Panthers superou Jacksonville Jaguars por 34 a 17 em NFL.",
+    "content": "Carolina Panthers superou Jacksonville Jaguars por 34 a 17 em NFL., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": "/images/sports/futebol-americano.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Carolina Panthers vence Jacksonville Jaguars por 34 a 17 em NFL",
+    "seoDescription": "Carolina Panthers superou Jacksonville Jaguars por 34 a 17 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T03:05:24.390Z",
+    "createdAt": "2026-08-22T03:05:24.390Z",
+    "updatedAt": "2026-08-22T03:05:24.390Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714919",
+      "eventStartTime": "2026-08-21T23:30:00+00:00",
+      "retrievedAt": "2026-08-22T03:05:24.390Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8623e8d2653f",
+    "slug": "upper-hutt-city-supera-fc-western-por-3-a-0-pelo-national-league-8623e8",
+    "sportId": "futebol",
+    "title": "Upper Hutt City supera FC Western por 3 a 0 pelo National League",
+    "summary": "Upper Hutt City venceu FC Western por 3 a 0 pelo National League.",
+    "content": "Upper Hutt City venceu FC Western por 3 a 0 pelo National League, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "national-league"
+    ],
+    "seoTitle": "Upper Hutt City supera FC Western por 3 a 0 pelo National League",
+    "seoDescription": "Upper Hutt City venceu FC Western por 3 a 0 pelo National League.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T03:05:24.383Z",
+    "createdAt": "2026-08-22T03:05:24.383Z",
+    "updatedAt": "2026-08-22T03:05:24.383Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4678844",
+      "eventStartTime": "2026-08-22T01:00:00+00:00",
+      "retrievedAt": "2026-08-22T03:05:24.383Z",
+      "feedId": "futebol",
+      "league": "National League"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-624d731223e5",
     "slug": "baltimore-orioles-vence-tampa-bay-rays-por-5-a-3-na-mlb-624d73",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-19T07:02:51.494Z",
       "feedId": "beisebol",
       "league": "MLB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-1dbd648fd826",
-    "slug": "alexei-popyrin-vence-francesco-maestrelli-por-2-a-0-em-quebec-city-1dbd64",
-    "sportId": "tenis",
-    "title": "Alexei Popyrin vence Francesco Maestrelli por 2 a 0 em Quebec City",
-    "summary": "Alexei Popyrin superou Francesco Maestrelli por 2 a 0 em Quebec City.",
-    "content": "Alexei Popyrin superou Francesco Maestrelli por 2 a 0 em Quebec City., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "quebec-city"
-    ],
-    "seoTitle": "Alexei Popyrin vence Francesco Maestrelli por 2 a 0 em Quebec City",
-    "seoDescription": "Alexei Popyrin superou Francesco Maestrelli por 2 a 0 em Quebec City.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T07:02:51.482Z",
-    "createdAt": "2026-08-19T07:02:51.482Z",
-    "updatedAt": "2026-08-19T07:02:51.482Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816186",
-      "eventStartTime": "2026-08-18T22:42:45+00:00",
-      "retrievedAt": "2026-08-19T07:02:51.482Z",
-      "feedId": "tenis",
-      "league": " Quebec City"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-dd723ebbfd50",
-    "slug": "independiente-del-valle-supera-deportes-tolima-por-1-a-0-pelo-conmebol-libertadore-dd723e",
-    "sportId": "futebol",
-    "title": "Independiente del Valle supera Deportes Tolima por 1 a 0 pelo CONMEBOL Libertadores",
-    "summary": "Independiente del Valle venceu Deportes Tolima por 1 a 0 pelo CONMEBOL Libertadores.",
-    "content": "Independiente del Valle venceu Deportes Tolima por 1 a 0 pelo CONMEBOL Libertadores, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "conmebol-libertadores"
-    ],
-    "seoTitle": "Independiente del Valle supera Deportes Tolima por 1 a 0 pelo CONMEBOL",
-    "seoDescription": "Independiente del Valle venceu Deportes Tolima por 1 a 0 pelo CONMEBOL Libertadores.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T07:02:51.449Z",
-    "createdAt": "2026-08-19T07:02:51.449Z",
-    "updatedAt": "2026-08-19T07:02:51.449Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4728059",
-      "eventStartTime": "2026-08-19T00:30:00+00:00",
-      "retrievedAt": "2026-08-19T07:02:51.449Z",
-      "feedId": "futebol",
-      "league": "CONMEBOL Libertadores"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-5e8ed568d286",
-    "slug": "toros-de-tijuana-vence-charros-de-jalisco-por-4-a-0-na-lmb-5e8ed5",
-    "sportId": "beisebol",
-    "title": "Toros de Tijuana vence Charros de Jalisco por 4 a 0 na LMB",
-    "summary": "Toros de Tijuana derrotou Charros de Jalisco por 4 a 0 na LMB.",
-    "content": "Toros de Tijuana derrotou Charros de Jalisco por 4 a 0 na LMB, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "lmb"
-    ],
-    "seoTitle": "Toros de Tijuana vence Charros de Jalisco por 4 a 0 na LMB",
-    "seoDescription": "Toros de Tijuana derrotou Charros de Jalisco por 4 a 0 na LMB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T06:02:26.090Z",
-    "createdAt": "2026-08-19T06:02:26.090Z",
-    "updatedAt": "2026-08-19T06:02:26.090Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816777",
-      "eventStartTime": "2026-08-19T02:35:00+00:00",
-      "retrievedAt": "2026-08-19T06:02:26.090Z",
-      "feedId": "beisebol",
-      "league": "LMB"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-698d0b678aa3",
-    "slug": "kavcic-b-purcell-m-vence-banthia-s-kadhe-a-por-2-a-0-em-kingston-698d0b",
-    "sportId": "tenis",
-    "title": "Kavcic B./Purcell M. vence Banthia S./Kadhe A. por 2 a 0 em Kingston",
-    "summary": "Kavcic B./Purcell M. superou Banthia S./Kadhe A. por 2 a 0 em Kingston.",
-    "content": "Kavcic B./Purcell M. superou Banthia S./Kadhe A. por 2 a 0 em Kingston., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Kavcic B./Purcell M. vence Banthia S./Kadhe A. por 2 a 0 em Kingston",
-    "seoDescription": "Kavcic B./Purcell M. superou Banthia S./Kadhe A. por 2 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T06:02:26.088Z",
-    "createdAt": "2026-08-19T06:02:26.088Z",
-    "updatedAt": "2026-08-19T06:02:26.088Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816530",
-      "eventStartTime": "2026-08-18T22:58:33+00:00",
-      "retrievedAt": "2026-08-19T06:02:26.088Z",
-      "feedId": "tenis",
-      "league": "Kingston"
     },
     "articleFormat": "result-brief"
   }
