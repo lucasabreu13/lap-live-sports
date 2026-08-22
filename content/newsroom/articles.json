@@ -1,5 +1,47 @@
 [
   {
+    "id": "newsroom-data-950fb8bbf90b",
+    "slug": "leon-w-supera-monterrey-w-por-3-a-2-pela-liga-mx-femenil-950fb8",
+    "sportId": "futebol",
+    "title": "Leon (W) supera Monterrey (W) por 3 a 2 pela Liga MX Femenil",
+    "summary": "Leon (W) venceu Monterrey (W) por 3 a 2 pela Liga MX Femenil.",
+    "content": "Leon (W) venceu Monterrey (W) por 3 a 2 pela Liga MX Femenil, em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-mx-femenil"
+    ],
+    "seoTitle": "Leon (W) supera Monterrey (W) por 3 a 2 pela Liga MX Femenil",
+    "seoDescription": "Leon (W) venceu Monterrey (W) por 3 a 2 pela Liga MX Femenil.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T09:01:37.694Z",
+    "createdAt": "2026-08-22T09:01:37.694Z",
+    "updatedAt": "2026-08-22T09:01:37.694Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4788418",
+      "eventStartTime": "2026-08-22T03:00:00+00:00",
+      "retrievedAt": "2026-08-22T09:01:37.694Z",
+      "feedId": "futebol",
+      "league": "Liga MX Femenil"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-532cd3d54b25",
     "slug": "fukuoka-hawks-vence-orix-buffaloes-por-7-a-1-na-npb-532cd3",
     "sportId": "beisebol",
@@ -12554,48 +12596,6 @@
       "retrievedAt": "2026-08-19T15:29:45.374Z",
       "feedId": "basquete",
       "league": "Liga Nacional"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-ec8116b35fa0",
-    "slug": "olimp-comrat-e-fc-balti-ficam-no-0-a-0-pelo-cupa-ec8116",
-    "sportId": "futebol",
-    "title": "Olimp Comrat e FC Balti ficam no 0 a 0 pelo Cupa",
-    "summary": "Olimp Comrat e FC Balti empataram por 0 a 0 pelo Cupa.",
-    "content": "Olimp Comrat e FC Balti empataram por 0 a 0 pelo Cupa, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "cupa"
-    ],
-    "seoTitle": "Olimp Comrat e FC Balti ficam no 0 a 0 pelo Cupa",
-    "seoDescription": "Olimp Comrat e FC Balti empataram por 0 a 0 pelo Cupa.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T15:29:45.363Z",
-    "createdAt": "2026-08-19T15:29:45.363Z",
-    "updatedAt": "2026-08-19T15:29:45.363Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4804800",
-      "eventStartTime": "2026-08-19T14:00:00+00:00",
-      "retrievedAt": "2026-08-19T15:29:45.363Z",
-      "feedId": "futebol",
-      "league": "Cupa"
     },
     "articleFormat": "result-brief"
   }
