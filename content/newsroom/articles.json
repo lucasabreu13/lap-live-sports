@@ -1,5 +1,89 @@
 [
   {
+    "id": "newsroom-data-532cd3d54b25",
+    "slug": "fukuoka-hawks-vence-orix-buffaloes-por-7-a-1-na-npb-532cd3",
+    "sportId": "beisebol",
+    "title": "Fukuoka Hawks vence Orix Buffaloes por 7 a 1 na NPB",
+    "summary": "Fukuoka Hawks derrotou Orix Buffaloes por 7 a 1 na NPB.",
+    "content": "Fukuoka Hawks derrotou Orix Buffaloes por 7 a 1 na NPB, em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "npb"
+    ],
+    "seoTitle": "Fukuoka Hawks vence Orix Buffaloes por 7 a 1 na NPB",
+    "seoDescription": "Fukuoka Hawks derrotou Orix Buffaloes por 7 a 1 na NPB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T08:31:49.616Z",
+    "createdAt": "2026-08-22T08:31:49.616Z",
+    "updatedAt": "2026-08-22T08:31:49.616Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4627286",
+      "eventStartTime": "2026-08-22T05:00:00+00:00",
+      "retrievedAt": "2026-08-22T08:31:49.616Z",
+      "feedId": "beisebol",
+      "league": "NPB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-6b89288730ac",
+    "slug": "atletico-la-paz-e-cruz-azul-hidalgo-ficam-no-1-a-1-pela-liga-de-expansion-6b8928",
+    "sportId": "futebol",
+    "title": "Atletico La Paz e Cruz Azul Hidalgo ficam no 1 a 1 pela Liga de Expansión",
+    "summary": "Atletico La Paz e Cruz Azul Hidalgo empataram por 1 a 1 pela Liga de Expansión.",
+    "content": "Atletico La Paz e Cruz Azul Hidalgo empataram por 1 a 1 pela Liga de Expansión, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "liga-de-expansion"
+    ],
+    "seoTitle": "Atletico La Paz e Cruz Azul Hidalgo ficam no 1 a 1 pela Liga de",
+    "seoDescription": "Atletico La Paz e Cruz Azul Hidalgo empataram por 1 a 1 pela Liga de Expansión.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T08:31:49.497Z",
+    "createdAt": "2026-08-22T08:31:49.497Z",
+    "updatedAt": "2026-08-22T08:31:49.497Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4761055",
+      "eventStartTime": "2026-08-22T03:00:00+00:00",
+      "retrievedAt": "2026-08-22T08:31:49.497Z",
+      "feedId": "futebol",
+      "league": "Liga de Expansión"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-60e11714d32b",
     "slug": "new-york-yankees-vence-baltimore-orioles-por-6-a-1-na-mlb-60e117",
     "sportId": "beisebol",
@@ -12512,90 +12596,6 @@
       "retrievedAt": "2026-08-19T15:29:45.363Z",
       "feedId": "futebol",
       "league": "Cupa"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-a73e36e6f66f",
-    "slug": "bonding-o-maxted-l-e-hands-t-summers-m-empatam-por-0-a-0-em-roehampton-a73e36",
-    "sportId": "tenis",
-    "title": "Bonding O./Maxted L. e Hands T./Summers M. empatam por 0 a 0 em Roehampton",
-    "summary": "Bonding O./Maxted L. e Hands T./Summers M. terminaram empatados por 0 a 0 em Roehampton.",
-    "content": "Bonding O./Maxted L. e Hands T./Summers M. terminaram empatados por 0 a 0 em Roehampton., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "roehampton"
-    ],
-    "seoTitle": "Bonding O./Maxted L. e Hands T./Summers M. empatam por 0 a 0 em",
-    "seoDescription": "Bonding O./Maxted L. e Hands T./Summers M. terminaram empatados por 0 a 0 em Roehampton.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T14:59:07.413Z",
-    "createdAt": "2026-08-19T14:59:07.413Z",
-    "updatedAt": "2026-08-19T14:59:07.413Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816535",
-      "eventStartTime": "2026-08-19T14:50:00+00:00",
-      "retrievedAt": "2026-08-19T14:59:07.413Z",
-      "feedId": "tenis",
-      "league": "Roehampton"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-d3fd240bb187",
-    "slug": "nestos-chrisoupolis-e-apollon-pontou-ficam-no-0-a-0-pelo-greece-cup-d3fd24",
-    "sportId": "futebol",
-    "title": "Nestos Chrisoupolis e Apollon Pontou ficam no 0 a 0 pelo Greece Cup",
-    "summary": "Nestos Chrisoupolis e Apollon Pontou empataram por 0 a 0 pelo Greece Cup.",
-    "content": "Nestos Chrisoupolis e Apollon Pontou empataram por 0 a 0 pelo Greece Cup, em 19 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "greece-cup"
-    ],
-    "seoTitle": "Nestos Chrisoupolis e Apollon Pontou ficam no 0 a 0 pelo Greece Cup",
-    "seoDescription": "Nestos Chrisoupolis e Apollon Pontou empataram por 0 a 0 pelo Greece Cup.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T14:59:07.392Z",
-    "createdAt": "2026-08-19T14:59:07.392Z",
-    "updatedAt": "2026-08-19T14:59:07.392Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4804041",
-      "eventStartTime": "2026-08-19T14:00:00+00:00",
-      "retrievedAt": "2026-08-19T14:59:07.392Z",
-      "feedId": "futebol",
-      "league": "Greece Cup"
     },
     "articleFormat": "result-brief"
   }
