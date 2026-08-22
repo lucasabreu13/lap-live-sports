@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-f0136c1cfb54",
+    "slug": "san-diego-padres-vence-minnesota-twins-por-6-a-2-na-mlb-f0136c",
+    "sportId": "beisebol",
+    "title": "San Diego Padres vence Minnesota Twins por 6 a 2 na MLB",
+    "summary": "San Diego Padres derrotou Minnesota Twins por 6 a 2 na MLB.",
+    "content": "San Diego Padres derrotou Minnesota Twins por 6 a 2 na MLB, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "mlb"
+    ],
+    "seoTitle": "San Diego Padres vence Minnesota Twins por 6 a 2 na MLB",
+    "seoDescription": "San Diego Padres derrotou Minnesota Twins por 6 a 2 na MLB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T03:53:12.728Z",
+    "createdAt": "2026-08-22T03:53:12.728Z",
+    "updatedAt": "2026-08-22T03:53:12.728Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4614836",
+      "eventStartTime": "2026-08-22T01:40:00+00:00",
+      "retrievedAt": "2026-08-22T03:53:12.728Z",
+      "feedId": "beisebol",
+      "league": "MLB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-aa7e3e803afb",
+    "slug": "kavcic-b-purcell-m-vence-falck-r-suarez-b-por-2-a-0-em-kingston-aa7e3e",
+    "sportId": "tenis",
+    "title": "Kavcic B./Purcell M. vence Falck R./Suarez B. por 2 a 0 em Kingston",
+    "summary": "Kavcic B./Purcell M. superou Falck R./Suarez B. por 2 a 0 em Kingston.",
+    "content": "Kavcic B./Purcell M. superou Falck R./Suarez B. por 2 a 0 em Kingston., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "kingston"
+    ],
+    "seoTitle": "Kavcic B./Purcell M. vence Falck R./Suarez B. por 2 a 0 em Kingston",
+    "seoDescription": "Kavcic B./Purcell M. superou Falck R./Suarez B. por 2 a 0 em Kingston.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T03:53:12.726Z",
+    "createdAt": "2026-08-22T03:53:12.726Z",
+    "updatedAt": "2026-08-22T03:53:12.726Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4820293",
+      "eventStartTime": "2026-08-21T20:13:20+00:00",
+      "retrievedAt": "2026-08-22T03:53:12.726Z",
+      "feedId": "tenis",
+      "league": "Kingston"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-5898e6291687",
+    "slug": "urupan-vence-verdirrojo-bbc-por-77-a-76-em-liga-de-ascenso-5898e6",
+    "sportId": "basquete",
+    "title": "Urupan vence Verdirrojo Bbc por 77 a 76 em Liga de ascenso",
+    "summary": "Urupan superou Verdirrojo Bbc por 77 a 76 em Liga de ascenso.",
+    "content": "Urupan superou Verdirrojo Bbc por 77 a 76 em Liga de ascenso., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Urupan vence Verdirrojo Bbc por 77 a 76 em Liga de ascenso",
+    "seoDescription": "Urupan superou Verdirrojo Bbc por 77 a 76 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T03:53:12.712Z",
+    "createdAt": "2026-08-22T03:53:12.712Z",
+    "updatedAt": "2026-08-22T03:53:12.712Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817063",
+      "eventStartTime": "2026-08-21T23:15:00+00:00",
+      "retrievedAt": "2026-08-22T03:53:12.712Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-8a87dd1f66c9",
+    "slug": "cd-arabe-unido-supera-sporting-san-miguelito-por-1-a-0-pelo-lpf-8a87dd",
+    "sportId": "futebol",
+    "title": "CD Árabe Unido supera Sporting San Miguelito por 1 a 0 pelo Lpf",
+    "summary": "CD Árabe Unido venceu Sporting San Miguelito por 1 a 0 pelo Lpf.",
+    "content": "CD Árabe Unido venceu Sporting San Miguelito por 1 a 0 pelo Lpf, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "lpf"
+    ],
+    "seoTitle": "CD Árabe Unido supera Sporting San Miguelito por 1 a 0 pelo Lpf",
+    "seoDescription": "CD Árabe Unido venceu Sporting San Miguelito por 1 a 0 pelo Lpf.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T03:53:12.696Z",
+    "createdAt": "2026-08-22T03:53:12.696Z",
+    "updatedAt": "2026-08-22T03:53:12.696Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4773295",
+      "eventStartTime": "2026-08-22T01:30:00+00:00",
+      "retrievedAt": "2026-08-22T03:53:12.696Z",
+      "feedId": "futebol",
+      "league": "Lpf"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-f896eda39aad",
     "slug": "coco-gauff-vence-marta-kostyuk-por-2-a-0-em-cincinnati-f896ed",
     "sportId": "tenis",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-19T08:22:35.327Z",
       "feedId": "tenis",
       "league": "Cancun"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-58e06f901b99",
-    "slug": "banfield-e-ferrocarril-midland-ficam-no-2-a-2-pela-copa-argentina-58e06f",
-    "sportId": "futebol",
-    "title": "Banfield e Ferrocarril Midland ficam no 2 a 2 pela Copa Argentina",
-    "summary": "Banfield e Ferrocarril Midland empataram por 2 a 2 pela Copa Argentina.",
-    "content": "Banfield e Ferrocarril Midland empataram por 2 a 2 pela Copa Argentina, em 18 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-argentina"
-    ],
-    "seoTitle": "Banfield e Ferrocarril Midland ficam no 2 a 2 pela Copa Argentina",
-    "seoDescription": "Banfield e Ferrocarril Midland empataram por 2 a 2 pela Copa Argentina.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T08:22:35.280Z",
-    "createdAt": "2026-08-19T08:22:35.280Z",
-    "updatedAt": "2026-08-19T08:22:35.280Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4712799",
-      "eventStartTime": "2026-08-19T00:15:00+00:00",
-      "retrievedAt": "2026-08-19T08:22:35.280Z",
-      "feedId": "futebol",
-      "league": "Copa Argentina"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-91bc9cbc09a2",
-    "slug": "sara-bejlek-vence-ekaterina-alexandrova-por-2-a-1-em-cincinnati-91bc9c",
-    "sportId": "tenis",
-    "title": "Sara Bejlek vence Ekaterina Alexandrova por 2 a 1 em Cincinnati",
-    "summary": "Sara Bejlek superou Ekaterina Alexandrova por 2 a 1 em Cincinnati.",
-    "content": "Sara Bejlek superou Ekaterina Alexandrova por 2 a 1 em Cincinnati., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Sara Bejlek vence Ekaterina Alexandrova por 2 a 1 em Cincinnati",
-    "seoDescription": "Sara Bejlek superou Ekaterina Alexandrova por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T07:51:27.131Z",
-    "createdAt": "2026-08-19T07:51:27.131Z",
-    "updatedAt": "2026-08-19T07:51:27.131Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816168",
-      "eventStartTime": "2026-08-18T21:15:37+00:00",
-      "retrievedAt": "2026-08-19T07:51:27.131Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8414f66e1596",
-    "slug": "sao-paulo-supera-bolivar-por-3-a-1-pelo-conmebol-sudamericana-8414f6",
-    "sportId": "futebol",
-    "title": "São Paulo supera Bolívar por 3 a 1 pelo CONMEBOL Sudamericana",
-    "summary": "São Paulo venceu Bolívar por 3 a 1 pelo CONMEBOL Sudamericana.",
-    "content": "São Paulo venceu Bolívar por 3 a 1 pelo CONMEBOL Sudamericana, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "conmebol-sudamericana"
-    ],
-    "seoTitle": "São Paulo supera Bolívar por 3 a 1 pelo CONMEBOL Sudamericana",
-    "seoDescription": "São Paulo venceu Bolívar por 3 a 1 pelo CONMEBOL Sudamericana.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T07:51:27.085Z",
-    "createdAt": "2026-08-19T07:51:27.085Z",
-    "updatedAt": "2026-08-19T07:51:27.085Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4800504",
-      "eventStartTime": "2026-08-19T00:30:00+00:00",
-      "retrievedAt": "2026-08-19T07:51:27.085Z",
-      "feedId": "futebol",
-      "league": "CONMEBOL Sudamericana"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-01489f18b79b",
-    "slug": "new-york-yankees-vence-baltimore-orioles-por-3-a-1-na-mlb-01489f",
-    "sportId": "beisebol",
-    "title": "New York Yankees vence Baltimore Orioles por 3 a 1 na MLB",
-    "summary": "New York Yankees derrotou Baltimore Orioles por 3 a 1 na MLB.",
-    "content": "New York Yankees derrotou Baltimore Orioles por 3 a 1 na MLB, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
-    "coverImageUrl": "/images/sports/beisebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · MLB",
-    "tags": [
-      "mlb",
-      "resultado",
-      "mlb"
-    ],
-    "seoTitle": "New York Yankees vence Baltimore Orioles por 3 a 1 na MLB",
-    "seoDescription": "New York Yankees derrotou Baltimore Orioles por 3 a 1 na MLB.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T07:02:51.494Z",
-    "createdAt": "2026-08-19T07:02:51.494Z",
-    "updatedAt": "2026-08-19T07:02:51.494Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "beisebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/beisebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4614770",
-      "eventStartTime": "2026-08-18T22:35:00+00:00",
-      "retrievedAt": "2026-08-19T07:02:51.494Z",
-      "feedId": "beisebol",
-      "league": "MLB"
     },
     "articleFormat": "result-brief"
   }
