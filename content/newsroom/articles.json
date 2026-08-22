@@ -1,5 +1,131 @@
 [
   {
+    "id": "newsroom-data-2e521a9ab6d3",
+    "slug": "darja-vidmanova-vence-caroline-werner-por-2-a-0-em-monterrey-2e521a",
+    "sportId": "tenis",
+    "title": "Darja Vidmanova vence Caroline Werner por 2 a 0 em Monterrey",
+    "summary": "Darja Vidmanova superou Caroline Werner por 2 a 0 em Monterrey.",
+    "content": "Darja Vidmanova superou Caroline Werner por 2 a 0 em Monterrey., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
+    "coverImageUrl": "/images/sports/tenis.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Tênis",
+    "tags": [
+      "tenis",
+      "resultado",
+      "monterrey"
+    ],
+    "seoTitle": "Darja Vidmanova vence Caroline Werner por 2 a 0 em Monterrey",
+    "seoDescription": "Darja Vidmanova superou Caroline Werner por 2 a 0 em Monterrey.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T20:37:02.276Z",
+    "createdAt": "2026-08-22T20:37:02.276Z",
+    "updatedAt": "2026-08-22T20:37:02.276Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "tenis",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/tenis"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4821320",
+      "eventStartTime": "2026-08-22T19:08:34+00:00",
+      "retrievedAt": "2026-08-22T20:37:02.276Z",
+      "feedId": "tenis",
+      "league": "Monterrey"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-42fb6f064763",
+    "slug": "baltimore-ravens-vence-minnesota-vikings-por-13-a-3-em-nfl-42fb6f",
+    "sportId": "futebol-americano",
+    "title": "Baltimore Ravens vence Minnesota Vikings por 13 a 3 em NFL",
+    "summary": "Baltimore Ravens superou Minnesota Vikings por 13 a 3 em NFL.",
+    "content": "Baltimore Ravens superou Minnesota Vikings por 13 a 3 em NFL., em 22 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": "/images/sports/futebol-americano.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Baltimore Ravens vence Minnesota Vikings por 13 a 3 em NFL",
+    "seoDescription": "Baltimore Ravens superou Minnesota Vikings por 13 a 3 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T20:37:02.264Z",
+    "createdAt": "2026-08-22T20:37:02.264Z",
+    "updatedAt": "2026-08-22T20:37:02.264Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714926",
+      "eventStartTime": "2026-08-22T17:00:00+00:00",
+      "retrievedAt": "2026-08-22T20:37:02.264Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-7096a46732e9",
+    "slug": "ogc-nice-e-lorient-ficam-no-0-a-0-pelo-ligue-1-7096a4",
+    "sportId": "futebol",
+    "title": "OGC Nice e Lorient ficam no 0 a 0 pelo Ligue 1",
+    "summary": "OGC Nice e Lorient empataram por 0 a 0 pelo Ligue 1.",
+    "content": "OGC Nice e Lorient empataram por 0 a 0 pelo Ligue 1, em 22 de agosto de 2026. O resultado foi registrado como finalizado na cobertura ao vivo da LAP.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "ligue-1"
+    ],
+    "seoTitle": "OGC Nice e Lorient ficam no 0 a 0 pelo Ligue 1",
+    "seoDescription": "OGC Nice e Lorient empataram por 0 a 0 pelo Ligue 1.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T20:37:02.260Z",
+    "createdAt": "2026-08-22T20:37:02.260Z",
+    "updatedAt": "2026-08-22T20:37:02.260Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4735293",
+      "eventStartTime": "2026-08-22T18:45:00+00:00",
+      "retrievedAt": "2026-08-22T20:37:02.260Z",
+      "feedId": "futebol",
+      "league": "Ligue 1"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-b98c4c9ee10c",
     "slug": "moez-echargui-vence-moise-kouame-por-2-a-1-em-cancun-b98c4c",
     "sportId": "tenis",
@@ -12470,132 +12596,6 @@
       "retrievedAt": "2026-08-20T03:10:49.579Z",
       "feedId": "futebol",
       "league": "Primera B"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-86ec0e2e89f8",
-    "slug": "bouzkova-m-noskova-l-vence-dabrowski-g-krejcikova-b-por-2-a-1-em-cincinnati-86ec0e",
-    "sportId": "tenis",
-    "title": "Bouzkova M./Noskova L. vence Dabrowski G./Krejcikova B. por 2 a 1 em Cincinnati",
-    "summary": "Bouzkova M./Noskova L. superou Dabrowski G./Krejcikova B. por 2 a 1 em Cincinnati.",
-    "content": "Bouzkova M./Noskova L. superou Dabrowski G./Krejcikova B. por 2 a 1 em Cincinnati., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cincinnati"
-    ],
-    "seoTitle": "Bouzkova M./Noskova L. vence Dabrowski G./Krejcikova B. por 2 a 1 em",
-    "seoDescription": "Bouzkova M./Noskova L. superou Dabrowski G./Krejcikova B. por 2 a 1 em Cincinnati.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-20T02:15:24.467Z",
-    "createdAt": "2026-08-20T02:15:24.467Z",
-    "updatedAt": "2026-08-20T02:15:24.467Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816700",
-      "eventStartTime": "2026-08-20T00:57:45+00:00",
-      "retrievedAt": "2026-08-20T02:15:24.467Z",
-      "feedId": "tenis",
-      "league": "Cincinnati"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c98bcdf77790",
-    "slug": "club-malvin-w-vence-tabare-w-por-61-a-48-em-lfb-w-c98bcd",
-    "sportId": "basquete",
-    "title": "Club Malvin (W) vence Tabare (W) por 61 a 48 em LFB (W)",
-    "summary": "Club Malvin (W) superou Tabare (W) por 61 a 48 em LFB (W).",
-    "content": "Club Malvin (W) superou Tabare (W) por 61 a 48 em LFB (W)., em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
-    "coverImageUrl": "/images/sports/basquete.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · NBA",
-    "tags": [
-      "nba",
-      "resultado",
-      "lfb-w"
-    ],
-    "seoTitle": "Club Malvin (W) vence Tabare (W) por 61 a 48 em LFB (W)",
-    "seoDescription": "Club Malvin (W) superou Tabare (W) por 61 a 48 em LFB (W).",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-20T02:15:24.463Z",
-    "createdAt": "2026-08-20T02:15:24.463Z",
-    "updatedAt": "2026-08-20T02:15:24.463Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "basquete",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/basquete"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4815194",
-      "eventStartTime": "2026-08-20T00:15:00+00:00",
-      "retrievedAt": "2026-08-20T02:15:24.463Z",
-      "feedId": "basquete",
-      "league": "LFB (W)"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-97411dec7370",
-    "slug": "houston-dash-supera-chicago-stars-fc-por-5-a-0-pelo-nwsl-97411d",
-    "sportId": "futebol",
-    "title": "Houston Dash supera Chicago Stars FC por 5 a 0 pelo NWSL",
-    "summary": "Houston Dash venceu Chicago Stars FC por 5 a 0 pelo NWSL.",
-    "content": "Houston Dash venceu Chicago Stars FC por 5 a 0 pelo NWSL, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "nwsl"
-    ],
-    "seoTitle": "Houston Dash supera Chicago Stars FC por 5 a 0 pelo NWSL",
-    "seoDescription": "Houston Dash venceu Chicago Stars FC por 5 a 0 pelo NWSL.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-20T02:15:24.456Z",
-    "createdAt": "2026-08-20T02:15:24.456Z",
-    "updatedAt": "2026-08-20T02:15:24.456Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4653917",
-      "eventStartTime": "2026-08-20T00:00:00+00:00",
-      "retrievedAt": "2026-08-20T02:15:24.456Z",
-      "feedId": "futebol",
-      "league": "NWSL"
     },
     "articleFormat": "result-brief"
   }
