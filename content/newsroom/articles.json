@@ -1,5 +1,173 @@
 [
   {
+    "id": "newsroom-data-5c79f73b950b",
+    "slug": "toros-de-tijuana-vence-charros-de-jalisco-por-2-a-1-na-lmb-5c79f7",
+    "sportId": "beisebol",
+    "title": "Toros de Tijuana vence Charros de Jalisco por 2 a 1 na LMB",
+    "summary": "Toros de Tijuana derrotou Charros de Jalisco por 2 a 1 na LMB.",
+    "content": "Toros de Tijuana derrotou Charros de Jalisco por 2 a 1 na LMB, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/beisebol",
+    "coverImageUrl": "/images/sports/beisebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · MLB",
+    "tags": [
+      "mlb",
+      "resultado",
+      "lmb"
+    ],
+    "seoTitle": "Toros de Tijuana vence Charros de Jalisco por 2 a 1 na LMB",
+    "seoDescription": "Toros de Tijuana derrotou Charros de Jalisco por 2 a 1 na LMB.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T04:21:21.388Z",
+    "createdAt": "2026-08-22T04:21:21.388Z",
+    "updatedAt": "2026-08-22T04:21:21.388Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "beisebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/beisebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4816794",
+      "eventStartTime": "2026-08-22T01:30:00+00:00",
+      "retrievedAt": "2026-08-22T04:21:21.388Z",
+      "feedId": "beisebol",
+      "league": "LMB"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-907f023cff77",
+    "slug": "olimpia-vence-ca-stockolmo-por-83-a-66-em-liga-de-ascenso-907f02",
+    "sportId": "basquete",
+    "title": "Olimpia vence CA Stockolmo por 83 a 66 em Liga de ascenso",
+    "summary": "Olimpia superou CA Stockolmo por 83 a 66 em Liga de ascenso.",
+    "content": "Olimpia superou CA Stockolmo por 83 a 66 em Liga de ascenso., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/basquete",
+    "coverImageUrl": "/images/sports/basquete.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NBA",
+    "tags": [
+      "nba",
+      "resultado",
+      "liga-de-ascenso"
+    ],
+    "seoTitle": "Olimpia vence CA Stockolmo por 83 a 66 em Liga de ascenso",
+    "seoDescription": "Olimpia superou CA Stockolmo por 83 a 66 em Liga de ascenso.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T04:21:21.305Z",
+    "createdAt": "2026-08-22T04:21:21.305Z",
+    "updatedAt": "2026-08-22T04:21:21.305Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "basquete",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/basquete"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4817065",
+      "eventStartTime": "2026-08-21T23:15:00+00:00",
+      "retrievedAt": "2026-08-22T04:21:21.305Z",
+      "feedId": "basquete",
+      "league": "Liga de ascenso"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-625c9f24c22c",
+    "slug": "green-bay-packers-vence-denver-broncos-por-33-a-13-em-nfl-625c9f",
+    "sportId": "futebol-americano",
+    "title": "Green Bay Packers vence Denver Broncos por 33 a 13 em NFL",
+    "summary": "Green Bay Packers superou Denver Broncos por 33 a 13 em NFL.",
+    "content": "Green Bay Packers superou Denver Broncos por 33 a 13 em NFL., em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol-americano",
+    "coverImageUrl": "/images/sports/futebol-americano.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · NFL",
+    "tags": [
+      "nfl",
+      "resultado",
+      "nfl"
+    ],
+    "seoTitle": "Green Bay Packers vence Denver Broncos por 33 a 13 em NFL",
+    "seoDescription": "Green Bay Packers superou Denver Broncos por 33 a 13 em NFL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T04:21:21.290Z",
+    "createdAt": "2026-08-22T04:21:21.290Z",
+    "updatedAt": "2026-08-22T04:21:21.290Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol-americano",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol-americano"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4714924",
+      "eventStartTime": "2026-08-22T01:00:00+00:00",
+      "retrievedAt": "2026-08-22T04:21:21.290Z",
+      "feedId": "futebol-americano",
+      "league": "NFL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
+    "id": "newsroom-data-71e5241c6a45",
+    "slug": "san-diego-wave-supera-utah-royals-por-4-a-2-pelo-nwsl-71e524",
+    "sportId": "futebol",
+    "title": "San Diego Wave supera Utah Royals por 4 a 2 pelo NWSL",
+    "summary": "San Diego Wave venceu Utah Royals por 4 a 2 pelo NWSL.",
+    "content": "San Diego Wave venceu Utah Royals por 4 a 2 pelo NWSL, em 21 de agosto de 2026.",
+    "sourceName": "LAP Dados",
+    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
+    "coverImageUrl": "/images/sports/futebol.jpg",
+    "authorName": "Redação LAP",
+    "authorRole": "Newsroom AI · Futebol",
+    "tags": [
+      "futebol",
+      "resultado",
+      "nwsl"
+    ],
+    "seoTitle": "San Diego Wave supera Utah Royals por 4 a 2 pelo NWSL",
+    "seoDescription": "San Diego Wave venceu Utah Royals por 4 a 2 pelo NWSL.",
+    "status": "published",
+    "scheduledAt": null,
+    "publishedAt": "2026-08-22T04:21:21.283Z",
+    "createdAt": "2026-08-22T04:21:21.283Z",
+    "updatedAt": "2026-08-22T04:21:21.283Z",
+    "homepagePriority": 52,
+    "breaking": false,
+    "agentId": "futebol",
+    "sourceUrls": [
+      "https://lap-live-sports.vercel.app/modalidades/futebol"
+    ],
+    "verifiedFacts": 2,
+    "dataDriven": true,
+    "provenance": {
+      "provider": "LAP live-data",
+      "eventId": "365-4653918",
+      "eventStartTime": "2026-08-22T02:00:00+00:00",
+      "retrievedAt": "2026-08-22T04:21:21.283Z",
+      "feedId": "futebol",
+      "league": "NWSL"
+    },
+    "articleFormat": "result-brief"
+  },
+  {
     "id": "newsroom-data-f0136c1cfb54",
     "slug": "san-diego-padres-vence-minnesota-twins-por-6-a-2-na-mlb-f0136c",
     "sportId": "beisebol",
@@ -12428,174 +12596,6 @@
       "retrievedAt": "2026-08-19T09:46:46.629Z",
       "feedId": "tenis",
       "league": "Prague"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-c245c95fc067",
-    "slug": "ud-ibiza-supera-arenas-de-getxo-por-4-a-1-pelo-club-friendlies-c245c9",
-    "sportId": "futebol",
-    "title": "UD Ibiza supera Arenas de Getxo por 4 a 1 pelo Club Friendlies",
-    "summary": "UD Ibiza venceu Arenas de Getxo por 4 a 1 pelo Club Friendlies.",
-    "content": "UD Ibiza venceu Arenas de Getxo por 4 a 1 pelo Club Friendlies, em 19 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "club-friendlies"
-    ],
-    "seoTitle": "UD Ibiza supera Arenas de Getxo por 4 a 1 pelo Club Friendlies",
-    "seoDescription": "UD Ibiza venceu Arenas de Getxo por 4 a 1 pelo Club Friendlies.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T09:46:46.599Z",
-    "createdAt": "2026-08-19T09:46:46.599Z",
-    "updatedAt": "2026-08-19T09:46:46.599Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4818849",
-      "eventStartTime": "2026-08-19T08:00:00+00:00",
-      "retrievedAt": "2026-08-19T09:46:46.599Z",
-      "feedId": "futebol",
-      "league": "Club Friendlies"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-bc93759d2844",
-    "slug": "edward-winter-vence-john-chin-por-2-a-0-em-kingston-bc9375",
-    "sportId": "tenis",
-    "title": "Edward Winter vence John Chin por 2 a 0 em Kingston",
-    "summary": "Edward Winter superou John Chin por 2 a 0 em Kingston.",
-    "content": "Edward Winter superou John Chin por 2 a 0 em Kingston., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "kingston"
-    ],
-    "seoTitle": "Edward Winter vence John Chin por 2 a 0 em Kingston",
-    "seoDescription": "Edward Winter superou John Chin por 2 a 0 em Kingston.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T09:01:37.871Z",
-    "createdAt": "2026-08-19T09:01:37.871Z",
-    "updatedAt": "2026-08-19T09:01:37.871Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4817133",
-      "eventStartTime": "2026-08-19T00:32:33+00:00",
-      "retrievedAt": "2026-08-19T09:01:37.871Z",
-      "feedId": "tenis",
-      "league": "Kingston"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-8b00d04a31aa",
-    "slug": "the-strongest-supera-oriente-petrolero-por-2-a-1-pela-copa-pacena-8b00d0",
-    "sportId": "futebol",
-    "title": "The Strongest supera Oriente Petrolero por 2 a 1 pela Copa Paceña",
-    "summary": "The Strongest venceu Oriente Petrolero por 2 a 1 pela Copa Paceña.",
-    "content": "The Strongest venceu Oriente Petrolero por 2 a 1 pela Copa Paceña, em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/futebol",
-    "coverImageUrl": "/images/sports/futebol.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Futebol",
-    "tags": [
-      "futebol",
-      "resultado",
-      "copa-pacena"
-    ],
-    "seoTitle": "The Strongest supera Oriente Petrolero por 2 a 1 pela Copa Paceña",
-    "seoDescription": "The Strongest venceu Oriente Petrolero por 2 a 1 pela Copa Paceña.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T09:01:37.843Z",
-    "createdAt": "2026-08-19T09:01:37.843Z",
-    "updatedAt": "2026-08-19T09:01:37.843Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "futebol",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/futebol"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4812165",
-      "eventStartTime": "2026-08-19T00:15:00+00:00",
-      "retrievedAt": "2026-08-19T09:01:37.843Z",
-      "feedId": "futebol",
-      "league": "Copa Paceña"
-    },
-    "articleFormat": "result-brief"
-  },
-  {
-    "id": "newsroom-data-9192da66e672",
-    "slug": "rio-noguchi-vence-luis-carlos-alvarez-por-2-a-1-em-cancun-9192da",
-    "sportId": "tenis",
-    "title": "Rio Noguchi vence Luis Carlos Alvarez por 2 a 1 em Cancun",
-    "summary": "Rio Noguchi superou Luis Carlos Alvarez por 2 a 1 em Cancun.",
-    "content": "Rio Noguchi superou Luis Carlos Alvarez por 2 a 1 em Cancun., em 18 de agosto de 2026.",
-    "sourceName": "LAP Dados",
-    "sourceUrl": "https://lap-live-sports.vercel.app/modalidades/tenis",
-    "coverImageUrl": "/images/sports/tenis.jpg",
-    "authorName": "Redação LAP",
-    "authorRole": "Newsroom AI · Tênis",
-    "tags": [
-      "tenis",
-      "resultado",
-      "cancun"
-    ],
-    "seoTitle": "Rio Noguchi vence Luis Carlos Alvarez por 2 a 1 em Cancun",
-    "seoDescription": "Rio Noguchi superou Luis Carlos Alvarez por 2 a 1 em Cancun.",
-    "status": "published",
-    "scheduledAt": null,
-    "publishedAt": "2026-08-19T08:22:35.327Z",
-    "createdAt": "2026-08-19T08:22:35.327Z",
-    "updatedAt": "2026-08-19T08:22:35.327Z",
-    "homepagePriority": 52,
-    "breaking": false,
-    "agentId": "tenis",
-    "sourceUrls": [
-      "https://lap-live-sports.vercel.app/modalidades/tenis"
-    ],
-    "verifiedFacts": 2,
-    "dataDriven": true,
-    "provenance": {
-      "provider": "LAP live-data",
-      "eventId": "365-4816161",
-      "eventStartTime": "2026-08-18T21:15:28+00:00",
-      "retrievedAt": "2026-08-19T08:22:35.327Z",
-      "feedId": "tenis",
-      "league": "Cancun"
     },
     "articleFormat": "result-brief"
   }
